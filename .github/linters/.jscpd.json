@@ -1,0 +1,12 @@
+{
+  "threshold": 0,
+  "reporters": [
+    "consoleFull"
+  ],
+  "ignore": [
+    "**/__snapshots__/**"
+  ],
+  "minLines": 2,
+  "max-lines": 5000,
+  "absolute": true
+}
