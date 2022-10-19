@@ -27,4 +27,5 @@ jobs:
       - name: Run Linter
         uses: github/super-linter/slim@v4
         env:
+          VALIDATE_MARKDOWN: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
