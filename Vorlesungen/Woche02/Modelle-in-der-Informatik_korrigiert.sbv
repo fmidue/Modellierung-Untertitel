@@ -1,0 +1,1069 @@
+0:00:00.000,0:00:06.240
+Nachdem wir uns zuletzt damit beschäftigt hatten,
+
+0:00:06.240,0:00:11.730
+welche Arten und Charakteristika von
+Modellen es denn so gibt, ist es sinnvoll,
+
+0:00:11.730,0:00:19.380
+sich auch etwas konkreter damit zu befassen, warum
+man denn in der Informatik Modelle verwendet.
+
+0:00:19.380,0:00:21.960
+Also, warum gibt es überhaupt
+diese Modellierungsvorlesung
+
+0:00:21.960,0:00:27.120
+im Rahmen von Informatik- oder
+informatiknahen Studiengängen?
+
+0:00:27.120,0:00:32.100
+Und zunächst mal ist die Antwort natürlich so
+wie weiter vorn auch, in einem früheren Video.
+
+0:00:32.100,0:00:32.850
+Also:
+
+0:00:32.850,0:00:38.250
+Man möchte ein System entwerfen, besser
+verstehen, visualisieren, simulieren, etc.
+
+0:00:38.250,0:00:43.590
+Und das Gleiche kann natürlich auch
+für Informatiksysteme relevant sein.
+
+0:00:43.590,0:00:48.000
+Und zwar insbesondere je komplexer
+ein Informatiksystem sein wird.
+
+0:00:48.660,0:00:51.420
+Ein System könnte natürlich ein
+Programm sein, eine Datenbank,
+
+0:00:51.420,0:00:58.260
+Virtual-Reality-Umgebungen (also auch
+durchaus gegenständliche Systeme).
+
+0:00:58.260,0:01:02.190
+Und je komplexer so ein System
+ist, desto wichtiger mag es sein,
+
+0:01:02.940,0:01:06.480
+vorher einen Plan zu haben,
+bevor man einfach konstruiert.
+
+0:01:06.480,0:01:08.190
+Also, Komplexität spielt
+hier natürlich eine Rolle.
+
+0:01:08.190,0:01:13.620
+Das Gleiche wäre bei anderen
+Systemen und Modellen relevant.
+
+0:01:13.620,0:01:17.280
+Also je nachdem, wenn es um Architektur geht,
+
+0:01:17.280,0:01:21.150
+dann hängt es schon sehr davon ab,
+was für ein Haus man zu bauen gedenkt.
+
+0:01:21.150,0:01:24.060
+Wenn man nur eine Hundehütte baut,
+muss man vielleicht nicht einen Plan
+
+0:01:24.060,0:01:27.480
+und ein 3D-Modell dafür haben,
+sondern kann einfach loslegen.
+
+0:01:27.480,0:01:34.050
+Wenn man hingegen ein Einfamilienhaus
+oder eine größere Wohnanlage oder ein
+
+0:01:34.050,0:01:39.120
+Hochhaus zu bauen gedenkt, dann ist
+das auf jeden Fall komplex genug,
+
+0:01:39.120,0:01:42.150
+um einen Plan zu rechtfertigen
+und auch zu erfordern.
+
+0:01:42.150,0:01:44.580
+Ähnlich gilt es natürlich für Informatik-Systeme.
+
+0:01:44.580,0:01:48.510
+Also ein kleines Skript, das mal geschrieben wird,
+muss sicherlich nicht vorher modelliert werden.
+
+0:01:48.510,0:01:58.170
+Ein umfassenderes Programm oder
+Programm-System sicher eher.
+
+0:01:58.170,0:02:03.380
+Ziel und Hoffnung ist dann
+natürlich, dass die Tatsache,
+
+0:02:03.380,0:02:08.840
+dass man modelliert hat, bevor man anfängt zu
+implementieren, zu diversen Vorteilen führt:
+
+0:02:08.840,0:02:10.520
+Vermeidung von Fehlern, bessere Qualität.
+
+0:02:10.520,0:02:15.650
+Niedrigere Kosten wegen Vermeiden
+von Reparaturen oder Irrwegen,
+
+0:02:15.650,0:02:24.320
+die man dann zu wiederholen hat oder Umwege
+durch Neuentwicklung zu ersetzen hat.
+
+0:02:24.320,0:02:26.510
+Bessere Dokumentation durch Modelle.
+
+0:02:26.510,0:02:29.870
+Im Idealfall auch Erhöhung
+der Wiederverwendbarkeit.
+
+0:02:29.870,0:02:34.040
+Das heißt nicht, dass immer
+modelliert wird in der Informatik.
+
+0:02:34.040,0:02:37.190
+Also es gibt einige Sondersituationen.
+
+0:02:37.190,0:02:39.470
+Sehr modern ist agile Softwareentwicklung.
+
+0:02:39.470,0:02:44.180
+Da wird zum Teil auf Modelle verzichtet, oder
+zumindest tauchen diese in anderer Form auf,
+
+0:02:44.180,0:02:49.100
+mehr als Teil der Entwicklung denn
+als separater Planungsvorgang.
+
+0:02:49.100,0:02:54.350
+Im Allgemeinen ist festzuhalten,
+dass Modellierung in der Informatik
+
+0:02:54.350,0:02:57.890
+sicherlich weniger verbreitet ist als
+in anderen Ingenieurwissenschaften.
+
+0:02:57.890,0:03:04.850
+Also in der Architektur oder im Maschinenbau
+wird auf jeden Fall modelliert vor der Umsetzung.
+
+0:03:04.850,0:03:06.830
+In der Informatik ist das nicht immer so.
+
+0:03:06.830,0:03:11.810
+Aber prinzipiell ist das Thema
+hier natürlich ebenso relevant.
+
+0:03:11.810,0:03:16.910
+Es mag auch sein, dass die Verbreitung
+in der Lehre noch etwas stärker ist als
+
+0:03:16.910,0:03:21.650
+in der Praxis, aber das muss ja nicht so bleiben.
+
+0:03:26.900,0:03:30.305
+Mehrere Besonderheiten von Software beeinflussen
+auch die Rolle von Modellen der Informatik.
+
+0:03:30.305,0:03:36.740
+Denn tatsächlich gibt es Unterschiede,
+ob man ein Informatiksystem entwirft
+
+0:03:36.740,0:03:41.090
+und baut, oder zum Beispiel in der
+Architektur einen Gebäudekomplex.
+
+0:03:41.090,0:03:46.040
+Ein wesentlicher Unterschied ist,
+dass Software immateriell ist.
+
+0:03:46.040,0:03:51.020
+Es ist gar nicht so leicht festzustellen,
+wie viel eines Modells schon umgesetzt wurde.
+
+0:03:51.020,0:03:58.730
+Das ist natürlich ganz anders in der Architektur,
+wo, wenn man ein Hochhaus baut und ein Modell hat,
+
+0:03:58.730,0:04:03.560
+man anhand dieses Modells auch bestimmen
+kann, durch Vergleich mit der Wirklichkeit:
+
+0:04:03.560,0:04:05.240
+Wie viel wurde denn schon umgesetzt?
+
+0:04:05.240,0:04:07.190
+Wie viele Etagen wurden denn schon gebaut?
+
+0:04:09.280,0:04:12.820
+Ein weiterer Punkt ist, dass Softwareprojekte
+in der Regel einzigartig sind.
+
+0:04:13.750,0:04:16.420
+Während zum Beispiel in der
+Architektur, und auch in vielen
+
+0:04:16.420,0:04:18.160
+anderen ingenieurwissenschaftlichen Bereichen,
+
+0:04:18.160,0:04:23.410
+Modelle auch die Rolle haben, als Vorlage
+zum Zweck mehrfacher Realisierung zu dienen.
+
+0:04:23.410,0:04:28.870
+Also ein Modell wird erstellt, um dann,
+wenn man von einem Motor große Stückzahlen
+
+0:04:30.520,0:04:34.360
+herzustellen gedenkt, sich jeweils
+an dem Modell orientieren zu können.
+
+0:04:34.360,0:04:37.753
+Um tatsächlich den Motor immer gleich zu bauen.
+
+0:04:37.753,0:04:40.480
+In der Softwareentwicklung ist das nicht so.
+
+0:04:40.480,0:04:44.320
+Außer vielleicht im Kontext von
+Softwareproduktlinien (was wiederum ein
+
+0:04:44.320,0:04:49.330
+Thema für die Softwaretechnik-Vorlesung) wäre, ist
+es so, dass jedes Softwareprojekt einzigartig ist.
+
+0:04:49.330,0:04:54.430
+Also das Modell ist nicht dafür
+da, mehrmals umgesetzt zu werden.
+
+0:04:54.430,0:04:59.410
+Anders als in vielen anderen Bereichen, wo etwa in
+
+0:04:59.410,0:05:03.940
+der Architektur in einem Wolkenkratzer 50
+gleichartige Wohnungen entstehen sollen.
+
+0:05:03.940,0:05:08.650
+Dann ist das Modell, der Plan, der
+3D-Plan auch dafür gut, sicherzustellen,
+
+0:05:08.650,0:05:13.030
+dass auf jeder Etage tatsächlich die
+Wohnungen gleich herauskommen am Ende.
+
+0:05:13.030,0:05:16.960
+Das ist in der Softwaretechnik
+eher nicht der Fall.
+
+0:05:16.960,0:05:20.890
+Also gibt es tatsächlich
+Unterschiede zu anderen Bereichen.
+
+0:05:20.890,0:05:25.930
+Und vielleicht ist der zweite Punkt in gewisser
+Weise auch ein Grund für Zurückhaltung,
+
+0:05:25.930,0:05:30.340
+in der Praxis der Softwareentwicklung
+immer auf Modelle zu setzen.
+
+0:05:31.930,0:05:32.710
+Dann stellt sich auch die Frage:
+
+0:05:32.710,0:05:37.750
+Wer ist es denn, der modelliert, in der
+Informatik, im Softwareentwicklungsprozess?
+
+0:05:37.750,0:05:40.630
+Da ist die klare Antwort: es ist unklar.
+
+0:05:40.630,0:05:45.040
+Es kommt drauf an, welche Art von
+Softwareentwicklungs-Prozess verfolgt wird.
+
+0:05:45.040,0:05:47.140
+Ich habe eben schon kurz
+agile Entwicklung erwähnt.
+
+0:05:47.140,0:05:49.570
+Es gibt auch klassische
+Softwareentwicklungs-Prozesse.
+
+0:05:49.570,0:05:54.640
+Das werden Sie, wenn Sie die
+Softwaretechnik-Vorlesung bei
+
+0:05:54.640,0:05:58.900
+Frau Heisel noch hören werden,
+dort sicherlich vertiefen.
+
+0:05:58.900,0:06:02.170
+Zum Beispiel im Wasserfallmodell, das
+durch Phasen gegliedert ist, wo man
+
+0:06:02.170,0:06:05.260
+sehr klar feststellen kann, wo
+denn hier Modellierung passiert.
+
+0:06:05.260,0:06:07.360
+Das wäre insbesondere hier die Designphase.
+
+0:06:07.360,0:06:11.530
+Also Modellierung ist dann wirklich ein
+Akt, der separat von der Implementierung,
+
+0:06:11.530,0:06:16.510
+von der Programmierung stattfindet, und
+rechtfertigt auch eine eigene Rolle.
+
+0:06:16.510,0:06:21.670
+Also es gibt vielleicht den Programmierer,
+den Softwareentwickler, der implementiert.
+
+0:06:21.670,0:06:25.540
+Und vorher gibt es den Entwurf der
+Software-Architektur oder eben des Designs,
+
+0:06:25.540,0:06:28.690
+und das ist eine Design-Aufgabe, die nicht
+unbedingt ein Programmierer zu erfüllen hat.
+
+0:06:28.690,0:06:32.110
+Also vielleicht wäre das auch eine Rolle
+für Komedia-Absolventen zum Beispiel.
+
+0:06:32.110,0:06:36.940
+Und Modelle tauchen jetzt explizit auf.
+
+0:06:36.940,0:06:39.700
+Also auf verschiedenen Ebenen
+werden Modelle erstellt,
+
+0:06:39.700,0:06:43.990
+und es gibt dann wirklich z.B. konkrete
+Dokumente, die man auch anschauen kann.
+
+0:06:43.990,0:06:49.780
+Das wären dann die Modelle in so einem
+Vorgehen, vielleicht auf verschiedenen Ebenen.
+
+0:06:49.780,0:06:53.530
+Das Ergebnis der Ermittlung
+der Anforderungen könnte dieses
+
+0:06:53.530,0:06:56.140
+Product-Requirements-Dokument
+sein, das ist eine Art Modell.
+
+0:06:56.140,0:07:00.850
+Und dann im Design entstehen eben auch
+Modelle, die später umgesetzt werden sollen,
+
+0:07:00.850,0:07:04.420
+und zum Beispiel in späteren Phasen zum
+Vergleich herangezogen werden können.
+
+0:07:04.420,0:07:09.250
+Verifikation könnte dann sein, die Implementierung
+gegen das Modell zu vergleichen, und formal
+
+0:07:09.250,0:07:15.160
+sicherzustellen, durch Testen oder durch
+Beweise, dass da eine Übereinstimmung vorliegt.
+
+0:07:15.160,0:07:19.630
+Das wird kein Thema der
+Vorlesung sein im Speziellen.
+
+0:07:19.630,0:07:24.010
+Also wir werden uns vor allem mit der
+Formulierung der Modelle und Aussagen
+
+0:07:24.010,0:07:27.640
+befassen, nicht mit der Verifikation/Überprüfung.
+
+0:07:30.820,0:07:34.900
+Das war eben ein konkretes
+Modell, ein konkreter Prozess.
+
+0:07:34.900,0:07:40.150
+Es gibt diverse andere Möglichkeiten,
+Softwareentwicklung zu betreiben.
+
+0:07:40.720,0:07:48.880
+Ein anderes Verfahren ist iterativer, wo
+also die Phasen nicht ein Mal wasserfallartig
+
+0:07:48.880,0:07:51.910
+durchgeführt werden, sondern immer wieder
+für verschiedene Prototypen, für verschiedene
+
+0:07:51.910,0:07:59.260
+Implementationen des zu erstellenden
+Systems, mehrere Phasen durchlaufen werden.
+
+0:07:59.260,0:08:04.450
+Und in jeder dieser Spiralen in dieser
+Durchführung könnte auch Modellierung stattfinden.
+
+0:08:04.450,0:08:08.410
+Weil jeweils neue Aspekte
+ins Spiel gebracht werden,
+
+0:08:08.410,0:08:12.670
+zum Beispiel die Modelle verfeinert
+werden, um genauere Anforderungen
+
+0:08:12.670,0:08:18.100
+oder zusätzliche Anforderungen für den
+nächsten Implementationszyklus festzulegen.
+
+0:08:19.210,0:08:20.740
+Was Sie hier sehen, sind
+natürlich auch nur Modelle.
+
+0:08:20.740,0:08:23.890
+Also niemand vielleicht wird exakt so vorgehen.
+
+0:08:23.890,0:08:28.900
+Was wir sehen und gesehen haben, sind letztlich
+auch Modelle, sogenannte Vorgehensmodelle,
+
+0:08:28.900,0:08:33.160
+die eben davon abstrahieren, wie eine
+konkrete Softwareentwicklung passieren könnte.
+
+0:08:33.160,0:08:43.870
+Und das erfasst nicht jedes Detail jedes
+möglichen Softwareentwicklungsvorgehens
+
+0:08:43.870,0:08:48.220
+oder jedes konkreten Projektes, was
+vielleicht in einem Team durchgeführt wird.
+
+0:08:48.220,0:08:53.620
+Aber es liefert ein Modell dafür,
+eine vereinfachende Darstellung,
+
+0:08:53.620,0:08:54.940
+an der sich orientiert werden kann.
+
+0:08:54.940,0:08:58.840
+Wir werden solche Modelle nicht weiter betrachten,
+
+0:08:58.840,0:09:04.000
+denn Vorgehensmodelle sind auch Teil der
+Softwaretechnik-Vorlesung bei Frau Heisel.
+
+0:09:04.000,0:09:09.100
+Schon erwähnt hatte ich Sonderfälle.
+
+0:09:09.100,0:09:15.520
+Also in agiler Softwareentwicklung wird anders,
+man könnte auch sagen weniger, modelliert.
+
+0:09:15.520,0:09:20.080
+Genaugenommen tauchen auch dort Modelle
+auf, aber eher in späteren Phasen.
+
+0:09:20.080,0:09:21.250
+Die Modelle sind eher kurzlebig.
+
+0:09:21.250,0:09:25.570
+Sie werden zum Beispiel für testgetriebene
+(statt plangetriebene) Entwicklung genutzt.
+
+0:09:27.130,0:09:33.430
+Weitere Sonderfälle wären in der
+Open-Source Softwareentwicklung,
+
+0:09:33.430,0:09:39.100
+wo oft sehr viele verschiedene
+Teilhaberinnen an einem Projekt arbeiten.
+
+0:09:39.100,0:09:42.640
+Wo gar nicht irgendwie zentralisiert
+modelliert werden könnte,
+
+0:09:42.640,0:09:47.140
+sondern ganz andere Effekte ins Spiel kommen.
+
+0:09:47.140,0:09:51.692
+Andererseits gibt es auch Entwicklungsmethoden,
+die sehr stark modellgetrieben sind.
+
+0:09:51.692,0:09:54.760
+Es gibt sogar den Begriff der
+modellgetriebenen Entwicklung,
+
+0:09:54.760,0:10:01.060
+wo tatsächlich Programmcode/Software
+aus den Modellen generiert werden soll.
+
+0:10:01.060,0:10:04.360
+Also gibt es verschiedene Spielarten,
+verschiedene Ausprägungen.
+
+0:10:04.360,0:10:08.830
+Wie gesagt, das wäre ein Thema
+für die Softwaretechnik-Vorlesung.
+
+0:10:08.830,0:10:09.730
+Für uns ist relevant:
+
+0:10:09.730,0:10:13.300
+Es gibt den Bedarf für Modelle in verschiedenen
+Phasen in der Softwareentwicklung.
+
+0:10:13.300,0:10:20.230
+Und deswegen wird diese Vorlesung sich eben
+auf diese Arten von Modellen konzentrieren.
+
+0:10:22.960,0:10:28.420
+Weitere wichtige Gesichtspunkte, wenn man denn
+mit Modellen arbeitet, sind natürlich Fragen wie:
+
+0:10:28.420,0:10:30.130
+Ist das Modell überhaupt korrekt?
+
+0:10:30.130,0:10:31.540
+Ist es in sich konsistent?
+
+0:10:31.540,0:10:36.040
+Modell-Korrektheit ist natürlich schwierig zu
+beantworten, wenn man das Modell überhaupt erst
+
+0:10:36.040,0:10:41.680
+mal aufstellt, um sich gewahr zu werden, wie
+das System aussehen soll, das entwickelt wird.
+
+0:10:41.680,0:10:46.390
+Dann hat man nicht wirklich eine Handhabe,
+wie man das auf Korrektheit prüfen kann.
+
+0:10:46.390,0:10:48.940
+Aber zum Beispiel könnte innere
+Konsistenz geprüft werden.
+
+0:10:48.940,0:10:50.800
+Das soll auch auftauchen in unserem Beispiel.
+
+0:10:50.800,0:10:59.950
+Also Korrektheit objektiv hieße ja, irgendwie
+zu überprüfen, ob das System den Zweck erfüllt.
+
+0:10:59.950,0:11:03.250
+Und das muss von dem Zweck abhängen,
+und ist gar nicht unbedingt klar,
+
+0:11:03.250,0:11:06.010
+wenn das System erst noch entworfen wird.
+
+0:11:06.010,0:11:09.100
+Innere Korrektheit hingegen ist
+durchaus testbar oder überprüfbar.
+
+0:11:10.600,0:11:12.670
+Wir werden etwa bei der Modellart der Petrinetze
+
+0:11:12.670,0:11:14.920
+bestimmte Eigenschaften haben,
+die ein Petrinetz haben kann.
+
+0:11:14.920,0:11:17.890
+Das entspricht dann einer bestimmten
+Abwesenheit von Widersprüchen.
+
+0:11:17.890,0:11:21.310
+Auch Lebendigkeit ist so ein
+Begriff, der immer sinnvoll ist.
+
+0:11:22.330,0:11:25.900
+Man kann ein Problem eben auch
+formulieren für die Modellklasse an sich.
+
+0:11:25.900,0:11:27.250
+Man kann etwa für Petrinetze allgemeine
+
+0:11:27.250,0:11:29.260
+Eigenschaften feststellen,
+die man überprüfen kann.
+
+0:11:29.260,0:11:35.200
+Und wenn man jetzt ein konkretes
+Modell hat oder aufstellt,
+
+0:11:35.200,0:11:37.210
+dann kann man überprüfen, ob
+es eine solche Eigenschaft hat.
+
+0:11:37.210,0:11:42.499
+Und das ist dann unabhängig von dem konkreten
+Einsatzzweck des Systems, um das es sich handelt.
+
+0:11:42.499,0:11:45.400
+Deswegen können wir da bestimmte Analysen
+
+0:11:46.060,0:11:49.900
+auf Modellen durchführen, die für eine
+ganze Klasse von Modellen sinnvoll sind.
+
+0:11:49.900,0:11:51.700
+Das wird nicht im Vordergrund
+stehen, nicht den Hauptteil
+
+0:11:51.700,0:11:56.230
+der Vorlesung ausmachen, aber wird aufscheinen.
+
+0:11:56.230,0:11:58.960
+Und natürlich in anderem Kontext,
+
+0:11:58.960,0:12:04.750
+also wenn man wirklich das System am Ende
+auch baut, dann kann man natürlich fragen:
+
+0:12:04.750,0:12:08.980
+Stimmt denn das Modell mit der
+späteren Implementierung überein?
+
+0:12:08.980,0:12:10.705
+Auch das wird für uns hier nicht so relevant sein.
+
+0:12:10.705,0:12:13.090
+Da müsste man eben testen
+oder Verifikation betreiben.
+
+0:12:13.090,0:12:16.900
+Das steht für uns nicht im Vordergrund.
+
+0:12:16.900,0:12:22.600
+Für manche von diesen Fragestellungen werden
+Werkzeuge oder Software-Tools eingesetzt.
+
+0:12:23.230,0:12:25.330
+Sei es zum Zeichnen, zum Darstellen von Modellen,
+
+0:12:25.330,0:12:28.270
+oder zum Wechseln zwischen verschiedenen
+Darstellungen eines Modells.
+
+0:12:28.270,0:12:32.200
+Zum Archivieren, zur Codegenerierung,
+Dokumentation, und natürlich zur Analyse.
+
+0:12:32.200,0:12:38.140
+Auch das wird nicht großen Raum
+in der Vorlesung einnehmen.
+
+0:12:38.140,0:12:41.380
+Ein paar Tools für die Verwendung in
+der Lehrveranstaltung, insbesondere
+
+0:12:41.380,0:12:46.960
+für den Bereich der Darstellung und zum Teil
+auch der Simulation von einzelnen Modellen
+
+0:12:46.960,0:12:52.330
+(insbesondere bei Petrinetzen), finden
+Sie schon als Vorschläge im Moodle-Kurs.
+
+0:12:52.330,0:12:56.560
+In der Vorlesung selber wird das höchstens
+mal auftreten, wenn ich mit Petrinetzen
+
+0:12:56.560,0:13:03.040
+arbeiten möchte, und dann vielleicht auch in
+Videoform mal eine Simulation durchführen werde.
+
+0:13:08.380,0:13:14.050
+Daraus ergibt sich jetzt auch etwas klarer, was
+den Inhalt der Lehrveranstaltung ausmachen wird.
+
+0:13:14.050,0:13:15.040
+Also hier ist eine kurze Übersicht.
+
+0:13:15.040,0:13:16.390
+Es ist nicht exakt in dieser Reihenfolge.
+
+0:13:16.390,0:13:19.480
+Es sind also keine Kapitel,
+nach denen ich vorgehen werde.
+
+0:13:19.480,0:13:23.290
+Allerdings sind hier die
+wesentlichen Dinge genannt.
+
+0:13:23.290,0:13:26.800
+Also wir werden natürlich einige mathematische
+Grundlagen brauchen und teils auch noch
+
+0:13:26.800,0:13:33.610
+entwickeln, oder ich Ihnen mitgeben, ohne
+dass es jetzt direkt ein erstes Kapitel ist.
+
+0:13:33.610,0:13:37.750
+Eine wichtige Beschreibungsart, die natürlich
+mathematische Basis hat, sind Graphen.
+
+0:13:41.140,0:13:42.400
+Wir haben visuelle Darstellungsmodelle,
+
+0:13:43.180,0:13:46.480
+und in der Regel werden das
+verschiedene Arten von Graphen sein.
+
+0:13:46.480,0:13:50.590
+Das kann sowohl für statische als auch für
+dynamische Systembeschreibungen relevant sein.
+
+0:13:50.590,0:13:55.450
+Also ein Graph, der die Beziehungen zwischen
+Teilkomponenten eines Systems beschreiben soll,
+
+0:13:55.450,0:13:57.130
+wäre dann für statische Modellierung relevant.
+
+0:13:57.130,0:14:02.200
+Oder für dynamische Modellierung, dass
+ein Graph zum Beispiel Abläufe darstellt,
+
+0:14:02.200,0:14:06.190
+Prozesse in ihrer Reihenfolge repräsentiert.
+
+0:14:06.190,0:14:10.300
+Graphen sind natürlich ein allgemeines Konzept.
+
+0:14:10.300,0:14:12.220
+Und dann gibt es darüber hinaus Petrinetze.
+
+0:14:12.220,0:14:13.030
+Das sind auch Graphen.
+
+0:14:13.030,0:14:18.190
+Ich hatte Petrinetze kurz für
+dynamische Modellierung erwähnt.
+
+0:14:18.190,0:14:20.530
+Das wird also ein Kapitel in der Vorlesung sein.
+
+0:14:22.180,0:14:28.255
+Da haben Sie eventuell schon
+einen Einblick aus dem Vorkurs.
+
+0:14:28.255,0:14:31.180
+Ich weiß, dass da manchmal Petrinetze
+als Beispiel behandelt werden.
+
+0:14:31.180,0:14:33.580
+In der Schulinformatik wahrscheinlich eher nicht.
+
+0:14:34.420,0:14:36.520
+Für uns werden Petrinetze
+auch deshalb interessant sein,
+
+0:14:36.520,0:14:40.870
+weil sie sich einerseits gut eignen,
+bestimmte Konzepte verteilter Systeme
+
+0:14:40.870,0:14:47.620
+wie Nebenläufigkeit, Konflikte,
+Lebendigkeit etc. zu vermitteln.
+
+0:14:47.620,0:14:51.310
+Andererseits sind Petrinetze auch ein
+recht formales Modellierungsmittel.
+
+0:14:51.310,0:14:56.035
+Das heißt, Sie sollen auch mal sehen,
+wie man formal mit Modellen umgeht.
+
+0:14:56.035,0:14:57.790
+Da eignen sich Petrinetze sehr gut.
+
+0:14:57.790,0:15:04.630
+Ebenso gibt es eine Brücke von Petrinetzen
+zu UML, zu einer Teilmenge von UML.
+
+0:15:04.630,0:15:05.800
+Und da werden Sie auch mal sehen,
+
+0:15:05.800,0:15:10.810
+wie man Verbindungen zwischen verschiedenen
+Modellierungsmechanismen aufstellen kann.
+
+0:15:10.810,0:15:16.120
+Wie man zum Beispiel aus einer bestimmten
+Klasse von UML-Diagrammen systematisch
+
+0:15:16.120,0:15:20.110
+Petrinetze erzeugen kann, um diese dann
+zum Beispiel formal zu analysieren.
+
+0:15:20.110,0:15:25.480
+UML selbst ist vielleicht aus der
+Schule bekannt, eventuell auch aus
+
+0:15:25.480,0:15:27.130
+dem Informatik-Vorkurs, zumindest in Auszügen.
+
+0:15:27.130,0:15:28.930
+Also zumindest Klassendiagramme.
+
+0:15:28.930,0:15:31.810
+Wenn Sie objektorientierte Programmierung in der
+Schule im Informatikunterricht behandelt haben,
+
+0:15:32.650,0:15:37.720
+dann haben Sie wahrscheinlich mit UML
+zumindest indirekt schon gearbeitet.
+
+0:15:37.720,0:15:44.020
+Sowohl Petrinetze als auch UML werden Ihnen
+eventuell auch im Studium weiter begegnen.
+
+0:15:44.020,0:15:47.080
+Das hängt natürlich auch konkret
+von Ihrem Studiengang ab.
+
+0:15:47.080,0:15:53.410
+Petrinetze sind im Kontext verteilter Systeme
+relevant und tauchen sicher noch einmal auf.
+
+0:15:53.410,0:15:59.320
+UML war früher auch prominenter Teil der
+Vorlesung Grundlegende Programmiertechniken,
+
+0:15:59.320,0:16:01.390
+weil da mit Java gearbeitet wurde.
+
+0:16:01.390,0:16:06.040
+Jetzt, nach dem Umstieg auf Python,
+wahrscheinlich allenfalls am Rande,
+
+0:16:06.040,0:16:08.710
+wenn am Ende noch etwas Java
+gemacht wird in dem Kurs.
+
+0:16:08.710,0:16:11.290
+Andererseits wird UML sicher sehr
+prominent auch in den Vorlesungen
+
+0:16:11.290,0:16:18.670
+Fortgeschrittene Programmiertechniken
+und Softwaretechnik auftreten.
+
+0:16:18.670,0:16:22.000
+Natürlich ist es so, dass wir
+uns in der Lehrveranstaltung
+
+0:16:22.000,0:16:27.400
+(zur Übersichtlichkeit/Didaktik der Vermittlung)
+vor allem mit kleinen Modellen befassen werden.
+
+0:16:28.810,0:16:30.040
+Gesagt hatte ich auch schon:
+
+0:16:30.040,0:16:34.750
+Die Verwendung von Modellen zur Verifikation
+von Eigenschaften wird nicht im Zentrum stehen,
+
+0:16:34.750,0:16:37.900
+allerdings bei Petrinetzen
+zumindest mal aufscheinen.
+
+0:16:41.050,0:16:44.290
+Wir werden natürlich statische und
+dynamische Modellierung machen,
+
+0:16:44.290,0:16:45.760
+vor allen Dingen im Kontext von UML.
+
+0:16:45.760,0:16:49.090
+Dort beides nicht besonders formal.
+
+0:16:49.090,0:16:50.695
+Bei Petrinetzen schon formaler.
+
+0:16:50.695,0:16:52.450
+UML, das hatte ich bereits
+im letzten Video gesagt,
+
+0:16:52.450,0:16:57.580
+ist eher eine semi-formale Modellierungsweise.
+
+0:16:57.580,0:17:07.360
+Natürlich ist auch das, mit diesem Umfang,
+keinesfalls irgendwie umfassend alles,
+
+0:17:07.360,0:17:09.370
+was man in der Informatik an Modellen machen kann.
+
+0:17:09.370,0:17:12.490
+Die Lehrveranstaltung ist nur ein Auszug.
+
+0:17:12.490,0:17:16.150
+Die hier vorgestellten Modellierungsmethoden
+sind nicht die einzigen, die es gibt.
+
+0:17:16.150,0:17:21.100
+Der Fokus ist hier auf visueller
+Modellierung mit Hilfe von Diagrammen.
+
+0:17:21.100,0:17:25.000
+Ich hatte schon erwähnt, dass es natürlich auch
+mathematische Modellierung gibt, algebraische
+
+0:17:25.000,0:17:30.850
+Modellierungsmethoden, die sich stärker an
+der mathematischen Formelsprache orientieren.
+
+0:17:30.850,0:17:31.660
+Das werden wir weniger tun.
+
+0:17:31.660,0:17:35.050
+Ein bisschen bei der Beschreibung von Operationen,
+
+0:17:35.050,0:17:41.110
+aber keinesfalls in dem Ausmaß, wie man das
+auch betreiben könnte in so einer Vorlesung.
+
+0:17:45.040,0:17:48.370
+Zum Abschluss dieses Videos
+noch eine kurze Wortwolke.
+
+0:17:48.370,0:17:53.080
+So ein bisschen gibt die auch einen guten
+Überblick über den Inhalt der Lehrveranstaltung.
+
+0:17:53.080,0:17:59.710
+Das sind einfach etliche Begriffe, die
+in den Folien eines vorigen Jahres in
+
+0:17:59.710,0:18:03.235
+ihrer Häufigkeit aufgesammelt und
+dann hier visualisiert wurden.
+
+0:18:03.235,0:18:05.590
+Also hier sehen Sie ein paar
+sehr prominente Begriffe.
+
+0:18:05.590,0:18:06.880
+Natürlich:
+
+0:18:06.880,0:18:09.040
+"Modell", "Modellierung", "Diagramm"
+würden hier auch noch auftauchen.
+
+0:18:09.040,0:18:10.270
+Die habe ich aber herausgenommen.
+
+0:18:10.270,0:18:11.350
+Die wären zu dominant gewesen,
+
+0:18:11.350,0:18:17.590
+weil das schon allein wegen dieses Begriffs
+hier unten fast auf jeder Folie auftaucht.
+
+0:18:17.590,0:18:19.210
+Die hatte ich daher entfernt.
+
+0:18:19.900,0:18:25.570
+Ansonsten, wenn Sie dann in diese
+Begriffe mal eintauchen, sehen Sie,
+
+0:18:25.570,0:18:27.100
+dass bestimmte Sachen da sehr prominent sind.
+
+0:18:27.100,0:18:32.650
+Natürlich die Beschreibungsweisen
+"Petrinetz" und "UML" tauchen prominent auf.
+
+0:18:32.650,0:18:35.140
+Sie sehen, dass wir offenbar sehr
+viel mit Beispielen arbeiten werden.
+
+0:18:35.140,0:18:38.560
+Deswegen taucht hier auch sehr oft
+das Wort "Beispiel" in den Folien auf.
+
+0:18:38.560,0:18:42.850
+Dann gibt es konkretere Begriffe wie
+"Objekt", weil wir zum Teil objektorientierte
+
+0:18:42.850,0:18:45.520
+Modellierung betreiben werden.
+
+0:18:45.520,0:18:46.169
+"Zustand":
+
+0:18:46.169,0:18:50.060
+Da geht es offenbar um statische
+Modellierung, die Beschreibung
+
+0:18:50.060,0:18:54.260
+eines Zustands, oder dynamische Modellierung,
+die Entwicklung des Zustands eines Systems.
+
+0:18:54.260,0:18:55.040
+"Transition":
+
+0:18:55.040,0:18:58.070
+Ein Begriff aus der dynamischen Modellierung.
+
+0:18:58.070,0:18:59.450
+"Übergang":
+
+0:18:59.450,0:19:01.940
+als Synonym dafür.
+
+0:19:01.940,0:19:07.040
+In Graphen tauchen "Knoten"
+auf, als Teile eines Graphen.
+
+0:19:07.040,0:19:10.130
+Und dann spezifischere Begriffe wie "Region".
+
+0:19:10.130,0:19:14.990
+Das ist ein Konzept, das in
+bestimmten UML-Diagrammtypen vorkommt.
+
+0:19:14.990,0:19:18.020
+Aktivitätsdiagramme werden wir behandeln.
+
+0:19:18.020,0:19:22.940
+Also man kann hier ein bisschen
+einen ersten Eindruck kriegen,
+
+0:19:22.940,0:19:24.215
+womit wir uns beschäftigen werden.
+
+0:19:24.215,0:19:26.480
+Es tauchen auch Begriffe auf, die
+gar nicht mehr so relevant sind:
+
+0:19:26.480,0:19:29.900
+Substitution werde ich wahrscheinlich
+nicht explizit betrachten.
+
+0:19:29.900,0:19:33.080
+Das war auch im Kontext
+objektorientierter Modellierung.
+
+0:19:33.080,0:19:38.600
+Das Substitutionsprinzip, das stelle
+ich nicht mehr in den Vordergrund.
+
+0:19:38.600,0:19:46.340
+Also all zu viel kann man wiederum
+auch nicht aus der Wortwolke ableiten.
+
+0:19:46.340,0:19:54.500
+Aber ein bisschen ein Eindruck von dem,
+was Sie erwartet, entsteht hier bereits.

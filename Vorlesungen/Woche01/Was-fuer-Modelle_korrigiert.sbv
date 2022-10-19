@@ -1,0 +1,1529 @@
+0:00:01.130,0:00:06.820
+Gut, beginnen wir mit einer kleinen Einführung
+in die Modellierung bzw. in diese Lehrveranstaltung
+
+0:00:06.820,0:00:07.820
+inhaltlich.
+
+0:00:07.820,0:00:10.880
+Also offenbar geht es um Modelle.
+
+0:00:10.880,0:00:15.461
+Und da sollten wir uns zunächst erst einmal
+nähern der Frage, um was für Arten von Modellen
+
+0:00:15.461,0:00:16.550
+es denn gehen wird.
+
+0:00:16.550,0:00:17.550
+Was sind Modelle?
+
+0:00:17.550,0:00:22.789
+Sie haben sicherlich umgangssprachlich irgendwie
+eine Vorstellung von Modell, also Modellbau-Autos
+
+0:00:22.789,0:00:25.039
+oder ein 3D-Modell in der Architektur.
+
+0:00:25.039,0:00:27.210
+Ja, das sind alles Modelle, umgangssprachlich.
+
+0:00:27.210,0:00:29.019
+Und die Frage ist natürlich:
+
+0:00:29.019,0:00:30.650
+Geht es uns auch um solche Modelle?
+
+0:00:30.650,0:00:33.970
+Und was soll hier modelliert werden?
+
+0:00:33.970,0:00:34.970
+Warum?
+
+0:00:34.970,0:00:37.020
+Und ein bisschen auch schon:
+
+0:00:37.020,0:00:42.590
+Welche verschiedenen Arten und Charakteristika
+von Modellen gibt es, die für uns hier in
+
+0:00:42.590,0:00:44.940
+der Lehrveranstaltung relevant sein werden?
+
+0:00:44.940,0:00:48.520
+Statt einfach nur der umgangssprachliche Begriff
+von Modell.
+
+0:00:48.520,0:00:52.980
+Also zunächst können wir natürlich versuchen,
+einfach mal zu definieren.
+
+0:00:52.980,0:00:57.260
+Was ist Modellierung bzw. was ist für uns
+ein Modell?
+
+0:00:57.260,0:01:01.450
+Und das zu definieren, ist gar nicht so einfach,
+weil es einfach alles Mögliche bedeuten kann.
+
+0:01:01.450,0:01:07.100
+Wie man an den gerade genannten umgangssprachlichen
+Beispielen schon sehen kann.
+
+0:01:07.100,0:01:09.390
+Also für uns könnte man das so fassen:
+
+0:01:09.390,0:01:13.649
+Ein Modell ist eine Repräsentation, also
+nicht das Echte, sondern nur eine Repräsentation
+
+0:01:13.649,0:01:14.649
+von etwas.
+
+0:01:14.649,0:01:19.189
+Und zwar eines, recht allgemein gesprochen,
+Systems von Objekten, Beziehungen und/oder
+
+0:01:19.189,0:01:20.189
+Abläufen.
+
+0:01:20.189,0:01:23.299
+All diese Begriffe, "Objekt", "Beziehung",
+"Abläufe", könnten sich natürlich in der
+
+0:01:23.299,0:01:26.530
+Informatik auf Softwareprodukte zum Beispiel
+beziehen.
+
+0:01:26.530,0:01:33.979
+Aber natürlich kann man auch andere realweltliche
+Zusammenhänge auf die Weise erfassen.
+
+0:01:33.979,0:01:36.860
+Also geht es darum, etwas zu repräsentieren,
+ein System zu repräsentieren.
+
+0:01:36.860,0:01:41.539
+Und dann steht hier noch: ein Modell vereinfacht
+und abstrahiert.
+
+0:01:41.539,0:01:44.539
+Also in der Regel, natürlich, macht man ein
+Modell nicht.
+
+0:01:44.539,0:01:48.719
+Ein Modell ist eben nicht das Echte, also
+das Modellbau-Auto ist nicht das echte Auto,
+
+0:01:48.719,0:01:50.530
+sondern eine Vereinfachung/Abstraktion davon.
+
+0:01:50.530,0:01:56.770
+Also irgendwie wird dieses System, um das
+es geht, vereinfacht und abstrahiert.
+
+0:01:56.770,0:02:00.270
+Zum Beispiel, indem nur relevante Eigenschaften
+betrachtet werden.
+
+0:02:00.270,0:02:04.240
+Wobei die Frage, was denn relevant ist, natürlich
+davon abhängt, was denn der Zweck des Modells
+
+0:02:04.240,0:02:05.240
+ist.
+
+0:02:05.240,0:02:06.240
+Was will ich damit machen?
+
+0:02:06.240,0:02:10.720
+Habe ich das Modellbau-Auto nur, um mir das
+Auto anschauen zu können, zu Hause im Wohnzimmer,
+
+0:02:10.720,0:02:13.820
+wenn ich nicht meinem Auto in der Garage hinterherschmachten
+kann?
+
+0:02:13.820,0:02:17.580
+Oder will ich mit dem Modell irgendetwas anstellen?
+
+0:02:17.580,0:02:22.780
+Zum Beispiel als Ingenieur Eigenschaften des
+Systems untersuchen, indem ich zunächst das
+
+0:02:22.780,0:02:24.450
+Modell vielleicht genauer untersuche.
+
+0:02:24.450,0:02:28.860
+Also da sind ganz andere Eigenschaften möglicherweise
+relevant und deswegen zu vereinfachen.
+
+0:02:28.860,0:02:36.210
+Und Systeme können dabei auch wieder erst
+mal alles Mögliche sein.
+
+0:02:36.210,0:02:39.070
+Wenn ich hier oben sagen will, wir repräsentieren
+ein System, dann muss ich mich ja auch fragen,
+
+0:02:39.070,0:02:40.500
+oder das könnten Sie mich fragen:
+
+0:02:40.500,0:02:41.820
+Wie definieren Sie denn "System"?
+
+0:02:41.820,0:02:44.670
+Auch wieder sehr allgemein verwendet zunächst.
+
+0:02:44.670,0:02:49.790
+Natürlich kann man dabei schon an ein Informatiksystem
+denken, an eine Software, an einen Hardwareprototypen
+
+0:02:49.790,0:02:50.990
+zum Beispiel.
+
+0:02:50.990,0:02:55.390
+Aber ganz allgemein können wir sagen (und
+viele Beispiele in der Vorlesung werden auch
+
+0:02:55.390,0:02:59.790
+nicht nur aus dem Informatikkontext sein),
+ganz allgemein könnte ein System entweder
+
+0:02:59.790,0:03:06.320
+einen Teil der Realität wiedergeben bzw.
+ein Ausschnitt der Realität sein, oder ein
+
+0:03:06.320,0:03:07.450
+noch nicht bestehendes Gebilde.
+
+0:03:07.450,0:03:10.680
+Also etwas, was da ist, was man beschreiben
+möchte, gern durch ein Modell.
+
+0:03:10.680,0:03:18.130
+Oder etwas, das man bauen/erstellen möchte
+und deswegen im Voraus ein Modell anschauen
+
+0:03:18.130,0:03:22.000
+möchte, oder erzeugen, betrachten, damit
+arbeiten.
+
+0:03:22.000,0:03:25.870
+Also das ist sozusagen eine Alternative.
+
+0:03:25.870,0:03:30.730
+Ist das System schon existent oder erst noch
+zu entstehen?
+
+0:03:30.730,0:03:34.260
+Und eine andere Unterscheidung, die auch relevant
+ist:
+
+0:03:34.260,0:03:36.910
+Das System könnte etwas Gegenständliches
+sein.
+
+0:03:36.910,0:03:43.040
+Im Fall des Modellautos ist das gegenständlich,
+sowohl das Modellauto selbst als auch das
+
+0:03:43.040,0:03:45.540
+echte Auto, von dem das ein Modell ist.
+
+0:03:45.540,0:03:47.020
+Beides wären gegenständliche Dinge.
+
+0:03:47.020,0:03:48.240
+Oder virtuell.
+
+0:03:48.240,0:03:56.670
+Also wenn ich nochmal das 3D-Modell eines
+zu bauenden Wolkenkratzers mir anschaue, dann
+
+0:03:56.670,0:04:02.990
+wäre der Wolkenkratzer als System natürlich
+ein gegenständliches System von Objekten,
+
+0:04:02.990,0:04:08.400
+bestehend aus all seinen Etagen, den Trägern,
+den ganzen Baumaterialien zum Beispiel, und
+
+0:04:08.400,0:04:11.840
+den daraus gebildeten Teilen des Wolkenkratzers.
+
+0:04:11.840,0:04:15.540
+Das 3D-Modell, das vorher am Computer entsteht,
+ist natürlich etwas nur Virtuelles.
+
+0:04:15.540,0:04:18.500
+Aber auch ein System selbst könnte virtuell
+sein.
+
+0:04:18.500,0:04:22.040
+Wenn wir von einem Softwaresystem reden, dann
+ist es selbst nicht gegenständlich.
+
+0:04:22.040,0:04:27.450
+Also sowohl Modelle als auch Systeme können
+gegenständlich oder virtuell sein.
+
+0:04:27.450,0:04:31.280
+Und auch ein Informatiksystem kann natürlich
+gegenständlich sein.
+
+0:04:31.280,0:04:35.150
+Also eine Augmented-Reality-Anlage, die man
+vielleicht bauen möchte.
+
+0:04:35.150,0:04:36.150
+Das wäre das System.
+
+0:04:36.150,0:04:40.460
+Und vorher macht man einen Plan davon, ein
+Modell.
+
+0:04:40.460,0:04:47.150
+Das als ganz allgemeine erste Fassung dieser
+Begriffe.
+
+0:04:47.150,0:04:50.020
+Gut, was ist dann Modellierung?
+
+0:04:50.020,0:04:51.030
+Das ist ja eigentlich die Frage hier oben.
+
+0:04:51.030,0:04:54.530
+Also Modellierung ist sehr wahrscheinlich
+der Prozess, der ein Modell entstehen lässt.
+
+0:04:54.530,0:04:57.650
+Und tatsächlich nehmen wir den Ansatzpunkt:
+
+0:04:57.650,0:05:01.590
+Wir haben ein System oder wollen ein System
+erstellen.
+
+0:05:01.590,0:05:06.410
+Um das besser erfassen, begreifen, analysieren
+zu können, wollen wir zunächst ein Modell
+
+0:05:06.410,0:05:07.410
+haben.
+
+0:05:07.410,0:05:10.440
+Modellierung wäre dann dieser Prozess, der
+für das System ein Modell erstellt.
+
+0:05:10.440,0:05:14.030
+Und dafür muss natürlich vereinfacht/abstrahiert
+werden.
+
+0:05:14.030,0:05:20.360
+Da das Modell vereinfachend und abstrahierend
+das System repräsentiert, muss man da bestimmte
+
+0:05:20.360,0:05:22.200
+Schritte der Vereinfachung machen.
+
+0:05:22.200,0:05:27.710
+Und das können ganz verschiedene Modellbildungsprozesse
+sein, die wir in verschiedener Ausprägung
+
+0:05:27.710,0:05:29.660
+in der Vorlesung sehen werden.
+
+0:05:29.660,0:05:34.830
+Also dazu gehört zum Beispiel, abzugrenzen,
+was von der Realität man tatsächlich in
+
+0:05:34.830,0:05:36.020
+dem Modell erfassen möchte.
+
+0:05:36.020,0:05:40.270
+Also man muss das System erst mal herausschneiden
+aus der Gesamtrealität, um sagen zu können,
+
+0:05:40.270,0:05:41.740
+was denn hier modelliert werden soll.
+
+0:05:41.740,0:05:46.100
+Also Abgrenzen des Modells, sogar des Systems,
+vom Rest.
+
+0:05:46.100,0:05:48.210
+Reduktion, einfach Details weglassen.
+
+0:05:48.210,0:05:52.070
+Also man muss vielleicht nicht das gesamte
+System in seiner vollen Pracht repräsentieren.
+
+0:05:52.070,0:05:57.300
+Das Modell wird in der Regel vereinfacht,
+so wie das Modellauto nicht alle Details,
+
+0:05:57.300,0:06:00.310
+vielleicht nicht mal den Motor enthält, der
+in dem echten Auto enthalten ist.
+
+0:06:00.310,0:06:03.780
+Denn wenn man das Modellauto nur nutzt, um
+es sich anzuschauen, dann braucht es nicht
+
+0:06:03.780,0:06:04.780
+den Motor haben.
+
+0:06:04.780,0:06:11.310
+Also man kann Dinge reduzieren, man kann dekomponieren,
+man kann sich das System in seine Einzelteile
+
+0:06:11.310,0:06:16.750
+zerlegt vorstellen oder erfassen, wie es eigentlich
+aus Subsystemen besteht.
+
+0:06:16.750,0:06:23.949
+Und das kann dazu führen, dass man ein Modell
+darüber besser bilden kann, dass man eben
+
+0:06:23.949,0:06:29.270
+diese Dekomposition des Systems in seine Teile
+gedanklich durchführt und dann die Teile
+
+0:06:29.270,0:06:30.270
+modelliert.
+
+0:06:30.270,0:06:34.419
+Dann ist das Gesamtmodell einfach nur noch
+die Summe dieser Teilmodelle.
+
+0:06:34.419,0:06:38.970
+Oder Dinge zusammenfassen, abstrahieren von
+Details.
+
+0:06:38.970,0:06:44.199
+Also verschiedene Prozesse, gedankliche Prozesse,
+teils auch technische Prozesse, spielen da
+
+0:06:44.199,0:06:45.199
+eine Rolle.
+
+0:06:45.199,0:06:49.600
+Und die werden wir an vielen Beispielen in
+Aktion sehen in dieser Vorlesung.
+
+0:06:49.600,0:06:51.430
+Warum machen wir das?
+
+0:06:51.430,0:06:55.080
+Ja, das hatte ich gerade schon so immer wieder
+kurz anklingen lassen.
+
+0:06:55.080,0:06:58.920
+Vielleicht wollen wir ein System erst noch
+entwerfen oder ein vorhandenes System besser
+
+0:06:58.920,0:07:00.020
+verstehen.
+
+0:07:00.020,0:07:03.980
+Vielleicht wollen wir es visualisieren, um
+es zu dokumentieren, vielleicht für andere
+
+0:07:03.980,0:07:04.980
+Nutzer.
+
+0:07:04.980,0:07:07.840
+Vielleicht wollen wir Simulationen durchführen,
+die wir nicht am echten System durchführen
+
+0:07:07.840,0:07:15.470
+können, sondern für die wir lieber mit einem
+einfacheren Modell arbeiten wollen.
+
+0:07:15.470,0:07:23.500
+Und ein System könnte eben da sein oder erst
+noch entstehen sollen.
+
+0:07:23.500,0:07:32.880
+Es könnte ein Informatiksystem sein oder
+auch ein sehr allgemeines aus der Umgangswelt
+
+0:07:32.880,0:07:34.280
+kommendes System.
+
+0:07:34.280,0:07:38.050
+Um ein klein wenig konkreter zu werden bzw.
+
+0:07:38.050,0:07:43.340
+Ihnen in Erinnerung zu rufen, dass Sie natürlich
+schon mit Modellen gearbeitet haben, schon
+
+0:07:43.340,0:07:48.950
+Modelle gesehen haben, gleich ein paar kurze
+Folien zu typischen Modellen, klassischen
+
+0:07:48.950,0:07:50.580
+Beispielen aus den Naturwissenschaften.
+
+0:07:50.580,0:07:55.750
+Da wird natürlich viel mit Modellen gearbeitet,
+weil man die echten Systeme, um die es geht,
+
+0:07:55.750,0:07:57.380
+nicht immer voll erfassen kann zum Beispiel.
+
+0:07:57.380,0:08:02.660
+Oder weil man bestimmte Fragen an Modellen
+besser überdenken kann.
+
+0:08:02.660,0:08:07.880
+Also, was wäre ein so klassisches Modell
+aus der Physik?
+
+0:08:07.880,0:08:11.139
+Da gibt es gleich mehrere Atommodelle, zum
+Beispiel.
+
+0:08:11.139,0:08:15.880
+Nach heutigem Wissensstand bestehen Atome
+aus Protonen, Neutronen und Elektronen.
+
+0:08:15.880,0:08:22.200
+Genau genommen bestehen diese Teile aus noch
+kleineren Subpartikeln, aber man könnte jetzt
+
+0:08:22.200,0:08:23.889
+sagen, das interessiert uns zum Beispiel nicht.
+
+0:08:23.889,0:08:29.419
+Da führen wir eine Vereinfachung, eine Abstrahierung
+durch und wollen einfach nur verstehen, wie
+
+0:08:29.419,0:08:33.400
+Atome auf dieser Zerlegungsebene, aus diesen
+Teilen bestehen.
+
+0:08:33.400,0:08:39.800
+Da geht es darum, wie diese Teilchen zusammenwirken,
+wie sie ein Atom ausmachen.
+
+0:08:39.800,0:08:42.289
+Und da gibt es tatsächlich nicht nur ein
+Modell.
+
+0:08:42.289,0:08:45.830
+Da gibt es eine ganze Reihe von Modellen,
+die in der Geschichte der Physik nach und
+
+0:08:45.830,0:08:49.230
+nach verfeinert und verbessert wurden.
+
+0:08:49.230,0:08:57.810
+Also, den Anfang macht das Thomsonsche Atommodell,
+wo schon erkannt war, dass es positive und
+
+0:08:57.810,0:08:58.810
+negative Ladung gibt.
+
+0:08:58.810,0:09:01.610
+Und die Vorstellung war hier so ein bisschen
+wie ein Rosinenkuchen.
+
+0:09:01.610,0:09:07.620
+Es gibt dieses große positiv geladene Atom
+und da sind drin gespickt negative Ladungsträger.
+
+0:09:07.620,0:09:12.820
+Das wurde sich deswegen so vorgestellt, weil
+man die Elektronen beobachtet hatte im Kontext
+
+0:09:12.820,0:09:13.960
+von elektrischem Strom.
+
+0:09:13.960,0:09:16.510
+Also wusste man, es muss diese Ladungen geben.
+
+0:09:16.510,0:09:19.380
+Die Elektronen sind beweglich, oder so stellte
+man sich das eben vor.
+
+0:09:19.380,0:09:23.580
+Es sind kleine Teilchen, die in einem großen
+Atom eingebettet sind, und die Ladung ist
+
+0:09:23.580,0:09:25.770
+plus und minus gleich.
+
+0:09:25.770,0:09:29.290
+Und deswegen ist das Atom als solches neutral.
+
+0:09:29.290,0:09:33.070
+Dann gab es weitere physikalische Experimente
+und es stellte sich heraus, dass es nicht
+
+0:09:33.070,0:09:38.700
+sein kann, dass da die positive Ladung sozusagen
+so groß verteilt ist, in einem so großen
+
+0:09:38.700,0:09:39.700
+Objekt.
+
+0:09:39.700,0:09:44.950
+Sondern tatsächlich ist der Atomkern, der
+einzig die positive Ladung trägt, sehr viel
+
+0:09:44.950,0:09:45.950
+kleiner.
+
+0:09:45.950,0:09:51.570
+Das haben Rutherfordsche Experimente herausgearbeitet
+oder heraustreten lassen.
+
+0:09:51.570,0:09:53.800
+Und daher kam dann die Folgerung:
+
+0:09:53.800,0:09:59.690
+Nein, es gibt diesen kleinen Kern, der alle
+positive Ladung vereint, und die negativen
+
+0:09:59.690,0:10:03.760
+Elektronen bewegen sich da drum herum in einem
+bestimmten Perimeter.
+
+0:10:03.760,0:10:05.160
+Also einem bestimmten Abstand, den sie nicht
+verlassen.
+
+0:10:05.160,0:10:09.029
+Die sind da so eingefangen in der Nähe des
+Atomkerns.
+
+0:10:09.029,0:10:11.230
+Dann gab es weitere Beobachtungen.
+
+0:10:11.230,0:10:16.260
+Das Bohrsche Atommodell, was heute meist in
+der Schulphysik verwendet wird in erster Linie,
+
+0:10:16.260,0:10:20.870
+hat festgestellt, dass die Elektronen sich
+nicht einfach beliebig um den Atomkern verteilen,
+
+0:10:20.870,0:10:23.480
+sondern dass die sich auf Schalen, auf bestimmten
+Bahnen bewegen.
+
+0:10:23.480,0:10:28.660
+Und dass das ganz wichtig ist für zum Beispiel
+chemische Prozesse: zu wissen, auf welchen
+
+0:10:28.660,0:10:30.850
+Positionen sich die einzelnen Elektronen befinden.
+
+0:10:30.850,0:10:35.370
+Und deswegen trifft das Bohrsche Atommodell
+eben diese zusätzlichen Aussagen darüber,
+
+0:10:35.370,0:10:39.300
+wie denn die Elektronen um den Atomkern herum
+verteilt sind.
+
+0:10:39.300,0:10:45.130
+Und mit der Quantentheorie, Quantenphysik,
+hat sich herausgestellt, dass das eigentlich
+
+0:10:45.130,0:10:49.480
+wegen des dualen Wellen-/Teilchencharakters
+auch nicht so einfach ist, sich diese Elektronen
+
+0:10:49.480,0:10:52.360
+einfach an bestimmten Positionen hängend
+vorzustellen.
+
+0:10:52.360,0:10:58.170
+Sondern eigentlich muss man mit Orbiten arbeiten,
+also Verteilungswahrscheinlichkeiten, wo die
+
+0:10:58.170,0:10:59.820
+Teilchen sich befinden.
+
+0:10:59.820,0:11:04.020
+Wegen des letztlichen Charakters, dass sich
+diese Teilchen auch wie Wellen verhalten.
+
+0:11:04.020,0:11:10.100
+Also da geht es am Ende nur noch um Aufenthaltswahrscheinlichkeiten
+statt tatsächlich spezifischer Position.
+
+0:11:10.100,0:11:15.540
+Und jetzt könnten wir sagen, das ist das
+beste Modell, das scheint der modernsten Physik
+
+0:11:15.540,0:11:16.540
+zu entsprechen.
+
+0:11:16.540,0:11:19.500
+Aber tatsächlich sind auch diese einfachen
+Modelle nach wie vor in der Physik relevant.
+
+0:11:19.500,0:11:23.550
+Insbesondere in der Schulphysik wird in der
+Regel dieses Modell in erster Linie verwendet.
+
+0:11:23.550,0:11:29.890
+Weil es für die Dinge, die man da untersucht,
+ausreichend und genau richtig detailliert
+
+0:11:29.890,0:11:30.890
+ist.
+
+0:11:30.890,0:11:39.290
+Also man hat hier bewusst vielleicht erst
+mal wegen des zunächst geringeren Erkenntnispotenzials
+
+0:11:39.290,0:11:42.740
+oder geringeren Erkenntnisstandes sehr einfache
+Modelle gehabt.
+
+0:11:42.740,0:11:49.350
+Aber auch heute kann man noch sich entscheiden
+für eine Detailstufe, die die zu untersuchenden
+
+0:11:49.350,0:11:50.459
+Zusammenhänge gut darstellt.
+
+0:11:50.459,0:11:55.200
+Und das sollten wir auch bei anderen Modellen
+durchaus sehen, dass es sinnvoll sein kann,
+
+0:11:55.200,0:12:00.460
+für das gleiche System verschiedene Modellierungsstufen
+zu haben, je nachdem, was man denn eigentlich
+
+0:12:00.460,0:12:04.339
+untersuchen möchte.
+
+0:12:04.339,0:12:11.330
+Ein weiteres Beispiel, zu dem ich gar nicht
+so viel sagen kann, das kommt aus der Biologie.
+
+0:12:11.330,0:12:16.080
+Das ist ganz nett hier in der Darstellung,
+aber zum Inhalt kann ich nicht so viel sagen,
+
+0:12:16.080,0:12:20.780
+weil ich biologisch selbst nicht so gut gebildet
+bin wie physikalisch, würde ich denken.
+
+0:12:20.780,0:12:24.720
+Also hier wird offenbar ein Säureaustauschzyklus
+beschrieben.
+
+0:12:24.720,0:12:28.690
+Und ich will tatsächlich gar nicht auf einzelne
+Teile eingehen.
+
+0:12:28.690,0:12:34.170
+Was aber interessant ist, warum es auch hier
+drin ist: weil es einen gewissen charakteristischen
+
+0:12:34.170,0:12:38.200
+Unterschied hat zum Beispiel davor.
+
+0:12:38.200,0:12:41.300
+Nämlich, dass es hier scheinbar um einen
+Prozess geht.
+
+0:12:41.300,0:12:42.360
+Hier ging es eigentlich darum:
+
+0:12:42.360,0:12:43.360
+Wie sind Atome aufgebaut?
+
+0:12:43.360,0:12:47.070
+Also hier hinten tauchen diese Wahrscheinlichkeitsverteilungen
+auf, das hat auch was Dynamisches.
+
+0:12:47.070,0:12:48.170
+Also, wie bewegen sich diese Teilchen?
+
+0:12:48.170,0:12:49.400
+Wo befinden die sich, wann?
+
+0:12:49.400,0:12:54.130
+Aber insbesondere diese ersten drei Modelle
+hier, die sind eher statischer Natur.
+
+0:12:54.130,0:12:57.130
+Es geht darum, aus welchen Teilpartikeln besteht
+ein Atom?
+
+0:12:57.130,0:12:58.480
+Wie sind die angeordnet?
+
+0:12:58.480,0:12:59.480
+Wo befinden die sich?
+
+0:12:59.480,0:13:03.480
+Vielleicht auch: mit welchen Ladungen befinden
+die sich?
+
+0:13:03.480,0:13:06.000
+Mit welchen Energieniveaus befinden die sich
+auf verschiedene Stufen?
+
+0:13:06.000,0:13:08.029
+Aber im Wesentlichen wird einfach ein Zustand
+beschrieben.
+
+0:13:08.029,0:13:11.490
+So sieht das spezifische Atom aus.
+
+0:13:11.490,0:13:16.860
+Hier, in diesem Modell, geht es offenbar darum,
+einen Prozess zu beschreiben.
+
+0:13:16.860,0:13:23.040
+Deswegen werden wir das ein dynamisches Modell
+nennen, offenbar für SÃ¤ureaustauschzyklus/-prozesse.
+
+0:13:23.040,0:13:24.620
+Produkte werden umgewandelt.
+
+0:13:24.620,0:13:28.720
+Es gibt hier auch irgendwelche Informationen
+dafür, in welcher Zusammensetzung, in welchem
+
+0:13:28.720,0:13:33.670
+Verhältnis die einzelnen Teilstoffe miteinander
+interagieren.
+
+0:13:33.670,0:13:36.279
+Aber jedenfalls wird hier eine Umwandlung
+beschrieben.
+
+0:13:36.279,0:13:41.459
+Das werden wir dann ein dynamisches Modell
+nennen in Kürze.
+
+0:13:41.459,0:13:45.100
+Und das tauchte gerade eben schon ganz kurz
+auf, dieses Modell.
+
+0:13:45.100,0:13:49.220
+Das ist insofern interessant, dass es sehr
+grafisch, vielleicht sehr populärwissenschaftlich
+
+0:13:49.220,0:13:50.250
+gefasst ist.
+
+0:13:50.250,0:13:54.519
+Da würde ich jetzt auch nicht näher hineinzoomen
+und die einzelnen Teile hier beschreiben.
+
+0:13:54.519,0:13:58.110
+Aber auch das ist etwas, das Sie als Modell
+kennen, vielleicht aus dem Erdkundeunterricht,
+
+0:13:58.110,0:14:04.050
+wenn irgendwie Klima und Prozesse der Atmosphäre
+beschrieben wurden.
+
+0:14:04.050,0:14:11.731
+Auffällig an diesem Modell, aber auch schon
+an den beiden Beispielen davor sicher, ist
+
+0:14:11.731,0:14:18.440
+dass hier sehr viel mit visuellem und grafischem
+Transport und Information gearbeitet wird.
+
+0:14:18.440,0:14:20.530
+Das muss natürlich nicht immer so sein.
+
+0:14:20.530,0:14:21.830
+Wenn es darum geht:
+
+0:14:21.830,0:14:23.779
+Welche Arten von Modellen werden wir haben?
+
+0:14:23.779,0:14:26.970
+Oder welche Arten von Modellen tauchen in
+der Informatik auf?
+
+0:14:26.970,0:14:29.620
+Da gibt es einen ersten Unterschied, nämlich:
+
+0:14:29.620,0:14:32.660
+Wird visuell oder textuell modelliert?
+
+0:14:32.660,0:14:35.280
+Die Beispiele eben waren sehr visuell.
+
+0:14:35.280,0:14:41.040
+Natürlich kann man auch mit eher textuellen
+Mitteln, dann zum Beispiel verbalen Beschreibungen
+
+0:14:41.040,0:14:44.980
+oder mathematischen Formeln, die auch in einer
+Art Kontext sind, modellieren.
+
+0:14:44.980,0:14:50.410
+Das wären dann mathematische Modelle, die
+Ihnen in der Logik begegnen, in der Algebra.
+
+0:14:50.410,0:14:53.950
+Je nachdem, welche Mathematikvorlesung Sie
+schon gehört haben oder parallel hören,
+
+0:14:53.950,0:14:55.709
+werden Ihnen auch Modelle begegnen.
+
+0:14:55.709,0:14:58.730
+Das sind nicht in erster Linie die Art Modelle,
+die wir hier betrachten werden.
+
+0:14:58.730,0:15:03.820
+Denn wir werden keine formal-logischen Modelle
+betrachten in dieser Lehrveranstaltung, weil
+
+0:15:03.820,0:15:07.200
+es dafür eben andere Lehrveranstaltungen
+gibt in Ihren jeweiligen Studiengängen.
+
+0:15:07.200,0:15:12.030
+Natürlich ist es deswegen nicht so, dass
+ein Modell immer genau nur visuell oder nur
+
+0:15:12.030,0:15:13.030
+textuell ist.
+
+0:15:13.030,0:15:18.740
+Also die Atommodelle, die auf der vorvorletzten
+Folie irgendwie auch visuell dargestellt waren,
+
+0:15:18.740,0:15:21.830
+die sind natürlich tatsächlich in der Physik
+auch noch mit Formeln hinterlegt, mit den
+
+0:15:21.830,0:15:23.630
+mathematischen Beschreibungszusammenhängen
+dahinter.
+
+0:15:23.630,0:15:25.529
+Und das ist dann wieder eher mathematischer
+Text.
+
+0:15:25.529,0:15:34.460
+In dieser Lehrveranstaltung werden wir oft
+mit grafischen Darstellungen arbeiten.
+
+0:15:34.460,0:15:39.910
+Nicht so frei-grafisch wie hier (ein buntes
+Bild), sondern schon in sehr disziplinierter
+
+0:15:39.910,0:15:41.519
+Art, etwas grafisch darzustellen.
+
+0:15:41.519,0:15:45.660
+Also formaler als jetzt hier einfach nur so
+ein gemaltes Bild.
+
+0:15:45.660,0:15:51.150
+Aber eben auch nicht so formal unbedingt wie
+die formale Logik operiert, um Zusammenhänge
+
+0:15:51.150,0:15:52.200
+zu beschreiben.
+
+0:15:52.200,0:15:56.870
+Das hat zum Teil didaktische Gründe, dass
+Sie so etwas sehen in der Lehrveranstaltung.
+
+0:15:56.870,0:16:01.790
+Natürlich hilft eine grafische Darstellung,
+sich besser über Modelle verständigen zu
+
+0:16:01.790,0:16:02.790
+können.
+
+0:16:02.790,0:16:08.350
+Und deswegen werden auch in der Praxis gerne
+grafische Modelle oder zumindest Modellsprachen
+
+0:16:08.350,0:16:11.550
+mit visuellen Anteilen genutzt.
+
+0:16:11.550,0:16:17.899
+Also das wäre so ein erster Unterschied:
+visuelles Modell vs. textuelles Modell, aber
+
+0:16:17.899,0:16:21.360
+es gibt natürlich auch Zwischenstufen.
+
+0:16:21.360,0:16:24.769
+Eine weitere Unterscheidung, die man treffen
+kann, ist zwischen sogenannten qualitativen
+
+0:16:24.769,0:16:26.000
+und quantitativen Modellen.
+
+0:16:26.000,0:16:30.860
+Qualitativ, quantitativ, dass kennen Sie als
+Begriffe natürlich auch, einfach aus der
+
+0:16:30.860,0:16:31.860
+Sprache.
+
+0:16:31.860,0:16:34.269
+Also, qualitativ, irgendwie die Beschreibung:
+
+0:16:34.269,0:16:37.089
+Was, Wie, warum?
+
+0:16:37.089,0:16:38.089
+Quantitativ:
+
+0:16:38.089,0:16:39.470
+Beschreibung von Mengen oder Anzahlen.
+
+0:16:39.470,0:16:41.430
+Wie viel, wie oft?
+
+0:16:41.430,0:16:46.730
+Also, typische Fragen für Betrachtung von
+qualitativen Modellen wären:
+
+0:16:46.730,0:16:47.769
+Welche Objekte gibt es?
+
+0:16:47.769,0:16:50.240
+In dem Atom, welche Objekte kommen darin vor?
+
+0:16:50.240,0:16:54.350
+Welche kleinen Partikel, Protonen, Elektron?
+
+0:16:54.350,0:16:57.019
+Welche Merkmale/Beziehungen haben diese zueinander?
+
+0:16:57.019,0:16:58.230
+Was passiert?
+
+0:16:58.230,0:16:59.230
+Nicht:
+
+0:16:59.230,0:17:01.670
+In welcher Reihenfolge, wie oft, wann?
+
+0:17:01.670,0:17:02.670
+Aber:
+
+0:17:02.670,0:17:03.670
+Was passiert qualitativ?
+
+0:17:03.670,0:17:04.670
+Warum passiert es?
+
+0:17:04.670,0:17:06.809
+Die Gründe für bestimmte Vorgänge.
+
+0:17:06.809,0:17:11.980
+Vielleicht auch noch die Reihenfolge/kausale
+Zusammenhänge, aber eben keine Aussagen über
+
+0:17:11.980,0:17:15.929
+Mengen oder Anzahlen oder Zahlenwerte/Messgrößen.
+
+0:17:15.929,0:17:18.089
+Also Fragen nach: was, wie, warum.
+
+0:17:18.089,0:17:20.490
+Und im Gegensatz dazu, quantitative Modelle.
+
+0:17:20.490,0:17:22.490
+Da geht es eben darum:
+
+0:17:22.490,0:17:24.410
+Wie viele Objekte gibt es?
+
+0:17:24.410,0:17:27.390
+In welchem Mengenverhältnis treten diese
+verschiedenen Arten von Objekten auf?
+
+0:17:27.390,0:17:30.950
+Wie lange dauert vielleicht ein Vorgang (wenn
+es ein Prozess ist, der modelliert wird)?
+
+0:17:30.950,0:17:32.580
+Wie wahrscheinlich ist ein bestimmtes Ereignis?
+
+0:17:32.580,0:17:36.480
+Ich hatte bei dem vierten Atommodell von Wahrscheinlichkeitsverteilung
+gesprochen.
+
+0:17:36.480,0:17:42.540
+Das wäre ganz klar dann ein quantitativer
+Aspekt, der dort modelliert wird.
+
+0:17:42.540,0:17:49.630
+In der Vorlesung werden wir größtenteils
+mit qualitativen Modellen zu tun haben.
+
+0:17:49.630,0:17:53.490
+Aber es wird auch einige Stellen geben, an
+denen quantitative Aspekte ins Spiel kommen,
+
+0:17:53.490,0:17:55.180
+allerdings weniger.
+
+0:17:55.180,0:17:59.500
+Sicher auch, weil man in der Regel natürlich
+erst mal sagen muss, welche Objekte es überhaupt
+
+0:17:59.500,0:18:01.799
+gibt, bevor man von "wie vielen" sprechen
+kann.
+
+0:18:01.799,0:18:07.160
+Also natürlich ist "quantitativ" oft eine
+Verfeinerung oder Anreicherung von qualitativen
+
+0:18:07.160,0:18:09.720
+Modellen um zusätzliche Informationen.
+
+0:18:09.720,0:18:19.150
+Das heißt, von den Modellen, die wir hier
+hatten, sind wahrscheinlich die ersten drei
+
+0:18:19.150,0:18:20.750
+eher qualitativ.
+
+0:18:20.750,0:18:24.240
+Wobei man insbesondere beim Bohrschen Atommodell
+auch schon quantitative Aspekt hat, da man
+
+0:18:24.240,0:18:27.480
+diese verschiedenen Energieniveaus hat, auf
+denen die Elektronen sich bewegen können.
+
+0:18:27.480,0:18:31.320
+Diese würde man ja auch durch Zahlen beschreiben,
+oder Abstände vielleicht, oder Energiegrößen.
+
+0:18:31.320,0:18:33.670
+Das Orbitalmodell ist ganz klar quantitativ.
+
+0:18:33.670,0:18:37.860
+Da wird mit Wahrscheinlichkeiten gerechnet,
+das sind Zahlaussagen.
+
+0:18:37.860,0:18:43.290
+In dem Modell hat man in erster Linie auch
+sicherlich eine qualitative Modellierung.
+
+0:18:43.290,0:18:48.650
+Durch diese Abfolge, die beschrieben wird,
+und die Auflistungen oder Zusammenstellung
+
+0:18:48.650,0:18:54.040
+der verschiedenen Produkte, die vorkommen
+(chemische Produkte, die im Spiel sind).
+
+0:18:54.040,0:18:58.490
+Aber es gibt hier auch zumindest ein paar
+quantitative Anteile, da hier von Stoffverhältnissen
+
+0:18:58.490,0:19:02.160
+und Stoffmengen die Rede ist, durch diese
+Zahlen hier.
+
+0:19:02.160,0:19:12.590
+Und hier hat man auch eher ein qualitatives
+Modell, weil es keine Formeln oder Zahlenangaben
+
+0:19:12.590,0:19:17.610
+gibt.
+
+0:19:17.610,0:19:20.640
+Eine weitere Unterscheidung, die relevant
+sein wird, ist die Frage:
+
+0:19:20.640,0:19:23.210
+Wie sichtbar sind denn die Interna eines Modells?
+
+0:19:23.210,0:19:29.360
+Das wird oft so gefasst: als Blackbox versus
+Whitebox.
+
+0:19:29.360,0:19:34.270
+Also haben wir sozusagen einen schwarzen Kasten
+vor uns, wo wir nur von außen beobachtbares
+
+0:19:34.270,0:19:37.790
+Verhalten beschreiben können, aber nicht
+wissen, was denn in dieser schwarzen Kiste
+
+0:19:37.790,0:19:38.790
+passiert?
+
+0:19:38.790,0:19:45.770
+Oder haben wir so eine Glaskiste, oder Whitebox
+auf Englisch, wo wir auch beschreiben können,
+
+0:19:45.770,0:19:50.950
+was denn, warum denn, wie denn dieses von
+außen beobachtbare Verhalten im Inneren des
+
+0:19:50.950,0:19:51.950
+Systems erzeugt wird?
+
+0:19:51.950,0:19:59.360
+Also wenn wir uns ein Softwaresystem vorstellen,
+dann wäre Blackbox einfach nur die Beschreibung/Modellierung:
+
+0:19:59.360,0:20:05.330
+Was passiert denn aus Sicht des Nutzers oder
+der Nutzerin, wenn bestimmte Knöpfe gedrückt
+
+0:20:05.330,0:20:06.330
+werden in dem Programm?
+
+0:20:06.330,0:20:07.550
+Da kann man nur sagen:
+
+0:20:07.550,0:20:12.010
+Wenn das und das gedrückt wird, dann öffnet
+sich folgendes Fenster und da drin steht eine
+
+0:20:12.010,0:20:13.200
+bestimmte Nachricht.
+
+0:20:13.200,0:20:19.200
+Whitebox wäre, wenn man auch den Programmcode
+oder zumindest eine Beschreibung der internen
+
+0:20:19.200,0:20:24.370
+Abläufe (das muss ja nicht der konkrete Programmcode
+sein), oder vielleicht eine Pseudocode-Beschreibung
+
+0:20:24.370,0:20:28.110
+der internen Abläufe des Systems, vor sich
+hat.
+
+0:20:28.110,0:20:31.990
+Und man auch analysieren kann, warum denn
+ein bestimmtes Verhalten auftritt, oder vielleicht
+
+0:20:31.990,0:20:33.039
+auch ein bestimmtes erwartetes Verhalten nicht
+auftritt.
+
+0:20:33.039,0:20:35.260
+Also man könnte sich vorstellen:
+
+0:20:35.260,0:20:42.980
+Blackbox wäre eine Beschreibung für Kunden
+und bietet dem Implementierer mehr Freiheit,
+
+0:20:42.980,0:20:49.900
+weil nur das von außen beobachtbare Verhalten
+wichtig ist (und intern passieren kann, was
+
+0:20:49.900,0:20:52.920
+dem/der Entwickler/in geeignet erscheint).
+
+0:20:52.920,0:20:58.951
+Whitebox-Ansicht auf ein System, eine Whitebox-Modellierung,
+wäre wichtig für das technische Team, das
+
+0:20:58.951,0:21:01.090
+zum Beispiel eine bestimmte Software erstellt.
+
+0:21:01.090,0:21:05.380
+Das muss sich natürlich auch damit beschäftigen,
+wie denn im Inneren dieses Verhalten überhaupt
+
+0:21:05.380,0:21:06.380
+erzeugt werden soll.
+
+0:21:06.380,0:21:07.450
+Es gibt auch Zwischenstufen.
+
+0:21:07.450,0:21:09.620
+Es gibt den Begriff Greybox.
+
+0:21:09.620,0:21:16.730
+Das wäre dann eben "nicht völlig sichtbar",
+nicht alle Details, aber dann auch nicht vollkommen
+
+0:21:16.730,0:21:19.809
+versteckt, was im Inneren passiert.
+
+0:21:19.809,0:21:25.299
+Für uns wird das vor allem bei der dynamischen
+Modellierung bzw. bei den dynamischen Modellierungsteilen
+
+0:21:25.299,0:21:27.620
+interessant sein.
+
+0:21:27.620,0:21:35.220
+Jetzt habe ich schon mehrfach von statisch
+und dynamisch gesprochen, ohne vorher zu sagen,
+
+0:21:35.220,0:21:36.910
+was damit genau gemeint ist.
+
+0:21:36.910,0:21:41.010
+Sicherlich auch deswegen, weil statisch und
+dynamisch als umgangssprachliche Begriffe
+
+0:21:41.010,0:21:42.800
+hoffentlich deutlich genug sind.
+
+0:21:42.800,0:21:43.800
+Also:
+
+0:21:43.800,0:21:48.400
+Ein statisches Modell beschreibt vor allem
+den Aufbau oder einen bestimmten Zustand des
+
+0:21:48.400,0:21:49.530
+Systems.
+
+0:21:49.530,0:21:51.679
+Aufbau könnte zum Beispiel sein:
+
+0:21:51.679,0:21:53.940
+Wie ist dieses System aus Teilsystemen zusammengesetzt?
+
+0:21:53.940,0:21:57.360
+Das könnten Aspekte des Aufbaus sein, den
+man beschreiben möchte.
+
+0:21:57.360,0:21:58.670
+Oder zu einem bestimmten Zeitpunkt:
+
+0:21:58.670,0:21:59.940
+Was ist der Zustand des Systems?
+
+0:21:59.940,0:22:03.920
+Wo befinden sich die Elektronen um den Atomkern
+aufgereiht?
+
+0:22:03.920,0:22:14.600
+Das kann darum gehen, einen allgemein immer
+feststehenden Zustand zu beschreiben, oder
+
+0:22:14.600,0:22:19.870
+wenn das System Potenzial hat, sich zu entwickeln,
+dann die statische Beschreibung des Zustands
+
+0:22:19.870,0:22:22.020
+zu einem bestimmten Zeitpunkt.
+
+0:22:22.020,0:22:25.230
+Im Gegensatz dazu:
+
+0:22:25.230,0:22:31.850
+Ein dynamisches Modell beschreibt mindestens
+auch wie das System sich entwickelt.
+
+0:22:31.850,0:22:36.630
+Also es könnte sein, dass einer oder mehrere
+mögliche Abläufe des Systems beschrieben
+
+0:22:36.630,0:22:42.039
+werden, oder sogar das gesamte Systemverhalten
+mit allen seinen möglichen Abläufen.
+
+0:22:42.039,0:22:46.600
+Natürlich wird das in der Regel darauf aufbauen,
+dass man zunächst eine statische Beschreibung
+
+0:22:46.600,0:22:47.600
+hat.
+
+0:22:47.600,0:22:51.039
+Man muss erst mal wissen, aus welchen Teilen
+das System besteht, um dann sagen zu können,
+
+0:22:51.039,0:22:54.990
+wie diese Teile zum Beispiel ihr Verhältnis
+zueinander ändern.
+
+0:22:54.990,0:23:02.360
+Also wird ein dynamisches Modell oft ein statisches
+Modell umfassen oder auf diesem aufbauen.
+
+0:23:02.360,0:23:08.340
+Natürlich hatte ich schon vorhin gesagt,
+zum Beispiel hier:
+
+0:23:08.340,0:23:11.460
+Die ersten drei Modelle sind eher statischer
+Natur.
+
+0:23:11.460,0:23:19.940
+Dieses ist eher dynamisch, weil es auch von
+diesen Bewegungen der Subpartikel handelt.
+
+0:23:19.940,0:23:22.880
+Hier hatte ich auch gesagt:
+
+0:23:22.880,0:23:27.110
+Es hat auch dynamische Anteile wegen dieser
+Umsetzungsprozesse offenbar.
+
+0:23:27.110,0:23:36.260
+Und auch hier würde man, wenn man etwas hineinzoomet,
+einige dynamische Aspekte finden.
+
+0:23:36.260,0:23:48.040
+Und dann haben wir eine weitere wichtige Unterscheidung,
+nämlich den Formalitätsgrad der Modelle.
+
+0:23:48.040,0:23:49.490
+Also wie exakt sind diese Modelle?
+
+0:23:49.490,0:23:53.850
+Und da kann man eben von einem Extremum zum
+anderen gehen.
+
+0:23:53.850,0:23:58.169
+Man kann völlig formale Modelle haben, das
+sind vor allem die Modelle, die Sie in mathematischen
+
+0:23:58.169,0:23:59.470
+Vorlesungen oder in der Logik finden.
+
+0:23:59.470,0:24:01.440
+Also die sind vollkommen exakt in ihren Aussagen.
+
+0:24:01.440,0:24:06.720
+Erfassen die Zusammenhänge, um die es geht,
+völlig exakt (was in der Realität vielleicht
+
+0:24:06.720,0:24:07.720
+gar nicht immer geht).
+
+0:24:07.720,0:24:13.110
+Also formale Modelle sind, wenn sie existieren,
+natürlich sehr schön, weil sie sehr präzise
+
+0:24:13.110,0:24:14.110
+Aussagen treffen.
+
+0:24:14.110,0:24:18.250
+Aber die Realität ist manchmal nicht so zu
+fassen.
+
+0:24:18.250,0:24:26.789
+Deswegen gibt es am anderen Extremum des Spektrums
+nicht-formale Modelle, die einfach irgendetwas
+
+0:24:26.789,0:24:28.929
+vielleicht verbal beschreiben.
+
+0:24:28.929,0:24:37.080
+Also wenn ich Sie frage, wie ein Auto aussieht,
+dann können Sie eben bestimmte Aussagen dazu
+
+0:24:37.080,0:24:39.169
+treffen, die das einfach umgangssprachlich
+beschreiben.
+
+0:24:39.169,0:24:40.360
+Das wäre sehr nicht-formal.
+
+0:24:40.360,0:24:45.900
+Da kann ich keine Aussagen daraus ableiten,
+vielleicht wie gut dieses Auto sich in einem
+
+0:24:45.900,0:24:47.289
+Crashtest verhalten wird.
+
+0:24:47.289,0:24:49.530
+Da bräuchte ich etwas Formaleres.
+
+0:24:49.530,0:24:53.539
+Und dann gibt es in der Mitte die so genannten
+semi-formalen Modelle.
+
+0:24:53.539,0:24:55.360
+"Semi" für "halb" oder "fast".
+
+0:24:55.360,0:24:58.410
+Also das sind Modelle, die teilweise exakt
+sind.
+
+0:24:58.410,0:25:04.100
+Die also bestimmte Notation zum Beispiel verwenden,
+um Teile präzise ausdrücken zu können,
+
+0:25:04.100,0:25:06.350
+die aber eben auch nicht alles vollständig
+spezifizieren.
+
+0:25:06.350,0:25:11.940
+Die also nicht den Anspruch haben, wie ein
+exaktes mathematischen Modell, alles zu erfassen
+
+0:25:11.940,0:25:16.090
+auf der gewünschten Modellierungsstufe.
+
+0:25:16.090,0:25:23.120
+Und wir werden in der Vorlesung formale Modelle
+sehen, insbesondere im Petrinetz-Teil (das
+
+0:25:23.120,0:25:28.340
+ist ein typisches recht formales Modell, eine
+formale Modellierungsnotation).
+
+0:25:28.340,0:25:34.840
+Aber ein Großteil der Vorlesung wird sich
+eher im Bereich semi-formaler Modelle bewegen.
+
+0:25:34.840,0:25:39.669
+Also UML (diese Modellierungssprache aus dem
+Software Engineering, die ich schon zumindest
+
+0:25:39.669,0:25:48.000
+im Literaturteil erwähnt habe), das ist ein
+klassisches Beispiel für semi-formale Modellierung.
+
+0:25:48.000,0:25:54.789
+Und natürlich hängt die Entscheidung, auf
+welcher dieser drei Ebenen man sich bewegt,
+
+0:25:54.789,0:25:57.429
+einerseits von den Fähigkeiten und den Möglichkeiten
+ab.
+
+0:25:57.429,0:26:02.090
+Also manche Sachen kann man eben nicht mit
+beliebiger Präzision beschreiben.
+
+0:26:02.090,0:26:03.670
+Und oftmals natürlich geht es auch darum:
+
+0:26:03.670,0:26:05.210
+Was ist überhaupt der Anwendungszweck des
+Modells?
+
+0:26:05.210,0:26:06.480
+Also, warum modelliert man?
+
+0:26:06.480,0:26:14.710
+Davon hängt auch ab, wie präzise und aufwendig
+man die Beschreibung betreiben muss.
+
+0:26:14.710,0:26:19.610
+Soll irgendwie etwas formal verifiziert werden,
+dann sollte das Modell auch sehr formal sein.
+
+0:26:19.610,0:26:25.340
+Geht es im Wesentlichen darum, einfach zu
+kommunizieren über das System, mit dem man
+
+0:26:25.340,0:26:29.389
+sich beschäftigt, dann reicht vielleicht
+auch eine sehr nicht-formale Beschreibung.

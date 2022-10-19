@@ -1,0 +1,432 @@
+0:00:00.000,0:00:07.770
+All right, let me say
+a few words about the literature.
+
+0:00:07.770,0:00:11.520
+First of all, the literature
+is only meant as a supplement.
+
+0:00:12.300,0:00:16.500
+In principle, you should be able
+to master the material of the lecture
+
+0:00:16.500,0:00:22.560
+and the exercises without additional books.
+However, sometimes an extra book still helps.
+
+0:00:22.560,0:00:28.170
+Sometimes the literature presents the material
+from a slightly different perspective than
+
+0:00:28.170,0:00:34.530
+the lecture, and that can
+sometimes provide a nice additional approach.
+
+0:00:34.530,0:00:37.830
+O.k., here we have first a book,
+that is a very comprehensive book about UML.
+
+0:00:37.830,0:00:46.320
+Yes, UML is a modeling
+method, a modeling language, which
+
+0:00:46.320,0:00:51.330
+will be maybe about 50 percent
+of the lecture, if I estimate that.
+
+0:00:51.330,0:00:54.090
+Maybe a little bit more actually.
+So we're going to need some
+
+0:00:54.090,0:00:57.390
+UML concepts and that's why a book
+on UML is not wrong, of course.
+
+0:00:57.390,0:01:02.550
+This is a book from which I
+have taken some examples into the lecture.
+
+0:01:02.550,0:01:07.560
+So if you get this book for
+example from the library or otherwise and
+
+0:01:07.560,0:01:09.840
+browse through it, you might
+recognize some of the examples
+
+0:01:09.840,0:01:11.220
+that I have in the
+lecture. In that respect, it's
+
+0:01:11.220,0:01:14.250
+actually quite suitable, the
+book. Unfortunately in the description,
+
+0:01:14.250,0:01:19.230
+even when it comes to formal things,
+this book is sometimes not quite clean.
+
+0:01:19.230,0:01:24.600
+There are certain inconsistencies, thereby
+partly also deviations from the lecture,
+
+0:01:24.600,0:01:28.080
+where I tried to
+present things very uniformly.
+
+0:01:28.080,0:01:32.190
+But just as an introduction
+and especially for examples, this
+
+0:01:32.190,0:01:40.410
+book is definitely very good.
+O.k., then there is another English-language
+
+0:01:40.410,0:01:45.420
+book, which is very
+specific to object-oriented design,
+
+0:01:45.420,0:01:53.850
+which will also be a part of the
+lecture. That's this book here, you can find
+
+0:01:53.850,0:01:59.040
+that through the library as well.
+That also contains a nice motivation and
+
+0:01:59.040,0:02:03.270
+examples, some of which also
+show up in the lecture.
+
+0:02:03.270,0:02:06.930
+But it's not really
+a modeling book otherwise.
+
+0:02:06.930,0:02:09.750
+You can see that in the
+title: it says something about implementation.
+
+0:02:09.750,0:02:13.270
+This is a book that
+certainly contains some modeling parts,
+
+0:02:13.270,0:02:18.760
+in view of object-oriented design, but it
+is perhaps a bit more relevant later,
+
+0:02:18.760,0:02:21.700
+especially when you will
+hear, for example, the lecture
+
+0:02:21.700,0:02:25.510
+Advanced Programming Techniques. So there,
+to my knowledge, the book is
+
+0:02:25.510,0:02:28.600
+not used as a textbook, but
+certain things, the topics that you're going
+
+0:02:28.600,0:02:32.380
+to cover there, also appear in this
+book. So if you plan to listen to
+
+0:02:32.380,0:02:36.430
+that later as well, maybe that would be
+a good book, which bridges from modeling to
+
+0:02:36.430,0:02:40.870
+the Advanced Programming Techniques
+course, which you would probably
+
+0:02:40.870,0:02:50.440
+listen to with Mr. Pauli.
+O.k., another book, very general,
+
+0:02:50.440,0:02:55.330
+you also see UML in the title.
+Software Engineering, it's about the application of
+
+0:02:55.330,0:03:02.800
+UML in the area of modeling software.
+Things are covered rather non-formally in detail,
+
+0:03:02.800,0:03:06.610
+so less formal than I'm sure
+I'll do in lecture, but also not
+
+0:03:06.610,0:03:13.840
+unsuitable as an introduction and overview. What's
+also particularly nice about this book is
+
+0:03:13.840,0:03:18.010
+that you wouldn't have to buy
+this or get it from the library.
+
+0:03:18.010,0:03:22.660
+You can also read this electronically, and in
+fact if you're logged into the university, so
+
+0:03:22.660,0:03:27.640
+you're logged into the uniaccount, you can
+also read this book electronically through this link
+
+0:03:27.640,0:03:31.450
+here, that should still work. If
+necessary, if you are not in the
+
+0:03:31.450,0:03:35.350
+Uninetz, you have to do it via
+VPN. Maybe this has already been explained
+
+0:03:35.350,0:03:40.180
+to you or you have already used this
+in the last semesters, if you are not
+
+0:03:40.180,0:03:53.495
+a freshman, the VPN access.
+O.k., another book on UML.
+
+0:03:53.495,0:03:57.290
+Although UML doesn't completely make up
+the lecture, we'll see other books in
+
+0:03:57.290,0:04:01.460
+a moment, but here's another
+book on UML. Very comprehensive,
+
+0:04:01.460,0:04:07.070
+only excerpts relevant to
+us. Interesting perhaps for
+
+0:04:07.070,0:04:10.550
+you because it is also available in English.
+Here you can see the German book, but
+
+0:04:10.550,0:04:17.180
+for the English speaking students this book is also
+available in English and as far as I know
+
+0:04:17.180,0:04:21.560
+this is also available in our
+library. So at least the original could
+
+0:04:21.560,0:04:28.100
+be borrowed there. Well,
+then I had already
+
+0:04:28.100,0:04:34.400
+said, it will not only be
+about UML. Another important modeling tool
+
+0:04:34.400,0:04:36.830
+what we will use in the
+lecture is the so-called Petri nets.
+
+0:04:36.830,0:04:42.770
+While you may already know UML,
+at least class diagrams, from school classes,
+
+0:04:42.770,0:04:48.830
+Petri nets are probably most familiar
+to you if you have taken the
+
+0:04:48.830,0:04:52.940
+computer science prerequisite course or if you
+have just been to other lectures as
+
+0:04:52.940,0:04:57.950
+ISE students where Petri nets were also used.
+There are several books for that as well, again
+
+0:04:57.950,0:05:04.370
+a book what is available online.
+If you're logged into the Uniaccount,
+
+0:05:04.370,0:05:09.080
+here's a paper on Petri
+nets, which is very example driven.
+
+0:05:09.080,0:05:18.710
+So also less formal, but contains many
+examples that will be useful to us.
+
+0:05:18.710,0:05:26.210
+Then a little bit in contrast, I've
+cited a book here that is very formal.
+
+0:05:26.210,0:05:29.330
+So this deals with more
+formal aspects of Petri nets.
+
+0:05:29.330,0:05:32.900
+Again, that fits in with the lecture
+as far as what we're going to do.
+
+0:05:32.900,0:05:38.780
+We're not going to do everything that's in this book,
+but some more formal concepts that we're going to look
+
+0:05:38.780,0:05:45.350
+at as well on Petri nets, you might find
+in this book rather than the book shown before.
+
+0:05:45.350,0:05:48.560
+And also this book should
+be available to you electronically
+
+0:05:48.560,0:05:58.440
+if you go through the Uniaccount.
+O.k., for this also something English again.
+
+0:05:58.440,0:06:01.560
+The two books just now were
+German books. For the English speaking
+
+0:06:01.560,0:06:05.520
+students, but also for others,
+this article might be interesting.
+
+0:06:05.520,0:06:09.339
+It is in English and has
+a slightly different style than the books.
+
+0:06:09.339,0:06:13.920
+Yes, the books are textbooks, this
+is a review article that was
+
+0:06:13.920,0:06:21.360
+written quite a while ago.
+Also contains good motivation, examples,
+
+0:06:21.360,0:06:27.210
+and also discusses some of the
+formal properties we will be looking at.
+
+0:06:27.210,0:06:32.670
+You see this up here, Properties,
+Analysis and Applications, so both examples, applications,
+
+0:06:32.670,0:06:39.000
+and the properties and analysis of Petri
+nets, which is what we'll be doing.
+
+0:06:39.000,0:06:43.350
+Of course, since it's only part of the lecture,
+not in the same depth as it's approached here in
+
+0:06:43.350,0:06:52.560
+the article, but nevertheless, that's also a
+possible approach to this part of the lecture.
+
+0:06:52.560,0:06:58.680
+O.k., in a similar vein, also
+as a scholarly article rather than
+
+0:06:58.680,0:07:07.260
+a textbook, here is an article by Harel.
+That should also be available to you, and
+
+0:07:07.260,0:07:13.200
+even without restriction of having to
+be logged in from the Uniaccount.
+
+0:07:13.200,0:07:18.780
+Why is this article relevant? Because
+it lays the foundation for a
+
+0:07:18.780,0:07:25.080
+part of UML, namely UML state diagrams. This
+will be the last chapter in the lecture
+
+0:07:25.080,0:07:29.172
+where we deal with this
+particular type of statecharts or
+
+0:07:29.172,0:07:33.750
+state diagrams in UML. This is
+often perceived as the most complex
+
+0:07:33.750,0:07:39.840
+part of the lecture.
+UML statecharts are also
+
+0:07:39.840,0:07:44.010
+explained to some extent in UML books.
+But in a very nice and intuitive way
+
+0:07:44.010,0:07:49.830
+in my opinion they are just described in
+the original article that formed the basis for
+
+0:07:49.830,0:07:54.570
+UML state diagrams later. The
+syntax is not one hundred percent
+
+0:07:54.570,0:07:59.220
+exactly the same there, but the important concepts
+we will be looking at from statecharts, you
+
+0:07:59.220,0:08:12.400
+will find well explained in English in that article.
+O.k., I think I have one more book ready.
+
+0:08:12.400,0:08:18.820
+Exactly, that is this book, also
+available in English in the library.
+
+0:08:18.820,0:08:22.510
+To my knowledge not electronically,
+but as a hand copy.
+
+0:08:22.510,0:08:30.640
+Again, a very comprehensive book
+that covers a lot on UML.
+
+0:08:30.640,0:08:35.350
+In particular, that's why I still
+included it here, it also covers the
+
+0:08:35.350,0:08:40.960
+dynamic aspects, dynamic modeling with UML. Which doesn't
+necessarily happen to the same extent in all of
+
+0:08:40.960,0:08:46.720
+the UML references that I mentioned before.
+Yes, we will, I can anticipate, look
+
+0:08:46.720,0:08:51.070
+at static and dynamic modeling.
+Static modeling with UML is explained
+
+0:08:51.070,0:08:56.170
+very well in very many
+places. Also, simply in introductory books
+
+0:08:56.170,0:08:59.530
+on software engineering, the dynamic
+aspects, which include the statecharts,
+
+0:08:59.530,0:09:05.560
+which are certainly more difficult and are
+not covered everywhere in the same way,
+
+0:09:05.560,0:09:12.100
+but among others, in this book
+just. O.k., again to repeat: You
+
+0:09:12.100,0:09:15.220
+don't have to read any of these books.
+You don't have to pick up any of
+
+0:09:15.220,0:09:21.340
+these books at all if you don't like
+it. But it might be helpful if you need
+
+0:09:21.340,0:09:25.000
+more examples, want to read something
+again in a different way than
+
+0:09:25.000,0:09:30.010
+I explain it in the lecture, or just
+want to have more practice material as well.
+
