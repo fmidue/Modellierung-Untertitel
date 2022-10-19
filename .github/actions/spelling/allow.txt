@@ -1,0 +1,14 @@
+ABCDEF
+GPT
+Harel
+KWFZ
+Komedia
+UML
+WKFZ
+blackbox
+greybox
+monoids
+statecharts
+subparticles
+whiteboard
+whitebox
