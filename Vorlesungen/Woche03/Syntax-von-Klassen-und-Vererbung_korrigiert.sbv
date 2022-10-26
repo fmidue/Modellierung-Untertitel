@@ -1,0 +1,958 @@
+0:00:01.449,0:00:03.080
+Also Syntax von Klassen:
+
+0:00:03.080,0:00:06.950
+Wie stellen wir später in einem Klassendiagramm
+die Klassen dar?
+
+0:00:06.950,0:00:12.950
+Ich mache das hier für ein Beispiel, das
+wir dann leicht verallgemeinern können auf
+
+0:00:12.950,0:00:15.059
+andere Situationen.
+
+0:00:15.059,0:00:16.740
+Und zwar soll das Beispiel sein:
+
+0:00:16.740,0:00:19.840
+Eine Klasse von Punkten soll angelegt werden.
+
+0:00:19.840,0:00:22.520
+Also wir wollen Punkte des zweidimensionalen
+Raums abspeichern.
+
+0:00:22.520,0:00:26.960
+Also wir werden jeweils x- und y-Koordinaten
+haben, und irgendwelche Operationen auf diesen
+
+0:00:26.960,0:00:27.960
+Punkten.
+
+0:00:27.960,0:00:32.930
+Also vielleicht soll das wieder irgendwie
+eine Vektorgrafikdomäne sein, die wir diesmal
+
+0:00:32.930,0:00:35.120
+objektorientiert spezifizieren wollen.
+
+0:00:35.120,0:00:36.780
+Das könnte man sich ja vorstellen.
+
+0:00:36.780,0:00:41.840
+Dann wird es am Ende einen Graphen geben,
+und in dem Graphen werden einzelne Knoten
+
+0:00:41.840,0:00:47.030
+sein, die jeweils solche Kästen sind (also
+eine kleine Grafik).
+
+0:00:47.030,0:00:49.579
+Und was tritt darin auf?
+
+0:00:49.579,0:00:52.489
+Das wird jeweils ein dreigeteilter Kasten
+sein.
+
+0:00:52.489,0:00:58.899
+Und da gibt es erst mal einen Klassennamen,
+also die Identifizierung der Klasse selbst.
+
+0:00:58.899,0:01:03.260
+Dann gibt es einen Bereich, in dem Attribute
+eingetragen werden können.
+
+0:01:03.260,0:01:08.149
+Das sind in dem Fall die abzuspeichernden
+Informationen, also die x- und y-Koordinate.
+
+0:01:08.149,0:01:09.670
+Das ist jeweils eine Zahl.
+
+0:01:09.670,0:01:12.630
+Das wird hier als Typ angegeben.
+
+0:01:12.630,0:01:15.509
+Nicht immer wird das schon so früh so detailliert
+gemacht.
+
+0:01:15.509,0:01:18.560
+Also wir haben vorhin Beispiele gesehen, wo
+die Typangaben fehlten.
+
+0:01:18.560,0:01:22.119
+In der Regel werden wir in den Übungen (und
+später auch in der Klausur) von Ihnen erwarten,
+
+0:01:22.119,0:01:24.899
+dass Sie da sinnvolle Typangaben dranschreiben.
+
+0:01:24.899,0:01:28.090
+Und dann gibt es diesen dritten Bereich, in
+dem Operationen bzw.
+
+0:01:28.090,0:01:33.219
+Methoden festgehalten werden können (auch
+mit ihren Typen).
+
+0:01:33.219,0:01:37.939
+Das ist natürlich irgendwie die Brücke zur
+dynamischen Modellierung, wo man dann ausdrücken
+
+0:01:37.939,0:01:40.340
+würde, was diese Methoden tun sollen.
+
+0:01:40.340,0:01:46.349
+Während hier einfach nur statisch angegeben
+wird, was ihre Typen sind.
+
+0:01:46.349,0:01:47.749
+Als Bemerkung:
+
+0:01:47.749,0:01:50.009
+Natürlich stehen hier schon Aktivitäten.
+
+0:01:50.009,0:01:57.810
+Etwa, man möge einen Punkt in x- und y-Richtung
+bewegen, um irgendwelche Zahlendifferenzen.
+
+0:01:57.810,0:02:00.219
+Dennoch ist das, was hier steht, noch statische
+Modellierung.
+
+0:02:00.219,0:02:05.070
+Weil eben kein Code oder eine Beschreibung
+da ist, was die Operationen auslösen.
+
+0:02:05.070,0:02:09.620
+Es gibt nur den Namen und die Typen.
+
+0:02:09.620,0:02:13.569
+Dabei sind hier natürlich einerseits die
+Argumenttypen interessant, die jeweils in
+
+0:02:13.569,0:02:14.569
+Klammern stehen.
+
+0:02:14.569,0:02:18.750
+Also man kann einen Punkt bewegen, und dann
+muss man sagen, worum man ihn bewegen möchte,
+
+0:02:18.750,0:02:20.470
+um welche Differenzen.
+
+0:02:20.470,0:02:24.810
+Und dann gibt es für diese Operation keinen
+Rückgabewert.
+
+0:02:24.810,0:02:25.810
+Warum nicht?
+
+0:02:25.810,0:02:29.900
+Weil dieses Bewegen direkt auf den Punkt selbst
+wirkt.
+
+0:02:29.900,0:02:34.530
+Und da hatten wir bei der Einführung der
+Objektorientierung gesagt, dass dann keine
+
+0:02:34.530,0:02:41.620
+explizite Angabe nötig ist, weil implizit
+auf dem konkreten Punkt operiert wird.
+
+0:02:41.620,0:02:47.120
+Andererseits, wenn wir zum Beispiel die Vektorlänge
+bestimmen wollten, also die Länge des Vektors
+
+0:02:47.120,0:02:51.000
+vom Koordinatenursprung zum aktuellen Punkt,
+dann wäre das keine Veränderung des Punktes,
+
+0:02:51.000,0:02:52.409
+sondern wir wollen irgendwas berechnen.
+
+0:02:52.409,0:02:57.180
+Wir brauchen keine Argumente, weil wir auf
+dem Punkt selbst arbeiten und nicht noch weitere
+
+0:02:57.180,0:02:58.180
+Informationen brauchen.
+
+0:02:58.180,0:03:01.689
+Aber wir wollen eine Zahl zurückkriegen,
+statt den Punkt zu verändern.
+
+0:03:01.689,0:03:04.340
+Dann würden wir hier einfach sagen, was herauskommt.
+
+0:03:04.340,0:03:05.769
+Und dann ist das hier das Ergebnis.
+
+0:03:05.769,0:03:15.019
+Also die Vektorlänge liefert eine Zahl, deswegen
+steht hier das als Ergebnistyp da.
+
+0:03:15.019,0:03:19.209
+Ein paar weitere Bemerkungen.
+
+0:03:19.209,0:03:22.739
+Zunächst erst mal, die Attribute, die hier
+stehen, das sind nicht Attribute der Klasse
+
+0:03:22.739,0:03:23.739
+per se.
+
+0:03:23.739,0:03:27.800
+Also natürlich stehen sie im Klassendiagramm
+als Attribute an der Klasse.
+
+0:03:27.800,0:03:31.190
+Aber es ist nicht so, dass die Klasse insgesamt
+eine x- und y-Koordinate hat.
+
+0:03:31.190,0:03:35.879
+Sondern die Klasse ist eine Sammlung von Objekten,
+nämlich einzelner Punkte, und jede Instanz
+
+0:03:35.879,0:03:38.180
+hat Ausprägungen für diese x- und y-Werte.
+
+0:03:38.180,0:03:39.230
+Also es ist wichtig:
+
+0:03:39.230,0:03:40.819
+Das sind sogenannte Instanz-Attribute.
+
+0:03:40.819,0:03:43.480
+Die gehören letztlich zu den Instanzen der
+Klasse.
+
+0:03:43.480,0:03:48.489
+Also zu den Objekten, die wir später bilden
+werden, und nicht zu der Klasse selbst.
+
+0:03:48.489,0:03:51.870
+Aber sie werden in der Klasse festgehalten,
+weil alle Objekte der Klasse jeweils einen
+
+0:03:51.870,0:03:55.379
+x- und y-Wert haben sollen (aber verschiedene
+Werte für verschiedene Objekte).
+
+0:03:55.379,0:04:00.959
+Hier steht einfach die Information, dass diese
+beiden Werte immer vorliegen sollen.
+
+0:04:00.959,0:04:05.639
+Dann ein Detail, das Sie vielleicht kennen,
+wenn Sie schon objektorientiert programmiert
+
+0:04:05.639,0:04:06.639
+haben.
+
+0:04:06.639,0:04:10.249
+Oder was Ihnen vielleicht auch begegnen wird,
+wenn Sie sich Beispiele aus Büchern anschauen.
+
+0:04:10.249,0:04:15.999
+Da gibt es manchmal, dass an den Attributen
+oder an den Methoden noch irgendwelche "funny
+
+0:04:15.999,0:04:19.280
+symbols" stehen, also irgendwelche Spezialsymbole:
+Plus, Minus.
+
+0:04:19.280,0:04:22.760
+Das können manchmal auch Bezeichnungen sein,
+also Zeichenketten.
+
+0:04:22.760,0:04:24.420
+Manchmal aber eben auch nur diese kurzen Symbole.
+
+0:04:24.420,0:04:30.510
+Das sind sogenannte Sichtbarkeits-Annotationen
+an den Attributen.
+
+0:04:30.510,0:04:38.780
+Die sagen etwas darüber aus, später in der
+Implementierung, von welchen anderen Objekten
+
+0:04:38.780,0:04:42.510
+auf Instanz-Attribute und Methoden zugegriffen
+werden darf.
+
+0:04:42.510,0:04:44.390
+Das werden wir vollständig ignorieren.
+
+0:04:44.390,0:04:51.070
+Also das spielt für uns in der Modellierung
+keine Rolle.
+
+0:04:51.070,0:04:56.210
+Wenn Sie in einem Beispiel so etwas sehen
+(in unserer Vorlesung und Übung wird das
+
+0:04:56.210,0:05:02.160
+nicht auftreten), wenn Sie von woanders Beispiele
+sehen, können Sie diese Modifikatoren für
+
+0:05:02.160,0:05:06.660
+den Zweck dieser Vorlesung ignorieren.
+
+0:05:06.660,0:05:13.020
+Und dann eine weitere Möglichkeit, noch mehr
+Informationen in die Klasse hineinzupacken.
+
+0:05:13.020,0:05:19.500
+Schon bei der Angabe dieser Darstellung, was
+wir jetzt getan hatten, war, dass wir den
+
+0:05:19.500,0:05:20.500
+Attributen Typen gegeben haben.
+
+0:05:20.500,0:05:22.280
+Manchmal gibt man denen auch Vorgabewerte.
+
+0:05:22.280,0:05:28.470
+Wo die Idee dann ist, dass wenn in einzelnen
+Objekten zum Beispiel die x-Koordinate nicht
+
+0:05:28.470,0:05:35.920
+explizit belegt wird, dann einfach der Vorgabewert
+aus der Klassenangabe gelten würde.
+
+0:05:35.920,0:05:38.430
+Dann würde man das so schreiben:
+
+0:05:38.430,0:05:41.000
+Also x muss eine ganze Zahl sein, und der
+Default ist null.
+
+0:05:41.000,0:05:46.880
+Das hieße dann, dass wenn in einem Objekt
+dieser Klasse zu dem x nichts gesagt wird,
+
+0:05:46.880,0:05:53.420
+es einfach schon direkt den Wert null hätte.
+
+0:05:53.420,0:05:57.880
+Nun sind die Klassen natürlich da, um Objekte
+zu beschreiben.
+
+0:05:57.880,0:06:02.410
+Also das Ziel ist, mit einer Klasse den Aufbau
+bestimmter Objekte zu beschreiben.
+
+0:06:02.410,0:06:09.060
+Und dabei ist es dann natürlich so, dass
+eine Instanz einer Klasse ein konkretes Objekt
+
+0:06:09.060,0:06:10.060
+darstellt.
+
+0:06:10.060,0:06:15.510
+Also unsere Point-Klasse kann ganz viele Objekte
+haben, die deren Ausprägung sind.
+
+0:06:15.510,0:06:22.090
+Und ein konkreter, zum Beispiel mein konkreter
+Punkt von der Klasse "Point", wäre dann angegeben,
+
+0:06:22.090,0:06:27.470
+indem die Instanz-Attribute mit konkreten
+Zahlen belegt sind.
+
+0:06:27.470,0:06:29.940
+Das würde man dann so notieren.
+
+0:06:29.940,0:06:35.770
+Also man kann durchaus die Klasse und das
+Objekt gemeinsam notieren, und dann durch
+
+0:06:35.770,0:06:37.690
+diese spezielle Art des Pfeils sagen:
+
+0:06:37.690,0:06:40.100
+Das ist eine Instanz dieser Klasse.
+
+0:06:40.100,0:06:43.500
+Und dann gibt es hier nur zwei Abschnitte.
+
+0:06:43.500,0:06:50.010
+Den Namen des Objektes und die Angabe, dass
+er Objekt dieser Klasse ist.
+
+0:06:50.010,0:06:56.500
+Dann gibt es noch diese Syntax-Unterstreichung,
+letztlich um Klassen und Objekte zu unterscheiden.
+
+0:06:56.500,0:07:01.500
+Aber vor allem gibt es in den Objekten keinen
+Methodenkasten.
+
+0:07:01.500,0:07:05.890
+Also diesen Teil hier unten gibt es bei den
+einzelnen Objekten nicht.
+
+0:07:05.890,0:07:06.890
+Warum nicht?
+
+0:07:06.890,0:07:08.620
+Weil dieser Code wiederverwendet wird.
+
+0:07:08.620,0:07:14.560
+Also während zwar jedes Objekt der Klasse
+eigene x- und y-Werte haben kann, ist die
+
+0:07:14.560,0:07:19.990
+Funktionalität (einen Punkt zu bewegen, die
+Vektorlänge eines Punktes zu bestimmen, etc.)
+
+0:07:19.990,0:07:22.630
+nichts was für einzelne Punkte verschieden
+ist.
+
+0:07:22.630,0:07:26.000
+Also die Funktionalität ist für alle Punkte
+gleich.
+
+0:07:26.000,0:07:32.360
+Deswegen sind die Methoden/Operationen bei
+der Klasse beheimatet und nicht bei einzelnen
+
+0:07:32.360,0:07:34.350
+Instanzen der Klasse.
+
+0:07:34.350,0:07:37.530
+Deswegen gibt es hier rechts keine Methoden.
+
+0:07:37.530,0:07:42.960
+Das ist ein typischer Fehler in Übung/Klausur,
+dass auch bei Objekten Methoden angegeben
+
+0:07:42.960,0:07:43.960
+werden.
+
+0:07:43.960,0:07:48.750
+Das soll nicht sein und kann dann auch zu
+Punktabzug führen.
+
+0:07:48.750,0:07:56.460
+Also wenn man für verschiedene Objekte verschiedenes
+Verhalten haben will, dann wären das einfach
+
+0:07:56.460,0:07:57.770
+nicht Objekte der gleichen Klasse.
+
+0:07:57.770,0:07:59.690
+Dann hätte man zwei verschiedene Klassen.
+
+0:07:59.690,0:08:04.110
+Also es kann ja noch Klassen geben, die auch
+zwei ganze Zahlen speichern, zum Beispiel
+
+0:08:04.110,0:08:06.860
+eine Klasse für arithmetische Brüche.
+
+0:08:06.860,0:08:07.960
+Da braucht man auch zwei Zahlen.
+
+0:08:07.960,0:08:12.220
+Das wäre dann aber keine Punkt-Klasse, weil
+sie ganz andere Operationen hätte.
+
+0:08:12.220,0:08:14.240
+Dann hätte man eine zweite Klasse für Brüche.
+
+0:08:14.240,0:08:16.400
+Davon gäbe es auch Objekte.
+
+0:08:16.400,0:08:20.470
+Die würden auch jeweils zwei ganze Zahlen
+speichern.
+
+0:08:20.470,0:08:25.870
+Aber in den verschiedenen Klassen für Punkte
+und für Brüche gäbe es verschiedene Operationen.
+
+0:08:25.870,0:08:31.500
+Und die Objekte müssen dann keine Operationen
+mehr speichern, weil sie jeweils zu einer
+
+0:08:31.500,0:08:40.570
+Klasse gehören und das determiniert, welche
+Funktionalität für sie verfügbar ist.
+
+0:08:40.570,0:08:43.000
+Noch als Hinweis zur Übung:
+
+0:08:43.000,0:08:48.220
+Da werden wir auch so was haben, dass Sie
+zu Klassen oder einer Klasse Objekte angeben
+
+0:08:48.220,0:08:49.220
+sollen.
+
+0:08:49.220,0:08:54.460
+Dann müssen Sie das, außer es steht explizit
+gefordert da, nicht unbedingt tun, indem Sie
+
+0:08:54.460,0:09:00.420
+die Klasse noch mal abschreiben und die Objekte
+angeben und immer diese Instanziierungspfeile
+
+0:09:00.420,0:09:01.420
+machen.
+
+0:09:01.420,0:09:06.690
+Es reicht dann auch (wenn die Klasse klar
+ist), dass Sie einfach nur solche Objekte
+
+0:09:06.690,0:09:09.040
+angeben.
+
+0:09:09.040,0:09:16.380
+Das wäre die Beziehung zwischen Klassen und
+Objekten.
+
+0:09:16.380,0:09:20.680
+Es gibt auch Beziehungen zwischen Klassen
+im Klassendiagramm.
+
+0:09:20.680,0:09:24.420
+Eine erste solche Beziehung ist die sogenannte
+Vererbung.
+
+0:09:24.420,0:09:31.649
+Da geht es also darum, das Klassen sich ähneln
+können, oder eine Klasse in gewissem Sinne
+
+0:09:31.649,0:09:34.520
+eine Erweiterung einer anderen Klasse sein
+kann.
+
+0:09:34.520,0:09:38.450
+Ein Beispiel für unsere Grafikdomäne wäre:
+
+0:09:38.450,0:09:45.670
+Wir haben Punkte, die speichern bestimmte
+Information und bieten bestimmte Methoden
+
+0:09:45.670,0:09:46.670
+an.
+
+0:09:46.670,0:09:52.900
+Und dann kann es eben sein, dass wir ein weiteres
+Konzept haben, das der gefärbten Punkte.
+
+0:09:52.900,0:09:54.700
+Was ist ein gefärbter Punkt?
+
+0:09:54.700,0:09:59.580
+Ein gefärbter Punkt ist immer noch ein Punkt,
+muss also auch Koordinaten x, y haben, soll
+
+0:09:59.580,0:10:03.930
+zusätzlich aber noch eine Farbe haben (und
+vielleicht auch weitere Operationen).
+
+0:10:03.930,0:10:06.540
+Also wir müssten eine Farbe speichern.
+
+0:10:06.540,0:10:12.340
+Und vielleicht gibt es eine Operation, die
+einen gefärbten Punkt in Graustufen übersetzt.
+
+0:10:12.340,0:10:17.230
+Das ist eine Operation, die auf Punkten allgemein
+keinen Sinn ergibt, nur auf gefärbten Punkten.
+
+0:10:17.230,0:10:19.330
+Deswegen würde sie hier beheimatet sein.
+
+0:10:19.330,0:10:24.450
+Genauso, wie die Farbe natürlich genau das
+Unterscheidungsmerkmal der gefärbten Punkte
+
+0:10:24.450,0:10:27.420
+von normalen Punkten ist und deswegen hier
+angegeben wird.
+
+0:10:27.420,0:10:30.670
+Was hier rechts steht, sind keine Ersetzungen
+für die Sachen, die hier stehen.
+
+0:10:30.670,0:10:34.000
+Das sind immer Zusatzinformationen/Zusatzaspekte.
+
+0:10:34.000,0:10:37.760
+Also auch der ColoredPoint hat eine x- und
+y-Koordinate.
+
+0:10:37.760,0:10:41.500
+Die müssen nur hier nicht mehr angegeben
+werden, weil sie geerbt werden.
+
+0:10:41.500,0:10:47.420
+Das ist genau das, was dieser Pfeil, insbesondere
+mit dieser speziellen Art von Pfeilspitze,
+
+0:10:47.420,0:10:48.420
+ausdrückt.
+
+0:10:48.420,0:10:50.230
+Also ColoredPoint erbt von Point.
+
+0:10:50.230,0:10:53.890
+Das heißt, Attribute von Point sind auch
+Attribute von ColoredPoint.
+
+0:10:53.890,0:10:58.660
+Und hier können noch weitere Informationen
+stehen, weitere Attribute.
+
+0:10:58.660,0:11:02.710
+Methoden von Point sind auch Methoden von
+ColoredPoint, aber ColoredPoint kann noch
+
+0:11:02.710,0:11:05.530
+weitere Funktionalität anbieten.
+
+0:11:05.530,0:11:10.460
+Man spricht dann von Superklasse oder Oberklasse.
+
+0:11:10.460,0:11:12.770
+Das wäre hier:
+
+0:11:12.770,0:11:15.690
+Die allgemeinere Klasse wäre die Oberklasse
+oder Superklasse.
+
+0:11:15.690,0:11:20.640
+Und das spezialisierte Konzept des gefärbten
+Punktes hier, das nennt man Unterklasse oder
+
+0:11:20.640,0:11:21.640
+Subklasse.
+
+0:11:21.640,0:11:24.660
+Manchmal wird dann hier gefragt:
+
+0:11:24.660,0:11:31.430
+Gibt es auch Mehrfachvererbung?
+
+0:11:31.430,0:11:33.090
+Kann man auch von mehreren Sachen erben?
+
+0:11:33.090,0:11:35.580
+Also könnte ColoredPoint auch von zwei verschiedenen
+Klassen erben?
+
+0:11:35.580,0:11:36.600
+Wie ist das mit diesen Pfeilen?
+
+0:11:36.600,0:11:37.600
+Was ist da möglich?
+
+0:11:37.600,0:11:40.779
+Dürfen verschiedene Klassen von Point erben?
+
+0:11:40.779,0:11:43.230
+Darüber werden wir gleich sprechen.
+
+0:11:43.230,0:11:49.340
+Auch an unserem Bibliotheks-Beispiel könnte
+man sich noch fragen:
+
+0:11:49.340,0:11:51.990
+Ist da auch irgendwie sinnvolle Vererbung
+denkbar?
+
+0:11:51.990,0:11:53.480
+Man muss immer überlegen:
+
+0:11:53.480,0:11:55.810
+Gibt es dort Aspekte, die verallgemeinert
+werden könnten?
+
+0:11:55.810,0:11:58.990
+Wo zum Beispiel verschiedene Klassen etwas
+gemeinsam haben?
+
+0:11:58.990,0:12:03.080
+Also nehmen wir an, es gäbe in der Bibliothek
+auch noch andere Medien als Bücher.
+
+0:12:03.080,0:12:04.370
+Dann könnten wir noch CDs einführen, Videos,
+Zeitschriften.
+
+0:12:04.370,0:12:09.510
+Und wir könnten uns jeweils eine neue Klasse
+dafür ausdenken.
+
+0:12:09.510,0:12:13.020
+Und irgendwann würden wir dann vielleicht
+merken, dass diese verschiedenen Medien bestimmte
+
+0:12:13.020,0:12:14.180
+Dinge gemeinsam haben.
+
+0:12:14.180,0:12:23.860
+Also zwar hat nur die Zeitschrift Zeitschriftennummern
+und vielleicht nur die Videos haben eine Spieldauer,
+
+0:12:23.860,0:12:27.290
+aber einen Autor und einen Titel haben alle
+diese Medien.
+
+0:12:27.290,0:12:31.320
+Also vielleicht würde es Sinn ergeben, eine
+Klasse für Medien allgemein einzuführen
+
+0:12:31.320,0:12:35.280
+und dann erbende, spezialisierte Klassen für
+Bücher, CDs, etc.
+
+0:12:35.280,0:12:42.920
+Das ist dann Teil des Designs, auch sinnvolle
+solche Beziehungen zu finden.
+
+0:12:42.920,0:12:48.760
+Das hatte ich schon gesagt:
+
+0:12:48.760,0:12:51.330
+Die Subklasse erbt Attribute und Methoden
+(später auch weitere Beziehungen, die wir
+
+0:12:51.330,0:12:55.140
+noch diskutieren werden) der Superklasse,
+und kann weitere hinzufügen.
+
+0:12:55.140,0:13:01.160
+Ein Aspekt für die Implementierung, der jetzt
+für die statische Modellierung nicht so wichtig
+
+0:13:01.160,0:13:07.360
+ist, ist dass Methoden der Oberklasse überschrieben
+werden können.
+
+0:13:07.360,0:13:08.720
+Das hatte ich hier gesagt:
+
+0:13:08.720,0:13:12.870
+Alle Methoden, die es für Point gibt, gibt
+es auch für ColoredPoint.
+
+0:13:12.870,0:13:17.180
+Es könnte aber sein, dass das Verhalten einzelner
+dieser Methoden für ColoredPoints etwas anders
+
+0:13:17.180,0:13:18.180
+sein muss.
+
+0:13:18.180,0:13:21.910
+Dann würde man also nicht ändern, dass die
+Methoden existieren, aber was sie tun.
+
+0:13:21.910,0:13:26.800
+Und für die neuen Methoden muss man natürlich
+sowieso sagen, was sie tun, weil der Point
+
+0:13:26.800,0:13:35.820
+selbst nichts über Grau-Einfärbung weiß.
+
+0:13:35.820,0:13:48.200
+Und ein weiterer wichtiger Punkt dieser Art
+Beziehung, der Vererbung, ist, dass das so
+
+0:13:48.200,0:13:53.630
+zu verstehen ist, dass jedes Objekt der Unterklasse
+auch als Objekt der Oberklasse angesehen werden
+
+0:13:53.630,0:13:54.630
+kann.
+
+0:13:54.630,0:13:57.160
+Da spricht man von Polymorphie/Vielgestaltigkeit.
+
+0:13:57.160,0:14:01.810
+In dem Sinne, dass alles, was man mit Points
+machen kann, man mit ColoredPoint auch noch
+
+0:14:01.810,0:14:02.810
+machen kann.
+
+0:14:02.810,0:14:07.451
+Also ColoredPoints ist nicht einfach irgendeine
+andere Sache, die zufällig auch eine x- und
+
+0:14:07.451,0:14:08.451
+y-Koordinate hat.
+
+0:14:08.451,0:14:11.460
+Sondern ColoredPoint ist wirklich zu sehen
+als auch ein Punkt, aber noch zusätzliche
+
+0:14:11.460,0:14:12.460
+Informationen dazu.
+
+0:14:12.460,0:14:16.540
+Alles, was mit Punkten geht, muss mit gefärbten
+Punkten auch gehen.
+
+0:14:16.540,0:14:19.810
+Sonst wäre es falsch, hier eine Vererbung
+zu haben.
+
+0:14:19.810,0:14:24.710
+Man sollte also nicht einfach beliebige Konzepte
+durch Vererbung verbinden, nur weil sie zufällig
+
+0:14:24.710,0:14:25.710
+ähnliche Datenspeicher haben.
+
+0:14:25.710,0:14:27.420
+Es geht wirklich immer darum:
+
+0:14:27.420,0:14:36.490
+Es muss eine echte Generalisierungs-/Spezialisierungsbeziehung
+sein zwischen den beiden Klassen.
+
+0:14:36.490,0:14:38.720
+Dann ist das nämlich sinnvoll einsetzbar.
+
+0:14:38.720,0:14:49.490
+Und wenn
+wir schon bei Vererbung sind, gibt es noch
+
+0:14:49.490,0:14:52.990
+ein paar strukturelle Dinge zu beachten.
+
+0:14:52.990,0:14:55.680
+Also bald wollen wir nicht nur zwei Klassen
+haben.
+
+0:14:55.680,0:15:00.940
+Wir werden das ja verallgemeinern bzw. anreichern.
+
+0:15:00.940,0:15:04.680
+Dass wir nicht nur zwei Klassen und deren
+Beziehung haben, sondern dann ein ganzes Klassendiagramm
+
+0:15:04.680,0:15:07.730
+mit mehreren Klassen und ihren Beziehungen.
+
+0:15:07.730,0:15:14.010
+Und dann kann man eben in Situationen kommen,
+wo bestimmte Konstellationen keinen Sinn mehr
+
+0:15:14.010,0:15:15.010
+ergeben.
+
+0:15:15.010,0:15:17.680
+Da muss man einige Dinge beachten.
+
+0:15:17.680,0:15:22.810
+Insbesondere für den Moment ist es einfach
+das, was hier festgehalten ist.
+
+0:15:22.810,0:15:24.790
+Also hier steht:
+
+0:15:24.790,0:15:26.640
+"Konstellationen, die verboten sind."
+
+0:15:26.640,0:15:31.290
+Was verboten ist, wären erst mal irgendwelche
+Zirkularitäten.
+
+0:15:31.290,0:15:34.120
+Also man kann nicht im Kreis vererben.
+
+0:15:34.120,0:15:38.779
+Es kann nicht sein, dass B von A erbt, C von
+B erbt, und A von C.
+
+0:15:38.779,0:15:41.980
+Es könnte schon sein, dass B von A erbt und
+C von B erbt.
+
+0:15:41.980,0:15:48.940
+Also, wenn dieser Pfeil hier weg wäre, wäre
+die Situation okay.
+
+0:15:48.940,0:15:54.640
+Aber mit allen drei Pfeilen hier hätten wir
+eine nicht sinnvolle Situation.
+
+0:15:54.640,0:15:58.589
+Es würde also einfach gar nicht erlaubt sein,
+dieses Klassendiagramm mit so einer zirkulären
+
+0:15:58.589,0:16:03.370
+Vererbungskette anzugeben.
+
+0:16:03.370,0:16:07.910
+Letztlich aus ähnlichen Gründen ist auch
+eine Selbstvererbung nicht sinnvoll.
+
+0:16:07.910,0:16:10.970
+Also eine Klasse kann nicht von sich selbst
+erben.
+
+0:16:10.970,0:16:16.980
+Und eine Klasse kann auch nicht sozusagen
+doppelt von einer anderen Klasse erben.
+
+0:16:16.980,0:16:19.839
+In all diesen Fällen ist natürlich die Richtung
+der Pfeile relevant.
+
+0:16:19.839,0:16:21.339
+Hier nicht, also hier wäre es egal.
+
+0:16:21.339,0:16:23.529
+Wenn der Pfeil andersherum wäre, wäre es
+auch noch verboten.
+
+0:16:23.529,0:16:27.690
+Bei den anderen Situationen könnte sich das
+Bild ja jeweils ändern.
+
+0:16:27.690,0:16:33.040
+Während hier, wenn man den Pfeil umdrehen
+würde, es wieder ein Zirkelschluss wäre.
+
+0:16:33.040,0:16:36.920
+Wäre sozusagen aus einem anderen Grund verboten
+und nicht wegen dieser Doppelvererbung.
+
+0:16:36.920,0:16:43.490
+Und wenn man hier einen Pfeil umdrehen würde,
+hätte man keine Zirkularität mehr.
+
+0:16:43.490,0:16:48.580
+Also Zirkularität heißt wirklich: in Richtung
+der Pfeile ein Kreis.
+
+0:16:48.580,0:16:52.592
+Wenn man hier den Pfeil umdrehen würde, hätte
+man keine Zirkularität mehr, weil man den
+
+0:16:52.592,0:16:54.740
+Pfeilen folgend nicht im Kreis gehen könnte.
+
+0:16:54.740,0:16:56.640
+Man hätte dann aber eine Doppelvererbung.
+
+0:16:56.640,0:16:59.779
+Dann würde C von A und von B erben.
+
+0:16:59.779,0:17:04.880
+Das ist prinzipiell in UML erlaubt, aber nicht
+alle Programmiersprachen unterstützen das.
+
+0:17:04.880,0:17:10.250
+Wir werden da gesondert drauf achten, ob das
+jeweils erlaubt sein soll oder nicht.

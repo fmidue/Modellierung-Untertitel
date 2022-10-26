@@ -1,0 +1,1707 @@
+0:00:00.000,0:00:03.690
+Welcome back to
+a new week.
+
+0:00:03.690,0:00:12.060
+We will now start with an
+introduction to UML (in particular static
+
+0:00:12.060,0:00:16.170
+modeling with UML)
+and object orientation.
+
+0:00:17.370,0:00:23.070
+Before that, a few words about
+UML as such, since, as I said,
+
+0:00:23.970,0:00:29.670
+this language will generally take
+up more space in the lecture.
+
+0:00:29.670,0:00:32.700
+So UML (Unified Modeling
+Language) is a standard modeling
+
+0:00:32.700,0:00:34.950
+language for
+software engineering.
+
+0:00:34.950,0:00:39.780
+Quite common both in
+the literature and in practice.
+
+0:00:39.780,0:00:44.490
+Possibly known from school, if
+you had computer science classes
+
+0:00:44.490,0:00:48.930
+there and object-oriented
+work was done.
+
+0:00:48.930,0:00:51.840
+You might also have at
+least seen class diagrams in
+
+0:00:51.840,0:00:54.150
+your pre-college
+computer science class.
+
+0:00:54.150,0:01:00.630
+That's this first kind of
+diagram that's just shown up here.
+
+0:01:00.630,0:01:06.900
+This is probably more
+of an object diagram, not
+
+0:01:06.900,0:01:11.430
+a class diagram, but this comes from
+the same family of diagrams within UML.
+
+0:01:11.430,0:01:16.770
+As I said, it's based on object-oriented
+concepts, which we'll talk about in a moment.
+
+0:01:16.770,0:01:20.640
+But there are also
+various other types of diagrams
+
+0:01:20.640,0:01:24.450
+that are not directly related to object
+orientation but are still part of UML.
+
+0:01:24.450,0:01:26.310
+So it's a
+very comprehensive modeling
+
+0:01:26.310,0:01:30.203
+language, a framework with
+different kinds of models.
+
+0:01:30.203,0:01:36.900
+It is also now over 20 years
+old and has spread accordingly since then.
+
+0:01:38.010,0:01:41.640
+Usage you will certainly see (for
+some of the types of diagrams
+
+0:01:41.640,0:01:43.380
+we're looking at
+here) in other courses.
+
+0:01:43.380,0:01:48.090
+For Komedia students I'm not sure,
+but for ISE and computer science students:
+
+0:01:48.090,0:01:51.930
+Advanced Programming Techniques, for
+example, or in the
+
+0:01:51.930,0:01:56.910
+Software Engineering lecture, you will certainly
+encounter some of the things again.
+
+0:01:56.910,0:02:03.090
+Both static and dynamic
+modeling is supported by UML.
+
+0:02:03.090,0:02:07.320
+We also see here already
+that graphs play a role.
+
+0:02:08.040,0:02:14.820
+There is less textual modeling
+and also not necessarily very formal.
+
+0:02:14.820,0:02:19.380
+So the different types of
+diagrams have different degrees of formality.
+
+0:02:19.380,0:02:24.930
+There are purely descriptive diagrams and
+there are also somewhat more formalized diagrams.
+
+0:02:28.350,0:02:32.250
+Here is a summary of
+what I have just said.
+
+0:02:32.250,0:02:36.300
+So there are mainly
+visual-graphical means within UML.
+
+0:02:36.300,0:02:41.130
+There is also text, of course, but
+there is less mathematical modeling in UML.
+
+0:02:41.130,0:02:46.740
+Both static and
+dynamic modeling is supported.
+
+0:02:46.740,0:02:51.585
+In the lecture we will first
+deal with static modeling in UML.
+
+0:02:51.585,0:02:55.646
+Later, however, there will be chapters
+dealing with dynamic modeling within UML,
+
+0:02:55.646,0:03:00.810
+after we will have
+covered Petri nets in between.
+
+0:03:00.810,0:03:04.320
+In
+other respects:
+
+0:03:04.980,0:03:09.720
+We had seen so
+different distinction types of models.
+
+0:03:09.720,0:03:12.030
+So besides "static" / "dynamic",
+it was about "qualitative" or "quantitative".
+
+0:03:12.030,0:03:15.480
+This is both
+covered in UML.
+
+0:03:15.480,0:03:18.930
+So for example, the class and
+object diagrams that we're going to
+
+0:03:18.930,0:03:26.190
+look at first definitely contain
+qualitative aspects and some quantitative aspects.
+
+0:03:26.190,0:03:34.080
+As I said, primarily UML is
+used to specify software systems, especially
+
+0:03:34.080,0:03:35.850
+object-oriented
+software systems.
+
+0:03:35.850,0:03:40.410
+With regard to the
+transparency of the models,
+
+0:03:40.410,0:03:45.930
+so to speak, there are both
+whitebox and blackbox models in UML.
+
+0:03:45.930,0:03:47.880
+So it depends on the type
+of diagram you're looking at, whether
+
+0:03:47.880,0:03:50.370
+you think of it more
+as a whitebox or a blackbox.
+
+0:03:50.370,0:03:53.010
+That's both
+covered in principle.
+
+0:03:57.360,0:03:57.857
+In terms of the level
+of formality, semi-formal at best.
+
+0:03:57.857,0:04:00.270
+So this is not mathematical
+modeling and not very formal.
+
+0:04:00.270,0:04:04.500
+The syntax is
+still somewhat formally defined.
+
+0:04:04.500,0:04:06.030
+So it's stated
+somewhere what the
+
+0:04:06.030,0:04:10.470
+diagram forms are in the
+first place, what legal diagrams are.
+
+0:04:10.470,0:04:14.370
+The semantics is usually
+not very formally specified.
+
+0:04:14.370,0:04:22.840
+So what such a diagram means concretely, there
+is an understanding of it, but that is not
+
+0:04:22.840,0:04:29.200
+necessarily mathematically elaborated in
+somehow full logical, mathematical stringency.
+
+0:04:29.200,0:04:35.380
+And the use
+in software development depends,
+
+0:04:35.380,0:04:37.570
+of course, on the process
+model that you are dealing with.
+
+0:04:37.570,0:04:44.410
+I had also indicated that last week,
+that in classical development processes, like the
+
+0:04:44.410,0:04:52.600
+waterfall model, models tend to
+be created explicitly as well.
+
+0:04:52.600,0:04:55.990
+And then UML would definitely
+be a tool of choice.
+
+0:04:55.990,0:05:00.580
+In other process
+models, such as agile
+
+0:05:00.580,0:05:05.080
+development, models are not used
+as much or as explicitly.
+
+0:05:05.080,0:05:06.820
+There, it will
+not necessarily be the
+
+0:05:06.820,0:05:11.830
+case that a class diagram
+is always created before development.
+
+0:05:11.830,0:05:18.310
+So we talk about software development "on a
+large scale" when it comes to such structured
+
+0:05:18.310,0:05:25.510
+procedural processes, and then UML
+would perhaps be even more present.
+
+0:05:25.510,0:05:29.140
+UML can
+be used not
+
+0:05:29.140,0:05:32.800
+only for
+visualization/specification of models.
+
+0:05:32.800,0:05:40.240
+There are also approaches that actually generate
+code directly from models created with UML.
+
+0:05:40.240,0:05:44.260
+I had already
+mentioned model-driven/model-driven development.
+
+0:05:44.260,0:05:48.100
+Then it would be the case that
+UML diagrams are actually generated in a
+
+0:05:48.100,0:05:50.860
+tool, from which Java code is then generated,
+for example (which usually still has to be
+
+0:05:50.860,0:05:52.480
+supplemented, but already provides
+a framework for the implementation).
+
+0:05:52.480,0:05:58.660
+And then, of course, the role of
+models would again be strengthened against other approaches.
+
+0:06:04.030,0:06:09.970
+Here is an overview, schematically,
+of the various UML diagram types.
+
+0:06:09.970,0:06:12.220
+These are not
+all that exist, either.
+
+0:06:12.220,0:06:15.190
+There are one or
+two more diagram types.
+
+0:06:15.190,0:06:17.980
+UML is also
+still under development.
+
+0:06:17.980,0:06:23.620
+But this is already a
+fairly large snapshot here, and
+
+0:06:23.620,0:06:27.100
+some of the concepts here we're going
+to bring to life in the lecture.
+
+0:06:27.100,0:06:30.160
+So we're not going
+to kind of go
+
+0:06:30.160,0:06:34.090
+through all of the 10, 12,
+14, or however many boxes this is.
+
+0:06:34.090,0:06:37.510
+But various of the
+chart types we'll actually see.
+
+0:06:37.510,0:06:38.754
+We can look at.
+What do we have here?
+
+0:06:38.754,0:06:41.680
+So on the one hand, we have
+this distinction between structural and behavioral diagrams.
+
+0:06:41.680,0:06:44.020
+That pretty
+much maps to:
+
+0:06:44.020,0:06:47.050
+This part is
+just the static modeling.
+
+0:06:47.050,0:06:52.570
+And the part over here
+is for dynamic modeling using UML.
+
+0:06:52.570,0:06:57.460
+So since we're doing static modeling first,
+we're going to stay left here first.
+
+0:06:57.460,0:07:01.690
+And in particular, we're going to look
+at just these two diagram types there: Class
+
+0:07:01.690,0:07:03.070
+diagrams and
+Object diagrams.
+
+0:07:03.070,0:07:07.720
+We're not going to cover the other diagram
+types that come up here in the lecture.
+
+0:07:07.720,0:07:11.080
+And then later,
+after we've covered Petri
+
+0:07:11.080,0:07:13.180
+nets, we'll look at
+dynamic modeling with UML.
+
+0:07:13.180,0:07:17.710
+That's where activity diagrams from
+UML will appear, for one thing.
+
+0:07:17.710,0:07:20.500
+These are ultimately related
+representatives of Petri nets.
+
+0:07:20.500,0:07:22.450
+Therefore it makes sense
+to deal with them afterwards.
+
+0:07:22.450,0:07:29.470
+And then we'll deal in
+particular with the UML state
+
+0:07:29.470,0:07:36.430
+diagrams, which are structured
+means with much more expressiveness
+
+0:07:36.430,0:07:40.090
+than the flat state diagrams
+that we looked at last week.
+
+0:07:43.660,0:07:50.110
+And, as I said, some of these types
+of models would be more static or more dynamic.
+
+0:07:50.110,0:07:52.990
+The left/right distinction, so to
+speak, is between static and dynamic.
+
+0:07:52.990,0:07:56.770
+But there are still the
+distinctions qualitative/quantitative, black box/white box, etc.
+
+0:07:56.770,0:07:58.840
+And something of all of
+them shows up here somewhere.
+
+0:07:58.840,0:08:03.160
+So there are charts here that
+are more qualitative versus quantitative, etc.
+
+0:08:03.160,0:08:05.110
+We will then also
+see (for those that
+
+0:08:05.110,0:08:09.130
+we look at specifically) how
+that classifies in each case.
+
+0:08:09.130,0:08:16.390
+But in general, a lot of the types
+of models we discussed earlier occur in UML.
+
+0:08:19.940,0:08:24.950
+First, as I said, class and object
+diagrams, as just shown on the slide.
+
+0:08:24.950,0:08:29.480
+The two on the left from
+the top representatives below structure diagrams.
+
+0:08:29.480,0:08:34.070
+What's being
+statically modeled there?
+
+0:08:34.070,0:08:37.760
+Essentially, what's being
+modeled is this.
+
+0:08:37.760,0:08:41.621
+It's about objects, things, their
+properties, and relationships between them.
+
+0:08:41.621,0:08:43.520
+So those are the three
+things that it's kind of about.
+
+0:08:43.520,0:08:49.910
+What are the things/objects that are in
+the system that we want to talk about?
+
+0:08:49.910,0:08:52.280
+So, what
+exists there?
+
+0:08:52.280,0:08:54.920
+And what properties do
+the respective things have?
+
+0:08:54.920,0:08:58.640
+That can be different
+properties for different areas,
+
+0:08:58.640,0:09:01.340
+which the appearing
+things must have.
+
+0:09:01.340,0:09:03.680
+And what are the
+relations between the things?
+
+0:09:03.680,0:09:06.350
+So, properties refer
+to one thing.
+
+0:09:06.350,0:09:10.250
+Relationships are between different things
+that can occur in the system.
+
+0:09:10.250,0:09:15.710
+The point then is to
+record the state of the system.
+
+0:09:15.710,0:09:16.910
+How it
+is composed.
+
+0:09:16.910,0:09:20.810
+So, not necessarily what concrete values must
+be present at a point in time, but:
+
+0:09:20.810,0:09:23.210
+How is
+the state organized.
+
+0:09:23.210,0:09:24.620
+What must be known
+about the system in order
+
+0:09:24.620,0:09:27.260
+to capture what it looks like
+at a particular point in time?
+
+0:09:27.260,0:09:28.310
+And
+also:
+
+0:09:28.310,0:09:29.720
+How can
+it evolve?
+
+0:09:29.720,0:09:33.140
+Whereby the "how" of development would
+of course be rather dynamic modeling.
+
+0:09:33.140,0:09:36.440
+Here it is more about
+what states are possible at all.
+
+0:09:36.440,0:09:36.950
+So
+not:
+
+0:09:36.950,0:09:38.360
+How do you get
+from one state to another?
+
+0:09:38.360,0:09:38.780
+But
+rather:
+
+0:09:38.780,0:09:40.040
+Which states are
+possible at all?
+
+0:09:40.040,0:09:43.340
+And that also limits
+how the system can develop.
+
+0:09:43.340,0:09:48.380
+And docking to what
+we did last week:
+
+0:09:48.380,0:09:50.810
+What operations
+are offered?
+
+0:09:50.810,0:09:52.910
+So, what can
+you do with things?
+
+0:09:54.710,0:09:58.400
+Without specifying what exactly comes
+out when you do that.
+
+0:09:58.400,0:09:59.210
+But in
+the first place:
+
+0:09:59.210,0:10:01.070
+What is the
+interface, so to speak?
+
+0:10:01.730,0:10:03.920
+Which operations
+are possible?
+
+0:10:08.340,0:10:11.370
+At first, this sounds
+less exciting than modeling behavior.
+
+0:10:11.370,0:10:13.290
+Dynamic modeling is
+always more demanding.
+
+0:10:13.290,0:10:15.000
+That's why we also
+start with static modeling.
+
+0:10:15.000,0:10:17.070
+But, as we
+saw in last week's
+
+0:10:17.070,0:10:20.910
+article, we can
+start with static modeling.
+
+0:10:20.910,0:10:24.300
+What are the objects
+involved in the first place.
+
+0:10:24.300,0:10:27.450
+So, how is the
+data structured in the system?
+
+0:10:27.450,0:10:30.780
+Which operations are
+possible, i.e. are offered?
+
+0:10:30.780,0:10:34.290
+This also limits
+the dynamic behavior.
+
+0:10:34.290,0:10:37.890
+So having such a
+precise static model at first
+
+0:10:37.890,0:10:39.510
+is also an important
+aid later on during implementation.
+
+0:10:40.080,0:10:44.250
+This is especially relevant
+for larger software systems.
+
+0:10:44.250,0:10:49.350
+And, this will not be in
+the foreground in this lecture, but:
+
+0:10:49.350,0:10:55.350
+Such a static modeling also allows
+the application of certain design principles.
+
+0:10:55.350,0:11:01.860
+So, especially if a lot
+of modeling is done with
+
+0:11:01.860,0:11:07.650
+object orientation, then there are certain
+principles what a good object-oriented design is.
+
+0:11:07.650,0:11:09.720
+And if you use
+the UML language, then
+
+0:11:09.720,0:11:12.600
+these principles are very easy to apply,
+so they are also easy to recognize.
+
+0:11:12.600,0:11:14.730
+So there are
+certain programming techniques.
+
+0:11:14.730,0:11:18.000
+Inheritance, for example, you may
+be familiar with if you
+
+0:11:18.000,0:11:21.300
+worked with Java
+in school, for example.
+
+0:11:21.300,0:11:24.060
+And inheritance is quite
+nice at first, but
+
+0:11:24.060,0:11:29.310
+on the other hand, it can also
+be a trap to use that too much.
+
+0:11:30.270,0:11:32.550
+Just because it's there
+in the programming language
+
+0:11:32.550,0:11:34.020
+doesn't mean you have
+to use it everywhere.
+
+0:11:34.020,0:11:40.140
+And a clear design, a clear
+modeling using UML, can make it easier
+
+0:11:40.140,0:11:44.865
+to first make sense of
+when you should actually use inheritance.
+
+0:11:44.865,0:11:47.790
+Again, these are
+patterns that are certainly
+
+0:11:47.790,0:11:54.720
+discussed, for example, in
+the lecture "Advanced Programming Techniques".
+
+0:11:54.720,0:11:59.150
+So you can
+then also ask:
+
+0:11:59.150,0:12:00.530
+What is a good
+or a bad model?
+
+0:12:00.530,0:12:05.780
+If one commits oneself then
+to a certain model language.
+
+0:12:12.320,0:12:13.970
+What is this
+object orientation all about?
+
+0:12:13.970,0:12:16.880
+So, where do the
+objects come into play?
+
+0:12:16.880,0:12:20.450
+First of all, this can be defined in a
+very abstract way, just as we defined our concept
+
+0:12:20.450,0:12:25.025
+of models and systems in a
+very abstract way at the beginning.
+
+0:12:25.025,0:12:25.910
+So, what is
+the basic idea?
+
+0:12:26.960,0:12:33.440
+Somewhat simplified, the world consists of
+objects that are related to each other.
+
+0:12:35.630,0:12:38.150
+That's first of all a statement
+that you can make about the world.
+
+0:12:38.150,0:12:39.320
+And the
+idea is:
+
+0:12:39.320,0:12:44.720
+Since computer science systems often have to do with
+the world or are supposed to represent things from
+
+0:12:44.720,0:12:48.410
+the world, one transfers this basic
+structuring of the world (or this
+
+0:12:48.410,0:12:52.970
+view) precisely to modeling and
+to software development in general.
+
+0:12:52.970,0:12:56.090
+How then is it to
+be put a little more precisely?
+
+0:12:56.090,0:12:57.800
+So the
+idea is:
+
+0:12:57.800,0:13:01.040
+You take the data that should
+somehow be present in the system.
+
+0:13:01.040,0:13:02.990
+These will later
+be called attributes.
+
+0:13:02.990,0:13:05.990
+And these are
+combined with the functionality.
+
+0:13:05.990,0:13:11.030
+This is called methods, and corresponds
+to operations from the previous week.
+
+0:13:11.030,0:13:16.010
+And this data,
+together with the functionality
+
+0:13:16.010,0:13:21.110
+that operates on this data, is
+organized together, summarized together (this is
+
+0:13:21.110,0:13:24.890
+also called encapsulation), and assigned
+to individual objects in each case.
+
+0:13:24.890,0:13:28.100
+So an object
+summarizes: certain data
+
+0:13:28.100,0:13:32.390
+and methods/operation that
+should operate on it.
+
+0:13:32.390,0:13:40.340
+And then each object is
+able to receive method calls.
+
+0:13:40.340,0:13:46.310
+So to perform operations that
+process the data or again
+
+0:13:46.310,0:13:51.860
+trigger other operations
+on other objects.
+
+0:13:51.860,0:13:55.310
+The objects can, so to speak, exchange
+data with each other via the methods/operations.
+
+0:14:01.100,0:14:02.420
+This is already
+a contrast to
+
+0:14:02.420,0:14:05.390
+what we saw last week
+for this vector graphics domain.
+
+0:14:05.390,0:14:10.610
+Because there it wasn't that the
+Pictures, the images, themselves somehow offered methods.
+
+0:14:10.610,0:14:11.480
+But rather there
+were these operations.
+
+0:14:11.480,0:14:15.560
+They were taking Pictures as input
+and possibly returning Pictures as output.
+
+0:14:15.560,0:14:16.730
+So it
+worked both ways:
+
+0:14:16.730,0:14:20.750
+You could take an image as
+input and return an image, or
+
+0:14:20.750,0:14:22.160
+you could just generate an
+image from some numerical data.
+
+0:14:23.780,0:14:31.730
+But it wasn't like the methods
+were directly tied to the images.
+
+0:14:31.730,0:14:34.850
+We'll see that in
+contrast again in a moment.
+
+0:14:38.450,0:14:40.610
+And
+importantly:
+
+0:14:41.780,0:14:49.190
+The benefit of this kind of approach should
+just be that these objects or whole types of
+
+0:14:49.190,0:14:53.930
+objects (whole classes of objects, as
+we will say then) should be realized
+
+0:14:53.930,0:14:56.600
+once, and then be able
+to be reused in different contexts.
+
+0:14:56.600,0:15:00.800
+It's not about describing an object somehow,
+but about making it more general, so that
+
+0:15:00.800,0:15:08.420
+we can then reuse existing
+models in different application contexts.
+
+0:15:12.940,0:15:17.740
+Let's actually look at this in a somewhat naive
+illustrated way first, from a programmer's point of view.
+
+0:15:17.740,0:15:19.330
+Although this is
+not a programming lecture.
+
+0:15:19.330,0:15:21.490
+But to understand this
+basic idea of object orientation,
+
+0:15:21.490,0:15:24.370
+it is not wrong to have
+a look at it with pseudo code.
+
+0:15:24.370,0:15:27.220
+And that's what we'll
+do with the example domain
+
+0:15:27.220,0:15:30.040
+that we've just been
+reminded of, vector graphics.
+
+0:15:30.040,0:15:36.730
+And let's imagine that we want to
+describe a small picture that is somehow
+
+0:15:36.730,0:15:41.710
+built up step by
+step from different operations.
+
+0:15:41.710,0:15:42.700
+So that's
+what's here now.
+
+0:15:42.700,0:15:43.450
+We'll
+imagine:
+
+0:15:43.450,0:15:47.860
+We first draw a
+rectangle with certain dimensions.
+
+0:15:47.860,0:15:50.530
+That would be our
+picture 1, Picture 1.
+
+0:15:50.530,0:15:54.070
+Then we color that red,
+so we have another Picture.
+
+0:15:54.070,0:15:58.360
+So now a red
+rectangle with these dimensions.
+
+0:15:58.360,0:16:00.130
+Then we
+rotate it.
+
+0:16:00.130,0:16:03.340
+Get a new picture p3,
+and move this picture p3 by
+
+0:16:03.340,0:16:10.240
+some x/y coordinates, and then
+get our final picture p4.
+
+0:16:11.140,0:16:14.470
+That would be one way
+we could describe such a step-by-step
+
+0:16:14.470,0:16:17.320
+construction of an image using
+the operations from last week.
+
+0:16:17.320,0:16:21.580
+And then we could
+paint p4 on the screen.
+
+0:16:21.580,0:16:29.530
+What's noticeable here, and may
+seem clumsy at first glance:
+
+0:16:30.130,0:16:35.170
+We have these intermediate images here,
+each of which has its own
+
+0:16:35.170,0:16:39.760
+name and then actually always has the role
+of serving as input for the next image.
+
+0:16:39.760,0:16:45.520
+This passing on of these image
+variables, so to speak, could be avoided.
+
+0:16:45.520,0:16:48.310
+Object-oriented programming tries
+to avoid this by
+
+0:16:48.310,0:16:54.250
+leaving it somewhat
+implicit, so to speak.
+
+0:16:54.250,0:16:57.250
+So instead of imagining that
+you create a new image every
+
+0:16:57.250,0:16:59.230
+time you perform an
+operation, you simply say:
+
+0:16:59.230,0:17:01.840
+You have an image and
+you work on that directly.
+
+0:17:01.840,0:17:05.920
+So in an object-oriented way, you would say
+here, the image is summarized with its operations.
+
+0:17:05.920,0:17:12.700
+So there is an image p, which is created
+at the beginning once as a rectangle with these dimensions.
+
+0:17:12.700,0:17:14.620
+And the fact that this is
+now written in capital letters is
+
+0:17:14.620,0:17:20.140
+rather due to the fact that this is already
+somewhat based on a concrete programming language, namely Java.
+
+0:17:20.140,0:17:22.990
+Apart from that, there
+is no significant difference.
+
+0:17:23.590,0:17:26.050
+Then you would create a new
+image and then you would say that
+
+0:17:26.050,0:17:28.510
+you now color
+this image red.
+
+0:17:29.080,0:17:32.890
+Now rotate this
+image by angle 30.
+
+0:17:32.890,0:17:36.250
+Now move this image
+to the following coordinates.
+
+0:17:37.210,0:17:39.430
+That is, in contrast to here
+above one does not have several pictures,
+
+0:17:39.430,0:17:44.650
+which are built up gradually and then
+also still separately from each other further exist.
+
+0:17:44.650,0:17:49.780
+So here above you would have p1, p2, p3,
+p4, they all still exist, also the intermediate steps.
+
+0:17:49.780,0:17:51.430
+While here
+one simply says:
+
+0:17:51.430,0:17:54.400
+On the one image
+p perform these operations.
+
+0:17:54.940,0:17:57.940
+So you don't always have, as here
+above, one image in and one image out.
+
+0:17:57.940,0:18:03.100
+But you work on one
+image, which is automatically passed on.
+
+0:18:03.100,0:18:05.740
+On the one hand, this is
+a bit shorter, you could say.
+
+0:18:05.740,0:18:09.130
+But of course
+it also has disadvantages.
+
+0:18:09.940,0:18:12.610
+Because here it is so that this image
+is overwritten, so to speak, in each case.
+
+0:18:12.610,0:18:16.660
+Whereas here above you really have
+values for the individual images and
+
+0:18:16.660,0:18:21.280
+could quite well continue to
+use p2 in addition to p4.
+
+0:18:27.640,0:18:32.140
+These are simply two different
+approaches to working with operations.
+
+0:18:32.140,0:18:37.540
+And object orientation uses
+just this second way.
+
+0:18:37.540,0:18:43.630
+This is probably not desirable
+in every situation, but with
+
+0:18:43.630,0:18:47.680
+object orientation this is
+the way to go.
+
+0:18:48.460,0:18:50.590
+Compare this
+with arithmetic.
+
+0:18:50.590,0:18:54.400
+If you add numbers, the
+old numbers do not disappear.
+
+0:18:54.400,0:18:59.040
+Yes, the situation up here is more
+like how you work with arithmetic expressions.
+
+0:18:59.040,0:19:00.220
+You have
+intermediate results.
+
+0:19:00.220,0:19:05.650
+But adding the numbers five and three does
+not result in the five becoming the eight.
+
+0:19:05.650,0:19:07.330
+Instead, a new
+number eight comes out.
+
+0:19:07.330,0:19:09.070
+And the five and
+the three are still there.
+
+0:19:09.070,0:19:09.730
+Just
+like here:
+
+0:19:09.730,0:19:14.110
+When I end up with the
+red, twisted, shifted rectangle, it's not
+
+0:19:14.110,0:19:16.930
+that the original rectangle
+has disappeared as a result.
+
+0:19:16.930,0:19:22.600
+Here below, however, the original rectangle
+is overwritten with, then at the end,
+
+0:19:23.980,0:19:28.960
+the final rectangle with
+color, rotation, and new position.
+
+0:19:32.490,0:19:35.662
+Where does
+this come from?
+
+0:19:35.662,0:19:37.980
+What is the difference, so
+to speak, between these two views?
+
+0:19:37.980,0:19:43.290
+For this, we had written
+down our operations last week.
+
+0:19:43.290,0:19:48.060
+So there were explicit occurrences
+of images as inputs and outputs.
+
+0:19:48.060,0:19:52.260
+So "color" took an image and
+a color, and returned a new image.
+
+0:19:52.260,0:19:55.050
+And analogously with
+the other operations.
+
+0:19:55.050,0:19:57.870
+Now, in object orientation, you
+don't do that so explicitly.
+
+0:19:57.870,0:20:04.260
+But in the end, the picture,
+so to speak the class of objects,
+
+0:20:04.260,0:20:08.940
+which is the main
+issue here, is set implicitly.
+
+0:20:08.940,0:20:12.450
+So you create
+a class called "Picture".
+
+0:20:12.450,0:20:17.490
+It might have a subclass
+for the concrete, more specific things
+
+0:20:17.490,0:20:22.350
+that you have at the beginning, that you can
+start from, i.e. the basic shapes rectangle, circle etc..
+
+0:20:22.350,0:20:29.580
+And then there are analogous
+methods to the operations given here.
+
+0:20:29.580,0:20:33.270
+But they work implicitly
+on one Picture object each.
+
+0:20:33.270,0:20:34.950
+So you just say,
+within the class Picture
+
+0:20:34.950,0:20:41.820
+there are encapsulated operations
+for coloring, rotating, moving.
+
+0:20:41.820,0:20:46.920
+And here Picture does not appear
+again, neither as argument nor as result.
+
+0:20:46.920,0:20:50.310
+Because these methods are
+encapsulated in the Picture class,
+
+0:20:50.310,0:20:52.440
+they always work
+automatically on a picture.
+
+0:20:52.440,0:20:55.980
+So, when I call "color",
+I do it on an image.
+
+0:20:55.980,0:21:02.391
+And the result, the colored picture,
+is what comes out after the operation.
+
+0:21:02.391,0:21:07.140
+So the picture on which I
+call the operation is changed by it.
+
+0:21:07.140,0:21:09.240
+I don't have to
+explicitly return a new picture.
+
+0:21:12.630,0:21:16.874
+And we will find something
+like that in our diagrams.
+
+0:21:16.874,0:21:20.940
+Not necessarily with exactly this syntax here,
+for example not necessarily with this "void".
+
+0:21:21.600,0:21:29.220
+But this will be the nature of
+our methods, not this more mathematical nature.
+
+0:21:29.220,0:21:37.030
+This is not
+exactly Java syntax either.
+
+0:21:37.030,0:21:38.770
+There would be
+some annotations missing,
+
+0:21:38.770,0:21:42.400
+probably some "abstract"
+annotations for example.
+
+0:21:42.400,0:21:45.790
+But this is only
+to illustrate the basic difference
+
+0:21:45.790,0:21:47.740
+between these
+two approaches.
+
+0:21:47.740,0:21:55.810
+Does this mean that only operations
+that always return an image are possible?
+
+0:21:55.810,0:21:57.370
+It looks
+like this above.
+
+0:21:57.370,0:21:59.350
+That always makes: one image
+as input, one image as output.
+
+0:21:59.350,0:22:02.410
+These are not necessarily all
+operations that can be imagined.
+
+0:22:02.410,0:22:09.700
+So let's think about operations that are
+not supposed to change an object, but
+
+0:22:09.700,0:22:11.830
+are simply supposed to
+perform a calculation somehow.
+
+0:22:11.830,0:22:15.190
+So let's imagine that there
+is another operation that simply determines
+
+0:22:15.190,0:22:20.710
+the dimension, the size, the diameter
+or something like that for an image.
+
+0:22:20.710,0:22:24.100
+That would be from a mathematical
+point of view, from an algebraic
+
+0:22:24.100,0:22:26.230
+point of view, simply
+an operation "extent" for "extent".
+
+0:22:26.230,0:22:30.490
+It takes an image
+and returns a number.
+
+0:22:30.490,0:22:36.160
+That would then be equivalent, if
+encapsulated in the Picture class, to an
+
+0:22:36.160,0:22:38.500
+operation that just returns
+a float value here.
+
+0:22:38.500,0:22:39.550
+So then there
+are no arguments.
+
+0:22:40.420,0:22:42.880
+You don't have to
+pass the picture as an
+
+0:22:42.880,0:22:45.880
+argument, because the method is
+encapsulated in the Picture class anyway.
+
+0:22:45.880,0:22:50.996
+So you don't have to say from
+which picture you want to have the dimensions.
+
+0:22:50.996,0:22:53.950
+This is always the current picture
+on which you call the method.
+
+0:22:53.950,0:23:00.130
+It doesn't change the image,
+but it returns an integer.
+
+0:23:00.130,0:23:06.820
+Then, if we write it this
+way, we would have an operation
+
+0:23:06.820,0:23:11.890
+that takes no argument except the
+Picture, which is implicitly given anyway.
+
+0:23:11.890,0:23:14.920
+But it does
+have a return value.
+
+0:23:14.920,0:23:18.820
+Where on the previous slide it
+said "void" everywhere, because you don't really
+
+0:23:18.820,0:23:22.450
+want to return anything, you just
+want to manipulate the current picture.
+
+0:23:27.190,0:23:39.730
+And as I said, already the syntax in UML
+is a little bit different than just shown here.
+
+0:23:39.730,0:23:43.150
+The syntax shown here
+is based on Java.
+
+0:23:43.150,0:23:49.300
+In UML, which should not be
+specific for a concrete programming language,
+
+0:23:49.300,0:23:50.710
+the syntax
+is somewhat different.
+
+0:23:50.710,0:24:03.100
+So, for example, this specification for the
+coloring operation would then look like this, and
+
+0:24:03.100,0:24:05.740
+not so programming-language
+based on Java.
+
+0:24:05.740,0:24:07.450
+But that's just
+a syntactical difference.
+
+0:24:07.450,0:24:08.950
+You have to
+be a bit careful
+
+0:24:08.950,0:24:16.210
+when you specify diagrams that you
+really stick to the UML notation.
+
+0:24:21.100,0:24:22.225
+Why do you
+do object orientation?
+
+0:24:22.225,0:24:23.950
+Where is it
+used in practice?
+
+0:24:23.950,0:24:25.330
+Well, I
+already mentioned that:
+
+0:24:25.330,0:24:28.810
+One claimed advantage
+is just reusability.
+
+0:24:28.810,0:24:34.060
+So by managing data and functionality
+together, and by having concepts for modifying
+
+0:24:34.060,0:24:37.720
+behavior (keyword "inheritance", which I also
+mentioned before, which we will look at
+
+0:24:37.720,0:24:41.170
+in more detail from
+a modeling point of view),
+
+0:24:41.170,0:24:46.750
+it will be possible
+to reuse functionality once developed
+
+0:24:46.750,0:24:49.630
+in different systems,
+in different implementations.
+
+0:24:49.630,0:24:54.040
+Simply because the organization /
+encapsulation of data and functionality
+
+0:24:54.040,0:25:01.060
+together lends itself well to transfers
+to other application domains, even downstream.
+
+0:25:01.060,0:25:06.550
+Another important point is
+compatibility with concurrency and parallelism.
+
+0:25:06.550,0:25:09.880
+These are concepts I hadn't mentioned yet,
+which we'll look at in more detail, especially
+
+0:25:09.880,0:25:12.850
+in the
+Petri net chapter.
+
+0:25:12.850,0:25:18.010
+So what we expect from software
+today, we also expect from hardware, that
+
+0:25:18.010,0:25:23.140
+things don't just happen in a purely
+linear way, but things also work in parallel.
+
+0:25:23.140,0:25:25.510
+So multitasking in
+an operating system, for
+
+0:25:25.510,0:25:31.120
+example: object orientation is
+well suited to represent this.
+
+0:25:31.120,0:25:35.350
+Because we have the encapsulated objects,
+each of which has its own control
+
+0:25:35.350,0:25:36.490
+flow, its
+own work.
+
+0:25:36.490,0:25:41.690
+And in different objects, this
+processing of the control flow can,
+
+0:25:41.690,0:25:43.760
+in principle, take
+place in parallel.
+
+0:25:43.760,0:25:48.320
+And the message exchange,
+the ability to call
+
+0:25:48.320,0:25:52.580
+methods between objects, provides
+a good structuring means for
+
+0:25:52.580,0:25:57.920
+communication in such a
+multitasking or concurrent environment.
+
+0:25:57.920,0:26:02.030
+That's why, among other things,
+people like to use that.
+
+0:26:05.930,0:26:08.837
+And, of course,
+the original motivation:
+
+0:26:08.837,0:26:16.220
+Since the real world can often be imagined
+this way (as consisting of things and their
+
+0:26:16.220,0:26:24.260
+properties, plus relationships between them), it's
+just useful for many domains to directly
+
+0:26:24.260,0:26:27.680
+do software modeling
+this way as well.
+
+0:26:27.680,0:26:31.340
+So, this is not the only
+way, but definitely a prominent one.
+
+0:26:31.340,0:26:37.940
+Again, a very
+naive example, just to
+
+0:26:37.940,0:26:42.440
+put this last
+point a bit stronger.
+
+0:26:42.440,0:26:46.310
+So yes, here would be a real
+world thing like that: a ticket machine.
+
+0:26:46.310,0:26:49.700
+You can also see that this
+is probably not the most recent one.
+
+0:26:49.700,0:26:54.560
+So the image has been in the slides
+of this lecture for quite some time, even with
+
+0:26:54.560,0:26:58.760
+my predecessor who gave the lecture last,
+up until four years ago or so.
+
+0:26:58.760,0:27:03.080
+So a ticket vending machine, of
+course it has data to store:
+
+0:27:03.080,0:27:06.549
+Destinations, zoning, travel
+cost tables, etc.
+
+0:27:06.549,0:27:07.430
+That would
+be the data.
+
+0:27:07.430,0:27:09.830
+And it has to
+offer some kind of operations.
+
+0:27:09.830,0:27:13.850
+You can press buttons,
+display prices, insert coins.
+
+0:27:13.850,0:27:15.260
+There is a cash
+register that is managed.
+
+0:27:15.260,0:27:17.540
+There are tickets
+to be ejected.
+
+0:27:17.540,0:27:19.550
+The idea
+is just that:
+
+0:27:19.550,0:27:21.500
+The ticket vending
+machine is an object.
+
+0:27:21.500,0:27:28.640
+It encapsulates certain data
+and operations that are offered.
+
+0:27:28.640,0:27:31.940
+That would be such an
+object of the real world,
+
+0:27:31.940,0:27:37.610
+which one would like to reproduce then
+evenly by object-oriented modeling also in UML.
+
+0:27:37.610,0:27:43.100
+Two terms will
+then appear as concepts:
+
+0:27:43.100,0:27:43.430
+
+Object.
+
+0:27:43.430,0:27:45.080
+I have already
+mentioned object several times.
+
+0:27:45.080,0:27:47.360
+And then there is
+the principle of the class.
+
+0:27:47.360,0:27:49.520
+This is simply
+a type of object,
+
+0:27:49.520,0:27:53.600
+that is, the grouping
+of objects with similar properties.
+
+0:27:53.600,0:27:59.330
+We will then also
+look at class design.
+
+0:27:59.330,0:28:00.530
+That's
+not mandatory.
+
+0:28:00.530,0:28:04.250
+There are also programming languages that
+are object-oriented and do not contain classes.
+
+0:28:04.250,0:28:06.590
+There each object is
+considered only individually for itself.
+
+0:28:06.590,0:28:13.040
+But the standard languages, such as
+Java, also have a class concept.
+
+0:28:14.720,0:28:18.140
+An example would be the
+class of all such automata.
+
+0:28:19.400,0:28:21.140
+There this would
+be summarized generally: which
+
+0:28:21.140,0:28:26.090
+kind of data they must administer and which
+functionalities are to be offered in each case.
+
+0:28:26.090,0:28:31.340
+That would be the class of the
+ticket vending machines of this transport association.
+
+0:28:31.340,0:28:35.360
+Maybe there is also a more
+general class of all ticket vending machines
+
+0:28:35.360,0:28:38.060
+at all, from which
+this class then inherits properties.
+
+0:28:38.060,0:28:41.270
+The class will simply
+group similar things together.
+
+0:28:41.270,0:28:46.490
+And then there are objects, which
+are simply manifestations/instances of a class.
+
+0:28:46.490,0:28:52.130
+So the specific ticket vending machine
+that was photographed on the pre-foil.
+
+0:28:52.130,0:28:55.190
+That would be an object
+that belongs to this class.
+
+0:28:55.190,0:28:58.940
+And at other stations, or other
+entrances to the Duisburg station, there
+
+0:28:58.940,0:29:02.330
+are other objects, but they all
+have certain property types in common
+
+0:29:02.330,0:29:06.980
+and therefore belong to the
+class of VRR ticket vending machines.
+
+0:29:06.980,0:29:11.900
+They then store other
+information about the zoning
+
+0:29:11.900,0:29:16.820
+or about their own zone
+etc. at other specific locations.
