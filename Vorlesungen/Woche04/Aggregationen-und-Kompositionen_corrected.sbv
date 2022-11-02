@@ -1,0 +1,899 @@
+0:00:00.000,0:00:06.960
+The next relationship between
+classes is the so-called aggregation.
+
+0:00:06.960,0:00:12.390
+This is a relationship that
+is somewhat stronger than association.
+
+0:00:12.390,0:00:15.180
+The interpretation is
+as written here:
+
+0:00:15.180,0:00:20.160
+We say there is aggregation between
+classes A and B if instances
+
+0:00:20.160,0:00:28.050
+of class A contain instances of
+class B as parts in some way.
+
+0:00:28.050,0:00:28.770
+So in
+the sense:
+
+0:00:28.770,0:00:32.010
+There is a whole
+that contains multiple parts.
+
+0:00:32.010,0:00:37.080
+That is first of all
+a semantic interpretation, special roles.
+
+0:00:37.080,0:00:40.560
+Otherwise, it would still
+be like an association.
+
+0:00:40.560,0:00:43.650
+Some relation between A
+and B, where references exist.
+
+0:00:43.650,0:00:46.410
+That could also stand
+for whole and parts.
+
+0:00:46.410,0:00:52.590
+Basically, aggregation is a
+notation special case of associations.
+
+0:00:52.590,0:00:54.120
+Otherwise it has
+the same features.
+
+0:00:54.120,0:00:56.700
+So there are names
+of association and aggregation.
+
+0:00:56.700,0:01:01.320
+There is a reading direction, navigation
+directions, multiplicities, roles at the ends.
+
+0:01:01.320,0:01:04.620
+So a lot of things
+are still similar to associations.
+
+0:01:04.620,0:01:11.820
+It is not somehow forbidden
+here, especially by the fact of
+
+0:01:11.820,0:01:16.890
+an aggregation, that a part belongs
+to several or maybe to no whole.
+
+0:01:18.540,0:01:21.510
+A possible example would
+be songs and playlists.
+
+0:01:21.510,0:01:28.740
+So let's say A would be a class of
+playlists and B would be a class of songs.
+
+0:01:28.740,0:01:33.420
+Of course playlists
+contain songs as parts.
+
+0:01:33.420,0:01:37.620
+But that doesn't mean that a song
+can only belong to exactly one playlist.
+
+0:01:37.620,0:01:40.680
+So being contained
+is not so strict
+
+0:01:40.680,0:01:49.680
+that a song, for example, can only
+exist as part of exactly one playlist.
+
+0:01:49.680,0:01:54.510
+Nevertheless, there is aggregation, so
+songs are aggregated to a playlist.
+
+0:01:57.480,0:02:01.005
+Explicit naming of the
+aggregation is often superfluous.
+
+0:02:01.005,0:02:05.910
+I had said you can name
+an aggregation just like you would for
+
+0:02:05.910,0:02:09.450
+an association and draw
+it in the class diagram.
+
+0:02:09.450,0:02:14.620
+Often this is not necessary, because from
+the fact that it is an aggregation,
+
+0:02:14.620,0:02:16.240
+the nature of
+the relationship already follows.
+
+0:02:16.240,0:02:22.210
+So the relationship might end up
+being called "contains" as a name anyway.
+
+0:02:22.210,0:02:24.670
+Instead of "possesses" one
+would perhaps write: "contains".
+
+0:02:25.390,0:02:29.260
+But this is already clear from
+the graphical form of the representation,
+
+0:02:29.260,0:02:34.540
+because aggregations are
+painted differently from associations.
+
+0:02:34.540,0:02:36.250
+Namely
+as follows.
+
+0:02:37.360,0:02:42.010
+There is a connection
+as with the associations also.
+
+0:02:42.010,0:02:48.130
+But at one end, and specifically at the
+end of the whole (that is, what takes the
+
+0:02:48.130,0:02:55.930
+role of the whole in the
+aggregation), there is this unfilled diamond drawn.
+
+0:02:57.340,0:02:58.390
+An example
+would be:
+
+0:02:58.390,0:03:01.030
+A parking lot
+contains several cars.
+
+0:03:01.030,0:03:02.620
+Here it says
+"contains" as name.
+
+0:03:02.620,0:03:05.440
+But you could
+probably save that.
+
+0:03:05.440,0:03:09.280
+Because by this graphical
+form it is already expressed
+
+0:03:09.280,0:03:12.760
+what kind of relation is
+present here, namely an aggregation.
+
+0:03:12.760,0:03:15.730
+And also the reading direction
+is not absolutely necessary there.
+
+0:03:15.730,0:03:18.820
+Because by the end,
+where the diamond is attached,
+
+0:03:18.820,0:03:21.370
+it is also expressed,
+who contains whom here.
+
+0:03:21.370,0:03:22.840
+So
+here:
+
+0:03:22.840,0:03:26.110
+A parking lot contains
+any number of cars.
+
+0:03:26.110,0:03:29.470
+A car can stand on
+a parking lot, or not.
+
+0:03:31.630,0:03:35.080
+So a car does not exist only as
+long as it stands on a parking lot.
+
+0:03:35.080,0:03:37.570
+A car can also exist
+and stand on no parking place.
+
+0:03:41.120,0:03:44.450
+The role of the whole here
+takes over, as said, the parking lot.
+
+0:03:44.450,0:03:50.000
+The role of the part, in
+this part-whole-relationship, takes over the car.
+
+0:03:50.000,0:03:55.760
+By this "0..1"
+multiplicity is expressed that
+
+0:03:55.760,0:03:59.870
+a car at least never
+stands on two parking lots.
+
+0:03:59.870,0:04:05.420
+While again this multiplicity
+should not be given.
+
+0:04:05.420,0:04:10.400
+Since this is our default multiplicity
+anyway, if nothing is written on it.
+
+0:04:10.400,0:04:11.750
+I could have
+left this out.
+
+0:04:11.750,0:04:15.260
+And then because of something I said
+in an earlier video, it would still
+
+0:04:15.260,0:04:18.020
+be clear for the
+scope of the lecture
+
+0:04:18.020,0:04:23.120
+that there is no restriction on the
+number of cars in a parking lot.
+
+0:04:23.120,0:04:26.420
+What else
+could be done?
+
+0:04:26.420,0:04:28.640
+One could still
+specify the navigation direction.
+
+0:04:28.640,0:04:30.680
+One could still
+draw a navigation
+
+0:04:30.680,0:04:34.760
+direction arrow here at
+this end to say:
+
+0:04:34.760,0:04:39.560
+From the parking lot, you can
+access the cars that are on it.
+
+0:04:39.560,0:04:45.380
+A navigation arrow in the
+opposite direction would not be possible.
+
+0:04:45.380,0:04:46.850
+For one thing, there
+would be a graphic conflict.
+
+0:04:46.850,0:04:49.640
+One could not draw
+this arrow at all.
+
+0:04:50.180,0:04:52.880
+On the other hand,
+the understanding of aggregation is
+
+0:04:52.880,0:04:56.180
+that a part knows
+to which whole it belongs.
+
+0:04:56.180,0:04:59.780
+So it
+is somehow assumed
+
+0:04:59.780,0:05:04.670
+that one can determine from the
+car also the parking lot containing it.
+
+0:05:08.960,0:05:11.450
+This is an
+example with "0..1".
+
+0:05:11.450,0:05:14.270
+One might well
+have other multiplicities here.
+
+0:05:15.020,0:05:15.710
+But not
+for parking spaces.
+
+0:05:15.710,0:05:17.780
+It makes no sense that a
+car is parked on two parking spaces.
+
+0:05:17.780,0:05:24.320
+But let's assume that instead of "parking space"
+there would be "vehicle fleet" or "car dealer catalog".
+
+0:05:24.320,0:05:29.180
+Then, of course, a car can be
+contained in a car fleet, or in
+
+0:05:29.180,0:05:32.390
+a car dealer catalog,
+and certainly in several.
+
+0:05:32.390,0:05:38.480
+So an aggregation does not require
+that a maximum of 1 is possible.
+
+0:05:38.480,0:05:40.370
+Different from
+the composition.
+
+0:05:40.370,0:05:41.870
+That's why
+I mention this.
+
+0:05:43.890,0:05:47.280
+In terms
+of structural constraints:
+
+0:05:47.280,0:05:48.270
+How is it now,
+if we have a class
+
+0:05:48.780,0:05:51.705
+diagram with several classes
+and in between several aggregations?
+
+0:05:51.705,0:05:53.220
+Maybe there are
+some structural constraints there.
+
+0:05:53.220,0:05:56.010
+That's where the
+situation is like associations.
+
+0:05:56.010,0:05:58.050
+So it's not
+forbidden to have cycles.
+
+0:05:58.050,0:05:59.910
+It's not forbidden
+to have self-references.
+
+0:05:59.910,0:06:05.430
+It's not forbidden to have
+multiple aggregations, or aggregations and associations
+
+0:06:05.430,0:06:08.130
+mixed, between
+the same partners.
+
+0:06:08.130,0:06:09.420
+It's different
+from inheritance.
+
+0:06:13.680,0:06:14.640
+That
+was aggregation.
+
+0:06:14.640,0:06:15.630
+Now what
+about composition?
+
+0:06:15.630,0:06:20.070
+That was introduced, or briefly mentioned before,
+as the strongest of the relationships considered.
+
+0:06:20.070,0:06:22.380
+So association,
+aggregation, and composition.
+
+0:06:24.120,0:06:25.050
+What is
+the understanding here?
+
+0:06:25.050,0:06:28.110
+A composition, again between
+two classes A and B,
+
+0:06:28.110,0:06:31.380
+also expresses such
+a part-whole relationship.
+
+0:06:31.380,0:06:36.540
+So instances of class A contain
+instances of class B as parts.
+
+0:06:38.280,0:06:43.920
+But in addition to what aggregation
+already interprets, here it is required that
+
+0:06:43.920,0:06:47.040
+the lifetime of the parts
+be controlled by the whole.
+
+0:06:47.040,0:06:51.030
+In the sense that the
+parts cannot exist without the whole.
+
+0:06:51.660,0:06:54.390
+This is not the case
+with parking lot and car.
+
+0:06:54.390,0:06:57.630
+Certainly a parking
+lot contains cars.
+
+0:06:57.630,0:07:00.990
+But that doesn't mean that if the
+parking lot is closed or ceases to exist,
+
+0:07:00.990,0:07:02.700
+therefore all the
+cars are destroyed.
+
+0:07:02.700,0:07:07.020
+With composition, you tend to have this
+understanding that the parts are really so
+
+0:07:07.020,0:07:10.470
+integral to the whole that they
+don't exist at all without the whole.
+
+0:07:10.470,0:07:13.890
+Parts don't have their
+own lifetime, so to speak.
+
+0:07:13.890,0:07:18.060
+That basically
+means for implementation:
+
+0:07:18.060,0:07:22.800
+Parts may (or even must) be deleted
+as soon as their associated instance of
+
+0:07:22.800,0:07:28.650
+class A, that is, the object of class A
+of which they are considered a part, is deleted.
+
+0:07:28.650,0:07:36.870
+And because of this
+consideration a part may not
+
+0:07:36.870,0:07:39.180
+belong to more than one
+whole at the same time.
+
+0:07:39.180,0:07:43.860
+Because then its lifetime would not be
+linked to an instance of class A.
+
+0:07:43.860,0:07:51.750
+So the example with "one song belongs
+to several playlists" would not be a composition.
+
+0:07:51.750,0:07:55.970
+Because the songs don't cease to
+exist when a playlist is deleted.
+
+0:07:55.970,0:07:58.460
+And one song can
+also belong to multiple playlists.
+
+0:07:58.460,0:08:02.570
+And then deleting a playlist
+has no effect on the song.
+
+0:08:02.570,0:08:04.760
+It is still
+contained in other playlists.
+
+0:08:05.300,0:08:08.060
+Playlists-and-songs would not be an
+example of composition for this reason.
+
+0:08:08.780,0:08:14.390
+Naming composition is often
+superfluous, similar to aggregation.
+
+0:08:14.390,0:08:19.910
+Because from the graphical representation, the
+character as composition is already obvious.
+
+0:08:19.910,0:08:23.420
+What we already see when we
+compare this with aggregation is that
+
+0:08:23.420,0:08:25.040
+maybe
+the decision
+
+0:08:25.040,0:08:28.100
+whether to take an aggregation or
+a composition is sometimes not very easy.
+
+0:08:28.100,0:08:30.560
+There is
+definitely room for
+
+0:08:30.560,0:08:33.530
+interpretation, which also depends on what
+one wants to express when modeling.
+
+0:08:34.190,0:08:37.700
+So it may be
+that sometimes it makes sense
+
+0:08:37.700,0:08:40.640
+to use both
+aggregation and composition.
+
+0:08:40.640,0:08:42.560
+Then you have to
+choose one or the other.
+
+0:08:42.560,0:08:44.030
+In some cases
+it is also clear.
+
+0:08:44.030,0:08:50.900
+Later on, we will see
+a few criteria listed as mnemonics.
+
+0:08:50.900,0:08:58.250
+These are basically the same as
+the two criteria that are used here
+
+0:08:58.250,0:09:01.640
+to decide whether something is really
+a composition and not just an aggregation.
+
+0:09:03.500,0:09:06.290
+But first, let's take a
+look at the graphical representation.
+
+0:09:06.290,0:09:10.700
+So for a composition, you take
+a similar representation as for aggregation.
+
+0:09:10.700,0:09:13.820
+But now this
+diamond is filled in.
+
+0:09:14.330,0:09:18.050
+That's the difference between aggregation and
+composition, how this diamond looks here.
+
+0:09:18.050,0:09:19.280
+
+Example:
+
+0:09:19.280,0:09:22.430
+A company consists of
+any number of departments.
+
+0:09:23.120,0:09:26.330
+"Consists of" is
+the composition here.
+
+0:09:26.330,0:09:28.160
+The company
+is the whole.
+
+0:09:28.160,0:09:29.540
+The departments
+are the parts.
+
+0:09:29.540,0:09:31.820
+There can be
+any number of them.
+
+0:09:33.740,0:09:36.800
+The interpretation here is that the
+departments just cease to exist as
+
+0:09:36.800,0:09:38.240
+soon as the
+company ceases to exist.
+
+0:09:38.240,0:09:43.580
+If the company is dissolved,
+then these departments are also dissolved.
+
+0:09:43.580,0:09:46.490
+And a department cannot belong
+to several companies at the same
+
+0:09:46.490,0:09:51.560
+time (just like a song can belong
+to several playlists at the same time).
+
+0:09:51.560,0:09:53.780
+That makes no
+sense in this constellation.
+
+0:09:53.780,0:09:56.570
+Therefore composition and
+not only aggregation.
+
+0:09:58.740,0:10:00.900
+Regarding navigation arrows, the
+same applies as before:
+
+0:10:00.900,0:10:03.960
+You could still draw a
+navigation arrow here in this direction.
+
+0:10:03.960,0:10:07.920
+In the opposite direction it is
+not necessary and also not possible,
+
+0:10:07.920,0:10:13.050
+because that would
+give a graphic conflict.
+
+0:10:13.050,0:10:18.390
+And since one assumes anyway that the parts
+know in each case what their whole is.
+
+0:10:18.390,0:10:25.470
+Here one could
+write a multiplicity again.
+
+0:10:25.470,0:10:30.360
+However, with composition, the
+choice is actually very limited.
+
+0:10:30.360,0:10:34.260
+There can be only
+the multiplicity "0..1" or "1".
+
+0:10:34.260,0:10:36.120
+All other
+multiplicities are not
+
+0:10:36.120,0:10:41.340
+allowed for compositions at
+the end of the whole.
+
+0:10:41.340,0:10:47.130
+The most common multiplicity
+would be exactly 1.
+
+0:10:47.130,0:10:49.920
+In this case it is
+usually not written at all.
+
+0:10:50.820,0:10:51.750
+This is
+then the situation:
+
+0:10:51.750,0:10:54.030
+A part belongs
+to exactly one whole,
+
+0:10:54.030,0:10:58.680
+and this always, and cannot belong also
+temporarily for example times to no whole.
+
+0:10:58.680,0:11:03.570
+We will discuss another
+case of compositions, where
+
+0:11:03.570,0:11:07.110
+"0..1" also makes
+sense, at least temporarily.
+
+0:11:07.110,0:11:14.110
+So also these would be
+criteria, which can be used
+
+0:11:14.110,0:11:16.330
+to distinguish between
+aggregation and composition.
+
+0:11:16.330,0:11:18.670
+If you can imagine a
+multiplicity of more than 1
+
+0:11:18.670,0:11:23.050
+at this end, then it is
+not a composition, but an aggregation.
+
+0:11:29.350,0:11:38.680
+Moreover, it should be
+noted that this requirement (to
+
+0:11:38.680,0:11:44.770
+belong to at most one whole)
+is stronger than just the multiplicities indicate.
+
+0:11:44.770,0:11:58.060
+So a part could
+potentially, at least at the
+
+0:11:58.060,0:11:59.050
+class level, be in
+compositional relation to multiple wholes.
+
+0:11:59.050,0:12:06.010
+There could be two classes to which a
+class is in compositional relation as a part.
+
+0:12:06.010,0:12:12.010
+Then it would not matter
+what is at the ends here.
+
+0:12:12.010,0:12:19.030
+Even if there stands "0..1" in each case, it
+may not be nevertheless that the part belongs at the
+
+0:12:19.030,0:12:24.820
+same time to a whole of the one
+class and a whole of the other class.
+
+0:12:24.820,0:12:29.350
+You really have to be careful
+what this "belongs to exactly", or in
+
+0:12:29.350,0:12:32.770
+the case of 0..1 "to
+at most one whole" means.
+
+0:12:32.770,0:12:35.140
+But we will
+also discuss that.
+
+0:12:38.980,0:12:42.730
+First I would like to
+quote the promised mnemonic sentences.
+
+0:12:42.730,0:12:55.270
+They are from one of the books I
+had shown you in the review of literature.
+
+0:12:55.270,0:12:59.560
+This English-language book
+on object-oriented design.
+
+0:12:59.560,0:13:08.140
+Those are ultimately in English the things
+that I expressed on the slides as well.
+
+0:13:08.140,0:13:12.280
+So kind of an association
+as this vaguest form of relationship.
+
+0:13:12.280,0:13:19.390
+Which kind of represents when
+anything needs to be stored as
+
+0:13:19.390,0:13:22.900
+data and there needs to be
+a relationship between objects of two classes.
+
+0:13:22.900,0:13:29.200
+Examples
+would be:
+
+0:13:30.280,0:13:31.420
+
+Ownership.
+
+0:13:31.420,0:13:35.710
+Control of objects of one
+class over objects of another class.
+
+0:13:36.490,0:13:37.420
+General
+relationships.
+
+0:13:37.420,0:13:40.480
+"Being a part of something" can also
+be an association, but is more likely to
+
+0:13:40.480,0:13:43.120
+be captured as
+an aggregation right away.
+
+0:13:43.120,0:13:45.820
+Being a
+member of something.
+
+0:13:47.380,0:13:53.620
+Some associations also lent themselves to
+the library class example that came up
+
+0:13:53.620,0:13:59.710
+last week or the week
+before, such as borrowing books.
+
+0:13:59.710,0:14:02.500
+When shouldn't
+you use associations?
+
+0:14:03.010,0:14:07.330
+For one thing, when it comes
+to relationships that correspond to a hierarchy.
+
+0:14:07.330,0:14:08.560
+I mentioned that
+at the beginning, too.
+
+0:14:08.560,0:14:13.780
+Then you would either have
+inheritance hierarchies or rather aggregation/composition.
+
+0:14:13.780,0:14:21.100
+And it has to be
+somehow a relationship that is persistent.
+
+0:14:21.100,0:14:24.220
+That is, that is not
+only very temporarily necessary when executing
+
+0:14:24.220,0:14:27.670
+maybe exactly one
+operation or one method.
+
+0:14:27.670,0:14:33.670
+In that case it would simply be possible to
+pass the target object as a parameter to the method.
+
+0:14:33.670,0:14:38.710
+An association would be made
+if it is a relationship that
+
+0:14:38.710,0:14:42.460
+survives the execution
+of a single operation.
+
+0:14:42.460,0:14:50.590
+So anything that should be
+stored permanently over the objects.
+
+0:14:50.590,0:14:51.460
+What
+was aggregation?
+
+0:14:51.460,0:14:56.050
+A special kind of association
+where it's about somehow objects of
+
+0:14:56.050,0:15:01.480
+class A being composed
+of objects of class B.
+
+0:15:01.480,0:15:09.692
+If somehow there is a part-whole relationship
+between the objects of classes A and B.
+
+0:15:09.692,0:15:11.290
+That
+was aggregation.
+
+0:15:11.290,0:15:13.270
+Composition was
+even stronger.
+
+0:15:14.410,0:15:23.320
+There is the requirement that each instance
+of this part class can belong to
+
+0:15:23.320,0:15:29.590
+only one instance of the whole
+class, and cannot exist without it.
+
+0:15:30.280,0:15:34.660
+The part can only exist
+as part of the whole.
+
+0:15:34.660,0:15:44.650
+These were the criteria I had also
+discussed on the previous slides, just summarized
+
+0:15:44.650,0:15:49.930
+here again in
+a compact way.

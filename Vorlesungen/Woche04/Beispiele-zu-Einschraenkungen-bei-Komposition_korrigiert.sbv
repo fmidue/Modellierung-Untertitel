@@ -1,0 +1,432 @@
+0:00:02.400,0:00:05.820
+Ich hatte angekündigt, dass ich
+noch ein Video machen würde,
+
+0:00:05.820,0:00:09.720
+wo ich solche Konstellationen
+wie hier diskutieren würde.
+
+0:00:09.720,0:00:14.880
+Wo also eine Klasse in Kompositionsbeziehung
+mit zwei anderen Klassen steht.
+
+0:00:17.700,0:00:23.610
+Ich hatte schon gesagt, dass hier zum einen
+ja nur bestimmte Multiplizitäten möglich sind,
+
+0:00:23.610,0:00:30.240
+an diesem jeweiligen Ende für das Ganze
+in so einer Teil-Ganzes-Beziehung.
+
+0:00:30.240,0:00:34.590
+Und ich hatte auch schon angekündigt,
+dass wegen der zusätzlichen Forderung,
+
+0:00:34.590,0:00:40.410
+dass jedes Teil nur Teil von einem Ganzen
+sein darf, bei Kompositionsbeziehungen
+
+0:00:40.410,0:00:45.030
+nicht unbedingt alle Kombinationen von
+Multiplizitäten hier sinnvoll sind.
+
+0:00:45.030,0:00:45.960
+Also man kann zwar alle hinschreiben.
+
+0:00:45.960,0:00:51.900
+Man kann hier hinschreiben, es soll jeweils
+Multiplizität genau "1" vorherrschen.
+
+0:00:51.900,0:00:52.440
+Aber die Frage ist:
+
+0:00:52.440,0:00:56.760
+Ist das denn jeweils auch sinnvoll
+mit Leben befüllbar im Sinne,
+
+0:00:56.760,0:00:58.260
+dass wir Objekte dazu angeben können?
+
+0:00:58.260,0:01:05.130
+Und das können wir erstmal tatsächlich probieren.
+
+0:01:05.130,0:01:08.190
+Also nehmen wir mal diese Konstellation.
+
+0:01:08.190,0:01:11.310
+Und nehmen an, es gibt mindestens ein C-Objekt.
+
+0:01:11.310,0:01:16.796
+Dann hieße das ja, dass hier so
+ein C-Objekt existieren soll.
+
+0:01:16.796,0:01:18.120
+Das nennen wir mal klein "c".
+
+0:01:18.120,0:01:20.340
+Das ist ein Objekt der Klasse C.
+
+0:01:20.340,0:01:25.620
+Und weil das existiert, und es
+diese Beziehungen hier gibt,
+
+0:01:25.620,0:01:30.780
+muss es in dem Fall auch
+mindestens ein B-Objekt geben.
+
+0:01:32.430,0:01:35.280
+Also genau ein B-Objekt, zu dem
+das C-Objekt in Beziehung steht.
+
+0:01:35.280,0:01:40.620
+Und genau ein A-Objekt, wegen
+der 1 an diesem Kompositionsende.
+
+0:01:41.130,0:01:52.440
+Das heißt, es würde hier noch mindestens
+zwei weitere Objekte geben müssen.
+
+0:01:52.440,0:02:01.470
+Nämlich ein B-Objekt und ein A-Objekt.
+
+0:02:01.470,0:02:08.010
+Und diese müssten jeweils in
+Beziehung mit dem C-Objekt stehen.
+
+0:02:08.700,0:02:16.110
+Einfach wegen der oben angegebenen Komposition
+mit der entsprechenden Multiplizität.
+
+0:02:16.110,0:02:24.300
+Und das hätte zur Folge, dass wir hier genau
+Konstellationen haben, die nicht erlaubt sind.
+
+0:02:24.300,0:02:31.380
+Nämlich, dass ein Teil, in dem Fall dieses
+C-Objekt, gleichzeitig Teil mehrerer Ganzer ist.
+
+0:02:31.380,0:02:33.690
+Und das ist nicht erlaubt.
+
+0:02:33.690,0:02:39.141
+Deswegen ist das, was hier so auf dieser
+Folie steht, keine legale Situation.
+
+0:02:39.141,0:02:42.570
+Also man hätte das hier oben zwar hinschreiben
+dürfen, aber man kann das nie mit Leben füllen.
+
+0:02:42.570,0:02:48.270
+Deswegen ergibt es auch keinen Sinn,
+überhaupt so mit der Modellierung anzufangen.
+
+0:02:48.270,0:02:52.590
+Dann schauen wir uns nochmal den Fall an,
+
+0:02:52.590,0:03:00.300
+wie das wäre, wenn wir uns da zu
+Beginn anders entschieden hätten.
+
+0:03:00.300,0:03:09.540
+Also hier stattdessen mit "0..1" gestartet wären,
+
+0:03:09.540,0:03:16.290
+zum Beispiel hier oder eben
+hier auf der anderen Seite.
+
+0:03:16.290,0:03:21.090
+Das ist natürlich egal, wo
+wir "0..1" stehen haben.
+
+0:03:21.090,0:03:25.650
+Nehmen wir mal diesen Fall und überlegen
+uns, wie es denn dann ausgesehen hätte.
+
+0:03:27.420,0:03:31.770
+Nehmen wir wieder an, es sollte
+mindestens ein C-Objekt geben.
+
+0:03:31.770,0:03:36.150
+Das geben wir wieder so an.
+
+0:03:36.150,0:03:46.860
+Und dann muss es wegen dieser
+Angabe auch ein A-Objekt geben,
+
+0:03:50.560,0:03:55.330
+das mit dem gegebenen C-Objekt in Beziehung steht.
+
+0:03:55.330,0:03:57.670
+Es muss dann hier so eine Verbindung geben.
+
+0:03:57.670,0:03:59.470
+Und jetzt ist die Frage:
+
+0:03:59.470,0:04:02.410
+Was ist mit der anderen Komposition?
+
+0:04:03.130,0:04:03.910
+Was folgt hieraus?
+
+0:04:03.910,0:04:09.460
+Nun, die verlangt ja nicht unbedingt,
+dass ein B-Objekt existiert.
+
+0:04:09.460,0:04:11.290
+Weil ja "0..1" da steht.
+
+0:04:11.290,0:04:15.010
+Wenn man ein B-Objekt hier einfügen wollte,
+
+0:04:15.010,0:04:16.115
+und das verbinden wollte, dann
+hätte man natürlich ein Problem.
+
+0:04:16.115,0:04:23.290
+Dann hätte man die Situation auf der Vorfolie,
+dass man nämlich dem C-Objekt zwei Ganze zuordnet.
+
+0:04:23.290,0:04:25.000
+Das würde man also nicht tun.
+
+0:04:25.000,0:04:31.720
+Muss man ja aber auch nicht, weil es ja
+auch erlaubt ist (einfach durch die 0,
+
+0:04:31.720,0:04:36.520
+die hier in der Multiplizität
+steht), eben kein B-Objekt zu haben.
+
+0:04:36.520,0:04:40.030
+Nur, wenn man das tut, dann stellt
+sich natürlich auch die Frage:
+
+0:04:40.030,0:04:43.360
+Warum gibt es denn überhaupt diese
+Komposition in diese Richtung?
+
+0:04:43.360,0:04:47.950
+Die wird dann ja nie durch
+irgendetwas mit Leben befüllt werden.
+
+0:04:47.950,0:04:51.100
+Deswegen würde man das in dem
+Fall zwar hinschreiben können,
+
+0:04:51.100,0:04:52.210
+aber es würde keinen Sinn ergeben.
+
+0:04:52.210,0:04:56.500
+Weil man diese C-B-Komposition nie
+tatsächlich mit Leben füllen würde.
+
+0:04:56.500,0:05:01.660
+Und dann ist wahrscheinlich auch schon
+in der Modellierung falsch gewesen,
+
+0:05:01.660,0:05:05.050
+überhaupt davon auszugehen, dass die dort ist.
+
+0:05:07.600,0:05:14.590
+Das war also die Kombination,
+wo wir "1" und "0..1" haben.
+
+0:05:14.590,0:05:18.070
+Und dann gibt es natürlich noch
+mindestens eine weitere Möglichkeit.
+
+0:05:18.070,0:05:22.930
+Nämlich die Situation, dass
+wir tatsächlich an beiden Enden
+
+0:05:22.930,0:05:27.280
+(für beide Kompositionen) hier
+jeweils "0..1" dranschreiben.
+
+0:05:29.350,0:05:37.030
+Dann können wir mal überlegen, was hier vielleicht
+eine sinnvolle Belegung dieser Klassen wäre.
+
+0:05:37.030,0:05:41.260
+Ob das hier sinnvoll denkbar
+ist, dass es also ein Teil gibt,
+
+0:05:41.260,0:05:46.180
+was Teil von zwei Ganzen, zwar nicht
+gleichzeitig, aber alternativ sein kann.
+
+0:05:46.180,0:05:51.430
+Und tatsächlich kann man sich hier
+zum Beispiel eine Situation überlegen.
+
+0:05:51.430,0:05:53.620
+Nehmen wir wieder unsere Auto-Beispiele.
+
+0:05:53.620,0:06:02.970
+Also nehmen wir an, wir haben irgendwie
+eine Klasse Auto und eine Klasse für Räder.
+
+0:06:02.970,0:06:05.940
+Das wird auch nochmal in den Folien
+auftauchen, ein ähnliches Beispiel.
+
+0:06:05.940,0:06:10.830
+Dann kann ein Rad natürlich in
+Kompositionsbeziehung zu Auto stehen,
+
+0:06:10.830,0:06:15.720
+denn normalerweise ist ein Rad am Auto
+montiert, und zwar an höchstens einem.
+
+0:06:15.720,0:06:20.820
+Und umgekehrt kann man jetzt hier
+noch Multiplizitäten dranschreiben.
+
+0:06:20.820,0:06:25.290
+Ein Auto kann 0..4 Räder tragen/enthalten.
+
+0:06:25.860,0:06:28.800
+Auf den Folien davor hatte ich
+jeweils an dem Ende nichts stehen.
+
+0:06:28.800,0:06:33.660
+Da hätte ich dann angenommen, dass da "0..*"
+steht, also beliebig viele Teile erlaubt.
+
+0:06:33.660,0:06:35.730
+Was wäre jetzt die andere Alternative für ein Rad?
+
+0:06:35.730,0:06:38.190
+Sagen wir, ein Rad ist zwar meistens,
+aber nicht immer, an einem Auto.
+
+0:06:38.880,0:06:42.870
+Denn zum Beispiel sind die Sommerräder
+im Winter in einem Radlager.
+
+0:06:42.870,0:06:45.930
+Also sagen wir, hier gibt es
+eine andere Klasse "Lager".
+
+0:06:46.650,0:06:53.580
+Ein Rad kann auch in einem Lager sein, und ein
+Lager kann vielleicht "0..20" Räder enthalten.
+
+0:06:53.580,0:07:00.420
+Und jetzt ist hier durchaus denkbar,
+dass ein Rad manchmal im Lager und
+
+0:07:00.420,0:07:03.720
+manchmal an einem Auto ist, aber
+nie bei beiden gleichzeitig ist.
+
+0:07:03.720,0:07:07.290
+Dass es nie bei beiden gleichzeitig ist, das
+wird nicht durch die Multiplizitäten ausdrückt.
+
+0:07:07.290,0:07:09.930
+Sondern einfach durch die zusätzliche
+Forderung, die auf den Folien stand.
+
+0:07:09.930,0:07:13.380
+Nämlich, dass ein Teil nie gleichzeitig
+Teil von mehreren Ganzen ist.
+
+0:07:13.380,0:07:14.310
+Also hier wäre es wirklich so:
+
+0:07:14.310,0:07:16.980
+Das Rad kann an einem Auto sein.
+Das Rad kann in einem Lager sein.
+
+0:07:16.980,0:07:18.435
+Aber immer nur eins von beiden gleichzeitig.
+
+0:07:18.435,0:07:23.910
+Also hier wäre das die wesentliche
+Sache, die man noch festhalten würde.
+
+0:07:23.910,0:07:26.520
+Das ist aber eben durch die
+Modellierungsbedingungen und
+
+0:07:26.520,0:07:31.290
+durch die Sprache vorgegeben, wie diese
+Diagramme in UML zu interpretieren sind.
+
+0:07:32.190,0:07:41.460
+Dann kann also ein Rad nie gleichzeitig
+an einem Auto und im Lager sein.
+
+0:07:56.970,0:08:03.750
+Das waren die drei Situationen für
+diese Konstellation, jeweils einfach
+
+0:08:03.750,0:08:10.950
+mit verschiedenen Multiplizitäten
+an den oberen beiden Enden.
+
+0:08:10.950,0:08:16.530
+Und dann tauchte auf den Folien auch
+noch so etwas auf, diese Situation,
+
+0:08:16.530,0:08:25.110
+wo es also zwei Klassen sind, die auf doppelte
+Weise in Kompositionsbeziehung stehen.
+
+0:08:25.110,0:08:27.000
+Da hatte ich auch schon gesagt:
+
+0:08:27.000,0:08:31.860
+Was nicht sein dürfte, wäre, wenn hier dieser
+Diamant irgendwie unten wäre anstatt oben.
+
+0:08:31.860,0:08:32.340
+Das wäre verboten.
+
+0:08:32.340,0:08:34.500
+Dann hätten wir nämlich eine zyklische Beziehung.
+
+0:08:34.500,0:08:35.520
+Das ist verboten.
+
+0:08:35.520,0:08:39.690
+Aber das, so wie es hier dargestellt ist und
+auf den Folien, war nicht per se verboten.
+
+0:08:39.690,0:08:43.530
+Man könnte sich durchaus vorstellen, dass
+es hier irgendwie sinnvolle Klassen gibt.
+
+0:08:43.530,0:08:50.280
+Situationen wie hier, jeweils 1 einzufordern,
+wären wieder nicht besonders sinnvoll.
+
+0:08:50.280,0:09:03.480
+Weil dann ein Objekt der unteren
+Klasse zu mehreren Objekten der
+
+0:09:03.480,0:09:05.400
+oberen Klasse in Beziehung stehen könnte.
+
+0:09:05.400,0:09:10.230
+Nämlich einmal über diese eine und
+einmal über die andere Komposition.
+
+0:09:10.230,0:09:12.510
+Das ergibt nicht sonderlich viel Sinn.
+
+0:09:12.510,0:09:20.310
+Aber etwa für den Fall, dass wir das
+hier mit "0..1" angeben an beiden Enden,
+
+0:09:20.310,0:09:27.630
+kann man sich durchaus vorstellen,
+dass es da sinnvolle Ausprägungen gibt.
+
+0:09:27.630,0:09:29.040
+Das können Sie sich mal überlegen,
+
+0:09:29.040,0:09:32.460
+was hier vielleicht denkbare Klassen
+wären, oder was hier Sinn ergibt.

@@ -1,0 +1,299 @@
+0:00:01.470,0:00:04.410
+I had talked several
+times now about valid or
+
+0:00:04.410,0:00:07.530
+invalid constellations
+in class diagrams.
+
+0:00:07.530,0:00:12.180
+In particular, remembering last
+week, we had said that
+
+0:00:12.180,0:00:20.490
+in the context of inheritance, it is
+not allowed that there is, say, cyclic inheritance.
+
+0:00:20.490,0:00:22.560
+Or a class
+inheriting from itself.
+
+0:00:22.560,0:00:27.780
+Or a class being duplicate subclasses
+of another class, so to speak.
+
+0:00:27.780,0:00:32.880
+However, I had also emphasized in
+this week's videos that there are
+
+0:00:32.880,0:00:38.910
+no such restrictions for association
+and then also for aggregation.
+
+0:00:38.910,0:00:40.200
+We had
+also seen examples.
+
+0:00:41.340,0:00:44.340
+An example of such a
+constellation, and also a cyclic one.
+
+0:00:44.340,0:00:49.020
+Yes, a cycle of association
+and aggregation relationship would be okay.
+
+0:00:49.020,0:00:53.940
+It looks
+different for composition.
+
+0:00:53.940,0:00:54.570
+
+So:
+
+0:00:54.570,0:00:56.850
+For association/aggregation,
+no restriction
+
+0:00:56.850,0:01:01.410
+on cycles/self-reference or presence of
+multiple relationships between same classes.
+
+0:01:01.410,0:01:05.640
+For composition, however, cycles of
+any kind are again forbidden.
+
+0:01:05.640,0:01:09.090
+So for composition there
+must be no such cycle.
+
+0:01:09.090,0:01:12.510
+With composition there
+must be no self-reference.
+
+0:01:12.510,0:01:19.230
+And there must not be any two
+classes which are directly cyclic in this form.
+
+0:01:19.230,0:01:25.515
+Here, in fact, the direction
+of the containing relation is important.
+
+0:01:25.515,0:01:30.690
+So this is forbidden here because one
+could contain oneself here in the circle.
+
+0:01:30.690,0:01:36.150
+And also here the problem
+is that there is this cycle,
+
+0:01:36.150,0:01:39.300
+because the two
+compositions are directed opposite.
+
+0:01:39.300,0:01:45.510
+If one would turn this relationship around here and
+"E" would contain "F" in two ways, so to
+
+0:01:45.510,0:01:50.100
+speak, then this could still be valid
+depending on the multiplicities that are on it.
+
+0:01:50.100,0:01:56.190
+We'll discuss that on a
+slide in a moment as well.
+
+0:01:56.190,0:01:57.570
+The important
+thing here is:
+
+0:01:57.570,0:02:04.770
+These are really prohibitions
+that are specific to composition.
+
+0:02:04.770,0:02:07.230
+So, if you were
+to replace one of the
+
+0:02:07.230,0:02:10.110
+compositions here with an aggregation,
+it would be legal again.
+
+0:02:10.110,0:02:13.790
+So the aggregation and
+also association don't count with
+
+0:02:13.790,0:02:16.277
+respect to this
+restriction for composition.
+
+0:02:16.277,0:02:22.100
+There it's really about the fact that you're
+not allowed to draw circles with composition, for example.
+
+0:02:22.100,0:02:27.980
+Now what
+about non-cyclic relationships?
+
+0:02:27.980,0:02:31.280
+For example,
+double composition
+
+0:02:31.280,0:02:33.530
+relationship between two partners, but
+not in this cyclic way?
+
+0:02:33.530,0:02:38.060
+Even then, there are still
+limitations, and they come from the
+
+0:02:38.060,0:02:41.990
+fact that yes, a part may not belong
+to more than one whole at the same time.
+
+0:02:41.990,0:02:50.150
+And that this is something
+that goes beyond multiplicities alone.
+
+0:02:54.530,0:02:59.690
+So, for example,
+in these relations there
+
+0:02:59.690,0:03:02.630
+are situations which simply do
+not make sense with the multiplicities.
+
+0:03:03.770,0:03:08.540
+You would be allowed to syntactically write
+"1" to each of these two ends here.
+
+0:03:08.540,0:03:12.410
+But one could then never
+generate an object diagram for it.
+
+0:03:12.410,0:03:15.560
+One could not specify any objects "a", "b",
+"c" of the classes "A", "B", "C", which would
+
+0:03:15.560,0:03:17.480
+fulfill this in
+any meaningful way.
+
+0:03:17.480,0:03:22.400
+Because each object of the class C would have to
+belong, if here a 1 and here a 1 would stand,
+
+0:03:23.030,0:03:28.430
+always at the same time to an object of the
+class A and to an object of the class B.
+
+0:03:28.430,0:03:32.330
+But that is forbidden, because a part
+may not belong to more than one whole
+
+0:03:32.330,0:03:34.850
+at the same time
+when it comes to composition.
+
+0:03:34.850,0:03:39.230
+And in
+a similar way
+
+0:03:39.230,0:03:42.920
+restrictions arise even
+beyond the syntactic requirement.
+
+0:03:44.330,0:03:50.180
+One cannot have multiplicity
+1 at both compositions.
+
+0:03:50.180,0:03:55.070
+Because then one could
+not form meaningful instances.
+
+0:03:56.810,0:03:59.150
+One would have to look at
+that more exactly, what is permitted here.
+
+0:03:59.150,0:04:00.590
+Which constellation is
+allowed here or not.
+
+0:04:00.590,0:04:02.900
+I will probably do
+that in an extra video.
+
+0:04:10.750,0:04:13.510
+It should also
+be noted that
+
+0:04:13.510,0:04:22.540
+association/aggregation/composition also
+interacts with inheritance.
+
+0:04:22.540,0:04:29.080
+This is because a subclass always inherits
+associations, aggregations and compositions from the superclass
+
+0:04:29.080,0:04:32.650
+in addition to
+attributes and methods.
+
+0:04:32.650,0:04:41.830
+For example, if we have a class
+diagram in the following form, yes we
+
+0:04:41.830,0:04:47.950
+have a composition between A and C, an aggregation
+between B and C, and B inherits from A.
+
+0:04:47.950,0:04:52.180
+Then B inherits from
+A also this composition.
+
+0:04:52.180,0:04:58.510
+That is, there is obviously an
+aggregation between B and C here, but
+
+0:04:58.510,0:05:01.540
+there is also a
+composition due to the inheritance.
+
+0:05:01.540,0:05:05.530
+And that in turn
+holds potential for conflict.
+
+0:05:05.530,0:05:09.970
+If this were a composition,
+then it would not look
+
+0:05:09.970,0:05:12.430
+like there are
+any duplicate compositions.
+
+0:05:12.430,0:05:17.515
+But since B inherits from A, there would
+then suddenly be two compositions between B and C.
+
+0:05:17.515,0:05:20.800
+This is not the case now,
+because we have composition and aggregation.
+
+0:05:20.800,0:05:28.180
+But in general,
+inheritance also ensures
+
+0:05:28.180,0:05:32.170
+that association/aggregation/composition
+is inherited.
+
+0:05:32.170,0:05:41.620
+And then that can have consequences, for instance,
+for this question of the presence of composition cycles.
+
+0:05:41.620,0:05:44.260
+So that's what has
+to be paid attention to.
+
+0:05:44.260,0:05:53.290
+Here, things don't get
+in each other's way now.

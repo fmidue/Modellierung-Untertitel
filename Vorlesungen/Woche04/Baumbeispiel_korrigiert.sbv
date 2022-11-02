@@ -1,0 +1,631 @@
+0:00:00.000,0:00:09.000
+So, ich würde gern nochmal hier in der
+App ein paar Beispiele durchsprechen.
+
+0:00:09.510,0:00:17.760
+Der Einfachheit halber verwende ich einfach
+Diagramme, die ich im WS 2019/20 gemalt habe,
+
+0:00:17.760,0:00:19.950
+male die Sachen jetzt hier also nicht live.
+
+0:00:19.950,0:00:29.970
+Aber wir werden im Wesentlichen drei Varianten
+durchsprechen, wie wir solche Baumstrukturen (wie
+
+0:00:29.970,0:00:39.690
+hier links zu sehen) modellieren könnten mittels
+Klassen und letztlich auch den Objekten dazu.
+
+0:00:39.690,0:00:47.010
+Das Ziel wird sein, dass jeder dieser
+Knoten solch eines Baumes eine Instanz
+
+0:00:47.010,0:00:49.320
+von irgendwie einer Klasse "Knoten" sein soll.
+
+0:00:49.320,0:00:49.860
+Und dann ist die Frage:
+
+0:00:49.860,0:00:53.190
+Wie können wir die Beziehung zwischen den
+Objekten, insbesondere da es eine Baumstruktur
+
+0:00:53.190,0:01:01.350
+ist (wo hier Knoten solche Nachfolger haben),
+durch Beziehungen zwischen den Klassen darstellen?
+
+0:01:02.760,0:01:03.690
+Einen Baum sehen Sie hier links.
+
+0:01:03.690,0:01:07.230
+Also Knoten, die Nachfolger haben.
+
+0:01:07.230,0:01:09.360
+Es soll ein Binärbaum sein.
+
+0:01:09.360,0:01:13.560
+Das heißt, Knoten können maximal zwei
+Nachfolger haben, wie das hier der Fall ist.
+
+0:01:13.560,0:01:18.510
+Wie in der Informatik üblich,
+wachsen die Bäume nach unten.
+
+0:01:18.510,0:01:23.430
+Und Sie sehen hier jeweils an den
+Verbindungen auch die Richtung.
+
+0:01:23.430,0:01:26.730
+Also das soll hier die Richtung
+sein: von Vaterknoten zu Sohnknoten.
+
+0:01:26.730,0:01:31.470
+Jetzt haben wir hier rechts
+eine erste Möglichkeit,
+
+0:01:31.470,0:01:34.530
+wie wir das formalisieren
+oder modellieren könnten.
+
+0:01:34.530,0:01:36.870
+Also es soll diese Knotenklasse geben.
+
+0:01:36.870,0:01:39.270
+Die hat ein Attribut.
+
+0:01:39.270,0:01:46.965
+Das heißt, jedes Objekt dieser Klasse
+wird als Wert eine ganze Zahl tragen.
+
+0:01:46.965,0:01:51.000
+Das sind dann eben auch genau die Zahlen,
+die links in dem Baum zu sehen sind.
+
+0:01:51.000,0:01:57.000
+Und die Vater-Kind-Beziehung
+entspricht einer Assoziation.
+
+0:01:57.000,0:01:59.700
+Und das ist sozusagen eine Selbstassoziation.
+
+0:01:59.700,0:02:03.210
+Das heißt, wir haben hier
+rechts diese Assoziation,
+
+0:02:03.210,0:02:06.960
+wo Knoten zu Knoten zugeordnet werden.
+
+0:02:06.960,0:02:09.540
+Und interessant sind zum einen die Rollen.
+
+0:02:09.540,0:02:15.820
+Also es gibt jeweils einen Vater und ein Kind,
+an den Eltern- und Kind-Enden dieser Assoziation.
+
+0:02:15.820,0:02:20.020
+Die Pfeilspitze hier entspricht
+der Navigationsrichtung,
+
+0:02:20.020,0:02:24.550
+also von wo nach wo wir gehen (nämlich
+vom Elternteil zum Kind im Baum).
+
+0:02:24.550,0:02:31.600
+Und die Vielfachheit halten wir entsprechend
+einerseits dem Charakter fest, dass jeder
+
+0:02:31.600,0:02:37.930
+Knoten höchstens einen Vorgängerknoten haben kann
+(die Drei hat die Zwei als Vorgängerknoten, zum
+
+0:02:37.930,0:02:42.550
+Beispiel), es allerdings auch Knoten gibt, nämlich
+den Wurzelknoten, der gar keine Vorgänger hat.
+
+0:02:42.550,0:02:45.190
+Deswegen muss hier auch null erlaubt sein.
+
+0:02:45.190,0:02:52.120
+Und in die andere Richtung (in Kind-Richtung)
+hat jeder Knoten 0 bis 2 Nachfolger.
+
+0:02:52.120,0:02:56.740
+Null, weil zum Beispiel diese
+Blattknoten gar keine Nachfolger haben.
+
+0:02:56.740,0:03:01.030
+Maximal zwei, weil zum Beispiel dieser
+Knoten zwei Nachfolger haben soll,
+
+0:03:01.030,0:03:03.910
+und es nicht mehr als zwei Nachfolger geben soll.
+
+0:03:03.910,0:03:05.920
+Deswegen 0 bis 2.
+
+0:03:05.920,0:03:08.860
+Und 1 soll auch erlaubt sein, weil etwa
+die Drei hier nur einen Nachfolger hat.
+
+0:03:11.200,0:03:16.840
+Interessant aus struktureller Sicht ist, dass so
+eine Selbstassoziation hier durchaus erlaubt ist.
+
+0:03:16.840,0:03:20.290
+Als wir noch in der letzten Woche
+Diagramme mit den Vererbungspfeilen
+
+0:03:20.290,0:03:24.700
+gemalt hatten, gab es genau so eine
+Situation, die nicht erlaubt war.
+
+0:03:24.700,0:03:27.310
+Dass eine Klasse auf sich selbst
+einen Vererbungspfeil hat.
+
+0:03:27.310,0:03:28.540
+Weil das Vererbung war.
+
+0:03:28.540,0:03:29.800
+Für die Assoziation ist das kein Widerspruch.
+
+0:03:29.800,0:03:32.470
+Knoten können zu sich selbst assoziiert sein.
+
+0:03:32.470,0:03:41.380
+Das heißt nicht, dass in dem modellierten
+Baum ein Knoten auf sich selbst zeigt.
+
+0:03:41.380,0:03:45.820
+Also dass hier diese Verbindung von
+Node zu Node im Klassendiagramm ist,
+
+0:03:45.820,0:03:48.100
+heißt nicht, dass ein Knoten
+auf sich selbst zeigt.
+
+0:03:48.100,0:03:52.480
+Sondern dass ein Knoten auf ein
+oder mehrere Knoten zeigen kann.
+
+0:03:52.480,0:03:57.490
+Durchaus andere Knoten, also
+andere Instanzen der Knoten-Klasse.
+
+0:03:59.530,0:04:02.500
+Das wäre eine erste Möglichkeit,
+hier zu modellieren.
+
+0:04:02.500,0:04:06.910
+Eine zweite Möglichkeit
+wäre ganz anders gestaltet.
+
+0:04:06.910,0:04:09.280
+Und zwar wäre sie dem Ziel geschuldet,
+
+0:04:09.280,0:04:14.890
+dass wir vielleicht eigentlich die inneren
+Knoten (also Knoten dieser Art) echt
+
+0:04:14.890,0:04:18.900
+unterscheiden können wollen von solchen
+Blattknoten, die keine Nachfolger haben.
+
+0:04:18.900,0:04:21.150
+Nehmen wir an, wir wollen nicht
+eine Klasse "Knoten" haben,
+
+0:04:21.150,0:04:24.720
+die für jeden Knoten in diesem Baum steht.
+
+0:04:24.720,0:04:29.640
+Sondern wir wollen die inneren Knoten und die
+äußeren Knoten getrennt voneinander modellieren.
+
+0:04:29.640,0:04:34.290
+Vielleicht, weil sie irgendwie noch verschiedene
+Funktionalitäten zusätzlich erfüllen sollen.
+
+0:04:34.290,0:04:37.740
+Zusätzlich zu der Tatsache,
+dass sie eine Zahl tragen.
+
+0:04:38.550,0:04:43.290
+Dann könnten wir zwei verschiedene Klassen
+haben, für Blattknoten und für innere Knoten.
+
+0:04:43.290,0:04:48.300
+Andererseits haben sie natürlich etwas gemeinsam,
+nämlich die Tatsache, dass sie diesen Wert tragen.
+
+0:04:48.300,0:04:54.390
+Also vielleicht ergibt es Sinn, das als zwei
+Unterklassen einer allgemeineren Klasse zu haben,
+
+0:04:54.390,0:05:00.900
+welche für Knoten steht (unabhängig von
+Blatt- oder innere Knoten; und die dieses
+
+0:05:00.900,0:05:06.480
+Attribut "value" hat), und von der die anderen
+beiden spezifischeren Knoten-Klassen dann erben.
+
+0:05:07.890,0:05:15.660
+Wenn wir diese Idee umsetzen,
+dann könnte das so aussehen.
+
+0:05:15.660,0:05:17.895
+Das sieht erst mal etwas
+komplizierter aus, ist aber präziser.
+
+0:05:17.895,0:05:18.960
+Was haben wir hier?
+
+0:05:18.960,0:05:21.510
+Wir haben diese Knoten-Klasse.
+
+0:05:23.550,0:05:25.620
+Die ist hier als "abstract" gekennzeichnet.
+
+0:05:25.620,0:05:28.140
+Das hat den Hintergrund, wie es hier unten steht,
+
+0:05:28.140,0:05:31.762
+dass dann von dieser Klasse selbst
+keine Instanzen gebildet werden können.
+
+0:05:31.762,0:05:35.100
+Es wird also keine Instanzen dieser
+abstrakten Klasse "Knoten" geben.
+
+0:05:35.100,0:05:39.720
+Die ist einfach nur da, um
+als Superklasse für diese
+
+0:05:39.720,0:05:44.040
+beiden spezifischeren Klassen von
+inneren und Blattknoten zu dienen.
+
+0:05:44.040,0:05:46.170
+Und diese können instanziiert werden.
+
+0:05:46.170,0:05:49.860
+Also jeder Knoten, den es jemals geben wird, wird
+entweder innerer Knoten oder Blattknoten sein.
+
+0:05:49.860,0:05:54.120
+Weil man die Oberklasse als abstrakt markiert hat
+
+0:05:54.120,0:05:57.030
+und von ihr selbst deswegen keine
+Objekt gebildet werden können.
+
+0:05:57.030,0:06:03.510
+Das ist also sozusagen die
+Funktion dieser Annotation.
+
+0:06:03.510,0:06:08.370
+Dann liegt hier in dieser
+Oberklasse das value-Attribut.
+
+0:06:08.370,0:06:12.330
+Deswegen muss es bei den Blatt- und inneren
+Knoten nicht nochmal angeführt werden.
+
+0:06:12.330,0:06:16.770
+Denn die erben das dann über
+diese beiden Verbindungen.
+
+0:06:18.720,0:06:21.930
+Und dann ist relevant, dass es
+natürlich keine Selbstassoziation
+
+0:06:21.930,0:06:25.050
+mehr gibt von inneren Knoten zu sich
+selbst, und von Knoten zu sich selbst.
+
+0:06:25.050,0:06:27.150
+Jetzt ist es so, dass es die Blattknoten gibt.
+
+0:06:27.150,0:06:32.940
+Die haben natürlich keine Kinder (logischerweise,
+
+0:06:32.940,0:06:38.580
+weil es eben Blattknoten sind), deswegen führt
+von dort keine weitere Assoziation irgendwie weg.
+
+0:06:38.580,0:06:39.450
+Das gibt es nicht.
+
+0:06:39.450,0:06:41.580
+Das gibt es nur von den inneren Knoten.
+
+0:06:41.580,0:06:49.080
+Dann sieht hier die Situation so ähnlich
+aus wie vorher, mit einem Unterschied:
+
+0:06:49.860,0:06:51.390
+Da steht nämlich nicht mehr 0..2, sondern 1..2.
+
+0:06:52.140,0:06:52.890
+Wieso das?
+
+0:06:52.890,0:06:57.660
+Weil wir ja jetzt diese Assoziation
+nur noch an inneren Knoten vorsehen.
+
+0:06:57.660,0:07:00.030
+Und die haben tatsächlich
+mindestens einen Nachfolger.
+
+0:07:00.030,0:07:04.770
+In dem Beispiel davor mussten wir hier 0..2 haben,
+
+0:07:04.770,0:07:08.400
+weil ein Knoten ja auch Blattknoten sein
+konnte und dann gar keine Nachfolger hat.
+
+0:07:08.400,0:07:17.250
+Jetzt, wo wir sagen, die Blattknoten werden
+explizit als eigene Klasse modelliert (und dass
+
+0:07:17.250,0:07:23.250
+sie keine Nachfolger haben, sehen wir daran, dass
+es davon ausgehend keine Assoziation gibt), können
+
+0:07:23.250,0:07:27.960
+wir wiederum bei den inneren Knoten sagen, dass
+die ja immer mindestens einen Nachfolger haben.
+
+0:07:27.960,0:07:29.160
+Deswegen steht hier oben die 1.
+
+0:07:31.170,0:07:36.711
+Umgekehrt hat jeder Knoten nach
+wie vor null bis einen Vorgänger.
+
+0:07:36.711,0:07:38.610
+Deswegen steht hier immer noch 0..1.
+
+0:07:40.800,0:07:47.790
+Und dann ist noch interessant, dass natürlich
+diese Assoziation von inneren Knoten eben
+
+0:07:47.790,0:07:52.290
+nicht irgendwie hier zu inneren Knoten
+zurückgeht (keine Selbstassoziation ist).
+
+0:07:52.290,0:07:56.040
+Sondern die führt zu allgemeineren Knoten.
+
+0:07:56.040,0:07:58.530
+Was dann konkret heißt, dass die Kinder eines
+
+0:07:58.530,0:08:03.000
+Knotens sowohl Blattknoten als
+auch innere Knoten sein können.
+
+0:08:03.000,0:08:11.220
+Weil die beide von der abstrakten Klasse "Knoten"
+erben, zu welcher diese child-Beziehung zeigt.
+
+0:08:11.220,0:08:17.520
+Dann ist das also eine andere
+Art, eine ausgefeiltere Art,
+
+0:08:17.520,0:08:27.110
+die Situation von der Folie davor
+(diese Zielsituation) zu beschreiben.
+
+0:08:31.880,0:08:37.250
+Und dann noch eine weitere
+Variante (die auf andere
+
+0:08:37.250,0:08:40.820
+Weise verändert wurde) könnte wie folgt aussehen.
+
+0:08:40.820,0:08:50.420
+Nehmen wir an, wir möchten gern zu den Knoten
+und den Verbindungen jeweils auch wissen,
+
+0:08:50.420,0:08:54.260
+was der linke und der rechte Nachfolger ist.
+
+0:08:54.260,0:09:01.190
+Also statt einfach wie in diesem
+Bild hier die Verbindung zu haben,
+
+0:09:01.190,0:09:05.030
+wollen wir jeweils dranstehen
+haben (oder ausgedrückt haben,
+
+0:09:05.030,0:09:10.640
+festgehalten haben), was denn
+rechter und linker Nachfolger sind.
+
+0:09:10.640,0:09:15.050
+Dann können wir nicht nur eine Assoziation
+haben, die irgendwie für Nachfolger steht.
+
+0:09:15.050,0:09:19.370
+Sondern wir müssen getrennt Assoziationen
+für linke und rechte Nachfolger haben.
+
+0:09:20.270,0:09:23.210
+Das könnte zum Beispiel so aussehen.
+
+0:09:23.210,0:09:26.540
+Also wir gehen wieder zurück zu
+einer einzelne Knoten-Klasse.
+
+0:09:26.540,0:09:32.120
+Die trägt einen Wert als Attribut,
+und dann gibt es zwei Assoziationen:
+
+0:09:32.120,0:09:36.800
+eine für linken Nachfolger,
+eine für rechten Nachfolger.
+
+0:09:36.800,0:09:40.460
+Natürlich steht dann nicht mehr 0..2,
+
+0:09:41.600,0:09:46.370
+sondern 0..1, weil es maximal einen linken und
+maximal einen rechten Nachfolger geben kann.
+
+0:09:46.370,0:09:48.860
+Umgekehrt steht hier auch wieder 0..1,
+
+0:09:49.430,0:09:56.990
+weil jeder Knoten auch maximal einen Vorgänger
+haben kann, dessen linker Nachfolger er ist.
+
+0:09:56.990,0:09:59.960
+Wir sehen hier auch:
+
+0:09:59.960,0:10:05.060
+Strukturell im Klassendiagramm ist zum Beispiel
+die Selbstreferenz erlaubt, aber auch zum
+
+0:10:05.060,0:10:11.540
+Beispiel, dass es für die gleichen Klassen "Node"
+und "Node" zwei verschiedene Assoziationen gibt.
+
+0:10:12.290,0:10:16.790
+Was bei den Vererbungspfeilen
+so nicht erlaubt war.
+
+0:10:16.790,0:10:17.060
+Tatsächlich:
+
+0:10:17.060,0:10:20.450
+Die Assoziationspfeile und
+Diagramme, die wir daraus bilden,
+
+0:10:20.450,0:10:21.740
+haben weniger strukturelle Einschränkungen.
+
+0:10:21.740,0:10:27.290
+Sie können zum Beispiel Zyklen
+haben, oder auch Selbstzyklen, und
+
+0:10:27.290,0:10:29.000
+mehrere Assoziationen zwischen gleichen Partnern.
+
+0:10:29.000,0:10:30.710
+Anders als bei Vererbung.
+
+0:10:30.710,0:10:33.440
+Jetzt könnten wir sowas ausdrücken.
+
+0:10:33.440,0:10:40.580
+Das ist abgedeckt, es gibt eben
+zum Beispiel diese mehreren Knoten.
+
+0:10:40.580,0:10:47.060
+Hier ist explizit nicht nur die
+Verbindungsstruktur ausgedrückt,
+
+0:10:47.060,0:10:52.130
+sondern auch, was jeweils linker
+und rechter Nachfolger sind.
+
+0:10:56.360,0:11:02.360
+Dann gibt es noch diese formulierte Frage,
+ob hier irgendwas problematisch ist.
+
+0:11:02.360,0:11:08.270
+Das hatte ich in der Vergangenheit
+hier als eventuell problematisch
+
+0:11:08.270,0:11:12.320
+an dieser Modellierung diskutiert,
+wie sie jetzt hier gestaltet ist:
+
+0:11:13.610,0:11:20.060
+Durch die Aufspaltung ihrer Kind-Beziehung
+in Links- und Rechts-Beziehungen haben wir
+
+0:11:20.060,0:11:26.150
+plötzlich die Situation, dass
+ein Knoten sowohl einen linken,
+
+0:11:26.150,0:11:28.040
+als auch einen rechten Vorgänger haben könnte.
+
+0:11:28.040,0:11:32.150
+Was diese Modellierung (so wie sie
+jetzt da steht) zulassen würde,
+
+0:11:32.150,0:11:51.890
+wäre eine Konstellation wie die folgende
+mit drei Knoten und folgender Assoziation.
+
+0:11:51.890,0:12:00.860
+Dass nämlich der Knoten Drei linker Nachfolger
+von Zwei und rechter Nachfolger von Eins wäre.
+
+0:12:00.860,0:12:03.350
+Und das wäre keine Baumstruktur mehr.
+
+0:12:03.350,0:12:10.400
+Das wäre sowohl bei dieser, als auch bei
+dieser Modellierung, nicht möglich gewesen.
+
+0:12:10.400,0:12:13.100
+Hier hätte das dieses 0..1 verhindert.
+
+0:12:13.100,0:12:17.900
+Es gibt höchstens einen Vorgänger und
+nicht einen Vorgänger dessen linker,
+
+0:12:17.900,0:12:21.350
+und einen Vorgänger, dessen
+rechter Nachfolger man selber ist.
+
+0:12:23.930,0:12:27.980
+Wie können wir das beheben?
+
+0:12:27.980,0:12:33.140
+Mit den Mitteln, die wir jetzt behandelt
+haben, können wir das gar nicht beheben.
+
+0:12:33.140,0:12:35.810
+Die Multiplizitäten verhindern das einfach nicht.
+
+0:12:35.810,0:12:36.740
+Die sagen nur:
+
+0:12:36.740,0:12:40.130
+Man kann jetzt einen Vorgänger
+links und einen rechts haben.
+
+0:12:40.130,0:12:42.200
+Man kann nicht ausdrücken, dass man einen
+
+0:12:42.200,0:12:45.620
+links oder einen rechts haben kann, aber
+insgesamt auch nur einen haben könnte.
+
+0:12:45.620,0:12:47.930
+Das erlauben Assoziationen
+einfach nicht auszudrücken.
+
+0:12:47.930,0:12:55.670
+Dafür bräuchten wir Kompositionen, weil die
+mehr Einschränkungen auf Objektinstanzen haben.
+
+0:12:56.450,0:13:01.160
+Das wird uns in einem späteren Video beschäftigen,
+wahrscheinlich direkt im nächsten sogar.
+
+0:13:01.160,0:13:02.810
+Nicht an diesem Beispiel.
+
+0:13:02.810,0:13:11.450
+Aber was bei Komposition speziell ist
+und über die durch Multiplizitäten
+
+0:13:11.450,0:13:14.060
+ausgedrückten Einschränkungen hinausgeht.

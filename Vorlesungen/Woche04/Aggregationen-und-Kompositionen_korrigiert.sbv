@@ -1,0 +1,814 @@
+0:00:00.000,0:00:06.960
+Kommen wir als nächste Beziehung zwischen
+Klassen zur sogenannten Aggregation.
+
+0:00:06.960,0:00:12.390
+Das ist eine Beziehung, die etwas
+stärker ist als die Assoziation.
+
+0:00:12.390,0:00:15.180
+Die Interpretation ist wie hier geschrieben:
+
+0:00:15.180,0:00:20.160
+Man sagt, es gibt eine Aggregation
+zwischen den Klassen A und B, wenn
+
+0:00:20.160,0:00:28.050
+Instanzen der Klasse A Instanzen der Klasse
+B in irgendeiner Form als Teile enthalten.
+
+0:00:28.050,0:00:28.770
+Also im Sinne:
+
+0:00:28.770,0:00:32.010
+Es gibt ein Ganzes, das enthält mehrere Teile.
+
+0:00:32.010,0:00:37.080
+Das ist erst mal eine semantische
+Interpretation, spezielle Rollen.
+
+0:00:37.080,0:00:40.560
+Ansonsten wäre das auch noch
+wie eine Assoziation zu sehen.
+
+0:00:40.560,0:00:43.650
+Irgendeine Beziehung zwischen A
+und B, wo Verweise existieren.
+
+0:00:43.650,0:00:46.410
+Das könnte ja auch für Ganzes und Teile stehen.
+
+0:00:46.410,0:00:52.590
+Im Grunde ist die Aggregation ein
+Notations-Spezialfall von Assoziationen.
+
+0:00:52.590,0:00:54.120
+Ansonsten hat sie die gleichen Features.
+
+0:00:54.120,0:00:56.700
+Also es gibt Namen der
+Assoziation und Aggregation.
+
+0:00:56.700,0:01:01.320
+Es gibt eine Leserichtung, Navigationsrichtungen,
+Multiplizitäten, Rollen an den Enden.
+
+0:01:01.320,0:01:04.620
+Also vieles ist noch ähnlich
+wie bei Assoziationen.
+
+0:01:04.620,0:01:11.820
+Es ist hier insbesondere auch durch
+den Tatbestand einer Aggregation nicht
+
+0:01:11.820,0:01:16.890
+irgendwie verboten, dass ein Teil zu mehreren
+oder vielleicht auch zu keinem Ganzen gehört.
+
+0:01:18.540,0:01:21.510
+Ein mögliches Beispiel wären Songs und Playlisten.
+
+0:01:21.510,0:01:28.740
+Also sagen wir, A wäre eine Klasse von
+Playlisten und B wäre eine Klasse von Songs.
+
+0:01:28.740,0:01:33.420
+Natürlich enthalten Playlisten Songs als Teile.
+
+0:01:33.420,0:01:37.620
+Das heißt aber nicht, dass ein Song nur
+genau zu einer Playlist gehören darf.
+
+0:01:37.620,0:01:40.680
+Also so strikt ist das Enthalten-Sein nicht,
+
+0:01:40.680,0:01:49.680
+dass ein Song zum Beispiel nur als Teil
+genau einer Playlist existieren kann.
+
+0:01:49.680,0:01:54.510
+Dennoch wird dort aggregiert, also Songs
+werden aggregiert zu einer Playlist.
+
+0:01:57.480,0:02:01.005
+Eine explizite Benennung der
+Aggregation ist oft überflüssig.
+
+0:02:01.005,0:02:05.910
+Ich hatte gesagt, man kann genau wie
+für eine Assoziation auch einen Namen
+
+0:02:05.910,0:02:09.450
+für eine Aggregation vergeben und
+in das Klassendiagramm einzeichnen.
+
+0:02:09.450,0:02:14.620
+Oftmals ist das nicht nötig, da
+daraus, dass es eine Aggregation ist,
+
+0:02:14.620,0:02:16.240
+bereits die Natur der Beziehung folgt.
+
+0:02:16.240,0:02:22.210
+Also die Beziehung hieße vielleicht
+am Ende sowieso "enthält" als Name.
+
+0:02:22.210,0:02:24.670
+Statt "besitzt" würde man
+vielleicht hinschreiben: "enthält".
+
+0:02:25.390,0:02:29.260
+Das wird aber auch bereits durch die
+grafische Form der Darstellung klar,
+
+0:02:29.260,0:02:34.540
+denn Aggregationen werden
+anders als Assoziationen gemalt.
+
+0:02:34.540,0:02:36.250
+Und zwar wie folgt.
+
+0:02:37.360,0:02:42.010
+Es gibt eine Verbindung wie
+bei den Assoziationen auch.
+
+0:02:42.010,0:02:48.130
+Aber an einem Ende, und zwar am Ende des
+Ganzen (also das, was in der Aggregation
+
+0:02:48.130,0:02:55.930
+die Rolle des Ganzen übernimmt), da wird
+dieser nicht ausgefüllte Diamant gezeichnet.
+
+0:02:57.340,0:02:58.390
+Ein Beispiel wäre:
+
+0:02:58.390,0:03:01.030
+Ein Parkplatz enthält mehrere Autos.
+
+0:03:01.030,0:03:02.620
+Hier steht als Name "enthält" dran.
+
+0:03:02.620,0:03:05.440
+Das könnte man sich aber wahrscheinlich sparen.
+
+0:03:05.440,0:03:09.280
+Weil ja durch diese grafische
+Form bereits ausgedrückt ist,
+
+0:03:09.280,0:03:12.760
+was für eine Art von Beziehung hier
+vorliegt, nämlich eine Aggregation.
+
+0:03:12.760,0:03:15.730
+Und auch die Leserichtung ist
+da nicht unbedingt notwendig.
+
+0:03:15.730,0:03:18.820
+Da durch das Ende, an dem
+der Diamant angebracht wird,
+
+0:03:18.820,0:03:21.370
+auch ausgedrückt wird, wer denn hier wen enthält.
+
+0:03:21.370,0:03:22.840
+Also hier:
+
+0:03:22.840,0:03:26.110
+Ein Parkplatz enthält beliebig viele Autos.
+
+0:03:26.110,0:03:29.470
+Ein Auto kann auf einem Parkplatz
+stehen, oder auch nicht.
+
+0:03:31.630,0:03:35.080
+Also ein Auto existiert nicht nur
+solange, wie es auf einem Parkplatz steht.
+
+0:03:35.080,0:03:37.570
+Ein Auto kann auch existieren und
+dabei auf keinem Parkplatz stehen.
+
+0:03:41.120,0:03:44.450
+Die Rolle des Ganzen hier übernimmt,
+wie gesagt, der Parkplatz.
+
+0:03:44.450,0:03:50.000
+Die Rolle des Teils, in dieser
+Teil-Ganzes-Beziehung, übernimmt das Auto.
+
+0:03:50.000,0:03:55.760
+Durch diese "0..1" Multiplizität ist ausgedrückt,
+
+0:03:55.760,0:03:59.870
+dass ein Auto zumindest nie
+auf zwei Parkplätzen steht.
+
+0:03:59.870,0:04:05.420
+Während wiederum diese Multiplizität ja
+eigentlich nicht angegeben werden müsste.
+
+0:04:05.420,0:04:10.400
+Da das sowieso unsere Default-Multiplizität
+ist, wenn nichts dransteht.
+
+0:04:10.400,0:04:11.750
+Ich hätte das hier auch weglassen können.
+
+0:04:11.750,0:04:15.260
+Und dann wäre wegen etwas, das ich
+in einem früheren Video gesagt hatte,
+
+0:04:15.260,0:04:18.020
+dennoch für den Rahmen der Vorlesung klar,
+
+0:04:18.020,0:04:23.120
+dass es keine Einschränkung bezüglich der
+Anzahl von Autos auf einem Parkplatz gibt.
+
+0:04:23.120,0:04:26.420
+Was könnte man noch machen?
+
+0:04:26.420,0:04:28.640
+Man könnte noch die Navigationsrichtung angeben.
+
+0:04:28.640,0:04:30.680
+Man könnte hier noch einen
+Navigationsrichtungs-Pfeil
+
+0:04:30.680,0:04:34.760
+an dieses Ende zeichnen, um zu sagen:
+
+0:04:34.760,0:04:39.560
+Vom Parkplatz aus kann man auf die
+Autos zugreifen, die darauf stehen.
+
+0:04:39.560,0:04:45.380
+Ein Navigationspfeil in die
+Gegenrichtung würde nicht möglich sein.
+
+0:04:45.380,0:04:46.850
+Zum einen gäbe es da einen Grafikkonflikt.
+
+0:04:46.850,0:04:49.640
+Man könnte diesen Pfeil ja gar nicht hinzeichnen.
+
+0:04:50.180,0:04:52.880
+Zum anderen ist sowieso das
+Verständnis bei der Aggregation,
+
+0:04:52.880,0:04:56.180
+dass ein Teil jeweils weiß,
+zu welchem Ganzen es gehört.
+
+0:04:56.180,0:04:59.780
+Also es wird irgendwie vorausgesetzt,
+
+0:04:59.780,0:05:04.670
+dass man von dem Auto auch den es
+enthaltenden Parkplatz ermitteln kann.
+
+0:05:08.960,0:05:11.450
+Das ist ein Beispiel mit "0..1".
+
+0:05:11.450,0:05:14.270
+Man dürfte hier durchaus auch
+andere Multiplizitäten haben.
+
+0:05:15.020,0:05:15.710
+Bei Parkplätzen nicht.
+
+0:05:15.710,0:05:17.780
+Das ergibt keinen Sinn, dass ein
+Auto auf zwei Parkplätzen steht.
+
+0:05:17.780,0:05:24.320
+Aber nehmen wir an, statt "Parkplatz" stünde
+hier "Fahrzeugflotte" oder "Autohändler-Katalog".
+
+0:05:24.320,0:05:29.180
+Dann kann ein Auto natürlich in einer
+Fahrzeugflotte enthalten sein, oder in
+
+0:05:29.180,0:05:32.390
+einem Autohändler-Katalog,
+und durchaus auch in mehreren.
+
+0:05:32.390,0:05:38.480
+Also eine Aggregation verlangt eben
+nicht, dass hier maximal 1 möglich ist.
+
+0:05:38.480,0:05:40.370
+Anders als gleich bei der Komposition.
+
+0:05:40.370,0:05:41.870
+Deswegen erwähne ich das.
+
+0:05:43.890,0:05:47.280
+In Hinsicht auf strukturelle Einschränkungen:
+
+0:05:47.280,0:05:48.270
+Wie ist das jetzt, wenn wir ein Klassendiagramm
+
+0:05:48.780,0:05:51.705
+mit mehreren Klassen und dazwischen
+mehreren Aggregationen haben?
+
+0:05:51.705,0:05:53.220
+Vielleicht gibt es da irgendwelche
+strukturellen Einschränkungen.
+
+0:05:53.220,0:05:56.010
+Da ist die Situation wie bei Assoziationen.
+
+0:05:56.010,0:05:58.050
+Also es ist nicht verboten, Zyklen zu haben.
+
+0:05:58.050,0:05:59.910
+Es ist nicht verboten, Selbstreferenzen zu haben.
+
+0:05:59.910,0:06:05.430
+Es ist nicht verboten, mehrere Aggregationen oder
+auch Aggregationen und Assoziationen gemischt,
+
+0:06:05.430,0:06:08.130
+zwischen den gleichen Partnern zu haben.
+
+0:06:08.130,0:06:09.420
+Anders als bei der Vererbung.
+
+0:06:13.680,0:06:14.640
+Das war Aggregation.
+
+0:06:14.640,0:06:15.630
+Was ist jetzt mit der Komposition?
+
+0:06:15.630,0:06:20.070
+Die war eingeführt, bzw. schon mal kurz erwähnt,
+als die stärkste der betrachteten Beziehungen.
+
+0:06:20.070,0:06:22.380
+Also Assoziation, Aggregation und Komposition.
+
+0:06:24.120,0:06:25.050
+Wie ist hier das Verständnis?
+
+0:06:25.050,0:06:28.110
+Eine Komposition, wieder
+zwischen zwei Klassen A und B,
+
+0:06:28.110,0:06:31.380
+drückt auch so eine Teil-Ganzes-Beziehung aus.
+
+0:06:31.380,0:06:36.540
+Also Instanzen der Klasse A enthalten
+Instanzen der Klasse B als Teile.
+
+0:06:38.280,0:06:43.920
+Zusätzlich zu dem, was die Aggregation schon
+interpretiert, wird hier aber noch verlangt,
+
+0:06:43.920,0:06:47.040
+dass die Lebenszeit der Teile
+von dem Ganzen kontrolliert wird.
+
+0:06:47.040,0:06:51.030
+In dem Sinne, dass die Teile ohne
+das Ganze nicht existieren können.
+
+0:06:51.660,0:06:54.390
+Das ist bei Parkplatz und Auto nicht der Fall.
+
+0:06:54.390,0:06:57.630
+Sicherlich enthält ein Parkplatz Autos.
+
+0:06:57.630,0:07:00.990
+Aber das heißt nicht, dass wenn der Parkplatz
+geschlossen wird oder nicht mehr existiert,
+
+0:07:00.990,0:07:02.700
+deswegen alle Autos zerstört werden.
+
+0:07:02.700,0:07:07.020
+Bei der Komposition hat man eher dieses
+Verständnis, dass die Teile wirklich so
+
+0:07:07.020,0:07:10.470
+integraler Bestandteil des Ganzen sind, dass
+sie ohne das Ganze gar nicht existieren.
+
+0:07:10.470,0:07:13.890
+Teile haben sozusagen keine eigene Lebenszeit.
+
+0:07:13.890,0:07:18.060
+Das heißt im Grunde für die Implementierung:
+
+0:07:18.060,0:07:22.800
+Die Teile können (oder müssen sogar) gelöscht
+werden, sobald die ihnen zugehörige Instanz
+
+0:07:22.800,0:07:28.650
+der Klasse A, also das Objekt von Klasse A, als
+dessen Teil sie angesehen werden, gelöscht wird.
+
+0:07:28.650,0:07:36.870
+Und wegen dieser Betrachtung darf ein Teil eben
+
+0:07:36.870,0:07:39.180
+nicht gleichzeitig zu mehr
+als einem Ganzen gehören.
+
+0:07:39.180,0:07:43.860
+Denn dann wäre seine Lebenszeit eben nicht
+an eine Instanz der Klasse A geknüpft.
+
+0:07:43.860,0:07:51.750
+Also das Beispiel mit "ein Song gehört zu
+mehreren Playlisten" wäre keine Komposition.
+
+0:07:51.750,0:07:55.970
+Weil die Songs nicht aufhören zu existieren,
+wenn eine Playlist gelöscht wird.
+
+0:07:55.970,0:07:58.460
+Und ein Song auch zu mehreren
+Playlisten gehören kann.
+
+0:07:58.460,0:08:02.570
+Und dann das Löschen einer Playlist
+keinen Effekt auf den Song hat.
+
+0:08:02.570,0:08:04.760
+Der ist halt immer noch in
+anderen Playlisten enthalten.
+
+0:08:05.300,0:08:08.060
+Playlisten-und-Songs wäre aus diesem
+Grund kein Beispiel für Komposition.
+
+0:08:08.780,0:08:14.390
+Eine Benennung von Komposition ist oft auch
+überflüssig, ähnlich wie bei Aggregation.
+
+0:08:14.390,0:08:19.910
+Weil aus der grafischen Darstellung bereits
+der Charakter als Komposition hervorgeht.
+
+0:08:19.910,0:08:23.420
+Was wir schon sehen, wenn wir das
+hier mit Aggregation vergleichen, ist,
+
+0:08:23.420,0:08:25.040
+dass vielleicht die Entscheidung,
+
+0:08:25.040,0:08:28.100
+ob man eine Aggregation oder eine Komposition
+nimmt, manchmal nicht ganz einfach ist.
+
+0:08:28.100,0:08:30.560
+Da ist durchaus Interpretationsspielraum,
+
+0:08:30.560,0:08:33.530
+der auch davon abhängt, was man
+beim Modellieren ausdrücken möchte.
+
+0:08:34.190,0:08:37.700
+Also es kann sein, dass da manchmal
+sowohl die Verwendung von Aggregation,
+
+0:08:37.700,0:08:40.640
+als auch die von Komposition, sinnvoll erscheint.
+
+0:08:40.640,0:08:42.560
+Dann muss man sich eben für
+eins von beiden entscheiden.
+
+0:08:42.560,0:08:44.030
+In manchen Fällen ist es auch klar.
+
+0:08:44.030,0:08:50.900
+Wir werden nachher noch, als Merksätze
+aufgelistet, ein paar Kriterien sehen.
+
+0:08:50.900,0:08:58.250
+Die entsprechen aber im Wesentlichen denen, die
+auch hier als die beiden Kriterien vorkommen, um
+
+0:08:58.250,0:09:01.640
+zu entscheiden, ob etwas wirklich eine Komposition
+und nicht doch nur eine Aggregation ist.
+
+0:09:03.500,0:09:06.290
+Schauen wir uns vorher aber noch
+mal die grafische Darstellung an.
+
+0:09:06.290,0:09:10.700
+Also für eine Komposition nimmt man eine
+ähnliche Darstellung wie für die Aggregation.
+
+0:09:10.700,0:09:13.820
+Aber jetzt ist dieser Diamant ausgefüllt.
+
+0:09:14.330,0:09:18.050
+Das ist der Unterschied zwischen Aggregation und
+Komposition, wie dieser Diamant hier aussieht.
+
+0:09:18.050,0:09:19.280
+Ein Beispiel:
+
+0:09:19.280,0:09:22.430
+Eine Firma besteht aus einer
+beliebigen Anzahl von Abteilungen.
+
+0:09:23.120,0:09:26.330
+"Besteht aus" ist hier die Komposition.
+
+0:09:26.330,0:09:28.160
+Die Firma ist das Ganze.
+
+0:09:28.160,0:09:29.540
+Die Abteilungen sind die Teile.
+
+0:09:29.540,0:09:31.820
+Das können beliebig viele sein.
+
+0:09:33.740,0:09:36.800
+Die Interpretation hier ist, dass die
+Abteilungen eben nicht mehr existieren,
+
+0:09:36.800,0:09:38.240
+sobald die Firma nicht mehr existiert.
+
+0:09:38.240,0:09:43.580
+Wenn die Firma aufgelöst wird, dann
+werden auch diese Abteilungen aufgelöst.
+
+0:09:43.580,0:09:46.490
+Und eine Abteilung kann nicht
+gleichzeitig zu mehreren Firmen
+
+0:09:46.490,0:09:51.560
+gehören (so wie ein Song gleichzeitig
+zu mehreren Playlists gehören kann).
+
+0:09:51.560,0:09:53.780
+Das macht in dieser Konstellation keinen Sinn.
+
+0:09:53.780,0:09:56.570
+Deswegen Komposition und nicht nur Aggregation.
+
+0:09:58.740,0:10:00.900
+Bezüglich Navigationspfeilen gilt wie eben:
+
+0:10:00.900,0:10:03.960
+Man könnte hier noch einen Navigationspfeil
+in diese Richtung einzeichnen.
+
+0:10:03.960,0:10:07.920
+In die Gegenrichtung ist es nicht
+notwendig und auch nicht möglich,
+
+0:10:07.920,0:10:13.050
+weil das einen grafischen Konflikt gäbe.
+
+0:10:13.050,0:10:18.390
+Und da man sowieso davon ausgeht, dass die
+Teile jeweils wissen, was ihr Ganzes ist.
+
+0:10:18.390,0:10:25.470
+Hier könnte man wieder eine
+Multiplizität hinschreiben.
+
+0:10:25.470,0:10:30.360
+Allerdings ist bei Komposition
+tatsächlich die Wahl sehr eingeschränkt.
+
+0:10:30.360,0:10:34.260
+Da kann nur die Multiplizität
+"0..1" oder "1" stehen.
+
+0:10:34.260,0:10:36.120
+Alle anderen Multiplizitäten sind bei
+
+0:10:36.120,0:10:41.340
+Kompositionen an dem Ende
+des Ganzen nicht erlaubt.
+
+0:10:41.340,0:10:47.130
+Die üblichste Multiplizität wäre exakt 1.
+
+0:10:47.130,0:10:49.920
+In dem Fall wird sie in der Regel
+auch gar nicht hingeschrieben.
+
+0:10:50.820,0:10:51.750
+Das ist dann die Situation:
+
+0:10:51.750,0:10:54.030
+Ein Teil gehört zu genau einem Ganzen,
+
+0:10:54.030,0:10:58.680
+und zwar immer, und kann nicht auch temporär
+zum Beispiel mal zu keinem Ganzen gehören.
+
+0:10:58.680,0:11:03.570
+Wir werden noch einen Fall
+von Kompositionen diskutieren,
+
+0:11:03.570,0:11:07.110
+wo "0..1" auch Sinn ergibt, zumindest temporär.
+
+0:11:07.110,0:11:14.110
+Also auch das wären Kriterien,
+die zur Unterscheidung zwischen
+
+0:11:14.110,0:11:16.330
+Aggregation und Komposition herhalten können.
+
+0:11:16.330,0:11:18.670
+Wenn man sich an diesem Ende
+eine Multiplizität von mehr
+
+0:11:18.670,0:11:23.050
+als 1 vorstellen kann, dann ist es keine
+Komposition, sondern eine Aggregation.
+
+0:11:29.350,0:11:38.680
+Außerdem ist anzumerken, dass
+diese Forderung (zu höchstens
+
+0:11:38.680,0:11:44.770
+einem Ganzen zu gehören) stärker ist
+als nur die Multiplizitäten angeben.
+
+0:11:44.770,0:11:58.060
+Also ein Teil könnte potenziell, zumindest auf
+
+0:11:58.060,0:11:59.050
+Klassenebene, in Kompositionsbeziehung
+zu mehreren Ganzen stehen.
+
+0:11:59.050,0:12:06.010
+Es könnte zwei Klassen geben, zu denen eine
+Klasse als Teil in Kompositionsbeziehung steht.
+
+0:12:06.010,0:12:12.010
+Dann wäre es egal, was an den Enden hier steht.
+
+0:12:12.010,0:12:19.030
+Selbst wenn da jeweils "0..1" steht, darf es
+dennoch nicht sein, dass das Teil gleichzeitig
+
+0:12:19.030,0:12:24.820
+zu einem Ganzen der einen Klasse und
+einem Ganzen der anderen Klasse gehört.
+
+0:12:24.820,0:12:29.350
+Da muss man wirklich aufpassen,
+was dieses "gehört zu genau",
+
+0:12:29.350,0:12:32.770
+oder bei 0..1 "zu höchstens
+einem Ganzen" bedeutet.
+
+0:12:32.770,0:12:35.140
+Das werden wir aber auch noch diskutieren.
+
+0:12:38.980,0:12:42.730
+Zunächst möchte ich die versprochenen
+Merksätze eigentlich nur zitieren.
+
+0:12:42.730,0:12:55.270
+Die sind aus einem der Bücher, die ich Ihnen
+bei der Besprechung von Literatur gezeigt hatte.
+
+0:12:55.270,0:12:59.560
+Dieses englischsprachige Buch
+über objektorientiertes Design.
+
+0:12:59.560,0:13:08.140
+Das sind letztlich auf Englisch die Sachen,
+die ich auf den Folien auch ausgedrückt habe.
+
+0:13:08.140,0:13:12.280
+Also irgendwie eine Assoziation als
+diese vageste Form der Beziehung.
+
+0:13:12.280,0:13:19.390
+Die irgendwie repräsentiert, wenn
+irgendwas als Daten gespeichert werden
+
+0:13:19.390,0:13:22.900
+muss und es eine Beziehung zwischen
+Objekten zweier Klassen geben soll.
+
+0:13:22.900,0:13:29.200
+Beispiele wären:
+
+0:13:30.280,0:13:31.420
+Besitztumsverhältnisse.
+
+0:13:31.420,0:13:35.710
+Kontrolle von Objekten einer Klasse
+über Objekte einer anderen Klasse.
+
+0:13:36.490,0:13:37.420
+Allgemeine Beziehungen.
+
+0:13:37.420,0:13:40.480
+"Ein Teil von etwas sein" kann auch
+eine Assoziation sein, aber wird
+
+0:13:40.480,0:13:43.120
+eher gleich als Aggregation gefasst werden.
+
+0:13:43.120,0:13:45.820
+Mitglied von etwas sein.
+
+0:13:47.380,0:13:53.620
+Auch in dem Bibliotheksklassen-Beispiel, das in
+der letzten oder vorletzten Woche auftauchte,
+
+0:13:53.620,0:13:59.710
+boten sich einige Assoziationen an,
+etwa beim Ausleihen von Büchern.
+
+0:13:59.710,0:14:02.500
+Wann sollte man keine Assoziationen verwenden?
+
+0:14:03.010,0:14:07.330
+Zum einen, wenn es um Beziehungen
+geht, die einer Hierarchie entsprechen.
+
+0:14:07.330,0:14:08.560
+Das hatte ich eingangs auch schon erwähnt.
+
+0:14:08.560,0:14:13.780
+Dann würde man entweder Vererbungshierarchien
+haben oder eher Aggregation/Komposition.
+
+0:14:13.780,0:14:21.100
+Und es muss irgendwie eine
+Beziehung sein, die persistent ist.
+
+0:14:21.100,0:14:24.220
+Die also nicht nur sehr temporär
+beim Ausführen vielleicht genau
+
+0:14:24.220,0:14:27.670
+einer Operation oder einer Methode notwendig ist.
+
+0:14:27.670,0:14:33.670
+In dem Fall wäre es einfach möglich, das
+Zielobjekt als Parameter der Methode zu übergeben.
+
+0:14:33.670,0:14:38.710
+Eine Assoziation würde man herstellen,
+wenn es um eine Beziehung geht,
+
+0:14:38.710,0:14:42.460
+die die Ausführung einer
+einzigen Operation überlebt.
+
+0:14:42.460,0:14:50.590
+Also irgendwas, das permanent über
+die Objekte abgespeichert werden soll.
+
+0:14:50.590,0:14:51.460
+Was war Aggregation?
+
+0:14:51.460,0:14:56.050
+Eine spezielle Art von Assoziation, wo
+es darum geht, dass irgendwie Objekte
+
+0:14:56.050,0:15:01.480
+der Klasse A zusammengesetzt
+sind aus Objekten der Klasse B.
+
+0:15:01.480,0:15:09.692
+Wenn es irgendwie eine Teil-Ganzes-Beziehung
+gibt zwischen den Objekten der Klassen A und B.
+
+0:15:09.692,0:15:11.290
+Das war Aggregation.
+
+0:15:11.290,0:15:13.270
+Komposition war noch stärker.
+
+0:15:14.410,0:15:23.320
+Da ist die Forderung, dass jede Instanz
+dieser Teile-Klasse zu nur einer Instanz
+
+0:15:23.320,0:15:29.590
+der Ganzes-Klasse gehören kann, und
+ohne diese auch nicht existieren kann.
+
+0:15:30.280,0:15:34.660
+Das Teil kann nur als Teil des Ganzen existieren.
+
+0:15:34.660,0:15:44.650
+Das waren die Kriterien, die ich auch auf
+den vorherigen Folien diskutiert hatte,
+
+0:15:44.650,0:15:49.930
+hier einfach nochmal kompakt zusammengefasst.

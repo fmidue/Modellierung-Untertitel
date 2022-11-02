@@ -1,0 +1,1173 @@
+0:00:00.000,0:00:07.500
+Neben Vererbung (also der Art
+Generalisierung/Spezialisierung, die wir
+
+0:00:07.500,0:00:13.770
+bisher betrachtet haben) gibt es noch andere,
+weitere Beziehungen zwischen Klassen in UML.
+
+0:00:13.770,0:00:19.650
+Letztlich sind das dann Beziehungen, die
+sich auch auf Objektebene widerspiegeln
+
+0:00:20.160,0:00:25.620
+Wir werden hier folgende drei
+Arten von Beziehungen betrachten.
+
+0:00:25.620,0:00:32.550
+Das sind bei weitem nicht alle,
+die in UML vorhanden sind.
+
+0:00:32.550,0:00:36.270
+Also es gibt noch Abhängigkeit,
+Nutzungsbeziehungen, Generizität,
+
+0:00:36.270,0:00:37.710
+Parametrisierung.
+
+0:00:37.710,0:00:41.040
+Aber das sind die drei, die wir betrachten werden.
+
+0:00:41.040,0:00:46.890
+Während Vererbung explizit nur in
+Klassendiagrammen zu sehen ist (während
+
+0:00:46.890,0:00:52.920
+im Objektdiagramm die Vererbung nicht mehr als
+eingezeichnete Verbindung irgendwie existiert),
+
+0:00:52.920,0:00:56.910
+werden Assoziation, Aggregation,
+Komposition tatsächlich sowohl in
+
+0:00:56.910,0:01:03.420
+Klassendiagrammen als auch in zugehörigen
+Objektdiagrammen explizit dargestellt sein.
+
+0:01:03.420,0:01:14.850
+Diese drei Arten von Beziehungen sind
+dabei sozusagen verschieden stark.
+
+0:01:14.850,0:01:21.780
+Also letztlich ist Assoziation die schwächste
+Form von diesen drei Arten von Verbindungen.
+
+0:01:21.780,0:01:25.680
+Aggregation ist in gewissem
+Sinne eine spezielle Assoziation.
+
+0:01:25.680,0:01:28.290
+Und Komposition als hier stärkste Art der
+
+0:01:28.290,0:01:32.580
+Beziehung ist nochmal eine
+speziellere Aggregation.
+
+0:01:32.580,0:01:38.970
+Deswegen ist es sinnvoll, dass wir uns diese drei
+Arten von Beziehungen der Reihe nach anschauen.
+
+0:01:38.970,0:01:41.850
+Und tatsächlich werde ich in
+diesem Video zunächst nur über
+
+0:01:41.850,0:01:48.090
+Assoziation und damit in Verbindung
+stehende Modellierungsaspekte reden.
+
+0:01:48.090,0:01:53.010
+Insbesondere auch über Annotationen, die man in
+Diagramme bei Assoziationen noch einfügen kann.
+
+0:01:54.360,0:01:59.250
+Und später, in einem separaten Video, wird
+es um Aggregation und Komposition gehen.
+
+0:01:59.250,0:02:07.770
+Wo einige der Aspekte von Assoziation weiterhin
+auftreten, aber noch weitere hinzukommen.
+
+0:02:10.320,0:02:12.900
+Also beginnen wir mit der schwächsten
+Beziehung, der Assoziation.
+
+0:02:13.620,0:02:16.500
+Die ist tatsächlich so schwach, dass
+sie sehr allgemein definiert ist.
+
+0:02:16.500,0:02:19.230
+Also man spricht von einer
+Assoziation zwischen zwei Klassen.
+
+0:02:19.230,0:02:23.970
+Es geht immer um zwei Klassen:
+abstrakt jetzt mal Klasse A, Klasse B.
+
+0:02:23.970,0:02:29.010
+Und die sind assoziiert (oder: es gibt eine
+Assoziation dazwischen), wenn es irgendwie
+
+0:02:29.010,0:02:33.630
+einen semantischen Zusammenhang zwischen diesen
+Klassen gibt, den man sinnvoll benennen kann.
+
+0:02:33.630,0:02:35.280
+Also wenn einem kein sinnvoller Name einfällt,
+
+0:02:35.280,0:02:37.740
+dann gibt es auch keinen inhaltlichen
+Bezug zwischen diesen Klassen.
+
+0:02:37.740,0:02:42.120
+Und dieser Bezug, dieser
+Zusammenhang, sei nicht hierarchisch.
+
+0:02:42.120,0:02:46.710
+Also erst mal ein recht vages
+Konzept, so wie es hier steht.
+
+0:02:47.700,0:02:54.360
+Dieser "nicht hierarchisch" Aspekt ist
+relevant, denn wenn irgendwas hierarchisch ist,
+
+0:02:54.360,0:02:58.170
+dann ist es mit großer Wahrscheinlichkeit
+entweder eine Vererbung (also hierarchisch
+
+0:02:58.170,0:03:03.510
+im Sinne von Zugehörigkeit; im Sinne
+von Spezialisierung/Generalisierung;
+
+0:03:03.510,0:03:06.780
+Zugehörigkeit von Objekten der einen
+Klasse auch zu der anderen Klasse),
+
+0:03:10.230,0:03:14.580
+oder es wird sich um Aggregation
+oder Komposition handeln (im Sinne
+
+0:03:14.580,0:03:20.040
+hierarchischer Teil-Ganzes-Beziehungen, was uns
+aber wie gesagt erst später beschäftigen wird).
+
+0:03:20.040,0:03:22.470
+Also letztlich:
+
+0:03:22.470,0:03:27.630
+Assoziation, noch sehr allgemein, drückt
+einfach aus, dass Objekte der einen Klasse
+
+0:03:27.630,0:03:32.340
+(vielleicht A) für ihre Funktionalität
+(zumindest für einen Teil dessen,
+
+0:03:32.340,0:03:38.670
+wofür sie existieren) eine Verbindung zu
+bestimmten Objekten der anderen Klasse brauchen.
+
+0:03:38.670,0:03:46.320
+Also A-Objekte sollen irgendetwas
+tun, wozu B-Objekte auch nützlich
+
+0:03:46.320,0:03:48.420
+sind oder vielleicht zur Hilfe
+herangezogen werden können.
+
+0:03:51.930,0:03:59.370
+Und wenn das für die Beziehung, die Verbindung,
+die existieren soll, hinreichend wichtig ist,
+
+0:03:59.370,0:04:04.170
+dass diese persistent abgespeichert werden
+soll (also nicht flüchtig nur kurz im
+
+0:04:04.170,0:04:09.870
+Verlauf des Systems relevant, sondern
+tatsächlich eine persistent/dauerhaft
+
+0:04:09.870,0:04:13.320
+abzuspeichernde Verbindung zwischen
+diesen Objekten existieren soll),
+
+0:04:13.320,0:04:15.480
+dann ist es sinnvoll, das durch
+eine Assoziation auszudrücken.
+
+0:04:15.480,0:04:18.900
+Und tatsächlich würde in einer Implementierung
+
+0:04:18.900,0:04:25.830
+eines objektorientierten Systems so
+eine Verbindung dadurch hergestellt,
+
+0:04:25.830,0:04:34.110
+dass zum Beispiel Objekte der einen Klasse
+auf Objekte der anderen Klasse verweisen.
+
+0:04:34.110,0:04:38.820
+Also üblicherweise dadurch, dass
+eine der Klassen ein Attribut hat,
+
+0:04:38.820,0:04:42.420
+dessen Typ die andere Klasse ist.
+
+0:04:43.800,0:04:46.500
+Dann kann man auf Objekte
+der anderen Klasse zugreifen.
+
+0:04:46.500,0:04:56.340
+Nehmen wir an, es gibt in Klasse A ein
+Attribut, dessen Typ die Klasse B ist,
+
+0:04:56.340,0:05:02.250
+dann ist ja in jedem Objekt der Klasse A
+etwas abgespeichert, das auf ein B verweist.
+
+0:05:02.250,0:05:05.760
+Allerdings wird es so sein (deswegen ist
+das nochmal sehr stark hervorgehoben),
+
+0:05:05.760,0:05:10.260
+dass man diese spezielle Art der Attribute eben
+dann nicht mehr in die Klassen eintragen wird.
+
+0:05:10.260,0:05:14.220
+Weil man für die Assoziationen
+ein anderes grafisches Mittel hat,
+
+0:05:14.220,0:05:18.630
+was einprägsamer ist, als da
+immer Attribute reinzuschreiben.
+
+0:05:18.630,0:05:21.780
+Wir werden eben nicht diese sogenannten
+
+0:05:22.410,0:05:25.488
+Referenzattribute explizit in
+das Klassendiagramm eintragen.
+
+0:05:25.488,0:05:28.140
+Sondern wir werden gleich
+ein grafisches Mittel haben,
+
+0:05:28.140,0:05:34.410
+einfach eine Kante im Graphen,
+die stellvertretend dafür steht:
+
+0:05:34.410,0:05:41.400
+Das ist diese Art Beziehung, die man
+durch Attribute implementieren kann.
+
+0:05:41.400,0:05:44.340
+Wie ist das gemeint?
+
+0:05:44.340,0:05:48.240
+Also statt A und B mal etwas konkreteres.
+
+0:05:48.960,0:05:51.090
+Die eine Klasse sei eine Klasse von Personen.
+
+0:05:51.090,0:05:53.610
+Die andere Klasse sei eine Klasse von Autos.
+
+0:05:53.610,0:05:57.150
+Und Personen können Autos besitzen.
+
+0:05:57.150,0:06:04.620
+Und statt jetzt also bei "Person" hier in
+die Attributliste einzutragen "meinAuto"
+
+0:06:04.620,0:06:07.290
+(als Attribut, das dann als Typ "Auto" hat),
+
+0:06:07.290,0:06:13.500
+fügt man einfach eine grafische Verbindung
+zwischen diesen beiden Klassen ein.
+
+0:06:13.500,0:06:17.310
+Und vergibt dann noch einen sinnvollen
+Namen, nämlich: es geht um Besitztum.
+
+0:06:17.310,0:06:19.830
+Also eine Person besitzt ein Auto, zum Beispiel.
+
+0:06:19.830,0:06:25.020
+Wobei hier noch nicht irgendwie festgelegt ist,
+
+0:06:25.020,0:06:29.940
+dass jede Person genau ein Auto hat oder
+immer nur eine Person ein Auto besitzt.
+
+0:06:29.940,0:06:34.070
+So wie die Beziehung hier steht, soll
+bewusst nicht ausgeschlossen sein,
+
+0:06:34.070,0:06:38.210
+dass eine Person auch mehrere Autos
+haben kann oder kein Auto besitzt.
+
+0:06:38.210,0:06:41.705
+Oder dass ein Auto von mehreren
+Personen gemeinsam besessen werden kann.
+
+0:06:41.705,0:06:46.580
+Hier geht es nur darum, dass es überhaupt diese
+Art Beziehung zwischen Personen und Autos gibt.
+
+0:06:49.190,0:06:51.980
+Dafür müsste mindestens eine Seite
+eine Referenz zur anderen haben.
+
+0:06:51.980,0:06:56.180
+Zum Beispiel könnte in der Implementierung,
+wie eben schon angedeutet, bei Person ein
+
+0:06:56.180,0:06:59.900
+Attribut existieren, das ein Auto
+oder sogar mehrere Autos abspeichert.
+
+0:06:59.900,0:07:04.190
+Aber man trägt das nicht ein, sondern
+benutzt diese Art der Darstellung,
+
+0:07:04.190,0:07:06.530
+um die Verbindung klarzumachen.
+
+0:07:08.810,0:07:14.810
+Wegen dieser Tatsache, dass hier nicht
+gefordert ist, dass jedes Auto nur einer
+
+0:07:14.810,0:07:17.750
+Person gehört (jede Person besitzt
+genau ein Auto), sind durchaus auf
+
+0:07:17.750,0:07:22.550
+der Ebene konkreter Objekte verschiedene
+Ausprägungen dieser Beziehung denkbar.
+
+0:07:22.550,0:07:27.740
+Also es könnte sein, dass es genau drei
+Personen und drei Autos gibt und etwa genau
+
+0:07:27.740,0:07:31.670
+Person 1 mit Auto 1 in Beziehung steht,
+Person 2 mit Auto 2, Person 3 mit Auto 3.
+
+0:07:31.670,0:07:34.130
+Das wäre möglich, ist aber nicht verpflichtend.
+
+0:07:34.130,0:07:39.830
+Es könnte zum Beispiel auch sein, dass
+es zwar diese drei Personen gibt, aber:
+
+0:07:39.830,0:07:46.040
+Person 1 besitzt sowohl Auto 1 als auch
+Auto 2, und Person 2 besitzt gar keine
+
+0:07:46.040,0:07:52.460
+Autos und taucht deswegen in dieser Auflistung
+hier nicht auf, und Person 3 besitzt Auto 3.
+
+0:07:52.460,0:07:53.450
+Das wäre denkbar.
+
+0:07:53.450,0:07:56.390
+Oder hier noch eine andere Konstellation:
+
+0:07:56.390,0:08:03.200
+Person 1 besitzt Autos 1 und 2, Person 2 besitzt
+Auto 2, und Person 3 gibt es vielleicht gar nicht.
+
+0:08:03.200,0:08:07.310
+Oder es gibt noch ganz viele Personen,
+die aber keine weiteren Autos besitzen.
+
+0:08:12.440,0:08:16.910
+Was allerdings hier nicht abgedeckt
+ist, und auch nicht gewollt ist:
+
+0:08:17.570,0:08:23.780
+Zum Beispiel Person 1 besitzt Auto 1 mehrfach.
+
+0:08:23.780,0:08:27.470
+Person 1 kann mehrere Autos besitzen, aber
+es ergibt keinen Sinn, hier aufzuschreiben:
+
+0:08:27.470,0:08:31.220
+Person 1, Auto 1, und dann
+noch mal Person 1, Auto 1.
+
+0:08:31.220,0:08:34.070
+Warum ist das so?
+
+0:08:34.700,0:08:41.840
+Weil das hier Mengen sind, auf
+Ihre Mathematikvorlesung bezogen.
+
+0:08:41.840,0:08:43.160
+Oder bei den Komedia-Studierenden:
+
+0:08:43.160,0:08:48.530
+Auf meine Mathematikvorlesung aus dem vergangenen
+Semester bezogen, sind das hier Relationen.
+
+0:08:48.530,0:08:55.160
+Mengen von Paaren, oder Teilmengen des
+Kreuzprodukts der Menge aller Personen
+
+0:08:55.160,0:08:58.250
+und der Menge aller Autos (was sinnvolle
+Interpretationen dieser Klassen sind).
+
+0:08:58.250,0:09:00.380
+Dann sind das hier Relationen.
+
+0:09:00.380,0:09:03.815
+Das heißt, man fragt sich:
+
+0:09:03.815,0:09:05.150
+Besitzt Person 1 das Auto 1?
+
+0:09:05.150,0:09:05.540
+Ja oder Nein?
+
+0:09:05.540,0:09:06.440
+Und nicht:
+
+0:09:06.440,0:09:09.350
+Person 1 besitzt Auto 1, und
+Person 1 besitzt Auto 1 nochmal.
+
+0:09:09.350,0:09:11.930
+Deswegen macht hier die Mengendarstellung Sinn.
+
+0:09:15.530,0:09:18.800
+Was ich im letzten Beispiel
+übrigens eigentlich sagen wollte:
+
+0:09:20.030,0:09:26.420
+Hier ging es genau darum, dass das ein Beispiel
+ist, wo Auto 2 von zwei Personen besessen wird.
+
+0:09:26.420,0:09:28.610
+Das war der Punkt im letzten Beispiel hier,
+
+0:09:28.610,0:09:34.760
+weil hier keine Angaben stehen, die
+das irgendwie einschränken würden.
+
+0:09:34.760,0:09:37.550
+Das kann man auch einschränken,
+werden wir auch in Kürze sehen.
+
+0:09:37.550,0:09:42.710
+Dann würde man hier noch Zahlen dranschreiben
+an die Enden dieser Assoziation.
+
+0:09:42.710,0:09:45.680
+Aber in dem Fall ist das eben
+nicht weiter eingeschränkt.
+
+0:09:45.680,0:09:49.820
+Deswegen sind alle diese drei und noch
+viele weitere Ausprägungen denkbar.
+
+0:09:54.260,0:09:57.070
+Jetzt hatte ich gesagt:
+
+0:09:57.070,0:09:58.150
+Person besitzt Auto.
+
+0:09:58.150,0:10:03.280
+Das scheint zufällig zu passen,
+denn wenn ich das so lese,
+
+0:10:03.280,0:10:06.550
+"Person besitzt Auto", entspricht
+das genau einem deutschen Satz.
+
+0:10:06.550,0:10:08.050
+Das ist natürlich Zufall.
+
+0:10:08.050,0:10:11.920
+Ich hätte auch zufälligerweise die beiden Klassen
+
+0:10:11.920,0:10:15.910
+genau vertauscht aufzeichnen
+können in meiner Grafik.
+
+0:10:15.910,0:10:17.380
+Deswegen kann es wichtig sein,
+
+0:10:17.380,0:10:26.050
+tatsächlich bei diesem Namen für diese
+Assoziation noch eine Richtung vorzugeben.
+
+0:10:26.050,0:10:28.090
+Also wer besitzt hier eigentlich wen?
+
+0:10:28.090,0:10:38.770
+Das kann man machen durch diesen schwarzen
+dreieckigen Pfeil an dem Namen der Assoziation.
+
+0:10:38.770,0:10:41.350
+Also das ist als Leserichtung zu sehen:
+
+0:10:41.350,0:10:43.150
+"Person besitzt Auto".
+
+0:10:43.150,0:10:47.860
+Wenn ich wollte, dass Autos Personen besitzen,
+könnte ich das immer noch so aufzeichnen,
+
+0:10:47.860,0:10:54.520
+aber würde eben diesen Dreieckspfeil hierhin
+(in Richtung der Person) zeigen lassen.
+
+0:10:56.200,0:10:58.630
+Das ist einfach eine Leserichtung der Assoziation.
+
+0:10:59.530,0:11:02.980
+Daneben gibt es noch die
+sogenannte Navigationsrichtung.
+
+0:11:02.980,0:11:08.950
+Die wird durch einen Pfeil, und zwar diese
+ganz spezielle Art des Pfeils (deutlich
+
+0:11:08.950,0:11:19.030
+zu unterscheiden vom Vererbungspfeil),
+direkt an der Verbindungslinie angefügt.
+
+0:11:19.030,0:11:22.960
+Dadurch wird die Navigationsrichtung ausgedrückt.
+
+0:11:22.960,0:11:27.160
+Und diese beschreibt, Objekte welcher Klasse ihre
+
+0:11:27.160,0:11:33.940
+Assoziationspartner kennen müssen und
+daher deren Methoden aufrufen können.
+
+0:11:33.940,0:11:38.110
+Damit ist zum Beispiel gemeint:
+
+0:11:38.110,0:11:39.160
+In dem Beispiel vorhin habe ich gesagt,
+
+0:11:39.160,0:11:45.670
+es könne sein, dass Person ein Attribut
+besitzt, wo ein Auto gespeichert ist.
+
+0:11:45.670,0:11:49.150
+Dann kann die Person auf das Auto zugreifen.
+
+0:11:49.150,0:11:53.050
+Dann würde das dieser
+Navigationsrichtung entsprechen.
+
+0:11:53.050,0:11:55.750
+Also zum Beispiel kennt die Person ihre Autos,
+
+0:11:56.320,0:11:58.810
+weil sie diese in einem
+Attribut abgespeichert hat.
+
+0:11:58.810,0:12:06.930
+Wenn das so wie hier angegeben wäre, hieße
+das umgekehrt (weil hier kein Pfeil in die
+
+0:12:06.930,0:12:12.480
+andere Richtung angegeben ist), dass die
+Autos selber nicht ihre Besitzer kennen.
+
+0:12:12.480,0:12:15.660
+Also wenn so wie hier modelliert,
+
+0:12:15.660,0:12:21.210
+würde es bedeuten, dass es im Auto
+kein Attribut mit Typ Person gibt.
+
+0:12:21.210,0:12:27.930
+In einem gewissen Sinne sind diese
+Navigationsrichtungen ein Hinweis,
+
+0:12:27.930,0:12:29.430
+oder ein Vorgriff, auf die Implementierung.
+
+0:12:29.430,0:12:33.810
+Es kann auch gar keine
+Navigationsrichtung angegeben sein.
+
+0:12:33.810,0:12:37.080
+Dann wird in der Regel angenommen, dass diese
+entweder einfach im aktuellen Modellierungsstand
+
+0:12:37.080,0:12:44.190
+nicht wichtig ist, oder dass die Assoziation
+in beide Richtungen navigierbar ist.
+
+0:12:50.340,0:12:55.170
+In dem Beispiel wie es hier angeben ist,
+wäre die Vorstellung, wie eben schon gesagt,
+
+0:12:55.170,0:13:00.750
+dass es die Person-Objekte sind, die Referenzen
+auf Auto-Objekte haben, und nicht umgekehrt.
+
+0:13:00.750,0:13:08.400
+Da nach wie vor dennoch erlaubt sein soll,
+dass eine Person mehrere Autos besitzen kann,
+
+0:13:08.400,0:13:11.700
+reicht natürlich nicht, hier
+genau ein Auto abzuspeichern.
+
+0:13:11.700,0:13:15.150
+Sondern für jede Person müsste eine
+Menge von Autos abgespeichert werden,
+
+0:13:15.150,0:13:17.250
+die von dieser Personen besessen werden.
+
+0:13:18.630,0:13:23.730
+Zum Beispiel könnte es sein, dass für Person 1
+die Menge \{ Auto 1, Auto 2\} abgespeichert ist,
+
+0:13:23.730,0:13:27.420
+für Person 2 die leere Menge, und
+für Person 3 die Menge \{ Auto 3 \}.
+
+0:13:27.420,0:13:35.310
+Das würde dann dieser zweiten
+Zuordnung entsprechen, dieser Relation.
+
+0:13:35.310,0:13:38.040
+Wenn wir das nicht als Paare
+speichern, sondern für jede
+
+0:13:38.040,0:13:41.010
+Person einfach die Menge der
+entsprechenden Autos speichern.
+
+0:13:41.010,0:13:44.460
+Person 1: Auto 1 und Auto 2.
+
+0:13:44.460,0:13:46.110
+Person 2 hat keine Autos.
+
+0:13:46.110,0:13:47.460
+Und Person 3 hat Auto 3.
+
+0:13:47.460,0:13:55.500
+Das würde man dann in den drei konkreten
+Person-Objekten jeweils abspeichern.
+
+0:14:01.750,0:14:06.070
+Im Prinzip können die Leserichtung
+und die Navigationsrichtung abweichen.
+
+0:14:06.070,0:14:11.740
+Also wir modellieren zwar die Beziehung
+Person-besitzt-Auto, aber dennoch speichern
+
+0:14:11.740,0:14:16.120
+wir nicht bei der Person die Autos ab,
+sondern umgekehrt bei den Autos die Personen.
+
+0:14:16.120,0:14:21.190
+Das ist etwas ungewöhnlich, und in der
+Tat würde man wahrscheinlich annehmen,
+
+0:14:21.190,0:14:22.570
+dass man hier nicht gut modelliert hat.
+
+0:14:22.570,0:14:26.560
+Also wenn Leserichtung und
+Navigationsrichtung abweichen,
+
+0:14:26.560,0:14:31.360
+dann ist vielleicht diese
+Beziehung einfach falsch benannt.
+
+0:14:31.360,0:14:38.410
+Wenn es wirklich die Autos sind, die sich merken,
+zu welchen Personen sie gehören, dann sollte hier
+
+0:14:38.410,0:14:42.490
+statt "besitzt" lieber stehen "gehört", und
+die Leserichtung in die andere Richtung sein.
+
+0:14:42.490,0:14:46.030
+"Auto gehört Person" statt "Person besitzt Auto".
+
+0:14:46.030,0:15:01.660
+Umgekehrt, wenn man einfach die Assoziation in
+beide Richtungen navigierbar hat, dann ist die
+
+0:15:01.660,0:15:08.740
+Leserichtung vor allem für das Verständnis,
+für die Intention des Modells relevant.
+
+0:15:08.740,0:15:12.550
+Während der Implementierung das
+egal ist, weil sowieso jede Person
+
+0:15:12.550,0:15:17.410
+sich die Autos merkt und die Autos sich
+auch merken, welcher Person sie gehören.
+
+0:15:17.410,0:15:22.240
+Dann hat man sich entschieden, diese Assoziation
+dennoch "besitzt" zu nennen und nicht "gehört".
+
+0:15:22.240,0:15:28.630
+Und dann gibt man eben durch diesen Pfeil an,
+in welcher Richtung hier das Besitztum vorliegt.
+
+0:15:28.630,0:15:37.780
+Wenn gar keine Navigationsrichtungen
+angegeben sind, ist es entweder so,
+
+0:15:37.780,0:15:41.170
+dass es vielleicht zu dem Zeitpunkt,
+wo man modelliert, nicht wichtig ist.
+
+0:15:41.170,0:15:42.580
+Oder es gibt Konventionen.
+
+0:15:42.580,0:15:48.070
+Zum Beispiel hat man sich im Team (das Team, das
+gemeinsam modelliert) geeinigt und festgelegt:
+
+0:15:48.070,0:15:52.630
+Wenn keine Navigationsrichtungen eingezeichnet
+sind, dann sollen immer beide vorliegen.
+
+0:15:52.630,0:15:56.920
+Das werde ich hier nicht weiter festlegen.
+
+0:16:04.400,0:16:08.840
+Das waren diese verschiedenen Arten von
+Pfeilen, die man an Assoziationen haben kann.
+
+0:16:08.840,0:16:14.060
+Dann hatte ich vorhin schon erwähnt, dass man auch
+Zahlen an den Assoziationen stehen haben kann.
+
+0:16:14.060,0:16:17.240
+Das sind die sogenannten Multiplizitäten.
+
+0:16:17.240,0:16:22.700
+Und es sind im allgemeinen Fall
+Intervalle, also irgendwie zwei Zahlen.
+
+0:16:22.700,0:16:24.800
+Als "von"/"bis" ist das zu lesen.
+
+0:16:24.800,0:16:27.740
+Es gibt auch den Spezialfall,
+dass nur eine Zahl da steht.
+
+0:16:27.740,0:16:30.500
+Dann ist eben von dieser Zahl
+bis zu dieser Zahl gemeint.
+
+0:16:30.500,0:16:35.510
+Also es ist kein echtes Intervall, sondern
+nur genau eine Zahl, die in Frage kommt.
+
+0:16:36.950,0:16:40.550
+Es könnte so aussehen (vergessen wir
+nochmal die Navigationsrichtungen,
+
+0:16:40.550,0:16:42.080
+die sollen gerade nicht relevant sein):
+
+0:16:42.080,0:16:44.240
+Wir haben die Assoziation, wir haben einen Namen,
+
+0:16:44.240,0:16:48.410
+wir haben eine Leserichtung, und wir
+haben hier jeweils Multiplizitäten.
+
+0:16:48.410,0:16:49.610
+Wie ist das zu lesen?
+
+0:16:50.840,0:16:58.220
+Wie folgt.
+Diese Angabe an diesem Ende bedeutet:
+
+0:16:58.220,0:17:01.190
+Jede Person besitzt 0 bis 5 Autos.
+
+0:17:01.190,0:17:08.000
+Also mit jeder einzelnen Person sind
+zwischen 0 und 5 Autos assoziiert.
+
+0:17:08.000,0:17:11.300
+Und die 1 an diesem Ende bedeutet:
+
+0:17:11.300,0:17:14.840
+Jedes Auto gehört genau einer Person.
+
+0:17:14.840,0:17:19.250
+Da muss man sich merken,
+wie herum das gemeint ist.
+
+0:17:19.250,0:17:20.540
+Die 1 heißt nicht:
+
+0:17:20.540,0:17:21.950
+Jede Person hat ein Auto.
+
+0:17:21.950,0:17:24.830
+Sondern jedes Auto gehört einer Person.
+
+0:17:24.830,0:17:28.850
+Und jede Person besitzt bis zu fünf Autos.
+
+0:17:28.850,0:17:40.040
+Das heißt, hier kann man auch erkennen, dass wenn
+etwa die Personen ein Attribut mit Typ Auto haben
+
+0:17:40.040,0:17:45.050
+sollen, dies ein Mengenattribut sein müsste (da
+bis zu fünf Autos abgespeichert werden müssen).
+
+0:17:45.050,0:17:49.490
+Also jetzt programmiersprachlich:
+
+0:17:49.490,0:17:52.700
+Je nachdem, was Sie da an Vorlesungen
+schon gehört haben und parallel hören,
+
+0:17:53.240,0:17:56.630
+haben Sie vielleicht Listen, Mengen,
+Arrays als Kollektionen kennengelernt.
+
+0:17:56.630,0:18:01.850
+Hier müsste also für jede Person eine
+solche Kollektion gespeichert werden,
+
+0:18:01.850,0:18:04.850
+um sich bis zu fünf Autos merken zu können.
+
+0:18:04.850,0:18:10.940
+Wenn umgekehrt diese Assoziation in die
+andere Richtung navigierbar sein sollte,
+
+0:18:10.940,0:18:13.340
+müsste sich jedes Auto nur eine Person merken.
+
+0:18:13.340,0:18:19.580
+Man bräuchte also in die Richtung keine
+Kollektion, aber in die Richtung schon.
+
+0:18:29.410,0:18:30.880
+Jetzt könnte man ein bisschen herumspielen.
+
+0:18:30.880,0:18:34.660
+Man könnte aus einer 1 eine
+2 machen, zum Beispiel.
+
+0:18:34.660,0:18:35.680
+Was heißt das dann hier?
+
+0:18:35.680,0:18:37.750
+Da muss man sich wieder vergegenwärtigen:
+
+0:18:37.750,0:18:38.680
+Was heißt das?
+
+0:18:38.680,0:18:43.930
+Es heißt nicht, dass zwei Personen immer
+genau zusammen bis zu fünf Autos besitzen.
+
+0:18:43.930,0:18:46.030
+So ist das nicht zu lesen.
+
+0:18:46.030,0:18:48.295
+Zu lesen ist:
+
+0:18:48.295,0:18:54.880
+Jede Person besitzt bis zu fünf Autos, und jedes
+Auto wird von genau zwei Personen besessen.
+
+0:18:54.880,0:19:00.340
+Es müssen aber für verschiedene Autos nicht immer
+die gleichen konsistenten Paare von Personen sein.
+
+0:19:00.340,0:19:09.700
+Also es wäre durchaus möglich, dass
+Person 1 die Autos 1 und 2 besitzt,
+
+0:19:09.700,0:19:21.280
+Person 2 auch Auto 1 besitzt, jedoch Auto
+2 als zweiten Besitzer eine Person 3 hat.
+
+0:19:22.060,0:19:22.780
+Dann gilt hier:
+
+0:19:22.780,0:19:25.750
+Jede Person hat bis zu fünf Autos.
+
+0:19:25.750,0:19:27.190
+Person 1 hat zwei Autos.
+
+0:19:27.190,0:19:28.300
+Person 2 hat ein Auto.
+
+0:19:28.300,0:19:29.770
+Person 3 hat ein Auto.
+
+0:19:29.770,0:19:33.460
+Und jedes Auto gehört exakt zwei Personen.
+
+0:19:33.460,0:19:34.083
+Auto 1 gehört Person 1 und Person 2.
+
+0:19:34.083,0:19:39.610
+Auto 2 gehört Person 1 und Person 3.
+
+0:19:39.610,0:19:43.960
+Aber kein Auto gehört genau
+den gleichen zwei Personen.
+
+0:19:43.960,0:19:49.150
+Auch hier muss man das einfach so lesen:
+
+0:19:49.150,0:19:51.250
+Jede Person hat bis zu fünf Autos.
+
+0:19:51.250,0:19:53.470
+Jedes Auto gehört exakt zwei Personen.
+
+0:19:53.470,0:20:00.520
+Aber das kann sozusagen gemischt sein, wer jeweils
+die Besitzer von zwei verschiedenen Autos sind.
+
+0:20:00.520,0:20:05.980
+Es wäre auch denkbar, dass es noch weitere
+Personen gibt, aber keine weiteren Autos.
+
+0:20:05.980,0:20:08.500
+Weil jede Person bis zu fünf Autos besitzen muss,
+
+0:20:09.670,0:20:12.160
+das für eine gegebene Person
+aber auch null Autos sein können.
+
+0:20:12.790,0:20:15.280
+Was hier natürlich nicht möglich
+ist, ist, dass es noch weitere
+
+0:20:15.280,0:20:17.020
+Autos gibt aber keine weiteren Personen.
+
+0:20:17.830,0:20:21.610
+Jedes weitere Auto müsste
+mindestens zwei Besitzer haben.
+
+0:20:21.610,0:20:27.220
+Also es wäre möglich, dass es
+noch Autos 3, 4 und 5 gibt,
+
+0:20:27.220,0:20:32.050
+die alle auch zum Beispiel Person 1 gehören.
+
+0:20:32.050,0:20:35.020
+Dann müssten sie aber eben auch
+in dieser Menge genannt werden.
+
+0:20:40.430,0:20:45.080
+Allgemein werden an beiden
+Enden solche Intervalle stehen.
+
+0:20:45.080,0:20:55.520
+Also abstrakt für Namen von Klassen A und B und
+jeweils ihr Intervall m bis n, k bis l, hieße das,
+
+0:20:55.520,0:21:08.090
+dass zwischen m und n Instanzen von A zu
+einer Instanz von B assoziiert werden können.
+
+0:21:08.090,0:21:13.010
+Also ich nehme eine Instanz
+der Klasse B, dann kann die i,
+
+0:21:13.010,0:21:17.240
+zwischen m und n, A-Instanzen als Partner haben.
+
+0:21:17.240,0:21:21.290
+Und umgekehrt, wenn man eine Instanz von A hat,
+
+0:21:21.290,0:21:27.950
+dann muss es dazu j Instanzen von B geben,
+wobei j zwischen k und l zu liegen hat.
+
+0:21:27.950,0:21:32.930
+Die Beispiele eben waren
+einfach Ausprägungen davon.
+
+0:21:32.930,0:21:40.100
+Wenn man hier keine obere Schranke haben möchte
+(also man möchte nicht sagen "von m bis n",
+
+0:21:40.100,0:21:44.660
+sondern immer nur "mindestens m"), dann
+kann man dafür ein Sternchen schreiben.
+
+0:21:44.660,0:21:46.700
+Das steht dann für "unendlich".
+
+0:21:46.700,0:21:49.760
+Also wenn man sagen wollen würde,
+"es müssen mindestens zwei sein,
+
+0:21:49.760,0:21:55.160
+aber es können beliebig viele sein",
+schreibt man eben "2 bis Stern".
+
+0:21:55.160,0:21:59.840
+Umgekehrt, wenn man hätte sagen wollen,
+"höchstens zwei", hätte man geschrieben: "0..2".
+
+0:21:59.840,0:22:02.780
+Die untere Schranke ist natürlich null und für die
+
+0:22:02.780,0:22:07.100
+obere Schranke fügt man einen Stern
+ein als Zeichen für "unendlich".
+
+0:22:10.040,0:22:11.450
+Was ist, wenn gar nichts dransteht?
+
+0:22:12.260,0:22:14.960
+Wir hatten auch den Fall, bevor wir
+Multiplizitäten eingeführt hatten,
+
+0:22:14.960,0:22:16.070
+dass da gar nichts steht.
+
+0:22:16.070,0:22:19.640
+Dann ist das wieder eine Frage der Konvention.
+
+0:22:19.640,0:22:23.480
+UML selbst gibt keine Standard-Multiplizität vor.
+
+0:22:23.480,0:22:28.280
+In manchen Büchern steht, vereinbart
+als Standard-Multiplizität, 1.
+
+0:22:28.280,0:22:30.020
+Aber UML selbst gibt keine vor.
+
+0:22:30.020,0:22:35.150
+Für Diagramme in der Vorlesung, in der Übung,
+
+0:22:35.150,0:22:42.170
+auch in der Klausur, wird es so sein,
+dass wenn keine Angabe vorhanden ist,
+
+0:22:42.170,0:22:48.350
+die Multiplizität "0..*" als Standard genommen
+wird, also einfach gar keine Einschränkung.
+
+0:22:48.350,0:22:52.050
+Es könnte von null bis beliebig
+viele alles möglich sein.
+
+0:22:52.050,0:22:59.910
+Das gilt für Assoziationen, teilweise auch
+für Aggregation, bei Komposition nicht mehr.
+
+0:22:59.910,0:23:02.760
+Darauf kommen wir noch zu sprechen.
+
+0:23:02.760,0:23:03.300
+Also im Grunde genommen:
+
+0:23:03.300,0:23:05.790
+Assoziation und Aggregation
+nutzen diese Konvention.
+
+0:23:05.790,0:23:15.450
+Komposition nutzt eine andere Konvention, über die
+wir in dem entsprechenden Video noch reden werden.
+
+0:23:15.450,0:23:24.540
+Vorher noch eine weitere
+Darstellungsmöglichkeit zu Assoziationen.
+
+0:23:24.540,0:23:34.680
+Manchmal gibt man, statt der Verbindungslinie
+einen Namen zu geben (wie das "besitzt" eben),
+
+0:23:35.670,0:23:39.450
+stattdessen den beiden Enden der
+Verbindungslinie einen Namen.
+
+0:23:39.450,0:23:46.830
+Das ist dann sinnvoll, wenn es zum
+Beispiel klar verteilte Rollen gibt,
+
+0:23:46.830,0:23:51.660
+die von den beiden Enden einer solchen
+Assoziation eingenommen werden.
+
+0:23:51.660,0:23:59.640
+Dann kann es unnötig sein, die
+Assoziation selbst noch zu benennen.
+
+0:23:59.640,0:24:04.620
+Bei "besitzt" hätte man die beiden Rollen auch
+als "Eigentümer" und "Besitztum" benennen können.
+
+0:24:04.620,0:24:08.040
+Dann hätte man nicht mehr sagen müssen, dass
+die Beziehung eine Besitztumsbeziehung ist.
+
+0:24:08.040,0:24:09.412
+Oder hier ein anderes Beispiel:
+
+0:24:09.412,0:24:15.810
+Es gibt den Großhandel, es gibt einzelne
+Einzelhändler, und es gibt Endkunden.
+
+0:24:16.920,0:24:18.957
+Jeweils Beziehungen
+dazwischen, also Assoziationen.
+
+0:24:18.957,0:24:21.720
+In jeder dieser Assoziationen gibt es einen Part,
+
+0:24:21.720,0:24:25.290
+der eine Verkäufer-Rolle hat, und
+einen Part, der eine Käufer-Rolle hat.
+
+0:24:25.290,0:24:30.810
+Zwischen Großhandel und Händler ist der Großhandel
+der Verkäufer und der Händler der Käufer.
+
+0:24:30.810,0:24:36.150
+Hingegen zwischen Händler und Endkunde ist der
+Händler der Verkäufer und der Endkunde der Käufer.
+
+0:24:36.150,0:24:39.150
+Also der Händler nimmt in verschiedenen Rollen
+
+0:24:39.150,0:24:43.590
+an zwei Assoziationen mit
+verschiedenen Partnern teil.
+
+0:24:43.590,0:24:51.380
+Und dann ist eben die Assoziation nicht
+mehr benannt, weil die beiden Rollen,
+
+0:24:51.380,0:24:56.510
+die an den Enden stehen, schon genug
+Informationen über diese Assoziation vermitteln.
+
+0:25:00.890,0:25:03.230
+Das soweit zu Assoziationen.
