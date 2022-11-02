@@ -6,8 +6,11 @@ Komedia
 UML
 WKFZ
 blackbox
+genericity
+grayscale
 greybox
 monoids
+playlists
 statecharts
 subparticles
 whiteboard
