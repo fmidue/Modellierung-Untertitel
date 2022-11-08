@@ -1,0 +1,352 @@
+0:00:00.840,0:00:08.100
+Willkommen zum letzten Teil der zweiten
+Aufgabenserie. Und zwar zu Aufgabe 2,
+
+0:00:08.100,0:00:17.040
+die sich mit Korrektheit von Termen beschäftigt.
+Bei dieser Aufgabe benötigen wir die Definition
+
+0:00:17.040,0:00:27.060
+der Operationen, die in der Vorlesung vorgestellt
+wurden, und zwar zur Vektorgrafik. Diese werden
+
+0:00:27.060,0:00:34.740
+benötigt, um die Korrektheit der hier gegebenen
+Terme zu entscheiden. Also, wir haben diese
+
+0:00:34.740,0:00:43.140
+Terme gegeben und sollen für jeden dieser Terme
+entscheiden, ob er, so wie er dort steht, korrekt
+
+0:00:43.140,0:01:00.780
+ist oder nicht. Wir haben als ersten Term print
+von print und 1.2 in Anführungszeichen gegeben.
+
+0:01:02.700,0:01:11.700
+Diese Anführungszeichen hier machen den
+entsprechenden Zwischenteil zu einem
+
+0:01:11.700,0:01:18.900
+String und print benötigt einen String
+und erzeugt daraus ein Picture. Das ist
+
+0:01:18.900,0:01:28.140
+soweit also korrekt. Allerdings kann das
+äußere print nicht so aufgerufen werden,
+
+0:01:28.140,0:01:36.480
+denn dieses print Geschichtezeugt ein Picture
+und print nimmt einen String. Deshalb ist das
+
+0:01:46.020,0:01:53.340
+falsch. Und der Grund ist, dass dieses innere
+print ja nicht den richtigen Typ liefert.
+
+0:01:56.340,0:02:17.040
+Als nächstes kommt hier move. Und move nimmt
+print „no“ und circle 3 und dann minus 2 und 5.
+
+0:02:22.440,0:02:34.320
+Also, das erste print mit dem no-String
+erzeugt ein Picture und verknüpft zwei
+
+0:02:34.320,0:02:44.448
+Picture. Circle mit dem Wert 3 erzeugt auch
+ein Picture und diese Parameter des move,
+
+0:02:44.448,0:02:51.180
+-2, 5, sind auch von move benötigt, nämlich
+der zweite und dritte Parameter, die angeben,
+
+0:02:51.180,0:03:00.660
+wohin das Ganze bewegt werden soll. Also, dieser
+Term ist korrekt. Als nächstes kommt scale.
+
+0:03:02.040,0:03:12.900
+Und hier sind wieder noch mehr Terme drin.
+Vielleicht gehen wir von innen nach außen. Circle
+
+0:03:12.900,0:03:24.360
+von 2.15 ist korrekt, denn circle nimmt ein Float
+und daraus wird ein Picture erzeugt. Rotate nimmt
+
+0:03:24.360,0:03:33.060
+ein Picture und ein Float, das ist auch korrekt,
+und erzeugt daraus ein Picture, also hier wird das
+
+0:03:33.060,0:03:44.760
+Bild gedreht. Und scale nimmt ein Picture und zwei
+Float-Werte. Hier ist aber ein Problem. Das Erste
+
+0:03:44.760,0:03:49.020
+ist ein Picture, das Zweite ist ein Float,
+das Dritte ist ein Float, aber es gibt einen
+
+0:03:49.020,0:03:59.940
+vierten Parameter. Und damit stimmt die Anzahl der
+Elemente nicht. Das Problem liegt also im vierten
+
+0:03:59.940,0:04:07.020
+Parameter von scale. Scale natürlich nämlich nur
+drei. Und damit ist das hier kein korrekter Term.
+
+0:04:09.240,0:04:15.600
+Der nächste Term ist wieder ein scale Term.
+Beginnen wir auch hier wieder von innen,
+
+0:04:15.600,0:04:28.260
+das Ganze zu betrachten. Circle von 4 ist ein
+korrekter Term, das erzeugt ein Picture. Der
+
+0:04:28.260,0:04:33.780
+Float 4 wird hier an circle übergeben, es wird
+ein Picture daraus entstehen, dann wird hier
+
+0:04:33.780,0:04:43.740
+rotate auf circle 4 und 37 angewendet. Auch das
+ist korrekt. Weil 37 hier als Float als zweiter
+
+0:04:43.740,0:04:52.380
+Parameter von circle von 4 angenommen wird.
+Also das ergibt auch wieder ein Picture. dann
+
+0:04:52.380,0:05:06.060
+kommt hier color und das nimmt hier blue und
+Blue rotate. Das ist problematisch, weil color
+
+0:05:12.000,0:05:19.800
+erst das Picture nehmen müsste und dann
+die Farbe. Das ist hier verkehrt herum.
+
+0:05:21.600,0:05:27.600
+Wir können schon mal sagen, der Term ist nicht
+korrekt und problematisch ist auf jeden Fall,
+
+0:05:27.600,0:05:43.500
+dass hier blue und rotate vertauscht sein müssten.
+Diese beiden Teile müssten genau andersherum sein.
+
+0:05:51.600,0:05:53.160
+Wenn das der Fall wäre, wenn
+
+0:05:55.920,0:06:04.500
+die beiden ausgetauscht wären, dann können wir
+ja mal weiterschauen, was dann mit dem Term wäre.
+
+0:06:04.500,0:06:16.200
+Dann würde hier ein Picture entstehen und dann
+mit dem move mit 3 und 7 richtig angewandt werden
+
+0:06:16.200,0:06:27.900
+und danach erfolgt ein scale mit dem Picture,
+was durch move erzeugt wurde und 4 und 8 als
+
+0:06:27.900,0:06:36.240
+Float-Werte. Das wäre dann gültig, wenn die beiden
+vertauscht wären, würden wir einen korrekten Term
+
+0:06:36.240,0:06:49.200
+erhalten. Der nächste Term beginnt mit rectangle
+3,1. Das erzeugt ein Picture nach der Definition
+
+0:06:49.200,0:06:55.320
+der Vorlesung, denn es werden zwei Float-Werte
+übergeben, die auch von rectangle erwartet werden.
+
+0:06:55.320,0:07:02.880
+Und somit entsteht hier ein Picture. Dann dieses
+&, das verknüpft zwei Picture. Betrachten wir
+
+0:07:02.880,0:07:16.320
+dann das nächste Picture, rectangle 1,3 erzeugt
+auch wieder ein Picture. Rotate da drauf erzeugt
+
+0:07:19.620,0:07:21.720
+auch wieder ein
+
+0:07:24.360,0:07:34.860
+Picture, also rotate mit dem Picture rectangle
+1.3 und dem Wert 135, der hier als Float übergeben
+
+0:07:34.860,0:07:42.960
+wird. Und somit ist auch der zweite Term hier ein
+Picture, der zweite Teil von dem & und dann kommt
+
+0:07:42.960,0:07:51.720
+hier nochmal dieses &, was auch nochmal ein
+Picture verbindet. Und hier kommt circle von
+
+0:07:56.160,0:08:04.020
+3 und deshalb ist dieser Term hier korrekt.
+
+0:08:09.600,0:08:22.920
+Dann kommen wir zum nächsten Term. Hier sind
+wieder mehrere Teile zu betrachten. Wir beginnen
+
+0:08:22.920,0:08:28.680
+mal mit dem ersten Teil des Terms, also wir
+betrachten den ersten Teil des &. Hier ist wieder
+
+0:08:28.680,0:08:37.380
+rectangle mit 2,3. Der rectangle erwartet zwei
+Parameter, zwei Floats. Das erzeugt ein Picture,
+
+0:08:37.380,0:08:43.020
+das ist richtig erst mal. Rotate erwartet ein
+Picture, rectangle erzeugt uns dieses Picture
+
+0:08:43.020,0:08:48.000
+und außerdem noch ein Float, und der Float,
+den erhalten wir hier als dritten Parameter
+
+0:08:48.000,0:08:55.560
+von rotate. Das heißt, auch das erzeugt uns ein
+Picture. Damit hätten wir den ersten Teil von
+
+0:08:55.560,0:09:01.140
+dem & hier erledigt. Wir kommen zu dem zweiten
+Teil. Auch hier wieder von innen nach außen.
+
+0:09:01.140,0:09:11.880
+Hier kommt ein print, Modellierung, und das ist
+schon mal problematisch, denn print erwartet
+
+0:09:11.880,0:09:18.600
+einen String. Da müssten Anführungszeichen
+dran. Also wissen wir schon mal, das ist kein
+
+0:09:18.600,0:09:26.460
+gültiger Term. Hier müssten noch Anführungszeichen
+stehen. Dann könnte das ein gültiger Term sein.
+
+0:09:27.900,0:09:36.840
+Schauen wir noch weiter, ob es noch mehr Fehler
+gibt. Also print auf den String würde uns ein
+
+0:09:36.840,0:09:47.880
+Picture erzeugen, scale mit dem Picture, das
+durch print erzeugt wurde und den Werten 2 und 2,
+
+0:09:47.880,0:09:54.960
+die hier als Float übergeben werden, würde uns
+auch ein Picture erzeugen. Und move würde dieses
+
+0:09:54.960,0:10:03.000
+erzeugte Picture nehmen und mit den Werten 4 und
+3 wäre das dann gültig. Also ist nur dieser eine
+
+0:10:03.000,0:10:13.800
+Fehler enthalten. Gehen wir zum nächsten
+Term. Hier ist auch wieder 6 verwendet um
+
+0:10:13.800,0:10:24.960
+zwei Picture zu verbinden. Schauen wir uns das
+erste an. Hier ist circle 0.5 das erste Bild
+
+0:10:26.220,0:10:37.440
+und scale ist das zweite Bild. Das 6 Teil mit
+scale betrachten wir auch wieder von innen
+
+0:10:37.440,0:10:47.520
+heraus. Das heißt, circle 5 steht als erstes
+da. Das erzeugt ein gültiges Picture. Rotate
+
+0:10:47.520,0:11:00.540
+mit circle 5 als erstem Parameter und 35, also
+Picture und Float ist auch ein gültiges Picture.
+
+0:11:01.560,0:11:14.460
+Und dann kommt scale, was ein rotate von circle
+5 und 35 nimmt als ersten Parameter. Also ein
+
+0:11:14.460,0:11:31.920
+Picture ist das auch. Dann als zweiten Wert 4
+und als nächsten Wert 6.2. Das ist ein gültiger
+
+0:11:31.920,0:11:42.540
+Term, das erzeugt uns ein Picture und das ist das,
+was auch von dem & her benötigt wird. Jetzt können
+
+0:11:42.540,0:11:51.000
+wir das move betrachten, dann nimmt den & Ausdruck
+von circle und scale und als weitere Parameter 1.7
+
+0:11:51.000,0:12:00.960
+und 1.7. Die sind auch gefordert von move. Also,
+als Erstes das Picture, dann zwei Float-Werte,
+
+0:12:00.960,0:12:09.360
+erzeugt uns ein Picture und darum ist ein
+rotate. Das nimmt dieses Picture und den Wert 64,
+
+0:12:09.360,0:12:21.840
+einen Float. Das ist ein gültiger Term. Und dann
+haben wir als letzten Term auch noch einen Term,
+
+0:12:21.840,0:12:31.200
+der auch wieder ein & enthält. Wir betrachten
+erst mal die linke Seite davon im Inneren. Und
+
+0:12:31.200,0:12:49.980
+zwar ein circle mit 2.3, was ein Picture erzeugt,
+dieses Picture wird benötigt von move, das hat die
+
+0:12:49.980,0:12:58.980
+Parameter von 1.5 und 1.5, also zwei Float-Werte,
+die von move auch benötigt werden. Und damit
+
+0:12:58.980,0:13:06.600
+erhalten wir ein Picture, was auch von & benötigt
+wird. Dann haben wir hier als zweiten Teil
+
+0:13:10.860,0:13:19.680
+scale. Und hier ist ein circle von 7, das ist auch
+als Float von circle richtig. Also wird hier ein
+
+0:13:19.680,0:13:28.620
+Picture erzeugt. Der erste Parameter von scale ist
+ein Picture, das stimmt. Danach kommt 3.8 und 2.7,
+
+0:13:30.300,0:13:39.480
+und die beiden Parameter Float werden auch für
+scale benötigt. Also ist auch dieser Teil korrekt.
+
+0:13:39.480,0:13:47.400
+Er erzeugt ein Picture, und das ist das, was auch
+von & benötigt wird. Also ist der Gesamtausdruck
+
+0:13:47.400,0:13:56.580
+ein Picture. Und dann kommt ein scale, das dieses
+Picture nimmt, was der erste Parameter ist und als
+
+0:13:58.020,0:14:09.060
+zweiten die 2. Allerdings fehlt hier der
+dritte Parameter für das scale. Hier müsste
+
+0:14:09.060,0:14:16.440
+noch ein weiterer Float-Wert rein. Also,
+wenn hier zum Beispiel noch ,3 stehen würde,
+
+0:14:16.440,0:14:24.840
+dann wäre auch das ein gültiger Ausdruck und bei
+dem rotate ganz außen besteht kein Problem. Also,
+
+0:14:24.840,0:14:30.000
+wenn hier noch zum Beispiel ,3 stehen
+würde, dann wäre das ein korrekter
+
+0:14:30.000,0:14:37.800
+Ausdruck. So im ersten Schritt allerdings ein
+falscher und damit haben wir für alle Terme der
+
+0:14:37.800,0:14:48.060
+Aufgabe entschieden, ob sie gültig sind und
+jeweils auch begründet bei falschen Termen,
+
+0:14:48.060,0:14:53.940
+warum sie nicht gültig sind. Wenn wir
+die entsprechenden Fehler betrachten,
+
+0:14:53.940,0:14:58.620
+das heißt, wenn wir dort noch Änderungen einfügen,
+können wir die zu gültigen Termen machen.

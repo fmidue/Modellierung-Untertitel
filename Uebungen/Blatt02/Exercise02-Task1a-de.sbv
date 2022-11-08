@@ -1,0 +1,345 @@
+0:00:02.040,0:00:09.600
+Herzlich willkommen zum Video zum
+zweiten Übungsblatt. Genauer gesagt,
+
+0:00:09.600,0:00:19.380
+ist das das Video zur ersten Übungsaufgabe,
+und zwar zum Teil (a). In dieser Aufgabe geht
+
+0:00:19.380,0:00:25.260
+es um flache Zustandsdiagramme und Sie
+sehen die Aufgabe jetzt hier abgebildet.
+
+0:00:28.860,0:00:35.820
+Ich lese zunächst einmal die Aufgabe vor um
+nochmal ..., was die Aufgabenstellung ist.
+
+0:00:37.140,0:00:44.400
+An einem sonnigen Samstagmorgen im Oktober
+macht ein Vater (31 Jahre alt) mit seinen
+
+0:00:44.400,0:00:50.640
+zwei Zwillingstöchtern (9 Jahre alt) einen
+Spaziergang am Niederrhein. Plötzlich kommt
+
+0:00:50.640,0:00:56.940
+die Familie an einen breiten Fluss, den sie
+überqueren muss. Es gibt keine Brücke über den
+
+0:00:56.940,0:01:02.760
+Fluss. Zum Glück treffen die Wanderer am Ufer
+einen alten Fischer mit einem kleinen Boot,
+
+0:01:02.760,0:01:09.840
+das sie leihen können. Das Boot ist gerade groß
+genug, um einen Erwachsenen oder höchstens zwei
+
+0:01:09.840,0:01:16.740
+Kinder zu tragen. Sowohl die Erwachsenen als auch
+die Kinder können rudern; ganz ohne Menschen kann
+
+0:01:16.740,0:01:24.480
+das Boot aber nicht fahren. Wie kann die Familie
+mit dem Boot den Fluss überqueren? Am Ende muss
+
+0:01:24.480,0:01:31.260
+der Fischer wieder am gleichen Ufer wie am Anfang
+sein, mit seinem Boot natürlich! (a) Geben Sie
+
+0:01:31.260,0:01:36.840
+ein statisches Modell dieser Geschichte an. Das
+heißt, überlegen Sie, welche in der Geschichte
+
+0:01:36.840,0:01:42.300
+genannten Personen, Objekte, Eigenschaften und
+Beziehungen zur Lösung des Rätsels wichtig sind,
+
+0:01:42.300,0:01:55.380
+und welche nicht. Fertigen Sie eine Darstellung
+Ihres Modells als Graph an. Diese Geschichte
+
+0:01:58.740,0:02:04.320
+müssen wir jetzt natürlich genauer betrachten,
+um diese Aufgabe zu lösen. Ich wechsle dazu mal
+
+0:02:04.320,0:02:11.640
+kurz auf ein anderes Blatt. Die Aufgabe
+sehen wir jetzt weiterhin hier unten
+
+0:02:11.640,0:02:21.540
+noch stehen. Der Auftrag der Aufgabe ist, zu
+überlegen, welche genannten Personen, Objekte,
+
+0:02:21.540,0:02:28.320
+Eigenschaften und Beziehungen zur Lösung wichtig
+sind. Beziehungsweise, welche nicht wichtig sind.
+
+0:02:28.320,0:02:37.860
+Deshalb können wir jetzt so eine Tabelle hier
+aufstellen und können dafür den Text einfach
+
+0:02:37.860,0:02:44.880
+durchgehen. Das kann man wirklich stupide machen,
+das heißt, man geht wirklich einfach den gesamten
+
+0:02:44.880,0:02:53.880
+Text durch. Da fällt hier auf, an einem sonnigen
+Samstagmorgen, also können wir festlegen, das
+
+0:02:53.880,0:03:05.100
+Wetter ist völlig irrelevant. Hier wird von sonnig
+geredet, dieser Fakt ist also irrelevant für das
+
+0:03:05.100,0:03:17.220
+statische Modell. Ebenso ist die Zeit unwichtig.
+Hier ist von Samstagmorgen und Oktober die Rede.
+
+0:03:18.420,0:03:26.220
+Und beides ist natürlich irrelevant
+für das statische Modell.
+
+0:03:28.200,0:03:38.580
+Irrelevant ist auch das Alter der Personen.
+Hier wird vom Vater, 31 Jahre alt, gesprochen.
+
+0:03:42.360,0:03:49.560
+Da gibt es noch mehr, 31 Jahre alt ist hier eine
+Angabe, später kommt dann auch noch 9 Jahre alt.
+
+0:03:55.740,0:04:03.960
+Wichtig ist aber, dass es ein Vater
+ist und dass es zwei Kinder sind.
+
+0:04:13.380,0:04:23.940
+Eigentlich ist es auch das Geschlecht der Personen
+irrelevant. Ob das jetzt weibliche oder männliche
+
+0:04:23.940,0:04:31.620
+Personen sind, ist wahrscheinlich eher irrelevant.
+Auch der Ort, der hier als Nächstes auftaucht,
+
+0:04:31.620,0:04:45.360
+ist irrelevant. Das hat keine weitere
+Relevanz, um das Problem letztendlich zu lösen.
+
+0:04:49.140,0:04:57.420
+Dann gibt es dort am Ufer einen alten
+Fischer. Wichtig ist der Fischer,
+
+0:04:57.420,0:05:03.540
+nicht wichtig ist natürlich wieder
+das Alter. Dass der alt ist,
+
+0:05:06.840,0:05:15.600
+ist auch hier egal. Und, was auch noch
+wichtig ist, ist, dass es ein Boot gibt.
+
+0:05:16.860,0:05:23.820
+Und zwar ist das Boot gerade groß
+genug, um höchstens einen Erwachsenen
+
+0:05:23.820,0:05:32.700
+und höchstens zwei Kinder zu tragen. Das heißt,
+entscheidend ist auch die Kapazität des Bootes
+
+0:05:34.920,0:05:36.720
+und dass es einen Erwachsenen
+
+0:05:38.640,0:05:52.860
+oder zwei Kinder tragen kann. Es können auch alle
+Personen rudern, das ist auch ein wichtiger Fakt.
+
+0:05:55.260,0:05:59.040
+Das heißt, es können auch die Kinder
+rudern, nicht nur die Erwachsenen.
+
+0:06:04.920,0:06:11.220
+Und das Boot kann nicht alleine fahren.
+Das könnte man vielleicht auch noch
+
+0:06:11.220,0:06:18.180
+hier bei den wichtigen Fakten festhalten.
+Also, das Boot kann nicht alleine fahren.
+
+0:06:21.660,0:06:25.980
+Es muss immer eine Person darauf
+sein, damit das Boot fahren kann.
+
+0:06:31.320,0:06:43.020
+Die Frage ist jetzt natürlich, wie die Familie
+den Fluss überqueren kann und das Relevante ist,
+
+0:06:43.020,0:06:52.740
+dass die Familie am Ende auf der anderen Seite
+sein soll. Also, der Vater und die zwei Kinder
+
+0:06:54.720,0:07:07.200
+sollen auf der anderen Seite sein. Am Ende muss
+aber der Fischer und sein Boot wieder an der
+
+0:07:07.200,0:07:14.460
+Ausgangsposition sein. Also, der Fischer
+und das Boot wieder auf derselben Seite.
+
+0:07:26.400,0:07:34.380
+Damit sind, glaube ich, die wichtigen und
+unwichtigen Fakten gesammelt. Jetzt können
+
+0:07:34.380,0:07:48.240
+wir darangehen, die Geschichte selbst oder die
+Darstellung des Modells als Graph anzufertigen.
+
+0:07:48.240,0:07:55.260
+Wir haben jetzt die wesentlichen Daten des Modells
+gesammelt und jetzt geht es darum, das Ganze in
+
+0:07:55.260,0:08:05.280
+einen Graphen zu packen. Dafür können wir erst
+mal anfangen, die ganzen Personen aufzunehmen.
+
+0:08:05.280,0:08:20.580
+Wir können jetzt hier den Fischer aufnehmen und
+das Boot als einen wichtigen Bestandteil. Dann
+
+0:08:23.100,0:08:42.420
+haben wir zwei Kinder, eins und noch ein
+zweites. Und wir haben noch den Vater. Das sind
+
+0:08:46.440,0:08:51.660
+wahrscheinlich die wesentlichen Dinge,
+die wir jetzt erst mal in Betracht ziehen.
+
+0:08:57.600,0:09:01.980
+Jetzt können wir zwischen diesen
+schon mal Beziehungen herstellen.
+
+0:09:03.540,0:09:14.640
+Wir können festlegen, wer das Boot rudern
+kann, zum Beispiel. Da lässt sich feststellen,
+
+0:09:18.960,0:09:20.820
+dass der Fischer
+
+0:09:22.980,0:09:52.800
+das Boot rudern kann. Es lässt sich feststellen,
+dass beide Kinder das Boot rudern können. Und
+
+0:09:55.500,0:10:00.360
+der Vater kann das Boot natürlich auch
+rudern. Das heißt, das kommt auch mit
+
+0:10:00.360,0:10:10.080
+in den Graphen rein. Das ist noch nicht ganz
+vollständig. Was kann noch ausgedrückt werden?
+
+0:10:15.300,0:10:22.440
+Man kann noch ausdrücken, wer mit
+dem Boot fahren kann und das kann
+
+0:10:22.440,0:10:26.760
+man tatsächlich auch über das Rudern
+selbst mit realisieren. Das heißt,
+
+0:10:28.920,0:10:36.600
+wenn man festlegt, dass rudern immer
+bedeutet, mit dem Boot fahren, dann könnte man
+
+0:10:37.980,0:10:45.300
+sagen, dass die beiden Kinder
+zusammen auch rudern können.
+
+0:10:47.040,0:10:58.380
+Das heißt, hier kann noch ein Pfeil
+eingetragen werden, der ausdrückt,
+
+0:11:03.900,0:11:35.280
+dass die Kinder zusammen rudern, deshalb steht
+da auch rudern. So dass dieser Pfeil hier von
+
+0:11:35.280,0:11:43.200
+den beiden Kindern abgeht zum Boot und die beiden
+rudern zusammen. Um das eindeutiger zu machen,
+
+0:11:43.200,0:11:50.880
+nehme ich die Schrift hier nach unten, so dass
+wirklich klar ist, die Beschriftung gilt für das
+
+0:11:50.880,0:12:01.620
+Rudern und das Rudern gilt für diesen Pfeil
+hier. Dann kann noch festgestellt werden,
+
+0:12:01.620,0:12:11.160
+dass der Fischer nicht nur Ruder hat, sondern
+er besitzt auch noch das Boot. Das heißt,
+
+0:12:11.160,0:12:18.180
+es ist eine Verbindung, die hier auch noch
+zusätzlich eingetragen werden kann von dem Boot.
+
+0:12:21.840,0:12:28.020
+Um klar zu machen, wozu die Beschriftung gehört,
+zeichne ich die nach unten. Also, der Fischer
+
+0:12:28.020,0:12:47.280
+besitzt das Boot, das könnte man hier noch mit
+anfügen. Entscheidender ist aber auf jeden Fall,
+
+0:12:48.420,0:13:02.100
+wo die ganzen Personen hinwollen, dafür kann man
+noch die jeweiligen Orte darstellen. Wir haben
+
+0:13:02.640,0:13:16.020
+Ufer 1 und wir haben Ufer 2. Ufer 1 soll das sein,
+wo gestartet wird und Ufer 2 ist dann das andere.
+
+0:13:17.100,0:13:25.080
+Wir können das auch anders nennen, vielleicht
+anderes Ufer und das hier dann Startufer.
+
+0:13:30.300,0:13:43.260
+Das ist vielleicht ein bisschen klarer. Und
+jetzt können wir auch hierfür noch Pfeile
+
+0:13:43.260,0:13:51.240
+einzeichnen. Da ist ein Pfeil vom Fischer
+zum Startufer und da könnte dranstehen,
+
+0:13:54.600,0:14:15.180
+der Fischer möchte wieder an das Startufer.
+Ein zweiter Pfeil drückt dasselbe für das
+
+0:14:15.180,0:14:19.380
+Boot aus. Also, das Boot will
+auch wieder an das Startufer.
+
+0:14:29.100,0:14:34.560
+Dann haben wir noch dasselbe
+Spiel bei dem anderen Ufer.
+
+0:14:37.500,0:14:45.420
+Da wollen natürlich der Vater und die beiden
+Kinder hin. Das kann man hier zum Beispiel
+
+0:14:45.420,0:14:55.920
+auch mit „will auf“ bezeichnen. Die wollen
+auf die andere Seite jeweils kommen. Und
+
+0:14:55.920,0:15:04.260
+das ist für alle natürlich dasselbe
+andere Ufer, was hier gemeint ist.
+
+0:15:10.680,0:15:18.600
+Alle beiden Kinder und auch der Vater,
+die wollen auf dieses andere Ufer hinaus.
+
+0:15:21.840,0:15:32.520
+Damit haben wir ein statisches Modell,
+was auch als Grundlage dienen kann,
+
+0:15:32.520,0:15:38.940
+um die zweite Aufgabe dann zu bearbeiten.
+In dem Hinweis steht natürlich, dass das
+
+0:15:38.940,0:15:45.300
+nicht der Fall sein muss. Aber man kann auch
+dieses Modell für die zweite Aufgabe verwenden.
