@@ -1,0 +1,963 @@
+0:00:02.200,0:00:07.450
+Also sehen wir uns mal diese Aufgabe an.
+
+0:00:07.450,0:00:10.400
+Das ist eine alte Übungsaufgabe.
+
+0:00:10.400,0:00:14.650
+Die sollten Sie auch in der Aufgabensammlung
+finden.
+
+0:00:14.650,0:00:18.270
+Und das ist so eine Aufgabe der Art:
+
+0:00:18.270,0:00:25.780
+Wir haben Klassendiagramme und Objektdiagramme
+und wollen herausfinden, ob jeweils Passung
+
+0:00:25.780,0:00:27.110
+besteht.
+
+0:00:27.110,0:00:31.120
+Das soll hier jetzt paarweise für jedes der
+beiden Klassendiagramme und jedes der fünf
+
+0:00:31.120,0:00:32.120
+Objektdiagramme passieren.
+
+0:00:32.120,0:00:33.210
+Jeweils sich zu überlegen:
+
+0:00:33.210,0:00:36.140
+Ist das gültig oder nicht?
+
+0:00:36.140,0:00:39.440
+Also passt das Objektdiagramm zum Klassendiagramm
+oder nicht?
+
+0:00:39.440,0:00:42.660
+Wir können das ja mal durchgehen.
+
+0:00:42.660,0:00:50.000
+Also schauen wir uns das linke Klassendiagramm
+und das erste Objektdiagramm an.
+
+0:00:50.000,0:00:52.610
+Was sehen wir da?
+
+0:00:52.610,0:00:53.730
+Insbesondere:
+
+0:00:53.730,0:00:57.640
+Passt denn das Objektdiagramm zum Klassendiagramm?
+
+0:00:57.640,0:01:03.970
+Und eine Möglichkeit, sich das zu überlegen,
+ist immer, dass man das Objektdiagramm durchgeht,
+
+0:01:03.970,0:01:09.030
+sich jedes Objekt anschaut, und erst mal anschaut,
+ob dieses an sich gerechtfertigt ist.
+
+0:01:09.030,0:01:13.409
+Also ob es zum Klassendiagramm passt insofern,
+dass die Klasse, von der das ein Objekt sein
+
+0:01:13.409,0:01:14.409
+soll, überhaupt existiert.
+
+0:01:14.409,0:01:17.810
+Sie sehen hier natürlich, dass ich keine
+Attribute oder Methoden angebe.
+
+0:01:17.810,0:01:23.159
+Das sind also so stilisierte Klassen und Objekte,
+wo es jeweils nur um die Existenz geht und
+
+0:01:23.159,0:01:27.090
+nicht darum, welche Eigenschaften zusätzlich
+noch durch Attribute gegeben sind.
+
+0:01:27.090,0:01:32.600
+Also müsste ich jetzt hier nur schauen, ob
+A und C (also die beiden Klassen, um die es
+
+0:01:32.600,0:01:34.609
+hier geht) überhaupt existieren.
+
+0:01:34.609,0:01:37.320
+Ja, diese kommen im Klassendiagramm vor.
+
+0:01:37.320,0:01:41.299
+Also dieses Objekt "a" oder das Objekt "c"
+könnte es schon mal geben.
+
+0:01:41.299,0:01:48.969
+Und dann müssen wir schauen, ob denn alle
+Beziehungen, die im Objektdiagramm vorkommen,
+
+0:01:48.969,0:01:50.179
+durch das Klassendiagramm gerechtfertigt sind.
+
+0:01:50.179,0:01:51.179
+Und dass auch keine fehlen.
+
+0:01:51.179,0:01:56.899
+Also wenn wir uns hier zum Beispiel das "c"-Objekt
+einfach mal anschauen und uns anschauen, was
+
+0:01:56.899,0:02:05.029
+das denn im Klassendiagramm für Beziehungen
+hat, dann kann das zum einen eine Beziehung
+
+0:02:05.029,0:02:08.990
+zu B-Objekten haben, in Aggregation.
+
+0:02:08.990,0:02:10.921
+Und jetzt können wir schauen:
+
+0:02:10.921,0:02:12.519
+Hier steht ja gar keine Multiplizität dran.
+
+0:02:12.519,0:02:15.769
+Das heißt, dort ist die Default-Multiplizität
+zu verwenden.
+
+0:02:15.769,0:02:17.010
+Und die ist "0..*".
+
+0:02:17.010,0:02:22.019
+Das heißt, das "c" darf zwar B-Partner haben,
+muss es aber nicht.
+
+0:02:22.019,0:02:24.091
+Und in dem konkreten Fall hier hat es die
+eben nicht.
+
+0:02:24.091,0:02:25.091
+Das "c" hat keine B-Partner.
+
+0:02:25.091,0:02:29.970
+Das ist aber nicht weiter schlimm, weil das
+ja nicht erzwungen ist.
+
+0:02:29.970,0:02:33.969
+Also diese Aggregation führt jetzt nicht
+irgendwie dazu, dass irgendetwas fehlt.
+
+0:02:33.969,0:02:45.519
+Und weitere Eigenschaften oder Beziehungserfordernisse
+hat das "c" nicht.
+
+0:02:45.519,0:02:53.480
+Von C gibt es keine andere Assoziation, Aggregation,
+Komposition irgendwie als Beziehung zu anderen
+
+0:02:53.480,0:02:54.480
+Klassen.
+
+0:02:54.480,0:03:02.030
+Und C erbt auch von nichts, hat also auch
+keine weiteren Erfordernisse irgendwie, die
+
+0:03:02.030,0:03:03.879
+es erfüllen muss.
+
+0:03:03.879,0:03:06.090
+Was ist mit dem "a"-Objekt?
+
+0:03:06.090,0:03:13.200
+Das gehört ja offenbar zu dieser Klasse A.
+
+0:03:13.200,0:03:24.120
+Und da kann man sich natürlich fragen, erstens,
+ob alle Beziehungen, die von A aus existieren
+
+0:03:24.120,0:03:26.609
+sollen, hier auch wirklich gegeben sind.
+
+0:03:26.609,0:03:33.189
+Da gibt es vor allem diese Beziehung hier,
+aber die hat als Multiplizitäten auch "0..*".
+
+0:03:33.189,0:03:37.590
+Das heißt, "a" könnte mit sich selbst eine
+Beziehung haben oder zum Beispiel mit einem
+
+0:03:37.590,0:03:38.750
+anderen A-Objekt.
+
+0:03:38.750,0:03:41.930
+Muss es aber nicht, wegen dieses "0..*".
+
+0:03:41.930,0:03:45.709
+Also für "a" und "c" fehlt zumindest nichts.
+
+0:03:45.709,0:03:48.739
+Aber was ist denn mit dieser Beziehung, die
+im Objektdiagramm da ist?
+
+0:03:48.739,0:03:50.080
+Die muss ja auch durch etwas gerechtfertigt
+sein.
+
+0:03:50.080,0:03:53.840
+Es reicht nicht, zu sagen "c" und "a" fehlt
+nichts (also alles was "c" und "a" haben müssten,
+
+0:03:53.840,0:03:54.840
+haben sie auch).
+
+0:03:54.840,0:03:58.709
+Es darf auch keine Beziehung im Objektdiagramm
+stehen, die im Klassendiagramm gar nicht vorgesehen
+
+0:03:58.709,0:03:59.709
+ist.
+
+0:03:59.709,0:04:03.380
+Und wenn wir mal schauen:
+
+0:04:03.380,0:04:09.620
+Es gibt in dem Klassendiagramm keine Grundlage
+dafür, dass "c" eine Verbindung zu "a" haben
+
+0:04:09.620,0:04:12.629
+könnte (also ein C-Objekt zu einem A-Objekt
+eine Verbindung haben könnte).
+
+0:04:12.629,0:04:15.230
+Es gibt hier zwar eine Vererbung, zum Beispiel.
+
+0:04:15.230,0:04:19.760
+Die sorgt aber nicht dafür, dass C irgendeine
+Verbindung zu A hat.
+
+0:04:19.760,0:04:23.680
+Hier steht, dass B von A erbt, nicht dass
+A von B erbt.
+
+0:04:23.680,0:04:29.730
+Ja, wenn A von B erben würde (wenn der Vererbungspfeil
+hier umgekehrt wäre), dann würde A von B
+
+0:04:29.730,0:04:31.970
+auch die Beziehung zu C erben.
+
+0:04:31.970,0:04:36.250
+Dann wäre dieser Link im Objektdiagramm durchaus
+zu rechtfertigen.
+
+0:04:36.250,0:04:40.000
+Aber so wie das Klassendiagramm 1 aussieht,
+ist dem nicht so.
+
+0:04:40.000,0:04:41.580
+Also hier müsste die Antwort sein:
+
+0:04:41.580,0:04:42.620
+Das passt nicht.
+
+0:04:42.620,0:04:46.980
+Also (a) passt nicht zum ersten Klassendiagramm,
+weil diese Beziehung zwischen "a" und "c"
+
+0:04:46.980,0:04:50.530
+aus dem Objektdiagramm im Klassendiagramm
+gar nicht vorgesehen ist.
+
+0:04:50.530,0:04:55.130
+Jetzt können wir uns fragen:
+
+0:04:55.130,0:04:57.890
+Wie wäre es denn, wenn wir das andere Klassendiagramm
+betrachtet hätten?
+
+0:04:57.890,0:05:00.410
+Und da ist die Antwort tatsächlich:
+
+0:05:00.410,0:05:01.570
+Ja das passt.
+
+0:05:01.570,0:05:03.570
+Ich kürze das einfach mal ab.
+
+0:05:03.570,0:05:06.510
+Ich habe ja gerade schon über diesen Vererbungspfeil
+gesprochen.
+
+0:05:06.510,0:05:10.130
+Dass der sozusagen in die falsche Richtung
+geht (dafür dass "a" mit "c" eine Beziehung
+
+0:05:10.130,0:05:11.130
+haben könnte).
+
+0:05:11.130,0:05:12.860
+Hier ist der Pfeil ja genau umgekehrt.
+
+0:05:12.860,0:05:17.000
+Das heißt, es gibt zwar im Klassendiagramm
+zwischen A und C keine offensichtliche Beziehung.
+
+0:05:17.000,0:05:22.670
+Aber A erbt von B, und erbt damit neben den
+Attributen und Methoden auch alle anderen
+
+0:05:22.670,0:05:25.230
+Beziehungen, die B mit irgendwelchen anderen
+Klassen hat.
+
+0:05:25.230,0:05:30.370
+Also insbesondere erbt A von B auch diese
+Beziehung zu C.
+
+0:05:30.370,0:05:33.690
+Und deswegen ist dieser Link hier gerechtfertigt.
+
+0:05:33.690,0:05:35.800
+Und wenn wir anschauen:
+
+0:05:35.800,0:05:37.220
+Stimmen denn die Multiplizitäten?
+
+0:05:37.220,0:05:38.220
+Ja.
+
+0:05:38.220,0:05:43.400
+"c" muss zum Beispiel (das steht hier) eine
+Beziehung zu mindestens einem B haben.
+
+0:05:43.400,0:05:47.140
+Das scheint erst mal nicht so richtig der
+Fall zu sein.
+
+0:05:47.140,0:05:49.820
+Denn hier gibt es gar keine B-Objekte.
+
+0:05:49.820,0:05:54.130
+Aber jedes A-Objekt ist ja auch ein B-Objekt,
+wegen dieser Vererbung.
+
+0:05:54.130,0:05:56.940
+Dieses "A erbt von B" heißt:
+
+0:05:56.940,0:05:59.080
+Jedes A-Objekt ist auch ein B-Objekt.
+
+0:05:59.080,0:06:05.440
+Das heißt, die Erfordernis, dass "c" mit
+einem B-Objekt in Beziehung stehen muss, die
+
+0:06:05.440,0:06:07.680
+ist durch diesen Link hier erfüllt.
+
+0:06:07.680,0:06:13.960
+Denn das "a", was ein A-Objekt ist, ist auch
+ein B-Objekt, wegen Vererbung.
+
+0:06:13.960,0:06:20.510
+Und irgendwelche anderen Forderungen, die
+hier verletzt wären, gibt es nicht.
+
+0:06:20.510,0:06:26.890
+Zum Beispiel muss "a" nicht zu einem A-Objekt
+eine Beziehung haben, da hier zwar nichts
+
+0:06:26.890,0:06:31.750
+dransteht, aber dann implizit dort eben doch
+"0..*" als Multiplizität steht.
+
+0:06:31.750,0:06:38.300
+Also diese Selbstbeziehung auf Klassenebene
+von A zu A, die muss in einem Objektdiagramm
+
+0:06:38.300,0:06:40.140
+nicht unbedingt vorliegen.
+
+0:06:40.140,0:06:47.320
+Weil es eben auch möglich ist, dass als Inzidenz
+die untere Grenze null der Multiplizität
+
+0:06:47.320,0:06:48.640
+verwendet wird.
+
+0:06:48.640,0:06:54.370
+Okay, das würde also (a) für sowohl das
+erste als auch das zweite Klassendiagramm
+
+0:06:54.370,0:06:55.370
+erklären.
+
+0:06:55.370,0:07:00.490
+Schauen wir uns (b) an, wieder für das erste
+Klassendiagramm.
+
+0:07:00.490,0:07:05.670
+Und schauen uns an, ob alle Beziehungen, die
+hier vorliegen, gerechtfertigt sind.
+
+0:07:05.670,0:07:07.770
+Und ob auch keine fehlen.
+
+0:07:07.770,0:07:08.770
+Also hier:
+
+0:07:08.770,0:07:11.640
+Gibt es eine Beziehung zwischen einem B- und
+einem C-Objekt?
+
+0:07:11.640,0:07:12.880
+Ja, das passt.
+
+0:07:12.880,0:07:16.330
+Das entspräche dieser Aggregation im Klassendiagramm.
+
+0:07:16.330,0:07:19.700
+Es gibt die Beziehung zwischen einem B- und
+einem D-Objekt.
+
+0:07:19.700,0:07:20.910
+Und das passt auch.
+
+0:07:20.910,0:07:24.740
+Das entspricht dieser Beziehung im Klassendiagramm.
+
+0:07:24.740,0:07:26.800
+Okay, fehlt vielleicht irgendetwas?
+
+0:07:26.800,0:07:27.830
+Also wie ist das mit B-Objekten?
+
+0:07:27.830,0:07:31.670
+Müssen die noch irgendwelche anderen Beziehungen
+haben?
+
+0:07:31.670,0:07:34.310
+Also es gibt Aggregation zu C, die ist sowieso
+erfüllt.
+
+0:07:34.310,0:07:41.490
+Und die könnte ja auch sowieso null sein,
+weil keine Multiplizitäten explizit dranstehen.
+
+0:07:41.490,0:07:45.350
+Das gleiche gilt für diese Beziehung zu D.
+
+0:07:45.350,0:07:52.110
+Und dass B von A erbt, führt hier nicht zwangsläufig
+zu weiteren Links.
+
+0:07:52.110,0:07:58.330
+Denn A hat zwar diese Beziehung zu A, aber
+eben mit diesen unteren Grenzen jeweils null.
+
+0:07:58.330,0:08:02.740
+Also daraus folgt nichts, das irgendwie fehlen
+würde in dem Objektdiagramm.
+
+0:08:02.740,0:08:05.210
+Wie ist es mit "c"?
+
+0:08:05.210,0:08:07.510
+Da kommt auch nichts weiter an Forderungen
+hinzu.
+
+0:08:07.510,0:08:09.020
+Also "c" kann mit Bs Beziehungen haben.
+
+0:08:09.020,0:08:10.840
+In dem konkreten Fall ist das in dem Objektdiagramm
+sogar so.
+
+0:08:10.840,0:08:14.250
+Aber es stehen auch keine Multiplizitäten
+dran.
+
+0:08:14.250,0:08:20.170
+Das heißt, da würde sowieso per Default
+auch null als Anzahl erlaubt sein.
+
+0:08:20.170,0:08:21.830
+Und wie ist es mit dem "d"?
+
+0:08:21.830,0:08:23.770
+Da gibt es tatsächlich eine Forderung.
+
+0:08:23.770,0:08:28.610
+Nämlich diese Forderung hier, dass jedes
+D-Objekt mit genau einem B-Objekt in Beziehung
+
+0:08:28.610,0:08:29.610
+stehen muss.
+
+0:08:29.610,0:08:30.610
+Das ist ja aber hier der Fall.
+
+0:08:30.610,0:08:32.329
+Passt also auch.
+
+0:08:32.329,0:08:37.130
+Daher passt (b) tatsächlich zum ersten Klassendiagramm.
+
+0:08:37.130,0:08:40.719
+Was ist mit dem zweiten Klassendiagramm?
+
+0:08:40.719,0:08:51.990
+Die Tatsache, dass jetzt hier der Vererbungspfeil
+umgedreht ist, ändert in dem konkreten Fall
+
+0:08:51.990,0:08:53.190
+nichts.
+
+0:08:53.190,0:09:03.190
+Das hieße einfach, dass hier auch A stehen
+dürfte, aber ja nicht muss.
+
+0:09:03.190,0:09:07.590
+Wir können auch tatsächlich uns doch konkret
+ein B-Objekt anschauen, also nicht ein A-Objekt,
+
+0:09:07.590,0:09:11.020
+das automatisch auch ein B-Objekt ist.
+
+0:09:11.020,0:09:15.490
+Und die anderen Forderungen sind auch erfüllt.
+
+0:09:15.490,0:09:22.840
+Also insbesondere steht "b" mit höchstens
+einem D in Beziehung, um das hier zu erfüllen.
+
+0:09:22.840,0:09:27.330
+Und das C-Objekt steht mit mindestens einem
+B-Objekt in Beziehung, erfüllt also auch
+
+0:09:27.330,0:09:30.670
+diese Multiplizität hier.
+
+0:09:30.670,0:09:38.140
+Und die vorhandenen Links hier sind auch durch
+das Klassendiagramm gedeckt.
+
+0:09:38.140,0:09:50.500
+Also tatsächlich passt (b) sowohl zum ersten
+als auch zum zweiten Klassendiagramm.
+
+0:09:50.500,0:10:01.730
+Wie ist es mit (c)?
+
+0:10:01.730,0:10:07.060
+Passt das zum ersten Klassendiagramm?
+
+0:10:07.060,0:10:10.460
+Da müssen wir mal schauen:
+
+0:10:10.460,0:10:19.520
+Jetzt haben wir hier ja ein A-Objekt, also
+da stellt sich die Frage, inwiefern das denn
+
+0:10:19.520,0:10:20.990
+etwas ändert.
+
+0:10:20.990,0:10:29.510
+Also eben hatten wir ja als Link diese Beziehung
+zwischen "b" und "c".
+
+0:10:29.510,0:10:31.330
+Das kann jetzt hier nicht mehr so sein.
+
+0:10:31.330,0:10:33.510
+Jetzt steht hier ja ein A.
+
+0:10:33.510,0:10:39.270
+Das kann also nur eine Ausprägung dieser
+Beziehung sein.
+
+0:10:39.270,0:10:40.270
+Schauen wir mal:
+
+0:10:40.270,0:10:44.880
+Ist dadurch gerechtfertigt, dass "b" einen
+nach "a" hin navigierbaren Link hat?
+
+0:10:44.880,0:10:48.690
+Das "b", jedes B, ist auch ein A.
+
+0:10:48.690,0:10:57.980
+Und da As solche Beziehungen zu As haben,
+darf auch "b" solche Beziehungen haben.
+
+0:10:57.980,0:11:06.660
+Also ein B-Objekt kann (da es auch ein A-Objekt
+ist) eine Beziehung zu einem A-Objekt haben.
+
+0:11:06.660,0:11:08.190
+Genau das haben wir hier vorliegen.
+
+0:11:08.190,0:11:12.240
+Also das ist eine Ausprägung dieser Beziehung.
+
+0:11:12.240,0:11:14.230
+Und diese "0..*" bzw.
+
+0:11:14.230,0:11:23.660
+"0..1" Multiplizitäten sind in dem Fall hier
+auch erfüllt.
+
+0:11:23.660,0:11:34.270
+Okay, wiederum dieser Teil, der ist gar nicht
+anders als im Fall des (b), im Fall dieser
+
+0:11:34.270,0:11:35.270
+Teilaufgabe.
+
+0:11:35.270,0:11:38.840
+Das heißt, das entspricht natürlich dieser
+Beziehung hier.
+
+0:11:38.840,0:11:43.050
+Also andere Änderungen ergeben sich hier
+nicht.
+
+0:11:43.050,0:11:45.940
+Das (c) passt zum ersten Klassendiagramm.
+
+0:11:45.940,0:11:50.480
+Passt (c) auch zum zweiten Klassendiagramm?
+
+0:11:50.480,0:11:54.600
+Schauen wir uns das an.
+
+0:11:54.600,0:12:01.420
+Da stellt sich sicherlich wieder diese Frage,
+wodurch denn dieser Link hier gerechtfertigt
+
+0:12:01.420,0:12:02.420
+ist.
+
+0:12:02.420,0:12:06.339
+Und den können wir jetzt eben nicht mehr
+darüber rechtfertigen, dass B von A erbt.
+
+0:12:06.339,0:12:09.300
+Jetzt erbt ja A von B.
+
+0:12:09.300,0:12:16.710
+Also mit welchem Recht sollte ein B-Objekt
+wie hier einen Link zu einem A-Objekt haben?
+
+0:12:16.710,0:12:22.510
+Wenn wir ins Klassendiagramm schauen, dann
+hat "b" nur Beziehungen zu C- und D-Objekten.
+
+0:12:22.510,0:12:26.060
+A erbt zwar von B, das heißt aber:
+
+0:12:26.060,0:12:28.340
+A kann alle Beziehung haben, die B hat.
+
+0:12:28.340,0:12:32.279
+Es heißt nicht, B kann Beziehungen haben,
+die A hat.
+
+0:12:32.279,0:12:35.520
+Also "b" dürfte nur Beziehungen zu C- und D-Objekten
+haben.
+
+0:12:35.520,0:12:38.760
+Zu einem D-Objekt gibt es ja so eine Beziehung
+hier.
+
+0:12:38.760,0:12:44.870
+Aber dieser Link hier von einem B-Objekt zu
+einem A-Objekt, der ist für das zweite Klassendiagramm
+
+0:12:44.870,0:12:47.680
+nicht gerechtfertigt oder gedeckt oder erlaubt.
+
+0:12:47.680,0:12:51.970
+Also (c) passt nicht zum zweiten Klassendiagramm.
+
+0:12:51.970,0:13:00.960
+Okay, wie ist es mit (d)?
+
+0:13:00.960,0:13:11.040
+Passt (d) zum ersten Klassendiagramm?
+
+0:13:11.040,0:13:12.440
+Was ist jetzt bei (d) anders?
+
+0:13:12.440,0:13:18.360
+Jetzt habe ich nur noch A-Objekte "a1", "a2",
+"a3", alle drei von der Klasse A.
+
+0:13:18.360,0:13:25.279
+Und hier gibt es ein A-Objekt, das Beziehungen
+zu zwei anderen A-Objekten hat.
+
+0:13:25.279,0:13:28.610
+Also "a1" hat Beziehungen zu "a2" und "a3".
+
+0:13:28.610,0:13:34.430
+Das müsste eine Ausprägung hiervon sein.
+
+0:13:34.430,0:13:40.080
+Und da sehen wir aber, dass das hier eine
+illegale Beziehung ist.
+
+0:13:40.080,0:13:42.460
+Insofern, dass die nicht beide existieren
+können.
+
+0:13:42.460,0:13:52.310
+Nämlich dieses eine A-Objekt hat Beziehungen
+bezüglich dieser oben eingekreisten Assoziation
+
+0:13:52.310,0:13:55.730
+zu zwei anderen A-Objekten.
+
+0:13:55.730,0:14:02.330
+Aber hier steht als Multiplizität an diesem
+Ende, zu dem hin navigiert wird (das sehen
+
+0:14:02.330,0:14:07.090
+wir ja an diesem Pfeil hier, dass dieses Ende
+offenbar diese beiden Enden sein sollen):
+
+0:14:07.090,0:14:15.550
+Da steht als Multiplizität dran, dass das
+da nur eine Beziehung zu maximal einem A-Objekt
+
+0:14:15.550,0:14:16.550
+sein kann.
+
+0:14:16.550,0:14:17.550
+Das heißt:
+
+0:14:17.550,0:14:21.790
+Was wir hier unten in dem Objektdiagramm sehen,
+ist falsch.
+
+0:14:21.790,0:14:25.070
+Es verletzt diese Multiplizität hier.
+
+0:14:25.070,0:14:29.310
+Okay, wie ist es mit dem zweiten Klassendiagramm?
+
+0:14:29.310,0:14:35.529
+Vielleicht passt es ja dort.
+
+0:14:35.529,0:14:38.650
+Passt (d) zum zweiten Klassendiagramm?
+
+0:14:38.650,0:14:42.170
+Und die Antwort ist:
+
+0:14:42.170,0:14:46.680
+Also B-, C-, D-Objekte gibt es gar nicht.
+
+0:14:46.680,0:14:51.910
+Also da können sich weder irgendwie Forderungen
+noch Verbote ergeben.
+
+0:14:51.910,0:14:54.940
+Wir müssen uns einfach das A anschauen.
+
+0:14:54.940,0:14:59.850
+Dass A von B erbt, ist in dem Fall auch egal.
+
+0:14:59.850,0:15:03.870
+Denn daraus würden sich nur mögliche Beziehungen
+zu C und D ergeben.
+
+0:15:03.870,0:15:10.390
+Aber die sind jeweils nicht verpflichtend,
+weil hier eben "0..1" und implizit "0..*"
+
+0:15:10.390,0:15:11.390
+steht.
+
+0:15:11.390,0:15:17.720
+Also A erbt von B zwar diese beiden Beziehungen,
+aber daraus ergeben sich keine Verpflichtungen,
+
+0:15:17.720,0:15:19.930
+nur Möglichkeiten.
+
+0:15:19.930,0:15:25.740
+Und wie ist es mit diesen beiden Beziehungen
+und dieser Beziehung?
+
+0:15:25.740,0:15:28.790
+Diese beiden Links sind durch diese Beziehung
+da oben gedeckt.
+
+0:15:28.790,0:15:30.110
+Denn da steht:
+
+0:15:30.110,0:15:40.589
+Ein A-Objekt kann (letztlich steht hier auch
+"0..*" dran) mit beliebig vielen anderen A-Objekten
+
+0:15:40.589,0:15:41.800
+in Beziehung stehen.
+
+0:15:41.800,0:15:45.330
+Also zum Beispiel auch mit zweien.
+
+0:15:45.330,0:15:51.070
+Und umgekehrt, sozusagen in Rückwärtsrichtung,
+in diese Richtung:
+
+0:15:51.070,0:15:54.460
+"a2" und "a3" dürfen jeweils mit "0..*"
+
+0:15:54.460,0:16:00.140
+A-Objekten in diese Richtung in Beziehung
+stehen.
+
+0:16:00.140,0:16:06.160
+In dieser Multiplizität natürlich einen
+Partner zu haben hier, fällt in dieses Intervall
+
+0:16:06.160,0:16:07.160
+hinein.
+
+0:16:07.160,0:16:13.820
+Also (d) passt zum zweiten Klassendiagramm,
+obwohl es nicht zum ersten gepasst hatte.
+
+0:16:13.820,0:16:21.149
+Okay, und dann schließlich noch die Fragen
+für (e).
+
+0:16:21.149,0:16:26.121
+Also wie ist es für (e)?
+
+0:16:26.121,0:16:28.750
+Passt (e) zum ersten Klassendiagramm?
+
+0:16:28.750,0:16:33.180
+Jetzt sind die As verschwunden.
+
+0:16:33.180,0:16:36.250
+Also es gibt keine A-Objekte.
+
+0:16:36.250,0:16:42.029
+Es gibt ein B-Objekt, welches ja auch ein
+A-Objekt ist wegen der Vererbung hier.
+
+0:16:42.029,0:16:48.920
+Also wir müssen schon schauen, welche Forderungen
+sich denn dadurch ergeben.
+
+0:16:48.920,0:16:55.240
+Aber da die Beziehung hier oben so liberal
+ist (immer auch erlaubt durch die Multiplizitäten,
+
+0:16:55.240,0:17:03.680
+dass die Null als Anzahl der Gegenparts vorliegt),
+ergeben sich daraus keine weiteren Verpflichtungen
+
+0:17:03.680,0:17:04.750
+für das B-Objekt.
+
+0:17:04.750,0:17:09.039
+Also das ist da ungefährlich.
+
+0:17:09.039,0:17:15.510
+Und wie sieht es mit den C- und D-Beziehungen
+aus?
+
+0:17:15.510,0:17:19.909
+Also "b" darf mit beliebig vielen D-Objekten
+in Beziehung stehen.
+
+0:17:19.909,0:17:21.850
+Das wären dann eben diese zwei in dem Fall.
+
+0:17:21.850,0:17:27.279
+Es muss nicht mit C-Objekten in Beziehung
+stehen, weil hier die Multiplizität implizit
+
+0:17:27.279,0:17:28.700
+"0..*" ist.
+
+0:17:28.700,0:17:36.429
+Und jedes D-Objekt muss mit genau einem B-Objekt
+in Beziehung stehen, wegen dieser Angabe hier.
+
+0:17:36.429,0:17:37.869
+Das ist hier aber auch der Fall.
+
+0:17:37.869,0:17:41.320
+Ja, jedes D-Objekt steht mit genau einem B-Objekt
+in Beziehung.
+
+0:17:41.320,0:17:45.529
+Dass diese beiden D-Objekte beide mit dem
+gleichen B-Objekt in Beziehung stehen, ist
+
+0:17:45.529,0:17:47.019
+nicht weiter schlimm.
+
+0:17:47.019,0:17:52.980
+Weil das aus B-Sicht erlaubt ist, mit beliebig
+vielen D-Objekten in Beziehung zu stehen.
+
+0:17:52.980,0:17:55.960
+Also (e) passt zum ersten Klassendiagramm.
+
+0:17:55.960,0:18:04.519
+Und dann noch als abschließende Frage, ob
+denn wohl (e) auch zum zweiten Klassendiagramm
+
+0:18:04.519,0:18:05.519
+hier passt.
+
+0:18:05.519,0:18:12.369
+Und wie ist das?
+
+0:18:12.369,0:18:19.299
+Da gibt es ein Problem mit dieser Multiplizität
+hier.
+
+0:18:19.299,0:18:25.919
+Denn jedes B-Objekt darf nur mit höchstens
+einem D-Objekt in Beziehung stehen.
+
+0:18:25.919,0:18:31.840
+Aber hier gibt es diese zwei Gegenparts für
+"b".
+
+0:18:31.840,0:18:36.440
+Also diese beiden Links können ja nur Ausprägungen
+dieser Beziehung sein.
+
+0:18:36.440,0:18:40.330
+Denn andere Beziehungen gibt es zwischen B
+und D nicht, auch nicht durch Vererbung irgendwie.
+
+0:18:40.330,0:18:45.259
+Und dann ist aber diese Multiplizität, die
+hier verlangt ist, verletzt.
+
+0:18:45.259,0:18:51.289
+Das "b" dürfte gar keinen D-Partner haben
+oder einen D-Partner haben, aber nicht mehrere.
+
+0:18:51.289,0:19:00.080
+Jedes B-Objekt darf höchstens ein D-Objekt
+als Gegenpart entlang eines Links für diese
+
+0:19:00.080,0:19:01.289
+Assoziation haben.
+
+0:19:01.289,0:19:03.019
+Und das ist hier offenbar verletzt.
+
+0:19:03.019,0:19:06.390
+Also (e) passt nicht zum zweiten Klassendiagramm.
+
+0:19:06.390,0:19:11.139
+Damit haben wir alle Fälle besprochen.

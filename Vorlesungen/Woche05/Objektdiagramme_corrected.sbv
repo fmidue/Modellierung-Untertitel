@@ -1,0 +1,1075 @@
+0:00:01.440,0:00:08.910
+Having dealt with class diagrams, and in
+particular also with the validity of class
+
+0:00:08.910,0:00:14.070
+diagrams (i.e., the constraints that
+exist on class diagrams when
+
+0:00:14.070,0:00:17.940
+considering the various relationships), we
+now come to object diagrams.
+
+0:00:17.940,0:00:22.410
+So obviously the
+specification of individual objects.
+
+0:00:22.410,0:00:26.040
+An object, we know, is
+an expression of a class.
+
+0:00:26.040,0:00:33.180
+And what you're seeing here is a slide
+that you've seen something similar or exactly the same.
+
+0:00:33.180,0:00:37.080
+So we have a class, and then we discussed
+(and this also came up in the exercise) when then
+
+0:00:37.080,0:00:42.630
+an object is an instantiation of
+it (so it instantiates this class).
+
+0:00:42.630,0:00:43.800
+
+Reminder:
+
+0:00:43.800,0:00:47.160
+In particular, all attributes
+had to be occupied.
+
+0:00:47.160,0:00:50.790
+If this was a
+subclass of another class,
+
+0:00:50.790,0:00:55.230
+then the attributes of the
+superclass would also appear here.
+
+0:00:55.230,0:00:57.930
+What does not appear,
+however, are the methods.
+
+0:00:57.930,0:01:02.700
+Because they have no place
+in an object (with this
+
+0:01:02.700,0:01:04.110
+kind of modeling
+we are doing here).
+
+0:01:06.120,0:01:07.740
+That would
+be an object.
+
+0:01:07.740,0:01:10.470
+An object diagram is
+then obviously a diagram
+
+0:01:10.470,0:01:15.030
+in which several such objects occur,
+which are possibly related to each other.
+
+0:01:15.030,0:01:18.300
+Where the relationships that
+should/could exist there would
+
+0:01:18.870,0:01:20.340
+depend on
+a class diagram.
+
+0:01:20.340,0:01:24.750
+So you have to have a valid
+class diagram, and then you can talk
+
+0:01:24.750,0:01:29.850
+about creating an object
+diagram to that class diagram.
+
+0:01:29.850,0:01:32.940
+The idea
+here is:
+
+0:01:32.940,0:01:39.960
+If the class diagram puts in the framework of how
+a system can be designed, then an object diagram would
+
+0:01:39.960,0:01:44.610
+be sort of a snapshot or a snapshot
+of the system at a point in time.
+
+0:01:44.610,0:01:48.360
+In other words, a set of objects with
+their relationships to each other as they might be
+
+0:01:48.360,0:01:49.920
+present in a system at a particular
+point in time that satisfies the class diagram.
+
+0:01:49.920,0:01:57.480
+A class diagram was used to
+record what types of actors should exist,
+
+0:01:57.480,0:02:01.890
+what attributes exist, how
+the classes are related.
+
+0:02:02.580,0:02:05.880
+An object diagram must then
+be a concrete manifestation of
+
+0:02:05.880,0:02:09.720
+this (which, of course, adheres to everything
+that was modeled in the class diagram).
+
+0:02:11.970,0:02:15.420
+The point is that
+we then have a
+
+0:02:15.420,0:02:21.840
+clear mapping of, for example,
+the various associations and the properties.
+
+0:02:21.840,0:02:23.670
+The multiplicities have to
+be roughly adhered to.
+
+0:02:23.670,0:02:27.480
+So we have to fulfill
+everything that the class diagram
+
+0:02:27.480,0:02:29.580
+specifies, also in
+a corresponding object diagram.
+
+0:02:29.580,0:02:36.330
+Thereby the
+objects get names.
+
+0:02:36.330,0:02:41.520
+We have here perhaps a class "Point"
+and then several individual points, here "myPoint".
+
+0:02:42.570,0:02:45.240
+We could also have
+"myPoint1" or "myPoint2" here.
+
+0:02:45.240,0:02:54.495
+So the objects have an identity,
+which can be represented by a name.
+
+0:02:54.495,0:02:56.790
+But an object
+could also remain anonymous.
+
+0:02:56.790,0:02:59.880
+Sometimes the name
+part is simply
+
+0:03:00.630,0:03:04.080
+omitted if it is not important to
+the object that it has a name.
+
+0:03:04.080,0:03:08.250
+But the class must be specified so that
+we know which class this object is from.
+
+0:03:08.250,0:03:11.340
+Then we would simply have something
+like this as a specification, and
+
+0:03:11.340,0:03:15.870
+say: "Object of the class Point"; and in front
+of it, however, there would be no concrete name.
+
+0:03:15.870,0:03:19.080
+So that this object
+would have no proper name,
+
+0:03:19.080,0:03:21.900
+but would simply remain an
+anonymous object of the corresponding class.
+
+0:03:21.900,0:03:26.310
+We will not include the
+classes themselves in the object diagram.
+
+0:03:26.310,0:03:30.780
+We will have separately a class
+diagram and then a matching object diagram.
+
+0:03:30.780,0:03:34.710
+So not the situation where both are
+in one diagram with these extra arrows.
+
+0:03:34.710,0:03:36.060
+We're not going
+to do that here.
+
+0:03:36.060,0:03:39.510
+You can do that, but that's
+not going to happen in our tasks.
+
+0:03:39.510,0:03:48.210
+Then I had just said that
+in the objects we assign the attributes
+
+0:03:48.210,0:03:49.410
+that are predefined
+by the classes.
+
+0:03:49.410,0:03:52.530
+UML does not
+necessarily always require this.
+
+0:03:52.530,0:04:01.020
+UML also allows that we do not assign
+all attributes of an object, because perhaps not all
+
+0:04:01.020,0:04:04.650
+attributes are relevant for the concrete
+situation that is to be represented.
+
+0:04:04.650,0:04:08.670
+Of course, the situation is different if
+we require (for example, in the exercise or
+
+0:04:08.670,0:04:11.520
+exam) that you should
+make a complete instantiation.
+
+0:04:11.520,0:04:13.470
+That is, that
+you should occupy
+
+0:04:13.470,0:04:18.480
+all attributes that are predefined by
+the class definition in the object.
+
+0:04:18.480,0:04:21.410
+If you refrain from this
+requirement (i.e., you don't explicitly
+
+0:04:21.410,0:04:24.140
+require this, as we might do
+in the exercise or exam), then you
+
+0:04:24.140,0:04:29.180
+could certainly represent instantiations of
+abstract classes in the object diagram.
+
+0:04:29.180,0:04:32.120
+Although I had
+said last week that
+
+0:04:32.120,0:04:41.095
+you cannot instantiate objects from
+abstract class in a concrete implementation.
+
+0:04:41.095,0:04:42.530
+For such a representation of the
+object diagram it would be in principle
+
+0:04:42.530,0:04:46.880
+also possible to form an
+embodiment of an abstract class.
+
+0:04:46.880,0:04:57.260
+Of course, under the circumstances that not
+all attributes are occupied (which would be necessary
+
+0:04:58.640,0:05:05.270
+if we would specify objects from
+a concrete subclass of the abstract class).
+
+0:05:09.980,0:05:10.910
+And
+very important:
+
+0:05:10.910,0:05:14.600
+There are no
+inheritance arrows between objects.
+
+0:05:14.600,0:05:18.260
+We will see in a moment how the
+other relationships that exist at the class level
+
+0:05:18.260,0:05:27.050
+(association, aggregation, composition) are
+reflected in the object diagram.
+
+0:05:27.050,0:05:28.550
+The inheritance arrows between classes in
+the class diagram, on the other hand,
+
+0:05:28.550,0:05:31.430
+have no equivalent in the object
+diagram, because we specify concrete objects there.
+
+0:05:31.430,0:05:32.900
+An object then belongs
+to a concrete class.
+
+0:05:32.900,0:05:36.380
+This can be a class from
+a class hierarchy with several inheritances.
+
+0:05:36.380,0:05:38.360
+But this one
+object we are mapping
+
+0:05:38.360,0:05:42.080
+belongs to *one* class and
+does *not* inherit from another object.
+
+0:05:42.080,0:05:45.050
+Rather, it belongs to a class
+that may inherit from other classes.
+
+0:05:45.050,0:05:48.860
+The inheritance arrows that exist between
+classes do not exist between objects.
+
+0:05:54.530,0:05:59.870
+Because of the
+concepts of inheritance, superclasses,
+
+0:05:59.870,0:06:04.130
+subclasses, objects could in principle
+also have a superclass specified.
+
+0:06:05.270,0:06:08.450
+If we remember the "Points"
+and the "ColouredPoints", then we
+
+0:06:08.450,0:06:10.550
+could have
+a concrete "ColouredPoint".
+
+0:06:10.550,0:06:12.680
+So a concrete object
+of the class "ColouredPoint".
+
+0:06:12.680,0:06:15.170
+This is also an
+object of the class "Point".
+
+0:06:15.170,0:06:20.540
+Therefore, in this specification, a superclass should also
+be specified, if we don't want to have
+
+0:06:20.540,0:06:25.580
+this more precise again in the exercise
+or the exam, or explicitly exclude it.
+
+0:06:30.590,0:06:33.140
+I had already spoken about the
+fact that we do not find
+
+0:06:33.140,0:06:36.740
+the inheritance arrows in the object
+diagram, but the other relationships do.
+
+0:06:36.740,0:06:39.620
+How do we find
+them in the object diagram?
+
+0:06:39.620,0:06:47.150
+By means of the notion of
+"link", which is simply also a
+
+0:06:47.150,0:06:50.480
+link, but now
+any relationship between objects.
+
+0:06:52.400,0:06:56.450
+If we have an association on the class
+level, or an aggregation, or a composition, then
+
+0:06:56.450,0:07:02.360
+this can be found on the level
+of the objects of the corresponding classes
+
+0:07:02.360,0:07:05.240
+by means of a connecting
+line, a link, a connection.
+
+0:07:05.240,0:07:10.940
+These are then quite concrete expressions of
+such a relationship of specific objects of
+
+0:07:10.940,0:07:16.520
+the classes involved in the
+relationship existing on class level.
+
+0:07:16.520,0:07:23.780
+There are no multiplicities
+attached to the links.
+
+0:07:23.780,0:07:26.960
+The multiplicities in the
+class diagram tell us
+
+0:07:26.960,0:07:33.140
+how many objects of this or that
+type can be involved in such a relationship.
+
+0:07:33.140,0:07:35.840
+In the object diagram we
+always have very concrete objects.
+
+0:07:35.840,0:07:43.460
+So a link represents exactly
+one relationship between two concrete objects.
+
+0:07:43.460,0:07:49.970
+And although this may be an
+expression of an association with multiplicities,
+
+0:07:49.970,0:07:53.030
+these multiplicities will not
+be attached to this link.
+
+0:07:53.030,0:07:56.090
+Of course, they still
+have to be observed.
+
+0:07:56.090,0:08:02.610
+So you don't see on a
+concrete link which multiplicities are prevalent there.
+
+0:08:02.610,0:08:04.200
+Because that's
+a class-level concept.
+
+0:08:04.200,0:08:07.170
+But if we look at
+the entire object diagram, then
+
+0:08:07.170,0:08:11.250
+of course it has to satisfy
+the multiplicities from the class diagram.
+
+0:08:11.250,0:08:13.140
+So if the class
+diagram specifies "there are
+
+0:08:13.140,0:08:18.780
+objects of class A related to a
+maximum of two objects of class B";
+
+0:08:18.780,0:08:23.520
+then we just can't have one object of
+class A and three objects of class B in
+
+0:08:23.520,0:08:27.450
+the object diagram, so that this A
+object is related to all three B objects.
+
+0:08:28.350,0:08:33.660
+Finally, the multiplicity conditions of
+the class diagram must be respected.
+
+0:08:33.660,0:08:35.790
+That is, the numbers of
+objects that are related must
+
+0:08:35.790,0:08:37.590
+be within
+their respective bounds.
+
+0:08:37.590,0:08:40.740
+But there is not a
+number attached to each link somehow.
+
+0:08:40.740,0:08:45.690
+Because these numbers
+span all links.
+
+0:08:45.690,0:08:48.660
+This is a
+requirement for all links
+
+0:08:48.660,0:08:54.360
+that exist between objects of one
+class and objects of another class.
+
+0:08:54.360,0:08:58.950
+We will see in the example
+how this is to be understood.
+
+0:09:03.090,0:09:06.330
+Let's take an example
+that we had before and
+
+0:09:06.330,0:09:09.330
+extend it a little bit
+or build two examples together.
+
+0:09:09.330,0:09:11.700
+Once we had the example
+with parking lot and cars.
+
+0:09:11.700,0:09:15.570
+Then at some point we
+also had a situation with cars
+
+0:09:15.570,0:09:24.540
+and owners, and on the whiteboard slides
+I had also once related cars and wheels.
+
+0:09:24.540,0:09:27.540
+Always these two
+pairs of classes.
+
+0:09:28.140,0:09:31.470
+Let's put that into a
+larger, extended class diagram, where we
+
+0:09:31.470,0:09:36.540
+have the parking lot with an
+aggregation to car with corresponding multiplicities here.
+
+0:09:36.540,0:09:43.050
+And the car has an aggregation
+to wheel, again with certain multiplicities.
+
+0:09:43.050,0:09:47.580
+Different from the example that
+I had looked at on
+
+0:09:47.580,0:09:51.780
+the whiteboard, I really have
+the 1 here at the composition.
+
+0:09:52.500,0:09:54.510
+In the other example I had
+said, a wheel could be also
+
+0:09:54.510,0:09:56.460
+in the camp, then
+just in no car.
+
+0:09:57.480,0:09:59.070
+Here it
+is more specific.
+
+0:09:59.070,0:10:01.410
+So there's just this
+one composition here, and
+
+0:10:01.410,0:10:06.480
+there's also the ownership, so there's
+an association of person to car.
+
+0:10:06.480,0:10:11.370
+So now we have
+three different kinds of relationships.
+
+0:10:11.370,0:10:14.130
+Now we don't have
+inheritance in this example.
+
+0:10:14.130,0:10:16.230
+Of course, we
+can create object diagrams
+
+0:10:16.230,0:10:18.750
+from class diagrams
+that contain inheritance.
+
+0:10:18.750,0:10:20.040
+Then we have to
+remember, first of all,
+
+0:10:20.040,0:10:28.680
+that the subclasses inherit all their relationships
+from the superclasses in addition to their attributes.
+
+0:10:32.700,0:10:35.220
+So that's one
+possible class diagram.
+
+0:10:35.220,0:10:42.600
+Now we can take a look at what
+an object diagram might look like for this.
+
+0:10:42.600,0:10:45.000
+We need to decide how
+many cars we want to have.
+
+0:10:45.000,0:10:47.640
+Let's take at least two, because it
+would be boring with only one car.
+
+0:10:47.640,0:10:50.280
+Let's take two
+cars that should exist.
+
+0:10:50.280,0:10:51.990
+Then we
+already know:
+
+0:10:51.990,0:10:55.140
+Each car can be in
+zero or one parking space.
+
+0:10:55.140,0:11:01.290
+Let's say there is a parking lot
+that happens to have these two cars.
+
+0:11:02.310,0:11:02.670
+We
+also know:
+
+0:11:02.670,0:11:09.630
+Each car has exactly four wheels, and
+no wheel can belong to two cars.
+
+0:11:09.630,0:11:12.420
+That is, if we have two cars, we
+will probably have exactly eight wheels as other objects.
+
+0:11:13.020,0:11:18.630
+And then each car must
+also have an owner, exactly one.
+
+0:11:18.630,0:11:25.350
+However, one owner can own several
+cars, for example up to five.
+
+0:11:28.830,0:11:32.480
+So what might a concrete object
+diagram to this class diagram look like?
+
+0:11:32.480,0:11:33.770
+For example,
+as follows:
+
+0:11:33.770,0:11:36.290
+This is the
+situation we had.
+
+0:11:36.290,0:11:39.440
+For example, here as an object
+is a concrete parking lot, namely
+
+0:11:39.440,0:11:43.010
+the one in the L-area
+of the campus in Duisburg.
+
+0:11:43.010,0:11:49.790
+That would be "Name-of-object is
+object of the class parking lot".
+
+0:11:49.790,0:11:51.770
+What I did here
+now in the example times,
+
+0:11:52.280,0:11:56.540
+is that I omitted
+everywhere the attribute boxes.
+
+0:11:57.170,0:11:58.370
+Actually, for all
+attributes, which are
+
+0:11:58.370,0:12:05.690
+mentioned here in the second box,
+there would be assignments here as well.
+
+0:12:05.690,0:12:07.760
+We will also have
+that sometimes in the exercises,
+
+0:12:07.760,0:12:14.330
+that we stylize the objects and partly also
+the classes in such a way that we actually
+
+0:12:14.330,0:12:21.710
+only have the box with the name and
+not also the two boxes for attributes and methods.
+
+0:12:21.710,0:12:24.050
+So this
+one parking space.
+
+0:12:24.050,0:12:28.520
+Then I had talked about two cars, for
+example a green Skoda and a black Ford.
+
+0:12:28.520,0:12:32.330
+These are each cars as
+different instantiations of the class car,
+
+0:12:32.330,0:12:37.130
+and they're both contained
+in this one parking lot.
+
+0:12:37.130,0:12:42.230
+So these two links here
+are expressions of this one relationship.
+
+0:12:50.090,0:13:00.260
+Then there's an owner in each
+case, which are instantiations of this class.
+
+0:13:00.260,0:13:03.170
+These are these two person
+objects here, Peter and Gabi.
+
+0:13:03.170,0:13:09.620
+It could also
+be just one owner.
+
+0:13:09.620,0:13:15.290
+There could also be another link
+from Gabi to the green Skoda.
+
+0:13:15.290,0:13:20.060
+But then this object, or this
+relationship here, would have to disappear.
+
+0:13:20.060,0:13:24.110
+Because Gabi and Peter can't both
+be owners of the green Skoda,
+
+0:13:24.110,0:13:26.600
+because each car has
+only exactly one owner.
+
+0:13:30.410,0:13:31.610
+Then there is
+this relation here.
+
+0:13:31.610,0:13:35.960
+To each car belong exactly four wheels,
+therefore we have here four wheels each.
+
+0:13:35.960,0:13:40.730
+I just left
+them as anonymous objects.
+
+0:13:40.730,0:13:45.200
+These are four different wheels, but
+they are not distinguished by names.
+
+0:13:45.200,0:13:47.060
+Nevertheless, there are in any
+case four and here again four,
+
+0:13:47.060,0:13:48.710
+thus altogether
+eight different objects.
+
+0:13:48.710,0:13:53.330
+They are just not named like "front
+left wheel of the green Skoda" or so.
+
+0:13:53.330,0:13:55.310
+Here we
+see again:
+
+0:13:55.310,0:14:02.420
+For each incarnation of the
+composition there is a link.
+
+0:14:02.420,0:14:06.680
+The green Skoda has links to exactly
+four wheels, and so does the black Ford.
+
+0:14:06.680,0:14:14.510
+And they each have exactly one
+link to the car containing them.
+
+0:14:14.510,0:14:18.560
+So this is enough
+for these multiplicities here.
+
+0:14:18.560,0:14:20.660
+But they are not
+attached to the links themselves,
+
+0:14:20.660,0:14:22.520
+because that makes no
+sense for a single link.
+
+0:14:22.520,0:14:31.580
+What is important is that, for example,
+these four links together satisfy these constraints
+
+0:14:31.580,0:14:36.950
+here, which result from the
+composition here with the corresponding multiplicities.
+
+0:14:38.810,0:14:43.280
+Now if we were to start
+deleting objects or deleting links or
+
+0:14:43.280,0:14:45.920
+adding more objects, we
+could always ask ourselves:
+
+0:14:45.920,0:14:48.710
+Does it still
+satisfy this class diagram?
+
+0:14:48.710,0:14:51.320
+If I specify
+a fifth wheel here,
+
+0:14:51.320,0:14:54.680
+and also link it to the green
+Skoda, then I would have a violation.
+
+0:14:54.680,0:14:58.400
+Because then I would have assigned five
+wheels to the green Skoda, which is forbidden.
+
+0:14:58.400,0:15:01.580
+If I added a wheel without connecting
+it to any car, I would have
+
+0:15:01.580,0:15:03.870
+violated the class
+diagram as well.
+
+0:15:03.870,0:15:09.180
+Because to this wheel there would not be
+then the exactly one car, which it contains.
+
+0:15:09.180,0:15:09.480
+Which, however, must exist
+according to this specification here.
+
+0:15:09.480,0:15:15.990
+Of course, this is not
+the only suitable object diagram.
+
+0:15:15.990,0:15:20.970
+But many changes we could make
+locally now would violate the class diagram.
+
+0:15:20.970,0:15:24.900
+However, there are other object diagrams
+that also fit this class diagram.
+
+0:15:25.590,0:15:29.970
+One task in the exercises or even the
+exam could be to decide for a class
+
+0:15:29.970,0:15:34.140
+diagram and an object diagram whether this
+object diagram fits to this class diagram.
+
+0:15:34.140,0:15:38.370
+Or to set up an object diagram
+of a certain size for a class diagram.
+
+0:15:43.920,0:15:46.890
+Two
+more comments:
+
+0:15:48.270,0:15:51.810
+We could certainly, even though I
+didn't do it in the example
+
+0:15:51.810,0:15:57.570
+just now, also note the aggregation
+and composition symbols in the object diagram.
+
+0:15:57.570,0:16:05.040
+Since these four links are manifestations of
+this composition, one could also draw this filled
+
+0:16:05.040,0:16:10.140
+diamond at each of these four places
+here, and of course also here below.
+
+0:16:10.140,0:16:11.310
+But you
+don't have to.
+
+0:16:11.310,0:16:18.990
+Likewise, you can
+omit the association name.
+
+0:16:18.990,0:16:21.570
+Here I did it for the
+sake of clarity, so that you
+
+0:16:21.570,0:16:23.280
+know what these
+two associations are.
+
+0:16:23.280,0:16:26.760
+It is not obligatory
+to write them there.
+
+0:16:26.760,0:16:29.430
+This is done mainly
+for the sake of clarity.
+
+0:16:30.540,0:16:37.650
+Which was perhaps not necessary here, because
+exactly four wheels belong to it anyway.
+
+0:16:37.650,0:16:44.970
+There was no
+need to emphasize that
+
+0:16:44.970,0:16:48.930
+they belong to
+the composition symbol.
+
+0:16:48.930,0:16:50.970
+Or to
+add a name.
+
+0:16:52.080,0:16:52.830
+Here there
+is the name.
+
+0:16:52.830,0:16:57.180
+It could have been written in these
+four places, but it doesn't have to be.
+
+0:16:57.180,0:17:06.260
+The same applies to
+reading direction and navigation direction.
+
+0:17:06.890,0:17:07.831
+This is what
+it says here:
+
+0:17:07.831,0:17:10.209
+Association name, navigation direction and
+reading direction can also be omitted.
+
+0:17:10.209,0:17:14.240
+We will also have object diagrams
+where just the links are drawn in
+
+0:17:14.240,0:17:17.120
+without any further
+annotations on them.
+
+0:17:29.540,0:17:33.020
+I had already
+pronounced this "attention" message:
+
+0:17:33.020,0:17:38.330
+We must remember, of course, when
+specifying an object diagram or checking
+
+0:17:38.330,0:17:43.970
+the fit to a class
+diagram, that relationships (i.e., associations,
+
+0:17:43.970,0:17:47.210
+aggregations, compositions) are
+inherited between classes.
+
+0:17:48.050,0:17:54.380
+If a class has relationships of this
+type to another class, then they are also
+
+0:17:54.380,0:17:58.520
+present in the subclass, so must
+be considered for objects of the subclass.
+
+0:17:58.520,0:18:00.140
+
+Example:
+
+0:18:01.070,0:18:03.560
+Suppose we have a class
+Account and two subclasses of it,
+
+0:18:03.560,0:18:06.530
+and we have a
+relationship of customers to accounts.
+
+0:18:07.370,0:18:11.960
+In particular, each account must have exactly
+one owner, a customer who owns it.
+
+0:18:11.960,0:18:17.210
+Then savings accounts and checking accounts
+must also have exactly one owner
+
+0:18:17.210,0:18:20.570
+each, even though there is no
+explicit relationship of these to customers.
+
+0:18:21.860,0:18:26.270
+They inherit that because
+they are subclasses of account.
+
+0:18:26.270,0:18:36.610
+That is, an object
+diagram might look like this:
+
+0:18:36.610,0:18:39.970
+Suppose we have exactly two accounts,
+a savings account and a checking account.
+
+0:18:40.990,0:18:41.679
+Then they must
+each have an owner.
+
+0:18:41.679,0:18:42.179
+They could also
+have the same owner.
+
+0:18:43.660,0:18:48.190
+A customer may have several
+accounts, because nothing is restricted here.
+
+0:18:48.190,0:18:51.430
+But each current account or savings
+account must have exactly one owner.
+
+0:18:52.780,0:18:56.110
+There could also be a
+second object, another customer, who
+
+0:18:56.110,0:19:00.430
+would own the savings account
+and Klaus only the checking account.
+
+0:19:00.430,0:19:01.930
+That would
+also be allowed.
+
+0:19:01.930,0:19:06.160
+What would not be allowed, however,
+would be that there is simply another
+
+0:19:06.160,0:19:09.880
+savings account or another current
+account, which have no owner.
+
+0:19:09.880,0:19:13.150
+Because then this requirement
+would not be fulfilled.
+
+0:19:13.150,0:19:22.390
+Of course, it would also not be allowed
+that there is another customer and the savings
+
+0:19:22.390,0:19:28.120
+account would be owned by Klaus
+as well as by this other customer.
+
+0:19:28.120,0:19:31.060
+Because that would also
+contradict this 1 here.
+
+0:19:36.280,0:19:42.550
+Further discussion on the fit
+of object diagrams to class
+
+0:19:42.550,0:19:47.500
+diagrams, with at least one
+more example, by extra video.

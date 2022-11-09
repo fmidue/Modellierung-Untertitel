@@ -1,0 +1,1000 @@
+0:00:01.440,0:00:08.910
+Nachdem wir uns mit Klassendiagrammen beschäftigt
+haben, und insbesondere auch mit der Validität von
+
+0:00:08.910,0:00:14.070
+Klassendiagrammen (also den Einschränkungen,
+die bei Klassendiagrammen existieren, wenn man
+
+0:00:14.070,0:00:17.940
+die verschiedenen Beziehungen betrachtet),
+kommen wir nun zu den Objektdiagrammen.
+
+0:00:17.940,0:00:22.410
+Also offenbar der Angabe von einzelnen Objekten.
+
+0:00:22.410,0:00:26.040
+Ein Objekt, das wissen wir, ist
+eine Ausprägung einer Klasse.
+
+0:00:26.040,0:00:33.180
+Und was Sie hier sehen, ist eine Folie, die Sie
+so ähnlich oder genauso schon gesehen haben.
+
+0:00:33.180,0:00:37.080
+Also wir haben eine Klasse, und dann haben wir
+diskutiert (und auch in der Übung kam das vor),
+
+0:00:37.080,0:00:42.630
+wann denn ein Objekt eine Ausprägung davon
+ist (also diese Klasse instanziiert).
+
+0:00:42.630,0:00:43.800
+Zur Erinnerung:
+
+0:00:43.800,0:00:47.160
+Dabei mussten insbesondere
+alle Attribute belegt werden.
+
+0:00:47.160,0:00:50.790
+Falls das eine Unterklasse
+einer anderen Klasse war,
+
+0:00:50.790,0:00:55.230
+dann würden auch die Attribute der
+Oberklasse hier mit auftauchen.
+
+0:00:55.230,0:00:57.930
+Was hingegen nicht auftaucht, sind die Methoden.
+
+0:00:57.930,0:01:02.700
+Weil die in einem Objekt
+nichts zu suchen haben (bei
+
+0:01:02.700,0:01:04.110
+dieser Art Modellierung, die wir hier machen).
+
+0:01:06.120,0:01:07.740
+Das wäre ein Objekt.
+
+0:01:07.740,0:01:10.470
+Ein Objektdiagramm ist dann
+offenkundig ein Diagramm,
+
+0:01:10.470,0:01:15.030
+in dem mehrere solcher Objekte vorkommen, die
+möglicherweise in Beziehung zueinander stehen.
+
+0:01:15.030,0:01:18.300
+Wobei die Beziehungen, die
+dort bestehen sollen/können,
+
+0:01:18.870,0:01:20.340
+von einem Klassendiagramm abhängen würden.
+
+0:01:20.340,0:01:24.750
+Also man muss ein gültiges Klassendiagramm
+haben, und kann dann darüber sprechen,
+
+0:01:24.750,0:01:29.850
+dass ein Objektdiagramm zu diesem
+Klassendiagramm erstellt wird.
+
+0:01:29.850,0:01:32.940
+Dabei ist die Idee:
+
+0:01:32.940,0:01:39.960
+Wenn das Klassendiagramm den Rahmen steckt, wie
+ein System gestaltet sein kann, dann wäre ein
+
+0:01:39.960,0:01:44.610
+Objektdiagramm eine Art Momentaufnahme oder
+ein Snapshot des Systems zu einem Zeitpunkt.
+
+0:01:44.610,0:01:48.360
+Also eine Menge von Objekten mit ihren
+Beziehungen zueinander, so wie sie zu einem
+
+0:01:48.360,0:01:49.920
+bestimmten Zeitpunkt in einem System vorhanden
+sein könnten, das dem Klassendiagramm genügt.
+
+0:01:49.920,0:01:57.480
+In einem Klassendiagramm wurde festgehalten,
+welche Arten von Akteuren es geben soll,
+
+0:01:57.480,0:02:01.890
+welche Attribute bestehen, wie
+die Klassen zusammenhängen.
+
+0:02:02.580,0:02:05.880
+Ein Objektdiagramm muss dann
+eine konkrete Ausprägung davon
+
+0:02:05.880,0:02:09.720
+sein (die sich natürlich an alles, was im
+Klassendiagramm modelliert wurde, hält).
+
+0:02:11.970,0:02:15.420
+Der Sinn ist, dass wir dann eine übersichtliche
+
+0:02:15.420,0:02:21.840
+Zuordnung zum Beispiel der verschiedenen
+Assoziationen und der Eigenschaften haben.
+
+0:02:21.840,0:02:23.670
+Die Multiplizitäten müssen
+etwa eingehalten werden.
+
+0:02:23.670,0:02:27.480
+Also wir müssen alles, was
+das Klassendiagramm vorgibt,
+
+0:02:27.480,0:02:29.580
+auch in einem entsprechenden
+Objektdiagramm erfüllen.
+
+0:02:29.580,0:02:36.330
+Dabei kriegen die Objekte Namen.
+
+0:02:36.330,0:02:41.520
+Wir haben hier vielleicht eine Klasse "Point"
+und dann mehrere einzelne Punkte, hier "myPoint".
+
+0:02:42.570,0:02:45.240
+Man könnte hier auch "myPoint1"
+oder "myPoint2" haben.
+
+0:02:45.240,0:02:54.495
+Also die Objekte haben eine Identität, die
+durch einen Namen dargestellt werden kann.
+
+0:02:54.495,0:02:56.790
+Aber ein Objekt könnte auch anonym bleiben.
+
+0:02:56.790,0:02:59.880
+Manchmal wird einfach der Namensteil weggelassen,
+
+0:03:00.630,0:03:04.080
+wenn es zu dem Objekt nicht wichtig
+ist, dass es einen Namen hat.
+
+0:03:04.080,0:03:08.250
+Die Klasse muss aber angegeben sein, damit wir
+wissen, von welcher Klasse dieses Objekt denn ist.
+
+0:03:08.250,0:03:11.340
+Dann würde man als Angabe einfach so etwas haben,
+
+0:03:11.340,0:03:15.870
+und sagen: "Objekt der Klasse Point"; und
+davor stände aber kein konkreter Name.
+
+0:03:15.870,0:03:19.080
+So dass dieses Objekt keinen Eigennamen hätte,
+
+0:03:19.080,0:03:21.900
+sondern einfach ein anonymes Objekt
+der entsprechenden Klasse bliebe.
+
+0:03:21.900,0:03:26.310
+Die Klassen selbst werden wir im
+Objektdiagramm nicht mit abbilden.
+
+0:03:26.310,0:03:30.780
+Wir werden separat ein Klassendiagramm haben
+und dann ein dazu passendes Objektdiagramm.
+
+0:03:30.780,0:03:34.710
+Also nicht die Situation, wo beides in einem
+Diagramm steht mit diesen Extrapfeilen.
+
+0:03:34.710,0:03:36.060
+Das werden wir hier nicht tun.
+
+0:03:36.060,0:03:39.510
+Das kann man machen, aber das wird
+in unseren Aufgaben nicht vorkommen.
+
+0:03:39.510,0:03:48.210
+Dann hatte ich eben gesagt, dass wir
+in den Objekten die Attribute belegen,
+
+0:03:48.210,0:03:49.410
+die durch die Klassen vorgeben sind.
+
+0:03:49.410,0:03:52.530
+UML verlangt das nicht unbedingt immer.
+
+0:03:52.530,0:04:01.020
+Also UML lässt auch zu, dass wir von einem Objekt
+nicht alle Attribute belegen, weil vielleicht für
+
+0:04:01.020,0:04:04.650
+die konkrete Situation, die dargestellt werden
+soll, nicht alle Attribute relevant sind.
+
+0:04:04.650,0:04:08.670
+Etwas anderes gilt natürlich, wenn wir
+fordern (etwa in der Übung oder Klausur),
+
+0:04:08.670,0:04:11.520
+dass Sie eine vollständige
+Instanziierung machen sollen.
+
+0:04:11.520,0:04:13.470
+Dass Sie also alle Attribute,
+
+0:04:13.470,0:04:18.480
+die per Klassendefinition vorgeben
+sind, im Objekt auch belegen sollen.
+
+0:04:18.480,0:04:21.410
+Wenn man von dieser Forderung
+Abstand nimmt (also das nicht
+
+0:04:21.410,0:04:24.140
+explizit fordert, wie wir das vielleicht
+tun werden in der Übung oder Klausur),
+
+0:04:24.140,0:04:29.180
+dann könnte man durchaus auch Ausprägungen
+abstrakter Klassen im Objektdiagramm darstellen.
+
+0:04:29.180,0:04:32.120
+Obwohl ich in der vergangenen Woche gesagt hatte,
+
+0:04:32.120,0:04:41.095
+dass man von abstrakten Klasse in einer konkreten
+Implementierung keine Objekte instanziieren kann.
+
+0:04:41.095,0:04:42.530
+Für so eine Darstellung des Objektdiagramms
+wäre es prinzipiell auch möglich,
+
+0:04:42.530,0:04:46.880
+von einer abstrakten Klasse
+eine Ausprägung zu bilden.
+
+0:04:46.880,0:04:57.260
+Natürlich unter den Umständen eben, dass nicht
+alle Attribute belegt sind (was notwendig wäre,
+
+0:04:58.640,0:05:05.270
+wenn wir denn von einer konkreten Unterklasse
+der abstrakten Klasse Objekte angeben würden).
+
+0:05:09.980,0:05:10.910
+Und ganz wichtig:
+
+0:05:10.910,0:05:14.600
+Es gibt keine Vererbungspfeile zwischen Objekten.
+
+0:05:14.600,0:05:18.260
+Wir werden gleich sehen, wie die anderen
+Beziehungen, die es auf Klassenebene gibt
+
+0:05:18.260,0:05:27.050
+(Assoziation, Aggregation, Komposition),
+sich im Objektdiagramm wiederfinden.
+
+0:05:27.050,0:05:28.550
+Die Vererbungspfeile zwischen Klassen
+im Klassendiagramm haben hingegen keine
+
+0:05:28.550,0:05:31.430
+Entsprechung im Objektdiagramm, weil
+wir da konkrete Objekte angeben.
+
+0:05:31.430,0:05:32.900
+Ein Objekt gehört dann zu einer konkreten Klasse.
+
+0:05:32.900,0:05:36.380
+Das kann eine Klasse aus einer
+Klassenhierarchie mit mehreren Vererbungen sein.
+
+0:05:36.380,0:05:38.360
+Aber dieses eine Objekt, das wir abbilden,
+
+0:05:38.360,0:05:42.080
+gehört zu *einer* Klasse und erbt
+*nicht* von einem anderen Objekt.
+
+0:05:42.080,0:05:45.050
+Sondern es gehört zu einer Klasse, die
+vielleicht von anderen Klassen erbt.
+
+0:05:45.050,0:05:48.860
+Die Vererbungspfeile, die es zwischen den
+Klassen gibt, gibt es zwischen Objekten nicht.
+
+0:05:54.530,0:05:59.870
+Wegen der Konzepte von Vererbung,
+Oberklassen, Unterklassen,
+
+0:05:59.870,0:06:04.130
+könnte bei Objekten prinzipiell
+auch eine Oberklasse angegeben sein.
+
+0:06:05.270,0:06:08.450
+Wenn wir uns an die "Points" und an
+die "ColouredPoints" erinnern, dann
+
+0:06:08.450,0:06:10.550
+könnten wir einen konkreten "ColouredPoint" haben.
+
+0:06:10.550,0:06:12.680
+Also ein konkretes Objekt
+der Klasse "ColouredPoint".
+
+0:06:12.680,0:06:15.170
+Das ist ja auch ein Objekt der Klasse "Point".
+
+0:06:15.170,0:06:20.540
+Deswegen dürfte in dieser Angabe auch eine
+Oberklasse angegeben sein, wenn wir das nicht
+
+0:06:20.540,0:06:25.580
+in der Übung oder der Klausur wieder präziser
+haben wollen, oder explizit ausschließen.
+
+0:06:30.590,0:06:33.140
+Ich hatte schon davon gesprochen,
+dass wir die Vererbungspfeile
+
+0:06:33.140,0:06:36.740
+nicht wiederfinden im Objektdiagramm,
+hingegen die anderen Beziehungen schon.
+
+0:06:36.740,0:06:39.620
+Wie finden die sich im Objektdiagramm wieder?
+
+0:06:39.620,0:06:47.150
+Mittels des Begriffs des "Links", was
+einfach auch eine Verknüpfung ist,
+
+0:06:47.150,0:06:50.480
+aber jetzt irgendeine Beziehung zwischen Objekten.
+
+0:06:52.400,0:06:56.450
+Wenn wir auf Klassenebene eine Assoziation haben,
+oder eine Aggregation, oder eine Komposition,
+
+0:06:56.450,0:07:02.360
+dann kann die sich auf Ebene der Objekte
+entsprechender Klassen wiederfinden durch
+
+0:07:02.360,0:07:05.240
+letztlich einfach eine Verbindungslinie,
+einen Link, eine Verknüpfung.
+
+0:07:05.240,0:07:10.940
+Das sind dann also ganz konkrete Ausprägungen
+einer solchen Beziehung spezifischer Objekte
+
+0:07:10.940,0:07:16.520
+der in die auf Klassenebene bestehende
+Beziehung involvierten Klassen.
+
+0:07:16.520,0:07:23.780
+An die Links kommen keine Multiplizitäten dran.
+
+0:07:23.780,0:07:26.960
+Denn die Multiplizitäten im
+Klassendiagramm sagen ja,
+
+0:07:26.960,0:07:33.140
+wie viele Objekte dieser oder jener Art an
+so einer Beziehung beteiligt sein können.
+
+0:07:33.140,0:07:35.840
+Im Objektdiagramm haben wir
+immer ganz konkrete Objekte.
+
+0:07:35.840,0:07:43.460
+Also ein Link repräsentiert genau eine
+Beziehung zwischen zwei konkreten Objekten.
+
+0:07:43.460,0:07:49.970
+Und obwohl das eine Ausprägung einer
+Assoziation mit Multiplizitäten sein mag,
+
+0:07:49.970,0:07:53.030
+werden diese Multiplizitäten an
+diesem Link nicht dranstehen.
+
+0:07:53.030,0:07:56.090
+Sie müssen natürlich dennoch eingehalten werden.
+
+0:07:56.090,0:08:02.610
+Also man sieht nicht an einem konkreten Link,
+welche Multiplizitäten dort vorherrschen.
+
+0:08:02.610,0:08:04.200
+Denn das ist ein Konzept auf Klassenebene.
+
+0:08:04.200,0:08:07.170
+Aber wenn wir uns das gesamte
+Objektdiagramm anschauen,
+
+0:08:07.170,0:08:11.250
+dann muss es natürlich die Multiplizitäten
+aus dem Klassendiagramm erfüllen.
+
+0:08:11.250,0:08:13.140
+Ist also im Klassendiagramm vorgegeben, "es stehen
+
+0:08:13.140,0:08:18.780
+Objekte der Klasse A mit maximal zwei
+Objekten der Klasse B in Beziehung";
+
+0:08:18.780,0:08:23.520
+dann dürfen wir eben nicht im Objektdiagramm
+ein Objekt der Klasse A und drei Objekte der
+
+0:08:23.520,0:08:27.450
+Klasse B haben, so dass dieses A-Objekt mit
+allen drei B-Objekten in Beziehung steht.
+
+0:08:28.350,0:08:33.660
+Letztlich müssen die Multiplizitätsbedingungen
+des Klassendiagramms eingehalten werden.
+
+0:08:33.660,0:08:35.790
+Das heißt, die Anzahlen der Objekte,
+die in Beziehung zueinander stehen,
+
+0:08:35.790,0:08:37.590
+müssen innerhalb der jeweiligen Schranken sein.
+
+0:08:37.590,0:08:40.740
+Aber es steht nicht an jedem Link
+irgendwie auch so eine Nummer dran.
+
+0:08:40.740,0:08:45.690
+Denn diese Nummern überspannen alle Links.
+
+0:08:45.690,0:08:48.660
+Das ist eine Forderung an alle Links,
+
+0:08:48.660,0:08:54.360
+die es zwischen Objekten der einen
+und Objekten der anderen Klasse gibt.
+
+0:08:54.360,0:08:58.950
+Wir werden gleich in dem Beispiel
+wiederfinden, wie das zu verstehen ist.
+
+0:09:03.090,0:09:06.330
+Nehmen wir da ein Beispiel,
+das wir schon einmal hatten,
+
+0:09:06.330,0:09:09.330
+und erweitern es noch ein wenig
+bzw. bauen zwei Beispiele zusammen.
+
+0:09:09.330,0:09:11.700
+Wir hatten einmal das Beispiel
+mit Parkplatz und Autos.
+
+0:09:11.700,0:09:15.570
+Dann hatten wir irgendwann auch eine
+Situation mit Autos und Besitzern,
+
+0:09:15.570,0:09:24.540
+und auf den Whiteboard-Folien hatte ich auch
+mal Auto und Räder in Beziehung gesetzt.
+
+0:09:24.540,0:09:27.540
+Jeweils immer diese zwei Paare von Klassen.
+
+0:09:28.140,0:09:31.470
+Packen wir das mal in ein größeres,
+erweitertes Klassendiagramm, wo wir
+
+0:09:31.470,0:09:36.540
+also den Parkplatz haben mit einer Aggregation
+zu Auto mit entsprechenden Multiplizitäten hier.
+
+0:09:36.540,0:09:43.050
+Und das Auto hat eine Komposition zu Rad,
+auch wieder mit bestimmten Multiplizitäten.
+
+0:09:43.050,0:09:47.580
+Abweichend von dem Beispiel, das
+ich am Whiteboard betrachtet hatte,
+
+0:09:47.580,0:09:51.780
+habe ich hier wirklich an
+der Komposition die 1 stehen.
+
+0:09:52.500,0:09:54.510
+In dem anderen Beispiel hatte
+ich gesagt, ein Rad könnte auch
+
+0:09:54.510,0:09:56.460
+im Lager sein, dann eben in keinem Auto.
+
+0:09:57.480,0:09:59.070
+Hier ist es jetzt mal spezifischer.
+
+0:09:59.070,0:10:01.410
+Also es gibt genau diese eine Komposition hier,
+
+0:10:01.410,0:10:06.480
+und es gibt noch die Besitztumsverhältnisse,
+also eine Assoziation von Person zu Auto.
+
+0:10:06.480,0:10:11.370
+Jetzt haben wir also drei
+verschiedene Arten von Beziehungen.
+
+0:10:11.370,0:10:14.130
+Wir haben jetzt in diesem
+Beispiel keine Vererbung.
+
+0:10:14.130,0:10:16.230
+Natürlich können wir auch von Klassendiagrammen,
+
+0:10:16.230,0:10:18.750
+die Vererbungen enthalten,
+Objektdiagramme erstellen.
+
+0:10:18.750,0:10:20.040
+Dann müssen wir vor allem daran denken,
+
+0:10:20.040,0:10:28.680
+dass die Unterklassen neben den Attributen auch
+all ihre Beziehungen von den Oberklassen erben.
+
+0:10:32.700,0:10:35.220
+Also das ist ein mögliches Klassendiagramm.
+
+0:10:35.220,0:10:42.600
+Jetzt können wir mal schauen, wie ein
+Objektdiagramm dazu aussehen könnte.
+
+0:10:42.600,0:10:45.000
+Wir müssen uns entscheiden, wie
+viele Autos wir haben wollen.
+
+0:10:45.000,0:10:47.640
+Nehmen wir mindestens zwei, denn mit
+nur einem Auto wäre es langweilig.
+
+0:10:47.640,0:10:50.280
+Nehmen wir zwei Autos, die es geben soll.
+
+0:10:50.280,0:10:51.990
+Dann wissen wir schon:
+
+0:10:51.990,0:10:55.140
+Jedes Auto kann auf null
+oder einem Parkplatz stehen.
+
+0:10:55.140,0:11:01.290
+Sagen wir mal, es gibt einen Parkplatz, auf
+dem zufälligerweise diese beiden Autos stehen.
+
+0:11:02.310,0:11:02.670
+Wir wissen auch:
+
+0:11:02.670,0:11:09.630
+Jedes Auto hat genau vier Räder, und
+kein Rad kann zu zwei Autos gehören.
+
+0:11:09.630,0:11:12.420
+Das heißt, wenn wir zwei Autos haben, werden wir
+als weitere Objekte wohl genau acht Räder haben.
+
+0:11:13.020,0:11:18.630
+Und dann muss jedes Auto auch noch einen
+Besitzer haben, und zwar genau einen.
+
+0:11:18.630,0:11:25.350
+Ein Besitzer kann allerdings mehrere
+Autos besitzen, zum Beispiel bis zu fünf.
+
+0:11:28.830,0:11:32.480
+Also wie könnte ein konkretes Objektdiagramm
+zu diesem Klassendiagramm aussehen?
+
+0:11:32.480,0:11:33.770
+Zum Beispiel wie folgt:
+
+0:11:33.770,0:11:36.290
+Das ist die Situation, die wir hatten.
+
+0:11:36.290,0:11:39.440
+Hier ist zum Beispiel als
+Objekt ein konkreter Parkplatz,
+
+0:11:39.440,0:11:43.010
+nämlich der im L-Bereich des Campus in Duisburg.
+
+0:11:43.010,0:11:49.790
+Das wäre "Name-des-Objektes ist
+Objekt der Klasse Parkplatz".
+
+0:11:49.790,0:11:51.770
+Was ich hier jetzt im Beispiel mal getan habe,
+
+0:11:52.280,0:11:56.540
+ist, dass ich überall die
+Attributkästen weggelassen habe.
+
+0:11:57.170,0:11:58.370
+Eigentlich würden ja für alle Attribute,
+
+0:11:58.370,0:12:05.690
+die hier jeweils im zweiten Kasten genannt
+sind, auch hier noch Belegungen kommen.
+
+0:12:05.690,0:12:07.760
+Das werden wir auch in den Übungen manchmal haben,
+
+0:12:07.760,0:12:14.330
+dass wir die Objekte und teils auch die Klassen
+so stilisieren, dass wir tatsächlich nur den
+
+0:12:14.330,0:12:21.710
+Kasten mit dem Namen haben und nicht auch noch
+die beiden Boxen für Attribute und Methoden.
+
+0:12:21.710,0:12:24.050
+Also dieser eine Parkplatz.
+
+0:12:24.050,0:12:28.520
+Dann hatte ich von zwei Autos gesprochen, zum
+Beispiel ein grüner Skoda und ein schwarzer Ford.
+
+0:12:28.520,0:12:32.330
+Das sind jeweils Autos als verschiedene
+Ausprägungen der Klasse Auto,
+
+0:12:32.330,0:12:37.130
+und die sind beide auf diesem
+einen Parkplatz enthalten.
+
+0:12:37.130,0:12:42.230
+Also diese beiden Links hier sind
+Ausprägungen dieser einen Beziehung.
+
+0:12:50.090,0:13:00.260
+Dann gibt es jeweils einen Besitzer,
+also Ausprägungen dieser Klasse.
+
+0:13:00.260,0:13:03.170
+Das sind diese beiden
+Personen-Objekte hier, Peter und Gabi.
+
+0:13:03.170,0:13:09.620
+Es könnte auch nur ein Besitzer sein.
+
+0:13:09.620,0:13:15.290
+Es könnte auch von Gabi aus ein weiterer
+Link zu dem grünen Skoda bestehen.
+
+0:13:15.290,0:13:20.060
+Dann müsste allerdings dieses Objekt,
+bzw. diese Beziehung hier, verschwinden.
+
+0:13:20.060,0:13:24.110
+Denn Gabi und Peter können nicht
+beide Besitzer des grünen Skodas sein,
+
+0:13:24.110,0:13:26.600
+weil jedes Auto nur genau einen Besitzer hat.
+
+0:13:30.410,0:13:31.610
+Dann gibt es noch diese Beziehung hier.
+
+0:13:31.610,0:13:35.960
+Zu jedem Auto gehören genau vier Räder,
+deswegen haben wir hier jeweils vier Räder.
+
+0:13:35.960,0:13:40.730
+Die habe ich einfach mal als
+anonyme Objekte gelassen.
+
+0:13:40.730,0:13:45.200
+Das sind vier verschiedene Räder, aber die werden
+nicht extra noch durch Namen unterschieden.
+
+0:13:45.200,0:13:47.060
+Dennoch sind es auf jeden Fall
+vier und hier nochmals vier,
+
+0:13:47.060,0:13:48.710
+also insgesamt acht verschiedene Objekte.
+
+0:13:48.710,0:13:53.330
+Die sind jetzt eben nur nicht noch benannt wie
+"vorderes linkes Rad des grünen Skodas" oder so.
+
+0:13:53.330,0:13:55.310
+Hier sehen wir auch wieder:
+
+0:13:55.310,0:14:02.420
+Für jede Inkarnation der
+Komposition gibt es einen Link.
+
+0:14:02.420,0:14:06.680
+Der grüne Skoda hat Links zu genau vier
+Rädern, und der schwarze Ford auch.
+
+0:14:06.680,0:14:14.510
+Und die haben jeweils genau einen
+Link zu dem sie enthaltenden Auto.
+
+0:14:14.510,0:14:18.560
+Das genügt also diesen Multiplizitäten hier.
+
+0:14:18.560,0:14:20.660
+Die stehen aber an den Links selber nicht dran,
+
+0:14:20.660,0:14:22.520
+weil das für einen einzelnen
+Link keinen Sinn ergibt.
+
+0:14:22.520,0:14:31.580
+Wichtig ist, dass zum Beispiel diese vier Links
+zusammen diesen Einschränkungen hier genügen,
+
+0:14:31.580,0:14:36.950
+die sich aus der Komposition hier mit den
+entsprechenden Multiplizitäten ergeben.
+
+0:14:38.810,0:14:43.280
+Wenn wir jetzt anfangen würden, Objekte
+zu löschen oder Links zu löschen oder
+
+0:14:43.280,0:14:45.920
+weitere Objekte hinzuzufügen,
+könnten wir uns immer fragen:
+
+0:14:45.920,0:14:48.710
+Genügt es denn noch diesem Klassendiagramm?
+
+0:14:48.710,0:14:51.320
+Wenn ich hier ein fünftes Rad angebe,
+
+0:14:51.320,0:14:54.680
+und es auch noch mit dem grünen Skoda
+verbinde, dann hätte ich eine Verletzung.
+
+0:14:54.680,0:14:58.400
+Weil ich dann dem grünen Skoda fünf
+Räder zugeordnet hätte, was verboten ist.
+
+0:14:58.400,0:15:01.580
+Wenn ich ein Rad hinzufügen würde, ohne
+es mit irgendeinem Auto zu verbinden,
+
+0:15:01.580,0:15:03.870
+hätte ich das Klassendiagramm auch verletzt.
+
+0:15:03.870,0:15:09.180
+Denn zu diesem Rad gäbe es dann nicht
+das genau eine Auto, das es enthält.
+
+0:15:09.180,0:15:09.480
+Welches es aber entsprechend
+dieser Angabe hier geben muss.
+
+0:15:09.480,0:15:15.990
+Das ist natürlich nicht das
+einzige passende Objektdiagramm.
+
+0:15:15.990,0:15:20.970
+Aber viele Änderungen, die wir jetzt lokal machen
+könnten, würden das Klassendiagramm verletzen.
+
+0:15:20.970,0:15:24.900
+Es gibt aber auch andere Objektdiagramme, die
+ebenfalls zu diesem Klassendiagramm passen.
+
+0:15:25.590,0:15:29.970
+Eine Aufgabe in den Übungen oder auch der
+Klausur könnte sein, zu einem Klassendiagramm
+
+0:15:29.970,0:15:34.140
+und einem Objektdiagramm zu entscheiden, ob dieses
+Objektdiagramm zu diesem Klassendiagramm passt.
+
+0:15:34.140,0:15:38.370
+Oder zu einem Klassendiagramm ein
+Objektdiagramm bestimmter Größe aufzustellen.
+
+0:15:43.920,0:15:46.890
+Noch zwei Anmerkungen:
+
+0:15:48.270,0:15:51.810
+Wir könnten durchaus, auch wenn
+ich es in dem Beispiel eben
+
+0:15:51.810,0:15:57.570
+nicht getan habe, auch die Aggregations- und
+Kompositionssymbole im Objektdiagramm notieren.
+
+0:15:57.570,0:16:05.040
+Da diese vier Links Ausprägungen dieser
+Komposition sind, könnte man auch an diesen
+
+0:16:05.040,0:16:10.140
+vier Stellen hier, und natürlich auch hier unten,
+jeweils diesen ausgefüllten Diamanten zeichnen.
+
+0:16:10.140,0:16:11.310
+Man muss das aber nicht.
+
+0:16:11.310,0:16:18.990
+Genauso kann man auf den
+Assoziationsnamen verzichten.
+
+0:16:18.990,0:16:21.570
+Hier habe ich das der Klarheit
+halber gemacht, damit man weiß,
+
+0:16:21.570,0:16:23.280
+was diese beiden Verbindungen sind.
+
+0:16:23.280,0:16:26.760
+Es ist nicht unbedingt Pflicht,
+die dorthin zu schreiben.
+
+0:16:26.760,0:16:29.430
+Das macht man vor allem der
+Übersichtlichkeit halber.
+
+0:16:30.540,0:16:37.650
+Was jetzt hier vielleicht nicht notwendig war,
+weil sowieso genau vier Räder dazugehören.
+
+0:16:37.650,0:16:44.970
+Da gab es keinen Bedarf,
+noch stärker hervorzuheben,
+
+0:16:44.970,0:16:48.930
+dass die über das Kompositionssymbol dazugehören.
+
+0:16:48.930,0:16:50.970
+Oder einen Namen dranzuschreiben.
+
+0:16:52.080,0:16:52.830
+Hier gibt es den Namen.
+
+0:16:52.830,0:16:57.180
+Den hätte man auch noch an diese vier Stellen
+schreiben können, muss man aber nicht.
+
+0:16:57.180,0:17:06.260
+Das gleiche gilt für Leserichtung
+und Navigationsrichtung.
+
+0:17:06.890,0:17:07.831
+Das steht hier:
+
+0:17:07.831,0:17:10.209
+Assoziationsnamen, Navigations- und
+Leserichtung können auch weggelassen werden.
+
+0:17:10.209,0:17:14.240
+Wir werden auch Objektdiagramme haben, wo
+einfach nur die Links eingezeichnet sind
+
+0:17:14.240,0:17:17.120
+ohne irgendwelche weiteren Annotationen da dran.
+
+0:17:29.540,0:17:33.020
+Diese "Achtung"-Meldung hatte
+ich schon ausgesprochen:
+
+0:17:33.020,0:17:38.330
+Wir müssen natürlich daran denken, wenn
+wir ein Objektdiagramm angeben oder die
+
+0:17:38.330,0:17:43.970
+Passung zu einem Klassendiagramm überprüfen,
+dass Beziehungen (also Assoziationen,
+
+0:17:43.970,0:17:47.210
+Aggregationen, Kompositionen)
+zwischen Klassen vererbt werden.
+
+0:17:48.050,0:17:54.380
+Wenn eine Klasse Beziehungen dieser Art zu
+einer anderen Klassen hat, dann liegen die
+
+0:17:54.380,0:17:58.520
+auch in der Unterklasse vor, müssen also bei
+Objekten der Unterklasse berücksichtigt werden.
+
+0:17:58.520,0:18:00.140
+Beispiel:
+
+0:18:01.070,0:18:03.560
+Nehmen wir an, wir haben eine Klasse
+Konto und davon zwei Unterklassen,
+
+0:18:03.560,0:18:06.530
+und wir haben eine Beziehung von Kunden zu Kontos.
+
+0:18:07.370,0:18:11.960
+Jedes Konto muss insbesondere genau einen
+Besitzer haben, einen Kunden, der es besitzt.
+
+0:18:11.960,0:18:17.210
+Dann müssen eben auch Sparkonten und
+Girokonten jeweils genau einen Besitzer
+
+0:18:17.210,0:18:20.570
+haben, obwohl es von diesen keine
+explizite Beziehung zu Kunden gibt.
+
+0:18:21.860,0:18:26.270
+Sie erben das, weil sie
+Unterklassen von Konto sind.
+
+0:18:26.270,0:18:36.610
+Das heißt, ein Objektdiagramm könnte so aussehen:
+
+0:18:36.610,0:18:39.970
+Nehmen wir an, wir haben genau zwei
+Konten, ein Sparkonto und ein Girokonto.
+
+0:18:40.990,0:18:41.679
+Dann müssen die jeweils einen Besitzer haben.
+
+0:18:41.679,0:18:42.179
+Sie könnten auch den gleichen Besitzer haben.
+
+0:18:43.660,0:18:48.190
+Ein Kunde darf mehrere Konten haben,
+weil hier nichts eingeschränkt ist.
+
+0:18:48.190,0:18:51.430
+Aber jedes Girokonto oder Sparkonto
+muss genau einen Besitzer haben.
+
+0:18:52.780,0:18:56.110
+Es könnte ja auch wieder ein zweites
+Objekt geben, einen anderen Kunden,
+
+0:18:56.110,0:19:00.430
+und der würde eben das Sparkonto
+besitzen und Klaus nur das Girokonto.
+
+0:19:00.430,0:19:01.930
+Das wäre auch erlaubt.
+
+0:19:01.930,0:19:06.160
+Was hingegen nicht erlaubt wäre, wäre
+dass es einfach noch ein weiteres
+
+0:19:06.160,0:19:09.880
+Sparkonto oder weiteres Girokonto
+gibt, die keinen Besitzer haben.
+
+0:19:09.880,0:19:13.150
+Denn dann würde diese
+Forderung nicht erfüllt werden.
+
+0:19:13.150,0:19:22.390
+Es dürfte natürlich auch nicht sein, dass
+es noch einen weiteren Kunden gibt und das
+
+0:19:22.390,0:19:28.120
+Sparkonto sowohl von Klaus als auch von
+diesem anderen Kunden besessen würde.
+
+0:19:28.120,0:19:31.060
+Weil das auch dieser 1 hier widersprechen würde.
+
+0:19:36.280,0:19:42.550
+Weitere Diskussionen zur Passung von
+Objektdiagrammen zu Klassendiagrammen,
+
+0:19:42.550,0:19:47.500
+mit mindestens einem weiteren
+Beispiel, per extra Video.
