@@ -1,9 +1,12 @@
 ABCDEF
+CDs
 GPT
 Harel
 KWFZ
 Komedia
+Skoda
 UML
+VRR
 WKFZ
 blackbox
 genericity
@@ -13,5 +16,6 @@ monoids
 playlists
 statecharts
 subparticles
+superclasses
 whiteboard
 whitebox
