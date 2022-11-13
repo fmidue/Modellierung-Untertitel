@@ -4,6 +4,6 @@ Suggest changes per pull requests, please.
 
 ## Leader board
 
-| GitHub user name | Lines |
+| GitHub username | Lines |
 | :-- | --: |
 | KatinkaMeer | 2 |
