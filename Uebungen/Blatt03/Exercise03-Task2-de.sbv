@@ -1,0 +1,417 @@
+0:00:01.050,0:00:07.130
+In dieser Aufgabe beschäftigen wir uns mit
+Klassen und Objekten und ganz spezifisch mit
+
+0:00:07.130,0:00:10.820
+dem Anfang von OML, hier in Form eines OML-Klassendiagramms.
+
+0:00:10.820,0:00:14.650
+Wir haben hier dieses OML-Klassendiagramm
+schon vorgegeben.
+
+0:00:14.650,0:00:20.269
+Wir haben verschiedene Klassen, RentableVehicle,
+Bicycle, MotorizedVehicle und so weiter, die
+
+0:00:20.269,0:00:21.480
+voneinander erben.
+
+0:00:21.480,0:00:28.689
+Wenn wir dieses Diagramm lesen, ist es immer
+wichtig, auf die Richtung dieser Vererbungspfeile
+
+0:00:28.689,0:00:29.689
+zu achten.
+
+0:00:29.689,0:00:34.239
+Denn die Vererbung geht praktisch immer in
+die entgegengesetzte Richtung.
+
+0:00:34.239,0:00:40.030
+Also, es heißt, MotorizedVehicle vererbt
+an Motorcycle, beziehungsweise, umgekehrt
+
+0:00:40.030,0:00:46.320
+gelesen, Motorcycle erbt von auf der Pfeilseite,
+MotorizedVehicle und MotorizedVehicle erbt
+
+0:00:46.320,0:00:47.370
+dann von RentableVehicle.
+
+0:00:47.370,0:00:56.679
+Das heißt, von der her Aufgabe jetzt, in
+der wir von diesem Klassendiagramm für jede
+
+0:00:56.679,0:01:04.830
+Klasse eine entsprechende Objekt-Instanz erstellen
+sollen, müssen wir darauf achten, dass wir
+
+0:01:04.830,0:01:15.110
+immer die Vererbung richtig lesen und alle
+Attribute der geerbten Klassen mit reinnehmen.
+
+0:01:15.110,0:01:20.830
+Ganz konkret heißt das, wenn wir hier mal
+einfach mit Transporter anfangen unten auf
+
+0:01:20.830,0:01:26.470
+der Seite, müssen wir erst mal einen neuen
+Kasten malen.
+
+0:01:26.470,0:01:30.470
+Die Syntax mit diesem Kasten ist sehr wichtig
+bei diesen Diagrammen.
+
+0:01:30.470,0:01:37.630
+Bei diesen Klassendiagrammen haben wir immer
+drei Kästchen, einen mit dem Namen der Klasse,
+
+0:01:37.630,0:01:43.050
+einen mit den diversen Attributen und einen,
+der jetzt in diesem Fall leer ist, aber auch
+
+0:01:43.050,0:01:45.850
+immer da sein muss, der mögliche Methoden
+enthält.
+
+0:01:45.850,0:01:49.500
+Hier oben haben wir zum Beispiel refill drin
+bei MotorizedVehicle und checkDrivingLicense,
+
+0:01:49.500,0:01:51.880
+beim Transporter haben wir hier gar nichts.
+
+0:01:51.880,0:01:56.200
+Aber dieser Kasten muss trotzdem da sein,
+weil das syntaktisch einfach so gefordert
+
+0:01:56.200,0:01:57.200
+ist.
+
+0:01:57.200,0:02:06.200
+Wir sind jetzt im Programm drawio, damit kann
+man alle möglichen diversen Diagramme machen,
+
+0:02:06.200,0:02:07.200
+auch UML-Diagramme.
+
+0:02:07.200,0:02:10.560
+Wenn ich jetzt hier an der Seite mal runterscrolle
+im Untermenü UML, dann sehen wir hier diverse
+
+0:02:10.560,0:02:15.750
+Kästchen mit vorgefertigten Objekten, die
+wir benutzen können.
+
+0:02:15.750,0:02:22.620
+Objekt, Interface, Klasse, das sieht ein bisschen
+aus, wie das hier, oder das, was wir in diesem
+
+0:02:22.620,0:02:25.260
+Fall wollen, einfach nur Instanzen.
+
+0:02:25.260,0:02:31.270
+Die sehen sehr ähnlich aus, nur fehlt der
+Kasten für die Methoden.
+
+0:02:31.270,0:02:38.620
+Bei Instanzen werden die Methoden nicht mit
+angegeben, sondern nur der Name, die Klasse,
+
+0:02:38.620,0:02:42.100
+von der geerbt wird, und die Attribute.
+
+0:02:42.100,0:02:46.340
+Wir können uns jetzt einfach etwas ausdenken.
+
+0:02:46.340,0:02:51.330
+Eine Instanz hat normalerweise immer einen
+Namen, das heißt, wir geben erstmal den kleingeschriebenen
+
+0:02:51.330,0:02:59.569
+Namen an, mytransporter zum Beispiel, machen
+einen Doppelpunkt und geben die Klasse an,
+
+0:02:59.569,0:03:02.190
+die hiermit instanziiert wird.
+
+0:03:02.190,0:03:08.540
+Hier haben wir im obersten Kasten gesagt,
+dass diese Instanz mytransporter heißt und
+
+0:03:08.540,0:03:11.770
+die Klasse, die instanziiert wird, ist Transporter.
+
+0:03:11.770,0:03:21.430
+Das machen wir noch fett und mit Unterstrich
+für die Syntax und dann können wir anfangen,
+
+0:03:21.430,0:03:23.880
+uns die Attribute auszusuchen.
+
+0:03:23.880,0:03:25.600
+Wir haben hier schon ein paar Attribute drin.
+
+0:03:25.600,0:03:33.400
+Dieses + sind Access-Variable, ob das public,
+private oder sonst was ist.
+
+0:03:33.400,0:03:37.060
+Das können wir hier erst mal komplett ignorieren.
+
+0:03:37.060,0:03:41.030
+Das macht das Diagramm, was wir hier angegeben
+haben, ja auch.
+
+0:03:41.030,0:03:44.349
+Wir wissen nicht, ob das public, private oder
+sonst was ist.
+
+0:03:44.349,0:03:46.620
+Also nehmen wir dieses + davor weg.
+
+0:03:46.620,0:03:51.320
+Angefangen mit den Attributen, die hier im
+Transporter stehen, haben wir height, hier
+
+0:03:51.320,0:03:58.200
+gibt es keinen Doppelpunkt, weil wir nicht
+den Typ dieses Attributes definieren, sondern
+
+0:03:58.200,0:04:01.220
+wir geben ganz spezifisch einen Wert dafür
+an.
+
+0:04:01.220,0:04:05.209
+Also machen wir ein Gleichheitszeichen und
+denken uns einfach etwas aus in dem Fall.
+
+0:04:05.209,0:04:09.580
+Wir können sagen, dieser Transporter ist
+4,5 Meter hoch.
+
+0:04:09.580,0:04:16.910
+Hier ist es natürlich wichtig, auf die Typen
+zu achten, deswegen habe ich einen Punkt gemacht,
+
+0:04:16.910,0:04:21.180
+weil das halt ein Float sein soll.
+
+0:04:21.180,0:04:25.139
+Für das nächste Attribut haben wir weight,
+da können wir uns wieder etwas ausdenken.
+
+0:04:25.139,0:04:29.749
+Sagen wir mal, der Transporter ist nicht ganz
+so schwer, wiegt nur 4000 Kilogramm.
+
+0:04:29.749,0:04:40.229
+Hier müssen wir darauf achten, dass wir noch
+nicht fertig sind mit dem Transporter, denn
+
+0:04:40.229,0:04:41.810
+der Transporter erbt ja von MotorizedVehicle.
+
+0:04:41.810,0:04:49.389
+Das heißt, wir haben auf jeden Fall noch
+das Attribut licenseplate, was in dem Fall
+
+0:04:49.389,0:04:50.389
+ein String ist.
+
+0:04:50.389,0:04:55.210
+Das heißt, da können wir uns auch etwas
+aussuchen.
+
+0:04:55.210,0:04:58.110
+Das kann ganz beliebig sein, das muss kein
+echtes Nummernschild sein.
+
+0:04:58.110,0:05:02.360
+Hier ist ja nur String angegeben und sonst
+nichts.
+
+0:05:02.360,0:05:07.280
+Wir denken uns etwas aus, sagen wir, das ist
+jetzt DU-101.
+
+0:05:07.280,0:05:16.659
+Jetzt haben wir ja das MotorizedVehicle, wovon
+der Transporter erbt, aber MotorizedVehicle
+
+0:05:16.659,0:05:18.139
+erbt auch nochmal von RentableVehicle.
+
+0:05:18.139,0:05:22.580
+Das heißt wir müssen auch noch das Attribut
+model mit reinnehmen.
+
+0:05:22.580,0:05:30.550
+In drawio geht das ganz einfach, wir können
+uns von der Seite hier dieses Extra-Attribut
+
+0:05:30.550,0:05:31.550
+in diesen Kasten reinziehen.
+
+0:05:31.550,0:05:35.150
+Sobald das blau leuchtet, erweitert sich dieser
+Kasten automatisch.
+
+0:05:35.150,0:05:39.090
+Das macht es sehr einfach, diesen Kasten beliebig
+zu erweitern.
+
+0:05:39.090,0:05:45.970
+Also haben wir noch model, und da denken wir
+uns auch einfach nur etwas aus.
+
+0:05:45.970,0:05:48.190
+Das ist der Hersteller, wie auch immer.
+
+0:05:48.190,0:05:54.310
+Es muss nur ein String sein, ansonsten ist
+es komplett egal, was wir machen.
+
+0:05:54.310,0:05:55.800
+Damit hätten wir dann unsere erste Instanz
+fertig.
+
+0:05:55.800,0:06:03.020
+Das ist der Transporter und wir können mit
+dem nächsten beliebig weitermachen.
+
+0:06:03.020,0:06:06.780
+Wir können jetzt hier zum Beispiel mit dem
+Car weitermachen, das funktioniert genauso.
+
+0:06:06.780,0:06:11.490
+Wir gucken erst mal hier rein, das Attribut
+ist einmal weight, was ein Float ist.
+
+0:06:11.490,0:06:14.889
+Es erbt von MotorizedVehicle, kriegt also
+auch ein licenseplate.
+
+0:06:14.889,0:06:19.029
+Und MotorizedVehicle erbt wieder von RentableVehicle,
+kriegt also auch ein model.
+
+0:06:19.029,0:06:23.460
+Also können wir zum Beispiel eine Instanz
+nehmen, mycar.
+
+0:06:23.460,0:06:29.360
+Die Klasse, die damit instanziiert wird, ist
+Car, und dann hier unsere ausgedachten Werte
+
+0:06:29.360,0:06:32.939
+für model, licenseplate und weight.
+
+0:06:32.939,0:06:39.080
+Ich habe das jetzt andersherum sortiert, hier
+ist es in der Reihenfolge des erstgeerbten
+
+0:06:39.080,0:06:40.819
+Attributes angegeben.
+
+0:06:40.819,0:06:45.210
+Aber die Reihenfolge der Attribute ist hier
+nicht unbedingt so wichtig.
+
+0:06:45.210,0:06:48.629
+Und das machen wir jetzt für alle anderen.
+
+0:06:48.629,0:06:55.569
+Motorcycle funktioniert im Endeffekt genauso,
+denn Motorcycle erbt auch von MotorizedVehicle
+
+0:06:55.569,0:06:59.120
+und von RentableVehicle, also ändert sich
+da nicht wirklich etwas.
+
+0:06:59.120,0:07:03.009
+Außer natürlich das Attribut, was spezifisch
+von Motorcycle ist.
+
+0:07:03.009,0:07:09.399
+Was ja in dem Fall weder weight noch height
+hat, sondern maxSpeed als Int.
+
+0:07:09.399,0:07:13.509
+Also haben wir hier unten maxSpeed als Int,
+kein Float aus Versehen.
+
+0:07:13.509,0:07:15.800
+Also 220 haben wir hier angegeben.
+
+0:07:15.800,0:07:18.119
+Und damit haben wir auch das Motorcycle.
+
+0:07:18.119,0:07:24.259
+Im nächsten Schritt wird es ein bisschen
+einfacher, da machen wir ein MotorizedVehicle,
+
+0:07:24.259,0:07:30.069
+das hat nur licenseplate, sonst hat es keine
+Attribute, und es erbt einmal von RentableVehicle,
+
+0:07:30.069,0:07:34.949
+das kriegt dann model, das heißt für MotorizedVehicle
+haben wir zum Beispiel so etwas hier unten.
+
+0:07:34.949,0:07:40.979
+Das ist ein mv : MotorizedVehicle, model = BMW,
+licenseplate = DU-D1.
+
+0:07:40.979,0:07:47.229
+Für RentableVehicle ist es nochmal einfacher,
+RentableVehicle hat einfach nur ein model
+
+0:07:47.229,0:07:53.899
+mit irgendeinem ausgedachten Namen, erbt von
+nichts und kriegt keine weiteren Attribute
+
+0:07:53.899,0:07:56.839
+von irgendwo anders her.
+
+0:07:56.839,0:08:01.150
+Zuletzt haben wir dann noch das Bicycle, was
+ein bisschen heraussticht.
+
+0:08:01.150,0:08:06.559
+Das erbt nur von RentableVehicle und hat mit
+MotorizedVehicle und nichts anderem etwas
+
+0:08:06.559,0:08:07.559
+zu tun.
+
+0:08:07.559,0:08:10.710
+Das heißt, hier brauchen wir nur hasLights
+und das model.
+
+0:08:10.710,0:08:18.490
+Also zum Beispiel sowas hier, model = HotWheels,
+haslights = true, weil es ein Boolean ist
+
+0:08:18.490,0:08:21.210
+und size = 11 als Int.
+
+0:08:21.210,0:08:24.990
+Und damit haben wir dann diese Aufgabe erfüllt.
+
+0:08:24.990,0:08:31.580
+Denn in diesem Klassendiagramm ist sonst keinerlei
+Verbindung außer Vererbung angegeben.
+
+0:08:31.580,0:08:35.289
+Das heißt, wir müssen auch hier in unserem
+Instanzendiagramm keinerlei Pfeile zwischen
+
+0:08:35.289,0:08:38.060
+den Instanzen machen oder Striche oder sonstwas.
+
+0:08:38.060,0:08:39.779
+Die können einfach so alleine stehen.
+
+0:08:39.779,0:08:42.269
+Und damit ist die Aufgabe fertig.

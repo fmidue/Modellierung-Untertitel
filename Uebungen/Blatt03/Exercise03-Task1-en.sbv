@@ -1,0 +1,362 @@
+0:00:00.240,0:00:08.370
+Welcome to this video about this exercise
+task about statically modeling operations
+
+0:00:08.370,0:00:12.090
+in constructing terms.
+
+0:00:12.090,0:00:26.080
+This task is referring to the lecture where
+there were defined operations for vectors
+
+0:00:26.080,0:00:27.160
+graphics.
+
+0:00:27.160,0:00:28.520
+Just as a reminder.
+
+0:00:28.520,0:00:39.340
+This was what was the slides of the lecture
+with different operations that are defined.
+
+0:00:39.340,0:00:46.360
+And these graph operations, now extended by
+another operation.
+
+0:00:46.360,0:00:51.920
+And these operations should be for polygons.
+
+0:00:51.920,0:00:59.890
+And the operation should be capable of trying
+(?graphs) which are like this one here.
+
+0:00:59.890,0:01:10.240
+So, now we have to figure out what we require
+in order to draw a polygon which looks roughly
+
+0:01:10.240,0:01:11.650
+like this.
+
+0:01:11.650,0:01:14.479
+And this is a regular polygon.
+
+0:01:14.479,0:01:23.079
+So, we have to think about what defines a
+regular polygon.
+
+0:01:23.079,0:01:31.380
+And when we think about this, then we can’t
+really think about polygons.
+
+0:01:31.380,0:01:36.070
+Also, we have this example here.
+
+0:01:36.070,0:01:49.780
+And we can’t think about what would be required
+to (?cross) at the polygon.
+
+0:01:49.780,0:01:55.220
+First of all, I think we can think about the
+edges.
+
+0:01:55.220,0:02:03.009
+Or the corners of this cross.
+
+0:02:03.009,0:02:10.310
+We know how many edges there must be.
+
+0:02:10.310,0:02:15.940
+Because we have a polygon with size “N”.
+
+0:02:15.940,0:02:18.360
+Some “N”.
+
+0:02:18.360,0:02:25.200
+So, the smallest polygon would be of 3 edges.
+
+0:02:25.200,0:02:36.700
+And then, we could have one for 4 edges which
+would be square and then it continues.
+
+0:02:36.700,0:02:43.500
+And we look at this one, this has for instance
+7 edges and yeah.
+
+0:02:43.500,0:02:45.760
+It is a regular polygon.
+
+0:02:45.760,0:02:49.989
+So, one pyramid should be for the number of
+edges.
+
+0:02:49.989,0:02:54.980
+And the other one, well, I think it is quite
+obvious.
+
+0:02:54.980,0:03:04.400
+Because of this (?crate) here is showing how
+large this polygon is in the examples.
+
+0:03:04.400,0:03:10.100
+The other one shows somehow defines these
+sides of the polygon.
+
+0:03:10.100,0:03:14.500
+And when we look at these graphics.
+
+0:03:14.500,0:03:22.500
+We can roughly say, well, it hasn’t extent
+from mines two to two of the “Y” axis
+
+0:03:22.500,0:03:25.870
+on the “X” axis.
+
+0:03:25.870,0:03:27.080
+It is roughly the same.
+
+0:03:27.080,0:03:32.470
+And when you think about how to play all these
+corners of the polygon.
+
+0:03:32.470,0:03:36.379
+We can think about placing them in a circle.
+
+0:03:36.379,0:03:47.540
+So, we can think of defining the polygons
+by the radios of the middle point of the polygon.
+
+0:03:47.540,0:03:57.540
+And thinking about this, we can define this
+type here.
+
+0:03:57.540,0:04:15.400
+So, we have to define the type of the polygons
+and- yeah, we are defining the type for polygons,
+
+0:04:15.400,0:04:17.639
+that’s our task.
+
+0:04:17.639,0:04:26.590
+And we have one parameter which is for the
+extent of the (?graph) and this should of
+
+0:04:26.590,0:04:36.419
+course be some- well, which can also be in
+the middle of 0.5 or something like this.
+
+0:04:36.419,0:04:39.100
+So, this should be a “float”.
+
+0:04:39.100,0:04:48.940
+And the other parameter should be the number
+of edges or corners of the polygon.
+
+0:04:48.940,0:04:55.759
+We can say this is an “Int” value.
+
+0:04:55.759,0:05:02.759
+The resulting type is of course “Picture”.
+
+0:05:02.759,0:05:09.290
+So, when we apply the polygon function, we
+want to have a picture.
+
+0:05:09.290,0:05:19.470
+So, now replace this type of definition here,
+so this describes the type of polygon function.
+
+0:05:19.470,0:05:29.569
+And now we can continue with the second part
+of the task.
+
+0:05:29.569,0:05:36.630
+Now, this part is about giving a picture.
+
+0:05:36.630,0:05:40.660
+And we have nearly cleared the operation now.
+
+0:05:40.660,0:05:41.729
+Which is the polygon function.
+
+0:05:41.729,0:05:48.150
+We don’t need to know how exactly it is
+(?rust) the polygon but we know that it takes
+
+0:05:48.150,0:05:54.190
+all the numbers of the corners.
+
+0:05:54.190,0:05:58.270
+And the size of the polygon.
+
+0:05:58.270,0:06:08.240
+And then it is calculated and you– (?graphic
+a) polygon as a picture.
+
+0:06:08.240,0:06:14.770
+And we can use this in order to define how
+we get this picture roughly.
+
+0:06:14.770,0:06:23.710
+So, we do not think about rotation of the
+polygon.
+
+0:06:23.710,0:06:25.180
+That is not really necessary.
+
+0:06:25.180,0:06:27.639
+That was written in the first class already.
+
+0:06:27.639,0:06:31.520
+So, it is not necessary to think about the
+direction of corners.
+
+0:06:31.520,0:06:36.990
+So, we could rotate it in order to get two
+different positions.
+
+0:06:36.990,0:06:44.000
+But it is about how it is.
+
+0:06:44.000,0:06:54.430
+How we could get such a polygon if they were
+a function which depicted the edges somehow.
+
+0:06:54.430,0:06:59.810
+Now when we think about how to use our operation.
+
+0:06:59.810,0:07:08.800
+We can also think about how- to define types
+for the polygon.
+
+0:07:08.800,0:07:15.320
+So, we were thinking about what is required
+to define a polygon.
+
+0:07:15.320,0:07:23.070
+And now, we just simply must fill what is
+missing for our polygons here.
+
+0:07:23.070,0:07:36.510
+So, when we define this picture here, then
+we need two polygons.
+
+0:07:36.510,0:07:40.160
+Because these are two polygons of course.
+
+0:07:40.160,0:07:42.400
+One is above and one is below here.
+
+0:07:42.400,0:07:45.569
+So, somehow, we need two polygons.
+
+0:07:45.569,0:07:51.139
+And these polygons require the parameters
+we defined before.
+
+0:07:51.139,0:07:59.680
+So, we have to think about the size and as
+we said before, could be the radios that define
+
+0:07:59.680,0:08:00.700
+that size.
+
+0:08:00.700,0:08:09.200
+So- the size here the radios are 2.
+
+0:08:09.200,0:08:18.400
+So, the polygon is 2 and in this case for
+the bigger polygon and then, we have of course
+
+0:08:18.400,0:08:22.629
+to count the edges of the polygon.
+
+0:08:22.629,0:08:35.390
+So, when we count here, we get 13 edges.
+
+0:08:35.390,0:08:42.730
+So, the first polygon.
+
+0:08:42.730,0:08:47.960
+And the second polygon that’s the one above.
+
+0:08:47.960,0:08:52.029
+We can also define a size here.
+
+0:08:52.029,0:08:58.790
+When we look at this picture, we could say,
+well, it is roughly.
+
+0:08:58.790,0:09:08.640
+Besides one- yeah, that should be the radios
+about roughly that we get for this polygon.
+
+0:09:08.640,0:09:11.540
+And then we also have to count here.
+
+0:09:11.540,0:09:20.370
+So, it is 7 edges and well, that is not done
+yet.
+
+0:09:20.370,0:09:29.440
+Because we have to- when we tried like this,
+we would have 2 polygons above each other.
+
+0:09:29.440,0:09:37.050
+To get the picture here we have to somehow-
+move the polygons correctly.
+
+0:09:37.050,0:09:43.779
+Well, the first polygon is at the center of
+the graph.
+
+0:09:43.779,0:09:53.340
+If we think we can place the polygon by placing
+the origin of the radios, which I think is
+
+0:09:53.340,0:09:54.870
+a good assumption here.
+
+0:09:54.870,0:09:59.470
+So, we could say, we don’t have to move
+the first polygon.
+
+0:09:59.470,0:10:01.950
+But we have to move the second polygon.
+
+0:10:01.950,0:10:05.010
+And there, we can use the translated function.
+
+0:10:05.010,0:10:15.310
+So, we can say, translated and then- we- yeah.
+
+0:10:15.310,0:10:27.370
+We
+define the polygon as the first parameter.
+
+0:10:27.370,0:10:33.709
+And the required the second and third parameters
+to move the polygon.
+
+0:10:33.709,0:10:41.010
+And there we can say, well, we don’t want
+the “x” axis, but we want to move on the
+
+0:10:41.010,0:10:42.139
+“y” axis.
+
+0:10:42.139,0:10:45.660
+And if we want to move the origin, we need
+to get to this point.
+
+0:10:45.660,0:10:51.000
+So, we have to move it 3 up.
+
+0:10:51.000,0:11:02.079
+And when we do this, we get this as a result
+of using a polygon function in order to get
+
+0:11:02.079,0:11:03.829
+this picture here.
+
+0:11:03.829,0:11:07.070
+And then, we are done with this task.

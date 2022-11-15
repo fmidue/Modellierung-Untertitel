@@ -1,0 +1,356 @@
+0:00:01.040,0:00:04.670
+In dieser Aufgabe, in der wir uns noch einmal
+mit der statischen Modellierung von Operationen
+
+0:00:04.670,0:00:08.930
+durch Signaturen beschäftigen, sollen wir
+die Vektorgraphik-Operationen, die wir bereits
+
+0:00:08.930,0:00:12.900
+aus der Vorlesung kennen, um eine weitere
+Operation erweitern, die ein solches, wie
+
+0:00:12.900,0:00:15.879
+hier unten dargestellt, regelmäßiges Vieleck
+zeichnen kann.
+
+0:00:15.879,0:00:23.029
+Wir sollen uns dafür nicht mit der eigentlichen
+Implementierung beschäftigen, das macht die
+
+0:00:23.029,0:00:27.010
+Vektorgraphik-Operation aus der Vorlesung
+ja auch nicht, sondern wir sollen einfach
+
+0:00:27.010,0:00:35.070
+nur eine sinnvolle Typung angeben, die angibt,
+welche Typen die Parameter der Funktion kriegen
+
+0:00:35.070,0:00:38.980
+müssen und was am Ende der Ausgabetyp ist.
+
+0:00:38.980,0:00:43.560
+Wir haben hier oben schon den Anfang der Deklaration
+angegeben.
+
+0:00:43.560,0:00:44.870
+Das Ding soll Vieleck heißen.
+
+0:00:44.870,0:00:52.220
+Also machen wir dann mal weiter und überlegen
+uns erst mal, welche Eigenschaften bestimmen
+
+0:00:52.220,0:00:54.330
+denn so ein regelmäßiges Vieleck?
+
+0:00:54.330,0:01:03.239
+Zum einen haben wir vielleicht irgendeine
+Form von Radius, das heißt, das ist der Mittelpunkt
+
+0:01:03.239,0:01:06.900
+hier in der Mitte, dieses Koordinatensystem
+ist auf 0,0.
+
+0:01:06.900,0:01:12.210
+Und dann gehen wir zu einem Ende raus, entweder
+zu einer Kante oder einer Spitze, beliebig
+
+0:01:12.210,0:01:13.210
+gewählt.
+
+0:01:13.210,0:01:16.390
+Und das wäre dann unser Radius.
+
+0:01:16.390,0:01:23.710
+Andererseits brauchen wir auf jeden Fall auch
+die Anzahl entweder der Ecken oder der Kanten.
+
+0:01:23.710,0:01:29.180
+Denn das bestimmt im Endeffekt, wie viele
+Seiten unser Vieleck hat.
+
+0:01:29.180,0:01:36.140
+So oder so, der Seiten-Parameter, beziehungsweise
+der Ecken-Parameter wird wahrscheinlich eine
+
+0:01:36.140,0:01:37.270
+ganze Zahl sein.
+
+0:01:37.270,0:01:41.960
+Das heißt, sowas wie Float macht hier wahrscheinlich
+nicht so viel Sinn, denn wir haben ja nie
+
+0:01:41.960,0:01:46.180
+eine halbe Kante oder eine halbe Ecke, sondern
+immer eine ganze.
+
+0:01:46.180,0:01:54.060
+Das heißt, für die ersten Parameter geben
+wir einfach an Integer, also Int, was unser
+
+0:01:54.060,0:01:56.880
+Ecken- beziehungsweise Seiten-Parameter ist.
+
+0:01:56.880,0:02:01.510
+Und für den nächsten Parameter brauchen
+wir, wie gesagt, entweder den Radius, was
+
+0:02:01.510,0:02:05.020
+natürlich die simplere Alternative ist, denn
+dann können wir einfach sagen, wir bestimmen
+
+0:02:05.020,0:02:09.000
+jetzt, dass diese Spitze hier ganz rechts,
+der Punkt ist, wo unser Radius hingeht, einfach
+
+0:02:09.000,0:02:10.639
+entlang der X-Achse immer.
+
+0:02:10.639,0:02:14.989
+Und dann wäre hier zum Beispiel für das
+Abgebildete der Radius ungefähr 2.
+
+0:02:14.989,0:02:23.830
+Also von hier 0,0 zu 2 hier drüben auf der
+X-Achse.
+
+0:02:23.830,0:02:27.650
+Andererseits können wir natürlich auch überlegen,
+was natürlich auch erlaubt ist, es muss nicht
+
+0:02:27.650,0:02:29.599
+unbedingt der Radius sein hier.
+
+0:02:29.599,0:02:34.091
+Man könnte auch sagen, unser zweiter Parameter
+wäre die Länge einer Seite.
+
+0:02:34.091,0:02:38.340
+Da es ja ein regelmäßiges Vieleck ist, haben
+alle Seiten dieselbe Länge.
+
+0:02:38.340,0:02:42.969
+Also, warum geben wir nicht einfach als Parameter
+an, die Länge dieser Seite zum Beispiel?
+
+0:02:42.969,0:02:45.849
+Das wäre auch vollkommen möglich.
+
+0:02:45.849,0:02:48.279
+Wir müssen uns ja nicht wirklich hier mit
+der Implementierung beschäftigen.
+
+0:02:48.279,0:02:53.709
+Andererseits ist es natürlich, wenn wir schon
+mal auf die nächste Teilaufgabe schauen,
+
+0:02:53.709,0:02:59.940
+hier sollen wir dann unsere neue Funktion
+benutzen, um diese Figuren hier zu beschreiben,
+
+0:02:59.940,0:03:05.080
+ein bisschen schwieriger, herauszufinden,
+wie lang diese Seite oder diese Seite hier
+
+0:03:05.080,0:03:06.409
+drüben ist.
+
+0:03:06.409,0:03:09.890
+Es ist natürlich einfacher, wenn wir sowas
+schon mal vorgegeben haben, einfach zu sagen,
+
+0:03:09.890,0:03:11.209
+wir nehmen den Radius.
+
+0:03:11.209,0:03:14.469
+Dann können wir für das hier unten sagen,
+das ist der Radius 2, denn da sehen wir ganz
+
+0:03:14.469,0:03:18.099
+eindeutig, dass diese Spitze ungefähr auf
+der 2 landet.
+
+0:03:18.099,0:03:22.749
+Und diese Spitze hier über dem obersten ungefähr
+auf der 1 von der X-Achse.
+
+0:03:22.749,0:03:24.950
+Das ist natürlich dann für uns ein bisschen
+einfacher.
+
+0:03:24.950,0:03:29.989
+So oder so, wie dieser ... wahrscheinlich
+keine ganze Zahl sein, wir können ja auch
+
+0:03:29.989,0:03:33.319
+irgendwelche Zwischenwerte hier haben und
+da eine Achse, also geben wir dafür lieber
+
+0:03:33.319,0:03:34.980
+ein Float an.
+
+0:03:34.980,0:03:39.999
+Und diese beiden Eingabeparameter reichen
+eigentlich schon, um das Vieleck komplett
+
+0:03:39.999,0:03:41.209
+zu beschreiben.
+
+0:03:41.209,0:03:45.319
+Das heißt, wir müssen uns jetzt nur noch
+damit beschäftigen, was der Ausgabewert ist.
+
+0:03:45.319,0:03:49.279
+Und das kennen wir von den anderen Vektorgraphik-Operationen
+der Vorlesung schon.
+
+0:03:49.279,0:03:51.000
+Das wäre ein Picture.
+
+0:03:51.000,0:03:58.260
+Und damit hätten wir schon die erste Teilaufgabe
+erledigt.
+
+0:03:58.260,0:04:03.620
+Für die zweite Teilaufgabe, wie ich gerade
+schon erwähnt habe, sollen wir unsere neue
+
+0:04:03.620,0:04:09.310
+Funktion benutzen, um diese beiden Vielecke
+hier zu beschreiben.
+
+0:04:09.310,0:04:14.780
+Und wir sollen dazu noch ein paar Operationen
+nehmen, die wir aus der Vorlesung kennen,
+
+0:04:14.780,0:04:17.910
+um die auch so zu positionieren, wie die hier
+sind.
+
+0:04:17.910,0:04:25.100
+Wir hatten gesagt, dass wir einfach annehmen
+können, dass diese äußere Spitze hier praktisch
+
+0:04:25.100,0:04:27.060
+die Spitze unseres Vielecks ist.
+
+0:04:27.060,0:04:31.720
+Das heißt, wenn wir sagen, Radius 2 zum Beispiel
+für das hier oder für das hier, dann ist
+
+0:04:31.720,0:04:33.340
+diese Spitze hier immer entlang der X-Achse.
+
+0:04:33.340,0:04:38.150
+Hier sehen wir auch, die Spitze ist hier,
+die Spitze ist hier, das heißt wir müssen
+
+0:04:38.150,0:04:41.760
+nicht unbedingt etwas mit rotate oder sowas
+machen, sondern wir können auch anfangen
+
+0:04:41.760,0:05:03.780
+und sagen, unser unterstes Vieleck hat 13
+Seiten, und ungefähr einen Radius von 2.
+
+0:05:03.780,0:05:13.620
+Das heißt, wir geben hier schon mal an, ein
+Vieleck mit 13 Seiten und einem Radius von
+
+0:05:13.620,0:05:14.620
+2.
+
+0:05:14.620,0:05:17.160
+Das wäre dann ... für das unterste.
+
+0:05:17.160,0:05:21.820
+Damit müssen wir jetzt erst mal nichts unbedingt
+machen.
+
+0:05:21.820,0:05:26.100
+Denn das ist genau auf 0,0 und diese Spitze
+ist auch da.
+
+0:05:26.100,0:05:31.000
+Das heißt, wir müssen nichts rotaten oder
+mit translate bewegen, sondern das kann einfach
+
+0:05:31.000,0:05:32.000
+so bleiben.
+
+0:05:32.000,0:05:36.180
+Das zweite Vieleck ist aber ein bisschen anders,
+das ist ein bisschen verschoben.
+
+0:05:36.180,0:05:41.740
+Das heißt, da können wir dann aus der Vorlesung
+die Funktion translated dazunehmen, um das
+
+0:05:41.740,0:05:45.500
+ganze um zwei Float-Parameter zu bewegen.
+
+0:05:45.500,0:05:48.480
+In dem Fall ist es einfach nur entlang der
+Y-Achse bewegt.
+
+0:05:48.480,0:05:57.850
+Das heißt, das zweite Vieleck würden wir
+dann um 0 auf der X-Achse und 3 auf der Y-Achse
+
+0:05:57.850,0:05:58.920
+bewegen.
+
+0:05:58.920,0:06:04.470
+Weiterhin müssen wir aber erst mal den Kompositions-Operator
+dazunehmen, denn wir haben hier natürlich
+
+0:06:04.470,0:06:05.470
+zwei Bilder.
+
+0:06:05.470,0:06:09.940
+Wir können nicht Picture und Picture aneinanderhängen,
+sondern wir müssen den Operator dazunehmen,
+
+0:06:09.940,0:06:14.680
+der dann auch wieder aus zwei Picture ein
+Picture macht.
+
+0:06:14.680,0:06:20.900
+Dafür kennen wir den Kompositions-Operator,
+der einfach nur ein Infix-Operator ist, der
+
+0:06:20.900,0:06:25.220
+auf beiden Seiten irgendeinen Typ Picture
+erwartet und dann wieder ein Picture daraus
+
+0:06:25.220,0:06:26.220
+macht.
+
+0:06:26.220,0:06:27.220
+Also, das ist hier genau richtig.
+
+0:06:27.220,0:06:31.610
+Das Vieleck hier auf der linken Seite generiert
+etwas vom Typ Picture und auf der rechten
+
+0:06:31.610,0:06:37.450
+Seite machen wir auch unser Vieleck, das wir
+translaten.
+
+0:06:37.450,0:06:43.650
+Wir hatten gesagt, dass das Vieleck einen
+Radius von 1 hat und das Vieleck hier hat
+
+0:06:43.650,0:06:53.980
+sieben Seiten und einen Radius von 1.
+
+0:06:53.980,0:07:01.750
+Und das Ganze war translated um 0 auf der
+X-Achse und 3 auf der Y-Achse.
+
+0:07:01.750,0:07:10.200
+Und das wäre dann auch unser kompletter Funktionsaufruf,
+beziehungsweise unser kompletter Term, der
+
+0:07:10.200,0:07:12.890
+dieses Bild hier auf der rechten Seite beschreibt.
