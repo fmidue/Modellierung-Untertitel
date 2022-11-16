@@ -1,0 +1,289 @@
+0:00:00.000,0:00:05.115
+Lassen Sie uns noch ein Beispiel machen.
+
+0:00:05.115,0:00:06.660
+Ein letztes Video für diese Woche.
+
+0:00:06.660,0:00:09.810
+Ein Beispiel für diesen Zusammenhang zwischen
+
+0:00:09.810,0:00:13.380
+mathematischer und grafischer
+Darstellung von Petrinetzen.
+
+0:00:13.380,0:00:21.150
+Ich hatte gerade auf der Folie den Weg
+kurz skizziert, dass wir ein Petrinetz
+
+0:00:21.150,0:00:24.240
+in grafischer Darstellung haben und die
+mathematische Darstellung daraus ablesen.
+
+0:00:24.240,0:00:26.940
+Natürlich muss man das auch umgekehrt tun können.
+
+0:00:26.940,0:00:33.180
+Also hier ist mal eine alte Übungsaufgabe, wo
+die mathematische Darstellung eines Petrinetzes
+
+0:00:33.180,0:00:38.880
+angegeben war, und gefragt wurde nach dem
+entsprechenden grafisch dargestellten Petrinetz.
+
+0:00:38.880,0:00:45.150
+Und das würde ich jetzt einfach mal mit Ihnen
+kurz entwickeln hier, also Ihnen das vormachen.
+
+0:00:45.150,0:00:47.820
+Also, was haben wir?
+
+0:00:47.820,0:00:51.120
+Wir haben gegeben Informationen über die
+
+0:00:51.120,0:00:55.290
+Anzahl und letztlich Identität
+der Stellen und Transitionen.
+
+0:00:55.290,0:00:56.310
+Also, was wir hier sehen ist:
+
+0:00:56.310,0:01:01.350
+Es gibt drei Stellen s1, s2, s3 und
+vier Transitionen t1, t2, t3, t4.
+
+0:01:01.350,0:01:05.820
+Also die können wir ja schon mal einzeichnen.
+
+0:01:05.820,0:01:11.250
+Vielleicht muss ich das etwas
+größer machen, als Kreis.
+
+0:01:11.250,0:01:12.510
+So, der sieht gut aus.
+
+0:01:12.510,0:01:29.010
+Also ich habe hier eine Stelle s1,
+eine Stelle s2 und eine Stelle s3.
+
+0:01:40.970,0:01:47.690
+Okay, damit hätte ich also sozusagen
+schon mal diese Information verbraucht.
+
+0:01:47.690,0:01:53.180
+Dann soll es vier Transitionen
+t1, t2, t3, t4 geben.
+
+0:01:53.180,0:01:55.280
+Die müsste ich erst mal irgendwo anordnen.
+
+0:01:55.280,0:02:15.530
+Also sagen wir zum Beispiel,
+ich habe hier t1, t2, t3 und t4.
+
+0:02:15.530,0:02:19.490
+Dann hätte ich auch diese Information verbraucht.
+
+0:02:19.490,0:02:22.760
+Aber die relevante Information ist
+natürlich vor allem das, was hier steht.
+
+0:02:22.760,0:02:32.930
+Bzw. zunächst möchte ich vielleicht die
+Information über die Startmarkierung verwenden.
+
+0:02:32.930,0:02:40.430
+Da steht, die Startmarkierung für s1
+ist 2 und für s2 sowie für s3 ist 0.
+
+0:02:40.430,0:02:44.600
+Das heißt letztlich, dass
+ich auf der ersten Stelle
+
+0:02:44.600,0:02:47.990
+zwei Marken liegen haben muss,
+auf den anderen beiden nichts.
+
+0:02:47.990,0:02:57.800
+Da behelfe ich mir mal so, dass ich
+jetzt die zwei Marken auf s1 liegen habe.
+
+0:02:57.800,0:02:59.360
+Dann habe ich also die Information hier unten über
+
+0:03:00.710,0:03:04.520
+die Startmarkierung für die
+einzelnen Stellen ausgenutzt.
+
+0:03:04.520,0:03:10.220
+Und dann kann ich mich mit
+den Übergängen beschäftigen.
+
+0:03:10.220,0:03:11.180
+Das was hier steht.
+
+0:03:11.180,0:03:12.800
+Man sieht hier:
+
+0:03:12.800,0:03:14.285
+Es gibt drei Stellen, vier Transitionen.
+
+0:03:14.285,0:03:18.050
+Da könnte es durchaus mehr
+Einträge geben als hier stehen.
+
+0:03:18.050,0:03:22.160
+Weil wir ja für jede Transition für jede
+Stelle Vor- und Nachgewichte anzugeben haben.
+
+0:03:22.160,0:03:28.610
+Jetzt ist es hier so, dass 10
+Werte explizit gegeben sind.
+
+0:03:28.610,0:03:32.870
+Und für alle anderen, steht
+hier unten, ist der Wert 0.
+
+0:03:32.870,0:03:33.950
+Alle anderen Gewichte sind 0.
+
+0:03:33.950,0:03:37.940
+Das heißt, die werden wir in der
+grafischen Darstellung nicht vorfinden.
+
+0:03:37.940,0:03:44.480
+Wir müssen einfach nur alle Einträge
+von hier als Pfeile einzeichnen.
+
+0:03:45.320,0:03:47.780
+Und da fangen wir einfach mit dem ersten an.
+
+0:03:47.780,0:03:54.650
+Also was will dieser Eintrag uns sagen?
+
+0:03:54.650,0:03:56.090
+Der sagt:
+
+0:03:56.090,0:04:01.070
+Für t1 ist das Vorgewicht von s1 genau 1.
+
+0:04:01.070,0:04:06.584
+Das heißt, es muss hier einen solchen Pfeil geben.
+
+0:04:06.584,0:04:10.520
+Okay, das sagt diese erste Zeile dort.
+
+0:04:10.520,0:04:12.170
+Was sagt die zweite Zeile?
+
+0:04:12.170,0:04:13.310
+Die zweite Zeile sagt:
+
+0:04:13.310,0:04:23.150
+Für t2 muss es einen Eingangspfeil
+geben von s2 mit dem Wert 1.
+
+0:04:23.150,0:04:30.410
+Und "mit dem Wert 1" heißt einfach, dass es hier
+einen Pfeil gibt, aber kein Gewicht da dransteht.
+
+0:04:30.410,0:04:35.690
+Also von s2 zu t2 muss es einen Pfeil geben.
+
+0:04:35.690,0:04:36.740
+Das sei dieser hier.
+
+0:04:36.740,0:04:44.480
+Okay, zu t2 muss es auch von s3 einen Pfeil geben.
+
+0:04:44.480,0:04:48.620
+Das sei dieser hier.
+
+0:04:48.620,0:05:05.330
+Zu t3 muss es von s3 einen Pfeil
+geben, und zwar mit Gewicht 2.
+
+0:05:05.330,0:05:19.580
+Also von s3 zu t3, weil das das
+Vorgewicht für t3 bezüglich s3 ist.
+
+0:05:19.580,0:05:26.780
+Also von s3 zu t3 ein Pfeil,
+und zwar mit dem Gewicht 2.
+
+0:05:26.780,0:05:31.336
+Deswegen schreiben wir hier eben
+noch eine Zwei an den Pfeil.
+
+0:05:31.336,0:05:34.430
+Und so geht das dann eben weiter.
+
+0:05:34.430,0:05:43.040
+Also von s2 zu t4 einen einfachen Pfeil.
+
+0:05:45.980,0:05:48.920
+Jetzt kommen die Nachgewichte.
+
+0:05:48.920,0:05:58.096
+Also von t1 zu s3 einen einfachen Pfeil.
+
+0:05:58.096,0:06:03.290
+Den können wir zum Beispiel
+hier draußen herum zeichnen.
+
+0:06:03.290,0:06:09.590
+Von t2 zu s1 mit Gewicht 2.
+
+0:06:09.590,0:06:25.280
+Von t3 zu s1 ein einfacher Pfeil.
+
+0:06:29.390,0:06:36.500
+Von t3 zu s2 ein einfacher Pfeil.
+
+0:06:37.820,0:06:44.540
+Sowie schließlich von t4 zu s3.
+
+0:06:47.960,0:06:58.190
+Und somit, außer falls ich jetzt irgendwie
+mich vertan habe oder etwas vergessen habe,
+
+0:06:58.190,0:07:03.560
+wäre das, was wir hier jetzt sehen, das
+Petrinetz in grafischer Darstellung,
+
+0:07:03.560,0:07:07.100
+das der vorgegebenen mathematischen
+Darstellung entspricht.
+
+0:07:07.100,0:07:08.780
+Das könnte man vielleicht noch hübscher machen.
+
+0:07:08.780,0:07:10.400
+Man hätte das vielleicht
+noch anders layouten können.
+
+0:07:10.400,0:07:13.760
+Die Knoten in dieser grafischen
+Darstellung noch anders anordnen.
+
+0:07:13.760,0:07:15.320
+Das würde aber alles keinen Unterschied machen.
+
+0:07:15.320,0:07:21.110
+Ja, wenn ich irgendwie einzelne Knoten
+irgendwo anders hin verschieben würde hier
+
+0:07:21.110,0:07:25.640
+und die Verbindung dabei mitziehen würde,
+wäre das immer noch das gleiche Petrinetz.
+
+0:07:25.640,0:07:31.130
+Das wäre dann einfach nur eine andere grafische
+Darstellung für das gleiche Petrinetz,
+
+0:07:31.130,0:07:36.680
+und zwar entsprechend der hier vorher
+aufgeschriebenen mathematischen Darstellung.
+
+0:07:36.680,0:07:40.010
+Okay, und das sollten Sie
+in beide Richtungen können.

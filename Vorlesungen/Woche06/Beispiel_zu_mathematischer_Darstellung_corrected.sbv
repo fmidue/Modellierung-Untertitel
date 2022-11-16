@@ -1,0 +1,327 @@
+0:00:00.000,0:00:05.115
+Let's do
+one more example.
+
+0:00:05.115,0:00:06.660
+One last video
+for this week.
+
+0:00:06.660,0:00:09.810
+An example of
+this connection between mathematical
+
+0:00:09.810,0:00:13.380
+and graphical representation
+of Petri nets.
+
+0:00:13.380,0:00:21.150
+I had just briefly outlined on the slide
+the way that we have a Petri net
+
+0:00:21.150,0:00:24.240
+in graphical representation and we
+read the mathematical representation from that.
+
+0:00:24.240,0:00:26.940
+Of course, you have to be able
+to do that the other way around.
+
+0:00:26.940,0:00:33.180
+So here is an old exercise where
+the mathematical representation of a Petri net was
+
+0:00:33.180,0:00:38.880
+given, and the question was asked
+for the corresponding graphically represented Petri net.
+
+0:00:38.880,0:00:45.150
+And I would now simply develop this with
+you briefly here, i.e. demonstrate it to you.
+
+0:00:45.150,0:00:47.820
+So, what
+do we have?
+
+0:00:47.820,0:00:51.120
+We have given
+information about the
+
+0:00:51.120,0:00:55.290
+number and ultimately identity
+of places and transitions.
+
+0:00:55.290,0:00:56.310
+So, what we
+see here is:
+
+0:00:56.310,0:01:01.350
+There are three places s1, s2, s3
+and four transitions t1, t2, t3, t4.
+
+0:01:01.350,0:01:05.820
+So we can
+draw those in already.
+
+0:01:05.820,0:01:11.250
+Maybe I have to make it
+a little bit bigger, as a circle.
+
+0:01:11.250,0:01:12.510
+So, this
+one looks good.
+
+0:01:12.510,0:01:29.010
+So I have here a place s1,
+a place s2 and a place s3.
+
+0:01:40.970,0:01:47.690
+Okay, so I've already used
+up this information, so to speak.
+
+0:01:47.690,0:01:53.180
+Then there should be four
+transitions t1, t2, t3, t4.
+
+0:01:53.180,0:01:55.280
+I would have to
+arrange them somewhere first.
+
+0:01:55.280,0:02:15.530
+So let's say for example, I
+have here t1, t2, t3 and t4.
+
+0:02:15.530,0:02:19.490
+Then I would have used
+up that information as well.
+
+0:02:19.490,0:02:22.760
+But the relevant information is,
+of course, primarily what is here.
+
+0:02:22.760,0:02:32.930
+Or first, I might want to
+use the information about the start marking.
+
+0:02:32.930,0:02:40.430
+It says the start marking for s1 is 2
+and for s2 as well as for s3 is 0.
+
+0:02:40.430,0:02:44.600
+This means that I
+must have two tokens on
+
+0:02:44.600,0:02:47.990
+the first position and
+nothing on the other two.
+
+0:02:47.990,0:02:57.800
+I help myself in such a way that
+I now have the two tokens on s1.
+
+0:02:57.800,0:02:59.360
+Then I have used
+the information down here about
+
+0:03:00.710,0:03:04.520
+the start marking
+for the individual places.
+
+0:03:04.520,0:03:10.220
+And then I can
+deal with the transitions.
+
+0:03:10.220,0:03:11.180
+What it
+says here.
+
+0:03:11.180,0:03:12.800
+You can
+see here:
+
+0:03:12.800,0:03:14.285
+There are three
+places, four transitions.
+
+0:03:14.285,0:03:18.050
+There could well be more
+entries than are written here.
+
+0:03:18.050,0:03:22.160
+Because we have to specify pre- and
+post-weights for each transition for each place.
+
+0:03:22.160,0:03:28.610
+Now it is here so
+that 10 values are explicitly given.
+
+0:03:28.610,0:03:32.870
+And for all others, it says
+here below, the value is 0.
+
+0:03:32.870,0:03:33.950
+All other
+weights are 0.
+
+0:03:33.950,0:03:37.940
+That is, we won't find
+them in the graphical representation.
+
+0:03:37.940,0:03:44.480
+We just have to draw in
+all the entries from here as arrows.
+
+0:03:45.320,0:03:47.780
+And there we just
+start with the first one.
+
+0:03:47.780,0:03:54.650
+So what does this
+entry want to tell us?
+
+0:03:54.650,0:03:56.090
+It
+says:
+
+0:03:56.090,0:04:01.070
+For t1, the pre-weight
+of s1 is exactly 1.
+
+0:04:01.070,0:04:06.584
+That means there must
+be such an arrow here.
+
+0:04:06.584,0:04:10.520
+Okay, that's what that
+first line there says.
+
+0:04:10.520,0:04:12.170
+What does the
+second line say?
+
+0:04:12.170,0:04:13.310
+The second
+line says:
+
+0:04:13.310,0:04:23.150
+For t2, there must be an input
+arrow from s2 with the value 1.
+
+0:04:23.150,0:04:30.410
+And "with the value 1" simply means that there is
+an arrow here, but there is no weight on it.
+
+0:04:30.410,0:04:35.690
+So from s2 to t2
+there must be an arrow.
+
+0:04:35.690,0:04:36.740
+Let that
+be this one.
+
+0:04:36.740,0:04:44.480
+Okay, to t2 there must
+also be an arrow from s3.
+
+0:04:44.480,0:04:48.620
+Let that
+be this one.
+
+0:04:48.620,0:05:05.330
+To t3, there must be an
+arrow from s3, with weight 2.
+
+0:05:05.330,0:05:19.580
+So from s3 to t3, because that's
+the pre-weight for t3 with respect to s3.
+
+0:05:19.580,0:05:26.780
+So from s3 to t3
+an arrow, with weight 2.
+
+0:05:26.780,0:05:31.336
+That's why we add
+a two to the arrow.
+
+0:05:31.336,0:05:34.430
+And so
+it goes on.
+
+0:05:34.430,0:05:43.040
+So from s2 to
+t4 a simple arrow.
+
+0:05:45.980,0:05:48.920
+Now come
+the post-weights.
+
+0:05:48.920,0:05:58.096
+So from t1 to
+s3 a simple arrow.
+
+0:05:58.096,0:06:03.290
+We can draw it
+around here, for example.
+
+0:06:03.290,0:06:09.590
+From t2 to
+s1 with weight 2.
+
+0:06:09.590,0:06:25.280
+From t3 to
+s1 a simple arrow.
+
+0:06:29.390,0:06:36.500
+From t3 to
+s2 a simple arrow.
+
+0:06:37.820,0:06:44.540
+And finally from
+t4 to s3.
+
+0:06:47.960,0:06:58.190
+And so, unless I somehow got it
+wrong or forgot something, what we see
+
+0:06:58.190,0:07:03.560
+here now would be the
+Petri net in graphical representation, which
+
+0:07:03.560,0:07:07.100
+corresponds to the
+given mathematical representation.
+
+0:07:07.100,0:07:08.780
+You could maybe
+make that prettier.
+
+0:07:08.780,0:07:10.400
+You might have been able
+to layout that even differently.
+
+0:07:10.400,0:07:13.760
+The nodes could have been
+arranged differently in this graphical representation.
+
+0:07:13.760,0:07:15.320
+But that wouldn't
+make any difference.
+
+0:07:15.320,0:07:21.110
+Yes, if I were to somehow
+move individual nodes somewhere else here
+
+0:07:21.110,0:07:25.640
+and drag the connection along, it
+would still be the same Petri net.
+
+0:07:25.640,0:07:31.130
+That would just be a different graphical
+representation for the same Petri net, and it
+
+0:07:31.130,0:07:36.680
+would be according to the
+mathematical representation written down here before.
+
+0:07:36.680,0:07:40.010
+Okay, and you should be
+able to do that both ways.

@@ -1,0 +1,1340 @@
+0:00:00.000,0:00:02.730
+Willkommen zurück.
+
+0:00:02.730,0:00:11.850
+Wir haben uns in den letzten Videos vor allem mit
+UML Klassen- und Objektdiagrammen beschäftigt.
+
+0:00:11.850,0:00:14.310
+Sie sehen jetzt hier auf der Folie,
+
+0:00:14.310,0:00:20.430
+in der Überschrift zumindest, dass es
+hier um ein Aktivitätsdiagramm geht.
+
+0:00:20.430,0:00:22.170
+Das ist eine andere Art von UML-Diagrammen.
+
+0:00:22.170,0:00:28.380
+Und das obwohl wir eigentlich noch nicht in dem
+Teil der Vorlesung angekommen sind, wo wir uns
+
+0:00:28.380,0:00:31.080
+mit UML-Aktivitätsdiagrammen beschäftigen werden.
+
+0:00:31.080,0:00:33.000
+Wir sind ja eigentlich im Petrinetz-Teil.
+
+0:00:33.000,0:00:35.670
+Also warum taucht dieses Diagramm hier auf?
+
+0:00:35.670,0:00:41.430
+Zum einen einfach mal als
+Beispiel für ein UML-Diagramm,
+
+0:00:41.430,0:00:43.920
+bei dem es um dynamische Modellierung geht.
+
+0:00:44.520,0:00:48.390
+Hier geht es darum, einen Prozess zu
+modellieren, wie ein Haus gebaut werden soll.
+
+0:00:48.390,0:00:50.070
+Details sind jetzt nicht so wichtig,
+
+0:00:50.070,0:00:55.800
+da wir dieses Beispiel in ein paar Wochen in
+der Vorlesung noch genauer betrachten werden.
+
+0:00:55.800,0:00:58.050
+Worum es hier im Moment gerade geht, ist,
+
+0:00:58.050,0:01:04.890
+dass diese UML-Aktivitätsdiagramme vereinfacht
+durch Petrinetze dargestellt werden können.
+
+0:01:04.890,0:01:10.110
+Petrinetze sind ein einfacherer Mechanismus,
+der in Richtung UML-Aktivitätsdiagramme geht.
+
+0:01:10.920,0:01:16.530
+Der aktuelle Vorlesungsstoff der nächsten
+zwei, drei Wochen werden diese Petrinetze sein.
+
+0:01:18.420,0:01:20.730
+Die kann man (so wie
+Aktivitätsdiagramme) benutzen,
+
+0:01:20.730,0:01:22.830
+wenn es darum geht, Abläufe zu modellieren.
+
+0:01:22.830,0:01:27.000
+Also Prozesse, die aus Einzelschritten bestehen.
+
+0:01:27.000,0:01:28.770
+Bei denen es vor allem darum geht,
+
+0:01:28.770,0:01:33.660
+Bedingungen anzugeben oder zu formulieren
+und zusammenzufassen, unter denen bestimmte
+
+0:01:33.660,0:01:37.500
+Einzelschritte ausführbar sind, oder in
+welcher Reihenfolge die zu passieren haben.
+
+0:01:37.500,0:01:43.440
+Das mag auf den ersten Blick fast ein wenig
+aussehen wie ein flaches Zustandsdiagramm.
+
+0:01:43.440,0:01:47.280
+Also wie das, was wir etwa beim
+Wolf-Ziege-Kohlkopf-Problem oder
+
+0:01:47.280,0:01:50.040
+in der entsprechenden Übung behandelt haben.
+
+0:01:50.040,0:01:55.050
+Aber wenn wir genau hinschauen, sehen wir, dass
+es hier nicht nur Knoten und Verbindungen gibt,
+
+0:01:55.050,0:01:58.860
+in der einfachen Weise, wie das bei
+flachen Zustandsdiagrammen der Fall war.
+
+0:01:58.860,0:02:02.220
+Es gibt hier extra Elemente,
+auch grafisch hervorgehoben.
+
+0:02:02.220,0:02:07.200
+Also diese Art Knoten oder dieser
+scheinbare Verteilungsknoten,
+
+0:02:07.200,0:02:12.440
+in dem sich der Ablauffluss verzweigt.
+
+0:02:12.440,0:02:13.400
+Dann muss man darüber reden,
+
+0:02:13.400,0:02:18.230
+was das (als Semantik) dieser beiden
+Stellen im Diagramm bedeuten soll.
+
+0:02:18.230,0:02:19.130
+Das werden wir natürlich tun.
+
+0:02:19.130,0:02:23.510
+Aber für den Moment mag erst einmal
+die Beobachtung genügen, dass hier
+
+0:02:24.290,0:02:29.510
+vom Aufbau her offenbar mehr passiert
+als in einem ganz einfachen Graphen.
+
+0:02:29.510,0:02:32.780
+Das ist auch eine Art Graph, aber eben nicht
+die einfache Art Graph, bei der wir nur,
+
+0:02:32.780,0:02:35.870
+wie in einem flachen Zustandsdiagramm,
+Knoten und Übergänge haben.
+
+0:02:40.700,0:02:42.095
+Wir werden das später im Detail betrachten.
+
+0:02:42.095,0:02:48.230
+Aber in den kommenden Wochen werden wir
+über Petrinetze eine in gewissem Sinne
+
+0:02:48.230,0:02:51.470
+vereinfachte Version von solchen
+Aktivitätsdiagrammen anschauen.
+
+0:02:51.470,0:02:55.370
+Und später die Beziehung zur UML-Welt.
+
+0:02:59.990,0:03:00.830
+Also was sind Petrinetze?
+
+0:03:00.830,0:03:02.060
+Petrinetze werden so aussehen.
+
+0:03:02.060,0:03:06.020
+Das ist ein wenig anders,
+vielleicht auch einfacher,
+
+0:03:06.020,0:03:10.820
+da es weniger verschiedene grafische
+Elemente gibt als in der Folie zuvor.
+
+0:03:10.820,0:03:15.500
+Wir werden im Wesentlichen diese zwei
+Arten von Knoten in einem Graphen haben.
+
+0:03:15.500,0:03:20.540
+Diese runden Plätze werden Stellen
+genannt, oder auch Plätze tatsächlich.
+
+0:03:20.540,0:03:23.330
+Und da drin können Marken liegen.
+
+0:03:23.330,0:03:30.110
+Das werden nachher bewegliche kleine Markierungen
+sein, die sich durch das Petrinetz bewegen lassen.
+
+0:03:30.110,0:03:35.120
+Und diese Kästen, das sind eine
+andere Art von Knoten in dem Graphen.
+
+0:03:35.120,0:03:36.050
+Die nennt man Transitionen.
+
+0:03:36.050,0:03:41.690
+Und die spielen eben im Wesentlichen die
+Rolle, die hier den einzelnen Aktionen zukommt.
+
+0:03:41.690,0:03:47.870
+Also die werden verwendet, um
+dynamische Aktionen zu modellieren.
+
+0:03:47.870,0:03:54.740
+Während diese Plätze/Stellen und die Marken
+darauf eher für Ressourcen stehen werden,
+
+0:03:54.740,0:03:58.580
+die bei diesen Aktionen
+verwendet oder benötigt werden.
+
+0:03:59.750,0:04:03.380
+Petrinetze sind ganz klar ein
+Mittel für dynamische Modellierung.
+
+0:04:03.380,0:04:09.200
+Im Gegensatz zu Klassen- und Objektdiagrammen,
+die für statische Modellierung gemacht sind.
+
+0:04:11.690,0:04:12.440
+Das steht hier auch nochmal.
+
+0:04:12.440,0:04:15.200
+Also Schwerpunkt liegt auf der
+Modellierung des dynamischen Verhaltens.
+
+0:04:15.200,0:04:17.720
+Petrinetze sind ein recht alter Ansatz.
+
+0:04:17.720,0:04:23.390
+Sie gehen zurück auf Arbeiten von vor
+langer Zeit durch einen Herrn Petri,
+
+0:04:23.390,0:04:24.290
+deswegen auch "Petrinetze".
+
+0:04:24.290,0:04:27.710
+Im Gegensatz zu vielen anderen Modellmechanismen,
+
+0:04:27.710,0:04:33.410
+die wir in der Vorlesung behandeln,
+besitzen sie eine sehr formale Semantik.
+
+0:04:33.410,0:04:35.105
+Also sie sind wirklich exakt
+mathematisch definiert.
+
+0:04:35.105,0:04:37.190
+Und auch die Fragestellungen zu Petrinetzen kann
+
+0:04:37.190,0:04:40.340
+man alle mathematisch definieren
+und auch Beweise dazu führen.
+
+0:04:40.340,0:04:43.190
+Das werden wir hier zwar nicht tun, aber
+Sie sollen eben in der Vorlesung neben
+
+0:04:43.190,0:04:49.610
+den intuitiveren und semi-formalen
+Modellierungsmethoden von UML auch
+
+0:04:49.610,0:04:53.090
+mal einen sehr formalen Mechanismus kennenlernen.
+
+0:04:53.090,0:04:57.890
+Das ist auch eine Motivation,
+warum Petrinetze Teil dieser
+
+0:04:57.890,0:05:00.785
+Lehrveranstaltung sind, und
+zwar kein geringer Teil.
+
+0:05:00.785,0:05:04.520
+Aus der Schule werden Ihnen Petrinetze
+wahrscheinlich nicht bekannt sein,
+
+0:05:04.520,0:05:07.100
+eventuell aber aus dem Vorkurs
+Informatik, falls Sie den belegt haben.
+
+0:05:07.100,0:05:11.390
+Und einige von Ihnen, vielleicht
+nicht die Komedia-Studierenden,
+
+0:05:11.390,0:05:16.970
+aber die Informatik- und ISE-Studierenden,
+werden Petrinetze eventuell auch in anderen
+
+0:05:16.970,0:05:19.730
+Lehrveranstaltungen noch einmal wieder antreffen.
+
+0:05:19.730,0:05:23.930
+Das könnte sein in Lehrveranstaltungen
+zu Betriebssystemen, Echtzeitsystemen,
+
+0:05:23.930,0:05:31.280
+oder spätestens im Master, wenn Sie Distributed
+Systems oder Veranstaltungen bei Frau König hören.
+
+0:05:31.280,0:05:38.040
+Wir beginnen mit einer Einführung.
+
+0:05:38.610,0:05:44.520
+Jetzt in diesem Video noch eher informell, um
+Ihnen einfach nochmal mehr Motivation zu geben.
+
+0:05:44.520,0:05:48.630
+An einem anderen Beispiel, das ich genauer
+besprechen werde an dieser Stelle schon als
+
+0:05:48.630,0:05:50.430
+das Hausbau-Beispiel, das wir eben gesehen haben.
+
+0:05:50.430,0:05:57.090
+Und dann wird es diese und nächste Woche um
+die formalen Grundlagen, und die Darstellung,
+
+0:05:57.090,0:06:03.150
+und die Ausprägung der Dynamik, und das
+Konzept der Erreichbarkeitsgraphen, gehen.
+
+0:06:03.150,0:06:08.670
+Das ist dann sozusagen die Semantik
+von Petrinetzen ausgefaltet,
+
+0:06:08.670,0:06:12.810
+alle Abläufe eines Petrinetzes erfassend.
+
+0:06:12.810,0:06:16.350
+Aber das wird uns wahrscheinlich
+erst nächste Woche beschäftigen.
+
+0:06:21.720,0:06:22.320
+Genannt hatte ich schon:
+
+0:06:22.320,0:06:28.980
+Petrinetze sind ein Formalismus dynamischer
+Modellierung, für bestimmte Situationen.
+
+0:06:28.980,0:06:33.120
+Also immer dann, wenn es irgendwie
+darum geht, Übergänge darzustellen.
+
+0:06:33.120,0:06:36.780
+Also Aktionen hatte ich die vorhin genannt, oder
+Einzelschritte in einem Ablauf eines Systems.
+
+0:06:36.780,0:06:41.460
+Und oftmals steht dabei auch
+mindestens im Hintergrund,
+
+0:06:41.460,0:06:45.960
+vielleicht sogar im Vordergrund,
+der Umgang mit Ressourcen.
+
+0:06:45.960,0:06:50.190
+Wir haben ein System, da dürfen
+bestimmte Schritte ablaufen,
+
+0:06:50.190,0:06:51.480
+aber eben nur unter bestimmten Voraussetzungen.
+
+0:06:51.480,0:06:56.430
+Also in dem Hausbau-Beispiel gab
+es die Position von einem Plan,
+
+0:06:56.430,0:06:59.760
+der erstellt wurde, mit dem umgegangen
+wird, der vielleicht überprüft werden muss.
+
+0:06:59.760,0:07:02.550
+Und da kann es sein, dass bestimmte Schritte in
+
+0:07:02.550,0:07:04.710
+diesem Ablauf nur möglich sind,
+wenn ein solcher Plan existiert.
+
+0:07:04.710,0:07:09.270
+Oder in einem anderen System könnten diese
+
+0:07:09.270,0:07:12.000
+Ressourcen tatsächlich auch
+materielle Ressourcen sein.
+
+0:07:12.000,0:07:17.100
+Wie in dem Snackautomaten-Beispiel, von dem
+ich in der letzten Woche kurz gesprochen hatte.
+
+0:07:17.100,0:07:21.420
+Da könnten das eben die Snacks
+und die Chipspackungen oder
+
+0:07:21.420,0:07:23.640
+Kekspackungen sein, die es gab,
+oder das Geld aus dem Automaten.
+
+0:07:24.330,0:07:28.770
+Das wären alles Dinge, bei denen
+man über Ressourcen spricht.
+
+0:07:28.770,0:07:31.770
+Und die können in Petrinetzen gut erfasst werden.
+
+0:07:31.770,0:07:36.030
+Und zwar einfacher als etwa in
+einem ganz einfachen Graphen,
+
+0:07:36.030,0:07:38.750
+wo alle Zustände darzustellen sind.
+
+0:07:38.750,0:07:41.480
+Ich hatte bei dem Snackautomaten-Beispiel
+vergangene Woche davon geredet,
+
+0:07:41.480,0:07:46.760
+dass fast 4000 Zustände entstehen würden,
+wenn man durch ein flaches Zustandsdiagramm
+
+0:07:46.760,0:07:50.540
+alle möglichen Konstellationen
+des Automaten erfassen wollte.
+
+0:07:50.540,0:07:54.410
+Das wird bei Petrinetzen anders
+und einfacher realisiert werden.
+
+0:07:54.410,0:07:59.840
+Dadurch können wir einerseits so
+etwas wie Kapazitäten gut modellieren.
+
+0:07:59.840,0:08:02.930
+Also etwa, dass der Snackautomat eine bestimmte
+
+0:08:02.930,0:08:08.840
+Maximalkapazität für seine
+jeweiligen Ressourcen hat.
+
+0:08:08.840,0:08:10.670
+Andererseits die räumliche
+Verteilung von Ressourcen.
+
+0:08:10.670,0:08:13.850
+Also wenn wir uns irgendwie Systeme vorstellen,
+
+0:08:13.850,0:08:16.880
+bei denen es darauf ankommt, wo
+bestimmte Ressourcen gelagert sind,
+
+0:08:16.880,0:08:22.340
+und Konzepte wie Nebenläufigkeit
+und Parallelität eine Rolle spielen.
+
+0:08:22.340,0:08:25.430
+Darüber werde ich gleich kurz
+auch noch reden auf einer Folie.
+
+0:08:25.430,0:08:28.370
+Und wann immer wir Ressourcen haben,
+
+0:08:28.370,0:08:33.800
+die vielleicht von verschiedenen Konsumenten
+benutzt werden, kann es auch Konflikte geben.
+
+0:08:33.800,0:08:37.880
+Und das wird auch ein zentraler Begriff
+bei der Analyse von Petrinetzen sein:
+
+0:08:37.880,0:08:44.270
+Wann oder ob es Konflikte zwischen verschiedenen
+Aktionen in dem Petrinetz zum Beispiel gibt.
+
+0:08:44.270,0:08:48.920
+Und was Petrinetzen auch eigen ist:
+
+0:08:48.920,0:08:51.890
+Dass sie eine recht intuitive
+grafische Darstellung haben.
+
+0:08:51.890,0:08:53.990
+Man definiert Petrinetze zwar mathematisch,
+
+0:08:53.990,0:08:58.940
+aber sie lassen auch eine grafische Darstellung
+zu, mit der wir großteils arbeiten werden.
+
+0:08:58.940,0:09:00.050
+Allerdings nicht ausschließlich:
+
+0:09:00.050,0:09:02.690
+Wir werden auch die Brücke zur mathematischen,
+
+0:09:02.690,0:09:05.840
+mengentheoretischen Darstellung
+auf jeden Fall schlagen.
+
+0:09:12.260,0:09:16.960
+Zur Praxis hatte ich schon einige
+Anwendungsgebiete genannt wird.
+
+0:09:16.960,0:09:18.860
+Zumindest genannt, wo Ihnen
+das im Studium begegnen könnte.
+
+0:09:18.860,0:09:21.920
+Eben bei verteilten Systemen, bei
+der Modellierung verteilter Systeme,
+
+0:09:21.920,0:09:24.110
+oder bei der Analyse von verteilten Systemen auch.
+
+0:09:24.110,0:09:30.020
+Und genannt hatte ich auch schon, dass in
+der im Softwaretechnikbereich verbreiteten
+
+0:09:30.020,0:09:36.230
+UML-Sprachfamilie zwar Petrinetze als solche
+nicht vorkommen (direkt in der Darstellung,
+
+0:09:36.230,0:09:38.870
+wie sie hier und auch in Büchern zu finden sind).
+
+0:09:38.870,0:09:42.170
+Aber die in UML vorhandenen Aktivitätsdiagramme
+
+0:09:42.170,0:09:46.910
+sind leichte Abwandlungen, und andere
+Darstellung letztlich, von Petrinetzen.
+
+0:09:46.910,0:09:50.180
+Diese Brücke werden wir später
+auch noch schlagen wollen.
+
+0:09:55.570,0:10:00.010
+Jetzt hatte ich hier gerade schon
+Nebenläufigkeit und Parallelität erwähnt.
+
+0:10:00.010,0:10:03.670
+Die Begriffe möchte ich gern
+klären auf der nächsten Folie.
+
+0:10:03.670,0:10:05.830
+Was ist Parallelität?
+
+0:10:05.830,0:10:10.240
+Das ist der Alltagsbegriff für Parallelität.
+
+0:10:10.240,0:10:14.350
+Also Dinge finden parallel
+statt, also gleichzeitig.
+
+0:10:14.350,0:10:19.960
+Aus dem Alltag gibt es an
+vielen Stellen das Phänomen.
+
+0:10:19.960,0:10:24.340
+Und natürlich auch etwa in der Informatik
+gibt es viele Situation von Parallelität.
+
+0:10:24.340,0:10:28.810
+Also vielleicht wenn Sie eine Spiele-Grafikkarte
+haben, dann haben Sie vielleicht auch darüber
+
+0:10:28.810,0:10:33.550
+nachgedacht vor dem Kauf, wie viele
+parallele Operationen die ausführen kann.
+
+0:10:33.550,0:10:38.200
+Da wird davon geredet, um viele
+Polygone gleichzeitig zu rendern,
+
+0:10:38.200,0:10:44.080
+soll diese Grafikkarte viele effiziente
+Rechenkerne haben, die parallel arbeiten sollen.
+
+0:10:44.080,0:10:46.480
+Da spielt Parallelität eine Rolle.
+
+0:10:46.480,0:10:51.580
+Etwa wenn es um Effizienz von Computern geht,
+ist Parallelität heutzutage ein typisches Maß.
+
+0:10:55.000,0:10:56.860
+Was ist Nebenläufigkeit?
+
+0:10:56.860,0:10:58.210
+Das klingt ja so ähnlich.
+
+0:10:58.210,0:11:01.660
+Irgendetwas läuft nebeneinander ab.
+
+0:11:01.660,0:11:03.490
+Das klingt ja auch nach Parallelität.
+
+0:11:03.490,0:11:05.500
+Dennoch gibt es hier einen extra Begriff.
+
+0:11:05.500,0:11:10.870
+Nebenläufigkeit ist im Grunde genommen
+mehr die mathematische Voraussetzung dafür,
+
+0:11:10.870,0:11:15.070
+dass Dinge parallel passieren oder
+parallel verarbeitet werden können.
+
+0:11:15.070,0:11:20.350
+Also wir werden bei Petrinetzen von
+Nebenläufigkeit von Einzelaktionen
+
+0:11:20.350,0:11:21.370
+in einem Petrinetz reden.
+
+0:11:21.370,0:11:24.100
+Und damit wird gemeint sein,
+
+0:11:24.100,0:11:28.210
+dass sie parallel ausgeführt werden
+können/dürfen, jedoch nicht müssen.
+
+0:11:28.210,0:11:33.340
+Das heißt, wenn zwischen ihnen keine kausale
+Abhängigkeit besteht (zum Beispiel sie auch
+
+0:11:33.340,0:11:36.730
+nicht sich gegenseitig behindern, etwa
+weil sie auf die gleichen Ressourcen
+
+0:11:36.730,0:11:40.750
+konfliktbehaftet zugreifen wollen), dann
+werden diese Aktionen nebenläufig sein.
+
+0:11:40.750,0:11:43.120
+Das wird formal definiert sein, was das bedeutet.
+
+0:11:43.120,0:11:46.090
+Und damit ist Nebenläufigkeit
+der allgemeinere Begriff.
+
+0:11:46.090,0:11:52.330
+Denn erst wenn Aktionen nebenläufig sind, also
+sozusagen durch ihre parallele Ausführung keine
+
+0:11:52.330,0:11:55.930
+Probleme entstehen würden, dann können wir
+sie tatsächlich auch parallel umsetzen.
+
+0:11:55.930,0:12:00.730
+Formal werden wir uns mit
+Nebenläufigkeit beschäftigen.
+
+0:12:00.730,0:12:04.840
+Aber die Motivation dafür wird sein,
+dass wir Situationen erfassen wollen,
+
+0:12:04.840,0:12:08.080
+in denen parallele Ausführung möglich wäre.
+
+0:12:08.080,0:12:13.986
+Und natürlich gibt es jede Menge
+Beispiele, in denen das relevant wird.
+
+0:12:13.986,0:12:20.020
+Ich hatte gerade diese Berechnungen
+etwa in einer Grafikkarte genannt.
+
+0:12:20.020,0:12:22.990
+Aber auch eine beliebige andere Anwendung
+
+0:12:22.990,0:12:27.970
+auf einem Rechner wird oft mit
+Nebenläufigkeit behaftet sein.
+
+0:12:27.970,0:12:32.140
+Etwa eine GUI und Berechnungen
+in einer Tabellenkalkulation:
+
+0:12:32.890,0:12:36.400
+Auch während Berechnungen stattfinden
+(vielleicht ein Prozess läuft, der die
+
+0:12:36.400,0:12:40.180
+Berechnungen in der Tabelle durchführt),
+wollen wir die GUI noch bedienen können.
+
+0:12:40.180,0:12:44.950
+Und nicht irgendwie ausgebremst sein, und
+das Programm nicht mehr bedienen können.
+
+0:12:44.950,0:12:49.484
+Das ist dann deswegen möglich,
+weil die GUI-Operationen und
+
+0:12:49.484,0:12:53.350
+die grafischen Anwendungsoperationen
+nebenläufig zu den Berechnungen sind.
+
+0:12:53.350,0:12:55.000
+Weil sie nicht auf die
+gleichen Ressourcen zugreifen.
+
+0:12:55.000,0:13:00.640
+Und wie das dann genau umgesetzt ist, ob
+tatsächlich zwei verschiedene Rechnerkerne
+
+0:13:00.640,0:13:03.700
+diese beiden Aktionen ausführen oder
+nicht, ist dafür gar nicht so relevant.
+
+0:13:04.270,0:13:05.290
+Das ist ein Implementierungsdetail.
+
+0:13:05.290,0:13:08.620
+Wichtig ist die Feststellung der
+Nebenläufigkeit dieser beiden Prozesse,
+
+0:13:08.620,0:13:09.970
+des Rechnens und der Darstellung.
+
+0:13:09.970,0:13:12.610
+Und natürlich finden Sie
+auch viele andere Beispiele,
+
+0:13:12.610,0:13:14.620
+auch in der Alltagswelt, von Nebenläufigkeit.
+
+0:13:14.620,0:13:17.260
+Also jedes Banksystem:
+
+0:13:17.260,0:13:24.400
+Wenn Sie in eine Filiale einer Bank gehen
+und einen Kontoauszugsdrucker bedienen,
+
+0:13:24.400,0:13:28.690
+und ein Familienmitglied von Ihnen
+gleichzeitig an einem anderen Terminal
+
+0:13:28.690,0:13:32.140
+vielleicht Überweisungen durchführt,
+dann sollte das System irgendwie so
+
+0:13:32.140,0:13:38.920
+realisiert sein, dass diese Aktionen
+nebenläufig umgesetzt werden können.
+
+0:13:38.920,0:13:43.750
+So dass die Bank Kontrolle darüber hat, dass nicht
+
+0:13:43.750,0:13:49.660
+durch das Ausführen dieser beiden Aktionen
+in dem System falsche Zustände entstehen.
+
+0:13:52.870,0:13:58.870
+Da gibt es zum Beispiel Ressourcenzugriff
+auf das Geld oder auf die Kontostände,
+
+0:13:58.870,0:14:05.800
+und dann soll bitteschön das
+korrekt in jedem Fall ablaufen.
+
+0:14:05.800,0:14:09.970
+Und es könnte eine Modellierung etwa
+mit Petrinetzen im Hintergrund stehen.
+
+0:14:09.970,0:14:13.750
+Wahrscheinlich wird es in dem konkreten Fall
+noch ein komplizierteres Modellierungsmittel
+
+0:14:13.750,0:14:16.840
+als nur Petrinetze sein, das im Hintergrund steht.
+
+0:14:17.860,0:14:22.120
+Aber die Fragen kann man auch
+schon für Petrinetze stellen.
+
+0:14:25.840,0:14:26.815
+Das ist recht abstrakt.
+
+0:14:26.815,0:14:34.090
+Ich hatte schon versprochen, dass wir auch
+in diesem Video bereits ein einfaches,
+
+0:14:34.090,0:14:35.770
+aber konkretes Beispiel betrachten wollen.
+
+0:14:35.770,0:14:39.640
+Das ist ein Beispiel, das Ihnen durchaus
+auch schon einmal begegnet sein könnte.
+
+0:14:39.640,0:14:45.550
+Das ist ein typisches auch
+spielerisches Informatikproblem:
+
+0:14:45.550,0:14:47.440
+Die sogenannten Speisenden Philosophen.
+
+0:14:47.440,0:14:49.810
+Das gibt es in verschiedener Ausprägung.
+
+0:14:49.810,0:14:54.460
+Ich betrachte hier tatsächlich die einfachste
+Version, nämlich mit nur drei Philosophen.
+
+0:14:54.460,0:14:57.340
+Es geht auch noch mit mehr Philosophen zu
+
+0:14:57.340,0:14:59.830
+formulieren, und auch mit anderen
+Anordnungen dieser Philosophen.
+
+0:14:59.830,0:15:02.020
+In unserem einfachen Fall
+haben wir drei Philosophen,
+
+0:15:02.020,0:15:06.835
+die um einen runden Tisch sitzen und
+die offensichtlich speisen wollen.
+
+0:15:06.835,0:15:11.500
+Das sind die Speisenden Philosophen, das
+heißt, die haben Hunger und möchten gern essen.
+
+0:15:11.500,0:15:15.430
+Es herrscht auch keine Knappheit an Essen.
+
+0:15:15.430,0:15:17.800
+Also vor jedem steht tatsächlich
+ein Teller mit Essen.
+
+0:15:17.800,0:15:23.200
+Aber es besteht eine Knappheit an Werkzeugen,
+um dieses Essen zu sich zu nehmen.
+
+0:15:23.200,0:15:27.880
+Denn die drei Philosophen
+haben zusammen nur drei Gabeln.
+
+0:15:27.880,0:15:31.226
+Wir stellen uns diese drei
+Philosophen P1, P2, P3 vor.
+
+0:15:31.226,0:15:35.800
+Die sitzen um den Tisch, und es gibt die Forks,
+die Gabeln, und zwar auch drei an der Zahl.
+
+0:15:35.800,0:15:38.140
+Und die liegen genau zwischen den Philosophen.
+
+0:15:39.220,0:15:40.660
+Soweit so gut.
+
+0:15:40.660,0:15:43.810
+Das Problem ist, dass wenn die Philosophen hungrig
+
+0:15:43.810,0:15:47.110
+sind und essen wollen, sie dann
+jeweils zwei Gabeln dafür brauchen.
+
+0:15:47.110,0:15:49.810
+Also obwohl sie Essen vor sich stehen
+haben, können sie damit nichts anfangen,
+
+0:15:49.810,0:15:54.160
+wenn sie nicht zwei Gabeln (jeweils
+eine in einer ihrer Hände) haben.
+
+0:15:55.540,0:15:55.840
+Sie sehen schon:
+
+0:15:55.840,0:15:58.540
+Jetzt können natürlich offensichtlich nicht
+die drei Philosophen gleichzeitig essen.
+
+0:15:58.540,0:16:00.610
+Dann bräuchten Sie mindestens sechs
+Gabeln, es gibt aber nur drei.
+
+0:16:02.470,0:16:04.930
+Die Frage ist natürlich:
+
+0:16:04.930,0:16:05.830
+Wie einigen die sich?
+
+0:16:05.830,0:16:07.090
+Oder, können die sich einigen?
+
+0:16:07.090,0:16:08.920
+Was passiert denn, wenn
+ein Philosoph hungrig wird?
+
+0:16:08.920,0:16:15.490
+Nun, dann muss dieser Philosoph
+die beiden Gabeln aufnehmen.
+
+0:16:15.490,0:16:19.640
+Und das tun die Philosophen
+nach einem sehr strikten Schema.
+
+0:16:20.240,0:16:26.450
+Die haben sich da vielleicht vorher festgelegt
+und sind unflexibel in ihren Handlungen.
+
+0:16:26.450,0:16:29.390
+Jedenfalls müssen sie sich immer gleich verhalten.
+
+0:16:29.390,0:16:33.680
+Und zwar braucht ein Philosoph
+immer beide Gabeln zum Essen,
+
+0:16:33.680,0:16:39.740
+und nimmt dafür zuerst die
+von sich aus rechte Gabel.
+
+0:16:39.740,0:16:44.480
+Also P2 würde zuerst F1 nehmen,
+dann die dazugehörige linke Gabel.
+
+0:16:44.480,0:16:49.880
+Dann würde P2 essen und anschließend beide
+Gabeln gleichzeitig wieder zurücklegen.
+
+0:16:52.160,0:16:56.840
+Jetzt kann man schon an diesem einfachen
+System bestimmte Fragen stellen.
+
+0:16:56.840,0:17:00.110
+Also, können hier mehrere
+Philosophen parallel essen?
+
+0:17:00.110,0:17:03.710
+Ist hier Parallelität möglich?
+
+0:17:03.710,0:17:07.460
+Das kann man sich schon anhand der
+Gabeln und Philosophen überlegen,
+
+0:17:07.460,0:17:08.390
+dass es nicht funktioniert wird.
+
+0:17:08.390,0:17:12.140
+Denn schon wenn zwei Philosophen essen
+wollten, bräuchten sie zusammen vier Gabeln.
+
+0:17:12.140,0:17:14.390
+Es gibt nur drei Gabeln, also
+ist Parallelität nicht gegeben.
+
+0:17:16.130,0:17:21.350
+Gibt es vielleicht etwas feingliedriger zumindest
+zwischen einzelnen Aktion Nebenläufigkeit?
+
+0:17:21.350,0:17:28.700
+Also ist das Greifen nach den Gabeln
+vielleicht zumindest unabhängig vom Essen?
+
+0:17:28.700,0:17:35.060
+Das kann man untersuchen, wenn man
+das System genauer beschrieben hat,
+
+0:17:35.060,0:17:39.290
+wenn man diese verbalen Regeln fester gefasst hat.
+
+0:17:39.290,0:17:39.886
+Das werden wir später tun.
+
+0:17:39.886,0:17:44.690
+Wir werden dieses System als Petrinetz darstellen
+und dann solche Fragen formal beantworten.
+
+0:17:44.690,0:17:48.350
+Was wir hier schon informell überlegen können,
+
+0:17:48.350,0:17:50.750
+ist, dass es hier auf jeden
+Fall Probleme geben kann.
+
+0:17:50.750,0:17:53.030
+Dass vielleicht die Philosophen
+tatsächlich verhungern,
+
+0:17:53.030,0:17:54.740
+weil sie nicht zum Essen kommen können.
+
+0:17:54.740,0:18:01.580
+Zum Beispiel aufgrund ihrer Sturheit, immer erst
+nach der rechten Gabel zu greifen und dann erst,
+
+0:18:01.580,0:18:03.140
+unabhängig davon, nach der linken Gabel.
+
+0:18:03.140,0:18:06.950
+Dadurch könnte es in einem
+ungünstigen Fall passieren,
+
+0:18:06.950,0:18:13.580
+dass zum Beispiel P2 nach F1 greift,
+und bevor P2 nach F2 greifen kann,
+
+0:18:13.580,0:18:20.000
+P3 nach F2 greift (weil P3 auch hungrig geworden
+ist und auch seine rechte Gabel zuerst greift).
+
+0:18:21.950,0:18:26.180
+Wenn dann noch der ungünstige Fall eintritt,
+dass auch P1 hungrig wird und nach F3 greift,
+
+0:18:26.180,0:18:30.520
+dann hätte jeder der Philosophen
+eine rechte Gabel in der Hand,
+
+0:18:30.520,0:18:33.993
+und keiner der Philosophen hätte
+eine linke Gabel in der Hand.
+
+0:18:33.993,0:18:35.050
+Keiner könnte also essen.
+
+0:18:35.050,0:18:39.160
+Aber leider würde das auch nicht dazu führen,
+
+0:18:39.160,0:18:42.310
+dass einer der Philosophen
+seine rechte Gabel zurücklegt.
+
+0:18:42.310,0:18:44.860
+Denn ihr stures Verhalten,
+wie oben beschrieben, ist:
+
+0:18:44.860,0:18:50.050
+Rechte Gabel greifen, danach linke Gabel
+greifen, essen, wieder zurücklegen.
+
+0:18:50.050,0:18:53.830
+Wenn also hier im ungünstigen
+Fall alle drei Philosophen nach
+
+0:18:53.830,0:18:57.280
+der rechten Gabel gegriffen haben,
+würde das System "verklemmt" sein.
+
+0:18:57.280,0:18:58.720
+So werden wir das später nennen.
+
+0:18:58.720,0:19:03.640
+Also letztlich müssen die Philosophen
+verhungern, weil sie sich gemeinsam in
+
+0:19:03.640,0:19:08.500
+eine Situation manövriert haben, in
+der kein Fortschritt möglich ist.
+
+0:19:08.500,0:19:13.210
+Auch das, diese Art Verklemmung, werden wir formal
+
+0:19:13.210,0:19:17.140
+fassen allgemein für Petrinetze und dann
+auf Fälle wie diesen anwenden können.
+
+0:19:20.770,0:19:23.710
+Also Fragen, die sich hier
+stellen für das Beispiel,
+
+0:19:23.710,0:19:26.200
+aber eben auch für allgemeine
+Petrinetze, sind Sachen wie:
+
+0:19:26.200,0:19:30.850
+Kann das modellierte System kontinuierlich
+weitere Fortschritte machen?
+
+0:19:30.850,0:19:35.770
+Also ist es so, dass zu jedem Zeitpunkt
+immer noch ein weiterer Schritt möglich ist?
+
+0:19:35.770,0:19:37.900
+Das wäre in dem Beispiel eben gerade nicht so.
+
+0:19:37.900,0:19:41.440
+Denn in dem Fall, wo alle drei Philosophen
+jeweils die rechte Gabel haben,
+
+0:19:41.440,0:19:45.400
+aber weder nach der linken greifen,
+noch essen können, wäre das System tot.
+
+0:19:45.400,0:19:50.170
+Tatsächlich in dem Sinne tot auch, dass die
+Philosophen irgendwann verhungern werden.
+
+0:19:50.170,0:19:55.660
+Dann hätten wir, oder die Philosophen selbst,
+das System in eine Sackgasse manövriert.
+
+0:19:55.660,0:19:57.760
+Das will man in der Praxis vermeiden.
+
+0:19:57.760,0:20:02.230
+Also möchte man das erfassen können, wann ein
+System diese Eigenschaft hat oder eben nicht.
+
+0:20:02.230,0:20:09.820
+Bekommt jede einzelne modellierte Aktion die
+Chance, auch tatsächlich ausgeführt zu werden?
+
+0:20:09.820,0:20:15.700
+Also wenn wir das System haben wie auf der
+vorigen Folie, ist es überhaupt der Fall,
+
+0:20:15.700,0:20:19.420
+dass jede Essensaktion irgendwann
+ausgeführt werden könnte?
+
+0:20:19.420,0:20:23.260
+Also ist auch bei gutem
+Willen es überhaupt möglich,
+
+0:20:23.260,0:20:25.510
+dass jeder Philosoph einmal
+mit Essen drankommen kann?
+
+0:20:25.510,0:20:28.720
+Nur einmal oder sogar beliebig oft wiederholt?
+
+0:20:28.720,0:20:34.150
+Also, wenn die Philosophen sich nicht
+irgendwie ungeschickt anstellen,
+
+0:20:34.150,0:20:37.810
+wäre es möglich, dass jeder von ihnen
+immer wieder auch mal essen darf?
+
+0:20:37.810,0:20:42.480
+Das ist eine Frage der Fairness
+in gewissem Sinne auch.
+
+0:20:42.480,0:20:49.560
+Zum Beispiel, dass nicht zwei der Philosophen
+den dritten Philosophen verhungern lassen können.
+
+0:20:49.560,0:20:55.680
+Da muss man sich fragen, ob das System eben
+fair in diesem oder einem ähnlichen Sinne ist.
+
+0:20:55.680,0:20:59.910
+Das sind Eigenschaften, die nicht
+nur auf dieses eine System zutreffen.
+
+0:21:00.630,0:21:04.080
+Also auch Fairness ist eine Frage,
+die man allgemein fassen kann,
+
+0:21:04.080,0:21:08.400
+und dann für verschiedene Petrinetze
+und verschiedene Systeme fragen kann.
+
+0:21:08.400,0:21:11.850
+Hier habe ich das jeweils
+auf die Philosophen bezogen.
+
+0:21:18.300,0:21:19.810
+Gibt es Abhängigkeiten zwischen den Aktionen?
+
+0:21:19.810,0:21:20.980
+In dem Fall sicher.
+
+0:21:20.980,0:21:21.430
+Wir wissen:
+
+0:21:21.430,0:21:26.080
+Ein Philosoph kann nur essen, wenn er
+oder sie die Gabeln in der Hand hat.
+
+0:21:26.080,0:21:30.790
+Also das Gabel-Greifen ist hier irgendwie
+eine kausale Voraussetzung für das Essen.
+
+0:21:30.790,0:21:33.070
+Das ist in dem Beispiel offensichtlich.
+
+0:21:33.070,0:21:36.910
+In anderen modellierten Systemen kann
+es interessanter sein, herauszufinden,
+
+0:21:36.910,0:21:40.660
+welche kausalen Abhängigkeiten
+zwischen Aktionen bestehen.
+
+0:21:40.660,0:21:41.920
+Weil die vielleicht nicht sofort offensichtlich
+
+0:21:41.920,0:21:47.770
+sind, und erst aus dem Verhalten des
+Systems erschlossen werden müssen.
+
+0:21:50.230,0:21:54.520
+Aktionen können sich bedingen, Aktionen
+können sich aber auch widersprechen.
+
+0:21:54.520,0:21:57.100
+Also sich gegenseitig ausschließen.
+
+0:21:57.100,0:21:59.680
+Dass eine Aktion nie ausgeführt werden kann,
+
+0:21:59.680,0:22:01.810
+wenn eine andere Aktion auch
+möglich wäre, zum Beispiel.
+
+0:22:01.810,0:22:05.620
+Gibt es Beschränkungen für Ressourcenverbrauch?
+
+0:22:05.620,0:22:09.700
+In dem Beispiel eben wäre außer dem Essen
+keine offensichtliche Ressource vorhanden,
+
+0:22:09.700,0:22:13.030
+bis auf die Gabeln, wenn man sie
+auch als Ressource modelliert.
+
+0:22:13.030,0:22:20.560
+In dem schon erwähnten Snackautomaten-Beispiel
+könnte man sich auch fragen, ob es in dem System
+
+0:22:20.560,0:22:24.880
+inhärente Beschränkungen für das Vorhandensein
+und den Verbrauch von Ressourcen gibt.
+
+0:22:24.880,0:22:31.300
+Also ist System zum Beispiel so gestaltet,
+dass es nie (nicht nur aus externen Gründen,
+
+0:22:31.300,0:22:37.330
+sondern aus Gründen des Systems selber) möglich
+ist, mehr als zehn Münzen in der Kasse zu haben?
+
+0:22:46.190,0:22:50.600
+Das, was hier unten steht, tritt
+bei dem Beispiel eben nicht auf,
+
+0:22:50.600,0:22:53.570
+wird uns aber im weiteren Verlauf interessieren.
+
+0:22:53.570,0:23:02.060
+Nämlich dass durchaus ein auch endlich
+beschriebenes Petrinetz letztlich einem
+
+0:23:02.060,0:23:05.390
+unendlich ausgefalteten System entsprechen kann.
+
+0:23:05.390,0:23:11.720
+Also es ist möglich, Petrinetzen zu haben,
+die endlich sind (also vollständig auf
+
+0:23:11.720,0:23:18.500
+eine Folie passen, so wie das Beispiel
+eben), deren flaches Zustandsdiagramm,
+
+0:23:18.500,0:23:22.190
+im Sinne des Wolf-Ziege-Kohlkopf-Graphen
+etwa, aber unendlich wäre.
+
+0:23:22.190,0:23:26.420
+Und unendliche Sachen sind
+immer schwer zu behandeln,
+
+0:23:26.420,0:23:31.520
+aber einige von diesen Analysen für Petrinetze
+sind selbst dann machbar (für das Petrinetz),
+
+0:23:31.520,0:23:34.820
+wenn das entsprechende flache
+Zustandsdiagramm unendlich wäre.
+
+0:23:35.660,0:23:40.670
+Dann ziehen wir einen großen Vorteil
+daraus, mit Petrinetzen zu arbeiten,
+
+0:23:40.670,0:23:47.390
+statt naiv einfach immer nur
+flache Zustandsdiagramme zu bilden.
+
+0:23:47.390,0:23:51.860
+Das wird uns begegnen, wenn wir tiefer
+auf die Einzelanalysen eingehen.
+
+0:23:51.860,0:23:54.770
+Wir werden nicht alle diese
+Punkte hier formal behandeln,
+
+0:23:54.770,0:24:03.260
+aber zumindest den ersten, den zweiten,
+und zu gewissem Grade die letzten beiden.
+
+0:24:13.370,0:24:20.630
+Praktische Anwendungen gibt es dann in vielen
+Bereichen der Informatik oder anderer Gebiete.
+
+0:24:20.630,0:24:26.690
+Es gibt den Begriff des
+Business Process Modelling.
+
+0:24:26.690,0:24:30.740
+Da werden Petrinetze oder verwandte
+Modellierungsmechanismen angewandt.
+
+0:24:30.740,0:24:36.830
+Modellierung von Web Services, Beschreibung
+von grafischen Benutzungsoberflächen,
+
+0:24:36.830,0:24:41.120
+Prozessmodellierung bei Betriebssystemen (da
+spielt Nebenläufigkeit eine wichtige Rolle).
+
+0:24:41.120,0:24:44.810
+In ingenieurwissenschaftlichen
+Anwendungen und vielen weiteren
+
+0:24:44.810,0:24:49.550
+Bereichen sind Petrinetze oder
+ähnliche Mechanismen anwendbar.
+
+0:24:49.550,0:24:54.890
+Wir werden immer wieder auch im Übungsbetrieb
+einzelne vereinfachte Beispiele aufgreifen,
+
+0:24:54.890,0:24:57.710
+die vielleicht in diese Domänen fallen.
+
+0:24:57.710,0:25:06.860
+Wir werden keine ausführliche Betrachtung genau
+einer dieser Domänen in der Vorlesung einplanen.
+
+0:25:06.860,0:25:09.290
+Das sind einfach nur ein paar Stichworte,
+
+0:25:09.290,0:25:14.030
+in welchen Gebieten sich Petrinetze
+oder verwandte Mechanismen (wie zum
+
+0:25:14.030,0:25:17.270
+Beispiel auch die Aktivitätsdiagramme)
+wiederfinden lassen in der Praxis.
+
+0:25:17.270,0:25:20.630
+Wir werden natürlich ein paar
+einfache Beispiele betrachten.
