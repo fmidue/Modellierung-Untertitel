@@ -2,6 +2,7 @@ ABCDEF
 CDs
 GPT
 Harel
+JDK
 KWFZ
 Komedia
 Skoda
