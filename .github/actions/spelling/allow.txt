@@ -9,6 +9,7 @@ Ubari
 UML
 VRR
 WKFZ
+XModeler
 blackbox
 genericity
 grayscale
