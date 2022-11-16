@@ -1,0 +1,358 @@
+0:00:01.459,0:00:04.170
+Task number nine in auto tool.
+
+0:00:04.170,0:00:07.919
+It has a class diagram and an object diagram.
+
+0:00:07.919,0:00:15.580
+And we have to do the mapping, we have to
+find out X, Y, and Z, which one of these corresponds
+
+0:00:15.580,0:00:26.910
+to which one of these A, B, and C. So, first
+I'm going to create a class diagram.
+
+0:00:26.910,0:00:42.540
+(15 sec) Now I'm going to create the object
+diagram, and it should give us the solution,
+
+0:00:42.540,0:00:51.000
+we should find out what corresponds to what
+why we're creating the object diagram.
+
+0:00:51.000,0:01:00.320
+I'm going to add three instances of B. And
+it's going to ask to link to an instance of
+
+0:01:00.320,0:01:01.770
+A. Why?
+
+0:01:01.770,0:01:11.110
+It's because of this multiplicity, so the
+composition here has the multiplicity one.
+
+0:01:11.110,0:01:17.430
+So, every B has to connect with an A. But
+I'm going to ignore this.
+
+0:01:17.430,0:01:18.430
+Why?
+
+0:01:18.430,0:01:28.000
+Because X modeler because the software does
+not allow me unfortunately, to create a C.
+
+0:01:28.000,0:01:32.790
+So, this C here can be satisfied.
+
+0:01:32.790,0:01:40.950
+If I link a B, with a file, link this B with
+a D or a C, not just an explicit like not
+
+0:01:40.950,0:01:47.400
+just a general A, but I should be able to
+use a D or a C instead.
+
+0:01:47.400,0:01:52.630
+But in this software, it's going to give me
+the only option which is creating an A, which
+
+0:01:52.630,0:01:54.140
+is not what I want.
+
+0:01:54.140,0:01:56.930
+So I'm going to ignore this issue.
+
+0:01:56.930,0:02:03.009
+I'm going to do two more instances here.
+
+0:02:03.009,0:02:09.020
+And also ignore the issue.
+
+0:02:09.020,0:02:20.840
+Now we're going to create this C. So, add
+an instance of C. Put it here.
+
+0:02:20.840,0:02:24.599
+And C requires the link to an instance of
+B at level zero.
+
+0:02:24.599,0:02:28.050
+So, it needs to connect to a B.
+
+0:02:28.050,0:02:31.260
+We have three B's here.
+
+0:02:31.260,0:02:39.379
+So, if I choose one of them, let's say B one,
+I click OK.
+
+0:02:39.379,0:02:47.580
+It linked using a B. So, it tried to fulfill
+this one here.
+
+0:02:47.580,0:02:52.850
+And now it says C requires a B, let's choose
+B one.
+
+0:02:52.850,0:02:56.200
+Again, let's click OK, it got linked again.
+
+0:02:56.200,0:03:03.950
+But this time, I wish I could show you, this
+time it linked with an A. So, let's try again,
+
+0:03:03.950,0:03:05.950
+let's link with B one.
+
+0:03:05.950,0:03:08.139
+We click OK.
+
+0:03:08.139,0:03:09.489
+It does not work.
+
+0:03:09.489,0:03:13.620
+So, why because it says the link already exists.
+
+0:03:13.620,0:03:18.820
+There's not much more to do here.
+
+0:03:18.820,0:03:28.790
+So, I'm going to continue with the requirements
+of C, let's do B to click OK.
+
+0:03:28.790,0:03:36.540
+And it links with an A. Let's do-, this is
+the old request here.
+
+0:03:36.540,0:03:38.549
+So, I'm going to ignore it.
+
+0:03:38.549,0:03:40.360
+And C is fine now.
+
+0:03:40.360,0:03:44.080
+So, C does not need anything anymore.
+
+0:03:44.080,0:03:49.810
+I'm going to continue try to satisfy this
+request here.
+
+0:03:49.810,0:03:53.439
+By connecting manually not double clicking
+here.
+
+0:03:53.439,0:03:59.110
+I'm going to connect manually from B three
+to C since every C is an A, and I'm going
+
+0:03:59.110,0:04:04.159
+to do-, okay let's just click OK.
+
+0:04:04.159,0:04:05.490
+It does not work.
+
+0:04:05.490,0:04:13.040
+So, I tried to create a link an association
+B and it said the multiplicity does not allow
+
+0:04:13.040,0:04:17.889
+new link and this is because of this.
+
+0:04:17.889,0:04:28.830
+So, a C is a D and every D can connect or
+has to connect with exactly one B through
+
+0:04:28.830,0:04:34.250
+this association or this aggregation B and
+it is already here.
+
+0:04:34.250,0:04:43.470
+So, if you try to connect using another aggregation
+be like you try to do B connection here.
+
+0:04:43.470,0:04:47.650
+It's not going to work because this contradicts
+with the multiplicity.
+
+0:04:47.650,0:04:51.130
+So, let's do again.
+
+0:04:51.130,0:04:54.380
+Let me ignore this and this link manually.
+
+0:04:54.380,0:04:56.540
+The standard is gone.
+
+0:04:56.540,0:05:05.301
+Let's go to-, let's do a we click on OK, click
+anywhere to update, and we have A. So, if
+
+0:05:05.301,0:05:07.931
+you take a look here, we have Y, Y, Y.
+
+0:05:07.931,0:05:11.350
+And here we have A, A, A.
+
+0:05:11.350,0:05:13.400
+We have one B here.
+
+0:05:13.400,0:05:18.650
+And as you saw a few seconds ago, we could
+not add any more Bs.
+
+0:05:18.650,0:05:26.160
+So, this means we already know big part of
+the solution, we know that Y corresponds to
+
+0:05:26.160,0:05:43.650
+A, and Z corresponds to B. And now, I'm going
+to do the last one here, which is this X.
+
+0:05:43.650,0:05:46.150
+Let's connect C to itself.
+
+0:05:46.150,0:05:48.520
+It gets recognized, it accepts.
+
+0:05:48.520,0:05:52.790
+So, the X modeler software allows me to connect
+C to itself.
+
+0:05:52.790,0:05:57.520
+And I suspect it gets recognized exactly what
+it is.
+
+0:05:57.520,0:06:03.030
+So it says it has the label of the association
+here.
+
+0:06:03.030,0:06:08.310
+But I could not-, I just could not find a
+way to show it.
+
+0:06:08.310,0:06:11.430
+It's going to stay hidden behind this.
+
+0:06:11.430,0:06:14.000
+But this is fine.
+
+0:06:14.000,0:06:19.880
+We go to check what this is by doing more
+links to something of the same type, which
+
+0:06:19.880,0:06:28.440
+is C. So, I'm going to create a temporary
+instance of C. Let's call it C temp. C temp1,
+
+0:06:28.440,0:06:32.660
+actually, let's do it of type C, put it here.
+
+0:06:32.660,0:06:39.729
+And C requires whatever just forget about
+it.
+
+0:06:39.729,0:06:52.470
+(5 sec) And let's connect it manually to this
+C. Let's ignore the rest of things.
+
+0:06:52.470,0:06:53.470
+Okay.
+
+0:06:53.470,0:07:02.379
+So, it recognizes this link as C. How do we
+check that the first one was already C and
+
+0:07:02.379,0:07:06.490
+that now we have two times C, we have two
+C's, how do you check?
+
+0:07:06.490,0:07:13.220
+Well, the connection, the association C here
+has the maximum of two.
+
+0:07:13.220,0:07:18.940
+This means if you try to connect this instance
+of C with another-, with a third C, it should
+
+0:07:18.940,0:07:21.000
+not work.
+
+0:07:21.000,0:07:33.430
+Let me create another instance, let's call
+it C temp2 or type C, let's put it here, ignore
+
+0:07:33.430,0:07:39.340
+this and then connect it, link it manually
+like this.
+
+0:07:39.340,0:07:43.760
+Ignore the rest of the issues.
+
+0:07:43.760,0:07:54.030
+(5 sec) Let me do this again.
+
+0:07:54.030,0:07:58.650
+So, from this C, we have two arrows going
+out.
+
+0:07:58.650,0:08:02.460
+So, let's pay attention to the direction.
+
+0:08:02.460,0:08:07.910
+One arrow going to see itself and one arrow
+going to temporarily see number one, let's
+
+0:08:07.910,0:08:14.460
+do a third arrow, third link going from C
+to C temporary.
+
+0:08:14.460,0:08:19.150
+Number two, and it says the multiplicity does
+not allow a new link.
+
+0:08:19.150,0:08:29.260
+So, that is a proof that this one is a C it
+gets recognized as a C. And what happened
+
+0:08:29.260,0:08:38.560
+a few seconds ago that I somehow could link
+more than two Cs together it was because of
+
+0:08:38.560,0:08:41.269
+the direction of the association.
+
+0:08:41.269,0:08:44.080
+So, let's do this again.
+
+0:08:44.080,0:08:51.589
+So, if I do from C to C temp, that would be
+a third outgoing arrow.
+
+0:08:51.589,0:08:53.140
+And that's not good.
+
+0:08:53.140,0:08:56.140
+That's not acceptable because of the multiplicity.
+
+0:08:56.140,0:09:07.410
+And if I do the other way around from temporary
+two to C it works because now C temp two is
+
+0:09:07.410,0:09:19.709
+fine like it still has less than two most
+it has two outgoing arrows from it going to
+
+0:09:19.709,0:09:27.630
+something of type A. Now we can safely remove
+these.
+
+0:09:27.630,0:09:30.830
+We don't need them anymore.
+
+0:09:30.830,0:09:36.089
+And here we are-, we have a solution.
+
+0:09:36.089,0:09:45.460
+So, the solution is Z is B, Y is A and X is
+C.

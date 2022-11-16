@@ -1,0 +1,165 @@
+0:00:00.780,0:00:06.810
+Auto tool task number one, we have four class
+diagram candidates.
+
+0:00:06.810,0:00:12.420
+And it says: “Which of these class diagram
+candidates are valid class diagrams?”
+
+0:00:12.420,0:00:13.980
+We're going to use X modeler.
+
+0:00:13.980,0:00:22.150
+So, with X modeler, what should happen is
+that if we managed to create one of these,
+
+0:00:22.150,0:00:29.109
+if we managed to create it, and it's exactly
+the same, then it is a valid class diagram.
+
+0:00:29.109,0:00:35.800
+If X modeler interrupts and says there is
+a problem, and it rejects it does not allow
+
+0:00:35.800,0:00:41.470
+us to create this class diagram and you have
+these class diagrams, then it is invalid.
+
+0:00:41.470,0:00:46.930
+Let's do number one.
+
+0:00:46.930,0:01:03.230
+(10 sec) They have A, B, C, D, let's just
+do them first and then we connect.
+
+0:01:03.230,0:01:14.680
+(6 sec) A is here, C is here and then B is
+down here, D to the left.
+
+0:01:14.680,0:01:16.720
+Let's try to connect them.
+
+0:01:16.720,0:01:20.409
+So, they are connected now with inheritance.
+
+0:01:20.409,0:01:22.090
+No associations involved.
+
+0:01:22.090,0:01:30.290
+So, right click this, change parent to C.
+So far, no problems.
+
+0:01:30.290,0:01:33.820
+Let me fix this.
+
+0:01:33.820,0:01:44.119
+Now, let's change parent of C make it B.
+
+0:01:44.119,0:01:45.979
+This is fine.
+
+0:01:45.979,0:01:53.509
+Let me fix this.
+
+0:01:53.509,0:02:00.590
+And now, parent of B should be D.
+
+0:02:00.590,0:02:05.440
+This is also fine.
+
+0:02:05.440,0:02:16.890
+And finally parent of D should be B. And it
+says: “B is already a descendant of D, circular
+
+0:02:16.890,0:02:19.420
+inheritance is not allowed.”
+
+0:02:19.420,0:02:25.470
+So, this means this class diagram or actually
+this class diagram candidate is not a class
+
+0:02:25.470,0:02:26.470
+diagram.
+
+0:02:26.470,0:02:28.150
+This is invalid.
+
+0:02:28.150,0:02:32.170
+Let's do the second one.
+
+0:02:32.170,0:02:35.970
+Let me remove this.
+
+0:02:35.970,0:02:46.420
+Actually, the second one also has A, B, C,
+D. So, let me just add the class again.
+
+0:02:46.420,0:02:50.420
+Let me remove this.
+
+0:02:50.420,0:02:52.330
+It's not possible to remove this, I don't
+think it's possible.
+
+0:02:52.330,0:02:59.890
+So, what I'm going to do is actually remove
+them, yes.
+
+0:02:59.890,0:03:14.110
+And add B, add C. So, we have B here, we have
+A in the middle and we have D here, we have
+
+0:03:14.110,0:03:19.480
+C here.
+
+0:03:19.480,0:03:37.440
+Change parent to B. Change parent to B change
+parent to B. So, let me fix this mess.
+
+0:03:37.440,0:03:51.629
+(9 sec) And this looks exactly like the class
+diagram here.
+
+0:03:51.629,0:03:56.360
+This means class diagram number 2 or candidate
+number 2 is valid class diagram.
+
+0:03:56.360,0:04:03.890
+Now let's do number 3.
+
+0:04:03.890,0:04:14.280
+Change parent to B and fix this.
+
+0:04:14.280,0:04:47.169
+(16 sec) Change parent of B to D.
+And change parent of D to A.
+
+0:04:47.169,0:04:57.750
+And change parent of A to B.
+And again B is already a descendant of A,
+
+0:04:57.750,0:05:00.090
+circular inheritance is not allowed.
+
+0:05:00.090,0:05:03.900
+So, this means number three is also not a
+class diagram.
+
+0:05:03.900,0:05:06.080
+This is invalid.
+
+0:05:06.080,0:05:10.850
+Let's do number four.
+
+0:05:10.850,0:05:59.509
+Change parent C. Change parent B, change parent
+D. (19 sec) This should fix it.
+
+0:05:59.509,0:06:01.710
+And it looks exactly like this one.
+
+0:06:01.710,0:06:05.200
+So, this means number four is valid.
+
+0:06:05.200,0:06:06.910
+This is a class diagram in fact.
