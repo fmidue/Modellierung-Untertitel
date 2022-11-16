@@ -62,6 +62,7 @@ jobs:
             cspell:software-terms/softwareTerms.txt
             cspell:companies/companies.txt
             cspell:haskell/haskell.txt
+            cspell:html/html.txt
             cspell:aws/aws.txt
 
   comment:
