@@ -1,0 +1,151 @@
+0:00:01.999,0:00:03.520
+Hallo zusammen.
+
+0:00:03.520,0:00:10.349
+In diesem Video werden wir uns mit Teilaufgabe
+(b) von Aufgabe 1 beschäftigen: „Nutzen
+
+0:00:10.349,0:00:14.879
+Sie die neu deklarierte Operation zusammen
+mit welchen aus der Vorlesung, um einen Term
+
+0:00:14.879,0:00:19.230
+anzugeben, der in etwas das folgende Bild
+beschreibt.
+
+0:00:19.230,0:00:21.770
+Erklären Sie kurz, warum dies der Fall ist.
+
+0:00:21.770,0:00:24.250
+Die genauen Zahlenwerte sind nicht so wichtig.
+
+0:00:24.250,0:00:28.570
+Die eingezeichneten Koordinaten dienen lediglich
+als Anhaltspunkte.“
+
+0:00:28.570,0:00:35.290
+In Teilaufgabe (a) wurde schon ein Vieleck
+deklariert.
+
+0:00:35.290,0:00:42.090
+Int steht hier für Anzahl der Kanten, in
+diesem Fall sind es sieben.
+
+0:00:42.090,0:00:45.320
+Float steht für Radius, in diesem Fall 2.
+
+0:00:45.320,0:00:48.130
+Am Ende bekommen wir daraus ein Picture.
+
+0:00:48.130,0:00:51.560
+Jetzt sollen wir das Ganze in die Praxis umsetzen.
+
+0:00:51.560,0:00:57.020
+Dafür werden wir die Codewort Webseite benutzen
+und sehen, wie das richtig funktioniert und
+
+0:00:57.020,0:00:59.710
+wir es nacheinander aufbauen können.
+
+0:00:59.710,0:01:03.139
+Zuerst brauchen wir dieses Teil.
+
+0:01:03.139,0:01:06.900
+Das ist ein Dreizehneck.
+
+0:01:06.900,0:01:09.750
+Der Radius beträgt 2, wie wir hier sehen.
+
+0:01:09.750,0:01:27.280
+Dann gehen wir jetzt hierhin und schreiben:
+vieleck (13,2) als Radiuslänge.
+
+0:01:27.280,0:01:31.230
+Jetzt sehen wir, dass es funktioniert.
+
+0:01:31.230,0:01:35.770
+Wir bekommen hier ein Dreizehneck.
+
+0:01:35.770,0:01:37.060
+Dann machen wir weiter.
+
+0:01:37.060,0:01:39.549
+Dann brauchen wir auch dieses Teil.
+
+0:01:39.549,0:01:45.460
+Das ist ein Siebeneck und der Radius beträgt
+eine Einheit.
+
+0:01:45.460,0:01:48.380
+Deswegen schreiben wir das auf.
+
+0:01:48.380,0:02:00.509
+Deswegen müssen wir diesen Operator benutzen,
+den ihr ja schon in der Vorlesung kennengelernt
+
+0:02:00.509,0:02:01.719
+habt.
+
+0:02:01.719,0:02:10.720
+& vieleck (7,1).
+
+0:02:10.720,0:02:16.209
+Dann sehen wir jetzt, was passiert.
+
+0:02:16.209,0:02:24.150
+Zwei Figuren sind schon richtig, aber was
+wir noch verändern müssen, ist, dass dieses
+
+0:02:24.150,0:02:28.650
+kleine Vieleck noch nach oben geschoben werden
+soll.
+
+0:02:28.650,0:02:33.040
+Dazu brauchen wir eine Operation, die auch
+schon in der Vorlesung vorgekommen ist.
+
+0:02:33.040,0:02:34.430
+Die heißt Move.
+
+0:02:34.430,0:02:50.099
+Wir brauchen Argumente, die für die X- und
+die Y-Achse stehen.
+
+0:02:50.099,0:02:58.629
+Zuerst sollen wir angeben, um wie viele Einheiten
+sich das Picture entlang der X-Achse bewegen
+
+0:02:58.629,0:02:59.629
+soll.
+
+0:02:59.629,0:03:00.660
+In unserem Fall ist das Null.
+
+0:03:00.660,0:03:05.340
+Wie wir das hier sehen.
+
+0:03:05.340,0:03:11.269
+Das Picture war hier in der Mitte.
+
+0:03:11.269,0:03:14.400
+Dann müssen wir das drei Einheiten nach oben
+schieben.
+
+0:03:14.400,0:03:25.700
+Also: move( vieleck (7,1), 0, 3).
+
+0:03:25.700,0:03:26.700
+Kompilieren.
+
+0:03:26.700,0:03:34.210
+Und so sieht es dann aus.
+
+0:03:34.210,0:03:41.830
+Also müssen wir dieses Vieleck deklarieren.
+
+0:03:41.830,0:03:49.080
+Oder halt sofort in Move als Picture reinpacken
+und dann drei Einheiten nach oben schieben.
+
+0:03:49.080,0:03:51.530
+Dann ist das richtig.
