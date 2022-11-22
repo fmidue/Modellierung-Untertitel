@@ -1,0 +1,1500 @@
+0:00:00.000,0:00:07.650
+So, in diesem Video möchte ich einmal mit
+Ihnen ein Beispiel-Petrinetz entwickeln.
+
+0:00:07.650,0:00:15.330
+In diesem Programm, in dieser App, die im
+Moodle-Kurs auch verlinkt angegeben ist.
+
+0:00:15.330,0:00:19.830
+Und zwar möchte ich das zum einen
+machen, um mit Ihnen mal ein etwas
+
+0:00:19.830,0:00:21.630
+anschaulicheres Beispiel durchzusprechen.
+
+0:00:21.630,0:00:27.330
+In den Vorlesungsfolien waren bis jetzt ja
+nur so völlig künstliche Petrinetze zu sehen.
+
+0:00:27.330,0:00:29.580
+Hier wird es also darum gehen,
+wirklich etwas zu modellieren.
+
+0:00:29.580,0:00:32.190
+Zum anderen möchte ich Ihnen dieses Tool zeigen.
+
+0:00:32.190,0:00:35.130
+Ihnen auch zeigen, wie Sie das benutzen können.
+
+0:00:35.130,0:00:37.470
+Damit Sie das mal in Aktion sehen, wie Sie es
+
+0:00:37.470,0:00:41.340
+dann auch verwenden können im Übungsbetrieb
+zum Beispiel, oder um Modelle zu explorieren.
+
+0:00:41.340,0:00:44.430
+Also dass man die Sachen hier nicht
+nur malen kann (was natürlich nett ist,
+
+0:00:44.430,0:00:48.780
+auch für Ihre Übungsaufgaben vielleicht), sondern
+dass man die Petrinetze auch ausführen kann.
+
+0:00:48.780,0:00:51.810
+Also zum Beispiel das Feuern sehen kann,
+
+0:00:51.810,0:00:57.180
+das ich in der vergangenen Woche auf meinem
+Whiteboard einfach händisch getan hatte.
+
+0:00:57.180,0:00:59.070
+Das kann das Programm eben automatisch ausführen.
+
+0:00:59.070,0:01:01.140
+Dann kann man schön mit seinen
+Petrinetzen herumspielen.
+
+0:01:01.140,0:01:05.190
+Das möchte ich Ihnen also alles
+an dem Beispiel hier vermitteln.
+
+0:01:05.190,0:01:13.230
+Das Beispiel selber ist eins, das ich mir
+vor zwei, drei, vier Jahren mal ausgedacht
+
+0:01:13.230,0:01:15.240
+habe und jetzt eigentlich
+jedes Jahr wieder verwende.
+
+0:01:15.240,0:01:20.970
+Weil mir damals nichts anderes einfiel und sich
+aber zeigte, dass dieses Beispiel ganz nett ist,
+
+0:01:20.970,0:01:26.220
+weil es immer noch klein ist, aber einen
+konkreten anschaulichen Sachverhalt modelliert.
+
+0:01:26.220,0:01:30.570
+Und vor allem da auch diverse
+Features drin vorkommen,
+
+0:01:30.570,0:01:33.330
+die interessant sind auch für
+die Übungsaufgaben zum Beispiel.
+
+0:01:33.330,0:01:36.240
+Also hier werden Ressourcen verwendet;
+wie man bestimmte Bedingungen,
+
+0:01:36.240,0:01:39.525
+die man im Kopf hat, gut in einem
+Petrinetz ausdrücken kann; etc.
+
+0:01:39.525,0:01:42.750
+Obwohl das ein kleines Beispiel ist, kommen
+da einige interessante Features drin vor.
+
+0:01:42.750,0:01:46.680
+Und zwar hatte ich mir damals
+ausgedacht, ich modelliere mal
+
+0:01:46.680,0:01:48.540
+die Nachmittagsgestaltung meines Sohnes.
+
+0:01:50.010,0:01:53.820
+Das heißt auch, dass das Beispiel
+jedes Jahr ein wenig anders ausfällt,
+
+0:01:53.820,0:01:58.980
+je nachdem, wie gerade die
+Pläne meines Sohnes aussehen.
+
+0:01:58.980,0:02:01.590
+Ob er gerade von der Schule
+aus einen Tanzkurs machen muss,
+
+0:02:01.590,0:02:03.750
+oder nur seinen normalen Sport
+macht, oder was auch immer.
+
+0:02:03.750,0:02:05.310
+In diesem Jahr ist es sowieso so,
+
+0:02:05.310,0:02:08.700
+dass ich eigentlich nur den Nachmittag
+aus dem letzten Jahr modellieren kann,
+
+0:02:08.700,0:02:15.120
+weil im Moment durch das Pandemiegeschehen
+sowieso jede Woche neue Regelungen kommen.
+
+0:02:15.120,0:02:19.050
+Und zum Beispiel gar kein Training stattfindet
+oder sogar die Schule nicht stattfindet.
+
+0:02:19.050,0:02:21.390
+Es ist aber nur ein Beispiel.
+
+0:02:21.390,0:02:25.680
+Sie sollten nicht wirklich glauben,
+dass meine Familie solche Freaks sind,
+
+0:02:25.680,0:02:29.220
+dass wir unseren Alltag mit Petrinetzen gestalten.
+
+0:02:29.220,0:02:33.780
+Und tatsächlich wird mein Sohn im
+übernächsten Jahr volljährig und dann
+
+0:02:33.780,0:02:37.710
+wäre das sowieso absurd, weiter so vorzugehen. :-)
+
+0:02:37.710,0:02:39.150
+Wie auch immer, es ist nur ein Beispiel.
+
+0:02:39.150,0:02:46.050
+Stellen wir uns vor, ich möchte gerne modellieren,
+wie so ein typischer Nachmittag aussieht.
+
+0:02:46.830,0:02:51.450
+Dafür brauche ich sicherlich
+Stellen und Transitionen.
+
+0:02:51.450,0:02:58.200
+Und ich könnte mir zum Beispiel überlegen, dass
+es an Transitionen (an Sachen, die passieren;
+
+0:02:58.200,0:03:01.410
+Aktionen, die ausgeführt
+werden) mindestens zwei gibt.
+
+0:03:01.410,0:03:08.940
+Sie sehen hier, dass ich Sachen auf
+meinem Arbeitsfeld platzieren kann.
+
+0:03:08.940,0:03:11.820
+Also Stellen, das sind diese Kreise hier.
+
+0:03:11.820,0:03:14.940
+Und Sie sehen auch schon, es
+gibt zwei Arten von Transitionen:
+
+0:03:14.940,0:03:16.770
+diese ausgefüllten und die nicht ausgefüllten.
+
+0:03:16.770,0:03:20.460
+In den Folien vorhin habe ich meist
+die Transitionen genau so gemalt:
+
+0:03:20.460,0:03:23.010
+einfach nur durch nicht ausgefüllte Kästen.
+
+0:03:23.010,0:03:26.610
+In diesem Programm allerdings müssten
+Sie diese ausgefüllten Rechtecke nehmen.
+
+0:03:26.610,0:03:31.530
+Denn diese andere Art von Transitionen
+in dem Programm ist nicht exakt die,
+
+0:03:31.530,0:03:35.370
+die wir aus der Vorlesung kennen und brauchen.
+
+0:03:35.370,0:03:36.930
+Also wenn Sie hier mit dem Programm arbeiten,
+
+0:03:36.930,0:03:40.710
+müssten Sie diese ausgefüllten
+Rechtecke nehmen als Transitionen.
+
+0:03:41.550,0:03:43.620
+Dann kann man die Transitionen bearbeiten.
+
+0:03:43.620,0:03:47.640
+Also zum Beispiel kann man die Ausrichtung ändern.
+
+0:03:47.640,0:03:51.600
+Nehmen wir an, ich möchte es gerne so zeichnen.
+
+0:03:51.600,0:03:58.260
+Dann kriege ich das so hin.
+
+0:03:58.260,0:04:02.670
+Und ich kann den Transitionen
+und Stellen Namen geben.
+
+0:04:02.670,0:04:05.880
+Da können wir uns auch schon direkt
+überlegen, was ich hier möchte.
+
+0:04:05.880,0:04:08.220
+Was ich gerne wollte für die beiden Transitionen:
+
+0:04:08.220,0:04:12.150
+Das sollen einmal die Hausaufgaben
+sein, die mein Sohn zu erledigen hat.
+
+0:04:12.150,0:04:18.180
+Und zum anderen geht er zum Training, macht also
+Sport, und das soll auch eine Handlung sein.
+
+0:04:19.140,0:04:23.160
+Vielleicht benenne ich tatsächlich
+zuerst die Transitionen.
+
+0:04:23.830,0:04:43.720
+Also zum Beispiel hier das "Hausaufgaben Machen"
+und diese andere Transition wäre das "Trainieren".
+
+0:04:47.200,0:04:50.740
+Dann wissen wir schon, damit so eine
+Transition ausgeführt werden kann,
+
+0:04:52.000,0:04:56.020
+in der Regel würde man irgendwie
+Ressourcen dafür brauchen.
+
+0:04:56.020,0:05:01.540
+Also es ist sicherlich nicht Zufall, dass
+ich hier schon zwei Stellen vorgesehen habe,
+
+0:05:01.540,0:05:03.910
+in die ich nachher noch Marken/Token legen möchte.
+
+0:05:03.910,0:05:07.180
+Also man könnte sich vorstellen, dass
+es hier eben diese eine Stelle gibt,
+
+0:05:07.180,0:05:09.235
+wo die gestellten Hausaufgaben sind.
+
+0:05:09.235,0:05:15.130
+Das können auch mehrere am Tag
+sein, die gestellten Hausaufgaben.
+
+0:05:15.130,0:05:18.880
+Und dann wären das hier unten
+wahrscheinlich die erledigten Aufgaben.
+
+0:05:18.880,0:05:21.400
+Und man könnte sich vorstellen, dass die Aktion,
+
+0:05:21.400,0:05:25.240
+Hausaufgaben zu machen, aus gestellten
+Hausaufgaben erledigte Hausaufgaben macht.
+
+0:05:25.240,0:05:35.380
+Und zwar genau dann, wenn ich
+dazwischen eben Verbindungen schaffe.
+
+0:05:35.380,0:05:41.110
+Da sehen Sie schon, da schreibt jetzt das Tool
+jeweils an die Verbindungen immer eine Eins dran.
+
+0:05:41.110,0:05:45.070
+Das entspricht in der Darstellung,
+die ich auf den Folien hatte,
+
+0:05:45.070,0:05:46.530
+dass an dem Pfeil gar nichts stehen würde.
+
+0:05:46.530,0:05:49.510
+Ich hatte gesagt, man kann
+hier Zahlen dranstehen haben.
+
+0:05:49.510,0:05:52.450
+Das entspricht dann der Gewichtung so einer Kante.
+
+0:05:53.170,0:05:54.160
+Und ich hatte gesagt:
+
+0:05:54.160,0:05:56.260
+Wenn da nichts dransteht,
+dann meinen wir implizit 1.
+
+0:05:56.260,0:05:58.750
+In dem Tool wird tatsächlich
+auch die 1 immer hingeschrieben.
+
+0:05:58.750,0:06:02.200
+Und hier drüben könnte man einfach fragen:
+
+0:06:02.200,0:06:05.740
+Was sind hier die Bedeutungen der Stellen?
+
+0:06:05.740,0:06:09.820
+Hier geht es um das Training, das ansteht,
+
+0:06:09.820,0:06:20.320
+und zum Beispiel hier die Nachstelle könnte
+sein, dass mein Sohn vom Training zurück ist.
+
+0:06:20.320,0:06:28.910
+Jetzt kann man hier auch noch Verbindungen ziehen,
+und dann kann man überlegen, dass es vermutlich
+
+0:06:28.910,0:06:33.110
+zwar nur einmal am Tag Training gibt, aber
+vielleicht mehrere Hausaufgaben zu erledigen sind.
+
+0:06:33.110,0:06:38.630
+Und das wäre dadurch ausgedrückt, dass auf diesen
+Stellen verschiedene Anzahlen von Marken liegen.
+
+0:06:38.630,0:06:41.900
+Hier oben mit diesem grünen Plus kann
+man Marken zu Stellen hinzufügen.
+
+0:06:41.900,0:06:46.730
+Also vielleicht gibt es drei
+Hausaufgaben am Tag und einmal Training.
+
+0:06:46.730,0:06:52.100
+Und dann könnte das mein erstes Petrinetz
+sein, das diesen Sachverhalt ausdrückt.
+
+0:06:53.120,0:06:54.440
+Was kann ich jetzt damit
+machen, mit diesem Petrinetz?
+
+0:06:54.440,0:06:55.400
+Ich kann es ausführen.
+
+0:06:55.400,0:06:58.850
+Also ich kann hier natürlich mit unserer
+Intuition aus der Vorlesung draufschauen und
+
+0:06:58.850,0:07:04.160
+sagen, dass ich zum Beispiel diese Transition
+ausführen könnte, weil hier eine Marke liegt.
+
+0:07:04.160,0:07:05.000
+Da liegen sogar drei.
+
+0:07:05.000,0:07:06.350
+Wenn ich einmal die Transition ausführen würde,
+
+0:07:06.350,0:07:08.930
+würde eine Marke von oben
+verschwinden und hier unten landen.
+
+0:07:08.930,0:07:10.070
+Und das kann ich auch tatsächlich tun.
+
+0:07:10.070,0:07:12.290
+Ich kann hier auf den Animationsmodus gehen,
+
+0:07:12.290,0:07:16.490
+und dann sehen wir zum einen hier
+links eine Animationshistorie.
+
+0:07:17.810,0:07:19.760
+Zuerst die Startmarkierung.
+
+0:07:19.760,0:07:22.430
+Das ist die, die ich gemalt habe.
+
+0:07:22.430,0:07:24.620
+Und dann sehen wir hier rot aufscheinend jetzt
+
+0:07:24.620,0:07:26.801
+diejenigen Transitionen,
+die gerade aktiviert sind.
+
+0:07:26.801,0:07:27.740
+Das sind am Anfang eben beide.
+
+0:07:27.740,0:07:30.320
+Dann kann ich tatsächlich
+hier Transitionen ausführen.
+
+0:07:30.320,0:07:32.480
+Ich kann sagen:
+Ich klicke hier drauf, möchte das ausführen.
+
+0:07:32.480,0:07:35.720
+Dann wird das a) hier links
+festgehalten, was passiert ist,
+
+0:07:35.720,0:07:39.440
+und b) wurde eben der Übergang ausgeführt
+und eine Marke ist hier runter gewandert.
+
+0:07:39.440,0:07:42.620
+Dann kann ich weitere Transitionen ausführen.
+
+0:07:42.620,0:07:46.880
+Und hier sehen wir auch, dass nachdem ich
+einmal das Trainieren ausgeführt habe,
+
+0:07:47.870,0:07:50.180
+diese Transition nicht mehr
+aktiviert ist, nicht mehr rot.
+
+0:07:50.180,0:07:54.440
+Das heißt, ich kann nur noch hier weiter
+schalten und dann hätte ich das Petrinetz
+
+0:07:54.440,0:07:57.530
+einmal vollständig ausgeführt und es wären
+keine weiteren Aktionen mehr möglich.
+
+0:07:57.530,0:08:01.046
+Und hier links würde ich sehen,
+was die Ausführungsgeschichte war:
+
+0:08:01.046,0:08:02.630
+Hausaufgaben machen, trainieren,
+Hausaufgaben machen, Hausaufgaben machen.
+
+0:08:06.230,0:08:06.890
+Was hier auch interessant ist:
+
+0:08:06.890,0:08:11.630
+Man kann auch, statt sich selbst
+durchzuklicken, das System anweisen,
+
+0:08:11.630,0:08:16.250
+einfach beliebige Reihenfolgen
+aktivierter Transitionen auszuführen.
+
+0:08:16.250,0:08:20.000
+Ich kann hier oben sagen:
+"randomly fire a transition".
+
+0:08:20.000,0:08:23.390
+Und dann würde das System in dem
+Fall zum Beispiel die rechte nehmen,
+
+0:08:23.390,0:08:28.160
+und ich würde jetzt hier eine
+mögliche Ausführungssequenz sehen.
+
+0:08:28.160,0:08:30.410
+Dann könnte ich eben, ohne
+mich da selber durchzuklicken,
+
+0:08:31.250,0:08:33.110
+das einfach mehrmals
+ausprobieren und dabei schauen:
+
+0:08:33.110,0:08:35.910
+Kommen hier denn sinnvolle Sequenzen heraus?
+
+0:08:35.910,0:08:38.640
+Wenn dem nicht so ist, dann habe ich
+vielleicht einen Modellierungsfehler gemacht.
+
+0:08:38.640,0:08:43.800
+In diesem einfachen Fall ist
+natürlich nicht besonders viel los.
+
+0:08:43.800,0:08:51.840
+Es gibt hier einige mögliche Abfolgen, die
+immer bestehen aus: dreimal Aufgaben machen,
+
+0:08:51.840,0:08:52.980
+einmal trainieren, in beliebiger Reihenfolge.
+
+0:08:53.550,0:08:57.540
+Weil, wenn wir in der Sprache von
+Parallelität und Nebenläufigkeit sind,
+
+0:08:57.540,0:09:00.840
+das hier völlig unabhängige Aktionsblöcke sind.
+
+0:09:00.840,0:09:05.670
+Also die sind nicht in irgendeiner
+Weise verknüpft, daher nebenläufig,
+
+0:09:05.670,0:09:09.030
+und jede beliebige Reihenfolge wäre möglich.
+
+0:09:11.250,0:09:12.720
+Das war jetzt noch sehr trivial.
+
+0:09:12.720,0:09:13.500
+Jetzt könnte man überlegen:
+
+0:09:15.480,0:09:21.240
+Wie könnte man das Modell interessanter machen,
+zum Beispiel, um auch mehrere Tage abzubilden?
+
+0:09:21.240,0:09:22.710
+Zunächst mal könnte man sagen:
+
+0:09:22.710,0:09:24.690
+Diese Blöcke müssen ja nicht
+völlig unabhängig sein.
+
+0:09:24.690,0:09:28.500
+Man könnte sich ja auch vorstellen, dass
+nicht einfach am Anfang hier drei Marken
+
+0:09:28.500,0:09:32.370
+liegen und hier eine Marke liegt, sondern dass
+diese Plätze erstmal befüllt werden müssen.
+
+0:09:33.180,0:09:36.450
+Es gibt einen Start des Tages
+oder des Nachmittages, und dann
+
+0:09:36.450,0:09:39.120
+werden die Aufgaben gestellt
+und das Training vorbereitet.
+
+0:09:39.120,0:09:39.720
+Und nicht einfach:
+
+0:09:39.720,0:09:40.560
+Da liegen schon Marken.
+
+0:09:40.560,0:09:44.640
+Wie könnte man das organisieren oder darstellen?
+
+0:09:46.590,0:09:49.680
+Man könnte zum Beispiel hier so eine Quelle haben.
+
+0:09:49.680,0:09:53.070
+Also eine Transitionen, die
+am Anfang zu schalten ist.
+
+0:10:00.540,0:10:02.670
+Wie könnte die heißen?
+
+0:10:02.670,0:10:05.010
+Die könnte heißen: "aus der Schule kommen".
+
+0:10:07.020,0:10:09.120
+Die Aktion, die den Nachmittag startet.
+
+0:10:09.120,0:10:11.550
+Mein Sohn kommt aus der Schule.
+
+0:10:11.550,0:10:21.450
+Und ich nehme mal die Marken von diesen Stellen
+wieder herunter und sorge stattdessen dafür, dass
+
+0:10:21.450,0:10:26.430
+wenn die Aktion "aus der Schule kommen" ausgeführt
+wird, dann diese beiden Stellen befüllt werden.
+
+0:10:26.430,0:10:31.440
+Und zwar die rechte Stelle tatsächlich
+mit einem Token durch diese 1,
+
+0:10:31.440,0:10:49.170
+und am linken Pfeil hätte
+ich gerne das Gewicht drei.
+
+0:10:49.170,0:10:54.570
+Damit das dem entspricht wie vorhin, nämlich
+dass direkt drei Hausaufgaben gestellt werden.
+
+0:10:54.570,0:10:58.140
+Jetzt sähe das Modell so aus.
+
+0:10:58.140,0:11:00.000
+Also am Anfang ist überhaupt nichts belegt,
+
+0:11:00.000,0:11:02.396
+aber es gibt eine Transition,
+die keine Vorbedingungen hat.
+
+0:11:02.396,0:11:04.080
+Das heißt, die kann direkt schalten.
+
+0:11:04.080,0:11:08.610
+Und wenn ich sie schalte, dann würden
+eben hier die drei Marken landen,
+
+0:11:08.610,0:11:12.420
+hier eine Marke landen, und dann könnte
+ich wieder Abläufe wie vorhin simulieren.
+
+0:11:16.470,0:11:21.780
+Jetzt können wir mehrere Tage simulieren.
+
+0:11:21.780,0:11:22.350
+Wir können sagen:
+
+0:11:24.450,0:11:28.440
+Wieder aus der Schule kommen, trainieren,
+Hausaufgaben, Hausaufgaben, Hausaufgaben, wieder
+
+0:11:28.440,0:11:34.890
+aus der Schule kommen, weitere
+Hausaufgaben machen, wieder trainieren, ...
+
+0:11:34.890,0:11:36.360
+Verschiedene Abläufe sind möglich.
+
+0:11:38.250,0:11:43.800
+Jetzt kann man auch feststellen, wenn ich das so
+modelliere, ist etwas ungünstig oder merkwürdig.
+
+0:11:43.800,0:11:47.700
+Es wäre nämlich auch möglich hier, da es
+keine Vorbedingungen für diese Transition
+
+0:11:47.700,0:11:51.990
+gibt, dass einfach sozusagen immer
+wieder aus der Schule gekommen wird,
+
+0:11:51.990,0:11:54.360
+ohne jemals Hausaufgaben zu
+machen oder zu trainieren.
+
+0:11:54.360,0:11:57.530
+Das ist sicherlich keine sinnvolle Abfolge.
+
+0:11:57.530,0:12:00.500
+Wir sehen auch, dass sich dann hier
+sehr viele Hausaufgaben ansammeln,
+
+0:12:00.500,0:12:01.760
+ohne jemals erledigt zu werden.
+
+0:12:02.840,0:12:07.970
+Das liegt an meiner im Moment
+etwas ungünstigen Modellierung,
+
+0:12:07.970,0:12:13.010
+dass ich einfach hier oben diese
+Transition völlig ohne Vorbedingung habe.
+
+0:12:13.640,0:12:15.230
+Das müsste man fixen.
+
+0:12:15.230,0:12:15.800
+Vielleicht könnte man sagen:
+
+0:12:15.800,0:12:17.540
+Es gibt noch eine Stelle.
+
+0:12:29.540,0:12:41.090
+Die möge einfach "Start" heißen, zum
+Beispiel, und die enthält eine Marke.
+
+0:12:41.090,0:12:49.460
+Und diese eine Marke ist Voraussetzung
+dafür, aus der Schule zu kommen.
+
+0:12:50.570,0:12:54.650
+So stelle ich mir das vor.
+
+0:12:54.650,0:12:58.730
+Das heißt, einmal würde diese Aktion "aus
+der Schule kommen" ausgeführt werden können.
+
+0:12:59.390,0:13:03.200
+Danach wären die Hausaufgaben
+belegt und das Training vorbereitet.
+
+0:13:03.200,0:13:04.790
+Also, probieren wir das aus.
+
+0:13:04.790,0:13:12.350
+Wenn ich so vorgehe, könnte ich hier
+"aus der Schule kommen" zu Beginn,
+
+0:13:12.350,0:13:14.840
+und dann beliebige Reihenfolge von
+Hausaufgaben machen und trainieren.
+
+0:13:14.840,0:13:17.510
+Und es kann nicht passieren, wie eben,
+dass mehrmals aus der Schule gekommen wird.
+
+0:13:17.510,0:13:20.810
+Weil es genau einmal hier am Anfang möglich ist.
+
+0:13:24.290,0:13:30.110
+Was könnte ich mir dann noch vorstellen,
+was zu einem Nachmittag gehört?
+
+0:13:30.110,0:13:32.840
+Vielleicht ist es gemein, dass
+man nur Hausaufgaben machen kann
+
+0:13:32.840,0:13:39.410
+und keine - neben dem Sport - noch anderen
+Freizeitbeschäftigungen oder Möglichkeiten hat.
+
+0:13:39.410,0:13:42.620
+Zum Beispiel würde mein Sohn
+tatsächlich natürlich einen
+
+0:13:44.480,0:13:46.790
+Teil des Nachmittages mit Spielen verbringen.
+
+0:13:46.790,0:14:10.850
+Also es möge sowohl noch eine Aktion
+als auch Ressourcen dafür geben.
+
+0:14:10.850,0:14:25.940
+Die Aktion wäre "spielen", und zwar
+wird mit der Playstation gespielt.
+
+0:14:25.940,0:14:36.170
+Deswegen muss hier eine Marke drauf liegen,
+damit diese Aktion dann ausgeführt werden kann.
+
+0:14:36.170,0:14:38.600
+Die Spielen-Aktion hat keine Nachbedingung.
+
+0:14:38.600,0:14:39.950
+Spielen ist sozusagen nicht produktiv.
+
+0:14:39.950,0:14:40.880
+Da kommt nichts heraus.
+
+0:14:40.880,0:14:43.640
+Während bei dem "Hausaufgaben machen"
+eben erledigte Aufgaben herauskommen.
+
+0:14:43.640,0:14:46.070
+Beim Spielen kommt nichts weiter heraus.
+
+0:14:48.110,0:14:51.830
+Dann könnte man sich auch vorstellen,
+dass es vielleicht ganz nett ist,
+
+0:14:51.830,0:14:55.160
+dass man nicht nur einmal spielen kann,
+sondern dass (insbesondere nachdem man
+
+0:14:55.160,0:15:00.380
+Hausaufgaben gemacht hat) man
+auch mehrmals spielen kann.
+
+0:15:00.380,0:15:03.230
+Das würde jetzt dafür sorgen, dass wenn
+Hausaufgaben gemacht wurden, a) die
+
+0:15:03.230,0:15:09.710
+Hausaufgaben erledigt sind, und b) hier auf
+dieser Playstation-Stelle weitere Marken lägen,
+
+0:15:09.710,0:15:13.850
+die es erlauben würden, öfter
+zu spielen als nur genau einmal.
+
+0:15:16.670,0:15:17.990
+Das wollte ich einführen.
+
+0:15:18.770,0:15:22.640
+Und dann hatte ich noch eine Idee.
+
+0:15:22.640,0:15:28.070
+In dem Ablauf gerade gab es einen
+Start und irgendwann war Schluss.
+
+0:15:28.070,0:15:31.370
+Es wäre aber sicherlich auch sinnvoll,
+vielleicht diesen Abschluss des
+
+0:15:32.750,0:15:37.100
+Tages/Nachmittages auch explizit in dem
+Ablaufprotokoll (das links immer entstand,
+
+0:15:37.100,0:15:40.310
+wenn ich so eine Simulation durchführte)
+wirklich als Aktion festzuhalten.
+
+0:15:40.310,0:15:41.900
+Dafür muss es eine Transition geben.
+
+0:15:41.900,0:15:48.200
+Die muss einen sinnvollen Namen haben, und
+die wäre eben auszuführen am Ende des Tages.
+
+0:15:48.200,0:15:53.420
+Also die könnte heißen: "Tagwerk getan".
+
+0:15:57.230,0:15:59.730
+Und wann ist das Tagwerk getan?
+
+0:15:59.730,0:16:06.750
+Nun, wenn die Hausaufgaben erledigt
+wurden und das Training beendet ist.
+
+0:16:06.750,0:16:12.030
+Und das Tagwerk ist auch wirklich erst getan,
+wenn alle drei Hausaufgaben erledigt wurden,
+
+0:16:12.030,0:16:17.460
+die hier oben angelegt wurden
+(die 3 sieht man da oben noch).
+
+0:16:18.420,0:16:23.490
+Also wir erwarten, dass diese drei Hausaufgaben
+erledigt werden, dann hier drei Marken liegen.
+
+0:16:23.490,0:16:28.140
+Und erst wenn dem so ist, soll es möglich sein,
+
+0:16:28.140,0:16:34.020
+diese Transition auszuführen,
+die den Nachmittag beendet.
+
+0:16:34.020,0:16:41.820
+Okay, das wäre jetzt mein
+aktueller Modellierungsstand.
+
+0:16:41.820,0:16:47.340
+Und dann können wir wieder mal schauen,
+welche Aktionen dadurch denn möglich werden.
+
+0:16:48.600,0:16:56.640
+Ob wir schon ein Modell haben, das
+irgendwie alle Intentionen erfasst.
+
+0:16:56.640,0:16:59.100
+Aber wir sehen schon direkt,
+dass hier etwas merkwürdig ist,
+
+0:16:59.100,0:17:03.030
+wenn wir uns die aktivierten
+Transitionen anschauen.
+
+0:17:03.030,0:17:07.440
+Dass hier die Aktion, zu spielen,
+
+0:17:07.440,0:17:13.170
+schon möglich ist, bevor überhaupt
+aus der Schule zurückgekommen wurde.
+
+0:17:13.170,0:17:14.400
+Das ist sicherlich ungünstig.
+
+0:17:14.400,0:17:19.830
+Wenn wir das mal ignorieren für den Moment,
+dann sind ansonsten die Abläufe schon sinnvoll.
+
+0:17:19.830,0:17:25.680
+Also aus der Schule kommen, vielleicht
+Hausaufgaben erledigen, einmal spielen,
+
+0:17:25.680,0:17:28.800
+sogar noch einmal spielen können (weil
+schon eine Hausaufgabe erledigt wurde),
+
+0:17:28.800,0:17:33.540
+dann vielleicht zum Training gehen, dann
+nach dem Training leider die weiteren
+
+0:17:33.540,0:17:36.210
+Hausaufgaben erledigen müssen,
+und dann sich zu entscheiden:
+
+0:17:36.210,0:17:38.430
+Ist gut für heute, Tagwerk getan,
+
+0:17:38.430,0:17:44.370
+oder vielleicht auch noch zu spielen und
+erst dann vielleicht den Tag zu beenden.
+
+0:17:45.990,0:17:48.210
+Also das wären ja schon sinnvolle Reihenfolgen.
+
+0:17:48.210,0:17:56.580
+Und auch wenn ich wieder die zufälligen Abläufe
+mache, kommen da (bis auf diesen Aspekt,
+
+0:17:56.580,0:18:02.220
+dass gespielt werden könnte, bevor aus der Schule
+zurückkommen wurde) sinnvolle Abfolgen heraus.
+
+0:18:06.000,0:18:13.850
+Wie kann ich dem Problem begegnen, dass
+hier unrealistischerweise das Spielen
+
+0:18:13.850,0:18:18.560
+(bzw. der Nachmittag) beginnt, bevor
+aus der Schule zurückgekommen wurde?
+
+0:18:18.560,0:18:20.900
+Das müsste man irgendwie noch kontrollieren.
+
+0:18:20.900,0:18:22.010
+Ich könnte natürlich sagen:
+
+0:18:22.010,0:18:24.230
+Wir kontrollieren das dadurch, dass
+ich diese Marke hier nicht habe.
+
+0:18:24.230,0:18:28.220
+Das würde aber nur am ersten Tag helfen.
+
+0:18:28.220,0:18:31.040
+Stellen wir uns vor, dass wir
+in Wirklichkeit natürlich nicht
+
+0:18:31.040,0:18:32.930
+nur einen einzigen Nachmittag modellieren wollen.
+
+0:18:32.930,0:18:33.500
+Und nehmen wir dafür an,
+
+0:18:35.150,0:18:44.510
+dass wir diese Startstelle wieder befüllen
+können, nämlich wenn das Tagwerk getan ist.
+
+0:18:44.510,0:18:50.390
+Nach einem vollen Durchlauf
+kann der nächste Tag beginnen.
+
+0:18:50.390,0:19:07.200
+Wenn ich das so mache, wird es mir auch nicht
+helfen, diese eine Marke hier zu entfernen.
+
+0:19:09.990,0:19:11.070
+Dann wäre es trotzdem so:
+
+0:19:11.070,0:19:13.740
+Wenn einmal aus der Schule gekommen
+wird, dann würden hier drei Hausaufgaben
+
+0:19:13.740,0:19:17.640
+sein, und wenn die erledigt werden,
+dann werden hier Token angesammelt.
+
+0:19:17.640,0:19:19.875
+Die werden vielleicht an dem
+Tag nicht alle verbraucht.
+
+0:19:19.875,0:19:24.360
+Und dann würde ich, wenn das Tagwerk
+getan ist und der nächste Tag startet,
+
+0:19:24.360,0:19:27.600
+plötzlich wieder spielen können, bevor
+aus der Schule zurückgekommen wird.
+
+0:19:27.600,0:19:29.460
+Also irgendwie müssten wir noch dafür sorgen,
+
+0:19:29.460,0:19:32.070
+dass diese Spielen-Aktion nicht
+einfach immer stattfinden kann.
+
+0:19:32.070,0:19:36.960
+Sondern nicht nur abhängt von
+der Belegung dieser Stelle hier,
+
+0:19:36.960,0:19:40.740
+sondern auch davon abhängt, ob wir
+gerade Nachmittag haben oder nicht.
+
+0:19:40.740,0:19:48.480
+Also ob die Aktion "aus der Schule kommen"
+im Vorfeld ausgeführt wurde oder nicht.
+
+0:19:48.480,0:19:56.460
+Es darf nicht direkt zu Beginn
+eines neuen Tages (nachdem das
+
+0:19:56.460,0:20:00.720
+Tagwerk des Vortages getan ist) schon
+diese Spielen-Aktion anwendbar sein.
+
+0:20:02.310,0:20:03.120
+Jetzt kann man sich fragen:
+
+0:20:03.120,0:20:04.680
+Wie könnte man das organisieren?
+
+0:20:04.680,0:20:05.370
+Kann man das verhindern?
+
+0:20:05.880,0:20:11.400
+Und da gibt es eine Möglichkeit, das
+ist ein typischer Modellierungstrick
+
+0:20:11.400,0:20:14.610
+oder Modellierungsmuster bei Petrinetzen.
+
+0:20:14.610,0:20:18.630
+Wenn man diese Ausführung von
+etwas abhängig machen will,
+
+0:20:18.630,0:20:22.950
+dann muss man natürlich eine Stelle
+haben, von der man eine Marke konsumiert.
+
+0:20:22.950,0:20:26.910
+Denn das ist die Art, wie man die Ausführung einer
+
+0:20:26.910,0:20:29.820
+Transition einschränkt ist: dass
+sie von einer Vorbedingung abhängt.
+
+0:20:29.820,0:20:33.330
+Also, wir hätten gern hier eine Stelle und die
+
+0:20:33.330,0:20:38.070
+Bedeutung davon soll letztlich
+sein, dass es nachmittags ist.
+
+0:20:38.070,0:20:40.650
+Diese Stelle soll irgendwie
+den Tatbestand ausdrücken,
+
+0:20:40.650,0:20:42.990
+dass wir gerade Nachmittag
+haben und nicht Vormittag.
+
+0:20:42.990,0:20:49.530
+Also benenne ich die zunächst
+erst mal entsprechend.
+
+0:20:50.100,0:20:51.210
+Ich nenne sie "nachmittags".
+
+0:20:51.210,0:20:57.840
+Die darf am Anfang natürlich nicht belegt sein.
+
+0:20:58.920,0:21:04.860
+Denn bevor diese "aus der Schule
+kommen"-Transition ausgeführt wurde,
+
+0:21:04.860,0:21:12.540
+ist es noch nicht Nachmittag (also noch
+nachts oder morgens oder im Schultag).
+
+0:21:14.280,0:21:17.250
+Aber was ich ausdrücken möchte, ist:
+
+0:21:17.250,0:21:22.890
+Wenn aus der Schule gekommen wird,
+dann wird hier diese Marke abgelegt.
+
+0:21:22.890,0:21:24.750
+Dann wissen wir, es ist jetzt nachmittags.
+
+0:21:25.620,0:21:28.860
+Und das möchte ich dann
+benutzen, um spielen zu können.
+
+0:21:28.860,0:21:33.330
+Also nur wenn es nachmittags
+ist, darf gespielt werden.
+
+0:21:35.580,0:21:36.960
+Ist es das schon?
+
+0:21:36.960,0:21:38.160
+Probieren wir es mal aus.
+
+0:21:38.160,0:21:43.230
+Ja, wenn ich aus der Schule
+komme, dann ist nachmittags,
+
+0:21:43.230,0:21:49.110
+und es sind Hausaufgaben zu machen, und es kann
+trainiert werden; dann könnten wir so vorgehen,
+
+0:21:49.110,0:21:52.350
+dann darf auch gespielt werden,
+weil diese Stelle hier belegt ist.
+
+0:21:53.250,0:21:56.430
+Da wird zum einen ein Token von hier
+konsumiert und zum anderen geguckt,
+
+0:21:56.430,0:21:57.720
+ob es überhaupt nachmittags ist.
+
+0:21:57.720,0:22:00.060
+Das Problem ist:
+
+0:22:00.060,0:22:01.380
+Danach könnte man nie wieder spielen.
+
+0:22:03.360,0:22:07.560
+Obwohl man hier sozusagen
+noch Token angesammelt hat,
+
+0:22:07.560,0:22:12.000
+weil ja schön Hausaufgaben gemacht wurden,
+darf trotzdem nicht noch mal gespielt werden.
+
+0:22:12.000,0:22:13.080
+Das kann so nicht sein.
+
+0:22:13.080,0:22:20.610
+Aber was wir tun könnten ist, tatsächlich diesen
+Pfeil in beide Richtungen wirken zu lassen.
+
+0:22:20.610,0:22:24.660
+Also um die Aktion "spielen"
+auszuführen, muss es nachmittags sein.
+
+0:22:24.660,0:22:26.040
+Hier muss also eine Marke liegen.
+
+0:22:26.040,0:22:28.380
+Nur wenn diese Marke dort
+liegt, kann gespielt werden.
+
+0:22:28.380,0:22:30.810
+Wir wollen dabei diese
+Marke aber nicht vernichten.
+
+0:22:30.810,0:22:35.100
+Das können wir verhindern, indem wir
+einen Pfeil in beide Richtungen haben.
+
+0:22:35.100,0:22:44.760
+Das sieht jetzt aus wie ein Doppelpfeil,
+aber in Wirklichkeit sind das zwei Pfeile.
+
+0:22:44.760,0:22:47.010
+Einer von hier nach hier,
+und einer von hier nach hier.
+
+0:22:47.010,0:22:53.430
+Das sorgt dafür, dass wenn diese Stelle belegt
+ist, und nur dann, überhaupt gespielt werden kann.
+
+0:22:53.430,0:22:56.820
+Dann wird diese Marke verbraucht,
+aber direkt wieder abgelegt.
+
+0:22:58.650,0:23:05.550
+Jetzt könnte ich tatsächlich zum
+Beispiel hier mehrere Marken ansammeln,
+
+0:23:05.550,0:23:07.590
+verdient durch das Hausaufgaben Machen.
+
+0:23:07.590,0:23:10.380
+Und dann könnte so oft gespielt
+werden, wie hier Marken liegen.
+
+0:23:10.380,0:23:12.360
+Aber auch nur, weil es nachmittags ist.
+
+0:23:12.360,0:23:18.000
+Wenn ich jetzt diese Aktion ausführe, wird diese
+eine Marke konsumiert, aber gleich zurückgelegt.
+
+0:23:18.000,0:23:21.270
+Während diese Token wirklich konsumiert
+werden, aber nicht zurückgelegt.
+
+0:23:21.270,0:23:27.570
+Sie sehen, die Transition bleibt solange
+aktiviert, wie hier die eine Marke liegt
+
+0:23:27.570,0:23:32.280
+(die aber auch wieder zurückgelegt wird)
+und solange wie hier noch Marken liegen.
+
+0:23:32.280,0:23:34.680
+Jetzt wäre es nicht mehr
+möglich, weiter zu spielen.
+
+0:23:34.680,0:23:40.320
+Aber nicht, weil es nicht nachmittags
+ist, sondern weil keine Token hier
+
+0:23:40.320,0:23:43.350
+angespart wurden (was zum Beispiel durch
+Hausaufgaben erledigen wieder ginge).
+
+0:23:46.230,0:23:47.370
+Das sieht gut aus.
+
+0:23:47.370,0:23:49.380
+Wie geht es dann weiter?
+
+0:23:49.380,0:23:51.600
+Dann ist das Tagwerk getan.
+
+0:23:51.600,0:23:54.390
+Dann beginnt ein neuer Nachmittag.
+
+0:23:54.390,0:23:55.470
+Das ist ungeschickt.
+
+0:23:55.470,0:23:58.890
+Wir wollen nicht wirklich, dass
+sich hier zwei Marken ansammeln.
+
+0:23:58.890,0:24:01.590
+Diese Nachmittagsstelle, die soll
+wirklich nur den Fakt darstellen:
+
+0:24:01.590,0:24:02.070
+Es ist nachmittags.
+
+0:24:02.070,0:24:04.590
+Es ist nicht zweimal gleichzeitig nachmittags.
+
+0:24:04.590,0:24:07.350
+Das soll eigentlich eine Stelle sein,
+wo immer null oder ein Token liegen,
+
+0:24:07.350,0:24:11.160
+und zwar je nachdem, ob es gerade nachmittags
+ist oder ob mein Sohn noch in der Schule ist.
+
+0:24:12.390,0:24:13.200
+Wie können wir das beheben?
+
+0:24:13.950,0:24:19.800
+Das Naheliegende ist, dass eben diese
+Nachmittags-Information verbraucht wird,
+
+0:24:19.800,0:24:20.940
+wenn der Tag zu Ende geht.
+
+0:24:20.940,0:24:29.670
+(Ich versuche das hier zu arrangieren,
+
+0:24:29.670,0:24:33.510
+dass man alles besser lesen kann.
+Ansonsten ändere ich gerade nichts.)
+
+0:24:43.910,0:24:47.420
+Wie wäre jetzt das Geschehen?
+
+0:24:47.420,0:24:53.000
+Aus der Schule kommen, dann ist es nachmittags.
+
+0:24:53.000,0:24:55.430
+Das heißt, es kann gespielt
+werden, solange hier Marken liegen.
+
+0:24:55.430,0:24:59.090
+Also es könnte auch direkt gespielt
+werden, und Hausaufgaben gemacht werden.
+
+0:24:59.090,0:25:01.700
+Das führt dazu, dass sich
+hier weitere Marken ansammeln.
+
+0:25:01.700,0:25:03.380
+Die muss man nicht sofort verbrauchen.
+
+0:25:03.380,0:25:05.450
+Es könnte auch trainiert werden,
+
+0:25:05.450,0:25:09.290
+und die letzten Hausaufgaben gemacht
+werden, und dann der Tag beendet werden.
+
+0:25:09.290,0:25:12.170
+Dann kann auch nicht mehr gespielt werden.
+
+0:25:12.170,0:25:14.570
+Es ist nachts oder der nächste Schulmorgen.
+
+0:25:14.570,0:25:18.290
+Das heißt, obwohl hier noch Marken angesammelt
+sind, kann jetzt nicht gespielt werden.
+
+0:25:18.290,0:25:20.120
+Weil noch nicht aus der
+Schule zurückgekommen wurde.
+
+0:25:20.120,0:25:24.050
+Wenn wieder aus der Schule zurückgekommen
+wird, dann ist es nachmittags, dann kann
+
+0:25:24.050,0:25:31.130
+gespielt werden, können hier sogar auch die
+angesparten Marken des Vortages verbraucht werden.
+
+0:25:31.130,0:25:35.210
+Also wenn am Vortrag nicht so oft
+die Playstation an war, kann das
+
+0:25:35.210,0:25:39.200
+jetzt am nächsten Tag öfter
+in Anspruch genommen werden.
+
+0:25:42.320,0:25:47.480
+Wenn wir dieses Modell einfach mal zufällig
+ablaufen lassen, also wirklich jetzt hier
+
+0:25:47.480,0:25:54.890
+zufällige Ausführungen durchführen, dann
+könnte ich eben vielleicht mit meinem
+
+0:25:54.890,0:26:03.980
+Sohn verhandeln, ob er die hier aufgeführten
+Reihenfolgen/Möglichkeiten sinnvoll findet.
+
+0:26:03.980,0:26:07.160
+Oder ob wir vielleicht an irgendwelchen
+Parametern drehen müssen, und ob er doch meint,
+
+0:26:07.160,0:26:10.580
+er kann auch während der Schulzeit
+spielen (weil wir gar nicht so weit
+
+0:26:10.580,0:26:13.310
+von der Schule weg wohnen und er in der Pause
+nach Hause gehen könnte) oder was auch immer.
+
+0:26:13.310,0:26:20.600
+Es ist hier *eine* Idee der
+Gestaltung festgehalten.
+
+0:26:20.600,0:26:23.300
+Man kann anhand des Petrinetzes diskutieren.
+
+0:26:23.300,0:26:26.420
+Man kann sich auch diese Dynamik anschauen,
+
+0:26:26.420,0:26:32.030
+also die erzeugten Sequenzen, und anhand
+derer zu einer Einschätzung kommen:
+
+0:26:32.030,0:26:34.130
+Hat man das richtig modelliert, was man wollte?
+
+0:26:34.130,0:26:36.440
+Oder sind noch Änderungen durchzuführen?
+
+0:26:36.440,0:26:43.760
+Man kann hier sogar auch auf einen
+Schlag lange Sequenzen erzeugen.
+
+0:26:43.760,0:26:44.840
+Also man kann sagen:
+
+0:26:44.840,0:26:47.360
+Ich möchte gern einfach mal
+hier links eine Historie sehen,
+
+0:26:47.360,0:26:51.530
+bei der das System etwa 50
+Schritte ausgeführt hat.
+
+0:26:51.530,0:26:56.010
+Dann kann ich noch sagen,
+wie schnell das gehen soll.
+
+0:26:56.010,0:27:03.900
+Und dann kann ich dem System sozusagen bei der
+Arbeit zuschauen und links die Abarbeitung sehen.
+
+0:27:09.210,0:27:10.950
+Es sind natürlich noch weitere
+Verfeinerungen möglich.
+
+0:27:10.950,0:27:26.029
+Man könnte sich zum Beispiel überlegen, dass
+vielleicht dieses Ansparen von Token zu viel ist.
+
+0:27:26.029,0:27:31.770
+Vielleicht bin ich ein sehr strenger Vater und
+möchte nicht, selbst wenn Montag, Dienstag,
+
+0:27:31.770,0:27:34.950
+Mittwoch immer fleißig Hausaufgaben gemacht
+wurden, dass dann am Donnerstag irgendwie
+
+0:27:34.950,0:27:38.610
+zehnmal auf einen Schlag gespielt wird, weil
+hier die ganzen Marken angesammelt sind.
+
+0:27:38.610,0:27:41.130
+Wenn ich das verhindern wollte,
+könnte ich zum Beispiel noch sagen:
+
+0:27:41.130,0:27:57.060
+Es gibt ein Wochenbudget, und da liegen
+vielleicht zu Beginn der Woche fünf Marken,
+
+0:27:57.060,0:28:02.070
+und wenn ich dann das Spielen
+auch noch davon abhängig mache,
+
+0:28:02.070,0:28:08.550
+dann könnte ich sozusagen die Gesamtzahl
+der Ausführungen dieser Aktion begrenzen.
+
+0:28:09.150,0:28:11.490
+Die wäre absolut begrenzt
+durch dieses Wochenbudget.
+
+0:28:11.490,0:28:16.290
+Und sie wäre dadurch begrenzt, dass
+nur nachmittags gespielt werden kann,
+
+0:28:16.290,0:28:18.300
+also wenn diese Stelle belegt ist.
+
+0:28:18.300,0:28:22.080
+Und sie wäre noch unabhängig
+von dem Insgesamt-Wochenbudget
+
+0:28:22.080,0:28:25.080
+jeweils dadurch beschränkt, ob denn
+auch Hausaufgaben gemacht wurden.
+
+0:28:25.080,0:28:32.040
+Vielleicht ist das jetzt
+meine finale Entscheidung,
+
+0:28:32.040,0:28:39.210
+wie Nachmittage gestaltet werden können.
+
+0:28:41.130,0:28:42.270
+Vielleicht etwas streng, und wie gesagt:
+
+0:28:42.270,0:28:46.500
+Das ist ja auch nur ein etwas
+augenzwinkerndes Beispiel.
+
+0:28:50.340,0:28:55.630
+Ich lade das auch als Datei hoch, so dass Sie
+auch selbst in dem Tool damit herumspielen können.
+
+0:28:55.630,0:28:57.400
+Aber vor allem sollen Sie
+das Tool natürlich nutzen,
+
+0:28:57.400,0:29:02.440
+um eigene Petrinetze zu erzeugen oder welche
+nachzubauen, damit herumzuexperimentieren.
+
+0:29:02.440,0:29:05.260
+Sei es für Übungsaufgaben, wo
+Sie etwas modellieren sollen,
+
+0:29:05.260,0:29:10.240
+oder sei es auch für Beispiele aus der Vorlesung
+von den Folien oder aus dem Übungsbetrieb,
+
+0:29:10.240,0:29:14.320
+wo es nicht um solche alltäglichen Modellierungen
+geht, sondern um künstliche Beispiele.
+
+0:29:14.320,0:29:18.070
+Da mag Ihnen auch manche Aufgabe
+einfacher zu bearbeiten sein,
+
+0:29:18.070,0:29:19.720
+wenn Sie nicht nur mit dem Papier arbeiten,
+
+0:29:19.720,0:29:24.040
+sondern tatsächlich einfach mal die Petrinetze
+nachbauen und konkret damit interagieren.
+
+0:29:24.040,0:29:30.160
+Also Aktionen ausführen, überprüfen, welche
+Reihenfolgen vielleicht möglich sind,
+
+0:29:30.160,0:29:31.780
+wann gefeuert werden kann und wann nicht, etc.
+
+0:29:31.780,0:29:35.380
+Dafür ist dieses Tool sehr praktisch.
