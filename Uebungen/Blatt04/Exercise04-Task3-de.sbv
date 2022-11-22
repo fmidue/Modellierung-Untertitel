@@ -1,0 +1,454 @@
+0:00:00.840,0:00:06.300
+In dieser Aufgabe haben wir diverse Szenarien
+vorgegeben, für die wir entscheiden sollen,
+
+0:00:06.300,0:00:11.700
+ob es sich bei der jeweils beschriebenen Beziehung
+um eine Assoziation, eine Aggregation oder eine
+
+0:00:11.700,0:00:16.860
+Komposition handelt. Speziell sollen wir auch
+jeweils immer die stärkste folgende Beziehung
+
+0:00:16.860,0:00:22.140
+angeben und natürlich ausführlich begründen.
+Diese Zahl ist nochmal extra angegeben,
+
+0:00:22.140,0:00:27.360
+denn wir wissen, dass eine Aggregation einer
+Komposition auch immer Assoziationen sind.
+
+0:00:27.360,0:00:32.640
+Denn eine Assoziation ist im Endeffekt nur das
+Vorhandensein irgendeiner Beziehung. Das heißt,
+
+0:00:32.640,0:00:36.660
+wenn wir diese Extrazeile nicht hätten, könnten
+wir einfach überall Assoziation dran schreiben
+
+0:00:36.660,0:00:42.420
+und damit wäre die Aufgabe ziemlich trivial.
+Also hier müssen wir ganz konkret darauf achten,
+
+0:00:42.420,0:00:47.820
+okay, diese Beziehung, die vorliegt, ist
+es mehr als eine Assoziation? Wenn ja,
+
+0:00:47.820,0:00:51.120
+ist es eine Aggregation oder ist es
+vielleicht sogar eine Komposition?
+
+0:00:52.020,0:00:58.410
+Dafür nochmal kurz als Erinnerung, der
+Unterschied, wie man entscheiden kann, ob es
+
+0:00:58.410,0:01:02.640
+eine Aggregation oder eine Komposition ist, grob
+gesagt, schaut man sich erst mal an, gibt es eine
+
+0:01:02.640,0:01:11.760
+Teil-Ganzes-Beziehung? Das heißt, ist irgendwas
+beschrieben, wo ein Teil eines beschriebenen
+
+0:01:11.760,0:01:16.980
+Objektes oder einer beschriebenen Sache, Teil
+eines größeren Ganzen ist. Wenn ja, dann haben
+
+0:01:16.980,0:01:23.700
+wir auf jeden Fall schon mal eine Aggregation und
+müssen uns im nächsten Schritt fragen, sind die
+
+0:01:23.700,0:01:30.420
+Lebenszeiten der Teilnehmer in dieser Beziehung
+voneinander abhängig? Das heißt, wenn wir das
+
+0:01:31.020,0:01:37.800
+große Ganze vernichten, verschwinden dann auch die
+Teile des großen Ganzen. Wenn das der Fall ist,
+
+0:01:37.800,0:01:42.540
+haben wir eine Komposition. Wenn die Teile
+auch alleine weiter existieren können, also die
+
+0:01:42.540,0:01:47.220
+Lebenszeiten nicht voneinander abhängig sind, dann
+haben wir nur eine Aggregation. Und wie gesagt,
+
+0:01:47.220,0:01:54.120
+wenn gar keine Teil-Ganzes-Beziehung vorliegt,
+dann haben wir nur eine einfache Assoziation. Also
+
+0:01:54.120,0:02:00.000
+für die erste Teilaufgabe haben wir vorgegeben,
+dass das Szenario eine Farbe ist in einem Gemälde.
+
+0:02:01.020,0:02:05.760
+Hier ist ganz klar, die Teil-Ganzes-Beziehung,
+die Farbe ist Teil des Gemäldes. Das heißt,
+
+0:02:05.760,0:02:09.360
+wir haben auf jeden Fall schon mal eine
+Aggregation und müssen uns jetzt fragen,
+
+0:02:10.800,0:02:15.780
+sind die Lebenszeiten voneinander abhängig? Hier
+ist es sehr stark von der Begründung abhängig,
+
+0:02:17.100,0:02:22.380
+wie es auch bei den danach sehr stark von
+der Begründung abhängig sein wird. Hier kann
+
+0:02:22.380,0:02:29.880
+man argumentieren, die Farbe als Abstraktes,
+also die Farbe Rot zum Beispiel als abstraktes
+
+0:02:29.880,0:02:35.160
+Konzept existiert natürlich weiter, selbst
+wenn wir ein Gemälde, wo rot drin ist,
+
+0:02:35.160,0:02:40.800
+vernichten würden. Damit hätten wir nur eine
+Aggregation. Andererseits kann man natürlich
+
+0:02:40.800,0:02:46.260
+auch argumentieren, dass wir die Farbe nicht als
+das abstrakte Konzept ansehen, sondern wir sehen
+
+0:02:46.260,0:02:53.280
+die Farbe direkt als die Farbe in der Tube konkret
+an. Und nehmen wir an, die Farbe wurde speziell
+
+0:02:53.280,0:02:59.400
+für dieses eine Gemälde zusammengemischt und wurde
+danach nirgendwo anders mehr benutzt und die Farbe
+
+0:02:59.400,0:03:04.200
+wurde vernichtet. Dann wäre es eine Komposition,
+weil wenn wir das Gemälde vernichten, dann haben
+
+0:03:04.200,0:03:11.100
+wir auch die einzigartige Farbe, die wir dafür
+benutzt haben, vernichtet. Also wie schon erwähnt,
+
+0:03:11.100,0:03:16.200
+da ist es sehr abhängig von der Begründung.
+Einfacher ist es hier natürlich zu sagen,
+
+0:03:16.200,0:03:22.680
+die Farbe als abstraktes Konzept in zum Beispiel
+blau oder rot existiert weiter, auch wenn wir
+
+0:03:22.680,0:03:30.180
+ein Gemälde vernichten, in dem wir blau oder rot
+gewählt haben. Somit hätten wir eine Aggregation.
+
+0:03:33.540,0:03:39.180
+Szenario B lautet, der menschliche Körper
+setzt sich aus Organen zusammen. Unsere
+
+0:03:39.180,0:03:44.940
+Teil-Ganzes-Beziehung hier ist, die Organe sind
+Teil des Körpers, was logisch ist. Und für die
+
+0:03:44.940,0:03:48.000
+Lebenszeit können wir auch hier wieder
+argumentieren, denn wir könnten sagen,
+
+0:03:48.000,0:03:52.500
+wenn der Körper stirbt, dann sterben auch die
+Organe. Damit hätten wir eine Komposition.
+
+0:03:52.500,0:03:58.500
+Andererseits gibt es Organtransplantationen. Das
+heißt, wenn die Organe nach dem Tod des Körpers
+
+0:03:58.500,0:04:02.880
+entnommen werden, existieren sie trotzdem
+weiter. Und da wären wir wieder bei einer
+
+0:04:02.880,0:04:08.400
+Aggregation. Also auch hier wie bei den
+anderen, die wir gleich auch noch machen werden,
+
+0:04:09.420,0:04:13.560
+es ist immer sehr stark von der Begründung
+abhängig. Deswegen ist auch hier noch einmal
+
+0:04:13.560,0:04:18.900
+besonders erwähnt, Antworten ohne Begründung
+werden ignoriert, weil es für niemanden hilfreich
+
+0:04:18.900,0:04:22.440
+ist. Man könnte theoretisch alles daran
+setzen, je nachdem wie man argumentiert.
+
+0:04:24.960,0:04:30.480
+Bei C haben wir, auf dem Telefon sind
+Bilder gespeichert. Bilder gespeichert,
+
+0:04:30.480,0:04:37.500
+auf dem Telefon ist unsere Teil-Ganzes-Beziehung.
+Die Bilder sind Teil des Telefons und je nachdem,
+
+0:04:37.500,0:04:42.000
+wie wir jetzt argumentieren, könnten wir sagen,
+die Bilder sind zwar auf dem Telefon gespeichert,
+
+0:04:42.000,0:04:48.060
+also wenn wir das Telefon vernichten, dann würden
+die Bilder auf diesem Telefon auch verschwinden.
+
+0:04:48.060,0:04:52.740
+Allerdings können die Bilder zum Beispiel auch
+in der Cloud gespeichert sein. Oder wir haben
+
+0:04:52.740,0:04:57.600
+sie von unserem Computer auf das Telefon gezogen
+und haben sie noch auf dem Computer oder auf einem
+
+0:04:57.600,0:05:01.860
+anderen Speichermedium gespeichert. Also würden
+die Bilder weiter existieren. Damit hätten wir
+
+0:05:01.860,0:05:07.440
+dann eine Aggregation. Wenn wir argumentieren,
+die Bilder sind wirklich nur auf diesem Telefon
+
+0:05:07.440,0:05:10.860
+gespeichert und wir vernichten das Telefon,
+dann verschwinden natürlich auch die Bilder
+
+0:05:10.860,0:05:13.800
+und sind nirgendwo anders mehr vorhanden.
+Und damit hätten wir eine Komposition.
+
+0:05:18.180,0:05:23.880
+Für Szenario D haben wir eine Universität,
+mit vielen Lehrstühle. Sonst ist hier nichts
+
+0:05:23.880,0:05:28.800
+beschrieben. Das heißt, die Lehrstühle sind
+mehr oder weniger hier als das abstrakte Konzept
+
+0:05:28.800,0:05:35.160
+angegeben. Und wenn wir eine Universität
+auflösen, dann fallen natürlich auch alle
+
+0:05:35.160,0:05:40.200
+Lehrstühle dieser Universität weg. Das heißt,
+hier haben wir ziemlich klar eine Komposition,
+
+0:05:40.200,0:05:47.880
+da wir hier keine weiteren Informationen haben.
+Man kann natürlich auch argumentieren und sagen,
+
+0:05:47.880,0:05:52.500
+die Lehrstühle bestehen ja auch immer aus
+Mitarbeitern et cetera, aber in diesem Fall
+
+0:05:53.340,0:05:59.880
+gibt das Szenario wirklich nicht so viel her.
+Die Lehrstühle sind einfach nur das abstrakte
+
+0:05:59.880,0:06:05.040
+Konzept dieser Gruppe aus Mitarbeitern, die halt
+wirklich mit Auflösen der Universität wegfällt.
+
+0:06:05.040,0:06:12.840
+Also ist es hier ziemlich klar eine Komposition.
+Bei D gehen wir konkret in die Lehrstühle rein.
+
+0:06:12.840,0:06:17.640
+Hier kriegen wir jetzt mehr Informationen. Hier
+ist angegeben, an einem Lehrstuhl arbeiten mehrere
+
+0:06:17.640,0:06:23.580
+Personen als wissenschaftliche Mitarbeiter. Es
+ist nicht so ganz eindeutig, denn hier können
+
+0:06:23.580,0:06:28.440
+wir argumentieren, wenn der Lehrstuhl aufgelöst
+wird, dann bringen wir nicht alle Mitarbeiter um.
+
+0:06:28.440,0:06:36.600
+Dementsprechend ist das eher eine Aggregation
+als eine Komposition, denn die Personen,
+
+0:06:36.600,0:06:40.620
+die vorher als wissenschaftliche Mitarbeiter
+gearbeitet haben, existieren immer noch weiter,
+
+0:06:40.620,0:06:44.040
+selbst wenn der Lehrstuhl aufgelöst
+wird. Andererseits kann man sagen,
+
+0:06:44.040,0:06:48.480
+wenn wir den Lehrstuhl auflösen, dann gibt es
+zwar vielleicht die Personen noch, aber sie
+
+0:06:48.480,0:06:53.700
+sind keine wissenschaftlichen Mitarbeiter mehr.
+Dementsprechend gibt es die wissenschaftlichen
+
+0:06:53.700,0:06:58.020
+Mitarbeiter nicht mehr, wenn wir den Lehrstuhl
+aufgelöst haben und es wäre eine Komposition.
+
+0:07:01.500,0:07:07.620
+Bei F haben wir der Raum LF233
+befindet sich im Gebäude LF.
+
+0:07:09.180,0:07:14.040
+Hier ist die Teil-Ganzes-Beziehung, der Raum
+ist Teil des Gebäudes und wenn wir das Gebäude
+
+0:07:14.040,0:07:18.960
+abreißen, dann ist normalerweise auch der Raum
+weg, vor allem, wenn der Raum in der zweiten Etage
+
+0:07:18.960,0:07:25.020
+ist. Also hier ziemlich klar eine Komposition
+wieder. Man könnte natürlich auch sagen,
+
+0:07:25.020,0:07:32.040
+selbst wenn wir das Gebäude LF abreißen, dann
+gibt es den Raum vielleicht noch. Vielleicht ist
+
+0:07:32.040,0:07:35.640
+er irgendwie intakt geblieben, aber wenn wir
+das Gebäude ganz drumherum abgerissen haben,
+
+0:07:35.640,0:07:40.080
+dann ist es normalerweise nicht mehr wirklich ein
+Raum. Also Aggregation ist hier weniger möglich.
+
+0:07:42.360,0:07:47.520
+Bei G haben wir, das Gebäude LF ist
+Teil der Universität Duisburg-Essen.
+
+0:07:48.960,0:07:53.640
+Hier ist ganz klar direkt im Text gegeben, das
+Gebäude ist Teil der Universität. Wenn wir die
+
+0:07:53.640,0:08:00.480
+Universität auflösen, dann gibt es das Gebäude
+LF zwar in Form LF nicht mehr, aber das Gebäude
+
+0:08:00.480,0:08:06.660
+selber existiert ja noch. Also es ist hier
+eher eine Aggregation als eine Komposition.
+
+0:08:06.660,0:08:12.960
+Wo man natürlich auch hier argumentieren kann, das
+Gebäude gibt es zwar noch, aber es ist nicht mehr
+
+0:08:12.960,0:08:16.680
+das Gebäude LF. Das ist hier dann im Endeffekt der
+Fall, wie bei dem Lehrstuhl und den Mitarbeitern.
+
+0:08:19.020,0:08:23.220
+Das Gebäude existiert so noch, aber es ist
+nicht mehr das Gebäude LF. Daher wäre es
+
+0:08:23.220,0:08:27.900
+dann vielleicht doch eher eine Komposition. Auch
+hier wieder stark von der Begründung abhängig.
+
+0:08:29.160,0:08:33.780
+Bei H haben wir, in der Vorlesung sitzen
+Studierende. Hier ist gar nicht wirklich
+
+0:08:33.780,0:08:40.740
+klar, ob eine Teil-Ganzes-Beziehung vorliegt. Die
+Vorlesung selber ist nicht Teil der Studierenden,
+
+0:08:40.740,0:08:45.900
+Studierende sind aber auch nicht unbedingt Teil
+der Vorlesung, denn die Vorlesung könnte ja auch
+
+0:08:45.900,0:08:50.280
+komplett vor einem leeren Saal stattfinden.
+Dann wäre es immer noch eine Vorlesung. Das
+
+0:08:50.280,0:08:54.240
+heißt, hier haben wir nicht wirklich eine
+Teil-Ganzes-Beziehung und dementsprechend
+
+0:08:54.240,0:08:58.500
+haben wir hier wirklich eher eine Assoziation
+als alles andere. Wir haben auf jeden Fall keine
+
+0:08:58.500,0:09:04.080
+Komposition, weil die Studierenden werden nicht
+umgebracht, wenn die Vorlesung nicht existiert.
+
+0:09:04.080,0:09:09.600
+Und umgekehrt gibt es trotzdem Studierende,
+auch wenn es eine Vorlesung nicht mehr gibt.
+
+0:09:13.560,0:09:19.980
+Aggregation wäre vielleicht denkbar, wenn man
+sagt, die Studierenden sind Teil der Vorlesung.
+
+0:09:22.800,0:09:26.400
+Man könnte sagen, dass eine Assoziation
+hier wirklich besser passt. Denn wie gesagt,
+
+0:09:26.400,0:09:30.660
+die können beide eigentlich separat
+voneinander existieren und es gibt
+
+0:09:30.660,0:09:37.920
+nicht wirklich eine ganze Teil-Ganzes-Beziehung
+her. Für I haben wir, die Erde hat verschiedene
+
+0:09:37.920,0:09:44.880
+Kontinente, Kontinente sind Teil der
+Erde und wenn wir die Erde vernichten,
+
+0:09:44.880,0:09:52.740
+dann verschwinden auch die Kontinente. Selbst wenn
+die Kontinente irgendwie ins Weltall abdriften,
+
+0:09:52.740,0:09:59.880
+dann sind es keine Kontinente mehr. Deswegen ist
+hier ziemlich klar, dass es eine Komposition ist.
+
+0:10:01.200,0:10:07.380
+Und als letztes Szenario, ein Haus steht an einer
+Straße. Auch hier ist es wieder nicht wirklich
+
+0:10:07.380,0:10:11.220
+klar, ob überhaupt eine Teil-Ganzes-Beziehung
+vorliegt, denn ein Haus braucht nicht unbedingt
+
+0:10:11.220,0:10:16.140
+eine Straße. Ein Haus ist auf jeden Fall nicht
+Teil einer Straße, denn das Haus steht ja nicht
+
+0:10:16.140,0:10:20.220
+in der Straße, sondern an der Straße. Wenn man
+es umgekehrt betrachtet, die Straße ist nicht
+
+0:10:20.220,0:10:25.680
+Teil eines Hauses, denn die Straße kann alleine
+existieren, das Haus kann alleine existieren. Hier
+
+0:10:25.680,0:10:31.380
+ist es ziemlich klar auch wieder eine Assoziation,
+denn es gibt keine Teil-Ganzes-Beziehung und
+
+0:10:31.380,0:10:35.940
+dementsprechend ist Aggregation oder Komposition
+gar nicht möglich und die Lebenszeiten sind auch
+
+0:10:35.940,0:10:39.780
+nicht voneinander abhängig. Wenn wir das
+Haus abreißen, gibt es die Straße noch.
+
+0:10:39.780,0:10:43.980
+Wenn wir die Straße abreißen, gibt es das Haus
+auch immer noch. Also hier ganz klar Assoziation
+
+0:10:45.780,0:10:47.940
+und damit wäre die Aufgabe gelöst.

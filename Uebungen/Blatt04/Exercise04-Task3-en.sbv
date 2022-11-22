@@ -1,0 +1,150 @@
+0:00:02.640,0:00:12.960
+Welcome to this task about deciding the
+relationship type for different scenarios. We
+
+0:00:12.960,0:00:20.520
+shall decide for each of these cases whether we've
+got an association, aggregation, or composition.
+
+0:00:22.740,0:00:33.420
+We shall also justify our decision. We shall
+choose the strongest existing relationship type.
+
+0:00:35.760,0:00:44.760
+The first example is a color is in a
+painting. We know that color can be
+
+0:00:44.760,0:00:51.840
+in different paintings. But, of course, the
+painting consists of all these colors. So,
+
+0:00:55.620,0:01:01.560
+it's an aggregation. The important thing
+is that it is not composition is because
+
+0:01:01.560,0:01:08.580
+the colors could also be used in another
+painting. That is why it is an aggregation.
+
+0:01:09.840,0:01:18.180
+The human body consists of organs. In this
+case, I think we've got a composition. Because
+
+0:01:20.400,0:01:29.160
+when the body doesn't exist anymore, then
+the organs won't be any more as well.
+
+0:01:31.080,0:01:41.700
+Only if we consider the case of organ donations,
+then could we say it's not a composition. It's
+
+0:01:41.700,0:01:47.460
+rather an aggregation. Because then the organs
+could be transferred to another body and could
+
+0:01:47.460,0:01:55.440
+be used there. So, the relationship in that case
+between body and organs would be an aggregation.
+
+0:01:58.320,0:02:00.060
+Pictures are stored on the phone.
+
+0:02:02.100,0:02:14.160
+This would be an aggregation because the pictures
+could also be stored on another device. So, it's
+
+0:02:14.160,0:02:22.560
+not exclusive to the phone. That's why there is an
+aggregation here. A university has many teaching
+
+0:02:22.560,0:02:34.980
+chairs. In this case, it would be a composition
+because if the university is closed, then there
+
+0:02:34.980,0:02:40.980
+wouldn't be any teaching chairs anymore. So,
+the teaching chairs exist only because of the
+
+0:02:40.980,0:02:45.780
+university. And if the university is closed,
+then the teaching chairs are closed as well.
+
+0:02:50.220,0:02:59.640
+The next one is, at a teaching chair,
+several persons are working as assistants.
+
+0:03:02.160,0:03:10.320
+In this case, it's no composition like in
+the case before. It's rather an aggregation.
+
+0:03:14.520,0:03:24.720
+Because after a teaching chair is dissolved,
+the persons are still existing and working.
+
+0:03:24.720,0:03:32.520
+Assistance could work anywhere else. And they are
+not destroyed by dissolving the teaching chair.
+
+0:03:33.900,0:03:43.680
+Then, the room LF233 can be found in the building
+LF. This is a composition because the building
+
+0:03:43.680,0:03:50.340
+consists of these rooms. And if the building
+is gone, then the room won't be anymore. So,
+
+0:03:50.340,0:03:59.760
+if the building is destroyed, then you can't go
+to the room LF233 anymore. And that's why this
+
+0:03:59.760,0:04:09.720
+is a composition. The building LF is part of the
+University of Duisburg-Essen. This is rather an
+
+0:04:09.720,0:04:20.160
+aggregation because the university consists of
+multiple buildings. But when the university is
+
+0:04:20.160,0:04:28.920
+dissolved, then the building will still exist.
+It could be part of anything else. Transferred
+
+0:04:31.260,0:04:44.520
+maybe in housing or into a clinic or something
+else. The next one is students attend a lecture.
+
+0:04:45.960,0:04:54.240
+In this case, the lecture is not really
+dependent on the students. And it
+
+0:04:54.240,0:05:09.120
+also happens if there are no students. It's rather
+an association between students and lectures.
+
+0:05:11.520,0:05:20.160
+The next one, the earth has different continents.
+If you think about what happens when the earth is
+
+0:05:20.160,0:05:28.260
+destroyed, there will be no continents anymore.
+That is why we have a composition in that case.
+
+0:05:30.780,0:05:42.300
+The last one is, a house is placed in a street. In
+this case, we could think about how the house and
+
+0:05:42.300,0:05:52.860
+the street relate. And we think about the house
+exists and the street exists. But they are only
+
+0:05:52.860,0:06:04.320
+connected by the address. The only relation
+is the address. It's a simple association.
+
+0:06:06.240,0:06:11.400
+There are no real dependencies
+between the house and the street.
+
+0:06:12.480,0:06:21.300
+So, that's everything for deciding for
+all these examples. Thank you very much.
