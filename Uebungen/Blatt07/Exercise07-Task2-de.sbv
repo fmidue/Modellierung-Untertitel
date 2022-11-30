@@ -1,0 +1,547 @@
+0:00:04.390,0:00:08.290
+In dieser Aufgabe geht es um die Dynamik von
+Petrinetzen.
+
+0:00:08.290,0:00:15.119
+Wir haben hier diese drei Petrinetze gegeben
+und sollen eine erreichbare Markierung angeben,
+
+0:00:15.119,0:00:17.730
+die keine Nachfolgemarkierung hat.
+
+0:00:17.730,0:00:23.529
+Außerdem sollen wir noch Transitionen angeben,
+die nacheinander schalten müssen, um zu dieser
+
+0:00:23.529,0:00:25.609
+Markierung zu kommen.
+
+0:00:25.609,0:00:30.390
+Damit das ein bisschen deutlicher sichtbar
+ist, habe ich mir hier unten nochmal die Petrinetze
+
+0:00:30.390,0:00:37.210
+ohne irgendeine Markierung gezeichnet und
+werde jetzt Schritt für Schritt diese Markierung
+
+0:00:37.210,0:00:44.610
+durchgehen, damit wir eine Lösung herausfinden
+können.
+
+0:00:44.610,0:00:50.570
+Die Startmarkierung von dem Petrinetz N1,
+mit dem wir anfangen wollen, ist, dass eine
+
+0:00:50.570,0:00:52.420
+Marke auf s4 liegt.
+
+0:00:52.420,0:00:58.969
+Das bedeutet, und damit fange ich an, ich
+lege eine Marke auf s4, damit es wie die Startmarkierung
+
+0:00:58.969,0:01:00.019
+ist.
+
+0:01:00.019,0:01:04.970
+Wir gucken, weil wir hier jetzt eine Marke
+haben, was von hier aus schalten kann.
+
+0:01:04.970,0:01:09.770
+t2 können wir zum Beispiel schalten, weil
+die Vorbedingung ist, dass eine Marke hineingeht.
+
+0:01:09.770,0:01:12.250
+Und die ist ja in diesem Fall erfüllt.
+
+0:01:12.250,0:01:19.330
+Ich schreibe mir jetzt schon mal auf, wir
+haben t2 schalten lassen.
+
+0:01:19.330,0:01:28.071
+Ich nehme die Vorbedingung, diesen Marker,
+hier raus und gucke, was ist die Nachbedingung?
+
+0:01:28.071,0:01:36.400
+Da geht eine Marke zu s2, und die andere Nachbedingung
+ist, dass eine Marke zu s3 geht.
+
+0:01:36.400,0:01:41.210
+Dann gucken wir uns als nächstes einen von
+den beiden an, welcher ist egal.
+
+0:01:41.210,0:01:43.939
+Was kann hier als nächstes schalten?
+
+0:01:43.939,0:01:49.220
+Von hier aus kann es t1, weil hier die Vorbedingung
+ist, dass eine Marke in t1 reingeht.
+
+0:01:49.220,0:01:54.439
+Also nehme ich hier die Marke weg und lasse
+t1 schalten.
+
+0:01:54.439,0:01:56.630
+Und hier ist die Nachbedingung, dass eine
+Marke rauskommt.
+
+0:01:56.630,0:01:59.340
+Also kommt eine Marke hier raus.
+
+0:01:59.340,0:02:02.439
+Die zweite wäre also t1.
+
+0:02:02.439,0:02:11.790
+Nun können wir zuletzt noch hier sehen, die
+Vorbedingung zu t3 ist, dass eine Marke reingeht,
+
+0:02:11.790,0:02:13.940
+also machen wir die Marke weg.
+
+0:02:13.940,0:02:16.290
+Und dass eine Marke rausgeht aus t3.
+
+0:02:16.290,0:02:17.290
+Die kommt da hin.
+
+0:02:17.290,0:02:28.230
+Wenn wir jetzt t3 schalten lassen haben, sind
+wir an einem Punkt angekommen, wo keine weitere
+
+0:02:28.230,0:02:29.480
+Transition mehr schalten kann.
+
+0:02:29.480,0:02:37.269
+Wenn wir uns jetzt aber nochmal den Fall angucken,
+den wir hier vorhin hatten, nachdem t2 geschaltet
+
+0:02:37.269,0:02:39.590
+hatte, dann sah das ja so aus.
+
+0:02:39.590,0:02:43.450
+Ich schreibe mal auf, t2 hat geschaltet.
+
+0:02:43.450,0:02:49.670
+Hier in diesem Fall könnte rein theoretisch
+ja auch erst t3 schalten, weil die Vorbedingung
+
+0:02:49.670,0:02:57.770
+ja erfüllt ist, dann würde der hier verschwinden,
+und dann erst t1.
+
+0:02:57.770,0:03:03.140
+Dann würde hier eine Marke verschwinden und
+hier eine Marke auftauchen.
+
+0:03:03.140,0:03:05.620
+Und wir müssten hier t1 schreiben.
+
+0:03:05.620,0:03:08.260
+Diese zwei Möglichkeiten wären also möglich.
+
+0:03:08.260,0:03:13.981
+Jetzt sind wir bei der Markierung angekommen,
+die halt keine Nachfolgemarkierung hat, das
+
+0:03:13.981,0:03:15.640
+bedeutet, wir schreiben sie noch auf.
+
+0:03:15.640,0:03:21.370
+Da gibt es zwei verschiedene Schreibweisen,
+die erste ist, dass wir für jede Stelle einzeln
+
+0:03:21.370,0:03:38.400
+aufschreiben, s1 hat zwei Marken, s2 hat null
+Marken, s3 hat null Marken und s4 hat auch
+
+0:03:38.400,0:03:39.430
+null Marken.
+
+0:03:39.430,0:03:45.300
+Ich könnte das, rein theoretisch, auch so
+in Klammern aufschreiben, (2,0,0,0).
+
+0:03:45.300,0:03:59.780
+Dann ist aber wichtig, dass ihr hinzuschreibt,
+dass die Stellenreihenfolge (s1,s2,s3,s4)
+
+0:03:59.780,0:04:04.780
+gilt.
+
+0:04:04.780,0:04:12.730
+Und damit wäre das für dieses Petrinetz
+auch schon gelöst.
+
+0:04:12.730,0:04:14.659
+Gucken wir uns das nächste Petrinetz an.
+
+0:04:14.659,0:04:17.160
+Wir schauen zuerst, was war die Startmarkierung?
+
+0:04:17.160,0:04:21.800
+Die Startmarkierung ist, dass eine Marke auf
+s1 liegt.
+
+0:04:21.800,0:04:28.120
+Das bedeutet, wir machen hier wieder eine
+Marke hin und gucken, was kann schalten?
+
+0:04:28.120,0:04:34.380
+Hier gibt es auch wieder zwei Transitionen,
+die möglicherweise schalten könnten.
+
+0:04:34.380,0:04:37.680
+Fangen wir zuerst mit t2 an.
+
+0:04:37.680,0:04:43.580
+Hier könnte also die eine Marke als Vorbedingung
+in t2 reingehen, also t2 könnte schalten.
+
+0:04:43.580,0:04:47.880
+Hier würde dann die Marke verschwinden und
+die Nachbedingung ist, dass eine Marke wieder
+
+0:04:47.880,0:04:50.560
+rauskommt, also eine Marke auftaucht.
+
+0:04:50.560,0:05:01.070
+Jetzt sind wir schon an einem Punkt, ich nenne
+ihn a., wo keine andere Markierung mehr möglich
+
+0:05:01.070,0:05:02.070
+ist.
+
+0:05:02.070,0:05:07.920
+Es hätte aber auch die Möglichkeit gegeben,
+dass hier, wenn wir wieder die Startmarkierung
+
+0:05:07.920,0:05:10.480
+haben, auch t1 schaltet.
+
+0:05:10.480,0:05:12.200
+Das nenne ich einfach mal b..
+
+0:05:12.200,0:05:18.640
+Das heißt, zuerst schaltet t1, dann verschwindet
+diese Marke als Vorbedingung in t1. t1 kann
+
+0:05:18.640,0:05:24.600
+feuern und feuert als Nachbedingung eine Marke
+in s2 rein.
+
+0:05:24.600,0:05:29.700
+Jetzt kann von s2 aus nur t3 feuern.
+
+0:05:29.700,0:05:38.580
+Eine Marke geht also als Vorbedingung in t3
+rein und als Nachbedingung, wenn t3 dann feuert,
+
+0:05:38.580,0:05:43.100
+kommt eine Marke raus, die in s4 landet und
+eine Marke, die wieder in s1 landet.
+
+0:05:43.100,0:05:48.530
+Jetzt sind wir an einem Punkt angekommen,
+jetzt könnte zum Beispiel t2 wieder feuern,
+
+0:05:48.530,0:05:57.970
+was bedeutet, eine Marke geht rein, eine Marke
+geht wieder raus, weil hier kein Gewicht dransteht
+
+0:05:57.970,0:05:59.730
+und damit das Gewicht 1 ist.
+
+0:05:59.730,0:06:05.680
+Und dann wären wir wieder bei der gleichen
+Endmarkierung, außer, dass jetzt in s4 eine
+
+0:06:05.680,0:06:07.020
+Marke drin liegt.
+
+0:06:07.020,0:06:12.050
+Rein theoretisch wäre es auch möglich, dass
+zum Beispiel von diesem Punkt an, wenn wir
+
+0:06:12.050,0:06:17.100
+t1 und t3 geschaltet haben, nochmal t1 und
+t3 schalten.
+
+0:06:17.100,0:06:21.100
+Das nenne ich einfach mal Fall c..
+
+0:06:21.100,0:06:27.390
+Dass t1 geschaltet hat, t3 geschaltet hat
+und dann wieder t1 schaltet.
+
+0:06:27.390,0:06:32.480
+Dann wären wir jetzt an diesem Punkt, dass
+die Marke hier liegt.
+
+0:06:32.480,0:06:37.380
+Und dann könnte wieder t3 nur schalten.
+
+0:06:37.380,0:06:43.630
+Dann würde die Marke verschwinden als Vorbedingung
+und eine Marke hier auftauchen als Nachbedingung,
+
+0:06:43.630,0:06:44.870
+und eine Marke wieder hier auftauchen.
+
+0:06:44.870,0:06:51.440
+Mit anderen Worten, wir können t1 und t3
+beliebig häufig nacheinander schalten, und
+
+0:06:51.440,0:06:55.120
+desto mehr Marken würden hier in s4 auftauchen.
+
+0:06:55.120,0:07:07.650
+Und beenden könnten wir es damit, dass hier
+dann t2 zuletzt geschaltet würde und damit
+
+0:07:07.650,0:07:14.830
+würde eine Marke hier in s3 am Ende auftauchen
+und wir wären fertig.
+
+0:07:14.830,0:07:22.120
+Das heißt, für a. wäre jetzt die Endmarkierung,
+auf der keine Nachfolgemarkierung entstehen
+
+0:07:22.120,0:07:28.850
+könnte, ich schreibe das jetzt mal hier oben
+wie hier auf, weil das Platz spart, wäre
+
+0:07:28.850,0:07:30.090
+die Reihenfolge.
+
+0:07:30.090,0:07:40.270
+In s1 liegt keiner, in s2 liegt keiner, in
+s3 liegt einer und in s4 liegt auch keiner,
+
+0:07:40.270,0:07:42.650
+wenn so direkt t2 schaltet.
+
+0:07:42.650,0:07:53.370
+In dem Fall b., wenn t1 einmal schaltet, t3
+einmal schaltet, dann haben wir hier unten
+
+0:07:53.370,0:07:56.460
+nur eine Marke drin liegen und hier eine Marke.
+
+0:07:56.460,0:08:04.840
+Das bedeutet, wir hätten an s1 null, an der
+Stelle s2 null, and der Stelle s3 eins, und
+
+0:08:04.840,0:08:07.620
+an der Stelle s4 auch eins.
+
+0:08:07.620,0:08:15.380
+Zu guter Letzt noch für c., wenn wir das
+mehrmals schalten, dann hätten wir an der
+
+0:08:15.380,0:08:22.650
+Stelle s1 wieder keinen, an der Stelle s2
+auch keinen, an der Stelle s3 bleibt auch
+
+0:08:22.650,0:08:25.020
+immer einer, und an der Stelle s4 zwei.
+
+0:08:25.020,0:08:31.390
+Also dementsprechend, wie häufig man diesen
+Durchlauf macht, erhöht sich die Markenzahl
+
+0:08:31.390,0:08:34.909
+auf s4 und die vorherigen Zahlen bleiben alle
+gleich.
+
+0:08:34.909,0:08:40.880
+Wie gesagt, man hätte das auch hier aufschreiben
+können, also für s1 immer mit dem Pfeil,
+
+0:08:40.880,0:08:44.870
+das wäre jetzt aber sehr viel platzaufwendiger
+gewesen, deswegen habe ich das jetzt mal so
+
+0:08:44.870,0:08:46.360
+aufgeschrieben.
+
+0:08:46.360,0:08:49.610
+Ich hoffe, dass die Lösung trotzdem klar
+daraus hervorgeht.
+
+0:08:49.610,0:08:58.970
+Ich schreibe mal noch dazu, Stellenreihenfolge
+(s1,s2,s3,s4).
+
+0:08:58.970,0:09:10.830
+Kommen wir jetzt zum allerletzten Petrinetz.
+
+0:09:10.830,0:09:12.800
+Schauen wir wieder, was ist die Startmarkierung?
+
+0:09:12.800,0:09:17.940
+Da haben wir eine Marke in s3 und eine Marke
+in s2.
+
+0:09:17.940,0:09:22.900
+Also legen wir die jetzt auch hier drauf.
+
+0:09:22.900,0:09:25.710
+Was kann jetzt in diesem Petrinetzen als erstes
+schalten?
+
+0:09:25.710,0:09:31.900
+Das wäre die t3, denn die Vorbedingung für
+t3 ist ja, dass eine Marke aus s2 kommt und
+
+0:09:31.900,0:09:33.260
+eine Marke aus s3.
+
+0:09:33.260,0:09:36.560
+Das bedeutet, t3 kann schalten.
+
+0:09:36.560,0:09:42.230
+Die Vorbedingungen nehmen ja dann die Marke
+hier raus, und hier die Marke da raus.
+
+0:09:42.230,0:09:43.610
+Was passiert danach?
+
+0:09:43.610,0:09:50.250
+Eine Marke geht als t3 andererseits Nachbedingung
+wieder hier hin und eine Marke geht als Nachbedingung
+
+0:09:50.250,0:09:51.250
+hier hin.
+
+0:09:51.250,0:09:57.550
+Jetzt in diesem Fall gibt es wieder zwei Möglichkeiten,
+wie das schalten kann.
+
+0:09:57.550,0:10:07.060
+Die erste Möglichkeit wäre, dass t1 schaltet,
+also würde hier die Marke aus s4 in t1 hineingehen,
+
+0:10:07.060,0:10:18.260
+da müssen wir t1 schalten, dann würde hier
+die Marke verschwinden und hier eine Marke
+
+0:10:18.260,0:10:19.260
+auftauchen.
+
+0:10:19.260,0:10:21.880
+Jetzt sind wir an einem Punkt, wo nichts mehr
+schalten kann.
+
+0:10:21.880,0:10:26.950
+t3 kann zum Beispiel nicht schalten, weil
+hier die Vorbedingung ist, dass eine Marke
+
+0:10:26.950,0:10:31.630
+aus s2 kommt, was zwar der Fall ist, aber
+auch dass eine Marke aus s3 kommt, und hier
+
+0:10:31.630,0:10:32.810
+haben wir keine Marke.
+
+0:10:32.810,0:10:34.240
+Also kann hier t3 nicht schalten.
+
+0:10:34.240,0:10:38.430
+Somit sind wir hier jetzt auch wieder an einer
+Endmarkierung angekommen, wo nichts weiter
+
+0:10:38.430,0:10:39.430
+schalten kann.
+
+0:10:39.430,0:10:48.010
+Wenn wir jetzt nochmal von vorne anfangen,
+ich schreibe das als b. auf, dann kann t3
+
+0:10:48.010,0:10:49.010
+schalten.
+
+0:10:49.010,0:10:53.191
+Wenn t3 schaltet, hatten wir ja gesagt, dass
+die Marken verschwinden, weil sie an Vorbedingung
+
+0:10:53.191,0:10:58.280
+da reingehen, eine Marke kommt hier als Nachbedingung
+wieder raus, und die andere Marke kommt als
+
+0:10:58.280,0:10:59.280
+Nachbedingung wieder hier raus.
+
+0:10:59.280,0:11:03.060
+Jetzt wäre hier die zweite Möglichkeit,
+dass auch noch t2 schalten könnte.
+
+0:11:03.060,0:11:06.120
+Also lassen wir t2 mal schalten, denn die
+Vorbedingung ist ja erfüllt.
+
+0:11:06.120,0:11:09.910
+Eine Marke soll da reingehen, also geht eine
+Marke rein.
+
+0:11:09.910,0:11:13.590
+Nachbedingung ist, eine Marke kommt hier raus,
+also taucht hier wieder eine Marke auf.
+
+0:11:13.590,0:11:16.980
+Und jetzt sind wir quasi wieder im Startzustand.
+
+0:11:16.980,0:11:24.680
+Mit anderen Worten, dieser Schritt, dass t3
+und t2 abläuft, kann auch je immer und immer
+
+0:11:24.680,0:11:26.440
+und immer wieder im Kreis laufen.
+
+0:11:26.440,0:11:33.040
+Oder, wenn irgendwann man t3 geschaltet hat,
+wie hier in a., dann t1 schalten und es wäre
+
+0:11:33.040,0:11:34.040
+zu Ende.
+
+0:11:34.040,0:11:40.560
+Also wir könnten jetzt wieder t3 schalten
+lassen, dann würde wieder hier lang eine
+
+0:11:40.560,0:11:45.530
+Marke auftauchen und hier wieder eine Marke
+auftauchen, ich schreibe hier t3 auf.
+
+0:11:45.530,0:11:49.630
+Und jetzt könnte man zum Beispiel entweder
+wieder t2 schalten, dann wären wir wieder
+
+0:11:49.630,0:11:53.920
+im Startzustand oder wir würden jetzt halt
+t1 schalten lassen.
+
+0:11:53.920,0:11:58.170
+Die Marke würde hier verschwinden und dort
+auftauchen.
+
+0:11:58.170,0:12:05.610
+Das ist halt, wie in a. und b. sind beide
+Endmarkierungen, wo es nicht mehr weitergeht
+
+0:12:05.610,0:12:09.350
+und wo es keine Nachfolgemarkierung mehr gibt,
+gleich.
+
+0:12:09.350,0:12:15.680
+Ich schreibe das je wieder in der etwas platzintensiveren
+Schreibweise auf.
+
+0:12:15.680,0:12:29.620
+Dann ist in s1 eine Marke, in s2 auch eine
+Marke, in s3 ist keine Marke und in s4 ist
+
+0:12:29.620,0:12:31.270
+auch keine Marke.
+
+0:12:31.270,0:12:35.490
+Das war auch schon die Lösung für diese
+Aufgabe.

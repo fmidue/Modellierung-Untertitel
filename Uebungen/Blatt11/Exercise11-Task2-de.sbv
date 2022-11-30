@@ -1,0 +1,350 @@
+0:00:03.959,0:00:08.389
+Diese Aufgabe beschäftigt sich mit dem UML-Zustandsdiagramm.
+
+0:00:08.389,0:00:20.500
+In dieser Aufgabe sollen die Fragen zum abgebildeten
+UML-Zustandsdiagramm beantworten werden.
+
+0:00:20.500,0:00:28.609
+Dabei sollen immer nicht zusammengesetzte
+Zustände angegeben werden.
+
+0:00:28.609,0:00:38.420
+In diesem Diagramm werden die Zustandsnummern
+durch die Zahlen angegeben.
+
+0:00:38.420,0:00:46.501
+Es ist zu beachten, dass mitunter mehrere
+Zustände für die Aufgaben angegeben werden
+
+0:00:46.501,0:00:47.501
+müssen.
+
+0:00:47.501,0:00:57.960
+Die erste Aufgabe dazu ist: „Mit welchem
+Zustand beziehungsweise mit welchem Zustand
+
+0:00:57.960,0:01:02.260
+startet das Diagramm?“.
+
+0:01:02.260,0:01:15.970
+Dafür müssen wir den äußersten Startzustand
+anschauen, er zeigt an wie das UML-Diagramm
+
+0:01:15.970,0:01:17.170
+startet.
+
+0:01:17.170,0:01:26.299
+Der Eintritt erfolgt an dieser Stelle in einer
+swim-lane.
+
+0:01:26.299,0:01:41.420
+Hier gibt es einen Verweis auf Zustand 3 und
+6, also diese beiden.
+
+0:01:41.420,0:01:54.130
+Das sind auch die beiden anzugebenen Zustände,
+um die Aufgabe zu beantworten.
+
+0:01:54.130,0:02:08.179
+Wir könnten also bei a hinschreiben: 3 und
+6. Kommen wir zu b: „Unter welchen Zuständen
+
+0:02:08.179,0:02:14.110
+oder Kombinationen von Zuständen ist ein
+Verlassen von C möglich?“.
+
+0:02:14.110,0:02:18.489
+Dabei sollen alle Möglichkeiten genannt werden.
+
+0:02:18.489,0:02:23.330
+Schauen wir uns Zustand C an, das ist dieser
+hier.
+
+0:02:23.330,0:02:29.190
+Diesen können wir über ausgehende Kanten
+verlassen.
+
+0:02:29.190,0:02:37.400
+Das sehen wir hier über diese zusammengeführten
+Zustände, also über die ausgehende Kante
+
+0:02:37.400,0:02:39.180
+d.
+
+0:02:39.180,0:02:50.989
+Das bedeutet, dass wir den Zustand verlassen
+können, wenn 4 und 7 gleichzeitig aktiv sind,
+
+0:02:50.989,0:03:01.849
+denn nur dann lässt sich die Kante d verwenden,
+weil die Bedingung gefordert ist, dass 4 und
+
+0:03:01.849,0:03:04.790
+7 gleichzeitig aktiv sein müssen.
+
+0:03:04.790,0:03:09.709
+Also 4 und 7 wäre eine Möglichkeit.
+
+0:03:09.709,0:03:19.970
+Wir haben aber noch weitere ausgehende Kanten,
+zum Beispiel die e-Kante, die hier den Zustand
+
+0:03:19.970,0:03:20.970
+verlässt.
+
+0:03:20.970,0:03:29.489
+E ist immer dann aktiv, wenn Zustand 6 aktiv
+ist.
+
+0:03:29.489,0:03:38.840
+Da wir in einem Bereich sind von C, in dem
+gleichzeitig noch andere Zustände aktiv sind,
+
+0:03:38.840,0:03:47.170
+nämlich 3,4 beziehungsweise 5 und wir hier
+direkt aus 6 hinausgehen, können wir hier
+
+0:03:47.170,0:04:02.959
+sagen, dass 6 und 3 valide sind, aber auch
+6 und 4, oder 6 und 5.
+
+0:04:02.959,0:04:13.299
+Das ist auch valide, denn einer der Zustände
+hier oben kann gleichzeitig mit Zustand 6
+
+0:04:13.299,0:04:16.090
+aktiv sein.
+
+0:04:16.090,0:04:25.040
+Da wir keine weitere ausgehende Kante aus
+dem Zustand C haben, sind das alle Möglichkeiten,
+
+0:04:25.040,0:04:42.280
+über die der Zustand verlassen werden kann:
+mit 4 und 7 über die Kante d oder mit 6 und
+
+0:04:42.280,0:04:50.340
+3, 4 oder 5 über die Kante e.
+
+0:04:50.340,0:04:57.310
+Kommen wir zum nächsten Teil: „Welcher
+Zustand oder welche Zustände werden angesprungen,
+
+0:04:57.310,0:05:06.940
+wenn C von 7 und 4 aus verlassen wird, und
+D zuletzt von 8 aus verlassen wurde?“.
+
+0:05:06.940,0:05:23.789
+Wir verlassen C von 7 und 4 aus, das heißt
+über D. Weil das die einzigen ausgehenden
+
+0:05:23.789,0:05:36.259
+Kanten von 4 und 7 sind, daher geht das nur
+über D, und D zuletzt von 8 aus verlassen
+
+0:05:36.259,0:05:41.039
+wurde, also von diesem hier.
+
+0:05:41.039,0:05:53.561
+Für diesen Zustand hat es keine Relevanz,
+wie D zuvor verlassen wurde, weil kein Historienknoten
+
+0:05:53.561,0:05:57.710
+an die Kante d verweist.
+
+0:05:57.710,0:06:05.120
+Also ist es kein Historienknoten, daher müssen
+wir den Startzustand 10 betrachten.
+
+0:06:05.120,0:06:14.910
+Also wäre in diesem Fall die Antwort 10 für
+den Aufgabenteil c.
+
+0:06:14.910,0:06:22.620
+Kommen wir zum nächsten Aufgabenteil d: „Welcher
+Zustand oder welche Zustände werden angesprochen,
+
+0:06:22.620,0:06:32.539
+wenn D von 8 aus verlassen wird?“, also
+geht es jetzt um diesen D-Zustand.
+
+0:06:32.539,0:06:43.960
+Wir verlassen von 8 aus, da gibt es die Möglichkeit
+über i oder h zu verlassen, wobei letzteres
+
+0:06:43.960,0:06:44.960
+nur intern verweist.
+
+0:06:44.960,0:06:47.729
+Also i ist die einzige ausgehende Kante.
+
+0:06:47.729,0:06:58.620
+Außerdem haben wir die Info, dass d zuletzt
+von 2 aus verlassen wurde, also von hier.
+
+0:06:58.620,0:07:12.620
+Hier sehen wir jetzt einen Historienknoten,
+also i verweist auf einen Historienknoten.
+
+0:07:12.620,0:07:15.220
+Für unser Beispiel ist das aber irrelevant.
+
+0:07:15.220,0:07:24.650
+Weil die flache Historie gewählt ist, wird
+dieser Startzustand gewählt.
+
+0:07:24.650,0:07:36.500
+Wir haben einen Verweis auf diesen Teil von
+B, nämlich E.
+
+0:07:36.500,0:07:47.409
+Es wird aber die flache Historie verwendet,
+da wir durch die 2 wissen, dass der Zustand
+
+0:07:47.409,0:07:51.160
+E zuletzt aktiv war, wird auch wieder E aktiv.
+
+0:07:51.160,0:07:55.569
+Durch den Startzustand hier wird aber 1 aktiv.
+
+0:07:55.569,0:08:04.380
+Kurz gesagt, wenn wir 8 über i verlassen,
+wird in diesem Fall 1 aktiv.
+
+0:08:04.380,0:08:10.659
+Die nächste Frage bezieht sich auch hierauf.
+
+0:08:10.659,0:08:19.870
+Ändert sich
+die Antwort der vorhergehenden Frage, vielleicht
+
+0:08:19.870,0:08:30.500
+lasse ich die Frage zumindest noch teilweise
+eingeblendet, wenn wir eine tiefe anstatt
+
+0:08:30.500,0:08:31.720
+einer flachen Historie haben.
+
+0:08:31.720,0:08:39.349
+Also angenommen, wir haben hier eine tiefe
+Historie mit H-Stern, ändert sich dann das
+
+0:08:39.349,0:08:40.349
+Verhalten?
+
+0:08:40.349,0:08:53.829
+Die Antwort ist ja, denn wenn wir eine tiefe
+Historie haben, wird nicht nur, welcher Zustand
+
+0:08:53.829,0:08:58.510
+auf diesem Level erfolgt ist, gespeichert,
+sondern auch tiefer.
+
+0:08:58.510,0:09:03.589
+Dann würde auch gemerkt werden, dass diese
+2 aktiv war.
+
+0:09:03.589,0:09:09.350
+Bei diesem Zustand, also wenn wir hier die
+tiefe Historie haben, würde es dementsprechend
+
+0:09:09.350,0:09:18.459
+im Zustand 2 weitergehen.
+
+0:09:18.459,0:09:26.190
+Schauen wir mal, was die letzte Aufgabe dieses
+Teils ist: Welche Möglichkeiten gibt es beim
+
+0:09:26.190,0:09:34.839
+Verlassen von D in den Zustand 6 überzugehen?
+
+0:09:34.839,0:09:47.040
+Wir sind sozusagen irgendwo in diesem Bereich.
+
+0:09:47.040,0:09:53.760
+Welche Möglichkeiten würden bestehen, in
+diesen Zustand zu springen?
+
+0:09:53.760,0:10:03.950
+Dafür müssen wir
+die Ausgangsmöglichkeiten aus D betrachten.
+
+0:10:03.950,0:10:08.720
+Da kommen f und i in Frage.
+
+0:10:08.720,0:10:20.220
+Betrachten wir zunächst f: f
+erreichen wir, wenn wir direkt auf 3 springen.
+
+0:10:20.220,0:10:35.220
+Weil das in einer swim-lane ist und ein Startknoten
+in der anderen lane ist und auf 6 verweist,
+
+0:10:35.220,0:10:47.829
+könnten wir das Verlassen von Zustand D zu
+Zustand 6 durchführen, indem wir über f
+
+0:10:47.829,0:10:48.829
+gehen.
+
+0:10:48.829,0:11:01.360
+Über f
+
+0:11:01.360,0:11:07.100
+würden wir 3 und 6 erreichen.
+
+0:11:07.100,0:11:13.269
+Also 3 und 6 würden wir über f erreichen.
+
+0:11:13.269,0:11:28.889
+Wenn wir über i gehen, haben wir als nächstes
+einen Historienknoten, der auf E verweist.
+
+0:11:28.889,0:11:32.470
+Dementsprechend wird innerhalb von B die Historie
+gespeichert.
+
+0:11:32.470,0:11:35.560
+Wir haben hier eine flache Historie.
+
+0:11:35.560,0:11:43.680
+Wenn wir zuvor in C waren und zum Beispiel
+über e hinausgegangen sind ist es also möglich,
+
+0:11:43.680,0:11:57.710
+dass wir zuvor in Zustand 6 waren.
+
+0:11:57.710,0:12:14.880
+Wenn B über E oder D verlassen haben, würde
+C in der flachen Historie gespeichert worden
+
+0:12:14.880,0:12:16.670
+sein.
+
+0:12:16.670,0:12:26.420
+Wenn wir über i gehen, können wir im Zustand
+5 und 6 landen.
+
+0:12:26.420,0:12:43.540
+Weil hier wieder die Startknoten existieren
+und die flache Historie, wenn wir zuvor C
+
+0:12:43.540,0:12:51.280
+verlassen haben, uns wieder nach C hineinschickt
+und dadurch wieder die Startknoten aktiv werden.
+
+0:12:51.280,0:12:55.290
+Das wären die Möglichkeiten für den letzten
+Aufgabenteil.
+
+0:12:55.290,0:13:02.140
+In dem Video habe ich die Begründungen nicht
+aufgeschrieben, sondern nur erzählt.
+
+0:13:02.140,0:13:12.720
+Wenn Sie die Aufgabe lösen, sollten die Begründungen
+natürlich niedergeschrieben werden.
+
+0:13:12.720,0:13:17.800
+Soviel zu dieser Aufgabe, damit ist sie gelöst.

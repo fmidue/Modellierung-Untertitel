@@ -1,0 +1,708 @@
+0:00:01.630,0:00:06.690
+In dieser Aufgabe zu den Eigenschaften von
+Petrinetzen haben wir zuerst einmal ein Petrinetz
+
+0:00:06.690,0:00:11.130
+gegeben, für das wir in der ersten Teilaufgabe
+den Erreichbarkeitsgraphen angeben sollen.
+
+0:00:11.130,0:00:12.960
+Dafür schauen wir uns erstmal das Petrinetz
+an.
+
+0:00:12.960,0:00:14.860
+Wir haben drei Stellen.
+
+0:00:14.860,0:00:24.599
+Und die Startmarkierung ist eine Markierung
+in s1 und eine Markierung in s2.
+
+0:00:24.599,0:00:31.050
+Das schreiben wir einfach auf als (1,1,0),
+also Stelle eins, Stelle zwei, Stelle drei
+
+0:00:31.050,0:00:33.700
+und die Anzahl der jeweiligen Tokens.
+
+0:00:33.700,0:00:37.860
+Da das hier die Startmarkierung ist, machen
+wir noch einen Pfeil drauf, der aus dem Nichts
+
+0:00:37.860,0:00:38.860
+kommt.
+
+0:00:38.860,0:00:41.330
+Das zeigt einfach nur an, dass das die Startmarkierung
+ist.
+
+0:00:41.330,0:00:45.370
+Und von dieser Startmarkierung schauen wir
+uns jetzt an, welche Transitionen möglich
+
+0:00:45.370,0:00:48.690
+sind und welche Markierungen damit erreicht
+werden.
+
+0:00:48.690,0:00:54.260
+t1 erwartet ein Token in s1 und gibt ein Token
+in s2.
+
+0:00:54.260,0:00:59.310
+Der Token in s1 ist vorhanden, das heißt
+t1 kann von dieser Markierung aus schalten.
+
+0:00:59.310,0:01:06.219
+Und damit erreichen wir die Markierung (0,2,0),
+denn der Token aus s1 wird konsumiert und
+
+0:01:06.219,0:01:08.689
+dafür wird einer in s2 abgelegt, wo schon
+einer ist.
+
+0:01:08.689,0:01:10.820
+Das heißt, das ist dann hier zwei.
+
+0:01:10.820,0:01:13.549
+Jetzt können wir schauen, wie wir weitermachen.
+
+0:01:13.549,0:01:16.710
+Entweder machen wir mit dieser Markierung
+weiter und schauen, welche Transitionen hier
+
+0:01:16.710,0:01:18.060
+möglich sind.
+
+0:01:18.060,0:01:24.520
+Aber ich finde es normalerweise ein bisschen
+einfacher, einfach erstmal jede Markierung
+
+0:01:24.520,0:01:25.520
+abzuarbeiten.
+
+0:01:25.520,0:01:28.714
+Also wir schauen jetzt erstmal, welche anderen
+Transitionen von unserer Startpositionen noch
+
+0:01:28.714,0:01:31.270
+schaltbar sind und zeichnen die dann ein.
+
+0:01:31.270,0:01:34.899
+Und normalerweise, wenn man das so nach und
+nach macht, ist die Chance auch geringer,
+
+0:01:34.899,0:01:36.030
+dass man da irgendetwas vergisst.
+
+0:01:36.030,0:01:39.939
+Das heißt, wir schauen uns jetzt hier von
+unserer Startmarkierung aus erstmal noch t2
+
+0:01:39.939,0:01:40.959
+an.
+
+0:01:40.959,0:01:45.319
+t2 erwartet ein Token in s2 und gibt eines
+an s1.
+
+0:01:45.319,0:01:46.889
+Die Vorbedingung ist gegeben.
+
+0:01:46.889,0:01:49.710
+Das heiß, t2 kann schalten.
+
+0:01:49.710,0:01:56.929
+Und damit erreichen wir die Markierung (2,0,0),
+denn der Token aus s2 wird konsumiert und
+
+0:01:56.929,0:01:59.509
+legt einen in s1 ab, wo schon einer drin ist.
+
+0:01:59.509,0:02:01.579
+Die sind sich ziemlich ähnlich.
+
+0:02:01.579,0:02:04.189
+Deswegen ist das auch ein kleiner Kreislauf.
+
+0:02:04.189,0:02:09.890
+Und wie die Auswirkungen da unten sind, sehen
+wir gleich.
+
+0:02:09.890,0:02:12.480
+Aber erstmal machen wir noch mit t3 weiter.
+
+0:02:12.480,0:02:15.820
+t3 erwartet auch einen Token in s1 und gibt
+einen in s3.
+
+0:02:15.820,0:02:17.410
+Die Vorbedingung ist gegeben.
+
+0:02:17.410,0:02:19.360
+Das heißt, auch t3 kann schalten.
+
+0:02:19.360,0:02:30.340
+Und mit t3 kommen wir zu der Markierung (0,1,1),
+denn jetzt wird ein Token praktisch auf s3
+
+0:02:30.340,0:02:36.670
+abgelegt und einer aus s1 rausgenommen. t4
+ist auch wieder parallel dazu, nur aus s1,
+
+0:02:36.670,0:02:38.170
+und kann auch schalten.
+
+0:02:38.170,0:02:47.030
+Und damit erreichen wir die Markierung (1,0,1).
+
+0:02:47.030,0:02:52.930
+Und damit haben wir jetzt von unserer Startmarkierung
+alle vier Transitionen aus abgearbeitet und
+
+0:02:52.930,0:02:55.850
+können uns jetzt eine von diesen vier aussuchen,
+mit der wir weitermachen.
+
+0:02:55.850,0:03:01.450
+Machen wir mit der weiter, die wir als erstes
+gefunden haben, die (0,2,0), und schauen an,
+
+0:03:01.450,0:03:03.900
+was daraus möglich ist.
+
+0:03:03.900,0:03:07.260
+t1 ist nicht möglich, denn es gibt kein Token
+in null.
+
+0:03:07.260,0:03:11.800
+Damit ist die Vorbedingung nicht gegeben und
+t1 kann nicht schalten. t2 allerdings hat
+
+0:03:11.800,0:03:12.800
+die Vorbedingung gegeben.
+
+0:03:12.800,0:03:15.060
+Es gibt sogar zwei Token in s2.
+
+0:03:15.060,0:03:18.860
+Das heißt, t2 kann auf jeden Fall mindestens
+einmal schalten von hier aus.
+
+0:03:18.860,0:03:27.210
+Und damit kommen wir einfach nur zurück zu
+unserer Startmarkierung, denn der Token, den
+
+0:03:27.210,0:03:32.730
+wir eben in s2 bewegt haben, wird praktisch
+wieder zu s1 bewegt.
+
+0:03:32.730,0:03:38.010
+Dann haben wir noch t3. t3 kann auch wieder
+nicht schalten.
+
+0:03:38.010,0:03:41.030
+Es erwartet nämlich einen Token in s1, der
+nicht vorhanden ist.
+
+0:03:41.030,0:03:42.500
+Aber t4 kann schalten.
+
+0:03:42.500,0:03:50.670
+Und damit kommen wir zu derselben Markierung,
+die wir schon einmal haben, nämlich (0,1,1).
+
+0:03:50.670,0:03:53.570
+Der eine Token, der in s2 drin lag, ist noch
+da.
+
+0:03:53.570,0:03:58.610
+Und der andere Token, der konsumiert wurde,
+und dafür ein neuer in s3 abgelegt wurde,
+
+0:03:58.610,0:04:00.710
+ist dann hier in s3.
+
+0:04:00.710,0:04:06.090
+Das ist auch eine wichtige Sache bei Erreichbarkeitsgraphen,
+dass man immer guckt, wenn man eine Markierung
+
+0:04:06.090,0:04:09.180
+erreicht, ob man nicht dieselbe Markierung
+schon irgendwo im Graphen drin hat, damit
+
+0:04:09.180,0:04:11.900
+man nicht dieselbe Markierung doppelt drin
+hat.
+
+0:04:11.900,0:04:17.130
+Also das ist schon gut, dass das hier direkt
+daneben gezeichnet war, denn hier haben wir
+
+0:04:17.130,0:04:19.192
+direkt gesehen, dass das da ist.
+
+0:04:19.192,0:04:21.540
+Das kann manchmal, je nachdem, wie man anfängt
+zu zeichnen, schwieriger sein.
+
+0:04:21.540,0:04:23.660
+Ich hätte ja auch (0,1,1) hier oben hinsetzen
+können.
+
+0:04:23.660,0:04:26.280
+Dann wäre der Pfeil natürlich ein bisschen
+blöd gewesen.
+
+0:04:26.280,0:04:28.560
+Das hätte man dann vielleicht neu zeichnen
+müssen.
+
+0:04:28.560,0:04:33.290
+Aber je nachdem, wie das rauskommt, immer
+einmal komplett über den Erreichbarkeitsgraphen
+
+0:04:33.290,0:04:35.870
+ein bisschen drüber gucken, damit man dann
+am Ende nichts doppelt hat.
+
+0:04:35.870,0:04:42.620
+Damit haben wir von dieser Markierung aber
+jetzt alle Transitionen durch, die da möglich
+
+0:04:42.620,0:04:46.340
+sind, und können uns eine andere Markierung
+aussuchen.
+
+0:04:46.340,0:04:52.970
+Machen wir mal mit der zweiten weiter, die
+wir gefunden haben, nämlich der (2,0,0),
+
+0:04:52.970,0:04:54.170
+und schauen, was da möglich ist.
+
+0:04:54.170,0:04:55.930
+Hier ist t1 möglich.
+
+0:04:55.930,0:05:00.590
+Das ist der Gegenspieler zu dem t2, den wir
+hier unten gefunden haben.
+
+0:05:00.590,0:05:06.880
+Der bewegt einfach nur den Token, den wir
+eben in die s1 bewegt haben, wieder zurück.
+
+0:05:06.880,0:05:14.970
+Und damit kommen wir wieder zu unserer Startmarkierung.
+
+0:05:14.970,0:05:20.350
+Also das ist jetzt praktisch dieser Kreislauf,
+den wir da oben sehen, realisiert im Erreichbarkeitsgraphen,
+
+0:05:20.350,0:05:27.220
+denn mit t1 und t2 können wir die Marken
+einfach nur immer, so oft wir wollen, hin-
+
+0:05:27.220,0:05:35.389
+und herbewegen. t3 ist hier möglich, denn
+die Marken in s2 sind ja vorhanden.
+
+0:05:35.389,0:05:37.771
+Und es agiert ähnlich, wie das t4, das wir
+hier oben gefunden haben.
+
+0:05:37.771,0:05:42.889
+Wir kommen damit nämlich zu einer Markierung,
+die wir schon haben, nämlich der (1,0,1).
+
+0:05:42.889,0:05:49.760
+Man sieht hier auch schon ein bisschen diese
+Spiegelung im Erreichbarkeitsgraphen, die
+
+0:05:49.760,0:05:54.240
+auch hier im Petrinetz vorhanden ist.
+
+0:05:54.240,0:05:59.110
+Und jetzt gucken wir noch, ob t4 möglich
+ist.
+
+0:05:59.110,0:06:03.680
+t4 kann wieder nicht schalten, genauso wie
+hier unten t3 nicht schalten kann, denn die
+
+0:06:03.680,0:06:09.340
+Vorbedingung von t4 ist hier nicht gegeben,
+denn es gibt keine Marken in s2.
+
+0:06:09.340,0:06:13.410
+Das heißt, auch mit dieser Markierung sind
+wir fertig und können mit der nächsten weitermachen.
+
+0:06:13.410,0:06:17.540
+Also machen wir mit der (0,1,1) weiter.
+
+0:06:17.540,0:06:26.520
+Bei (0,1,1) kann auch t1 wieder nicht schalten,
+denn es gibt keine Marken in s1. t2 kann aber
+
+0:06:26.520,0:06:27.520
+schalten.
+
+0:06:27.520,0:06:36.920
+Und das bewegt ganz einfach nur eine Marke
+aus s2 in s1 rüber.
+
+0:06:36.920,0:06:45.820
+Und damit kommen wir zu der Markierung (1,0,1),
+die wir hier oben schon haben.
+
+0:06:45.820,0:06:56.460
+Ebenfalls nicht möglich ist die t3, denn
+wir haben auch hier wieder keine Marke in
+
+0:06:56.460,0:06:57.460
+s1 liegen.
+
+0:06:57.460,0:06:59.270
+Aber t4 ist möglich.
+
+0:06:59.270,0:07:02.250
+Und das bewegt eine Marke aus s2 in s3.
+
+0:07:02.250,0:07:04.139
+Also geht diese Marke in s3 rein.
+
+0:07:04.139,0:07:09.680
+Und wir kommen zum ersten Mal jetzt seit einer
+Weile wieder zu einer neuen Markierung, nämlich
+
+0:07:09.680,0:07:18.190
+der Markierung (0,0,2), denn jetzt haben wir
+nach und nach alle Tokens aus den jeweiligen
+
+0:07:18.190,0:07:19.210
+Stellen in die s3 bewegt.
+
+0:07:19.210,0:07:23.290
+Das ist die t4 gewesen.
+
+0:07:23.290,0:07:29.930
+Damit haben wir auch hier alle Transitionen
+fertig und können mit der nächsten, der
+
+0:07:29.930,0:07:30.930
+(1,0,1), weitermachen.
+
+0:07:30.930,0:07:38.660
+Und bei der (1,0,1) ist die t1 möglich, die
+die t2 Marke zu der anderen hierunter bewegt.
+
+0:07:38.660,0:07:52.080
+Also ist auch hier wieder diese kleine Kreislauf
+von den t1s und den t2s drin zu sehen, der
+
+0:07:52.080,0:07:53.660
+oben im Petrinetz vorhanden ist.
+
+0:07:53.660,0:08:01.360
+Denn hier kann man auch so oft, wie man will,
+die Marken mit t1 und t2 hin- und herbewegen.
+
+0:08:01.360,0:08:06.199
+t2 ist nicht möglich, weil es in dieser Markierung
+keine Marken in s2 gibt.
+
+0:08:06.199,0:08:12.490
+t3 ist möglich und bewegt die Marke aus s1
+in s3 rein.
+
+0:08:12.490,0:08:17.880
+Das bringt uns auch wieder zu einer Markierung,
+die wir hier schon haben, nämlich der (0,0,2).
+
+0:08:17.880,0:08:20.040
+Und t4 ist nicht möglich.
+
+0:08:20.040,0:08:23.570
+Und damit haben wir auch hier alle Transitionen
+durchgearbeitet.
+
+0:08:23.570,0:08:30.449
+Jetzt müssen wir uns zuletzt noch angucken,
+was aus der Markierung (0,0,2) möglich ist.
+
+0:08:30.449,0:08:33.440
+Und wir sehen im Petrinetz direkt, dass es
+keine Transitionen gibt, die irgendwas aus
+
+0:08:33.440,0:08:34.810
+s3 rausnehmen.
+
+0:08:34.810,0:08:41.020
+Und da wir keine Tokens in anderen Stellen
+liegen haben, können wir auch keine anderen
+
+0:08:41.020,0:08:42.020
+Transitionen mehr schalten.
+
+0:08:42.020,0:08:43.630
+Das heißt, das ist in dem Fall ein Dead End.
+
+0:08:43.630,0:08:49.120
+Und das beendet auch unseren Erreichbarkeitsgraphen.
+
+0:08:49.120,0:08:57.600
+Und damit haben wir auch die erste Teilaufgabe
+fertig und können zur Teilaufgabe b weitergehen,
+
+0:08:57.600,0:09:01.110
+die endlich den eigentlichen Titel der Aufgabe
+beinhaltet, nämlich die Eigenschaften von
+
+0:09:01.110,0:09:02.440
+Petrinetzen zu betrachten.
+
+0:09:02.440,0:09:06.610
+Hierfür haben wir zwei Tabellen, die die
+Eigenschaften stark lebendig, schwach lebendig,
+
+0:09:06.610,0:09:10.290
+verklemmungsfrei, 1-sicher oder beschränkt
+mit der Möglichkeit zu Ja- oder Nein-Antworten
+
+0:09:10.290,0:09:11.290
+darstellen.
+
+0:09:11.290,0:09:14.959
+Ich habe jetzt mit Absicht das Petrinetz verdeckt,
+denn die Aufgabenstellung in dieser Teilaufgabe
+
+0:09:14.959,0:09:20.290
+sagt ganz explizit, dass wir unsere Begründungen,
+die wir dafür angeben müssen, jeweils anhand
+
+0:09:20.290,0:09:23.139
+des Erreichbarkeitsgraphen machen sollen,
+den wir aus der ersten Teilaufgabe haben,
+
+0:09:23.139,0:09:26.470
+und nicht anhand des Petrinetzes oder sonst
+irgendetwas.
+
+0:09:26.470,0:09:31.890
+Dafür fangen wir jetzt erstmal an mit stark
+lebendig.
+
+0:09:31.890,0:09:38.990
+Stark lebendig heißt einfach nur, dass von
+jeder Markierung aus und für jede Transition
+
+0:09:38.990,0:09:42.960
+eine Markierung erreichbar ist, die diese
+Transition aktiviert.
+
+0:09:42.960,0:09:47.580
+Das heißt, egal in welcher Markierung wir
+drin sind, wir können immer irgendeine andere
+
+0:09:47.580,0:09:52.910
+Markierung erreichen, die dann die Transition
+aktivieren kann.
+
+0:09:52.910,0:09:56.490
+Und das gilt für alle Transitionen.
+
+0:09:56.490,0:10:05.390
+Ein Ausschlusskriterium für stark lebendig
+ist immer das Vorhandensein eines Deadlocks.
+
+0:10:05.390,0:10:13.260
+Also ob wir irgendwo eine Sackgasse haben,
+aus der wir gar nicht mehr rauskommen.
+
+0:10:13.260,0:10:19.470
+Und in unserem Erreichbarkeitsgraphen ist
+das, wie wir eben schon erwähnt haben, hier
+
+0:10:19.470,0:10:20.899
+hinten bei der (0,0,2) gegeben.
+
+0:10:20.899,0:10:25.209
+Wir haben hier eine Markierung, aus der es
+keine Transitionen herausgibt.
+
+0:10:25.209,0:10:27.770
+Und das können wir dann in unserer Begründung
+angeben.
+
+0:10:27.770,0:10:35.520
+Im Erreichbarkeitsgraphen sind von der Markierung
+(0,0,2) keine anderen Markierungen erreichbar
+
+0:10:35.520,0:10:37.270
+und keine Transitionen schaltbar.
+
+0:10:37.270,0:10:42.670
+Daher haben wir hier eine Verklemmung und
+damit kann es nicht stark lebendig sein.
+
+0:10:42.670,0:10:47.660
+Jetzt ist die Frage, ob es schwach lebendig
+ist.
+
+0:10:47.660,0:10:53.040
+Schwach lebendig ist nicht ganz so, deswegen
+heißt es auch schwach und nicht stark lebendig.
+
+0:10:53.040,0:10:58.180
+Bei schwach lebendig reicht es einfach, wenn
+alle Transitionen überhaupt irgendwo einmal
+
+0:10:58.180,0:10:59.899
+geschaltet werden können.
+
+0:10:59.899,0:11:05.490
+Das heißt, wir gucken uns unseren Erreichbarkeitsgraphen
+an und schauen, ob alle Transitionen, die
+
+0:11:05.490,0:11:11.140
+vorhanden sind, also t1, t2, t3 und t4 im
+Erreichbarkeitsgraphen vorkommen.
+
+0:11:11.140,0:11:13.610
+Und das ist ganz klar.
+
+0:11:13.610,0:11:18.230
+Wir haben schon hier mindestens einmal t1,
+t2, t3 und t4.
+
+0:11:18.230,0:11:20.899
+Das heißt, es ist mindestens schwach lebendig.
+
+0:11:20.899,0:11:23.560
+Jetzt ist die Frage, ob es verklemmungsfrei
+ist.
+
+0:11:23.560,0:11:28.610
+Das haben wir eben schon bei stark lebendig
+als Begründung angebracht.
+
+0:11:28.610,0:11:30.910
+Das können wir hier einfach nochmal verwenden.
+
+0:11:30.910,0:11:41.230
+Es ist nicht verklemmungsfrei, denn aus Markierung
+(0,0,2) gibt es keine Kanten, die da rausführen.
+
+0:11:41.230,0:11:45.620
+Denn das sind ja nur die Kanten, die angeben,
+welche Transitionen geschaltet werden.
+
+0:11:45.620,0:11:51.300
+Jetzt haben wir die Frage, ob es 1-sicher
+ist.
+
+0:11:51.300,0:11:58.680
+1-sicher oder n-sicher bedeutet einfach nur,
+dass es keine Markierung gibt, in dem eine
+
+0:11:58.680,0:12:01.200
+Stelle dieses n überschreitet.
+
+0:12:01.200,0:12:10.870
+Das heißt, 1-sicher bedeutet, wir dürfen
+keine Stellen haben, die zu einem Zeitpunkt
+
+0:12:10.870,0:12:13.760
+mehr als eine Marke haben.
+
+0:12:13.760,0:12:17.360
+Und hier haben wir alleine hier oben schon
+direkt die (2,0,0).
+
+0:12:17.360,0:12:25.120
+Das heißt mit der Begründung, dass die Markierung
+(2,0,0) existiert, ist es nicht 1-sicher.
+
+0:12:25.120,0:12:28.080
+Ist es beschränkt?
+
+0:12:28.080,0:12:32.120
+Bei Beschränktheit kann man auch angeben,
+um wie viel etwas beschränkt ist.
+
+0:12:32.120,0:12:34.820
+Deswegen ist das auch hier in derselben Tabelle
+mit drin.
+
+0:12:34.820,0:12:37.240
+Das spielt mit dem 1-sicher ein bisschen zusammen.
+
+0:12:37.240,0:12:42.410
+Beschränkt heißt einfach nur, dass es ein
+Limit für die Marken gibt.
+
+0:12:42.410,0:12:48.740
+Es ist nicht 1-sicher, das heißt es gibt
+Stellen, wo mehr als ein Token in einer Stelle
+
+0:12:48.740,0:12:49.740
+drin ist.
+
+0:12:49.740,0:12:50.800
+Aber ist es beschränkt?
+
+0:12:50.800,0:12:57.180
+Das können wir am Erreichbarkeitsgraphen
+einfach daran sehen, dass der Erreichbarkeitsgraph
+
+0:12:57.180,0:12:58.180
+endlich ist.
+
+0:12:58.180,0:13:03.410
+Denn wenn es nicht beschränkt wäre, dann
+würden wir immer weitergehen, denn wir hätten
+
+0:13:03.410,0:13:06.700
+immer neue Markierungen, wo immer höhere
+Zahlen reinkommen würden.
+
+0:13:06.700,0:13:16.370
+Sagen wir mal, es gäbe eine t5, die einfach
+nur eine Marke in Stelle eins reinlegen würde,
+
+0:13:16.370,0:13:23.540
+dann könnten wir zum Beispiel aus dieser
+Markierung immer t5 schalten und würden dann
+
+0:13:23.540,0:13:26.140
+zu (2,0,1) kommen.
+
+0:13:26.140,0:13:31.800
+Und dann schalten wir nochmal t5 und kommen
+zu (3,0,1).
+
+0:13:31.800,0:13:34.529
+Und das würde dann nie aufhören.
+
+0:13:34.529,0:13:40.250
+Das wäre dann hier in dem Fall mit der t5
+unendlich und damit wäre auch der Erreichbarkeitsgraph
+
+0:13:40.250,0:13:42.060
+unendlich und es wäre nicht beschränkt.
+
+0:13:42.060,0:13:51.261
+Da wir aber das nicht haben, sondern maximal
+zwei Marken in einer Stelle drin liegen, können
+
+0:13:51.261,0:13:53.029
+wir sagen, dass es beschränkt ist.
+
+0:13:53.029,0:13:56.500
+Und wir können sagen es ist zwei-beschränkt.
+
+0:13:56.500,0:14:02.840
+Und damit haben wir diese Tabellen fertig
+und die Eigenschaften betrachtet und die erste
+
+0:14:02.840,0:14:03.910
+Aufgabe fertig.

@@ -1,0 +1,300 @@
+0:00:00.360,0:00:05.460
+Since we have our class diagram, we can move
+on to the second part of the task, which is:
+
+0:00:06.000,0:00:14.760
+Next year on Saturday 16th of January
+at 8 pm, I want to watch "The Ring of
+
+0:00:14.760,0:00:18.660
+the Lords" in the theatre, which is played
+in the "Bluesky" room. The director of the
+
+0:00:18.660,0:00:21.480
+film is Volkert Mort and the main actor is Harry
+Topper. There is a little more of the main text.
+
+0:00:21.480,0:00:28.740
+For this information here, we need to give an
+object diagram that needs to conform to the class
+
+0:00:28.740,0:00:38.040
+diagram that we've just made in the first subtask.
+So, starting off, we need a theatre again.
+
+0:00:39.600,0:00:50.160
+So, we don't necessarily have to name all of
+these. So, we can just put these double points
+
+0:00:50.160,0:00:56.280
+here with nothing in front of this. This kind
+of shows that this is an unnamed object here.
+
+0:00:56.280,0:01:03.180
+But it's of the Class theater. You can also
+underline it to indicate that this is an object.
+
+0:01:04.260,0:01:09.600
+Theater in our class diagram didn't have any
+attributes or methods. So, we're just going to
+
+0:01:09.600,0:01:16.800
+get rid of these placeholders here and just
+leave it like this. Then we have our events
+
+0:01:16.800,0:01:23.640
+that are going on. In this case, this is a film.
+Since this is a generalization going on here, we
+
+0:01:23.640,0:01:30.420
+don't need a specific Class of type Event. We just
+need an object. So, an object of type Film here.
+
+0:01:32.640,0:01:38.520
+The object itself doesn't really need to have
+a name. We could put the Ring of the Lords up
+
+0:01:38.520,0:01:44.100
+in here as well. But since the event itself has a
+name, we can just put it as an attribute instead.
+
+0:01:46.080,0:01:51.780
+So, the name is the Ring of the Lords.
+
+0:01:56.100,0:02:09.240
+For that, we're going to need to make our
+object box a little wider. The film also
+
+0:02:09.240,0:02:14.280
+has the attributes director and main actor in
+our class diagram. So, we need those as well.
+
+0:02:16.440,0:02:22.140
+They are given in the text as well. The director
+of that famous Volkert Mort. We have a director.
+
+0:02:28.080,0:02:30.000
+The main actor is Harry Topper.
+
+0:02:36.420,0:02:45.360
+And that's our film object done. Since the film
+is inheriting from the event, it inherits the
+
+0:02:45.360,0:02:52.200
+same kind of relation to the theater. So,
+this is just a simple association here.
+
+0:02:56.040,0:03:03.480
+Once again, we can copy and paste this label
+here. So, the theater conducts this film.
+
+0:03:05.520,0:03:10.800
+With that, we have the event that's going on
+in our object diagram and its relation to the
+
+0:03:10.800,0:03:17.220
+theater. And we can move on to the dates
+where this is happening. Or we could move
+
+0:03:17.220,0:03:24.000
+on with the room. Either way, we're just going
+to go somewhat in order here. So, the time this
+
+0:03:24.000,0:03:32.220
+is going on is Saturday 16th of January at
+8 pm. So, we're going to add a date object.
+
+0:03:37.680,0:03:44.580
+Underline this as well, which has three
+attributes, date, time, and price. In this case,
+
+0:03:44.580,0:03:52.140
+our date is the 16th of January. We can
+just leave it like that. We don't really
+
+0:03:52.140,0:03:59.640
+know how calendar date types are defined.
+But let's just assume. Writing this down.
+
+0:04:01.020,0:04:06.420
+It's happening next year on a Saturday. Saturday
+doesn't really come into play. But next year, we
+
+0:04:06.420,0:04:16.800
+can put this as 2021. Since it's 2020 currently.
+Then we have the time, which is given to us as
+
+0:04:19.380,0:04:25.320
+20:00 hours. So, we're going to put it like that
+as well. Once again, we don't really know how time
+
+0:04:26.460,0:04:30.720
+classes are defined. But this
+is good enough in this case.
+
+0:04:33.060,0:04:38.640
+And we have the price, of course, which is
+going to be eight euros, which we're just
+
+0:04:38.640,0:04:46.560
+going to put as you would normally put down
+any currencies. That gives us our date class.
+
+0:04:46.560,0:04:53.400
+Now the date has a simple association with events.
+So, we're just going to pull a single line here
+
+0:04:54.900,0:05:09.360
+for which we can copy this. Didn't copy all of it.
+There we go. It's a little fiddly sometimes. So,
+
+0:05:09.360,0:05:16.560
+this is the date of this film. So, this is our
+date and film modeled in our object diagram now.
+
+0:05:16.560,0:05:23.220
+And we can move on to the seats that we're
+booking. For this, we could either start
+
+0:05:23.220,0:05:27.300
+with the room because we definitely need the
+room. Because there's a composition going on
+
+0:05:27.300,0:05:35.340
+here. And the theater consists of rooms where the
+room consists of seats. So, we definitely need an
+
+0:05:35.340,0:05:40.080
+object of the room class as well. Or we could go
+the other way around and start with the booking.
+
+0:05:40.860,0:05:46.920
+And just put the booking class, which in
+our case, since this is an object diagram,
+
+0:05:47.520,0:05:55.380
+doesn't get any method. So, this is just going
+to be a booking object here with no attributes
+
+0:06:00.240,0:06:04.860
+connected to our date through the simple
+association as we did in our class diagram.
+
+0:06:07.560,0:06:14.940
+We can copy this label. So, this is our booking
+for that date. And the booking consists of
+
+0:06:14.940,0:06:22.920
+multiple seats. Since we are booking two seats,
+we need to model two seat objects as well. So,
+
+0:06:25.080,0:06:30.420
+we can put a name in here or just
+leave it empty again. We can put a seat
+
+0:06:33.480,0:06:44.400
+and underline it. And seats have numbers. So, put
+seat number one for the attributes. And another
+
+0:06:44.400,0:06:54.840
+one, which is going to be seat number two, which
+is going our two booked seats. Both of those are
+
+0:06:54.840,0:07:07.920
+connected to booking via an aggregation,
+as we did in our class diagram. (9 sec.)
+
+0:07:07.920,0:07:16.980
+Some of these pre-made objects aren't that great.
+Get rid of this relation, and we get rid of these
+
+0:07:16.980,0:07:21.960
+multiplicities. Since we are in an object
+diagram, we don't really want or need these.
+
+0:07:22.920,0:07:30.600
+And we are going to replace this one to get
+another one. Connecting our booking to this
+
+0:07:30.600,0:07:39.900
+second seat. There we go. We can get rid of
+these arrowheads if we want to. But since
+
+0:07:39.900,0:07:44.220
+we're using them here in the class diagram
+as well, we can just leave it like that too.
+
+0:07:45.300,0:07:49.320
+I just noticed you couldn't actually see the
+other seat. I'm just going to move over a bit.
+
+0:07:51.120,0:07:58.860
+Our seats are now sort of disconnected here. We
+have these compositions here from theater to room
+
+0:07:58.860,0:08:07.680
+and room to seat. So, we definitely need the room
+object as well. So, let's make that. We could name
+
+0:08:07.680,0:08:19.020
+this room one if we wanted to, just to have one
+object with the actual name. Rooms have names.
+
+0:08:20.400,0:08:26.280
+And the name is given an hour task as well. This
+is the "Bluesky" room. So, the name is "Bluesky."
+
+0:08:30.300,0:08:36.720
+No further attributes. And our room is
+connected through compositions to the
+
+0:08:36.720,0:08:46.260
+seats and to theaters. So, we grab those as well.
+Just copy and paste it from up here. Connecting
+
+0:08:46.260,0:09:05.640
+the theater to the room. Moving this multiplicity.
+And connecting each seat to the room. This is
+
+0:09:05.640,0:09:06.600
+very fiddly.
+
+0:09:14.400,0:09:22.860
+I'm not sure what's doing that. But this sort
+of works. There we go. If you're using draw,
+
+0:09:22.860,0:09:26.880
+you need to be careful to hit these little
+(?angle points) that show up sometimes. So,
+
+0:09:26.880,0:09:33.900
+this is our room connected to the seats now and
+the room connected to the theater. And with that,
+
+0:09:33.900,0:09:39.180
+we have almost everything modeled. We're just
+missing this association between date and room
+
+0:09:39.180,0:09:50.460
+here. So, you can pull a normal line to the room.
+And once again, copy this label here, which tells
+
+0:09:50.460,0:09:56.760
+us that this event is happening on this date.
+There's something happening in that room.
+
+0:09:57.900,0:10:04.320
+And looking at our task description again. See
+if we got everything. We got the date with all
+
+0:10:04.320,0:10:10.140
+information given here. We've got the event that's
+going on. We have a room named "Bluesky." We have
+
+0:10:10.920,0:10:15.360
+our two seats. And we have
+our bookings. So, that's our
+
+0:10:16.440,0:10:20.400
+object diagram dealt with as
+well. And this completes the task.

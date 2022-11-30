@@ -1,0 +1,647 @@
+0:00:00.480,0:00:06.060
+In this task, we are going to model an online
+ticketing system for theater. For this system,
+
+0:00:06.060,0:00:11.460
+we are already given a very thorough description
+that we basically just need to read out and
+
+0:00:11.460,0:00:16.980
+translate into a working-class diagram. Later
+on, we'll also make an object diagram based on
+
+0:00:16.980,0:00:22.200
+the class diagram. But let's just start with
+the class diagram itself. The test gives us
+
+0:00:22.200,0:00:29.280
+some additional notes here for the data types
+that we might use in our attributes. We can
+
+0:00:29.280,0:00:35.340
+use some given classes, namely price for
+prices, calendar date for calendar dates,
+
+0:00:35.340,0:00:39.540
+and time for clock times. We don't need to model
+these in our diagram. We can just assume they
+
+0:00:39.540,0:00:47.520
+exist and use them as types for our attributes.
+We're told that underlined words in the text
+
+0:00:47.520,0:00:53.160
+already designate the classes that we need in
+our diagram. So, finding the classes is pretty
+
+0:00:53.160,0:00:58.920
+simple. We just need to read a little closer
+to find what attributes and methods we need.
+
+0:01:00.840,0:01:07.080
+So, I'm just going to move this text out of the
+way since screen space is a little limited. And
+
+0:01:07.080,0:01:11.880
+we can start by reading the first paragraph.
+A theater, underlined. So, this is definitely
+
+0:01:11.880,0:01:18.840
+going to be a class. Consists of different rooms,
+which themselves consist of seats. So, we have our
+
+0:01:18.840,0:01:24.240
+theater class. And it consists of different rooms.
+We can't really do anything with that yet because
+
+0:01:24.240,0:01:29.340
+we don't have other classes. (?But we'd hold)
+each room, the room is also underlined. So, this
+
+0:01:29.340,0:01:36.660
+is going to be a class as well. Has a name, and
+each seat has a number. So, we have room and seat.
+
+0:01:36.660,0:01:42.780
+And pretty clearly, each room has a name. This
+is an attribute. So, we have an attribute name
+
+0:01:43.920,0:01:50.340
+which is going to be a string. And we have
+an attribute number for each seat, which is
+
+0:01:50.340,0:01:56.940
+probably going to be an Int because you could
+make it a float. But seat 20.5 doesn't really
+
+0:01:58.080,0:02:03.180
+sound that nice. So, let's just take whole
+numbers and leave it as an Int. We have
+
+0:02:03.180,0:02:08.100
+no indications of methods here. So, we're
+just going to leave these boxes here blank.
+
+0:02:08.820,0:02:11.580
+It's always important to
+leave the boxes themselves.
+
+0:02:13.620,0:02:20.100
+Since otherwise, it's not syntactically correct
+for a class in a UML class diagram. So, we're
+
+0:02:20.100,0:02:24.420
+just going to delete the text and not the box
+itself, just leaving this little empty line here.
+
+0:02:27.060,0:02:33.000
+For theater's attributes, there's no indication of
+any attributes for theater here in the text. So,
+
+0:02:33.000,0:02:36.120
+we're just going to leave that box
+empty as well and leave it like this.
+
+0:02:37.740,0:02:42.420
+Now we could either go on with the text
+and first identify all the classes or
+
+0:02:42.420,0:02:46.980
+just start working out the relations
+between the classes here right away.
+
+0:02:48.120,0:02:53.520
+I'm just going to start by reading this
+entry here. Consists kind of implies some
+
+0:02:53.520,0:03:00.120
+kind of relation to other Class because a theater
+consists of different rooms. And especially, it
+
+0:03:00.120,0:03:06.660
+implies some kind of part-whole association. So,
+it's definitely either aggregation or composition.
+
+0:03:06.660,0:03:13.440
+And to determine which of those it is, we just
+need to think about the lifetimes of the object
+
+0:03:13.440,0:03:21.180
+here. The theater is the whole, and the room is
+the part, is the lifetime of the room connected
+
+0:03:21.180,0:03:26.160
+to the lifetime of the theater? So, if we tear
+down the theater, are we going to tear down all
+
+0:03:26.160,0:03:33.780
+the rooms as well? Logically, yes, probably.
+So, we are going to make that a composition,
+
+0:03:35.640,0:03:44.220
+connecting theater to room. And the composition
+arrow we get from the draw arrow here already
+
+0:03:44.220,0:03:49.920
+has some multiplicity here, at least one,
+and nothing on the other side. This is fine.
+
+0:03:49.920,0:03:57.360
+We can leave it like this. We could remove
+the arrowhead. It's not really wrong in this
+
+0:03:57.360,0:04:02.460
+case. But if we wanted to, we can remove
+it and just make it a simple line here.
+
+0:04:05.820,0:04:09.660
+Basically, the arrowhead implies direction for
+the composition. But that's already given here.
+
+0:04:12.240,0:04:22.560
+Now going further, we have each room has a
+name, and each seat has a number. Of different
+
+0:04:22.560,0:04:29.100
+rooms which themselves consist of seats. So, the
+room and seat have a "consist" relation as well.
+
+0:04:29.100,0:04:33.960
+We'll just model it the same as with the first
+consist here. Make that a composition as well.
+
+0:04:35.880,0:04:43.020
+So, each room is the whole for any number
+of seats. The multiplicity up here,
+
+0:04:43.020,0:04:48.600
+one is fine. We can leave that. We're just
+going to remove the arrowhead for this.
+
+0:04:54.180,0:04:59.220
+With that, we have all the information that we can
+get from the first paragraph in our diagram. And
+
+0:04:59.220,0:05:05.460
+we can move on to the second one. Which is, events
+are conducted in a theater. This doesn't really do
+
+0:05:05.460,0:05:11.760
+anything for us yet. But an event is either a film
+or a concert. There is underlines. Once again,
+
+0:05:11.760,0:05:18.120
+tell us that these are classes. So, we have
+the class event. And we have the classes
+
+0:05:20.520,0:05:30.540
+filmed and concept. Each event has a name.
+So, you have the name attribute in Event.
+
+0:05:31.380,0:05:34.800
+Additionally, we have, for a
+film, the name of the director
+
+0:05:39.180,0:05:47.880
+and the main actor stored. (5 sec.)
+
+0:05:47.880,0:05:54.160
+For a concert, the name of the conductor and
+the name of the orchestra are stored. So, the
+
+0:05:54.660,0:06:06.000
+conductor and orchestra are also strings.
+
+0:06:06.000,0:06:08.580
+We have no indications of methods here. So,
+
+0:06:08.580,0:06:13.440
+once again, we're going to delete these method
+placeholders here and leave this empty box.
+
+0:06:14.280,0:06:20.880
+But we are told an event is either
+film or a concert. This "is" implies
+
+0:06:20.880,0:06:28.620
+some kind of generalization. So, we have a
+generalization arrow here if we can find it.
+
+0:06:32.040,0:06:40.620
+There it is. I don't know why this is a
+dashed line. Let me fix that in a moment.
+
+0:06:42.360,0:06:51.960
+There we go. And get another one for the relation
+from Concert to Event as well. We could make this
+
+0:06:51.960,0:06:57.960
+join, but it doesn't really matter. It could be
+joined in the middle here and then just one arrow
+
+0:06:57.960,0:07:04.740
+to the event. But this works as well. We can get
+rid of these extent labels. Draw arrow adds these
+
+0:07:04.740,0:07:09.300
+automatically. But the arrow already means that
+this is a generalization. So, we don't really need
+
+0:07:09.300,0:07:19.620
+that additional information. That's just visual
+clutter. That's our generalization between these
+
+0:07:20.400,0:07:27.000
+three classes here. Got the model correctly. And
+we only have one more relation in this paragraph,
+
+0:07:27.000,0:07:32.640
+which is events are conducted in a theater.
+Being conducted in a theater, that's not a
+
+0:07:32.640,0:07:37.260
+part-whole relationship or anything like that.
+Because the event isn't part of the theater,
+
+0:07:37.260,0:07:42.600
+and the theater isn't part of the event. So, this
+is most likely just the simple association here.
+
+0:07:45.660,0:07:52.860
+We're not going to use the arrow that draw
+arrow gives us for that because that has
+
+0:07:52.860,0:07:57.960
+these weird labels that just say, parent and
+child. This is not really all that helpful.
+
+0:07:59.880,0:08:06.780
+Instead, we are going to add a label that gives us
+some indication of what this association formed,
+
+0:08:06.780,0:08:14.100
+namely conducts. So, the theater conducts an
+event or events are conducted in a theater.
+
+0:08:14.100,0:08:19.320
+But this is basically the same. We just need some
+kind of reading direction here because otherwise,
+
+0:08:19.320,0:08:23.880
+we might read it as an event conducted at the
+theater, which doesn't really make sense. So, just
+
+0:08:23.880,0:08:29.460
+to help the reader, we can add one of these little
+reading arrows that I've already prepared here.
+
+0:08:29.460,0:08:36.420
+Draw arrow doesn't have these, as far as I know.
+So, I'm going to copy and paste these that I've
+
+0:08:36.420,0:08:41.280
+made before and just place them on the label here.
+And now we can read this as the theater conducts
+
+0:08:41.280,0:08:49.200
+an event. This is our association placed. And this
+is all the information from the second paragraph.
+
+0:08:51.060,0:08:55.320
+In the third paragraph, it says a
+date, which is once again a class.
+
+0:08:59.100,0:09:03.060
+Has an event that happens on that date and a
+room where it happens. So, this is a lot of
+
+0:09:03.060,0:09:07.740
+relation to the Class that we already have.
+Additionally, the calendar date and time,
+
+0:09:07.740,0:09:14.400
+as well as the price of the seat for that date
+are stored. So, we need three attributes here now.
+
+0:09:17.580,0:09:25.440
+One for the calendar date. So, just the date,
+and then we can use one of those predefined
+
+0:09:25.440,0:09:34.920
+classes that we were told about in the help
+text, namely the calendar date. (5 sec.)
+
+0:09:34.920,0:09:39.780
+It's important here that we make use of
+these given classes. Because otherwise,
+
+0:09:39.780,0:09:44.880
+date as an int or float doesn't really make
+sense. And if we don't use these, then we need
+
+0:09:44.880,0:09:54.600
+to define our own. So, this is really helpful that
+these are given to us. We have the time as well.
+
+0:09:55.800,0:10:00.960
+You need the time class that we are given. And we
+have the price for the seats. Of course, we can
+
+0:10:00.960,0:10:07.080
+just give us the price. And for that, we're using
+the price class. And that's our three attributes.
+
+0:10:09.780,0:10:13.020
+There's, once again, no indication of
+finding methods here. So, we're going
+
+0:10:13.020,0:10:17.940
+to delete this method placeholder.
+And that's our date class. Now,
+
+0:10:17.940,0:10:24.420
+we need to move these around a little bit to make
+room for the relations that the date has. Namely,
+
+0:10:24.420,0:10:29.040
+a date has an event that happens on that date.
+So, there's a relation between date and event.
+
+0:10:31.020,0:10:36.300
+For this, we now need to ask ourselves once again,
+is there some kind of part-whole relationship?
+
+0:10:37.320,0:10:42.000
+If you think about it, the date isn't really
+part of the event. And the event isn't really
+
+0:10:42.000,0:10:46.800
+part of the date. You might argue that
+the event might be part of the date. So,
+
+0:10:46.800,0:10:51.780
+this could be an aggregation. But then again, the
+event might be happening anyway. It just depends
+
+0:10:51.780,0:11:00.600
+on when it happens. So, it's probably more likely
+to just give this as a simple association here.
+
+0:11:00.600,0:11:04.740
+So, we are going to use the
+regular line here again.
+
+0:11:06.480,0:11:14.820
+And we are going to add a little
+label that says the date of the event.
+
+0:11:16.620,0:11:22.920
+And add a reading arrow to clarify the
+reading direction. So, now it reads
+
+0:11:24.840,0:11:32.700
+that this association is the date of the event.
+Going a little further along, we can also add
+
+0:11:32.700,0:11:41.460
+multiplicities here. Because the text says, a
+date has an event. So, one date probably has one
+
+0:11:41.460,0:11:48.180
+event. So, we can add a multiplicity of one on the
+side of the event because, at any point in time,
+
+0:11:48.180,0:11:57.240
+there's probably only going to be one event going
+on. And on the other side, if we look at one event
+
+0:11:57.240,0:12:05.820
+as a film or concert, in this case, the film is
+probably going to add more times than just one
+
+0:12:05.820,0:12:10.980
+day at one specific time. So, on the other side
+of the multiplicities, we are going to have one
+
+0:12:10.980,0:12:19.680
+to infinity. So, this can be a relationship of one
+event on however many dates, at least one date.
+
+0:12:21.240,0:12:26.520
+It can really be zero to however many
+here because the text specifically says
+
+0:12:26.520,0:12:32.940
+a date has an event. So, this implies
+that the event has at least one date.
+
+0:12:35.880,0:12:42.000
+Then we have the relationship of date has an event
+and a room where it happens. So, the date and room
+
+0:12:42.000,0:12:47.640
+are connected as well. Once again, room and date
+don't really have a part-whole relationship. So,
+
+0:12:47.640,0:12:54.780
+this is just a normal association.
+This doesn't really look that nice.
+
+0:12:54.780,0:13:02.160
+We can change our line build itself. And
+then add a reading direction, once again.
+
+0:13:02.940,0:13:07.860
+A label with a reading direction
+that says the date a room happens.
+
+0:13:09.540,0:13:16.500
+For example, a room is booked for a
+specific date. So, we can say booked
+
+0:13:19.560,0:13:28.500
+or booked for. And add a reading direction as
+well. So, the room is booked for a specific date.
+
+0:13:30.540,0:13:40.080
+Or we can go the other way around and say a
+date is taking place in a specific room. So,
+
+0:13:40.080,0:14:03.660
+taking place. Or just in. And then reading arrow
+in the other direction. There we go. So, happened
+
+0:14:03.660,0:14:11.220
+in. (? Do like that). So, some kind of date, some
+kind of event is happening in that specific room.
+
+0:14:12.360,0:14:18.120
+Speaking of that specific room, the text says a
+room where it happens. So, not multiple rooms. So,
+
+0:14:18.120,0:14:24.480
+this is implicated in the multiplicity of one
+here. You can just leave that as the one here.
+
+0:14:24.480,0:14:31.980
+And on the other side, the text doesn't really
+give any implications. And with the reading
+
+0:14:31.980,0:14:36.360
+direction going like this, it doesn't really make
+sense to add any multiplicity to the other side.
+
+0:14:37.740,0:14:45.060
+And if we now just go over the paragraph quickly,
+a date has an event. Which happens on that date.
+
+0:14:45.060,0:14:52.200
+This is modeled. And a room where it happens is
+our other association here. And the last line just
+
+0:14:52.200,0:14:58.020
+tells us about the attributes for the date class.
+And that's all the information in this paragraph.
+
+0:14:59.880,0:15:05.040
+Now in the last paragraph, we are told a booking
+consists of a date and one or more seats. So,
+
+0:15:05.040,0:15:12.060
+booking is a class, indicated by the underline
+here. Consists of date and one or more seats.
+
+0:15:12.060,0:15:15.900
+These are classes that we already have.
+So, we don't need attributes for this.
+
+0:15:17.700,0:15:23.280
+But we are told about some methods that booking is
+going to have. Namely, a booking has an operation
+
+0:15:23.280,0:15:29.520
+"readPrice." So, this is going to be our first
+method in this class diagram, "readPrice,"
+
+0:15:30.300,0:15:34.980
+which computes the overall price of all
+seats. Since we are talking about the
+
+0:15:34.980,0:15:41.400
+price of multiple seats and we use the price
+class for the price of a single seat and date,
+
+0:15:41.400,0:15:48.900
+we're just going to use the price class
+here as the datatype for the return as well.
+
+0:15:52.020,0:15:56.160
+Furthermore, a booking has an operation
+"send," which sends the booking to the
+
+0:15:56.160,0:16:01.200
+theater and reserves the selected seats.
+So, we're going to add another method here,
+
+0:16:03.480,0:16:11.160
+which is called "send," which just sends the book
+into the theater and reserves the selected seats.
+
+0:16:11.160,0:16:17.520
+The booking is being sent away here. So, this
+is a method operating on the Class itself. So,
+
+0:16:17.520,0:16:23.340
+it doesn't need any arguments. And it
+has no indicated return type since this
+
+0:16:23.340,0:16:27.060
+is just sent away to the theater. So, we're
+just going to leave this empty like this.
+
+0:16:28.860,0:16:34.860
+Our "readPrice" function with no arguments
+at price return and "send" with no arguments
+
+0:16:34.860,0:16:39.180
+and no return. There is no indication of
+any attributes in this case. We're going
+
+0:16:39.180,0:16:44.280
+to delete the empty attribute placeholder
+here and leave a booking class like this.
+
+0:16:45.660,0:16:50.520
+Now to the relation. A booking consists
+of a date and one or more seats. So,
+
+0:16:50.520,0:16:57.120
+we have a "consist" relationship again, which
+we modeled as a composition further at the top.
+
+0:17:02.160,0:17:07.800
+But in this case, this doesn't really make
+sense because booking and date don't really
+
+0:17:07.800,0:17:12.360
+have a part-whole relationship. It might
+consist of a date and one or more seats.
+
+0:17:12.360,0:17:20.460
+But we can look at this a little more loosely as
+booking just having a relationship to the date.
+
+0:17:23.340,0:17:33.640
+Namely, being a booking for a specific date
+with reading directed from booking to date. Move
+
+0:17:34.800,0:17:40.980
+a little closer. Let's just leave
+it like that. That's good enough.
+
+0:17:42.840,0:17:47.160
+A booking is for one specific day. So,
+we have a multiplicity of one up here.
+
+0:17:51.180,0:17:57.180
+The booking consists of one or more seats. This
+is more of a part-whole relationship here because
+
+0:17:59.580,0:18:03.300
+the booking is the whole where
+the seats are reserved for it.
+
+0:18:03.840,0:18:06.840
+So, we are going to use an aggregation here.
+
+0:18:10.740,0:18:14.640
+Going from booking to the seat.
+And we're told one or more. So,
+
+0:18:14.640,0:18:19.620
+the multiplicity on the side of the seat
+is going to be one, two, however many.
+
+0:18:23.100,0:18:30.240
+And we can remove this multiplicity down here that
+draw arrow added if I can (? get it). There it is.
+
+0:18:32.400,0:18:39.660
+Because there's no indication that one seat
+might not be part of multiple bookings. So,
+
+0:18:39.660,0:18:43.860
+having no multiplicity down here makes more
+sense than having a multiplicity of one.
+
+0:18:45.600,0:18:53.520
+And if we just move our lines here a little nicer
+or just move the class diagram so that these lines
+
+0:18:53.520,0:19:00.300
+are even. Then we tidied up our class diagram.
+And this is basically all the information that
+
+0:19:00.300,0:19:05.580
+we can get from this text for this class
+diagram. So, we can consider this complete.

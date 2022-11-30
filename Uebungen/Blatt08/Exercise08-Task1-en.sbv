@@ -1,0 +1,367 @@
+0:00:02.620,0:00:12.580
+This exercise task is about properties of
+Petri nets, and we have been given two reachability
+
+0:00:12.580,0:00:19.820
+graphs for Petri nets so we do not have the
+actual Petri nets in one and two but only
+
+0:00:19.820,0:00:21.880
+their reachability graphs.
+
+0:00:21.880,0:00:30.619
+But nevertheless, we are able to decide on
+whether there are some properties are valid
+
+0:00:30.619,0:00:32.360
+for the Petri nets.
+
+0:00:32.360,0:00:39.320
+Especially when we have given the information
+that there are four transitions for each Petri
+
+0:00:39.320,0:00:40.320
+net.
+
+0:00:40.320,0:00:46.660
+We know the ... #00:00:42# original Petri
+nets, there are four transitions where we
+
+0:00:46.660,0:00:51.219
+do not know the actual Petri nets.
+
+0:00:51.219,0:01:01.220
+Let us consider all these properties.
+
+0:01:01.220,0:01:08.530
+For the actual task, you have to fill in the
+properties below, so whether they're valid
+
+0:01:08.530,0:01:18.619
+or not, but also indicate the reasons why
+these properties hold or do not hold.
+
+0:01:18.619,0:01:23.520
+I will not write down the actual properties.
+
+0:01:23.520,0:01:30.560
+I would just indicate to properties within
+this table here.
+
+0:01:30.560,0:01:40.880
+But I will talk about the reasons that like
+I fill in the table as I'll do.
+
+0:01:40.880,0:01:53.320
+Let's have a look at the first Petri net and
+the first property, which is strongly live.
+
+0:01:53.320,0:02:01.399
+It does look like that we can reach all the
+states within the reachability graph, and
+
+0:02:01.399,0:02:10.810
+so
+this Petri net or the Petri net belong to
+
+0:02:10.810,0:02:16.170
+this reachability graph is probably strongly
+live.
+
+0:02:16.170,0:02:23.730
+And we can check if first of all, that we
+can reach all the nodes from each node and
+
+0:02:23.730,0:02:28.280
+as we have a cycle here, it is possible.
+
+0:02:28.280,0:02:38.310
+So that's the first reason that this strongly
+live can reach all the nodes from each other.
+
+0:02:38.310,0:02:45.510
+And the second part which we have to check
+is that all the transitions are within the
+
+0:02:45.510,0:02:52.120
+reachability graph, because then we can fire
+all the transitions as well.
+
+0:02:52.120,0:02:55.670
+We just choose one state in the reachability
+graph.
+
+0:02:55.670,0:02:57.480
+Let's choose 0 1, 1.
+
+0:02:57.480,0:03:00.010
+So the starting state.
+
+0:03:00.010,0:03:06.940
+So, when we choose this marking, then we know
+we can only have this marking in the Petri
+
+0:03:06.940,0:03:07.940
+net.
+
+0:03:07.940,0:03:11.349
+We can fire t4, t1, and t3.
+
+0:03:11.349,0:03:19.010
+And now we have to check only that we can
+also fire t2 when we start from this marking.
+
+0:03:19.010,0:03:20.370
+And yes, we can.
+
+0:03:20.370,0:03:25.820
+When we start from this marking, we can fire
+t3 and then we can fire t2.
+
+0:03:25.820,0:03:29.790
+And then we fired these transitions.
+
+0:03:29.790,0:03:41.340
+We can fire all four transitions when we started
+this marking and that's why this is strongly
+
+0:03:41.340,0:03:43.140
+live.
+
+0:03:43.140,0:03:45.220
+Now check the second Petri net.
+
+0:03:45.220,0:03:46.819
+If this is strongly live as well.
+
+0:03:46.819,0:03:53.590
+In this case, we have four places as we can
+see here, there are tokens given for four
+
+0:03:53.590,0:04:01.230
+places, and again we have these four transitions,
+as it was mentioned in the task, and now is
+
+0:04:01.230,0:04:02.549
+this strongly live.
+
+0:04:02.549,0:04:10.700
+Well, as we have such a node here where it
+seems that it is not strongly live.
+
+0:04:10.700,0:04:12.840
+Well, what we do we have to check?
+
+0:04:12.840,0:04:26.440
+Well, we have to check that we can reach another
+node from this one and well, we cannot.
+
+0:04:26.440,0:04:33.259
+We cannot reach all the nodes from each other,
+that's why this one is not strongly live.
+
+0:04:33.259,0:04:37.000
+Not strongly live for the second one.
+
+0:04:37.000,0:04:45.320
+Let's check if this maybe is weakly live,
+although it is not strongly live.
+
+0:04:45.320,0:05:03.660
+And for this property, we check
+the net that it consists of all the transitions.
+
+0:05:03.660,0:05:08.240
+We have t1 in the reachability graph.
+
+0:05:08.240,0:05:12.290
+We check the reachability graph if it contains
+all the transitions.
+
+0:05:12.290,0:05:21.300
+And we have t1, t2, t3 and t4 within the reachability
+graph.
+
+0:05:21.300,0:05:30.139
+The underlying Petri net would be weakly live
+as we can fire all the transitions.
+
+0:05:30.139,0:05:36.100
+And the other Petri net for this one holds
+the same.
+
+0:05:36.100,0:05:46.670
+We can also check here for all the transitions
+t1 to t4, as there four transitions t1, t2
+
+0:05:46.670,0:05:50.050
+t3, and t4 are within the reachability graph.
+
+0:05:50.050,0:05:53.009
+This one is weakly live.
+
+0:05:53.009,0:05:56.979
+Now we can check for deadlock freeness.
+
+0:05:56.979,0:06:08.500
+And as we’ve already mentioned, we can get
+to each other of the nodes when we follow
+
+0:06:08.500,0:06:11.720
+the edges in the reachability graph.
+
+0:06:11.720,0:06:20.380
+We suggest that
+it is deadlock free.
+
+0:06:20.380,0:06:21.819
+And then we check just the nodes.
+
+0:06:21.819,0:06:29.169
+If there is a node where there is no outgoing
+edge, and for this node, we have this edge.
+
+0:06:29.169,0:06:33.349
+For this node, we have this edge.
+
+0:06:33.349,0:06:35.381
+For this node, we have this outgoing edge.
+
+0:06:35.381,0:06:37.690
+For this node, we have this outgoing edge.
+
+0:06:37.690,0:06:39.470
+For this node, we have this outgoing edge.
+
+0:06:39.470,0:06:41.430
+And for this node, we have this outgoing edge.
+
+0:06:41.430,0:06:47.840
+Of course, there are more outgoing edges,
+but these are just the examples.
+
+0:06:47.840,0:06:54.120
+For each node we found an outgoing edge, so
+we know this one is deadlock free.
+
+0:06:54.120,0:07:00.940
+Now we check the second net and there we find
+a node which has no outgoing edge, so 0, 2,
+
+0:07:00.940,0:07:03.590
+0, 0 has no outgoing edge.
+
+0:07:03.590,0:07:07.790
+This one is actually a deadlock.
+
+0:07:07.790,0:07:15.190
+This one is not deadlock free.
+
+0:07:15.190,0:07:19.789
+This one is not deadlock free.
+
+0:07:19.789,0:07:26.009
+Now we check for safeness.
+
+0:07:26.009,0:07:27.449
+Is this net safe?
+
+0:07:27.449,0:07:28.449
+Well safe?
+
+0:07:28.449,0:07:34.950
+It is if there is most one token for every
+place.
+
+0:07:34.950,0:07:43.000
+When we find any node in the reachability
+graph where there's more than one token for
+
+0:07:43.000,0:07:45.440
+a place, it is not safe.
+
+0:07:45.440,0:07:52.340
+And in this case, we have, for example, this
+node here 0, 2, 0, 0, which contains more
+
+0:07:52.340,0:07:59.290
+than one token and for the second place, so
+there are two tokens and two is greater than
+
+0:07:59.290,0:08:00.419
+one.
+
+0:08:00.419,0:08:14.360
+In fact, this is not safe and we can check
+the
+
+0:08:14.360,0:08:19.199
+other Petri net for the same thing.
+
+0:08:19.199,0:08:30.950
+So now we check in one, and when we look at
+this Petri net and we see that this one has
+
+0:08:30.950,0:08:32.390
+the same properties.
+
+0:08:32.390,0:08:41.990
+For instance, this node here contains two
+tokens in the first place.
+
+0:08:41.990,0:08:48.650
+2, 0, 0 contains more than one token for the
+first place here.
+
+0:08:48.650,0:09:04.580
+In this case, this is not safe as well.
+
+0:09:04.580,0:09:12.279
+Now we check bounded, is this Petri net bounded?
+
+0:09:12.279,0:09:26.630
+Well, we can find a constant C for each of
+the tokens of the places where no node has
+
+0:09:26.630,0:09:34.250
+more tokens than this constant for these cases
+or if we can, then it is bounded, but we can
+
+0:09:34.250,0:09:40.650
+for if we choose two for instance, or even
+three, well two is enough in this case, or
+
+0:09:40.650,0:09:47.260
+if we choose C equals two, then we find no
+node, which contains more tokens than two.
+
+0:09:47.260,0:09:56.589
+And because when we check all these numbers
+here, we have only 0, 0, 0, 1 and 2.
+
+0:09:56.589,0:10:08.510
+For all these nodes in the reachability graph
+so in fact this is bounded.
+
+0:10:08.510,0:10:18.270
+And then we check the second net and here
+again, we can choose a constant C equal two
+
+0:10:18.270,0:10:24.500
+can be the same as in this case, because there
+two is the highest number of tokens for a
+
+0:10:24.500,0:10:30.120
+place here for this Petri net or in the reachability
+graph.
+
+0:10:30.120,0:10:38.459
+There is no number higher than two ever occurring
+for any tokens in any place.
+
+0:10:38.459,0:10:48.760
+And that's why this one is bounded as well.
+
+0:10:48.760,0:10:58.760
+And then we are done with the task and have
+decided all the properties.

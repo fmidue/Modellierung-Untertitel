@@ -1,0 +1,644 @@
+0:00:00.089,0:00:03.889
+In dieser Aufgabe geht es um unbeschränkte
+Petrinetze.
+
+0:00:03.889,0:00:08.820
+Hier haben wir ein so genanntes unbeschränktes
+Petrinetz abgebildet.
+
+0:00:08.820,0:00:13.450
+Und dazu drei Teilaufgaben, die wir bearbeiten
+sollen.
+
+0:00:13.450,0:00:18.470
+Fangen wir mit Aufgabe a an: Geben Sie für
+dieses Petrinetz den Teil des unendlichen
+
+0:00:18.470,0:00:22.570
+Erreichbarkeitsgraphen an, der alle Zustände
+enthält, die mit maximal drei Übergängen
+
+0:00:22.570,0:00:24.140
+erreichbar sind.
+
+0:00:24.140,0:00:30.650
+Also gehen wir mal nach unten und schreiben
+auf: Aufgabe a.
+
+0:00:30.650,0:00:38.410
+Jetzt macht es natürlich als Erstes Sinn
+beim Erreichbarkeitsgraphen erstmal die Startmarkierung
+
+0:00:38.410,0:00:39.500
+aufzuschreiben.
+
+0:00:39.500,0:00:41.260
+Also machen wir eine Klammer auf.
+
+0:00:41.260,0:00:43.540
+Wir haben ja s1, s2, s3.
+
+0:00:43.540,0:00:50.180
+Und die Startmarkierung ist, dass eine Marke
+auf s1 liegt und null auf den anderen Stellen.
+
+0:00:50.180,0:00:54.980
+Da es eine Startmarkierung ist, muss vorne
+noch der Pfeil hin als Start.
+
+0:00:54.980,0:00:57.610
+Dann haben wir die erste Markierung.
+
+0:00:57.610,0:01:00.899
+Jetzt sollen wir drei Übergänge machen.
+
+0:01:00.899,0:01:06.750
+Von diesem Zustand aus kann nur t1 schalten,
+weil das als Vorbedingung gilt.
+
+0:01:06.750,0:01:09.219
+Das bedeutet wir lassen t1 mal schalten.
+
+0:01:09.219,0:01:11.369
+Eine Marke geht als Vorbedingung rein.
+
+0:01:11.369,0:01:14.520
+Und eine Marke kommt als Nachbedingung hier
+raus.
+
+0:01:14.520,0:01:18.119
+Und eine Marke kommt als Nachbedingung hier
+raus.
+
+0:01:18.119,0:01:22.240
+Das bedeutet, das ist unser zweiter Zustand.
+
+0:01:22.240,0:01:26.359
+Gehen wir wieder runter und schreiben den
+auf.
+
+0:01:26.359,0:01:31.889
+Null Marken liegen in s1 und eine jeweils
+in s2 und s3.
+
+0:01:31.889,0:01:38.229
+Also machen wir einen Pfeil und schreiben
+hier auf, dass t1 geschaltet hat.
+
+0:01:38.229,0:01:45.270
+Und null Marken befinden sich in s1, eine
+in s2 und eine in s3.
+
+0:01:45.270,0:01:47.880
+Was kann von diesem Zustand aus jetzt wieder
+schalten?
+
+0:01:47.880,0:01:53.209
+Jetzt könnte zum Beispiel die t2, aber auch
+die t3 schalten.
+
+0:01:53.209,0:01:55.849
+Aber wir lassen zuerst einmal t2 schalten.
+
+0:01:55.849,0:02:04.229
+Da geht eine Marke in t2 rein und als Nachbedingung
+eine Marke aus t2 raus.
+
+0:02:04.229,0:02:06.380
+Und dann sind wir bei diesem Zustand.
+
+0:02:06.380,0:02:12.349
+Also gehen wir wieder runter und schreiben
+das auf.
+
+0:02:12.349,0:02:17.140
+Wir machen einen Pfeil und notieren, dass
+t2 geschaltet hat.
+
+0:02:17.140,0:02:21.969
+Und jetzt sind wir bei dem Zustand, dass hier
+ein Marke ist, da null Marken sind, und dort
+
+0:02:21.969,0:02:24.660
+wieder eine Marke ist.
+
+0:02:24.660,0:02:29.189
+Jetzt haben wir den ersten Übergang und den
+zweiten Übergang.
+
+0:02:29.189,0:02:30.519
+Jetzt fehlt noch ein dritter Übergang.
+
+0:02:30.519,0:02:38.790
+Eine Möglichkeit für den dritten Übergang
+wäre zum Beispiel, dass hier rein theoretisch
+
+0:02:38.790,0:02:42.360
+t1 wieder schalten könnte.
+
+0:02:42.360,0:02:50.370
+Das bedeutet, eine Marke geht in t1 rein,
+eine Marke geht in s2 raus und eine zweite
+
+0:02:50.370,0:02:55.860
+Marke geht in s3, sodass hier jetzt zwei Marken
+sind.
+
+0:02:55.860,0:02:58.209
+Schreiben wir das wieder auf.
+
+0:02:58.209,0:03:02.060
+Wir machen einen Pfeil nach da.
+
+0:03:02.060,0:03:04.620
+Darüber schreiben wir t1.
+
+0:03:04.620,0:03:13.459
+Dann haben wir den Zustand, dass null Marken
+in s1 sind, eine Marke in s2 und zwei Marken
+
+0:03:13.459,0:03:14.859
+in s3.
+
+0:03:14.859,0:03:21.819
+Das wären jetzt die drei Übergänge.
+
+0:03:21.819,0:03:33.580
+Dann kommen wir nochmal zu dem Zustand zurück,
+den wir hier hatten, wo wir uns entscheiden
+
+0:03:33.580,0:03:37.469
+konnten, ob t2 oder t3 schaltet.
+
+0:03:37.469,0:03:42.810
+Das bedeutet, wir haben eine Marke hier und
+eine Marke hier.
+
+0:03:42.810,0:03:45.280
+Damit hat erstmal nur t1 geschaltet.
+
+0:03:45.280,0:03:46.540
+Das ist unser erster Übergang.
+
+0:03:46.540,0:03:48.499
+Also gibt es jetzt noch einen zweiten und
+einen dritten.
+
+0:03:48.499,0:03:54.560
+Das bedeutet, wenn wir jetzt aber von diesem
+Zustand aus anstatt t2 zu schalten, t3 schalten
+
+0:03:54.560,0:03:58.409
+lassen, geht hier eine Marke rein.
+
+0:03:58.409,0:04:06.680
+Und dann kommen hier, weil hier das Gewicht
+2 dransteht, zwei Marken wieder raus.
+
+0:04:06.680,0:04:11.209
+Und wenn wir jetzt genau beobachten, sehen
+wir, dass wir eigentlich genau bei diesem
+
+0:04:11.209,0:04:12.439
+Zustand rauskommen.
+
+0:04:12.439,0:04:16.220
+Ich hoffe, man kann das jetzt gleich lesen.
+
+0:04:16.220,0:04:18.919
+Ich muss nämlich ein bisschen über die Aufgabe
+schreiben.
+
+0:04:18.919,0:04:21.750
+Ich habe ein bisschen schief geschrieben.
+
+0:04:21.750,0:04:26.090
+Und hier schreibe ich t3 dran.
+
+0:04:26.090,0:04:31.250
+Da kommt ein Übergang da hin.
+
+0:04:31.250,0:04:34.139
+Jetzt haben wir hier einen Übergang und einen
+zweiten Übergang.
+
+0:04:34.139,0:04:43.610
+Jetzt müssen wir überlegen, was wir aus
+dieser Position als dritten Übergang schalten
+
+0:04:43.610,0:04:44.610
+können.
+
+0:04:44.610,0:04:48.930
+Da können wir wieder überlegen, ob wir t2
+oder t3 schalten.
+
+0:04:48.930,0:04:56.920
+Wenn wir an der Stelle t3 schalten würden,
+würde eine Marke hier wieder rausgehen und
+
+0:04:56.920,0:04:59.470
+zwei Marken wieder reinkommen.
+
+0:04:59.470,0:05:05.120
+Also hätten wir da drei Marken.
+
+0:05:05.120,0:05:06.530
+Wir schreiben das wieder auf.
+
+0:05:06.530,0:05:24.780
+Wenn wir hier als dritten Übergang nochmal
+t3 schalten, dann haben wir null, eins, drei.
+
+0:05:24.780,0:05:28.949
+Und damit hätten wir auch unsere drei Übergänge.
+
+0:05:28.949,0:05:34.160
+Man konnte aber von hier aus rein theoretisch
+auch noch t2 schalten.
+
+0:05:34.160,0:05:36.729
+Also machen wir das auch einmal nochmal.
+
+0:05:36.729,0:05:41.729
+Also gehen wir zu dem Zustand null, eins,
+zwei zurück.
+
+0:05:41.729,0:05:44.590
+Da konnten wir auch t2 schalten.
+
+0:05:44.590,0:05:50.729
+Also geht eine Marke in t1 rein und kommt
+hier oben wieder raus.
+
+0:05:50.729,0:05:56.260
+Dann kommen wir zu dem Zustand, dass eine
+Marke da ist und zwei Marken da.
+
+0:05:56.260,0:06:04.970
+Ich mache von hier aus mal einen Strich nach
+unten.
+
+0:06:04.970,0:06:12.440
+Wir haben jetzt t2 geschaltet.
+
+0:06:12.440,0:06:22.190
+Und dann haben wir eine Marke, null Marken,
+zwei Marken.
+
+0:06:22.190,0:06:24.210
+Jetzt müssen wir mal gucken.
+
+0:06:24.210,0:06:26.319
+Wir haben hier dreimal drei Übergänge.
+
+0:06:26.319,0:06:33.379
+Allerdings kann man, was ich vorhin noch nicht
+gesagt habe, rein theoretisch auch hier zwei
+
+0:06:33.379,0:06:38.410
+Übergänge machen und dann von dieser Position
+aus auch noch etwas schalten.
+
+0:06:38.410,0:06:43.449
+Das bedeutet, wir gehen wieder hier oben hin
+und stellen das mal ein.
+
+0:06:43.449,0:06:47.520
+Wir haben jetzt also eine Marke da und eine
+Marke da.
+
+0:06:47.520,0:06:50.130
+Jetzt mache ich mal wieder diese hier weg.
+
+0:06:50.130,0:06:54.189
+Von hier aus hatten wir t1 geschaltet.
+
+0:06:54.189,0:06:56.970
+Man könnte aber von hier aus auch nochmal
+t3 schalten.
+
+0:06:56.970,0:06:58.720
+Das hatten wir vorhin nicht getan.
+
+0:06:58.720,0:07:01.090
+Das bedeutet, ich lasse t3 schalten.
+
+0:07:01.090,0:07:05.639
+Eine Marke geht also hier raus und in t3 rein.
+
+0:07:05.639,0:07:08.720
+Und dann gehen zwei Marken wieder hier raus.
+
+0:07:08.720,0:07:15.720
+Wenn wir jetzt wieder genau hingucken, fällt
+auf, dass wir wieder eine Marke in s1 haben
+
+0:07:15.720,0:07:17.750
+und zwei Marken in s3.
+
+0:07:17.750,0:07:19.980
+Das ist das Gleiche wie dieser Zustand.
+
+0:07:19.980,0:07:30.650
+Also können wir von hier aus einfach auch
+einen Pfeil dahin machen mit t3.
+
+0:07:30.650,0:07:37.810
+Jetzt muss ich einmal überlegen.
+
+0:07:37.810,0:07:55.789
+(51 Sek.)
+
+0:07:55.789,0:08:34.550
+Und jetzt können wir noch eine letzte Verbindung
+machen.
+
+0:08:34.550,0:08:41.820
+Das wäre dann zwar jetzt schon der vierte
+Übergang und in der Aufgabe steht, es soll
+
+0:08:41.820,0:08:48.130
+mit maximal drei Übergängen erreichbar sein,
+aber wenn man genau hinguckt, kann man aus
+
+0:08:48.130,0:08:56.630
+dem Zustand, in dem wir jetzt gerade noch
+sind, wieder t1 schalten lassen.
+
+0:08:56.630,0:09:06.060
+Und wenn wir das machen geht eine Marke hier
+rein und eine Marke noch hier mit rein, dann
+
+0:09:06.060,0:09:09.730
+sieht man, dass wir wieder zu dem Zustand,
+der hier ist, kommen.
+
+0:09:09.730,0:09:16.200
+Das bedeutet, man kann von diesem Zustand
+auch zu dem kommen mit t1.
+
+0:09:16.200,0:09:19.520
+Das wäre jetzt der Erreichbarkeitsgraph.
+
+0:09:19.520,0:09:22.621
+Man könnte hier jetzt noch weitere Pfeile
+machen.
+
+0:09:22.621,0:09:23.770
+Aber die sind nur optional.
+
+0:09:23.770,0:09:25.020
+Die muss man nicht machen.
+
+0:09:25.020,0:09:29.180
+Man könnte dranschreiben, was von den Transitionen
+aus wieder weiterschalten könnte.
+
+0:09:29.180,0:09:31.920
+Was mache ich da?
+
+0:09:31.920,0:09:38.260
+Das mache ich nochmal.
+
+0:09:38.260,0:09:47.680
+Aber das ist nicht notwendig, weil wir nur
+die für drei Übergänge angeben sollten.
+
+0:09:47.680,0:09:54.430
+Und das ist dann der Erreichbarkeitsgraph
+für Aufgabe a mit maximal drei Übergängen.
+
+0:09:54.430,0:09:57.510
+Dann gucken wir uns Aufgabe b an.
+
+0:09:57.510,0:10:01.210
+Begründen Sie mit Hilfe des Graphen, dass
+das Netz unbeschränkt ist, und beschreiben
+
+0:10:01.210,0:10:05.210
+Sie eine unendliche Schaltfolge, die zu beliebig
+großen Anzahlen an Marken in einer der Stellen
+
+0:10:05.210,0:10:06.210
+führt.
+
+0:10:06.210,0:10:10.250
+Da können wir uns das nochmal angucken.
+
+0:10:10.250,0:10:20.430
+Ich setze das mal hier oben wieder auf die
+Startmarkierung zurück.
+
+0:10:20.430,0:10:23.730
+Wir sollen das mit Hilfe des Graphen machen.
+
+0:10:23.730,0:10:26.430
+Also gucken wir uns den Graphen an.
+
+0:10:26.430,0:10:31.350
+Ich nehme mal eine andere Farbe wie zum Beispiel
+rot.
+
+0:10:31.350,0:10:37.190
+Wenn wir jetzt den Graphen genau beobachten,
+dann fällt auf, dass zum Beispiel dieser
+
+0:10:37.190,0:10:43.840
+Zustand hier genau der gleiche ist wie der
+erste, nur dass in s3 eine Stelle mehr liegt.
+
+0:10:43.840,0:10:51.260
+Wenn wir uns auch diesen Zustand angucken,
+dann ist das der gleiche wie der und der,
+
+0:10:51.260,0:10:56.190
+nur dass hier auch in s3 eine Marke mehr liegt.
+
+0:10:56.190,0:11:03.570
+Das bedeutet, wenn man die Schaltfolge t1
+und t2 immer wieder schaltet, dann werden
+
+0:11:03.570,0:11:07.580
+in s3 immer mehr Marken hinzugefügt.
+
+0:11:07.580,0:11:10.550
+Das bedeutet, da ist das schonmal unendlich.
+
+0:11:10.550,0:11:21.250
+Eine zweite Möglichkeit zur Erklärung wäre
+sonst auch
+
+0:11:21.250,0:11:30.790
+dieser Zustand, denn, wenn man genau hinguckt,
+dann ist zwischen diesem Zustand und dem hier
+
+0:11:30.790,0:11:37.320
+vorne, oder diesem Zustand und diesem hier
+auch in s3 jeweils wieder immer eine Marke
+
+0:11:37.320,0:11:38.790
+mehr drin.
+
+0:11:38.790,0:11:45.770
+Von hier aus schaltete man ja t3, um dahinzukommen
+oder man schaltete von hier aus t3, um dort
+
+0:11:45.770,0:11:46.770
+hinzukommen.
+
+0:11:46.770,0:11:54.760
+Das bedeutet, immer, wenn man t3 schaltet,
+dann folgt darauf auch, dass dort immer eine
+
+0:11:54.760,0:11:55.760
+Marke mehr liegt.
+
+0:11:55.760,0:12:01.530
+Aber es gibt auch mehrere Begründungen, mit
+denen man das begründen kann.
+
+0:12:01.530,0:12:06.160
+Das waren jetzt die zwei aus der Lösung.
+
+0:12:06.160,0:12:13.000
+Ich schreibe das jetzt noch einmal auf.
+
+0:12:13.000,0:12:17.200
+Vielleicht tippe ich das sogar ab.
+
+0:12:17.200,0:12:18.200
+Dann mache ich das so.
+
+0:12:18.200,0:12:34.580
+Dann mache ich hier so ein Textfeld hin und
+schreibe auf: Der unterstrichene Zustand (1,0,1)
+
+0:12:34.580,0:13:08.830
+enthält in s1 genauso viele Marken wie der
+Startzustand, aber eine zusätzliche Marke
+
+0:13:08.830,0:13:12.640
+in s3.
+
+0:13:12.640,0:13:42.340
+Es können von hier aus also immer wieder
+erst t1 und dann t2 oder einfach t3 geschaltet
+
+0:13:42.340,0:13:46.690
+werden.
+
+0:13:46.690,0:14:16.850
+Eine Schaltfolge der Art: t1, t2, unendlich,
+kann daher genauso wie: t3, unendlich, zu
+
+0:14:16.850,0:14:31.570
+einer beliebig großen Anzahl von Marken in
+s3 führen.
+
+0:14:31.570,0:14:35.780
+Das Sternchen steht für unendlich.
+
+0:14:35.780,0:14:43.140
+Damit haben wir dann auch eine mögliche Begründung
+für Aufgabe b gefunden.
+
+0:14:43.140,0:14:47.690
+Dann gucken wir uns jetzt noch die Aufgabe
+c an.
+
+0:14:47.690,0:14:54.300
+Geben Sie eine möglichst geringfügige Abwandlung
+des Petrinetzes an, sodass es nicht mehr unbeschränkt
+
+0:14:54.300,0:14:58.620
+aber immer noch verklemmungsfrei ist.
+
+0:14:58.620,0:15:05.380
+Dann gucken wir uns das hier an, was man genau
+tun kann, um das zu verändern.
+
+0:15:05.380,0:15:11.070
+Der eine Grund, warum die Marken in s3 immer
+weiter ansteigen, wäre schon einmal, dass
+
+0:15:11.070,0:15:13.490
+hier eine zwei steht.
+
+0:15:13.490,0:15:21.130
+Also übermale ich jetzt mal die zwei, damit
+die nicht mehr zu sehen ist und schreibe mit
+
+0:15:21.130,0:15:26.650
+einem schwarzen Stift dann wieder daneben
+eine eins.
+
+0:15:26.650,0:15:30.160
+Denn jetzt geht eine Marke rein und eine Marke
+raus.
+
+0:15:30.160,0:15:32.270
+Also wird das nicht immer höher.
+
+0:15:32.270,0:15:39.930
+Und der zweite Grund, warum sich die Marken
+verdoppeln, ist ja, dass sich hier das aufspaltet.
+
+0:15:39.930,0:15:42.360
+Ich kann das ja nochmal aufmalen.
+
+0:15:42.360,0:15:44.210
+Also die Marke geht ja hier rein.
+
+0:15:44.210,0:15:46.850
+Dann haben wir hier und hier eine Marke.
+
+0:15:46.850,0:15:49.010
+Und jetzt kann die ja immer wieder im Kreis
+laufen.
+
+0:15:49.010,0:15:51.250
+Und jedes Mal wird hier wieder eine reingedrückt.
+
+0:15:51.250,0:15:54.670
+Und hier die Marke läuft halt die ganze Zeit
+im Kreis.
+
+0:15:54.670,0:15:56.670
+Und so kommt immer eine dazu.
+
+0:15:56.670,0:16:01.860
+Das bedeutet, wir müssen versuchen, zu vermeiden,
+dass diese Marken hier immer mehr werden.
+
+0:16:01.860,0:16:02.860
+Das machen wir nochmal.
+
+0:16:02.860,0:16:15.770
+Und das kann man schaffen, indem man von dieser
+Stelle einfach eine Verbindung dahin macht.
+
+0:16:15.770,0:16:22.851
+Denn wenn jetzt hier zwei Marken liegen, dann
+kann jetzt entweder t3 schalten und hier wieder
+
+0:16:22.851,0:16:25.990
+eine reinlegen oder es könnte t2 schalten.
+
+0:16:25.990,0:16:30.740
+Aber dann gilt als Vorbindung, dass hier und
+hier jeweils eine Marke rauskommt.
+
+0:16:30.740,0:16:33.840
+Und dann würde hier oben wieder eine hingelegt
+werden.
+
+0:16:33.840,0:16:37.540
+Und dann wären wir wieder bei der Startmarkierung.
+
+0:16:37.540,0:16:45.040
+Damit wäre das Netz also begrenzt, aber es
+wäre immer noch verklemmungsfrei.
+
+0:16:45.040,0:16:49.510
+Das war dann auch schon die Aufgabe zwei.

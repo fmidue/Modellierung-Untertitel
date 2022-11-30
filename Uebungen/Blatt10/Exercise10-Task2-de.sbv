@@ -1,0 +1,271 @@
+0:00:01.069,0:00:07.019
+In dieser Aufgabe zu Petrinetzen mit Kapazitäten
+haben wir passenderweise ein Petrinetz mit
+
+0:00:07.019,0:00:11.179
+Kapazitäten an jeder Stelle gegeben, aus
+dem wir ein herkömmliches Petrinetz machen
+
+0:00:11.179,0:00:18.160
+sollen, das ohne Kapazitäten auskommt, aber
+im Endeffekt immer noch dieselbe Verhaltensweise
+
+0:00:18.160,0:00:19.900
+zeigt wie dieses hier mit Kapazitäten.
+
+0:00:19.900,0:00:25.060
+Nach mal ganz kurz zur Wiederholung: Kapazitäten
+bedeutet einfach nur, dass die Anzahl der
+
+0:00:25.060,0:00:28.150
+Tokens in der jeweiligen Stelle limitiert
+ist.
+
+0:00:28.150,0:00:33.360
+Das heißt, an den Stellen s1 und s2 haben
+wir die Kapazität zwei, das heißt, dass
+
+0:00:33.360,0:00:37.980
+jeweils nur maximal zwei Tokens darin sein
+dürfen, egal an welcher Stelle im Durchlauf
+
+0:00:37.980,0:00:39.879
+unseres Petrinetzes wir uns befinden.
+
+0:00:39.879,0:00:43.123
+Dasselbe gilt für s3 und s4, nur sind hier
+andere Kapazitäten.
+
+0:00:43.123,0:00:48.110
+In s3 darf nur maximal ein Token darin sein
+und bei s4 dürfen maximal drei Token darin
+
+0:00:48.110,0:00:49.110
+sein.
+
+0:00:49.110,0:00:55.149
+Wenn wir das Petrinetz einfach so nehmen würden
+und die Kapazitäten durchstreichen, und sonst
+
+0:00:55.149,0:00:59.750
+nichts verändern, um es in ein herkömmliches
+Petrinetz umzuwandeln, dann hätten wir sofort
+
+0:00:59.750,0:01:04.220
+an s3 die Kapazität gebrochen, indem wir
+zum Beispiel zweimal t1 ausführen.
+
+0:01:04.220,0:01:09.270
+Denn t1 erwartet nur ein Token in s1, und
+da sind zwei drin, also können wir t1 direkt
+
+0:01:09.270,0:01:14.220
+zweimal ausführen, hätten nur zwei Token
+in s3 gelegt und diese Kapazität 1 gebrochen.
+
+0:01:14.220,0:01:19.140
+Das heißt, wir müssen noch ein wenig mehr
+machen als einfach nur die Kapazitäten wegstreichen,
+
+0:01:19.140,0:01:21.799
+damit das Petrinetz immer noch funktioniert.
+
+0:01:21.799,0:01:22.840
+Das sollte ja eigentlich klar sein.
+
+0:01:22.840,0:01:25.600
+Dafür verwenden wir das Verfahren aus der
+Vorlesung.
+
+0:01:25.600,0:01:30.189
+Das Verfahren aus der Vorlesung ist einfach
+nur, dass zu jeder Stelle mit Kapazitäten
+
+0:01:30.189,0:01:39.790
+eine Komplementärstelle hinzugefügt wird,
+die die Token hält, die maximal da sein dürfen.
+
+0:01:39.790,0:01:45.400
+Das heißt, insgesamt wird dann jede Stelle
+mit Kapazität eine Komplementärstelle haben,
+
+0:01:45.400,0:01:51.520
+und diese beiden Stellen zusammen haben dann
+genauso viele Token wie die Kapazität ist.
+
+0:01:51.520,0:01:55.340
+Und wie das im Endeffekt aussieht, schauen
+wir uns jetzt nach und nach an.
+
+0:01:55.340,0:01:57.810
+Wir fangen einmal mit der Stelle s1 an.
+
+0:01:57.810,0:02:01.469
+Die Stelle s1 hat immer noch als Start zwei
+Token.
+
+0:02:01.469,0:02:09.410
+Das heißt, unsere Komplementärstelle, die
+wir dazuschreiben, hat keine Token.
+
+0:02:09.410,0:02:14.260
+Denn, wie ich eben schon gesagt habe, die
+Komplementärstelle und die ursprüngliche
+
+0:02:14.260,0:02:19.470
+Stelle zusammen müssen insgesamt die Menge
+der Token haben, die die Kapazität sind.
+
+0:02:19.470,0:02:22.660
+Hier sind zwei Token in der normalen Stelle
+drin, das heißt, unsere Komplementärstelle
+
+0:02:22.660,0:02:30.010
+braucht jetzt keine Token noch dazuzubekommen.
+s1 ist natürlich immer noch mit den Transitionen
+
+0:02:30.010,0:02:43.080
+t1 und t4 verbunden, und unsere Komplementärstelle
+soll jetzt so agieren, dass, sobald ein Token
+
+0:02:43.080,0:02:47.720
+aus s1 herausgenommen wird, einer in die Komplementärstelle
+hineingegeben wird.
+
+0:02:47.720,0:02:54.720
+Ich mache es einmal in einer anderen Farbe,
+damit es ein wenig deutlicher ist, welche
+
+0:02:54.720,0:03:00.060
+die Komplementärstellen sind.
+
+0:03:00.060,0:03:11.920
+Wenn t1 ein Token aus s1 herausnimmt, muss
+die Transition ein Token in s1 abgeben.
+
+0:03:11.920,0:03:17.870
+Andersherum bei t4: t4 gibt ein Token in s4
+hinein, das heißt, t4 muss sich vorher diesen
+
+0:03:17.870,0:03:26.560
+Token von unserer Komplementärstelle holen,
+denn ansonsten ist nicht unbedingt garantiert,
+
+0:03:26.560,0:03:31.130
+dass t4 nicht auch (?fallen) kann, wenn nicht
+genug Token in s4 darin sind.
+
+0:03:31.130,0:03:37.830
+So muss bei t4 immer auch mindestens ein Token
+in s1-Komplementär darin sein, damit es einen
+
+0:03:37.830,0:03:39.780
+Token in s1 hineingeben kann.
+
+0:03:39.780,0:03:43.750
+So bleibt diese Anzahl der Token zwischen
+s1 und dem Komplementär immer konstant auf
+
+0:03:43.750,0:03:44.940
+zwei.
+
+0:03:44.940,0:03:51.590
+Und das machen wir jetzt einfach für die
+übrig gebliebenen Stellen und wechseln dabei
+
+0:03:51.590,0:03:53.490
+wieder die Farbe.
+
+0:03:53.490,0:03:58.140
+Dann machen wir mit s2 weiter.
+
+0:03:58.140,0:04:07.980
+s2 sieht genauso aus wie s1, hat zwei Token
+drin, bekommt dann als Komplementärstelle
+
+0:04:07.980,0:04:25.720
+eine Stelle ohne Token. s2 ist verbunden mit
+t2 und mit t5, und wir machen genau dasselbe,
+
+0:04:25.720,0:04:33.010
+wie wir es oben gemacht haben: t2 muss einen
+Token an s2-Komplementär abgeben und t5 muss
+
+0:04:33.010,0:04:41.380
+sich einen Token aus s2-Komplementär herausholen,
+um jeweils einen Token entweder in s2 hineinzugeben
+
+0:04:41.380,0:04:49.980
+oder es aus s2 herauszuholen. t1 und t2 sind
+jetzt mit s3 verbunden.
+
+0:04:49.980,0:04:56.710
+s3 hat eine Kapazität von eins und keinerlei
+Token darin.
+
+0:04:56.710,0:05:04.000
+Das heißt, die Komplementärstelle hier hat
+einen Token darin, damit sie zusammengerechnet
+
+0:05:04.000,0:05:08.630
+die Anzahl der Token haben, die die Kapazität
+angibt.
+
+0:05:08.630,0:05:18.590
+Und hier muss sich t2 auch einen Token aus
+s3-Komplementär holen.
+
+0:05:18.590,0:05:29.190
+Und t1 muss sich auch einen Token aus s3-Komplementär
+holen, wenn eins davon schalten soll.
+
+0:05:29.190,0:05:34.970
+Weiterhin ist die Transition t3 verbunden.
+
+0:05:34.970,0:05:37.830
+t3 holt sich einen Token aus s3 heraus.
+
+0:05:37.830,0:05:45.560
+Das heißt, t3 muss dann stattdessen einen
+Token in s3-Komplementär abgeben.
+
+0:05:45.560,0:05:56.710
+Und zuletzt haben wir noch die Stelle s4.
+s4 hat eine Kapazität von drei, aber keinerlei
+
+0:05:56.710,0:05:57.710
+Token darin.
+
+0:05:57.710,0:06:05.139
+Das heißt, s4 bekommt eine Komplementärstelle
+mit drei Token.
+
+0:06:05.139,0:06:28.530
+Und s4 ist verbunden mit t4 und mit t5 und
+t3.
+
+0:06:28.530,0:06:33.370
+Und die Verbindungen zu den Komplementärstellen
+sind dann wieder einfach nur umgekehrt.
+
+0:06:33.370,0:06:44.510
+Das heißt, t4 muss einen Token an s4-Komplementär
+abgeben, wenn es einen Token aus s4-Standard
+
+0:06:44.510,0:06:46.580
+herausholen will.
+
+0:06:46.580,0:06:47.980
+Dasselbe gilt für t5.
+
+0:06:47.980,0:06:57.580
+Und t3 muss sich einen Token aus s4-Komplementär
+herausholen.
+
+0:06:57.580,0:07:03.370
+Das sieht jetzt ein wenig durcheinander aus,
+weil ich nicht so gut malen kann, aber das
+
+0:07:03.370,0:07:13.449
+ist jetzt unser fertiges Petrinetz mit Komplementärstellen,
+die die Kapazitätenfunktion ersetzen.
