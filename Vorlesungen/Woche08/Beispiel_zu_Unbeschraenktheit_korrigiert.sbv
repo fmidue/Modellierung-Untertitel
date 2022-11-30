@@ -1,0 +1,310 @@
+0:00:00.000,0:00:06.360
+Ich wollte Ihnen ja noch ein Beispiel
+zeigen für ein unbeschränktes Petrinetz.
+
+0:00:06.360,0:00:09.870
+Das, was wir hier vorher haben, ist
+noch kein unbeschränktes Petrinetz.
+
+0:00:09.870,0:00:11.310
+Das ist ein beschränktes Petrinetz.
+
+0:00:11.310,0:00:17.700
+Das wissen wir, da wir dafür bereits
+einen Erreichbarkeitsgraphen gezeichnet
+
+0:00:17.700,0:00:19.530
+hatten auf den Folien, und der war endlich.
+
+0:00:19.530,0:00:21.990
+Und das heißt per se schon, dass
+das Petrinetz beschränkt ist.
+
+0:00:21.990,0:00:22.860
+Zur Erinnerung nochmal:
+
+0:00:22.860,0:00:24.510
+Was war hier möglich?
+
+0:00:24.510,0:00:30.360
+Also in der Ausgangssituation (das gab auch der
+Erreichbarkeitsgraph so vor) war genau nur t1
+
+0:00:30.360,0:00:38.040
+schaltbar und würde dann dazu führen, dass wir
+letztlich hier unten zwei Marken liegen haben.
+
+0:00:38.040,0:00:41.220
+Wegen dieser 2 hier.
+
+0:00:41.220,0:00:44.190
+Und danach gab es mehrere Möglichkeiten.
+
+0:00:44.190,0:00:45.990
+Wir konnten t2 schalten, t3 schalten.
+
+0:00:45.990,0:00:50.400
+Wir konnten auch t2 und t2
+schalten oder t3 und t3 schalten.
+
+0:00:50.400,0:00:53.730
+In manchen dieser Konstellationen
+erreichten wir dann eine Sackgasse.
+
+0:00:53.730,0:00:56.490
+Also das Petrinetz war nicht verklemmungsfrei.
+
+0:00:56.490,0:00:57.990
+Aber darum geht es im Moment ja gar nicht.
+
+0:00:57.990,0:01:01.440
+Nehmen wir einfach mal zunächst den Weg,
+
+0:01:01.440,0:01:04.890
+der dazu führt, dass wir wieder
+in der Ausgangsmarkierung landen.
+
+0:01:04.890,0:01:10.620
+Das wäre also Ausführen von t2, t3
+oder t3, t2 in beliebiger Reihenfolge.
+
+0:01:10.620,0:01:13.238
+Und das Petrinetz ist beschränkt, das kann
+man sich (jenseits der Tatsache, dass man
+
+0:01:13.238,0:01:21.270
+einfach den Erreichbarkeitsgraphen aufstellen
+kann) intuitiv hier dadurch erklären, dass
+
+0:01:21.270,0:01:26.370
+an jeder Transition genauso viele
+Marken konsumiert wie erzeugt werden.
+
+0:01:26.370,0:01:31.560
+Ja, das sehen wir sowohl hier
+als auch hier, zum Beispiel.
+
+0:01:31.560,0:01:35.460
+Also da gehen zwei Marken rein
+und es kommen zwei Marken raus.
+
+0:01:35.460,0:01:39.990
+Aber auch für die anderen Transitionen
+in diesem konkreten Petrinetz gilt das.
+
+0:01:39.990,0:01:44.700
+Und deswegen ist eine einfache Möglichkeit,
+ein unbeschränktes Petrinetz hier zu kriegen,
+
+0:01:44.700,0:01:51.820
+dass wir zum Beispiel diese
+2 ersetzen durch eine 3.
+
+0:01:51.820,0:02:01.120
+Ja, das ist dann ja immer noch ein Petrinetz,
+aber eben ein anderes mit anderen Gewichten.
+
+0:02:01.120,0:02:05.110
+Eine andere mathematische
+Formulierung hätte das ja auch.
+
+0:02:05.110,0:02:06.910
+Und dann können wir schauen:
+
+0:02:06.910,0:02:07.840
+Was würde jetzt passieren?
+
+0:02:07.840,0:02:11.530
+Und, naja, ich habe gerade genau dafür
+gesorgt, dass jetzt die Anzahl der
+
+0:02:11.530,0:02:15.070
+Marken im System steigen kann, und zwar
+beständig steigen kann, immer wieder.
+
+0:02:15.070,0:02:18.580
+Nur einmal die Anzahl der Marken zu erhöhen,
+würde noch nicht zu Unbeschränktheit führen.
+
+0:02:18.580,0:02:31.240
+Aber hier haben wir jetzt, dass zum Beispiel
+beim Schalten von t1 eine Marke von links
+
+0:02:31.240,0:02:36.520
+konsumiert wird, eine Marke von rechts konsumiert
+wird, und unten drei Marken abgelegt werden.
+
+0:02:43.640,0:02:44.780
+Dann sähe die nächste Konstellation so aus.
+
+0:02:44.780,0:02:49.880
+Und das ist eine, die noch nicht in dem
+früheren Erreichbarkeitsgraphen auftauchte,
+
+0:02:49.880,0:02:51.380
+weil das Petrinetz sich jetzt hier geändert hat.
+
+0:02:51.380,0:02:55.880
+Und jetzt wäre es möglich, weiter zu
+schalten auf verschiedene Arten und Weisen.
+
+0:02:55.880,0:03:00.680
+Unter anderem wäre eine Möglichkeit,
+weiter fortzuschreiten, dass wir zum
+
+0:03:00.680,0:03:08.060
+Beispiel diese Marke hochschalten, diese Marke
+nach hier schalten und dann wieder t1 schalten.
+
+0:03:08.060,0:03:09.110
+Was soll dann passieren?
+
+0:03:09.110,0:03:10.610
+Dann würde wieder eine
+Marke von hier verschwinden,
+
+0:03:10.610,0:03:14.990
+eine Marke von hier verschwinden, und
+unten würden drei Marken abgelegt.
+
+0:03:14.990,0:03:18.260
+Wegen dieser 3, die an dem
+Ausgangspfeil für t1 steht.
+
+0:03:20.360,0:03:21.800
+Das könnte dann zum Beispiel so aussehen.
+
+0:03:21.800,0:03:25.520
+Und dann sehen Sie schon, dass man hier letztlich
+
+0:03:25.520,0:03:28.790
+beliebig viele Marken auf der Stelle
+s3 erreichen kann, zum Beispiel.
+
+0:03:28.790,0:03:29.510
+Nicht nur auf Stelle s3.
+
+0:03:29.510,0:03:32.300
+Wir können die auch alle hoch
+nach s2 schieben oder nach s1.
+
+0:03:32.300,0:03:35.900
+Hier gilt sogar, dass für jede Stelle in
+diesem Petrinetz und jede Konstante c,
+
+0:03:35.900,0:03:39.830
+die wir wählen, zum Beispiel 15,
+wir trotzdem nach hinreichend vielen
+
+0:03:39.830,0:03:43.820
+Schaltvorgängen auf einer Position zum
+Beispiel 16 Marken liegen haben können.
+
+0:03:43.820,0:03:47.810
+Das heißt, die Konstante c = 15 beschränkt
+eben nicht das Verhalten dieses Petrinetzes.
+
+0:03:47.810,0:03:51.470
+Und auch wenn wir irgendeine
+höhere Konstante c wählen, etwa 37,
+
+0:03:51.470,0:03:53.900
+dann gibt es auch Schaltvorgänge,
+die irgendwann mal dazu führen,
+
+0:03:53.900,0:03:57.080
+dass auf mindestens einer Stelle
+38 Marken liegen oder mehr.
+
+0:03:59.960,0:04:03.320
+Ich hoffe, das ist im Grunde
+genommen schon so weit,
+
+0:04:03.320,0:04:05.150
+wie ich es hier entwickelt habe,
+klar, dass das passieren kann.
+
+0:04:05.150,0:04:06.980
+Also zum Beispiel könnte ich
+jetzt hier nach oben schalten.
+
+0:04:06.980,0:04:12.830
+Und jetzt könnte ich hier wieder t1
+schalten mit diesen beiden Marken,
+
+0:04:12.830,0:04:19.250
+und hätte dann unten auf dem s3-Platz
+danach schon sechs Marken liegen.
+
+0:04:28.400,0:04:31.292
+Und das ist eben nicht beschränkt.
+
+0:04:31.292,0:04:32.600
+Ja, also 6 wäre noch beschränkt,
+aber es geht auch 7, 8, 9, 10 etc.
+
+0:04:32.600,0:04:37.700
+Das heißt, im Endeffekt kann man hier beliebig
+viele Marken ansammeln auf einzelnen Plätzen.
+
+0:04:37.700,0:04:40.910
+Und damit ist per Definition
+das Petrinetz nicht beschränkt.
+
+0:04:40.910,0:04:42.530
+Es ist natürlich auch nicht 1-sicher.
+
+0:04:42.530,0:04:44.330
+Das ist es sowieso nicht, schon
+wegen der 2, die dort stand.
+
+0:04:44.330,0:04:48.380
+Aber es ist eben auch nicht beschränkt für
+irgendeine andere beliebig hohe Konstante.
+
+0:04:48.380,0:04:54.830
+Interessant ist, dass solche Unbeschränktheit
+nicht unbedingt daher rühren muss (wie hier),
+
+0:04:54.830,0:05:00.050
+dass wir solche Gewichte größer als 1 haben.
+
+0:05:00.050,0:05:02.420
+Also es gibt durchaus auch Petrinetze,
+
+0:05:02.420,0:05:07.550
+die erfüllen sozusagen die erste Bedingung
+von 1-Sicherheit (nämlich jedes Gewicht ist
+
+0:05:07.550,0:05:12.560
+höchstens 1 und in der Startmarkierung
+liegt sogar auch nur auf jeder Stelle
+
+0:05:12.560,0:05:16.340
+höchstens eine Marke), und dennoch kann
+so ein Petrinetz dann unbeschränkt sein.
+
+0:05:16.340,0:05:18.170
+Da können Sie vielleicht mal
+alleine drüber nachdenken.
+
+0:05:18.170,0:05:21.260
+Sich ein Petrinetz überlegen, das
+syntaktisch erst mal gut aussieht
+
+0:05:21.260,0:05:28.310
+(keine Gewichte größer 1, keine Stellen der
+Startmarkierung mit mehr als einer Marke),
+
+0:05:28.310,0:05:30.620
+und dennoch ist das Petrinetz nicht beschränkt.
+
+0:05:30.620,0:05:32.420
+Das ist nicht dieses Beispiel, was Sie hier sehen.
+
+0:05:32.420,0:05:34.880
+Da könnten Sie sich selbst mal
+ein passendes Beispiel überlegen.
+
+0:05:34.880,0:05:36.530
+Das ist ganz instruktiv, denke ich.

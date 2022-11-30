@@ -1,0 +1,1012 @@
+0:00:02.310,0:00:07.740
+Ich möchte mit Ihnen an einigen
+kleinen künstlichen Beispielen die
+
+0:00:07.740,0:00:11.160
+verschiedenen Eigenschaften, die wir im Kontext
+
+0:00:11.160,0:00:17.280
+Lebendigkeit gesehen haben, diskutieren
+und insbesondere Kombinationen anschauen.
+
+0:00:17.280,0:00:21.810
+Also wann können diese und jene Eigenschaft
+gleichzeitig eintreffen oder auch nicht?
+
+0:00:24.060,0:00:27.630
+Schauen wir uns zunächst
+dieses einfache Beispiel an.
+
+0:00:27.630,0:00:28.830
+Was haben wir da?
+
+0:00:29.640,0:00:34.170
+Einfach ein kleines Petrinetz mit
+zwei Stellen und zwei Transitionen.
+
+0:00:35.100,0:00:38.250
+Wir können das einfach mal ein
+wenig schalten, und wir sehen:
+
+0:00:38.250,0:00:40.230
+Da kann gar nicht so viel passieren.
+
+0:00:41.040,0:00:46.560
+In der Ausgangssituation kann nur t1 schalten.
+
+0:00:46.560,0:00:48.150
+Das würde die Marke hierhin bewegen.
+
+0:00:48.150,0:00:50.820
+Und danach kann nur t2 schalten.
+
+0:00:50.820,0:00:52.590
+Das würde die Marke hier oben hin bewegen.
+
+0:00:53.310,0:00:55.950
+Das sind auch schon alle Möglichkeiten.
+
+0:00:55.950,0:01:00.780
+Das kann natürlich immer so weitergehen, aber
+andere Abläufe als diese sind gar nicht möglich.
+
+0:01:02.580,0:01:04.560
+Was sagt das über dieses Petrinetz aus?
+
+0:01:04.560,0:01:06.540
+Ist das, zum Beispiel, schwach lebendig?
+
+0:01:06.540,0:01:10.080
+Da war das Kriterium, dass jede Transition,
+
+0:01:10.080,0:01:15.630
+die im Petrinetz vorkommt (in dem Fall t1 und
+t2), tatsächlich auch irgendwann schalten kann.
+
+0:01:15.630,0:01:18.990
+Das heißt, von der Startmarkierung
+aus ist eine Markierung erreichbar,
+
+0:01:18.990,0:01:20.940
+in der das jeweilige t aktiviert ist.
+
+0:01:20.940,0:01:23.910
+Wir haben gerade schon gesehen, dass wir
+t1 und t2 auf jeden Fall schalten können,
+
+0:01:23.910,0:01:27.210
+und zwar relativ schnell: t1 im
+ersten Schritt, t2 im zweiten Schritt.
+
+0:01:27.210,0:01:28.830
+Andere Transitionen gibt es gar nicht.
+
+0:01:28.830,0:01:30.660
+Also wird dieses Petrinetz schwach lebendig sein.
+
+0:01:30.660,0:01:33.630
+Wie ist es mit starker Lebendigkeit?
+
+0:01:33.630,0:01:38.400
+Dafür muss die stärkere Aussage gelten,
+dass für jede Transition (in dem Fall
+
+0:01:38.400,0:01:43.350
+wieder für t1 und t2 separat zu
+überprüfen), und egal wie lang das
+
+0:01:43.350,0:01:48.840
+Petrinetzen schon ausgeführt wurde (und sich in
+irgendeine Markierung hinein entwickelt hat),
+
+0:01:48.840,0:01:53.400
+es von da aus immer noch möglich ist, das
+jeweilige t irgendwann mal zu schalten.
+
+0:01:53.400,0:01:54.600
+Gegebenenfalls nach weiteren Schritten.
+
+0:01:55.440,0:01:57.116
+In diesem Beispiel ist das so.
+
+0:01:57.116,0:01:59.760
+Wir haben gesehen, dass t1,
+t2 ständig schaltbar ist.
+
+0:01:59.760,0:02:04.860
+Und es gibt auch keine Entwicklung
+des Petrinetzes in eine Situation,
+
+0:02:04.860,0:02:11.166
+aus der danach nie wieder
+t1 oder t2 schaltbar ist.
+
+0:02:11.166,0:02:12.170
+Das wird also auch zutreffen.
+
+0:02:12.170,0:02:14.510
+Verklemmt ist das Petrinetz
+offenkundig auch nicht.
+
+0:02:14.510,0:02:18.710
+Denn egal wie wir vorgehen,
+wir kommen immer weiter.
+
+0:02:18.710,0:02:23.360
+Es gibt keine Situation, die erreichbar ist, von
+der aus keine einzige Transition schaltbar ist.
+
+0:02:23.360,0:02:28.850
+Also hier würden wir erwarten, dass alle drei
+interessanten Eigenschaften, die wir gesehen
+
+0:02:28.850,0:02:32.180
+haben, zutreffen: schwach lebendig,
+stark lebendig und verklemmungsfrei.
+
+0:02:32.180,0:02:38.180
+Können wir uns dessen auch am
+Erreichbarkeitsgraphen vergewissern?
+
+0:02:38.180,0:02:42.260
+Den sollten wir vielleicht mal kurz malen.
+
+0:02:42.980,0:02:45.950
+Wir wissen, dass der nur zwei Knoten haben wird.
+
+0:02:45.950,0:02:48.680
+Denn wir haben ja gerade beim
+Durchspielen schon gesehen,
+
+0:02:48.680,0:02:54.950
+dass es eigentlich überhaupt nur zwei
+Konstellationen für dieses Petrinetz gab.
+
+0:02:54.950,0:02:56.240
+Es gibt die Startmarkierung.
+
+0:02:56.240,0:02:58.040
+Das ist die, die wir jetzt gerade sehen.
+
+0:02:58.040,0:03:02.600
+Ich nehme als Stellenreihenfolge
+hier immer die Nummerierung s1,
+
+0:03:02.600,0:03:04.790
+s2 (auch in den folgenden Beispielen).
+
+0:03:04.790,0:03:08.300
+Also wie die Stellen nummeriert
+sind, so fasse ich sie auch auf,
+
+0:03:08.300,0:03:09.980
+wenn ich die Tupel-Schreibweise verwende.
+
+0:03:09.980,0:03:17.930
+Deswegen kann ich hier (1,0) als die Markierung
+hinschreiben, die aktuell zu sehen ist.
+
+0:03:17.930,0:03:20.990
+Wenn ich diesen einen Schritt hier machen würde,
+
+0:03:20.990,0:03:29.900
+nach hier unten, dann ist das ein t1-Schritt
+hier runter, und da ist die Markierung (0,1).
+
+0:03:30.740,0:03:42.110
+Natürlich komme ich mit t2 wieder
+zurück, deshalb schreibe ich hier an die
+
+0:03:42.110,0:03:49.040
+Übergänge noch t1 und t2, und markiere außerdem,
+dass das hier oben die Startmarkierung ist.
+
+0:03:49.040,0:03:51.230
+Also ist das, was wir hier
+sehen, der Erreichbarkeitsgraph.
+
+0:03:52.040,0:03:57.890
+Auch dem sehen wir an, dass das
+Petrinetz schwach lebendig ist.
+
+0:03:57.890,0:04:05.150
+Denn dafür muss einfach nur jede Transition
+irgendwo im Erreichbarkeitsgraph vorkommen.
+
+0:04:05.150,0:04:05.930
+Das ist hier offenbar sowohl
+für t1 als auch für t2 der Fall.
+
+0:04:07.130,0:04:12.740
+Wir können aus diesem endlichen
+Erreichbarkeitsgraphen auch ablesen,
+
+0:04:12.740,0:04:17.240
+dass das Petrinetz stark lebendig ist.
+
+0:04:17.240,0:04:27.650
+Denn egal wo wir sind (ob hier oder hier),
+es ist immer möglich, nach gegebenenfalls
+
+0:04:27.650,0:04:32.137
+weiteren Schritten t1 auszuführen,
+sowie irgendwann nochmal t2 auszuführen.
+
+0:04:32.137,0:04:33.500
+In dem Fall, entweder direkt
+oder nach einem Schritt.
+
+0:04:35.420,0:04:39.860
+Dieses System ist offenkundig auch
+verklemmungsfrei, weil es keine Sackgassen gibt.
+
+0:04:39.860,0:04:44.690
+Es gibt keinen Knoten im Erreichbarkeitsgraphen,
+von dem aus es überhaupt nicht mehr weiter ginge.
+
+0:04:44.690,0:04:47.330
+Wir wissen natürlich auch schon:
+
+0:04:47.330,0:04:50.690
+Das System muss ja verklemmungsfrei
+sein, weil es stark lebendig ist.
+
+0:04:50.690,0:04:55.640
+Wegen einer der Aussagen auf
+einer Folie, dass ein Petrinetz,
+
+0:04:55.640,0:04:59.000
+welches stark lebendig ist, immer auch
+schwach lebendig und verklemmungsfrei ist.
+
+0:05:01.700,0:05:04.130
+Das wäre unser erstes Beispiel.
+
+0:05:04.130,0:05:11.150
+Sehen wir uns ein anderes Beispiel an, das eben
+nicht genau alle diese drei Eigenschaften erfüllt.
+
+0:05:11.930,0:05:16.670
+Wir werden jetzt Beispiele sehen, die jeweils
+höchstens einige dieser Eigenschaften haben.
+
+0:05:19.220,0:05:21.950
+Wie ist es mit diesem Petrinetz?
+
+0:05:21.950,0:05:25.010
+Das hat nicht alle drei Eigenschaften,
+die wir gerade gesehen haben.
+
+0:05:25.010,0:05:26.660
+Welche eine hat es denn nicht?
+
+0:05:26.660,0:05:32.150
+Das kann eigentlich nur die
+starke Lebendigkeit sein.
+
+0:05:32.150,0:05:34.490
+Denn wenn es die hätte, hätte
+es auch die anderen beiden.
+
+0:05:34.490,0:05:38.600
+Dann würde es nicht stimmen, dass
+nicht alle drei Eigenschaft vorliegen.
+
+0:05:38.600,0:05:42.860
+Also, wie kann sich dieses Petrinetz verhalten?
+
+0:05:43.520,0:05:46.640
+Zum einen kann es natürlich
+am Anfang t1 ausführen,
+
+0:05:46.640,0:05:49.880
+und zwar beliebig oft, inklusive auch nie.
+
+0:05:50.870,0:05:53.930
+Dann könnte irgendwann t2 ausgeführt werden.
+
+0:05:53.930,0:05:56.120
+Dann wäre die Marke hier drüben.
+
+0:05:57.350,0:06:00.680
+Dann wäre es immer noch möglich,
+beliebig oft t3 auszuführen.
+
+0:06:03.560,0:06:07.925
+Insbesondere ist dieses Petrinetz
+offensichtlich verklemmungsfrei.
+
+0:06:07.925,0:06:12.521
+Selbst hier hinten können wir immer
+noch beliebig oft t3 ausführen.
+
+0:06:12.521,0:06:17.180
+Also wir können schon mal festhalten,
+dass es verklemmungsfrei ist.
+
+0:06:18.110,0:06:23.630
+Natürlich können wir uns auch wieder am
+Erreichbarkeitsgraphen davon überzeugen.
+
+0:06:23.630,0:06:26.120
+Also stellen wir den mal auf.
+
+0:06:26.120,0:06:32.660
+Wie viele Markierung gibt es
+denn hier, die in Frage kommen?
+
+0:06:33.210,0:06:35.550
+Auch wieder genau zwei.
+
+0:06:35.550,0:06:37.320
+Das haben wir oben gerade gesehen.
+
+0:06:37.320,0:06:49.560
+Es gibt die Markierung, bei der die eine
+Marke, die es im System gibt, auf s1 liegt.
+
+0:06:49.560,0:06:59.220
+Das wäre diese Startmarkierung (1,0).
+
+0:06:59.220,0:07:06.870
+Und es gibt die andere Markierung,
+wo die Marke zu s2 gewandert ist.
+
+0:07:08.190,0:07:09.840
+Was sind die Übergänge?
+
+0:07:09.840,0:07:13.230
+Zunächst mal ist das hier die Startmarkierung.
+
+0:07:13.230,0:07:19.470
+Es gibt den t1-Übergang von der
+Startmarkierung zu sich selbst.
+
+0:07:19.470,0:07:25.110
+Es gibt den t2-Übergang von der
+Startmarkierung in die andere.
+
+0:07:25.110,0:07:31.170
+Das ist genau da, wo eben
+diese Marke rüberwandert.
+
+0:07:31.170,0:07:33.330
+Das wäre t2.
+
+0:07:33.330,0:07:44.940
+Und es gibt dann aus der zweiten Markierung
+heraus einen Übergang mit t3 zu sich selbst,
+
+0:07:44.940,0:07:46.710
+so dass der dann noch immer
+wieder ausgeführt werden kann.
+
+0:07:46.710,0:07:51.120
+Also diesen Übergang im Graphen.
+
+0:07:53.250,0:07:53.820
+Verklemmungsfrei:
+
+0:07:53.820,0:07:56.550
+Es gibt keinen Knoten, von dem
+aus es nicht mehr weitergeht.
+
+0:07:56.550,0:07:57.690
+Das stimmt schon mal.
+
+0:07:57.690,0:08:01.890
+Was auch stimmt, das ist die
+interessante Beobachtung hier:
+
+0:08:01.890,0:08:06.120
+Dieses Petrinetz ist schwach lebendig.
+
+0:08:06.120,0:08:12.150
+Warum ist das so?
+
+0:08:12.150,0:08:14.730
+Weil jede Transition im
+Erreichbarkeitsgraphen vorkommt
+
+0:08:14.730,0:08:18.780
+. Es gibt keine Transition,
+die nie geschaltet werden kann.
+
+0:08:18.780,0:08:22.200
+Von der Startmarkierung aus ist
+für jede Transition mindestens
+
+0:08:22.200,0:08:24.900
+eine Markierung erreichbar, von der
+aus diese Transition schaltbar ist.
+
+0:08:25.710,0:08:29.580
+Aber dieses Petrinetz ist nicht stark lebendig.
+
+0:08:29.580,0:08:38.640
+Was uns dieses Beispiel auch liefert
+ist, dass zwar aus starker Lebendigkeit
+
+0:08:38.640,0:08:40.230
+die schwache Lebendigkeit und
+Verklemmungsfreiheit folgen, dass
+
+0:08:40.230,0:08:44.750
+aber nicht jedes verklemmungsfreie und schwach
+lebendige Petrinetz auch stark lebendig sei.
+
+0:08:45.800,0:08:48.530
+Dieses hier ist das nicht.
+
+0:08:52.670,0:08:53.840
+Wie können wir uns davon überzeugen?
+
+0:08:53.840,0:08:55.880
+Was müsste für starke Lebendigkeit gelten?
+
+0:08:55.880,0:08:57.800
+Denken wir noch mal an die Definition zurück.
+
+0:08:57.800,0:08:59.120
+Starke Lebendigkeit hieße ja:
+
+0:08:59.120,0:09:05.960
+Es muss für jede Transition t und jede von der
+Startmarkierung m0 aus erreichbare Markierung
+
+0:09:05.960,0:09:11.870
+eine Markierung m' geben, die von m0 aus
+erreichbar ist und in der t aktiviert ist.
+
+0:09:11.870,0:09:16.970
+Wenn wir sagen, dieses Petrinetz sei nicht
+stark lebendig, dann müssen wir uns fragen,
+
+0:09:16.970,0:09:19.580
+für welches t diese Aussage nicht stimmt.
+
+0:09:23.540,0:09:26.960
+Da ist die Antwort zweierlei möglich.
+
+0:09:27.530,0:09:30.380
+Die Aussage gilt nämlich weder für t1 noch für t2.
+
+0:09:32.690,0:09:34.550
+Es reicht aber, ein t anzugeben.
+
+0:09:34.550,0:09:38.532
+Wir können uns erst mal
+einfach auf das t1 beschränken.
+
+0:09:38.532,0:09:39.710
+Nochmal an die Definition anknüpfend:
+Was haben wir hier?
+
+0:09:42.470,0:09:46.550
+Das ist ja unser m0, und wir betrachten t1.
+
+0:09:46.550,0:09:54.530
+Dann müsste für starke Lebendigkeit stimmen, dass
+für jede von m0 aus erreichbare Markierung m,
+
+0:09:54.530,0:10:03.170
+zum Beispiel für diese hier, gelten muss,
+dass es eine Folgemarkierung gibt (oder
+
+0:10:03.170,0:10:08.270
+die aktuelle Markierung selbst), so
+dass von da aus t1 schaltbar ist.
+
+0:10:08.270,0:10:13.970
+Aber tatsächlich ist t1 von
+hier aus nie wieder schaltbar.
+
+0:10:13.970,0:10:19.970
+Somit ist dieses Petrinetz nach
+Definition eben nicht stark lebendig.
+
+0:10:19.970,0:10:25.340
+Weil es im Erreichbarkeitsgraphen einen
+Knoten gibt (nämlich diesen hier),
+
+0:10:25.340,0:10:30.410
+von dem aus wir, egal wie viel Mühe wir
+uns geben, nie wieder t1 schalten werden.
+
+0:10:32.660,0:10:39.440
+Auch für t2 hätte die gleiche
+Erklärung zugetroffen.
+
+0:10:40.920,0:10:44.220
+Also verklemmungsfrei, schwach
+lebendig, aber nicht stark lebendig.
+
+0:10:49.200,0:10:53.610
+Schauen wir uns noch ein
+Beispiel an, nämlich dieses hier.
+
+0:10:53.610,0:10:57.690
+Was kann hier passieren?
+
+0:10:57.690,0:10:59.220
+Wir haben diese Marke hier oben.
+
+0:10:59.220,0:11:04.770
+Die kann einerseits mittels t1
+ständig hier wandern sozusagen.
+
+0:11:04.770,0:11:07.410
+Also eigentlich ändert sich
+die Markierung gar nicht,
+
+0:11:07.410,0:11:10.890
+denn Schalten von t1 führt genau
+zur gleichen Markierung zurück.
+
+0:11:10.890,0:11:16.560
+Oder wir können versuchen, t2 zu schalten.
+
+0:11:16.560,0:11:22.260
+Allerdings wird das nicht funktionieren,
+denn t2 würde sowohl von hier eine Marke
+
+0:11:22.260,0:11:25.830
+brauchen (die vorhanden ist) als
+auch von hier eine Marke brauchen.
+
+0:11:25.830,0:11:26.970
+Das heißt tatsächlich:
+
+0:11:26.970,0:11:36.570
+Wenn wir hier den Erreichbarkeitsgraphen
+malen, dann ist er sehr einfach und sehr klein.
+
+0:11:36.570,0:11:42.840
+Es gibt nämlich tatsächlich nur diese
+eine Markierung hier, die Startmarkierung.
+
+0:11:42.840,0:11:46.770
+Nämlich eine Marke auf s1 und keine auf s2.
+
+0:11:46.770,0:11:50.250
+Das ist die Startmarkierung.
+
+0:11:50.250,0:11:56.520
+Und die ist dergestalt, dass man t1 schalten kann,
+
+0:11:58.260,0:12:01.830
+dann aber auch wieder nur bei
+dieser Startmarkierung landet.
+
+0:12:01.830,0:12:02.550
+Das heißt:
+
+0:12:02.550,0:12:05.970
+Was hier rechts zu sehen ist, ist
+der gesamte Erreichbarkeitsgraph.
+
+0:12:05.970,0:12:11.970
+Dem kann man dann auch ansehen,
+wie es um die Eigenschaften steht.
+
+0:12:11.970,0:12:14.760
+Ist dieses Petrinetz schwach lebendig?
+
+0:12:14.760,0:12:18.000
+Nein, ist es nicht, weil man t2 nie schalten kann.
+
+0:12:18.000,0:12:23.670
+Weil es im gesamten Erreichbarkeitsgraphen
+keine Kante mit t2-Beschriftung gibt.
+
+0:12:23.670,0:12:29.670
+Also tatsächlich nicht schwach lebendig.
+
+0:12:29.670,0:12:34.080
+Es kann damit natürlich auch
+nicht stark lebendig sein.
+
+0:12:34.080,0:12:43.380
+Das wissen wir schon, weil jedes stark lebendige
+Petrinetz ja auch schwach lebendig wäre.
+
+0:12:43.380,0:12:50.970
+Also nicht schwach lebendig, nicht
+stark lebendig, aber verklemmungsfrei.
+
+0:12:52.570,0:12:59.770
+Die Tatsache, dass s2 uns sozusagen an t2
+hindert, und daher t2 nie ausgeführt werden kann,
+
+0:12:59.770,0:13:03.400
+heißt noch lange nicht, dass das
+Petrinetz eine Verklemmung hätte.
+
+0:13:03.400,0:13:08.260
+Denn wir können ja zumindest immer t1 ausführen.
+
+0:13:08.260,0:13:09.370
+Oder anders gesagt:
+
+0:13:09.370,0:13:11.200
+Im Erreichbarkeitsgraphen, den wir hier sehen,
+
+0:13:11.200,0:13:14.020
+gibt es keinen Knoten, von
+dem aus es nicht weitergeht.
+
+0:13:14.020,0:13:15.370
+Es gibt sowieso nur einen Knoten.
+
+0:13:15.370,0:13:18.100
+Und von dem aus geht es weiter,
+wenn auch immer nur zu sich selbst.
+
+0:13:21.940,0:13:25.420
+Das erfasst diese Kombination.
+
+0:13:25.420,0:13:34.360
+Welche Kombinationen wären noch denkbar zwischen
+unseren drei Eigenschaften und ihren Negationen?
+
+0:13:36.130,0:13:38.560
+Schauen wir mal auf dieses Beispiel.
+
+0:13:38.560,0:13:41.800
+Was erwarten wir da?
+
+0:13:41.800,0:13:47.110
+Da gibt es wieder diese Marke, die beliebig
+oft benutzt werden kann, um t1 zu schalten.
+
+0:13:47.110,0:13:51.670
+Und sie kann genau einmal genutzt
+werden, um t2 zu schalten.
+
+0:13:51.670,0:13:56.050
+Und wenn das passiert ist, dann
+haben wir eine Verklemmung.
+
+0:13:56.050,0:13:58.390
+Also das wird schon mal
+nicht verklemmungsfrei sein.
+
+0:13:58.390,0:14:01.030
+Denn wir haben hier eine
+klar erkennbare Situation,
+
+0:14:01.030,0:14:02.890
+in der keine Transition mehr schaltbar ist.
+
+0:14:02.890,0:14:10.540
+Also wir können schon einmal festhalten, dass
+dieses Petrinetz eine Verklemmung enthält.
+
+0:14:10.540,0:14:16.630
+Zwar nicht in der Startsituation, aber
+es ist eine Verklemmung erreichbar.
+
+0:14:16.630,0:14:20.380
+Dann wissen wir auch:
+
+0:14:20.380,0:14:22.540
+Das kann nicht stark lebendig sein.
+
+0:14:22.540,0:14:29.920
+Wieder aus der Beobachtung heraus, dass jedes
+stark lebendige Petrinetz verklemmungsfrei wäre.
+
+0:14:29.920,0:14:35.890
+Jetzt wäre die Frage, ob es
+zumindest schwach lebendig ist.
+
+0:14:37.570,0:14:42.550
+Wir haben gerade schon gesehen,
+dass ja jede Transition mindestens
+
+0:14:42.550,0:14:47.500
+einmal ausgeführt werden kann,
+in jeweils irgendeinem Ablauf.
+
+0:14:48.280,0:14:53.080
+Wenn wir uns wieder auf den
+Erreichbarkeitsgraphen beziehen
+
+0:14:53.080,0:14:58.420
+und den nutzen wollen, dann wissen
+wir hier, dass es zwei Knoten gibt.
+
+0:14:58.420,0:15:03.490
+Es gibt wieder die Startmarkierung (1,0).
+
+0:15:03.490,0:15:17.740
+Von der aus kann man mit t1 wieder
+zur gleichen Markierung kommen, oder
+
+0:15:17.740,0:15:23.590
+mit t2 zu der anderen Markierung.
+
+0:15:23.590,0:15:27.040
+Nämlich nichts auf s1, aber eine Marke auf s2.
+
+0:15:27.040,0:15:29.440
+Und auch hier können wir sehen:
+
+0:15:29.440,0:15:34.150
+Offenkundig ist dieses System
+zumindest schwach lebendig.
+
+0:15:34.150,0:15:39.310
+Denn jede im Petrinetz eingezeichnete Transition,
+
+0:15:39.310,0:15:43.840
+sowohl t1 als auch t2, kommt
+im Erreichbarkeitsgraphen vor.
+
+0:15:47.590,0:15:55.810
+Wenn Sie jetzt den Kombinationen gefolgt
+sind, und in Anbetracht der Tatsache,
+
+0:15:55.810,0:15:59.530
+dass aus starker Lebendigkeit die schwache
+Lebendigkeit und Verklemmungsfreiheit
+
+0:15:59.530,0:16:05.440
+folgen (und wir also nicht alle acht
+Kombinationen präsentieren können,
+
+0:16:11.440,0:16:15.730
+die sich jeweils durch Wechsel von "enthält"
+versus "enthält keine Verklemmung",
+
+0:16:15.730,0:16:17.740
+ist "stark lebendig" versus "nicht stark
+lebendig", ist "schwach lebendig" versus "nicht
+
+0:16:17.740,0:16:26.380
+schwach lebendig", ergeben würden), dann müsste
+jetzt nur noch eine Kombination möglich sein.
+
+0:16:26.380,0:16:33.070
+Und die wird repräsentiert
+durch dieses Beispiel hier.
+
+0:16:35.200,0:16:36.190
+Was haben wir hier?
+
+0:16:36.190,0:16:38.230
+Ein sehr merkwürdiges Petrinetz.
+
+0:16:38.230,0:16:39.700
+Das ist nicht einmal verbunden.
+
+0:16:39.700,0:16:41.320
+Hier gibt es irgendwie zwei Komponenten.
+
+0:16:41.320,0:16:44.050
+Aber das ist mathematisch nicht verboten.
+
+0:16:44.050,0:16:45.370
+Es ist ein valides Petrinetz.
+
+0:16:45.370,0:16:47.710
+Was gilt für dieses Petrinetz?
+
+0:16:47.710,0:16:49.030
+Was kann hier passieren?
+
+0:16:49.030,0:16:52.090
+Wir können genau einmal t1 ausführen.
+
+0:16:52.090,0:16:56.950
+Dann haben wir eine neue Markierung
+erreicht, in der nichts mehr geht.
+
+0:17:00.190,0:17:04.720
+Also wie sieht der Erreichbarkeitsgraph aus?
+
+0:17:04.720,0:17:06.640
+Der ist natürlich wieder endlich und sehr klein.
+
+0:17:06.640,0:17:09.670
+Der hat zwei Markierungen.
+
+0:17:09.670,0:17:14.140
+Jede Markierung besteht jetzt aus einem Tripel,
+denn wir haben ja die drei Stellen s1, s2, s3.
+
+0:17:14.140,0:17:19.560
+Das heißt, die Startmarkierung,
+die wir hier links zeichnen,
+
+0:17:19.560,0:17:26.010
+die hat diese Form: eine Marke auf
+s1 und keine Marken auf s2 und s3.
+
+0:17:26.010,0:17:29.850
+Dann kann man t1 schalten.
+
+0:17:29.850,0:17:33.450
+Das führt zu einer neuen Markierung,
+
+0:17:33.450,0:17:40.350
+nämlich der Markierung, wo nichts auf s1
+liegt, eine Marke auf s2 und nichts auf s3.
+
+0:17:40.350,0:17:42.300
+Und das war es.
+
+0:17:42.300,0:17:44.760
+Von dieser Markierung, das hatten wir gerade
+schon gesehen, kann man nichts machen.
+
+0:17:44.760,0:17:46.320
+Weder t1 noch t2 schalten.
+
+0:17:47.310,0:17:49.590
+Dann hat dieses Petrinetz welche Eigenschaften?
+
+0:17:49.590,0:17:54.930
+Es ist nicht schwach lebendig.
+
+0:17:54.930,0:17:56.430
+Woran liegt das?
+
+0:17:56.430,0:18:01.380
+Weil die Transition t2 nie zum Zuge kommt.
+
+0:18:01.380,0:18:06.990
+Im gesamten Erreichbarkeitsgraphen kommt t2
+nicht als Beschriftung irgendeines Übergangs vor.
+
+0:18:06.990,0:18:08.520
+Deswegen: nicht schwach lebendig.
+
+0:18:08.520,0:18:11.880
+Logischerweise auch nicht stark lebendig.
+
+0:18:11.880,0:18:16.860
+Das folgt unter anderem aus der Tatsache,
+dass es nicht schwach lebendig ist.
+
+0:18:16.860,0:18:19.590
+Und wie sieht es mit Verklemmungen aus?
+
+0:18:20.190,0:18:21.540
+Das System ist auch nicht verklemmungsfrei.
+
+0:18:22.380,0:18:27.540
+Denn in der Situation, die wir gesehen
+haben, haben wir eine Verklemmung erreicht.
+
+0:18:27.540,0:18:27.630
+Es enthält eine Verklemmung.
+
+0:18:27.630,0:18:34.170
+Das ist also noch die letzte Eigenschaft (von den
+drei betrachten Eigenschaften), die hier vorliegt.
+
+0:18:40.560,0:18:44.310
+Genau diese Kombination hatten wir vorher
+in den anderen Beispielen noch nicht.
+
+0:18:50.080,0:18:54.130
+Jetzt haben wir hier also fünf Beispiele
+gesehen und wir können die mal einordnen.
+
+0:18:54.130,0:19:00.100
+Und zwar kann man für die drei
+betrachteten Eigenschaften durch
+
+0:19:00.100,0:19:03.370
+so ein Venn-Diagramm darstellen, welche
+
+0:19:03.370,0:19:07.090
+Möglichkeiten/Überlappungen/Kombinationen
+es denn gibt.
+
+0:19:10.780,0:19:13.270
+Das sollen so Mengen andeuten.
+
+0:19:13.270,0:19:16.240
+Also es gibt alle möglichen Petrinetze,
+das ist die äußere blaue Menge.
+
+0:19:16.240,0:19:19.630
+Da drin gibt es dann Unterklassen.
+
+0:19:19.630,0:19:23.140
+Es gibt schwach lebendige Netze,
+verklemmungsfreie Netze, stark lebendige Netze.
+
+0:19:23.140,0:19:26.860
+Das sind alles echte Untermengen
+der Menge aller Petrinetze.
+
+0:19:30.160,0:19:33.040
+Weil es auch Petrinetze gibt, die
+keine dieser drei Eigenschaften haben.
+
+0:19:33.040,0:19:39.670
+Wenn wir zurückgehen zu diesem letzten Petrinetz:
+
+0:19:39.670,0:19:43.030
+Das ist nicht schwach lebendig, nicht stark
+lebendig und auch nicht verklemmungsfrei.
+
+0:19:43.030,0:19:48.760
+Das heißt, das würde in dieser
+Darstellung irgendwo hier leben.
+
+0:19:49.660,0:19:51.880
+Das ist zwar ein Petrinetz,
+hat aber keine dieser drei
+
+0:19:51.880,0:19:53.950
+interessanten oder wünschenswerten Eigenschaften.
+
+0:19:56.320,0:20:00.910
+Außerdem wissen wir, dass es zutrifft,
+
+0:20:00.910,0:20:04.810
+dass jedes stark lebendige Netz auch
+verklemmungsfrei und schwach lebendig ist.
+
+0:20:04.810,0:20:11.170
+Das ist dadurch dargestellt, dass
+das hier eine (echte) Teilmenge des
+
+0:20:12.640,0:20:17.080
+Durchschnitts von verklemmungsfreien
+und schwach lebendigen Netzen ist.
+
+0:20:17.080,0:20:23.980
+Dass das eine echte Teilmenge ist, kann man
+daran erkennen, dass es auch Petrinetze gibt,
+
+0:20:23.980,0:20:29.140
+die hier leben, die also verklemmungsfrei und
+schwach lebendig sind, aber nicht stark lebendig.
+
+0:20:29.140,0:20:32.020
+Und auch dafür haben wir ein Beispiel gesehen.
+
+0:20:32.020,0:20:36.449
+Das wäre dieses Beispiel gewesen.
+
+0:20:36.449,0:20:37.390
+Nein, doch nicht.
+
+0:20:41.170,0:20:42.430
+Dieses Beispiel wäre so ein Beispiel,
+
+0:20:42.430,0:20:47.560
+das verklemmungsfrei und schwach
+lebendig ist, aber nicht stark lebendig.
+
+0:20:52.250,0:21:02.300
+Dieses Beispiel würde an dieser
+Stelle in diesem Venn-Diagramm leben.
+
+0:21:03.110,0:21:05.510
+Auch für alle anderen irgendwie
+interessanten Positionen hier
+
+0:21:05.510,0:21:11.450
+finden wir jeweils unter den gerade
+gesehenen Petrinetzen ein Beispiel.
+
+0:21:11.450,0:21:17.120
+Also etwa ein Netz, das zwar verklemmungsfrei
+ist, aber weder stark, noch schwach lebendig ist.
+
+0:21:17.120,0:21:22.670
+Oder ein Netz, das zwar schwach lebendig ist,
+aber weder stark lebendig, noch verklemmungsfrei.
+
+0:21:25.100,0:21:27.890
+Das rechtfertigt, dass dieses Mengendiagramm,
+
+0:21:27.890,0:21:31.070
+welches hier gezeigt wird,
+tatsächlich so zutrifft.
