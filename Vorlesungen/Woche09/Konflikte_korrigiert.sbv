@@ -1,0 +1,429 @@
+0:00:00.000,0:00:04.920
+Kommen wir zur nächsten zu
+diskutierenden Eigenschaft in
+
+0:00:04.920,0:00:07.890
+Petrinetzen, nämlich dem Begriff des Konfliktes.
+
+0:00:07.890,0:00:13.500
+Da geht es wieder um zwei Transitionen, welche
+nun in Konflikt stehen können oder eben nicht.
+
+0:00:13.500,0:00:17.220
+Das ist wieder relativ zu
+einer gegebenen Markierung.
+
+0:00:17.220,0:00:19.440
+Also wir brauchen ein Petrinetz
+mit einer bestimmten Markierung,
+
+0:00:19.440,0:00:22.350
+und dann können wir sagen, ob zwei
+Transitionen in Konflikt stehen.
+
+0:00:22.350,0:00:26.040
+Und Sie sehen hier schon, in der Definition
+taucht das Wort "nebenläufig" auf.
+
+0:00:26.040,0:00:30.240
+Das heißt, diese Definition baut auf
+dem Konzept der Nebenläufigkeit auf.
+
+0:00:30.240,0:00:35.910
+Und zwar stehen zwei Transitionen dann
+in Konflikt, wenn sie nicht nebenläufig
+
+0:00:35.910,0:00:41.700
+aktiviert sind, dies aber nur daran liegt, dass
+sie sich sozusagen irgendwie in die Quere kommen.
+
+0:00:41.700,0:00:47.280
+Also es kann ja auch sein, dass t und
+t' nicht nebenläufig aktiviert sind,
+
+0:00:47.280,0:00:50.490
+weil schon eine von den beiden
+Transitionen selbst nicht aktiviert ist.
+
+0:00:50.490,0:00:51.750
+Dann wäre es kein Konflikt.
+
+0:00:51.750,0:00:57.150
+Also ein Konflikt heißt es für zwei
+Transitionen t, t', wenn sie beide
+
+0:00:57.150,0:01:01.410
+zwar jede für sich aktiviert sind, aber
+sie nicht nebenläufig aktiviert sind.
+
+0:01:01.410,0:01:07.230
+Das heißt, jede einzelne könnte schalten, aber
+sie können nicht beide nebenläufig schalten.
+
+0:01:07.230,0:01:12.210
+Weil sie in Konflikt stehen, bzw.
+dadurch wird ein Konflikt dann definiert.
+
+0:01:12.210,0:01:18.780
+Also genau diese anschauliche Überlegung.
+
+0:01:18.780,0:01:21.600
+Überprüft wird das dann eben
+mit den Vorgewichtsfunktionen.
+
+0:01:21.600,0:01:25.320
+Was nebenläufig ist, haben wir
+gerade zur Genüge diskutiert.
+
+0:01:25.320,0:01:30.480
+Und wann eine einzelne Transition aktiviert ist
+(also wenn man beide einzeln sich anschaut),
+
+0:01:30.480,0:01:33.840
+haben wir auch bereits diskutiert,
+vor einigen Wochen sogar.
+
+0:01:33.840,0:01:38.120
+Okay, wie kann es zu einem Konflikt kommen?
+
+0:01:39.680,0:01:43.310
+Die beiden Transitionen müssen mindestens eine
+gemeinsame Stelle in der Vorbedingung haben.
+
+0:01:43.310,0:01:49.520
+Man kann sich überlegen, dass wann immer wir
+zwei in Konflikt stehende Transitionen haben,
+
+0:01:49.520,0:01:53.300
+es eine gemeinsame Stelle in
+den Vorbedingungen geben muss.
+
+0:01:53.300,0:01:58.550
+Also es muss eine Stelle s geben, so
+dass sowohl die Vorgewichtsfunktion für t
+
+0:01:58.550,0:02:04.580
+bezüglich s mindestens eine Marke verlangt
+als auch die Vorgewichtsfunktion für t'.
+
+0:02:04.580,0:02:10.610
+Wenn dem nicht so ist, und außerdem t und t' beide
+
+0:02:10.610,0:02:13.340
+einzeln aktiviert sind, dann wären
+sie auch nebenläufig aktiviert.
+
+0:02:13.340,0:02:14.960
+Das hier unten heißt allerdings nicht,
+
+0:02:14.960,0:02:18.320
+dass man das als alleiniges Kriterium
+nehmen kann, um Konflikte zu finden.
+
+0:02:18.320,0:02:22.100
+Das ist sozusagen wieder nur
+ein Indiz für einen Konflikt.
+
+0:02:22.100,0:02:24.020
+Also einen Konflikt für t und
+t' zu vermuten, ergibt nur Sinn,
+
+0:02:26.870,0:02:30.080
+wenn sie mindestens eine gemeinsame
+Stelle in den Vorbedingungen haben.
+
+0:02:30.080,0:02:32.990
+Es stimmt nicht, dass sobald solch eine
+gemeinsame Stelle in den Vorbedingungen
+
+0:02:32.990,0:02:35.930
+vorliegt, auch ein Konflikt vorliegen muss.
+
+0:02:35.930,0:02:42.230
+Also zu überprüfen ist das Vorliegen
+eines Konfliktes immer mit der Definition.
+
+0:02:42.230,0:02:53.570
+Okay, ein Beispiel: ein Petrinetz
+mit einer bestimmten Markierung.
+
+0:02:53.570,0:02:58.790
+Nun kann man sich fragen, welche
+Transitionen hier in Konflikt stehen.
+
+0:02:58.790,0:03:02.840
+Und zwar ist das ein Begriff wieder nur für Paare.
+
+0:03:02.840,0:03:06.050
+Es gibt hier nur die Paare
+(t1,t2), (t2,t3) und (t1,t3),
+
+0:03:06.050,0:03:08.420
+für die es sinnvoll ist, sich das zu fragen.
+
+0:03:08.420,0:03:14.420
+Und schon wenn wir t1 und t2 betrachten, stellt
+sich heraus, dass diese in Konflikt sind.
+
+0:03:14.420,0:03:16.910
+Und wir sehen auch schon,
+woran das nur liegen kann.
+
+0:03:16.910,0:03:19.040
+Das kann nur an dieser gemeinsamen Stelle liegen.
+
+0:03:19.040,0:03:20.540
+Das ist die einzige gemeinsame Stelle.
+
+0:03:20.540,0:03:23.120
+Also irgendwie könnte die
+für einen Konflikt sorgen.
+
+0:03:23.120,0:03:24.350
+Muss sie nicht, aber könnte.
+
+0:03:24.350,0:03:27.290
+Sie würde zum Beispiel nicht für einen
+Konflikt sorgen, wenn da zwei Marken lägen.
+
+0:03:27.290,0:03:30.830
+Aber so wie hier gezeichnet,
+liegt ein Konflikt vor.
+
+0:03:30.830,0:03:39.290
+Und die Überprüfung ist einfach mittels der
+Definition für Aktiviertheit und Nebenläufigkeit.
+
+0:03:39.290,0:03:41.960
+Ja, also t1 muss aktiviert sein.
+
+0:03:41.960,0:03:45.170
+Das heißt, die Vorgewichtsfunktion
+für t1 (das wäre die hier,
+
+0:03:45.170,0:03:50.450
+denn t1 verlangt genau aus
+s1 und s2 jeweils eine Marke;
+
+0:03:50.450,0:03:56.850
+das sind die beiden Pfeile hier) ist
+kleiner-gleich als die aktuelle Markierung.
+
+0:03:56.850,0:04:01.890
+Die aktuelle Markierung hat (1,1,1,1)
+auf s1 bis s4 und dann drei Nullen.
+
+0:04:01.890,0:04:04.050
+Und diese Ungleichheit hier gilt,
+
+0:04:04.050,0:04:08.760
+weil an jeder Position links eine
+nicht größere Zahl steht als rechts.
+
+0:04:08.760,0:04:12.090
+Und das ist die Definition
+dafür, dass t1 aktiviert ist.
+
+0:04:12.090,0:04:17.670
+Das tauchte relativ früh in den
+Vorlesungsstunden zu Petrinetzen auf.
+
+0:04:17.670,0:04:22.020
+Ganz ähnlich ist auch t2 aktiviert.
+
+0:04:22.020,0:04:24.540
+Weil da zwar die Vorgewichtsfunktion etwas anders
+
+0:04:24.540,0:04:29.010
+aussieht (denn t2 verlangt aus s2 und
+s3 jeweils eine Marke), aber auch diese
+
+0:04:29.010,0:04:33.495
+Vorgewichtsfunktion kleiner-gleich als
+die aktuell vorliegende Markierung ist.
+
+0:04:33.495,0:04:36.690
+Hingegen sind t1 und t2
+nicht nebenläufig aktiviert.
+
+0:04:36.690,0:04:41.130
+Denn dafür müsste die Summe dieser beiden
+Vorgewichtsfunktionen (hier noch mal als Summe
+
+0:04:41.130,0:04:46.080
+aufgeschrieben) auch kleiner-gleich
+als die aktuelle Markierung sein.
+
+0:04:46.080,0:04:47.310
+Und das ist gerade nicht der Fall.
+
+0:04:47.310,0:04:50.100
+Denn obwohl hier links zwei und
+zwei, also vier Marken sind,
+
+0:04:50.100,0:04:53.700
+und rechts auch vier Marken,
+passt es positionsweise nicht.
+
+0:04:53.700,0:04:57.180
+Also die Summe hier wäre
+(1,2,1) und dann lauter Nullen.
+
+0:04:57.180,0:05:00.330
+Aber (1,2,1) passt eben nicht hier "drunter".
+
+0:05:00.330,0:05:04.995
+Das heißt, t1 und t2 sind tatsächlich
+nicht nebenläufig aktiviert.
+
+0:05:04.995,0:05:09.420
+Sie sind aber einzeln aktiviert,
+und daher stehen sie in Konflikt.
+
+0:05:09.420,0:05:10.920
+Wir wissen auch:
+
+0:05:10.920,0:05:15.570
+Sobald wir hier noch eine Marke drauflegen
+würden, wären immer noch beide Transitionen
+
+0:05:15.570,0:05:19.620
+einzeln aktiviert und sie wären auch
+gleichzeitig/parallel zusammen aktiviert.
+
+0:05:19.620,0:05:22.290
+Das heißt, es läge Nebenläufigkeit
+vor und eben kein Konflikt.
+
+0:05:22.290,0:05:25.200
+Aber wie es hier ist, gibt es
+den Konflikt zwischen t1 und t2.
+
+0:05:25.200,0:05:29.910
+Man kann sich auch überlegen, dass
+natürlich t2 und t3 in Konflikt stehen.
+
+0:05:29.910,0:05:33.930
+Ja, da ist das Bild sehr ähnlich, da geht es
+einfach um diese drei Vorbedingungsstellen.
+
+0:05:35.070,0:05:39.300
+Und dann gibt es hier das Problem,
+dass s3 nur eine Marke hat,
+
+0:05:39.300,0:05:43.800
+aber wenn wir die Vorgewichtsfunktionen von
+t2 und t3 addieren, wir eine 2 bräuchten.
+
+0:05:43.800,0:05:50.190
+Also t2 und t3 stehen auch in
+Konflikt, t1 und t3 jedoch nicht.
+
+0:05:50.190,0:05:54.120
+Also, wenn wir t1 und t3
+betrachten als das relevante Paar,
+
+0:05:54.120,0:05:57.690
+dann können wir diese Summen hier bilden.
+
+0:05:57.690,0:05:58.710
+Da steht ja (1,1,0,0).
+
+0:05:58.710,0:05:59.460
+Hier steht (0,0,1,1,0,0,0).
+
+0:06:01.320,0:06:04.968
+Ja, das gehört dann hier zu t3, da
+ist diese und diese Stelle belegt.
+
+0:06:04.968,0:06:08.340
+Auch dieser und dieser Stelle
+entspricht eine 1 im Vorgewicht,
+
+0:06:08.340,0:06:12.960
+und dann wäre die Summe (1,1,1,1,0,0,0),
+und das wäre immer noch hier drunter.
+
+0:06:12.960,0:06:18.660
+Das heißt, t1 und t3 sind ja nebenläufig
+aktiviert, können daher nicht in Konflikt stehen.
+
+0:06:18.660,0:06:26.850
+Und auch mit dem Indiz von der
+vorherigen Folie wissen wir:
+
+0:06:26.850,0:06:32.146
+t1 und t3 können sowieso nicht in Konflikt stehen,
+weil sie sich keine Vorbedingungsstelle teilen.
+
+0:06:32.146,0:06:36.390
+Ja, t1 hängt nur von diesen beiden
+Vorgewichtsstellen ab, t3 nur von diesen.
+
+0:06:36.390,0:06:38.940
+Da gibt es kein Konfliktpotenzial.
+
+0:06:38.940,0:06:40.980
+Oder man rechnet es einfach aus.
+
+0:06:40.980,0:06:44.040
+Okay, und das ist wieder eine Beobachtung,
+
+0:06:44.040,0:06:47.910
+die wir uns schon bei Kausalität und
+Nebenläufigkeit jeweils angeschaut hatten.
+
+0:06:47.910,0:06:51.300
+Bei Kausalität, da hatten wir festgestellt,
+dass das ein transitiver Begriff ist.
+
+0:06:51.300,0:06:56.610
+Also wenn t1 kausal für t2 ist, und t2 kausal
+für t3, dann ist auch t1 kausal für t3.
+
+0:06:56.610,0:07:00.390
+Bei Nebenläufigkeit, hatten wir
+gesehen, liegt das nicht vor.
+
+0:07:00.390,0:07:02.580
+Und auch bei der Konfliktrelation
+liegt das nicht vor.
+
+0:07:02.580,0:07:06.000
+Also, es kann sein: t1 und t2 stehen in Konflikt,
+
+0:07:06.000,0:07:08.610
+t2 und t3 stehen in Konflikt,
+aber t1 und t3 nicht.
+
+0:07:08.610,0:07:10.620
+Genau das sehen wir ja hier.
+
+0:07:10.620,0:07:20.340
+Okay, und mehr habe ich zu Konflikt an
+Beispielen hier jetzt nicht vorbereitet.
+
+0:07:20.340,0:07:27.300
+Denn die Beispiele wären sehr ähnlich
+zu den Nebenläufigkeitsbeispielen,
+
+0:07:27.300,0:07:31.530
+aber eben jeweils so herum gedreht, dass
+gerade keine Nebenläufigkeit vorliegt.
+
+0:07:31.530,0:07:34.890
+Also sobald wir zwei Transitionen
+haben, die jeweils aktiviert sind.
+
+0:07:34.890,0:07:36.030
+Ansonsten ist es langweilig.
+
+0:07:36.030,0:07:37.710
+Die müssen jeweils aktiviert sein.
+
+0:07:37.710,0:07:40.860
+Aber sie sind nicht nebenläufig, damit
+sind sie automatisch in Konflikt.
+
+0:07:40.860,0:07:45.750
+Im Übungsbetrieb natürlich dann wieder mehr dazu.

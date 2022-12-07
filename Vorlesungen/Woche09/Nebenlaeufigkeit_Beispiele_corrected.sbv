@@ -1,0 +1,591 @@
+0:00:00.000,0:00:07.680
+So I wanted to
+discuss concurrency with you.
+
+0:00:07.680,0:00:11.610
+And this on concrete examples, for
+example this example from the slides.
+
+0:00:11.610,0:00:17.700
+For this, I had already claimed that
+t2 and t3 were activated concurrently here.
+
+0:00:17.700,0:00:22.740
+Of course, we can first consider that
+t2 and t3 are each activated by itself.
+
+0:00:22.740,0:00:28.080
+And that's pretty obvious, because for instance t2 has
+as a precondition only this one token of s2.
+
+0:00:28.080,0:00:29.100
+And that
+one is present.
+
+0:00:29.760,0:00:33.570
+So t2 could fire and then
+put a token here in s4.
+
+0:00:33.570,0:00:36.420
+And in the same
+way, it's also the case
+
+0:00:36.420,0:00:40.770
+that t3 has only one precondition, which is
+that it requires only one token from s3.
+
+0:00:40.770,0:00:41.790
+There is
+one token there.
+
+0:00:41.790,0:00:45.240
+So t3 could fire and
+put a token in s4.
+
+0:00:45.240,0:00:46.710
+And that would
+be the next situation.
+
+0:00:49.050,0:00:52.410
+That would be the fireability
+of t2 and t3 individually.
+
+0:00:52.410,0:00:56.010
+However, we can
+intuitively see that t2
+
+0:00:56.010,0:00:59.670
+and t3 could in principle
+fire at the same time.
+
+0:00:59.670,0:01:02.250
+Because these two
+preconditions do not overlap.
+
+0:01:02.250,0:01:03.210
+They have nothing to
+do with each other.
+
+0:01:04.380,0:01:07.050
+So, what I had just
+done with the two individual tokens,
+
+0:01:07.050,0:01:11.568
+I could intuitively
+do in parallel.
+
+0:01:11.568,0:01:12.240
+I could
+also say:
+
+0:01:12.240,0:01:17.760
+The two tokens could move to t2
+and t3 respectively at the same time,
+
+0:01:17.760,0:01:23.970
+so to speak, to satisfy the respective precondition,
+and then t2 and t3 could also fire simultaneously.
+
+0:01:23.970,0:01:29.190
+Because they operate on completely different
+tokens, since there is no overlap.
+
+0:01:29.190,0:01:30.690
+So that
+we can say:
+
+0:01:30.690,0:01:38.370
+Then t2 and t3 can also both
+fire and just lead to this situation.
+
+0:01:39.420,0:01:46.080
+That's the idea of parallelism and
+concurrency, that t2 and t3 could both
+
+0:01:46.080,0:01:51.270
+fulfill their precondition in the
+marking that we saw, and they
+
+0:01:51.270,0:01:53.910
+could do so without
+interfering with each other.
+
+0:01:53.910,0:01:58.800
+And that's what also the formal
+condition (which was on the slide),
+
+0:01:58.800,0:02:04.830
+ultimately expressed by this sum
+and comparison with the current marking.
+
+0:02:04.830,0:02:06.300
+For the concrete constellation,
+that was the case.
+
+0:02:06.300,0:02:13.000
+Of course, if the Petri net is
+different or the interconnections of the transitions
+
+0:02:13.000,0:02:15.640
+are different, it
+can look quite different.
+
+0:02:15.640,0:02:18.820
+So if we had
+about this same example,
+
+0:02:18.820,0:02:26.500
+but had another arrow (so
+still an additional dependency), we say
+
+0:02:26.500,0:02:36.940
+about here another arrow (which is then of
+course an additional precondition) from s3 to t2.
+
+0:02:40.990,0:02:45.820
+This would mean that there are now two
+precondition places for t2, namely s2 and s3.
+
+0:02:47.710,0:02:48.820
+What would then
+be valid here?
+
+0:02:48.820,0:02:49.810
+It would
+still hold
+
+0:02:49.810,0:02:53.530
+that t2 and t3 are of
+course each fireable on their own.
+
+0:02:53.530,0:02:56.170
+So
+t3 anyway.
+
+0:02:56.170,0:02:57.760
+This t3
+has a precondition.
+
+0:02:57.760,0:02:59.920
+The token is there,
+so t3 could fire.
+
+0:02:59.920,0:03:02.560
+But also
+t2 can fire.
+
+0:03:02.560,0:03:04.480
+Because what
+does t2 expect?
+
+0:03:04.480,0:03:10.540
+This t2 expects that there is
+a token on both precondition places.
+
+0:03:10.540,0:03:11.890
+And this
+is the case.
+
+0:03:11.890,0:03:16.090
+That is, t2 could also fire
+and put a token on s4.
+
+0:03:16.090,0:03:20.080
+However, t2 and t3 cannot fire
+simultaneously as in the previous example.
+
+0:03:20.080,0:03:23.470
+Because in order for t2 to fire,
+it would take out these two tokens.
+
+0:03:23.470,0:03:29.050
+And then t3 cannot fire
+simultaneously, or in parallel, or concurrently.
+
+0:03:29.050,0:03:34.690
+Because t3 then finds nothing here,
+no token that could be used.
+
+0:03:38.620,0:03:44.950
+Therefore, in this constellation, this new
+specification of preconditions (in particular, that t2
+
+0:03:44.950,0:03:50.980
+has this second precondition, which depends
+on S3), it would not be
+
+0:03:50.980,0:03:55.840
+possible that simply both transitions
+t2 and t3 are activated concurrently.
+
+0:03:55.840,0:03:57.400
+Although they are
+each activated separately.
+
+0:03:57.400,0:04:05.170
+For example, if we were to make another
+change here, namely to have it so that there
+
+0:04:05.170,0:04:13.120
+are two tokens on s3 of
+our marking, then it would again be
+
+0:04:13.120,0:04:18.460
+true that t2 is activated, t3 is activated,
+and even t2 and t3 are also activated concurrently.
+
+0:04:18.460,0:04:23.290
+In the situation, it would be
+again that we could of course fire
+
+0:04:23.290,0:04:24.880
+t2 and
+t3 concurrent/parallel.
+
+0:04:24.880,0:04:33.250
+Because then t2 would be able to take
+this token and one of the two tokens from
+
+0:04:33.250,0:04:37.870
+down here to be activated, and
+t3 could take the other token.
+
+0:04:37.870,0:04:41.020
+Then again, we would have the situation
+where we could have basically done it
+
+0:04:41.020,0:04:45.490
+in parallel: that is, t2 and t3
+could fire without interfering with each other.
+
+0:04:45.490,0:04:49.840
+But that was only because I
+had provided two tokens down here.
+
+0:04:49.840,0:04:55.210
+Because then the preconditions of t2
+and t3 can be fulfilled simultaneously.
+
+0:04:58.270,0:05:02.530
+So it depends exactly on the
+particular precondition and which tokens are present.
+
+0:05:09.100,0:05:15.760
+Let's look at another
+example, first this one.
+
+0:05:15.760,0:05:19.090
+What is
+activated concurrently here?
+
+0:05:19.090,0:05:20.590
+Now this is
+very simple, this example.
+
+0:05:20.590,0:05:31.330
+We can see factually right away that
+probably all three transitions are activated here.
+
+0:05:31.330,0:05:35.980
+And this is concurrent in the sense that
+we have exactly three tokens at the top
+
+0:05:35.980,0:05:43.390
+and exactly any one of them could
+make one of the three transitions happy.
+
+0:05:43.390,0:05:50.020
+Or that we could go something like
+this, and then of course t1, t2,
+
+0:05:50.020,0:05:57.760
+t3 could be executed in parallel (and
+each occupy one place, their postcondition place).
+
+0:06:00.280,0:06:04.030
+That would be our first example,
+where we have a three-element concurrent set.
+
+0:06:04.030,0:06:05.935
+On the
+slide also appeared:
+
+0:06:05.935,0:06:10.870
+Not only can we have
+two transitions concurrent, but about here
+
+0:06:10.870,0:06:17.650
+the T' set of concurrently
+activated transitions would simply be the
+
+0:06:17.650,0:06:22.915
+entire transition set,
+namely t1, t2, t3.
+
+0:06:22.915,0:06:27.280
+That's possible, and in that
+case that's exactly how it occurs.
+
+0:06:27.280,0:06:29.860
+And we can calculate that it
+also satisfies the formal condition for
+
+0:06:29.860,0:06:34.090
+concurrency of
+all three transitions.
+
+0:06:34.090,0:06:39.100
+However, this was also only the case
+because we had the three tokens above.
+
+0:06:39.100,0:06:44.290
+If we take a similar constellation, but
+with only two tokens above, then what holds?
+
+0:06:44.290,0:06:47.890
+Again, t1, t2, t3
+are each activated separately.
+
+0:06:47.890,0:06:53.200
+Because each one requests only one token
+from s1, and there are even two.
+
+0:06:53.200,0:07:00.610
+So no problem, we could
+fire each one of these transitions.
+
+0:07:00.610,0:07:02.200
+We could also fire two
+of them at the same time.
+
+0:07:02.200,0:07:03.880
+I'm not allowed to
+duplicate anything, of course.
+
+0:07:03.880,0:07:07.660
+So when I take the token
+out, it really has to go.
+
+0:07:07.660,0:07:08.890
+So it
+could be
+
+0:07:08.890,0:07:15.550
+that we decide, for example, to
+consider t1 and t2 as concurrently activated.
+
+0:07:15.550,0:07:22.510
+They are concurrently activated because
+there are actually enough tokens.
+
+0:07:22.510,0:07:25.870
+The same would be true for
+t1, t3 and for t2, t3.
+
+0:07:25.870,0:07:28.870
+However, not for t1,
+t2, and t3 together.
+
+0:07:28.870,0:07:32.410
+So the concrete marking that we
+have here, with only two tokens at
+
+0:07:32.410,0:07:39.550
+the top, ensures that the quantity t1, t2 and
+the quantity t2, t3 and the quantity t1 t3 are
+
+0:07:39.550,0:07:44.890
+each activated concurrently, but the total
+quantity t1, t2, t3 is not.
+
+0:07:46.090,0:07:51.400
+Because the two tokens above are not enough to
+have all three transitions fireable at the same time.
+
+0:07:51.400,0:07:56.830
+We can calculate this
+again on the slides.
+
+0:07:56.830,0:08:03.850
+Then we
+have this example.
+
+0:08:03.850,0:08:08.080
+It's a little bit more interesting,
+because there are more cross dependencies.
+
+0:08:08.080,0:08:10.750
+Especially at this
+point, of course.
+
+0:08:10.750,0:08:12.910
+What is
+valid here?
+
+0:08:12.910,0:08:19.150
+First of all, t1, t2, t3
+are certainly not all three concurrently activated.
+
+0:08:19.150,0:08:20.800
+But there are
+concurrent activations here.
+
+0:08:20.800,0:08:25.090
+For example, t1 and
+t3 are concurrently activated.
+
+0:08:25.090,0:08:31.870
+Because we can satisfy, say,
+t1 by taking these two tokens,
+
+0:08:31.870,0:08:35.140
+and completely independently, t3
+could take this token.
+
+0:08:35.140,0:08:43.620
+And then actually here again a parallel
+passage through t1 and t3 would be possible.
+
+0:08:43.620,0:08:47.430
+This t2 would not be affected
+by this, and could also not
+
+0:08:47.430,0:08:51.900
+act, because t2 would require that
+there is still a token here.
+
+0:08:51.900,0:08:52.770
+But this is
+not the case.
+
+0:08:55.560,0:09:00.750
+This would be the
+case for t1, t3.
+
+0:09:00.750,0:09:05.160
+And analogously, we could have considered
+that t2, t3 are activated here concurrently.
+
+0:09:05.160,0:09:13.320
+Because these two tokens would be able
+to go to t2, and completely independently t3
+
+0:09:13.320,0:09:18.030
+would be able to consume this token, and thus
+just t2, t3 would be able to fire concurrently.
+
+0:09:18.030,0:09:20.640
+However, not
+t1 and t2.
+
+0:09:20.640,0:09:27.750
+This fails because we would need on the one hand
+that for t1 and on the other hand that for t2.
+
+0:09:27.750,0:09:35.190
+Exactly the marked center
+would be needed twice.
+
+0:09:35.190,0:09:35.730
+This is
+not possible here.
+
+0:09:35.730,0:09:38.070
+The token can't go here
+and here at the same time.
+
+0:09:40.260,0:09:43.470
+And then also t1, t2,
+t3 cannot be activated concurrently.
+
+0:09:43.470,0:09:45.780
+Because then also every subset of
+it would have to be activated concurrently.
+
+0:09:45.780,0:09:47.580
+And t1,
+t2 already isn't.
+
+0:09:56.130,0:10:01.680
+Of course, we can fix that
+again, but only by changing the marking.
+
+0:10:01.680,0:10:07.140
+So if we would consider the case
+that here exactly on this problematic place there
+
+0:10:07.140,0:10:15.900
+are two tokens, then indeed again
+all three transitions are activated concurrently.
+
+0:10:15.900,0:10:21.540
+Then these two tokens could be
+used to activate t1, and at
+
+0:10:21.540,0:10:29.070
+the same time without overlap these
+two tokens could be used to
+
+0:10:29.070,0:10:33.960
+activate t2, and anyway completely independently
+t3 could operate on this one token.
+
+0:10:35.460,0:10:36.660
+Here it would indeed
+be possible to say:
+
+0:10:36.660,0:10:38.310
+The token moves here, the token moves
+there, the token moves here, the token
+
+0:10:38.310,0:10:48.630
+moves there, the
+token moves here.
+
+0:10:48.630,0:10:51.630
+Then t1, t2,
+t3 are activated concurrently.
+
+0:10:51.630,0:10:53.220
+Which means that
+actually now potentially any
+
+0:10:53.220,0:10:56.820
+order of firing
+would be possible.
+
+0:10:56.820,0:11:02.580
+So when we write down firing sequences, we
+don't write down t1, t2, t3 in parallel,
+
+0:11:02.580,0:11:07.530
+but we could say: t1, t2,
+t3 are activated concurrently and can
+
+0:11:07.530,0:11:10.290
+then be fired in
+any permutation, so to speak.
+
+0:11:10.290,0:11:20.550
+Possible firing sequences here now
+would be t1, t2, t3 or
+
+0:11:20.550,0:11:40.230
+t1, t3, t2 or t2, t1, t3; t2,
+t3, t1; t3, t1, t2 or t3, t2, t1.
+
+0:11:40.230,0:11:47.670
+This is a general observation
+regarding this notion of concurrent activation.
+
+0:11:47.670,0:11:56.490
+That if we have concurrently
+activated transitions, then any firing
+
+0:11:56.490,0:11:59.250
+sequence of
+them is possible.
+
+0:11:59.250,0:12:03.510
+Because they simply
+don't affect each other.

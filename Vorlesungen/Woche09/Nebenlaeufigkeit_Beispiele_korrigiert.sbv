@@ -1,0 +1,543 @@
+0:00:00.000,0:00:07.680
+Also ich wollte mit Ihnen
+Nebenläufigkeit diskutieren.
+
+0:00:07.680,0:00:11.610
+Und zwar an konkreten Beispielen,
+etwa diesem Beispiel von den Folien.
+
+0:00:11.610,0:00:17.700
+Dazu hatte ich schon behauptet, dass t2
+und t3 hier nebenläufig aktiviert seien.
+
+0:00:17.700,0:00:22.740
+Natürlich können wir uns erst mal überlegen,
+dass t2 und t3 jede für sich aktiviert sind.
+
+0:00:22.740,0:00:28.080
+Und das ist ziemlich offensichtlich, denn etwa t2
+hat als Vorbedingung nur diese eine Marke von s2.
+
+0:00:28.080,0:00:29.100
+Und die ist vorhanden.
+
+0:00:29.760,0:00:33.570
+Also könnte t2 schalten und dann
+eine Marke hier in s4 ablegen.
+
+0:00:33.570,0:00:36.420
+Und genauso ist es auch der Fall,
+
+0:00:36.420,0:00:40.770
+dass t3 nur eine Vorbedingung hat,
+nämlich nur eine Marke aus s3 verlangt.
+
+0:00:40.770,0:00:41.790
+Da liegt eine Marke.
+
+0:00:41.790,0:00:45.240
+Also könnte t3 schalten und
+eine Marke in s4 ablegen.
+
+0:00:45.240,0:00:46.710
+Und das wäre die nächste Situation.
+
+0:00:49.050,0:00:52.410
+Das wäre die Schaltbarkeit von
+t2 und t3 jeweils individuell.
+
+0:00:52.410,0:00:56.010
+Allerdings können wir ja auch intuitiv sehen,
+
+0:00:56.010,0:00:59.670
+dass t2 und t3 im Prinzip
+gleichzeitig schalten könnten.
+
+0:00:59.670,0:01:02.250
+Denn diese beiden Vorbedingungen
+überlappen sich nicht.
+
+0:01:02.250,0:01:03.210
+Sie haben nichts miteinander zu tun.
+
+0:01:04.380,0:01:07.050
+Also, was ich gerade mit den
+beiden Einzelmarken getan hatte,
+
+0:01:07.050,0:01:11.568
+könnte ich intuitiv auch parallel tun.
+
+0:01:11.568,0:01:12.240
+Ich könnte auch sagen:
+
+0:01:12.240,0:01:17.760
+Die beiden Marken können sozusagen
+gleichzeitig jeweils zu t2 und t3 wandern,
+
+0:01:17.760,0:01:23.970
+um die jeweilige Vorbedingung zu erfüllen, und
+dann könnten t2 und t3 auch gleichzeitig schalten.
+
+0:01:23.970,0:01:29.190
+Weil sie auf vollkommen verschiedenen Marken
+operieren, da es keine Überlappung gibt.
+
+0:01:29.190,0:01:30.690
+Sodass wir sagen können:
+
+0:01:30.690,0:01:38.370
+Dann können t2 und t3 auch beide schalten
+und eben auch zu dieser Situation führen.
+
+0:01:39.420,0:01:46.080
+Das ist die Idee von Parallelität und
+Nebenläufigkeit, dass t2 und t3 in
+
+0:01:46.080,0:01:51.270
+der Markierung, die wir gesehen haben,
+beide ihre Vorbedingung erfüllen konnten,
+
+0:01:51.270,0:01:53.910
+und zwar ohne sich gegenseitig dabei zu behindern.
+
+0:01:53.910,0:01:58.800
+Und das ist das, was auch die formale
+Bedingung (die auf der Folie stand),
+
+0:01:58.800,0:02:04.830
+letztlich durch diese Summe und den Vergleich
+mit der aktuellen Markierung ausdrückt.
+
+0:02:04.830,0:02:06.300
+Für die konkrete Konstellation war das so.
+
+0:02:06.300,0:02:13.000
+Natürlich kann das, wenn das Petrinetz
+anders ist oder die Verschaltungen der
+
+0:02:13.000,0:02:15.640
+Transitionen anders sind, ganz anders aussehen.
+
+0:02:15.640,0:02:18.820
+Also wenn wir etwa dieses gleiche Beispiel hätten,
+
+0:02:18.820,0:02:26.500
+aber einen weiteren Pfeil hätten (also noch
+eine zusätzliche Abhängigkeit), sagen wir
+
+0:02:26.500,0:02:36.940
+etwa hier noch einen Pfeil (der dann natürlich
+eine zusätzliche Vorbedingung ist) von s3 zu t2.
+
+0:02:40.990,0:02:45.820
+Das hieße, dass es für t2 jetzt zwei
+Vorbedingungsstellen gibt, nämlich s2 und s3.
+
+0:02:47.710,0:02:48.820
+Was würde dann hier gelten?
+
+0:02:48.820,0:02:49.810
+Es würde weiterhin gelten,
+
+0:02:49.810,0:02:53.530
+dass t2 und t3 natürlich jeweils
+für sich genommen schaltbar sind.
+
+0:02:53.530,0:02:56.170
+Also t3 sowieso.
+
+0:02:56.170,0:02:57.760
+Dieses t3 hat eine Vorbedingung.
+
+0:02:57.760,0:02:59.920
+Die Marke liegt dort, also könnte t3 schalten.
+
+0:02:59.920,0:03:02.560
+Aber auch t2 kann schalten.
+
+0:03:02.560,0:03:04.480
+Denn was erwartet t2?
+
+0:03:04.480,0:03:10.540
+Dieses t2 erwartet, dass auf beiden
+Vorbedingungsstellen eine Marke liegt.
+
+0:03:10.540,0:03:11.890
+Und dem ist so.
+
+0:03:11.890,0:03:16.090
+Das heißt, auch t2 könnte schalten
+und eine Marke auf s4 legen.
+
+0:03:16.090,0:03:20.080
+Allerdings können t2 und t3 nicht wie in dem
+vorherigen Beispiel gleichzeitig schalten.
+
+0:03:20.080,0:03:23.470
+Denn damit t2 schalten kann, würde
+es diese beiden Marken entnehmen.
+
+0:03:23.470,0:03:29.050
+Und dann kann nicht gleichzeitig, oder
+parallel, oder nebenläufig, auch t3 schalten.
+
+0:03:29.050,0:03:34.690
+Denn t3 findet dann hier nichts mehr vor,
+keine Marke, die genutzt werden könnte.
+
+0:03:38.620,0:03:44.950
+Deswegen wäre es in dieser Konstellation, dieser
+neuen Angabe der Vorbedingungen (insbesondere,
+
+0:03:44.950,0:03:50.980
+dass t2 diese zweite Vorbedingung hat,
+die von S3 abhängt), nicht möglich,
+
+0:03:50.980,0:03:55.840
+dass einfach beide Transitionen t2
+und t3 nebenläufig aktiviert sind.
+
+0:03:55.840,0:03:57.400
+Obwohl sie jede für sich aktiviert sind.
+
+0:03:57.400,0:04:05.170
+Wenn wir hier zum Beispiel noch eine weitere
+Veränderung machen würden, nämlich das so hätten,
+
+0:04:05.170,0:04:13.120
+dass auf s3 unserer Markierung zwei
+Marken liegen, dann würde wieder gelten:
+
+0:04:13.120,0:04:18.460
+t2 ist aktiviert, t3 ist aktiviert, und t2
+und t3 sind sogar auch nebenläufig aktiviert.
+
+0:04:18.460,0:04:23.290
+In der Situation wäre es wieder
+so, dass wir natürlich t2 und
+
+0:04:23.290,0:04:24.880
+t3 nebenläufig/parallel schalten könnten.
+
+0:04:24.880,0:04:33.250
+Dann würde nämlich t2 diese Marke und eine der
+beiden Marken von hier unten heranziehen können,
+
+0:04:33.250,0:04:37.870
+um aktiviert zu sein, und t3
+könnte die andere Marke nehmen.
+
+0:04:37.870,0:04:41.020
+Dann hätten wir wieder die Situation, dass
+wir es im Grunde genommen auch parallel hätten
+
+0:04:41.020,0:04:45.490
+machen können: das heißt, t2 und t3 schalten
+können, ohne sich dabei gegenseitig zu stören.
+
+0:04:45.490,0:04:49.840
+Aber das lag nur daran, dass ich hier
+unten zwei Marken vorgesehen hatte.
+
+0:04:49.840,0:04:55.210
+Denn dann können die Vorbedingungen von
+t2 und t3 gleichzeitig erfüllt werden.
+
+0:04:58.270,0:05:02.530
+Also es kommt genau auf die jeweilige
+Vorbedingung an und welche Marken vorhanden sind.
+
+0:05:09.100,0:05:15.760
+Schauen wir uns ein weiteres
+Beispiel an, zunächst dieses.
+
+0:05:15.760,0:05:19.090
+Was ist hier nebenläufig aktiviert?
+
+0:05:19.090,0:05:20.590
+Nun das ist sehr einfach, dieses Beispiel.
+
+0:05:20.590,0:05:31.330
+Wir können faktisch sofort sehen, dass hier
+wohl alle drei Transitionen aktiviert sind.
+
+0:05:31.330,0:05:35.980
+Und zwar nebenläufig in dem Sinne,
+dass wir oben genau drei Marken haben
+
+0:05:35.980,0:05:43.390
+und genau jede eine davon eine der drei
+Transitionen glücklich machen könnte.
+
+0:05:43.390,0:05:50.020
+Oder dass wir etwa so vorgehen
+könnten und dann natürlich t1, t2,
+
+0:05:50.020,0:05:57.760
+t3 parallel ausgeführt werden können (und jeweils
+eine Stelle, ihre Nachbedingungsstelle, belegen).
+
+0:06:00.280,0:06:04.030
+Das wäre unser erstes Beispiel, wo wir eine
+dreielementige nebenläufige Menge haben.
+
+0:06:04.030,0:06:05.935
+Auf der Folie tauchte auch auf:
+
+0:06:05.935,0:06:10.870
+Es kann nicht nur sein, dass wir
+zwei Transitionen nebenläufig haben,
+
+0:06:10.870,0:06:17.650
+sondern etwa hier wäre die T'-Menge von
+nebenläufig aktivierten Transitionen einfach
+
+0:06:17.650,0:06:22.915
+die gesamte Transitionsmenge, nämlich t1, t2, t3.
+
+0:06:22.915,0:06:27.280
+Das ist möglich, und in dem
+Fall tritt das genau so auf.
+
+0:06:27.280,0:06:29.860
+Und wir können nachrechnen, dass
+es auch die formale Bedingung für
+
+0:06:29.860,0:06:34.090
+Nebenläufigkeit aller drei Transitionen erfüllt.
+
+0:06:34.090,0:06:39.100
+Das war allerdings auch nur der Fall,
+weil wir oben die drei Marken hatten.
+
+0:06:39.100,0:06:44.290
+Wenn wir eine ähnliche Konstellation nehmen,
+aber mit oben nur zwei Marken, dann gilt was?
+
+0:06:44.290,0:06:47.890
+Auch hier sind t1, t2, t3 jede für sich aktiviert.
+
+0:06:47.890,0:06:53.200
+Denn jede fordert nur eine Marke aus
+s1 an, und da liegen ja sogar zwei.
+
+0:06:53.200,0:07:00.610
+Also kein Problem, wir könnten jede
+einzelne dieser Transitionen feuern.
+
+0:07:00.610,0:07:02.200
+Wir können auch zwei davon gleichzeitig feuern.
+
+0:07:02.200,0:07:03.880
+Ich darf nichts verdoppeln natürlich.
+
+0:07:03.880,0:07:07.660
+Also wenn ich die Marke entnehme,
+muss sie auch wirklich verschwinden.
+
+0:07:07.660,0:07:08.890
+Also es könnte sein,
+
+0:07:08.890,0:07:15.550
+dass wir uns zum Beispiel entscheiden, t1
+und t2 als nebenläufig aktiviert anzusehen.
+
+0:07:15.550,0:07:22.510
+Sie sind nebenläufig aktiviert, weil
+tatsächlich genug Marken da sind.
+
+0:07:22.510,0:07:25.870
+Das gleiche würde gelten
+für t1, t3 und für t2, t3.
+
+0:07:25.870,0:07:28.870
+Allerdings nicht für t1, t2 und t3 zusammen.
+
+0:07:28.870,0:07:32.410
+Also die konkrete Markierung, die wir
+hier haben, mit nur zwei Marken oben,
+
+0:07:32.410,0:07:39.550
+die sorgt dafür, dass die Menge t1, t2
+und die Menge t2, t3 und die Menge t1 t3
+
+0:07:39.550,0:07:44.890
+jeweils nebenläufig aktiviert sind, jedoch
+die Gesamtmenge t1, t2, t3 eben nicht.
+
+0:07:46.090,0:07:51.400
+Weil die zwei Marken oben nicht reichen, um alle
+drei Transitionen gleichzeitig schaltbar zu haben.
+
+0:07:51.400,0:07:56.830
+Das können wir auf den Folien
+noch einmal nachrechnen.
+
+0:07:56.830,0:08:03.850
+Dann haben wir hier noch dieses Beispiel.
+
+0:08:03.850,0:08:08.080
+Mal etwas interessanter, weil es da
+mehr Überkreuz-Abhängigkeiten gibt.
+
+0:08:08.080,0:08:10.750
+Insbesondere natürlich an dieser Stelle.
+
+0:08:10.750,0:08:12.910
+Was gilt hier etwa?
+
+0:08:12.910,0:08:19.150
+Erstmal sind t1, t2, t3 mit Sicherheit
+nicht alle drei nebenläufig aktiviert.
+
+0:08:19.150,0:08:20.800
+Aber es gibt hier nebenläufige Aktivierungen.
+
+0:08:20.800,0:08:25.090
+Zum Beispiel sind t1 und t3 nebenläufig aktiviert.
+
+0:08:25.090,0:08:31.870
+Weil wir etwa t1 dadurch zufriedenstellen
+können, dass wir diese beiden Marken entnehmen,
+
+0:08:31.870,0:08:35.140
+und völlig unabhängig davon
+t3 diese Marke nehmen könnte.
+
+0:08:35.140,0:08:43.620
+Und dann tatsächlich hier wieder ein paralleler
+Durchgang durch t1 und t3 möglich wäre.
+
+0:08:43.620,0:08:47.430
+Dieses t2 wäre davon nicht betroffen,
+und könnte auch nicht handeln,
+
+0:08:47.430,0:08:51.900
+denn t2 würde ja verlangen,
+dass hier noch eine Marke liegt.
+
+0:08:51.900,0:08:52.770
+Was aber nicht der Fall ist.
+
+0:08:55.560,0:09:00.750
+Das wäre der Fall für t1, t3.
+
+0:09:00.750,0:09:05.160
+Und analog hätten wir uns auch überlegen können,
+dass t2, t3 hier nebenläufig aktiviert sind.
+
+0:09:05.160,0:09:13.320
+Denn diese beiden Marken würden zu t2
+gehen können, und völlig unabhängig
+
+0:09:13.320,0:09:18.030
+davon t3 diese Marke konsumieren können, und
+somit eben t2, t3 nebenläufig schalten können.
+
+0:09:18.030,0:09:20.640
+Allerdings nicht t1 und t2.
+
+0:09:20.640,0:09:27.750
+Das scheitert daran, dass wir einerseits das
+bräuchten für t1 und andererseits das für t2.
+
+0:09:27.750,0:09:35.190
+Genau die markierte Mitte würde
+dafür zweifach gebraucht werden.
+
+0:09:35.190,0:09:35.730
+Das geht hier nicht.
+
+0:09:35.730,0:09:38.070
+Die Marke kann nicht
+gleichzeitig hierhin und hierher.
+
+0:09:40.260,0:09:43.470
+Und dann kann auch nicht t1, t2,
+t3 nebenläufig aktiviert sein.
+
+0:09:43.470,0:09:45.780
+Denn dann müsste auch jede Teilmenge
+davon nebenläufig aktiviert sein.
+
+0:09:45.780,0:09:47.580
+Und t1, t2 ist es ja schon nicht.
+
+0:09:56.130,0:10:01.680
+Natürlich können wir das wieder beheben,
+aber nur durch Änderung der Markierung.
+
+0:10:01.680,0:10:07.140
+Also wenn wir den Fall betrachten würden, dass
+hier genau auf dieser problematischen Stelle
+
+0:10:07.140,0:10:15.900
+zwei Marken liegen, dann sind tatsächlich wieder
+alle drei Transitionen nebenläufig aktiviert.
+
+0:10:15.900,0:10:21.540
+Dann könnten diese beiden Marken
+benutzt werden, um t1 zu aktivieren,
+
+0:10:21.540,0:10:29.070
+und gleichzeitig überschneidungsfrei
+diese beiden Marken, um t2 zu aktivieren,
+
+0:10:29.070,0:10:33.960
+und sowieso völlig unabhängig davon könnte
+t3 auf dieser einen Marke operieren.
+
+0:10:35.460,0:10:36.660
+Hier wäre es tatsächlich möglich, zu sagen:
+
+0:10:36.660,0:10:38.310
+Die Marke wandert hierhin, die Marke wandert
+dorthin, die Marke wandert hierhin, die
+
+0:10:38.310,0:10:48.630
+Marke dorthin, die Marke wandert hierhin.
+
+0:10:48.630,0:10:51.630
+Dann sind t1, t2, t3 nebenläufig aktiviert.
+
+0:10:51.630,0:10:53.220
+Was heißt, dass tatsächlich
+jetzt potenziell gesehen jede
+
+0:10:53.220,0:10:56.820
+beliebige Reihenfolge des Schaltens möglich wäre.
+
+0:10:56.820,0:11:02.580
+Also wenn wir Schaltfolgen aufschreiben, dann
+schreiben wir nicht t1, t2, t3 parallel auf,
+
+0:11:02.580,0:11:07.530
+sondern wir könnten sagen: t1, t2,
+t3 sind nebenläufig aktiviert und
+
+0:11:07.530,0:11:10.290
+können dann sozusagen in jeder
+Permutation geschaltet werden.
+
+0:11:10.290,0:11:20.550
+Mögliche Schaltfolgen wären
+hier jetzt t1, t2, t3 oder t1,
+
+0:11:20.550,0:11:40.230
+t3, t2 oder t2, t1, t3; t2, t3,
+t1; t3, t1, t2 oder t3, t2, t1.
+
+0:11:40.230,0:11:47.670
+Das ist eine generelle Beobachtung bezüglich
+dieses Begriffs der nebenläufigen Aktivierung.
+
+0:11:47.670,0:11:56.490
+Dass wenn wir nebenläufig aktivierte
+Transitionen haben, dann jede beliebige
+
+0:11:56.490,0:11:59.250
+Schaltreihenfolge von diesen möglich ist.
+
+0:11:59.250,0:12:03.510
+Weil sie sich einfach nicht
+gegenseitig beeinflussen.
