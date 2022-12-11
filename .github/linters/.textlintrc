@@ -4,12 +4,12 @@
     },
     "rules": {
         "terminology": true
-    }
+    },
     "plugins": {
         "@textlint/text": {
             "extensions": [".sbv"]
         },
-	"@textlint/markdown": {
+        "@textlint/markdown": {
             "extensions": [".md"]
         }
     }
