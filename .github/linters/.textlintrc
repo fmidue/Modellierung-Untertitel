@@ -9,6 +9,8 @@
         "@textlint/text": {
             "extensions": [".sbv"]
         },
-	"@textlint/markdown": true
+	"@textlint/markdown": {
+            "extensions": [".md"]
+        }
     }
 }
