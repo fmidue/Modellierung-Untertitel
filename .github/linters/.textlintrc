@@ -1,0 +1,13 @@
+{
+    "filters": {
+        "comments": true
+    },
+    "rules": {
+        "terminology": true
+    }
+    "plugins": {
+        "@textlint/text": {
+            "extensions": [".sbv"]
+        }
+    }
+}
