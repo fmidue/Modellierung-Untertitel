@@ -1,0 +1,2182 @@
+0:00:00.000,0:00:03.390
+Also, dieses Beispiel haben wir gerade gesehen.
+
+0:00:03.390,0:00:08.550
+Und ich hatte schon ein paar Andeutungen
+gemacht in Richtung Petrinetze.
+
+0:00:08.550,0:00:14.520
+Und in der Tat werden wir im Folgenden die
+einzelnen Elemente von Aktivitätsdiagrammen,
+
+0:00:14.520,0:00:19.170
+also ihre Bestandteile, mit Petrinetz
+Bestandteilen vergleichen, und zwar angelehnt
+
+0:00:19.170,0:00:24.870
+an eine in der Literatur vorkommende Semantik
+für zumindest Teile von Aktivitätsdiagrammen.
+
+0:00:24.870,0:00:29.760
+Wir werden das nicht benutzen im Sinne
+wirklich das semantisch zu untersuchen,
+
+0:00:29.760,0:00:35.550
+sondern werden diese Entsprechung benutzen, um
+die Aktivitätsdiagramm-Elemente dabei zu erklären.
+
+0:00:35.550,0:00:39.690
+Und wir machen das immer für die
+einzelnen Elemente allgemein,
+
+0:00:39.690,0:00:42.510
+aber auch bezogen auf dieses Beispiel.
+
+0:00:42.510,0:00:49.530
+O.k., also im Grunde genommen ergibt
+sich daraus dann eine Möglichkeit,
+
+0:00:49.530,0:00:52.800
+Aktivitätsdiagramme in Petrinetze zu übersetzen.
+
+0:00:52.800,0:00:57.960
+So, wie wir Petrinetze mit Kapazitäten
+in Petrinetze ohne Kapazitäten übersetzt
+
+0:00:57.960,0:01:01.800
+hatten und dadurch kann man natürlich
+dann auch Aktivitätsdiagramm verstehen,
+
+0:01:01.800,0:01:06.180
+weil wir für Petrinetze ja wissen,
+was die jeweilige Bedeutung ist.
+
+0:01:06.180,0:01:12.150
+O.k., also was sind die erste Art
+von Knoten in Aktivitätsdiagrammen?
+
+0:01:12.150,0:01:15.120
+Das waren diese Aktionsknoten
+oder einfach auch Aktionen.
+
+0:01:15.120,0:01:20.700
+Das sind diese Ovale oder rechteckige
+Rechtecke mit abgerundeten Ecken.
+
+0:01:20.700,0:01:24.030
+Also diese Art Knoten, die in
+dem Diagramm auch so aussahen.
+
+0:01:24.030,0:01:30.720
+Also das "Plan erstellen" war so ein erstes,
+ein solcher Aktionsknoten oder eine Aktion.
+
+0:01:30.720,0:01:36.660
+O.k. und das entspricht sehr direkt
+in Petrinetzen einfach Transitionen.
+
+0:01:36.660,0:01:39.480
+In Petrinetzen sahen Transitionen so
+aus und konnten einen Namen haben.
+
+0:01:39.480,0:01:42.900
+Also so eine Aktion aus einem
+Aktivitätsdiagramm würde in einem
+
+0:01:42.900,0:01:45.990
+Petrinetz einfach eine Transition
+mit dem entsprechenden Namen sein.
+
+0:01:45.990,0:01:49.830
+Und weil es um Aktion geht,
+könnte man als so Indiz nehmen,
+
+0:01:49.830,0:01:54.750
+dass man da in der Regel dann Namen hat, die
+irgendwie Tätigkeiten oder Verben entsprechen.
+
+0:01:54.750,0:01:56.610
+Ja, wie hier das Erstellen.
+
+0:01:56.610,0:02:04.410
+O.k., die Intuition ist eben,
+Aktionen stehen für Tätigkeiten.
+
+0:02:04.410,0:02:06.315
+Irgendetwas, das einen Zeitaufwand hat.
+
+0:02:06.315,0:02:07.530
+Ja wir denken wieder an Workflow,
+
+0:02:07.530,0:02:13.320
+also an sozusagen das Beschreiben
+von abfolgenden Einzelschritten.
+
+0:02:13.320,0:02:16.650
+Dann ist jeder Einzelschritt eben
+etwas, das irgendwie eine Tätigkeit ist.
+
+0:02:16.650,0:02:24.510
+Was vielleicht eine Weile dauert, was eine Aktion
+darstellt, so wie die Transitionen in Petrinetzen.
+
+0:02:25.500,0:02:27.240
+Also, das wäre nur eine
+andere Darstellung sozusagen.
+
+0:02:27.240,0:02:28.350
+Also das ist noch ganz einfach.
+
+0:02:28.350,0:02:30.450
+Aktionen sind Transitionen.
+
+0:02:30.450,0:02:36.750
+O.k., dann gab es die Verbindungen
+zwischen den Aktionen.
+
+0:02:36.750,0:02:38.280
+Das waren diese Pfeile.
+
+0:02:38.280,0:02:42.900
+Das wäre der Kontrollfluss oder
+irgendwann dann auch Objektfluss.
+
+0:02:42.900,0:02:47.640
+Wenn wir Objektknoten haben, werden wir die Token
+dann nicht nur einfach als Markierungen nehmen.
+
+0:02:47.640,0:02:53.010
+Als Marker, wo denn gerade der
+Fokus in dem Aktivitätsdiagramm ist.
+
+0:02:53.010,0:02:54.750
+Sondern tatsächlich, wie in dem Hausbau Beispiel
+
+0:02:54.750,0:02:57.600
+ein Token dann für einen konkreten
+Plan steht, also für ein Objekt.
+
+0:02:57.600,0:03:02.460
+Etwas das auch vielleicht mit einem Klassen-
+und Objektdiagramm in Beziehung steht.
+
+0:03:02.460,0:03:04.830
+Dann reden wir eher vom Objektfluss aller Punkte.
+
+0:03:04.830,0:03:08.130
+Es gibt diesen Fluss zwischen
+den Aktionen in erster Linie.
+
+0:03:08.130,0:03:11.760
+Wie können wir das in einem Petrinetz darstellen?
+
+0:03:11.760,0:03:14.310
+Naja, im Petrinetz kann es ja keine Verbindung,
+
+0:03:14.310,0:03:17.580
+keine Verknüpfung geben von einer
+Transition zu einer Transition.
+
+0:03:17.580,0:03:21.120
+Ja, wenn wir Aktion als Transitionen
+übersetzen, dann wäre "Bauplatz wählen"
+
+0:03:21.120,0:03:25.950
+eine Transition, "Architekt suchen"
+eine Transition, dann kann es ja nicht,
+
+0:03:25.950,0:03:28.500
+wie hier im Aktivitätsdiagramm
+direkt eine Verbindung geben,
+
+0:03:28.500,0:03:33.390
+weil in Petrinetzen ja immer Transitionen
+und Stellen abwechselnd vorkommen müssen.
+
+0:03:33.390,0:03:39.390
+Deswegen wird es dann hier eine
+sogenannte Hilfsstelle geben.
+
+0:03:39.390,0:03:42.420
+Also auf Petrinetz-Seite gibt eine
+Stelle, die kriegt gar keinen Namen,
+
+0:03:42.420,0:03:46.140
+die ist nicht direkt durch irgendwas motiviert
+das hier in dem Aktivitätsdiagramm vorkommt.
+
+0:03:46.140,0:03:49.470
+Die ist einfach da, um die Verbindung
+herzustellen zwischen diesen beiden
+
+0:03:49.470,0:03:54.840
+Aktionen bzw. auf Petrinetz-Seite
+zwischen diesen beiden Transitionen.
+
+0:03:54.840,0:03:59.610
+Denn so ein Ablauf könnte dann ja sein, wenn
+irgendwie "Bauplatz wählen" geschaltet hat,
+
+0:03:59.610,0:04:01.800
+würde ich ein Token abgelegt, eine Marke.
+
+0:04:01.800,0:04:04.620
+Und dann könnte diese Transition
+schalten und diese Marke weiterreichen.
+
+0:04:04.620,0:04:09.600
+Und dann könnte "Plan erstellen" schalten
+und wieder irgendwie noch eine Ausgabe haben.
+
+0:04:09.600,0:04:15.550
+Dann würde also diese Reihenfolge/diese Abfolge
+von Einzelschritten im Aktivitätsdiagramm das
+
+0:04:15.550,0:04:19.150
+nacheinander stattfindende Schalten
+dieser Transitionen entsprechen.
+
+0:04:19.150,0:04:21.550
+Und dafür sollten sie eben sinnvoll verknüpft
+
+0:04:21.550,0:04:25.150
+sein und das geht hier über solche
+vermittelnden Hilfsstellen einfach.
+
+0:04:25.150,0:04:32.980
+Ja also natürlich entsprechen dann
+damit diese Kanten/diese Pfeile
+
+0:04:32.980,0:04:37.870
+dem zeitlich logischen Ablauf der
+Reihenfolge, in der Dinge passieren.
+
+0:04:39.250,0:04:45.040
+Und Hilfsstellen sind das deswegen
+sozusagen, weil sie nur da sind,
+
+0:04:45.040,0:04:48.490
+um diese Legalität des Petrinetzes herzustellen.
+
+0:04:48.490,0:04:50.680
+Die haben auch keinen eigenen Namen.
+
+0:04:50.680,0:04:53.620
+Das hatten wir auch schon öfter, dass
+wir in Petrinetz nicht unbedingt allen
+
+0:04:53.620,0:04:55.660
+Elementen einen sinnvollen Namen geben konnten.
+
+0:04:56.320,0:04:58.900
+Diese drei Transitionen hätten hier einen
+sinnvollen Namen, weil sie diesen Aktionen
+
+0:04:58.900,0:05:03.880
+entsprechen, und das sind Hilfsstellen, weil
+sie einfach nur dafür da sind den Ablauf korrekt
+
+0:05:03.880,0:05:07.990
+hinzukriegen und nicht, weil sie irgendetwas
+direkt aus dem Aktivitätsdiagramm entsprechen.
+
+0:05:09.670,0:05:12.850
+Die verdienen sozusagen keinen eigenen
+Namen und sowas ähnliches haben wir in
+
+0:05:12.850,0:05:14.470
+Petrinetze auch schon für Transition gesehen.
+
+0:05:14.470,0:05:17.170
+Also Hilfstransition, die nicht
+einen eigenen Namen hatten,
+
+0:05:17.170,0:05:21.640
+weil sie zum Beispiel nicht hier genau eine
+Aktion aus dem Aktivitätsdiagramm entsprechen.
+
+0:05:21.640,0:05:29.080
+O.k., also Aktion, haben
+wir, werden zu Transitionen.
+
+0:05:29.080,0:05:38.350
+Kontrollfluss kann per eingefügter Stellen und
+den jeweiligen Verbindungen realisiert werden.
+
+0:05:38.350,0:05:41.860
+Dann gab es in dem Aktivitätsdiagramm,
+das wir gesehen hatten, noch diese
+
+0:05:41.860,0:05:43.750
+Objektknoten oder einen solchen Objektknoten.
+
+0:05:43.750,0:05:46.630
+Das war eine andere Art von
+Knoten im Aktivitätsdiagramm.
+
+0:05:46.630,0:05:48.670
+Auch anders dargestellt in einem Rechteck
+
+0:05:48.670,0:05:51.790
+ohne abgerundete Ecken, also
+einem tatsächlichen Rechteck.
+
+0:05:51.790,0:05:57.790
+Die stehen intuitiv vom Verständnis her
+sozusagen für eine Ablagerungsmöglichkeit,
+
+0:05:57.790,0:06:00.490
+für einen Speicher für Objekte, konkrete Objekte.
+
+0:06:00.490,0:06:04.810
+Durchaus zu verstehen im Sinne
+objektorientierter Modellierung.
+
+0:06:04.810,0:06:07.150
+Also, wenn wir uns vorstellen, dass
+wir vielleicht ein Aktivitätsdiagramme
+
+0:06:07.150,0:06:10.480
+benutzen, um ein Softwaresystem zu
+beschreiben oder zu modellieren.
+
+0:06:10.480,0:06:14.260
+Ein Aspekt davon zu modellieren, dann könnte
+tatsächlich hier ein Klassenname stehen,
+
+0:06:14.260,0:06:18.340
+aus einem Klassendiagramm, was
+wir zuvor entwickelt haben.
+
+0:06:18.340,0:06:22.840
+Und die Idee wäre dann, dass die Objekte, die
+hier liegen, für die die Markierung/die Token
+
+0:06:22.840,0:06:26.730
+dann stehen, dass es tatsächlich Instanzen
+der jeweiligen Klasse sein sollen.
+
+0:06:26.730,0:06:31.260
+Das taucht in dem Beispiel jetzt nicht auf, weil
+wir kein Klassendiagramm im Hinterkopf haben.
+
+0:06:31.260,0:06:35.790
+Aber die Notation wäre, dass so ein
+Objektknoten tatsächlich zur Ablage
+
+0:06:35.790,0:06:38.940
+von konkreten Ausprägungen
+von Klassen dienen könnte.
+
+0:06:38.940,0:06:43.800
+Und diese entsprechen einfach
+normalen Stellen im Petrinetz.
+
+0:06:43.800,0:06:47.460
+Im Petrinetz, wenn wir irgendwie Ressourcen
+ablegen wollten, nutzen wir dafür Stellen.
+
+0:06:47.460,0:06:53.640
+Also aus diesem Objektknoten würde im Petrinetz
+eine Stelle und die hat dann auch einen Namen.
+
+0:06:53.640,0:06:57.360
+Es ist also keine nur Hilfsstellen,
+es ist eine richtige benannte Stelle.
+
+0:06:57.360,0:06:59.910
+Logischerweise kriegt sie den gleichen
+Namen, wie dieser Objektknoten.
+
+0:06:59.910,0:07:03.090
+Und wenn es zum Beispiel hier
+jetzt mehrere Möglichkeiten gäbe,
+
+0:07:03.090,0:07:05.400
+aus denen irgendwie ein Plan resultieren kann.
+
+0:07:05.400,0:07:08.160
+Dann würde das eben entsprechen,
+dass es mehrere Transitionen gibt,
+
+0:07:08.160,0:07:12.360
+mehrere Aktionen aus Aktivitätsdiagramm
+übersetzt in Transitionen im Petrinetz.
+
+0:07:12.360,0:07:18.660
+Mehrere Transitionen die Marken
+auf dieser Stelle ablegen können.
+
+0:07:18.660,0:07:23.490
+Also irgendwie eine Verwaltung von Ressourcen und
+
+0:07:23.490,0:07:29.010
+dafür hatten wir in Petrinetzen
+ja Marken auf Stellen abgelegt.
+
+0:07:29.700,0:07:35.130
+Aus diesem Teil des Aktivitätsdiagrammes dann
+dieser Teil eines Petrinetzes mit diesen beiden
+
+0:07:35.130,0:07:43.620
+Aktionen zu Transition und diese Objektknoten
+realisiert durch eine benannte Stelle.
+
+0:07:43.620,0:07:51.120
+Die Namen solcher Stellen oder von Objektknoten
+sind in der Regel Nomen und keine Verben.
+
+0:07:51.120,0:07:53.880
+Ja, weil es eben um Objekte geht,
+die da abgelegt werden können.
+
+0:07:53.880,0:08:01.410
+O.k., das hatte ich eben schon angedeutet.
+
+0:08:01.410,0:08:04.080
+Also, wenn wir tatsächlich
+Software-Modellierung betreiben,
+
+0:08:04.080,0:08:07.590
+dann wären solche Objektknoten
+oft mit Klassennamen beschriftet.
+
+0:08:07.590,0:08:10.350
+Weil die Notation dann ist, dass das
+die Verbindung herstellt zwischen
+
+0:08:10.350,0:08:11.361
+der statischen und der dynamischen Modellierung.
+
+0:08:11.361,0:08:12.330
+Die statische Modellierung, die die Klassenobjekt
+beschreibt und die dynamische Modellierung,
+
+0:08:12.330,0:08:22.320
+die dann eben Abfolgen von Aktionen
+beschreibt und dabei verwenden kann,
+
+0:08:23.610,0:08:28.290
+dass es eben diese Objekttypen aus
+der statischen Modellierung gibt.
+
+0:08:28.290,0:08:32.850
+D.h. nicht, dass diese Objektknoten
+irgendwie Attribute haben,
+
+0:08:32.850,0:08:37.710
+so wie wir Klassen Attribute zu geordnet haben.
+
+0:08:37.710,0:08:41.880
+Denn es soll nicht dieser Knoten ein Objekt sein,
+
+0:08:41.880,0:08:44.512
+sondern das soll eine Ablage
+für verschiedene Objekte sein.
+
+0:08:44.512,0:08:52.080
+Also es ergäbe jetzt keinen Sinn diesen
+Knoten irgendwie noch zu strukturieren und
+
+0:08:52.080,0:08:54.450
+dort Attributwerte reinzuschreiben zum Beispiel.
+
+0:08:54.450,0:08:58.290
+Weil es nur eine Ablage für konkret
+Objekt ist und nicht ein Objekt.
+
+0:08:58.290,0:09:05.940
+O.k., was hatten wir noch in
+unserem Beispiel Aktivitätsdiagramm.
+
+0:09:05.940,0:09:09.210
+Nun wir hatten noch diese Art von Knoten.
+
+0:09:09.210,0:09:14.670
+Denen hatte ich noch keinen Namen gegeben, die
+heißen Verzweigungsknoten oder "decision nodes".
+
+0:09:14.670,0:09:16.890
+In dem Beispiel hatten wir auch
+da so eine Entscheidung getroffen.
+
+0:09:16.890,0:09:19.230
+Das war nach "Erstellen eines Planes".
+
+0:09:19.230,0:09:23.850
+Hatten wir den einreichen wollen und
+da sollte es die Möglichkeit geben,
+
+0:09:23.850,0:09:26.640
+entweder, dass der Plan angenommen ist oder nicht.
+
+0:09:26.640,0:09:31.350
+Und das führte zu verschiedenen
+weiteren Abläufen letztendlich
+
+0:09:31.350,0:09:34.230
+eine Verzweigung in dem Fluss, in
+dem Kontroll- oder Objektfluss.
+
+0:09:34.230,0:09:38.970
+Wo aus alternativen Wegen
+immer genau einer gewählt wird.
+
+0:09:38.970,0:09:43.500
+Also keine Aufsplitterung von
+Kontrollfluss oder von Token,
+
+0:09:43.500,0:09:47.700
+sondern tatsächlich eine Wahl eines Weges.
+
+0:09:47.700,0:09:51.630
+O.k., dafür werden eben
+diese Diamantknoten benutzt,
+
+0:09:51.630,0:09:54.900
+die mehrere Ein- oder Ausgänge haben können.
+
+0:09:54.900,0:09:59.700
+Und eventuell an den Ausgängen eben
+solche Bedingungen stehen haben.
+
+0:09:59.700,0:10:04.770
+Was wäre die Entsprechung in einem Petrinetz?
+
+0:10:04.770,0:10:08.730
+Nun, wenn wir im Petrinetz irgendwie
+einen Weg verzweigen wollen,
+
+0:10:08.730,0:10:13.140
+dann können wir das darüber tun, dass wir aus
+einer Stelle, in der ein Token liegen könnte.
+
+0:10:13.140,0:10:17.610
+Wie zum Beispiel hier der eingereicht
+Plan, mehrere mögliche Ausgänge haben,
+
+0:10:17.610,0:10:22.860
+also mehrere möglichen Transitionen haben, die
+jeweils diese Stelle als eine Vorbedingung haben.
+
+0:10:25.680,0:10:31.680
+In dem Fall, wenn das hier die Transition
+zu diesem Aktionsknoten ist und wir dann
+
+0:10:31.680,0:10:33.750
+weiteren Fluss hier und hier haben wollen,
+
+0:10:33.750,0:10:37.650
+dann könnten wir nicht aus der Transition
+direkt irgendwie zwei Ausgangspfeile haben.
+
+0:10:37.650,0:10:41.370
+Denn das würde ja bedeuten, dass wir irgendwas
+aufsplitten, also zwei Token ausgeben.
+
+0:10:41.370,0:10:45.900
+Nein, es gibt eine Stelle in die diese
+Aktion, diese Transition ein Token ablegt.
+
+0:10:45.900,0:10:51.150
+Und dann könnte es auch hier und hier verschiedene
+Transitionen geben, die jede für sich dieses Token
+
+0:10:51.150,0:10:56.269
+konsumieren können und dann irgendeinen Fluss
+in diese Richtung oder in diese Richtung haben.
+
+0:10:56.269,0:10:59.970
+Also, wenn hier unten ein Aktivitätsdiagramm
+übersetzt wird in weitere Transition,
+
+0:10:59.970,0:11:02.820
+dann könnte die erste davon
+eben hier die Ausgabe sein.
+
+0:11:02.820,0:11:12.060
+O.k. dabei kann es sein, das sehen
+wir sogar in dem Beispiel hier,
+
+0:11:12.060,0:11:15.150
+dass wir jetzt Hilfstransition einführen müssen.
+
+0:11:15.150,0:11:19.230
+Also dann diese Stelle dafür sorgt, dass
+wir so eine Verzweigung haben können.
+
+0:11:19.230,0:11:22.140
+Könnten wir ja nicht direkt,
+
+0:11:22.140,0:11:26.430
+ja wenn wir das gleiche hier auch, da
+folgte noch so ein Knoten in dem Beispiel.
+
+0:11:26.430,0:11:30.780
+Dann können wir eben nicht einfach
+nur sagen, den ersetzen wir auch
+
+0:11:30.780,0:11:33.390
+wieder durch eine Stelle so wie diesen
+Knoten und haben eine direkte Verbindung.
+
+0:11:33.390,0:11:34.110
+Das geht ja nicht.
+
+0:11:34.110,0:11:37.020
+Wegen wieder den Regeln von
+Petrinetz, dass das immer nur
+
+0:11:37.020,0:11:40.800
+Verbindung von Stellen zu Transition
+und Transition zu Stellen geben kann,
+
+0:11:40.800,0:11:43.500
+dann müssen wir an dieser Stelle
+eben eine Hilfstransition einführen.
+
+0:11:43.500,0:11:46.680
+Die kriegt auch keinen Namen, die ist
+nur dafür da, dass sozusagen diesen
+
+0:11:46.680,0:11:51.690
+Weitertransport eines Tokens von hier nach hier
+auf für Petrinetz legale Weise machen können.
+
+0:11:51.690,0:11:54.270
+Und nicht einfach nur eine Verbindung
+von Stelle zu Stelle haben.
+
+0:11:54.270,0:11:55.830
+Was ja kein valides Petrinetz wäre.
+
+0:11:57.360,0:11:59.430
+Das kann also hier auftreten zum Beispiel,
+
+0:11:59.430,0:12:03.810
+weil auf ein Verzweigungsknoten ein
+weitere Verzweigungsknoten oder auch
+
+0:12:03.810,0:12:07.830
+ein Objektknoten folgt, der ja auch durch
+eine Petrinetzstelle realisiert würde.
+
+0:12:07.830,0:12:11.580
+Genauso kann das aber auch bei
+der umgekehrten Reihenfolge sein.
+
+0:12:11.580,0:12:16.050
+Also nicht nur bei nachfolgenden, sondern auch bei
+vorausgehenden Verzweigungen oder Objektknoten.
+
+0:12:16.050,0:12:20.310
+Und auch die gleich gesehenen Verbindungsknoten.
+
+0:12:20.310,0:12:23.430
+Genau genommen ist das hier kein Verzweigungs-
+
+0:12:23.430,0:12:27.810
+sondern ein Verbindungsknoten in
+dem konkreten Aktivitätsdiagramm.
+
+0:12:30.234,0:12:31.740
+Das war ja dieses hier.
+
+0:12:31.740,0:12:36.120
+Was ich gerade beschreibe ist
+ja der Weg von hier nach hier.
+
+0:12:36.120,0:12:37.920
+Also von diesem Element zu diesem Element.
+
+0:12:38.940,0:12:43.530
+Wobei das hier ein Verzweigungsknoten
+ist, weil ein Eingang, zwei Ausgänge
+
+0:12:43.530,0:12:48.480
+und das hier ein Verbindungsknoten,
+weil zwei Eingänge und ein Ausgang.
+
+0:12:48.480,0:12:52.830
+Und da kann es eben kein von dieser
+Stelle, die wir ja schon gesehen hatten,
+
+0:12:52.830,0:12:57.540
+die wir ja schon beschrieben hatten
+auf einer Folie, wie aus diesem Teil
+
+0:12:57.540,0:13:03.330
+des Aktivitätsdiagrammes ein Petrinetz Teil wird.
+
+0:13:03.330,0:13:04.710
+Da wurde das zu einer Stelle.
+
+0:13:04.710,0:13:08.700
+Und dann kann eben nicht von dieser Stelle
+zu dieser Stelle direkt eine Verbindung sein.
+
+0:13:08.700,0:13:11.250
+Dazwischen muss in Petrinetz letztlich hier
+
+0:13:11.250,0:13:14.910
+irgendwo hingemalt sozusagen
+eine Hilfstransition stehen.
+
+0:13:14.910,0:13:19.620
+Und es wäre dann eben diese
+hier in dem konkreten Beispiel.
+
+0:13:19.620,0:13:32.400
+O.k., dann haben wir was noch?
+
+0:13:32.400,0:13:38.430
+Einige Anmerkungen möchte
+ich machen an dieser Stelle.
+
+0:13:38.430,0:13:41.070
+Das hatte ich jetzt schon
+mehrfach genaugenommen gesagt.
+
+0:13:41.070,0:13:46.230
+Nämlich dieser Grund, wesentlicher Grund,
+für diese Einführung von Hilfsstellen und
+
+0:13:46.230,0:13:51.540
+Hilfstransition ist einfach, dass am Ende ja ein
+strukturell korrektes Petrinetz herauskommen soll.
+
+0:13:51.540,0:13:55.410
+Bei dem eben Stellen und Transitionen
+abwechselnd auftreten und dafür muss
+
+0:13:55.410,0:13:58.230
+man gegebenenfalls weitere Element hinzufügen,
+
+0:13:58.230,0:14:03.960
+die in dem Aktivitätsdiagramm gar nicht sichtbar
+waren, weil da andere Elemente drin vorkommen.
+
+0:14:03.960,0:14:08.760
+O.k. das hatte ich auch gerade schon angedeutet.
+
+0:14:08.760,0:14:12.990
+Also das, was da gerade in diesen eckigen
+Klammern stand: "angenommen", "nicht angenommen".
+
+0:14:12.990,0:14:18.630
+Also letztlich die Steuerung
+an der Verzweigung in welche
+
+0:14:18.630,0:14:20.430
+Richtung denn der Kontroll-
+oder Objektfluss gehen soll.
+
+0:14:20.430,0:14:22.500
+Die sogenannten "Guards",
+
+0:14:22.500,0:14:29.670
+die nehmen natürlich irgendwie Bezug
+auf Wissen aus der Anwendungsdomäne.
+
+0:14:29.670,0:14:35.070
+Die werden jetzt in dem Aktivitätsdiagramm
+nicht stärker beschrieben.
+
+0:14:35.070,0:14:36.510
+Also, die sollten sich logisch nicht überlappen.
+
+0:14:36.510,0:14:38.640
+Also es macht Sinn sowas, wie
+"angenommen", "nicht angenommen" zu haben.
+
+0:14:38.640,0:14:41.760
+Weil das genau gegenteilige Aussagen sind,
+
+0:14:41.760,0:14:44.100
+die also weder sich überlappen
+noch irgendetwas vergessen.
+
+0:14:45.420,0:14:48.180
+Es soll natürlich an so ein Knoten immer eindeutig
+
+0:14:48.180,0:14:52.440
+möglich sein den nächsten/den
+passenden Ausgang zu wählen.
+
+0:14:54.810,0:14:59.070
+Aber das ist nicht mehr Teil
+des Aktivitätsdiagrammes,
+
+0:14:59.070,0:15:04.920
+das näher auszuführen, wie
+das irgendwie bestimmt wird.
+
+0:15:04.920,0:15:10.200
+Wenn es zum Beispiel Objekte sind, die
+durch das Aktivitätsdiagramm sich bewegen.
+
+0:15:10.200,0:15:12.930
+Objektfluss könnte man sich
+vorstellen, dass das Bedingungen sind,
+
+0:15:12.930,0:15:17.250
+die dann tatsächlich auf Attribute
+von diesen Objekten Bezug nehmen.
+
+0:15:17.250,0:15:18.750
+Vielleicht irgendwelche
+booleschen Bedingungen überprüfen.
+
+0:15:18.750,0:15:20.880
+Aber das werden wir so detailliert nicht machen,
+
+0:15:20.880,0:15:25.470
+weil es uns mehr um die strukturellen
+Eigenschaften von Aktivitätsdiagramm geht
+
+0:15:25.470,0:15:28.560
+und nicht um jetzt eine konkrete
+Anbindung an Softwaresystem.
+
+0:15:28.560,0:15:35.190
+In normalen Petrinetzen geben wir
+solche Bedingungen ja auch nicht an,
+
+0:15:35.190,0:15:38.220
+weil das außerhalb der
+Semantik von Petrinetzen wäre.
+
+0:15:42.150,0:15:46.830
+O.k., und das wäre noch relevant,
+wenn wir vielleicht auch quantitativ
+
+0:15:46.830,0:15:52.170
+solche Abflussabläufe betrachten
+wollten, solche Kontrollflüsse.
+
+0:15:52.170,0:15:54.690
+Also die Aktion, hatte ich
+gesagt, das sind Tätigkeiten,
+
+0:15:54.690,0:15:57.690
+die haben einen Zeitaufwand
+von diesen Kontrollelementen.
+
+0:15:57.690,0:16:00.150
+Also entweder die Verteilungsknoten
+oder auch gleich weitere noch gesehenen,
+
+0:16:00.150,0:16:03.240
+von denen nimmt man an, dass
+sie einfach sofort passieren.
+
+0:16:03.240,0:16:06.060
+Die sind nur dafür da irgendwie die
+Richtung zu beeinflussen und dadurch
+
+0:16:06.060,0:16:09.030
+Dinge bewegen in der der Fluss stattfindet.
+
+0:16:09.030,0:16:13.800
+Die haben selbst keine, das sind keine
+sinnvollen Aktionen/Tätigkeiten/Verben,
+
+0:16:13.800,0:16:18.390
+die irgendwie als Schritte
+extra Zeitaufwand benötigen.
+
+0:16:18.390,0:16:22.140
+Das wäre ja relevante, wenn
+man so ein Aktivitätsdiagramm
+
+0:16:22.140,0:16:24.690
+nutzen wollte um quantitative Aussagen treffen.
+
+0:16:24.690,0:16:26.520
+Das werden wir aber auch nicht tun.
+
+0:16:26.520,0:16:31.350
+O.k. besprechen wir noch weitere Elemente.
+
+0:16:31.350,0:16:34.650
+Wir hatten noch ein Element,
+das waren die Verbindungsknoten.
+
+0:16:35.610,0:16:38.190
+Die waren auch so dargestellt,
+mit diesem Diamanten.
+
+0:16:38.190,0:16:43.380
+Aber im Gegensatz zu den Verzweigungsknoten,
+den "decision nodes", sind das eben Stellen,
+
+0:16:43.380,0:16:47.370
+an denen mehrere Flüsse zusammenkommen
+oder alternative Flüsse zusammenkommen.
+
+0:16:47.370,0:16:49.140
+Also hier gibt es zwei Eingänge und einen Ausgang.
+
+0:16:49.140,0:16:53.760
+Die führen also alternative
+Kontroll- oder Objektflüsse zusammen.
+
+0:16:53.760,0:16:57.150
+Im Petrinetz wären das
+wieder einfach Hilfsstellen.
+
+0:16:57.150,0:17:03.780
+Hier ist es ja auch so, dass wenn ich eine
+Stelle habe und es gibt aus zwei verschiedenen
+
+0:17:03.780,0:17:06.990
+Richtungen von Transitionen jeweils einen
+Pfeil dahin, dann kann es eben sein,
+
+0:17:06.990,0:17:10.980
+dass in diesem Fall von links ein Token
+kommt oder von rechts ein Token kommt.
+
+0:17:10.980,0:17:12.840
+In beiden Fällen gäbe es hinterher hier ein Token,
+
+0:17:12.840,0:17:18.450
+das danach weitergegeben werden könnte an
+folgende Transitionen, die hier stehen.
+
+0:17:18.450,0:17:23.760
+Das würde also zum Zusammenführen so
+eines Flusses, von hier oder von hier,
+
+0:17:23.760,0:17:33.630
+für Weiter-/Fortführung dann in
+diesem Teil des Petrinetzes dienen.
+
+0:17:33.630,0:17:40.870
+O.k. natürlich in der Nachbedingung
+verschiedener Transition.
+
+0:17:41.410,0:17:44.470
+Gegebenenfalls können hier natürlich auch
+links und rechts Hilfstransitionen stehen.
+
+0:17:44.470,0:17:49.900
+Je nachdem, was denn hier in dem
+Aktivitätsdiagramm an diesen beiden Pfeilenden
+
+0:17:49.900,0:17:57.820
+passierte oder Stellen/Position von denen aus,
+diese Pfeile ausgehen in dem Aktivitätsdiagramm.
+
+0:17:57.820,0:18:05.590
+O.k. es gibt nicht nur genau
+Verzweigungs- oder Verbindungsknoten.
+
+0:18:05.590,0:18:09.520
+Es gibt auch sozusagen den gemeinsamen Fall,
+wo wir so ein Diamant haben, in den vielleicht
+
+0:18:09.520,0:18:12.055
+zum Beispiel zwei Eingänge
+und zwei Ausgänge vorkommen.
+
+0:18:12.055,0:18:13.210
+Ja das ist auch legal.
+
+0:18:13.210,0:18:16.480
+Das kann auch passieren, kann auch auftreten.
+
+0:18:16.480,0:18:18.670
+Und auch das wird übersetzt
+einfach durch eine Stelle,
+
+0:18:18.670,0:18:22.480
+die dann eben vielleicht in
+der Nachbedingung mehrere
+
+0:18:22.480,0:18:26.290
+Transitionen und gleichzeitig auch in der
+Vorbedingung mehrere Transitionen gibt.
+
+0:18:27.160,0:18:31.960
+Also, zum Beispiel eine Stelle, die es hier
+von oben und von links eingehende Pfeile gibt.
+
+0:18:31.960,0:18:34.660
+Und zum Beispiel nach rechts und
+nach unten ausgehende Pfeile.
+
+0:18:35.260,0:18:39.610
+Das passt also auch mit den
+Elementen, die es in Petrinetzen gibt.
+
+0:18:39.610,0:18:47.440
+O.k., was hatten wir noch im Aktivitätsdiagramm?
+
+0:18:47.440,0:18:54.370
+Nun wir hatten noch diese beiden grafischen
+Elemente, zu denen ich noch nichts gesagt habe.
+
+0:18:54.370,0:18:57.010
+Ja alles anderen, was wir hier sehen,
+haben wir jetzt schon abgearbeitet.
+
+0:18:57.010,0:18:59.950
+Ja gut, bis auch auf den Start und das Ende.
+
+0:18:59.950,0:19:01.960
+Das sind die Dinge, die wir
+noch beschreiben müssen.
+
+0:19:01.960,0:19:09.910
+O.k. als erstes davon kommt die Gabelung
+oder auch Parallelisierungsknoten.
+
+0:19:09.910,0:19:16.810
+Das war genau der Moment/die Stelle/die
+Position im Aktivitätsdiagramm, wo so ein
+
+0:19:16.810,0:19:21.970
+Fluss sich aufspaltete, in dem Beispiel,
+das ist ja live durchgeführt hatte.
+
+0:19:21.970,0:19:24.430
+Wo ich die Token durch das
+Netz hatte wandern lassen.
+
+0:19:24.430,0:19:30.280
+Also das ist eine Stelle, an der ein
+Kontroll- oder Objektfluss in mehrere
+
+0:19:30.280,0:19:33.490
+parallelen Flüsse aufgeteilt
+wird, parallel, nebenläufig.
+
+0:19:33.490,0:19:36.250
+Wie kann man das?
+
+0:19:36.250,0:19:38.290
+Was entspricht dem in einem Petrinetz?
+
+0:19:38.290,0:19:42.280
+Nun eine Transition mit mehreren Ausgängen.
+
+0:19:42.280,0:19:47.710
+Also stellen wir uns vor, hier
+gibt es eine Marke, die kommt.
+
+0:19:47.710,0:19:53.220
+Und die soll hier zu zwei verschiedenen
+Flüssen werden, dann kann das realisiert
+
+0:19:53.220,0:19:57.990
+werden durch eine Transition, die diese eine
+Marke konsumiert, aber zwei Marken ausgibt.
+
+0:19:57.990,0:19:59.010
+Das würde dazu führen, dass danach,
+
+0:19:59.010,0:20:03.690
+was auch immer hier unten noch an Teilen
+kommt, dass sie beide schalten können.
+
+0:20:03.690,0:20:08.970
+Die Transitionen, die hier drin vorkommen, weil
+sowohl hier als auch hier eine Marke liegt.
+
+0:20:08.970,0:20:13.950
+Also aus Gabelungen im Aktivitätsdiagramm
+
+0:20:13.950,0:20:19.290
+werden Transitionen im Petrinetz mit
+mehreren Stellen in der Nachbedingung.
+
+0:20:19.290,0:20:20.790
+Natürlich können das auch Hilfsstellen sein.
+
+0:20:20.790,0:20:25.380
+Das kommt wieder darauf an, was denn hier
+noch an Aktivitätsdiagramm-Teilen kommt.
+
+0:20:25.380,0:20:29.550
+Vielleicht steht hier direkt ein Aktionsknoten,
+dann wäre das hier eine Transition.
+
+0:20:29.550,0:20:32.070
+Aber wir können nicht von Transitionen
+direkt zu Transition schalten,
+
+0:20:32.070,0:20:35.430
+dann haben wir hier eben eine Hilfsstelle
+und erst danach kommt die Transition,
+
+0:20:35.430,0:20:39.495
+die dem Aktionsknoten entspricht, der hier
+vielleicht auf der linken Seite auftrat.
+
+0:20:39.495,0:20:42.690
+Und das gleiche könnte hier
+im rechten Fluss passieren.
+
+0:20:42.690,0:20:48.810
+O.k., das sind wieder solche unbenannte
+Transition, die kriegen keinen Namen.
+
+0:20:48.810,0:20:54.105
+Wir können hier Gabelung dranschreiben, aber im
+Aktivitätsdiagramm haben die ja auch keinen Namen.
+
+0:20:54.105,0:20:58.320
+Da haben die Aktionen Namen, die dann
+zu benannten Transitionen werden.
+
+0:20:58.320,0:21:07.470
+O.k., und jetzt, wie bei den
+Verzweigungs- und Zusammenführungsknoten/
+
+0:21:07.470,0:21:12.420
+Verzweigungs- und Verbindungsknoten gibt es auch
+hier zu diesem Element sozusagen ein Gegenstück.
+
+0:21:12.420,0:21:19.350
+Also zur Gabelung gehört dual die Vereinigung
+oder Synchronisationsknoten, wo eben solche
+
+0:21:19.350,0:21:21.870
+zwei Flüsse, die hier entstanden
+sind, wieder zusammengeführt werden.
+
+0:21:21.870,0:21:31.470
+Also Vereinigungen oder "join node" das wäre, wo
+mehrere parallele Flüsse zusammengeführt werden.
+
+0:21:31.470,0:21:33.240
+Was heißt das im Petrinetz?
+
+0:21:33.240,0:21:35.640
+Und im Petrinetz heißt das,
+dass wir solche zwei Token,
+
+0:21:35.640,0:21:41.280
+die in so einer Situation entstanden
+sind, wieder verschmelzen müssen.
+
+0:21:41.280,0:21:42.060
+Und wie können wir das tun?
+
+0:21:42.060,0:21:47.040
+Ja mit einer Transition, die zwei Stellen in
+der Vorbedingung statt in der Nachbedingung hat.
+
+0:21:47.040,0:21:55.830
+Also diese Art Darstellung im Aktivitätsdiagramm
+entspräche so einer Situation in einem Petrinetz.
+
+0:21:55.830,0:22:04.290
+Eine Transition, die aus zwei getrennten Flüssen
+jeweils die Token konsumiert und zusammenführt.
+
+0:22:04.290,0:22:06.480
+In dem Sinne, dass sie nur
+noch einen Token ausgibt.
+
+0:22:06.480,0:22:12.330
+Und auch hier kann es wieder sein, dass das nicht
+unbedingt zum Beispiel Objektknoten-Stellen sind.
+
+0:22:12.330,0:22:16.560
+Sondern einfach Hilfsstellen, die vielleicht
+nötig sind, weil hier drüber direkt ein
+
+0:22:16.560,0:22:24.810
+Aktionsknoten im Aktivitätsdiagramm steht,
+der einer Transition im Petrinetz entspricht.
+
+0:22:24.810,0:22:26.190
+Und dann gibt es eben noch eine Hilfsstelle,
+
+0:22:26.190,0:22:30.180
+die dann von dieser Transition zu dieser
+Vereinigungstransitionen vermittelt.
+
+0:22:30.180,0:22:32.730
+Auch das werden wir gleich in dem Beispiel sehen.
+
+0:22:32.730,0:22:34.410
+Da taucht sowas ja genau auf.
+
+0:22:34.410,0:22:40.950
+Also in unserem Beispiel Aktivitätsdiagramm war
+das ja so, dass hieraus einer Transition wird.
+
+0:22:40.950,0:22:45.060
+Hieraus auch eine Transition wird,
+weil das eben mit Aktionen und
+
+0:22:45.060,0:22:49.590
+Synchronisationsknoten/Vereinigungsknoten
+in Aktivitätsdiagramm so ist.
+
+0:22:49.590,0:22:52.650
+Dann muss eben dazwischen hier
+noch eine Hilfsstelle geben.
+
+0:22:52.650,0:23:00.660
+O.k., und wie bei den Verbindungs-
+und Verzweigungsknoten, kann es
+
+0:23:00.660,0:23:03.000
+auch bei den Vereinigungen und Gabelungen so sein,
+
+0:23:03.000,0:23:06.300
+dass es zum Beispiel sozusagen beide
+Charakteristika gleichzeitig haben.
+
+0:23:06.300,0:23:10.230
+Also ein Balken muss nicht unbedingt ein
+Eingang, mehrere Ausgänge oder mehrere
+
+0:23:10.770,0:23:16.170
+Ein- und Ausgänge haben, da könnte auch mehrere
+Eingänge oben und mehrere Ausgänge unten haben.
+
+0:23:16.170,0:23:18.210
+Das würde dann auch mit so
+einem Balken dargestellt,
+
+0:23:18.210,0:23:23.580
+aber oftmals ist es tatsächlich so, dass es
+genau eine Gabelung oder Vereinigung ist.
+
+0:23:23.580,0:23:28.560
+Also wirklich Aufspalten oder
+Zusammenführen, nicht eine Mischung davon.
+
+0:23:28.560,0:23:36.600
+O.k. natürlich ist so eine
+gewisse Disziplin sinnvoll.
+
+0:23:36.600,0:23:41.520
+Also oftmals wird es so sein,
+dass Vereinigung dann auftreten,
+
+0:23:41.520,0:23:43.440
+wenn es vorher auch Gabelungsknoten gab.
+
+0:23:43.440,0:23:48.030
+Also, dass ist jetzt in dem Beispiel
+auch kein Zufall das sozusagen dieser
+
+0:23:48.030,0:23:50.730
+und dieser Balken irgendwie zusammengehören.
+
+0:23:50.730,0:23:54.900
+Also dieser Balken konsumiert
+genau die aufgespalten Flüsse,
+
+0:23:54.900,0:23:57.090
+die hier oben entstanden sind.
+
+0:23:57.090,0:24:02.580
+Irgendwie eine Disziplin, dass wenn
+irgendwo eine Aufspaltung stattfindet,
+
+0:24:02.580,0:24:05.280
+hinterher auch wieder eine
+Zusammenführung stattfindet.
+
+0:24:05.280,0:24:10.530
+Das legen die Aktivitätsdiagramm nicht
+per se fest, dass es immer sein muss.
+
+0:24:10.530,0:24:16.860
+Aber im Beispiel wird das oft so sein, dass das
+so eine Entsprechung von diesen Knoten gibt.
+
+0:24:16.860,0:24:25.650
+O.k., und dann fehlt noch aus
+dem Beispiel-Aktivitätsdiagramm
+
+0:24:25.650,0:24:29.940
+die speziellen Knoten für den Start
+und für das Ende der Bearbeitung.
+
+0:24:29.940,0:24:31.410
+Das eine zum Start.
+
+0:24:31.410,0:24:37.500
+Das war dieser ausgefüllte Kreis,
+der keine eingehende Kante.
+
+0:24:37.500,0:24:38.580
+Das durfte der auch nicht.
+
+0:24:38.580,0:24:43.470
+Also dieser Startknoten darf keine eingehenden
+Kanten haben, aber mehrere ausgehende Kanten.
+
+0:24:43.470,0:24:46.890
+Und was entspricht dem in einem Petrinetz?
+
+0:24:46.890,0:24:51.420
+Nun einfach eine Stelle, die initial belegt ist.
+
+0:24:51.420,0:24:54.060
+Also eine Stelle, auf der
+am Anfang ein Token liegt,
+
+0:24:54.060,0:24:57.810
+damit überhaupt ein Kontrollfluss/ein
+Fluss zustande kommen kann.
+
+0:24:57.810,0:25:03.120
+Wie viel Token liegen da?
+
+0:25:03.120,0:25:03.930
+Wie viele Marken liegen da?
+
+0:25:04.440,0:25:07.470
+So viele, wie aus dem Startknoten
+es ausgehende Kanten gibt.
+
+0:25:07.470,0:25:11.445
+Also es könnte sein, das aus einem Startknoten
+Aktivitätsdiagramm zwei Kanten ausgehen.
+
+0:25:11.445,0:25:16.080
+Zum Beispiel eine nach rechts und eine nach
+unten, dann müsste es in dem übersetzten
+
+0:25:16.080,0:25:20.430
+Petrinetz auf dieser entsprechenden
+Startstelle zwei Marken geben.
+
+0:25:20.430,0:25:23.250
+Damit eine sozusagen den Fluss
+nach rechts in Gang bringen kann.
+
+0:25:23.250,0:25:25.980
+Also Transition schalten kann,
+die hier rechts stehen würden,
+
+0:25:25.980,0:25:29.010
+entsprechend irgendwelche
+Aktionsknoten, die hier eben stehen.
+
+0:25:29.010,0:25:32.370
+Wenn es hier noch einen zweiten Ausgang gibt
+mit weiteren Aktionen hier unten vielleicht,
+
+0:25:32.370,0:25:34.740
+dann müsste es eben hier das zweite Token geben,
+
+0:25:34.740,0:25:40.590
+damit auch die Transition, die hier unten
+übersetzt eingezeichnet werden, schalten kann.
+
+0:25:40.590,0:25:46.230
+Also eine Stelle mit so vielen
+Marken wie aus dem Startknoten
+
+0:25:46.230,0:25:49.080
+des Aktivitätsdiagramm ausgehende Pfeile.
+
+0:25:49.080,0:25:59.100
+O.k., dann gibt es so eine Regel, dass
+diese Kanten nicht zu Objektknoten führen.
+
+0:25:59.100,0:26:05.700
+Also die Intuition ist, dass Objektknoten sollen,
+ja irgendwelche konkreten Artefakte halten,
+
+0:26:05.700,0:26:09.270
+wie dem Plan vorhin, und dem muss
+immer eine Aktion vorausgehen.
+
+0:26:09.270,0:26:14.220
+Also Objekte entstehen nicht
+einfach aus dem Nichts.
+
+0:26:14.220,0:26:18.300
+Die Idee wäre, wenn wir ein Objekt, wie in dem
+Aktivitätsdiagramm zum Hausbau haben wollen,
+
+0:26:18.300,0:26:19.440
+dann würden wir einen Startknoten haben.
+
+0:26:19.440,0:26:27.360
+Der sozusagen setzt eine Aktion in Gang und aus
+dieser Aktion kann dann ein Objekt entstehen,
+
+0:26:27.360,0:26:29.580
+das auf einem Objektknoten abgelegt wird.
+
+0:26:29.580,0:26:31.620
+Aber Direktübergänge von diesen Startknoten
+
+0:26:31.620,0:26:34.890
+zu Objektknoten gibt es nach
+Aktivitätsdiagrammen nicht.
+
+0:26:37.560,0:26:41.550
+Was erlaubt ist, ist das mehrere Startknoten
+in einem Aktivitätsdiagramm gibt.
+
+0:26:42.750,0:26:47.880
+Anders als im flachen Zustandsdiagramm, wo
+es immer ein ausgezeichneten Startknoten gab,
+
+0:26:47.880,0:26:54.150
+gibt es im Aktivitätsdiagramm möglicherweise
+mehrere so dargestellte Startknoten.
+
+0:26:54.150,0:26:56.970
+Und das passt, denn in Petrinetze können wir
+
+0:26:56.970,0:27:01.140
+ja auch am Anfang mehrere Stellen
+haben, die mit Marken belegt sind.
+
+0:27:01.140,0:27:02.520
+Und genau das würde hier passieren.
+
+0:27:02.520,0:27:06.870
+Wenn wir also zwei Startknoten
+haben im Aktivitätsdiagramm, hätte
+
+0:27:06.870,0:27:11.550
+das übersetzte Petrinetz eben auch zwei Stellen,
+in denen mindestens ein Token zu Beginn liegt.
+
+0:27:11.550,0:27:16.470
+Und dann können eben an verschieden Stellen
+Aktionen/Transitionen zu Beginn gleich feuern.
+
+0:27:16.470,0:27:21.660
+O.k., und dann muss es auch
+noch was für das Ende geben.
+
+0:27:22.740,0:27:24.540
+Zum Start gehört auch ein Ende.
+
+0:27:24.540,0:27:29.430
+Tatsächlich gibt es da zwei verschiedene
+Ausprägungen in Aktivitätsdiagramm.
+
+0:27:29.430,0:27:30.750
+Nur eine davon hatten wir bisher gesehen.
+
+0:27:30.750,0:27:33.840
+Also in dem Beispiel tauchte dieses Element auf.
+
+0:27:33.840,0:27:35.850
+Das sogenannte Aktivitätsende.
+
+0:27:35.850,0:27:38.340
+Das soll tatsächlich, wenn es denn erreicht,
+
+0:27:38.340,0:27:43.860
+wird durch einen Fluss sozusagen
+die Aktivität vollständig beenden.
+
+0:27:43.860,0:27:49.380
+Also alle Kontroll- und Objektflüsse, die in dem
+Aktivitätsdiagramm noch im Gange sind, sozusagen,
+
+0:27:50.280,0:27:55.530
+würden sofort beendet werden, wenn eines
+dieser Aktivitätsende-Elemente erreicht wird.
+
+0:27:55.530,0:27:58.350
+Dafür gibt es keine direkte
+Entsprechung in Petrinetzen.
+
+0:27:58.350,0:28:01.710
+In Petrinetzen kann man nicht irgendwo
+beschreiben, wenn diese Stelle erreicht
+
+0:28:01.710,0:28:06.690
+wird, dann verschwinden auf einmal alle
+Token/alle Marken im gesamten Petrinetz.
+
+0:28:12.420,0:28:12.821
+Im Petrinetz ist immer alles nur lokal.
+
+0:28:12.821,0:28:19.050
+Was in Petrinetzen eher passiert, ist das, was
+dem Flussende in Aktivitätsdiagramm entspricht.
+
+0:28:19.050,0:28:23.970
+Nämlich das frisst sozusagen nur den
+in es hineinlaufenden Kontrollfluss.
+
+0:28:23.970,0:28:30.900
+Das entspräche einer Transition, die
+nur eingehende aber keine ausgehen kann.
+
+0:28:30.900,0:28:34.710
+Die frisst also Token, die hineinlaufend,
+und gibt nichts weiter aus.
+
+0:28:34.710,0:28:38.760
+Also, die frisst eben auch nur
+lokal die Token an dieser Stelle
+
+0:28:38.760,0:28:44.760
+und nicht irgendwie alle Token, die
+im gesamten Aktivitätsdiagramm bzw.
+
+0:28:44.760,0:28:45.690
+Petrinetz unterwegs.
+
+0:28:45.690,0:28:50.910
+Das kommt immer auf das konkrete Beispiel an,
+
+0:28:50.910,0:28:54.960
+ob es überhaupt einen Unterschied zwischen
+diesen beiden möglichen Enden gibt.
+
+0:28:54.960,0:29:00.570
+Also in dem Beispiel, was ich hier hatte, hatte
+ich zwar dieses Aktivitätsende benutzt als Symbol.
+
+0:29:00.570,0:29:02.430
+Ich hätte auch das Flussende nehmen können,
+
+0:29:02.430,0:29:08.460
+denn hier in dem Beispiel ist es sowieso
+so, dass nur ein Token unterwegs ist.
+
+0:29:08.460,0:29:10.440
+Also es wird hier mal aufgespalten,
+aber wieder davor verknüpft.
+
+0:29:10.440,0:29:18.420
+D.h., wenn irgendwie ein Token hier unten ankommt,
+dann kann auch im gesamten restlichen Petrinetz,
+
+0:29:18.420,0:29:22.230
+Aktivitätsdiagramm/Petrinetz, nicht
+noch irgendwo ein Token unterwegs sein.
+
+0:29:22.230,0:29:24.930
+Also das ist eh das einzige
+Token was hier noch unterwegs
+
+0:29:24.930,0:29:32.580
+ist und wenn das gefressen wird, ist
+die Bearbeitung insgesamt zu Ende.
+
+0:29:32.580,0:29:35.370
+In komplizierteren Situationen,
+
+0:29:35.370,0:29:40.260
+wo gleich es mehr Startknoten gab und
+deswegen mehrere Token unterwegs sind,
+
+0:29:40.260,0:29:44.571
+könnte es einen Unterschied machen, ob ich
+dieses Aktivitätsende oder Flussende habe.
+
+0:29:44.571,0:29:48.870
+Aber wir werden darauf achten in Aufgaben, die Sie
+kriegen, dass das nicht Ihnen auf die Füße fällt.
+
+0:29:48.870,0:29:53.190
+Und irgendwie der Unterschied
+Ihnen Probleme bereitet.
+
+0:29:55.170,0:29:56.670
+Also in Beispielen, die wir betrachten werden,
+
+0:29:56.670,0:30:01.950
+ist es immer eindeutig umsetzbar,
+wie man das Ende beschreibt.
+
+0:30:01.950,0:30:09.030
+Ausgehende Kanten sind aus weder dem
+Aktivitätsende noch dem Flussende erlaubt,
+
+0:30:09.030,0:30:11.820
+weil es ja gerade eben Positionen sein sollen,
+
+0:30:11.820,0:30:14.820
+wo ein Fluss endet und nicht
+irgendwie noch etwas weiter geht.
+
+0:30:14.820,0:30:20.940
+O.k., wie wir das umsetzen,
+
+0:30:20.940,0:30:25.830
+können wir direkt gleich mal in dem Beispiel
+Petrinetz sehen, für das Hausbau Beispiel.
+
+0:30:25.830,0:30:32.310
+Also das war unser Hausbau Aktivitätsdiagramm.
+
+0:30:32.310,0:30:36.450
+Und wir haben jetzt tatsächlich für alle darin
+vorkommenden Elemente prinzipiell gesehen,
+
+0:30:36.450,0:30:42.690
+wie die in Petrinetz Bestandteile übersetzt werden
+können, bis auf diese etwas schwammige Ende.
+
+0:30:42.690,0:30:46.380
+Da hatte ich nur angedeutet grade,
+das wird in der Regel irgendwie sein.
+
+0:30:46.380,0:30:50.400
+Entweder eine Stelle, in der ein Token zwar
+landet, aber dann von da aus es nicht weitergeht.
+
+0:30:50.400,0:30:53.910
+Oder eine Transition, die ein
+Token frisst und nichts ausgibt.
+
+0:30:53.910,0:30:59.040
+Und tatsächlich können wir das, was
+ich auf den Zwischenfolien jetzt
+
+0:30:59.040,0:31:03.390
+für einzelne Auszüge/einzelne Teile
+des Aktivitätsdiagramm getan hatte.
+
+0:31:03.390,0:31:09.780
+Insgesamt zusammen basteln und dann ein Petrinetz
+erhalten, was den gleichen Zusammenhang/das
+
+0:31:09.780,0:31:14.250
+gleiche Verhalten beschreibt, wie durch dieses
+Aktivitätsdiagramm dargestellt werden sollte.
+
+0:31:14.250,0:31:19.230
+Das wäre im Wesentlichen einfach ein
+zusammenbasteln der Bestandteile,
+
+0:31:19.230,0:31:23.430
+die wir jetzt für einzelne Auszüge
+auf den ganzen Folien gesehen haben.
+
+0:31:23.430,0:31:29.100
+Und wenn wir das tun, entsteht dieses Petrinetz.
+
+0:31:30.360,0:31:34.680
+Das hat schon eine sehr ähnliche
+Form zu dem Aktivitätsdiagramm.
+
+0:31:34.680,0:31:37.710
+Und tatsächlich kann man jetzt
+hier den einzelnen Bestandteilen
+
+0:31:38.400,0:31:45.210
+des Aktivitätsdiagramm jeweils entsprechende
+Stellen und Transitionen im Petrinetz zuordnen.
+
+0:31:45.210,0:31:48.180
+Ja, das ist hier der Beginn der
+Startknoten: eine Stelle mit einem Token.
+
+0:31:48.180,0:31:55.110
+Dann sehen wir hier die einzelnen Transitionen,
+welche den Aktionen hier entsprechen.
+
+0:31:55.110,0:31:58.920
+Wir sehen, etwa an der Stelle hatten wir auch
+motiviert, dass wir dazwischen eine Hilfsstelle
+
+0:31:58.920,0:32:03.510
+brauchen, weil wir nicht direkt von Aktion zu
+Aktion/von Transition zu Transition gehen können.
+
+0:32:03.510,0:32:08.890
+Das entspricht dann also dieser Hilfsstelle
+und auch die anderen Teile hier sind
+
+0:32:08.890,0:32:15.640
+alle motiviert dadurch, wie wir einzelne
+Aktivitätsdiagrammelemente übersetzen wollten.
+
+0:32:15.640,0:32:17.950
+Also das wurde eine Stelle, das wurde eine Stelle,
+
+0:32:19.480,0:32:24.700
+daraus wurde eine Transition mit zwei
+ausgehenden Pfeilen zu Aktionsknoten.
+
+0:32:24.700,0:32:27.610
+Da das Transitionen sind, kann
+da keine direkte Verbindung sein.
+
+0:32:27.610,0:32:32.710
+Sondern es muss eine Hilfsstelle eingeführt
+werden und genau das sehen wir hier.
+
+0:32:32.710,0:32:34.630
+Also das entspräche dem Gabelungsknoten.
+
+0:32:34.630,0:32:37.240
+Das entspricht dem, diese beiden Transitionen
+
+0:32:37.240,0:32:40.570
+entsprechen den beiden Aktionen in
+diesen beiden nebenläufigen Pfaden.
+
+0:32:40.570,0:32:43.060
+Und dazwischen muss dann
+eben eine Hilfsstelle sein.
+
+0:32:43.060,0:32:47.620
+Und so gibt es einen eindeutigen Weg von dem
+
+0:32:47.620,0:32:50.740
+gesehenen Aktivitätsdiagramm
+zu einem Petrinetz zu kommen.
+
+0:32:50.740,0:32:55.030
+Und wir sehen auch das Ende habe ich hier
+umgesetzt, in dem einfach hier die letzte Aktion,
+
+0:32:55.030,0:33:00.220
+diese Transitionen, eine solche
+verschluckte Transitionen ist,
+
+0:33:00.220,0:33:10.760
+die eben dem entspricht das nach dem
+Haus fertigstellen nichts mehr passiert.
+
+0:33:10.760,0:33:13.610
+Dieses Flussende hier, dieses Aktivitätsende
+habe ich einfach dadurch realisiert,
+
+0:33:13.610,0:33:19.520
+dass die Transition, die ich hierfür eingeführt
+habe, für diese Aktion keine Ausgabe mehr hat.
+
+0:33:19.520,0:33:24.650
+Das ist dann eben hier dargestellt.
+
+0:33:24.650,0:33:31.606
+O.k., die meisten Stellen hier
+sind wirklich solche Hilfsstellen.
+
+0:33:31.606,0:33:33.500
+Sie sehen hier die benannten
+Elemente sind Elemente,
+
+0:33:33.500,0:33:35.270
+die auch im Aktivitätsdiagramm auftraten.
+
+0:33:35.270,0:33:38.000
+Insbesondere diese Stelle, die
+einem Objektknoten entspricht.
+
+0:33:38.000,0:33:40.550
+Die meisten anderen Stellen sind Hilfsstellen,
+
+0:33:40.550,0:33:43.850
+die eingeführt wurden, damit das
+ein legales Petrinetz ergibt.
+
+0:33:43.850,0:33:48.050
+Es gibt im konkreten Fall
+nur eine Hilfstransitionen.
+
+0:33:48.050,0:33:53.840
+Das ist diese hier, die nötig war, damit ich
+von dieser Stelle zu dieser Stelle kommen kann.
+
+0:33:53.840,0:33:59.000
+Was ja im Aktivitätsdiagramm diesen
+
+0:33:59.000,0:34:02.840
+beiden Elementen entsprach, wo es
+dazwischen eben nichts weiter gibt.
+
+0:34:02.840,0:34:06.380
+Aber ich nicht von Stelle zu Stelle
+direkt gehen darf im Petrinetz.
+
+0:34:06.380,0:34:15.820
+O.k., und tatsächlich alles, was wir
+intuitiv an dem Aktivitätsdiagramm
+
+0:34:15.820,0:34:23.020
+an möglichen Schrittfolgen gesehen haben, das
+wären genau alle gültigen Transitionsabfolgen,
+
+0:34:23.020,0:34:26.800
+die gültiges Schalten in
+diesem Petrinetz darstellen.
+
+0:34:26.800,0:34:29.740
+Sofern modelliert dieses
+Petrinetz genau das gleiche,
+
+0:34:29.740,0:34:32.350
+wie das ursprünglich gesehene Aktivitätsdiagramm.
+
+0:34:32.350,0:34:36.760
+Und das ist ein generelles Rezept, wie man aus
+Aktivitätsdiagrammen Petrinetze erhalten kann.
+
+0:34:36.760,0:34:41.410
+Solange nur Elemente vorkommen, die
+wir besprochen haben, natürlich.
+
+0:34:41.410,0:34:47.350
+O.k., in der Tat gibt es in
+Aktivitätsdiagrammen noch weitaus
+
+0:34:47.350,0:34:50.710
+mehr Darstellungsmöglichkeiten,
+die wir nicht alle einführen.
+
+0:34:50.710,0:34:52.900
+Ich werde einige jetzt noch
+ansprechen und erwähnen.
+
+0:34:52.900,0:35:00.220
+Für die werde ich aber nicht jeweils immer
+eine volle Übersetzung angeben in Petrinetzen.
+
+0:35:00.220,0:35:05.920
+Sie müssen dann natürlich auch in Übung
+oder Klausur nur Aktivitätsdiagramme in
+
+0:35:05.920,0:35:09.430
+Petrinetze übersetzen können, für die wir
+auch tatsächlich das diskutiert haben.
+
+0:35:09.430,0:35:13.030
+Also für die Elemente, die darin
+vorkommen, für die ich hier Folien hatte.
+
+0:35:13.030,0:35:16.150
+Aber was wären noch zusätzliche
+Ausdrucksmöglichkeiten?
+
+0:35:16.150,0:35:21.730
+Nun in Aktivitätsdiagrammen in UML gibt
+es einerseits noch weitere Anleihen aus
+
+0:35:21.730,0:35:25.570
+Petrinetzen andererseits eben einfach eigene
+Syntax/ eigene Darstellungsmöglichkeiten.
+
+0:35:25.570,0:35:31.360
+Zum Beispiel kann man an Objektknoten angeben,
+wie viele Objekte da maximal liegen dürfen.
+
+0:35:31.360,0:35:35.020
+Und das ist natürlich etwas, was in
+Petrinetzen der Kapazität entspricht.
+
+0:35:35.020,0:35:40.510
+Ja also diese Notation 6 hier in einem
+Petrinetz mit Kapazität entspricht eben
+
+0:35:40.510,0:35:44.170
+auch der Information, dass hier nie
+mehr als sechs Marken liegen können.
+
+0:35:44.170,0:35:45.880
+Und das würde eben im Aktivitätsdiagramm
+
+0:35:45.880,0:35:49.360
+so dargestellt, dass man hier
+so eine obere Schranke angibt.
+
+0:35:49.360,0:35:53.770
+O.k. also eine quantitative
+Aussage an einem Objektknoten.
+
+0:35:53.770,0:35:59.620
+Es gibt auch quantitative Aussagen an den
+Übergängen, da kann ein Gewicht dran stehen.
+
+0:35:59.620,0:36:04.420
+Und das entspricht dann genau dem
+Gewichtsbegriff auch in einem Petrinetz.
+
+0:36:04.420,0:36:08.380
+Ja also "upperBound" würde hier sagen,
+
+0:36:08.380,0:36:14.020
+es können maximal gleich sechs Gerichte
+gleichzeitig hier als Reservoir vorliegen.
+
+0:36:14.020,0:36:18.400
+Und das Gewicht würde sagen, es werden
+immer gleichzeitig zwei Gerichte serviert.
+
+0:36:18.400,0:36:20.470
+Im Petrinetz:
+
+0:36:20.470,0:36:21.970
+Diese Stelle hat die Kapazität 6.
+
+0:36:21.970,0:36:25.720
+Und diese Verknüpfung/die
+Verbindung hat Gewicht zwei.
+
+0:36:28.120,0:36:30.280
+Das kam in dem bisher betrachteten Beispiel nicht
+
+0:36:30.280,0:36:37.540
+vor, aber lässt sich auf Konzepte
+aus Petrinetzen auch übertragen.
+
+0:36:37.540,0:36:40.570
+Insbesondere wenn wir Petrinetze
+mit Kapazität betrachten.
+
+0:36:40.570,0:36:48.250
+O.k., was Aktivitätsdiagramme erlauben,
+was wir in Petrinetzen nicht hatten.
+
+0:36:48.250,0:36:51.340
+War, dass es auch in solchen Situationen,
+
+0:36:51.340,0:36:56.140
+wo hier zum Beispiel mehrere Marken abgelegt
+werden und dann nach und nach entnommen werden,
+
+0:36:56.140,0:37:00.250
+man ja beschreiben kann, in welcher
+Reihenfolge das den passiert.
+
+0:37:00.250,0:37:02.350
+Das macht bei Petrinetzen keinen Sinn.
+
+0:37:02.350,0:37:04.450
+Wenn hier sechs Marken liegen,
+
+0:37:04.450,0:37:08.740
+dann ist mir vollkommen egal welche von den
+sechs Marken als nächstes serviert werden.
+
+0:37:08.740,0:37:14.770
+Hingegen in einer Restaurantanwendung, wo
+hier nach und nach sechs Gerichte abgelegt
+
+0:37:14.770,0:37:17.470
+werden und auch fertig werden,
+ist ja vielleicht schon wichtig,
+
+0:37:17.470,0:37:19.660
+welche von diesen sechs Gerichten
+als nächstes serviert werden.
+
+0:37:19.660,0:37:24.640
+Nämlich möglichst die, die am längsten
+stehen, damit sie nicht noch kälter werden.
+
+0:37:24.640,0:37:27.400
+Ja, da kann man also sozusagen eine
+Reihenfolge von Objekten angeben.
+
+0:37:27.400,0:37:30.460
+Das werden wir aber nicht weiter betrachten.
+
+0:37:30.460,0:37:32.020
+Das sollten Sie nur wissen, dass es möglich ist.
+
+0:37:32.020,0:37:37.420
+Und ich fand das zu wissen, dass es möglich ist,
+aber das werden wir nicht weiter berücksichtigen.
+
+0:37:37.420,0:37:41.110
+Weil wir es auch auf Petrinetz-Seite
+überhaupt nicht getan haben und da auch
+
+0:37:41.110,0:37:44.710
+keinen großen Sinn ergeben würde, weil ja die
+einzelnen Marken gar nicht unterscheidbar sind.
+
+0:37:44.710,0:37:50.740
+Anders als konkrete Objekte in einem konkreten
+Softwaremodellierungskontext vielleicht.
+
+0:37:50.740,0:37:53.890
+O.k. also der Punkt hier ist:
+
+0:37:53.890,0:37:56.500
+Diese Entsprechung, die ist nicht völlig exakt.
+
+0:37:56.500,0:38:00.250
+Ja nicht für alle Konzepte aus Aktivitätsdiagramm
+gibt es eine direkte Übersetzung.
+
+0:38:00.250,0:38:01.600
+Und es liegt natürlich auch daran,
+
+0:38:01.600,0:38:04.210
+dass Aktivitätsdiagramme
+sowieso nur so semi-formal sind.
+
+0:38:04.210,0:38:07.780
+Also es sind gar nicht alle Aspekte
+darin vollständig spezifiziert.
+
+0:38:07.780,0:38:14.995
+In dem gleichen Sinne, wie Petrinetze
+vollständig mathematisch modelliert waren.
+
+0:38:14.995,0:38:19.990
+Aber für große Anteile von Aktivitätsdiagrammen
+kann man ebenso eine Übersetzung durchführen.
+
+0:38:19.990,0:38:25.690
+Und nur solche werden wir dann mit
+Ihnen auch in solchen Aufgaben haben.
+
+0:38:25.690,0:38:30.920
+O.k. was haben wir noch?
+
+0:38:30.920,0:38:31.880
+Aktivitätsbereiche.
+
+0:38:31.880,0:38:41.630
+Das sind einfach sozusagen eine Darstellung,
+die auch im Petrinetzen nicht vorkommt.
+
+0:38:41.630,0:38:45.710
+In Petrinetzen gibt es einfach Stellen,
+Transition und Verbindungen dazwischen.
+
+0:38:45.710,0:38:47.780
+In Aktivitätsdiagrammen markiert man.
+
+0:38:47.780,0:38:51.620
+Unter Umständen sozusagen strukturiert
+man die Diagramme noch weiter.
+
+0:38:51.620,0:38:53.000
+Man gruppiert Elemente.
+
+0:38:53.000,0:38:56.540
+Zum Beispiel hier könnte man sich vorstellen,
+wenn wir dieses Restaurantbeispiel haben.
+
+0:38:56.540,0:38:58.640
+Dann könnte es sozusagen
+zwei Verantwortungsbereiche
+
+0:38:58.640,0:39:02.330
+geben oder vielleicht eine räumliche
+Verteilung: die Küche und den Gastraum.
+
+0:39:02.330,0:39:04.730
+Und dann gibt es zum Beispiel hier Aktionen,
+
+0:39:04.730,0:39:07.880
+die eben vom Gast durchgeführt werden und
+Aktionen, die vom Keller durchgeführt werden.
+
+0:39:07.880,0:39:13.130
+Und dann kann man diese Darstellung mit solch
+einer Zerlegung der Ebenen in mehrere Bereiche,
+
+0:39:13.130,0:39:18.380
+den dann eben diese Elemente zugeordnet
+werden diese verantwortlich ausdrücken.
+
+0:39:18.380,0:39:22.220
+Also die Aktionen, die hier stattfinden
+sind genau "Gericht bestellen",
+
+0:39:22.220,0:39:25.100
+"Bestellung aufnehmen", "Gericht
+servieren", "Gericht verspeisen".
+
+0:39:25.100,0:39:29.810
+Daran ändert diese Darstellung hier nichts,
+aber die macht eben sozusagen für den Leser
+
+0:39:29.810,0:39:34.730
+dieses Diagramms klarer, welche Aktion denn
+von wem durchgeführt werden konzeptionell.
+
+0:39:36.920,0:39:39.080
+Und da gibt's mehrere
+Möglichkeiten, wie das sein kann.
+
+0:39:39.080,0:39:40.280
+Das könnte auch hin und her gehen.
+
+0:39:40.280,0:39:45.080
+Es gibt auch die Möglichkeit, etwa auf
+dieser Grenze Objektknoten anzulegen,
+
+0:39:45.080,0:39:49.820
+wo dann die Intuition ist, dass da
+sozusagen eine Übergabe ausdrückt, wird.
+
+0:39:49.820,0:39:51.980
+Von einem Bereich in den anderen.
+
+0:39:51.980,0:39:54.830
+Aber das taucht in dem
+Beispiel jetzt hier nicht auf,
+
+0:39:54.830,0:39:57.860
+und schon gar nicht taucht es
+in unserem Hausbau Beispiel auf.
+
+0:39:57.860,0:40:00.107
+Da hatten wir diese Art Strukturierung nicht.
+
+0:40:00.107,0:40:07.790
+Es ist also mehr eine Art Dokumentation,
+wer für welche Aktion verantwortlich ist.
+
+0:40:07.790,0:40:11.750
+An der Reihenfolge des Schaltens oder
+welche Schaltvorgänge möglich sind,
+
+0:40:11.750,0:40:13.970
+welche Aktionsfolgen möglich
+sind, ändert das nicht.
+
+0:40:13.970,0:40:18.230
+Es hat wenig Einfluss auf die Semantik
+sozusagen des Aktivitätsdiagrammes oder
+
+0:40:18.230,0:40:21.560
+den Schaltfolgen in einem übersetzten Petrinetz.
+
+0:40:21.560,0:40:30.140
+O.k., und dann gibt noch diverse weitere Elemente,
+
+0:40:30.140,0:40:32.750
+die wir hier gar nicht, die ich Ihnen nicht
+mal zeige, die wir nicht weiter besprechen.
+
+0:40:32.750,0:40:36.980
+Da könnten Sie sich einfach
+aus Literatur schlau machen.
+
+0:40:36.980,0:40:40.520
+Müssen Sie für diese Vorlesung nicht,
+weil wir diese Sachen nicht betrachten.
+
+0:40:40.520,0:40:45.680
+Es gibt diverse weitere Elemente, die
+jeweils ihre eigene Darstellung haben,
+
+0:40:45.680,0:40:49.910
+die unseren Beispielen nicht auftrat
+und auch nicht auftreten wird.
+
+0:40:49.910,0:40:56.660
+Das ist nur so als eine Aufzählung nochmal, das
+Ihnen klar ist, dass UML Aktivitätsdiagramme
+
+0:40:56.660,0:41:01.460
+noch mehr Variantenreichtum haben,
+als wir hier schon gesehen haben.
+
+0:41:01.460,0:41:06.020
+Und auf jeden Fall mehr als Petrinetze,
+wo es ja nur Stellen und Transition gab.

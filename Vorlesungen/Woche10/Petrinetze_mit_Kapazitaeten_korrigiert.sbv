@@ -1,0 +1,1878 @@
+0:00:00.000,0:00:07.530
+Wir hatten uns im vergangenen Video
+kurz mit typischen Modellierungsmustern
+
+0:00:07.530,0:00:11.280
+in Petrinetzen beschäftigt, die wir zum
+Teil in Beispielen schon gesehen hatten,
+
+0:00:11.280,0:00:14.310
+aber da noch mal explizit angesprochen haben.
+
+0:00:14.310,0:00:21.750
+Das war zum einen der wechselseitige
+Ausschluss bzw. Synchronisation.
+
+0:00:22.290,0:00:27.900
+Wir haben das dann auch an dem Beispiel
+der Speisenden Philosophen diskutiert.
+
+0:00:27.900,0:00:33.810
+Wie man da mit zwei Philosophen die Probleme
+vermeiden kann, die man mit drei Philosophen hat.
+
+0:00:35.040,0:00:42.390
+Ein anderes Erfordernis, das man oft bei der
+praktischen Modellierung mit Petrinetzen hat,
+
+0:00:42.390,0:00:46.530
+ist, dass man etwas über die
+Kapazität einzelner Stellen
+
+0:00:46.530,0:00:50.160
+aussagen möchte bzw. insbesondere
+die Kapazität begrenzen möchte.
+
+0:00:50.160,0:00:51.240
+Was ist damit gemeint?
+
+0:00:51.240,0:01:00.960
+Man möchte zum Beispiel sicherstellen, dass egal
+wie das Petrinetz schaltet, auf den einzelnen
+
+0:01:00.960,0:01:08.190
+Stellen jeweils nie mehr als eine bestimmte
+Zahl von Marken liegen kann, und dabei auch
+
+0:01:08.190,0:01:12.990
+für verschiedene Stellen verschiedene solche
+oberen Kapazitätsbegrenzungen angeben können.
+
+0:01:12.990,0:01:17.700
+Das ist nicht genau das gleiche wie
+die Beschränktheit von Petrinetzen.
+
+0:01:17.700,0:01:19.950
+Denn das war eine Eigenschaft,
+die ein Petrinetz hat oder nicht.
+
+0:01:19.950,0:01:26.280
+Man hat ein Petrinetz und man trifft eine
+Aussage über alle erreichbaren Markierungen.
+
+0:01:26.280,0:01:31.830
+Dass zum Beispiel eine bestimmte Maximalanzahl
+von Marken pro Stelle nie überschritten wird.
+
+0:01:31.830,0:01:34.500
+Das wäre etwas, das sich ergibt.
+
+0:01:35.520,0:01:38.130
+Man hat ein Petrinetz und es
+ergibt sich für dieses Petrinetz,
+
+0:01:38.130,0:01:42.840
+dass sich nie mehr Marken auf
+einer Stelle ansammeln können.
+
+0:01:42.840,0:01:44.790
+Das ist etwas anderes als zu sagen:
+
+0:01:44.790,0:01:46.680
+Man möchte beim Modellieren ausdrücken,
+
+0:01:46.680,0:01:51.348
+dass zum Beispiel eine bestimmte Stelle
+nie mehr als fünf Marken aufnimmt.
+
+0:01:51.348,0:01:55.170
+Selbst wenn es bei normalem Schalten
+des Petrinetzes passieren könnte,
+
+0:01:55.170,0:02:00.270
+dass sich dort sechs Marken auf der Stelle
+sammeln, möchte man in dem Modell ausdrücken,
+
+0:02:00.270,0:02:03.570
+dass dann in dem Fall gar kein
+Schalten stattfinden darf.
+
+0:02:03.570,0:02:07.080
+Während die Frage der
+Beschränktheit/Unbeschränktheit annimmt:
+
+0:02:07.080,0:02:12.000
+Man schaltet entsprechend der Definition
+von Petrinetzen und beobachtet dann, ob sich
+
+0:02:12.590,0:02:15.020
+viele Marken auf einer Stelle
+ansammeln können oder nicht.
+
+0:02:15.650,0:02:18.470
+Nehmen wir an, wir wollen das
+stattdessen im Modell begrenzen.
+
+0:02:18.470,0:02:25.790
+Also zum Beispiel könnte sein, wenn
+wir einen Snackautomaten beschreiben,
+
+0:02:25.790,0:02:28.250
+das wir vielleicht ausdrücken
+wollen, dass da nie mehr als
+
+0:02:28.250,0:02:35.240
+20 Elemente einer bestimmten
+Snack-Art vorrätig sein würden.
+
+0:02:35.240,0:02:40.490
+Oder wenn wir an die Nachmittagsmodellierung
+zurückdenken (die ich als Beispiel durchgespielt
+
+0:02:40.490,0:02:50.300
+hatte), da gab es diese Playstation-Stelle, wo
+sich ein Reservoir von Marken ansammeln konnte,
+
+0:02:50.300,0:02:53.450
+wie oft danach dann die Aktion
+"spielen" durchgeführt werden konnte.
+
+0:02:53.450,0:02:55.700
+Und man hätte vielleicht irgendwie
+ausdrücken können wollen,
+
+0:02:55.700,0:03:04.160
+dass sich auf dieser Stelle nie mehr
+als sieben Marken gleichzeitig befinden.
+
+0:03:04.160,0:03:07.520
+Dass, falls dem doch so ist, nicht
+weiter geschaltet werden darf.
+
+0:03:08.240,0:03:12.290
+Diese Art von Beschränkung möchte man
+seinen Petrinetzen vielleicht auferlegen.
+
+0:03:13.250,0:03:14.060
+Wie könnte man das tun?
+
+0:03:15.050,0:03:16.250
+Man muss überlegen:
+Wie kann ich das modellieren?
+
+0:03:16.250,0:03:19.280
+Und ein Ausweg wäre, einfach zu sagen:
+
+0:03:19.280,0:03:20.660
+Man macht das explizit.
+
+0:03:20.660,0:03:23.960
+Man führt sozusagen eine
+neue Art von Petrinetzen ein.
+
+0:03:23.960,0:03:25.220
+Das tun wir kurz.
+
+0:03:25.220,0:03:26.660
+Das muss Sie nicht erschrecken,
+
+0:03:26.660,0:03:32.210
+weil es eine sehr einfache Definition
+ist, auch eine sehr klare Semantik hat.
+
+0:03:32.210,0:03:36.650
+Man könnte sagen, man erweitert einfach
+den Begriff der Petrinetze und führt
+
+0:03:36.650,0:03:38.840
+sogenannte "Petrinetze mit Kapazitäten" ein.
+
+0:03:38.840,0:03:40.790
+Wie könnte man das tun?
+
+0:03:40.790,0:03:42.710
+Man müsste diese Extra-Information ausdrücken.
+
+0:03:42.710,0:03:49.430
+Man möchte ein normales Petrinetz
+nehmen und das um Kapazitäten ergänzen.
+
+0:03:49.430,0:03:54.410
+Womit gemeint ist, dass man,
+wenn S die Stellenmenge ist,
+
+0:03:54.410,0:03:58.400
+einfach für jede Stelle noch
+eine natürliche Zahl vorgibt.
+
+0:03:59.690,0:04:01.850
+Man kann das tun in einer Kapazitätsfunktion,
+
+0:04:01.850,0:04:06.500
+einer Abbildung von der Stellenmenge
+in die natürlichen Zahlen.
+
+0:04:12.470,0:04:16.720
+Damit soll ausgedrückt sein, dass niemals
+(in der Anfangsmarkierung nicht, aber auch
+
+0:04:16.720,0:04:24.220
+niemals später) auf einer Stelle sich mehr Marken
+befinden können als k für diese Stelle angibt.
+
+0:04:25.030,0:04:33.130
+Damit muss insbesondere für die Anfangsmarkierung
+m0 gelten, dass kleiner-gleich k ist.
+
+0:04:33.130,0:04:33.850
+Kleiner-gleich in welchem Sinne?
+
+0:04:34.450,0:04:37.090
+In dem Sinne, wie wir solche
+Funktionen vergleichen können.
+
+0:04:37.090,0:04:43.570
+Das ist ja eine Markierung in dem Sinne wie
+auch die Anfangsmarkierung eine Markierung ist,
+
+0:04:43.570,0:04:48.520
+und wie auch die Vor- und Nachgewichtsfunktionen
+in dem Petrinetz Markierungen waren.
+
+0:04:48.520,0:04:52.750
+Und für solche Funktionen, die
+wir Markierungen genannt haben,
+
+0:04:52.750,0:04:56.050
+hatten wir einen Vergleich eingeführt.
+
+0:04:56.050,0:04:59.350
+Und zur Erinnerung, ganz wichtig,
+das war der stellenweise Vergleich.
+
+0:04:59.350,0:05:00.610
+Das war nicht einfach nur:
+
+0:05:00.610,0:05:04.900
+Wie viele Marken befinden sich insgesamt
+in m0 und wie viele Marken befinden sich
+
+0:05:04.900,0:05:08.470
+insgesamt in der Kapazitätsfunktion,
+wenn man sie für alle Stellen auswertet?
+
+0:05:08.470,0:05:11.020
+Sondern es ging um den stellenweisen Vergleich.
+
+0:05:11.020,0:05:14.440
+Also für jede Stelle muss gelten, dass
+m0 von d kleiner-gleich k von s ist.
+
+0:05:14.440,0:05:16.750
+Was genau heißt, dass die Anfangsmarkierung
+
+0:05:16.750,0:05:22.810
+auf keiner Stelle mehr Marken trägt
+als die Kapazitätsfunktion erlaubt.
+
+0:05:22.810,0:05:27.130
+Und diese Kapazitätsfunktion würden
+wir als Modellierer mit angeben.
+
+0:05:27.130,0:05:36.100
+Natürlich ist es hier nicht besonders interessant,
+wenn k für eine Stelle null zurück gibt.
+
+0:05:36.100,0:05:38.890
+Also würde man erwarten, dass
+hier immer positive Zahlen stehen.
+
+0:05:38.890,0:05:42.940
+Formal könnte man auch zulassen, dass
+k für ein bestimmtes s null sein darf.
+
+0:05:42.940,0:05:45.490
+Aber das hieße dann tatsächlich, dass man auf
+
+0:05:45.490,0:05:48.460
+dieser Stelle nie irgendwelche
+Marken liegen haben möchte.
+
+0:05:48.460,0:05:51.850
+Dann braucht man diese Stelle gar nicht einführen.
+
+0:05:51.850,0:05:53.920
+Also es wäre nicht sinnvoll.
+
+0:05:53.920,0:06:03.220
+Interessanterweise kennt das Pipe-Tool,
+mit dem wir gearbeitet haben (mit dem ich
+
+0:06:03.220,0:06:07.210
+gearbeitet habe und Sie vielleicht auch,
+im Übungsbetrieb), solche Petrinetze.
+
+0:06:07.210,0:06:10.300
+Es kennt den Begriff der
+"Petrinetze mit Kapazitäten".
+
+0:06:10.300,0:06:17.200
+Das hatte ich da nicht genutzt, aber da kann
+man an die Stellen Kapazitäten dranschreiben.
+
+0:06:17.200,0:06:22.030
+Und dann erfüllt das genau die
+Intuition, die ich schon genannt hatte.
+
+0:06:22.030,0:06:28.420
+Also jede Stelle s darf höchstens k(s)
+Marken enthalten, und zwar jemals.
+
+0:06:28.420,0:06:29.440
+Das ist ganz wichtig:
+
+0:06:29.440,0:06:31.810
+Das muss also nicht nur für
+die Anfangsmarkierung gelten,
+
+0:06:31.810,0:06:34.270
+sondern auch wenn das Petrinetz
+sich entwickelt und schaltet,
+
+0:06:34.270,0:06:39.700
+wird dafür gesorgt werden, dass nie mehr
+als k(s) Marken auf der Stelle s liegen.
+
+0:06:39.700,0:06:43.780
+Wenn doch, dann würde ein Schaltvorgang
+einfach nicht durchgeführt werden.
+
+0:06:47.020,0:06:49.870
+Wie stellen wir das in der
+grafischen Darstellung dar?
+
+0:06:51.370,0:06:53.890
+Das ist nur die mathematische Angabe.
+
+0:06:54.640,0:06:57.700
+Da werden wir einfach diese Kapazitäten
+neben die Stellen schreiben.
+
+0:06:57.700,0:07:02.860
+Bisher haben wir Zahlen im Petrinetz
+nur an die Verbindungen geschrieben,
+
+0:07:02.860,0:07:08.590
+an die Pfeile von Stellen zu Transitionen
+und von Transitionen zu Stellen, womit wir
+
+0:07:08.590,0:07:13.210
+da das Gewicht ausgedrückt haben, aus der
+Vorbedingungs- und Nachbedingungsfunktion.
+
+0:07:13.210,0:07:17.380
+Jetzt werden wir zusätzlich auch erlauben,
+dass an den Stellen Zahlen dranstehen dürfen.
+
+0:07:17.380,0:07:20.740
+Nämlich genau die Zahlen, die
+der Kapazität entsprechen sollen.
+
+0:07:20.740,0:07:26.290
+Wie könnte das dann aussehen, so ein Beispielnetz?
+
+0:07:26.290,0:07:30.400
+Zum Beispiel so: ein ganz normales Petrinetz,
+wie Sie das schon oft gesehen haben;
+
+0:07:30.400,0:07:34.128
+aber jetzt gibt es eben hier in dem
+Fall die Annotation 2 an der Stelle s1.
+
+0:07:34.128,0:07:49.420
+Also an der Stelle s1 wäre 2 annotiert,
+an der Stelle s2 wäre 1 annotiert, und das
+
+0:07:49.420,0:07:55.300
+entspräche (im Sinne der vorigen Folie) dieser
+Funktion, die s1 auf 2 und s2 auf 1 abbildet.
+
+0:07:55.300,0:07:58.610
+Ganz wichtig:
+
+0:07:58.610,0:08:02.540
+Diese Annotationen sind jetzt an diesen
+Stellen und nicht mehr an den Pfeilen.
+
+0:08:02.540,0:08:04.430
+Dort dürfte es auch noch solche Zahlen geben.
+
+0:08:04.430,0:08:05.990
+Die haben dann die gleiche Bedeutung wie vorher,
+
+0:08:05.990,0:08:11.660
+nämlich beschreiben das Vor- und Nachgewicht
+von Transitionen bezüglich einzelner Stellen.
+
+0:08:11.660,0:08:17.450
+Und zusätzlich kann es eben diese Zahlenangaben
+an den Stellen geben, bzw. für ein Petrinetz mit
+
+0:08:17.450,0:08:22.640
+Kapazitäten muss es sogar an jeder Stelle
+solch eine Zahl drangeschrieben geben.
+
+0:08:25.070,0:08:26.210
+Was wäre jetzt hier die Idee?
+
+0:08:26.210,0:08:27.890
+Warum machen wir das in dem Beispiel?
+
+0:08:28.460,0:08:31.160
+Wir würden damit erreichen wollen,
+dass auf dieser Stelle nie mehr als
+
+0:08:31.160,0:08:33.500
+zwei Marken liegen und auf dieser
+Stelle nie mehr als eine Marke.
+
+0:08:33.500,0:08:35.930
+Das heißt, bestimmte Schaltvorgänge,
+
+0:08:35.930,0:08:39.920
+die möglich wären, wenn man die Kapazitäten
+ignoriert, sollen jetzt nicht erlaubt sein.
+
+0:08:40.820,0:08:44.030
+Wenn wir uns dieses Petrinetz anschauen
+und die beiden Annotationen hier vergessen,
+
+0:08:44.030,0:08:45.740
+könnte man sich leicht überlegen,
+
+0:08:45.740,0:08:49.250
+dass in dieser Ausgangsstation alle
+drei Transitionen aktiviert sind.
+
+0:08:49.250,0:08:49.673
+Denn t1 kann schalten, weil hier eine Marke liegt.
+
+0:08:49.673,0:08:55.430
+Und t2 kann schalten, weil hier eine Marke liegt.
+Auch t3 kann schalten, weil hier eine Marke liegt.
+
+0:08:55.430,0:08:58.130
+Wenn wir allerdings die
+Kapazitäten berücksichtigen,
+
+0:08:58.130,0:08:59.420
+dann würden wir feststellen müssen:
+
+0:08:59.420,0:09:01.010
+Nein, t1 kann doch nicht schalten.
+
+0:09:01.010,0:09:05.180
+Bisher war für das Schalten von t1 wichtig,
+dass alle Vorbedingungen erfüllt sind,
+
+0:09:05.180,0:09:08.690
+dass also hier eine Marke liegt
+(weil es diesen Eingangspfeil gibt).
+
+0:09:08.690,0:09:12.770
+Jetzt mit diesen Kapazitäten würde
+zusätzlich geprüft werden müssen,
+
+0:09:12.770,0:09:17.090
+dass die Transition überhaupt auch Gelegenheit
+hat, ihre Ausgangsmarken abzulegen.
+
+0:09:17.090,0:09:20.180
+Und hier hieße das: eine
+Marke konsumieren von hier,
+
+0:09:20.180,0:09:24.290
+die auch vorhanden ist, alles gut, aber
+eben auch eine Marke in s2 ablegen.
+
+0:09:24.290,0:09:29.240
+Und das wäre in der Konstellation, die hier
+abgebildet ist, nicht erlaubt, weil hier
+
+0:09:29.240,0:09:34.280
+schon eine Marke liegt und hier dransteht,
+dass da auch nur eine Marke liegen darf.
+
+0:09:34.280,0:09:40.280
+Das heißt, das eigentlich mögliche Schalten von t1
+in dieser Situation wäre plötzlich nicht erlaubt.
+
+0:09:40.280,0:09:43.040
+Hingegen dürfte t3 durchaus schalten.
+
+0:09:43.580,0:09:47.030
+Das würde diese Marke konsumieren und
+hat kein Problem irgendwas abzulegen,
+
+0:09:47.030,0:09:48.920
+weil es gar keine Ausgangspfeile gibt.
+
+0:09:48.920,0:09:54.920
+Und auch t2 dürfte schalten, denn t2 findet
+eine Marke in der Vorbedingungsstelle und
+
+0:09:54.920,0:10:00.320
+darf auch eine Marke in die einzige
+Nachbedingungsstelle von t2 legen.
+
+0:10:00.320,0:10:03.470
+Denn da liegt zwar schon eine Marke,
+aber da dürfen auch zwei liegen.
+
+0:10:03.470,0:10:07.010
+Also hier dürfte t2 schalten, aber nicht t1.
+
+0:10:07.010,0:10:08.870
+Und t3 dürfte auch schalten.
+
+0:10:10.380,0:10:12.810
+Das wäre die Definition,
+die einfach dem entspricht,
+
+0:10:12.810,0:10:15.870
+was hier gefordert ist für
+diesen einen Schaltvorgang.
+
+0:10:15.870,0:10:19.620
+Das muss man natürlich auch formal ausdrücken.
+
+0:10:19.620,0:10:21.360
+Also die Semantik müsste angepasst werden.
+
+0:10:21.360,0:10:23.790
+Aber das ist auch schnell getan.
+
+0:10:23.790,0:10:27.480
+Erinnern wir uns, da hieß es vorher, dass eine
+
+0:10:27.480,0:10:33.000
+Transition in einer bestimmten Markierung
+m aktiviert ist, in dem Fall hier für m0.
+
+0:10:33.780,0:10:40.320
+Bisher wurde dafür nur gefordert, dass die
+Markierung, die der Vorgewichtsfunktion der
+
+0:10:40.320,0:10:43.050
+Transition entspricht, kleiner-gleich
+der aktuellen Markierung ist.
+
+0:10:43.050,0:10:48.030
+Denn das hieße letztlich, dass pro
+Stelle die Transitionen nicht mehr Marken
+
+0:10:48.030,0:10:52.380
+anfordern als in der aktuellen Situation
+vorliegen, per stellenweisem Vergleich.
+
+0:10:54.660,0:10:59.250
+Und hier kommt jetzt der Ausdruck
+dafür hinzu, dass wir eben auch
+
+0:10:59.250,0:11:03.360
+auf die Ausgabestellen schauen müssen,
+ob da sozusagen noch genug Platz ist.
+
+0:11:03.360,0:11:04.860
+Was heißt das?
+
+0:11:04.860,0:11:09.450
+Wir schauen, was denn ist, wenn
+diese Bedingung erfüllt ist.
+
+0:11:09.450,0:11:13.950
+Dann könnte ich im Prinzip bei normalem
+Schalten in einem Petrinetz sagen:
+
+0:11:13.950,0:11:20.940
+Wir ziehen eben von der aktuellen Markierung die
+Vorgewichte für die aktuelle Transition ab, die
+
+0:11:20.940,0:11:26.670
+wir schalten wollen, und addieren (wieder
+stellenweise mit diesen beiden Operationen,
+
+0:11:26.670,0:11:34.470
+die wir in einem früheren Video eingeführt
+haben) die Stellenangaben für diese konkrete
+
+0:11:34.470,0:11:39.000
+Transition hinzu, also jeweils wie viele
+Marken in die Stellen gelegt werden sollen.
+
+0:11:39.990,0:11:42.390
+Und dann schauen wir, ob das
+was dabei rauskommt (was bei
+
+0:11:42.390,0:11:47.760
+normalem Schalten herauskäme), immer noch
+kleiner-gleich der Kapazitätsmarkierung ist.
+
+0:11:47.760,0:11:52.950
+Und nur wenn dem so ist (deswegen
+steht hier "und wenn es erlaubt ist"),
+
+0:11:52.950,0:11:56.220
+darf die Tradition t in der
+Markierung m überhaupt schalten.
+
+0:11:56.220,0:11:59.670
+Vorher wurde nur diese erste Bedingung gefordert.
+
+0:11:59.670,0:12:01.680
+Jetzt wird zusätzlich die
+zweite Bedingung gefordert.
+
+0:12:01.680,0:12:05.040
+Und wenn die auch erfüllt ist,
+darf die Transition schalten.
+
+0:12:05.040,0:12:05.670
+Was passiert dann?
+
+0:12:06.210,0:12:08.970
+Dann ist das, was hier steht,
+einfach die neue Markierung.
+
+0:12:08.970,0:12:11.040
+Das war bei normalem Schalten auch so.
+
+0:12:11.040,0:12:13.890
+Beim Schalten eines normalen
+Petrinetzes musste dies erfüllt sein.
+
+0:12:16.170,0:12:19.710
+Jetzt wird zusätzlich gefordert, dass
+die neue Markierung, die herauskäme,
+
+0:12:19.710,0:12:21.780
+kleiner-gleich der Kapazitätsfunktion ist.
+
+0:12:22.330,0:12:25.990
+Und nur dann darf die Transition schalten und
+führt natürlich genauso zu dieser Markierung.
+
+0:12:26.830,0:12:30.040
+Hier wird das erzwungen, dass
+immer bei allen erreichbaren
+
+0:12:30.040,0:12:34.870
+Markierungen die Kapazitätsfunktion
+an keiner Stelle überschritten wird.
+
+0:12:38.680,0:12:39.730
+Das steht hier nochmal.
+
+0:12:39.730,0:12:44.110
+Also da wird genau sichergestellt,
+dass die Transitionen nur schalten,
+
+0:12:44.110,0:12:47.560
+wenn sie nicht die Kapazitäten brechen würden.
+
+0:12:47.560,0:12:49.420
+Das ist genau das, was hier passieren würde.
+
+0:12:49.420,0:12:55.150
+Wenn wir also hier t1 schalten würden, dann würde
+an dieser Stelle die Kapazität überschritten.
+
+0:12:55.150,0:12:57.040
+Also wird dieses Schalten einfach verboten.
+
+0:13:03.220,0:13:05.260
+Was hieße das für den Erreichbarkeitsgraphen?
+
+0:13:06.370,0:13:10.690
+Der wird dann kleiner, eingeschränkter
+sein gegenüber dem Erreichbarkeitsgraphen,
+
+0:13:11.200,0:13:14.680
+der sich ergeben würde, wenn wir
+diese Kapazitäten ignorieren.
+
+0:13:14.680,0:13:19.660
+Also hier wäre der Erreichbarkeitsgraph
+für dieses konkrete Beispiel.
+
+0:13:19.660,0:13:22.780
+Da ist letztlich genau zu sehen:
+
+0:13:22.780,0:13:27.940
+In der Anfangsmarkierung sind t2 und
+t3 schaltbar, t1 allerdings nicht.
+
+0:13:28.630,0:13:33.340
+Also in der Anfangsmarkierung, die wir hier
+sehen, (1,1) ist genau dieser Eingangsknoten (der
+
+0:13:33.340,0:13:37.390
+Initialknoten im Erreichbarkeitsgraphen),
+da ist t1 nicht aktiviert.
+
+0:13:37.390,0:13:44.320
+Obwohl, wenn wir diese beiden Annotationen hier
+ignorieren würden, durchaus t1 schalten dürfte.
+
+0:13:44.320,0:13:47.830
+Also t2 kann schalten, t3 kann schalten.
+
+0:13:47.830,0:13:55.000
+Was dabei rauskommt, ist genau das gleiche, was
+auch bei einem normalen Petrinetz herauskäme.
+
+0:13:55.000,0:13:58.600
+Nur schauen wir eben immer, wenn wir
+dann gucken welche weiteren Übergänge
+
+0:13:58.600,0:14:02.920
+sind möglich; da wird immer
+geprüft, welche Transitionen
+
+0:14:02.920,0:14:06.940
+aktiviert sind unter Berücksichtigung eben
+auch dieser Kapazitätseinschränkungen.
+
+0:14:06.940,0:14:14.590
+Hier wirkt sich das vor allen hier aus,
+dass wir hier t1 nicht schalten dürfen.
+
+0:14:14.590,0:14:16.630
+Wenn wir hingegen t3 geschaltet haben,
+
+0:14:16.630,0:14:21.100
+was zur Markierung (1,0) führt, dann
+wäre diese Marke hier verschwunden.
+
+0:14:21.100,0:14:23.110
+Dann dürfen wir auch t1 schalten.
+
+0:14:23.110,0:14:27.700
+Deswegen ist hier der t1-Übergang möglich,
+denn der legt die Marke von hier nach dort
+
+0:14:27.700,0:14:31.510
+und das ist erlaubt, weil auch danach
+hier immer noch nur eine Marke liegt.
+
+0:14:32.660,0:14:35.720
+Nicht wie hier, wo, wenn wir
+auch t1 geschaltet hätten,
+
+0:14:35.720,0:14:39.440
+auf der zweiten Stelle zwei Marken
+gelegen hätten (was nicht sein darf).
+
+0:14:44.480,0:14:50.870
+Die anderen Übergänge sind alle
+erlaubt, so wie sie hier stehen,
+
+0:14:50.870,0:14:53.600
+und ergeben sich auch aus der Definition.
+
+0:14:53.600,0:15:00.950
+Hier hätten wir effektiv durch diese Angabe
+einfach bestimmte Schaltvorgänge verhindert
+
+0:15:00.950,0:15:04.970
+und deswegen den Erreichbarkeitsgraphen
+auf dieses Verhalten eingeschränkt (und
+
+0:15:04.970,0:15:07.400
+nicht noch einen Übergang zum
+Beispiel hier mit t1 gehabt).
+
+0:15:07.400,0:15:11.810
+Das kann man so machen.
+
+0:15:11.810,0:15:16.520
+Dann würde man eben diese neue Art
+von Petrinetzen behandeln müssen.
+
+0:15:16.520,0:15:19.730
+Wie gesagt, das Tool, welches wir
+gesehen haben, kann das schon.
+
+0:15:19.730,0:15:23.570
+Allerdings müssten wir dann anfangen,
+unsere ganzen Begriffe anzupassen.
+
+0:15:23.570,0:15:28.340
+Unsere mathematischen Begriffe (die Eigenschaften,
+die wir betrachtet haben) müssten wir jetzt von
+
+0:15:28.340,0:15:32.180
+den normalen, einfachen Petrinetzen auf diese
+"Petrinetze mit Kapazitäten" übertragen.
+
+0:15:32.180,0:15:34.010
+Vielleicht wollen wir das nicht.
+
+0:15:34.520,0:15:38.480
+Vielleicht wollen wir gern weiter mit
+den einfachen Petrinetzen arbeiten,
+
+0:15:38.480,0:15:39.830
+die wir bisher kennengelernt haben.
+
+0:15:39.830,0:15:42.470
+Und interessanterweise kann man genau das tun.
+
+0:15:42.470,0:15:50.600
+Es gibt eine Möglichkeit, das, was wir hier
+gemacht haben, auch zu erreichen, ohne diese
+
+0:15:50.600,0:15:56.480
+Annotationen zu machen in jedem Petrinetz, was
+mit solchen Kapazitätsbegrenzungen arbeitet.
+
+0:15:56.480,0:16:01.880
+Stattdessen ein äquivalentes Petrinetz
+zu erzeugen, das mit einfachen Mitteln
+
+0:16:01.880,0:16:05.630
+auskommt (also nicht solche Annotation benötigt),
+
+0:16:05.630,0:16:12.050
+aber dennoch das Verhalten erreicht, welches
+hier durch die Kapazitäten erzwungen wird.
+
+0:16:12.050,0:16:20.420
+Also insbesondere sollte dann am Ende auch für
+diese umgeschriebenen Petrinetze hier in dem
+
+0:16:20.420,0:16:26.150
+Beispiel so ein Erreichbarkeitsgraph herauskommen
+und eben etwa t1 nicht schaltbar sein aus diesem
+
+0:16:26.150,0:16:31.520
+Anfangszustand (was ja möglich wäre, wenn wir
+einfach die Annotationen ignorieren würden).
+
+0:16:31.520,0:16:32.630
+Wir wollen die Annotationen nicht ignorieren.
+
+0:16:32.630,0:16:34.730
+Wir wollen einfach anders mit ihnen umgehen.
+
+0:16:38.510,0:16:44.420
+Also die Einsicht hier ist, dass man
+diese Art Kapazitätsbegrenzung auch
+
+0:16:44.420,0:16:47.570
+erreichen kann ohne gleich eine
+neue Petrinetz-Art einzuführen.
+
+0:16:47.570,0:16:52.280
+Und zwar, indem man ein
+Modellierungsmuster anwendet.
+
+0:16:52.280,0:16:57.830
+Nämlich das, was man haben möchte, mit den
+Mitteln eines einfachen Petrinetzes umschreibt.
+
+0:16:59.390,0:17:00.800
+Ein bisschen ist das ein Trick sozusagen,
+
+0:17:00.800,0:17:03.890
+den man beim Modellieren anwendet,
+aber hier eben systematisch macht.
+
+0:17:03.890,0:17:06.710
+Was ist die Idee?
+
+0:17:06.710,0:17:07.730
+Wie gehen wir dafür vor?
+
+0:17:07.730,0:17:16.670
+Nun, die Grundidee ist, dass wir
+sozusagen diese Kapazität (die Tatsache,
+
+0:17:16.670,0:17:22.670
+dass auf den Stellen jeweils nicht mehr als
+eine bestimmte Anzahl von Marken liegen darf)
+
+0:17:22.670,0:17:27.560
+dadurch ausdrücken, dass wir zu jeder Stelle
+eine extra zusätzliche Stelle einführen.
+
+0:17:27.560,0:17:31.295
+Eine sogenannte Komplementstelle, auf
+der wir sozusagen ein Reservoir anlegen.
+
+0:17:31.295,0:17:38.180
+Auf der wir immer festhalten, wie
+viele Marken noch maximal auf die
+
+0:17:38.180,0:17:41.240
+ursprüngliche Stelle s gelegt werden dürften.
+
+0:17:41.240,0:17:46.820
+Also in dem Beispiel eben hatten wir zwei Stellen.
+
+0:17:46.820,0:17:50.210
+Wir fügen für jede Stelle eine
+sogenannte Komplementstelle hinzu.
+
+0:17:50.210,0:17:51.800
+Einfach eine Stelle, die einen neuen Namen hat,
+
+0:17:51.800,0:17:56.090
+an der wir aber noch erkennen können, zu
+welcher ursprünglichen Stelle sie gehört.
+
+0:17:56.090,0:17:58.550
+Das können wir machen, indem wir
+den gleichen Stellennamen benutzen
+
+0:17:58.550,0:18:05.090
+und einfach so einen Überstrich
+darüber setzen, einen Balken.
+
+0:18:05.090,0:18:07.610
+Das wird wieder ein ganz normales Petrinetz,
+
+0:18:07.610,0:18:11.240
+in dem wir keine Annotationen
+für die Kapazitäten angeben.
+
+0:18:11.240,0:18:15.650
+Also müssen wir diese Informationen anders
+kodieren, und zum Beispiel müssen wir ja für
+
+0:18:15.650,0:18:19.370
+unsere neuen Komplementstellen auch eine
+Anfangsmarkierung festlegen (also sagen,
+
+0:18:19.370,0:18:23.390
+was die Anfangsmarkierung für diese
+Komplementstellen an Werten enthält).
+
+0:18:23.390,0:18:26.810
+Und da sehen wir dann, dass
+die Kapazitätsfunktion eingeht.
+
+0:18:26.810,0:18:33.260
+Wir werden nämlich einfach genau so viele
+Marken auf die Komplementstellen legen,
+
+0:18:33.260,0:18:41.330
+wie laut der Kapazität erlaubt wären, aber in der
+Startmarkierung nicht tatsächlich schon vorliegen.
+
+0:18:41.330,0:18:48.520
+Also wenn die Kapazität sagen würde,
+auf Stelle s dürfen fünf Marken liegen,
+
+0:18:48.520,0:18:53.500
+in der Anfangsmarkierung des Petrinetzes liegen
+auf dieser Stelle s allerdings nur drei Marken,
+
+0:18:53.500,0:18:59.620
+dann würden wir in der Anfangsmarkierung 5 -
+3 = 2 Marken auf die Komplementstelle legen.
+
+0:19:00.970,0:19:06.640
+Also m0 von s-quer wäre dann k(s) - m0(s).
+
+0:19:06.640,0:19:14.800
+Das sorgt dafür, dass zumindest anfangs die
+Summe der Marken in der Stelle selbst und
+
+0:19:14.800,0:19:18.010
+in ihrer Komplementstelle genau
+die gewünschte Kapazität ergibt,
+
+0:19:18.010,0:19:21.760
+die wir in dem Petrinetz mit Kapazitäten
+an die Stelle drangeschrieben hätten.
+
+0:19:21.760,0:19:27.190
+Auf diese Art und Weise können wir dafür sorgen,
+dass das bei der Startmarkierung der Fall ist.
+
+0:19:27.190,0:19:30.370
+Und im Folgenden werden wir dafür
+sorgen, dass es eine Invariante ist.
+
+0:19:30.370,0:19:32.290
+Dass das also bei jedem
+Schaltvorgang erhalten bleibt.
+
+0:19:32.290,0:19:39.400
+Diese Idee hier, die erst mal ursprünglich dafür
+sorgt, die Komplementstellen zu belegen, die
+
+0:19:40.390,0:19:47.740
+werden wir dann garantieren und über die gesamte
+Lebenszeit des Petrinetzes hinweg erhalten.
+
+0:19:47.740,0:19:51.250
+Und deswegen können wir dann immer sicherstellen,
+
+0:19:51.250,0:19:57.550
+dass tatsächlich nie mehr als
+k(s) Marken auf der Stelle liegen.
+
+0:19:57.550,0:20:04.390
+Weil wir sozusagen nur dann erlauben,
+weitere Marken auf die Stelle zu legen,
+
+0:20:04.390,0:20:08.530
+wenn in der Komplementstelle noch
+entsprechend viele Reservemarken liegen.
+
+0:20:08.530,0:20:14.910
+Wie können wir das erreichen?
+
+0:20:14.910,0:20:22.680
+Wir müssen dafür sorgen, dass beim Schalten von
+Transitionen diese Invariante erhalten bleibt.
+
+0:20:22.680,0:20:26.580
+Das heißt, wir müssen wahrscheinlich
+weitere Gewichte in das Petrinetz einführen.
+
+0:20:27.090,0:20:28.470
+Gerade haben wir Stellen hinzugefügt.
+
+0:20:28.470,0:20:31.680
+Wenn wir die einfach nur so hinzufügen
+würden, dann würden die als isolierte
+
+0:20:31.680,0:20:36.900
+Knoten in dem Petrinetz liegen und es
+gäbe weder Eingangs- noch Ausgangspfeile.
+
+0:20:36.900,0:20:40.020
+Dann würden sie natürlich auch das Verhalten
+des Petrinetzes nicht beeinflussen.
+
+0:20:40.020,0:20:44.775
+Also müssen wir sie noch
+an das Petrinetz anbinden.
+
+0:20:44.775,0:20:45.960
+Wie tun wir das?
+
+0:20:45.960,0:20:50.730
+Das hängt immer davon ab, was eine bestimmte
+Transition mit einer bestimmten Stelle tut.
+
+0:20:50.730,0:20:55.980
+Also schauen wir uns eine
+Transition und eine Stelle an.
+
+0:20:55.980,0:20:58.200
+Hier wird beschrieben, wie das für eine
+
+0:20:58.200,0:21:00.780
+Kombination einer Transition und
+einer Stelle zu geschehen hat.
+
+0:21:00.780,0:21:03.660
+Und natürlich machen wir das für
+jede Transition und jede Stelle,
+
+0:21:03.660,0:21:05.790
+für alle Kombinationen aus Transition und Stelle.
+
+0:21:07.230,0:21:11.430
+Wenn wir uns auf eine Transition und eine
+Stelle fokussieren, können wir fragen:
+
+0:21:11.430,0:21:15.000
+Was macht denn diese Transition mit dieser Stelle?
+
+0:21:15.000,0:21:17.520
+Entnimmt sie daraus Marken?
+
+0:21:17.520,0:21:19.470
+Legt sie darin Marken ab?
+
+0:21:19.470,0:21:23.100
+Oder ist sie sozusagen neutral
+bezüglich dieser Stelle?
+
+0:21:23.100,0:21:24.150
+Es könnte ja sein, dass t und s
+nichts miteinander zu tun haben,
+
+0:21:24.150,0:21:29.880
+dass Schalten von t die Anzahl von Marken
+in Stelle s einfach nie verändern kann.
+
+0:21:29.880,0:21:31.800
+Wie kann man das bestimmen?
+
+0:21:31.800,0:21:33.960
+Man muss letztlich diese Differenz betrachten.
+
+0:21:33.960,0:21:38.338
+Also man schaut sich an, was die
+Nachgewichtsfunktion der Transition t für
+
+0:21:38.338,0:21:40.200
+die Stelle s und was die Vorgewichtsfunktion
+der Transition t für die Stelle s sagt.
+
+0:21:44.880,0:21:50.520
+Das drückt aus, wie viele Marken die
+Transition t in die Stelle s legen würde.
+
+0:21:50.520,0:21:54.360
+Und das drückt aus, wie viele Marken
+Transition t aus der Stelle s entnimmt.
+
+0:21:54.360,0:21:58.320
+Und da es tatsächlich für eine Transition
+und eine Stelle sozusagen sowohl einen
+
+0:21:58.320,0:22:03.870
+Hin- als auch einen Rückpfeil geben darf,
+könnten das auch beides positive Werte sein.
+
+0:22:04.410,0:22:08.070
+Wir schauen uns sozusagen das
+Nettoverhalten an, die Differenz davon.
+
+0:22:09.420,0:22:10.380
+Da kommt eine Zahl raus.
+
+0:22:10.380,0:22:12.810
+Die könnte negativ sein, die könnte
+null sein, die könnte positiv sein.
+
+0:22:12.810,0:22:15.240
+Wenn sie negativ ist, dann heißt das,
+
+0:22:15.240,0:22:17.940
+dass die Transition insgesamt
+Marken aus der Stelle entnimmt.
+
+0:22:17.940,0:22:21.870
+Das könnte zum Beispiel sein, wenn das
+Nachgewicht null ist und das Vorgewicht drei.
+
+0:22:21.870,0:22:26.910
+Dann heißt das, die Transition nimmt drei
+Marken aus der Stelle und gibt keine dorthin ab.
+
+0:22:26.910,0:22:28.710
+Also insgesamt entnimmt sie drei Marken.
+
+0:22:28.710,0:22:32.625
+Es könnte auch sein, dass sie vier
+Marken entnimmt und zwei ablegt.
+
+0:22:32.625,0:22:35.430
+Dann würde sie insgesamt
+netto zwei Marken entnehmen.
+
+0:22:35.430,0:22:44.340
+Also immer wenn diese Differenz für das gewisse
+t und das gewisse s negativ ist, dann fügen
+
+0:22:44.340,0:22:53.790
+wir eine Kante von t zur Komplementstelle
+von s hinzu, und zwar mit dem Gewicht -n.
+
+0:22:53.790,0:22:54.290
+Warum?
+
+0:22:54.870,0:22:56.370
+Das ist eine negative Zahl hier.
+
+0:22:56.370,0:22:57.210
+Die negieren wir.
+
+0:22:57.210,0:23:00.180
+Und die entsprechende positive
+Zahl, die herauskommt,
+
+0:23:00.180,0:23:04.950
+die schreiben wir als Gewicht an eine Kante
+von der Transition t in die Komplementstelle.
+
+0:23:04.950,0:23:06.750
+Weil die Idee ja sein soll:
+
+0:23:06.750,0:23:12.150
+Transition t entnimmt aus der Stelle s
+irgendwie eine bestimmte Anzahl Marken,
+
+0:23:12.150,0:23:16.050
+vielleicht zwei; dann sollen diese zwei
+Marken nicht verschwinden, sondern sie
+
+0:23:16.050,0:23:17.790
+sollen in der Komplementstelle abgelegt werden.
+
+0:23:17.790,0:23:19.860
+Die füllen sozusagen das Reservoir auf,
+
+0:23:19.860,0:23:26.490
+aus dem spätere Schaltvorgänge wieder
+Marken auf Stelle s legen dürften.
+
+0:23:27.480,0:23:31.770
+Zum Beispiel Transition t, aber
+insbesondere auch andere Transitionen,
+
+0:23:31.770,0:23:33.600
+die vielleicht in s etwas ablegen möchten.
+
+0:23:35.010,0:23:37.500
+Die sollen und werden das nur können,
+
+0:23:37.500,0:23:44.070
+wenn in der Komplementstelle s-quer
+entsprechend genügend Marken liegen.
+
+0:23:44.070,0:23:47.280
+Und es muss eben auch beim Entnehmen von
+
+0:23:47.280,0:23:51.840
+Marken aus s die gleiche Anzahl
+Marken in s-quer abgelegt werden.
+
+0:23:54.120,0:23:58.826
+Das ist also, wenn die Transition t
+insgesamt Marken aus der Stelle s entnimmt.
+
+0:23:58.826,0:24:02.850
+Was ist im umgekehrten Fall?
+
+0:24:02.850,0:24:06.990
+Also wenn die Transition t netto
+etwas in die Stelle s hineinlegt.
+
+0:24:06.990,0:24:12.990
+Das heißt, wenn die Nachgewichtsfunktion
+für t bezüglich s größer ist als die
+
+0:24:12.990,0:24:17.760
+Vorgewichtsfunktion von t bezüglich s,
+also diese Differenz genau positiv ist.
+
+0:24:19.470,0:24:23.730
+Dann möchte Transition t eine bestimmte
+Anzahl n Marken in die Stelle s hineinlegen.
+
+0:24:24.300,0:24:28.770
+Das dürfen wir nur erlauben, wenn dort
+noch nicht so viele Marken liegen,
+
+0:24:28.770,0:24:36.630
+dass durch dieses Hinzufügen von Marken
+die erlaubte Kapazität überschritten wird.
+
+0:24:36.630,0:24:37.380
+Wie können wir das garantieren?
+
+0:24:37.380,0:24:43.120
+Indem wir dafür sorgen, dass es
+eine Vorgewichtskante von s-quer
+
+0:24:43.120,0:24:47.350
+zu t mit genau dieser Zahl n als Gewicht gibt.
+
+0:24:47.350,0:24:53.200
+Dann dürfte t nämlich nur noch schalten, wenn
+sie in s-quer entsprechend viele Marken findet.
+
+0:24:53.200,0:24:59.440
+Und das wird genau dann der Fall
+sein (wegen dieser Invariante hier),
+
+0:24:59.440,0:25:07.390
+wenn tatsächlich die Summe
+dann nicht größer als k(s) ist.
+
+0:25:07.390,0:25:19.420
+Die Summe der aktuell in s
+liegenden Marken plus dieser Zahl n.
+
+0:25:19.420,0:25:27.070
+Diese drei Schritte, diese drei
+Ideen/Anwendungen sorgen dafür,
+
+0:25:27.070,0:25:29.560
+dass das gewünschte Verhalten eintritt.
+
+0:25:29.560,0:25:35.230
+Wenn man hier noch genau hinschaut,
+sieht man, dass etwas merkwürdig
+
+0:25:35.230,0:25:37.960
+scheint, dass der Fall "gleich null"
+überhaupt nicht berücksichtigt wird.
+
+0:25:37.960,0:25:40.630
+Es wird nur gesagt, was wir
+machen, wenn diese Differenz
+
+0:25:40.630,0:25:43.840
+negativ ist, und was wir machen,
+wenn diese Differenz positiv ist.
+
+0:25:43.840,0:25:46.090
+Was machen wir, wenn die
+Differenz gleich null ist?
+
+0:25:46.090,0:25:47.590
+Dann machen wir gar nichts.
+
+0:25:47.590,0:25:48.520
+Warum nicht?
+
+0:25:48.520,0:25:55.180
+Das wäre dann eine Kombination
+von Transition t und Stelle s,
+
+0:25:55.180,0:26:00.490
+so dass t aus s genauso viele
+Marken entnimmt wie dort hineinlegt.
+
+0:26:00.490,0:26:03.190
+Das könnte entweder bedeuten, dass
+t mit s gar nichts zu tun hat.
+
+0:26:03.190,0:26:07.990
+Also wenn diese beiden Werte beide null
+sind, dann gibt es keine Veranlassung,
+
+0:26:07.990,0:26:11.440
+irgendwie zusätzliche Bedingungen einzuführen.
+
+0:26:11.440,0:26:12.910
+Denn dann hat t mit s gar nichts zu tun.
+
+0:26:12.910,0:26:15.610
+Oder es könnte bedeuten, dass tatsächlich so eine
+
+0:26:15.610,0:26:21.160
+Schlinge vorliegt, wo t sowohl Marken
+aus s entnimmt als auch dort ablegt.
+
+0:26:21.160,0:26:22.720
+Und zwar sogar mit dem gleichen Wert.
+
+0:26:22.720,0:26:27.550
+Aber dann ändert sich
+sozusagen in der Bilanz nichts.
+
+0:26:27.550,0:26:32.530
+Es ändert nichts daran, ob die
+Kapazität eingehalten wird.
+
+0:26:32.530,0:26:36.550
+Wenn t aus s zwei Marken entnimmt
+und zwei Marken dort ablegt,
+
+0:26:36.550,0:26:40.660
+dann kann das nicht dazu führen, dass
+die Kapazitätsgrenze überschritten wird.
+
+0:26:40.660,0:26:43.270
+Denn t macht dann netto gar nichts mit s.
+
+0:26:43.270,0:26:49.300
+Dann brauchen wir auch keine weitere Bedingung
+oder weitere Kante in das Petrinetz einführen.
+
+0:26:49.300,0:26:51.550
+Deswegen muss man den Fall
+nicht zusätzlich betrachten.
+
+0:26:51.550,0:26:55.450
+Man muss nur mit diesen Fällen
+umgehen, die hier abgedeckt sind.
+
+0:27:00.100,0:27:00.940
+Was wird dadurch erreicht?
+
+0:27:00.940,0:27:07.930
+Das, was ich als Idee motiviert hatte,
+bleibt dann sozusagen als Garantie erhalten.
+
+0:27:07.930,0:27:16.300
+Also nicht nur für die Startmarkierung m0, sondern
+nach der Konstruktion von der vorigen Folie gilt
+
+0:27:16.300,0:27:22.630
+für jede erreichbare Markierung, dass
+m(s) plus m(s-quer) genau k(s) ist.
+
+0:27:23.470,0:27:27.100
+Das ist genau das, was wir erreichen
+wollen; und mit der Konstruktion erreichen.
+
+0:27:30.490,0:27:32.500
+Das ist die Invariante, die Idee, die hier stand.
+
+0:27:32.500,0:27:41.710
+Und die Tatsache, dass wir zusätzliche
+Kanten einfügen zwischen Transitionen und
+
+0:27:41.710,0:27:47.410
+Komplementstellen sorgt dafür, dass eine
+Transition t nur schaltbar ist, wenn die
+
+0:27:47.410,0:27:50.470
+Kapazitäten in ihren Nachbedingungsstellen
+noch nicht ausgeschöpft sind.
+
+0:27:51.760,0:27:59.650
+Weil wir t nur schalten lassen, wenn letztlich
+noch genügend Restkapazitäten da sind.
+
+0:27:59.650,0:28:04.900
+Und das wird über die Komplementstellen
+geprüft/abgefragt/garantiert.
+
+0:28:04.900,0:28:13.960
+Insbesondere in dem Fall, wo t etwas in eine
+Stelle hineinlegt, wird das eben nur erlaubt,
+
+0:28:13.960,0:28:17.830
+wenn entsprechend viele Marken aus der
+Komplementstelle entnommen werden können.
+
+0:28:18.580,0:28:20.470
+Wenn nicht, dann würde t nicht schalten können.
+
+0:28:20.470,0:28:24.460
+Und zwar nicht wegen irgendeiner
+Änderung der Semantik von Petrinetzen,
+
+0:28:24.460,0:28:26.530
+sondern einfach durch diese
+zugefügten Transitionsabhängigkeiten.
+
+0:28:26.530,0:28:29.830
+Transitionen sind nicht hinzukommen.
+
+0:28:29.830,0:28:34.735
+Es sind Stellen hinzukommen, aber eben
+auch neue Bedingungen an die Transitionen.
+
+0:28:34.735,0:28:41.590
+Wir beweisen das jetzt nicht,
+dass dies funktioniert.
+
+0:28:41.590,0:28:44.406
+Das können Sie mir glauben oder
+an vielen Beispielen ausprobieren.
+
+0:28:44.406,0:28:47.920
+Sie können sich auch überlegen,
+warum das allgemein funktioniert.
+
+0:28:47.920,0:28:49.840
+Fakt ist, es funktioniert.
+
+0:28:52.600,0:28:53.887
+Machen wir das mal an einem Beispiel.
+
+0:28:53.887,0:28:59.020
+Im Übungsbetrieb sollen Sie das
+natürlich dann auch mal selber tun.
+
+0:28:59.020,0:29:03.010
+Also gucken wir uns das Petrinetz
+an, das wir hier hatten.
+
+0:29:03.010,0:29:04.360
+Nämlich das war das Petrinetz.
+
+0:29:04.360,0:29:06.010
+Wenn wir nur den schwarzen Teil anschauen.
+
+0:29:06.010,0:29:08.890
+Da gab es in diesem Petrinetz
+den roten Teil noch nicht,
+
+0:29:08.890,0:29:13.840
+und hier stand eine 2 dran und hier stand eine
+1 dran, als diese zusätzlichen Annotationen.
+
+0:29:13.840,0:29:16.870
+Die darf es bei einem normalen
+Petrinetz nicht geben.
+
+0:29:16.870,0:29:18.430
+Also sind sie jetzt hier verschwunden.
+
+0:29:18.430,0:29:23.320
+Aber stattdessen wurden eben zum einen
+die Komplementstellen eingeführt,
+
+0:29:23.320,0:29:25.720
+zum anderen zusätzliche Pfeile.
+
+0:29:28.000,0:29:30.160
+Und wie wird hier vorgegangen?
+
+0:29:30.730,0:29:35.350
+Es gibt die Komplementstelle zu
+s1, und die enthält eine Marke.
+
+0:29:35.350,0:29:35.680
+Warum?
+
+0:29:35.680,0:29:40.240
+Weil s1 zwei Marken enthalten dürfte, in
+der Anfangsmarkierung aber nur eine enthält.
+
+0:29:40.240,0:29:44.200
+Also wird diese "Reservemarke"
+in die Komplementstelle gelegt.
+
+0:29:44.200,0:29:48.250
+Bei s2 hingegen liegt in der
+Anfangsmarkierung eine Marke,
+
+0:29:48.250,0:29:50.440
+und dort darf auch jemals nur eine Marke liegen.
+
+0:29:51.070,0:29:54.160
+Deswegen gibt es keine Reservemarken
+auf der Komplementstelle.
+
+0:29:54.940,0:29:59.050
+Das erklärt, warum s1-quer und
+s2-quer genau so aussehen und
+
+0:29:59.050,0:30:04.480
+entsprechend Marken tragen (bzw.
+s2-quer gerade keine Marken trägt).
+
+0:30:04.480,0:30:06.520
+Und was gilt für die Übergänge?
+
+0:30:06.520,0:30:09.730
+Wir schauen uns jede Kombination von s und t an.
+
+0:30:09.730,0:30:11.620
+Also zum Beispiel s1 und t1.
+
+0:30:11.620,0:30:18.512
+Die s1 verliert netto eine Marke an t1.
+
+0:30:18.512,0:30:21.430
+Denn t1 entnimmt aus s1 genau eine
+Marke und legt nichts dort ab.
+
+0:30:21.430,0:30:33.660
+Deswegen muss gemäß der Konstruktion von hier t1
+in die Komplementstelle zu s1 eine Marke ablegen.
+
+0:30:33.660,0:30:39.960
+Weil t1 von hier von s1 eine Marke entnimmt,
+muss t1 in s1-quer eine Marke ablegen.
+
+0:30:39.960,0:30:41.970
+Deswegen gibt es diesen Pfeil.
+
+0:30:41.970,0:30:48.990
+Das heißt nicht, dass t1 nicht auch
+weiterhin eine Marke in s2 ablegt.
+
+0:30:49.680,0:30:54.870
+Also dieser existierende schwarze
+Ausgang, der t1 verlässt, bleibt bestehen.
+
+0:30:54.870,0:30:57.390
+Es kommt einfach ein Ausgang hinzu.
+
+0:30:57.390,0:31:02.965
+Nämlich wenn t1 eine Marke von s1
+entnimmt, legt es eine Marke in s1-quer ab.
+
+0:31:02.965,0:31:10.710
+Dann hieße das nach diesem Schalten
+dann (wenn es denn möglich wäre,
+
+0:31:10.710,0:31:14.400
+weil hier noch Platz wäre; was im Moment
+nicht der Fall ist), dass dann eine Marke
+
+0:31:14.400,0:31:18.570
+von s1 zu s2 wandern würde, aber auch
+eine Marke in s1-quer gelegt wird.
+
+0:31:18.570,0:31:24.120
+Und das ist jetzt für jeden
+dieser Pfeile genauso erklärt.
+
+0:31:24.120,0:31:28.050
+Jetzt gucken wir uns t1 und s2 an.
+
+0:31:28.050,0:31:32.670
+Da sehen wir, dass t1 netto
+eine Marke in s2 ablegt,
+
+0:31:32.670,0:31:35.760
+denn t1 entnimmt nichts aus
+s2, legt dort aber etwas ab.
+
+0:31:35.760,0:31:40.500
+Also t1 fügt netto s2 eine Marke hinzu.
+
+0:31:40.500,0:31:44.610
+Deswegen musst t1 aus
+s2-quer eine Marke entnehmen.
+
+0:31:44.610,0:31:48.960
+Das begründet und erzwingt diesen Pfeil hier.
+
+0:31:51.060,0:31:53.940
+Für t2 und s1, sowie s2, ist das ganz analog.
+
+0:31:53.940,0:32:00.510
+Also t2 legt eine Marke in s1 ab, muss
+deswegen eine Marke aus s1-quer entnehmen.
+
+0:32:00.510,0:32:03.750
+Und t2 entnimmt eine Marke aus s2,
+
+0:32:03.750,0:32:08.400
+muss deswegen eine Marke in s2-quer
+ablegen (das ist dieser Pfeil).
+
+0:32:08.400,0:32:10.980
+Dann haben wir noch t3 zu betrachten.
+
+0:32:10.980,0:32:13.830
+Die t3 und s1 haben nichts miteinander zu tun.
+
+0:32:13.830,0:32:17.460
+Es gibt zwischen t3 und s1 weder einen
+Eingangs- noch einen Ausgangspfeil.
+
+0:32:17.460,0:32:23.940
+Deswegen gibt es auch keine Verbindung
+zwischen t3 und der Komplementstelle von s1.
+
+0:32:23.940,0:32:30.330
+Das ist genau ein möglicher Fall,
+der hier dem Fall entspricht,
+
+0:32:30.330,0:32:34.680
+dass n = 0 wäre und eben weder
+negativ noch positiv wäre.
+
+0:32:34.680,0:32:40.650
+Das erklärt, warum es zwischen t3
+und s1-quer keine Verbindung gibt.
+
+0:32:40.650,0:32:45.170
+Hingegen t3 und s2 sind relevant.
+
+0:32:45.170,0:32:50.540
+Denn t3 entnimmt aus s2 eine Marke, muss
+deswegen eine Marke in s2-quer ablegen.
+
+0:32:53.960,0:32:57.800
+Zwischen den zwei Stellen und drei
+Transitionen gibt es sechs Kombinationen.
+
+0:32:57.800,0:33:03.830
+Die s1-t3-Kombination führt zu
+keiner zusätzlichen Verbindung,
+
+0:33:03.830,0:33:09.410
+die anderen fünf führen jeweils zu einem Pfeil
+(genau die fünf roten Pfeile, die wir sehen).
+
+0:33:14.030,0:33:14.810
+Und was haben wir erreicht?
+
+0:33:14.810,0:33:18.740
+Ich habe gerade eben schon den
+Erreichbarkeitsgraphen kurz aufblitzen lassen.
+
+0:33:18.740,0:33:20.720
+Hier ist er in Gänze.
+
+0:33:20.720,0:33:27.290
+Zunächst sehen wir, dass der genauso
+aussieht (bis natürlich jetzt auf die
+
+0:33:27.290,0:33:36.860
+Angabe der Komplementstellen; davon abgesehen)
+wie der hier gesehene Erreichbarkeitsgraph,
+
+0:33:36.860,0:33:42.200
+der allerdings davon abhing, dass wir
+diese spezielle Semantik betrachten.
+
+0:33:42.200,0:33:47.450
+Wo wir extra darauf achten, wenn wir zum Beispiel
+t1 aus dieser Markierung schalten wollen,
+
+0:33:47.450,0:33:54.170
+dass wir das sein lassen, wenn dadurch
+die Anzahl der Marken in s2 zu groß würde.
+
+0:33:54.170,0:34:05.750
+Genau das müssen wir hier nicht
+irgendwie explizit berücksichtigen.
+
+0:34:05.750,0:34:10.040
+Sondern wenn wir die ganz normale Semantik
+des Schaltens von Petrinetzen betrachten,
+
+0:34:10.040,0:34:16.640
+ist auch hier in der Startmarkierung (die
+jene ist durch Hinzufügen dieser beiden
+
+0:34:16.640,0:34:22.580
+Komplementstellen und ihrer jeweiligen
+Einträge) automatisch sichergestellt,
+
+0:34:22.580,0:34:26.030
+dass in dieser Markierung t1 nicht schaltbar ist.
+
+0:34:29.000,0:34:32.060
+Denn was müsste sein, damit t1 schalten darf?
+
+0:34:32.060,0:34:34.490
+Es müsste eine Marke aus s1 nehmen können.
+
+0:34:34.490,0:34:36.440
+Das kann es natürlich, denn da liegt eine Marke.
+
+0:34:36.440,0:34:39.710
+Es müsste aber auch eine Marke
+aus s2-quer nehmen können.
+
+0:34:39.710,0:34:40.910
+Und das kann es eben gerade nicht.
+
+0:34:40.910,0:34:45.290
+Denn s2-quer ist diese Stelle
+hier, und dort liegt keine Marke.
+
+0:34:45.290,0:34:47.300
+Das heißt, es gibt keine Reserve mehr,
+
+0:34:47.300,0:34:52.130
+die irgendwie erlauben würde,
+noch etwas auf s2 zu legen.
+
+0:34:52.130,0:34:57.630
+Also wäre hier effektiv verhindert,
+dass in dieser Markierung t1 schaltet.
+
+0:34:57.630,0:35:02.160
+Einfach durch, in dem Fall, diese Verbindung.
+
+0:35:03.030,0:35:09.090
+Auf gleiche Weise lassen die anderen
+Verbindungen jeweils das Schalten zu.
+
+0:35:09.090,0:35:14.760
+Also zum Beispiel darf in dieser
+Startmarkierung durchaus t2 geschaltet werden.
+
+0:35:18.390,0:35:27.180
+Auch im gleichen Beispiel mit der anderen
+Semantik betrachtet, war t2 hier erlaubt,
+
+0:35:27.180,0:35:34.530
+weil es nicht irgendwie die Kapazität
+auf einer der Stellen verletzt.
+
+0:35:34.530,0:35:40.590
+Und das ist hier automatisch auch
+gegeben, denn t2 kann schalten.
+
+0:35:40.590,0:35:43.530
+Das t2 möchte gern eine Marke in s1 legen.
+
+0:35:43.530,0:35:47.400
+Da wird überprüft, ob überhaupt noch
+Potenzial dafür da ist, also überprüft,
+
+0:35:47.400,0:35:50.790
+ob in s1-quer denn eine Marke liegt.
+
+0:35:50.790,0:35:51.360
+Das ist hier der Fall.
+
+0:35:52.380,0:35:56.100
+Hier liegt genau deswegen noch eine
+Marke, weil die Gesamtkapazität,
+
+0:35:56.100,0:36:00.210
+die für s1 erlaubt ist, mit
+dieser 1 nicht ausgeschöpft war.
+
+0:36:00.210,0:36:02.010
+Das wird durch diese 1 dargestellt.
+
+0:36:02.010,0:36:05.490
+Und deswegen ist das Schalten
+von t2 möglich und führt dazu,
+
+0:36:05.490,0:36:11.220
+dass danach zwei Marken auf s1 liegen
+und keine Marke mehr auf s1-quer.
+
+0:36:11.220,0:36:15.420
+Also ein weiteres Ablegen von einer
+Marke in s1 wäre nicht erlaubt.
+
+0:36:16.260,0:36:21.600
+Das würde hier verhindert (dass
+man weitere Marken auf s1 legt),
+
+0:36:21.600,0:36:25.380
+weil auf s1-quer gar keine
+Reservemarken mehr liegen.
+
+0:36:26.790,0:36:28.350
+Wenn wir jetzt einfach den Erreichbarkeitsgraphen
+
+0:36:28.350,0:36:33.390
+ganz normal aufbauen für dieses hier links
+gezeigte Beispiel, kommt dieser Graph heraus.
+
+0:36:33.390,0:36:40.590
+Und der ist bis auf diese Angaben für
+die Komplementstellen äquivalent zu dem
+
+0:36:40.590,0:36:45.960
+gewünschten Erreichbarkeitsgraphen, der sich mit
+der speziell aufgebauten Semantik ergeben hat.
+
+0:36:50.320,0:36:56.200
+Also haben wir unser Ziel erreicht,
+auch ohne eine neue Art von Petrinetzen.
+
+0:36:56.200,0:37:00.070
+Einfach durch geschickten
+Einsatz der Komplementstellen.
+
+0:37:00.070,0:37:03.910
+Das können Sie als einen Trick
+sehen, als Modellierungsmuster,
+
+0:37:03.910,0:37:06.160
+oder als eine systematische Konstruktion,
+
+0:37:06.160,0:37:11.050
+die zu jedem Petrinetz mit Kapazitäten ein
+passendes Petrinetz ohne Kapazitäten erzeugt.

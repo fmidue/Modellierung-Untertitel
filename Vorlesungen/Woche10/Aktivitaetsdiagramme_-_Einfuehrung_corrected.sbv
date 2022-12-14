@@ -1,0 +1,407 @@
+0:00:00.000,0:00:07.770
+After a whole series of content and
+videos on Petri nets, now back to UML.
+
+0:00:07.770,0:00:13.350
+We have dealt with UML
+for class and object diagrams, i.e.
+
+0:00:13.350,0:00:15.210
+for
+static modeling.
+
+0:00:15.210,0:00:19.920
+Whereas on dynamic modeling, we've
+actually had Petri nets so far,
+
+0:00:19.920,0:00:22.950
+and related concepts
+reachability graphs, etc.
+
+0:00:22.950,0:00:29.280
+And then at the beginning of
+the lecture the flat state diagrams, that
+
+0:00:29.280,0:00:33.960
+was also dynamic modeling, yes we also
+used that to describe or model processes.
+
+0:00:34.920,0:00:40.440
+So, we have not yet looked at
+dynamic aspects in these two respects with UML.
+
+0:00:40.440,0:00:48.330
+If you go back to the classifications
+from the first week of the lecture and
+
+0:00:48.330,0:00:50.730
+look at what kind
+of models we considered:
+
+0:00:50.730,0:00:55.710
+Under the dynamic aspects, there
+was both qualitative and quantitative models.
+
+0:00:55.710,0:00:59.640
+So especially with the Petri nets
+through the capacities that we looked at
+
+0:00:59.640,0:01:02.670
+last, we also have
+modeling in quantitative terms.
+
+0:01:02.670,0:01:06.810
+We looked at that
+for quite different examples.
+
+0:01:06.810,0:01:09.630
+Yes so that not
+somehow restricted to software
+
+0:01:09.630,0:01:14.340
+systems, but especially the examples were
+often somehow not necessarily software driven.
+
+0:01:14.340,0:01:18.630
+If we look at what
+kind of modeling we did,
+
+0:01:18.630,0:01:21.690
+it was essentially
+white box modeling.
+
+0:01:21.690,0:01:26.430
+So really capturing the
+inside of the systems
+
+0:01:26.430,0:01:31.650
+that were described, by the states
+or by specifying places and transitions.
+
+0:01:31.650,0:01:34.320
+That was really about
+the inner workings of systems.
+
+0:01:34.320,0:01:39.750
+And in sum, with the Petri nets, it was
+important to us, and that kept us busy, that we
+
+0:01:39.750,0:01:44.700
+did this relatively formally, or the Petri
+nets have a formal syntax and also semantics.
+
+0:01:44.700,0:01:48.030
+In other words, they have very
+fixed rules according to which they
+
+0:01:48.030,0:01:53.280
+are structured and also clear semantic
+mathematical descriptions of what an execution
+
+0:01:53.280,0:01:56.760
+of a Petri net looks like
+or what formal properties it has.
+
+0:01:58.050,0:02:00.750
+So that's what we've done
+so far, in dynamic terms.
+
+0:02:00.750,0:02:06.360
+UML, on the other hand, we have
+so far used explicitly only for static modeling.
+
+0:02:06.360,0:02:07.860
+I had once very briefly
+shown a UML activity diagram
+
+0:02:07.860,0:02:11.550
+sometime at the beginning
+of the Petri net chapter.
+
+0:02:11.550,0:02:13.620
+We will see that
+again in a moment.
+
+0:02:13.620,0:02:18.810
+This is our introduction
+to dynamic modeling with UML.
+
+0:02:18.810,0:02:22.140
+Yes, so
+keyword: activity diagrams.
+
+0:02:22.140,0:02:26.520
+These are UML diagrams which,
+unlike class and object diagrams, do
+
+0:02:26.520,0:02:31.170
+not describe the static
+structure of a software system,
+
+0:02:31.170,0:02:34.890
+for example, but instead are
+used to model flow charts, sequences
+
+0:02:34.890,0:02:38.910
+of actions, parallelism of
+actions, i.e. such dynamic aspects.
+
+0:02:38.910,0:02:41.850
+Concurrency also plays
+a role here.
+
+0:02:41.850,0:02:46.200
+Not on the formal level like
+in Petri nets, but as an
+
+0:02:46.200,0:02:52.590
+idea that actions should
+be executed independently or concurrently/parallel.
+
+0:02:52.590,0:02:59.340
+There are many applications for
+activity diagrams in software design.
+
+0:02:59.340,0:03:05.790
+More generally also quite with partly
+somewhat different notation, but basically corresponding to
+
+0:03:05.790,0:03:12.270
+the UML activity diagrams,
+for modeling business processes,
+
+0:03:12.270,0:03:17.610
+workflows or just the case of
+software modeling to describe "use cases".
+
+0:03:17.610,0:03:21.720
+So, in general, whenever
+it is about summarizing
+
+0:03:21.720,0:03:28.470
+single steps in certain
+typical ways to overall processes.
+
+0:03:28.470,0:03:34.350
+So, if there is a system
+that performs any single steps and it
+
+0:03:34.350,0:03:38.460
+should be described which types, which
+sequences of steps should be allowed.
+
+0:03:38.460,0:03:44.070
+And this of course does not correspond to
+the Petri nets, where we also had a focus
+
+0:03:44.070,0:03:49.110
+on which sequences of transitions should be
+allowed for a system to be modeled.
+
+0:03:49.110,0:03:54.323
+And in fact, activity diagrams are in
+many ways very similar to Petri nets.
+
+0:03:54.323,0:03:58.230
+Yes we will actually
+make a strong connection
+
+0:03:58.230,0:04:02.250
+by translating activity
+diagrams into Petri nets.
+
+0:04:02.250,0:04:05.250
+So then will see
+what the correspondence looks like.
+
+0:04:05.250,0:04:07.380
+In fact,
+activity diagrams,
+
+0:04:07.380,0:04:14.220
+as is common in UML, are richer
+than now this formal mechanism of Petri nets.
+
+0:04:14.220,0:04:18.870
+They provide more modeling possibilities, so
+also more syntax, more different kinds
+
+0:04:18.870,0:04:21.957
+of nodes, not just places and
+transitions, as in Petri nets Petri nets.
+
+0:04:21.957,0:04:26.010
+Where that was sort of a
+very simple, very basic representation only.
+
+0:04:26.010,0:04:30.180
+So we'll see in a moment that
+there are more elements there in activity diagrams.
+
+0:04:30.180,0:04:35.070
+The flip side is that
+they don't have full formal semantics.
+
+0:04:35.070,0:04:38.820
+So some of the formal questions
+that we can ask about Petri nets
+
+0:04:38.820,0:04:43.440
+and also answer unambiguously because
+they are just as mathematically precise.
+
+0:04:43.440,0:04:48.000
+Will not be possible for
+activity diagrams in the same way.
+
+0:04:48.000,0:04:55.320
+And it is not intended, because
+activity diagrams have a descriptive character
+
+0:04:55.320,0:05:03.420
+in software modeling and should not
+necessarily serve the formal analysis first.
+
+0:05:03.420,0:05:09.300
+O.k., so activity
+diagrams and actually
+
+0:05:09.300,0:05:16.080
+this will first show
+in simply an activity diagram.
+
+0:05:16.080,0:05:19.830
+And then play around
+with that a little bit.
+
+0:05:19.830,0:05:23.910
+Again, in a separate video,
+to capture, so to speak,
+
+0:05:23.910,0:05:27.510
+what can actually
+be the mentioned single
+
+0:05:27.510,0:05:32.580
+steps or sequences of single
+steps for this concrete activity diagram.
+
+0:05:32.580,0:05:36.210
+If we first look
+at it superficially, this is
+
+0:05:36.210,0:05:41.220
+not a software example, but somehow
+a house construction is to be modeled.
+
+0:05:41.220,0:05:43.230
+There is a
+beginning and an end.
+
+0:05:43.230,0:05:47.250
+You can already guess that here by
+the arrows and their order or direction.
+
+0:05:47.250,0:05:50.820
+And there are
+single actions, such nodes.
+
+0:05:50.820,0:05:54.960
+Of course it looks a
+bit like a flat state diagram.
+
+0:05:54.960,0:05:56.655
+However, we can
+already see differences.
+
+0:05:56.655,0:05:58.350
+We see, for example,
+that there are different
+
+0:05:58.350,0:06:02.490
+types of nodes that
+will probably have different meanings.
+
+0:06:02.490,0:06:05.640
+And such special symbols
+that didn't appear in our
+
+0:06:05.640,0:06:08.850
+flat state diagram at the
+beginning of the lecture either.
+
+0:06:08.850,0:06:10.800
+Then there was just
+nodes and arrows in between.
+
+0:06:10.800,0:06:14.160
+So here there are some special
+elements, but if you look naively,
+
+0:06:14.160,0:06:16.170
+you can imagine
+that there are nodes
+
+0:06:16.170,0:06:22.320
+and arrows like in
+a flat state diagram.
+
+0:06:22.320,0:06:24.630
+And one carries out just
+here such actions: Choose a
+
+0:06:24.630,0:06:27.630
+building site, look for an architect,
+create a plan, submit a plan.
+
+0:06:27.630,0:06:31.740
+Well, and then
+there are special display
+
+0:06:32.570,0:06:34.880
+elements that we haven't
+seen in Petri nets yet.
+
+0:06:34.880,0:06:38.480
+And here you can already guess
+that maybe something is happening in parallel.
+
+0:06:38.480,0:06:40.790
+Simply by the kind of representation and
+that is of course something that did
+
+0:06:40.790,0:06:42.770
+not exist in
+flat state diagrams.
+
+0:06:42.770,0:06:44.840
+There was always only
+one current state and
+
+0:06:44.840,0:06:47.570
+then you moved through
+the flat state diagram.
+
+0:06:47.570,0:06:49.070
+And there has to be
+something more happening here somehow,
+
+0:06:49.070,0:06:55.490
+what exactly we'll look at in
+a moment as we play through.
+
+0:06:55.490,0:06:57.110
+But, what I was
+trying to point out was
+
+0:06:57.110,0:07:01.580
+just that there are these different types of
+elements that each have a very specific role.
+
+0:07:01.580,0:07:09.530
+Which we then need to describe
+when we look at activity diagrams in
+
+0:07:09.530,0:07:11.840
+more detail and then be
+able to create those ourselves.
