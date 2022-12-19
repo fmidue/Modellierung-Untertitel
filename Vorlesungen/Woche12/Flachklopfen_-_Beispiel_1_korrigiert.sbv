@@ -1,0 +1,460 @@
+0:00:00.000,0:00:08.820
+Eingangs hatte ich motiviert, dass wir
+diese UML-Zustandsdiagramme betrachten.
+
+0:00:08.820,0:00:12.390
+Und dass viele von den Features, die sie
+unterstützen, vor allem dazu gedacht sind,
+
+0:00:12.390,0:00:16.020
+Diagramme kompakt und übersichtlich zu notieren,
+
+0:00:16.020,0:00:22.170
+also nicht flache Zustandsdiagramme angeben
+zu müssen mit sehr vielen Zuständen.
+
+0:00:23.280,0:00:25.860
+Diese Kompaktheit, die hat auch ein Gegenstück.
+
+0:00:25.860,0:00:30.090
+Nämlich man kann auch aus einem solchen
+kompakten UML-Zustandsdiagramm wieder
+
+0:00:30.090,0:00:32.550
+ein flaches Zustandsdiagramm
+machen, durch Flachklopfen.
+
+0:00:33.570,0:00:38.880
+Das will ich abschließend hier noch
+betrachten, in drei Videos mit Beispielen.
+
+0:00:41.280,0:00:44.580
+Man kann ein UML-Zustandsdiagramm
+nehmen und das flachklopfen,
+
+0:00:44.580,0:00:49.860
+dabei die zusammengesetzten Zustände (ob
+nun hierarchische oder durch Regionen
+
+0:00:49.860,0:00:55.080
+gebildete) auflösen, und erhält dadurch
+äquivalente flache Zustandsdiagramme,
+
+0:00:55.080,0:00:58.230
+also Zustandsdiagramme, die all
+diese Features nicht benutzen.
+
+0:00:58.230,0:01:02.880
+Äquivalent in dem Sinne, dass
+die Semantik die gleiche ist,
+
+0:01:02.880,0:01:04.830
+dass sie die gleichen Übergänge erlauben.
+
+0:01:04.830,0:01:09.360
+So dass man im Grunde genommen auch mit diesem
+flachen Zustandsdiagramm hätte arbeiten können,
+
+0:01:09.360,0:01:15.240
+das aber nicht möchte, weil man dann all diese
+Vorteile der kompakten Darstellung verliert.
+
+0:01:15.240,0:01:20.040
+Denn allgemein wird dieses flache
+Zustandsdiagramm eben sehr viel
+
+0:01:20.040,0:01:22.770
+mehr Zustände und/oder Transitionen enthalten.
+
+0:01:22.770,0:01:29.400
+Ein bisschen entspricht das dem Übergang von
+Petrinetzen zu deren Erreichbarkeitsgraphen.
+
+0:01:29.970,0:01:33.780
+Wo auch der Erreichbarkeitsgraph zu einem
+Petrinetz sehr viel größer sein kann,
+
+0:01:33.780,0:01:38.400
+weil das Petrinetz eine spezielle
+kompakte Art ist, Verhalten darzustellen.
+
+0:01:38.400,0:01:41.930
+Und so ähnlich kann man sich
+das auch hier anschauen.
+
+0:01:41.930,0:01:46.735
+Ich werde das nicht formal machen.
+
+0:01:46.735,0:01:51.850
+Wir werden uns einfach drei Beispiele ansehen
+und an denen die Strategien erläutern,
+
+0:01:51.850,0:01:56.410
+die Sie dann auch auf andere Beispiele anwenden
+können sollen, mit den gleichen Features.
+
+0:01:56.410,0:01:59.500
+Wir werden nicht alle Features von
+UML-Zustandsdiagrammen betrachten,
+
+0:01:59.500,0:02:02.530
+auch nicht alle von uns gesehenen
+oder Kombinationen davon.
+
+0:02:02.530,0:02:04.030
+Ganz bewusst.
+
+0:02:04.030,0:02:09.010
+Und natürlich müssen Sie dann auch für
+Übungen und später für die Klausur nur
+
+0:02:09.010,0:02:14.320
+das selbst anwenden können, was hier
+in den Beispielen auch auftritt.
+
+0:02:17.590,0:02:18.880
+Machen wir das konkret für ein Beispiel.
+
+0:02:18.880,0:02:22.720
+Hier ist ein UML-Zustandsdiagramm,
+offenkundig kein flaches Zustandsdiagramm,
+
+0:02:22.720,0:02:25.900
+weil es so einen hierarchischen Zustand verwendet.
+
+0:02:25.900,0:02:31.270
+Was dieses Beispiel auszeichnet, was hier
+sozusagen noch recht einfach ist im Vergleich
+
+0:02:31.270,0:02:37.360
+zu dem, was UML-Zustandsdiagramme insgesamt
+könnten, ist, dass hier keine Regionen auftauchen.
+
+0:02:37.360,0:02:40.870
+Also kein Regionen-Zustand, nur
+tatsächlich so ein hierarchischer Zustand.
+
+0:02:40.870,0:02:43.990
+Und es wird auch keine Historie
+verwendet in diesem Beispiel.
+
+0:02:43.990,0:02:45.460
+In anderen Beispielen gleich wird das anders sein.
+
+0:02:47.590,0:02:49.150
+Wie wäre hier die Strategie?
+
+0:02:49.150,0:02:51.550
+Wie können wir daraus ein
+flaches Zustandsdiagramm machen?
+
+0:02:51.550,0:02:54.310
+Nun, offenkundig müssen wir
+diese Hierarchie entfernen.
+
+0:02:56.470,0:02:58.360
+Wir könnten sagen, wir behalten einfach
+die einfachen Zustände A, B, C, D.
+
+0:02:58.360,0:03:02.020
+Das kann es aber natürlich noch nicht
+sein, dann würden wir insbesondere diese
+
+0:03:02.020,0:03:08.140
+Ein- und Austritte zu so einem hierarchischen
+Zustand irgendwie ignorieren oder verlieren.
+
+0:03:08.140,0:03:13.630
+Die Grundidee wird sein, die einfachen
+Zustände behalten (A, B, C, D werden in
+
+0:03:13.630,0:03:18.850
+dem flachen Zustandsraum einfach nach wie
+vor auftauchen); diese Ein- und Austritte
+
+0:03:18.850,0:03:21.580
+an dem Rand von so einem hierarchischen
+Zustand, die müssen übersetzt werden.
+
+0:03:21.580,0:03:24.040
+Also wir müssen einfach
+wissen, was das denn bedeutet,
+
+0:03:24.040,0:03:27.876
+aus so einem Gesamtzustand
+auszutreten mit Trigger E.
+
+0:03:27.876,0:03:30.850
+Das bedeutet (das wissen wir, wenn wir
+zurückgehen würden auf die entsprechenden
+
+0:03:30.850,0:03:36.280
+Folien), dass wir sowohl aus C als
+auch aus D zu A kommen könnten mit E.
+
+0:03:36.280,0:03:43.630
+D.h., aus diesem einen Übergang hier (in
+dem UML-Zustandsdiagramm) müssen in dem
+
+0:03:43.630,0:03:45.640
+flachen Zustandsdiagramm
+dann zwei Übergänge werden.
+
+0:03:45.640,0:03:47.080
+Nämlich einer von C und einer von D.
+
+0:03:47.080,0:03:52.540
+Also genau da setzen wir ein, was wir über die
+Austritte und auch über die Eintritte wissen.
+
+0:03:52.540,0:03:55.990
+Also auch der Eintritt von A
+zu diesem komplexen Zustand.
+
+0:03:55.990,0:03:58.490
+Dann müssen wir wissen, was
+bedeutet so ein Standardeintritt?
+
+0:03:58.490,0:04:02.000
+Das bedeutet, dass wir hier
+den Startzustand nehmen würden.
+
+0:04:02.000,0:04:06.830
+D.h., daraus wird im flachen Zustandsdiagrammen
+direkt eine Verbindung von A zu C.
+
+0:04:06.830,0:04:10.280
+Da werden wir übersetzen, was denn diese Ein-
+
+0:04:10.280,0:04:13.250
+und Austritte am Rand solch eines
+hierarchischen Zustands bedeuten.
+
+0:04:15.380,0:04:18.110
+Übergänge, die gar nichts mit dieser Hierarchie zu
+
+0:04:18.110,0:04:21.260
+tun haben und die einfach zwischen einfachen
+Unterzuständen sind, die werden behalten.
+
+0:04:21.260,0:04:24.260
+Also dass wir von A nach B mit f gehen können.
+
+0:04:24.260,0:04:28.640
+Das ist in dem UML-Zustandsdiagramm so und
+da sind keine Hierarchien irgendwie im Spiel.
+
+0:04:28.640,0:04:34.340
+D.h., da wir diese einfachen Zustände A, B, C, D
+behalten haben, können wir auch solche Übergänge,
+
+0:04:34.340,0:04:41.570
+die nicht irgendwie den Rand eines hierarchischen
+Zustands betreffen, einfach behalten.
+
+0:04:43.670,0:04:48.530
+Dann hätten wir alles abgefrühstückt
+bis auf den Umgang mit Startzuständen.
+
+0:04:49.490,0:04:53.600
+Was wird der Startzustand eines
+zugehörigen flachen Zustandsdiagramms sein?
+
+0:04:53.600,0:04:54.830
+Und es kann nur einen haben.
+
+0:04:54.830,0:04:58.760
+Anders als im UML-Zustandsdiagramm, wo es mehrere
+Startzustände geben kann (nämlich in verschiedenen
+
+0:04:58.760,0:05:03.470
+Regionen oder verschiedenen Schachtelungsebenen),
+darf es in dem flachen nur noch einen geben.
+
+0:05:03.470,0:05:04.880
+Und das wird natürlich der äußerste sein.
+
+0:05:06.050,0:05:09.500
+Weil das hier in dem UML-Zustandsdiagramm
+der äußerste Startzustand ist,
+
+0:05:09.500,0:05:13.070
+bleibt er auch als Startzustand in
+dem flachen Zustandsdiagramm erhalten.
+
+0:05:13.070,0:05:18.530
+Hingegen etwa dieser Startzustand in dieser
+inneren Schachtelungsebene, der wird im
+
+0:05:18.530,0:05:20.180
+flachen Zustandsdiagramm nicht mehr auftauchen.
+
+0:05:20.180,0:05:24.620
+Der ist eventuell relevant bei der Übersetzung
+(also die Information, dass wir mit diesem
+
+0:05:24.620,0:05:29.660
+Übergang, was ein Standardeintritt ist, eigentlich
+zu C gehen würden, weil das der Startzustand ist).
+
+0:05:29.660,0:05:32.120
+Diese Information wird genutzt
+beim Erzeugen des Startzustands.
+
+0:05:32.120,0:05:37.550
+Aber dieser Knoten selbst muss in dem flachen
+Zustandsdiagramm dann nicht mehr auftauchen.
+
+0:05:42.060,0:05:43.346
+Was passiert?
+
+0:05:43.346,0:05:44.550
+Was wäre die Aussage?
+
+0:05:44.550,0:05:50.220
+Die Aussage war, die einfachen Zustände
+behalten (deswegen behalten wir A, B, C,
+
+0:05:50.220,0:05:54.450
+D), die Ein- und Austritte übersetzen
+(das werden wir gleich tun),
+
+0:05:54.450,0:06:02.130
+andere Übergänge zwischen diesen
+Zuständen einfach behalten.
+
+0:06:02.130,0:06:02.790
+Das können wir schon mal machen.
+
+0:06:02.790,0:06:09.420
+Wir werden sozusagen die Eingänge behalten,
+die einerseits diesem Startzustand hier,
+
+0:06:09.420,0:06:12.330
+dem äußersten Startzustand genügen
+oder entsprechen, aber insbesondere
+
+0:06:12.330,0:06:17.280
+auch diejenigen Übergänge, die nicht irgendwie am
+Rand eines solchen hierarchischen Zustands sind.
+
+0:06:17.280,0:06:19.950
+Also dieser wird behalten, dieser wird
+behalten, diese beiden werden behalten.
+
+0:06:19.950,0:06:22.410
+Das erklärt, warum wir diese Übergänge haben.
+
+0:06:23.370,0:06:28.110
+Und dann müssen wir nur noch die Übergänge
+übersetzen, die etwas mit dem Rand von einem
+
+0:06:28.110,0:06:32.790
+hierarchischen Zustand zu tun haben, also
+diesen e-Übergang und diesen a-Übergang.
+
+0:06:33.630,0:06:34.770
+Was ist da die jeweilige Übersetzung?
+
+0:06:34.770,0:06:39.030
+Für den a-Übergang wissen wir:
+
+0:06:39.030,0:06:42.390
+Das war ein Standardeintritt in
+diesen komplexen rechten Zustand.
+
+0:06:42.390,0:06:48.990
+Und wir wissen, dass wir da einfach beim
+Startzustand von der inneren Ebene fortsetzen.
+
+0:06:48.990,0:06:53.586
+Das war genau die Verbindung, die es hier gab.
+
+0:06:53.586,0:06:54.990
+Dann können wir danach auch
+diese Markierung entfernen,
+
+0:06:54.990,0:06:57.000
+weil sie nicht auf der äußersten Ebene war.
+
+0:06:57.000,0:06:59.910
+Sie bleibt also in dem flachen Zustandsdiagramm
+nicht erhalten, sollte aber benutzt werden,
+
+0:06:59.910,0:07:03.570
+um festzustellen, wo wir von A mit a hinkommen.
+
+0:07:05.850,0:07:08.100
+Das ist die Übersetzung dieses Teils.
+
+0:07:09.750,0:07:10.680
+Und dann müssen wir uns noch um e kümmern.
+
+0:07:10.680,0:07:16.440
+Das ist dieser Übergang, der ja vom Rand
+dieses komplexen Zustands zu A geht.
+
+0:07:20.430,0:07:24.460
+Das sind dann diese beiden Übergänge, die
+wir genau dahingehend übersetzen müssen,
+
+0:07:24.460,0:07:29.800
+dass man sowohl von C als auch von D
+zu diesem linken Zustand A kommen kann.
+
+0:07:34.240,0:07:37.390
+Und dann hätten wir das vollständig übersetzt.
+
+0:07:37.390,0:07:42.580
+Aus diesem UML-Zustandsdiagramm
+wird dieses flache Zustandsdiagramm,
+
+0:07:42.580,0:07:44.620
+wo keine Hierarchien mehr vorkommen.
+
+0:07:44.620,0:07:46.870
+Das ist ein ganz normales
+flaches Zustandsdiagramm.
+
+0:07:46.870,0:07:57.250
+Und der Hauptschritt war eben in dem
+konkreten Fall hier, diese eine Transition,
+
+0:07:57.250,0:07:59.650
+die von dem hierarchischen Zustand weg führte,
+
+0:07:59.650,0:08:02.740
+durch mehrere Transitionen zu ersetzen,
+die von den Zuständen ausgehen.
+
+0:08:02.740,0:08:07.270
+Das war die Übersetzung dieser
+einen konkreten Transition vom Rand.
+
+0:08:07.270,0:08:09.130
+Auch hier mit der haben wir was gemacht.
+
+0:08:09.130,0:08:11.050
+Nämlich das war eine Transition,
+
+0:08:11.050,0:08:15.760
+die zum Standardeintritt führte und
+dann in der Fortsetzung zu C führte.
+
+0:08:16.270,0:08:19.870
+Das haben wir auch hier eingesetzt.
+
+0:08:19.870,0:08:25.810
+Die Grundstrategie ist, alle diese Ein-
+und Austritte am Rand hierarchischer
+
+0:08:25.810,0:08:29.950
+Zustände geeignet zu übersetzen, und
+den Rest im Wesentlichen zu behalten.
+
+0:08:29.950,0:08:30.760
+So wie es hier steht.
+
+0:08:30.760,0:08:34.270
+Das ist der einfachste Fall, weil
+es auch das erste Beispiel war.

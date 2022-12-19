@@ -1,0 +1,722 @@
+0:00:01.860,0:00:04.200
+Kommen wir zum Kapitel Zustandsdiagramme.
+
+0:00:04.200,0:00:07.350
+Insbesondere UML-Zustandsdiagramme.
+
+0:00:07.350,0:00:14.610
+Flache Zustandsdiagramme hatten wir ja
+schon ganz zu Beginn der Vorlesung gesehen.
+
+0:00:14.610,0:00:22.950
+Und diese UML-Zustandsdiagramme (englisch: state
+diagrams/state machine diagrams/statecharts)
+
+0:00:23.610,0:00:29.040
+sind prinzipiell eng verwandt mit diesen
+bereits gesehenen flachen Zustandsdiagrammen.
+
+0:00:29.040,0:00:35.160
+Bieten aber insbesondere weitere
+Strukturierungsmöglichkeiten,
+
+0:00:35.160,0:00:36.360
+die wir gleich kennenlernen werden.
+
+0:00:36.360,0:00:38.970
+Zum Einsatz.
+
+0:00:38.970,0:00:45.630
+Zustandsdiagramme werden verwendet, wenn der Fokus
+
+0:00:45.630,0:00:49.890
+bei der Modellierung auf den Zuständen
+und Übergängen zwischen diesen liegt.
+
+0:00:49.890,0:00:52.800
+Also ein bisschen weg von dem, was
+die Aktivitätsdiagramme machen.
+
+0:00:53.460,0:00:58.440
+In gewisser Weise auch die Petrinetze
+nämlich auf Aktionsfolgen abzuzielen.
+
+0:00:58.440,0:01:00.870
+Also die Aktionen in den Vordergrund stellen.
+
+0:01:00.870,0:01:05.010
+Hier geht es eher um Zustände und
+Zustandsübergänge eines gegebenen Systems.
+
+0:01:05.010,0:01:09.060
+In gewisser Weise werden
+UML-Zustandsdiagramme eher
+
+0:01:09.060,0:01:11.220
+verwendet, wenn es keinen typischen Ablauf gibt.
+
+0:01:11.220,0:01:17.520
+Sondern der Fokus auf willkürlich
+auftretenden oder in beliebiger
+
+0:01:17.520,0:01:22.800
+Reihenfolge gleich wahrscheinlich
+auftreten Abfolgen und Ereignissen liegt.
+
+0:01:22.800,0:01:24.210
+Das heißt nicht, dass es nicht auch Systeme gibt,
+
+0:01:24.210,0:01:26.250
+die sinnvollerweise sowohl mit
+Petrinetzen/Aktivitätsdiagrammen,
+
+0:01:28.080,0:01:31.680
+als auch mit flachen oder
+UML-Zustandsdiagrammen modellierbar sind.
+
+0:01:31.680,0:01:33.840
+Das alles sind Möglichkeiten
+für dynamische Modellierung.
+
+0:01:33.840,0:01:37.440
+Und es gibt mit Sicherheit
+Beispiele, wo man die Wahl hätte.
+
+0:01:37.440,0:01:44.250
+Aber es gibt eben auch Fälle, wo sich eine
+der beiden groben Richtungen eher anbietet.
+
+0:01:48.510,0:01:55.380
+Zur Unterscheidung eben diese Beobachtung,
+dass bei Aktivitätsdiagrammen der Fokus auf den
+
+0:01:55.380,0:02:03.240
+Aktionen liegt und bei Zustandsdiagrammen
+eher Reaktionen auf die Umgebung.
+
+0:02:03.240,0:02:06.300
+Also ein Zustandsübergang wird
+durch irgendwas ausgelöst von außen.
+
+0:02:06.300,0:02:09.660
+Und dann muss beschrieben werden,
+was das mit den Zuständen tut,
+
+0:02:09.660,0:02:12.660
+oder welcher neue Zustand dann
+vom System eingenommen wird.
+
+0:02:12.660,0:02:16.800
+Statt einfach Reihenfolgen von
+Aktionen ins Zentrum zu stellen.
+
+0:02:19.560,0:02:20.880
+Das ist erstmal sehr abstrakt.
+
+0:02:20.880,0:02:24.570
+Konkret kann man natürlich
+verschiedene Anwendungen finden.
+
+0:02:24.570,0:02:26.640
+Da habe ich auch nur wenige genannt.
+
+0:02:26.640,0:02:33.630
+Zustandsdiagramme, ob flach oder
+UML-Zustandsdiagrammen mit dazu
+
+0:02:34.170,0:02:42.240
+kommenden Elementen und Darstellungsmöglichkeiten,
+werden verwendet bei diversen Anwendungsdomänen.
+
+0:02:42.240,0:02:44.400
+Beim Beschreiben von Protokollen.
+
+0:02:44.400,0:02:45.900
+Komponenten verteilter Systeme.
+
+0:02:45.900,0:02:50.160
+Die Beschreibung von Abläufen
+in Benutzungsoberflächen.
+
+0:02:50.160,0:02:52.230
+Eingebettete Systeme.
+
+0:02:52.230,0:02:56.070
+Da kann man sicherlich die Liste lang fortsetzen.
+
+0:02:56.070,0:03:01.500
+Weil Zustände und Übergänge inzwischen
+ein sehr allgemeiner Rahmen sind,
+
+0:03:01.500,0:03:06.480
+um in der Informatik, aber auch in
+anderen Domänen, Verhalten zu beschreiben.
+
+0:03:06.480,0:03:08.760
+Konkret, die Zustandsdiagramme/Statecharts,
+
+0:03:08.760,0:03:14.250
+so wie sie später in UML eingegangen sind,
+stammen aus den Ende der 80er Jahren.
+
+0:03:14.250,0:03:16.605
+Von einem Wissenschaftler namens David Harel.
+
+0:03:16.605,0:03:18.660
+Der ursprüngliche Name war Statecharts.
+
+0:03:18.660,0:03:24.420
+Deswegen finden Sie das auch nach wie vor als
+Bezeichnung, wenn sie nach Beispielen suchen.
+
+0:03:24.420,0:03:29.550
+Zu Beginn der Folien, in der
+ersten oder zweiten Woche,
+
+0:03:29.550,0:03:34.020
+hatte ich einen Artikel von Herrn Harel angegeben.
+
+0:03:34.020,0:03:38.130
+Das ist die ursprüngliche Arbeit,
+wo Statecharts eingeführt worden.
+
+0:03:38.130,0:03:42.510
+Und mit etwa anderer Syntax sind
+sie später in UML eingegangen.
+
+0:03:42.510,0:03:50.130
+Ein wesentliches Ziel von
+UML-Zustandsdiagrammen/Statecharts ist das,
+
+0:03:50.130,0:03:51.960
+was in flachen Zustandsdiagrammen passieren kann.
+
+0:03:51.960,0:03:56.032
+Nämlich in den Griff zu kriegen, dass
+der Zustandsraum sehr stark wächst.
+
+0:03:56.032,0:03:59.790
+Es gibt einfach bestimmte Features, mit denen
+die Zustandsdiagramme ausgestattet sind.
+
+0:03:59.790,0:04:02.970
+Neben einfach Zuständen und
+Zustandsübergängen, die es auch
+
+0:04:02.970,0:04:08.640
+bei flachen Zustandsdiagrammen schon gab, gibt
+es zum Beispiel Verfeinerungen von Zuständen.
+
+0:04:08.640,0:04:13.170
+Zustände sind nicht einfach nur Knoten
+in einem Graphen, ohne innere Struktur.
+
+0:04:13.170,0:04:14.850
+Sondern die können hierarchisch verfeinert werden.
+
+0:04:14.850,0:04:22.020
+Und das führt auch dazu, eine Zustandsexplosion
+in den Griff kriegen zu können.
+
+0:04:23.610,0:04:26.790
+Daneben gibt es ein explizites
+Konzept von Parallelität.
+
+0:04:26.790,0:04:28.860
+Das haben wir auch schon an
+verschiedenen Stellen kennengelernt.
+
+0:04:28.860,0:04:31.830
+Bei Petrinetzen/Aktivitätsdiagrammen.
+
+0:04:31.830,0:04:36.150
+Dass es wichtig ist, das ausdrücken zu können;
+oder interessant ist, das modellieren zu können.
+
+0:04:36.150,0:04:40.800
+In den Zustandsdiagrammen (UML
+und Statecharts) gibt es hier ein
+
+0:04:40.800,0:04:45.300
+explizites Konzept für das sogenannte
+parallel schalten durch Regionen.
+
+0:04:45.300,0:04:50.730
+Was ein flaches Zustandsdiagramm nicht
+ermöglicht explizit auszudrücken.
+
+0:04:50.730,0:04:55.170
+Und auch das wird dazu führen,
+dass wir in UML-Zustandsdiagrammen
+
+0:04:55.170,0:04:57.990
+kompakter modellieren können als
+mit flachen Zustandsdiagrammen.
+
+0:04:57.990,0:05:04.080
+Ein verwandtes Features, was letztlich den Umgang
+
+0:05:04.080,0:05:09.420
+mit diesen beiden Aspekten erleichtert
+oder ermöglicht, sind Historienknoten.
+
+0:05:09.420,0:05:11.689
+Da hatte ich jetzt auch noch nicht viel zu sagen.
+
+0:05:11.689,0:05:14.010
+Das werden wir sehen, wenn wir im
+Beispiel so weit gekommen sind.
+
+0:05:14.010,0:05:18.180
+Da geht es im Wesentlichen darum, sich
+insbesondere beim Verlassen von solchen
+
+0:05:18.180,0:05:19.620
+hierarchischen/verschachtelten/parallelgeschalteten
+
+0:05:20.700,0:05:26.940
+Zuständen implizit merken zu können,
+welche Zustände zuletzt aktiv waren.
+
+0:05:26.940,0:05:31.350
+Um später beim Rückkehrern, in solch
+eine hierarchische/parallel geschaltete
+
+0:05:31.350,0:05:37.140
+Gegend des Zustandsdiagramms, die
+Arbeit wieder aufnehmen zu können.
+
+0:05:37.140,0:05:40.890
+Statt das explizit in den
+Zuständen speichern zu müssen.
+
+0:05:43.230,0:05:47.151
+Dann gibt es sogenannte
+Fernauslösungen, oder auch Flags.
+
+0:05:47.151,0:05:51.450
+Das sind einfach Mittel, um Kommunikation
+in dem Zustandsdiagramm zu ermöglichen.
+
+0:05:51.450,0:05:57.570
+Auch zwischen Zuständen, die nicht explizit
+durch eine Transition verbunden sind.
+
+0:06:00.840,0:06:06.960
+Viele dieser Features Ausstattungsmerkmale dienen
+vor allem dazu, Diagramme, die wir verwenden,
+
+0:06:06.960,0:06:10.200
+übersichtlich und kompakt zu gestalten.
+
+0:06:10.200,0:06:13.680
+Also zu vermeiden, dass man
+sehr viele Zustände haben muss.
+
+0:06:13.680,0:06:16.350
+Oder wenn man viele Zustände hat,
+diese sinnvoll zu gruppieren.
+
+0:06:16.350,0:06:19.080
+Dass die Darstellung immer
+noch übersichtlich bleibt.
+
+0:06:19.080,0:06:25.470
+Also Ziel ist eine Größenreduktion, gegenüber
+der Verwendung eines flachen Zustandsdiagramms.
+
+0:06:26.320,0:06:30.700
+Was hier nicht auftreten wird, dass wir
+zwischen endlich und unendlich wechseln.
+
+0:06:30.700,0:06:34.810
+Flache Zustandsdiagramme nehmen
+wir üblicherweise als endlich an.
+
+0:06:34.810,0:06:39.670
+Und auch ein endliches UML-Zustandsdiagramm wird
+
+0:06:39.670,0:06:43.570
+nicht einem unendlichen flachen
+Zustandsdiagramm entsprechen.
+
+0:06:43.570,0:06:44.350
+Das ist anders als bei Petrinetzen.
+
+0:06:44.980,0:06:48.490
+Ein unendliches Petrinetz kann einen
+unendlichen Erreichbarkeitsgraphen haben.
+
+0:06:48.490,0:06:52.060
+Diesen Übergang von endlich zu
+unendlich werden wir nicht haben.
+
+0:06:52.060,0:06:57.820
+Aber eine ähnliche Größenreduktion oder
+ähnliches Verhalten, bezüglich der Größe.
+
+0:06:57.820,0:07:00.670
+Wo ja auch ein sehr kleines
+Petrinetz dennoch einen sehr
+
+0:07:00.670,0:07:03.760
+großen Erreichbarkeitsgraphen haben kann.
+
+0:07:04.870,0:07:05.560
+So ähnlich wird es hier sein.
+
+0:07:05.560,0:07:09.640
+Es kann sehr kompakte kleine
+UML-Zustandsdiagramme geben,
+
+0:07:09.640,0:07:13.630
+die aber sehr großen flachen
+Zustandsdiagrammen entsprechen würden.
+
+0:07:16.480,0:07:22.900
+Wir werden den Großteil der Diskussion
+an einem konkreten Beispiel machen.
+
+0:07:22.900,0:07:25.558
+Das werde ich jetzt hier entwerfen.
+
+0:07:25.558,0:07:29.440
+Und erstmal beschreiben, was das Ziel ist.
+
+0:07:29.440,0:07:32.170
+Und danach in anderen Videos
+werden wir nach und nach dieses
+
+0:07:32.170,0:07:34.270
+Beispiel realisieren als UML-Zustandsdiagramme.
+
+0:07:35.410,0:07:39.340
+Das Beispiel habe ich mir nicht ausgedacht,
+das kommt auch aus dem Artikel von Harel.
+
+0:07:39.340,0:07:45.400
+Der hat das allerdings noch ausführlicher
+und mit mehr Eigenschaften diskutiert.
+
+0:07:45.400,0:07:48.340
+Das ist eine vereinfachte
+Variante von dem Beispiel,
+
+0:07:48.340,0:07:51.580
+mit dem Harel seine Statecharts motiviert hat.
+
+0:07:51.580,0:07:58.810
+Das heißt aber eben auch, dass wenn
+Sie mögen, im Artikel nachlesen können.
+
+0:08:01.060,0:08:02.890
+Es soll um eine Armbanduhr gehen.
+
+0:08:02.890,0:08:06.070
+Eine sehr einfache Armbanduhr.
+
+0:08:06.070,0:08:10.090
+Die hat eine Anzeige, einen
+Alarm, und zwei Knöpfe.
+
+0:08:10.090,0:08:13.540
+Was soll hier die Intuition sein?
+
+0:08:13.540,0:08:14.800
+Das hier unten ist noch kein Zustandsdiagramm.
+
+0:08:14.800,0:08:17.800
+Ich gebe nur stilisiert an,
+
+0:08:20.230,0:08:23.980
+wie sich die Armbanduhr darstellen
+kann, in bestimmten Situationen.
+
+0:08:23.980,0:08:25.600
+Und werde Pfeile dazwischen haben.
+
+0:08:25.600,0:08:27.700
+Aber es wir noch kein UML-Zustandsdiagramm sein.
+
+0:08:27.700,0:08:28.720
+Ganz wichtig!
+
+0:08:28.720,0:08:29.980
+Also es gibt diese Uhr.
+
+0:08:29.980,0:08:32.290
+Die hat zwei Knöpfe, a und b, links und rechts.
+
+0:08:32.290,0:08:33.850
+Und die hat zwei Modi.
+
+0:08:33.850,0:08:37.150
+Die kann in einem sogenannten
+Zeitanzeige Modus sein.
+
+0:08:37.150,0:08:40.780
+Dann haben wir eben hier im
+Display die aktuelle Zeit.
+
+0:08:40.780,0:08:46.750
+Der Stunden und Minuten Zeiger,
+aber digital dargestellt.
+
+0:08:46.750,0:08:50.290
+Oder sie kann in einer Alarmeinstellung sein.
+
+0:08:50.290,0:08:51.880
+Man kann einen Alarm einstellen.
+
+0:08:51.880,0:08:53.980
+Dafür muss man erst mal in
+einen Displaymodus wechseln,
+
+0:08:53.980,0:08:56.050
+wo man sieht, ob der Alarm an oder aus ist.
+
+0:08:56.050,0:08:59.770
+Und dann kann man ihn mit einem
+der Knöpfe an- und ausschalten.
+
+0:08:59.770,0:09:04.180
+Also wechseln zwischen den
+beiden an und aus Situationen.
+
+0:09:06.010,0:09:09.250
+Zum Wechsel ist dieser Knopf a gedacht.
+
+0:09:09.250,0:09:12.130
+Also wenn wir in der Zeitanzeige-Darstellung sind,
+
+0:09:12.130,0:09:15.700
+können wir den Knopf a drücken und
+kommen in die Alarmeinstellungsanzeige.
+
+0:09:15.700,0:09:18.670
+Das soll hier dargestellt sein.
+
+0:09:18.670,0:09:20.500
+Und natürlich können wir davon auch zurück.
+
+0:09:20.500,0:09:24.400
+Also wenn wir in der Alarmeinstellungsanzeige sind
+
+0:09:24.400,0:09:27.310
+und wieder a drücken, kommen wir
+wieder zur Zeiteinstellung zurück.
+
+0:09:27.310,0:09:28.840
+Und möchten eben wieder die aktuelle Zeit sehen.
+
+0:09:32.620,0:09:34.030
+Der Alarm kann an oder aus sein.
+
+0:09:34.030,0:09:35.260
+Das ist hier schon dargestellt.
+
+0:09:35.260,0:09:37.510
+Wir sehen das natürlich nur, wenn wir in der
+
+0:09:37.510,0:09:40.990
+Alarmeinstellungsanzeige sind
+und nicht in der Zeitanzeige.
+
+0:09:40.990,0:09:45.520
+Und dann, wenn wir in dieser
+Alarmeinstellungsanzeige sind,
+
+0:09:45.520,0:09:49.870
+können wir mit dem Knopf b wechseln,
+ob der Alarm an oder aus sein soll.
+
+0:09:51.220,0:09:53.852
+Wir sind in der Alarmanzeige
+und der Alarm ist aktuell an.
+
+0:09:53.852,0:09:57.790
+Und wir drücken b, dann sind wir immer
+noch in der Alarmanzeigen-Darstellung.
+
+0:09:57.790,0:09:59.080
+Aber der Alarm ist aus.
+
+0:09:59.080,0:10:02.320
+Und natürlich kann es auch
+wieder rückgängig gemacht werden.
+
+0:10:02.320,0:10:05.710
+Wir können also auch den Alarm wieder anschalten,
+wenn wir ihn gerade ausgeschaltet haben.
+
+0:10:08.380,0:10:09.610
+Was ist der Effekt dieses Alarms?
+
+0:10:09.610,0:10:11.740
+Der soll dafür sorgen, dass die Uhr piept.
+
+0:10:11.740,0:10:15.730
+Und zwar immer, wenn die Zeit
+auf eine volle Stunde wechselt.
+
+0:10:18.640,0:10:20.140
+Den Piep-Ton sehen wir hier jetzt natürlich nicht.
+
+0:10:20.140,0:10:22.480
+Das ist nur eine Information,
+die wird im Zustandsdiagramm
+
+0:10:22.480,0:10:25.300
+an geeigneter Stelle einfach dargestellt sein:
+
+0:10:25.300,0:10:28.180
+Hier in diesem Übergang wird gepiept.
+
+0:10:32.740,0:10:34.420
+Ist es inzwischen vollständig?
+
+0:10:34.420,0:10:34.960
+Nein ist es nicht.
+
+0:10:34.960,0:10:40.810
+Denn tatsächlich soll es nicht heißen,
+dass wenn wir in der Zeitanzeige sind und
+
+0:10:40.810,0:10:43.630
+auf die Alarmdarstellung wechseln,
+dass dann immer der Alarm an ist.
+
+0:10:43.630,0:10:46.000
+Das wäre Unsinn.
+
+0:10:46.000,0:10:51.160
+Stellen wir uns vor, wir wechseln in die
+Alarmeinstellung, dann stellen wir den Alarm aus.
+
+0:10:51.160,0:10:54.400
+Dann wollen wir auch in der Lage
+sein, wieder zur Zeit zu wechseln.
+
+0:10:54.400,0:10:56.620
+Und nicht nur nachdem wir
+den Alarm angemacht haben.
+
+0:10:57.280,0:10:58.900
+Also müsste es hier noch einen Übergang geben.
+
+0:10:58.900,0:11:04.790
+Dann wollen wir hier, auch wenn wir in der
+Alarmdarstellung sind und Alarm aus ist,
+
+0:11:04.790,0:11:06.920
+wieder zur Zeitanzeige wechseln können.
+
+0:11:06.920,0:11:08.000
+Das heißt umgekehrt:
+
+0:11:08.000,0:11:12.980
+Wenn wir ein paar Minuten warten und dann wieder
+a drücken, wollen wir eben nicht hier landen.
+
+0:11:13.490,0:11:15.530
+Wir haben ja absichtlich den Alarm ausgestellt.
+
+0:11:15.530,0:11:19.640
+Wir wollen nicht, nur weil wir zur Zeitanzeige
+gewechselt haben und dann nachschauen wollten,
+
+0:11:19.640,0:11:22.190
+ist der Alarm an oder aus, plötzlich
+feststellen: der ist wieder an.
+
+0:11:22.190,0:11:24.740
+So soll das nicht sein.
+
+0:11:24.740,0:11:30.320
+Stattdessen können wir aus
+der Zeitanzeige heraus durch
+
+0:11:30.320,0:11:32.960
+Drücken von a entweder hier oder hier landen.
+
+0:11:32.960,0:11:35.390
+Und zwar je nachdem, ob wir beim letzten Mal,
+
+0:11:35.390,0:11:40.250
+als wir in der Alarm-Einstellung waren,
+den Alarm an- oder ausgemacht haben.
+
+0:11:40.250,0:11:42.080
+Und dann zur Zeitanzeige gewechselt haben.
+
+0:11:42.710,0:11:44.900
+Das mag hier nichtdeterministisch aussehen.
+
+0:11:44.900,0:11:48.710
+Dass man hier nicht weiß, was
+passiert, wenn man a drückt.
+
+0:11:48.710,0:11:50.150
+Aber natürlich weiß man das implizit schon.
+
+0:11:50.150,0:11:54.380
+Weil die Uhr einen versteckten Zustand
+hat, ob der Alarm an oder aus ist.
+
+0:11:54.380,0:11:57.470
+Also der Alarm hat mehrere Ebenen von Zuständen.
+
+0:11:57.470,0:11:59.360
+Einmal, was ist die aktuelle Zeit?
+
+0:11:59.360,0:12:03.020
+Ist der Alarm aktuell an oder aus?
+
+0:12:03.020,0:12:07.820
+Und zeige ich gerade die Zeit oder
+den Alarmzustand/Alarmsetzung an?
+
+0:12:07.820,0:12:18.140
+Wenn man jetzt mal überlegt, wenn man irgendein
+flaches Zustandsdiagramm modellieren wollte,
+
+0:12:18.140,0:12:19.775
+bräuchte man ganz schön viele Zustände.
+
+0:12:19.775,0:12:24.920
+Man müsste sich eben merken, ist man in
+der Alarm oder in der Zeitdarstellung?
+
+0:12:24.920,0:12:26.750
+Ist der Alarm an oder aus?
+
+0:12:26.750,0:12:27.830
+Was ist die aktuelle Uhrzeit?
+
+0:12:27.830,0:12:33.380
+Was sich zusammensetzt aus einer
+Stundenzahl zwischen 0 und 23,
+
+0:12:33.380,0:12:35.180
+und einer Minutenzahl zwischen 0 und 60.
+
+0:12:35.180,0:12:40.880
+Also irgendwie käme man da
+auf 2 × 2 × 24 × 60 Zustände.
+
+0:12:40.880,0:12:43.070
+Das sind mehrere 1000.
+
+0:12:43.070,0:12:44.780
+Das möchten wir nicht.
+
+0:12:44.780,0:12:48.140
+Also suchen wir nach einer
+kompakteren Darstellung.
+
+0:12:48.140,0:12:59.150
+Und das wird eben analog zu dem Beispiel von Harel
+über ein UML-Zustandsdiagramme realisiert werden.
+
+0:12:59.150,0:13:01.940
+In den folgenden Videos.

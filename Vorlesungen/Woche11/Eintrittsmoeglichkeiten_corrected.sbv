@@ -1,0 +1,759 @@
+0:00:02.780,0:00:11.030
+So now we have as an
+intermediate station this state diagram for our
+
+0:00:11.030,0:00:15.350
+clock and have
+seen now in particular
+
+0:00:15.350,0:00:20.840
+these transitions between such complex
+hierarchically or otherwise composite states.
+
+0:00:21.860,0:00:23.270
+We will first
+deal with what
+
+0:00:23.270,0:00:26.600
+this means in each case
+and also which perhaps different possibilities
+
+0:00:26.600,0:00:30.680
+of such transitions there
+are between composite states.
+
+0:00:30.680,0:00:35.150
+And for this we look first at
+what the entry possibilities are into a
+
+0:00:35.150,0:00:41.600
+hierarchical state of this kind, thus still without
+region and first of all only the entry.
+
+0:00:41.600,0:00:44.720
+Every transition consists potentially of
+an exit and an entrance.
+
+0:00:46.700,0:00:51.920
+Let's have a look at
+the very flexible possibilities to
+
+0:00:53.390,0:00:58.340
+realize the entry
+in composite states.
+
+0:00:58.340,0:01:02.240
+We look at a hierarchical
+state, quite times more deeply nested.
+
+0:01:02.240,0:01:04.160
+There is this
+outer nesting level A.
+
+0:01:04.160,0:01:08.480
+Inside there is a sub-state
+C and another sub-state B,
+
+0:01:08.480,0:01:13.520
+which itself is also composed of D
+and E and then other elements appear.
+
+0:01:15.290,0:01:21.350
+So we will have four
+different possibilities to enter here.
+
+0:01:21.350,0:01:27.500
+The standard entry, that would be the one that
+just appeared on the slide for the A transitions.
+
+0:01:27.500,0:01:32.150
+Then there's explicit entry, where you
+don't enter the hierarchical state from the
+
+0:01:32.150,0:01:37.250
+outside as a whole as
+this outer arrow suggests here, but
+
+0:01:37.250,0:01:43.970
+you explicitly select a sub-state, and
+then there are entries via so-called shallow
+
+0:01:43.970,0:01:51.980
+and deep history, for which somehow
+these H or H* nodes are used.
+
+0:01:53.540,0:01:54.560
+As
+a note:
+
+0:01:54.560,0:01:59.450
+I don't have triggers at
+these entry arrows in each
+
+0:01:59.450,0:02:03.410
+case, in general of course and it
+will be the same for the following slides.
+
+0:02:03.410,0:02:08.240
+In general it would be
+possible to specify a trigger here,
+
+0:02:08.240,0:02:10.790
+like A in
+the example here.
+
+0:02:10.790,0:02:15.890
+There it is an entry and
+the arrow says a as a trigger.
+
+0:02:15.890,0:02:19.430
+You could also imagine
+this with these arrows here,
+
+0:02:19.430,0:02:21.050
+I just didn't
+draw it here.
+
+0:02:21.050,0:02:25.520
+We will come to the
+history nodes in a moment.
+
+0:02:25.520,0:02:29.360
+It is important to note
+and also to take into account,
+
+0:02:29.870,0:02:33.560
+if you create
+state diagrams yourself,
+
+0:02:33.560,0:02:40.640
+that there may be only one outgoing
+arrow from each of these H- or H*-nodes.
+
+0:02:43.040,0:02:46.280
+This is otherwise not the
+case for the individual sub-states.
+
+0:02:47.960,0:02:51.500
+And here are also no triggers
+on this arrow only on the entry
+
+0:02:51.500,0:02:55.880
+arrows or if necessary also
+on the arrows here could be
+
+0:02:55.880,0:02:59.390
+triggers, I have omitted
+them in this stylized example.
+
+0:03:01.490,0:03:05.060
+So let's have a
+look at the possibilities now.
+
+0:03:06.260,0:03:07.250
+We do it
+one after the other:
+
+0:03:07.250,0:03:09.200
+We start with
+the standard entry.
+
+0:03:10.700,0:03:17.150
+The default entry simply ensures that in
+each hierarchy level that we have in
+
+0:03:17.150,0:03:21.290
+the composite state, simply the
+respective start state is addressed, or
+
+0:03:22.280,0:03:27.020
+since there are no parallel regions, simply
+the start state of the top hierarchy level.
+
+0:03:29.420,0:03:32.510
+So in our example, if
+we enter this hierarchical state here
+
+0:03:32.510,0:03:35.990
+via this standard entry,
+then that means what?
+
+0:03:35.990,0:03:41.390
+Then the outermost level start state would
+be chosen, which would be this one.
+
+0:03:42.770,0:03:43.850
+What does
+this one do?
+
+0:03:43.850,0:03:50.960
+It has a transition, a standard
+entry, into this composite sub-state B,
+
+0:03:50.960,0:03:59.060
+because this is also a standard entry via
+the start state, the start state present here
+
+0:04:01.070,0:04:04.430
+would be selected
+for this hierarchical level.
+
+0:04:04.430,0:04:08.690
+That again points to D, i.e.,
+the standard entry here would ensure that
+
+0:04:08.690,0:04:14.300
+ultimately the sub-state D becomes active,
+because the start state of the
+
+0:04:14.300,0:04:17.750
+outer hierarchy level is selected,
+that has a standard entry into
+
+0:04:17.750,0:04:24.740
+this sub-state and there again is
+the start state points to D.
+
+0:04:24.740,0:04:31.250
+So continuation at this entry at
+B and in B again at D.
+
+0:04:37.040,0:04:39.650
+Then there is
+the explicit entry.
+
+0:04:39.650,0:04:44.450
+This simply ensures that the continuation takes place
+at exactly the explicitly specified substate, i.e. in
+
+0:04:44.450,0:04:50.780
+our example it simply leads to
+a continuation at C, because this
+
+0:04:52.940,0:04:57.785
+explicit entry points exactly to C. It could also have pointed to
+D or E. In this case, the explicit entry points to C.
+
+0:04:57.785,0:04:59.270
+It could also have
+pointed to D or E.
+
+0:04:59.270,0:05:04.070
+Then these would have
+been the relevant next states.
+
+0:05:07.790,0:05:11.630
+This possibility of the explicit entry also
+means that we don't always need a
+
+0:05:11.630,0:05:18.050
+start state on every level, if we
+always proceed by explicit entry, we wouldn't
+
+0:05:18.050,0:05:24.650
+have to have start states
+everywhere, but we may of course.
+
+0:05:30.740,0:05:34.220
+There was still this
+entrance reality about the
+
+0:05:34.220,0:05:36.830
+history and these are also
+the more complex complicated ones.
+
+0:05:36.830,0:05:39.260
+We first consider
+the deep history.
+
+0:05:39.260,0:05:42.680
+In which sense is
+this historical, so to speak?
+
+0:05:42.680,0:05:50.270
+There it is about the fact that we
+can visit a sub-state and thus also a
+
+0:05:50.270,0:05:53.420
+composite state several times
+by jumping back and forth.
+
+0:05:54.620,0:06:00.680
+So let's assume, in our example,
+that we have already been in one
+
+0:06:00.680,0:06:05.900
+of these states C,D,E in
+one of these innermost sub-states.
+
+0:06:05.900,0:06:09.110
+Then we have been somewhere else,
+perhaps in another component of the
+
+0:06:09.110,0:06:13.430
+overall state diagram that may have
+been drawn in here, and then at
+
+0:06:13.430,0:06:18.590
+some point we return to hierarchical
+state A via this deep history.
+
+0:06:18.590,0:06:19.550
+What
+happens then?
+
+0:06:20.360,0:06:24.350
+What is supposed to happen then is
+in the deep history that exactly the
+
+0:06:25.670,0:06:29.870
+sub-state of the innermost
+level, of a respective
+
+0:06:31.610,0:06:39.140
+innermost level, is accessed from where we
+left the overall state A the last time.
+
+0:06:41.270,0:06:42.080
+This is what
+it says here.
+
+0:06:42.080,0:06:47.300
+If the composite state, in our case now
+the A, was already visited once before, then
+
+0:06:47.300,0:06:55.550
+the last sub-state of the lowest
+possible hierarchy level active there is entered.
+
+0:06:57.050,0:07:07.430
+If we last left from D, then
+we would now also continue again at D.
+
+0:07:08.180,0:07:11.750
+If we last left from C,
+then we would continue at C.
+
+0:07:11.750,0:07:15.650
+Lowest here means C is already a
+non-hierarchical state, so C would also be
+
+0:07:15.650,0:07:19.010
+its deepest level because there
+are no further nested sublevels, while
+
+0:07:19.010,0:07:24.110
+B, for example, is not a deepest level state
+because there are still D and E in there.
+
+0:07:31.880,0:07:35.330
+The whole thing can also be that we
+have to do this per region, so to speak.
+
+0:07:35.330,0:07:38.060
+Not yet in the example just
+now, where we have no regions, but
+
+0:07:38.060,0:07:43.880
+if we have a hierarchical state with
+subregions, then it may also be that we
+
+0:07:43.880,0:07:49.160
+have to go to the last
+active substate in each case per region.
+
+0:07:51.860,0:07:57.650
+If we have never
+been to the hierarchical
+
+0:07:57.650,0:08:00.260
+state, in this case
+A, what happens then?
+
+0:08:01.430,0:08:06.590
+If we have never been here before
+somehow and we come across this entry,
+
+0:08:07.160,0:08:12.020
+this deep history node, then we wouldn't
+know, should we continue at C,D or E,
+
+0:08:12.020,0:08:15.050
+because we have never been here
+anywhere and we haven't remembered anything, then
+
+0:08:15.050,0:08:21.920
+it is simply followed the
+arrow that starts from this H*.
+
+0:08:21.920,0:08:24.230
+That is the role
+of this arrow here.
+
+0:08:25.430,0:08:31.310
+It doesn't mean that we always go to
+E, but only if we come into this
+
+0:08:32.840,0:08:38.180
+A via this entry here and we've never
+been to A before, then this arrow tells us:
+
+0:08:38.900,0:08:40.100
+Then we
+continue at E.
+
+0:08:40.100,0:08:45.110
+If, on the other hand, we have already
+been in C, D or E before we
+
+0:08:45.110,0:08:47.690
+return here, then we also
+continue at the respective place.
+
+0:08:54.170,0:08:58.820
+This describes the deep history
+and similarly, but subtly different,
+
+0:08:58.820,0:09:06.200
+the shallow history behaves, because there
+we also return, if we have already
+
+0:09:06.200,0:09:11.000
+been in this composite
+state, basically back to
+
+0:09:12.950,0:09:20.690
+where we were before we last left,
+however not to the lowest level, but to
+
+0:09:20.690,0:09:26.210
+the respective of the highest
+hierarchy level the last overall state.
+
+0:09:30.470,0:09:33.830
+So let's imagine in our
+example again that the last
+
+0:09:36.740,0:09:42.110
+time we were here we
+were at E, if we
+
+0:09:44.120,0:09:47.900
+then came over the deepest history
+we would continue at E not because
+
+0:09:47.900,0:09:54.620
+of this arrow but because E
+was the last sub-state visited here.
+
+0:09:54.620,0:09:58.760
+If, on the other hand, we come
+across the shallow history, then we look:
+
+0:09:58.760,0:10:05.660
+We were last in E, but E is
+part of B, so in this outermost level, if
+
+0:10:05.660,0:10:08.150
+we look: what is
+the next lower level of
+
+0:10:08.150,0:10:09.290
+nesting, have we been last in
+B because we have been in E.
+
+0:10:09.290,0:10:16.250
+I.e., if we come over the shallow history,
+then we would say, we continue at B.
+
+0:10:16.250,0:10:21.500
+But to continue at B then means to
+take the starting state of B, that is
+
+0:10:22.580,0:10:23.900
+D, what
+is here.
+
+0:10:23.900,0:10:27.410
+If the composite state A was last
+left from E, then we now continue
+
+0:10:27.410,0:10:32.780
+at B, because B is the top
+nesting level, so to speak, in which E
+
+0:10:32.780,0:10:39.740
+occurs, and to continue at B means to continue at
+D, however, because D is the starting state of B.
+
+0:10:44.570,0:10:48.650
+If one has never been at
+all in this composite state, then
+
+0:10:48.650,0:10:51.440
+one proceeds analogously as
+with the deep history, thus
+
+0:10:51.440,0:10:57.260
+if we have never been at all in
+the proximity within A and we come over the
+
+0:10:57.260,0:11:03.620
+shallow history exactly as with the deep history,
+then one simply continues there where this arrow
+
+0:11:03.620,0:11:09.560
+starts from the H-element and in
+the case that would mean to continue
+
+0:11:09.560,0:11:13.790
+here and that would also mean to
+continue at D in the concrete case.
+
+0:11:20.270,0:11:22.085
+That is the
+role of this arrow.
+
+0:11:22.085,0:11:27.920
+This arrow is not there for us to
+always continue at D, so even if this
+
+0:11:27.920,0:11:35.780
+arrow here were to point to C, for
+example, then we would indeed go to C if
+
+0:11:35.780,0:11:42.830
+we have never been inside A, but if
+we have been inside A, for example in E,
+
+0:11:42.830,0:11:47.990
+then we would actually continue regardless of
+where this arrow points, the next time
+
+0:11:47.990,0:11:51.860
+we enter via the flat
+history node at D, because
+
+0:11:51.860,0:11:57.800
+we would look we have already been
+here in E, the outermost overall state in
+
+0:11:57.800,0:12:03.200
+which E occurs, in which we have already been,
+is B and the starting state of B is D.
+
+0:12:03.200,0:12:09.710
+There one must simply read through these rules very
+exactly and follow very exactly and comprehend at the example,
+
+0:12:09.710,0:12:16.760
+then it becomes clear what the meaning
+of the entries is in each case.
+
+0:12:18.020,0:12:22.580
+Beyond that there are still
+further possibilities of the entrance, in
+
+0:12:22.580,0:12:24.560
+particular there is
+the so-called entrance point.
+
+0:12:24.560,0:12:26.930
+This is shown
+in a different way.
+
+0:12:26.930,0:12:28.610
+We will not
+deal with it.
+
+0:12:28.610,0:12:30.200
+That's a possibility in
+the UML state diagrams
+
+0:12:30.200,0:12:32.540
+that we won't look
+at in this lecture.
+
+0:12:36.590,0:12:41.570
+That was the discussion of
+the possibilities that we see here.
+
+0:12:41.570,0:12:45.470
+That was a hierarchical
+state without a region.
+
+0:12:45.470,0:12:50.600
+Now we still need to look at,
+what happens if we have a region state?
+
+0:12:52.460,0:12:55.460
+Then there are
+potentially other possibilities.
+
+0:12:56.660,0:13:01.190
+I'll leave out the history inputs for now,
+so as not to complicate the picture unnecessarily.
+
+0:13:01.190,0:13:11.180
+However, in the wristwatch example, there
+will also be such an entry with
+
+0:13:11.180,0:13:15.936
+regions where we also
+have history in play.
+
+0:13:15.936,0:13:18.980
+So in a region state there
+is still the possibility of standard entry,
+
+0:13:18.980,0:13:23.270
+still the possibility of explicit
+entry, still also cases for shallow
+
+0:13:23.270,0:13:28.070
+and deep history, which I have not
+drawn in here now, and in addition
+
+0:13:28.070,0:13:33.680
+there is the possibility of entry via
+a fork and this is of course the
+
+0:13:33.680,0:13:38.270
+same kind of fork node
+as occurs in activity diagrams.
+
+0:13:38.270,0:13:41.720
+That's used here
+to sort of
+
+0:13:43.160,0:13:47.330
+target multiple sub-states
+in the individual regions.
+
+0:13:50.960,0:13:55.550
+Here it is obvious that we
+are actually jumping to a state in
+
+0:13:55.550,0:13:58.190
+each region, but this must also
+be the case for the other two
+
+0:13:58.190,0:14:02.390
+possibilities, because for regions we are
+always in a substate in both regions.
+
+0:14:02.390,0:14:05.060
+I.e., although this
+default entry looks
+
+0:14:05.060,0:14:09.800
+like it points to only one region, the
+actually points to the entire region state, and
+
+0:14:09.800,0:14:14.378
+we must also select a substate in
+each of the two regions on entry.
+
+0:14:14.378,0:14:16.790
+The same is true
+for the explicit entry.
+
+0:14:16.790,0:14:22.370
+It explicitly points to a sub-state in
+a region, yet when explicitly entering a
+
+0:14:22.370,0:14:27.860
+region state, we have to
+select a state in each region.
+
+0:14:32.600,0:14:36.770
+So we still have to describe
+what that means in each case.
+
+0:14:39.140,0:14:43.520
+Namely, what are
+the rules here?
+
+0:14:44.180,0:14:45.860
+The default entry
+is very simple.
+
+0:14:45.860,0:14:50.810
+Just like we just took the
+starting state of the outermost level
+
+0:14:50.810,0:14:55.550
+of the hierarchy in the default entry
+into a hierarchical state, now we just
+
+0:14:55.550,0:15:03.470
+take the starting state per region, so if
+we come to this region state via this entry
+
+0:15:03.470,0:15:06.350
+here, then we're just going
+to choose the starting state in
+
+0:15:06.350,0:15:16.565
+each region, so in that case we would be in A
+in the first region and in C in the second region.
+
+0:15:16.565,0:15:17.023
+How about
+the explicit entry?
+
+0:15:17.023,0:15:21.860
+There is also clear, there we obviously want to
+be in sub-state B in the first region, but at
+
+0:15:21.860,0:15:25.130
+the same time we have to
+do something in the second region.
+
+0:15:25.130,0:15:26.120
+What do
+we do there?
+
+0:15:27.110,0:15:29.360
+Obviously we take the start
+state of the other region.
+
+0:15:31.160,0:15:34.610
+So one state of one
+region is jumped to directly.
+
+0:15:34.610,0:15:38.690
+This is done by the explicit entry
+and in the regions parallel to it we
+
+0:15:38.690,0:15:40.760
+take the start state
+in each case, so
+
+0:15:44.360,0:15:50.330
+in our example over this arrow we enter in the
+first region in B implicitly in the second region in C.
+
+0:15:53.810,0:16:04.010
+Then there is the case of the fork and
+this is also very obvious, because via the fork we
+
+0:16:04.010,0:16:12.530
+address a special state in each region,
+so if we enter via this fork, then
+
+0:16:12.530,0:16:17.120
+of course we will choose B as the
+substate in the first region, and D as
+
+0:16:17.120,0:16:26.510
+the substate in the second region, because that
+is exactly what this representation here gives us.
+
+0:16:32.810,0:16:39.800
+These are all cases except for the fact
+that we would also still have the possibility
+
+0:16:39.800,0:16:41.960
+to link
+regions and history.

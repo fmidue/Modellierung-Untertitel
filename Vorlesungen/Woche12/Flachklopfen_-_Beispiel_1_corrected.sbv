@@ -1,0 +1,495 @@
+0:00:00.000,0:00:08.820
+At the beginning, I motivated that
+we look at these UML state diagrams.
+
+0:00:08.820,0:00:12.390
+And that many of the features that
+they support are primarily intended for noting
+
+0:00:12.390,0:00:16.020
+diagrams compactly
+and clearly, i.e.,
+
+0:00:16.020,0:00:22.170
+not having to specify flat
+state diagrams with very many states.
+
+0:00:23.280,0:00:25.860
+This compactness also
+has a counterpart.
+
+0:00:25.860,0:00:30.090
+Namely, you can also turn such
+a compact UML state diagram back into
+
+0:00:30.090,0:00:32.550
+a flat state diagram
+by tapping it flat.
+
+0:00:33.570,0:00:38.880
+Finally, I want to look at
+that here, in three videos with examples.
+
+0:00:41.280,0:00:44.580
+You can take a
+UML state diagram and
+
+0:00:44.580,0:00:49.860
+flat-knock that, resolving the composite
+states (whether hierarchical or formed by
+
+0:00:49.860,0:00:55.080
+regions), and thereby get
+equivalent flat state diagrams,
+
+0:00:55.080,0:00:58.230
+state diagrams that don't
+use all these features.
+
+0:00:58.230,0:01:02.880
+Equivalent in the sense that
+the semantics are the same,
+
+0:01:02.880,0:01:04.830
+that they allow
+the same transitions.
+
+0:01:04.830,0:01:09.360
+So that basically you could have also
+worked with this flat state diagram, but
+
+0:01:09.360,0:01:15.240
+you don't want to because then you
+lose all these advantages of the compact representation.
+
+0:01:15.240,0:01:20.040
+Because in general, this flat
+state diagram will just contain
+
+0:01:20.040,0:01:22.770
+a lot more
+states and/or transitions.
+
+0:01:22.770,0:01:29.400
+This corresponds a bit to the transition
+from Petri nets to their reachability graphs.
+
+0:01:29.970,0:01:33.780
+Where also the reachability graph to a
+Petri net can be much larger, because
+
+0:01:33.780,0:01:38.400
+the Petri net is a
+special compact way to represent behavior.
+
+0:01:38.400,0:01:41.930
+And you can look at
+this in a similar way.
+
+0:01:41.930,0:01:46.735
+I'm not going
+to do this formally.
+
+0:01:46.735,0:01:51.850
+We're just going to look at three
+examples and use those to explain the
+
+0:01:51.850,0:01:56.410
+strategies that you should then be able to
+apply to other examples, with the same features.
+
+0:01:56.410,0:01:59.500
+We're not going to look
+at all the features of UML
+
+0:01:59.500,0:02:02.530
+state diagrams, nor all the ones
+we've seen, or combinations of them.
+
+0:02:02.530,0:02:04.030
+Very
+deliberately.
+
+0:02:04.030,0:02:09.010
+And of course, then for exercises and later
+for the exam, you only need to be
+
+0:02:09.010,0:02:14.320
+able to apply yourself what occurs
+here in the examples as well.
+
+0:02:17.590,0:02:18.880
+Let's do this
+concretely for an example.
+
+0:02:18.880,0:02:22.720
+Here is a UML state
+diagram, obviously not a flat
+
+0:02:22.720,0:02:25.900
+state diagram because it
+uses such a hierarchical state.
+
+0:02:25.900,0:02:31.270
+What makes this example stand out, what's
+still sort of fairly simple here compared to
+
+0:02:31.270,0:02:37.360
+what UML state diagrams might be overall,
+is that no regions show up here.
+
+0:02:37.360,0:02:40.870
+So no region state, just
+actually such a hierarchical state.
+
+0:02:40.870,0:02:43.990
+And there is also no
+history used in this example.
+
+0:02:43.990,0:02:45.460
+In other examples in a
+moment, it will be different.
+
+0:02:47.590,0:02:49.150
+What would be
+the strategy here?
+
+0:02:49.150,0:02:51.550
+How can we make
+this a flat state diagram?
+
+0:02:51.550,0:02:54.310
+Well, obviously we need
+to remove this hierarchy.
+
+0:02:56.470,0:02:58.360
+We could say we just keep
+the simple states A, B, C, D.
+
+0:02:58.360,0:03:02.020
+But of course that can't be it
+yet, then we would somehow ignore or
+
+0:03:02.020,0:03:08.140
+lose in particular these entries and
+exits to such a hierarchical state.
+
+0:03:08.140,0:03:13.630
+The basic idea will be to keep
+the simple states (A, B, C, D will
+
+0:03:13.630,0:03:18.850
+just still show up in the
+flat state space); these entries and exits
+
+0:03:18.850,0:03:21.580
+at the edge of such a
+hierarchical state, those have to be translated.
+
+0:03:21.580,0:03:24.040
+So we just need to
+know what that means, to
+
+0:03:24.040,0:03:27.876
+exit from such an
+overall state with trigger E.
+
+0:03:27.876,0:03:30.850
+That means (we know that if
+we would go back to the
+
+0:03:30.850,0:03:36.280
+corresponding slides) that we could come from C
+as well as from D to A with E.
+
+0:03:36.280,0:03:43.630
+That is, this one transition here (in
+the UML state diagram) must then become
+
+0:03:43.630,0:03:45.640
+two transitions in
+the flat state diagram.
+
+0:03:45.640,0:03:47.080
+Namely one from C
+and one from D.
+
+0:03:47.080,0:03:52.540
+So that's where we put in what we
+know about the exits and also about the entries.
+
+0:03:52.540,0:03:55.990
+So also the entry of
+A to this complex state.
+
+0:03:55.990,0:03:58.490
+Then we need to know, what
+does such a standard entry mean?
+
+0:03:58.490,0:04:02.000
+That means that we would
+take the starting state here.
+
+0:04:02.000,0:04:06.830
+I.e., it becomes directly a connection from
+A to C in the flat state diagram.
+
+0:04:06.830,0:04:10.280
+There we will translate
+what then these entries and
+
+0:04:10.280,0:04:13.250
+exits at the edge of
+such a hierarchical state mean.
+
+0:04:15.380,0:04:18.110
+Transitions that have nothing
+to do with this
+
+0:04:18.110,0:04:21.260
+hierarchy at all and that are
+simply between simple sub-states, those are kept.
+
+0:04:21.260,0:04:24.260
+So that we can go
+from A to B with f.
+
+0:04:24.260,0:04:28.640
+That's in the UML state diagram
+and there are no hierarchies involved somehow.
+
+0:04:28.640,0:04:34.340
+That is, since we've kept these simple states A,
+B, C, D, we can just keep transitions like
+
+0:04:34.340,0:04:41.570
+that that don't somehow involve
+the edge of a hierarchical state.
+
+0:04:43.670,0:04:48.530
+Then we'd have everything covered except
+for how to deal with start states.
+
+0:04:49.490,0:04:53.600
+What will be the starting state
+of an associated flat state diagram?
+
+0:04:53.600,0:04:54.830
+And it can
+only have one.
+
+0:04:54.830,0:04:58.760
+Unlike in the UML state diagram, where
+there can be multiple starting states (namely in
+
+0:04:58.760,0:05:03.470
+different regions or different nesting levels), in
+the flat one there can only be one.
+
+0:05:03.470,0:05:04.880
+And that, of course,
+will be the outermost one.
+
+0:05:06.050,0:05:09.500
+Because this is the outermost start
+state in the UML state diagram,
+
+0:05:09.500,0:05:13.070
+it also remains as the start
+state in the flat state diagram.
+
+0:05:13.070,0:05:18.530
+However, this start state in this inner
+nesting level, for example, will no longer
+
+0:05:18.530,0:05:20.180
+appear in the
+flat state diagram.
+
+0:05:20.180,0:05:24.620
+It might be relevant for the translation
+(i.e. the information that we would actually go
+
+0:05:24.620,0:05:29.660
+to C with this transition, which is a
+standard entry, because this is the start state).
+
+0:05:29.660,0:05:32.120
+This information is used
+in creating the start state.
+
+0:05:32.120,0:05:37.550
+But that node itself doesn't have to
+show up in the flat state diagram then.
+
+0:05:42.060,0:05:43.346
+What
+happens?
+
+0:05:43.346,0:05:44.550
+What would
+be the statement?
+
+0:05:44.550,0:05:50.220
+The statement was, keep the simple states
+(that's why we keep A, B, C,
+
+0:05:50.220,0:05:54.450
+D), translate the entries and exits
+(we'll do that in a moment),
+
+0:05:54.450,0:06:02.130
+keep other transitions
+between these states simple.
+
+0:06:02.130,0:06:02.790
+We can
+do that already.
+
+0:06:02.790,0:06:09.420
+We'll keep, so to speak, the entrances
+that on the one hand satisfy or
+
+0:06:09.420,0:06:12.330
+correspond to this starting state
+here, the outermost starting state, but
+
+0:06:12.330,0:06:17.280
+also in particular those transitions that are not
+somehow on the edge of such a hierarchical state.
+
+0:06:17.280,0:06:19.950
+So this one is kept, this
+one is kept, these two are kept.
+
+0:06:19.950,0:06:22.410
+That explains why
+we have these transitions.
+
+0:06:23.370,0:06:28.110
+And then we just have to translate the
+transitions that have something to do with the
+
+0:06:28.110,0:06:32.790
+edge of a hierarchical state,
+so this e-transition and this a-transition.
+
+0:06:33.630,0:06:34.770
+What is the
+respective translation there?
+
+0:06:34.770,0:06:39.030
+For the
+a-transition we know:
+
+0:06:39.030,0:06:42.390
+That was a standard entry
+into this complex right state.
+
+0:06:42.390,0:06:48.990
+And we know that we just continue there
+at the starting state from the inner level.
+
+0:06:48.990,0:06:53.586
+That was exactly the
+connection that was there.
+
+0:06:53.586,0:06:54.990
+Then afterwards we can
+also remove that marking
+
+0:06:54.990,0:06:57.000
+because it wasn't
+on the outermost level.
+
+0:06:57.000,0:06:59.910
+So it doesn't remain in the flat
+state diagram, but it should be used
+
+0:06:59.910,0:07:03.570
+to determine where we
+go from A with a.
+
+0:07:05.850,0:07:08.100
+That's the translation
+of this part.
+
+0:07:09.750,0:07:10.680
+And then we still have
+to take care of e.
+
+0:07:10.680,0:07:16.440
+That's this transition that, yes, goes from
+the edge of this complex state to A.
+
+0:07:20.430,0:07:24.460
+So those are these two transitions
+that we have to translate exactly
+
+0:07:24.460,0:07:29.800
+so that you can get from C as
+well as from D to this left state, A.
+
+0:07:34.240,0:07:37.390
+And then we would
+have that completely translated.
+
+0:07:37.390,0:07:42.580
+This UML state diagram
+becomes this flat state diagram
+
+0:07:42.580,0:07:44.620
+where there are
+no more hierarchies.
+
+0:07:44.620,0:07:46.870
+It's just a
+normal flat state diagram.
+
+0:07:46.870,0:07:57.250
+And the main step in the
+concrete case here was to replace this
+
+0:07:57.250,0:07:59.650
+one transition that
+led away from the
+
+0:07:59.650,0:08:02.740
+hierarchical state with several transitions
+that start from the states.
+
+0:08:02.740,0:08:07.270
+That was the translation of this
+one concrete transition from the edge.
+
+0:08:07.270,0:08:09.130
+We did something
+with that one, too.
+
+0:08:09.130,0:08:11.050
+Namely, that was
+a transition that
+
+0:08:11.050,0:08:15.760
+led to the default entry and
+then led to C in the continuation.
+
+0:08:16.270,0:08:19.870
+We used that
+here as well.
+
+0:08:19.870,0:08:25.810
+The basic strategy is to translate
+all these entries and exits at
+
+0:08:25.810,0:08:29.950
+the edge of hierarchical states
+appropriately, and keep the rest essentially.
+
+0:08:29.950,0:08:30.760
+As it
+stands here.
+
+0:08:30.760,0:08:34.270
+This is the simplest case, because
+it was also the first example.

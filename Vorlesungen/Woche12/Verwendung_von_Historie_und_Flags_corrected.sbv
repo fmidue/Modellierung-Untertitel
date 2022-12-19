@@ -1,0 +1,871 @@
+0:00:00.000,0:00:04.770
+Let's go back
+to our wristwatch example.
+
+0:00:04.770,0:00:09.270
+As a reminder, it
+looks like this so far.
+
+0:00:09.270,0:00:16.530
+The hour and minute display, or
+count, are implemented in parallel regions.
+
+0:00:16.530,0:00:24.240
+We had used such a broadcast effect that when
+the minute counter here jumps from 59 to 0,
+
+0:00:24.240,0:00:30.270
+it triggers an hour effect that
+causes the hour count to advance here.
+
+0:00:30.270,0:00:32.970
+We had used an
+effect to say that
+
+0:00:32.970,0:00:39.630
+whenever the minute counter goes to
+zero, there should be a beep.
+
+0:00:39.630,0:00:46.950
+We have the alarm on and off
+setting, and we have these transitions between these
+
+0:00:46.950,0:00:51.930
+two composite states to get from
+the time display to the alarm setting
+
+0:00:51.930,0:00:54.720
+and back, and to change between
+on and off in the alarm setting.
+
+0:00:58.440,0:00:59.760
+Are
+we done?
+
+0:00:59.760,0:01:00.480
+No, there
+are still problems.
+
+0:01:00.480,0:01:05.820
+Namely, one major problem is that
+when we return to the time display
+
+0:01:05.820,0:01:08.910
+from the alarm setting,
+it always jumps to zero.
+
+0:01:08.910,0:01:10.200
+Why
+is that?
+
+0:01:11.340,0:01:13.290
+We had discussed last
+what the consequences of
+
+0:01:13.290,0:01:15.780
+these entry/exit
+options are.
+
+0:01:15.780,0:01:17.760
+And for example,
+here's what it's like:
+
+0:01:17.760,0:01:20.910
+Suppose we are
+somehow sitting at 2:58,
+
+0:01:22.230,0:01:27.330
+so we have state 2 in the hour
+count and state 58 in the minute count.
+
+0:01:27.330,0:01:31.470
+Then button a is pressed,
+so this trigger is fired.
+
+0:01:31.470,0:01:32.700
+What does
+it do?
+
+0:01:32.700,0:01:36.720
+We had said we leave the
+overall state, that is, we leave both
+
+0:01:36.720,0:01:45.480
+regions, we end up here in the
+alarm state in the first moment at
+
+0:01:46.350,0:01:51.870
+the on sub-state, because that's the start state;
+then maybe we turn the alarm on and
+
+0:01:51.870,0:01:55.530
+off several times (that's where we would use
+b to switch back and forth between these
+
+0:01:55.530,0:01:57.739
+two sub-states), then we press a
+again, so we trigger the a trigger.
+
+0:01:57.739,0:01:58.245
+What would
+that do?
+
+0:01:58.245,0:02:04.740
+We would leave that sub-state, go
+back to that more complex region
+
+0:02:04.740,0:02:07.530
+state, and we would do
+that with the default entry.
+
+0:02:07.530,0:02:10.710
+And that means that in each
+region, we would choose the initial state.
+
+0:02:10.710,0:02:16.060
+Then we end up back at
+zero and zero, instead of 2:58.
+
+0:02:16.060,0:02:19.270
+That's not intentional, of course, and
+that's also true the other way around.
+
+0:02:19.270,0:02:25.480
+So whatever was going on last in the
+alarm setting, so to speak, is ignored when
+
+0:02:25.480,0:02:29.860
+we switch to the
+time display and back.
+
+0:02:30.400,0:02:32.260
+What makes
+this clear?
+
+0:02:32.770,0:02:39.370
+We have a time, we switch with a
+to the alarm setting, then that is first On,
+
+0:02:39.370,0:02:47.710
+then we press b, are Off, then we press
+button a, then we get back into this region state,
+
+0:02:47.710,0:02:52.030
+switch there maybe a few times,
+press button a again at some point.
+
+0:02:52.030,0:02:52.720
+What
+happens then?
+
+0:02:52.720,0:02:56.470
+We leave that right state,
+get into the left state, use
+
+0:02:56.470,0:02:59.260
+the default entry
+there, and that says
+
+0:02:59.260,0:03:04.990
+we start back at the
+start state from that hierarchical state.
+
+0:03:04.990,0:03:08.830
+So we're back at On, even though the
+last time we were here in the sub-state, we
+
+0:03:08.830,0:03:12.340
+were in this left state,
+we chose the sub-state Off.
+
+0:03:12.340,0:03:21.490
+So these transitions in this
+way (as used before) forget what
+
+0:03:21.490,0:03:23.260
+was in each
+of the sub-states.
+
+0:03:23.260,0:03:27.460
+This is not surprising because
+we are not using the history,
+
+0:03:27.460,0:03:31.030
+which was actually introduced precisely for
+the purpose of not forgetting such sub-states.
+
+0:03:31.030,0:03:34.690
+We have used here in this example
+so far only the exit from the
+
+0:03:34.690,0:03:40.810
+total state and the
+standard entry into composite states.
+
+0:03:42.010,0:03:48.310
+And that just doesn't exhaust the possibilities
+we have for not forgetting sub-states (i.e., the
+
+0:03:48.310,0:03:55.510
+last state in a hierarchical
+state or a region state).
+
+0:03:56.260,0:04:01.540
+So, the problems were to be expected
+because we haven't used history nodes yet.
+
+0:04:01.540,0:04:05.470
+And the solution, of course, is
+to actually use entries over history.
+
+0:04:05.470,0:04:07.780
+In fact, in the
+specific example, it doesn't
+
+0:04:07.780,0:04:10.270
+even matter if we
+use shallow or deep history.
+
+0:04:10.270,0:04:11.110
+
+Why?
+
+0:04:11.110,0:04:15.160
+Well, because there are no
+deep nesting levels here at all.
+
+0:04:15.160,0:04:22.120
+So both the right region state
+and the left hierarchical state have
+
+0:04:22.120,0:04:27.880
+exactly one more nesting level
+and no deeper hierarchical nestings
+
+0:04:27.880,0:04:31.450
+where it would make a difference
+whether we use deep or shallow history.
+
+0:04:31.450,0:04:34.150
+I'll use the shallow
+history here in a moment.
+
+0:04:40.420,0:04:46.600
+Since we have two regions to go
+to when we transition to the right
+
+0:04:46.600,0:04:54.160
+region state, we actually need two history
+states, one in each of the two regions.
+
+0:04:54.160,0:05:00.280
+And the jumping on entering
+is then realized by a fork.
+
+0:05:00.280,0:05:02.740
+So here from right to left we
+can say we're introducing a flat history here
+
+0:05:02.740,0:05:05.980
+and this a transition we just
+go to the history node here.
+
+0:05:05.980,0:05:09.250
+Going from left to right,
+yes we want to enter these
+
+0:05:09.250,0:05:13.870
+two regions, and in both
+regions we want to use that
+
+0:05:13.870,0:05:18.220
+we could remember what the
+last hour or minute state was.
+
+0:05:18.220,0:05:21.910
+Because we have a going
+to the right via a
+
+0:05:21.910,0:05:28.120
+fork each to history nodes
+in the two regions entering.
+
+0:05:32.680,0:05:35.380
+And that then
+looks like this.
+
+0:05:38.460,0:05:40.710
+Nothing has changed in
+the substates, for example
+
+0:05:41.880,0:05:44.520
+this region is as before,
+this one is as well.
+
+0:05:44.520,0:05:45.870
+These history nodes
+have been added.
+
+0:05:45.870,0:05:48.180
+Flat history, because there
+is no star on it.
+
+0:05:48.180,0:05:53.610
+The entry to the right happens via
+this fork, which then points to the
+
+0:05:53.610,0:05:59.430
+two history nodes, and from right to
+left we also go via a history node.
+
+0:05:59.430,0:06:06.150
+If we compare this picture
+with this diagram, we can see
+
+0:06:06.150,0:06:10.170
+exactly where the differences are, so
+the two right and left total
+
+0:06:10.170,0:06:15.810
+states have not changed significantly,
+but the transitions are now
+
+0:06:15.810,0:06:19.800
+more precisely designed and ensure
+that we remember just sub-states.
+
+0:06:19.800,0:06:28.080
+Now it would be like, if we say we're
+going to be at 2: 58 o'clock in the hour
+
+0:06:28.080,0:06:33.975
+display, would then switch to the alarm setting state with
+a, that will be the first time we go to
+
+0:06:33.975,0:06:39.690
+On because the history node has this arrow on On,
+then we can switch me back and forth with b
+
+0:06:39.690,0:06:44.700
+several times or not, would then go back
+to the region state right with a, but would
+
+0:06:44.700,0:06:47.790
+not do that via the default entry,
+but would use per this fork these
+
+0:06:48.360,0:06:55.110
+history nodes and then it would be the same
+when we go back that we don't go to
+
+0:06:55.110,0:06:59.580
+zero here because we've been in this region,
+this overall state before, namely at 2: 58,
+
+0:06:59.580,0:07:04.140
+d. That is, these two history
+nodes would ensure that when we return
+
+0:07:04.140,0:07:08.760
+to this right complex state, we would be
+at 2: 58 and not at 0: 00.
+
+0:07:08.760,0:07:15.330
+And vice versa, if we switched here
+to Off, then press a to return here
+
+0:07:15.330,0:07:18.720
+to the hour and minute
+display and then press a
+
+0:07:18.720,0:07:23.070
+again and again, then we would not land
+at On, but wherever we were last in the
+
+0:07:23.970,0:07:28.440
+left hierarchical state and if that was Off,
+then we would also land at Off, i.e.
+
+0:07:28.440,0:07:35.850
+these two problems mentioned here
+would be solved exactly by this.
+
+0:07:35.850,0:07:40.560
+As said, here we could have used
+in each case also deep history, because
+
+0:07:40.560,0:07:44.610
+there is no deeper nesting
+at all on the one hand.
+
+0:07:44.610,0:07:48.360
+On the other hand, we
+would not have needed to
+
+0:07:48.360,0:07:52.440
+draw the arrows that
+start from history nodes.
+
+0:07:52.440,0:07:59.460
+These three arrows are only used if we have
+never been in the respective state in the respective
+
+0:07:59.460,0:08:05.850
+region or nesting level, if such
+a history node has no direct outgoing
+
+0:08:05.850,0:08:11.460
+arrow, then in each case simply the corresponding
+start node from the respective region or nesting
+
+0:08:11.460,0:08:15.240
+level is taken and since it is
+in each case in such a way that
+
+0:08:15.240,0:08:17.910
+the history nodes always
+point anyway to the sub-state,
+
+0:08:17.910,0:08:25.770
+which is also marked by the
+start state in the corresponding place,
+
+0:08:25.770,0:08:31.230
+the omission of these three
+arrows would make no difference.
+
+0:08:32.670,0:08:38.820
+Especially if, when we first enter a
+state via history nodes, we want to go
+
+0:08:38.820,0:08:45.270
+to a different state than the
+start state of that level would
+
+0:08:45.270,0:08:49.401
+be if we came via
+standard entry rather than history.
+
+0:08:49.401,0:08:55.200
+Those are a couple of variations
+that we could have omitted those
+
+0:08:55.200,0:08:58.680
+three arrows and that we could have
+taken deep history instead of shallow history.
+
+0:08:58.680,0:09:08.280
+So are we done with that, having
+gotten from this case to this diagram?
+
+0:09:08.280,0:09:10.410
+No, there's
+still something missing.
+
+0:09:10.410,0:09:12.450
+What is
+still missing?
+
+0:09:12.450,0:09:20.280
+Well, what hasn't been realized yet is
+that this alarm setting really has something
+
+0:09:20.280,0:09:24.090
+to do with whether or not there is
+a click, a transition to a full hour.
+
+0:09:24.630,0:09:28.920
+Here there is this effect, if
+we jump to the 0th minute,
+
+0:09:28.920,0:09:32.430
+that is to a full hour,
+then a signal is triggered here.
+
+0:09:32.430,0:09:37.860
+Actually, the clock should only trigger the
+signal when the alarm is actually set,
+
+0:09:37.860,0:09:43.050
+but there is no connection or
+no communication between the fact, is the
+
+0:09:43.050,0:09:48.510
+alarm on or off on the one hand,
+and the fact, is beeped here or not.
+
+0:09:52.290,0:09:55.410
+So we have
+to transport some more
+
+0:09:55.410,0:09:57.300
+information and we can
+do that via a flag.
+
+0:09:57.300,0:09:59.610
+This is like a
+variable in a programming language,
+
+0:10:00.270,0:10:04.890
+a variable in which we can
+store values, for example a Boolean variable,
+
+0:10:04.890,0:10:10.500
+which we can switch on and
+off, true and false, zero and one.
+
+0:10:11.040,0:10:15.000
+We will call this AL for
+alarm and use it to get this
+
+0:10:15.000,0:10:24.720
+beep effect, this signal tone under control, i.e.
+on the one hand, we should take that into
+
+0:10:24.720,0:10:28.020
+account when triggering this beep, whether the
+alarm is on or not, so we
+
+0:10:28.020,0:10:34.140
+should check this flag whether it is
+on or off on the one hand.
+
+0:10:34.140,0:10:37.200
+On the other hand, of course, we
+have to make sure that it's also set
+
+0:10:37.200,0:10:42.450
+to on and off at some point,
+that is, during these transitions between these
+
+0:10:42.450,0:10:47.250
+states here of the alarm setting, we
+should do something with this alarm flag.
+
+0:10:50.100,0:10:57.150
+We'll see how that happens in a
+moment, what that looks like then, but
+
+0:10:57.150,0:11:04.200
+the basic idea is, we'll set this
+alarm flag, use that when the beep is
+
+0:11:04.200,0:11:08.850
+triggered to check if that should be, and
+set it when it's turned on and off.
+
+0:11:11.280,0:11:19.830
+Furthermore, by means of this alarm flag, we
+will actually also avoid using the flat history
+
+0:11:19.830,0:11:25.740
+in the alarm setting
+sub-state, in the left part.
+
+0:11:25.740,0:11:33.180
+So if we're going to introduce a flag anyway that
+we can look at whether the alarm is on or off,
+
+0:11:33.180,0:11:37.290
+then we don't need this history node at
+all, because we can just as easily just read
+
+0:11:37.290,0:11:42.900
+this flag decisively at the entry here, whether we
+want to go to this state or that state.
+
+0:11:49.560,0:11:52.260
+What does that
+look like then?
+
+0:11:54.690,0:11:57.210
+With that, we move
+on to this diagram.
+
+0:11:57.210,0:11:59.880
+We can compare that again
+with what we have so far.
+
+0:11:59.880,0:12:01.110
+What
+changes there?
+
+0:12:01.110,0:12:08.970
+So again the main parts, here the
+regions don't change or here this inner structure
+
+0:12:08.970,0:12:13.890
+of this left hierarchical
+state, but especially here at
+
+0:12:13.890,0:12:22.890
+the transitions we do something, namely here instead
+of using the history from right to left
+
+0:12:22.890,0:12:28.500
+we simply make that dependent on these flags
+whether we go to the on or off state.
+
+0:12:28.500,0:12:30.960
+We're allowed to do that by
+writing another condition to this trigger.
+
+0:12:30.960,0:12:36.540
+If you look in the previous slides, you
+can see that this is a possible description,
+
+0:12:36.540,0:12:39.240
+that we have a trigger and another possible
+condition and that would be this query again
+
+0:12:39.240,0:12:42.870
+of this alarm flag, that
+has to be set somewhere.
+
+0:12:42.870,0:12:43.680
+That's what's
+happening here.
+
+0:12:44.640,0:12:49.440
+In switching between two sub-states,
+we may also trigger an effect.
+
+0:12:49.440,0:12:51.720
+So an effect can be
+to switch this alarm flag.
+
+0:12:51.720,0:12:55.260
+So if we switch to Off with the
+b button, we set Alarm to zero and
+
+0:12:55.260,0:12:57.540
+if we switch to On,
+we set Alarm to one.
+
+0:12:57.540,0:13:02.640
+We take advantage of that when we enter
+this left setting state by making that dependent
+
+0:13:02.640,0:13:07.560
+on the alarm flag, whether we want to go
+this way or that way and very importantly of course:
+
+0:13:08.380,0:13:13.660
+We also use the alarm flag here
+to trigger that beep, that signal only
+
+0:13:13.660,0:13:17.890
+when we enter the zero state and
+the alarm flag is currently set to one.
+
+0:13:22.750,0:13:27.760
+Those are differences between
+this chart and that chart.
+
+0:13:33.190,0:13:34.870
+Is that
+it then?
+
+0:13:34.870,0:13:42.640
+Well we still need to somehow determine how
+the alarm flag is set at the beginning.
+
+0:13:42.640,0:13:46.360
+At some point in the
+beginning, this overall chart is entered.
+
+0:13:46.360,0:13:51.760
+We know we start in the hours minutes
+display because the start node points to it here.
+
+0:13:51.760,0:13:58.150
+We choose the default entry for this, which
+is the start state for hour minutes 0:00,
+
+0:13:58.150,0:14:01.540
+but is the alarm flag
+set on this or not?
+
+0:14:01.540,0:14:02.740
+That still needs
+to be clarified.
+
+0:14:06.970,0:14:13.090
+We will do that in a moment
+and in the course of that we will
+
+0:14:13.090,0:14:18.790
+also model the third aspect
+right away, that the clock has
+
+0:14:18.790,0:14:26.980
+a battery that can get empty and when
+the battery gets empty, you should replace it.
+
+0:14:26.980,0:14:30.550
+But in doing so, the hours and
+minutes are to be reset to zero.
+
+0:14:30.550,0:14:33.250
+The clock then starts running again
+at zero and the alarm flag,
+
+0:14:33.250,0:14:34.712
+the alarm should always
+be on at the beginning.
+
+0:14:34.712,0:14:40.390
+This is the place where we also set
+whether the alarm is originally on or not.
+
+0:14:40.390,0:14:46.600
+So we're modeling that the clock
+has a battery that can go dead,
+
+0:14:46.600,0:14:52.330
+needs to be changed, and in that
+case something happens to the state, namely
+
+0:14:52.330,0:14:58.720
+we want, if the battery was
+dead, then we don't want to enter
+
+0:14:58.720,0:15:06.940
+the states, for example, through the
+history, but at 0:00, one aspect.
+
+0:15:06.940,0:15:07.570
+The
+other aspect:
+
+0:15:07.570,0:15:16.660
+We want that then the alarm flag is set
+to one, that is, if you put a new
+
+0:15:16.660,0:15:24.610
+battery in the clock and also at the
+beginning simply the alarm state is always one.
+
+0:15:28.900,0:15:32.590
+And that could
+then achieve so:
+
+0:15:32.590,0:15:37.720
+So we pack everything that
+we have so far in terms
+
+0:15:37.720,0:15:43.270
+of state diagram, that was this
+part, we pack that again into a
+
+0:15:43.270,0:15:47.350
+hierarchical state, namely how the clock
+behaves when the batteries are not empty.
+
+0:15:47.350,0:15:53.650
+Everything that is here is developed exactly as
+before and then we have not parallel to that
+
+0:15:54.940,0:15:57.910
+but independent of that another state
+that is there for when the
+
+0:15:57.910,0:16:02.140
+battery is empty and when the watch
+is delivered the battery compartment is empty
+
+0:16:02.140,0:16:09.190
+and the battery is empty, that is here
+is the extreme beginning of the whole processing.
+
+0:16:09.190,0:16:16.210
+When a battery is inserted, then on the one
+hand we come into this part here and we know
+
+0:16:16.210,0:16:20.710
+that we then start at this
+start state, so we start over the
+
+0:16:20.710,0:16:26.170
+default entry here at zero and zero and we
+set the alarm flag to one in the process.
+
+0:16:26.170,0:16:32.830
+Then what happens is whatever
+the previous behavior was, so
+
+0:16:32.830,0:16:37.030
+time progresses, we can change
+the alarm setting, we can
+
+0:16:37.030,0:16:41.020
+turn on and off in the process so
+it beeps right when the alarm is on.
+
+0:16:41.020,0:16:44.170
+When we switch back to
+the alarm setting, the flag is
+
+0:16:44.170,0:16:47.095
+used to check whether the alarm
+is on or not, and so on.
+
+0:16:47.095,0:16:49.780
+Then the battery
+can always run out.
+
+0:16:49.780,0:16:53.650
+This causes us to end
+up in this state again:
+
+0:16:53.650,0:16:55.060
+Battery
+is empty.
+
+0:16:55.060,0:16:57.520
+We can only leave this
+state by inserting a new battery.
+
+0:16:57.520,0:16:58.630
+What happens
+in the process?
+
+0:16:59.440,0:17:02.020
+Then we end up
+at 0:00 again, as
+
+0:17:02.020,0:17:07.000
+we would expect after losing the
+battery and inserting a new one.
+
+0:17:07.000,0:17:12.220
+We end up at 0:00 because we
+don't use the history node, we use
+
+0:17:12.220,0:17:18.760
+the default entry,
+the two sub-start states
+
+0:17:18.760,0:17:25.525
+0 and 0, and we also always set the alarm
+flag to one when we insert a battery, which means
+
+0:17:25.525,0:17:31.060
+that if we then pressed a for the first
+time, we would always end up in that sub-state.
+
+0:17:35.440,0:17:41.380
+And that's supposed to be our
+final modeling for this wristwatch now.
+
+0:17:41.380,0:17:46.450
+And that's where most of
+the elements that we introduced
+
+0:17:46.450,0:17:48.670
+earlier for UML
+state diagrams occur.
+
+0:17:48.670,0:17:52.480
+There are many more, but they
+should not be the topic here.
