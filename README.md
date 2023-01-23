@@ -7,3 +7,4 @@ Suggest changes per pull requests, please.
 | GitHub username | Lines |
 | :-- | --: |
 | KatinkaMeer | 8 |
+| sabinxh | 1 |
