@@ -2,173 +2,173 @@
 Willkommen zurück in einer neuen Woche.
 
 0:00:03.690,0:00:12.060
-Wir werden uns jetzt zunächst, letztlich 
+Wir werden uns jetzt zunächst, letztlich
 als Einstieg in UML (insbesondere statische
 
 0:00:12.060,0:00:16.170
-Modellierung mit UML), einführend 
+Modellierung mit UML), einführend
 mit Objektorientierung beschäftigen.
 
 0:00:17.370,0:00:23.070
-Vorher kurz ein paar Worte über 
+Vorher kurz ein paar Worte über
 UML als solches, da, wie gesagt,
 
 0:00:23.970,0:00:29.670
-dieses Sprachwerk in der Vorlesung 
+dieses Sprachwerk in der Vorlesung
 generell größeren Raum einnehmen wird.
 
 0:00:29.670,0:00:32.700
 Also UML (Unified Modeling Language) ist eine
 
 0:00:32.700,0:00:34.950
-Standard-Modellierungssprache 
+Standard-Modellierungssprache
 für Software-Engineering.
 
 0:00:34.950,0:00:39.780
-Ziemlich verbreitet sowohl in der 
+Ziemlich verbreitet sowohl in der
 Literatur als auch in der Praxis.
 
 0:00:39.780,0:00:44.490
-Eventuell aus der Schule bekannt, 
+Eventuell aus der Schule bekannt,
 wenn Sie da Informatikunterricht
 
 0:00:44.490,0:00:48.930
 hatten und dort objektorientiert gearbeitet wurde.
 
 0:00:48.930,0:00:51.840
-Eventuell könnten Sie auch 
+Eventuell könnten Sie auch
 schon im Informatik-Vorkurs
 
 0:00:51.840,0:00:54.150
 Klassendiagramme zumindest gesehen haben.
 
 0:00:54.150,0:01:00.630
-Das ist diese erste Art Diagramm, 
+Das ist diese erste Art Diagramm,
 die hier oben knapp eingeblendet ist.
 
 0:01:00.630,0:01:06.900
-Das ist wahrscheinlich eher ein 
+Das ist wahrscheinlich eher ein
 Objektdiagramm, kein Klassendiagramm,
 
 0:01:06.900,0:01:11.430
-aber das kommt aus der gleichen Familie 
+aber das kommt aus der gleichen Familie
 von Diagrammen innerhalb von UML.
 
 0:01:11.430,0:01:16.770
-Wie gesagt, es basiert auf objektorientierten 
+Wie gesagt, es basiert auf objektorientierten
 Konzepten, worüber wir gleich reden werden.
 
 0:01:16.770,0:01:20.640
-Aber es gibt auch diverse 
+Aber es gibt auch diverse
 andere Arten von Diagrammen,
 
 0:01:20.640,0:01:24.450
-die nicht direkt mit Objektorientierung zu 
+die nicht direkt mit Objektorientierung zu
 tun haben und dennoch Teil von UML sind.
 
 0:01:24.450,0:01:26.310
 Es ist also eine sehr umfangreiche
 
 0:01:26.310,0:01:30.203
-Modellierungssprache, ein Framework 
+Modellierungssprache, ein Framework
 mit verschiedenen Arten von Modellen.
 
 0:01:30.203,0:01:36.900
-Es ist mittlerweile auch über 20 Jahre alt 
+Es ist mittlerweile auch über 20 Jahre alt
 und hat sich seitdem entsprechend verbreitet.
 
 0:01:38.010,0:01:41.640
-Verwendung werden Sie sicherlich sehen 
+Verwendung werden Sie sicherlich sehen
 (für einige der Arten von Diagrammen,
 
 0:01:41.640,0:01:43.380
-die wir hier betrachten) in 
+die wir hier betrachten) in
 anderen Lehrveranstaltungen.
 
 0:01:43.380,0:01:48.090
-Für Komedia-Studierende bin ich mir nicht 
+Für Komedia-Studierende bin ich mir nicht
 sicher, aber bei ISE- und Informatikstudierenden:
 
 0:01:48.090,0:01:51.930
-Etwa in den "Fortgeschrittenen 
+Etwa in den "Fortgeschrittenen
 Programmiertechniken" oder in
 
 0:01:51.930,0:01:56.910
-der Softwaretechnik-Vorlesung werden Sie 
+der Softwaretechnik-Vorlesung werden Sie
 sicherlich einige der Dinge wieder antreffen.
 
 0:01:56.910,0:02:03.090
-Von UML wird sowohl statische als auch 
+Von UML wird sowohl statische als auch
 dynamische Modellierung unterstützt.
 
 0:02:03.090,0:02:07.320
-Wir sehen hier auch schon, dass 
+Wir sehen hier auch schon, dass
 Graphen eine Rolle spielen.
 
 0:02:08.040,0:02:14.820
-Es wird weniger textuell modelliert 
+Es wird weniger textuell modelliert
 und auch nicht unbedingt sehr formal.
 
 0:02:14.820,0:02:19.380
-Also die verschiedenen Diagrammarten 
+Also die verschiedenen Diagrammarten
 haben verschiedene Grade an Formalität.
 
 0:02:19.380,0:02:24.930
-Es gibt da rein anschauliche Diagramme und 
+Es gibt da rein anschauliche Diagramme und
 es gibt auch etwas formalisiertere Diagramme.
 
 0:02:28.350,0:02:32.250
-Hier ist jetzt nochmal einiges von dem, was 
+Hier ist jetzt nochmal einiges von dem, was
 ich gerade schon gesagt habe, zusammengefasst.
 
 0:02:32.250,0:02:36.300
-Also es gibt vor allem visuell-grafische 
+Also es gibt vor allem visuell-grafische
 Mittel innerhalb von UML.
 
 0:02:36.300,0:02:41.130
-Es taucht natürlich auch Text auf, aber 
+Es taucht natürlich auch Text auf, aber
 mathematisch modelliert wird in UML weniger.
 
 0:02:41.130,0:02:46.740
-Es wird sowohl statische als auch 
+Es wird sowohl statische als auch
 dynamische Modellierung unterstützt.
 
 0:02:46.740,0:02:51.585
-Wir werden uns in der Vorlesung zunächst erst mal 
+Wir werden uns in der Vorlesung zunächst erst mal
 mit statischer Modellierung in UML beschäftigen.
 
 0:02:51.585,0:02:55.646
-Später gibt es aber auch Kapitel, die sich 
+Später gibt es aber auch Kapitel, die sich
 mit dynamischer Modellierung innerhalb von
 
 0:02:55.646,0:03:00.810
-UML beschäftigen, nachdem wir zwischendrin 
+UML beschäftigen, nachdem wir zwischendrin
 die Petrinetze behandelt haben werden.
 
 0:03:00.810,0:03:04.320
 In anderer Hinsicht:
 
 0:03:04.980,0:03:09.720
-Wir hatten ja so verschiedene 
+Wir hatten ja so verschiedene
 Unterscheidungsarten von Modellen gesehen.
 
 0:03:09.720,0:03:12.030
-Also neben "statisch" / "dynamisch" ging 
+Also neben "statisch" / "dynamisch" ging
 es um "qualitativ" oder "quantitativ".
 
 0:03:12.030,0:03:15.480
 Das ist beides in UML abgedeckt.
 
 0:03:15.480,0:03:18.930
-Also zum Beispiel die Klassen- und 
+Also zum Beispiel die Klassen- und
 Objektdiagramme, die wir zuerst uns anschauen
 
 0:03:18.930,0:03:26.190
-werden, enthalten auf jeden Fall qualitative 
+werden, enthalten auf jeden Fall qualitative
 und teilweise auch quantitative Aspekte.
 
 0:03:26.190,0:03:34.080
-Wie gesagt, vor allem wird UML zur 
+Wie gesagt, vor allem wird UML zur
 Spezifikation von Softwaresystemen benutzt,
 
 0:03:34.080,0:03:35.850
@@ -178,26 +178,26 @@ insbesondere objektorientierten Softwaresystemen.
 In Hinsicht auf sozusagen die Durchsichtigkeit der
 
 0:03:40.410,0:03:45.930
-Modelle gibt es sowohl Whitebox- 
+Modelle gibt es sowohl Whitebox-
 als auch Blackbox-Modelle in UML.
 
 0:03:45.930,0:03:47.880
-Es kommt also auf die Diagrammart 
+Es kommt also auf die Diagrammart
 an, die man betrachtet,
 
 0:03:47.880,0:03:50.370
-ob man das eher als Whitebox 
+ob man das eher als Whitebox
 oder als Blackbox ansieht.
 
 0:03:50.370,0:03:53.010
 Das ist beides prinzipiell abgedeckt.
 
 0:03:53.010,0:03:57.857
-In Hinsicht des Formalitätsgrades 
+In Hinsicht des Formalitätsgrades
 bestenfalls semi-formal.
 
 0:03:57.857,0:04:00.270
-Also das ist keine mathematische 
+Also das ist keine mathematische
 Modellierung und nicht sehr formal.
 
 0:04:00.270,0:04:04.500
@@ -207,97 +207,97 @@ Die Syntax ist noch einigermaßen formal definiert.
 Also es ist irgendwo festgehalten,
 
 0:04:06.030,0:04:10.470
-was denn überhaupt die Diagrammformen 
+was denn überhaupt die Diagrammformen
 sind, was legale Diagramme sind.
 
 0:04:10.470,0:04:14.370
-Die Semantik ist in der Regel 
+Die Semantik ist in der Regel
 nicht sehr formal spezifiziert.
 
 0:04:14.370,0:04:22.840
-Also was so ein Diagramm konkret bedeutet, da 
+Also was so ein Diagramm konkret bedeutet, da
 gibt es ein Verständnis von, aber das ist nicht
 
 0:04:22.840,0:04:29.200
-unbedingt mathematisch ausgearbeitet in irgendwie 
+unbedingt mathematisch ausgearbeitet in irgendwie
 voller logischer, mathematischer Stringenz.
 
 0:04:29.200,0:04:35.380
-Und die Verwendung in der 
+Und die Verwendung in der
 Softwareentwicklung hängt
 
 0:04:35.380,0:04:37.570
-natürlich von dem Vorgehensmodell 
+natürlich von dem Vorgehensmodell
 ab, mit dem man sich beschäftigt.
 
 0:04:37.570,0:04:44.410
-Das hatte ich auch schon in der letzten 
+Das hatte ich auch schon in der letzten
 Woche angedeutet, dass in klassischen
 
 0:04:44.410,0:04:52.600
-Entwicklungsprozessen, wie dem Wasserfallmodell, 
+Entwicklungsprozessen, wie dem Wasserfallmodell,
 eher auch explizit Modelle erzeugt werden.
 
 0:04:52.600,0:04:55.990
-Und dann wäre UML auf jeden 
+Und dann wäre UML auf jeden
 Fall ein Mittel der Wahl.
 
 0:04:55.990,0:05:00.580
-In anderen Vorgehensmodellen, 
+In anderen Vorgehensmodellen,
 etwa in agiler Entwicklung,
 
 0:05:00.580,0:05:05.080
-wird nicht so stark und nicht so 
+wird nicht so stark und nicht so
 explizit mit Modellen gearbeitet.
 
 0:05:05.080,0:05:06.820
 Da wird es nicht unbedingt so sein,
 
 0:05:06.820,0:05:11.830
-dass immer erst mal ein Klassendiagramm 
+dass immer erst mal ein Klassendiagramm
 erstellt wird, bevor man entwickelt.
 
 0:05:11.830,0:05:18.310
-Also man spricht von der Softwareentwicklung "im 
+Also man spricht von der Softwareentwicklung "im
 Großen", wenn es eben um solche strukturierten
 
 0:05:18.310,0:05:25.510
-Vorgehensprozesse geht, und dann wäre 
+Vorgehensprozesse geht, und dann wäre
 UML vielleicht noch stärker präsent.
 
 0:05:25.510,0:05:29.140
 UML kann nicht nur zur
 
 0:05:29.140,0:05:32.800
-Visualisierung/Spezifikation 
+Visualisierung/Spezifikation
 von Modellen verwendet werden.
 
 0:05:32.800,0:05:40.240
-Es gibt auch Ansätze, die tatsächlich aus mit 
+Es gibt auch Ansätze, die tatsächlich aus mit
 UML erstellten Modellen direkt Code generieren.
 
 0:05:40.240,0:05:44.260
-Ich hatte schon modellgesteuerte/modellgetriebene 
+Ich hatte schon modellgesteuerte/modellgetriebene
 Entwicklung erwähnt.
 
 0:05:44.260,0:05:48.100
-Dann wäre es so, dass tatsächlich in 
+Dann wäre es so, dass tatsächlich in
 einem Tool UML-Diagramme erzeugt werden,
 
 0:05:48.100,0:05:50.860
-aus denen dann zum Beispiel Java-Code erzeugt 
+aus denen dann zum Beispiel Java-Code erzeugt
 wird (der meist noch ergänzt werden muss,
 
 0:05:50.860,0:05:52.480
-aber schon ein Gerüst für 
+aber schon ein Gerüst für
 die Implementierung liefert).
 
 0:05:52.480,0:05:58.660
-Und dann wäre natürlich auch wieder die Rolle 
+Und dann wäre natürlich auch wieder die Rolle
 von Modellen gestärkt gegenüber anderen Ansätzen.
 
 0:06:04.030,0:06:09.970
-Hier eine Übersicht, schematisch, 
+Hier eine Übersicht, schematisch,
 der verschiedenen UML-Diagrammtypen.
 
 0:06:09.970,0:06:12.220
@@ -307,26 +307,26 @@ Das sind auch nicht alle, die es gibt.
 Es gibt noch ein, zwei weitere Diagrammtypen.
 
 0:06:15.190,0:06:17.980
-UML befindet sich auch immer 
+UML befindet sich auch immer
 noch in der Entwicklung.
 
 0:06:17.980,0:06:23.620
-Aber das ist hier ein schon 
+Aber das ist hier ein schon
 relativ großer Snapshot,
 
 0:06:23.620,0:06:27.100
-und einige der Begriffe hier werden 
+und einige der Begriffe hier werden
 wir in der Vorlesung mit Leben füllen.
 
 0:06:27.100,0:06:30.160
 Wir werden also nicht irgendwie die 10, 12,
 
 0:06:30.160,0:06:34.090
-14, oder wie viel auch immer Kästen 
+14, oder wie viel auch immer Kästen
 das hier sein mögen, alle durchgehen.
 
 0:06:34.090,0:06:37.510
-Aber diverse von den Diagrammtypen 
+Aber diverse von den Diagrammtypen
 werden wir tatsächlich sehen.
 
 0:06:37.510,0:06:38.754
@@ -334,7 +334,7 @@ Wir können ja mal schauen.
 Was haben wir hier?
 
 0:06:38.754,0:06:41.680
-Also einerseits haben wir diese Unterscheidung 
+Also einerseits haben wir diese Unterscheidung
 in Struktur- und Verhaltensdiagramme.
 
 0:06:41.680,0:06:44.020
@@ -344,121 +344,121 @@ Das lässt sich ziemlich genau abbilden auf:
 Der Teil ist eben die statische Modellierung.
 
 0:06:47.050,0:06:52.570
-Und der Teil hier drüben ist für die 
+Und der Teil hier drüben ist für die
 dynamische Modellierung mittels UML.
 
 0:06:52.570,0:06:57.460
-Da wir erst statische Modellierung machen, 
+Da wir erst statische Modellierung machen,
 werden wir uns also erst hier links aufhalten.
 
 0:06:57.460,0:07:01.690
-Und insbesondere werden wir uns da genau 
+Und insbesondere werden wir uns da genau
 diese beiden Diagrammtypen anschauen:
 
 0:07:01.690,0:07:03.070
 Klassendiagramme und Objektdiagramme.
 
 0:07:03.070,0:07:07.720
-Die anderen hier auftauchenden Diagrammtypen 
+Die anderen hier auftauchenden Diagrammtypen
 werden wir in der Vorlesung nicht behandeln.
 
 0:07:07.720,0:07:11.080
-Und dann später, nachdem wir 
+Und dann später, nachdem wir
 Petrinetze behandelt haben,
 
 0:07:11.080,0:07:13.180
-werden wir uns mit dynamischer 
+werden wir uns mit dynamischer
 Modellierung mit UML beschäftigen.
 
 0:07:13.180,0:07:17.710
-Da werden zum einen die 
+Da werden zum einen die
 Aktivitätsdiagramme aus UML auftreten.
 
 0:07:17.710,0:07:20.500
-Das sind letztlich verwandte 
+Das sind letztlich verwandte
 Vertreter der Petrinetze.
 
 0:07:20.500,0:07:22.450
 Deswegen macht es Sinn, sie danach zu behandeln.
 
 0:07:22.450,0:07:29.470
-Und dann werden wir uns insbesondere noch 
+Und dann werden wir uns insbesondere noch
 mit den UML-Zustandsdiagrammen beschäftigen,
 
 0:07:29.470,0:07:36.430
-die dann strukturierte Mittel mit 
+die dann strukturierte Mittel mit
 sehr viel mehr Ausdruckskraft als
 
 0:07:36.430,0:07:40.090
-die flachen Zustandsdiagramme sind, die wir 
+die flachen Zustandsdiagramme sind, die wir
 uns in der letzten Woche angeschaut hatten.
 
 0:07:43.660,0:07:50.110
-Und, wie gesagt, einige dieser Modellarten 
+Und, wie gesagt, einige dieser Modellarten
 wären eher statisch bzw. eher dynamisch.
 
 0:07:50.110,0:07:52.990
-Die Unterscheidung links/rechts ist sozusagen 
+Die Unterscheidung links/rechts ist sozusagen
 die zwischen statisch und dynamisch.
 
 0:07:52.990,0:07:56.770
-Aber es gibt noch die Unterscheidungen 
+Aber es gibt noch die Unterscheidungen
 qualitativ/quantitativ, Blackbox/Whitebox, etc.
 
 0:07:56.770,0:07:58.840
 Und von allen taucht hier irgendwo auch etwas auf.
 
 0:07:58.840,0:08:03.160
-Also es gibt hier Diagramme, die eher 
+Also es gibt hier Diagramme, die eher
 qualitativer versus quantitativer Natur sind, etc.
 
 0:08:03.160,0:08:05.110
 Das werden wir dann auch sehen (bei denen,
 
 0:08:05.110,0:08:09.130
-die wir konkret betrachten), 
+die wir konkret betrachten),
 wie sich das jeweils einordnet.
 
 0:08:09.130,0:08:16.390
-Aber generell kommt in UML sehr viel von den Arten 
+Aber generell kommt in UML sehr viel von den Arten
 der Modelle vor, die wir vorher besprochen hatten.
 
 0:08:19.940,0:08:24.950
-Zunächst, wie gesagt, Klassen- und 
+Zunächst, wie gesagt, Klassen- und
 Objektdiagramme, wie eben auf der Folie gezeigt.
 
 0:08:24.950,0:08:29.480
-Die beiden linksstehenden von den obersten 
+Die beiden linksstehenden von den obersten
 Vertretern unterhalb von Strukturdiagrammen.
 
 0:08:29.480,0:08:34.070
 Was wird da statisch modelliert?
 
 0:08:34.070,0:08:37.760
-Im Wesentlichen wird in 
+Im Wesentlichen wird in
 folgender Hinsicht modelliert.
 
 0:08:37.760,0:08:41.621
-Es geht um Objekte, also Dinge, ihre 
+Es geht um Objekte, also Dinge, ihre
 Eigenschaften und Beziehungen zwischen ihnen.
 
 0:08:41.621,0:08:43.520
-Das sind also die drei Sachen, 
+Das sind also die drei Sachen,
 um die es irgendwie geht.
 
 0:08:43.520,0:08:49.910
-Was sind die Dinge/Objekte, die in dem 
+Was sind die Dinge/Objekte, die in dem
 System, von dem wir reden wollen, vorkommen?
 
 0:08:49.910,0:08:52.280
 Also, was existiert da?
 
 0:08:52.280,0:08:54.920
-Und welche Eigenschaften 
+Und welche Eigenschaften
 haben die jeweiligen Dinge?
 
 0:08:54.920,0:08:58.640
-Das können ja für verschiedene Bereiche 
+Das können ja für verschiedene Bereiche
 verschiedene Eigenschaften sein,
 
 0:08:58.640,0:09:01.340
@@ -471,18 +471,18 @@ Und was sind die Beziehungen zwischen den Dingen?
 Also, Eigenschaften beziehen sich auf eine Sache.
 
 0:09:06.350,0:09:10.250
-Beziehungen sind zwischen verschiedenen 
+Beziehungen sind zwischen verschiedenen
 Sachen, die im System vorkommen können.
 
 0:09:10.250,0:09:15.710
-Es geht dann darum, den Zustand 
+Es geht dann darum, den Zustand
 des Systems festzuhalten.
 
 0:09:15.710,0:09:16.910
 Wie der sich zusammensetzt.
 
 0:09:16.910,0:09:20.810
-Also nicht unbedingt, welche konkreten Werte 
+Also nicht unbedingt, welche konkreten Werte
 zu einem Zeitpunkt vorliegen müssen, sondern:
 
 0:09:20.810,0:09:23.210
@@ -492,7 +492,7 @@ Wie ist der Zustand organisiert.
 Was muss über das System bekannt sein,
 
 0:09:24.620,0:09:27.260
-um zu erfassen, wie es zu einem 
+um zu erfassen, wie es zu einem
 bestimmten Zeitpunkt aussieht?
 
 0:09:27.260,0:09:28.310
@@ -502,11 +502,11 @@ Und auch:
 Wie kann es sich entwickeln?
 
 0:09:29.720,0:09:33.140
-Wobei das "Wie" der Entwicklung natürlich 
+Wobei das "Wie" der Entwicklung natürlich
 eher dynamische Modellierung wäre.
 
 0:09:33.140,0:09:36.440
-Hier geht es eher darum, welche 
+Hier geht es eher darum, welche
 Zustände überhaupt möglich sind.
 
 0:09:36.440,0:09:36.950
@@ -522,11 +522,11 @@ Sondern:
 Welche Zustände sind überhaupt möglich?
 
 0:09:40.040,0:09:43.340
-Und das schränkt ja auch ein, wie 
+Und das schränkt ja auch ein, wie
 das System sich entwickeln kann.
 
 0:09:43.340,0:09:48.380
-Und andockend an das, was wir in 
+Und andockend an das, was wir in
 der letzten Woche gemacht haben:
 
 0:09:48.380,0:09:50.810
@@ -536,7 +536,7 @@ Welche Operationen werden angeboten?
 Also, was kann man mit den Dingen tun?
 
 0:09:54.710,0:09:58.400
-Ohne zu spezifizieren, was genau 
+Ohne zu spezifizieren, was genau
 rauskommt, wenn man das tut.
 
 0:09:58.400,0:09:59.210
@@ -549,21 +549,21 @@ Was ist sozusagen das Interface?
 Welche Operationen sind möglich?
 
 0:10:08.340,0:10:11.370
-Das klingt erst mal weniger spannend 
+Das klingt erst mal weniger spannend
 als die Modellierung des Verhaltens.
 
 0:10:11.370,0:10:13.290
 Dynamische Modellierung ist immer anspruchsvoller.
 
 0:10:13.290,0:10:15.000
-Deswegen beginnen wir auch 
+Deswegen beginnen wir auch
 mit statischer Modellierung.
 
 0:10:15.000,0:10:17.070
 Aber, wie auch in der letzten Woche schon gesehen,
 
 0:10:17.070,0:10:20.910
-kann man das überhaupt erst 
+kann man das überhaupt erst
 mal statisch festhalten.
 
 0:10:20.910,0:10:24.300
@@ -573,53 +573,53 @@ Was denn überhaupt die beteiligten Objekte sind.
 Also, wie sind die Daten im System strukturiert?
 
 0:10:27.450,0:10:30.780
-Welche Operationen sind 
+Welche Operationen sind
 möglich, also werden angeboten?
 
 0:10:30.780,0:10:34.290
-Das schränkt eben auch schon 
+Das schränkt eben auch schon
 das dynamische Verhalten ein.
 
 0:10:34.290,0:10:37.890
-Also zunächst so eine präzise 
+Also zunächst so eine präzise
 statische Modellierung zu haben,
 
 0:10:37.890,0:10:39.510
-ist auch eine wichtige Hilfe 
+ist auch eine wichtige Hilfe
 später bei der Implementierung.
 
 0:10:40.080,0:10:44.250
-Vor allem bei größeren 
+Vor allem bei größeren
 Softwaresystemen ist das relevant.
 
 0:10:44.250,0:10:49.350
-Und, das wird auch in dieser Vorlesung 
+Und, das wird auch in dieser Vorlesung
 nicht im Vordergrund stehen, aber:
 
 0:10:49.350,0:10:55.350
-So eine statische Modellierung erlaubt auch 
+So eine statische Modellierung erlaubt auch
 Anwendung von bestimmten Designprinzipien.
 
 0:10:55.350,0:11:01.860
-Also gerade wenn viel mit 
+Also gerade wenn viel mit
 Objektorientierung modelliert wird,
 
 0:11:01.860,0:11:07.650
-dann gibt es bestimmte Prinzipien, was 
+dann gibt es bestimmte Prinzipien, was
 ein gutes objektorientiertes Design ist.
 
 0:11:07.650,0:11:09.720
 Und wenn man die Sprache UML benutzt,
 
 0:11:09.720,0:11:12.600
-dann lassen sich diese Prinzipien sehr 
+dann lassen sich diese Prinzipien sehr
 leicht anwenden, also auch leicht erkennen.
 
 0:11:12.600,0:11:14.730
 Also es gibt bestimmte Programmiertechniken.
 
 0:11:14.730,0:11:18.000
-Vererbung zum Beispiel ist Ihnen 
+Vererbung zum Beispiel ist Ihnen
 eventuell ein Begriff, wenn Sie in
 
 0:11:18.000,0:11:21.300
@@ -629,29 +629,29 @@ der Schule zum Beispiel mit Java gearbeitet haben.
 Und Vererbung ist erst mal ganz nett,
 
 0:11:24.060,0:11:29.310
-aber zum anderen kann es auch eine 
+aber zum anderen kann es auch eine
 Falle sein, das zu viel zu benutzen.
 
 0:11:30.270,0:11:32.550
-Einfach weil es in der 
+Einfach weil es in der
 Programmiersprache vorhanden ist,
 
 0:11:32.550,0:11:34.020
 heißt das nicht, dass man es überall benutzt muss.
 
 0:11:34.020,0:11:40.140
-Und ein klares Design, eine klare Modellierung 
+Und ein klares Design, eine klare Modellierung
 mittels UML, kann es vereinfachen,
 
 0:11:40.140,0:11:44.865
-erst mal sinnvoll zu ermitteln, wann man 
+erst mal sinnvoll zu ermitteln, wann man
 tatsächlich Vererbung einsetzen sollte.
 
 0:11:44.865,0:11:47.790
 Auch das sind wieder Pattern, die zum
 
 0:11:47.790,0:11:54.720
-Beispiel in der Vorlesung "Fortgeschrittene 
+Beispiel in der Vorlesung "Fortgeschrittene
 Programmiertechniken" sicher diskutiert werden.
 
 0:11:54.720,0:11:59.150
@@ -661,48 +661,48 @@ Also man kann dann auch fragen:
 Was ist ein gutes oder ein schlechtes Modell?
 
 0:12:00.530,0:12:05.780
-Wenn man sich denn auf eine 
+Wenn man sich denn auf eine
 bestimmte Modellsprache festlegt.
 
 0:12:12.320,0:12:13.970
-Was hat es jetzt mit dieser 
+Was hat es jetzt mit dieser
 Objektorientierung auf sich?
 
 0:12:13.970,0:12:16.880
 Also, wo kommen die Objekte ins Spiel?
 
 0:12:16.880,0:12:20.450
-Das kann man erst mal wieder sehr 
+Das kann man erst mal wieder sehr
 abstrakt fassen, so wie wir auch
 
 0:12:20.450,0:12:25.025
-unseren Modell- und System-Begriff 
+unseren Modell- und System-Begriff
 anfangs recht abstrakt gefasst haben.
 
 0:12:25.025,0:12:25.910
 Also, was ist die Grundidee?
 
 0:12:26.960,0:12:33.440
-Etwas vereinfachend besteht die Welt aus 
+Etwas vereinfachend besteht die Welt aus
 Objekten, die untereinander in Beziehung stehen.
 
 0:12:35.630,0:12:38.150
-Das ist erst mal eine Feststellung, 
+Das ist erst mal eine Feststellung,
 die man über die Welt treffen kann.
 
 0:12:38.150,0:12:39.320
 Und die Idee ist:
 
 0:12:39.320,0:12:44.720
-Da Informatiksysteme oft mit der Welt zu tun 
+Da Informatiksysteme oft mit der Welt zu tun
 haben oder Dinge aus der Welt abbilden sollen,
 
 0:12:44.720,0:12:48.410
-überträgt man diese Grundstrukturierung 
+überträgt man diese Grundstrukturierung
 der Welt (oder diese Sichtweise) eben
 
 0:12:48.410,0:12:52.970
-auch auf Modellierung und auf die 
+auch auf Modellierung und auf die
 Softwareentwicklung im Allgemeinen.
 
 0:12:52.970,0:12:56.090
@@ -712,84 +712,84 @@ Wie ist es dann etwas genauer zu fassen?
 Also die Idee ist:
 
 0:12:57.800,0:13:01.040
-Man nimmt die Daten, die irgendwie 
+Man nimmt die Daten, die irgendwie
 im System vorliegen sollen.
 
 0:13:01.040,0:13:02.990
 Die wird man später Attribute nennen.
 
 0:13:02.990,0:13:05.990
-Und die werden mit der 
+Und die werden mit der
 Funktionalität zusammengefasst.
 
 0:13:05.990,0:13:11.030
-Das nennt man Methoden, und entspricht 
+Das nennt man Methoden, und entspricht
 Operationen aus der vergangenen Woche.
 
 0:13:11.030,0:13:16.010
 Und diese Daten, zusammen mit der Funktionalität,
 
 0:13:16.010,0:13:21.110
-die auf diesen Daten operiert, die werden 
+die auf diesen Daten operiert, die werden
 gemeinsam organisiert, gemeinsam zusammengefasst
 
 0:13:21.110,0:13:24.890
-(man spricht auch von einer Kapselung), 
+(man spricht auch von einer Kapselung),
 und jeweils einzelnen Objekten zugeordnet.
 
 0:13:24.890,0:13:28.100
 Also ein Objekt fasst zusammen: bestimmte
 
 0:13:28.100,0:13:32.390
-Daten und Methoden/Operation, 
+Daten und Methoden/Operation,
 die darauf operieren sollen.
 
 0:13:32.390,0:13:40.340
-Und dann ist jedes Objekt in der 
+Und dann ist jedes Objekt in der
 Lage, Methodenaufrufe zu empfangen.
 
 0:13:40.340,0:13:46.310
-Also Operationen auszuführen, die 
+Also Operationen auszuführen, die
 die Daten verarbeiten oder wieder
 
 0:13:46.310,0:13:51.860
 andere Operationen auf anderen Objekten auslösen.
 
 0:13:51.860,0:13:55.310
-Die Objekte können sich sozusagen über die 
+Die Objekte können sich sozusagen über die
 Methoden/Operationen miteinander austauschen.
 
 0:14:01.100,0:14:02.420
 Das ist schon ein Kontrast zu dem,
 
 0:14:02.420,0:14:05.390
-was wir in der letzten Woche für diese 
+was wir in der letzten Woche für diese
 Vektorgrafik-Domäne gesehen haben.
 
 0:14:05.390,0:14:10.610
-Denn da war es ja nicht so, dass die Pictures, 
+Denn da war es ja nicht so, dass die Pictures,
 die Bilder, selbst irgendwie Methoden anbieten.
 
 0:14:10.610,0:14:11.480
 Sondern es gab diese Operationen.
 
 0:14:11.480,0:14:15.560
-Die nahmen Bilder als Eingabe und gaben 
+Die nahmen Bilder als Eingabe und gaben
 eventuell Bilder als Ausgabe zurück.
 
 0:14:15.560,0:14:16.730
 Also es ging beides:
 
 0:14:16.730,0:14:20.750
-Man konnte ein Bild als Eingabe 
+Man konnte ein Bild als Eingabe
 nehmen und ein Bild zurückgeben,
 
 0:14:20.750,0:14:22.160
-oder konnte einfach nur aus irgendwelchen 
+oder konnte einfach nur aus irgendwelchen
 Zahlendaten ein Bild erzeugen.
 
 0:14:23.780,0:14:31.730
-Aber es war nicht so, dass die Methoden 
+Aber es war nicht so, dass die Methoden
 direkt an die Bilder gekoppelt waren.
 
 0:14:31.730,0:14:34.850
@@ -799,53 +799,53 @@ Das werden wir gleich noch mal im Kontrast sehen.
 Und wichtig:
 
 0:14:41.780,0:14:49.190
-Der Nutzen dieser Art des Herangehens soll eben 
+Der Nutzen dieser Art des Herangehens soll eben
 sein, dass diese Objekte bzw. ganze Typen von
 
 0:14:49.190,0:14:53.930
-Objekten (ganze Klassen von Objekten, wie 
+Objekten (ganze Klassen von Objekten, wie
 wir dann sagen werden) einmal realisiert
 
 0:14:53.930,0:14:56.600
-werden, und dann in verschiedenen Kontexten 
+werden, und dann in verschiedenen Kontexten
 wiederverwendet werden können sollen.
 
 0:14:56.600,0:15:00.800
-Es geht nicht darum, irgendwie ein Objekt zu 
+Es geht nicht darum, irgendwie ein Objekt zu
 beschreiben, sondern das allgemeiner zu fassen, so
 
 0:15:00.800,0:15:08.420
-dass wir dann bestehende Modelle in verschiedenen 
+dass wir dann bestehende Modelle in verschiedenen
 Anwendungskontexten wiederverwenden können.
 
 0:15:12.940,0:15:17.740
-Gucken wir uns das tatsächlich erst mal etwas 
+Gucken wir uns das tatsächlich erst mal etwas
 naiv illustriert an, aus Programmierer-Sicht.
 
 0:15:17.740,0:15:19.330
 Obwohl dies keine Programmiervorlesung ist.
 
 0:15:19.330,0:15:21.490
-Aber um diese Grundidee der 
+Aber um diese Grundidee der
 Objektorientierung zu verstehen,
 
 0:15:21.490,0:15:24.370
-ist auch nicht verkehrt, sich das 
+ist auch nicht verkehrt, sich das
 mal so mit Pseudocode anzuschauen.
 
 0:15:24.370,0:15:27.220
 Und das tun wir tatsächlich an der eben schon
 
 0:15:27.220,0:15:30.040
-noch mal in Erinnerung gerufenen 
+noch mal in Erinnerung gerufenen
 Beispieldomäne, der Vektorgrafik.
 
 0:15:30.040,0:15:36.730
-Und wir stellen uns mal vor, dass wir 
+Und wir stellen uns mal vor, dass wir
 ein kleines Bild beschreiben wollen,
 
 0:15:36.730,0:15:41.710
-das irgendwie schrittweise aus 
+das irgendwie schrittweise aus
 verschiedenen Operationen aufgebaut ist.
 
 0:15:41.710,0:15:42.700
@@ -855,14 +855,14 @@ Also das steht jetzt hier.
 Wir stellen uns vor:
 
 0:15:43.450,0:15:47.860
-Wir zeichnen zunächst ein 
+Wir zeichnen zunächst ein
 Rechteck mit bestimmten Maßen.
 
 0:15:47.860,0:15:50.530
 Das wäre unser Bild 1, Picture 1.
 
 0:15:50.530,0:15:54.070
-Dann färben wir das rot, haben 
+Dann färben wir das rot, haben
 somit ein weiteres Picture.
 
 0:15:54.070,0:15:58.360
@@ -872,80 +872,80 @@ Also jetzt ein rotes Rechteck mit diesen Maßen.
 Dann rotieren wir das noch.
 
 0:16:00.130,0:16:03.340
-Kriegen ein neues Bild p3, 
+Kriegen ein neues Bild p3,
 und bewegen dieses Bild p3
 
 0:16:03.340,0:16:10.240
-um irgendwelche x/y-Koordinaten, und 
+um irgendwelche x/y-Koordinaten, und
 erhalten dann unser finales Bild p4.
 
 0:16:11.140,0:16:14.470
-Das wäre eine Möglichkeit, wie wir 
+Das wäre eine Möglichkeit, wie wir
 so einen schrittweise Aufbau eines
 
 0:16:14.470,0:16:17.320
-Bildes mit den Operationen aus der 
+Bildes mit den Operationen aus der
 letzten Woche beschreiben könnten.
 
 0:16:17.320,0:16:21.580
 Und dann könnten wir p4 auf den Bildschirm malen.
 
 0:16:21.580,0:16:29.530
-Was hier auffällt, und vielleicht ungeschickt 
+Was hier auffällt, und vielleicht ungeschickt
 erscheinen mag auf den ersten Blick:
 
 0:16:30.130,0:16:35.170
-Wir haben hier diese Zwischenbilder, 
+Wir haben hier diese Zwischenbilder,
 die jeweils einen eigenen Namen haben
 
 0:16:35.170,0:16:39.760
-und dann eigentlich immer die Rolle haben, 
+und dann eigentlich immer die Rolle haben,
 als Eingabe für das nächste Bild zu dienen.
 
 0:16:39.760,0:16:45.520
-Dieses sozusagen Weiterreichen dieser 
+Dieses sozusagen Weiterreichen dieser
 Bildvariablen könnte man sich sparen.
 
 0:16:45.520,0:16:48.310
-Das versucht die objektorientierte 
+Das versucht die objektorientierte
 Programmierung zu vermeiden,
 
 0:16:48.310,0:16:54.250
 indem das sozusagen eher etwas implizit bleibt.
 
 0:16:54.250,0:16:57.250
-Also statt sich vorzustellen, man 
+Also statt sich vorzustellen, man
 erzeuge jedes Mal ein neues Bild,
 
 0:16:57.250,0:16:59.230
-wenn man eine Operation 
+wenn man eine Operation
 ausführt, sagt man einfach:
 
 0:16:59.230,0:17:01.840
 Man hat ein Bild und arbeitet auf dem direkt.
 
 0:17:01.840,0:17:05.920
-Also objektorientiert würde man hier sagen, das 
+Also objektorientiert würde man hier sagen, das
 Bild wird mit seinen Operationen zusammengefasst.
 
 0:17:05.920,0:17:12.700
-Es gibt also ein Bild p, das wird am Anfang 
+Es gibt also ein Bild p, das wird am Anfang
 einmal als Rechteck mit diesen Maßen erzeugt.
 
 0:17:12.700,0:17:14.620
-Und dass das jetzt großgeschrieben 
+Und dass das jetzt großgeschrieben
 ist, liegt eher daran,
 
 0:17:14.620,0:17:20.140
-dass das hier schon ein bisschen an eine konkrete 
+dass das hier schon ein bisschen an eine konkrete
 Programmiersprache angelehnt ist, nämlich Java.
 
 0:17:20.140,0:17:22.990
-Ansonsten ist das jetzt kein 
+Ansonsten ist das jetzt kein
 wesentlicher Unterschied.
 
 0:17:23.590,0:17:26.050
-Dann würde man also ein neues Bild 
+Dann würde man also ein neues Bild
 erzeugen und dann würde man sagen,
 
 0:17:26.050,0:17:28.510
@@ -955,19 +955,19 @@ dieses Bild färbe man jetzt rot.
 Dieses Bild rotiere man jetzt um Winkel 30.
 
 0:17:32.890,0:17:36.250
-Dieses Bild bewege man jetzt 
+Dieses Bild bewege man jetzt
 an folgende Koordinaten.
 
 0:17:37.210,0:17:39.430
-Das heißt, im Unterschied zu hier 
+Das heißt, im Unterschied zu hier
 oben hat man nicht mehrere Bilder,
 
 0:17:39.430,0:17:44.650
-die nach und nach aufgebaut werden und dann auch 
+die nach und nach aufgebaut werden und dann auch
 noch getrennt voneinander weiterhin existieren.
 
 0:17:44.650,0:17:49.780
-Also hier oben hätte man p1, p2, p3, p4, die 
+Also hier oben hätte man p1, p2, p3, p4, die
 existieren alle noch, auch die Zwischenschritte.
 
 0:17:49.780,0:17:51.430
@@ -977,11 +977,11 @@ Während man hier einfach sagt:
 Auf dem einen Bild p führe diese Operationen aus.
 
 0:17:54.940,0:17:57.940
-Man hat also auch nicht immer, wie hier 
+Man hat also auch nicht immer, wie hier
 oben, ein Bild rein und ein Bild raus.
 
 0:17:57.940,0:18:03.100
-Sondern man arbeitet auf einem Bild, 
+Sondern man arbeitet auf einem Bild,
 das automatisch weitergereicht wird.
 
 0:18:03.100,0:18:05.740
@@ -991,49 +991,49 @@ Das ist einerseits etwas kürzer, könnte man sagen.
 Hat aber natürlich durchaus auch Nachteile.
 
 0:18:09.940,0:18:12.610
-Denn hier ist es so, dass dieses Bild 
+Denn hier ist es so, dass dieses Bild
 sozusagen jeweils überschrieben wird.
 
 0:18:12.610,0:18:16.660
-Während man hier oben wirklich 
+Während man hier oben wirklich
 Werte für die einzelnen Bilder hat
 
 0:18:16.660,0:18:21.280
-und durchaus neben p4 weiterhin 
+und durchaus neben p4 weiterhin
 auch noch p2 benutzen könnte.
 
 0:18:27.640,0:18:32.140
-Das sind einfach zwei verschiedene 
+Das sind einfach zwei verschiedene
 Herangehensweisen, mit Operationen zu arbeiten.
 
 0:18:32.140,0:18:37.540
-Und die Objektorientierung 
+Und die Objektorientierung
 benutzt eben diesen zweiten Weg.
 
 0:18:37.540,0:18:43.630
-Das ist wahrscheinlich nicht in 
+Das ist wahrscheinlich nicht in
 jeder Situation so gewünscht,
 
 0:18:43.630,0:18:47.680
-aber bei Objektorientierung 
+aber bei Objektorientierung
 geht man eben diesen Weg.
 
 0:18:48.460,0:18:50.590
 Vergleichen Sie das mit der Arithmetik.
 
 0:18:50.590,0:18:54.400
-Wenn man Zahlen addiert, verschwinden 
+Wenn man Zahlen addiert, verschwinden
 die alten Zahlen ja nicht.
 
 0:18:54.400,0:18:59.040
-Ja, die Situation hier oben entspricht eher dem, 
+Ja, die Situation hier oben entspricht eher dem,
 wie man mit arithmetischen Ausdrücken arbeitet.
 
 0:18:59.040,0:19:00.220
 Man hat Zwischenergebnisse.
 
 0:19:00.220,0:19:05.650
-Aber dass man die Zahlen fünf und drei addiert, 
+Aber dass man die Zahlen fünf und drei addiert,
 führt nicht dazu, dass aus der Fünf die Acht wird.
 
 0:19:05.650,0:19:07.330
@@ -1046,118 +1046,118 @@ Und die Fünf und die Drei sind nach wie vor da.
 Genau wie hier:
 
 0:19:09.730,0:19:14.110
-Wenn ich am Ende das rote, gedrehte, 
+Wenn ich am Ende das rote, gedrehte,
 verschobene Rechteck habe, ist es
 
 0:19:14.110,0:19:16.930
-nicht so, dass das ursprüngliche 
+nicht so, dass das ursprüngliche
 Rechteck dadurch verschwunden ist.
 
 0:19:16.930,0:19:22.600
-Hier unten hingegen wird das ursprüngliche 
+Hier unten hingegen wird das ursprüngliche
 Rechteck überschrieben mit, dann am Ende,
 
 0:19:23.980,0:19:28.960
-dem finalen Rechteck mit Farbe, 
+dem finalen Rechteck mit Farbe,
 Rotation und neuer Position.
 
 0:19:32.490,0:19:35.662
 Woher kommt das?
 
 0:19:35.662,0:19:37.980
-Was ist sozusagen der Unterschied 
+Was ist sozusagen der Unterschied
 dieser beiden Sichten?
 
 0:19:37.980,0:19:43.290
-Dazu hatten wir in der vergangenen 
+Dazu hatten wir in der vergangenen
 Woche unsere Operationen aufgeschrieben.
 
 0:19:43.290,0:19:48.060
-Also es gab explizite Vorkommen 
+Also es gab explizite Vorkommen
 von Bildern als Ein- und Ausgaben.
 
 0:19:48.060,0:19:52.260
-Also "color" nahm ein Bild und eine 
+Also "color" nahm ein Bild und eine
 Farbe, und lieferte ein neues Bild.
 
 0:19:52.260,0:19:55.050
 Und analog bei den anderen Operationen.
 
 0:19:55.050,0:19:57.870
-In der Objektorientierung macht man 
+In der Objektorientierung macht man
 das jetzt nicht mehr so explizit.
 
 0:19:57.870,0:20:04.260
-Sondern letztlich wird das Picture, 
+Sondern letztlich wird das Picture,
 also sozusagen die Klasse von Objekten,
 
 0:20:04.260,0:20:08.940
-um die es hier hauptsächlich 
+um die es hier hauptsächlich
 geht, implizit gesetzt.
 
 0:20:08.940,0:20:12.450
 Also man bildet eine Klasse "Picture".
 
 0:20:12.450,0:20:17.490
-Die hat vielleicht eine Unterklasse für 
+Die hat vielleicht eine Unterklasse für
 die konkreten spezifischeren Sachen,
 
 0:20:17.490,0:20:22.350
-die man am Anfang hat, von denen man ausgehen 
+die man am Anfang hat, von denen man ausgehen
 kann, also die Grundformen Rechteck, Kreis etc.
 
 0:20:22.350,0:20:29.580
-Und dann gibt es zu den hier gegebenen 
+Und dann gibt es zu den hier gegebenen
 Operationen analoge Methoden.
 
 0:20:29.580,0:20:33.270
-Aber die arbeiten implizit auf 
+Aber die arbeiten implizit auf
 jeweils einem Picture-Objekt.
 
 0:20:33.270,0:20:34.950
 Also man sagt dann nur noch, innerhalb der Klasse
 
 0:20:34.950,0:20:41.820
-Picture gibt es gekapselt Operationen 
+Picture gibt es gekapselt Operationen
 für etwa Einfärben, Rotieren, Bewegen.
 
 0:20:41.820,0:20:46.920
-Und hier taucht Picture nicht noch mal 
+Und hier taucht Picture nicht noch mal
 auf, weder als Argument noch als Ergebnis.
 
 0:20:46.920,0:20:50.310
-Weil diese Methoden eben in der 
+Weil diese Methoden eben in der
 Picture-Klasse gekapselt sind,
 
 0:20:50.310,0:20:52.440
 arbeiten sie immer automatisch auf einem Bild.
 
 0:20:52.440,0:20:55.980
-Also, wenn ich "color" aufrufe, 
+Also, wenn ich "color" aufrufe,
 tue ich das auf einem Bild.
 
 0:20:55.980,0:21:02.391
-Und das Ergebnis, das gefärbte Bild, ist 
+Und das Ergebnis, das gefärbte Bild, ist
 dann was nach der Operation herauskommt.
 
 0:21:02.391,0:21:07.140
-Also das Picture, auf dem ich die 
+Also das Picture, auf dem ich die
 Operation aufrufe, wird dadurch verändert.
 
 0:21:07.140,0:21:09.240
-Ich muss nicht explizit noch 
+Ich muss nicht explizit noch
 ein neues Picture zurückgeben.
 
 0:21:12.630,0:21:16.874
-Und sowas in der Art werden wir dann 
+Und sowas in der Art werden wir dann
 auch in unseren Diagrammen wiederfinden.
 
 0:21:16.874,0:21:20.940
-Nicht unbedingt mit exakt dieser Syntax 
+Nicht unbedingt mit exakt dieser Syntax
 hier, etwa nicht unbedingt mit diesem "void".
 
 0:21:21.600,0:21:29.220
-Aber dieser Natur werden unsere Methoden/Angaben 
+Aber dieser Natur werden unsere Methoden/Angaben
 sein, und nicht dieser eher mathematischen Natur.
 
 0:21:29.220,0:21:37.030
@@ -1167,49 +1167,49 @@ Das ist auch nicht exakt zum Beispiel Java-Syntax.
 Da würden noch ein paar Annotationen fehlen,
 
 0:21:38.770,0:21:42.400
-wahrscheinlich ein paar 
+wahrscheinlich ein paar
 "abstract"-Annotationen zum Beispiel.
 
 0:21:42.400,0:21:45.790
-Aber das soll hier ja auch nur 
+Aber das soll hier ja auch nur
 den Grundunterschied zwischen
 
 0:21:45.790,0:21:47.740
 diesen beiden Vorgehensweisen illustrieren.
 
 0:21:47.740,0:21:55.810
-Sind dann deswegen nur Operationen 
+Sind dann deswegen nur Operationen
 möglich, die immer ein Bild zurückliefern?
 
 0:21:55.810,0:21:57.370
 Das sieht hier oben ja so aus.
 
 0:21:57.370,0:21:59.350
-Das macht immer: ein Bild als 
+Das macht immer: ein Bild als
 Eingabe, ein Bild als Ausgabe.
 
 0:21:59.350,0:22:02.410
-Das sind ja nicht unbedingt alle 
+Das sind ja nicht unbedingt alle
 Operationen, die man sich vorstellen kann.
 
 0:22:02.410,0:22:09.700
-Also denken wir etwa mal an Operationen, 
+Also denken wir etwa mal an Operationen,
 die kein Objekt verändern sollen,
 
 0:22:09.700,0:22:11.830
-sondern einfach irgendwie eine 
+sondern einfach irgendwie eine
 Berechnung durchführen sollen.
 
 0:22:11.830,0:22:15.190
-Also stellen wir uns etwa vor, 
+Also stellen wir uns etwa vor,
 es gäbe noch eine Operation,
 
 0:22:15.190,0:22:20.710
-die zu einem Bild einfach das Ausmaß, die 
+die zu einem Bild einfach das Ausmaß, die
 Größe, den Durchmesser oder so ermittelt.
 
 0:22:20.710,0:22:24.100
-Das wäre aus mathematischer 
+Das wäre aus mathematischer
 Sicht, aus algebraischer Sicht,
 
 0:22:24.100,0:22:26.230
@@ -1219,7 +1219,7 @@ einfach eine Operation "extent" für "Ausmaß".
 Sie nimmt ein Bild und liefert eine Zahl.
 
 0:22:30.490,0:22:36.160
-Das entspräche dann bei Kapselung in 
+Das entspräche dann bei Kapselung in
 der Picture-Klasse einer Operation,
 
 0:22:36.160,0:22:38.500
@@ -1232,71 +1232,71 @@ Also dann gibt es keine Argumente.
 Das Bild muss man nicht als Argument übergeben,
 
 0:22:42.880,0:22:45.880
-weil die Methode sowieso in der 
+weil die Methode sowieso in der
 Picture-Klasse gekapselt ist.
 
 0:22:45.880,0:22:50.996
-Man muss also nicht sagen, von welchem 
+Man muss also nicht sagen, von welchem
 Bild man denn die Ausmaße haben will.
 
 0:22:50.996,0:22:53.950
-Das ist immer das aktuelle Bild, 
+Das ist immer das aktuelle Bild,
 auf dem man die Methode aufruft.
 
 0:22:53.950,0:23:00.130
-Es wird das Bild dadurch nicht verändert, 
+Es wird das Bild dadurch nicht verändert,
 aber es wird eine ganze Zahl zurückgeliefert.
 
 0:23:00.130,0:23:06.820
-Dann hätte man, wenn wir das 
+Dann hätte man, wenn wir das
 so schreiben, eine Operation,
 
 0:23:06.820,0:23:11.890
-die kein Argument übernimmt außer dem 
+die kein Argument übernimmt außer dem
 sowieso implizit gegebenen Picture.
 
 0:23:11.890,0:23:14.920
 Sie hat aber einen Rückgabewert.
 
 0:23:14.920,0:23:18.820
-Wo auf der vorherigen Folie überall 
+Wo auf der vorherigen Folie überall
 "void" stand, weil man nicht wirklich
 
 0:23:18.820,0:23:22.450
-etwas zurückgeben will, sondern einfach 
+etwas zurückgeben will, sondern einfach
 nur das aktuelle Bild manipulieren möchte.
 
 0:23:27.190,0:23:39.730
-Und wie gesagt, schon die Syntax in UML 
+Und wie gesagt, schon die Syntax in UML
 ist etwas anders als hier eben gezeigt.
 
 0:23:39.730,0:23:43.150
-Hier eben gezeigt war eine 
+Hier eben gezeigt war eine
 Syntax, die sich an Java anlehnt.
 
 0:23:43.150,0:23:49.300
-In UML, was ja nicht spezifisch für eine 
+In UML, was ja nicht spezifisch für eine
 konkrete Programmiersprache sein soll,
 
 0:23:49.300,0:23:50.710
 ist die Syntax etwas anders.
 
 0:23:50.710,0:24:03.100
-Also zum Beispiel würde da dann diese Angabe 
+Also zum Beispiel würde da dann diese Angabe
 für die Einfärbungs-Operation so aussehen, und
 
 0:24:03.100,0:24:05.740
 nicht so programmiersprachlich an Java angelehnt.
 
 0:24:05.740,0:24:07.450
-Aber das ist einfach nur ein 
+Aber das ist einfach nur ein
 syntaktischer Unterschied.
 
 0:24:07.450,0:24:08.950
 Da müssen Sie ein bisschen drauf achten,
 
 0:24:08.950,0:24:16.210
-wenn Sie dann Diagramme angeben, dass Sie 
+wenn Sie dann Diagramme angeben, dass Sie
 sich wirklich an die UML-Schreibweise halten.
 
 0:24:21.100,0:24:22.225
@@ -1309,88 +1309,88 @@ Wo wird das in der Praxis eingesetzt?
 Also das hatte ich schon erwähnt:
 
 0:24:25.330,0:24:28.810
-Ein behaupteter Vorteil ist 
+Ein behaupteter Vorteil ist
 eben Wiederverwendbarkeit.
 
 0:24:28.810,0:24:34.060
-Also dadurch, dass Daten und Funktionalität 
+Also dadurch, dass Daten und Funktionalität
 zusammen verwaltet werden, und es Konzepte
 
 0:24:34.060,0:24:37.720
-zur Modifikation von Verhalten gibt (Stichwort 
+zur Modifikation von Verhalten gibt (Stichwort
 "Vererbung", was ich auch schon erwähnt hatte,
 
 0:24:37.720,0:24:41.170
-was wir uns aus Modellierungssicht 
+was wir uns aus Modellierungssicht
 noch genauer anschauen werden),
 
 0:24:41.170,0:24:46.750
-wird es möglich sein, einmal 
+wird es möglich sein, einmal
 entwickelte Funktionalität in
 
 0:24:46.750,0:24:49.630
-verschiedenen Systemen, in verschiedenen 
+verschiedenen Systemen, in verschiedenen
 Implementierungen, wiederzuverwenden.
 
 0:24:49.630,0:24:54.040
-Einfach weil die Organisation / 
+Einfach weil die Organisation /
 Kapselung von Daten und Funktionalität
 
 0:24:54.040,0:25:01.060
-zusammen sich gut für Übertragungen in andere 
+zusammen sich gut für Übertragungen in andere
 Anwendungsbereiche eignen, auch im Nachgang.
 
 0:25:01.060,0:25:06.550
-Ein anderer wichtiger Punkt ist Verträglichkeit 
+Ein anderer wichtiger Punkt ist Verträglichkeit
 mit Nebenläufigkeit und Parallelität.
 
 0:25:06.550,0:25:09.880
-Das sind Konzepte, die ich noch nicht 
+Das sind Konzepte, die ich noch nicht
 erwähnt hatte, die wir uns vor allem
 
 0:25:09.880,0:25:12.850
 im Petrinetz-Kapitel näher anschauen werden.
 
 0:25:12.850,0:25:18.010
-Also was wir heute von Software 
+Also was wir heute von Software
 erwarten, auch von Hardware erwarten,
 
 0:25:18.010,0:25:23.140
-dass Dinge nicht nur rein linear passieren, 
+dass Dinge nicht nur rein linear passieren,
 sonder Dingen auch parallel funktionieren.
 
 0:25:23.140,0:25:25.510
-Also Multitasking in einem 
+Also Multitasking in einem
 Betriebssystem zum Beispiel:
 
 0:25:25.510,0:25:31.120
-da eignet sich Objektorientierung 
+da eignet sich Objektorientierung
 gut, um das abzubilden.
 
 0:25:31.120,0:25:35.350
-Da wir die gekapselten Objekte haben, die 
+Da wir die gekapselten Objekte haben, die
 jeweils ihren eigenen Kontrollfluss haben,
 
 0:25:35.350,0:25:36.490
 ihre eigene Arbeit haben.
 
 0:25:36.490,0:25:41.690
-Und in verschiedenen Objekten 
+Und in verschiedenen Objekten
 kann diese Abarbeitung des
 
 0:25:41.690,0:25:43.760
 Kontrollflusses prinzipiell parallel stattfinden.
 
 0:25:43.760,0:25:48.320
-Und der Nachrichtenaustausch, die 
+Und der Nachrichtenaustausch, die
 Möglichkeit Methoden aufzurufen
 
 0:25:48.320,0:25:52.580
-zwischen den Objekten, bietet ein gutes 
+zwischen den Objekten, bietet ein gutes
 Strukturierungsmittel für Kommunikation
 
 0:25:52.580,0:25:57.920
-in so einem Multitasking- 
+in so einem Multitasking-
 oder nebenläufigen Umfeld.
 
 0:25:57.920,0:26:02.030
@@ -1400,50 +1400,50 @@ Deswegen, unter anderem, wird das gern eingesetzt.
 Und natürlich auch die Ursprungsmotivation:
 
 0:26:08.837,0:26:16.220
-Da die reale Welt sich oftmals so vorgestellt 
+Da die reale Welt sich oftmals so vorgestellt
 werden kann (als bestehend aus Dingen und deren
 
 0:26:16.220,0:26:24.260
-Eigenschaften, plus Beziehungen dazwischen), 
+Eigenschaften, plus Beziehungen dazwischen),
 ist es eben für viele Bereiche auch nützlich,
 
 0:26:24.260,0:26:27.680
-direkt die Softwaremodellierung 
+direkt die Softwaremodellierung
 auf diese Weise durchzuführen.
 
 0:26:27.680,0:26:31.340
-Also, das ist nicht die einzige Möglichkeit, 
+Also, das ist nicht die einzige Möglichkeit,
 aber auf jeden Fall eine prominente.
 
 0:26:31.340,0:26:37.940
 Nochmal ein ganz naives Beispiel, nur um diesen
 
 0:26:37.940,0:26:42.440
-letzten Punkt noch mal ein 
+letzten Punkt noch mal ein
 bisschen stärker zu setzen.
 
 0:26:42.440,0:26:46.310
-Also ja, hier wäre so ein Ding aus der 
+Also ja, hier wäre so ein Ding aus der
 realen Welt: ein Fahrkartenautomat.
 
 0:26:46.310,0:26:49.700
-Sie sehen auch, dass das wahrscheinlich 
+Sie sehen auch, dass das wahrscheinlich
 nicht der aktuellste ist.
 
 0:26:49.700,0:26:54.560
-Das Bild ist also schon länger in den Folien 
+Das Bild ist also schon länger in den Folien
 dieser Vorlesung, auch schon bei meiner
 
 0:26:54.560,0:26:58.760
-Vorgängerin, welche die Vorlesung zuletzt 
+Vorgängerin, welche die Vorlesung zuletzt
 gehalten hat, bis vor vier Jahren oder so.
 
 0:26:58.760,0:27:03.080
-Also ein Fahrkartenautomat, der 
+Also ein Fahrkartenautomat, der
 hat natürlich Daten zu speichern:
 
 0:27:03.080,0:27:06.549
-Fahrziele, Zoneneinteilung, 
+Fahrziele, Zoneneinteilung,
 Fahrtkosten-Tabellen, etc.
 
 0:27:06.549,0:27:07.430
@@ -1453,7 +1453,7 @@ Das wären die Daten.
 Und er hat irgendwelche Operationen anzubieten.
 
 0:27:09.830,0:27:13.850
-Man kann da Knöpfe drücken, sich Preise 
+Man kann da Knöpfe drücken, sich Preise
 anzeigen lassen, Münzen einwerfen.
 
 0:27:13.850,0:27:15.260
@@ -1469,14 +1469,14 @@ Die Idee ist eben:
 Der Fahrkartenautomat ist ein Objekt.
 
 0:27:21.500,0:27:28.640
-Er kapselt bestimmte Daten und 
+Er kapselt bestimmte Daten und
 Operationen, die angeboten werden.
 
 0:27:28.640,0:27:31.940
 Das wäre so ein Objekt der realen Welt,
 
 0:27:31.940,0:27:37.610
-das man dann eben durch objektorientierte 
+das man dann eben durch objektorientierte
 Modellierung auch in UML nachbilden möchte.
 
 0:27:37.610,0:27:43.100
@@ -1495,7 +1495,7 @@ Und dann gibt es das Prinzip der Klasse.
 Das ist einfach ein Typ von Objekten,
 
 0:27:49.520,0:27:53.600
-also die Zusammenfassung von Objekten 
+also die Zusammenfassung von Objekten
 mit gleichartigen Eigenschaften.
 
 0:27:53.600,0:27:59.330
@@ -1505,70 +1505,70 @@ Wir werden dann auch Klassendesign betrachten.
 Das ist nicht zwingend.
 
 0:28:00.530,0:28:04.250
-Es gibt auch Programmiersprachen, die sind 
+Es gibt auch Programmiersprachen, die sind
 objektorientiert und enthalten keine Klassen.
 
 0:28:04.250,0:28:06.590
-Da wird jedes Objekt nur 
+Da wird jedes Objekt nur
 einzeln für sich betrachtet.
 
 0:28:06.590,0:28:13.040
-Aber die Standardsprachen, wie Java 
+Aber die Standardsprachen, wie Java
 eben, haben auch ein Klassenkonzept.
 
 0:28:14.720,0:28:18.140
-Ein Beispiel wäre die Klasse 
+Ein Beispiel wäre die Klasse
 aller solcher Automaten.
 
 0:28:19.400,0:28:21.140
 Da wäre dann dies allgemein zusammengefasst:
 
 0:28:21.140,0:28:26.090
-welche Art Daten sie verwalten müssen und welche 
+welche Art Daten sie verwalten müssen und welche
 Funktionalitäten jeweils angeboten werden sollen.
 
 0:28:26.090,0:28:31.340
-Das wäre also die Klasse der 
+Das wäre also die Klasse der
 Fahrkartenautomaten dieses Verkehrsverbundes.
 
 0:28:31.340,0:28:35.360
-Vielleicht gibt es auch eine allgemeinere 
+Vielleicht gibt es auch eine allgemeinere
 Klasse aller Fahrkartenautomaten überhaupt,
 
 0:28:35.360,0:28:38.060
 von denen diese Klasse dann Eigenschaften erbt.
 
 0:28:38.060,0:28:41.270
-Die Klasse wird einfach 
+Die Klasse wird einfach
 gleichartige Dinge zusammenfassen.
 
 0:28:41.270,0:28:46.490
-Und dann gibt es Objekte, das sind einfach 
+Und dann gibt es Objekte, das sind einfach
 Ausprägungen/Instanzen einer Klasse.
 
 0:28:46.490,0:28:52.130
-Also der konkrete Fahrkartenautomat, der 
+Also der konkrete Fahrkartenautomat, der
 da auf der Vorfolie fotografiert wurde.
 
 0:28:52.130,0:28:55.190
 Das wäre ein Objekt, das zu dieser Klasse gehört.
 
 0:28:55.190,0:28:58.940
-Und an anderen Bahnhöfen, oder anderen 
+Und an anderen Bahnhöfen, oder anderen
 Eingängen des Duisburger Bahnhofs,
 
 0:28:58.940,0:29:02.330
-gibt es weitere Objekte, die aber 
+gibt es weitere Objekte, die aber
 alle bestimmte Eigenschaftsarten
 
 0:29:02.330,0:29:06.980
-gemein haben und deswegen zur Klasse 
+gemein haben und deswegen zur Klasse
 der VRR-Fahrkartenautomaten gehören.
 
 0:29:06.980,0:29:11.900
-Sie speichern dann an anderen 
+Sie speichern dann an anderen
 konkreten Standorten andere
 
 0:29:11.900,0:29:16.820
-Informationen über die Zoneneinteilung 
+Informationen über die Zoneneinteilung
 oder über die eigene Zone etc.

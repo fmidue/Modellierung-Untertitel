@@ -1,48 +1,48 @@
 0:00:00.000,0:00:09.660
-Klassen- und Objektdiagramme werden uns diese und 
+Klassen- und Objektdiagramme werden uns diese und
 auch noch mindestens nächste Woche beschäftigen,
 
 0:00:09.660,0:00:14.340
-als die ersten typischen und 
+als die ersten typischen und
 prominentesten Vertreter von UML.
 
 0:00:14.340,0:00:18.540
-Und wir beginnen diese 
+Und wir beginnen diese
 Woche mit Klassendiagrammen.
 
 0:00:18.540,0:00:23.520
 Hier ist einfach mal ein Beispiel.
 
 0:00:23.520,0:00:26.940
-Das müssen Sie im Moment 
+Das müssen Sie im Moment
 natürlich noch nicht lesen können.
 
 0:00:27.900,0:00:30.885
-Die Syntax dazu werden wir 
+Die Syntax dazu werden wir
 im Folgenden noch erklären.
 
 0:00:30.885,0:00:37.140
-Hier sind diverse Details zu sehen, die 
+Hier sind diverse Details zu sehen, die
 wir nach und nach erst besprechen werden.
 
 0:00:37.140,0:00:43.350
-Es gibt auch einige Detailabweichungen davon, 
+Es gibt auch einige Detailabweichungen davon,
 wie es manchmal in der Vorlesung sein wird.
 
 0:00:43.350,0:00:48.900
-Also die Sprache ist nicht voll formal, 
+Also die Sprache ist nicht voll formal,
 deswegen gibt es manchmal kleine Abweichungen.
 
 0:00:48.900,0:00:53.370
-Zum Beispiel werden wir genau die Stelle 
+Zum Beispiel werden wir genau die Stelle
 hier ein bisschen anders darstellen.
 
 0:00:53.370,0:00:57.150
-Wenn wir selber Klassendiagramme machen, 
+Wenn wir selber Klassendiagramme machen,
 werden wir in der Regel an die Attribute,
 
 0:00:57.150,0:01:00.840
-die hier aufscheinen, noch 
+die hier aufscheinen, noch
 Typen dranschreiben, etc.
 
 0:01:00.840,0:01:04.770
@@ -52,15 +52,15 @@ Es gibt diverse Spezifika und kleine Details.
 Aber so als ersten Eindruck können Sie
 
 0:01:07.770,0:01:09.750
-dieses Klassendiagramm einfach 
+dieses Klassendiagramm einfach
 mal auf sich wirken lassen.
 
 0:01:09.750,0:01:13.260
-Also hier werden irgendwie 
+Also hier werden irgendwie
 verschiedene Klassen dargestellt.
 
 0:01:13.260,0:01:16.680
-Offenbar ist irgendwie eine 
+Offenbar ist irgendwie eine
 Universitäts-Situation modelliert worden.
 
 0:01:16.680,0:01:18.420
@@ -70,64 +70,64 @@ Professor, Institut, Vorlesung, Student.
 Es gibt Klassen.
 
 0:01:19.440,0:01:23.550
-Es könnten irgendwie die in 
+Es könnten irgendwie die in
 einem System/Programm/Modell
 
 0:01:24.570,0:01:31.020
-auftretenden Beteiligten sein, die 
+auftretenden Beteiligten sein, die
 hier festgehalten werden sollten.
 
 0:01:31.020,0:01:33.030
 Dann gibt es scheinbar einige Attribute,
 
 0:01:33.690,0:01:38.130
-die die einzelnen Klassen haben, sodass 
+die die einzelnen Klassen haben, sodass
 Objekte dieser Klassen (der Professor,
 
 0:01:38.130,0:01:43.140
-konkret, oder ein konkretes Institut) 
+konkret, oder ein konkretes Institut)
 Ausprägungen dieser Attribute haben werden.
 
 0:01:43.140,0:01:47.160
-Und es sind hier offenbar auch 
+Und es sind hier offenbar auch
 irgendwelche Beziehungen dargestellt.
 
 0:01:47.160,0:01:50.340
-Da scheint es auch verschiedene 
+Da scheint es auch verschiedene
 Arten von Beziehungen zu geben.
 
 0:01:50.340,0:01:54.090
-Manchmal stehen hier solche Zahlen dran 
+Manchmal stehen hier solche Zahlen dran
 oder noch ganz spezielle Annotation.
 
 0:01:54.090,0:01:56.310
 Das werden wir alles machen.
 
 0:01:56.310,0:01:59.200
-Also Lernziele für diesen 
+Also Lernziele für diesen
 Teil der Vorlesung hier sind,
 
 0:01:59.200,0:02:01.750
-dass Sie einerseits diese 
+dass Sie einerseits diese
 Modellierungssprache lernen.
 
 0:02:01.750,0:02:08.080
-Dass Sie also so etwas lesen können und verstehen, 
+Dass Sie also so etwas lesen können und verstehen,
 warum hier Dinge verschieden annotiert sind.
 
 0:02:08.080,0:02:10.000
 Und zum anderen natürlich auch lernen,
 
 0:02:10.000,0:02:14.890
-selbst Modelle damit aufzustellen (nach 
+selbst Modelle damit aufzustellen (nach
 und nach, auch über den Übungsbetrieb).
 
 0:02:14.890,0:02:27.310
-Okay, was muss jetzt in so ein Klassendiagramm 
+Okay, was muss jetzt in so ein Klassendiagramm
 hinein, oder was muss zunächst geschehen,
 
 0:02:27.310,0:02:31.750
-bevor man sich daran macht, ein 
+bevor man sich daran macht, ein
 objektorientiertes System zu entwickeln?
 
 0:02:31.750,0:02:34.150
@@ -140,14 +140,14 @@ Insbesondere zunächst statisch modellieren.
 Hier sind ein paar Fragen, die sich da stellen,
 
 0:02:38.290,0:02:43.330
-und deren Beantwortung dann letztlich 
+und deren Beantwortung dann letztlich
 in das Klassendiagramm einfließt.
 
 0:02:43.330,0:02:44.740
 Also zunächst mal offensichtlich:
 
 0:02:44.740,0:02:47.710
-Welche Objekte beziehungsweise 
+Welche Objekte beziehungsweise
 Klassen werden benötigt?
 
 0:02:47.710,0:02:48.820
@@ -157,7 +157,7 @@ Also was sind die Entitäten?
 In dem Beispiel eben Professor, Institut etc.,
 
 0:02:51.970,0:02:55.750
-die in dem Szenario vorkommen und 
+die in dem Szenario vorkommen und
 deswegen modelliert werden sollen.
 
 0:02:55.750,0:02:56.350
@@ -167,42 +167,42 @@ Auch:
 Wie viele Klassen braucht man denn?
 
 0:02:58.300,0:03:02.020
-Wird man für jede Sache, die 
+Wird man für jede Sache, die
 auftreten kann, eine Klasse haben?
 
 0:03:02.020,0:03:05.770
-Oder geht es nur um die zentralen Begriffe 
+Oder geht es nur um die zentralen Begriffe
 aus der Domäne, die man modelliert?
 
 0:03:05.770,0:03:10.660
-Welche Merkmale haben diese Klassen und 
+Welche Merkmale haben diese Klassen und
 welche Beziehungen bestehen zwischen ihnen?
 
 0:03:10.660,0:03:14.890
-Also was sollte man als Attribute an welche 
+Also was sollte man als Attribute an welche
 Klassen schreiben, und wie werden die verknüpft?
 
 0:03:14.890,0:03:17.740
-Im Beispiel eben gab es ja irgendwie 
+Im Beispiel eben gab es ja irgendwie
 nicht zwischen allen Klassen jeweils
 
 0:03:17.740,0:03:23.350
-paarweise Beziehungen über diese Verknüpfung 
+paarweise Beziehungen über diese Verknüpfung
 hier, sondern nur für ausgewählte Paare.
 
 0:03:23.350,0:03:26.020
-Das muss irgendwo herkommen, 
+Das muss irgendwo herkommen,
 durch irgendwas modelliert sein.
 
 0:03:26.980,0:03:29.680
-Welche Operationen/Methoden stellen 
+Welche Operationen/Methoden stellen
 diese Klassen zur Verfügung?
 
 0:03:29.680,0:03:31.945
 Das tauchte in dem Beispiel eben gar nicht auf.
 
 0:03:31.945,0:03:37.570
-Das waren die leeren Kästen, die 
+Das waren die leeren Kästen, die
 unterhalb der Klassen standen.
 
 0:03:37.570,0:03:40.555
@@ -215,155 +215,155 @@ Das wurde in dem Beispiel noch nicht getan.
 Wie wirken diese Methoden zusammen?
 
 0:03:44.470,0:03:47.200
-Das wäre dann schon eher eine Frage 
+Das wäre dann schon eher eine Frage
 für die dynamische Modellierung.
 
 0:03:50.110,0:03:51.310
 In welchen Zuständen können sich Objekte befinden?
 
 0:03:51.310,0:03:53.170
-Das hat sicherlich auch 
+Das hat sicherlich auch
 etwas mit Attributen zu tun.
 
 0:03:53.170,0:03:56.260
-Welche Nachrichten werden wann 
+Welche Nachrichten werden wann
 an andere Objekte geschickt?
 
 0:03:56.260,0:03:59.080
 Welche Nachrichten es gibt, das wäre statisch.
 
 0:03:59.080,0:04:03.040
-Wann das genau passiert, wäre wieder 
+Wann das genau passiert, wäre wieder
 eine Frage für dynamische Modellierung,
 
 0:04:03.040,0:04:10.630
-die wir erst später beantworten können und 
+die wir erst später beantworten können und
 nicht mit Klassen- und Objektdiagrammen.
 
 0:04:10.630,0:04:13.120
-Einige dieser Punkte haben schon 
+Einige dieser Punkte haben schon
 Anklang an die dynamische Modellierung.
 
 0:04:13.120,0:04:15.250
 Aber schon für diese statische Modellierung,
 
 0:04:15.250,0:04:21.640
-wenn man die ersten paar Fragen hier 
+wenn man die ersten paar Fragen hier
 beantwortet, muss man irgendwie loslegen.
 
 0:04:21.640,0:04:25.090
-Dafür gibt es in der Literatur 
+Dafür gibt es in der Literatur
 verschiedene Vorgehensweisen.
 
 0:04:25.090,0:04:29.020
 Die sind nicht völlig formal oder systematisch.
 
 0:04:29.020,0:04:33.820
-Da geht es zum Beispiel erst mal darum, für 
+Da geht es zum Beispiel erst mal darum, für
 eine Domäne irgendwie Anforderungen aufzunehmen.
 
 0:04:33.820,0:04:36.520
 Anforderungserfassung.
 
 0:04:36.520,0:04:42.550
-Der erste Schritt, den man da machen müsste, 
+Der erste Schritt, den man da machen müsste,
 wäre überhaupt erst mal die Klassen zu bestimmen.
 
 0:04:44.050,0:04:47.410
-Später kann man dann versuchen, 
+Später kann man dann versuchen,
 Beziehungen zwischen den Klassen
 
 0:04:47.410,0:04:51.580
-herzustellen, um letztlich auf 
+herzustellen, um letztlich auf
 das Klassendiagramm hinzuarbeiten.
 
 0:04:51.580,0:04:56.380
-Was ich jetzt in den nächsten Folien machen 
+Was ich jetzt in den nächsten Folien machen
 möchte, ist einfach mal aus einem der Bücher,
 
 0:04:56.380,0:05:00.760
-die ich am Anfang der Vorlesung in 
+die ich am Anfang der Vorlesung in
 der ersten Woche vorgestellt habe,
 
 0:05:00.760,0:05:06.910
-ein Beispiel herauszugreifen und da mal dieses 
+ein Beispiel herauszugreifen und da mal dieses
 Finden von Klassen zumindest zu simulieren.
 
 0:05:06.910,0:05:08.830
 Das wird auch nicht völlig systematisch sein,
 
 0:05:08.830,0:05:12.130
-aber gibt zumindest einen Anklang 
+aber gibt zumindest einen Anklang
 daran, wie man da vorgehen kann.
 
 0:05:12.130,0:05:15.370
-Auch wenn Sie in den Übungsaufgaben 
+Auch wenn Sie in den Übungsaufgaben
 so eine Aufgabe haben, dass Ihnen ein
 
 0:05:15.370,0:05:19.360
-Szenario gegeben ist und Sie die 
+Szenario gegeben ist und Sie die
 Klassen identifizieren sollen (und
 
 0:05:19.360,0:05:23.080
-später auch die Eigenschaften 
+später auch die Eigenschaften
 und Beziehungen dazwischen).
 
 0:05:23.080,0:05:25.780
 Wir machen das an folgendem Beispiel.
 
 0:05:25.780,0:05:28.930
-Das ist in Englisch, da es wie gesagt 
+Das ist in Englisch, da es wie gesagt
 einem der Bücher entnommen ist,
 
 0:05:28.930,0:05:32.950
 und das das englischsprachige Buch war.
 
 0:05:32.950,0:05:37.240
-Wir werden das jetzt hier noch etwas 
+Wir werden das jetzt hier noch etwas
 oberflächlich diskutieren, und auch
 
 0:05:37.240,0:05:42.160
 nicht alle Klassendiagramm-Elemente ausgestalten.
 
 0:05:42.160,0:05:46.750
-Aber Sie sollen schon einen Eindruck kriegen 
+Aber Sie sollen schon einen Eindruck kriegen
 und das auch so ähnlich nachmachen können,
 
 0:05:46.750,0:05:48.280
 wenn Sie dann so eine Übungsaufgabe kriegen.
 
 0:05:48.280,0:05:52.330
-Also nehmen wir an, es soll irgendwie 
+Also nehmen wir an, es soll irgendwie
 eine Bibliothek modelliert werden.
 
 0:05:52.330,0:05:57.550
 Und im Vorfeld wurden einige Use Cases erfasst.
 
 0:05:57.550,0:06:03.520
-Also aufgeschrieben, was denn das System, 
+Also aufgeschrieben, was denn das System,
 das zu entwerfen ist, am Ende leisten soll.
 
 0:06:03.520,0:06:06.670
-Und einer dieser Use Cases, 
+Und einer dieser Use Cases,
 dieser Anwendungsfälle, wäre,
 
 0:06:06.670,0:06:09.790
-ein neues Mitglied in der 
+ein neues Mitglied in der
 Bibliothek zu registrieren.
 
 0:06:09.790,0:06:12.580
 Und das wurde hier so tabellarisch aufgeschrieben.
 
 0:06:12.580,0:06:21.230
-Jeweils was sozusagen extern aus 
+Jeweils was sozusagen extern aus
 Blackbox-Sicht ein Nutzer/Nutzerin
 
 0:06:21.230,0:06:24.920
-mit dem System gerne machen würde, 
+mit dem System gerne machen würde,
 welche Aktionen ausgeführt werden.
 
 0:06:24.920,0:06:29.870
-Und dann steht jeweils da, wie das 
+Und dann steht jeweils da, wie das
 System darauf reagieren sollte.
 
 0:06:29.870,0:06:30.380
@@ -373,26 +373,26 @@ Hier:
 Ein Kunde füllt ein Formular aus mit Namen,
 
 0:06:37.670,0:06:39.950
-Adresse und Telefonnummer, und 
+Adresse und Telefonnummer, und
 gibt das zu dem Angestellten.
 
 0:06:39.950,0:06:45.785
-Der Angestellte, oder die Angestellte, fordert 
+Der Angestellte, oder die Angestellte, fordert
 das System auf, ein neues Mitglied anzulegen.
 
 0:06:45.785,0:06:49.220
-Das System reagiert darauf und 
+Das System reagiert darauf und
 fragt nach weiteren Informationen.
 
 0:06:49.220,0:06:50.540
 Diese werden eingegeben.
 
 0:06:50.540,0:06:55.760
-Das System liest die Daten ein und 
+Das System liest die Daten ein und
 erzeugt einen neuen Mitgliedseintrag.
 
 0:06:56.450,0:07:01.670
-Gibt dazu eine eindeutige 
+Gibt dazu eine eindeutige
 Identifikationsnummer, usw.
 
 0:07:01.670,0:07:05.570
@@ -402,60 +402,60 @@ All das wurde verbal aufgeschrieben.
 Und jetzt wäre die erste Frage, im Design:
 
 0:07:08.210,0:07:10.730
-Was müssten denn die Klassen 
+Was müssten denn die Klassen
 sein, die man festhalten möchte?
 
 0:07:10.730,0:07:16.460
-Was sind hier irgendwie Typen von wiederkehrenden 
+Was sind hier irgendwie Typen von wiederkehrenden
 Objekten, von gemeinsam zu fassenden Objekten,
 
 0:07:16.460,0:07:20.540
-die eine Rolle spielen, um den 
+die eine Rolle spielen, um den
 Zustand des Systems zu beschreiben?
 
 0:07:22.550,0:07:24.320
 Natürlich wäre das nur einer von vielen Use Cases.
 
 0:07:24.320,0:07:28.700
-Es gäbe noch weitere, um neue Bücher hinzuzufügen, 
+Es gäbe noch weitere, um neue Bücher hinzuzufügen,
 Bücher auszuleihen, ein Buch zurückzubringen,
 
 0:07:29.390,0:07:36.350
-vielleicht Bücher aus dem Katalog zu entfernen, 
+vielleicht Bücher aus dem Katalog zu entfernen,
 Auszüge der Benutzerkonten zu erstellen, etc.
 
 0:07:39.680,0:07:43.940
-Was könnte man hieraus über die möglichen 
+Was könnte man hieraus über die möglichen
 Klassen lernen, die man hier erfassen möchte?
 
 0:07:43.940,0:07:49.280
-Nun, ein sehr naiver Ansatz 
+Nun, ein sehr naiver Ansatz
 wäre, einfach mal zu schauen:
 
 0:07:49.280,0:07:51.140
 Was kommen denn hier für Begriffe drin vor?
 
 0:07:51.140,0:07:54.950
-Und naheliegend ist, erst mal die 
+Und naheliegend ist, erst mal die
 Substantive/Nomen anzuschauen.
 
 0:07:54.950,0:07:56.840
 Denn Klassen sind Dinge.
 
 0:07:56.840,0:08:02.840
-Keine Verben, sondern Subjekte 
+Keine Verben, sondern Subjekte
 und Objekte von diesen Sätzen.
 
 0:08:04.400,0:08:06.860
-Und das klingt sehr naiv, ist aber 
+Und das klingt sehr naiv, ist aber
 tatsächlich ein erster Schritt,
 
 0:08:06.860,0:08:10.550
-den man machen kann, um 
+den man machen kann, um
 Kandidaten für Klassen zu finden.
 
 0:08:10.550,0:08:14.420
-Und wenn wir das einfach mal tun hier, 
+Und wenn wir das einfach mal tun hier,
 in diesem englischen Text alle Nomen
 
 0:08:14.420,0:08:16.880
@@ -465,55 +465,55 @@ herauszusuchen, sind hier mal alle fett gedruckt.
 Und das sind ganz schön viele.
 
 0:08:18.470,0:08:22.370
-So viele Klassen will man am Ende 
+So viele Klassen will man am Ende
 sicherlich nicht in dem System haben.
 
 0:08:22.370,0:08:26.170
-Nicht alles davon wird 
+Nicht alles davon wird
 tatsächlich eine Klasse werden.
 
 0:08:28.840,0:08:32.470
-Man kann jetzt diese Begriffe nehmen 
+Man kann jetzt diese Begriffe nehmen
 und die mal filtern oder gruppieren,
 
 0:08:32.470,0:08:36.340
-und herausfinden, was davon denn 
+und herausfinden, was davon denn
 tatsächlich eine Klasse sein sollte.
 
 0:08:36.340,0:08:38.650
 Was man festhalten muss in seinem Klassendiagramm.
 
 0:08:40.630,0:08:43.480
-Und da kann man erst mal 
+Und da kann man erst mal
 einige Beobachtungen treffen.
 
 0:08:43.480,0:08:48.670
-Zum Beispiel ist auffällig, dass 
+Zum Beispiel ist auffällig, dass
 es hier bestimmte Entitäten gibt,
 
 0:08:48.670,0:08:50.980
 die scheinbar zusammengesetzte Einheiten bilden.
 
 0:08:50.980,0:08:57.490
-Also für die es direkt Sinn macht, sie zu kapseln 
+Also für die es direkt Sinn macht, sie zu kapseln
 als eine Klasse, die verschiedene Attribute hat.
 
 0:08:57.490,0:09:04.960
-Das ist zum Beispiel für 
+Das ist zum Beispiel für
 Mitglieder oder Customer der Fall.
 
 0:09:04.960,0:09:06.700
 Denn hier steht ja sowas:
 
 0:09:06.700,0:09:09.670
-Der Customer hat einen Namen, eine 
+Der Customer hat einen Namen, eine
 Adresse und eine Telefonnummer.
 
 0:09:10.390,0:09:16.420
 Das sind scheinbar Eigenschaften dieses Customers.
 
 0:09:16.420,0:09:23.350
-Und Customer ist jetzt schon so ein Begriff, 
+Und Customer ist jetzt schon so ein Begriff,
 "der Kunde" ist schon sehr domänenspezifisch.
 
 0:09:23.350,0:09:24.610
@@ -532,15 +532,15 @@ Was sind zusammengesetzte Einheiten?
 Da gibt es mindestens zwei, nämlich:
 
 0:09:31.420,0:09:37.510
-Das Mitglied scheint zusammengesetzt zu 
+Das Mitglied scheint zusammengesetzt zu
 sein, weil es eben in dem System dazu
 
 0:09:37.510,0:09:42.220
-eine Identifikationsnummer geben soll 
+eine Identifikationsnummer geben soll
 und bestimmte weitere Informationen.
 
 0:09:42.220,0:09:44.650
-Und das System selber scheint 
+Und das System selber scheint
 auch zusammengesetzt zu sein,
 
 0:09:45.610,0:09:47.410
@@ -550,7 +550,7 @@ weil es zum Beispiel die Mitglieder enthält.
 Was waren andere Nomen, die hier vorkamen?
 
 0:09:51.340,0:09:54.460
-Customer, hatte ich schon gesagt, 
+Customer, hatte ich schon gesagt,
 ist das gleiche wie ein Member.
 
 0:09:54.460,0:09:58.990
@@ -560,11 +560,11 @@ Man könnte nach Synonymen suchen und sagen:
 Customer und Member sind Synonyme.
 
 0:10:00.580,0:10:04.060
-Nur für eins davon wird man 
+Nur für eins davon wird man
 eine Klasse einführen müssen,
 
 0:10:04.060,0:10:06.490
-das andere wird einfach nur 
+das andere wird einfach nur
 ein anderer Name dafür sein.
 
 0:10:07.960,0:10:09.595
@@ -577,29 +577,29 @@ Den User.
 Das ist aber auch nur ein weiteres Synonym.
 
 0:10:12.910,0:10:18.820
-User, Customer, Member, bezieht sich alles 
+User, Customer, Member, bezieht sich alles
 auf die gleichen Akteure in dem System.
 
 0:10:20.440,0:10:25.060
-Also keine neuen Klassen, sondern Customer 
+Also keine neuen Klassen, sondern Customer
 und User werden auch die Klasse Member später.
 
 0:10:28.500,0:10:35.370
-Application-Form, das ist eigentlich 
+Application-Form, das ist eigentlich
 hier nur ein Blatt Papier,
 
 0:10:35.370,0:10:38.490
 auf dem der Kunde am Anfang seine Daten einträgt.
 
 0:10:39.030,0:10:41.280
-Also nichts, was im System 
+Also nichts, was im System
 selber repräsentiert wird.
 
 0:10:41.280,0:10:42.210
 Die Daten nachher schon.
 
 0:10:42.210,0:10:46.680
-Aber dieser Antrag, dieses 
+Aber dieser Antrag, dieses
 Formular, was ausgefüllt wird,
 
 0:10:46.680,0:10:49.650
@@ -609,7 +609,7 @@ ist nichts, was in dem System selber vorkommt.
 Also könnte man sagen:
 
 0:10:51.090,0:10:54.780
-Das ist kein Indiz dafür, dass es 
+Das ist kein Indiz dafür, dass es
 als Klasse eingeführt werden muss.
 
 0:10:54.780,0:10:58.110
@@ -619,26 +619,26 @@ Dann gibt es den Request.
 Das war etwas, was der Angestellte auslösen sollte
 
 0:11:04.800,0:11:09.150
-(wie durch Auswahl eines Menüs, 
+(wie durch Auswahl eines Menüs,
 eines Eintrags in dem System).
 
 0:11:09.150,0:11:13.440
-Also so wie Application-Form eher 
+Also so wie Application-Form eher
 nicht Teil einer Datenstruktur.
 
 0:11:13.440,0:11:16.260
-Also nichts, was irgendwie 
+Also nichts, was irgendwie
 explizit abgespeichert werden muss.
 
 0:11:16.260,0:11:20.460
-Dann gab es den Kundennamen, 
+Dann gab es den Kundennamen,
 Adresse, Telefonnummer.
 
 0:11:20.460,0:11:22.170
 Das hatte ich vorhin schon motiviert:
 
 0:11:22.170,0:11:26.250
-Das sind einerseits Attribute von Member 
+Das sind einerseits Attribute von Member
 und andererseits auch Indizien dafür,
 
 0:11:26.250,0:11:28.440
@@ -648,53 +648,53 @@ dass Member eine Klasse sein sollte.
 Wir hatten von Kapselung gesprochen.
 
 0:11:30.000,0:11:35.280
-Also das Zusammengesetztsein von Einzelentitäten 
+Also das Zusammengesetztsein von Einzelentitäten
 spricht immer dafür, dass es Klassen sein sollten.
 
 0:11:35.280,0:11:42.720
-Hingegen so einzelne Begriffe wie der Name, der 
+Hingegen so einzelne Begriffe wie der Name, der
 außer Vor- und Nachname nicht noch weiter zerlegt
 
 0:11:42.720,0:11:46.110
-ist, sprechen dafür, dass es vielleicht 
+ist, sprechen dafür, dass es vielleicht
 eher Attribute von anderen Klasse sind.
 
 0:11:46.110,0:11:50.820
-Und es nicht unbedingt eine eigene Klasse geben 
+Und es nicht unbedingt eine eigene Klasse geben
 muss für den Namen oder die Telefonnummer.
 
 0:11:52.950,0:11:56.640
 Das heißt, das hier wären dann Attribute,
 
 0:11:56.640,0:12:01.320
-die wir (in dem Klassendiagramm) 
+die wir (in dem Klassendiagramm)
 der Klasse Member zuordnen würden.
 
 0:12:08.800,0:12:14.710
-Der Clerk ist natürlich ein Akteur, hat aber 
+Der Clerk ist natürlich ein Akteur, hat aber
 hier nur die Rolle, das System zu bedienen.
 
 0:12:14.710,0:12:18.280
-Er würde nicht selber in der 
+Er würde nicht selber in der
 Software repräsentiert sein.
 
 0:12:18.280,0:12:19.120
 Außer vielleicht:
 
 0:12:19.120,0:12:22.690
-Der Clerk muss auch mit seinen 
+Der Clerk muss auch mit seinen
 Kontaktdaten gespeichert werden,
 
 0:12:22.690,0:12:26.380
-etwa zur Verwaltung der 
+etwa zur Verwaltung der
 Angestellten der Bibliothek.
 
 0:12:26.380,0:12:30.220
-Wenn es um die Bibliothek selber geht, um 
+Wenn es um die Bibliothek selber geht, um
 das "Geschäft", Ausleihen von Büchern etc.,
 
 0:12:30.220,0:12:34.120
-ist der Clerk selber nicht etwas, 
+ist der Clerk selber nicht etwas,
 das abgespeichert werden muss.
 
 0:12:34.120,0:12:36.310
@@ -704,79 +704,79 @@ Was gibt es noch?
 Identification-Number ist auch Teil von Member,
 
 0:12:40.870,0:12:47.830
-wäre also wie diese drei Begriffe am 
+wäre also wie diese drei Begriffe am
 Ende ein Attribut der Member-Klasse.
 
 0:12:47.830,0:12:51.280
 Was taucht da noch auf?
 
 0:12:51.280,0:12:57.370
-Data und Information, das sind einfach auch 
+Data und Information, das sind einfach auch
 die Sachen, die als Member gespeichert werden.
 
 0:12:57.370,0:13:03.670
-Data und Information waren einfach Sammelbegriffe 
+Data und Information waren einfach Sammelbegriffe
 für diese Attribute, keine neuen Klassen.
 
 0:13:03.670,0:13:16.870
-Okay, das als so kein vollständiges Rezept, 
+Okay, das als so kein vollständiges Rezept,
 aber eine bestimmte intuitive Vorgehensweise,
 
 0:13:16.870,0:13:23.770
-um aus freiem Text zunächst zu identifizieren, 
+um aus freiem Text zunächst zu identifizieren,
 was denn Klassen und Attribute sein können.
 
 0:13:27.880,0:13:30.970
-Der nächste Schritt wäre dann, zwischen 
+Der nächste Schritt wäre dann, zwischen
 diesen Klassen, die man identifiziert hat
 
 0:13:30.970,0:13:37.270
-(das System und der Memberbegriff), 
+(das System und der Memberbegriff),
 irgendwelche Beziehungen abzuleiten,
 
 0:13:37.270,0:13:40.090
-um im Klassendiagramm auch 
+um im Klassendiagramm auch
 Beziehungen festhalten zu können.
 
 0:13:40.090,0:13:46.120
-Dafür müssen wir wieder den Text hernehmen 
+Dafür müssen wir wieder den Text hernehmen
 und nach Beschreibungen suchen, die irgendwie
 
 0:13:46.120,0:13:52.750
-zwei Klassen, insbesondere Member und System, in 
+zwei Klassen, insbesondere Member und System, in
 Bezug setzen oder irgendwie gemeinsam erwähnen.
 
 0:13:52.750,0:14:01.540
-Und wenn wir das tun, finden wir zum Beispiel 
+Und wenn wir das tun, finden wir zum Beispiel
 folgenden Satz im Kontext eines größeren Punktes:
 
 0:14:01.540,0:14:07.270
-Das System merkt sich 
+Das System merkt sich
 Informationen über den Member.
 
 0:14:07.270,0:14:10.150
 Informationen, das sind die Attribute von Member.
 
 0:14:10.150,0:14:14.770
-Und Member wäre eine Klasse, von der 
+Und Member wäre eine Klasse, von der
 es dann verschiedene Instanzen gibt:
 
 0:14:14.770,0:14:17.140
 die konkreten einzelnen Mitglieder der Bibliothek.
 
 0:14:17.140,0:14:23.170
-Wie könnte man das darstellen, irgendwie eine 
+Wie könnte man das darstellen, irgendwie eine
 Beziehung zwischen dem System und den Mitgliedern?
 
 0:14:23.170,0:14:28.540
-Das System nennen wir mal Library, um 
+Das System nennen wir mal Library, um
 es nicht abstrakt nur System zu nennen.
 
 0:14:28.540,0:14:29.470
 Es geht ja um die Bibliothek.
 
 0:14:29.470,0:14:33.010
-Also das System könnte eine Klasse 
+Also das System könnte eine Klasse
 sein, die Bibliotheksklasse.
 
 0:14:33.010,0:14:35.920
@@ -786,36 +786,36 @@ Und dann gibt es die Klasse Member.
 Da stehen schon einige Attribute drin,
 
 0:14:38.800,0:14:43.480
-die wir auf der Vorfolie indiziert 
+die wir auf der Vorfolie indiziert
 haben als Eigenschaften von Mitgliedern.
 
 0:14:43.480,0:14:47.065
-Und dann könnte es eine Beziehung 
+Und dann könnte es eine Beziehung
 zwischen den beiden geben.
 
 0:14:47.065,0:14:49.240
 Und hier sind schon Zahlen drangeschrieben,
 
 0:14:49.240,0:14:54.400
-die andeuten (und es wird später auch formuliert 
+die andeuten (und es wird später auch formuliert
 werden, was sie genau bedeuten), als Grundidee:
 
 0:14:54.400,0:14:59.200
-Es gibt eine Bibliothek und die hat 
+Es gibt eine Bibliothek und die hat
 mehrere Mitglieder, "null bis Stern".
 
 0:14:59.200,0:15:02.290
 Wobei Stern heißt: beliebig viele Mitglieder.
 
 0:15:02.290,0:15:06.730
-Bis hin zu am Anfang gar keine Mitglieder, wenn 
+Bis hin zu am Anfang gar keine Mitglieder, wenn
 die Bibliothek vielleicht neu gegründet wurde.
 
 0:15:06.730,0:15:07.720
 Die Bibliothek gibt es nur einmal.
 
 0:15:08.500,0:15:10.060
-Man könnte sich auch fragen, 
+Man könnte sich auch fragen,
 ob das eine Klasse sein muss
 
 0:15:10.060,0:15:12.610
@@ -828,198 +828,198 @@ Es gibt den Begriff der Singleton Class.
 Das sind wiederum Pattern, die zum Beispiel in der
 
 0:15:17.410,0:15:21.070
-Fortgeschrittene-Programmiertechniken-Vorlesung 
+Fortgeschrittene-Programmiertechniken-Vorlesung
 zum Tragen kämen.
 
 0:15:21.070,0:15:24.760
-Aber hier wird schon ein bisschen durch 
+Aber hier wird schon ein bisschen durch
 die Zahlen und die Informationen darüber
 
 0:15:24.760,0:15:30.310
-vermittelt, wie viele Objekte es 
+vermittelt, wie viele Objekte es
 von den Einzelklassen geben kann.
 
 0:15:30.310,0:15:33.010
-Insbesondere, wie viele in 
+Insbesondere, wie viele in
 so einer Beziehung stehen.
 
 0:15:33.010,0:15:40.630
-Die Bibliothek verwaltet eine 
+Die Bibliothek verwaltet eine
 Sammlung von Mitgliedern,
 
 0:15:40.630,0:15:42.580
 und hier steht dran, wie viele das sein können.
 
 0:15:45.460,0:15:48.880
-Natürlich würden hier an die Attribute 
+Natürlich würden hier an die Attribute
 eigentlich auch wieder noch Typen gehören.
 
 0:15:49.420,0:15:49.630
 Da haben wir hier:
 
 0:15:49.630,0:15:55.135
-Das ist eine Zahl, das ist ein Adresse, 
+Das ist eine Zahl, das ist ein Adresse,
 hier vielleicht nur eine Zeichenkette, etc.
 
 0:15:55.135,0:15:58.360
 Das ist auf dieser Ebene des Klassendiagramms noch
 
 0:15:58.360,0:16:03.730
-nicht genau festgehalten, wäre aber auch 
+nicht genau festgehalten, wäre aber auch
 Aufgabe des Klassendiagramm-Designers.
 
 0:16:06.610,0:16:08.110
 Das ist noch nicht sehr weit, dieses Bild.
 
 0:16:08.110,0:16:12.070
-Jetzt könnte man weitere Use Cases hinzunehmen, 
+Jetzt könnte man weitere Use Cases hinzunehmen,
 zum Beispiel eben das Anlegen von Mitgliedern.
 
 0:16:12.070,0:16:15.250
-Oder zusätzlich zum Anlegen von 
+Oder zusätzlich zum Anlegen von
 Mitgliedern noch das Anlegen von Büchern.
 
 0:16:15.250,0:16:17.350
 Das Ausleihen von Büchern, etc.
 
 0:16:17.350,0:16:22.900
-Das könnte zu weiteren Klassen führen, aber 
+Das könnte zu weiteren Klassen führen, aber
 insbesondere auch zu weiteren Beziehungen.
 
 0:16:22.900,0:16:29.380
-Jetzt ist hier einfach mal gezeigt, 
+Jetzt ist hier einfach mal gezeigt,
 auch aus dem Buch, wie nach einigen
 
 0:16:29.380,0:16:33.880
-Betrachtungen weiterer solcher Anwendungsfälle 
+Betrachtungen weiterer solcher Anwendungsfälle
 das Bild vielleicht verfeinert werden könnte.
 
 0:16:33.880,0:16:37.690
-Zum Beispiel, dass die Bibliothek 
+Zum Beispiel, dass die Bibliothek
 zusätzlich zu der Verwaltung von
 
 0:16:37.690,0:16:42.550
-Mitgliedern auch eine Sammlung 
+Mitgliedern auch eine Sammlung
 von Büchern zu verwalten hat.
 
 0:16:43.090,0:16:44.440
 Deswegen gibt es eine neue Klasse Buch,
 
 0:16:44.440,0:16:47.200
-und dann gibt es auch noch Beziehungen 
+und dann gibt es auch noch Beziehungen
 zwischen Mitgliedern und Büchern.
 
 0:16:47.200,0:16:52.870
-Zum Beispiel das Ausleihen, also die Tatsache, 
+Zum Beispiel das Ausleihen, also die Tatsache,
 dass ein Ausleihvorgang stattgefunden hat.
 
 0:16:52.870,0:16:54.910
-Oder vielleicht auch, dass wenn 
+Oder vielleicht auch, dass wenn
 ein Buch nicht verfügbar ist,
 
 0:16:54.910,0:17:00.400
-ein Mitglied es aber ausleihen möchte, man 
+ein Mitglied es aber ausleihen möchte, man
 dann irgendwie eine Reservierung anlegen kann,
 
 0:17:00.400,0:17:06.250
 die eine Reservierung auf dieses Buch hält.
 
 0:17:06.250,0:17:08.770
-So dass, wenn das Buch verfügbar 
+So dass, wenn das Buch verfügbar
 wird, man es ausleihen kann.
 
 0:17:13.080,0:17:18.390
-Das wäre ein nächster Schritt beim 
+Das wäre ein nächster Schritt beim
 Entwurf eines Klassendiagramms.
 
 0:17:18.390,0:17:22.350
 Und da kann man noch weitere Verfeinerung machen.
 
 0:17:22.350,0:17:24.510
-Also diese Beziehungen hier, 
+Also diese Beziehungen hier,
 die wären einfach nur Striche.
 
 0:17:24.510,0:17:27.420
 Wir werden lernen, dass es verschiedene Arten von
 
 0:17:27.420,0:17:30.060
-Beziehungen gibt, die jeweils 
+Beziehungen gibt, die jeweils
 ihre eigene Bedeutung haben.
 
 0:17:30.060,0:17:34.680
-Und wenn man das hier genauer analysiert, 
+Und wenn man das hier genauer analysiert,
 welcher Natur diese Einzelbeziehungen sind,
 
 0:17:34.680,0:17:37.020
 könnte man zum Beispiel zu folgendem Bild kommen.
 
 0:17:37.020,0:17:41.370
-Wo man einerseits hier noch weitere 
+Wo man einerseits hier noch weitere
 Klassen eingeführt hat, nämlich einen
 
 0:17:41.370,0:17:44.550
 expliziten Mitgliedskatalog und einen Buchkatalog.
 
 0:17:45.870,0:17:50.820
-Aber vor allem sind hier die Verbindungen 
+Aber vor allem sind hier die Verbindungen
 verfeinert, präzisiert worden.
 
 0:17:50.820,0:17:52.920
 Es gibt verschiedene Arten von Symbolen.
 
 0:17:52.920,0:17:56.580
-Das werden wir uns alles anschauen, 
+Das werden wir uns alles anschauen,
 was das jeweils bedeuten soll.
 
 0:17:56.580,0:17:57.300
 Aber der Punkt ist:
 
 0:17:57.300,0:18:05.340
-Man hat hier das Bild weiter verfeinert, um 
+Man hat hier das Bild weiter verfeinert, um
 letztlich der Implementierung näherzukommen.
 
 0:18:05.340,0:18:11.400
-Jeder Schritt fügt Informationen hinzu, die 
+Jeder Schritt fügt Informationen hinzu, die
 aus der Anwendungsdomäne motiviert sind,
 
 0:18:11.400,0:18:14.070
-und später bei der Umsetzung 
+und später bei der Umsetzung
 des Systems helfen sollen.
 
 0:18:18.420,0:18:24.480
-Hier sind verschiedene Namen für die Verbindungen 
+Hier sind verschiedene Namen für die Verbindungen
 und auch verschiedene Darstellungsweisen.
 
 0:18:24.480,0:18:28.950
-Hier wurde zum Beispiel entschieden, 
+Hier wurde zum Beispiel entschieden,
 dass was hier vorher noch als Klasse
 
 0:18:28.950,0:18:30.930
-für den Ausleihvorgang stand, 
+für den Ausleihvorgang stand,
 nicht unbedingt nötig ist.
 
 0:18:30.930,0:18:34.230
-Weil man die Information auch beim 
+Weil man die Information auch beim
 Buch oder beim Mitglied speichern kann.
 
 0:18:34.230,0:18:39.375
-Während die Reservierung etwas ist, das explizit 
+Während die Reservierung etwas ist, das explizit
 als Klasse repräsentiert sein soll, weil da noch
 
 0:18:39.375,0:18:45.510
-externe Informationen nötig sind, zum Beispiel 
+externe Informationen nötig sind, zum Beispiel
 bis wann das Buch reserviert bleiben soll.
 
 0:18:51.600,0:18:57.780
-Das als erstes Beispiel mit noch 
+Das als erstes Beispiel mit noch
 nicht viel Detailinformationen,
 
 0:18:57.780,0:19:03.030
-aber zumindest einem Eindruck, wie so 
+aber zumindest einem Eindruck, wie so
 ein Klassendiagramm aussehen sollte.
 
 0:19:03.030,0:19:10.710
-Okay, als nächstes müssen wir tatsächlich 
+Okay, als nächstes müssen wir tatsächlich
 mal wirklich Syntax einführen.
 
 0:19:10.710,0:19:12.690
