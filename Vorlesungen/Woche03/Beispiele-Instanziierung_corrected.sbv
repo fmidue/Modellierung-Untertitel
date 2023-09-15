@@ -1,6 +1,5 @@
 0:00:00.000,0:00:04.290
-Welcome to the last
-video for this week.
+Welcome to the last video for this week.
 
 0:00:04.290,0:00:09.300
 I'm recording this mainly because
@@ -23,16 +22,14 @@ Let's first look at the
 class on the left here.
 
 0:00:29.580,0:00:31.110
-That was the Point
-class from the slides.
+That was the Point class from the slides.
 
 0:00:31.110,0:00:35.550
 And there I already had an example,
 that if you draw an object to
 
 0:00:35.550,0:00:42.120
-it, it could
-look like this.
+it, it could look like this.
 
 0:00:42.120,0:00:49.140
 So you also have a box like
@@ -43,8 +40,7 @@ So there is nothing that
 would correspond to these method boxes.
 
 0:00:53.310,0:00:55.710
-Instead, you simply have
-a line at the
+Instead, you simply have a line at the
 
 0:00:55.710,0:01:00.660
 top where you have to enter the
@@ -71,8 +67,7 @@ I could write them one below the
 other, if I had left space for it.
 
 0:01:23.370,0:01:26.250
-I also allow myself
-to write it this way,
+I also allow myself to write it this way,
 
 0:01:26.250,0:01:31.620
 if I now want to assign the
@@ -83,8 +78,7 @@ So a third box somehow for
 the methods does not exist, because
 
 0:01:36.300,0:01:39.450
-they are not to
-be created in the object.
+they are not to be created in the object.
 
 0:01:39.450,0:01:42.420
 They belong to the class and have the
@@ -107,8 +101,7 @@ They would have to
 have different names somehow.
 
 0:01:55.290,0:01:57.300
-They should each
-have a unique name.
+They should each have a unique name.
 
 0:01:57.300,0:02:00.690
 So, for example, we could have an
@@ -139,16 +132,14 @@ So for example,
 there should be ColoredPoints.
 
 0:02:24.340,0:02:26.650
-Those are also
-Points, but have an
+Those are also Points, but have an
 
 0:02:26.650,0:02:30.460
 additional attribute for the
 color, c, and another method.
 
 0:02:30.460,0:02:32.500
-But of course,
-the method will not
+But of course, the method will not
 
 0:02:32.500,0:02:36.400
 appear in object instantiation again, because
@@ -159,8 +150,7 @@ But what would be an
 object of the class ColoredPoint now?
 
 0:02:40.360,0:02:44.170
-It could look
-like this, for example.
+It could look like this, for example.
 
 0:02:44.170,0:02:48.250
 It should also have a
@@ -171,24 +161,19 @@ And of course the
 class would be ColoredPoint.
 
 0:02:52.990,0:02:56.560
-And again
-this underlining.
+And again this underlining.
 
 0:02:56.560,0:02:58.870
-And what belongs
-in here now?
+And what belongs in here now?
 
 0:02:58.870,0:03:00.490
-All
-attributes.
+All attributes.
 
 0:03:00.490,0:03:01.660
-And there
-is important:
+And there is important:
 
 0:03:01.660,0:03:04.150
-Not only the c
-has to be specified.
+Not only the c has to be specified.
 
 0:03:04.150,0:03:07.480
 It is also not that the
@@ -215,8 +200,7 @@ then the object would
 not be fully specified.
 
 0:03:29.860,0:03:31.060
-There would
-be missing values.
+There would be missing values.
 
 0:03:33.010,0:03:36.160
 Again, this is not the only
@@ -227,15 +211,13 @@ Of course there could
 be several other objects.
 
 0:03:40.810,0:03:43.780
-So there could be
-an object, for me cp2.
+So there could be an object, for me cp2.
 
 0:03:43.780,0:03:48.880
 So just named differently by
 this number, and then also
 
 0:03:58.440,0:03:59.760
-
 ColoredPoint.
 
 0:04:01.620,0:04:07.170
@@ -251,8 +233,7 @@ That would be two objects of the class Point on
 the left, two objects of the class ColoredPoint on the right.
 
 0:04:21.840,0:04:25.050
-So much
-for that.
+So much for that.
 
 0:04:25.050,0:04:38.010
 Another observation that appeared on the
@@ -271,8 +252,7 @@ Point to ColoredPoint, there was
 also a class for 3D points.
 
 0:04:51.540,0:04:53.850
-So Point
-was two-dimensional.
+So Point was two-dimensional.
 
 0:04:53.850,0:04:57.840
 Let's assume that there should
@@ -295,8 +275,7 @@ present, because they are inherited from Point.
 contain a z-coordinate.
 
 0:05:12.630,0:05:14.760
-Maybe also
-some methods.
+Maybe also some methods.
 
 0:05:14.760,0:05:16.830
 But let's assume we don't
@@ -323,8 +302,7 @@ Now we would have Points, we would
 have ColoredPoints, we would have 3D Points.
 
 0:05:36.720,0:05:37.950
-Now we could
-also imagine that
+Now we could also imagine that
 
 0:05:37.950,0:05:44.850
 we would like to have

@@ -1,0 +1,539 @@
+269 # slide
+00:00:02,830 --> 00:00:06,850
+So as a final
+example, another UML state diagram
+
+00:00:06,850 --> 00:00:09,910
+to be translated into
+a flat state diagram.
+
+00:00:09,910 --> 00:00:12,430
+What do we have in front of us now?
+
+00:00:12,430 --> 00:00:17,920
+Here again we have no regions, so
+it's a bit like example 1, still without
+
+00:00:17,920 --> 00:00:23,200
+regions, but this time with
+a history node (namely that one).
+
+00:00:23,200 --> 00:00:27,760
+So like here no regions,
+
+00:00:29,230 --> 00:00:33,640
+but a hierarchical state and history
+(in the specific case, flat history).
+
+00:00:36,220 --> 00:00:38,530
+So what we don't have as an example is a
+
+00:00:38,530 --> 00:00:41,680
+combination where both
+regions and history occur.
+
+00:00:41,680 --> 00:00:44,830
+And in fact, we
+won't have that interacting occur
+
+00:00:44,830 --> 00:00:50,410
+in our flat-knock examples
+that you're supposed to solve.
+
+00:00:51,820 --> 00:00:54,160
+We have the simple case with no
+regions and no history, the intermediate case
+
+00:00:54,160 --> 00:00:58,240
+with regions and no history, and we
+have the case with no regions but history.
+
+00:00:58,240 --> 00:00:59,890
+These are our examples 1, 2,
+
+00:00:59,890 --> 00:01:05,380
+3, and you should be able
+to do the same for analogous examples.
+
+00:01:09,490 --> 00:01:12,280
+What will be the approach
+to deal with the example?
+
+00:01:13,330 --> 00:01:14,860
+First, again as in the simple case,
+
+00:01:14,860 --> 00:01:21,070
+that is, as in example 1 (that is,
+what was here as an approach, as a strategy):
+
+00:01:21,070 --> 00:01:23,680
+Keep the simple states,
+
+00:01:25,180 --> 00:01:29,950
+translate things that occur at the
+edge of these hierarchical states appropriately,
+
+00:01:29,950 --> 00:01:34,150
+keep the entries and exits, other transitions
+(that do not somehow affect the edge,
+
+00:01:35,620 --> 00:01:42,220
+but for example such transitions outside
+or such transitions inside) simple, and keep
+
+00:01:42,220 --> 00:01:49,090
+the outer start state also as
+the start state (while the inner start
+
+00:01:49,090 --> 00:01:53,950
+states can disappear and are at
+most used to translate entries correctly).
+
+00:01:56,440 --> 00:01:59,110
+This will also be the basic strategy.
+
+00:01:59,110 --> 00:02:02,230
+Of course, having this
+history node changes something.
+
+00:02:02,230 --> 00:02:04,240
+And what has to change there?
+
+00:02:04,240 --> 00:02:08,290
+Well, if we leave
+such a hierarchical state that
+
+00:02:08,290 --> 00:02:15,610
+has a history node in it, then we
+know that if we're going to come back here
+
+00:02:17,050 --> 00:02:22,960
+later, and in particular we're
+going to do that via a
+
+00:02:22,960 --> 00:02:28,825
+history entry, then we would need to know
+where we were last in that hierarchical state.
+
+00:02:28,825 --> 00:02:33,100
+So if we leave the state via e, we
+still have to know later when we return whether
+
+00:02:33,100 --> 00:02:38,230
+we left this hierarchical state from C
+or from D. How can we remember that?
+
+00:02:38,230 --> 00:02:39,940
+How can we remember this?
+
+00:02:42,280 --> 00:02:44,830
+Only in states of the flat state diagram.
+
+00:02:44,830 --> 00:02:49,630
+I.e., we have to remember, if we go to
+
+00:02:49,630 --> 00:02:52,600
+A, whether we are in A now
+
+00:02:52,600 --> 00:02:55,090
+and have been in C last, or whether we
+are in A and have been in D last.
+
+00:02:56,800 --> 00:03:00,040
+I.e., we will create copies of A.
+
+00:03:00,040 --> 00:03:02,080
+One for the fact that we know:
+
+00:03:02,080 --> 00:03:04,450
+We are now in A,
+but previously we were in C.
+
+00:03:04,450 --> 00:03:06,216
+And analogously one for:
+
+00:03:06,216 --> 00:03:09,190
+We are in A and were previously in D.
+
+00:03:09,190 --> 00:03:13,330
+That is, because of this history node
+(in order to be able to return to
+
+00:03:13,330 --> 00:03:18,130
+the appropriate place later), we must make copies
+of the outer states and also of their transitions.
+
+00:03:18,130 --> 00:03:21,430
+To be able to remember
+what the last inner sub-state
+
+00:03:21,430 --> 00:03:22,690
+was and return to it.
+
+00:03:23,860 --> 00:03:30,340
+To be able to use that
+information when we have a re-entry
+
+00:03:32,800 --> 00:03:40,105
+into that hierarchical state via history.
+
+00:03:40,105 --> 00:03:42,280
+That's our approach now,
+a little more complex.
+
+00:03:43,510 --> 00:03:44,230
+What does that mean
+specifically in the example?
+
+00:03:44,230 --> 00:03:46,120
+Again:
+
+00:03:46,120 --> 00:03:49,750
+This is what we're dealing with.
+
+00:03:51,430 --> 00:03:54,970
+And first, in the simple
+case, we want to keep
+
+00:03:55,780 --> 00:03:59,410
+things outside (the
+simple states) essentially.
+
+00:03:59,410 --> 00:04:02,365
+That first leads to the fact
+that we can start like this.
+
+00:04:02,365 --> 00:04:06,220
+That we keep the basic states A,
+B, C, D, X and already know that
+
+00:04:06,220 --> 00:04:08,518
+we're not really going
+to need that starting state.
+
+00:04:08,518 --> 00:04:09,310
+We can remove it later.
+
+00:04:09,310 --> 00:04:09,910
+That was an inner one.
+
+00:04:09,910 --> 00:04:11,770
+And the outer one we're going to
+
+00:04:11,770 --> 00:04:16,840
+use to also have it as the
+starting state for the whole flat state diagram.
+
+00:04:18,250 --> 00:04:20,310
+That's what we're seeing here.
+
+00:04:20,310 --> 00:04:21,700
+We're also already seeing, as a reminder:
+
+00:04:21,700 --> 00:04:27,370
+In the simple case, we can
+keep transitions that don't have anything
+
+00:04:27,370 --> 00:04:30,940
+to do with entering or
+exiting to/from a hierarchical state.
+
+00:04:32,920 --> 00:04:35,890
+That's sort of the part where we say:
+
+00:04:37,450 --> 00:04:41,140
+Other transitions, which therefore do not have anything
+to do with entries or exits, are kept.
+
+00:04:41,140 --> 00:04:48,490
+That means in this concrete case that
+we can keep these and these transitions
+
+00:04:48,490 --> 00:04:55,270
+because they don't somehow touch
+the edge of a hierarchical state.
+
+00:05:05,320 --> 00:05:05,440
+Then we are here.
+
+00:05:05,440 --> 00:05:07,240
+The outer starting state, we can
+also just take advantage of that.
+
+00:05:09,220 --> 00:05:12,160
+And we don't need this one in here.
+
+00:05:13,840 --> 00:05:17,800
+It's only needed if we
+have an entry into this
+
+00:05:20,650 --> 00:05:24,970
+part via a standard entry,
+which would be this one.
+
+00:05:30,130 --> 00:05:36,280
+So because that was the
+starting state of this inner complex,
+
+00:05:36,280 --> 00:05:40,990
+and there was a standard entry
+there from X, we get this transition.
+
+00:05:42,940 --> 00:05:48,970
+This corresponds to the information: standard entry
+under the start state, therefore this transition.
+
+00:05:50,740 --> 00:05:52,300
+What else do we have to translate?
+
+00:05:54,130 --> 00:05:58,540
+We know that we always get
+to A from here with e.
+
+00:05:58,540 --> 00:05:59,950
+That's what we see here.
+
+00:05:59,950 --> 00:06:04,900
+There's a transition that no matter if we're
+in C or D, we always get to A.
+
+00:06:04,900 --> 00:06:06,430
+That would be the easy one.
+
+00:06:06,430 --> 00:06:11,260
+However, we know that we still have to
+remember whether we came from C or from D.
+
+00:06:11,260 --> 00:06:16,150
+I.e., it is not enough
+just to have this transition here.
+
+00:06:16,150 --> 00:06:21,970
+We also have to remember this extra information that will
+let us know later (when we come back from B,
+
+00:06:21,970 --> 00:06:25,120
+for example) that we are really supposed
+to come back to D and not C.
+
+00:06:25,120 --> 00:06:30,730
+So that's if we come here from D
+with e and then come back with b.
+
+00:06:30,730 --> 00:06:31,810
+Then we want to end up at D.
+
+00:06:31,810 --> 00:06:33,820
+However, if we did that from C, which
+
+00:06:33,820 --> 00:06:36,460
+would be possible, then we
+want to come back to C.
+
+00:06:36,460 --> 00:06:40,000
+That would be exactly
+what this history accomplishes.
+
+00:06:40,000 --> 00:06:46,750
+If we came from D with e and later came back
+with b via history, we want to end up at D.
+
+00:06:46,750 --> 00:06:51,721
+If we did that from C, we
+also want to end up at C.
+
+00:06:51,721 --> 00:06:53,770
+That is, it is not enough simply
+to have this b and e transition.
+
+00:06:53,770 --> 00:06:56,560
+We also have to somehow hold that
+this is why we are returning to
+
+00:06:56,560 --> 00:07:03,640
+D, because we had come to A from D. And there is just the
+idea that if we do that from C, we will end up at C, too.
+
+00:07:03,640 --> 00:07:09,550
+And there's just the idea that we do
+that by capturing that in the states as well.
+
+00:07:09,550 --> 00:07:14,920
+So it's not just A, it's
+that A that we entered from D.
+
+00:07:16,120 --> 00:07:19,930
+So in the outer states, in the A and
+the B and strictly speaking also in the X,
+
+00:07:19,930 --> 00:07:22,690
+we remember by an extra annotation
+
+00:07:24,100 --> 00:07:28,630
+from which sub-state of
+the hierarchical state we came.
+
+00:07:28,630 --> 00:07:32,410
+That's where more states come from, because we
+have to do that for C as well.
+
+00:07:32,410 --> 00:07:36,010
+We just create copies.
+
+00:07:36,010 --> 00:07:41,620
+What were in the UML state diagrams
+A, B, for that we have two copies:
+
+00:07:41,620 --> 00:07:44,740
+one for the fact that we came from C
+and one for the fact that we came from D.
+
+00:07:44,740 --> 00:07:46,510
+Strictly speaking, we could
+also create three copies,
+
+00:07:46,510 --> 00:07:51,070
+namely in case we could also end up
+here without ever having been in C or D.
+
+00:07:52,810 --> 00:07:56,005
+So one copy for: we were last here in C.
+
+00:07:56,005 --> 00:07:57,460
+One for: we were last here in D.
+
+00:07:57,460 --> 00:07:59,620
+One for: we haven't been
+to this part at all.
+
+00:07:59,620 --> 00:08:04,240
+That's what I did for the
+X, created a copy here where
+
+00:08:04,240 --> 00:08:06,580
+I don't write anything in the brackets
+because that's supposed to be the information:
+
+00:08:07,150 --> 00:08:11,380
+Here we are in X and we
+have never been in this part at all.
+
+00:08:12,370 --> 00:08:14,650
+In this specific case, it happens that
+
+00:08:14,650 --> 00:08:18,310
+we are never in X
+if we have been here before.
+
+00:08:18,310 --> 00:08:21,910
+That's why I didn't create copies of
+X for C and D as well,
+
+00:08:21,910 --> 00:08:23,710
+but only for this simple case.
+
+00:08:23,710 --> 00:08:27,670
+And analogously for A and B I created only
+the copies for: we were in C and D respectively.
+
+00:08:27,670 --> 00:08:32,320
+And not another copy for: we
+have never been in this hierarchical state.
+
+00:08:32,320 --> 00:08:34,420
+This cannot happen at
+all in the concrete example.
+
+00:08:36,820 --> 00:08:41,500
+That explains why we have these
+two copies here of A and B,
+
+00:08:41,500 --> 00:08:45,130
+but don't have additional copies for X.
+
+00:08:45,130 --> 00:08:47,680
+These are the additional states.
+
+00:08:47,680 --> 00:08:52,750
+And we also know that of
+course we need the transitions in between.
+
+00:08:52,750 --> 00:08:53,140
+So:
+
+00:08:53,140 --> 00:08:56,080
+That we can switch between A
+and B with a and f,
+
+00:08:56,080 --> 00:09:01,480
+that is not changed by whether we
+have been in D or in C before.
+
+00:09:01,480 --> 00:09:08,950
+That also follows from the strategy here, that
+we create these copies of the outer states (in
+
+00:09:08,950 --> 00:09:11,822
+that case, of A and B) and their transitions;
+these two a, f transitions, which we find both
+
+00:09:11,822 --> 00:09:11,919
+here and here; and then for completion,
+these states still have to be bound.
+
+00:09:11,919 --> 00:09:11,945
+When do we get to A(C)?
+
+00:09:11,945 --> 00:09:35,140
+When we have been last in C
+and then took this e-transition leading to A.
+
+00:09:35,140 --> 00:09:38,740
+When we take this transition
+and have been in C last.
+
+00:09:38,740 --> 00:09:43,660
+That's why we have this transition.
+
+00:09:43,660 --> 00:09:45,190
+And we then use the information that
+we've been in C when, again, we
+
+00:09:45,820 --> 00:09:51,190
+want to go from B to D at some point
+with b. So, if we take that transition at some point.
+
+00:09:51,190 --> 00:09:54,370
+So if we take this
+transition at some point, via history
+
+00:09:55,630 --> 00:10:01,960
+nodes, and have last been in C, we also want
+to return to C. And this happens through this additional transition.
+
+00:10:01,960 --> 00:10:07,870
+And that is done
+by this additional arrow.
+
+00:10:09,310 --> 00:10:13,540
+That's where we use information, whether we
+were last in C or in D, to
+
+00:10:13,540 --> 00:10:15,160
+be able to return there.
+
+00:10:24,370 --> 00:10:31,390
+So that's the solution to
+this example using this approach
+
+00:10:31,390 --> 00:10:39,460
+or this essential idea in particular,
+to remember in the outer states whether
+
+00:10:39,460 --> 00:10:44,980
+or from which sub-state of
+the hierarchical state you got there.
+
+00:10:44,980 --> 00:10:52,510
+To then be able to exploit that when you
+have a history entry like here in the example.

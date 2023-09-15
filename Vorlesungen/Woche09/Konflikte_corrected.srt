@@ -1,0 +1,435 @@
+187 # slide
+00:00:00,000 --> 00:00:04,920
+We come to the next
+property to be discussed in
+
+00:00:04,920 --> 00:00:07,890
+Petri nets, namely
+the concept of conflict.
+
+00:00:07,890 --> 00:00:13,500
+There it is again about two transitions,
+which can be in conflict or not.
+
+00:00:13,500 --> 00:00:17,220
+This is again relative
+to a given marking.
+
+00:00:17,220 --> 00:00:19,440
+So we need a Petri net with a given
+
+00:00:19,440 --> 00:00:22,350
+marking, and then we can say
+whether two transitions are in conflict.
+
+00:00:22,350 --> 00:00:26,040
+And you can already see here,
+in the definition, the word "concurrent" appears.
+
+00:00:26,040 --> 00:00:30,240
+That is, this definition builds
+on the concept of concurrency.
+
+00:00:30,240 --> 00:00:35,910
+Two transitions are in conflict
+if they are not activated
+
+00:00:35,910 --> 00:00:41,700
+concurrently, but this is only because
+they somehow get in each other's way.
+
+00:00:41,700 --> 00:00:47,280
+So it can also be that
+t and t' are not activated concurrently,
+
+00:00:47,280 --> 00:00:50,490
+because one of the two
+transitions itself is not activated.
+
+00:00:50,490 --> 00:00:51,750
+Then it would not be a conflict.
+
+00:00:51,750 --> 00:00:57,150
+So it is called a conflict
+for two transitions t, t', if
+
+00:00:57,150 --> 00:01:01,410
+they are both activated separately,
+but they are not activated concurrently.
+
+00:01:01,410 --> 00:01:07,230
+That is, each one could fire,
+but they cannot both fire concurrently.
+
+00:01:07,230 --> 00:01:12,210
+Because they are in conflict, or
+by that a conflict is defined then.
+
+00:01:12,210 --> 00:01:18,780
+So exactly
+this descriptive consideration.
+
+00:01:18,780 --> 00:01:21,600
+This is then checked
+with the prebalance functions.
+
+00:01:21,600 --> 00:01:25,320
+What is concurrent, we
+have just discussed sufficiently.
+
+00:01:25,320 --> 00:01:30,480
+And when a single transition is activated (i.e.
+when you look at both of them individually),
+
+00:01:30,480 --> 00:01:33,840
+we have also already discussed,
+a few weeks ago even.
+
+00:01:33,840 --> 00:01:38,120
+Okay, so how can there be a conflict?
+
+00:01:39,680 --> 00:01:43,310
+The two transitions must have at least
+one place in common in the precondition.
+
+00:01:43,310 --> 00:01:49,520
+You can think that whenever we
+have two transitions in conflict, there
+
+00:01:49,520 --> 00:01:53,300
+must be a common
+place in the precondition.
+
+00:01:53,300 --> 00:01:58,550
+So there must be a place s such
+that both the preweight function for t with
+
+00:01:58,550 --> 00:02:04,580
+respect to s requires at least one
+token and the preweight function for t'.
+
+00:02:04,580 --> 00:02:10,610
+If this is not so, and
+moreover t and t' are both
+
+00:02:10,610 --> 00:02:13,340
+activated separately, then they
+would also be activated concurrently.
+
+00:02:13,340 --> 00:02:14,960
+However, this below does not mean
+
+00:02:14,960 --> 00:02:18,320
+that one can take this as
+the sole criterion to find conflicts.
+
+00:02:18,320 --> 00:02:22,100
+It's just an indication of
+a conflict again, so to speak.
+
+00:02:22,100 --> 00:02:24,020
+So to suspect a conflict for
+t and t' only makes sense if
+
+00:02:26,870 --> 00:02:30,080
+they have at least one
+common place in the preconditions.
+
+00:02:30,080 --> 00:02:32,990
+It is not true that as soon
+as there is such a common place in
+
+00:02:32,990 --> 00:02:35,930
+the preconditions, there must
+also be a conflict.
+
+00:02:35,930 --> 00:02:42,230
+So to check the presence of
+a conflict is always with the definition.
+
+00:02:42,230 --> 00:02:53,570
+Okay, an example: a Petri
+net with a certain marking.
+
+00:02:53,570 --> 00:02:58,790
+Now one can ask which
+transitions are in conflict here.
+
+00:02:58,790 --> 00:03:02,840
+And this is a term again only for pairs.
+
+00:03:02,840 --> 00:03:06,050
+There are only the
+pairs (t1,t2), (t2,t3) and (t1,t3)
+
+00:03:06,050 --> 00:03:08,420
+here for which it makes sense to wonder.
+
+00:03:08,420 --> 00:03:14,420
+And already when we look at t1 and
+t2, it turns out that they are in conflict.
+
+00:03:14,420 --> 00:03:16,910
+And we also already see what
+this can only be due to.
+
+00:03:16,910 --> 00:03:19,040
+It can only be
+because of this common point.
+
+00:03:19,040 --> 00:03:20,540
+That is the only common point.
+
+00:03:20,540 --> 00:03:23,120
+So somehow it could cause a conflict.
+
+00:03:23,120 --> 00:03:24,350
+It doesn't have to, but it could.
+
+00:03:24,350 --> 00:03:27,290
+For example, it wouldn't cause a
+conflict if there were two tokens.
+
+00:03:27,290 --> 00:03:30,830
+But as drawn here, there is a conflict.
+
+00:03:30,830 --> 00:03:39,290
+And the check is simple using
+the definition for activated and concurrency.
+
+00:03:39,290 --> 00:03:41,960
+Yes, so t1 must be activated.
+
+00:03:41,960 --> 00:03:45,170
+That is, the pre-weight function
+for t1 (that would be this
+
+00:03:45,170 --> 00:03:50,450
+one, because t1 requires exactly
+one token each from s1 and
+
+00:03:50,450 --> 00:03:56,850
+s2; those are the two arrows
+here) is less-equal than the current marking.
+
+00:03:56,850 --> 00:04:01,890
+The current marking has (1,1,1,1) on
+s1 through s4 and then three zeros.
+
+00:04:01,890 --> 00:04:04,050
+And this inequality here holds because at
+
+00:04:04,050 --> 00:04:08,760
+each position there is a number on the
+left that is no larger than on the right.
+
+00:04:08,760 --> 00:04:12,090
+And that's the definition
+of t1 being enabled.
+
+00:04:12,090 --> 00:04:17,670
+That showed up relatively early in
+the lecture classes on Petri nets.
+
+00:04:17,670 --> 00:04:22,020
+Very similarly, t2 is also activated.
+
+00:04:22,020 --> 00:04:24,540
+Because there the
+preweight function looks a
+
+00:04:24,540 --> 00:04:29,010
+little bit different (because t2 requires a
+marking from s2 and s3 each), but also
+
+00:04:29,010 --> 00:04:33,495
+this preweight function is
+smaller-equal than the current marking.
+
+00:04:33,495 --> 00:04:36,690
+On the other hand, t1
+and t2 are not activated concurrently.
+
+00:04:36,690 --> 00:04:41,130
+Because for this the sum of these two
+preweight functions (here again written down as a sum)
+
+00:04:41,130 --> 00:04:46,080
+would also have to be
+smaller-equal than the current marking.
+
+00:04:46,080 --> 00:04:47,310
+And this is just not the case.
+
+00:04:47,310 --> 00:04:50,100
+Because although there are two and two,
+that is four tokens, on the left
+
+00:04:50,100 --> 00:04:53,700
+and four tokens on the
+right, it does not fit position-wise.
+
+00:04:53,700 --> 00:04:57,180
+So the sum here would
+be (1,2,1) and then all zeros.
+
+00:04:57,180 --> 00:05:00,330
+But (1,2,1) does
+not fit here "underneath".
+
+00:05:00,330 --> 00:05:04,995
+That means, t1 and t2
+are actually not activated concurrently.
+
+00:05:04,995 --> 00:05:09,420
+But they are individually activated,
+and therefore they are in conflict.
+
+00:05:09,420 --> 00:05:10,920
+We also know:
+
+00:05:10,920 --> 00:05:15,570
+As soon as we would put another
+token on here, both transitions would still be
+
+00:05:15,570 --> 00:05:19,620
+activated individually and they would
+also be activated simultaneously/parallel together.
+
+00:05:19,620 --> 00:05:22,290
+That means, there would be
+concurrency and just no conflict.
+
+00:05:22,290 --> 00:05:25,200
+But as it is here, there
+is the conflict between t1 and t2.
+
+00:05:25,200 --> 00:05:29,910
+One can also consider that of
+course t2 and t3 are in conflict.
+
+00:05:29,910 --> 00:05:33,930
+Yes, there the picture is very similar, there
+it's simply a matter of these three precondition points.
+
+00:05:35,070 --> 00:05:39,300
+And then there's the problem here
+that s3 only has one token, but
+
+00:05:39,300 --> 00:05:43,800
+if we add the preweight functions of
+t2 and t3, we would need a 2.
+
+00:05:43,800 --> 00:05:50,190
+So t2 and t3 are also in
+conflict, but t1 and t3 are not.
+
+00:05:50,190 --> 00:05:54,120
+So, if we consider t1
+and t3 as the relevant pair,
+
+00:05:54,120 --> 00:05:57,690
+then we can do these sums here.
+
+00:05:57,690 --> 00:05:58,710
+It says (1,1,0,0).
+
+00:05:58,710 --> 00:05:59,460
+Here it says (0,0,1,1,0,0,0).
+
+00:06:01,320 --> 00:06:04,968
+Yes, this then belongs here to t3,
+there is this and this place occupied.
+
+00:06:04,968 --> 00:06:08,340
+Also this and this place
+corresponds to a 1 in the
+
+00:06:08,340 --> 00:06:12,960
+preweight, and then the sum would be
+(1,1,1,0,0,0), and that would still be under here.
+
+00:06:12,960 --> 00:06:18,660
+That is, t1 and t3 are, after all,
+activated concurrently, so they cannot be in conflict.
+
+00:06:18,660 --> 00:06:26,850
+And also with the circumstantial
+from the previous slide, we know:
+
+00:06:26,850 --> 00:06:32,146
+t1 and t3 can't be in conflict
+anyway because they don't share a precondition site.
+
+00:06:32,146 --> 00:06:36,390
+Yes, t1 depends only on these two
+pre-condition places, t3 depends only on these.
+
+00:06:36,390 --> 00:06:38,940
+There's no potential for conflict there.
+
+00:06:38,940 --> 00:06:40,980
+Or you just do the math.
+
+00:06:40,980 --> 00:06:44,040
+Okay, and this is again an observation
+
+00:06:44,040 --> 00:06:47,910
+that we had already looked
+at with causality and concurrency respectively.
+
+00:06:47,910 --> 00:06:51,300
+With causality, we had noted
+that that's a transitive term.
+
+00:06:51,300 --> 00:06:56,610
+So if t1 is causal for t2, and t2 is
+causal for t3, then t1 is also causal for t3.
+
+00:06:56,610 --> 00:07:00,390
+With concurrency, we had
+seen, this is not present.
+
+00:07:00,390 --> 00:07:02,580
+And this is also not
+the case with the conflict relation.
+
+00:07:02,580 --> 00:07:06,000
+So, it can be: t1 and t2 are in conflict,
+
+00:07:06,000 --> 00:07:08,610
+t2 and t3 are in conflict,
+but t1 and t3 are not.
+
+00:07:08,610 --> 00:07:10,620
+That's exactly what we see here.
+
+00:07:10,620 --> 00:07:20,340
+Okay, and that's all I've prepared
+on conflict in examples here now.
+
+00:07:20,340 --> 00:07:27,300
+Because the examples would be
+very similar to the concurrency examples,
+
+00:07:27,300 --> 00:07:31,530
+but just turned around in each case
+so that there is just no concurrency.
+
+00:07:31,530 --> 00:07:34,890
+So as soon as we have two
+transitions, which are activated in each case.
+
+00:07:34,890 --> 00:07:36,030
+Otherwise it's boring.
+
+00:07:36,030 --> 00:07:37,710
+They must be activated in each case.
+
+00:07:37,710 --> 00:07:40,860
+But they are not concurrent,
+so they are automatically in conflict.
+
+00:07:40,860 --> 00:07:45,750
+In the exercise mode of
+course then again more to it.

@@ -1,0 +1,1474 @@
+150 # slide
+00:00:00,000 --> 00:00:08,580
+In diesem Video werden wir uns wieder mit ein paar
+formalen Aspekten von Petrinetzen beschäftigen.
+
+00:00:08,580 --> 00:00:09,570
+Zur Erinnerung:
+
+00:00:09,570 --> 00:00:16,740
+Wir hatten Petrinetze formal definiert
+als ein Tupel, in dem eine Menge von
+
+00:00:16,740 --> 00:00:22,950
+Stellen S und eine Menge von Transitionen
+T vorkamen, sowie diverse weitere Zutaten.
+
+00:00:22,950 --> 00:00:32,640
+Unter anderem Markierungen, also Funktionen von
+der Menge der Stellen S in die natürlichen Zahlen.
+
+00:00:32,640 --> 00:00:36,450
+Keine negativen Zahlen, aber
+null und positive ganze Zahlen.
+
+00:00:38,670 --> 00:00:42,990
+Das wurde unter anderem benutzt, um
+die Vor- und Nachgewichte auszudrücken.
+
+00:00:42,990 --> 00:00:45,090
+Das waren diese speziellen Funktionen.
+
+00:00:45,090 --> 00:00:49,410
+Für einzelne Transitionen, jeweils
+die Vorbedingungsgewichte und die
+
+00:00:49,410 --> 00:00:52,110
+Nachbedingungsgewichte als solche Markierungen.
+
+00:00:52,110 --> 00:00:59,070
+Der Zusammenhang zur grafischen Darstellung
+war zum einen, dass die Anfangsmarkierung
+
+00:00:59,070 --> 00:01:02,930
+m0 der Belegung der Stellen zu Anfang
+auf der grafischen Seite entsprach.
+
+00:01:02,930 --> 00:01:08,670
+Da würde die Markierungsfunktion m0
+genutzt werden, um für jede Stelle
+
+00:01:08,670 --> 00:01:14,550
+genau die Marken zu zählen, die in der
+grafischen Darstellung abgebildet sind.
+
+00:01:14,550 --> 00:01:17,490
+Und die Pfeile in der grafischen Darstellung
+
+00:01:17,490 --> 00:01:21,780
+entsprechen auf bestimmte Weise
+genau den Vor- und Nachgewichten.
+
+00:01:23,640 --> 00:01:32,460
+Insbesondere, falls es keinen Pfeil von s zu
+t oder von t zu s geben soll (jeweils in der
+
+00:01:32,460 --> 00:01:40,110
+entsprechenden Reihenfolge), dass daran abgelesen
+werden kann, ob die Vorgewichts-Bedingungsfunktion
+
+00:01:40,110 --> 00:01:44,490
+für diese Transition bezüglich der
+entsprechenden Stelle den Wert null trägt.
+
+00:01:44,490 --> 00:01:49,530
+Oder analog für die Nachgewichts-Funktion:
+
+00:01:51,330 --> 00:01:53,730
+Wenn da in der mathematischen
+Darstellung Nullen sind, gibt
+
+00:01:53,730 --> 00:01:55,500
+es einfach keinen Pfeil in
+der grafischen Darstellung.
+
+00:01:55,500 --> 00:02:00,390
+Dann gab es die Situation, dass es
+einen Pfeil gab, aber nichts dran stand.
+
+00:02:00,390 --> 00:02:01,830
+Das entspräche den Fällen,
+
+00:02:01,830 --> 00:02:07,530
+wo die Vorgewichts- und Nachgewichts-Funktion für
+die entsprechende Transition und Stelle 1 sind.
+
+00:02:07,530 --> 00:02:10,290
+Abweichend dazu hatten wir im Tool gesehen,
+
+00:02:10,290 --> 00:02:12,030
+dass da die Pfeile immer mit
+einer 1 beschriftet werden.
+
+00:02:12,030 --> 00:02:17,860
+Also selbst bei den Pfeilen, die
+eine 1 tragen würden und deswegen
+
+00:02:17,860 --> 00:02:20,290
+in der vereinfachten grafischen
+Darstellung in den Folien etwa
+
+00:02:20,290 --> 00:02:26,110
+nicht mit einer Zahl beschriftet werden,
+stand im Tool dennoch die 1 explizit da.
+
+00:02:26,110 --> 00:02:32,530
+Auf den Folien schreibe ich die Gewichte
+eigentlich nur dann hin, wenn sie größer 1 sind.
+
+00:02:32,530 --> 00:02:37,960
+Also falls die Vorgewichts-
+und Nachgewichtsbedingung
+
+00:02:37,960 --> 00:02:42,190
+für eine Transition und Stelle
+eine ganze Zahl größer 1 ist,
+
+00:02:42,190 --> 00:02:48,400
+dann würde da in den Folien oder in den
+Übungsaufgaben explizit ein Pfeil dranstehen.
+
+00:02:48,400 --> 00:02:49,840
+Wenn nichts dransteht, dann ist es eine 1.
+
+00:02:49,840 --> 00:02:52,480
+Und im Tool wird die 1 sogar drangeschrieben.
+
+00:02:54,280 --> 00:02:55,630
+Das ist nur eine Wiederholung.
+
+00:02:55,630 --> 00:02:58,030
+Das ist nichts Neues, was ich Ihnen erzählt habe.
+
+00:02:58,030 --> 00:03:01,150
+Das haben Sie bereits gesehen und auch geübt.
+
+00:03:04,090 --> 00:03:08,845
+Dann operieren wir jetzt mit diesen "Zutaten",
+insbesondere mit diesen Markierungen.
+
+00:03:08,845 --> 00:03:11,560
+Wir werden ein paar Begriffe
+und ein paar Definitionen haben,
+
+00:03:11,560 --> 00:03:17,470
+die für Markierungen definiert sind und
+deswegen dann sowohl auf die Anfangsmarkierung
+
+00:03:17,470 --> 00:03:20,110
+zutreffen als auch für diese Vorgewichts- und
+Nachgewichtsfunktionen verwendet werden können.
+
+00:03:20,830 --> 00:03:27,700
+Und auch für weitere Markierungen, die im Laufe
+der Entwicklung eines Petrinetzes entstehen.
+
+00:03:27,700 --> 00:03:29,740
+Also nicht nur die Anfangsmarkierung,
+sondern auch Markierungen,
+
+00:03:29,740 --> 00:03:34,000
+die zum Beispiel nach dem Ausführen
+einiger Transitionen vorliegen können.
+
+00:03:34,000 --> 00:03:41,200
+Und dann brauchen wir einfach ein paar
+mathematische Begriffe und Anwendungen.
+
+00:03:43,660 --> 00:03:47,170
+Also zum einen wird es eine Ordnung
+
+00:03:47,170 --> 00:03:50,080
+auf Markierungen geben, zum
+anderen gewisse Operationen.
+
+00:03:50,080 --> 00:03:53,290
+Auf dieser Folie zunächst erst mal zur Ordnung.
+
+00:03:53,290 --> 00:03:57,730
+Wir betrachten zwei beliebige
+Markierungen für das gleiche
+
+00:03:57,730 --> 00:04:00,070
+Petrinetz, also für die gleiche Menge von Stellen.
+
+00:04:00,070 --> 00:04:03,940
+Dann haben wir zwei Markierungen, also Abbildungen
+von diesen Stellen auf natürliche Zahlen.
+
+00:04:03,940 --> 00:04:06,010
+Ich nenne die mal m und m'.
+
+00:04:06,010 --> 00:04:07,570
+Das m' hat nichts mit Ableitungen zu tun.
+
+00:04:07,570 --> 00:04:12,126
+Es ist nicht irgendwie der
+Differenzialrechnungs-Strich: f und f'.
+
+00:04:12,126 --> 00:04:14,350
+Das sind einfach zwei verschiedene Namen.
+
+00:04:14,350 --> 00:04:16,930
+Man hätte auch m1, m2 sagen können.
+
+00:04:18,430 --> 00:04:21,430
+Und wie ist dann definiert,
+dass m' kleiner-gleich m ist?
+
+00:04:22,450 --> 00:04:25,730
+Falls für alle Stellen aus der entsprechenden zu
+
+00:04:25,730 --> 00:04:29,750
+Grunde liegenden Menge gilt, dass
+m' von s kleiner gleich m von s ist.
+
+00:04:29,750 --> 00:04:34,220
+Also, dass an der Stelle s die
+Markierung m' einen kleineren
+
+00:04:34,220 --> 00:04:37,730
+Wert oder den gleichen Wert trägt
+wie m an der entsprechenden Stelle.
+
+00:04:37,730 --> 00:04:40,850
+Und das muss für alle Stellen zutreffen.
+
+00:04:40,850 --> 00:04:46,940
+Dann sagen wir, dass die Markierung m'
+insgesamt kleiner-gleich der Markierung m ist.
+
+00:04:46,940 --> 00:04:52,850
+Da geht es nicht darum, wie die Summe
+der Zahlen für die Markierung ist.
+
+00:04:52,850 --> 00:04:54,530
+Wie viele Marken es insgesamt gibt.
+
+00:04:54,530 --> 00:04:56,690
+Stattdessen muss für jede Stelle gelten,
+
+00:04:56,690 --> 00:05:02,555
+dass m' einen kleineren oder maximal
+den gleichen Wert trägt wie m.
+
+00:05:03,380 --> 00:05:05,960
+Dann sagen wir auch: m' wird durch m überdeckt.
+
+00:05:05,960 --> 00:05:11,720
+Letztlich wird geprüft, dass m für jede Stelle
+mindestens genauso viele Marken hat wie m'.
+
+00:05:11,720 --> 00:05:14,060
+Also, überdeckt m das m'?
+
+00:05:17,870 --> 00:05:18,530
+Ein Beispiel:
+
+00:05:18,530 --> 00:05:23,090
+Nehmen wir an, unsere Menge von
+Stellen S ist dreielementig.
+
+00:05:23,090 --> 00:05:28,430
+Wir haben schon gesagt, dass wir solche endlichen
+Funktionen auch dadurch aufschreiben können, dass
+
+00:05:28,430 --> 00:05:32,360
+wir einfach (in dem Fall) ein Tripel angeben,
+weil es eben drei Stellen sein sollen.
+
+00:05:32,360 --> 00:05:35,090
+Dann könnte unser m das Tripel (0,1,2) sein.
+
+00:05:35,090 --> 00:05:41,480
+Und m', natürlich für die gleiche Reihenfolge
+der Stellen gesehen, das Tripel (0,0,1).
+
+00:05:41,480 --> 00:05:47,780
+Und dann würde hier tatsächlich gelten, dass
+m' kleiner-gleich m ist, aber nicht umgekehrt.
+
+00:05:47,780 --> 00:05:48,920
+Warum ist m' <= m?
+
+00:05:48,920 --> 00:05:54,590
+Weil 0 kleiner-gleich 0, und 0
+kleiner-gleich 1, und 1 kleiner-gleich 2 ist.
+
+00:05:54,590 --> 00:05:55,730
+Umgekehrt gilt das aber nicht.
+
+00:05:56,540 --> 00:06:00,710
+Das 0 <= 0 stimmt noch, aber nicht 1 <= 0.
+
+00:06:01,610 --> 00:06:09,800
+In dem Fall würde man sagen, diese Markierung
+wird durch diese Markierung überdeckt.
+
+00:06:09,800 --> 00:06:15,125
+Es kommt wirklich auf den
+Vergleich jedes Elements an.
+
+00:06:15,125 --> 00:06:15,890
+Außerdem gilt noch dies:
+
+00:06:15,890 --> 00:06:17,900
+Jede Markierung wird durch sich selbst überdeckt,
+
+00:06:17,900 --> 00:06:22,160
+trivialerweise, weil sie an jeder Stelle
+kleiner-gleich, nämlich gleich, ist.
+
+00:06:22,160 --> 00:06:24,890
+Was aber eben nicht gilt,
+ist zum Beispiel dieses hier.
+
+00:06:24,890 --> 00:06:31,820
+Also obwohl die zweite Markierung hier ja
+viel voller ist in einer Stelle (1000),
+
+00:06:31,820 --> 00:06:35,570
+die weitaus größer ist als alles,
+was in der ersten Markierung steht.
+
+00:06:36,140 --> 00:06:40,010
+Dennoch wird diese Markierung
+nicht durch diese hier überdeckt.
+
+00:06:40,010 --> 00:06:41,330
+Warum nicht?
+
+00:06:41,330 --> 00:06:44,390
+Weil es in der dritten Stelle nicht stimmt.
+
+00:06:44,990 --> 00:06:46,940
+Es müsste aber für jede
+Stelle gelten, dass die Zahl,
+
+00:06:46,940 --> 00:06:48,860
+die hier steht kleiner-gleich
+der Zahl ist, die dort steht.
+
+00:06:48,860 --> 00:06:53,690
+Das ist zwar für 3 und 5 und für 1000
+der Fall, aber eben nicht für 2 und 1.
+
+00:06:53,690 --> 00:06:57,290
+Manchmal ist es einfach nicht so,
+dass die Überdeckung vorliegt.
+
+00:06:57,290 --> 00:07:00,740
+Und es kann auch sein, dass sie in
+keine von beiden Richtungen vorliegt.
+
+00:07:00,740 --> 00:07:03,440
+Das war hier schon der Fall,
+und tatsächlich auch hier.
+
+00:07:04,340 --> 00:07:11,300
+Obwohl hier in beiden Markierungen einfach die
+Zahlen 0, 1, 2 vorkommen, ist es weder der Fall,
+
+00:07:11,300 --> 00:07:14,150
+dass die erste Markierung durch die
+zweite überdeckt wird, noch umgekehrt.
+
+00:07:14,150 --> 00:07:18,980
+Weil es jeweils eine Stelle gibt, nämlich
+entweder die zweite oder dritte Position,
+
+00:07:18,980 --> 00:07:24,290
+wo jeweils verletzt ist, dass
+dies für alle Stellen gilt.
+
+00:07:27,080 --> 00:07:30,950
+Also so können wir zwei Markierungen
+vergleichen, seien es die Anfangsmarkierung
+
+00:07:30,950 --> 00:07:33,410
+und eine Gewichtsmarkierung,
+oder zwei Gewichtsmarkierungen,
+
+00:07:33,410 --> 00:07:37,640
+oder einfach zwei Markierungen, die später
+bei der Entwicklung des Petrinetzes auftreten.
+
+00:07:38,450 --> 00:07:48,140
+Wir werden dies "<=" schreiben, was
+Sie am ehesten für Zahlen kennen.
+
+00:07:48,140 --> 00:07:51,230
+Mathematiker benutzen das gern
+für alle möglichen Strukturen,
+
+00:07:51,230 --> 00:07:53,900
+zum Beispiel auch für solche
+Markierungsfunktionen.
+
+00:07:56,510 --> 00:07:57,950
+Dann stand hier noch was von Operationen.
+
+00:07:57,950 --> 00:08:00,440
+Das hier ist nur eine
+Ordnungsrelation, keine Operation.
+
+00:08:00,440 --> 00:08:02,690
+Also nichts was eine neue Markierung erzeugt.
+
+00:08:02,690 --> 00:08:07,520
+Davon gibt es aber auch einige,
+insbesondere die Addition.
+
+00:08:07,520 --> 00:08:11,030
+Also wenn wir wieder zwei
+solche Markierungen haben,
+
+00:08:11,030 --> 00:08:16,640
+für die gleiche Stellenmenge, dann definieren
+wir eine dritte Markierung, die die Summe ist.
+
+00:08:16,640 --> 00:08:19,550
+Jetzt steht hier dieses etwas
+lustige Plus mit einem Kreis darum.
+
+00:08:19,550 --> 00:08:25,790
+Das ist einfach die Wahl, ein Symbol zu
+wählen, das nicht das offensichtliche
+
+00:08:25,790 --> 00:08:29,150
+Plus ist (was Sie von Zahlen kennen),
+aber dennoch an Addition erinnert.
+
+00:08:29,150 --> 00:08:32,540
+Da nimmt man gern mal Symbole etwa dieser Form.
+
+00:08:32,540 --> 00:08:36,170
+Also ein Plus im Kreis, weil es
+nicht das Plus auf Zahlen ist.
+
+00:08:36,170 --> 00:08:39,260
+Nicht 3 + 5, sondern das Plus
+zwischen zwei solcher Markierungen.
+
+00:08:41,390 --> 00:08:42,050
+Was kommt da raus?
+
+00:08:42,050 --> 00:08:46,840
+Eine Markierung, die also wieder eine Funktion
+von S in die natürlichen Zahlen sein muss.
+
+00:08:46,840 --> 00:08:47,980
+Und wie ist sie definiert?
+
+00:08:47,980 --> 00:08:48,850
+Na stellenweise.
+
+00:08:48,850 --> 00:08:56,260
+Also für jedes Element von S definieren
+wir unsere neue Markierung als an dieser
+
+00:08:56,260 --> 00:09:02,860
+Stelle gegeben, durch die Summe der beiden
+Ursprungsmarkierungen an der gleichen Stelle.
+
+00:09:03,970 --> 00:09:05,080
+Das ist einfach eine Definition.
+
+00:09:05,080 --> 00:09:08,020
+So definieren wir für jedes
+s eine natürliche Zahl.
+
+00:09:08,020 --> 00:09:13,300
+Und das ist dann die
+Ergebnismarkierung dieser Addition.
+
+00:09:13,300 --> 00:09:19,360
+Zum Beispiel, wenn wir wieder für die
+dreielementige Menge S die Markierungen
+
+00:09:19,360 --> 00:09:22,750
+(0,1,2) und (0,0,1) haben, dann
+wäre deren Summe wieder eine
+
+00:09:22,750 --> 00:09:27,310
+Markierung für diese dreielementige
+Stellenmenge, deshalb ein Tripel.
+
+00:09:27,310 --> 00:09:34,600
+Und zwar ist das 0 + 0 =
+0, 1 + 0 = 1 und 2 + 1 = 3.
+
+00:09:34,600 --> 00:09:36,250
+Das ist also wie Vektoraddition.
+
+00:09:36,250 --> 00:09:40,720
+Wenn Sie die Sachen vertikal aufschreiben würden,
+
+00:09:40,720 --> 00:09:42,910
+wäre das ein Dreiervektor
+und noch ein Dreiervektor.
+
+00:09:42,910 --> 00:09:44,860
+Das kennen Sie aus der Schule (Lineare Algebra),
+
+00:09:44,860 --> 00:09:47,560
+da kommt eben ein Vektor heraus,
+elementweise/stellenweise addiert.
+
+00:09:48,610 --> 00:09:50,590
+Genau das gleiche passiert für diese Markierungen.
+
+00:09:54,010 --> 00:09:54,970
+Das kann man für die Addition machen.
+
+00:09:54,970 --> 00:09:56,770
+Das kann man auch für die Subtraktion machen.
+
+00:09:56,770 --> 00:09:58,210
+Dann muss man nur ein wenig vorsichtig sein,
+
+00:09:58,210 --> 00:10:02,755
+weil hier ja steht, dass es immer
+natürliche Zahlen sein müssen.
+
+00:10:02,755 --> 00:10:07,270
+Und es ist leider nicht so, dass bei
+
+00:10:07,270 --> 00:10:08,740
+der Subtraktion zweier beliebiger natürlicher
+Zahlen immer eine natürliche Zahl herauskommt.
+
+00:10:09,640 --> 00:10:15,850
+Zum Beispiel bei 3 und 5 ist das nicht der Fall,
+3 + 5 = 8 aber 3 - 5 ist keine natürliche Zahl.
+
+00:10:15,850 --> 00:10:20,410
+Deswegen ist die Subtraktion
+nur für den Fall definiert,
+
+00:10:20,410 --> 00:10:29,110
+dass wir von m eine Markierung subtrahieren
+wollen, die durch m überdeckt wird.
+
+00:10:29,800 --> 00:10:33,820
+Hier nutzen wir die Relation,
+die Ordnung, von der Folie zuvor.
+
+00:10:33,820 --> 00:10:37,840
+Also falls m' <= m, wie vorher definiert,
+
+00:10:37,840 --> 00:10:42,130
+dann können wir sagen, die Subtraktion
+von m und m' in dieser Reihenfolge ist:
+
+00:10:48,940 --> 00:10:52,240
+Für jede Stelle muss gelten, dass
+die neue Markierung an der Stelle
+
+00:10:52,240 --> 00:10:58,450
+als Wert nicht mehr die Summe, sondern die
+Differenz der beiden Ursprungsmengen trägt.
+
+00:10:58,450 --> 00:11:00,490
+Die Reihenfolge ist natürlich wichtig.
+
+00:11:00,490 --> 00:11:00,760
+Dass wir m' von m abziehen und nicht umgekehrt.
+Hier ist das okay.
+
+00:11:00,760 --> 00:11:02,740
+Da wird tatsächlich eine
+natürliche Zahl rauskommen,
+
+00:11:02,740 --> 00:11:05,620
+wenn wir vorher wussten, dass
+m' durch m überdeckt wird.
+
+00:11:05,620 --> 00:11:10,960
+Denn dann ist es genau so, dass diese
+Differenz nie negativ sein kann.
+
+00:11:10,960 --> 00:11:12,040
+Das passt dann also genau.
+
+00:11:13,840 --> 00:11:17,560
+Auch hier wieder ein Beispiel:
+(0,1,2) minus (0,0,1) wäre (0,1,1).
+
+00:11:17,560 --> 00:11:23,260
+Also nicht elementweise addieren,
+sondern elementweise subtrahieren.
+
+00:11:23,260 --> 00:11:27,040
+Umdrehen dürften wir das hier
+nicht; hier oben natürlich schon.
+
+00:11:27,760 --> 00:11:31,330
+Hier oben für die Summe hätten
+wir auch schreiben können:
+
+00:11:31,330 --> 00:11:34,750
+Das was hier als zweites steht
+plus das was hier als erstes steht.
+
+00:11:34,750 --> 00:11:42,340
+Das ist auch definiert und ergibt das gleiche
+Tripel, weil diese Addition kommutativ ist.
+
+00:11:42,340 --> 00:11:43,990
+Das gilt hier für die Subtraktion nicht,
+
+00:11:43,990 --> 00:11:48,790
+weil diese Bedingung dann nicht
+erfüllt wäre für die andere Richtung.
+
+00:11:56,820 --> 00:12:00,090
+Dann können wir diese Begriffe jetzt nutzen.
+
+00:12:00,090 --> 00:12:02,820
+Das waren nur Definitionen mathematischer
+Art für diese Markierungen.
+
+00:12:02,820 --> 00:12:05,340
+Das hat noch nichts direkt mit Petrinetzen zu tun.
+
+00:12:05,340 --> 00:12:09,150
+Aber wir wollen das eben benutzen, um die Dynamik,
+
+00:12:09,960 --> 00:12:14,130
+die Semantik, die Bedeutung (letztlich die
+Ausführung) von Petrinetzen zu beschreiben.
+
+00:12:16,470 --> 00:12:17,310
+Was war da wichtig?
+
+00:12:17,310 --> 00:12:18,600
+Das Aktiviertsein.
+
+00:12:19,350 --> 00:12:22,650
+Ist eine Transition in einem Petrinetz aktiviert?
+
+00:12:22,650 --> 00:12:24,480
+Erst dann kann irgendetwas passieren.
+
+00:12:24,480 --> 00:12:25,440
+Und was passiert dann?
+
+00:12:25,440 --> 00:12:28,470
+Die Transition schaltet und
+führt zu einer neuen Markierung,
+
+00:12:28,470 --> 00:12:30,270
+zu einer neuen Belegung der Stellen im Petrinetz.
+
+00:12:31,170 --> 00:12:35,130
+Diese beiden Konzepte können wir jetzt formal
+definieren anhand der gesehenen Begriffe.
+
+00:12:37,020 --> 00:12:40,770
+Also zunächst die Aktivierung.
+
+00:12:40,770 --> 00:12:45,420
+Wann ist eine Transition aktiviert
+für eine bestimmte Markierung?
+
+00:12:45,420 --> 00:12:48,510
+Also wir müssen eine Markierung haben,
+wir müssen wissen, wo die Marken liegen.
+
+00:12:48,510 --> 00:12:51,000
+Und dann können wir uns eine
+Transition anschauen und fragen,
+
+00:12:51,000 --> 00:12:54,570
+ob diese Transition jetzt gerade für
+die aktuelle Markierung aktiviert ist.
+
+00:12:54,570 --> 00:13:00,540
+Das ist der Fall, wenn die
+Vorgewichtsfunktion für diese
+
+00:13:00,540 --> 00:13:04,710
+entsprechende Transition überdeckt
+wird von der aktuellen Markierung.
+
+00:13:04,710 --> 00:13:09,960
+Das bedeutet genau, dass an allen Stellen,
+wo diese Transition Marken erwartet,
+
+00:13:09,960 --> 00:13:15,060
+wo also der Funktionswert
+dieser Funktion größer 0 ist,
+
+00:13:15,060 --> 00:13:19,770
+die Markierung m mindestens auch so viele
+Marken enthält (oder vielleicht sogar mehr).
+
+00:13:20,700 --> 00:13:21,090
+Das muss für jede Stelle gelten.
+
+00:13:21,090 --> 00:13:22,860
+Eine Transition kann schon dann nicht schalten,
+
+00:13:22,860 --> 00:13:28,020
+wenn für eine ihrer Eingangsstellen nicht genug
+Marken in der aktuellen Markierung vorhanden sind.
+
+00:13:29,490 --> 00:13:32,580
+Was hier in den Klammern steht, ist
+einfach die Verbalisierung dessen,
+
+00:13:32,580 --> 00:13:42,090
+was die Definition der Ordnungsrelation
+der vorletzten Folie hier liefert.
+
+00:13:42,090 --> 00:13:45,450
+Somit ist knapp erfasst, wann
+eine Transition aktiviert ist.
+
+00:13:45,450 --> 00:13:47,160
+Und wenn sie das ist, kann sie schalten.
+
+00:13:47,160 --> 00:13:52,530
+Also, sei t eine Transition und m eine
+Markierung so dass t für m aktiviert ist.
+
+00:13:52,530 --> 00:13:54,480
+Dann kann sie schalten.
+
+00:13:54,480 --> 00:13:57,030
+Damit ist gemeint, dass eine
+neue Markierung herauskommt.
+
+00:13:57,030 --> 00:13:57,930
+Und wie sieht die aus?
+
+00:13:58,530 --> 00:14:00,660
+Die können wir jetzt mit unserer
+Subtraktion/Addition umschreiben.
+
+00:14:00,660 --> 00:14:01,950
+Intuitiv hatten wir gesagt:
+
+00:14:01,950 --> 00:14:05,340
+Wir entnehmen allen Stellen der Vorbedingung,
+
+00:14:06,810 --> 00:14:10,140
+also mit eingehenden Pfeilen zu
+t, entsprechend viele Marken.
+
+00:14:10,140 --> 00:14:12,840
+Wobei "entsprechend viele"
+davon abhängt, was diese
+
+00:14:12,840 --> 00:14:15,570
+Funktion hier für die einzelnen Stellen sagt.
+
+00:14:15,570 --> 00:14:21,630
+Und andererseits fügen wir hinterher den
+Nachgewichtsstellen, also den Stellen,
+
+00:14:21,630 --> 00:14:25,890
+für die diese Nachgewichtsfunktion einen
+positiven Wert hat, geeignet viele Marken hinzu.
+
+00:14:25,890 --> 00:14:27,750
+Das ist genau das Gleiche, wie zu sagen:
+
+00:14:27,750 --> 00:14:30,090
+Wir nehmen die aktuelle Markierung, ziehen davon
+
+00:14:30,090 --> 00:14:35,430
+die Vorgewichtsfunktion für das entsprechende t
+ab und addieren die Nachgewichtsfunktion drauf.
+
+00:14:35,430 --> 00:14:40,950
+Das ist ja jeweils die gleiche Transition,
+und zwar die, welche wir gerade schalten.
+
+00:14:40,950 --> 00:14:45,660
+Und wir müssen vorher wissen, dass t wirklich
+aktiviert ist für diese Markierung m.
+
+00:14:45,660 --> 00:14:49,590
+Denn nur dann können wir diese Subtraktion bilden.
+
+00:14:49,590 --> 00:14:53,310
+Das passt also alles zusammen mit
+der Bedingung der vorherigen Folie,
+
+00:14:53,310 --> 00:14:54,990
+wann wir die Subtraktion überhaupt bilden dürfen.
+
+00:14:57,000 --> 00:15:02,910
+Die Dinge spielen genau so zusammen,
+dass es insgesamt Sinn ergibt.
+
+00:15:08,190 --> 00:15:10,710
+Mit den Klammern hier ist gemeint:
+
+00:15:10,710 --> 00:15:12,540
+Erst wird abgezogen und dann wird addiert.
+
+00:15:12,540 --> 00:15:15,630
+Da hätte man noch Klammern setzen können.
+
+00:15:17,850 --> 00:15:22,920
+Wenn das so ist, dann wollen wir auch knapper
+ausdrücken: m wird zu m' beim Schalten von t.
+
+00:15:22,920 --> 00:15:24,360
+Und das schreibt man dann auch so.
+
+00:15:25,410 --> 00:15:32,520
+Das ist eine als Formel gefasste Syntax für:
+
+00:15:32,520 --> 00:15:36,420
+t schaltet jetzt von hier
+nach da und heraus kommt m'.
+
+00:15:36,420 --> 00:15:41,010
+Und zwar genau das m', das sich
+durch diese Rechenoperationen ergibt.
+
+00:15:44,640 --> 00:15:45,900
+Das wäre ein Schritt.
+
+00:15:45,900 --> 00:15:49,230
+Also von einer Markierung machen wir
+einen Schritt mit einer bestimmten
+
+00:15:49,230 --> 00:15:53,280
+Transition und kriegen eine
+bestimmte neue Markierung m'.
+
+00:15:53,280 --> 00:15:56,190
+Das könnte zufälligerweise auch die gleiche sein.
+
+00:15:57,660 --> 00:16:00,030
+Aber im Allgemeinen irgendeine Markierung m'.
+
+00:16:00,030 --> 00:16:05,760
+Dann ist m' offenbar in einem
+Schritt von m erreichbar.
+
+00:16:05,760 --> 00:16:08,686
+Das kann man noch verallgemeinern
+oder anders fassen.
+
+00:16:08,686 --> 00:16:12,000
+Man kann sich nämlich fragen,
+ob irgendeine Markierung,
+
+00:16:12,000 --> 00:16:15,270
+nicht unbedingt m', sondern irgendeine
+andere Markierung, von m aus erreichbar ist.
+
+00:16:15,270 --> 00:16:16,890
+Vielleicht auch in mehreren Schritten.
+
+00:16:16,890 --> 00:16:19,650
+Das ergibt unsere nächste Definition.
+
+00:16:20,310 --> 00:16:25,680
+Wir sagen, eine Markierung ist
+erreichbar, in der Regel von m0 aus.
+
+00:16:25,680 --> 00:16:27,450
+Wir haben also eine
+Startmarkierung für das Petrinetz.
+
+00:16:27,450 --> 00:16:31,680
+Wir fragen uns, ob eine bestimmte andere
+Markierung davon aus erreichbar ist.
+
+00:16:31,680 --> 00:16:34,500
+Wie ist das definiert und wann ist das der Fall?
+
+00:16:34,500 --> 00:16:36,960
+Wenn es eine gewisse Folge von Transitionen gibt.
+
+00:16:36,960 --> 00:16:40,590
+Das könnte eine einzige Transition sein,
+es könnten null, es könnten 27 sein,
+
+00:16:40,590 --> 00:16:43,350
+aber irgendwie eine endliche Folge t_1 bis t_n.
+
+00:16:43,350 --> 00:16:46,620
+Darin dürfen Transitionen auch mehrfach vorkommen.
+
+00:16:46,620 --> 00:16:49,200
+Also vielleicht hat unser
+Petrinetze drei Transitionen,
+
+00:16:49,200 --> 00:16:53,100
+aber wir wollen eine 27-stellige Folge haben.
+
+00:16:53,100 --> 00:16:58,350
+Dann muss da mindestens eine
+Transition mehrfach vorkommen.
+
+00:16:58,350 --> 00:17:06,180
+Also irgendwelche Transitionen t_1 bis t_n,
+möglicherweise auch mehrfach vorkommend, so dass
+
+00:17:06,180 --> 00:17:13,620
+m0 unter Schalten von t1 zu m1 wird, genau dieses
+m1 unter Schalten von t2 zu m3 wird, usw., usw.
+
+00:17:14,400 --> 00:17:19,440
+Und am Ende kommt unser m heraus, von dem wir
+uns gefragt haben, ob es aus m0 erreichbar ist.
+
+00:17:19,440 --> 00:17:26,880
+Und wenn das so ist, dann heißt m
+erreichbar von der Anfangsmarkierung.
+
+00:17:26,880 --> 00:17:34,140
+Manchmal interessiert uns gar nicht,
+was diese Zwischenmarkierungen sind.
+
+00:17:34,140 --> 00:17:37,920
+Dann wollen wir überhaupt nur wissen, dass
+wir mittels t_1 bis t_n von m0 zu m kommen.
+
+00:17:37,920 --> 00:17:42,930
+Dann wird das auch verkürzt geschrieben
+als: einfach nur m0, dann werden hier in
+
+00:17:42,930 --> 00:17:47,460
+diesen speziellen Klammern direkt alle
+Transitionen geschrieben (nicht jede
+
+00:17:47,460 --> 00:17:51,300
+einzeln), und wir schreiben nur die Endmarkierung
+hin (nicht auch alle Zwischenmarkierungen).
+
+00:17:51,300 --> 00:17:59,640
+Oder wenn wir diese Liste t_1 bis t_n
+zusammengefasst haben, als hier t-"Schlange", also
+
+00:17:59,640 --> 00:18:06,780
+ein weiterer Bezeichner; dann schreiben wir auch,
+m0 geht unter dieser gesamten Sequenz über in m.
+
+00:18:06,780 --> 00:18:11,010
+Die Sequenz heißt dann Schaltfolge.
+
+00:18:11,010 --> 00:18:16,350
+Das sind genau die Listen, die
+in dem Tool im vorherigen Video
+
+00:18:16,350 --> 00:18:20,160
+im linken Fenster auftauchen,
+aber untereinander geschrieben.
+
+00:18:20,160 --> 00:18:22,890
+Ich hatte einzelne Transitionen
+in meinen Petrinetzen.
+
+00:18:22,890 --> 00:18:29,520
+Da habe ich simuliert, Ausführungen
+gestartet und Schaltungen durchgeführt,
+
+00:18:29,520 --> 00:18:34,200
+und in dem linken Fenster tauchten dann
+untereinander immer die Transitionen auf.
+
+00:18:34,200 --> 00:18:35,310
+Das wäre dann so eine Schaltfolge.
+
+00:18:35,310 --> 00:18:38,370
+Am Anfang war die leer.
+
+00:18:38,370 --> 00:18:40,260
+Man kann auch die leere Schaltfolge haben.
+
+00:18:40,260 --> 00:18:46,740
+Dann ist natürlich das m
+notwendigerweise gleich dem m0.
+
+00:18:46,740 --> 00:18:49,680
+Jede Markierung, auch die Anfangsmarkierung m0,
+
+00:18:49,680 --> 00:18:53,280
+geht unter leerer Schaltfolge
+natürlich in sich selbst über.
+
+00:18:53,280 --> 00:18:56,220
+Man kann auch die Situation haben,
+dass es nur die leere Schaltfolge gibt.
+
+00:18:56,880 --> 00:19:03,870
+Wenn ich in der Anfangsmarkierung des Petrinetzes
+überhaupt gar keine aktivierten Transitionen habe,
+
+00:19:03,870 --> 00:19:06,525
+dann ist die einzig mögliche
+Schaltfolge die leere Schaltfolge.
+
+00:19:06,525 --> 00:19:10,620
+Aber im Allgemeinen wird es
+so sein, dass wir endliche
+
+00:19:10,620 --> 00:19:14,220
+und nichtleere Transitionsfolgen
+haben werden, die schaltbar sind.
+
+00:19:14,220 --> 00:19:15,780
+Dann haben wir ein interessantes Modell.
+
+00:19:15,780 --> 00:19:22,040
+Das war die Definition.
+
+00:19:22,040 --> 00:19:24,470
+Lassen Sie uns das an einem
+konkreten Beispiel durchsprechen.
+
+00:19:24,470 --> 00:19:27,380
+Das ist das Beispiel, das ich in der
+vergangenen Woche auf einer Folie hatte,
+
+00:19:27,380 --> 00:19:32,300
+wo es um die Äquivalenz der grafischen
+und mathematischen Darstellung ging.
+
+00:19:32,300 --> 00:19:34,820
+Also es gibt eine Folie, in den
+Folien der vergangenen Woche,
+
+00:19:34,820 --> 00:19:38,450
+wo hierfür die mathematische
+Darstellung angegeben ist.
+
+00:19:38,450 --> 00:19:41,630
+Die brauchen wir hier jetzt auch, weil
+diese Begriffe darauf Bezug nehmen,
+
+00:19:41,630 --> 00:19:43,010
+insbesondere auf diese Markierungsfunktionen.
+
+00:19:43,010 --> 00:19:55,700
+Hier haben wir die Ursprungsmarkierung, das
+wäre als Markierung m0 natürlich (1,2,0),
+
+00:19:55,700 --> 00:19:58,400
+weil ich die Stellenreihenfolge s1, s2, s3 habe.
+
+00:19:58,400 --> 00:20:02,060
+Also die Anfangsmarkierung
+hier wäre: erste Komponente 1,
+
+00:20:02,060 --> 00:20:05,690
+zweite Komponente 2, dritte Komponente 0.
+
+00:20:05,690 --> 00:20:11,480
+Jetzt wird hier behauptet, dass die Markierung
+m2 = (1,1,1) in zwei Schritten erreichbar ist.
+
+00:20:11,480 --> 00:20:13,760
+Intuitiv heißt das, es muss möglich sein,
+
+00:20:13,760 --> 00:20:15,440
+genau zwei Schaltungen/Feuerungen
+von Transitionen durchzuführen,
+
+00:20:15,440 --> 00:20:28,355
+so dass sich irgendwie die Marken so bewegen, dass
+hinterher auf jeder Stelle genau eine Marke liegt.
+
+00:20:28,355 --> 00:20:29,810
+Das sagt diese Markierung hier.
+
+00:20:29,810 --> 00:20:32,660
+Und das können wir einfach
+ausprobieren und nachrechnen.
+
+00:20:34,490 --> 00:20:40,220
+Wir sehen ja, dass von diesen drei Transitionen
+am Anfang sowieso nur t1 aktiviert ist.
+
+00:20:40,220 --> 00:20:42,950
+Daher muss die erste Schaltung
+wirklich mit t1 passieren.
+
+00:20:42,950 --> 00:20:52,250
+Die Vorgewichtsfunktion für t1 ist (1,1,0), weil
+auf den ersten beiden Stellen etwas liegen muss.
+
+00:20:52,250 --> 00:20:56,420
+Da gibt es eingehende Pfeile, und
+zwar ohne drangeschriebene Zahl,
+
+00:20:56,420 --> 00:20:58,400
+also entspricht das dem Gewicht 1.
+
+00:20:58,400 --> 00:21:04,010
+Es gibt keinen eingehenden Pfeil von
+s3 zu t1, deswegen ist dies null.
+
+00:21:04,010 --> 00:21:07,100
+So hatte das auch auf der Folie in
+der vergangenen Woche gestanden.
+
+00:21:07,100 --> 00:21:12,530
+Diese Markierung wird überdeckt
+durch die Startmarkierung.
+
+00:21:12,530 --> 00:21:15,290
+Das m0 in diesem Fall wäre (1,2,0).
+
+00:21:15,290 --> 00:21:23,300
+Da gilt diese Relation, da
+an jeder Stelle der Wert,
+
+00:21:23,300 --> 00:21:25,730
+der hier steht, mindestens so
+hoch ist wie der Wert hier.
+
+00:21:25,730 --> 00:21:28,280
+Also ist das Schalten überhaupt erst mal möglich.
+
+00:21:28,280 --> 00:21:32,540
+Das wussten wir natürlich auch
+schon durch Ansicht dieser Grafik,
+
+00:21:32,540 --> 00:21:36,440
+aber eben auch mathematisch ist das wohldefiniert.
+
+00:21:36,440 --> 00:21:37,220
+Was erhalten wir dann?
+
+00:21:37,220 --> 00:21:39,890
+Die nächste Markierung ist unsere Startmarkierung
+
+00:21:39,890 --> 00:21:46,130
+m0 minus die Vorgewichtsfunktion für t1,
+plus die Nachgewichtsfunktion für t1.
+
+00:21:46,130 --> 00:21:51,860
+Da könnten wir auch auf die alten Folien schauen
+und da würde stehen, dass das (0,0,2) ist.
+
+00:21:52,370 --> 00:21:58,550
+Letztlich weil es von t1 keine Pfeile nach s1
+und s2 gibt, aber diesen 2er Pfeil nach s3.
+
+00:21:58,550 --> 00:22:01,160
+Also haben wir diese Rechnung:
+
+00:22:01,160 --> 00:22:08,450
+Wir haben (1,2,0) als m0,
+minus (1,1,0), plus (0,0,2).
+
+00:22:08,450 --> 00:22:11,720
+Dann elementweise gerechnet erhalten wir (0,1,2).
+
+00:22:11,720 --> 00:22:17,690
+1 - 1 + 0 = 0, 2 - 1 + 0 = 1 und 0 - 0 + 2 = 2.
+
+00:22:19,640 --> 00:22:26,600
+Also die Markierung m1 nach Feuern von t1
+in der Startsituation ist diese Markierung.
+
+00:22:28,040 --> 00:22:29,960
+Wenn wir jetzt wissen wollen, was
+in zwei Schritten passiert, dann
+
+00:22:29,960 --> 00:22:32,570
+müssen wir den nächsten Schritt hiervon
+ausgehend machen, nicht mehr von m0 aus.
+
+00:22:34,070 --> 00:22:42,710
+Wir können sehen, diese aktuelle Markierung
+(0,1,2) überdeckt das Vorgewicht von t2.
+
+00:22:42,710 --> 00:22:47,990
+Die Vorgewichtsfunktion von t2 ist (0,0,1),
+weil sie nur etwas aus s3 entnimmt.
+
+00:22:47,990 --> 00:22:51,920
+Dieses (0,0,1) wird dadurch
+überdeckt, t2 ist also ausführbar.
+
+00:22:54,500 --> 00:23:00,230
+Dann ist m2 die aktuelle Markierung
+m1 minus genau dieses (0,0,1),
+
+00:23:00,230 --> 00:23:04,190
+also die Vorgewichtsfunktion von t2,
+plus die Nachgewichtsfunktion von t2.
+
+00:23:04,190 --> 00:23:05,510
+Wenn wir da schauen was passiert:
+
+00:23:05,510 --> 00:23:10,880
+t2 legt eine Marke nach s1 und nichts
+weiter, also ist die Funktion (1,0,0).
+
+00:23:10,880 --> 00:23:19,070
+Als Rechnung ergibt sich von hier
+oben: (0,1,2) – (0,0,1) + (1,0,0).
+
+00:23:19,730 --> 00:23:24,830
+Und wenn wir das wieder elementweise
+machen, erhalten wir die Markierung (1,1,1).
+
+00:23:24,830 --> 00:23:30,710
+Also nach Schalten von t1 und t2, aus der
+Ursprungsmarkierung, würden wir die Situation
+
+00:23:30,710 --> 00:23:34,560
+erreichen wie sie hier oben behauptet ist, wo
+auf allen drei Stellen genau eine Marke liegt.
+
+00:23:34,560 --> 00:23:43,830
+Also es gilt: m0 unter Schalten
+von t1 geht zu diesem m1 über,
+
+00:23:43,830 --> 00:23:48,150
+und unter Schalten von t2
+geht dies zu diesem m2 über.
+
+00:23:48,150 --> 00:23:51,630
+Oder kürzer geschrieben (wenn wir
+das m1 gar nicht notieren wollen):
+
+00:23:51,630 --> 00:23:56,130
+m0 geht unter Schalten von t1 und t2 in m2 über.
+
+00:23:56,130 --> 00:23:59,430
+Auf diese Weise nachgerechnet.
+
+00:23:59,430 --> 00:24:01,380
+Wir werden das natürlich nicht
+immer so detailliert nachrechnen.
+
+00:24:01,380 --> 00:24:04,800
+Aber man muss das einmal verstanden haben,
+
+00:24:04,800 --> 00:24:08,700
+da spätere Definitionen eben auch
+mit diesen Begriffen arbeiten werden.
+
+00:24:08,700 --> 00:24:12,240
+Oftmals werden wir sicherlich auch
+einfach nur mit der Intuition,
+
+00:24:12,240 --> 00:24:14,022
+anhand der grafischen Darstellung, arbeiten.
+
+00:24:14,022 --> 00:24:14,097
+Das habe ich in dem Modellierungsbeispiel
+im vorherigen Video auch gemacht.
+
+00:24:14,097 --> 00:24:20,250
+Da habe ich ja nicht immer nachgerechnet,
+
+00:24:20,250 --> 00:24:24,090
+sondern einfach mit dem Tool gearbeitet
+und der Intuition, die dahintersteckt.
+
+00:24:26,970 --> 00:24:32,250
+Wichtig ist noch, dass das jetzt hier einfach
+das Schalten für diese konkrete Sequenz ist.
+
+00:24:32,250 --> 00:24:36,330
+Also es ist nicht so, dass m0 immer
+das hier macht und dann kommt m2 raus.
+
+00:24:36,330 --> 00:24:39,510
+Sondern hier steht nur, dass
+m0 unter Schalten von t1 und
+
+00:24:39,510 --> 00:24:42,450
+t2 in diese konkrete Markierung m2 übergehen kann.
+
+00:24:42,450 --> 00:24:45,510
+Es kann auch andere Schaltfolgen
+von m0 aus beginnend geben.
+
+00:24:46,470 --> 00:24:51,570
+In dem konkreten Fall zum Beispiel
+gilt auch, dass m0 nach Schalten
+
+00:24:51,570 --> 00:24:56,400
+von t1 wie oben m1 erreicht, danach
+aber auch t3 schaltbar gewesen wäre.
+
+00:24:56,400 --> 00:24:58,230
+Also eine andere Transition als t2.
+
+00:24:58,230 --> 00:25:01,230
+Und dann wäre eine ganz andere
+Endmarkierung herausgekommen.
+
+00:25:01,230 --> 00:25:03,300
+Das ist kein Widerspruch oder falsch.
+
+00:25:03,300 --> 00:25:08,220
+Sondern das Schalten bezieht sich immer
+auf eine konkrete Sequenz von Transitionen.
+
+00:25:08,220 --> 00:25:11,610
+Für andere Transitionen kann natürlich
+eine andere Markierung herauskommen.
+
+00:25:11,610 --> 00:25:14,790
+Das folgt erstmal mathematisch aus der Definition.
+
+00:25:14,790 --> 00:25:20,790
+Das ist aber auch eine wesentliche Eigenschaft
+von Petrinetzen, nämlich Nicht-Determinismus.
+
+00:25:20,790 --> 00:25:26,340
+Das heißt, es ist möglich, in der gleichen
+Situation, zum Beispiel Situation m1 (die wir
+
+00:25:26,340 --> 00:25:33,990
+hier erreicht haben), sich verschieden weiter
+zu entwickeln für verschiedene Transitionen.
+
+00:25:33,990 --> 00:25:38,140
+Der Begriff dafür ist "Nicht-Determinismus".
+
+00:25:38,140 --> 00:25:41,770
+Petrinetze sind nicht-deterministisch,
+nicht vorherbestimmt.
+
+00:25:41,770 --> 00:25:47,830
+Das heißt, zu einer konkreten Markierung kann
+es mehrere direkte Nachfolgemarkierungen geben.
+
+00:25:47,830 --> 00:25:49,750
+Natürlich kann es immer mehrere
+Nachfolgemarkierungen geben,
+
+00:25:49,750 --> 00:25:51,400
+wir betrachten ja mehrere Schritte.
+
+00:25:51,970 --> 00:25:56,170
+Aber selbst für den nächsten konkreten
+Schritt kann es verschiedene Ergebnisse geben.
+
+00:25:56,170 --> 00:25:58,750
+Natürlich nur wenn wir
+verschiedene Transitionen anwenden.
+
+00:25:58,750 --> 00:26:03,070
+Also die gleiche Markierung
+und die gleiche Transition
+
+00:26:03,070 --> 00:26:05,590
+führen zur gleichen Nachfolgemarkierung.
+
+00:26:05,590 --> 00:26:11,770
+Wir können nicht von m1 mit t1
+verschiedene Markierungen bekommen.
+
+00:26:11,770 --> 00:26:21,250
+Aber hier mit m1 und t2 oder m1 und t3
+kommen wir zu verschiedenen Markierungen.
+
+00:26:21,250 --> 00:26:24,310
+Wenn wir eine Markierung haben, und verschiedene
+
+00:26:24,310 --> 00:26:28,660
+Transitionen auswählen können, können dabei
+verschiedene neue Markierungen entstehen.
+
+00:26:28,660 --> 00:26:32,530
+Nun kommt an dieser Stelle, von
+studentischer Seite, gern die Frage:
+
+00:26:34,600 --> 00:26:35,740
+Wer entscheidet das denn?
+
+00:26:36,670 --> 00:26:38,530
+Wer wählt denn die Transition aus?
+
+00:26:38,530 --> 00:26:43,150
+Oder wer wählt aus, welche von den mehreren
+Nachfolgemarkierungen die richtige ist?
+
+00:26:43,150 --> 00:26:46,420
+Für die Modellierung stellt
+sich diese Frage nicht.
+
+00:26:46,420 --> 00:26:47,860
+Das ist nicht unser Ziel beim Modellieren.
+
+00:26:47,860 --> 00:26:50,320
+Beim Modellieren wollen wir
+alle Möglichkeiten beschreiben.
+
+00:26:50,320 --> 00:26:55,180
+Im Petrinetz steht nirgendwo dran,
+welche Transition zu nehmen ist.
+
+00:26:55,180 --> 00:26:59,320
+Das Petrinetz beschreibt, unter einer bestimmten
+Konstellation, welche Transitionen möglich sind.
+
+00:26:59,320 --> 00:27:03,970
+Und drückt auch aus, was das
+mit der Markierung macht.
+
+00:27:03,970 --> 00:27:07,810
+Was die nächste Markierung wäre
+für eine gewählte Transition.
+
+00:27:07,810 --> 00:27:11,290
+Das Modell trifft keine Auswahl,
+welche Transition zu nehmen ist.
+
+00:27:11,290 --> 00:27:14,590
+Das wäre vielleicht eine Aufgabe für
+die Implementierung eines Systems,
+
+00:27:14,590 --> 00:27:17,140
+das vorher mit Petrinetzen modelliert wurde.
+
+00:27:17,140 --> 00:27:20,290
+Vielleicht will man in einem
+konkreten ausführbaren System
+
+00:27:20,290 --> 00:27:23,500
+bestimmte Protokolle verfolgen.
+
+00:27:23,500 --> 00:27:29,020
+Also unter allen Möglichkeiten, die das Modell
+vorgibt, bestimmte Strategien auswählen.
+
+00:27:29,020 --> 00:27:30,790
+Das ist aber nicht mehr Teil der Modellierung.
+
+00:27:34,090 --> 00:27:35,560
+Das ist ein wichtiges Konzept.
+
+00:27:35,560 --> 00:27:38,230
+Ohne Nicht-Determinismus wären
+Petrinetze nicht so interessant.
+
+00:27:38,230 --> 00:27:46,180
+Und weil Petrinetze nichtdeterministisch
+sind (also aus einer Markierung verschiedene
+
+00:27:46,180 --> 00:27:48,340
+Folgemarkierungen entstehen können), gibt es,
+
+00:27:48,340 --> 00:27:54,880
+wenn wir uns einen Überblick darüber verschaffen
+wollen, wie sich ein Petrinetz entwickeln kann,
+
+00:27:54,880 --> 00:28:02,260
+eine sehr natürliche Beziehung zu den flachen
+Zustandsdiagrammen vom Beginn der Vorlesung.
+
+00:28:05,560 --> 00:28:07,750
+Der Entwicklung eines Graphen aus einem Petrinetz,
+
+00:28:07,750 --> 00:28:15,340
+entsprechend der Erreichbarkeitsbeziehungen,
+werden wir uns im nächsten Video widmen.

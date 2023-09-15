@@ -1,0 +1,549 @@
+177 # slide
+00:00:00,000 --> 00:00:04,140
+Kommen wir zum Begriff der Nebenläufigkeit.
+
+00:00:04,140 --> 00:00:08,730
+Da ist das so, dass die Nebenläufigkeit (wie auch
+
+00:00:08,730 --> 00:00:12,780
+die Kausalität) sich immer auf
+einzelne Transitionen bezieht.
+
+00:00:13,320 --> 00:00:16,350
+Bei der Kausalität hatten wir beobachtet,
+
+00:00:16,350 --> 00:00:21,810
+dass in einem Petrinetz zwei bestimmte
+Transitionen in dieser Beziehung stehen können.
+
+00:00:21,810 --> 00:00:24,720
+Also, dass eine Transition "notwendige
+Bedingung" für die andere ist.
+
+00:00:24,720 --> 00:00:29,610
+Bei der Nebenläufigkeit könnten das sogar mehr
+als zwei Transitionen sein, die wir betrachten.
+
+00:00:29,610 --> 00:00:36,240
+Deswegen ist hier die Definition formuliert
+für irgendwelche Transitionen t1 bis tn.
+
+00:00:36,240 --> 00:00:41,910
+Also wir betrachten eine Teilmenge
+T' der Menge T aller Transitionen.
+
+00:00:41,910 --> 00:00:44,790
+Und dann können wir die Transitionen
+zum Beispiel durchnummerieren,
+
+00:00:44,790 --> 00:00:46,620
+die wir da herausgegriffen haben.
+
+00:00:46,620 --> 00:00:51,120
+Und dann sind die gegebenenfalls für eine
+bestimmte Markierung nebenläufig aktiviert.
+
+00:00:51,120 --> 00:00:57,030
+Das ist auch ein Unterschied zu vorher,
+nämlich dass die Kausalität sich immer
+
+00:00:57,030 --> 00:01:01,260
+einfach auf zwei Transitionen bezieht,
+und es dann ein Kriterium gibt, das
+
+00:01:01,260 --> 00:01:05,970
+sich auf Erreichbarkeit in dem
+Erreichbarkeitsgraphen bezieht.
+
+00:01:05,970 --> 00:01:08,790
+Hingegen die Nebenläufigkeit, die ist definiert
+
+00:01:08,790 --> 00:01:11,850
+für eine Menge von Transitionen
+und eine bestimmte Markierung m.
+
+00:01:11,850 --> 00:01:16,440
+Und dann ist das Kriterium wie
+folgt, erst mal mathematisch.
+
+00:01:16,440 --> 00:01:18,180
+Wir werden gleich sehen, was das intuitiv heißt.
+
+00:01:18,180 --> 00:01:20,790
+Mathematisch wird einfach wie folgt vorgegangen
+
+00:01:21,390 --> 00:01:25,140
+Man nimmt diese Transitionen t1 bis
+tn, die natürlich verschieden sind
+
+00:01:25,140 --> 00:01:28,770
+(sonst wäre das ja keine Menge), also
+verschiedene Transitionen t1 bis tn.
+
+00:01:28,770 --> 00:01:31,410
+Man betrachtet jeweils
+deren Vorgewichtsfunktionen.
+
+00:01:31,410 --> 00:01:33,780
+Da erinnern wir uns, das sind
+"Markierungen", also Funktionen
+
+00:01:33,780 --> 00:01:35,580
+von der Stellenmenge in die natürlichen Zahlen.
+
+00:01:35,580 --> 00:01:40,770
+Und die kann man mit diesem
+speziellen Plus addieren.
+
+00:01:40,770 --> 00:01:45,090
+Wir erinnern uns, das war die Addition, die
+so ein wenig wie die Vektoraddition ist.
+
+00:01:45,090 --> 00:01:51,120
+Wo wir also stellenweise die Einträge
+dieser n Vorgewichtsfunktionen addieren.
+
+00:01:51,120 --> 00:01:53,610
+Und was da rauskommt, ist
+wieder eine "Markierung".
+
+00:01:53,610 --> 00:02:00,150
+Und wir überprüfen dann, ob diese kleiner-gleich
+als die gewählte relevante Markierung m ist.
+
+00:02:00,150 --> 00:02:07,620
+Und dieses kleiner-gleich, auch das zur Erinnerung
+(oder zum Nachschlagen in den alten Folien),
+
+00:02:07,620 --> 00:02:13,790
+das bedeutete, dass pro Stelle der Eintrag,
+der hier auf der linken Seite entstanden ist,
+
+00:02:13,790 --> 00:02:17,870
+kleiner-gleich sein muss zum Eintrag auf der
+rechten Seite an der entsprechenden Stelle.
+
+00:02:17,870 --> 00:02:20,720
+Also es geht nicht darum, irgendwie
+alle Marken insgesamt zu zählen,
+
+00:02:20,720 --> 00:02:22,820
+sondern um einen stellenweisen Vergleich.
+
+00:02:24,380 --> 00:02:29,480
+Und wenn das erfüllt ist, dann heißt das intuitiv,
+
+00:02:29,480 --> 00:02:35,420
+dass letztlich die Markierung m genug Marken
+enthält, und zwar an allen relevanten Stellen,
+
+00:02:35,960 --> 00:02:41,720
+dass die Transitionen aus T' (diese t1 bis
+tn) im Prinzip gleichzeitig feuern könnten.
+
+00:02:41,720 --> 00:02:44,630
+Gleichzeitig im Sinne von parallel.
+
+00:02:44,630 --> 00:02:49,220
+Wir hatten ja die Begriffe "nebenläufig"
+und "parallel" bereits intuitiv diskutiert,
+
+00:02:49,220 --> 00:02:53,450
+und ich hatte davon gesprochen, dass
+"nebenläufig" das formale Kriterium ist,
+
+00:02:53,450 --> 00:02:56,870
+das im Prinzip gleichzeitig-parallele
+Ausführung erlauben würde.
+
+00:02:56,870 --> 00:03:01,100
+Also relevant ist hier tatsächlich
+der Unterschied zur Kausalität.
+
+00:03:01,100 --> 00:03:08,270
+Wenn wir nochmal auf ein Beispiel aus dem
+vorherigen Video zur Kausalität schauen, da hatte
+
+00:03:08,270 --> 00:03:13,220
+wir dieses Beispiel und zum Beispiel beobachtet,
+dass t1 notwendige Bedingung für t4 war.
+
+00:03:13,220 --> 00:03:22,730
+In dem Sinne, dass wir sequenziell
+eine Abhängigkeit hatten.
+
+00:03:22,730 --> 00:03:28,190
+Also t4 konnte, wenn wir so begannen mit
+diesem Petrinetz, nie geschaltet werden,
+
+00:03:28,190 --> 00:03:29,780
+wenn vorher nicht t1 geschaltet wurde.
+
+00:03:29,780 --> 00:03:31,635
+Und das galt auch für t1 und t2.
+
+00:03:31,635 --> 00:03:34,700
+Aber t2 und t3 waren unabhängig, und
+tatsächlich werden wir gleich sehen,
+
+00:03:34,700 --> 00:03:38,720
+dass t2 und t3 hier in gewissen Sinnen
+parallel bzw. eben nebenläufig sind.
+
+00:03:38,720 --> 00:03:43,070
+Die Kausalität bezog sich auf
+sequenzielle Reihenfolgen.
+
+00:03:43,070 --> 00:03:46,220
+Also etwa t2 kann nie geschaltet werden,
+
+00:03:46,220 --> 00:03:49,460
+wenn vorher nicht t1 geschaltet wurde
+(wegen dieser Abhängigkeit hier).
+
+00:03:49,460 --> 00:03:52,340
+Während t2 und t3 nicht in
+diesem Sinne abhängig waren.
+
+00:03:52,340 --> 00:03:55,040
+Und tatsächlich werden diese gleich
+als nebenläufig erkannt werden.
+
+00:03:55,040 --> 00:03:58,670
+Wir hatten uns das auch im
+Erreichbarkeitsgraphen angeschaut.
+
+00:03:58,670 --> 00:04:04,400
+Und da war das Argument, zum Beispiel
+dafür dass t4 von t1 abhängt,
+
+00:04:04,400 --> 00:04:06,380
+dass t1 eine notwendige Bedingung für t4 ist.
+
+00:04:06,380 --> 00:04:10,220
+Dass wir nie t4 ausführen können, wenn
+wir nicht vorher auch t1 ausgeführt haben.
+
+00:04:10,220 --> 00:04:12,290
+Also auch da ging es um sequenzielle Reihenfolgen.
+
+00:04:12,290 --> 00:04:17,660
+Hingegen t2, t3 hatten eben keine
+solche Beziehung zueinander.
+
+00:04:17,660 --> 00:04:21,770
+Und tatsächlich, wenn wir uns t2 und t3 hier
+mal anschauen, wie sie aus dieser Markierung
+
+00:04:21,770 --> 00:04:26,030
+heraus schalten können, dann erahnt man
+hier schon so ein bisschen Parallelität.
+
+00:04:26,030 --> 00:04:31,760
+Oder zumindest "Egalheit" der Reihenfolge
+und vielleicht auch völlige Unabhängigkeit.
+
+00:04:31,760 --> 00:04:36,530
+Nämlich, dass wir von hier aus t2 schalten
+können und dann t3, um zu dieser Markierung
+
+00:04:36,530 --> 00:04:40,460
+zu kommen; und offenkundig hätten wir ja
+stattdessen auch t3, t2 schalten können.
+
+00:04:40,460 --> 00:04:41,540
+Warum ist das so?
+
+00:04:41,540 --> 00:04:44,600
+Weil im Grunde genommen t2 und t3
+hier völlig unabhängig schalten.
+
+00:04:44,600 --> 00:04:49,430
+Die t2 sorgt dafür, dass
+diese 1 nach hier wandert.
+
+00:04:49,430 --> 00:04:54,110
+Ja, hier in der Markierung sieht man das,
+dass diese 1 von hier nach hier geht.
+
+00:04:54,110 --> 00:04:58,220
+Und t3 bedeutet, dass diese
+1 von hier nach hier geht.
+
+00:04:58,220 --> 00:05:07,070
+Also t2 hängt letztlich von dieser 1 hier ab, t3
+hängt von dieser 1 hier ab, an dieser Position,
+
+00:05:07,070 --> 00:05:09,770
+und das sind Voraussetzungen,
+die völlig unabhängig sind.
+
+00:05:09,770 --> 00:05:13,340
+Also im Grunde genommen würde
+niemand t2 und t3 hindern,
+
+00:05:13,340 --> 00:05:19,700
+gleichzeitig jeweils diese bzw. diese Marke zu
+nehmen und die auf der letzten Stelle abzulegen.
+
+00:05:19,700 --> 00:05:20,360
+Was hieße das?
+
+00:05:20,360 --> 00:05:22,430
+Dass wir dann die 2 hier hätten, (0,0,0,2).
+
+00:05:22,430 --> 00:05:25,355
+Und das ist natürlich auch, was
+hier unten passiert, nachdem wir t2,
+
+00:05:25,355 --> 00:05:27,470
+t3 in beliebiger Reihenfolge geschaltet haben.
+
+00:05:27,470 --> 00:05:33,050
+Also wir werden gleich sehen, dass tatsächlich
+von dieser Markierung ausgehend t2 und t3 im
+
+00:05:33,050 --> 00:05:36,710
+Grunde parallel sind bzw. nebenläufig
+sind, und gleichzeitig feuern könnten,
+
+00:05:36,710 --> 00:05:40,640
+wenn wir das nicht so sequenziell als
+Erreichbarkeitsgraph aufschreiben wollten.
+
+00:05:42,680 --> 00:05:47,300
+Also dieses Schema hier, dieser
+"diamond" (so nennt man das auch,
+
+00:05:47,300 --> 00:05:52,610
+diese Form im Erreichbarkeitsgraphen, wo t2
+und t3 genau so abwechselnd schaltbar sind),
+
+00:05:52,610 --> 00:05:57,440
+das ist zumindest ein Indiz für solches
+potenziell paralleles Verhalten.
+
+00:05:57,440 --> 00:06:07,910
+Also in dem Sinne könnte man hier in dem Beispiel
+eben schon von gleichzeitigem Schalten sprechen.
+
+00:06:07,910 --> 00:06:08,720
+Wichtig auch:
+
+00:06:08,720 --> 00:06:10,490
+Wir haben uns das grade in einem
+Erreichbarkeitsgraphen angeschaut,
+
+00:06:10,490 --> 00:06:16,040
+aber tatsächlich nimmt diese Definition
+auf eine konkrete Markierung Bezug,
+
+00:06:16,040 --> 00:06:17,750
+nicht auf den Erreichbarkeitsgraph als Ganzes.
+
+00:06:17,750 --> 00:06:21,380
+Also es wird nicht darum gehen, den
+Erreichbarkeitsgraphen als Ganzes zu
+
+00:06:21,380 --> 00:06:23,480
+analysieren und darin irgendwelche
+Eigenschaften zu erkennen.
+
+00:06:23,480 --> 00:06:25,880
+Sondern es geht immer um eine konkrete
+Markierung und was dort möglich ist.
+
+00:06:25,880 --> 00:06:28,100
+Das sehen wir ja auch hier, dass
+diese Bedingung tatsächlich auf
+
+00:06:28,100 --> 00:06:30,740
+diese Markierung Bezug nimmt und
+nicht auf den Erreichbarkeitsgraphen.
+
+00:06:34,270 --> 00:06:37,060
+Okay, dann kann man hier noch
+eine Beobachtung treffen,
+
+00:06:37,060 --> 00:06:41,770
+die sehr naheliegend ist schon aus
+dem intuitiven Verständnis heraus.
+
+00:06:41,770 --> 00:06:47,650
+Nämlich, dass wenn wir solch eine Menge von
+Transitionen haben, deren Elemente für eine
+
+00:06:47,650 --> 00:06:55,540
+bestimmte Markierung nebenläufig sind, dies
+dann auch für jede Teilmenge von T' gilt.
+
+00:06:55,540 --> 00:06:58,870
+Also wir suchen natürlich
+potentiell immer große Mengen,
+
+00:06:58,870 --> 00:07:00,970
+die gleichzeitig nebenläufig aktiviert sind.
+
+00:07:00,970 --> 00:07:05,080
+Wenn wir Transitionen t1, t2, t3 haben
+und diese sind nebenläufig aktiviert,
+
+00:07:05,080 --> 00:07:08,260
+dann wären auch nur t1, t2
+zusammen nebenläufig aktiviert.
+
+00:07:08,260 --> 00:07:13,330
+Und insbesondere sind natürlich auch die
+einzelnen Transitionen t1, t2, t3 aktiviert.
+
+00:07:13,330 --> 00:07:16,270
+Es kann nicht sein, dass t1, t2,
+t3 nebenläufig aktiviert sind,
+
+00:07:16,270 --> 00:07:17,920
+aber t2 selbst nicht aktiviert ist.
+
+00:07:17,920 --> 00:07:20,830
+Das sehen wir letztlich schon an
+dieser mathematischen Definition.
+
+00:07:20,830 --> 00:07:25,540
+Denn wenn wir hier links einfach
+einzelne der Transitionen ignorieren,
+
+00:07:25,540 --> 00:07:30,580
+kann sich ja an dem Eintreffen
+dieser Ungleichheit nichts ändern.
+
+00:07:30,580 --> 00:07:32,200
+Denn wenn wir links etwas weglassen,
+
+00:07:32,200 --> 00:07:36,910
+können diese Terme ja in der Summe
+höchstens noch kleiner werden.
+
+00:07:36,910 --> 00:07:41,320
+Also bleiben sie auf jeden Fall
+unterhalb der gewählten Markierung.
+
+00:07:41,320 --> 00:07:45,460
+Das ist die Begründung dafür, dass diese
+Beobachtung gilt, mathematisch gesehen.
+
+00:07:45,460 --> 00:07:49,030
+Aber wir können uns das auch intuitiv
+etwa an den Beispielen überlegen.
+
+00:07:49,030 --> 00:07:54,220
+Interessant ist das natürlich
+erst ab zweielementigen Mengen.
+
+00:07:54,220 --> 00:07:58,240
+Also, dass auch eine einelementige Menge
+nebenläufig aktiviert sein kann; da ist
+
+00:07:58,240 --> 00:08:01,145
+nicht echt etwas nebenläufig, wenn das n = 1 ist.
+
+00:08:01,145 --> 00:08:03,310
+Also interessant ist das
+ab zweielementigen Mengen.
+
+00:08:03,310 --> 00:08:06,940
+Und je größer die Menge, desto
+schöner sozusagen als Beobachtung.
+
+00:08:06,940 --> 00:08:15,520
+Okay, ein erstes Beispiel.
+
+00:08:15,520 --> 00:08:20,710
+Und tatsächlich ist das das Petrinetz,
+das wir auch schon bei der Kausalität
+
+00:08:20,710 --> 00:08:24,400
+betrachtet hatten, und auf das ich
+gerade eben auch zurückgekommen war.
+
+00:08:24,400 --> 00:08:29,830
+Und ich hatte gerade schon angedeutet, dass
+hier t2 und t3 nebenläufig aktiviert sind.
+
+00:08:29,830 --> 00:08:33,550
+Allerdings nicht in der Ausgangskonstellation.
+
+00:08:33,550 --> 00:08:42,040
+Also es ist nicht sinnvoll zu behaupten, dass
+hier t2 und t3 nebenläufig aktiviert seien.
+
+00:08:42,040 --> 00:08:44,410
+Sie sind ja in der Situation gar nicht aktiviert.
+
+00:08:44,410 --> 00:08:48,160
+Sondern erst in dem Fall,
+nachdem etwa t1 geschaltet hat,
+
+00:08:48,160 --> 00:08:51,490
+wären t2 und t3 aktiviert,
+und zwar sogar nebenläufig.
+
+00:08:51,490 --> 00:08:55,150
+Aber wir sprechen nicht davon,
+"wir schalten das und das und
+
+00:08:55,150 --> 00:08:57,190
+das", sondern wir nehmen eine konkrete Markierung.
+
+00:08:57,190 --> 00:09:00,490
+Und das ist eben nicht die, sondern die von
+der Folie, die ich gerade betrachtet habe.
+
+00:09:00,490 --> 00:09:01,300
+Und fragen uns dann:
+
+00:09:01,300 --> 00:09:03,280
+Sind für diese Markierung t2
+und t3 nebenläufig aktiviert?
+
+00:09:03,280 --> 00:09:05,680
+Also für diese Markierung,
+für die Startmarkierung hier,
+
+00:09:05,680 --> 00:09:09,580
+wären t2 und t3 nicht nebenläufig aktiviert,
+weil sie nicht mal selbst aktiviert sind.
+
+00:09:11,620 --> 00:09:17,080
+Aber in dieser konkreten Konstellation
+sind t2 und t3 nebenläufig aktiviert.
+
+00:09:17,080 --> 00:09:21,520
+Das können wir gleich nachrechnen.
+
+00:09:21,520 --> 00:09:22,060
+Das werden wir auch tun.
+
+00:09:22,060 --> 00:09:24,640
+Für dieses und weitere Beispiele zwischendrin
+
+00:09:24,640 --> 00:09:31,090
+möchte ich das allerdings auch noch mal
+in der Whiteboard-App demonstrieren.
+
+00:09:31,090 --> 00:09:38,560
+Das heißt, ich werde erst dieses und zwei oder
+drei weitere Beispiele in der App durchspielen.
+
+00:09:38,560 --> 00:09:40,615
+Wo Sie auch mal sehen, wie
+die Marken sich bewegen.
+
+00:09:40,615 --> 00:09:43,150
+Wo wir jeweils sehen können, was
+da nebenläufig ist oder auch nicht.
+
+00:09:43,150 --> 00:09:45,460
+Und danach werde ich hier
+zu den Folien zurückkommen
+
+00:09:45,460 --> 00:09:49,570
+und jeweils die zugehörigen Rechnungen ausführen.

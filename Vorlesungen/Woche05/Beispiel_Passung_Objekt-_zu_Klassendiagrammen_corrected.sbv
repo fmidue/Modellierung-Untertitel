@@ -1,61 +1,51 @@
 0:00:02.200,0:00:07.450
-So let's take a
-look at this task.
+So let's take a look at this task.
 
 0:00:07.450,0:00:10.400
-This is
-an old exercise.
+This is an old exercise.
 
 0:00:10.400,0:00:14.650
 You should also find
 it in the task collection.
 
 0:00:14.650,0:00:18.270
-And this is
-a task like that:
+And this is a task like that:
 
 0:00:18.270,0:00:25.780
 We have class diagrams and object diagrams and want
 to find out whether there is a fit in
 
 0:00:25.780,0:00:27.110
-each
-case.
+each case.
 
 0:00:27.110,0:00:31.120
 This should happen in pairs for each of
 the two class diagrams and each of the five
 
 0:00:31.120,0:00:32.120
-object
-diagrams.
+object diagrams.
 
 0:00:32.120,0:00:33.210
-To consider
-in each case:
+To consider in each case:
 
 0:00:33.210,0:00:36.140
-Is this
-valid or not?
+Is this valid or not?
 
 0:00:36.140,0:00:39.440
 So does the object diagram
 fit the class diagram or not?
 
 0:00:39.440,0:00:42.660
-We can
-go through that.
+We can go through that.
 
 0:00:42.660,0:00:50.000
 So let's look at the left
 class diagram and the first object diagram.
 
 0:00:50.000,0:00:52.610
-What do
-we see there?
+What do we see there?
 
 0:00:52.610,0:00:53.730
-
 Specifically:
 
 0:00:53.730,0:00:57.640
@@ -75,8 +65,7 @@ That is, whether it fits the class diagram in the sense
 that the class of which it is supposed to be an
 
 0:01:13.409,0:01:14.409
-object exists
-at all.
+object exists at all.
 
 0:01:14.409,0:01:17.810
 You can see here, of course, that
@@ -95,12 +84,10 @@ So I would have to look now here only whether
 A and C (thus the two classes, about which it
 
 0:01:32.600,0:01:34.609
-concerns here)
-exist at all.
+concerns here) exist at all.
 
 0:01:34.609,0:01:37.320
-Yes, they do exist
-in the class diagram.
+Yes, they do exist in the class diagram.
 
 0:01:37.320,0:01:41.299
 So this object "a" or
@@ -111,12 +98,10 @@ And then we have to see, if
 all relations, which occur in the object diagram,
 
 0:01:48.969,0:01:50.179
-are justified by
-the class diagram.
+are justified by the class diagram.
 
 0:01:50.179,0:01:51.179
-And that
-none are missing.
+And that none are missing.
 
 0:01:51.179,0:01:56.899
 So if we just take a look at
@@ -127,24 +112,20 @@ relationships it has in the class
 diagram, then it can have a relationship
 
 0:02:05.029,0:02:08.990
-to B
-objects in aggregation.
+to B objects in aggregation.
 
 0:02:08.990,0:02:10.921
-And now
-we can look:
+And now we can look:
 
 0:02:10.921,0:02:12.519
-There is no
-multiplicity at all.
+There is no multiplicity at all.
 
 0:02:12.519,0:02:15.769
 That is, the default multiplicity
 is to be used there.
 
 0:02:15.769,0:02:17.010
-And this
-is "0..*".
+And this is "0..*".
 
 0:02:17.010,0:02:22.019
 This means that the "c" may have
@@ -155,8 +136,7 @@ And in the concrete case
 here it does not have them.
 
 0:02:24.091,0:02:25.091
-The "c"
-has no B-partners.
+The "c" has no B-partners.
 
 0:02:25.091,0:02:29.970
 But this is not a big
@@ -175,7 +155,6 @@ From C there is no other association,
 aggregation, composition somehow as a relation to other
 
 0:02:53.480,0:02:54.480
-
 classes.
 
 0:02:54.480,0:03:02.030
@@ -183,24 +162,20 @@ And C doesn't inherit from anything either, so
 it doesn't have any other requirements somehow that
 
 0:03:02.030,0:03:03.879
-it has
-to fulfill.
+it has to fulfill.
 
 0:03:03.879,0:03:06.090
-What about
-the "a" object?
+What about the "a" object?
 
 0:03:06.090,0:03:13.200
-That obviously belongs
-to this class A.
+That obviously belongs to this class A.
 
 0:03:13.200,0:03:24.120
 And there, of course, one can ask oneself, first
 of all, whether all relations that are supposed to
 
 0:03:24.120,0:03:26.609
-exist from A
-are really given here.
+exist from A are really given here.
 
 0:03:26.609,0:03:33.189
 There is especially this relation here,
@@ -211,12 +186,10 @@ That means, "a" could have a
 relation with itself or for example with
 
 0:03:37.590,0:03:38.750
-another
-A-object.
+another A-object.
 
 0:03:38.750,0:03:41.930
-But it must not,
-because of this "0..*".
+But it must not, because of this "0..*".
 
 0:03:41.930,0:03:45.709
 So for "a" and "c"
@@ -227,28 +200,24 @@ But what about this relation, which
 is there in the object diagram?
 
 0:03:48.739,0:03:50.080
-It must be
-justified by something.
+It must be justified by something.
 
 0:03:50.080,0:03:53.840
 It is not enough to say that "c" and "a"
 have nothing missing (so everything that "c" and "a" should
 
 0:03:53.840,0:03:54.840
-have,
-they have).
+have, they have).
 
 0:03:54.840,0:03:58.709
 There must also be no relationship in the object
 diagram that is not even provided for in the class
 
 0:03:58.709,0:03:59.709
-
 diagram.
 
 0:03:59.709,0:04:03.380
-And if
-we look:
+And if we look:
 
 0:04:03.380,0:04:09.620
 There is no basis in the class diagram
@@ -259,8 +228,7 @@ is, a C object could have
 a connection to an A object).
 
 0:04:12.629,0:04:15.230
-There is inheritance
-here, for example.
+There is inheritance here, for example.
 
 0:04:15.230,0:04:19.760
 But that does not ensure that
@@ -275,8 +243,7 @@ Yes, if A inherited from B (if the inheritance
 arrow were reversed here), then A would inherit from B
 
 0:04:29.730,0:04:31.970
-the relationship to
-C as well.
+the relationship to C as well.
 
 0:04:31.970,0:04:36.250
 Then this link in the
@@ -287,12 +254,10 @@ But as the class diagram
 1 looks, this is not so.
 
 0:04:40.000,0:04:41.580
-So here the answer
-would have to be:
+So here the answer would have to be:
 
 0:04:41.580,0:04:42.620
-It
-doesn't fit.
+It doesn't fit.
 
 0:04:42.620,0:04:46.980
 So (a) doesn't fit the first class diagram,
@@ -303,24 +268,20 @@ object diagram is not provided
 in the class diagram at all.
 
 0:04:50.530,0:04:55.130
-Now we
-can ask ourselves:
+Now we can ask ourselves:
 
 0:04:55.130,0:04:57.890
 What would it be like if we
 had looked at the other class diagram?
 
 0:04:57.890,0:05:00.410
-And there is
-indeed the answer:
+And there is indeed the answer:
 
 0:05:00.410,0:05:01.570
-Yes
-that fits.
+Yes that fits.
 
 0:05:01.570,0:05:03.570
-I'll just
-abbreviate that.
+I'll just abbreviate that.
 
 0:05:03.570,0:05:06.510
 I have already talked
@@ -331,8 +292,7 @@ That it goes in the wrong direction, so to
 speak (for the fact that "a" could have a relationship
 
 0:05:10.130,0:05:11.130
-with
-"c").
+with "c").
 
 0:05:11.130,0:05:12.860
 Here the arrow is
@@ -359,15 +319,12 @@ And that's why this
 link is justified here.
 
 0:05:33.690,0:05:35.800
-And if
-we look at:
+And if we look at:
 
 0:05:35.800,0:05:37.220
-Are the
-multiplicities correct?
+Are the multiplicities correct?
 
 0:05:37.220,0:05:38.220
-
 Yes.
 
 0:05:38.220,0:05:43.400
@@ -387,20 +344,17 @@ But every A-object is also
 a B-object, because of this inheritance.
 
 0:05:54.130,0:05:56.940
-This "A inherits
-from B" means:
+This "A inherits from B" means:
 
 0:05:56.940,0:05:59.080
-Every A-object is
-also a B-object.
+Every A-object is also a B-object.
 
 0:05:59.080,0:06:05.440
 That means, the requirement, that "c"
 must be related to a B-object, is
 
 0:06:05.440,0:06:07.680
-fulfilled by
-this link here.
+fulfilled by this link here.
 
 0:06:07.680,0:06:13.960
 Because the "a", which is an A-object,
@@ -423,23 +377,20 @@ So this self-relation on class level from A to
 A, that does not necessarily have to be present
 
 0:06:38.300,0:06:40.140
-in an
-object diagram.
+in an object diagram.
 
 0:06:40.140,0:06:47.320
 Because it is also possible that the
 lower limit zero of the multiplicity is used
 
 0:06:47.320,0:06:48.640
-as
-incidence.
+as incidence.
 
 0:06:48.640,0:06:54.370
 Okay, so that would explain (a)
 for both the first and second class
 
 0:06:54.370,0:06:55.370
-
 diagrams.
 
 0:06:55.370,0:07:00.490
@@ -451,20 +402,17 @@ And look at whether all the
 relationships that are here are justified.
 
 0:07:05.670,0:07:07.770
-And also whether
-none are missing.
+And also whether none are missing.
 
 0:07:07.770,0:07:08.770
-So
-here:
+So here:
 
 0:07:08.770,0:07:11.640
 Is there a relationship between
 a B and a C object?
 
 0:07:11.640,0:07:12.880
-Yes,
-that fits.
+Yes, that fits.
 
 0:07:12.880,0:07:16.330
 That would correspond to this
@@ -475,8 +423,7 @@ There is the relationship between
 a B and a D object.
 
 0:07:19.700,0:07:20.910
-And that
-fits as well.
+And that fits as well.
 
 0:07:20.910,0:07:24.740
 That would correspond to this
@@ -487,8 +434,7 @@ Okay, is there anything
 that might be missing?
 
 0:07:26.800,0:07:27.830
-So what
-about B objects?
+So what about B objects?
 
 0:07:27.830,0:07:31.670
 Do they need to
@@ -503,8 +449,7 @@ And it might be zero anyway, because
 there are no multiplicities explicitly on it.
 
 0:07:41.490,0:07:45.350
-The same is true
-for this relation to D.
+The same is true for this relation to D.
 
 0:07:45.350,0:07:52.110
 And the fact that B inherits from
@@ -519,67 +464,57 @@ So nothing follows from this that would
 be somehow missing in the object diagram.
 
 0:08:02.740,0:08:05.210
-What
-about "c"?
+What about "c"?
 
 0:08:05.210,0:08:07.510
 There is nothing more
 to be said about it.
 
 0:08:07.510,0:08:09.020
-So "c" can
-have relations with Bs.
+So "c" can have relations with Bs.
 
 0:08:09.020,0:08:10.840
 In the concrete case it is
 even so in the object diagram.
 
 0:08:10.840,0:08:14.250
-But there are
-also no multiplicities.
+But there are also no multiplicities.
 
 0:08:14.250,0:08:20.170
 That means, zero would be
 allowed as number by default anyway.
 
 0:08:20.170,0:08:21.830
-And what
-about the "d"?
+And what about the "d"?
 
 0:08:21.830,0:08:23.770
-There is
-indeed a requirement.
+There is indeed a requirement.
 
 0:08:23.770,0:08:28.610
 Namely this requirement here that each
 D-object must be related to exactly
 
 0:08:28.610,0:08:29.610
-one
-B-object.
+one B-object.
 
 0:08:29.610,0:08:30.610
-But that is
-the case here.
+But that is the case here.
 
 0:08:30.610,0:08:32.329
-So it
-also fits.
+So it also fits.
 
 0:08:32.329,0:08:37.130
 Therefore (b) actually fits
 to the first class diagram.
 
 0:08:37.130,0:08:40.719
-What about the
-second class diagram?
+What about the second class diagram?
 
 0:08:40.719,0:08:51.990
 The fact that the inheritance arrow is now
 reversed does not change anything in this specific
 
 0:08:51.990,0:08:53.190
-
 case.
 
 0:08:53.190,0:09:03.190
@@ -591,8 +526,7 @@ We can also actually look at
 a B-object concretely, so not an A-object,
 
 0:09:07.590,0:09:11.020
-which is automatically
-also a B-object.
+which is automatically also a B-object.
 
 0:09:11.020,0:09:15.490
 And the other
@@ -607,8 +541,7 @@ And the C object is related to
 at least one B object, so it also
 
 0:09:27.330,0:09:30.670
-satisfies this
-multiplicity here.
+satisfies this multiplicity here.
 
 0:09:30.670,0:09:38.140
 And the existing links here are
@@ -619,52 +552,44 @@ So actually (b) fits both
 the first and second class diagrams.
 
 0:09:50.500,0:10:01.730
-What
-about (c)?
+What about (c)?
 
 0:10:01.730,0:10:07.060
-Does that match
-the first class diagram?
+Does that match the first class diagram?
 
 0:10:07.060,0:10:10.460
-We'll have to take
-a look at that:
+We'll have to take a look at that:
 
 0:10:10.460,0:10:19.520
 Now we have an A-object here, so
 the question arises, in how far this
 
 0:10:19.520,0:10:20.990
-changes
-something.
+changes something.
 
 0:10:20.990,0:10:29.510
 Just now we had this relationship
 between "b" and "c" as a link.
 
 0:10:29.510,0:10:31.330
-That can't be
-the case here anymore.
+That can't be the case here anymore.
 
 0:10:31.330,0:10:33.510
-Now there is
-an A here.
+Now there is an A here.
 
 0:10:33.510,0:10:39.270
 So this can only be
 an expression of this relationship.
 
 0:10:39.270,0:10:40.270
-Let's
-see:
+Let's see:
 
 0:10:40.270,0:10:44.880
 Does this justify that "b"
 has a link navigable to "a"?
 
 0:10:44.880,0:10:48.690
-The "b", any B,
-is also an A.
+The "b", any B, is also an A.
 
 0:10:48.690,0:10:57.980
 And since As have such relations to
@@ -675,16 +600,14 @@ So a B object (since it is also an
 A object) can have a relationship to an A object.
 
 0:11:06.660,0:11:08.190
-That's exactly what
-we have here.
+That's exactly what we have here.
 
 0:11:08.190,0:11:12.240
 So this is a
 manifestation of that relationship.
 
 0:11:12.240,0:11:14.230
-And these
-"0..*" or
+And these "0..*" or
 
 0:11:14.230,0:11:23.660
 "0..1" multiplicities are also
@@ -695,7 +618,6 @@ Okay, again this part, this is not at all different
 from the case of (b), in the case of this
 
 0:11:34.270,0:11:35.270
-
 subtask.
 
 0:11:35.270,0:11:38.840
@@ -703,27 +625,23 @@ That is, of course, that
 corresponds to this relationship here.
 
 0:11:38.840,0:11:43.050
-So there are
-no other changes here.
+So there are no other changes here.
 
 0:11:43.050,0:11:45.940
-The (c) fits
-the first class diagram.
+The (c) fits the first class diagram.
 
 0:11:45.940,0:11:50.480
 Does (c) also fit
 the second class diagram?
 
 0:11:50.480,0:11:54.600
-Let's take a
-look at that.
+Let's take a look at that.
 
 0:11:54.600,0:12:01.420
 This will certainly raise the
 question again, what justifies this link
 
 0:12:01.420,0:12:02.420
-
 here.
 
 0:12:02.420,0:12:06.339
@@ -731,8 +649,7 @@ And we can't justify it now by
 the fact that B inherits from A.
 
 0:12:06.339,0:12:09.300
-Now A
-inherits from B.
+Now A inherits from B.
 
 0:12:09.300,0:12:16.710
 So with what right should a B-object
@@ -743,8 +660,7 @@ If we look at the class diagram, "b"
 only has links to C and D objects.
 
 0:12:22.510,0:12:26.060
-A does inherit from
-B, but that means:
+A does inherit from B, but that means:
 
 0:12:26.060,0:12:28.340
 A can have all
@@ -767,24 +683,20 @@ But this link here from a B object
 to an A object, it's not justified or covered
 
 0:12:44.870,0:12:47.680
-or allowed for
-the second class diagram.
+or allowed for the second class diagram.
 
 0:12:47.680,0:12:51.970
 So (c) doesn't match
 the second class diagram.
 
 0:12:51.970,0:13:00.960
-Okay, how
-about (d)?
+Okay, how about (d)?
 
 0:13:00.960,0:13:11.040
-Does (d) fit
-the first class diagram?
+Does (d) fit the first class diagram?
 
 0:13:11.040,0:13:12.440
-What's different
-about (d) now?
+What's different about (d) now?
 
 0:13:12.440,0:13:18.360
 Now I have only A objects "a1",
@@ -795,8 +707,7 @@ And here there is an A object
 that has relationships to two other A objects.
 
 0:13:25.279,0:13:28.610
-So "a1" has relations
-to "a2" and "a3".
+So "a1" has relations to "a2" and "a3".
 
 0:13:28.610,0:13:34.430
 That would have to
@@ -807,16 +718,14 @@ And there we see, however,
 that this is an illegal relationship.
 
 0:13:40.080,0:13:42.460
-In so far that
-they can't both exist.
+In so far that they can't both exist.
 
 0:13:42.460,0:13:52.310
 Namely this one A-object has
 relations concerning this association circled above
 
 0:13:52.310,0:13:55.730
-to two
-other A-objects.
+to two other A-objects.
 
 0:13:55.730,0:14:02.330
 But here it says as multiplicity at
@@ -831,48 +740,39 @@ It says as multiplicity that this can
 only be a relation to at most
 
 0:14:15.550,0:14:16.550
-one
-A-object.
+one A-object.
 
 0:14:16.550,0:14:17.550
-That
-is:
+That is:
 
 0:14:17.550,0:14:21.790
 What we see down here
 in the object diagram is wrong.
 
 0:14:21.790,0:14:25.070
-It violates
-that multiplicity here.
+It violates that multiplicity here.
 
 0:14:25.070,0:14:29.310
-Okay, how about
-the second class diagram?
+Okay, how about the second class diagram?
 
 0:14:29.310,0:14:35.529
-Maybe it
-fits there.
+Maybe it fits there.
 
 0:14:35.529,0:14:38.650
-Does (d) fit
-the second class diagram?
+Does (d) fit the second class diagram?
 
 0:14:38.650,0:14:42.170
-And the
-answer is:
+And the answer is:
 
 0:14:42.170,0:14:46.680
-So B, C, D
-objects don't exist at all.
+So B, C, D objects don't exist at all.
 
 0:14:46.680,0:14:51.910
 So there can't be
 any requirements or prohibitions there.
 
 0:14:51.910,0:14:54.940
-We just have
-to look at A.
+We just have to look at A.
 
 0:14:54.940,0:14:59.850
 The fact that A inherits from
@@ -887,7 +787,6 @@ But these are not obligatory in each
 case, because here just "0..1" and implicitly
 
 0:15:10.390,0:15:11.390
-
 "0..*".
 
 0:15:11.390,0:15:17.720
@@ -895,8 +794,7 @@ So A inherits these two relations from
 B, but no obligations result from it,
 
 0:15:17.720,0:15:19.930
-only
-possibilities.
+only possibilities.
 
 0:15:19.930,0:15:25.740
 And how is it with
@@ -907,39 +805,33 @@ These two links are covered
 by that relationship up there.
 
 0:15:28.790,0:15:30.110
-Because
-it says:
+Because it says:
 
 0:15:30.110,0:15:40.589
 An A-object can be related (in the
 end it says "0..*") with any number
 
 0:15:40.589,0:15:41.800
-of
-other A-objects.
+of other A-objects.
 
 0:15:41.800,0:15:45.330
-So for example
-also with two.
+So for example also with two.
 
 0:15:45.330,0:15:51.070
 And vice versa, so to say
 in backward direction, in this direction:
 
 0:15:51.070,0:15:54.460
-"a2" and "a3"
-may each be related
+"a2" and "a3" may each be related
 
 0:15:54.460,0:16:00.140
-to "0..*" A-objects
-in this direction.
+to "0..*" A-objects in this direction.
 
 0:16:00.140,0:16:06.160
 In this multiplicity, of course, having
 a partner here falls into this
 
 0:16:06.160,0:16:07.160
-
 interval.
 
 0:16:07.160,0:16:13.820
@@ -951,20 +843,16 @@ Okay, and then finally
 the questions for (e).
 
 0:16:21.149,0:16:26.121
-So how
-about for (e)?
+So how about for (e)?
 
 0:16:26.121,0:16:28.750
-Does (e) fit
-the first class diagram?
+Does (e) fit the first class diagram?
 
 0:16:28.750,0:16:33.180
-Now the
-As have disappeared.
+Now the As have disappeared.
 
 0:16:33.180,0:16:36.250
-So there are
-no A objects.
+So there are no A objects.
 
 0:16:36.250,0:16:42.029
 There is a B object, which is also
@@ -983,40 +871,34 @@ that zero is present as the number
 of counterparts), there are no further obligations
 
 0:17:03.680,0:17:04.750
-for
-the B-object.
+for the B-object.
 
 0:17:04.750,0:17:09.039
-So that's
-harmless there.
+So that's harmless there.
 
 0:17:09.039,0:17:15.510
-And what about the
-C and D relations?
+And what about the C and D relations?
 
 0:17:15.510,0:17:19.909
 So "b" may be related
 to any number of D-objects.
 
 0:17:19.909,0:17:21.850
-That would be these
-two in this case.
+That would be these two in this case.
 
 0:17:21.850,0:17:27.279
 It does not have to be related
 to C-objects, because here the multiplicity is
 
 0:17:27.279,0:17:28.700
-implicitly
-"0..*".
+implicitly "0..*".
 
 0:17:28.700,0:17:36.429
 And every D-object must be related to
 exactly one B-object, because of this specification here.
 
 0:17:36.429,0:17:37.869
-But that is
-also the case here.
+But that is also the case here.
 
 0:17:37.869,0:17:41.320
 Yes, each D-object is
@@ -1027,28 +909,24 @@ That these two D-objects are both
 related to the same B-object is not
 
 0:17:45.529,0:17:47.019
-a
-big deal.
+a big deal.
 
 0:17:47.019,0:17:52.980
 Because that is allowed from the B point of
 view to be related to any number of D objects.
 
 0:17:52.980,0:17:55.960
-So (e) fits
-the first class diagram.
+So (e) fits the first class diagram.
 
 0:17:55.960,0:18:04.519
 And then as a final question, I
 wonder if (e) also fits the second class
 
 0:18:04.519,0:18:05.519
-diagram
-here.
+diagram here.
 
 0:18:05.519,0:18:12.369
-And how
-is that?
+And how is that?
 
 0:18:12.369,0:18:19.299
 There is a problem
@@ -1083,17 +961,14 @@ Each b object is allowed to have at most
 one D object as a counterpart along a link
 
 0:19:00.080,0:19:01.289
-for
-that association.
+for that association.
 
 0:19:01.289,0:19:03.019
-And that is
-apparently violated here.
+And that is apparently violated here.
 
 0:19:03.019,0:19:06.390
 So (e) does not
 match the second class diagram.
 
 0:19:06.390,0:19:11.139
-With this, we
-have discussed all cases.
+With this, we have discussed all cases.

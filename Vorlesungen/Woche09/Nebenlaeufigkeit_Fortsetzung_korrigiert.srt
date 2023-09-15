@@ -1,0 +1,982 @@
+178 # slide
+00:00:01,140 --> 00:00:05,730
+Zurück zu den Folien, aber
+den gleichen Beispielen,
+
+00:00:05,730 --> 00:00:08,220
+die wir eben in dem anderen Video gesehen haben.
+
+00:00:08,220 --> 00:00:13,860
+Und zwar ist hier zunächst das Beispiel,
+von dem ich festgestellt hatte, dass für
+
+00:00:13,860 --> 00:00:19,680
+diese Markierung, die wir hier sehen,
+t2 und t3 nebenläufig aktiviert sind.
+
+00:00:19,680 --> 00:00:24,480
+Die Intuition war, dass das so ist,
+weil ich sozusagen diese beiden
+
+00:00:24,480 --> 00:00:28,770
+Marken greifen und gleichzeitig
+durch t2 und t3 bewegen könnte.
+
+00:00:28,770 --> 00:00:32,220
+Das war die Intuition für diese Art Parallelität.
+
+00:00:32,220 --> 00:00:38,550
+Genau genommen definiert ist der Begriff aber
+mathematisch, und zwar durch diese Definition:
+
+00:00:38,550 --> 00:00:43,710
+Also ich muss eigentlich nachrechnen,
+dass jeweils dieser Zusammenhang gilt,
+
+00:00:43,710 --> 00:00:46,230
+für das Beispiel und für die anderen Beispiele.
+
+00:00:46,230 --> 00:00:48,360
+Machen wir das mal.
+
+00:00:49,440 --> 00:00:53,010
+Was wären denn in dem Fall die
+relevanten Vorgewichtsfunktionen?
+
+00:00:53,010 --> 00:00:54,810
+Die Vorgewichtsfunktionen von t2 und t3.
+
+00:00:54,810 --> 00:01:00,720
+Und ich schreibe die jeweils
+in Tupel-Schreibweise auf.
+
+00:01:00,720 --> 00:01:03,990
+Wir legen uns fest auf die
+Stellenreihenfolge s1, s2, s3, s4.
+
+00:01:03,990 --> 00:01:07,140
+Dann ist etwa die Vorgewichtsfunktion von t2
+
+00:01:07,140 --> 00:01:11,400
+genau die Funktion, die sich als das
+4-Tupel (0,1,0,0) aufschreiben lässt.
+
+00:01:11,400 --> 00:01:16,950
+Weil ja genau nur von s2
+hier ein Eingangspfeil ist.
+
+00:01:16,950 --> 00:01:20,100
+Und analog ist bei t3 die
+Vorgewichtsfunktion (0,0,1,0).
+
+00:01:24,570 --> 00:01:25,920
+Wegen dieses Eingangspfeils,
+
+00:01:25,920 --> 00:01:31,560
+der von s3 zu t3 geht, und weil es keine
+weiteren eingehenden Pfeile nach t3 gibt.
+
+00:01:31,560 --> 00:01:35,370
+Das erklärt diese beiden Angaben hier.
+
+00:01:35,370 --> 00:01:39,090
+Um jetzt nachzuweisen, dass
+t2 und t3 nebenläufig sind,
+
+00:01:39,090 --> 00:01:43,620
+muss man die Summe dieser beiden
+Vorgewichtsfunktionen bilden.
+
+00:01:43,620 --> 00:01:48,810
+Und zwar mit diesem Summensymbol, welches
+elementweise Additionen durchführt.
+
+00:01:48,810 --> 00:01:50,820
+Das heißt, das was hier links steht,
+
+00:01:50,820 --> 00:01:56,130
+wäre die Vektoraddition dieser
+beiden 4-Tupel, also (0,1,1,0).
+
+00:01:56,670 --> 00:02:03,330
+Und in dem Fall ergibt sich, dass das genau
+gleich ist (kleiner-gleich würde reichen,
+
+00:02:03,330 --> 00:02:06,750
+aber es ist in dem Fall sogar genau
+gleich) zur Markierung (0,1,1,0),
+
+00:02:06,750 --> 00:02:10,200
+die sich auch ergibt, wenn wir die aktuelle
+Markierung dieses Petrinetz nehmen.
+
+00:02:10,200 --> 00:02:12,630
+Denn auf s1 liegt nichts, auf s2 liegt etwas,
+
+00:02:12,630 --> 00:02:16,170
+auf s3 liegt etwas (und zwar genau eine
+Marke jeweils), auf s4 liegt nichts.
+
+00:02:16,170 --> 00:02:20,190
+Das heißt, hier ist dieses
+Kriterium genau erfüllt.
+
+00:02:20,190 --> 00:02:24,720
+Deswegen kann man auch sagen: t2
+und t3 sind nebenläufig aktiviert.
+
+00:02:24,720 --> 00:02:29,100
+In dem vorigen Video hatte ich
+außerdem auch noch diskutiert,
+
+00:02:29,100 --> 00:02:33,540
+was etwa passieren würde, wenn man noch
+einen Pfeil von s3 zu t2 anlegen würde.
+
+00:02:35,340 --> 00:02:37,830
+Und dann hatten wir erst mal gesehen:
+
+00:02:37,830 --> 00:02:41,730
+Dann wären t2 und t3 nicht
+mehr nebenläufig aktiviert,
+
+00:02:41,730 --> 00:02:46,860
+weil sozusagen die Erfordernisse für t2
+und die für t3 sich in die Quere kommen.
+
+00:02:46,860 --> 00:02:53,400
+Weil man diese eine Marke entweder zu t2 oder zu
+t3 schicken kann, aber nicht beides gleichzeitig.
+
+00:02:53,400 --> 00:02:56,520
+Was hieße das für die mathematische Fassung?
+
+00:02:56,520 --> 00:02:58,890
+Für t3 würde sich nichts ändern.
+
+00:03:01,650 --> 00:03:11,400
+Aber durch den zusätzlichen Pfeil von
+s3 zu t2 ändert sich etwas für t2.
+
+00:03:11,400 --> 00:03:19,020
+Und zwar wird durch diesen
+zusätzlichen Pfeil aus dieser 0 eine 1.
+
+00:03:19,020 --> 00:03:26,820
+Denn der Pfeil muss in der Vorgewichtsfunktion
+repräsentiert/widergespiegelt werden.
+
+00:03:26,820 --> 00:03:32,040
+Und das wäre diese 1 hier, denn t2
+fordert dann aus s3 eine Marke an.
+
+00:03:32,040 --> 00:03:35,460
+Dann stünde hier also eine 1, da
+wo mein Cursor gerade drauf zeigt.
+
+00:03:35,460 --> 00:03:41,970
+Aus der Summe ergäbe sich dann
+(0,1,2,0) statt (0,1,1,0).
+
+00:03:41,970 --> 00:03:45,630
+Und (0,1,2,0) wäre natürlich
+nicht kleiner-gleich (0,1,1,0).
+
+00:03:46,470 --> 00:03:50,310
+Auch wenn auf s4 noch mehrere Marken
+liegen würden, so dass die Summe der
+
+00:03:50,310 --> 00:03:54,450
+Marken in dieser Markierung viel größer
+würde, bestünde dennoch durch (0,1,2,0)
+
+00:03:56,790 --> 00:04:03,630
+einfach das Problem bezüglich dieser
+nur einen auf s3 liegenden Marke.
+
+00:04:04,560 --> 00:04:06,360
+Was ich auch schon in dem
+Video diskutiert hatte, war:
+
+00:04:06,360 --> 00:04:09,750
+Wenn man dann allerdings auf
+s3 eine zweite Marke abgelegt,
+
+00:04:09,750 --> 00:04:13,364
+dann wären t2 und t3 wieder nebenläufig
+aktiviert, denn dann reichte das.
+
+00:04:13,364 --> 00:04:15,870
+Dann würde man eine Marke hier hoch
+schicken und eine zu t3 schicken,
+
+00:04:15,870 --> 00:04:18,030
+und das schließt sich nicht gegenseitig aus.
+
+00:04:18,030 --> 00:04:23,230
+Das würde der Situation entsprechen,
+dass wir (0,1,1,0) haben, hier (0,0,1,0),
+
+00:04:23,230 --> 00:04:26,590
+die Summe ergäbe (0,1,2,0), und das wäre okay.
+
+00:04:26,590 --> 00:04:31,420
+Wenn hier eben mindestens eine 2 stünde,
+was der zweiten Marke auf s3 entspräche.
+
+00:04:31,420 --> 00:04:35,440
+Also da deckt sich das, was
+ich intuitiv versucht habe,
+
+00:04:35,440 --> 00:04:42,400
+einfach grafisch an dem Petrinetz selbst
+zu beobachten, bezüglich t2 und t3 mit dem,
+
+00:04:42,400 --> 00:04:49,394
+was die mathematische Definition (die wir hier
+auf der Folie hatten) für dieses Beispiel hergibt.
+
+00:04:49,394 --> 00:04:52,180
+Und das wird sich bei den anderen
+Beispielen auch jeweils decken.
+
+00:04:57,400 --> 00:05:00,850
+Das nächste Beispiel war dieses Beispiel hier.
+
+00:05:01,390 --> 00:05:02,110
+Da hatten wir festgestellt,
+
+00:05:02,110 --> 00:05:08,590
+dass t1, t2, t3 alle drei nebenläufig
+aktiviert sind, für diese Markierung.
+
+00:05:10,570 --> 00:05:15,370
+Es können nicht nur zwei, sondern (auch das
+tauchte auf der Folie auf) es können auch
+
+00:05:15,370 --> 00:05:20,590
+mehr als zwei Transitionen in dieser Menge
+T' sein, also nebenläufig aktiviert sein.
+
+00:05:20,590 --> 00:05:22,750
+Wenn diese Bedingung hier erfüllt ist.
+
+00:05:22,750 --> 00:05:24,700
+Ist sie das hier?
+
+00:05:26,410 --> 00:05:29,980
+Also diese Behauptung aus dem
+vorherigen Video, dass t1, t2,
+
+00:05:29,980 --> 00:05:33,940
+t3 nebenläufig aktiviert sind, lässt die
+sich auch durch das Rechnen nachprüfen?
+
+00:05:33,940 --> 00:05:38,770
+Nun das ist sehr leicht, sehr direkt.
+
+00:05:38,770 --> 00:05:45,370
+Alle drei Vorgewichtsfunktion für t1, t2, t3
+sind jeweils genau die Funktion, die sagt,
+
+00:05:45,370 --> 00:05:48,520
+dass aus s1 eine Marke entnommen
+werden soll, und dass s2, s3,
+
+00:05:48,520 --> 00:05:52,960
+s4 irrelevant sind für die Möglichkeit
+des Schaltens der drei Transitionen.
+
+00:05:52,960 --> 00:05:55,480
+Dann haben wir diese drei Vorgewichtsfunktionen.
+
+00:05:55,480 --> 00:05:57,580
+Deren Summe ist genau (3,0,0,0).
+
+00:05:57,580 --> 00:06:00,055
+Und es ist wieder so, dass sich das genau deckt.
+
+00:06:00,055 --> 00:06:03,220
+Da kommt in Summe (3,0,0,0)
+raus, und das ist genau gleich,
+
+00:06:03,220 --> 00:06:07,780
+und damit auch kleiner-gleich,
+als die zu sehende Markierung.
+
+00:06:07,780 --> 00:06:11,230
+Das kommt daher, dass wir genauso
+viele Marken haben zum Verbrauchen.
+
+00:06:11,230 --> 00:06:12,850
+Nicht zu viel, nicht zu wenig.
+
+00:06:12,850 --> 00:06:13,600
+Viele wären nicht schlimm.
+
+00:06:13,600 --> 00:06:16,090
+Wenn hier 4 wären, wäre das
+"kleiner-gleich" erfüllt.
+
+00:06:16,090 --> 00:06:18,820
+Aber "zu wenig" würde eben
+das Schalten verhindern,
+
+00:06:18,820 --> 00:06:23,680
+bzw. die nebenläufige Aktivierung
+von allen dreien verhindern.
+
+00:06:23,680 --> 00:06:27,280
+Auch klar ist natürlich, dass auch
+t1, t2 nebenläufig aktiviert sind.
+
+00:06:29,320 --> 00:06:33,700
+Wir könnten t3 ignorieren und sagen:
+t1, t2 sind nebenläufig aktiviert.
+
+00:06:33,700 --> 00:06:38,950
+Denn wenn wir nur die Vorgewichtsfunktionen
+von t1 und t2 addieren, kommt (2,0,0,0) raus.
+
+00:06:38,950 --> 00:06:40,930
+Das ist auch kleiner-gleich (3,0,0,0).
+
+00:06:40,930 --> 00:06:46,570
+Das deckt sich wiederum mit dieser Beobachtung
+von hier, dass wenn eine Menge von Transitionen
+
+00:06:46,570 --> 00:06:50,020
+nebenläufig aktiviert ist, es dann
+auch für jede Teilmenge davon gilt.
+
+00:06:54,190 --> 00:06:57,550
+Dann hatte ich das Beispiel, wo ich
+tatsächlich eine der Marken entfernt habe.
+
+00:06:57,550 --> 00:07:01,030
+Also wo wir in s1 am Anfang
+nur noch zwei Marken haben,
+
+00:07:01,030 --> 00:07:03,790
+aber der Rest des Petrinetzes unverändert ist.
+
+00:07:03,790 --> 00:07:04,210
+Da hatten wir schon gesagt:
+
+00:07:04,210 --> 00:07:07,900
+Dann kann es nicht mehr sein, dass
+alle drei nebenläufig aktiviert sind.
+
+00:07:07,900 --> 00:07:13,780
+In der Tat erhalten wir für dieses Beispiel
+dann, dass zwar paarweise jeweils zwei
+
+00:07:13,780 --> 00:07:17,230
+der Transitionen nebenläufig aktiviert
+sind, aber nicht alle drei gleichzeitig.
+
+00:07:19,000 --> 00:07:23,170
+Also jede zweielementige Menge, die wir bilden
+können über Transitionen, ist eine Menge,
+
+00:07:23,170 --> 00:07:29,440
+wo die da drin gezeigten Transitionen für
+diese Konstellation nebenläufig aktiviert sind.
+
+00:07:29,440 --> 00:07:32,500
+Für die Gesamtmenge t1, t2,
+t3 gilt das jedoch nicht.
+
+00:07:32,500 --> 00:07:33,610
+Wir sehen:
+
+00:07:33,610 --> 00:07:39,250
+Wir können diese zwei Marken nicht benutzen, um
+t1, t2, t3 alle gleichzeitig zufriedenzustellen.
+
+00:07:39,250 --> 00:07:40,360
+Was heißt das rechnerisch?
+
+00:07:40,360 --> 00:07:46,000
+Hier gilt wieder, dass t1, t2, t3 alle
+die gleiche Vorgewichtsfunktion haben.
+
+00:07:46,000 --> 00:07:49,870
+Nämlich diese, die wir auch gerade
+auf der vorherigen Folie hatten.
+
+00:07:49,870 --> 00:07:55,060
+Und es gilt auch, dass jeweils
+die paarweisen Summen von zwei
+
+00:07:55,060 --> 00:08:00,790
+Vorgewichtsfunktionen eine Markierung
+ergeben, nämlich (2,0,0,0), die durch
+
+00:08:00,790 --> 00:08:05,920
+die hier abgebildete Markierung
+nirgends unterschritten wird.
+
+00:08:05,920 --> 00:08:10,090
+Also das hier gilt für jede
+Kombination von zwei der Transitionen.
+
+00:08:10,780 --> 00:08:14,200
+Wenn wir jedoch alle drei Transitionen nehmen,
+müssten wir auch diese dreifache Summe bilden.
+
+00:08:14,200 --> 00:08:19,090
+Das wäre (3,0,0,0), und das ist
+eben nicht kleiner gleich (2,0,0,0).
+
+00:08:19,090 --> 00:08:26,050
+Deswegen reicht das nicht, bzw. t1, t2, t3
+sind nicht alle drei nebenläufig aktiviert.
+
+00:08:30,850 --> 00:08:33,520
+Dann hatten wir noch dieses Beispiel.
+
+00:08:33,520 --> 00:08:37,660
+Da werde ich nicht wieder nachrechnen,
+obwohl man das natürlich auch könnte.
+
+00:08:37,660 --> 00:08:40,630
+In dem Beispiel hatten wir diskutiert,
+
+00:08:40,630 --> 00:08:47,740
+dass jeweils eine der beiden Transitionen
+mit t3 nebenläufig ist, aber t1 und t2 nicht.
+
+00:08:47,740 --> 00:08:50,050
+Es sei denn, man fügte noch eine Marke hinzu.
+
+00:08:50,050 --> 00:08:50,800
+Wir hatten also festgestellt:
+
+00:08:50,800 --> 00:08:57,700
+Die Mengen \{t1, t3\} und auch \{t2, t3\} sind
+jeweils nebenläufig aktiviert, weil das Schalten
+
+00:08:57,700 --> 00:09:04,480
+von t3 eben sozusagen berührungsfrei
+zum Schalten von t1 und/oder t2 ist.
+
+00:09:04,480 --> 00:09:10,570
+Aber eben nicht \{t1, t2\} zusammen und demzufolge
+auch nicht \{t1, t2, t3\} alle drei zusammen.
+
+00:09:10,570 --> 00:09:12,400
+Denn dann würde wieder gelten:
+
+00:09:12,400 --> 00:09:18,370
+Wenn t1, t2, t3 nebenläufig aktiviert wären,
+müsste auch t1, t2 nebenläufig aktiviert sein.
+
+00:09:18,370 --> 00:09:22,600
+Das ist aber nicht der Fall, weil wir mit
+diesen drei Marken nicht gleichzeitig t1
+
+00:09:22,600 --> 00:09:27,190
+und t2 zufriedenstellen können (wegen
+dieser nur einen Marke in der Mitte).
+
+00:09:27,190 --> 00:09:28,390
+Das hatte ich so durchdiskutiert.
+
+00:09:28,390 --> 00:09:34,240
+Mit einer Marke mehr ginge es.
+
+00:09:34,240 --> 00:09:38,500
+Dann wären tatsächlich t1,
+t2, t3 nebenläufig aktiviert.
+
+00:09:38,500 --> 00:09:40,450
+Das hatten wir auch durchgesprochen.
+
+00:09:43,450 --> 00:09:49,120
+Was dieses Beispiel noch zeigt, ist, dass
+im Gegensatz zur Kausalität (wie am Ende
+
+00:09:49,120 --> 00:09:54,880
+der letzten Woche diskutiert) der Begriff
+der Nebenläufigkeit nicht transitiv ist.
+
+00:09:54,880 --> 00:09:59,680
+Also es ist hier ja so: t1
+und t3 sind nebenläufig,
+
+00:09:59,680 --> 00:10:03,970
+t3 und t2 sind nebenläufig, aber
+t1 und t2 sind nicht nebenläufig.
+
+00:10:03,970 --> 00:10:05,590
+Das war bei der Kausalität anders.
+
+00:10:05,590 --> 00:10:09,700
+Wenn t1 notwendige Bedingung für t2
+war und t2 notwendige Bedingung für t3,
+
+00:10:09,700 --> 00:10:12,280
+dann war auch t1 notwendige Bedingung für t3.
+
+00:10:12,280 --> 00:10:25,700
+Das gilt für drei Transitionen bezüglich
+der Nebenläufigkeit nicht unbedingt analog.
+
+00:10:25,700 --> 00:10:26,600
+So viel zu den Beispielen.
+
+00:10:26,600 --> 00:10:30,890
+Dann will ich gern kurz noch einige
+Eigenschaften, einige Beobachtungen zu
+
+00:10:30,890 --> 00:10:37,220
+Nebenläufigkeit diskutieren, bevor wir dann zum
+Begriff des Konflikts kommen im nächsten Video.
+
+00:10:40,550 --> 00:10:47,810
+Eine Beobachtung ist (das hatte ich auch in
+dem Video durchgespielt an einem Beispiel),
+
+00:10:47,810 --> 00:10:52,490
+dass wenn wir solche Mengen
+haben und eine Markierung,
+
+00:10:52,490 --> 00:10:56,000
+so dass die Transitionen dieser
+Menge nebenläufig aktiviert sind,
+
+00:10:56,000 --> 00:11:00,920
+dann jede Anordnung der Transitionen eine
+ausgehend von m gültige Schaltfolge ist.
+
+00:11:00,920 --> 00:11:04,580
+Das hatte ich genau an dem Beispiel
+diskutiert für den Fall, dass wir
+
+00:11:04,580 --> 00:11:10,370
+hier noch eine Marke drauflegen, so dass t1, t2,
+t3 nebenläufig aktiviert waren, alle gleichzeitig.
+
+00:11:10,370 --> 00:11:14,686
+Dann konnte man auch in beliebiger Reihenfolge
+schalten: t1, t2, t3; t1, t3, t2; etc.
+
+00:11:14,686 --> 00:11:16,820
+Das hatte ich dann aufgeschrieben,
+alle möglichen Schaltfolgen.
+
+00:11:16,820 --> 00:11:19,640
+Alle sechs, die möglich wären
+als Permutation von t1, t2,
+
+00:11:19,640 --> 00:11:23,180
+t3, und das ist eine generelle Beobachtung.
+
+00:11:23,180 --> 00:11:26,690
+Also wenn ich eine Menge nebenläufig
+aktivierter Transitionen habe,
+
+00:11:26,690 --> 00:11:30,290
+dann werden wir zwar einer Schaltfolge nicht
+ansehen, dass die parallel schalten (denn
+
+00:11:30,290 --> 00:11:35,660
+die Schaltfolgen sind immer Auflistungen von
+Transitionen), aber zumindest ist dann jede
+
+00:11:35,660 --> 00:11:39,920
+beliebige Reihenfolge der entsprechenden
+Transitionen eine gültige Schaltfolge.
+
+00:11:39,920 --> 00:11:45,020
+Also jede Sequenz, in der jede Transition
+
+00:11:45,020 --> 00:11:50,570
+aus T' genau einmal vorkommt,
+lässt uns von m aus schalten.
+
+00:11:50,570 --> 00:11:53,270
+Nicht dass wir irgendwo stecken bleiben.
+
+00:11:53,270 --> 00:11:57,470
+Und da kommt eine Markierung m'
+heraus, und das ist immer die gleiche.
+
+00:11:57,470 --> 00:12:02,060
+Also für ein m und jede Menge nebenläufig
+aktivierter Transitionen kann es nicht sein,
+
+00:12:02,060 --> 00:12:07,100
+dass wir, wenn wir die Reihenfolge der
+Transitionen aus der Menge ändern beim
+
+00:12:07,100 --> 00:12:09,770
+Schalten, irgendwie bei einem
+anderen Ergebnis herauskommen.
+
+00:12:09,770 --> 00:12:13,850
+Auch das spricht für diese
+zumindest konzeptionelle Überlegung:
+
+00:12:13,850 --> 00:12:15,560
+Das ist irgendwie parallel.
+
+00:12:15,560 --> 00:12:18,860
+Wir schreiben zwar Schaltsequenzen auf,
+
+00:12:18,860 --> 00:12:21,080
+aber die Reihenfolge zwischen diesen
+nebenläufig aktivierten Transitionen ist egal.
+
+00:12:23,300 --> 00:12:26,720
+Am Ende kommt das gleiche heraus, wenn wir
+nicht noch etwas anderes dazwischen machen.
+
+00:12:26,720 --> 00:12:27,170
+Es geht wirklich nur darum:
+
+00:12:27,170 --> 00:12:32,540
+Wenn wir diese Menge T' aktivierter
+Transitionen haben und die von einer
+
+00:12:32,540 --> 00:12:37,410
+Markierung m aus in beliebiger Reihenfolge
+ausführen (auch das hätte man an dem Beispiel,
+
+00:12:37,410 --> 00:12:42,300
+das in dem Video war, sehen können; denn
+egal welche Marke hier drauf läge und
+
+00:12:42,300 --> 00:12:44,520
+egal in welcher Reihenfolge
+ich dann t1, t2, t3 schalte),
+
+00:12:44,520 --> 00:12:50,396
+es kommt das Ergebnis heraus, dass am Ende auf
+jeder der Folgestellen genau eine Marke liegt.
+
+00:12:50,396 --> 00:12:55,890
+Das wäre ein Fall, wo das hier
+wirksam und sichtbar wird.
+
+00:12:55,890 --> 00:13:06,750
+Das sorgt dafür, dass in dem einen Beispiel zu
+Beginn des letzten Videos, was wir denke ich schon
+
+00:13:06,750 --> 00:13:11,430
+gesehen hatten, im Erreichbarkeitsgraph
+dann immer eine Art von Anordnung von
+
+00:13:11,430 --> 00:13:17,430
+Transitionen sich so ergeben wird für
+nebenläufig aktivierte Transitionen.
+
+00:13:17,430 --> 00:13:20,070
+Da hatte ich das schon einmal
+für zwei Transitionen gehabt.
+
+00:13:20,070 --> 00:13:23,370
+Ich glaube, das waren t2 und t3 in dem Beispiel
+für Kausalität aus der vergangenen Woche.
+
+00:13:23,370 --> 00:13:29,910
+Nämlich wenn wir so etwas haben, ganz simpel,
+
+00:13:29,910 --> 00:13:33,750
+zwei offensichtlich nebenläufig
+aktivierte Transitionen, und dazu den
+
+00:13:33,750 --> 00:13:38,520
+Erreichbarkeitsgraphen nur für dieses Beispiel
+mal aufstellen, dann sieht er wie folgt aus:
+
+00:13:38,520 --> 00:13:39,840
+Es gibt hier dieses Quadrat.
+
+00:13:39,840 --> 00:13:41,700
+Ich habe dazu auch schon mal "Diamant" gesagt.
+
+00:13:41,700 --> 00:13:46,144
+Das kommt darauf an, wie man das zeichnet.
+
+00:13:46,144 --> 00:13:51,000
+Höherdimensional wird es dann noch offenkundiger
+sozusagen wie eine Kristallstruktur aussehen.
+
+00:13:51,000 --> 00:13:52,740
+Der Punkt ist hier:
+
+00:13:52,740 --> 00:13:59,340
+Da t1, t2 nebenläufig aktiviert
+sind, ist ja die Reihenfolge egal.
+
+00:13:59,340 --> 00:14:03,450
+Das heißt, von irgendeiner Markierung
+(in dem Fall mal die Startmarkierung
+
+00:14:03,450 --> 00:14:08,940
+dieses ganz einfachen Petrinetzes) können
+wir erst t1, t2 schalten oder t2, t1.
+
+00:14:08,940 --> 00:14:13,470
+Und es ergibt sich diese typische
+Struktur, die wir hier vorfinden,
+
+00:14:13,470 --> 00:14:16,290
+wenn wir nebenläufig
+aktivierte Transitionen haben.
+
+00:14:16,290 --> 00:14:19,230
+Das liegt daran, dass die Reihenfolge egal ist.
+
+00:14:19,230 --> 00:14:20,940
+Und wie gesagt:
+
+00:14:20,940 --> 00:14:24,870
+Wenn wir mehr als zwei Transitionen
+haben, dann wird das eben so
+
+00:14:24,870 --> 00:14:30,180
+etwas wie ein höherdimensionales
+solches mathematisches Konstrukt.
+
+00:14:30,180 --> 00:14:36,270
+Also etwa wenn wir das haben, aber
+eben auch in anderen Petrinetzen,
+
+00:14:36,270 --> 00:14:40,170
+wo wir drei nebenläufige Transitionen haben
+(und das muss nicht so offensichtlich oder so
+
+00:14:40,170 --> 00:14:44,160
+langweilig wie hier sein, sondern ist für
+jede Konstellation zutreffend, in der wir
+
+00:14:44,160 --> 00:14:49,180
+drei nebenläufig aktivierte Transitionen
+haben), dann entstehen solche Strukturen.
+
+00:14:49,180 --> 00:14:55,150
+Wieder weil jede Reihenfolge der
+Transitionen möglich sein wird,
+
+00:14:55,150 --> 00:15:00,040
+und das dann im Erreichbarkeitsgraphen
+zu solchen Strukturen führt.
+
+00:15:00,040 --> 00:15:04,630
+Vielleicht, oder in der Regel, natürlich
+eingebettet in größere Erreichbarkeitsgraphen.
+
+00:15:04,630 --> 00:15:06,520
+Aber man kann das dann wiedererkennen.
+
+00:15:06,520 --> 00:15:10,150
+Und dann spricht das dafür, dass
+eine Nebenläufigkeit vorliegt.
+
+00:15:10,150 --> 00:15:18,160
+Das ist kein Beweis dafür, aber ein gewisses
+Erkennungsmerkmal, nach dem man suchen kann.
+
+00:15:24,030 --> 00:15:32,580
+Dann kann man sich fragen, ob das denn sozusagen
+garantiert ist, dass Nebenläufigkeit vorliegt,
+
+00:15:32,580 --> 00:15:37,560
+wenn man so eine Struktur sieht oder wenn
+man weiß, dass alle Transitionen aus einer
+
+00:15:37,560 --> 00:15:44,310
+bestimmten Menge von der gleichen Markierung
+aus in beliebiger Reihenfolge schaltbar sind.
+
+00:15:44,310 --> 00:15:50,130
+Also wenn wir eine Markierung m
+haben und eine Menge T', so dass jede
+
+00:15:50,130 --> 00:15:54,870
+Anordnung dieser Transitionen eine gültige
+Schaltfolge darstellt, ist es dann auch so,
+
+00:15:54,870 --> 00:15:59,070
+dass mit Sicherheit die Transitionen
+aus T' für m nebenläufig aktiviert sind?
+
+00:15:59,070 --> 00:16:02,070
+Das ist die Umkehrung der Beobachtungen,
+die wir gerade diskutiert haben.
+
+00:16:02,070 --> 00:16:02,820
+Und die Antwort ist:
+
+00:16:02,820 --> 00:16:04,530
+Nein, das stimmt nicht unbedingt.
+
+00:16:04,530 --> 00:16:06,660
+Und hier ist ein einfaches Gegenbeispiel.
+
+00:16:06,660 --> 00:16:09,660
+An dem Beispiel kann man sich überlegen:
+
+00:16:09,660 --> 00:16:19,050
+Wenn wir hier \{t1, t2\} als
+die Menge T' nehmen, dann ist
+
+00:16:19,050 --> 00:16:22,650
+natürlich jede Reihenfolge des Schaltens möglich.
+
+00:16:22,650 --> 00:16:26,460
+Wir können t1 schalten, können t2 schalten, wir
+können t1, t1 schalten, können t2, t2 schalten.
+
+00:16:26,460 --> 00:16:33,690
+Die t1 und t2 sind immer aktiviert, aber
+t1 und t2 sind nicht nebenläufig aktiviert.
+
+00:16:33,690 --> 00:16:38,220
+Das lässt sich sehr einfach überprüfen.
+
+00:16:38,220 --> 00:16:40,890
+Dafür müsste man nämlich
+gleichzeitig t1, t2 schalten können.
+
+00:16:40,890 --> 00:16:45,570
+Also wir müssten gleichzeitig die
+Vorbedingungen von t1 und t2 erfüllen können.
+
+00:16:45,570 --> 00:16:47,430
+Das können wir mit dieser einen Marke aber nicht.
+
+00:16:47,430 --> 00:16:50,190
+Und auch wenn wir das mit den
+Vorgewichtsfunktionen nachrechnen, dann
+
+00:16:50,190 --> 00:16:53,340
+hätten wir jeweils die Vorgewichtsfunktion 1.
+
+00:16:53,340 --> 00:16:55,410
+Es gibt nur eine Stelle.
+
+00:16:55,410 --> 00:16:57,390
+Also ein Tupel mit jeweils einer 1,
+
+00:16:57,390 --> 00:17:02,190
+die Summe wäre 2, aber die aktuelle
+Markierung hat eben nur eine Marke.
+
+00:17:02,190 --> 00:17:09,000
+Also hier sind t1, t2 nicht nebenläufig
+aktiviert und dennoch ist es der Fall,
+
+00:17:09,000 --> 00:17:11,190
+dass sie in beliebiger Reihenfolge schaltbar sind.
+
+00:17:16,010 --> 00:17:20,120
+Das liegt letztlich an dieser
+Schlingenstruktur hier.
+
+00:17:22,070 --> 00:17:25,250
+Das ist natürlich ein etwas
+gemeines Petrinetz hier,
+
+00:17:25,250 --> 00:17:29,510
+da es diese Schlinge bzw.
+zwei solcher Schlingen hat.
+
+00:17:29,510 --> 00:17:38,690
+Mit Schlinge (oder Schleife) meinen wir,
+wenn es eine Transition gibt und eine Stelle,
+
+00:17:38,690 --> 00:17:44,300
+so dass diese Transition aus dieser
+Stelle sowohl etwas entnehmen möchte
+
+00:17:44,300 --> 00:17:48,050
+(also ein positives Vorgewicht hat)
+als auch etwas hineinlegen würde,
+
+00:17:48,050 --> 00:17:50,720
+wenn sie schalten kann (also auch
+ein positives Nachgewicht hat).
+
+00:17:50,720 --> 00:17:56,720
+Das führt genau zu solchen
+Strukturen im Petrinetz.
+
+00:17:56,720 --> 00:18:00,260
+Natürlich muss das Petrinetz
+nicht genau so aussehen.
+
+00:18:00,260 --> 00:18:04,100
+Das kann irgendwo eingebettet
+in dem Petrinetz vorkommen.
+
+00:18:04,100 --> 00:18:07,370
+Also es sind noch weitere Pfeile möglich,
+
+00:18:07,370 --> 00:18:09,920
+zu anderen Stellen oder in
+Verbindung mit anderen Transitionen.
+
+00:18:10,430 --> 00:18:13,370
+Aber wenn wir ein Petrinetz haben,
+in dem so etwas nicht vorkommt (in
+
+00:18:13,370 --> 00:18:16,730
+dem es keine Schlingen gibt), also
+ein schlingenfreies Petrinetz haben,
+
+00:18:16,730 --> 00:18:21,530
+dann ist die Frage von der vorigen Folie
+tatsächlich positiv zu beantworten.
+
+00:18:22,100 --> 00:18:25,430
+Also wenn wir dann eine Markierung
+haben und eine Menge von Transitionen,
+
+00:18:25,430 --> 00:18:32,000
+so dass jede Anordnung dieser Transitionen
+zu einer gültigen Schaltfolge führt,
+
+00:18:33,050 --> 00:18:36,980
+dann wird diese Menge auch
+nebenläufig aktiviert sein.
+
+00:18:36,980 --> 00:18:41,690
+Dann können wir also tatsächlich aus
+dem Vorliegen etwa eines "Würfels" auf
+
+00:18:41,690 --> 00:18:46,880
+eine dreielementige Menge nebenläufig
+aktivierter Transitionen schließen.
+
+00:18:46,880 --> 00:18:50,270
+Das werden wir nicht müssen.
+
+00:18:50,270 --> 00:18:53,510
+Wir können ja immer, wenn wir
+solche Fragen haben ("Ist da etwas
+
+00:18:53,510 --> 00:18:55,820
+nebenläufig aktiviert?"), das konkret ausrechnen.
+
+00:18:55,820 --> 00:19:02,660
+Unser Kriterium wird natürlich jeweils
+sein, das hiermit zu bestimmen.
+
+00:19:02,660 --> 00:19:07,040
+Oder wenn Sie das oft genug getan haben,
+erkennen Sie die Sachen natürlich auch
+
+00:19:07,850 --> 00:19:11,690
+an dem Petrinetz selber, und müssen das
+nicht unbedingt händisch ausrechnen,
+
+00:19:11,690 --> 00:19:13,010
+wie ich das gerade auf den Folien getan habe.
+
+00:19:16,960 --> 00:19:22,660
+Das genügt zum Ende der Betrachtung von
+Nebenläufigkeit von der formalen Seite.

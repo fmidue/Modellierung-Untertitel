@@ -1,0 +1,798 @@
+144 # slide
+00:00:00,000 --> 00:00:04,590
+Also betrachten wir einmal ein
+erstes konkretes Petrinetz,
+
+00:00:04,590 --> 00:00:06,930
+und zwar in seiner grafischen Darstellung.
+
+00:00:06,930 --> 00:00:10,800
+Wir werden später noch eine
+mathematische Darstellung kennen lernen.
+
+00:00:10,800 --> 00:00:15,030
+Aber wir führen das informell ein
+zunächst über die grafische Darstellung.
+
+00:00:15,030 --> 00:00:21,990
+Und insbesondere wird es in diesem Video darum
+gehen, auch den Begriff des Schaltens einzuführen.
+
+00:00:23,700 --> 00:00:24,510
+Also, was haben wir hier?
+
+00:00:24,510 --> 00:00:27,180
+Ein Petrinetz dargestellt mit diesen zwei
+
+00:00:27,180 --> 00:00:31,590
+Arten von letztlich Knoten und
+ihren Verbindungen dazwischen.
+
+00:00:33,060 --> 00:00:35,310
+Ich hatte schon auf einer
+vorigen Folie kurz genannt,
+
+00:00:35,310 --> 00:00:40,650
+dass diese Kreise als Stellen
+bezeichnet werden oder als Plätze.
+
+00:00:40,650 --> 00:00:45,510
+Und die sind gedacht als sozusagen
+Ablageorte für Ressourcen.
+
+00:00:45,510 --> 00:00:49,710
+Wobei Ressourcen je nach System, das modelliert
+wird, ganz verschiedene Dinge sein könnten.
+
+00:00:49,710 --> 00:00:52,560
+Also einfach die Eingabedaten für einen Prozess
+
+00:00:52,560 --> 00:00:57,000
+oder tatsächlich materielle Ressourcen
+wie die Snacks in einem Snackautomaten.
+
+00:00:57,000 --> 00:01:00,030
+Oder einfach logische Vorbedingungen
+für einzelne Aktionen.
+
+00:01:00,030 --> 00:01:06,330
+Eingangssignale/Dinge, die irgendwie
+als Voraussetzung für Handlungen
+
+00:01:06,330 --> 00:01:09,750
+in dem System oder Abläufe im
+System relevant sein könnten.
+
+00:01:09,750 --> 00:01:14,160
+Das sind also diese Kreise, die
+zunächst erst mal leer gedacht sind.
+
+00:01:14,160 --> 00:01:19,350
+Und dann können in diesen Kreisen, auf diesen
+Ablageplätzen, können sogenannte Marken liegen.
+
+00:01:19,350 --> 00:01:21,000
+Die werden auch Token genannt.
+
+00:01:22,260 --> 00:01:27,570
+Diese klein ausgefüllten Kreise, die
+auf den vorher noch leeren größeren
+
+00:01:27,570 --> 00:01:29,640
+Kreisen liegen könnten, das wären die Ressourcen.
+
+00:01:29,640 --> 00:01:32,040
+Also die Stellen sind Plätze für Ressourcen,
+
+00:01:32,040 --> 00:01:35,820
+und dann diese klein ausgefüllten
+Kreise sind konkrete Ressourcen.
+
+00:01:35,820 --> 00:01:39,690
+Und davon könnten auch mehrere auf
+einem Platz liegen, oder keine.
+
+00:01:39,690 --> 00:01:42,840
+Hier liegt jetzt jeweils eine
+Marke auf diesen beiden Stellen.
+
+00:01:42,840 --> 00:01:45,090
+Auf den anderen drei Stellen liegen keine Marken.
+
+00:01:46,380 --> 00:01:48,060
+Das kann auch anders sein.
+
+00:01:48,060 --> 00:01:49,410
+Hier könnten noch mehrere Marken liegen.
+
+00:01:49,410 --> 00:01:52,380
+Oder es könnten überall Marken liegen, oder
+nirgends Marken liegen, wie in dem Fall.
+
+00:01:52,380 --> 00:01:56,670
+Das macht dann jeweils einen Systemzustand aus.
+
+00:01:56,670 --> 00:02:02,670
+Also ob jetzt auf diesen fünf Plätzen gar keine
+Marken liegen oder jeweils eine Marke liegt,
+
+00:02:02,670 --> 00:02:04,680
+oder hier oben zwei Marken und hier unten drei,
+
+00:02:04,680 --> 00:02:07,440
+das macht jeweils in der
+Gesamtheit einen Systemzustand aus.
+
+00:02:07,440 --> 00:02:09,660
+Wenn wir an die flachen
+Zustandsdiagramme zurückdenken,
+
+00:02:09,660 --> 00:02:13,480
+dann hatten wir die einzelnen Zustände,
+die dann mit Pfeilen verbunden waren.
+
+00:02:13,480 --> 00:02:19,630
+Und im Grunde ein Zustand in so einem
+flachen Zustandsdiagramm entspräche
+
+00:02:19,630 --> 00:02:23,170
+einer Gesamtkonfiguration, einer Möglichkeit,
+
+00:02:23,170 --> 00:02:28,360
+wie die Stellen eines solchen Petrinetzes mit
+Marken belegt sein können oder eben nicht.
+
+00:02:30,670 --> 00:02:34,690
+Und dann gibt es noch diese andere Art
+von Knoten in diesem Petrinetz-Graphen.
+
+00:02:34,690 --> 00:02:36,640
+Das sind die Rechtecke hier.
+
+00:02:36,640 --> 00:02:38,470
+Manchmal werde ich die auch als Quadrate zeichnen.
+
+00:02:39,310 --> 00:02:43,000
+Jedenfalls eben eckig und nicht als Kreise.
+
+00:02:43,000 --> 00:02:46,270
+Und das sind die sogenannten
+Transitionen oder Systemübergänge.
+
+00:02:46,270 --> 00:02:51,850
+Also die Idee ist dann, dass durch die ein-
+oder ausgehenden Pfeile zu diesen Rechtecken
+
+00:02:51,850 --> 00:02:57,220
+dargestellt wird, unter welchen Umständen ein
+Gesamtzustand zu einem anderen übergehen kann.
+
+00:02:57,220 --> 00:03:01,690
+Wir werden das gleich besprechen, was
+zum Beispiel zu dieser Transition die
+
+00:03:01,690 --> 00:03:03,190
+eingehenden/ausgehenden Pfeile bedeuten konkret.
+
+00:03:03,190 --> 00:03:09,490
+Und zwar wird das so sein, dass die irgendwie dazu
+führen, dass die Marken hinterher woanders liegen.
+
+00:03:09,490 --> 00:03:11,260
+Also die Struktur des Petrinetzes bleibt gleich,
+
+00:03:11,260 --> 00:03:15,100
+die Plätze/Transitionen bleiben gleich, aber
+die Marken können an anderen Stellen sein.
+
+00:03:15,100 --> 00:03:18,580
+Dann haben wir einen neuen Gesamtzustand
+des Petrinetzes als Ganzes.
+
+00:03:18,580 --> 00:03:23,230
+Und die Transitionen beschreiben, halten fest,
+wie man von einem Zustand zum anderen kommt.
+
+00:03:23,230 --> 00:03:27,310
+Und zwar wird das sozusagen
+lokal an einer Position
+
+00:03:27,310 --> 00:03:29,050
+kontrolliert festgehalten für jede Transition.
+
+00:03:29,050 --> 00:03:34,420
+Das ist auch wiederum anders als bei flachen
+Zustandsdiagrammen, wo man die Voraussetzungen
+
+00:03:34,420 --> 00:03:40,780
+für einzelne Aktionen nicht unbedingt an einer
+Position konzentriert ablesen/erkennen kann.
+
+00:03:40,780 --> 00:03:46,720
+Okay, also dieser Begriff der Transition und der
+
+00:03:46,720 --> 00:03:48,640
+ein-/ausgehenden Pfeile ist
+offensichtlich sehr zentral.
+
+00:03:48,640 --> 00:03:52,420
+Also lassen Sie uns das
+noch mal genauer beleuchten.
+
+00:03:53,170 --> 00:03:55,540
+Eine Transition im Allgemeinen
+ist eben so ein Rechteck.
+
+00:03:55,540 --> 00:04:01,390
+Das kann mit mehreren der Stellen/Kreise
+verbunden sein, durch ein- und ausgehende Pfeile.
+
+00:04:01,390 --> 00:04:03,607
+Und das kann ganz verschieden sein.
+
+00:04:03,607 --> 00:04:07,570
+Da könnten auch gar keine eingehenden Pfeile
+sein oder noch mehr als zwei oder nur einer.
+
+00:04:07,570 --> 00:04:08,500
+Das ist also völlig frei.
+
+00:04:08,500 --> 00:04:11,590
+Das hängt von dem konkreten Petrinetz
+ab, mit dem wir es zu tun haben,
+
+00:04:11,590 --> 00:04:16,960
+und den Stellen, die vor der
+entsprechenden Transition liegen.
+
+00:04:16,960 --> 00:04:20,980
+Also nicht graphisch davor liegen,
+sondern bezüglich der Pfeile davor liegen
+
+00:04:20,980 --> 00:04:23,410
+Die müssen nicht unbedingt oberhalb
+dargestellt sein wie in dem Beispiel.
+
+00:04:23,410 --> 00:04:24,550
+Die könnten auch irgendwo anders liegen.
+
+00:04:24,550 --> 00:04:30,630
+Aber der Punkt ist, diejenigen Stellen, die
+einen eingehenden Pfeil in eine Transition haben,
+
+00:04:30,630 --> 00:04:32,970
+werden Vorbedingungen dieser Transition genannt.
+
+00:04:32,970 --> 00:04:40,080
+Das sind also Plätze, wo Marken liegen sollen,
+die durch die Transition konsumiert werden.
+
+00:04:40,080 --> 00:04:43,200
+Da links sind das diese eingehenden Pfeile.
+
+00:04:43,200 --> 00:04:48,270
+Und alle Stellen/Plätze, die nach
+einer konkreten Transition liegen,
+
+00:04:48,270 --> 00:04:50,490
+werden Nachbedingung dieser Transition genannt.
+
+00:04:50,490 --> 00:04:55,080
+Das sind also Stellen/Plätze, in die
+hinein Marken erzeugt werden können.
+
+00:04:55,080 --> 00:04:59,640
+Und die Transitionen sind die
+eigentlichen Informationsträger.
+
+00:04:59,640 --> 00:05:02,070
+Da wird konzertiert festgehalten:
+
+00:05:02,070 --> 00:05:04,260
+Wie ändern sich denn die Marken?
+
+00:05:04,260 --> 00:05:07,620
+Also die Transitionen zusammen mit
+ihren Vor- und Nachbedingungen sind
+
+00:05:07,620 --> 00:05:11,550
+die zentralen Informationsträger in
+der Darstellung eines Petrinetzes.
+
+00:05:11,550 --> 00:05:14,790
+Also es könnte zum Beispiel so sein:
+
+00:05:14,790 --> 00:05:20,040
+Hier liegen zwei Marken auf diesen beiden Stellen
+und dann könnte diese Transition schalten.
+
+00:05:20,040 --> 00:05:24,960
+Und das würde dazu führen, dass diese
+beiden Marken konsumiert werden und auf
+
+00:05:24,960 --> 00:05:27,420
+den drei Nachbedingungsstellen
+neue Marken erzeugt werden.
+
+00:05:27,420 --> 00:05:31,710
+Das ist also nicht so, dass eine
+Marke hier durchwandert oder das
+
+00:05:31,710 --> 00:05:33,600
+unabhängig für die beiden
+Eingänge passieren könnte.
+
+00:05:33,600 --> 00:05:39,000
+Sondern beide Eingänge werden gleichzeitig
+konsumiert und auf allen drei Ausgängen wird
+
+00:05:39,000 --> 00:05:42,900
+eine Marke abgelegt, in diesem konkreten
+Fall einer so gestalteten Transition.
+
+00:05:42,900 --> 00:05:45,990
+Natürlich, wenn die Konstellation
+anders ist, dann ist es eben analog.
+
+00:05:51,090 --> 00:05:57,300
+Und genau diesen Wechsel, das Entfernen der
+Marken der Vorbedingung und dann gleichzeitiges
+
+00:05:57,300 --> 00:06:02,340
+Erzeugen der Marken in der Nachbedingung, nennt
+man Schalten oder Feuern dieser einen Transition.
+
+00:06:02,340 --> 00:06:04,170
+Und natürlich, wenn in dem
+Petrinetz viele Transitionen sind,
+
+00:06:04,170 --> 00:06:06,630
+dann kann das an verschiedenen Stellen passieren.
+
+00:06:06,630 --> 00:06:08,820
+Und es hängt jeweils von den
+Vor- und Nachbedingungen ab,
+
+00:06:08,820 --> 00:06:11,280
+was das genau mit einem Systemzustand macht.
+
+00:06:11,280 --> 00:06:15,535
+Dabei kann das durchaus allgemeiner
+als hier im Beispiel sein.
+
+00:06:15,535 --> 00:06:19,470
+Hier sah das jetzt zufällig so aus,
+dass zum Beispiel hier genau eine
+
+00:06:19,470 --> 00:06:23,130
+Marke jeweils lag und hinterher genau
+eine Marke in den Nachbedingungen.
+
+00:06:23,130 --> 00:06:26,550
+Es könnten hier auch vorher schon mehr
+als jeweils eine Marke gelegen haben.
+
+00:06:26,550 --> 00:06:28,770
+Also hier könnten zwei Marken
+und eine Marke gelegen haben.
+
+00:06:28,770 --> 00:06:32,127
+Dann würde eben eine von diesen zweien
+entfernt und die eine, die hier lag.
+
+00:06:32,127 --> 00:06:36,960
+Im Allgemeinen können ja mehrere Marken liegen.
+
+00:06:36,960 --> 00:06:40,260
+Es kann auch pro Pfeil mehr als
+eine Marke konsumiert werden.
+
+00:06:40,260 --> 00:06:43,020
+Dann muss man das an dem Pfeil notieren.
+
+00:06:43,020 --> 00:06:45,510
+Das werden wir noch besprechen,
+
+00:06:45,510 --> 00:06:49,800
+wie das genau dargestellt wird, und welche
+Auswirkungen das dann hat auf das Schalten.
+
+00:06:52,380 --> 00:06:56,220
+Es könnte auch sein, dass es gar keine eingehenden
+oder gar keine ausgehenden Pfeile gibt.
+
+00:06:56,220 --> 00:06:59,970
+Das nennt man dann entweder Sources
+oder Sinks/Senken, solche Transitionen.
+
+00:06:59,970 --> 00:07:02,580
+Das werden wir auch konkret kennenlernen.
+
+00:07:02,580 --> 00:07:09,300
+Und anders als jetzt in diesem ganz einfachen
+Beispiel, muss es auch nicht so sein,
+
+00:07:09,300 --> 00:07:15,510
+dass hier sozusagen leere Plätze
+sind für die Nachbedingungsstellen.
+
+00:07:15,510 --> 00:07:17,580
+Also hier hätten auch schon Marken liegen können.
+
+00:07:17,580 --> 00:07:20,957
+Dann würden eben noch welche hinzukommen
+durch das Schalten dieser Transition.
+
+00:07:20,957 --> 00:07:24,570
+Also es sind sehr allgemeine
+Konstellationen denkbar.
+
+00:07:27,360 --> 00:07:31,200
+Weder muss hier vorher alles leer gewesen sein,
+
+00:07:31,200 --> 00:07:33,900
+noch muss nach dem Schalten
+hier oben alles leer sein.
+
+00:07:33,900 --> 00:07:39,030
+Also wenn hier zum Beispiel zwei Marken
+gelegen hätten, und die Transition fordert
+
+00:07:39,030 --> 00:07:44,685
+aber nur eine Marke von dieser Stelle, dann hätte
+hinterher hier halt eben noch eine Marke gelegen.
+
+00:07:44,685 --> 00:07:46,500
+Das ist also alles möglich.
+
+00:07:51,120 --> 00:07:54,720
+Das können wir nochmal an dem Beispiel
+von der Folie davor durchspielen,
+
+00:07:54,720 --> 00:07:56,850
+für einige konkrete Situationen.
+
+00:07:56,850 --> 00:08:01,890
+Also nehmen wir zum Beispiel diese
+Ausgangslage, wie sie auf der Folie schon war.
+
+00:08:01,890 --> 00:08:05,550
+Dann kann man sich fragen:
+
+00:08:05,550 --> 00:08:07,800
+Wo könnte hier überhaupt geschaltet werden?
+
+00:08:07,800 --> 00:08:11,580
+Also welche von den vier Transitionen
+könnte geschaltet werden?
+
+00:08:11,580 --> 00:08:19,260
+Und naja, es muss immer so sein, dass eben
+tatsächlich die Marken auf den Stellen,
+
+00:08:19,260 --> 00:08:22,980
+von denen Marken angefordert werden,
+auch wirklich vorhanden sind.
+
+00:08:22,980 --> 00:08:27,270
+Also zum Beispiel diese Transition
+hier links könnte im aktuellen
+
+00:08:27,270 --> 00:08:29,610
+Systemzustand nicht geschaltet werden.
+
+00:08:29,610 --> 00:08:29,970
+Warum?
+
+00:08:29,970 --> 00:08:33,390
+Weil sie eine Marke aus
+diesem Platz anfordern würde.
+
+00:08:33,390 --> 00:08:34,770
+Dort liegen aber gar keine Marken.
+
+00:08:34,770 --> 00:08:35,580
+Dieser Platz ist leer.
+
+00:08:35,580 --> 00:08:37,140
+Dann kann diese Transition nicht schalten.
+
+00:08:37,140 --> 00:08:42,060
+Und das gleiche würde auch für
+diese und diese Transition gelten.
+
+00:08:42,060 --> 00:08:49,050
+Hingegen diese Transition hier,
+die könnte tatsächlich schalten.
+
+00:08:49,050 --> 00:08:49,410
+Warum?
+
+00:08:49,410 --> 00:08:54,690
+Weil für alle eingehenden Pfeile dieser
+Transition tatsächlich eine Marke vorhanden ist.
+
+00:08:54,690 --> 00:08:57,000
+Dann würde also diese Transition schalten.
+
+00:08:57,000 --> 00:09:03,450
+Und das hieße, dass die Marke verschwindet und
+hier und hier jeweils eine Marke hinzukommt.
+
+00:09:03,450 --> 00:09:07,200
+Okay, das war auch der einzig
+mögliche Schritt in dem Fall eben.
+
+00:09:07,200 --> 00:09:09,735
+So und dann könnte es weiter gehen.
+
+00:09:09,735 --> 00:09:12,090
+Jetzt haben wir eine neue
+Konstellation des Petrinetzes,
+
+00:09:12,090 --> 00:09:15,720
+also eine neue Belegung der Stellen mit Marken.
+
+00:09:15,720 --> 00:09:16,740
+Und dann könnten wir uns wieder fragen:
+
+00:09:16,740 --> 00:09:18,030
+Was ist denn jetzt möglich?
+
+00:09:18,030 --> 00:09:21,570
+Also offensichtlich diese Transition
+kann jetzt nicht direkt nochmal schalten.
+
+00:09:21,570 --> 00:09:24,750
+Denn sie hat jetzt keine Marken
+in ihrer Vorbedingung mehr,
+
+00:09:24,750 --> 00:09:26,370
+die das Schalten erlauben würden.
+
+00:09:26,370 --> 00:09:31,320
+Aber zum Beispiel könnte jetzt
+diese Transition schalten.
+
+00:09:31,320 --> 00:09:35,340
+Denn die hat jetzt eine Marke auf
+der einzigen Vorbedingungsstelle.
+
+00:09:35,340 --> 00:09:38,190
+Also diese Transition könnte jetzt
+schalten, die ist jetzt aktiv.
+
+00:09:38,190 --> 00:09:40,880
+Sie ist jetzt schaltbereit.
+
+00:09:40,880 --> 00:09:44,940
+Okay, und wenn wir das einfach mal machen,
+dann würde jetzt diese Marke verschwinden,
+
+00:09:44,940 --> 00:09:48,660
+weil sie konsumiert wird durch die Transition,
+und hier würde eine Marke entstehen.
+
+00:09:48,660 --> 00:09:50,610
+Das heißt, der nächste Zustand wäre dieser.
+
+00:09:50,610 --> 00:09:54,360
+Und dann kann man sich weitere Abläufe überlegen.
+
+00:09:54,360 --> 00:09:55,050
+Was könnte jetzt passieren?
+
+00:09:55,050 --> 00:10:01,350
+Zum Beispiel könnte jetzt diese Transition
+schalten, weil sie hierdurch gerechtfertigt ist.
+
+00:10:01,350 --> 00:10:04,080
+Wir hätten uns auch vorstellen können,
+
+00:10:04,080 --> 00:10:08,955
+dass hier zunächst sofort diese Transition
+schaltet und später erst die andere vielleicht.
+
+00:10:08,955 --> 00:10:13,770
+Aber wir hatten uns eben zufällig entschieden,
+dass wir das in der Reihenfolge tun.
+
+00:10:13,770 --> 00:10:16,050
+Aber da ist ein gewisser
+Nichtdeterminismus, das heißt,
+
+00:10:16,050 --> 00:10:21,930
+die Reihenfolge ist nicht unbedingt fix und
+festgelegt als nur ein möglicher Ablauf.
+
+00:10:21,930 --> 00:10:25,020
+Das nennt man Nichtdeterminismus.
+
+00:10:25,020 --> 00:10:28,770
+In dem Fall hier habe ich jetzt
+die Ausgangslage wieder erreicht.
+
+00:10:28,770 --> 00:10:32,220
+Jetzt müsste ich, wenn ich weitermachen
+will, wieder diese Transition schalten.
+
+00:10:32,220 --> 00:10:34,830
+Denn das hatten wir schon diskutiert, dass
+in der Situation gar nichts anderes geht.
+
+00:10:34,830 --> 00:10:38,910
+Also schalte ich das noch mal und vielleicht
+entscheide ich mich jetzt beim nächsten Mal,
+
+00:10:38,910 --> 00:10:40,980
+nicht unbedingt wieder den
+gleichen Ablauf zu haben.
+
+00:10:40,980 --> 00:10:42,720
+Also das zu schalten und das zu schalten.
+
+00:10:43,560 --> 00:10:45,510
+Vielleicht entscheide ich
+mich jetzt, hier zu schalten.
+
+00:10:45,510 --> 00:10:51,810
+Das darf ich, weil ich immer eine von den
+möglichen aktivierten Transitionen ausführen kann.
+
+00:10:52,340 --> 00:10:55,130
+Und diese Transition ist auch aktiviert, weil sie
+
+00:10:55,130 --> 00:10:58,310
+genau eine Vorbedingungsstelle
+hat und dort eine Marke liegt.
+
+00:10:58,310 --> 00:11:02,690
+Also könnten wir dann die Marke von
+hier konsumieren, hier neu ablegen.
+
+00:11:02,690 --> 00:11:05,540
+Gut, was wäre danach noch möglich?
+
+00:11:05,540 --> 00:11:08,210
+Jetzt wäre nur noch diese Transition schaltbar.
+
+00:11:08,210 --> 00:11:12,050
+Das ist die einzige Transition, die auf
+ihren Vorbedingungsstellen tatsächlich
+
+00:11:12,050 --> 00:11:15,140
+noch genug Marken vorfindet, in dem Fall eine.
+
+00:11:15,140 --> 00:11:23,300
+Also könnten wir so schalten
+und dann geht es nicht weiter.
+
+00:11:23,300 --> 00:11:36,620
+Einen weiteren Schritt können wir hier nicht tun,
+denn keine der Transitionen hier ist aktiviert.
+
+00:11:36,620 --> 00:11:39,380
+Das heißt, in dem Fall hätten wir uns
+jetzt in eine Sackgasse manövriert.
+
+00:11:39,380 --> 00:11:42,470
+Das hatte ich schon gesagt, das ist
+ein allgemeiner Begriff für Petrinetze:
+
+00:11:42,470 --> 00:11:43,460
+Die Verklemmung.
+
+00:11:43,460 --> 00:11:45,230
+Jetzt hätten wir eine Verklemmung erreicht.
+
+00:11:45,230 --> 00:11:48,380
+Weil wir uns an einer Stelle davor
+nichtdeterministisch dafür entschieden haben,
+
+00:11:48,380 --> 00:11:53,210
+diese Transition auszuführen, die letztlich
+dem System sozusagen eine Ressource entzieht.
+
+00:11:53,210 --> 00:11:56,930
+Von hier unten kommt diese Marke
+nie wieder irgendwo anders hin.
+
+00:11:56,930 --> 00:12:02,330
+Und der einzige mögliche Fortschritt wäre noch,
+
+00:12:02,330 --> 00:12:04,220
+dass man irgendwann diese
+Transition wieder ausführen kann.
+
+00:12:04,220 --> 00:12:07,460
+Aber die wird nicht zum Zuge kommen, wenn
+sie nie hier eine Marke vorfinden kann.
+
+00:12:07,460 --> 00:12:11,930
+Dann hätten wir in dem Fall
+jetzt eine Verklemmung erreicht.
+
+00:12:11,930 --> 00:12:13,430
+Das System ist nicht sackgassenfrei.
+
+00:12:17,090 --> 00:12:20,720
+Und das hat im Grunde genommen daran
+gelegen, dass wir uns an der Stelle
+
+00:12:20,720 --> 00:12:24,530
+ungünstig entschieden haben,
+diese Transition auszuführen.
+
+00:12:24,530 --> 00:12:26,000
+Das war ja nicht die einzig mögliche Wahl.
+
+00:12:26,000 --> 00:12:29,510
+Wenn wir hier genau draufschauen,
+insbesondere bezüglich dieser Stelle,
+
+00:12:29,510 --> 00:12:31,490
+gibt es einen möglichen Konflikt im Petrinetz.
+
+00:12:31,490 --> 00:12:36,500
+Denn hier wäre sowohl diese untere Transition
+aktiviert gewesen als auch diese obige,
+
+00:12:36,500 --> 00:12:38,630
+aber natürlich nicht beide gleichzeitig.
+
+00:12:38,630 --> 00:12:40,070
+Also die können nicht beide ihren Willen kriegen.
+
+00:12:40,070 --> 00:12:44,240
+Denn diese Transition möchte eine Marke von hier,
+diese Transition möchte eine Marke von hier.
+
+00:12:44,240 --> 00:12:47,330
+Also diese beiden Transitionen stehen
+im Konflikt bezüglich dieser Ressource.
+
+00:12:47,330 --> 00:12:50,570
+Und, wenn wir uns unglücklicherweise
+in dem Beispiel entschieden haben,
+
+00:12:50,570 --> 00:12:57,260
+der unteren Transition den Vorzug zu
+geben, also so die Marke weiterzureichen,
+
+00:12:57,260 --> 00:13:00,020
+dann haben wir damit letztlich das
+System in die Sackgasse manövriert.
+
+00:13:00,020 --> 00:13:09,160
+Und das sind genau Fragen, die man
+dann für Petrinetze untersuchen kann.
+
+00:13:09,160 --> 00:13:09,640
+Gibt es solche Konflikte?
+
+00:13:09,640 --> 00:13:10,120
+Gibt es diese Art Nichtdeterminismus,
+wo wir uns entscheiden müssen?
+
+00:13:10,120 --> 00:13:11,590
+Wann gibt es solche Konflikte?
+Welche Konsequenzen hat das?
+
+00:13:11,590 --> 00:13:13,780
+Können wir in Situation geraten etwa,
+
+00:13:13,780 --> 00:13:18,100
+in denen das System dann tot ist, weil
+keine weiteren Schritte möglich sind?
+
+00:13:18,100 --> 00:13:21,640
+Oder kann man das vielleicht für ein konkretes
+System immer vermeiden, dass dies passiert?
+
+00:13:21,640 --> 00:13:24,970
+Das sind allgemeine Fragen, die wir
+für Petrinetze beantworten können.
+
+00:13:24,970 --> 00:13:30,070
+Hier ging es erst mal nur darum, das
+Schalten als Konzept einzuführen.

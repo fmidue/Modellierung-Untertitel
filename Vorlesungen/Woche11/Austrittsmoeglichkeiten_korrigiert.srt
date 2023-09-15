@@ -1,0 +1,350 @@
+253 # slide
+00:00:00,000 --> 00:00:07,590
+So, wie es verschiedene Eintrittsmöglichkeiten in
+die hierarchischen oder Regionen-Zustände gibt,
+
+00:00:07,590 --> 00:00:10,410
+so gibt es auch verschiedene
+Austrittsmöglichkeiten.
+
+00:00:10,410 --> 00:00:14,670
+Also auch für die müssen wir uns das anschauen.
+
+00:00:14,670 --> 00:00:18,450
+Da gibt es zum einen, nehmen wir erst
+mal einen hierarchischen Zustand,
+
+00:00:18,450 --> 00:00:19,710
+später wieder einen Regionen-Zustand.
+
+00:00:19,710 --> 00:00:23,220
+In den hierarchischen Zuständen
+gibt es den Austritt aus dem
+
+00:00:23,220 --> 00:00:25,350
+zusammengesetzten Zustand insgesamt.
+
+00:00:25,350 --> 00:00:30,570
+Das ist sozusagen das Gegenstück zum
+Standard-Eintritt, wo man einfach von
+
+00:00:30,570 --> 00:00:35,535
+außen auf den Gesamtzustand nur zugeht und
+nicht irgendwie im Inneren etwas herauspickt.
+
+00:00:35,535 --> 00:00:40,620
+Und genauso wäre hier der Austritt aus
+dem zusammengesetzten Zustand als Ganzes.
+
+00:00:40,620 --> 00:00:44,010
+Ohne weitere irgendwie Kennzeichnung,
+
+00:00:44,010 --> 00:00:48,420
+aus welchem Unterzustand man denn gerne
+den Gesamtzustand verlassen möchte.
+
+00:00:48,420 --> 00:00:53,910
+Dann gibt es die Möglichkeit direkt aus
+einem spezifischen Unterzustand auszutreten.
+
+00:00:53,910 --> 00:01:01,200
+Das entspricht oder wäre dual zum
+expliziten Eintritt in einen Unterzustand.
+
+00:01:02,610 --> 00:01:08,940
+Und dann gab es beim Eintritt noch die
+beiden Varianten flache und tiefe Historie.
+
+00:01:08,940 --> 00:01:12,120
+Zu denen gibt es nichts
+Entsprechendes beim Austritt.
+
+00:01:12,120 --> 00:01:17,100
+Ja beim Austritt wird eventuell irgendetwas
+gemerkt, um beim Wiedereintritt über Historie
+
+00:01:17,100 --> 00:01:23,220
+dann auf Information zurückzugreifen, wo wir
+zuletzt in diesem Zustand insgesamt gewesen sind.
+
+00:01:23,220 --> 00:01:26,430
+Aber bei den Austrittspfeilen selbst,
+
+00:01:26,430 --> 00:01:33,750
+gibt es keine zusätzlichen Varianten für
+Historienein-, Historienaustritt oder so.
+
+00:01:33,750 --> 00:01:36,570
+Also es gibt nur diese beiden Möglichkeiten
+hier beim hierarchischen Zustand.
+
+00:01:38,790 --> 00:01:39,630
+Und was bedeuten die jeweils?
+
+00:01:39,630 --> 00:01:45,300
+Also der Austritt aus einem
+hierarchischen Zustand als Ganzem,
+
+00:01:45,300 --> 00:01:49,050
+bedeutet einfach sobald der mit
+der Transition assoziierte Trigger.
+
+00:01:49,680 --> 00:01:51,300
+Ja, hier könnte je ein Trigger draufstehen.
+
+00:01:51,300 --> 00:01:55,470
+Und sobald der stattfindet, wird
+einfach der Gesamtzustand verlassen.
+
+00:01:55,470 --> 00:02:00,150
+Egal, wo man, in welchem konkreten
+Unterzustand man sich hier gerade befindet.
+
+00:02:00,150 --> 00:02:02,370
+Man verlässt einfach den Gesamtzustand.
+
+00:02:02,370 --> 00:02:07,220
+Wie ist das beim Austritt aus
+einem spezifischen Unterzustand?
+
+00:02:07,220 --> 00:02:11,060
+Nun dann wird diese Transition, auf der
+ja wahrscheinlich ein Trigger steht,
+
+00:02:11,060 --> 00:02:16,400
+nur dann überhaupt genommen/gewählt,
+wenn man sich tatsächlich gerade
+
+00:02:16,400 --> 00:02:20,750
+in dem entsprechenden Unterzustand
+befindet, aus dem man austreten soll.
+
+00:02:20,750 --> 00:02:27,920
+Also in unserem Beispiel Diagramm wäre das der
+Zustand E, denn dieser Pfeil geht von E aus.
+
+00:02:27,920 --> 00:02:32,090
+D.h., wir können, wenn hier ein Trigger
+draufsteht und der Eintritt diesen
+
+00:02:32,090 --> 00:02:34,760
+Pfeil/diesen Übergang nur dann wählen,
+wenn wir tatsächlich gerade in E sind.
+
+00:02:34,760 --> 00:02:40,790
+Wenn wir gerade in C oder D sind, dann
+können wir diesen Austritt nicht auslösen.
+
+00:02:44,420 --> 00:02:46,280
+Daneben gibt es ja noch eine weitere Möglichkeit.
+
+00:02:46,280 --> 00:02:55,610
+Einen Austrittspunkt sowie Endzustände oder
+Terminatoren über die wir auch austreten können.
+
+00:02:55,610 --> 00:02:58,271
+Die werden aber hier jeweils nicht behandelt.
+
+00:02:58,271 --> 00:03:02,420
+Also wir werden von diesen
+Austrittsmöglichkeiten nur diese beiden brauchen.
+
+00:03:10,030 --> 00:03:14,740
+Was das konkret bedeutet für
+ein Beispiel, wäre etwa dieses.
+
+00:03:14,740 --> 00:03:20,380
+Also, wenn wir hier so einen Zustand
+haben, der zusammengesetzt ist.
+
+00:03:20,380 --> 00:03:23,590
+Und wir haben einen Austritt
+aus dem Gesamtzustand.
+
+00:03:23,590 --> 00:03:28,750
+Dann entspricht das tatsächlich
+in dem Fall drei Pfeilen,
+
+00:03:28,750 --> 00:03:36,280
+nämlich dass wir explizit gezielt aus B,
+aus C und aus D hätten austreten können.
+
+00:03:37,240 --> 00:03:44,530
+Diese drei Austritte aus spezifischen
+Unterzuständen werden ersetzt durch
+
+00:03:44,530 --> 00:03:47,530
+einen einzelnen Austritt aus dem Gesamtzustand.
+
+00:03:47,530 --> 00:03:51,400
+Weil wir dann nicht sagen müssen, wo
+wir uns gerade im Unterzustand befinden.
+
+00:03:51,400 --> 00:04:02,440
+Und das ist genau die Stelle, wo wir in
+unserem Gesamt/in unserem Armbanduhr-Beispiel
+
+00:04:02,440 --> 00:04:10,330
+Pfeile sparen, weil da eben auch solche Ein- und
+Austritte aus oder zwischen Gesamtzuständen haben.
+
+00:04:10,330 --> 00:04:14,890
+Statt für jede Kombination von Unterzustand
+und Unterzustand Pfeile zu haben.
+
+00:04:14,890 --> 00:04:18,910
+Das ist genau das Ziel dieser
+Art von Ein- und Austritten,
+
+00:04:18,910 --> 00:04:22,030
+dass wir uns in der Darstellung Übergänge sparen.
+
+00:04:22,720 --> 00:04:26,800
+Und hier entspricht eben diesem
+Beispiel dieses Beispiel.
+
+00:04:31,700 --> 00:04:32,822
+Das wäre, wenn wir keine Regionen haben.
+
+00:04:32,822 --> 00:04:34,700
+Jetzt müssen wir uns noch
+anschauen, was passiert denn,
+
+00:04:34,700 --> 00:04:39,260
+wenn wir einen Regionen-Zustand
+haben und aus dem austreten?
+
+00:04:39,260 --> 00:04:44,930
+Dann gibt es auch den Austritt aus dem
+zusammengesetzten Zustand insgesamt.
+
+00:04:44,930 --> 00:04:46,460
+Dann würden wir eben auch verlassen,
+
+00:04:46,460 --> 00:04:49,040
+egal in welchen Unterzuständen wir
+uns gerade in den Regionen befinden.
+
+00:04:49,040 --> 00:04:53,090
+Es gibt den Austritt aus einem
+Unterzustand, der jetzt eben
+
+00:04:53,090 --> 00:04:57,950
+nur in einer von den möglicherweise
+mehreren Regionen verortet ist.
+
+00:04:57,950 --> 00:05:01,100
+Und es gibt zusätzlich den Austritt über
+
+00:05:01,100 --> 00:05:05,930
+Vereinigung, letztlich als Gegenstück
+zum Eintritt über eine Gabelung.
+
+00:05:05,930 --> 00:05:11,900
+Historien sind hier wieder nicht relevant beim
+Austritt als irgendwie Darstellungsmöglichkeit.
+
+00:05:14,090 --> 00:05:17,780
+Was bedeuten jetzt diese
+Austrittsmöglichkeiten bei Regionen-Zuständen?
+
+00:05:17,780 --> 00:05:23,000
+Nun, wenn wir wieder aus dem
+Zustand als Ganzes austreten wollen,
+
+00:05:23,000 --> 00:05:24,530
+dann ist das einfach immer möglich.
+
+00:05:24,530 --> 00:05:29,510
+Dann wird einfach in jeder Region der
+dort vorliegend Unterzustand verlassen.
+
+00:05:29,510 --> 00:05:34,370
+Also egal in welchen Unterzuständen wir
+uns den einzelnen Regionen befinden,
+
+00:05:34,370 --> 00:05:38,150
+wir können immer diesen
+Austritt aus dem Ganzen wählen.
+
+00:05:38,150 --> 00:05:46,010
+Was ist bei Austritt aus
+einem Unterzustand spezifisch?
+
+00:05:46,010 --> 00:05:56,000
+Also, wenn wir so etwas, wie diese Situation
+haben, dann dürfen wir den Regionen Zustand
+
+00:05:56,000 --> 00:06:01,910
+nur dann verlassen, wenn wir in dieser Region
+tatsächlich bei dem entsprechend Zustand sind.
+
+00:06:01,910 --> 00:06:06,770
+Ja also wir dürften den Regionen-Zustand insgesamt
+verlassen, wenn wir hier in B und hier in C sind.
+
+00:06:06,770 --> 00:06:09,080
+Oder wenn wir hier in B und hier D.
+
+00:06:09,080 --> 00:06:11,360
+Aber nicht, wenn wir hier in
+A und hier in C oder D sind.
+
+00:06:14,120 --> 00:06:16,670
+Also der zusammengesetzte
+Zustand wird nur verlassen,
+
+00:06:16,670 --> 00:06:20,750
+wenn man sich in der entsprechenden
+Region tatsächlich in dem Zustand/
+
+00:06:20,750 --> 00:06:24,410
+in demjenigen Unterzustand befindet,
+der durch diesen Pfeil verlassen wird.
+
+00:06:24,410 --> 00:06:28,730
+In den dazu parallelen Regionen kann man
+sich in beliebigen Zuständen befinden.
+
+00:06:28,730 --> 00:06:32,960
+Also in dem konkreten Fall war es so,
+wir würden nur dann austreten können,
+
+00:06:32,960 --> 00:06:35,110
+wenn wir in der ersten
+Region tatsächlich in B sind.
+
+00:06:35,110 --> 00:06:38,760
+Das wäre dieser und dieser Fall.
+
+00:06:38,760 --> 00:06:42,390
+Und dieser Fall nun, da wird explizit angegeben,
+
+00:06:42,390 --> 00:06:46,440
+in welchem Unterzustand wir
+uns pro Region befinden sollen.
+
+00:06:46,440 --> 00:06:49,590
+Und entsprechend ist dann die Regel auch.
+
+00:06:49,590 --> 00:06:54,210
+Wir können über die Vereinigung den
+zusammengesetzten Zustand genau dann
+
+00:06:54,210 --> 00:07:00,000
+verlassen, wenn wir uns in jeder Region in dem
+entsprechend gekennzeichneten Zustand befinden.
+
+00:07:00,000 --> 00:07:07,470
+Also in dem Beispiel könnten wir nur austreten,
+wenn wir uns tatsächlich in B und D befinden.
+
+00:07:07,470 --> 00:07:09,420
+Nicht, wenn wir uns in B und C oder so befinden.
+
+00:07:09,420 --> 00:07:13,320
+Wenn wir uns in B und C befinden,
+dann dürfen wir hierüber austreten,
+
+00:07:13,320 --> 00:07:17,610
+hierüber austreten, aber nicht hierüber.

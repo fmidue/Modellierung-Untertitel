@@ -1,0 +1,1711 @@
+31 # slide
+00:00:00,000 --> 00:00:11,190
+In the last video, I talked about
+the fact that we will mainly model with diagrams.
+
+00:00:11,190 --> 00:00:16,830
+And I also mentioned that these
+will usually be graph structures somehow.
+
+00:00:16,830 --> 00:00:21,420
+You know graphs, at least intuitively.
+
+00:00:21,420 --> 00:00:25,590
+Perhaps you have also looked
+at them more formally in
+
+00:00:25,590 --> 00:00:27,510
+school mathematics lessons, for example.
+
+00:00:27,510 --> 00:00:30,480
+First of all, graphs
+are clearly net-like structures,
+
+00:00:30,480 --> 00:00:37,170
+consisting of nodes and edges,
+which together form a context.
+
+00:00:38,430 --> 00:00:40,890
+There are different kinds of graphs.
+
+00:00:40,890 --> 00:00:42,510
+Here is just an example.
+
+00:00:42,510 --> 00:00:44,400
+This one is directed, insofar as
+
+00:00:44,400 --> 00:00:48,150
+the edges each have an end,
+which is marked by an arrow.
+
+00:00:48,150 --> 00:00:51,450
+There are also graphs where this is
+irrelevant, where you just have the connection
+
+00:00:51,450 --> 00:00:53,400
+without specifying
+a particular direction.
+
+00:00:53,400 --> 00:00:56,640
+There is the possibility,
+which is not realized here,
+
+00:00:56,640 --> 00:01:00,540
+that there are multiple edges
+between the same two nodes.
+
+00:01:00,540 --> 00:01:04,230
+Because maybe there are supposed to be different paths,
+or maybe an outward path and a return path.
+
+00:01:04,230 --> 00:01:05,700
+That does not occur here now.
+
+00:01:05,700 --> 00:01:07,170
+But that is mathematically allowed.
+
+00:01:07,170 --> 00:01:09,780
+We can have node labels and edge labels.
+
+00:01:09,780 --> 00:01:13,410
+Here we have the nodes labeled with
+numbers and the edges labeled with letters.
+
+00:01:13,410 --> 00:01:17,550
+Both are optional in
+general or could be designed differently.
+
+00:01:17,550 --> 00:01:22,230
+Graphs can, in
+principle, be mathematically infinite.
+
+00:01:22,230 --> 00:01:25,320
+Of course, we will generally be dealing
+with finite graphs rather than infinite ones, because
+
+00:01:25,320 --> 00:01:27,540
+our models are supposed to be finite.
+
+00:01:27,540 --> 00:01:30,480
+So, there are
+different varieties of graphs.
+
+00:01:30,480 --> 00:01:33,600
+But they all have
+this basic feature in common,
+
+00:01:33,600 --> 00:01:38,340
+the idea of expressing facts
+by nodes and intermittent edges.
+
+00:01:38,340 --> 00:01:43,890
+And not surprisingly, graphs can
+be used well for modeling.
+
+00:01:43,890 --> 00:01:47,670
+On the one hand, conceivably for
+static modeling, when the goal is
+
+00:01:47,670 --> 00:01:51,000
+to describe the nature of a system.
+
+00:01:51,000 --> 00:01:55,560
+Then, for example, the nodes could
+stand for individual components of the
+
+00:01:55,560 --> 00:02:01,860
+system, and the relationships between these components
+could then be represented by the edges.
+
+00:02:01,860 --> 00:02:05,670
+Or for dynamic
+modeling, one could imagine
+
+00:02:05,670 --> 00:02:08,490
+that the nodes are individual states.
+
+00:02:08,490 --> 00:02:15,360
+So in each case, the expression of
+the entirety of the system at a concrete
+
+00:02:15,360 --> 00:02:20,520
+time would be such a state (instead
+of the entire graph representing the state).
+
+00:02:20,520 --> 00:02:25,830
+And the edges would then be
+transitions between individual states of the system.
+
+00:02:25,830 --> 00:02:30,030
+So descriptive, for example, of
+how the system evolves over time.
+
+00:02:30,030 --> 00:02:33,600
+Or under which conditions, which
+might be written on these edges,
+
+00:02:33,600 --> 00:02:39,480
+the system makes a state transition
+from one specific expression to another.
+
+00:02:39,480 --> 00:02:47,160
+That first in general for
+the role that graphs might have.
+
+00:02:48,870 --> 00:02:53,220
+Then I'm going to do an
+example now, which may seem a
+
+00:02:53,220 --> 00:02:56,910
+little artificial, a little far-fetched,
+especially as a modeling example.
+
+00:02:56,910 --> 00:03:03,600
+It's also not related to computer science,
+so it's not a computer science system.
+
+00:03:03,600 --> 00:03:05,730
+And strictly speaking,
+you could also say:
+
+00:03:05,730 --> 00:03:06,780
+It's just a little puzzle.
+
+00:03:06,780 --> 00:03:09,600
+A little puzzle that some
+of you may already know.
+
+00:03:10,200 --> 00:03:12,990
+Possibly from the computer science
+pre-course, similar things are done there.
+
+00:03:12,990 --> 00:03:18,180
+Maybe just from other contexts,
+even if it's from school.
+
+00:03:18,180 --> 00:03:22,080
+I'm doing it here because it allows me
+in a very naive way to show a
+
+00:03:22,080 --> 00:03:24,150
+little bit of this abstraction process.
+
+00:03:24,150 --> 00:03:29,520
+And just finding notation for a concrete
+problem, and then representing that as a graph.
+
+00:03:29,520 --> 00:03:33,750
+So bringing graphs into play
+to ultimately solve that problem.
+
+00:03:34,470 --> 00:03:36,960
+So you can say it
+doesn't involve much modeling.
+
+00:03:36,960 --> 00:03:42,330
+But about the transition graphs, the
+one that's going to occur here now,
+
+00:03:42,330 --> 00:03:46,080
+that's already alluding to
+something that we're going to use later.
+
+00:03:46,080 --> 00:03:48,570
+Both with Petri nets
+and with UML state diagrams.
+
+00:03:48,570 --> 00:03:52,980
+That's why I'm doing this example,
+not because it's a realistic
+
+00:03:52,980 --> 00:03:55,290
+modeling problem now.
+
+00:03:56,460 --> 00:03:57,030
+So, what is the problem?
+
+00:03:57,030 --> 00:03:59,910
+Wolf-goat-cabbage, it says right here.
+
+00:03:59,910 --> 00:04:01,440
+So, we have a puzzle world like that.
+
+00:04:01,440 --> 00:04:03,480
+There's the farmer who
+wants to cross a river.
+
+00:04:04,110 --> 00:04:10,230
+He has these three things, or
+animals (wolf, goat, and cabbage), with him.
+
+00:04:10,230 --> 00:04:12,000
+He wants to cross the river, as I said.
+
+00:04:12,000 --> 00:04:12,900
+There is a boat for this purpose.
+
+00:04:12,900 --> 00:04:16,710
+But there is only room
+for two in the boat.
+
+00:04:16,710 --> 00:04:21,810
+So for the farmer himself (because the other
+three, neither wolf nor goat nor cabbage, can
+
+00:04:21,810 --> 00:04:28,110
+row themselves; therefore the farmer must always
+go with them) and always only one of his possessions.
+
+00:04:31,320 --> 00:04:33,960
+So, in particular, not
+even two of these possessions.
+
+00:04:33,960 --> 00:04:37,740
+And the problem now is
+that the goat would like
+
+00:04:37,740 --> 00:04:38,575
+to eat the cabbage, and the
+wolf would like to eat the goat.
+
+00:04:38,575 --> 00:04:43,590
+So if the farmer crosses the river
+with the cabbage, then the wolf and
+
+00:04:43,590 --> 00:04:45,870
+the goat would be alone and
+the wolf would eat the goat.
+
+00:04:47,820 --> 00:04:52,050
+And since only the farmer can row,
+and he can cross the river either
+
+00:04:52,050 --> 00:04:55,860
+alone or with an animal or the
+cabbage head, now the question would be:
+
+00:04:56,460 --> 00:04:59,130
+Is it possible for
+the farmer to cross the
+
+00:04:59,130 --> 00:05:02,400
+river without losing
+one of his possessions?
+
+00:05:04,110 --> 00:05:05,640
+What might one want
+to model here, anyway?
+
+00:05:05,640 --> 00:05:09,840
+Well, for example, the actors that
+occur here, that make up the system.
+
+00:05:09,840 --> 00:05:11,940
+Relationships between the actors.
+
+00:05:11,940 --> 00:05:17,130
+Maybe start state and goal state,
+and of course the behavior, the action.
+
+00:05:17,130 --> 00:05:18,900
+What can happen.
+
+00:05:18,900 --> 00:05:22,500
+How states can evolve, and how
+to get from start to finish, perhaps.
+
+00:05:22,500 --> 00:05:24,990
+So, not start and finish, just
+left and right of the river.
+
+00:05:24,990 --> 00:05:27,270
+But actually, as start:
+
+00:05:27,270 --> 00:05:30,450
+The farmer is on
+one side with his property.
+
+00:05:30,450 --> 00:05:31,290
+And finish:
+
+00:05:31,290 --> 00:05:33,240
+The farmer is on the
+other side with all his possessions.
+
+00:05:33,240 --> 00:05:38,430
+So in a sense, of
+course, it's not necessarily a modeling
+
+00:05:38,430 --> 00:05:43,890
+problem, but rather a way to get
+more familiar with graphs again in an example.
+
+00:05:44,730 --> 00:05:46,890
+That's at least how I'm going to use it.
+
+00:05:46,890 --> 00:05:49,500
+So, naively:
+
+00:05:49,500 --> 00:05:51,690
+First, static model.
+
+00:05:51,690 --> 00:05:54,660
+Who are the actors and objects involved?
+
+00:05:54,660 --> 00:05:55,860
+Exactly these four.
+
+00:05:55,860 --> 00:05:58,470
+There is still little structure
+here, or no structure at all.
+
+00:05:58,470 --> 00:06:03,780
+It's just a set of four
+elements, not really a graph either.
+
+00:06:03,780 --> 00:06:08,700
+Naively, it is also a graph, which just
+consists of four nodes and no edges at all.
+
+00:06:08,700 --> 00:06:14,220
+But you wouldn't really call that a graph
+now, because you don't have a network structure.
+
+00:06:14,220 --> 00:06:17,670
+So that could certainly be
+better, more informative in particular.
+
+00:06:17,670 --> 00:06:22,710
+You could represent the
+relationships between the individual actors/objects.
+
+00:06:22,710 --> 00:06:24,990
+So, let's add a little bit of structure.
+
+00:06:24,990 --> 00:06:25,560
+You can ask yourself:
+
+00:06:25,560 --> 00:06:27,240
+What are the
+relationships that are relevant?
+
+00:06:27,240 --> 00:06:35,640
+And well, from the puzzle description, there
+are two relationships in particular that are conceivable.
+
+00:06:35,640 --> 00:06:36,720
+On the one hand, the
+possession relationship, so:
+
+00:06:36,720 --> 00:06:40,320
+The farmer has wolf, goat, and cabbage.
+
+00:06:40,320 --> 00:06:45,000
+So here is "owns", even though
+"owns" was not explicitly mentioned in the puzzle text.
+
+00:06:45,000 --> 00:06:48,120
+There was something about "has with him" and
+"shall therefore take with him across the river".
+
+00:06:48,120 --> 00:06:50,310
+That is, so to
+speak, the one relationship.
+
+00:06:50,310 --> 00:06:52,260
+And then there are these relationships,
+
+00:06:52,260 --> 00:06:55,350
+these eating relationships, which are obviously
+also somehow relevant to the puzzle.
+
+00:06:55,350 --> 00:06:57,900
+We need to know who is
+eating whom, so that we can
+
+00:06:57,900 --> 00:07:00,600
+decide which situations are
+safe and which are not.
+
+00:07:00,600 --> 00:07:02,430
+So, we know:
+
+00:07:02,430 --> 00:07:04,674
+Wolf eats goat.
+
+00:07:04,674 --> 00:07:06,180
+Goat eats cabbage.
+
+00:07:06,180 --> 00:07:10,620
+We know, fortunately, that the
+wolf would not eat the farmer.
+
+00:07:10,620 --> 00:07:13,140
+Not even if he was
+alone in the boat with him.
+
+00:07:13,140 --> 00:07:17,220
+And we also know that
+the wolf doesn't eat the cabbage.
+
+00:07:17,220 --> 00:07:21,180
+Although it says "eats" and "eats", it is
+not directly true that the wolf eats the cabbage.
+
+00:07:21,180 --> 00:07:26,850
+This is also important, otherwise
+we could not solve the riddle.
+
+00:07:26,850 --> 00:07:29,220
+Now, you might ask yourself:
+
+00:07:29,220 --> 00:07:30,510
+Why should I do this at all?
+
+00:07:30,510 --> 00:07:32,070
+To capture the puzzle.
+
+00:07:32,070 --> 00:07:37,860
+But perhaps one of the purposes of
+modeling here might be to then be
+
+00:07:37,860 --> 00:07:43,440
+able to describe situations to which the
+solution to this problem would be transferable.
+
+00:07:43,440 --> 00:07:47,460
+So you would have
+other animals, other actors,
+
+00:07:47,460 --> 00:07:50,490
+but with analogous or
+only slightly different feeding relationships.
+
+00:07:50,490 --> 00:07:53,220
+One could then ask oneself:
+
+00:07:53,220 --> 00:07:54,540
+How analogous are the two situations?
+
+00:07:54,540 --> 00:07:59,790
+For example, can a solution to this
+problem be transferred to a similar problem?
+
+00:07:59,790 --> 00:08:04,150
+Then it is not so important which picture
+is here, but the relations are the relevant thing.
+
+00:08:04,150 --> 00:08:08,470
+And that's why it might be
+interesting to model and capture that here.
+
+00:08:10,750 --> 00:08:11,740
+That would be the static side.
+
+00:08:11,740 --> 00:08:17,590
+After all, a bit of somehow
+visualizing the verbal text from the problem description.
+
+00:08:17,590 --> 00:08:20,800
+The dynamic part
+is certainly more interesting.
+
+00:08:20,800 --> 00:08:23,740
+So we have to
+talk about the individual situations.
+
+00:08:23,740 --> 00:08:27,070
+And it makes sense to
+first show the initial situation
+
+00:08:27,070 --> 00:08:28,780
+before crossing the river.
+
+00:08:28,780 --> 00:08:32,740
+Again, first naively as a picture.
+
+00:08:32,740 --> 00:08:35,860
+Here in the middle is
+the river, here is the boat.
+
+00:08:35,860 --> 00:08:38,560
+The problem description does not say that
+
+00:08:38,560 --> 00:08:43,150
+the boat is at the beginning
+on the left side of the river.
+
+00:08:43,150 --> 00:08:47,830
+But if the puzzle should be
+solvable at all, it is certainly
+
+00:08:47,830 --> 00:08:49,990
+understandable that the boat should be
+at the beginning where the farmer is.
+
+00:08:49,990 --> 00:08:54,670
+So we decided to show that here as well.
+
+00:08:54,670 --> 00:08:58,150
+And we also know that
+all four actors are on the
+
+00:08:58,150 --> 00:09:00,670
+same side at the beginning,
+namely where the boat is.
+
+00:09:01,210 --> 00:09:03,220
+So that the puzzle can be
+solved in a meaningful way at all.
+
+00:09:04,870 --> 00:09:05,620
+What is the target situation?
+
+00:09:05,620 --> 00:09:08,500
+Well, it looks like this.
+
+00:09:08,500 --> 00:09:09,400
+The river is still there, of course.
+
+00:09:10,060 --> 00:09:15,100
+But all four actors, and also the boat,
+are, at the end, on the right side.
+
+00:09:15,100 --> 00:09:16,810
+Strictly speaking, the same applies here:
+
+00:09:16,810 --> 00:09:20,410
+The problem description does not require that the
+boat is on the right at the end.
+
+00:09:20,410 --> 00:09:23,830
+The problem description would not
+care where the boat is.
+
+00:09:23,830 --> 00:09:29,290
+So, even a situation where
+these four actors are on the
+
+00:09:29,290 --> 00:09:33,730
+right, but the boat is on the
+left, would be a solution to the problem.
+
+00:09:33,730 --> 00:09:35,710
+But with a little bit of
+thinking, you come up with this:
+
+00:09:35,710 --> 00:09:37,090
+That can't happen at all.
+
+00:09:37,660 --> 00:09:39,730
+So such a situation
+will not be achievable.
+
+00:09:39,730 --> 00:09:40,240
+That's why we can say:
+
+00:09:40,240 --> 00:09:42,940
+This has to be the
+goal; there is no other way.
+
+00:09:45,700 --> 00:09:50,380
+Also, that these three actors/objects end up
+on the right side is
+
+00:09:50,380 --> 00:09:54,340
+not explicitly in the problem
+description (in the puzzle text).
+
+00:09:54,340 --> 00:09:59,680
+But it said that the farmer has them
+with him and would like to cross the river.
+
+00:09:59,680 --> 00:10:03,310
+And from this we conclude
+that he naturally wants to
+
+00:10:03,310 --> 00:10:07,960
+arrive with his three possessions on
+the right side of the river.
+
+00:10:07,960 --> 00:10:10,780
+Therefore, it is justified
+to consider that as the
+
+00:10:10,780 --> 00:10:16,240
+only target situation to be reached.
+
+00:10:18,010 --> 00:10:19,780
+So those would be the two situations.
+
+00:10:19,780 --> 00:10:21,820
+That would still be
+static modeling in a sense.
+
+00:10:21,820 --> 00:10:25,570
+And dynamic would be,
+now, if we deal with
+
+00:10:25,570 --> 00:10:28,615
+how we can get back
+and forth between the situations.
+
+00:10:28,615 --> 00:10:29,200
+After all, we can't say:
+
+00:10:29,200 --> 00:10:30,220
+"We get from here to there."
+
+00:10:30,220 --> 00:10:31,120
+Obviously, we can't.
+
+00:10:31,120 --> 00:10:32,920
+That's not legal, just to say:
+
+00:10:32,920 --> 00:10:37,030
+Yes, the four actors
+cross the river by boat.
+
+00:10:37,030 --> 00:10:39,100
+Then we wouldn't
+have captured the problem.
+
+00:10:39,100 --> 00:10:44,200
+So instead, we have
+to describe more fine-grained, so
+
+00:10:44,200 --> 00:10:46,060
+to speak, individual transitions
+that are really allowed.
+
+00:10:46,060 --> 00:10:47,920
+For example, we might say:
+
+00:10:47,920 --> 00:10:55,120
+In the first step, let the farmer cross
+the river with the wolf in the boat.
+
+00:10:55,120 --> 00:10:58,510
+That's what the arrows
+here are supposed to indicate.
+
+00:11:00,580 --> 00:11:01,171
+What will happen then?
+
+00:11:01,171 --> 00:11:06,310
+Hopefully, it will
+look like this afterwards.
+
+00:11:06,310 --> 00:11:09,130
+The first step is over.
+
+00:11:09,130 --> 00:11:13,360
+We would now want to
+think about the second step.
+
+00:11:13,360 --> 00:11:13,510
+So:
+
+00:11:13,510 --> 00:11:17,590
+What could the farmer do next
+after he brings the wolf over there?
+
+00:11:17,590 --> 00:11:22,990
+He can't do anything, because
+the second step happens immediately:
+
+00:11:22,990 --> 00:11:24,790
+Namely, the goat eats the cabbage.
+
+00:11:25,870 --> 00:11:26,800
+This eating happens immediately,
+
+00:11:26,800 --> 00:11:36,350
+without any possibility of the
+farmer intervening somehow through action.
+
+00:11:36,350 --> 00:11:42,320
+This can also be read from the
+riddle text, if you read it generously, that
+
+00:11:42,320 --> 00:11:46,460
+this eating happens in such a
+way that the farmer cannot prevent it.
+
+00:11:46,460 --> 00:11:47,900
+He can't call over and say:
+
+00:11:47,900 --> 00:11:48,650
+"Leave it."
+
+00:11:48,650 --> 00:11:52,250
+Then the puzzle would be uninteresting if
+he could stop the goat from a distance.
+
+00:11:52,250 --> 00:11:54,890
+He can only do that if he
+is where the goat and the cabbage are.
+
+00:11:54,890 --> 00:12:02,480
+Our real goal, of course,
+is to write this down more
+
+00:12:02,480 --> 00:12:03,890
+clearly now, instead of
+always taking pictures like this.
+
+00:12:05,450 --> 00:12:07,160
+For that, we want
+to use graphs right away.
+
+00:12:07,160 --> 00:12:12,530
+And of course, we do that just
+to have a notation that goes beyond
+
+00:12:12,530 --> 00:12:15,950
+these pictures that have to
+be painted over and over again.
+
+00:12:15,950 --> 00:12:21,800
+For this, we distinguish, in modeling
+and ultimately also in programming (so also
+
+00:12:21,800 --> 00:12:24,800
+in other lectures you will
+encounter these terms): syntax and semantics.
+
+00:12:24,800 --> 00:12:30,200
+So the syntax, the symbols, the
+forms (in our case often diagrams),
+
+00:12:30,200 --> 00:12:33,440
+which one may use for
+the representation of the model.
+
+00:12:33,440 --> 00:12:36,290
+So in this naive example just
+now, of course, these would be
+
+00:12:36,290 --> 00:12:41,360
+the pictures that we saw: the blue area
+for the river, the picture of the goat, etc.
+
+00:12:41,360 --> 00:12:47,180
+And the semantics would be what
+is behind these diagrams, shapes, symbols.
+
+00:12:47,180 --> 00:12:50,450
+So the blue area is actually the river.
+
+00:12:50,450 --> 00:12:52,520
+It separates the two sides.
+
+00:12:52,520 --> 00:12:57,380
+It has some effect,
+because, for example, the river
+
+00:12:57,380 --> 00:13:02,480
+prevents the farmer from influencing what's
+on the other side, and so on.
+
+00:13:04,310 --> 00:13:08,270
+And the arrows that we
+have seen here are also symbols.
+
+00:13:08,270 --> 00:13:14,150
+They are there to express the
+actual action, the step of crossing.
+
+00:13:14,150 --> 00:13:18,380
+That would be the
+semantics of these arrows, etc.
+
+00:13:18,890 --> 00:13:27,290
+Here, of course, it was all very intuitive,
+so one might not even consider it
+
+00:13:27,290 --> 00:13:29,900
+necessary to work out
+what syntax and semantics are.
+
+00:13:29,900 --> 00:13:31,430
+But in general, of course, it is.
+
+00:13:34,140 --> 00:13:35,430
+It's not always so clear.
+
+00:13:35,430 --> 00:13:40,170
+So for a syntax there
+is not always a corresponding semantics.
+
+00:13:40,170 --> 00:13:46,200
+In our example, on the one hand, we
+can say that the semantics is quite vague.
+
+00:13:46,200 --> 00:13:48,750
+On the other hand, the problem
+is so simple that just by looking
+
+00:13:48,750 --> 00:13:51,030
+at it, you have an
+idea of what's going on.
+
+00:13:51,030 --> 00:13:56,430
+In general, of course, one
+would want to capture that somehow.
+
+00:13:57,330 --> 00:14:00,030
+What is desirable in general is
+
+00:14:00,030 --> 00:14:03,060
+that this meaning of symbols
+and shapes is very precise.
+
+00:14:03,060 --> 00:14:06,300
+So that different modelers,
+or different consumers of the
+
+00:14:06,300 --> 00:14:09,870
+model, can understand that respectively,
+and in the same way.
+
+00:14:09,870 --> 00:14:13,440
+For this, a common language/notation is
+
+00:14:13,440 --> 00:14:17,610
+useful, common visual description
+forms to avoid misunderstandings.
+
+00:14:17,610 --> 00:14:25,890
+And indeed, graphs form such a
+
+00:14:25,890 --> 00:14:28,260
+possible language/notation
+for many contexts.
+
+00:14:28,260 --> 00:14:33,540
+That is why they form the basis
+for many modeling techniques designed in graph form.
+
+00:14:33,540 --> 00:14:38,085
+Thereby, of course, such a definition
+can happen exactly for a concrete example.
+
+00:14:38,085 --> 00:14:40,350
+So: We model
+this wolf-goat-cabbage-head problem,
+
+00:14:42,480 --> 00:14:44,760
+and for it, we record what
+the notation and symbols should be.
+
+00:14:44,760 --> 00:14:48,840
+It is even more useful in practice
+
+00:14:48,840 --> 00:14:54,060
+if one can describe in a
+unified way in the modeling approach.
+
+00:14:54,060 --> 00:14:55,290
+Petri nets will be something like that.
+
+00:14:55,290 --> 00:14:59,130
+This will be a modeling approach
+that has a fixed syntax and semantics.
+
+00:14:59,130 --> 00:15:01,785
+So they are independent of the
+specific system that one is modeling.
+
+00:15:01,785 --> 00:15:05,550
+This can be explained in general terms, for
+example, be described in a book, and then quite
+
+00:15:05,550 --> 00:15:10,980
+different problems, systems, models can be
+followed and described with this approach.
+
+00:15:12,240 --> 00:15:16,650
+Then, syntax and semantics
+are unified across multiple models.
+
+00:15:16,650 --> 00:15:20,760
+Otherwise, again as a reminder:
+
+00:15:20,760 --> 00:15:25,770
+Of course, graphs are not
+the only way to create uniformity.
+
+00:15:26,310 --> 00:15:27,480
+Mathematics does that, too.
+
+00:15:27,480 --> 00:15:37,170
+So with textual formulas, with logic,
+you can of course specify things, model
+
+00:15:37,170 --> 00:15:40,920
+things, and also have
+a common formal basis.
+
+00:15:40,920 --> 00:15:43,740
+But here we will mainly work with graphs.
+
+00:15:43,740 --> 00:15:50,760
+Now it didn't always look like a graph.
+
+00:15:50,760 --> 00:15:52,770
+But, of course,
+our previous representation
+
+00:15:52,770 --> 00:15:56,100
+for this problem also hides graphs.
+
+00:15:58,350 --> 00:16:01,560
+So, let's go back to the static modeling.
+
+00:16:01,560 --> 00:16:04,650
+There, we had this picture,
+with the arrows in between.
+
+00:16:04,650 --> 00:16:05,805
+That was a graph, of course.
+
+00:16:05,805 --> 00:16:07,410
+So these
+relationships between the farmer,
+
+00:16:07,410 --> 00:16:12,480
+the wolf, the goat, and the cabbage, we
+could represent with this graph.
+
+00:16:12,480 --> 00:16:17,640
+The edges are labeled with
+the relationships between the nodes, which
+
+00:16:17,640 --> 00:16:21,420
+are labeled with the names of the actors.
+
+00:16:21,420 --> 00:16:31,770
+This is simply the same picture as
+the one here, only now these photos are replaced with symbols.
+
+00:16:33,090 --> 00:16:38,040
+It's totally obvious and clear,
+just a little more abstract.
+
+00:16:38,040 --> 00:16:47,580
+And of course, here again, for example:
+there is no transition from wolf to cabbage with "eats".
+
+00:16:47,580 --> 00:16:51,600
+That expresses the same fact as before.
+
+00:16:54,090 --> 00:16:56,100
+That would be for static modeling.
+
+00:16:56,100 --> 00:16:58,080
+What about the dynamic modeling?
+
+00:16:58,080 --> 00:16:59,250
+There, I had also already said:
+
+00:16:59,250 --> 00:17:04,590
+Then, you would consider the nodes as
+states and the edges as transitions between them.
+
+00:17:04,590 --> 00:17:11,550
+So a bit like the step from
+here to here suggested by the arrows.
+
+00:17:12,210 --> 00:17:15,180
+You would then actually have
+two explicit nodes in the
+
+00:17:15,180 --> 00:17:18,390
+graph, and this arrow would
+go from state to state.
+
+00:17:21,950 --> 00:17:26,120
+Classical representatives of this, that
+is, using graphs for dynamic modeling,
+
+00:17:26,120 --> 00:17:27,830
+are so-called flat state diagrams.
+
+00:17:27,830 --> 00:17:29,330
+They are often also
+called transition systems.
+
+00:17:29,330 --> 00:17:32,270
+They are often
+just called state diagrams.
+
+00:17:32,270 --> 00:17:36,740
+In the lecture, I always
+explicitly say "flat statecharts" until
+
+00:17:36,740 --> 00:17:39,410
+we get to UML statecharts.
+
+00:17:39,410 --> 00:17:42,170
+To make the difference
+
+00:17:42,170 --> 00:17:45,380
+clear, namely that UML statecharts
+are not flat, in a sense.
+
+00:17:46,220 --> 00:17:49,550
+They have more structure than
+just nodes and edges in between.
+
+00:17:49,550 --> 00:17:54,080
+That's why, whenever we
+have just this node-edge
+
+00:17:54,080 --> 00:17:55,760
+structure, I'll talk
+about flat statecharts.
+
+00:17:56,300 --> 00:17:58,280
+I hope that's how
+it's uniformly handled in the
+
+00:17:58,280 --> 00:18:01,280
+exercise task collection by now, too.
+
+00:18:06,890 --> 00:18:08,960
+What is such a flat state diagram?
+
+00:18:08,960 --> 00:18:15,170
+It's actually just a
+directed graph, possibly edge-labeled.
+
+00:18:15,170 --> 00:18:16,610
+So the nodes are states.
+
+00:18:16,610 --> 00:18:19,100
+They'll usually have some
+name, some description, some label.
+
+00:18:19,100 --> 00:18:23,450
+The graph is supposed to be directed, in
+the sense that there are arrows in between.
+
+00:18:23,450 --> 00:18:25,430
+Even though this was
+still static modeling here.
+
+00:18:25,430 --> 00:18:29,720
+But the edges that we
+have are supposed to be directed.
+
+00:18:29,720 --> 00:18:31,310
+They could also be labeled.
+
+00:18:31,310 --> 00:18:36,350
+For example, at the transitions,
+it could somehow say which
+
+00:18:36,350 --> 00:18:38,570
+action is responsible
+for changing the state.
+
+00:18:38,570 --> 00:18:42,470
+But that could be optional.
+
+00:18:42,470 --> 00:18:45,050
+Maybe it's enough to have the
+states as a set of nodes.
+
+00:18:45,050 --> 00:18:46,970
+And the transitions have to be there,
+
+00:18:46,970 --> 00:18:50,840
+but they don't have to be
+labeled extra, with some label on them.
+
+00:18:52,040 --> 00:18:55,700
+Also, you usually want
+to highlight a start state,
+
+00:18:55,700 --> 00:18:58,340
+usually with an incoming arrowhead.
+
+00:18:58,340 --> 00:19:02,840
+And sometimes we also designate
+one or more distinguished end states.
+
+00:19:02,840 --> 00:19:08,210
+Then, one wants to express from where to where
+one would like to go in the state diagram.
+
+00:19:13,750 --> 00:19:16,510
+Let's do that for our little problem.
+
+00:19:16,510 --> 00:19:20,740
+So, a flat state diagram
+for our wolf-goat-cabbage problem.
+
+00:19:20,740 --> 00:19:25,300
+Then we definitely
+have our starting state.
+
+00:19:25,300 --> 00:19:26,650
+That's a little bit of small print here.
+
+00:19:26,650 --> 00:19:29,830
+I hope you can still follow this,
+
+00:19:29,830 --> 00:19:32,380
+even though I'm not
+developing this largely on the whiteboard now.
+
+00:19:33,250 --> 00:19:38,500
+What is meant here in each case (this is
+also written down again on a slide in a moment):
+
+00:19:40,000 --> 00:19:43,480
+The state, which is
+abbreviated by the four actors.
+
+00:19:43,480 --> 00:19:48,175
+And here there is a
+vertical line, which represents the river.
+
+00:19:48,175 --> 00:19:50,620
+So what this first state
+is supposed to symbolize here:
+
+00:19:50,620 --> 00:19:54,220
+Farmer, wolf, goat, cabbage
+are left of the river.
+
+00:19:54,220 --> 00:19:56,140
+This is one possible state, and
+
+00:19:56,140 --> 00:20:00,640
+it's the starting state (that's
+why it's distinguished by this arrowhead).
+
+00:20:03,460 --> 00:20:04,990
+And then you can think:
+
+00:20:04,990 --> 00:20:06,205
+What can happen?
+
+00:20:06,205 --> 00:20:14,080
+We had noted earlier this one
+transition where we come from just
+
+00:20:14,080 --> 00:20:19,120
+this situation (which we also just identified
+as the start state) to this state.
+
+00:20:19,120 --> 00:20:20,980
+That would be the state:
+
+00:20:20,980 --> 00:20:31,180
+Vertical line, goat and cabbage on the left of
+it, farmer and wolf on the right of it.
+
+00:20:31,180 --> 00:20:40,080
+So that would be written down as ZK|FW.
+
+00:20:40,080 --> 00:20:44,340
+Do we have that in our graph as well?
+
+00:20:44,340 --> 00:20:50,100
+Yes, so here first:
+
+00:20:50,100 --> 00:20:51,390
+We also have a target state.
+
+00:20:51,390 --> 00:20:53,850
+But we don't know how to get there yet.
+
+00:20:53,850 --> 00:20:55,740
+Somehow we have to take steps.
+
+00:20:55,740 --> 00:20:56,850
+What could be the first step?
+
+00:20:56,850 --> 00:21:02,340
+For example, the farmer could
+drive the goat across the river.
+
+00:21:02,340 --> 00:21:04,980
+Right now, this is not
+the condition I just showed you.
+
+00:21:08,250 --> 00:21:12,960
+This would be the condition that
+we identified earlier as the problem.
+
+00:21:12,960 --> 00:21:15,720
+Where the farmer crosses
+the river with the wolf.
+
+00:21:15,720 --> 00:21:16,500
+Then we would have that condition.
+
+00:21:16,500 --> 00:21:22,080
+But that's an immediate failure state because
+then the goat will eat the cabbage.
+
+00:21:23,100 --> 00:21:26,850
+And before that, in any order,
+I may have tried other things here.
+
+00:21:26,850 --> 00:21:30,120
+So here I don't have to try anything
+else, but I had decided here for example:
+
+00:21:30,120 --> 00:21:34,110
+Yes, let the farmer cross
+the river with the goat.
+
+00:21:34,110 --> 00:21:37,350
+That's not a failure state, because
+the wolf won't eat the cabbage.
+
+00:21:37,350 --> 00:21:39,360
+That would be a possibility.
+
+00:21:39,360 --> 00:21:40,500
+And then you could think about:
+
+00:21:40,500 --> 00:21:41,610
+What can happen next?
+
+00:21:41,610 --> 00:21:43,710
+Now here came:
+
+00:21:43,710 --> 00:21:44,730
+The farmer could go back.
+
+00:21:44,730 --> 00:21:45,870
+Then the goat would be left alone.
+
+00:21:45,870 --> 00:21:52,650
+The farmer could then cross
+the river with the wolf.
+
+00:21:53,340 --> 00:22:02,580
+So for each of these arrows, for the
+transitions, there is a possible step behind it.
+
+00:22:02,580 --> 00:22:04,710
+There are also such observations as:
+
+00:22:04,710 --> 00:22:07,350
+Except when you've made a step that
+
+00:22:07,350 --> 00:22:10,440
+leads to a failure, you
+can always turn steps around.
+
+00:22:10,440 --> 00:22:13,080
+Then there are two arrows now.
+
+00:22:13,080 --> 00:22:18,180
+The farmer can cross the river with
+the goat, then he would be here.
+
+00:22:18,180 --> 00:22:20,340
+Then this would be the state.
+
+00:22:20,340 --> 00:22:21,150
+But it also works the other way around.
+
+00:22:22,350 --> 00:22:24,480
+That is, everywhere we have an
+arrow, we can turn it around.
+
+00:22:24,480 --> 00:22:27,120
+Except for the failure states, because
+you can't get out of them.
+
+00:22:27,690 --> 00:22:35,970
+They are fatal, literally fatal
+to any of the possessions.
+
+00:22:41,840 --> 00:22:43,340
+Now, as I said, I don't really
+
+00:22:43,340 --> 00:22:46,910
+want to explain or develop
+this step by step here now.
+
+00:22:46,910 --> 00:22:51,800
+But you can, by trial
+and error and following all
+
+00:22:51,800 --> 00:23:00,830
+the possibilities, complete this graph and
+eventually come to a complete picture.
+
+00:23:01,760 --> 00:23:02,720
+This is not yet complete.
+
+00:23:02,720 --> 00:23:03,370
+What's still missing here?
+
+00:23:03,370 --> 00:23:07,400
+We have all these double
+transitions. We have failure states.
+
+00:23:07,400 --> 00:23:09,500
+From the success state, of
+course, you can make a stupid
+
+00:23:09,500 --> 00:23:12,440
+mistake and still spoil it, so to speak.
+
+00:23:12,440 --> 00:23:14,411
+That's probably not what the
+farmer is going to want.
+
+00:23:14,411 --> 00:23:15,170
+So, we would probably say:
+
+00:23:15,170 --> 00:23:18,470
+When the farmer reaches this
+state, he lets it go.
+
+00:23:18,470 --> 00:23:20,840
+And doesn't move around anymore.
+
+00:23:20,840 --> 00:23:22,820
+But purely formally, you could say:
+
+00:23:22,820 --> 00:23:25,730
+You can still go from the
+success state to the failure state.
+
+00:23:25,730 --> 00:23:26,960
+But something is still missing here.
+
+00:23:26,960 --> 00:23:29,330
+And that's because, you
+can think about that:
+
+00:23:29,330 --> 00:23:31,850
+Actually, the graph has to be symmetric.
+
+00:23:31,850 --> 00:23:35,570
+It's completely arbitrary to say that
+the farmer wants to go from left to right.
+
+00:23:35,570 --> 00:23:39,470
+You could just as well have said that the farmer is on
+the right at the beginning and wants to go to the left.
+
+00:23:39,470 --> 00:23:42,950
+So then you would have
+had to develop this graph
+
+00:23:42,950 --> 00:23:45,140
+to start here and end here.
+
+00:23:45,140 --> 00:23:46,336
+And for that, however, the
+graph must be completely symmetrical.
+
+00:23:46,336 --> 00:23:50,990
+So you have to be able
+to tilt it from top to bottom.
+
+00:23:50,990 --> 00:23:54,815
+And then transitions are missing,
+as you can see here.
+
+00:23:54,815 --> 00:23:56,240
+These transitions are still missing.
+
+00:24:03,100 --> 00:24:06,820
+Then the graph
+is both left-right symmetric,
+
+00:24:06,820 --> 00:24:11,906
+because it is mirrored at this axis, and you
+can obviously also mirror it from top to bottom.
+
+00:24:11,906 --> 00:24:15,806
+Then it does not look exactly symmetrical
+when painted on, but in fact it is.
+
+00:24:15,806 --> 00:24:28,870
+So, if you only capture the connections
+and not exactly how the arrows were painted.
+
+00:24:30,940 --> 00:24:38,020
+Namely, these two transitions correspond to the transitions
+from here to here and here to here.
+
+00:24:39,640 --> 00:24:41,125
+Then the graph is indeed symmetrical.
+
+00:24:41,125 --> 00:24:47,800
+This is ultimately due to the
+fact that intuitively one could reverse
+
+00:24:47,800 --> 00:24:52,270
+the feeding relationships and swap
+the roles of wolf and cabbage.
+
+00:24:52,270 --> 00:24:56,440
+Then the symmetry is
+according to this axis.
+
+00:24:56,440 --> 00:24:59,470
+And the symmetry according to
+this axis is that it
+
+00:24:59,470 --> 00:25:02,200
+wouldn't really matter whether you want left to
+right or right to left as a farmer.
+
+00:25:02,200 --> 00:25:08,050
+The symmetry in terms
+of beginning and end.
+
+00:25:11,410 --> 00:25:13,630
+So, the notation here was:
+
+00:25:13,630 --> 00:25:15,100
+The vertical line represents
+the river; on the
+
+00:25:15,100 --> 00:25:19,510
+left and on the right are
+the actors, whose order doesn't matter.
+
+00:25:19,510 --> 00:25:24,010
+So, I would not make a
+difference between the states WKFZ and KWFZ.
+
+00:25:24,010 --> 00:25:29,770
+Therefore, just always sort the
+letters in a certain consistent way.
+
+00:25:29,770 --> 00:25:33,550
+Because it wouldn't matter in which order they
+are standing there on one side of the river.
+
+00:25:33,550 --> 00:25:36,610
+I don't specify the boat at all.
+
+00:25:36,610 --> 00:25:39,790
+It appears in the picture before, but
+actually I don't need to specify it,
+
+00:25:39,790 --> 00:25:42,340
+because it will always be
+where the farmer is anyway.
+
+00:25:42,340 --> 00:25:45,910
+That's why it doesn't show
+up in the notation anymore.
+
+00:25:45,910 --> 00:25:49,000
+I had not labelled the transitions here.
+
+00:25:49,000 --> 00:25:51,970
+Of course, you could have labelled them
+by always writing the action on them.
+
+00:25:51,970 --> 00:25:52,480
+For example:
+
+00:25:52,480 --> 00:25:54,070
+"The farmer brings the
+goat across the river."
+
+00:25:54,070 --> 00:25:56,110
+Think up some name for it, a short
+
+00:25:56,110 --> 00:25:59,230
+label, and write that
+on the corresponding arrows.
+
+00:25:59,230 --> 00:26:03,370
+I didn't do that here now for clarity.
+
+00:26:03,370 --> 00:26:07,510
+I had used the
+angular red states for failures.
+
+00:26:07,510 --> 00:26:09,820
+So, for example, when
+the goat eats the cabbage.
+
+00:26:09,820 --> 00:26:14,470
+Such actions have priority over
+crossings in a certain sense, which
+
+00:26:14,470 --> 00:26:19,750
+is why there are no
+return edges from failure nodes.
+
+00:26:20,470 --> 00:26:25,200
+I can't reverse this arrow here,
+because in that case it's a failure.
+
+00:26:25,200 --> 00:26:27,430
+The goat eats the
+cabbage and then nothing works.
+
+00:26:27,430 --> 00:26:36,340
+That's why edges leading out
+of such states were omitted.
+
+00:26:36,340 --> 00:26:42,820
+Because they are not allowed according
+to the semantics of the problem.
+
+00:26:44,170 --> 00:26:47,440
+And this double-blue
+ellipse, I had already
+
+00:26:47,440 --> 00:26:52,570
+marked as the desired target
+state at the very beginning.
+
+00:26:54,880 --> 00:26:57,580
+So in a certain way, you
+could say here, this is the syntax/semantics
+
+00:26:57,580 --> 00:27:00,040
+description for this graph.
+
+00:27:00,040 --> 00:27:04,060
+In general, labels like
+that are not redundant.
+
+00:27:04,060 --> 00:27:06,820
+This is really a choice I made here.
+
+00:27:06,820 --> 00:27:10,300
+Simply so that the
+representation doesn't get more complicated.
+
+00:27:10,300 --> 00:27:11,560
+In general, it can already be
+
+00:27:11,560 --> 00:27:14,950
+very important to have the
+labels on the edges as well.
+
+00:27:18,550 --> 00:27:23,410
+Also, the colors could be seen
+as separate labels in the end.
+
+00:27:23,410 --> 00:27:27,700
+The fact that a node is red
+or blue could also be seen as:
+
+00:27:27,700 --> 00:27:31,840
+This is yet another label
+that is on the node.
+
+00:27:34,330 --> 00:27:36,910
+What else can be
+seen on the concrete graph?
+
+00:27:36,910 --> 00:27:42,700
+There are several paths from the
+start state to the target state.
+
+00:27:42,700 --> 00:27:46,600
+A solution to the problem
+would be exactly one path through
+
+00:27:46,600 --> 00:27:49,150
+this graph that
+somehow follows the arrows.
+
+00:27:49,150 --> 00:27:55,330
+Just because of this part of the graph,
+where one could always follow the arrows here,
+
+00:27:55,330 --> 00:27:59,140
+it turns out that there are infinitely
+many solutions, which also become arbitrarily long.
+
+00:27:59,140 --> 00:28:03,850
+If the farmer somehow always carries out
+so to speak senseless actions in this circle,
+
+00:28:03,850 --> 00:28:07,030
+before he then decides to go
+truly in the direction of the goal.
+
+00:28:07,030 --> 00:28:13,490
+From this, you can see that although it is
+a finite graph, it contains infinitely many paths.
+
+00:28:13,490 --> 00:28:18,980
+In fact, there are infinitely
+many, arbitrarily long, successful paths.
+
+00:28:18,980 --> 00:28:24,470
+The two shortest ones
+contain seven transitions each, and
+
+00:28:24,470 --> 00:28:26,600
+these are the interesting ones
+for the solution of the problem.
+
+00:28:31,400 --> 00:28:37,160
+Already this graph has
+not been really small now.
+
+00:28:37,160 --> 00:28:42,620
+But for interesting actual
+systems, such flat state diagrams
+
+00:28:42,620 --> 00:28:48,080
+can get amazingly large very
+quickly, even for relatively simple systems.
+
+00:28:48,080 --> 00:28:49,940
+This is called state explosion.
+
+00:28:49,940 --> 00:28:52,610
+It simply means that even with
+just a few ingredients, there are still
+
+00:28:52,610 --> 00:28:55,490
+a lot of possible
+states, and correspondingly complicated graphs.
+
+00:28:55,490 --> 00:28:58,880
+And you can't really
+avoid that with flat state
+
+00:28:58,880 --> 00:29:03,200
+diagrams, because they just represent
+all states and all transitions explicitly.
+
+00:29:03,200 --> 00:29:07,880
+This will later be a motivation for
+the already mentioned UML state diagrams, which
+
+00:29:07,880 --> 00:29:13,370
+have extra structure, and therefore can
+avoid this explosion to some extent.
+
+00:29:18,830 --> 00:29:22,070
+In our problem, sometimes
+in other problems as well,
+
+00:29:22,070 --> 00:29:27,620
+one can exploit symmetry, for instance, to get a
+little bit on top of the state explosion problem.
+
+00:29:27,620 --> 00:29:30,620
+In general, you just
+need more powerful modeling tools.
+
+00:29:30,620 --> 00:29:34,850
+But let's just work with graphs for now.

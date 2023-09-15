@@ -1,0 +1,1679 @@
+31 # slide
+00:00:00,000 --> 00:00:11,190
+Im letzten Video hatte ich davon gesprochen, dass
+wir vor allem mit Diagrammen modellieren werden.
+
+00:00:11,190 --> 00:00:16,830
+Und ich hatte auch schon erwähnt, dass das dann in
+der Regel irgendwelche Graph-Strukturen sein werden.
+
+00:00:16,830 --> 00:00:21,420
+Graphen kennen Sie mindestens intuitiv.
+
+00:00:21,420 --> 00:00:25,590
+Vielleicht haben Sie diese auch
+schon mal formaler betrachtet,
+
+00:00:25,590 --> 00:00:27,510
+im Schulunterricht Mathematik zum Beispiel.
+
+00:00:27,510 --> 00:00:30,480
+Also, Graphen sind erstmal,
+anschaulich, netzartige Strukturen,
+
+00:00:30,480 --> 00:00:37,170
+bestehend aus Knoten und Kanten, die
+zusammen einen Zusammenhang bilden.
+
+00:00:38,430 --> 00:00:40,890
+Es gibt verschiedene Arten von Graphen.
+
+00:00:40,890 --> 00:00:42,510
+Hier ist einfach mal ein Beispiel angegeben.
+
+00:00:42,510 --> 00:00:44,400
+Dieser Graph ist zum Beispiel gerichtet, insofern,
+
+00:00:44,400 --> 00:00:48,150
+dass die Kanten jeweils ein Ende haben,
+das durch einen Pfeil markiert ist.
+
+00:00:48,150 --> 00:00:51,450
+Es gibt auch Graphen, wo das irrelevant
+ist, wo man einfach nur die Verbindung hat,
+
+00:00:51,450 --> 00:00:53,400
+ohne eine spezielle Richtung vorzugeben.
+
+00:00:53,400 --> 00:00:56,640
+Es gibt die Möglichkeit, die
+hier nicht realisiert ist,
+
+00:00:56,640 --> 00:01:00,540
+dass es zwischen den gleichen
+zwei Knoten mehrere Kanten gibt.
+
+00:01:00,540 --> 00:01:04,230
+Weil es vielleicht verschiedene Wege geben soll,
+oder vielleicht einen Hinweg und einen Rückweg.
+
+00:01:04,230 --> 00:01:05,700
+Das tritt hier jetzt nicht auf.
+
+00:01:05,700 --> 00:01:07,170
+Das ist aber mathematisch erlaubt.
+
+00:01:07,170 --> 00:01:09,780
+Wir können Knoten- und Kantenbeschriftungen haben.
+
+00:01:09,780 --> 00:01:13,410
+Hier haben wir die Knoten mit Zahlen und
+die Kanten mit Buchstaben beschriftet.
+
+00:01:13,410 --> 00:01:17,550
+Beides wäre allgemein optional
+oder könnte anders gestaltet sein.
+
+00:01:17,550 --> 00:01:22,230
+Graphen können im Prinzip
+mathematisch gesehen unendlich sein.
+
+00:01:22,230 --> 00:01:25,320
+Wir werden es in der Regel natürlich
+eher mit endlichen Graphen zu tun haben,
+
+00:01:25,320 --> 00:01:27,540
+weil unsere Modelle endlich sein sollen.
+
+00:01:27,540 --> 00:01:30,480
+Also, da gibt es verschiedene
+Spielarten von Graphen.
+
+00:01:30,480 --> 00:01:33,600
+Aber sie haben alle diese Grundidee gemeinsam,
+
+00:01:33,600 --> 00:01:38,340
+Sachverhalte auszudrücken durch
+Knoten und dazwischenliegende Kanten.
+
+00:01:38,340 --> 00:01:43,890
+Und nicht überraschend können Graphen gut
+für die Modellierung eingesetzt werden.
+
+00:01:43,890 --> 00:01:47,670
+Einerseits denkbar für die statische
+Modellierung, wenn es darum geht,
+
+00:01:47,670 --> 00:01:51,000
+die Beschaffenheit eines Systems zu beschreiben.
+
+00:01:51,000 --> 00:01:55,560
+Dann könnten zum Beispiel die Knoten für
+einzelne Komponenten des Systems stehen,
+
+00:01:55,560 --> 00:02:01,860
+und die Beziehungen zwischen diesen Komponenten
+dann eben durch die Kanten dargestellt werden.
+
+00:02:01,860 --> 00:02:05,670
+Oder für dynamische Modellierung
+könnte man sich vorstellen,
+
+00:02:05,670 --> 00:02:08,490
+dass die Knoten einzelne Zustände sind.
+
+00:02:08,490 --> 00:02:15,360
+Also jeweils die Ausprägung der Gesamtheit
+des Systems zu einem konkreten Zeitpunkt
+
+00:02:15,360 --> 00:02:20,520
+wäre ein solcher Zustand (statt dass der
+gesamte Graph den Zustand repräsentiert).
+
+00:02:20,520 --> 00:02:25,830
+Und die Kanten wären dann Übergänge/Transitionen
+zwischen einzelnen Zuständen des Systems.
+
+00:02:25,830 --> 00:02:30,030
+Also beschreibend, zum Beispiel, wie
+das System sich zeitlich entwickelt.
+
+00:02:30,030 --> 00:02:33,600
+Oder unter welchen Bedingungen, die vielleicht
+an diese Kanten geschrieben werden,
+
+00:02:33,600 --> 00:02:39,480
+das System einen Zustandsübergang von einer
+speziellen Ausprägung zu einer anderen macht.
+
+00:02:39,480 --> 00:02:47,160
+Das erst mal ganz allgemein für die
+Rolle, die Graphen haben könnten.
+
+00:02:48,870 --> 00:02:53,220
+Dann werde ich jetzt ein Beispiel
+machen, das etwas artifiziell,
+
+00:02:53,220 --> 00:02:56,910
+etwas weit hergeholt vielleicht erscheinen
+mag, insbesondere als Modellierungsbeispiel.
+
+00:02:56,910 --> 00:03:03,600
+Es ist auch nichts irgendwie
+Informatisches, also kein Informatiksystem.
+
+00:03:03,600 --> 00:03:05,730
+Und genaugenommen könnte man auch sagen:
+
+00:03:05,730 --> 00:03:06,780
+Das ist einfach ein kleines Rätsel.
+
+00:03:06,780 --> 00:03:09,600
+Ein kleines Puzzle, das manche von
+Ihnen vielleicht bereits kennen.
+
+00:03:10,200 --> 00:03:12,990
+Eventuell aus dem Informatik-Vorkurs,
+da wird Ähnliches gemacht.
+
+00:03:12,990 --> 00:03:18,180
+Vielleicht auch einfach aus anderen
+Kontexten, und sei es aus der Schule.
+
+00:03:18,180 --> 00:03:22,080
+Ich mache es deswegen hier, weil es mir
+auf sehr naive Art und Weise erlaubt,
+
+00:03:22,080 --> 00:03:24,150
+ein bisschen diesen Abstraktionsprozess zu zeigen.
+
+00:03:24,150 --> 00:03:29,520
+Und eine Notation für ein konkretes
+Problem zu finden und das dann als Graph darzustellen.
+
+00:03:29,520 --> 00:03:33,750
+Also Graphen ins Spiel zu bringen,
+um dieses Problem letztlich zu lösen.
+
+00:03:34,470 --> 00:03:36,960
+Also Sie können sagen, es hat gar
+nicht so viel Modellierungsanteil.
+
+00:03:36,960 --> 00:03:42,330
+Aber etwa der Übergangsgraph, der
+jetzt hier vorkommen wird,
+
+00:03:42,330 --> 00:03:46,080
+der wird schon anklingen an etwas,
+das wir später benutzen werden.
+
+00:03:46,080 --> 00:03:48,570
+Sowohl bei Petrinetzen als auch
+bei UML-Zustandsdiagrammen.
+
+00:03:48,570 --> 00:03:52,980
+Deswegen mache ich dieses Beispiel,
+nicht weil es jetzt wirklich ein so
+
+00:03:52,980 --> 00:03:55,290
+realistisches Modellierungsproblem darstellt.
+
+00:03:56,460 --> 00:03:57,030
+Also, was ist das Problem?
+
+00:03:57,030 --> 00:03:59,910
+Wolf-Ziege-Kohlkopf, steht ja hier.
+
+00:03:59,910 --> 00:04:01,440
+Also, wir haben so eine Rätselwelt.
+
+00:04:01,440 --> 00:04:03,480
+Es gibt den Farmer, der
+einen Fluss überqueren will.
+
+00:04:04,110 --> 00:04:10,230
+Er hat diese drei Dinge bzw. Tiere
+(Wolf, Ziege und Kohlkopf) bei sich.
+
+00:04:10,230 --> 00:04:12,000
+Er möchte über den Fluss, wie gesagt.
+
+00:04:12,000 --> 00:04:12,900
+Dafür gibt es ein Boot.
+
+00:04:12,900 --> 00:04:16,710
+Im Boot ist aber nur Platz für zwei.
+
+00:04:16,710 --> 00:04:21,810
+Also für den Farmer jeweils selbst (denn keins der
+anderen drei, weder Wolf noch Ziege noch Kohlkopf,
+
+00:04:21,810 --> 00:04:28,110
+kann selbst rudern; also muss der Farmer immer
+mit) und immer nur eines von seinen Besitztümern.
+
+00:04:31,320 --> 00:04:33,960
+Also insbesondere auch nicht
+zwei von diesen Besitztümern.
+
+00:04:33,960 --> 00:04:37,740
+Und das Problem ist jetzt, dass die Ziege gerne
+
+00:04:37,740 --> 00:04:38,575
+den Kohlkopf fressen möchte, und der
+Wolf gerne die Ziege fressen möchte.
+
+00:04:38,575 --> 00:04:43,590
+Wenn also der Farmer mit dem Kohlkopf
+über den Fluss führe, dann wären
+
+00:04:43,590 --> 00:04:45,870
+Wolf und Ziege allein und der
+Wolf würde die Ziege fressen.
+
+00:04:47,820 --> 00:04:52,050
+Und da nur der Farmer rudern kann,
+und er den Fluss entweder allein
+
+00:04:52,050 --> 00:04:55,860
+oder mit einem Tier oder dem Kohlkopf
+überqueren kann, wäre jetzt die Frage:
+
+00:04:56,460 --> 00:04:59,130
+Ist es für den Farmer möglich,
+den Fluss zu überqueren,
+
+00:04:59,130 --> 00:05:02,400
+ohne dabei eines von seinen
+Besitztümern zu verlieren?
+
+00:05:04,110 --> 00:05:05,640
+Was könnte man hier überhaupt modellieren wollen?
+
+00:05:05,640 --> 00:05:09,840
+Naja, zum Beispiel die Akteure, die hier
+vorkommen, die das System ausmachen.
+
+00:05:09,840 --> 00:05:11,940
+Und Beziehungen zwischen den Akteuren.
+
+00:05:11,940 --> 00:05:17,130
+Vielleicht Start- und Zielzustand und
+natürlich das Verhalten, das Vorgehen.
+
+00:05:17,130 --> 00:05:18,900
+Was passieren kann.
+
+00:05:18,900 --> 00:05:22,500
+Wie sich die Zustände entwickeln können und
+wie man vielleicht vom Start zum Ziel kommt.
+
+00:05:22,500 --> 00:05:24,990
+Also nicht Start und Ziel einfach
+nur links und rechts des Flusses.
+
+00:05:24,990 --> 00:05:27,270
+Sondern tatsächlich, Start:
+
+00:05:27,270 --> 00:05:30,450
+Der Farmer ist mit seinem
+Besitztum auf der einen Seite.
+
+00:05:30,450 --> 00:05:31,290
+Und Ziel:
+
+00:05:31,290 --> 00:05:33,240
+Der Farmer ist mit all seinen
+Besitztümern auf der anderen Seite.
+
+00:05:33,240 --> 00:05:38,430
+Also in gewissem Sinne ist es natürlich
+nicht unbedingt ein Modellierungsproblem,
+
+00:05:38,430 --> 00:05:43,890
+sondern eher ein Weg, sich an einem Beispiel
+nochmal mehr mit Graphen bekannt zu machen.
+
+00:05:44,730 --> 00:05:46,890
+So werde ich es zumindest benutzen.
+
+00:05:46,890 --> 00:05:49,500
+Also, ganz naiv:
+
+00:05:49,500 --> 00:05:51,690
+Erstes statisches Modell.
+
+00:05:51,690 --> 00:05:54,660
+Wer sind die beteiligten Akteure und Objekte?
+
+00:05:54,660 --> 00:05:55,860
+Genau diese vier.
+
+00:05:55,860 --> 00:05:58,470
+Hier ist noch wenig Struktur,
+oder gar keine Struktur.
+
+00:05:58,470 --> 00:06:03,780
+Das ist einfach eine Menge von vier
+Elementen, also kein wirklicher Graph.
+
+00:06:03,780 --> 00:06:08,700
+Naiv gesehen ist es auch ein Graph, der eben
+aus vier Knoten besteht und gar keiner Kante.
+
+00:06:08,700 --> 00:06:14,220
+Aber das würde man jetzt nicht wirklich als einen
+Graph bezeichnen, weil man keine Netzstruktur hat.
+
+00:06:14,220 --> 00:06:17,670
+Also, das geht sicherlich besser,
+informativer insbesondere.
+
+00:06:17,670 --> 00:06:22,710
+Man könnte die Beziehungen zwischen den
+einzelnen Akteuren/Objekten darstellen.
+
+00:06:22,710 --> 00:06:24,990
+Also, fügen wir ein bisschen Struktur hinzu.
+
+00:06:24,990 --> 00:06:25,560
+Da kann man sich fragen:
+
+00:06:25,560 --> 00:06:27,240
+Was sind denn die Beziehungen, die relevant sind?
+
+00:06:27,240 --> 00:06:35,640
+Und naja, aus der Rätselbeschreibung ergeben sich
+insbesondere zwei Beziehungen, die denkbar sind.
+
+00:06:35,640 --> 00:06:36,720
+Einmal die Besitztums-Beziehung, also:
+
+00:06:36,720 --> 00:06:40,320
+Der Farmer hat Wolf, Ziege und Kohlkopf.
+
+00:06:40,320 --> 00:06:45,000
+Also hier ist "besitzt", auch wenn jetzt
+im Rätseltext nichts von "besitzt" stand.
+
+00:06:45,000 --> 00:06:48,120
+Da stand was von "hat bei sich" und
+"sollen daher mit über den Fluss".
+
+00:06:48,120 --> 00:06:50,310
+Das ist sozusagen die eine Beziehung.
+
+00:06:50,310 --> 00:06:52,260
+Und dann gibt es diese Beziehungen,
+
+00:06:52,260 --> 00:06:55,350
+diese Fressbeziehungen, die offenbar auch
+irgendwie relevant sind für das Rätsel.
+
+00:06:55,350 --> 00:06:57,900
+Wir müssen wissen, wer wen frisst,
+damit wir entscheiden können,
+
+00:06:57,900 --> 00:07:00,600
+welche Situationen sicher sind und welche nicht.
+
+00:07:00,600 --> 00:07:02,430
+Also, wir wissen:
+
+00:07:02,430 --> 00:07:04,674
+Wolf frisst Ziege.
+
+00:07:04,674 --> 00:07:06,180
+Ziege frisst Kohlkopf.
+
+00:07:06,180 --> 00:07:10,620
+Wir wissen zum Glück, dass der
+Wolf den Farmer nicht fressen würde.
+
+00:07:10,620 --> 00:07:13,140
+Selbst dann nicht, wenn er
+allein mit ihm im Boot wäre.
+
+00:07:13,140 --> 00:07:17,220
+Und wir wissen auch, dass der
+Wolf nicht den Kohlkopf frisst.
+
+00:07:17,220 --> 00:07:21,180
+Obwohl hier "frisst" und "frisst" steht, gilt
+nicht direkt, dass der Wolf den Kohlkopf frisst.
+
+00:07:21,180 --> 00:07:26,850
+Das ist auch wichtig, sonst
+könnten wir das Rätsel nicht lösen.
+
+00:07:26,850 --> 00:07:29,220
+Jetzt könnte man sich fragen:
+
+00:07:29,220 --> 00:07:30,510
+Warum soll ich das hier überhaupt machen?
+
+00:07:30,510 --> 00:07:32,070
+Um das Rätsel zu erfassen.
+
+00:07:32,070 --> 00:07:37,860
+Aber vielleicht könnte auch ein Sinn der
+Modellierung hier sein, dass man vielleicht
+
+00:07:37,860 --> 00:07:43,440
+dann auch Situationen beschreiben kann, auf die
+die Lösung dieses Problems übertragbar wäre.
+
+00:07:43,440 --> 00:07:47,460
+Also hätte man andere Tiere, andere Akteure,
+
+00:07:47,460 --> 00:07:50,490
+aber mit analogen oder nur leicht
+abweichenden Fressbeziehungen.
+
+00:07:50,490 --> 00:07:53,220
+Da könnte man sich dann fragen:
+
+00:07:53,220 --> 00:07:54,540
+Wie analog sind die beiden Situationen?
+
+00:07:54,540 --> 00:07:59,790
+Kann man zum Beispiel eine Lösung für dieses
+Problem auch auf ein ähnliches Problem übertragen?
+
+00:07:59,790 --> 00:08:04,150
+Dann ist es nicht so wichtig, welches Bild hier
+ist, sondern die Beziehungen sind das Relevante.
+
+00:08:04,150 --> 00:08:08,470
+Und deswegen ist es vielleicht interessant,
+das hier zu modellieren und festzuhalten.
+
+00:08:10,750 --> 00:08:11,740
+Das wäre die statische Seite.
+
+00:08:11,740 --> 00:08:17,590
+Immerhin ein bisschen irgendwie das Verbale
+aus der Problembeschreibung visualisiert.
+
+00:08:17,590 --> 00:08:20,800
+Interessanter ist sicherlich
+der dynamische Anteil.
+
+00:08:20,800 --> 00:08:23,740
+Da müssen wir also von den
+einzelnen Situationen reden.
+
+00:08:23,740 --> 00:08:27,070
+Und sinnvoll ist, zunächst erst
+mal die Ausgangssituation vor
+
+00:08:27,070 --> 00:08:28,780
+Überquerung des Flusses darzustellen.
+
+00:08:28,780 --> 00:08:32,740
+Auch wieder erst mal naiv als Bild.
+
+00:08:32,740 --> 00:08:35,860
+Hier in der Mitte sei der
+Fluss, hier sei das Boot.
+
+00:08:35,860 --> 00:08:38,560
+Das steht zwar in der Problembeschreibung gar
+
+00:08:38,560 --> 00:08:43,150
+nicht drin, dass das Boot sich zu
+Beginn links des Flusses befindet.
+
+00:08:43,150 --> 00:08:47,830
+Aber wenn das Rätsel überhaupt lösbar sein
+soll, ist es sicherlich nachvollziehbar,
+
+00:08:47,830 --> 00:08:49,990
+dass das Boot am Anfang da
+sein sollte, wo der Farmer ist.
+
+00:08:49,990 --> 00:08:54,670
+Also, wir haben uns entschlossen,
+das auch hier mit darzustellen.
+
+00:08:54,670 --> 00:08:58,150
+Und wir wissen auch, dass alle
+vier Akteure am Anfang auf der
+
+00:08:58,150 --> 00:09:00,670
+gleichen Seite sind, und zwar da, wo das Boot ist.
+
+00:09:01,210 --> 00:09:03,220
+Damit das Rätsel überhaupt sinnvoll lösbar ist.
+
+00:09:04,870 --> 00:09:05,620
+Was ist die Zielsituation?
+
+00:09:05,620 --> 00:09:08,500
+Naja, die sieht halt so aus.
+
+00:09:08,500 --> 00:09:09,400
+Der Fluss ist natürlich immer noch da.
+
+00:09:10,060 --> 00:09:15,100
+Aber alle vier Akteure und auch das
+Boot sind am Ende auf der rechten Seite.
+
+00:09:15,100 --> 00:09:16,810
+Genau genommen gilt auch hier:
+
+00:09:16,810 --> 00:09:20,410
+Die Problembeschreibung verlangt gar
+nicht, dass das Boot am Ende rechts ist.
+
+00:09:20,410 --> 00:09:23,830
+Der Problembeschreibung wäre
+das egal, wo das Boot ist.
+
+00:09:23,830 --> 00:09:29,290
+Also auch eine Situation, in der
+diese vier Akteure rechts sind,
+
+00:09:29,290 --> 00:09:33,730
+aber das Boot auf der linken Seite
+ist, wäre eine Lösung des Problems.
+
+00:09:33,730 --> 00:09:35,710
+Aber mit ein bisschen Nachdenken kommt man darauf:
+
+00:09:35,710 --> 00:09:37,090
+Das kann gar nicht passieren.
+
+00:09:37,660 --> 00:09:39,730
+Also, so eine Situation wird nicht erreichbar sein.
+
+00:09:39,730 --> 00:09:40,240
+Deswegen können wir mal sagen:
+
+00:09:40,240 --> 00:09:42,940
+Das muss das Ziel sein, anders geht es gar nicht.
+
+00:09:45,700 --> 00:09:50,380
+Auch dass diese drei Akteure/Objekte
+am Ende auf der rechten Seite sind,
+
+00:09:50,380 --> 00:09:54,340
+steht nicht explizit in der
+Problembeschreibung (im Rätseltext) drin.
+
+00:09:54,340 --> 00:09:59,680
+Da stand aber, dass der Farmer die bei sich
+hat und gern den Fluss überqueren möchte.
+
+00:09:59,680 --> 00:10:03,310
+Und daraus schließen wir,
+dass er natürlich mit seinen
+
+00:10:03,310 --> 00:10:07,960
+drei Besitztümern auf der rechten
+Seite des Flusses ankommen will.
+
+00:10:07,960 --> 00:10:10,780
+Deswegen ist es gerechtfertigt, das als die
+
+00:10:10,780 --> 00:10:16,240
+einzige und zu erreichende
+Zielsituation anzusehen.
+
+00:10:18,010 --> 00:10:19,780
+Das wären also die beiden Situationen.
+
+00:10:19,780 --> 00:10:21,820
+Das wäre in gewissem Sinne immer
+noch statische Modellierung.
+
+00:10:21,820 --> 00:10:25,570
+Und dynamisch wäre jetzt, wenn
+wir uns damit beschäftigen,
+
+00:10:25,570 --> 00:10:28,615
+wie wir denn zwischen den Situationen
+hin- und herkommen können.
+
+00:10:28,615 --> 00:10:29,200
+Wir können ja nicht sagen:
+
+00:10:29,200 --> 00:10:30,220
+Wir kommen von hier nach da.
+
+00:10:30,220 --> 00:10:31,120
+Offensichtlich nicht.
+
+00:10:31,120 --> 00:10:32,920
+Es ist nicht legal, einfach zu sagen:
+
+00:10:32,920 --> 00:10:37,030
+Ja, die vier Akteure überqueren
+mit dem Boot den Fluss.
+
+00:10:37,030 --> 00:10:39,100
+Dann hätten wir das Problem nicht erfasst.
+
+00:10:39,100 --> 00:10:44,200
+Stattdessen müssen wir also
+sozusagen feinkörniger einzelne
+
+00:10:44,200 --> 00:10:46,060
+Übergänge beschreiben, die wirklich erlaubt sind.
+
+00:10:46,060 --> 00:10:47,920
+Zum Beispiel könnten wir sagen:
+
+00:10:47,920 --> 00:10:55,120
+Im ersten Schritt möge der Farmer mit dem
+Wolf in dem Boot den Fluss überqueren.
+
+00:10:55,120 --> 00:10:58,510
+Das sollen die Pfeile hier andeuten.
+
+00:11:00,580 --> 00:11:01,171
+Was wird dann passieren?
+
+00:11:01,171 --> 00:11:06,310
+Da sieht das hinterher hoffentlich so aus.
+
+00:11:06,310 --> 00:11:09,130
+Der erste Schritt ist vorbei.
+
+00:11:09,130 --> 00:11:13,360
+Wir würden uns jetzt den zweiten
+Schritt überlegen wollen.
+
+00:11:13,360 --> 00:11:13,510
+Also:
+
+00:11:13,510 --> 00:11:17,590
+Was könnte der Farmer als nächstes machen,
+nachdem er den Wolf nach drüben gebracht hat?
+
+00:11:17,590 --> 00:11:22,990
+Er kann gar nichts machen, denn der
+zweite Schritt passiert unmittelbar:
+
+00:11:22,990 --> 00:11:24,790
+Nämlich die Ziege frisst den Kohlkopf.
+
+00:11:25,870 --> 00:11:26,800
+Dieses Fressen geschieht sofort,
+
+00:11:26,800 --> 00:11:36,350
+ohne dass der Farmer irgendwie durch eine Aktion
+eingreifen könnte.
+
+00:11:36,350 --> 00:11:42,320
+Das kann man aus dem Rätseltext auch
+ablesen, wenn man diesen wohlwollend liest,
+
+00:11:42,320 --> 00:11:46,460
+dass dieses Fressen so geschieht, dass
+der Farmer es nicht verhindern kann.
+
+00:11:46,460 --> 00:11:47,900
+Er kann nicht rüber rufen und sagen:
+
+00:11:47,900 --> 00:11:48,650
+"Lass mal."
+
+00:11:48,650 --> 00:11:52,250
+Dann wäre das Rätsel uninteressant, wenn er
+die Ziege aus der Entfernung aufhalten könnte.
+
+00:11:52,250 --> 00:11:54,890
+Er kann das nur, wenn er da ist,
+wo die Ziege und der Kohlkopf sind.
+
+00:11:54,890 --> 00:12:02,480
+Unser eigentliches Ziel ist natürlich,
+das jetzt klarer aufzuschreiben,
+
+00:12:02,480 --> 00:12:03,890
+statt immer nur solche Bilder zu machen.
+
+00:12:05,450 --> 00:12:07,160
+Dafür wollen wir gleich Graphen benutzen.
+
+00:12:07,160 --> 00:12:12,530
+Und natürlich tun wir das eben,
+um eine Notation zu haben,
+
+00:12:12,530 --> 00:12:15,950
+die über diese immer wieder
+zu malenden Bilder hinausgeht.
+
+00:12:15,950 --> 00:12:21,800
+Dafür unterscheidet man beim Modellieren,
+letztlich auch beim Programmieren (also auch
+
+00:12:21,800 --> 00:12:24,800
+in anderen Vorlesungen werden Ihnen diese
+Begriffe begegnen): Syntax und Semantik.
+
+00:12:24,800 --> 00:12:30,200
+Also die Syntax, die Symbole, die
+Formen (bei uns oft Diagramme),
+
+00:12:30,200 --> 00:12:33,440
+die man für die Darstellung
+des Modells nutzen darf.
+
+00:12:33,440 --> 00:12:36,290
+Also in diesem naiven Beispiel eben
+wären das natürlich diese Bilder,
+
+00:12:36,290 --> 00:12:41,360
+die wir gesehen haben: die blaue Fläche
+für den Fluss, das Bild der Ziege etc.
+
+00:12:41,360 --> 00:12:47,180
+Und die Semantik wäre, was sich denn hinter diesen
+Diagrammen, Formen, Symbolen verbirgt.
+
+00:12:47,180 --> 00:12:50,450
+Also die blaue Fläche ist tatsächlich der Fluss.
+
+00:12:50,450 --> 00:12:52,520
+Er trennt die beiden Seiten.
+
+00:12:52,520 --> 00:12:57,380
+Er hat irgendeinen Effekt, da zum
+Beispiel der Fluss verhindert,
+
+00:12:57,380 --> 00:13:02,480
+dass der Farmer Einfluss darauf nimmt, was
+sich auf der anderen Seite befindet, etc.
+
+00:13:04,310 --> 00:13:08,270
+Und die Pfeile, die wir hier gesehen
+haben, das sind eben auch Symbole.
+
+00:13:08,270 --> 00:13:14,150
+Die sind dafür da, die eigentliche Aktion
+auszudrücken, also den Schritt des Überquerens.
+
+00:13:14,150 --> 00:13:18,380
+Das wäre dann die Semantik dieser Pfeile, usw.
+
+00:13:18,890 --> 00:13:27,290
+Hier war das natürlich alles sehr intuitiv,
+sodass man das vielleicht gar nicht als notwendig
+
+00:13:27,290 --> 00:13:29,900
+erachtet, das so auszuarbeiten,
+was Syntax und Semantik sind.
+
+00:13:29,900 --> 00:13:31,430
+Im Allgemeinen aber natürlich schon.
+
+00:13:34,140 --> 00:13:35,430
+Das ist nicht immer so eindeutig.
+
+00:13:35,430 --> 00:13:40,170
+Also, zu einer Syntax gibt es nicht
+immer eine zugehörige Semantik.
+
+00:13:40,170 --> 00:13:46,200
+In unserem Beispiel eben können wir einerseits
+sagen, dass die Semantik recht vage ist.
+
+00:13:46,200 --> 00:13:48,750
+Andererseits ist das Problem so
+einfach, dass man schon durch
+
+00:13:48,750 --> 00:13:51,030
+Draufschauen eine Idee davon hat, was da passiert.
+
+00:13:51,030 --> 00:13:56,430
+Im Allgemeinen würde man das
+natürlich irgendwie festhalten wollen.
+
+00:13:57,330 --> 00:14:00,030
+Wünschenswert im Allgemeinen ist es, dass
+
+00:14:00,030 --> 00:14:03,060
+die Bedeutung von Symbolen
+und Formen sehr präzise ist.
+
+00:14:03,060 --> 00:14:06,300
+Damit auch verschiedene Modellierer, oder
+verschiedene Konsumenten des Modells,
+
+00:14:06,300 --> 00:14:09,870
+das jeweils verstehen können,
+und zwar auf die gleiche Weise.
+
+00:14:09,870 --> 00:14:13,440
+Dafür ist eine gemeinsame
+Sprache/Notation sinnvoll,
+
+00:14:13,440 --> 00:14:17,610
+gemeinsame visuelle Beschreibungsformen,
+um Missverständnisse zu vermeiden.
+
+00:14:17,610 --> 00:14:25,890
+Und tatsächlich bilden Graphen für viele
+
+00:14:25,890 --> 00:14:28,260
+Zusammenhänge solch eine
+mögliche Sprache/Notation.
+
+00:14:28,260 --> 00:14:33,540
+Deshalb bilden sie die Grundlage vieler in
+Diagrammform gestalteter Modellierungstechniken.
+
+00:14:33,540 --> 00:14:38,085
+Dabei kann eine solche Festlegung natürlich
+genau für ein konkretes Beispiel passieren.
+
+00:14:38,085 --> 00:14:40,350
+Also:
+Wir modellieren dieses Wolf-Ziege-Kohlkopf-Problem
+
+00:14:42,480 --> 00:14:44,760
+und halten dafür fest, was die
+Notation und Symbole sein sollen.
+
+00:14:44,760 --> 00:14:48,840
+Noch nützlicher in der Praxis ist es,
+
+00:14:48,840 --> 00:14:54,060
+wenn man einen Modellierungsansatz mit
+vereinheitlichter Beschreibungsweise hat.
+
+00:14:54,060 --> 00:14:55,290
+Petrinetze werden so etwas sein.
+
+00:14:55,290 --> 00:14:59,130
+Das wird ein Modellierungsansatz sein,
+der eine feste Syntax und Semantik hat.
+
+00:14:59,130 --> 00:15:01,785
+Diese sind also unabhängig vom
+konkreten System, das man modelliert.
+
+00:15:01,785 --> 00:15:05,550
+Das kann man allgemein erklären, zum Beispiel
+in einem Buch beschreiben, und dann können ganz
+
+00:15:05,550 --> 00:15:10,980
+verschiedene Probleme, Systeme, Modelle mit
+diesem Ansatz verfolgt und beschrieben werden.
+
+00:15:12,240 --> 00:15:16,650
+Dann sind Syntax und Semantik über
+mehrere Modelle hinweg vereinheitlicht.
+
+00:15:16,650 --> 00:15:20,760
+Ansonsten nochmal zur Erinnerung:
+
+00:15:20,760 --> 00:15:25,770
+Natürlich sind Graphen nicht die einzige
+Möglichkeit, Einheitlichkeit herzustellen.
+
+00:15:26,310 --> 00:15:27,480
+Auch die Mathematik macht das.
+
+00:15:27,480 --> 00:15:37,170
+Also mit textuellen Formeln, mit Logik,
+könnte man natürlich auch Dinge spezifizieren,
+
+00:15:37,170 --> 00:15:40,920
+modellieren, und hätte auch eine
+gemeinsame formale Grundlage.
+
+00:15:40,920 --> 00:15:43,740
+Aber hier werden wir eben
+vorwiegend mit Graphen arbeiten.
+
+00:15:43,740 --> 00:15:50,760
+Jetzt sah das eben noch nicht immer
+unbedingt nach einem Graphen aus.
+
+00:15:50,760 --> 00:15:52,770
+Aber natürlich verbergen sich hinter unserer
+
+00:15:52,770 --> 00:15:56,100
+bisherigen Darstellung für
+dieses Problem auch Graphen.
+
+00:15:58,350 --> 00:16:01,560
+Also, gehen wir nochmal zurück
+auf die statische Modellierung.
+
+00:16:01,560 --> 00:16:04,650
+Da hatten wir dieses Bild gehabt,
+mit den Pfeilen dazwischen.
+
+00:16:04,650 --> 00:16:05,805
+Das war natürlich ein Graph.
+
+00:16:05,805 --> 00:16:07,410
+Also diese Beziehungen zwischen Farmer,
+
+00:16:07,410 --> 00:16:12,480
+Wolf, Ziege, Kohlkopf könnten wir
+mit diesem Graphen darstellen.
+
+00:16:12,480 --> 00:16:17,640
+Die Kanten sind beschriftet mit den
+Beziehungen zwischen den Knoten,
+
+00:16:17,640 --> 00:16:21,420
+welche mit den Namen der Akteure beschriftet sind.
+
+00:16:21,420 --> 00:16:31,770
+Das ist einfach das gleiche Bild wie hier, nur
+eben jetzt diese Fotos ersetzt durch Symbole.
+
+00:16:33,090 --> 00:16:38,040
+Völlig naheliegend und klar,
+nur ein wenig abstrakter.
+
+00:16:38,040 --> 00:16:47,580
+Und natürlich auch hier wieder, zum Beispiel:
+kein Übergang von Wolf zu Kohlkopf mit "frisst".
+
+00:16:47,580 --> 00:16:51,600
+Das drückt die gleiche Tatsache aus wie zuvor.
+
+00:16:54,090 --> 00:16:56,100
+Das wäre für die statische Modellierung.
+
+00:16:56,100 --> 00:16:58,080
+Was ist mit der dynamischen Modellierung?
+
+00:16:58,080 --> 00:16:59,250
+Da hatte ich auch schon gesagt:
+
+00:16:59,250 --> 00:17:04,590
+Dann würde man die Knoten als Zustände ansehen
+und die Kanten als Übergänge dazwischen.
+
+00:17:04,590 --> 00:17:11,550
+Also so ein bisschen wie der Schritt von hier
+nach hier, der durch die Pfeile suggeriert wird.
+
+00:17:12,210 --> 00:17:15,180
+Man würde dann tatsächlich zwei
+explizite Knoten in dem Graphen haben,
+
+00:17:15,180 --> 00:17:18,390
+und dieser Pfeil würde von dem
+Zustand zu dem Zustand gehen.
+
+00:17:21,950 --> 00:17:26,120
+Klassische Vertreter davon, also Graphen
+zu benutzen für die dynamische Modellierung,
+
+00:17:26,120 --> 00:17:27,830
+sind sogenannte flache Zustandsdiagramme.
+
+00:17:27,830 --> 00:17:29,330
+Oft auch Transitionssysteme genannt.
+
+00:17:29,330 --> 00:17:32,270
+Oft auch einfach nur Zustandsdiagramme genannt.
+
+00:17:32,270 --> 00:17:36,740
+In der Vorlesung sage ich immer
+explizit "flache Zustandsdiagramme",
+
+00:17:36,740 --> 00:17:39,410
+bis wir zu UML-Zustandsdiagrammen kommen.
+
+00:17:39,410 --> 00:17:42,170
+Um den Unterschied klarzumachen,
+
+00:17:42,170 --> 00:17:45,380
+dass nämlich UML-Zustandsdiagramme nicht
+flach sind, in einem gewissen Sinne.
+
+00:17:46,220 --> 00:17:49,550
+Sie haben mehr Struktur als einfach
+nur Knoten und Kanten dazwischen.
+
+00:17:49,550 --> 00:17:54,080
+Deswegen, wann immer wir nur diese
+Knoten-Kanten-Struktur haben,
+
+00:17:54,080 --> 00:17:55,760
+werde ich von flachen Zustandsdiagrammen reden.
+
+00:17:56,300 --> 00:17:58,280
+Ich hoffe, dass das auch in
+der Übungsaufgabensammlung
+
+00:17:58,280 --> 00:18:01,280
+mittlerweile einheitlich so gehandhabt ist.
+
+00:18:06,890 --> 00:18:08,960
+Was ist so ein flaches Zustandsdiagramm?
+
+00:18:08,960 --> 00:18:15,170
+Das ist einfach tatsächlich ein gerichteter,
+eventuell kantenbeschrifteter Graph.
+
+00:18:15,170 --> 00:18:16,610
+Also, die Knoten sind Zustände.
+
+00:18:16,610 --> 00:18:19,100
+Die werden in der Regel irgendeinen Namen
+haben, eine Beschreibung, eine Bezeichnung.
+
+00:18:19,100 --> 00:18:23,450
+Der Graph soll gerichtet sein, in dem
+Sinne, dass es Pfeile zwischen ihnen gibt.
+
+00:18:23,450 --> 00:18:25,430
+Auch wenn das hier noch
+statische Modellierung war.
+
+00:18:25,430 --> 00:18:29,720
+Aber die Kanten, die wir
+haben, sollten gerichtet sein.
+
+00:18:29,720 --> 00:18:31,310
+Sie könnten auch beschriftet sein.
+
+00:18:31,310 --> 00:18:36,350
+Zum Beispiel könnte an den Übergängen
+irgendwie dranstehen, welche Aktion
+
+00:18:36,350 --> 00:18:38,570
+jeweils dafür verantwortlich
+ist, dass der Zustand wechselt.
+
+00:18:38,570 --> 00:18:42,470
+Das könnte aber optional sein.
+
+00:18:42,470 --> 00:18:45,050
+Vielleicht reicht es, die
+Zustände als Knotenmenge zu haben.
+
+00:18:45,050 --> 00:18:46,970
+Und die Übergänge müssen da sein,
+
+00:18:46,970 --> 00:18:50,840
+aber müssen nicht noch extra ausgezeichnet
+sein, mit irgendeiner Beschriftung daran.
+
+00:18:52,040 --> 00:18:55,700
+Außerdem will man in der Regel
+einen Startzustand hervorheben,
+
+00:18:55,700 --> 00:18:58,340
+meist durch eine eingehende Pfeilspitze.
+
+00:18:58,340 --> 00:19:02,840
+Und manchmal bezeichnen wir auch noch einen
+oder mehrere ausgezeichnete Endzustände.
+
+00:19:02,840 --> 00:19:08,210
+Dann will man ausdrücken, von wo nach wo man
+in dem Zustandsdiagramm gerne kommen möchte.
+
+00:19:13,750 --> 00:19:16,510
+Machen wir das für unser kleines Problem.
+
+00:19:16,510 --> 00:19:20,740
+Also ein flaches Zustandsdiagramm für
+unser Wolf-Ziege-Kohlkopf-Problem.
+
+00:19:20,740 --> 00:19:25,300
+Dann haben wir auf jeden
+Fall unseren Startzustand.
+
+00:19:25,300 --> 00:19:26,650
+Das ist ein bisschen kleingedruckt hier.
+
+00:19:26,650 --> 00:19:29,830
+Ich hoffe, Sie können dem trotzdem folgen,
+
+00:19:29,830 --> 00:19:32,380
+auch wenn ich das jetzt nicht
+irgendwie an der Tafel groß entwickle.
+
+00:19:33,250 --> 00:19:38,500
+Gemeint ist hier jeweils (das ist auch gleich
+auf einer Folie nochmal aufgeschrieben):
+
+00:19:40,000 --> 00:19:43,480
+Der Zustand ist abgekürzt
+durch die vier Akteure.
+
+00:19:43,480 --> 00:19:48,175
+Und hier gibt es einen senkrechten
+Strich, der den Fluss ausdrückt.
+
+00:19:48,175 --> 00:19:50,620
+Also, was dieser erste
+Zustand hier symbolisieren soll:
+
+00:19:50,620 --> 00:19:54,220
+Farmer, Wolf, Ziege, Kohlkopf
+sind links des Flusses.
+
+00:19:54,220 --> 00:19:56,140
+Das ist ein möglicher Zustand,
+
+00:19:56,140 --> 00:20:00,640
+und zwar der Startzustand (deswegen
+durch diese Pfeilspitze ausgezeichnet).
+
+00:20:03,460 --> 00:20:04,990
+Und dann kann man sich überlegen:
+
+00:20:04,990 --> 00:20:06,205
+Was kann denn passieren?
+
+00:20:06,205 --> 00:20:14,080
+Wir hatten vorhin diesen einen Übergang
+festgehalten, wo wir aus genau dieser
+
+00:20:14,080 --> 00:20:19,120
+Situation (die wir gerade auch als Startzustand
+identifiziert haben) zu diesem Zustand kommen.
+
+00:20:19,120 --> 00:20:20,980
+Das wäre der Zustand:
+
+00:20:20,980 --> 00:20:31,180
+Senkrechter Strich, links davon Ziege und
+Kohlkopf, rechts davon Farmer und Wolf.
+
+00:20:31,180 --> 00:20:40,080
+Also das wäre aufgeschrieben ZK|FW.
+
+00:20:40,080 --> 00:20:44,340
+Haben wir das auch in unserem Graphen?
+
+00:20:44,340 --> 00:20:50,100
+Ja, also hier erst mal:
+
+00:20:50,100 --> 00:20:51,390
+Wir haben auch einen Zielzustand.
+
+00:20:51,390 --> 00:20:53,850
+Wir wissen aber noch nicht, wie wir da hinkommen.
+
+00:20:53,850 --> 00:20:55,740
+Irgendwie müssen wir Schritte machen.
+
+00:20:55,740 --> 00:20:56,850
+Was könnte der erste Schritt sein?
+
+00:20:56,850 --> 00:21:02,340
+Zum Beispiel könnte der Farmer mit
+der Ziege über den Fluss fahren.
+
+00:21:02,340 --> 00:21:04,980
+Das hier ist gerade nicht der Zustand,
+den ich Ihnen gerade gezeigt habe.
+
+00:21:08,250 --> 00:21:12,960
+Das wäre der Zustand, den wir vorhin
+schon als Problem identifiziert haben.
+
+00:21:12,960 --> 00:21:15,720
+Wo der Farmer mit dem Wolf den Fluss überquert.
+
+00:21:15,720 --> 00:21:16,500
+Dann hätten wir diesen Zustand.
+
+00:21:16,500 --> 00:21:22,080
+Das ist aber ein sofortiger Misserfolgszustand,
+weil dann die Ziege den Kohlkopf fressen wird.
+
+00:21:23,100 --> 00:21:26,850
+Und vorher, in irgendeiner Reihenfolge, habe ich
+hier vielleicht schon andere Sachen ausprobiert.
+
+00:21:26,850 --> 00:21:30,120
+Also hier muss ich nichts weiter ausprobieren,
+aber ich hatte mich hier zum Beispiel entschieden:
+
+00:21:30,120 --> 00:21:34,110
+Ja, der Farmer möge mit der
+Ziege den Fluss überqueren.
+
+00:21:34,110 --> 00:21:37,350
+Das ist kein Misserfolgszustand, denn
+der Wolf wird den Kohlkopf nicht fressen.
+
+00:21:37,350 --> 00:21:39,360
+Das wäre eine Möglichkeit.
+
+00:21:39,360 --> 00:21:40,500
+Und dann könnte man sich überlegen:
+
+00:21:40,500 --> 00:21:41,610
+Was kann als nächstes passieren?
+
+00:21:41,610 --> 00:21:43,710
+Jetzt kam hier:
+
+00:21:43,710 --> 00:21:44,730
+Der Farmer könnte zurückfahren.
+
+00:21:44,730 --> 00:21:45,870
+Dann bleibt die Ziege allein.
+
+00:21:45,870 --> 00:21:52,650
+Der Farmer könnte dann mit
+dem Wolf den Fluss überqueren.
+
+00:21:53,340 --> 00:22:02,580
+Also für jeden dieser Pfeile, für die Übergänge,
+steckt dahinter ein möglicher Schritt.
+
+00:22:02,580 --> 00:22:04,710
+Es gibt auch solche Beobachtungen wie:
+
+00:22:04,710 --> 00:22:07,350
+Außer wenn man einen Schritt gemacht hat,
+
+00:22:07,350 --> 00:22:10,440
+der zu einem Misserfolgszustand führt,
+kann man Schritte immer auch umkehren.
+
+00:22:10,440 --> 00:22:13,080
+Dann gibt es jetzt zwei Pfeile.
+
+00:22:13,080 --> 00:22:18,180
+Der Farmer kann mit der Ziege den
+Fluss überqueren, dann wäre er hier.
+
+00:22:18,180 --> 00:22:20,340
+Dann wäre das der Zustand.
+
+00:22:20,340 --> 00:22:21,150
+Es geht aber auch umgekehrt.
+
+00:22:22,350 --> 00:22:24,480
+Das heißt, überall wo wir einen
+Pfeil haben, können wir ihn umdrehen.
+
+00:22:24,480 --> 00:22:27,120
+Außer bei den Misserfolgszuständen,
+denn aus denen kommt man nicht heraus.
+
+00:22:27,690 --> 00:22:35,970
+Die sind fatal, im wahrsten Sinne des Wortes
+tödlich für irgendeines der Besitztümer.
+
+00:22:41,840 --> 00:22:43,340
+Jetzt will ich das, wie gesagt,
+
+00:22:43,340 --> 00:22:46,910
+tatsächlich hier jetzt nicht Schritt
+für Schritt erklären oder entwickeln.
+
+00:22:46,910 --> 00:22:51,800
+Aber man kann durch Ausprobieren
+und Verfolgen aller Möglichkeiten
+
+00:22:51,800 --> 00:23:00,830
+diesen Graphen verkomplettieren und kommt
+irgendwann zu einem vollständigen Bild.
+
+00:23:01,760 --> 00:23:02,720
+Das ist noch nicht vollständig.
+
+00:23:02,720 --> 00:23:03,370
+Was fehlt hier noch?
+
+00:23:03,370 --> 00:23:07,400
+Wir haben diese ganzen Doppelübergänge.
+Wir haben Misserfolgszustände.
+
+00:23:07,400 --> 00:23:09,500
+Aus dem Erfolgszustand kann man
+natürlich einen dummen Fehler
+
+00:23:09,500 --> 00:23:12,440
+machen und es doch noch sozusagen verderben.
+
+00:23:12,440 --> 00:23:14,411
+Das wird der Farmer wahrscheinlich nicht wollen.
+
+00:23:14,411 --> 00:23:15,170
+Also wir würden wahrscheinlich sagen:
+
+00:23:15,170 --> 00:23:18,470
+Wenn der Farmer diesen Zustand
+erreicht, dann lässt er es gut sein.
+
+00:23:18,470 --> 00:23:20,840
+Und fährt nicht noch irgendwie durch die Gegend.
+
+00:23:20,840 --> 00:23:22,820
+Aber rein formal könnte man sagen:
+
+00:23:22,820 --> 00:23:25,730
+Man kann aus dem Erfolgszustand
+immer noch in den Misserfolg geraten.
+
+00:23:25,730 --> 00:23:26,960
+Aber irgendwas fehlt hier noch.
+
+00:23:26,960 --> 00:23:29,330
+Und das liegt daran, das kann man sich überlegen:
+
+00:23:29,330 --> 00:23:31,850
+Eigentlich muss der Graph symmetrisch sein.
+
+00:23:31,850 --> 00:23:35,570
+Es ist vollkommen willkürlich, zu sagen,
+dass der Farmer von links nach rechts möchte.
+
+00:23:35,570 --> 00:23:39,470
+Man hätte genauso gut sagen können, der Farmer
+ist am Anfang rechts und möchte nach links.
+
+00:23:39,470 --> 00:23:42,950
+Dann hätte man also diesen Graphen
+auch so entwickeln können müssen,
+
+00:23:42,950 --> 00:23:45,140
+dass man hier beginnt und hier endet.
+
+00:23:45,140 --> 00:23:46,336
+Aber dafür muss der Graph
+völlig symmetrisch sein.
+
+00:23:46,336 --> 00:23:50,990
+Man muss das also von oben
+nach unten kippen können.
+
+00:23:50,990 --> 00:23:54,815
+Und dann fehlen noch
+Übergänge, wie man hier sieht.
+
+00:23:54,815 --> 00:23:56,240
+Diese Übergänge fehlen dann noch.
+
+00:24:03,100 --> 00:24:06,820
+Dann ist der Graph sowohl
+links-rechts-symmetrisch,
+
+00:24:06,820 --> 00:24:11,906
+da er sich an dieser Achse spiegelt, und man
+kann offenbar auch von oben nach unten spiegeln.
+
+00:24:11,906 --> 00:24:15,806
+Dann sieht er zwar aufgemalt nicht exakt
+symmetrisch aus, ist es aber tatsächlich.
+
+00:24:15,806 --> 00:24:28,870
+Also, wenn man nur die Zusammenhänge erfasst
+und nicht, wie genau die Pfeile gemalt wurden.
+
+00:24:30,940 --> 00:24:38,020
+Nämlich diese beiden Übergänge entsprechen den
+Übergängen von hier nach hier und hier nach hier.
+
+00:24:39,640 --> 00:24:41,125
+Dann ist der Graph tatsächlich symmetrisch.
+
+00:24:41,125 --> 00:24:47,800
+Das ist letztlich bedingt dadurch, dass
+man intuitiv die Fressbeziehungen umdrehen
+
+00:24:47,800 --> 00:24:52,270
+könnte und die Rollen von Wolf
+und Kohlkopf vertauschen könnte.
+
+00:24:52,270 --> 00:24:56,440
+Dann ist die Symmetrie nach dieser Achse.
+
+00:24:56,440 --> 00:24:59,470
+Und die Symmetrie nach dieser
+Achse ist, dass es eigentlich
+
+00:24:59,470 --> 00:25:02,200
+egal wäre, ob man von links nach rechts oder
+von rechts nach links möchte als Farmer.
+
+00:25:02,200 --> 00:25:08,050
+Die Symmetrie bezüglich Anfang und Ende.
+
+00:25:11,410 --> 00:25:13,630
+Also, die Notation war hier:
+
+00:25:13,630 --> 00:25:15,100
+Der senkrechte Strich steht für den Fluss,
+
+00:25:15,100 --> 00:25:19,510
+links und rechts befinden sich die
+Akteure, wobei deren Reihenfolge egal ist.
+
+00:25:19,510 --> 00:25:24,010
+Also, ich würde keinen Unterschied machen
+zwischen den Zuständen WKFZ und KWFZ.
+
+00:25:24,010 --> 00:25:29,770
+Deswegen einfach immer die Buchstaben sortiert
+auf eine bestimmte, konsistente Art und Weise.
+
+00:25:29,770 --> 00:25:33,550
+Weil es egal wäre, in welcher Reihenfolge
+sie da stehen auf einer Seite des Flusses.
+
+00:25:33,550 --> 00:25:36,610
+Das Boot gebe ich auch gar nicht an.
+
+00:25:36,610 --> 00:25:39,790
+Das tauchte auf dem Bild vorhin noch auf, aber
+eigentlich brauche ich das gar nicht anzugeben,
+
+00:25:39,790 --> 00:25:42,340
+denn es wird sowieso immer
+da sein, wo der Farmer ist.
+
+00:25:42,340 --> 00:25:45,910
+Deswegen taucht es in der Notation nicht mehr auf.
+
+00:25:45,910 --> 00:25:49,000
+Die Übergänge hatte ich hier nicht beschriftet.
+
+00:25:49,000 --> 00:25:51,970
+Die hätte man natürlich noch beschriften
+können, indem man immer die Aktion dranschreibt.
+
+00:25:51,970 --> 00:25:52,480
+Also etwa:
+
+00:25:52,480 --> 00:25:54,070
+"Der Farmer bringt die Ziege über den Fluss."
+
+00:25:54,070 --> 00:25:56,110
+Einen Namen dafür
+ausdenken, ein kurzes Label,
+
+00:25:56,110 --> 00:25:59,230
+und das an die entsprechenden Pfeile schreiben.
+
+00:25:59,230 --> 00:26:03,370
+Das habe ich hier zur
+Übersichtlichkeit jetzt nicht getan.
+
+00:26:03,370 --> 00:26:07,510
+Die eckigen roten Zustände hatte
+ich für Misserfolge genutzt.
+
+00:26:07,510 --> 00:26:09,820
+Also etwa wenn die Ziege den Kohlkopf frisst.
+
+00:26:09,820 --> 00:26:14,470
+Solche Aktionen haben in gewissem
+Sinne Priorität vor Überfahrten,
+
+00:26:14,470 --> 00:26:19,750
+weswegen es eben aus Misserfolgsknoten
+keine Rückfahrt-Kanten gibt.
+
+00:26:20,470 --> 00:26:25,200
+Ich kann hier nicht diesen Pfeil umdrehen,
+denn in dem Fall ist das ein Misserfolg.
+
+00:26:25,200 --> 00:26:27,430
+Die Ziege frisst den Kohlkopf
+und dann geht nichts mehr.
+
+00:26:27,430 --> 00:26:36,340
+Deswegen wurden eben Kanten, die aus
+solchen Zuständen herausführen, weggelassen.
+
+00:26:36,340 --> 00:26:42,820
+Weil sie gar nicht erlaubt sind
+gemäß der Semantik des Problems.
+
+00:26:44,170 --> 00:26:47,440
+Und diese doppelblaue Ellipse, die hatte ich
+
+00:26:47,440 --> 00:26:52,570
+als den gewünschten Zielzustand
+schon ganz am Anfang markiert.
+
+00:26:54,880 --> 00:26:57,580
+Also in einer gewissen Weise
+könnte man hier sagen, das ist die
+
+00:26:57,580 --> 00:27:00,040
+Syntax-/Semantikbeschreibung für diesen Graphen.
+
+00:27:00,040 --> 00:27:04,060
+Im Allgemeinen sind solche
+Beschriftungen nicht redundant.
+
+00:27:04,060 --> 00:27:06,820
+Das ist wirklich eine Entscheidung,
+die ich hier getroffen habe.
+
+00:27:06,820 --> 00:27:10,300
+Einfach damit die Darstellung
+nicht noch komplizierter wird.
+
+00:27:10,300 --> 00:27:11,560
+Im Allgemeinen kann es schon sehr
+
+00:27:11,560 --> 00:27:14,950
+wichtig sein, dass man auch die
+Beschriftungen an den Kanten hat.
+
+00:27:18,550 --> 00:27:23,410
+Auch die Farben könnte man letztlich natürlich
+noch als gesonderte Beschriftungen ansehen.
+
+00:27:23,410 --> 00:27:27,700
+Die Tatsache, dass ein Knoten rot oder
+blau ist, könnte man auch ansehen als:
+
+00:27:27,700 --> 00:27:31,840
+Das ist noch ein weiteres
+Label, das auf dem Knoten liegt.
+
+00:27:34,330 --> 00:27:36,910
+Was kann man an dem konkreten Graphen noch sehen?
+
+00:27:36,910 --> 00:27:42,700
+Es gibt hier mehrere Wege
+vom Start- zum Zielzustand.
+
+00:27:42,700 --> 00:27:46,600
+Eine Lösung des Problems wäre
+eben genau ein Weg, der irgendwie den
+
+00:27:46,600 --> 00:27:49,150
+Pfeilen durch diesen Graphen folgt.
+
+00:27:49,150 --> 00:27:55,330
+Schon allein wegen dieses Teils des Graphen,
+wo man hier immer den Pfeilen folgen könnte,
+
+00:27:55,330 --> 00:27:59,140
+stellt sich heraus, dass es unendlich viele
+Lösungen gibt, die auch beliebig lang werden.
+
+00:27:59,140 --> 00:28:03,850
+Wenn der Farmer irgendwie immer sozusagen
+sinnlose Aktionen in diesem Kreis durchführt,
+
+00:28:03,850 --> 00:28:07,030
+bevor er sich dann mal entscheidet,
+wirklich in Richtung Ziel zu gehen.
+
+00:28:07,030 --> 00:28:13,490
+Daran sieht man, dass es zwar ein endlicher Graph
+ist, es aber unendlich viele Wege darin gibt.
+
+00:28:13,490 --> 00:28:18,980
+Und zwar unendlich viele,
+beliebig lange, erfolgreiche Wege.
+
+00:28:18,980 --> 00:28:24,470
+Die zwei kürzesten enthalten
+jeweils sieben Übergänge und
+
+00:28:24,470 --> 00:28:26,600
+das sind die interessanten
+für die Lösung des Problems.
+
+00:28:31,400 --> 00:28:37,160
+Schon dieser Graph war nicht
+wirklich klein.
+
+00:28:37,160 --> 00:28:42,620
+Aber für interessante tatsächliche Systeme
+können solche flachen Zustandsdiagramme
+
+00:28:42,620 --> 00:28:48,080
+selbst für relativ einfache Systeme
+sehr schnell erstaunlich groß werden.
+
+00:28:48,080 --> 00:28:49,940
+Das nennt man Zustandsexplosion.
+
+00:28:49,940 --> 00:28:52,610
+Das bedeutet einfach, dass es selbst
+mit wenigen Zutaten dennoch sehr
+
+00:28:52,610 --> 00:28:55,490
+viele mögliche Zustände gibt und
+entsprechend komplizierte Graphen.
+
+00:28:55,490 --> 00:28:58,880
+Und das kann man mit flachen
+Zustandsdiagrammen nicht wirklich
+
+00:28:58,880 --> 00:29:03,200
+vermeiden, weil sie eben alle Zustände
+und alle Übergänge explizit darstellen.
+
+00:29:03,200 --> 00:29:07,880
+Das wird später eine Motivation für die schon
+erwähnten UML-Zustandsdiagramme sein, die
+
+00:29:07,880 --> 00:29:13,370
+zusätzliche Struktur haben, und deswegen diese
+Explosion ein Stück weit vermeiden können.
+
+00:29:18,830 --> 00:29:22,070
+In unserem Problem, manchmal
+auch in anderen Problemen,
+
+00:29:22,070 --> 00:29:27,620
+kann man etwa Symmetrie ausnutzen, um des Problems
+der Zustandsexplosion ein wenig Herr zu werden.
+
+00:29:27,620 --> 00:29:30,620
+Im Allgemeinen braucht man einfach
+mächtigere Modellierungsmittel.
+
+00:29:30,620 --> 00:29:34,850
+Aber wir wollen erst mal
+einfach mit Graphen arbeiten.

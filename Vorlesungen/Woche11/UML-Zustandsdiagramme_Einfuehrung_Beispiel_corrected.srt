@@ -1,0 +1,735 @@
+229 # slide
+00:00:01,860 --> 00:00:04,200
+Let's move on to
+the chapter on statecharts.
+
+00:00:04,200 --> 00:00:07,350
+Especially UML statecharts.
+
+00:00:07,350 --> 00:00:14,610
+We had already seen flat state diagrams
+at the very beginning of the lecture.
+
+00:00:14,610 --> 00:00:22,950
+And these UML state diagrams
+(state machine diagrams/statecharts) are in
+
+00:00:23,610 --> 00:00:29,040
+principle closely related to the flat
+state diagrams we have already seen.
+
+00:00:29,040 --> 00:00:35,160
+But in particular they
+offer further structuring possibilities, which
+
+00:00:35,160 --> 00:00:36,360
+we will get to know in a moment.
+
+00:00:36,360 --> 00:00:38,970
+Concerning usage.
+
+00:00:38,970 --> 00:00:45,630
+Statecharts are used when the
+
+00:00:45,630 --> 00:00:49,890
+focus of modeling is on
+states and transitions between them.
+
+00:00:49,890 --> 00:00:52,800
+So a bit away
+from what activity diagrams do.
+
+00:00:53,460 --> 00:00:58,440
+In a way also the Petri
+nets namely to aim at action sequences.
+
+00:00:58,440 --> 00:01:00,870
+So putting the actions in the foreground.
+
+00:01:00,870 --> 00:01:05,010
+This is more about states and
+state transitions of a given system.
+
+00:01:05,010 --> 00:01:09,060
+In a way, UML state diagrams are
+
+00:01:09,060 --> 00:01:11,220
+rather used when there
+is no typical sequence.
+
+00:01:11,220 --> 00:01:17,520
+Rather, the focus is on
+sequences and events that occur randomly
+
+00:01:17,520 --> 00:01:22,800
+or are equally likely
+to occur in any order.
+
+00:01:22,800 --> 00:01:24,210
+This is not to say
+that there are not systems that
+
+00:01:24,210 --> 00:01:26,250
+can usefully be modeled with Petri
+
+00:01:28,080 --> 00:01:31,680
+nets/activity diagrams as well as
+flat or UML state diagrams.
+
+00:01:31,680 --> 00:01:33,840
+These are all
+possibilities for dynamic modeling.
+
+00:01:33,840 --> 00:01:37,440
+And there are certainly examples
+where one would have a choice.
+
+00:01:37,440 --> 00:01:44,250
+But there are also cases where one
+of the two rough directions is more appropriate.
+
+00:01:48,510 --> 00:01:55,380
+To distinguish between the two, I would
+like to make this observation that activity diagrams
+
+00:01:55,380 --> 00:02:03,240
+focus on actions and state diagrams
+focus on reactions to the environment.
+
+00:02:03,240 --> 00:02:06,300
+So a state transition is
+triggered by something from outside.
+
+00:02:06,300 --> 00:02:09,660
+And then it has to be
+described what that does to the states,
+
+00:02:09,660 --> 00:02:12,660
+or what new state is
+then taken by the system.
+
+00:02:12,660 --> 00:02:16,800
+Instead of simply putting sequences
+of actions in the center.
+
+00:02:19,560 --> 00:02:20,880
+That's very abstract at first.
+
+00:02:20,880 --> 00:02:24,570
+Concretely, of course, one
+can find various applications.
+
+00:02:24,570 --> 00:02:26,640
+I have only mentioned a few.
+
+00:02:26,640 --> 00:02:33,630
+State diagrams, whether flat
+or UML state diagrams with
+
+00:02:34,170 --> 00:02:42,240
+additional elements and representation options,
+are used in various application domains.
+
+00:02:42,240 --> 00:02:44,400
+When describing protocols.
+
+00:02:44,400 --> 00:02:45,900
+Components of distributed systems.
+
+00:02:45,900 --> 00:02:50,160
+The description of
+processes in user interfaces.
+
+00:02:50,160 --> 00:02:52,230
+Embedded systems.
+
+00:02:52,230 --> 00:02:56,070
+One can certainly continue the list long.
+
+00:02:56,070 --> 00:03:01,500
+Because states and transitions have
+become a very general framework
+
+00:03:01,500 --> 00:03:06,480
+to describe behavior in computer
+science, but also in other domains.
+
+00:03:06,480 --> 00:03:08,760
+Specifically, the
+
+00:03:08,760 --> 00:03:14,250
+state diagrams/statecharts as they later entered
+UML date back to the late 80s.
+
+00:03:14,250 --> 00:03:16,605
+By a scientist named David Harel.
+
+00:03:16,605 --> 00:03:18,660
+The original name was statecharts.
+
+00:03:18,660 --> 00:03:24,420
+That's why you still find that as
+the name when you look for examples.
+
+00:03:24,420 --> 00:03:29,550
+At the beginning of the
+slides, in the first or second
+
+00:03:29,550 --> 00:03:34,020
+week, I had given
+an article by Mr. Harel.
+
+00:03:34,020 --> 00:03:38,130
+That is the original
+paper where statecharts were introduced.
+
+00:03:38,130 --> 00:03:42,510
+And with about different
+syntax, they later entered UML.
+
+00:03:42,510 --> 00:03:50,130
+A major goal
+of UML statecharts/statecharts is
+
+00:03:50,130 --> 00:03:51,960
+what can happen in flat statecharts.
+
+00:03:51,960 --> 00:03:56,032
+Namely, to get a handle on the
+fact that the state space grows a lot.
+
+00:03:56,032 --> 00:03:59,790
+There are simply certain features
+that statecharts are equipped with.
+
+00:03:59,790 --> 00:04:02,970
+In addition to simply
+states and state transitions,
+
+00:04:02,970 --> 00:04:08,640
+which already existed in flat statecharts,
+there are, for example, refinements of states.
+
+00:04:08,640 --> 00:04:13,170
+States are not just nodes
+in a graph, without internal structure.
+
+00:04:13,170 --> 00:04:14,850
+But they can be refined hierarchically.
+
+00:04:14,850 --> 00:04:22,020
+And that also leads to being
+able to handle a state explosion.
+
+00:04:23,610 --> 00:04:26,790
+In addition, there is
+an explicit concept of parallelism.
+
+00:04:26,790 --> 00:04:28,860
+We have already learned
+about this in various places.
+
+00:04:28,860 --> 00:04:31,830
+In Petri nets/activity diagrams.
+
+00:04:31,830 --> 00:04:36,150
+That it's important to be able to express
+that; or interesting to be able to model that.
+
+00:04:36,150 --> 00:04:40,800
+In statecharts (UML and statecharts)
+there is an explicit concept
+
+00:04:40,800 --> 00:04:45,300
+here for what is
+called parallel switching through regions.
+
+00:04:45,300 --> 00:04:50,730
+Which a flat statechart does
+not allow to express explicitly.
+
+00:04:50,730 --> 00:04:55,170
+And also this will lead
+us to model more compactly
+
+00:04:55,170 --> 00:04:57,990
+in UML statecharts
+than with flat statecharts.
+
+00:04:57,990 --> 00:05:04,080
+A related feature, which
+ultimately makes it easier
+
+00:05:04,080 --> 00:05:09,420
+or possible to deal with
+these two aspects, is history nodes.
+
+00:05:09,420 --> 00:05:11,689
+I haven't had much to
+say about that yet either.
+
+00:05:11,689 --> 00:05:14,010
+We'll see when we get
+that far in the example.
+
+00:05:14,010 --> 00:05:18,180
+The main point is to
+be able to remember implicitly which
+
+00:05:18,180 --> 00:05:19,620
+states
+
+00:05:20,700 --> 00:05:26,940
+were active last, especially
+when leaving such hierarchical/nested/parallel states.
+
+00:05:26,940 --> 00:05:31,350
+In order to be able
+to resume work later when returning
+
+00:05:31,350 --> 00:05:37,140
+to such a hierarchical/parallel connected
+area of the state diagram.
+
+00:05:37,140 --> 00:05:40,890
+Instead of having to store
+this explicitly in the states.
+
+00:05:43,230 --> 00:05:47,151
+Then there are so-called
+remote triggers, or flags.
+
+00:05:47,151 --> 00:05:51,450
+These are simply means to
+enable communication in the state diagram.
+
+00:05:51,450 --> 00:05:57,570
+Even between states that are
+not explicitly connected by a transition.
+
+00:06:00,840 --> 00:06:06,960
+Many of these features are
+mainly used to make diagrams that
+
+00:06:06,960 --> 00:06:10,200
+we use clear and compact.
+
+00:06:10,200 --> 00:06:13,680
+So to avoid having to
+have a lot of states.
+
+00:06:13,680 --> 00:06:16,350
+Or if you have many states,
+to group them in a meaningful way.
+
+00:06:16,350 --> 00:06:19,080
+That the diagram still remains clear.
+
+00:06:19,080 --> 00:06:25,470
+So the goal is a size
+reduction, versus using a flat state diagram.
+
+00:06:26,320 --> 00:06:30,700
+What will not occur here that
+we switch between finite and infinite.
+
+00:06:30,700 --> 00:06:34,810
+We usually assume flat
+statecharts to be finite.
+
+00:06:34,810 --> 00:06:39,670
+And even a finite UML state diagram will
+
+00:06:39,670 --> 00:06:43,570
+not correspond to an
+infinite flat state diagram.
+
+00:06:43,570 --> 00:06:44,350
+This is different from Petri nets.
+
+00:06:44,980 --> 00:06:48,490
+An infinite Petri net can
+have an infinite reachability graph.
+
+00:06:48,490 --> 00:06:52,060
+We will not have this
+transition from finite to infinite.
+
+00:06:52,060 --> 00:06:57,820
+But a similar size reduction or
+similar behavior, with respect to size.
+
+00:06:57,820 --> 00:07:00,670
+Where even a very small
+Petri net can still have a
+
+00:07:00,670 --> 00:07:03,760
+very large reachability graph.
+
+00:07:04,870 --> 00:07:05,560
+So it will be similar here.
+
+00:07:05,560 --> 00:07:09,640
+There can be very
+compact small UML state diagrams,
+
+00:07:09,640 --> 00:07:13,630
+but they would correspond to
+very large flat state diagrams.
+
+00:07:16,480 --> 00:07:22,900
+We'll do most of the
+discussion on a concrete example.
+
+00:07:22,900 --> 00:07:25,558
+That's what I'm going to design here now.
+
+00:07:25,558 --> 00:07:29,440
+And first describe what the goal is.
+
+00:07:29,440 --> 00:07:32,170
+And then after that in other
+videos we will gradually realize this
+
+00:07:32,170 --> 00:07:34,270
+example as UML state diagrams.
+
+00:07:35,410 --> 00:07:39,340
+I didn't make up the example,
+that also comes from Harel's article.
+
+00:07:39,340 --> 00:07:45,400
+However, he discussed it in
+more detail and with more properties.
+
+00:07:45,400 --> 00:07:48,340
+This is a simplified variant of the
+
+00:07:48,340 --> 00:07:51,580
+example Harel used
+to motivate his statecharts.
+
+00:07:51,580 --> 00:07:58,810
+However, this also means that if you like,
+you can read about it in the article.
+
+00:08:01,060 --> 00:08:02,890
+It is supposed to be about a wristwatch.
+
+00:08:02,890 --> 00:08:06,070
+A very simple wristwatch.
+
+00:08:06,070 --> 00:08:10,090
+It has a display,
+an alarm, and two buttons.
+
+00:08:10,090 --> 00:08:13,540
+What should be the intuition here?
+
+00:08:13,540 --> 00:08:14,800
+This below is not yet a state diagram.
+
+00:08:14,800 --> 00:08:17,800
+I'm just giving in a stylized
+
+00:08:20,230 --> 00:08:23,980
+way how the wristwatch can
+present itself, in certain situations.
+
+00:08:23,980 --> 00:08:25,600
+And will have arrows in between.
+
+00:08:25,600 --> 00:08:27,700
+But it won't be a UML state diagram yet.
+
+00:08:27,700 --> 00:08:28,720
+Very important!
+
+00:08:28,720 --> 00:08:29,980
+So there is this watch.
+
+00:08:29,980 --> 00:08:32,290
+It has two buttons, a
+and b, left and right.
+
+00:08:32,290 --> 00:08:33,850
+And it has two modes.
+
+00:08:33,850 --> 00:08:37,150
+It can be in
+a so-called time display mode.
+
+00:08:37,150 --> 00:08:40,780
+Then we have just here
+in the display the current time.
+
+00:08:40,780 --> 00:08:46,750
+The hour and minute
+hand, but digitally displayed.
+
+00:08:46,750 --> 00:08:50,290
+Or it can be in an alarm setting.
+
+00:08:50,290 --> 00:08:51,880
+You can set an alarm.
+
+00:08:51,880 --> 00:08:53,980
+To do that, you first
+have to switch to a display
+
+00:08:53,980 --> 00:08:56,050
+mode, where you can see if
+the alarm is on or off.
+
+00:08:56,050 --> 00:08:59,770
+And then you can turn it on
+and off with one of the buttons.
+
+00:08:59,770 --> 00:09:04,180
+So switch between the
+two on and off situations.
+
+00:09:06,010 --> 00:09:09,250
+For switching, this button a is meant.
+
+00:09:09,250 --> 00:09:12,130
+So if we're in the time display, we
+
+00:09:12,130 --> 00:09:15,700
+can press the button a and
+get into the alarm setting display.
+
+00:09:15,700 --> 00:09:18,670
+That is what is
+supposed to be shown here.
+
+00:09:18,670 --> 00:09:20,500
+And of course we can go back from that.
+
+00:09:20,500 --> 00:09:24,400
+So if we are in the alarm setting display
+
+00:09:24,400 --> 00:09:27,310
+and we press a again, we
+come back to the time setting.
+
+00:09:27,310 --> 00:09:28,840
+And we want to
+see the current time again.
+
+00:09:32,620 --> 00:09:34,030
+The alarm can be on or off.
+
+00:09:34,030 --> 00:09:35,260
+That's already shown here.
+
+00:09:35,260 --> 00:09:37,510
+Of course, we only see
+this when we are in the
+
+00:09:37,510 --> 00:09:40,990
+alarm setting display and
+not in the time display.
+
+00:09:40,990 --> 00:09:45,520
+And then when we're
+in this alarm setting display,
+
+00:09:45,520 --> 00:09:49,870
+we can use the b button to switch
+whether the alarm should be on or off.
+
+00:09:51,220 --> 00:09:53,852
+We are in the alarm display
+and the alarm is currently on.
+
+00:09:53,852 --> 00:09:57,790
+And we press b, then
+we're still in the alarm display.
+
+00:09:57,790 --> 00:09:59,080
+But the alarm is off.
+
+00:09:59,080 --> 00:10:02,320
+And of course it can be undone.
+
+00:10:02,320 --> 00:10:05,710
+So we can also turn the alarm
+back on if we just turned it off.
+
+00:10:08,380 --> 00:10:09,610
+What is the effect of this alarm?
+
+00:10:09,610 --> 00:10:11,740
+It is to make the clock beep.
+
+00:10:11,740 --> 00:10:15,730
+It will beep whenever the
+time changes to a full hour.
+
+00:10:18,640 --> 00:10:20,140
+Of course, we don't see
+the beeping sound here now.
+
+00:10:20,140 --> 00:10:22,480
+This is just an information,
+it will be simply shown in
+
+00:10:22,480 --> 00:10:25,300
+the state diagram in a suitable place:
+
+00:10:25,300 --> 00:10:28,180
+Beep here in this transition.
+
+00:10:32,740 --> 00:10:34,420
+Is it complete in the meantime?
+
+00:10:34,420 --> 00:10:34,960
+No it isn't.
+
+00:10:34,960 --> 00:10:40,810
+Because in fact it's not meant to say
+that when we're in the time display and
+
+00:10:40,810 --> 00:10:43,630
+we switch to the alarm display,
+that then the alarm is always on.
+
+00:10:43,630 --> 00:10:46,000
+That would be nonsense.
+
+00:10:46,000 --> 00:10:51,160
+Let's imagine that we switch to the
+alarm setting, then we turn the alarm off.
+
+00:10:51,160 --> 00:10:54,400
+Then we also want to be
+able to switch back to the time.
+
+00:10:54,400 --> 00:10:56,620
+And not just after we turn the alarm on.
+
+00:10:57,280 --> 00:10:58,900
+So there would still have
+to be a transition here.
+
+00:10:58,900 --> 00:11:04,790
+Then here, even if we're in the alarm display
+and alarm is off, we want to be able to
+
+00:11:04,790 --> 00:11:06,920
+switch back to the time display.
+
+00:11:06,920 --> 00:11:08,000
+That means the other way around:
+
+00:11:08,000 --> 00:11:12,980
+If we wait a few minutes and then press
+a again, we don't want to end up here.
+
+00:11:13,490 --> 00:11:15,530
+After all, we intentionally
+turned off the alarm.
+
+00:11:15,530 --> 00:11:19,640
+We don't want to suddenly find out that
+the alarm is on again just because we switched
+
+00:11:19,640 --> 00:11:22,190
+to the time display and then wanted
+to check whether it was on or off.
+
+00:11:22,190 --> 00:11:24,740
+That's not how it's supposed to be.
+
+00:11:24,740 --> 00:11:30,320
+Instead, from the time
+display, by pressing a,
+
+00:11:30,320 --> 00:11:32,960
+we can end up either here or here.
+
+00:11:32,960 --> 00:11:35,390
+And that depends on
+whether we turned the alarm
+
+00:11:35,390 --> 00:11:40,250
+on or off the last time
+we were in the alarm setting.
+
+00:11:40,250 --> 00:11:42,080
+And then switched to the time display.
+
+00:11:42,710 --> 00:11:44,900
+That may look non-deterministic here.
+
+00:11:44,900 --> 00:11:48,710
+That here you don't know what's
+going to happen when you press a.
+
+00:11:48,710 --> 00:11:50,150
+But of course,
+implicitly, one already knows.
+
+00:11:50,150 --> 00:11:54,380
+Because the clock has a hidden state,
+whether the alarm is on or off.
+
+00:11:54,380 --> 00:11:57,470
+So the alarm has
+several levels of states.
+
+00:11:57,470 --> 00:11:59,360
+One, what is the current time?
+
+00:11:59,360 --> 00:12:03,020
+Is the alarm currently on or off?
+
+00:12:03,020 --> 00:12:07,820
+And am I currently showing the
+time or the alarm state/alarm setting?
+
+00:12:07,820 --> 00:12:18,140
+If you think about it now, if
+you wanted to model some flat state diagram,
+
+00:12:18,140 --> 00:12:19,775
+you would need quite a lot of states.
+
+00:12:19,775 --> 00:12:24,920
+One would have to remember, is one
+in the alarm or in the time display?
+
+00:12:24,920 --> 00:12:26,750
+Is the alarm on or off?
+
+00:12:26,750 --> 00:12:27,830
+What is the current time?
+
+00:12:27,830 --> 00:12:33,380
+Which consists of a number of
+hours between 0 and 23, and
+
+00:12:33,380 --> 00:12:35,180
+a number of minutes between 0 and 60.
+
+00:12:35,180 --> 00:12:40,880
+So somehow you would get 2
+× 2 × 24 × 60 states.
+
+00:12:40,880 --> 00:12:43,070
+That is several thousand.
+
+00:12:43,070 --> 00:12:44,780
+We do not want that.
+
+00:12:44,780 --> 00:12:48,140
+So we look for
+a more compact representation.
+
+00:12:48,140 --> 00:12:59,150
+And this will be realized in analogy to
+the example of Harel via a UML state diagram.
+
+00:12:59,150 --> 00:13:01,940
+In the following videos.

@@ -1,0 +1,899 @@
+00:00:00,000 --> 00:00:02,640
+So, herzlich willkommen zurück.
+
+00:00:02,640 --> 00:00:10,080
+Wir wollen uns jetzt hier heute mit
+Eigenschaften von Petrinetzen beschäftigen.
+
+00:00:10,080 --> 00:00:14,400
+Das hatte ich zum Schluss der vergangenen
+Vorlesung bereits angekündigt.
+
+00:00:14,400 --> 00:00:16,020
+Zur Erinnerung:
+
+00:00:16,020 --> 00:00:22,050
+Wir hatten uns zuletzt mit Erreichbarkeitsgraphen
+beschäftigt, bzw. mit deren Aufstellen.
+
+00:00:22,050 --> 00:00:25,440
+Das war das Beispiel aus der letzten Vorlesung.
+
+00:00:25,440 --> 00:00:32,160
+Da gab es dieses Petrinetz, und zu dem hatte
+ich den Erreichbarkeitsgraphen aufgestellt.
+
+00:00:32,160 --> 00:00:37,320
+Und anhand dessen hatte ich bereits
+intuitiv einige Eigenschaften diskutiert.
+
+00:00:37,320 --> 00:00:41,250
+Also etwa die Tatsache, dass
+es hier eine Sackgasse gibt.
+
+00:00:41,250 --> 00:00:46,290
+Dass man also in eine Situation geraten kann,
+in der das Petrinetz nicht mehr schalten kann.
+
+00:00:46,290 --> 00:00:50,490
+Aber auch andere Eigenschaften
+hatte ich hieran diskutiert.
+
+00:00:50,490 --> 00:00:53,550
+Das sind natürlich Eigenschaften
+des Petrinetzes, eigentlich.
+
+00:00:53,550 --> 00:00:59,160
+Aber wir können sie zum Teil
+besser oder überhaupt erkennen,
+
+00:00:59,160 --> 00:01:02,340
+indem wir den Erreichbarkeitsgraph
+aufstellen und analysieren.
+
+00:01:02,910 --> 00:01:06,780
+Genauso wird das für die Eigenschaften
+sein, die wir heute betrachten.
+
+00:01:06,780 --> 00:01:08,850
+Es werden zwar Eigenschaften der Petrinetze sein,
+
+00:01:08,850 --> 00:01:12,540
+aber diskutiert oder definiert werden
+sie an den Erreichbarkeitsgraphen.
+
+00:01:17,430 --> 00:01:22,380
+Und zwar beginnen wir zunächst mit
+Begriffen, die sich auf Lebendigkeit
+
+00:01:22,380 --> 00:01:26,490
+oder auch die Nicht-Lebendigkeit, den
+Deadlock, die Verklemmung beziehen.
+
+00:01:26,490 --> 00:01:29,880
+Später kommen dann noch
+weitere Eigenschaften hinzu.
+
+00:01:29,880 --> 00:01:32,850
+Aber die erste kleine Familie von Eigenschaften
+
+00:01:32,850 --> 00:01:37,860
+wird sich um Lebendigkeit
+und deren Gegenteil drehen.
+
+00:01:40,950 --> 00:01:45,000
+Da gibt es mehrere Begriffe, und der erste
+heißt nicht einfach nur "Lebendigkeit",
+
+00:01:45,000 --> 00:01:47,310
+sondern "starke Lebendigkeit".
+
+00:01:47,310 --> 00:01:49,290
+Hier ist zunächst die Definition angegeben.
+
+00:01:49,290 --> 00:01:55,890
+Also ein Petrinetz heißt "stark lebendig",
+wenn ... und dann gibt es hier eine Definition.
+
+00:01:55,890 --> 00:02:00,240
+Also es muss gelten, dass für jede einzelne
+Transition t (das Petrinetz kann ja mehrere
+
+00:02:00,240 --> 00:02:09,990
+Transitionen haben) und für jede von m0 (wir
+erinnern uns, m0 war die Startmarkierung) aus
+
+00:02:09,990 --> 00:02:16,130
+erreichbare Markierung, nennen wir
+die m, es eine Markierung m' gibt,
+
+00:02:16,130 --> 00:02:21,200
+die wiederum von m aus erreichbar
+ist, und für die t aktiviert ist.
+
+00:02:21,200 --> 00:02:23,330
+Das ist eine mehrstufige Definition:
+
+00:02:24,470 --> 00:02:26,180
+Für jedes t und jede von m0 aus erreichbare
+
+00:02:26,180 --> 00:02:28,490
+Markierung m möge es eine
+weitere Markierung m' geben, etc.
+
+00:02:30,500 --> 00:02:32,240
+Was heißt das intuitiv?
+
+00:02:32,240 --> 00:02:34,100
+Im Grunde genommen heißt das:
+
+00:02:34,100 --> 00:02:44,750
+Man lasse erst einmal das Petrinetz von
+der Anfangsmarkierung aus beliebig laufen,
+
+00:02:44,750 --> 00:02:48,020
+ohne dabei schon an irgendeine
+spezielle Transition t zu denken.
+
+00:02:48,020 --> 00:02:49,190
+Also man lässt es erst mal laufen.
+
+00:02:49,190 --> 00:02:52,730
+Irgendwann sagt man "Stop"
+und hat eine Markierung m.
+
+00:02:53,390 --> 00:02:59,690
+Jetzt muss es möglich sein, von da aus (wo auch
+immer man genau ist) irgendwie noch weiterarbeiten
+
+00:02:59,690 --> 00:03:08,480
+zu können, und zwar so, dass man irgendwann
+noch in die Gelegenheit gerät, t zu schalten.
+
+00:03:09,650 --> 00:03:11,930
+Es darf nicht sein, dass man auf dem Weg von m0
+
+00:03:11,930 --> 00:03:17,480
+zu m sich irgendwie in eine Ecke des
+Erreichbarkeitsgraphen manövriert hat,
+
+00:03:17,480 --> 00:03:21,230
+von wo aus man nie wieder die
+Gelegenheit erhält, t zu schalten.
+
+00:03:21,230 --> 00:03:25,610
+Dann ist das Petrinetz stark lebendig,
+wenn das für jede Transition t gilt.
+
+00:03:25,610 --> 00:03:34,170
+Das heißt natürlich, dass dann t beliebig
+oft, unendlich oft, schaltbar ist.
+
+00:03:34,170 --> 00:03:36,600
+Aber dies ist nicht alles,
+was die Eigenschaft besagt.
+
+00:03:36,600 --> 00:03:41,550
+Starke Lebendigkeit ist tatsächlich
+ein sehr starker Begriff.
+
+00:03:41,550 --> 00:03:47,220
+Ablesen kann man die Eigenschaft
+am Erreichbarkeitsgraphen.
+
+00:03:47,220 --> 00:03:51,690
+Man kann das, was hier in der Definition steht,
+auch auf den Erreichbarkeitsgraphen übertragen.
+
+00:03:51,690 --> 00:03:53,700
+Dann heißt es letztlich:
+
+00:03:53,700 --> 00:03:58,560
+Von jedem Knoten des Graphen aus muss ein Übergang
+erreichbar sein, der mit t beschriftet ist.
+
+00:03:58,560 --> 00:04:03,990
+Von "jedem Knoten des Graphen aus", das sind ja
+gerade alle von m0 aus erreichbaren Markierungen.
+
+00:04:03,990 --> 00:04:06,690
+Also wenn wir sagen, "für jede von
+m0 aus erreichbare Markierung m",
+
+00:04:06,690 --> 00:04:09,420
+dann ist das äquivalent dazu,
+zu sagen: "von jedem Knoten des
+
+00:04:09,420 --> 00:04:12,120
+Erreichbarkeitsgraphen aus" (da stehen
+ja nur erreichbare Markierungen drin).
+
+00:04:12,120 --> 00:04:15,540
+Also von da aus muss man irgendwo hinkommen
+können, wo t nochmal aktiviert ist.
+
+00:04:15,540 --> 00:04:19,290
+Das heißt, von jedem Knoten des
+Erreichbarkeitsgraphen aus muss
+
+00:04:19,290 --> 00:04:21,990
+noch mal ein anderer Knoten erreichbar
+sein oder vielleicht der gleiche sogar,
+
+00:04:21,990 --> 00:04:25,260
+von dem aus man mit t einen Übergang machen kann.
+
+00:04:25,260 --> 00:04:26,910
+Das entspricht ja, dass t aktiviert ist.
+
+00:04:30,000 --> 00:04:36,870
+Trifft das zum Beispiel für unser
+Beispiel-Petrinetz aus der vergangenen Woche zu?
+
+00:04:37,500 --> 00:04:38,130
+Für dieses Petrinetz?
+
+00:04:38,130 --> 00:04:42,210
+Hat das die Eigenschaft, dass wenn man
+von dieser Startmarkierung m0 ausgehend
+
+00:04:42,750 --> 00:04:47,310
+irgendwelche Übergänge macht (beliebig
+viele, beliebig lange), garantiert ist,
+
+00:04:47,310 --> 00:04:50,010
+dass in welcher Markierung
+m auch immer man dann ist,
+
+00:04:50,010 --> 00:04:54,480
+von dort aus eine Markierung m' erreichbar
+ist, wo t1 zum Beispiel schaltbar ist?
+
+00:04:54,480 --> 00:04:59,070
+Oder umgekehrt, wir legen uns
+erst auf t1 fest und fragen:
+
+00:04:59,070 --> 00:05:04,920
+Ist es so, dass für jede erreichbare
+Markierung m es dann noch möglich ist, ein
+
+00:05:04,920 --> 00:05:06,630
+m' zu erreichen, von dem aus t1 schaltbar ist?
+
+00:05:06,630 --> 00:05:08,910
+Und für t1 muss die Antwort "Ja" sein,
+für t2 muss die Antwort "Ja" sein,
+
+00:05:08,910 --> 00:05:10,530
+für t3 muss die Antwort "Ja" sein.
+
+00:05:12,360 --> 00:05:17,190
+Wenn für alle drei die Antwort jeweils "Ja"
+ist, dann wäre dieses Petrinetz stark lebendig.
+
+00:05:19,050 --> 00:05:20,220
+Das kann man sich hier dann überlegen:
+
+00:05:20,220 --> 00:05:21,180
+Was passiert, wenn ich hier schalte?
+
+00:05:21,180 --> 00:05:22,260
+Was könnte passieren?
+
+00:05:22,260 --> 00:05:31,530
+Kann ich garantieren, dass ich zum
+Beispiel immer wieder t3 schalten kann?
+
+00:05:38,230 --> 00:05:40,360
+Beantworten können wir das
+am Erreichbarkeitsgraphen.
+
+00:05:40,360 --> 00:05:44,950
+Ist es hier wahr, dass es von
+jedem Knoten aus möglich ist,
+
+00:05:44,950 --> 00:05:48,460
+einen Knoten zu erreichen,
+in dem t1 schaltbar ist?
+
+00:05:48,460 --> 00:05:53,710
+Nein, das ist mit Sicherheit nicht
+wahr, weil es die Sackgasse gibt.
+
+00:05:53,710 --> 00:05:57,730
+Also nehmen wir als t unser t1.
+
+00:05:57,730 --> 00:06:05,350
+Dann ist es tatsächlich so, dass es eine
+Markierung m gibt, die von m0 aus erreichbar ist,
+
+00:06:05,350 --> 00:06:10,000
+und von der ausgehend es kein m'
+gibt, in dem t1 schaltbar ist.
+
+00:06:10,000 --> 00:06:14,230
+Also von diesem Knoten ausgehend
+gibt es keinen erreichbaren Knoten,
+
+00:06:14,230 --> 00:06:17,410
+von dem aus man t1 oder auch
+t2 oder t3 schalten kann.
+
+00:06:17,410 --> 00:06:21,160
+In dem Fall wäre es sogar egal, ob
+man sich auf t1, t2, t3 fokussiert.
+
+00:06:21,160 --> 00:06:25,390
+Weil es für alle drei so ist, dass
+es mindestens einen Knoten gibt,
+
+00:06:25,390 --> 00:06:29,620
+nämlich diesen hier, von dem aus man nie
+wieder t1 oder t2 oder t3 schalten kann.
+
+00:06:29,620 --> 00:06:31,420
+Und es ist auch nicht die einzige Sackgasse.
+
+00:06:31,420 --> 00:06:34,030
+Für jede Sackgasse in diesem
+Erreichbarkeitsgraphen hätten
+
+00:06:34,030 --> 00:06:37,630
+wir dieses Phänomen, dass natürlich nie
+wieder Transitionen ausführbar sind.
+
+00:06:38,350 --> 00:06:39,040
+Sonst wäre es keine Sackgasse.
+
+00:06:39,040 --> 00:06:42,370
+Das heißt, auf dieses Petrinetz bezogen:
+
+00:06:42,370 --> 00:06:45,850
+Man kann hier "verklemmende" Abläufe haben.
+
+00:06:45,850 --> 00:06:51,340
+Das wird irgendwie so sein, wenn man hier
+zum Beispiel t2 und t3 nicht sinnvoll,
+
+00:06:51,340 --> 00:06:56,320
+abwechselnd schaltet; sondern nach Schalten
+von t1, dann wären hier unten ja zwei Marken,
+
+00:06:56,320 --> 00:07:01,990
+zum Beispiel diese beide mit t3 nach
+oben bewegt und dadurch verhindert,
+
+00:07:01,990 --> 00:07:05,800
+dass jemals t1 wieder schaltbar ist; und dann
+natürlich auch keine andere Transition mehr.
+
+00:07:05,800 --> 00:07:12,820
+Also hier wäre die Antwort tatsächlich, dass
+dieses Petrinetz, das wir gesehen haben,
+
+00:07:12,820 --> 00:07:14,950
+nicht stark lebendig ist in diesem Sinne.
+
+00:07:18,700 --> 00:07:20,470
+Das wäre "starke Lebendigkeit".
+
+00:07:20,470 --> 00:07:22,090
+Wenn es "starke Lebendigkeit" gibt,
+
+00:07:22,090 --> 00:07:24,130
+dann gibt es sicherlich auch einen
+Begriff der "schwachen Lebendigkeit".
+
+00:07:24,130 --> 00:07:26,860
+Und vielleicht erfüllt unser
+Petrinetz ja diesen zumindest.
+
+00:07:26,860 --> 00:07:29,350
+Also was heißt "schwache Lebendigkeit"?
+
+00:07:29,350 --> 00:07:36,970
+Ein Petrinetz ist schwach lebendig,
+wenn es für jede Transition t eine
+
+00:07:36,970 --> 00:07:39,700
+von m0 aus erreichbare Markierung
+m gibt, für die t aktiviert ist.
+
+00:07:40,360 --> 00:07:45,160
+Bei der starken Lebendigkeit hieß es ja,
+dass für jede Transition t und jede von
+
+00:07:45,160 --> 00:07:49,990
+m0 aus erreichbare Markierung m es so ist,
+dass man irgendwann mal noch t schalten kann.
+
+00:07:49,990 --> 00:07:51,040
+Während es hier nur heißt:
+
+00:07:51,040 --> 00:07:54,760
+Für jede Transition t muss es eine von
+m0 aus erreichbare Markierung m geben,
+
+00:07:54,760 --> 00:07:55,765
+für die t aktiviert ist.
+
+00:07:55,765 --> 00:07:56,140
+Und nicht:
+
+00:07:56,140 --> 00:07:59,290
+Für jede von m0 aus erreichbare
+Markierung m muss es möglich sein,
+
+00:07:59,290 --> 00:08:01,570
+m' zu erreichen, für das t aktiviert ist.
+
+00:08:01,570 --> 00:08:07,090
+Also das ist eine schwächere Forderung, weil man
+hier sozusagen eine günstige Wahl treffen kann
+
+00:08:07,090 --> 00:08:14,530
+Also als diejenige Person, die versuchen möchte,
+nachzuweisen, dass ein Petrinetz schwach lebendig
+
+00:08:14,530 --> 00:08:20,560
+ist, kann man hier sozusagen von m0 aus
+eine günstige erreichbare Markierung wählen.
+
+00:08:20,560 --> 00:08:23,980
+Während bei der starken Lebendigkeit
+die Eigenschaft für alle von m0 aus
+
+00:08:23,980 --> 00:08:26,740
+erreichbaren Markierungen gelten muss,
+auch für vielleicht ungünstig gewählte.
+
+00:08:28,540 --> 00:08:31,450
+Deswegen ist das auf jeden Fall
+eine schwächere Eigenschaft,
+
+00:08:31,450 --> 00:08:35,290
+die deswegen potentiell mehr
+Petrinetze erfüllen können.
+
+00:08:35,290 --> 00:08:39,670
+Was sagt die Eigenschaft bezogen
+auf den Erreichbarkeitsgraphen?
+
+00:08:42,070 --> 00:08:47,200
+Es heißt einfach, dass jede Transition t überhaupt
+im Erreichbarkeitsgraphen vorkommen muss.
+
+00:08:47,200 --> 00:08:51,940
+Also wenn in dem Petrinetz eine Transition t
+
+00:08:51,940 --> 00:08:55,210
+eingezeichnet ist, dann muss die auch
+im Erreichbarkeitsgraphen vorkommen.
+
+00:08:55,210 --> 00:09:00,790
+Denn der Erreichbarkeitsgraph
+deckt ja alle Schaltungen ab,
+
+00:09:00,790 --> 00:09:03,940
+die von einer erreichbaren
+Markierung aus möglich sind.
+
+00:09:03,940 --> 00:09:07,750
+Also die Forderung "es muss
+eine von m0 aus erreichbare
+
+00:09:07,750 --> 00:09:11,590
+Markierung geben" ist äquivalent zu "es muss
+im Erreichbarkeitsgraphen einen Knoten geben",
+
+00:09:11,590 --> 00:09:14,560
+von dem aus man einen t-Übergang machen kann.
+
+00:09:19,120 --> 00:09:20,200
+Dann können wir wieder schauen:
+
+00:09:20,200 --> 00:09:23,410
+Ist das jetzt für unser
+Beispiel-Petrinetz der Fall?
+
+00:09:25,660 --> 00:09:27,190
+Das kann man schon an dem Petrinetz sehen:
+
+00:09:27,190 --> 00:09:30,130
+Hier wissen wir eigentlich, wir
+haben schon Schaltungen gesehen,
+
+00:09:30,130 --> 00:09:32,710
+in denen t1 ausgeführt wurde, sowie t2 und t3.
+
+00:09:36,130 --> 00:09:38,890
+Wenn wir t1 schalten, können wir danach
+t2 schalten und dann auch t3 schalten.
+
+00:09:38,890 --> 00:09:41,260
+Dann haben wir alle Transitionen
+mindestens einmal geschaltet.
+
+00:09:41,260 --> 00:09:45,460
+Und das würde schon reichen, um schwache
+Lebendigkeit des Petrinetzes festzustellen.
+
+00:09:45,460 --> 00:09:48,460
+Oder wir schauen auf den
+Erreichbarkeitsgraphen und fragen uns:
+
+00:09:48,460 --> 00:09:53,560
+Kommt denn jede Transition t1,
+t2, t3 hier mindestens einmal vor?
+
+00:09:53,560 --> 00:09:56,320
+Dann sehen wir: ja, t1 hier, t2 hier, t3 hier.
+
+00:09:56,320 --> 00:09:56,920
+Das würde schon reichen.
+
+00:10:00,000 --> 00:10:03,750
+Damit wäre schwache Lebendigkeit
+in dem Beispiel schon vorliegend.
+
+00:10:08,400 --> 00:10:16,650
+Um das so prüfen zu können (das gilt
+genauso auch für die starke Lebendigkeit),
+
+00:10:16,650 --> 00:10:19,770
+sollte der Erreichbarkeitsgraph endlich sein.
+
+00:10:19,770 --> 00:10:24,120
+Wir wissen, allgemein können
+Erreichbarkeitsgraphen unendlich sein.
+
+00:10:24,120 --> 00:10:31,170
+Diese Überprüfung auf starke oder
+schwache Lebendigkeit ist möglich,
+
+00:10:31,170 --> 00:10:33,420
+wenn der Erreichbarkeitsgraph endlich ist.
+
+00:10:33,420 --> 00:10:39,600
+Die schwache Lebendigkeit kann man oft auch
+für unendliche Erreichbarkeitsgraphen einfach
+
+00:10:39,600 --> 00:10:44,010
+entscheiden, wenn schon in einem endlichen
+Teil davon alle Transitionen vorkommen.
+
+00:10:44,520 --> 00:10:47,100
+Hierfür ist es nur wichtig, dass
+jede Transition einmal vorkommt.
+
+00:10:47,100 --> 00:10:52,881
+Also wenn man ein Petrinetz hat und den
+Erreichbarkeitsgraphen teilweise auch schon;
+
+00:10:52,881 --> 00:10:56,910
+wenn man einfach beginnt, den zu entwickeln, den
+vielleicht auch gar nicht fertig entwickelt hat
+
+00:10:56,910 --> 00:10:59,850
+(weil es vielleicht gar nicht geht in endlicher
+Zeit, weil der unendlich viele Knoten hat); aber
+
+00:10:59,850 --> 00:11:04,020
+wenn man nach endlicher Zeit schon jede Transition
+einmal gesehen hat, kann man bereits sagen:
+
+00:11:04,020 --> 00:11:07,260
+Das zugrundeliegende Petrinetz
+war mindestens schwach lebendig.
+
+00:11:07,260 --> 00:11:13,020
+Um auch starke Lebendigkeit nachzuweisen, müsste
+man den gesamten Erreichbarkeitsgraphen kennen.
+
+00:11:13,020 --> 00:11:17,040
+Und das ist bei unendlichen
+Erreichbarkeitsgraphen natürlich schwierig.
+
+00:11:20,880 --> 00:11:24,000
+Das wären "starke und schwache Lebendigkeit".
+
+00:11:24,000 --> 00:11:29,490
+Was wir hier gesehen haben, ist dass ein
+Petrinetz schwach lebendig sein kann,
+
+00:11:29,490 --> 00:11:34,800
+obwohl es einen Deadlock enthält,
+eine Verklemmung, eine Markierung,
+
+00:11:34,800 --> 00:11:36,480
+von der aus keine weiteren Schritte möglich sind.
+
+00:11:36,480 --> 00:11:38,250
+Das spricht nicht gegen schwache Lebendigkeit.
+
+00:11:38,250 --> 00:11:40,230
+Das spricht allerdings gegen starke Lebendigkeit.
+
+00:11:40,230 --> 00:11:46,890
+Und diese Art Deadlock, Verklemmung, Sackgasse,
+die hat natürlich auch eine Definition.
+
+00:11:46,890 --> 00:11:48,510
+Auch wenn wir schon intuitiv gesehen haben,
+
+00:11:48,510 --> 00:11:51,600
+was das bedeutet, und vielleicht gar
+keine formale Definition brauchen.
+
+00:11:51,600 --> 00:11:53,280
+Dennoch hier einmal aufgeschrieben:
+
+00:11:53,280 --> 00:11:56,490
+Also man sagt, ein Petrinetz hat
+eine Verklemmung oder einen Deadlock
+
+00:11:56,490 --> 00:12:00,510
+(oder bisher hatte ich manchmal
+Sackgasse gesagt) genau dann,
+
+00:12:00,510 --> 00:12:05,550
+wenn es eine von m0 aus erreichbare Markierung
+gibt, für die keine Transition aktiviert ist.
+
+00:12:05,550 --> 00:12:08,460
+Das heißt natürlich äquivalent
+für den Erreichbarkeitsgraphen,
+
+00:12:08,460 --> 00:12:11,220
+dass es einen Knoten gibt, von
+dem aus es keinen Übergang gibt.
+
+00:12:11,220 --> 00:12:15,660
+Das entspricht also genau unserer
+informellen Frage nach Sackgassen.
+
+00:12:15,660 --> 00:12:21,060
+Das heißt auch, dass dieses Petrinetz
+mindestens eine Verklemmung enthält,
+
+00:12:21,060 --> 00:12:25,980
+und das sehen wir zum Beispiel im
+Erreichbarkeitsgraphen hier, aber auch hier.
+
+00:12:26,820 --> 00:12:30,030
+Um zu sagen "es gibt eine Verklemmung" bzw.
+"das Petrinetz ist nicht verklemmungsfrei",
+
+00:12:30,030 --> 00:12:32,640
+reicht es, eine Sackgasse festgestellt zu haben.
+
+00:12:35,670 --> 00:12:37,410
+Tatsächlich gibt es auch den
+Begriff "verklemmungsfrei".
+
+00:12:37,410 --> 00:12:40,170
+Das sagt man, wenn ein Petrinetz
+keine Verklemmung enthält.
+
+00:12:44,130 --> 00:12:47,760
+Was wichtig ist, was oft in der Übung
+oder Klausur falsch gemacht wird:
+
+00:12:47,760 --> 00:12:52,290
+Dieser Verklemmungs-Begriff
+sagt genau das, was hier steht.
+
+00:12:52,290 --> 00:12:54,390
+Also er sagt zum Beispiel nicht,
+
+00:12:54,390 --> 00:12:58,170
+dass es irgendwie eine Stelle gibt,
+von der aus es keinen Pfeil gibt.
+
+00:12:58,170 --> 00:13:04,290
+Das wird oftmals fehlinterpretiert von
+Studierenden, und dann argumentiert,
+
+00:13:04,290 --> 00:13:08,850
+das Petrinetz sei verklemmungsfrei oder
+eben nicht, und dann wird darauf abgehoben,
+
+00:13:08,850 --> 00:13:13,620
+ob es darin Stellen gibt (also Kreise),
+von denen keine Pfeile ausgehen.
+
+00:13:13,620 --> 00:13:14,490
+Das ist nicht das Kriterium.
+
+00:13:14,490 --> 00:13:15,780
+Das Kriterium ist das, was hier steht,
+
+00:13:15,780 --> 00:13:22,200
+bzw. dass es im Erreichbarkeitsgraphen Knoten
+gibt, von denen es keinen Übergang gibt.
+
+00:13:22,200 --> 00:13:24,900
+Also Knoten, von denen es nicht weitergeht.
+
+00:13:24,900 --> 00:13:26,310
+Das ist das Kriterium für Verklemmung.
+
+00:13:26,310 --> 00:13:30,780
+Nicht irgendwie ein Bezug auf
+Stellen in dem Petrinetz selber.
+
+00:13:30,780 --> 00:13:36,990
+Um das prüfen zu können, ist wieder wichtig,
+dass der Erreichbarkeitsgraph endlich ist.
+
+00:13:36,990 --> 00:13:40,050
+Diese Überprüfung, auf diese Art und Weise,
+
+00:13:40,050 --> 00:13:46,020
+dafür muss der Erreichbarkeitsgraph
+vollständig durchsucht werden.
+
+00:13:46,020 --> 00:13:47,400
+Und das geht nur, wenn er endlich ist.
+
+00:13:47,400 --> 00:13:52,680
+Das heißt auch, dass Sie sowas nur beantworten
+können, in der Prüfung zum Beispiel,
+
+00:13:52,680 --> 00:13:58,770
+für endliche Erreichbarkeitsgraphen bzw. für
+Petrinetze mit endlichen Erreichbarkeitsgraphen.
+
+00:13:58,770 --> 00:14:02,850
+Aber die Definition ist natürlich
+auch allgemein anwendbar, sie lässt
+
+00:14:02,850 --> 00:14:05,932
+sich dann nur nicht so leicht überprüfen.
+
+00:14:05,932 --> 00:14:09,030
+Das ist unser Beispiel von eben, da
+müssen wir gar nichts weiter tun.
+
+00:14:09,030 --> 00:14:11,130
+Wir müssen uns das nicht
+nochmal genauer anschauen.
+
+00:14:11,130 --> 00:14:14,370
+Ich hatte bereits auf die
+Sackgassen Bezug genommen,
+
+00:14:14,370 --> 00:14:19,320
+als ich die starke Lebendigkeit diskutiert
+bzw. für das Beispiel verworfen habe.
+
+00:14:23,550 --> 00:14:24,900
+Was gibt es noch zu sagen?
+
+00:14:26,970 --> 00:14:29,010
+Also was heißt das überhaupt, "stark"?
+
+00:14:29,010 --> 00:14:31,350
+Warum heißt die "starke Lebendigkeit" stark?
+
+00:14:31,350 --> 00:14:34,140
+Weil sie in Summe stärker ist
+als die schwache Lebendigkeit.
+
+00:14:34,140 --> 00:14:38,610
+Also es gilt insbesondere, dass
+jedes stark lebendige Petrinetz
+
+00:14:38,610 --> 00:14:41,280
+sowohl schwach lebendig ist
+als auch verklemmungsfrei.
+
+00:14:41,280 --> 00:14:42,180
+Und umgekehrt:
+
+00:14:42,180 --> 00:14:46,020
+Ein Petrinetz, das nicht schwach lebendig
+ist, kann auch nicht stark lebendig sein;
+
+00:14:46,590 --> 00:14:50,370
+ein Petrinetz, das eine Verklemmung
+enthält, kann nicht stark lebendig sein.
+
+00:14:50,370 --> 00:14:57,300
+Das gilt, weil wir keine
+Transitionsmengen haben, die leer sind.
+
+00:14:57,300 --> 00:14:59,130
+Wenn man in Petrinetzen auch
+leere Transitionsmenge zuließe,
+
+00:14:59,970 --> 00:15:03,810
+dann würde diese Aussage hier nur
+mit einer Vorbedingung gelten.
+
+00:15:03,810 --> 00:15:07,080
+Das wäre ein sehr künstlicher
+Fall, dass man Petrinetze hat,
+
+00:15:07,080 --> 00:15:09,750
+in denen es zwar Stellen
+gibt, aber keine Transitionen.
+
+00:15:09,750 --> 00:15:13,650
+Dann ist, formal gesehen, das
+Petrinetz durchaus stark lebendig,
+
+00:15:13,650 --> 00:15:15,330
+und dann würde diese Aussage nicht zutreffen.
+
+00:15:15,330 --> 00:15:19,950
+Da es dann sowohl stark lebendig als
+auch mit einer Verklemmung versehen wäre.
+
+00:15:19,950 --> 00:15:23,400
+Aber wir betrachten, wir
+haben absichtlich definiert,
+
+00:15:23,400 --> 00:15:26,670
+Petrinetze nur für nicht leere Transitionsmengen.
+
+00:15:26,670 --> 00:15:34,230
+Und dann gilt die Aussage, wie sie
+hier steht, und es gibt diesen klaren
+
+00:15:34,230 --> 00:15:37,785
+Zusammenhang von starker zu schwacher
+Lebendigkeit und Verklemmungsfreiheit.
+
+00:15:37,785 --> 00:15:50,880
+Okay, wir haben das an dem
+einen Beispiel nur diskutiert.
+
+00:15:50,880 --> 00:15:56,490
+Ich werde gleich in einem separaten Video
+mit Beispielen in meiner Whiteboard-App
+
+00:15:56,490 --> 00:16:01,710
+verschiedene Kombinationen der verschiedenen
+
+00:16:01,710 --> 00:16:05,520
+Eigenschaften bezüglich Lebendigkeit
+und Verklemmung durchdiskutieren.
+
+00:16:05,520 --> 00:16:09,960
+Also einfache künstliche Beispiel anschauen,
+wo bestimmte Kombinationen auftreten.
+
+00:16:09,960 --> 00:16:14,790
+Insbesondere wird es dabei auch
+darum gehen, den Irrtum auszuräumen,
+
+00:16:14,790 --> 00:16:21,150
+der auch verbreitet ist und gern in Übungen oder
+der Klausur geäußert wird, nämlich dass sozusagen
+
+00:16:21,150 --> 00:16:27,570
+die Verklemmungsfreiheit gerade der Unterschied
+zwischen starker und schwacher Lebendigkeit sei.
+
+00:16:27,570 --> 00:16:31,290
+Es stimmt zwar, dass aus starker
+Lebendigkeit die schwache
+
+00:16:31,290 --> 00:16:33,600
+Lebendigkeit und Verklemmungsfreiheit folgen.
+
+00:16:33,600 --> 00:16:37,890
+Es stimmt aber nicht, dass sozusagen genau
+diese beiden Sachen vorliegen müssen,
+
+00:16:37,890 --> 00:16:39,480
+damit starke Lebendigkeit vorliegt.
+
+00:16:39,480 --> 00:16:41,580
+Das sind unabhängige
+Eigenschaften in gewissem Sinne.
+
+00:16:41,580 --> 00:16:47,490
+Aber das werden wir uns an den konkreten
+kleinen Petrinetzen auch klarmachen können.

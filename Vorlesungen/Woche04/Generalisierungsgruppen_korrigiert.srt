@@ -1,0 +1,735 @@
+85 # slide
+00:00:00,000 --> 00:00:07,380
+Wir hatten uns in der vergangenen Woche
+mit Klassen und dann zum Ende hin vor
+
+00:00:07,380 --> 00:00:11,250
+allem mit Vererbung zwischen Klassen beschäftigt.
+
+00:00:11,250 --> 00:00:17,310
+Die letzte Folie dazu war diese Folie
+mit solch künstlichen Klassen gewesen,
+
+00:00:17,310 --> 00:00:19,920
+wo es um strukturelle Einschränkungen ging.
+
+00:00:19,920 --> 00:00:22,110
+Also dass bestimmte Arten von
+
+00:00:22,110 --> 00:00:25,020
+Vererbungszusammenhängen
+nicht erlaubt sein sollen.
+
+00:00:25,020 --> 00:00:31,560
+Und das war unabhängig vom Inhalt der Klassen,
+deswegen waren das so künstliche Namen.
+
+00:00:31,560 --> 00:00:38,010
+Jetzt wollen wir uns stattdessen etwas mit
+inhaltlicher Strukturierung beschäftigen.
+
+00:00:38,010 --> 00:00:41,340
+Deswegen jetzt auch konkretere Beispiele.
+
+00:00:42,630 --> 00:00:50,220
+Hier ist eine Konstellation, wo wir eine Klasse
+"Auto" haben und mehrere Klassen davon erben.
+
+00:00:50,220 --> 00:00:57,330
+Dieses Bild hier mit den zusammenlaufenden
+Pfeilen oder Strichen, die dann alle in
+
+00:00:57,330 --> 00:01:04,080
+einem Vererbungspfeil nach Auto hin
+enden, ist gleichbedeutend damit,
+
+00:01:05,280 --> 00:01:09,660
+hier einfach viermal jeweils einen
+solchen Vererbungspfeil zu haben.
+
+00:01:09,660 --> 00:01:11,400
+Hier ist nichts zyklisch.
+
+00:01:11,400 --> 00:01:14,160
+Also strukturell ist das in Ordnung.
+
+00:01:14,160 --> 00:01:18,480
+Und auch wenn wir jetzt keine
+Attribute und Methoden angegeben
+
+00:01:18,480 --> 00:01:21,750
+haben (die Kästen habe ich jeweils freigelassen),
+
+00:01:21,750 --> 00:01:27,750
+können wir uns anhand der Namen überlegen,
+dass das sinnvolle Beziehungen sein mögen.
+
+00:01:27,750 --> 00:01:31,650
+Also wir gucken mal nicht darauf, was mit den
+Attributen oder Methoden bei der Vererbung
+
+00:01:31,650 --> 00:01:38,910
+passiert, sondern berücksichtigen einfach diese
+Grundforderung, dass eine Vererbung immer eine
+
+00:01:38,910 --> 00:01:44,700
+echte Generalisierungs-/Spezialisierungs-Beziehung
+sein soll.
+
+00:01:44,700 --> 00:01:50,490
+Also wir sollten andere Klasse
+von "Auto" erben lassen,
+
+00:01:50,490 --> 00:01:53,370
+wenn Vertreter dieser anderen
+Klassen auch Autos sind.
+
+00:01:54,150 --> 00:01:56,940
+Ein Privatauto ist auch ein
+Auto, eben ein spezielleres Auto.
+
+00:01:56,940 --> 00:02:00,180
+Ein Dieselauto ist auch ein Auto,
+eben ein spezielleres Auto, etc.
+
+00:02:00,180 --> 00:02:05,520
+Deswegen sind das inhaltlich gesehen
+sinnvolle Vererbungszusammenhänge.
+
+00:02:05,520 --> 00:02:08,820
+Und zwar ist jede dieser vier Unterklassen eine
+
+00:02:08,820 --> 00:02:12,270
+sinnvolle Spezialisierung
+des allgemeinen Konzepts.
+
+00:02:13,500 --> 00:02:18,780
+Das können wir erst mal so gelten lassen.
+
+00:02:20,250 --> 00:02:22,050
+Interessanterweise haben hier,
+wenn man inhaltlich schaut,
+
+00:02:23,160 --> 00:02:25,410
+verschiedene Aspekte zur Spezialisierung geführt.
+
+00:02:26,280 --> 00:02:34,620
+Sicher, all diese vier spezielleren Arten von
+Autos sind spezielle Ausprägungen von Autos,
+
+00:02:34,620 --> 00:02:38,010
+aber eben aus verschiedenen Gründen
+und in verschiedener Hinsicht.
+
+00:02:38,550 --> 00:02:46,320
+Wenn man sich hier mal diese vier Arten von
+speziellen Autos anschaut, stellt man fest, dass
+
+00:02:46,980 --> 00:02:53,250
+zum Beispiel die beiden linken hier, Privatauto
+und Dieselauto, zwar jeweils spezielle Autos sind.
+
+00:02:53,250 --> 00:02:55,860
+Aber irgendwie in verschiedener Hinsicht
+sind sie spezieller als allgemeine Autos.
+
+00:02:55,860 --> 00:02:57,390
+Das Privatauto ist hinsichtlich des
+Besitztumsverhältnisses spezieller
+
+00:02:57,390 --> 00:02:59,940
+als ein unbekanntes allgemeines Auto:
+
+00:03:00,870 --> 00:03:03,540
+Wem gehört denn dieses Auto?
+
+00:03:03,540 --> 00:03:09,300
+Während Dieselauto auch ein spezielles Auto ist,
+aber in einer anderen Richtung spezialisiert.
+
+00:03:09,300 --> 00:03:14,340
+Also nicht bezüglich der Besitztumsverhältnisse,
+sondern bezüglich des Antriebs.
+
+00:03:14,340 --> 00:03:21,090
+Das heißt, Privatauto und Dieselauto
+sind zwar verschiedene Arten von Autos,
+
+00:03:21,090 --> 00:03:23,970
+aber nicht in dem Sinne, dass man sie
+in Kontrast zueinander sehen könnte.
+
+00:03:23,970 --> 00:03:26,010
+Also Privatauto ist nicht
+das Gegenteil von Dieselauto,
+
+00:03:26,010 --> 00:03:30,960
+noch stehen die in irgendeiner anderen
+Hinsicht sozusagen im Kontrast zueinander.
+
+00:03:30,960 --> 00:03:33,330
+Es sind einfach vollkommen
+verschiedene Dimensionen,
+
+00:03:33,330 --> 00:03:36,000
+in denen ein Auto spezialisiert sein kann.
+
+00:03:37,530 --> 00:03:43,500
+Das Beispiel ist so gewählt, dass das jetzt nicht
+für alle Paarungen von Unterklassen der Fall wäre.
+
+00:03:43,500 --> 00:03:47,520
+Denn zum Beispiel "Privatauto" und
+"Firmenauto" sind tatsächlich nicht nur
+
+00:03:47,520 --> 00:03:53,460
+speziellere Autos, sondern auch entlang
+der gleichen Dimension spezialisiert.
+
+00:03:53,460 --> 00:04:00,750
+Privatauto und Firmenauto sind tatsächlich in
+diesem Sinne ein Gegensatzpaar, ein Kontrastpaar.
+
+00:04:00,750 --> 00:04:03,000
+Anders als Privatauto und Dieselauto.
+
+00:04:03,000 --> 00:04:06,060
+Und das gleiche gilt für Dieselauto und Solarauto.
+
+00:04:06,060 --> 00:04:10,290
+Auch die sind verschiedene Arten von
+speziellen Autos, aber irgendwie sind
+
+00:04:10,290 --> 00:04:14,250
+sie in der gleichen Hinsicht spezialisiert
+worden, nämlich hinsichtlich ihres Antriebs.
+
+00:04:14,250 --> 00:04:17,520
+Was wiederum für Firmenauto und
+Solarauto nicht gelten würde.
+
+00:04:17,520 --> 00:04:20,460
+Die sind aus verschiedenen
+Gründen spezialisierte Autos.
+
+00:04:23,480 --> 00:04:29,180
+Also irgendwie scheinen Privatauto/Firmenauto
+in gewissem Sinne zusammenzugehören als eine
+
+00:04:29,180 --> 00:04:31,520
+Richtung, in die ein Auto spezieller werden kann.
+
+00:04:31,520 --> 00:04:34,790
+Und Dieselauto/Solarauto scheinen auch in dieser
+
+00:04:34,790 --> 00:04:43,400
+Hinsicht irgendwie zusammenzugehören
+als eine Art, "Auto" zu spezialisieren.
+
+00:04:44,870 --> 00:04:48,440
+Und diese Beobachtung kann man
+auch im Diagramm darstellen.
+
+00:04:48,440 --> 00:04:52,880
+Also so darstellen, dass klar wird, dass
+Privatauto und Firmenauto in einer Hinsicht
+
+00:04:52,880 --> 00:04:57,890
+speziellere Autos sind, und Dieselauto/Solarauto
+in anderer Hinsicht speziellere Autos sind.
+
+00:04:57,890 --> 00:05:04,850
+Anstatt einfach hier alle vier nebeneinander
+von Auto erben zu lassen, könnte man diese
+
+00:05:04,850 --> 00:05:10,070
+Unterklassen in Gruppen zusammenfassen,
+sogenannte Generalisierungsgruppen.
+
+00:05:10,070 --> 00:05:14,210
+Also diese einzelnen Generalisierungsbeziehungen,
+
+00:05:14,210 --> 00:05:17,210
+das waren vier auf der vorherigen Folie,
+würde man in Gruppen zusammenfassen.
+
+00:05:17,210 --> 00:05:19,130
+Das kann dann zum Beispiel so aussehen:
+
+00:05:20,120 --> 00:05:23,000
+Nach wie vor haben wir das
+Auto als zentrale Klasse.
+
+00:05:23,000 --> 00:05:28,880
+Auch als oberste Klasse, von der geerbt wird,
+die aber selbst von nichts anderem erbt.
+
+00:05:28,880 --> 00:05:31,010
+Und wir haben nach wie vor die vier Unterklassen,
+
+00:05:31,010 --> 00:05:37,790
+die jeweils einmal über diese Pfeile hier und
+einmal über diese Pfeile hier von "Auto" erben.
+
+00:05:37,790 --> 00:05:44,450
+Aber wir haben zusammengefasst, dass
+diese beiden eine Gruppe bilden,
+
+00:05:44,450 --> 00:05:53,270
+also eine spezielle Art der Vererbung
+oder der besonderen Ausprägung von Autos.
+
+00:05:53,270 --> 00:05:56,390
+Und haben hier sogar angemerkt, in
+welcher Hinsicht (ich hatte vorhin gesagt:
+
+00:05:56,390 --> 00:05:59,450
+"Besitztum", ich hätte auch einfach
+sagen können "der Status des Autos"):
+
+00:05:59,450 --> 00:06:00,740
+Ist es ein Privat- oder ein Firmenauto?
+
+00:06:00,740 --> 00:06:04,940
+Das wäre die eine Art der Spezialisierung.
+
+00:06:04,940 --> 00:06:08,630
+Und Dieselauto/Solarauto sind auch
+beides Unterklassen von "Auto",
+
+00:06:08,630 --> 00:06:13,490
+aber sie sind hier so zusammengefasst,
+dass man erkennen kann, dass sie nach einem
+
+00:06:13,490 --> 00:06:16,580
+speziellen Kriterium spezialisiert sind,
+nämlich nach dem Kriterium des Antriebs.
+
+00:06:18,110 --> 00:06:21,740
+Jede Gruppe, einmal die
+Gruppe und einmal die Gruppe,
+
+00:06:21,740 --> 00:06:27,860
+unterteilt sozusagen die Menge der Autos
+insgesamt in verschiedener Hinsicht.
+
+00:06:30,710 --> 00:06:33,560
+Das könnte natürlich in einer Anwendung
+wichtig sein, die modelliert werden soll.
+
+00:06:33,560 --> 00:06:37,320
+Weil etwa in verschiedenen Teilen
+der Anwendung einfach verschiedene
+
+00:06:37,320 --> 00:06:42,330
+Generalisierungsgruppen relevant sind
+und dann auch Objektinstanzen anderer
+
+00:06:42,330 --> 00:06:44,280
+Generalisierungsgruppen gar nicht auftreten.
+
+00:06:44,280 --> 00:06:55,230
+Also wenn wir irgendwie Autos modellieren für die
+Fahrzeuge eines Unternehmens, dann ist vielleicht
+
+00:06:55,230 --> 00:07:01,830
+die Unterscheidung nach Privat- und Firmenauto
+relevant für die Buchhaltung dieser Firma.
+
+00:07:01,830 --> 00:07:06,630
+Weil sie da steuerlich verschieden mit
+umzugehen hat, je nachdem wie ein Auto,
+
+00:07:06,630 --> 00:07:09,840
+das benutzt wird, vom Status her ist.
+
+00:07:09,840 --> 00:07:15,330
+Während es vielleicht für andere
+Aspekte, für die Ökobilanz
+
+00:07:15,330 --> 00:07:21,090
+des Unternehmens etwa, wichtiger ist,
+Autos nach ihrem Antrieb zu unterscheiden.
+
+00:07:21,090 --> 00:07:28,215
+Und deswegen vielleicht in einem bestimmten Teil
+der Anwendung der Status gar nicht relevant ist.
+
+00:07:28,215 --> 00:07:32,490
+Und dann würden dort vielleicht auch
+nur Instanzen dieser Art auftreten.
+
+00:07:39,450 --> 00:07:44,910
+Um das unterscheiden zu können, und
+dem Kind auch sozusagen einen Namen
+
+00:07:44,910 --> 00:07:53,610
+geben zu können, wird hier eben jeweils an dieser
+zusammengefassten Vererbungsverzweigung irgendwie
+
+00:07:53,610 --> 00:07:55,260
+ein Name annotiert.
+
+00:07:55,260 --> 00:07:58,590
+Direkt im Diagramm, ein sinnvoller Name
+der jeweiligen Generalisierungsgruppe.
+
+00:08:01,140 --> 00:08:05,700
+Das kann man sogar auch machen, wenn
+es nur eine Spezialisierungsart gibt.
+
+00:08:05,700 --> 00:08:11,280
+Also auf einer Folie zuvor, wenn man tatsächlich
+vier Unterklassen einer gemeinsamen Oberklasse hat
+
+00:08:11,280 --> 00:08:17,760
+und die wirklich alle entsprechend der gleichen
+Dimension spezialisiert sind, könnte man dennoch
+
+00:08:17,760 --> 00:08:27,920
+an diesen "Kamm" von Vererbungspfeilen
+hier einen sinnvollen Namen schreiben.
+
+00:08:27,920 --> 00:08:34,250
+Aber in dem konkreten Beispiel sind es tatsächlich
+zwei verschiedene Arten von Generalisierung.
+
+00:08:34,250 --> 00:08:43,310
+Deswegen gibt es diese zwei verschiedenen
+Gruppen mit verschiedenen Namen.
+
+00:08:43,310 --> 00:08:46,550
+Jetzt kann man diesen Generalisierungsgruppen,
+
+00:08:46,550 --> 00:08:52,430
+also dieser linken Seite und der rechten
+Seite, noch Eigenschaften zuweisen.
+
+00:08:52,430 --> 00:08:59,030
+Also diese Zerlegung letztlich aller
+Autos in Privatautos und Firmenautos
+
+00:08:59,030 --> 00:09:03,620
+oder in Dieselautos und Solarautos, die
+muss ja gar keine echte Zerlegung sein.
+
+00:09:03,620 --> 00:09:05,000
+Vielleicht ist sie gar nicht erschöpfend.
+
+00:09:05,000 --> 00:09:06,140
+Vielleicht gibt es auch Überlappungen.
+
+00:09:06,140 --> 00:09:11,270
+Also wenn man da mal überlegt, welche
+Eigenschaften da relevant sein könnten,
+
+00:09:11,270 --> 00:09:20,030
+dann kommt man letztlich auf ein Gegensatzpaar
+hinsichtlich der Erschöpfung aller Instanzen
+
+00:09:20,030 --> 00:09:27,350
+und ein Gegensatzpaar hinsichtlich der Frage, ob
+jede Instanz eindeutig zugeordnet werden kann.
+
+00:09:27,350 --> 00:09:30,680
+Das nennt man dann "complete" versus "incomplete".
+
+00:09:30,680 --> 00:09:37,580
+Also hier die erste Eigenschaft wäre, dass
+eine Generalisierungsgruppe vollständig ist,
+
+00:09:37,580 --> 00:09:41,630
+wenn sie tatsächlich konzeptionell alle
+denkbaren Instanzen der Oberklasse abdeckt.
+
+00:09:41,630 --> 00:09:47,000
+Also wenn jedes Auto tatsächlich entweder
+ein Firmenauto oder ein Privatauto ist,
+
+00:09:47,000 --> 00:09:48,470
+und es nicht noch eine dritte Möglichkeit gibt.
+
+00:09:48,470 --> 00:09:53,450
+Dann wäre diese Generalisierungsgruppe
+"complete", andernfalls "incomplete".
+
+00:09:53,450 --> 00:09:59,480
+Also falls es auch mögliche Instanzen der
+
+00:09:59,480 --> 00:10:03,860
+Oberklasse gäbe, die nicht durch
+die Unterklassen erschöpft werden.
+
+00:10:03,860 --> 00:10:05,870
+Also das wäre bei unserem "Antrieb" eben.
+
+00:10:05,870 --> 00:10:10,400
+Wenn es neben Solarauto und Dieselauto eine
+dritte Klasse von möglichen Autos gibt,
+
+00:10:10,400 --> 00:10:14,060
+dann wäre die Unterscheidung nach
+Diesel- und Solarautos nicht vollständig.
+
+00:10:14,060 --> 00:10:23,720
+Das ist die eine Frage, das eine
+Eigenschaftspaar, wovon jeweils
+
+00:10:25,760 --> 00:10:28,340
+auf eine konkrete Generalisierungsgruppe
+"complete" oder "incomplete" zutrifft.
+
+00:10:28,340 --> 00:10:32,480
+Dann gibt es dieses andere Eigenschaftspaar:
+"overlapping" oder "disjoint".
+
+00:10:32,480 --> 00:10:35,090
+Also überlappend oder disjunkt voneinander.
+
+00:10:35,620 --> 00:10:36,940
+"Überlappend" heißt:
+
+00:10:36,940 --> 00:10:42,520
+Es sind Instanzen denkbar, die zu mehr als einer
+der Spezialisierungsklassen gehören könnten.
+
+00:10:42,520 --> 00:10:50,170
+Das könnte man sich bei der Unterscheidung nach
+Firmen- und Privatauto vorstellen, falls es auch
+
+00:10:50,170 --> 00:10:56,365
+Autos gibt, die von beidem ein bisschen
+sind, also sozusagen mischfinanziert.
+
+00:10:56,365 --> 00:10:59,380
+Dann wäre diese Unterscheidung "overlapping".
+
+00:10:59,380 --> 00:11:05,200
+Und "disjoint" wäre der Gegensatz dazu, nämlich
+
+00:11:05,200 --> 00:11:09,820
+dass diese spezialisierenden Klassen
+sich konzeptionell nicht überlappen.
+
+00:11:09,820 --> 00:11:13,660
+Wenn es nicht möglich ist, solche
+Mischfinanzierungen zu haben,
+
+00:11:13,660 --> 00:11:16,990
+wenn ein Auto immer tatsächlich exakt
+entweder vollständig in Firmenbesitz
+
+00:11:16,990 --> 00:11:20,950
+oder vollständig in Privatbesitz
+ist, dann wäre diese Unterteilung,
+
+00:11:21,460 --> 00:11:25,960
+diese Generalisierungsgruppe,
+"disjoint"/"disjunkt" zu nennen.
+
+00:11:25,960 --> 00:11:29,590
+Und natürlich, wenn wir hier die Wahl zwischen
+"complete" und "incomplete" und hier die Wahl
+
+00:11:29,590 --> 00:11:37,090
+zwischen "overlapping" und "disjoint" haben, dann
+gibt es insgesamt vier mögliche Kombinationen:
+
+00:11:37,090 --> 00:11:41,590
+complete-overlapping, incomplete-overlapping,
+complete-disjoint, incomplete-disjoint.
+
+00:11:41,590 --> 00:11:46,690
+Wir haben vier Fälle, und tatsächlich kann
+man sich auch für alle vier Fälle jeweils
+
+00:11:46,690 --> 00:11:49,960
+Konstellation überlegen,
+die tatsächlich auftreten.
+
+00:11:49,960 --> 00:11:58,150
+Das können wir mal durchgehen für unser
+Beispiel von eben und noch weitere Beispiele.
+
+00:11:58,150 --> 00:12:05,050
+Also etwa die sozusagen linke Seite unserer
+vorhin gesehenen Beispielunterscheidung,
+
+00:12:06,160 --> 00:12:11,980
+die Generalisierungsbeziehung
+zwischen "Auto" einerseits und
+
+00:12:11,980 --> 00:12:13,660
+"Privatauto"/"Firmenauto" andererseits.
+
+00:12:13,660 --> 00:12:15,370
+Also Unterscheidung nach dem Status.
+
+00:12:15,370 --> 00:12:23,455
+Das ist eine Generalisierungsgruppe und die
+könnten wir als vollständig und disjunkt ansehen.
+
+00:12:23,455 --> 00:12:28,720
+Also nehmen wir an, es gibt keine weitere Art
+von Status, den ein Auto in dieser Hinsicht
+
+00:12:28,720 --> 00:12:34,840
+haben kann, und wir lassen keine
+gemischten Privat-/Firmenautos zu.
+
+00:12:34,840 --> 00:12:44,260
+Dann würde das in dieser Hinsicht eine
+vollständige und disjunkte Unterscheidung sein.
+
+00:12:44,260 --> 00:12:51,860
+Dann ist es tatsächlich so, dass man letztlich
+die Instanzen der Oberklasse echt partitioniert.
+
+00:12:51,860 --> 00:12:57,890
+Also jedes Auto fällt in exakt
+eine dieser Unterklassen hinein.
+
+00:12:57,890 --> 00:13:05,000
+Weder fällt es aus den Klassen raus, noch
+fällt es in mehr als eine Klasse gleichzeitig.
+
+00:13:09,680 --> 00:13:12,920
+Wenn wir die rechte Seite unseres
+Diagramms von eben nehmen,
+
+00:13:12,920 --> 00:13:16,670
+also die Unterscheidung nach dem
+Antrieb, dann ist die auch disjunkt.
+
+00:13:16,670 --> 00:13:20,780
+Das ist auch eine disjunkte Unterscheidung,
+weil es kein Auto gibt, das gleichzeitig
+
+00:13:20,780 --> 00:13:25,100
+Diesel- und Solarauto ist (nehme ich
+jetzt einfach mal an, technisch).
+
+00:13:25,100 --> 00:13:29,900
+Sie ist aber nicht "complete",
+sondern unvollständig, "incomplete",
+
+00:13:29,900 --> 00:13:33,080
+weil es eben zum Beispiel noch Benziner gibt.
+
+00:13:34,340 --> 00:13:40,080
+Das ist eine andere Kombination von Eigenschaften.
+
+00:13:43,020 --> 00:13:47,340
+Dann fehlt noch "complete" und "overlapping".
+
+00:13:47,340 --> 00:13:53,130
+Das könnte man sich zum Beispiel nicht
+mit Autos und ihren Unterklassen,
+
+00:13:53,130 --> 00:13:56,520
+sondern mit Tieren und ihren
+Unterklassen vorstellen.
+
+00:13:56,520 --> 00:14:02,610
+Wenn wir etwa Tiere nach ihrem Lebensraum
+unterscheiden, dann gibt es Landtiere,
+
+00:14:02,610 --> 00:14:05,070
+Wassertiere und Lufttiere oder fliegende Tiere.
+
+00:14:05,070 --> 00:14:08,730
+Ich würde sagen, das ist eine
+vollständige Unterscheidung.
+
+00:14:08,730 --> 00:14:14,040
+Also noch weitere Lebensräume von
+Tieren gibt es nicht, wenn wir uns auf
+
+00:14:14,040 --> 00:14:17,880
+den Planeten Erde beschränken und nicht
+noch irgendwie das Weltall hinzunehmen.
+
+00:14:17,880 --> 00:14:19,980
+Aber man könnte argumentieren, dass diese
+
+00:14:19,980 --> 00:14:23,790
+Unterscheidung "overlapping"
+ist, also nicht "disjoint".
+
+00:14:23,790 --> 00:14:24,660
+Warum?
+
+00:14:24,660 --> 00:14:31,290
+Weil es zum Beispiel auch Tiere gibt, die
+sowohl Land- als auch Wassertiere sind.
+
+00:14:31,290 --> 00:14:32,820
+Schildkröten, zum Beispiel.
+
+00:14:32,820 --> 00:14:37,980
+Die sind weder eindeutig dem Lebensraum Land,
+noch eindeutig dem Lebensraum Wasser zuzuordnen.
+
+00:14:37,980 --> 00:14:45,330
+Insofern wäre das hier keine überlappungsfreie
+bzw. keine disjunkte Unterscheidung.
+
+00:14:45,330 --> 00:14:49,470
+Was wir hier an dem Beispiel auch sehen, ist,
+
+00:14:49,470 --> 00:14:53,460
+dass natürlich diese Unterscheidung nicht immer
+genau in zwei Unterklassen passieren muss.
+
+00:14:53,460 --> 00:14:56,370
+Das mag dieses Beispiel
+hier noch suggeriert haben,
+
+00:14:56,370 --> 00:14:59,160
+dass wir immer genau in zwei
+Unterklassen unterteilen.
+
+00:14:59,160 --> 00:15:00,540
+Das stimmt natürlich nicht.
+
+00:15:00,540 --> 00:15:01,440
+Das sehen wir an diesem Beispiel.
+
+00:15:01,440 --> 00:15:04,380
+Es können auch mehr als zwei Unterklassen sein.
+
+00:15:04,380 --> 00:15:10,980
+Und dennoch kann man dann diese
+Eigenschaften sinnvoll untersuchen.
+
+00:15:13,650 --> 00:15:19,170
+Dann fehlt noch eine weitere Konstellation,
+nämlich "incomplete" und "overlapping".
+
+00:15:19,170 --> 00:15:21,000
+Und die können wir zum Beispiel erhalten,
+
+00:15:21,000 --> 00:15:26,400
+wenn wir einfach aus diesem
+Diagramm eine Unterklasse weglassen.
+
+00:15:26,400 --> 00:15:28,470
+Also vergessen, dass es auch fliegende Tiere gibt.
+
+00:15:28,470 --> 00:15:30,690
+Dann wären wir bei diesem Bild.
+
+00:15:30,690 --> 00:15:34,140
+Das ist immer noch "overlapping", weil es immer
+
+00:15:34,140 --> 00:15:38,580
+noch die Schildkröten gibt, die hier in
+beide Unterklassen hineinpassen würden.
+
+00:15:38,580 --> 00:15:46,230
+Aber da eben die fliegenden Tiere fehlen, wäre
+das eine nicht vollständige Unterscheidung.
+
+00:15:46,230 --> 00:15:54,220
+Damit wären alle vier Konstellation
+einmal durch ein Beispiel belegt.

@@ -1,0 +1,1505 @@
+150 # slide
+00:00:00,000 --> 00:00:08,580
+In this video, we will again look
+at a few formal aspects of Petri nets.
+
+00:00:08,580 --> 00:00:09,570
+Reminder:
+
+00:00:09,570 --> 00:00:16,740
+We had formally defined Petri nets
+as a tuple containing a set
+
+00:00:16,740 --> 00:00:22,950
+of places S and a set
+of transitions T, plus various other ingredients.
+
+00:00:22,950 --> 00:00:32,640
+Among them were markings, i.e. functions from the
+set of places S into the natural numbers.
+
+00:00:32,640 --> 00:00:36,450
+No negative numbers, but
+zero and positive integers.
+
+00:00:38,670 --> 00:00:42,990
+That was used, among other things,
+to express the pre- and post-weights.
+
+00:00:42,990 --> 00:00:45,090
+These were these special functions.
+
+00:00:45,090 --> 00:00:49,410
+For individual transitions, respectively
+the precondition weights and the
+
+00:00:49,410 --> 00:00:52,110
+postcondition weights as such markings.
+
+00:00:52,110 --> 00:00:59,070
+The connection to the graphical representation
+was, first, that the initial marking m0
+
+00:00:59,070 --> 00:01:02,930
+corresponded to the occupancy of the places
+at the beginning on the graphical page.
+
+00:01:02,930 --> 00:01:08,670
+Since, the marking function m0
+would be used to count
+
+00:01:08,670 --> 00:01:14,550
+exactly the tokens for each
+place shown in the graphical representation.
+
+00:01:14,550 --> 00:01:17,490
+And the arrows in
+the graphical representation correspond
+
+00:01:17,490 --> 00:01:21,780
+exactly to the pre and
+post weights in a certain way.
+
+00:01:23,640 --> 00:01:32,460
+In particular, if there is to be no arrow from s
+to t or from t to s (in each case in the
+
+00:01:32,460 --> 00:01:40,110
+appropriate order), that from it can
+be read whether the pre-weight condition function
+
+00:01:40,110 --> 00:01:44,490
+for that transition carries the value
+zero with respect to the corresponding place.
+
+00:01:44,490 --> 00:01:49,530
+Or analogously for
+the post-weight function:
+
+00:01:51,330 --> 00:01:53,730
+If there are zeros
+in the mathematical representation, there
+
+00:01:53,730 --> 00:01:55,500
+is simply no arrow
+in the graphical representation.
+
+00:01:55,500 --> 00:02:00,390
+Then there was the situation that there was
+an arrow, but there was nothing on it.
+
+00:02:00,390 --> 00:02:01,830
+This would correspond to the
+
+00:02:01,830 --> 00:02:07,530
+cases where the pre-weight and post-weight functions
+for the corresponding transition and place are 1.
+
+00:02:07,530 --> 00:02:10,290
+Differently, we had seen in the tool
+
+00:02:10,290 --> 00:02:12,030
+that there the arrows are
+always labeled with a 1.
+
+00:02:12,030 --> 00:02:17,860
+So even with the arrows that
+would carry a 1 and therefore in
+
+00:02:17,860 --> 00:02:20,290
+the simplified graphical representation
+in the slides, for example,
+
+00:02:20,290 --> 00:02:26,110
+are not labeled with a number, the
+1 was still explicitly there in the tool.
+
+00:02:26,110 --> 00:02:32,530
+On the slides, I actually write the
+weights only if they are greater than 1.
+
+00:02:32,530 --> 00:02:37,960
+So if the pre-weight and post-weight
+
+00:02:37,960 --> 00:02:42,190
+condition for a transition and
+place is an integer greater than
+
+00:02:42,190 --> 00:02:48,400
+1, then there would be an arrow
+on the slides or in the exercises.
+
+00:02:48,400 --> 00:02:49,840
+If there is nothing on
+it, then it is a 1.
+
+00:02:49,840 --> 00:02:52,480
+And in the tool, the
+1 is even written on it.
+
+00:02:54,280 --> 00:02:55,630
+That's just a repetition.
+
+00:02:55,630 --> 00:02:58,030
+This is nothing new that I told you.
+
+00:02:58,030 --> 00:03:01,150
+You've already seen that
+and you've also practiced that.
+
+00:03:04,090 --> 00:03:08,845
+Then now we're going to operate
+with these "ingredients," specifically these markings.
+
+00:03:08,845 --> 00:03:11,560
+We're going to have a couple
+of terms and a couple of definitions
+
+00:03:11,560 --> 00:03:17,470
+that are defined for markings and because
+of that, they then apply to the initial
+
+00:03:17,470 --> 00:03:20,110
+marking as well as they can be
+used for these pre-weight and post-weight functions.
+
+00:03:20,830 --> 00:03:27,700
+And also for other markings that arise in
+the course of the development of a Petri net.
+
+00:03:27,700 --> 00:03:29,740
+So not just the
+initial marking, but also markings
+
+00:03:29,740 --> 00:03:34,000
+that may be present, for example,
+after some transitions have been executed.
+
+00:03:34,000 --> 00:03:41,200
+And then we just need
+some mathematical terms and applications.
+
+00:03:43,660 --> 00:03:47,170
+So on the one hand,
+there will be an order
+
+00:03:47,170 --> 00:03:50,080
+on markings, and on
+the other hand, certain operations.
+
+00:03:50,080 --> 00:03:53,290
+On this slide, first
+of all, to the order.
+
+00:03:53,290 --> 00:03:57,730
+We'll consider any two
+markings for the same
+
+00:03:57,730 --> 00:04:00,070
+Petri net, so for the same set of places.
+
+00:04:00,070 --> 00:04:03,940
+Then we have two markings, that is,
+mappings from these places to natural numbers.
+
+00:04:03,940 --> 00:04:06,010
+I'll call them m and m'.
+
+00:04:06,010 --> 00:04:07,570
+The m' has nothing
+to do with derivatives.
+
+00:04:07,570 --> 00:04:12,126
+It's not somehow the differential
+calculus stroke: f and f'.
+
+00:04:12,126 --> 00:04:14,350
+They are just two different names.
+
+00:04:14,350 --> 00:04:16,930
+You could have also said m1, m2.
+
+00:04:18,430 --> 00:04:21,430
+And then how is it defined
+that m' is less than-equal to m?
+
+00:04:22,450 --> 00:04:25,730
+If it is true for all places from the
+
+00:04:25,730 --> 00:04:29,750
+corresponding underlying set that m' of s is
+less than or equal to m of s.
+
+00:04:29,750 --> 00:04:34,220
+So, that at the place
+s the marking m' carries a
+
+00:04:34,220 --> 00:04:37,730
+smaller value or the same value
+as m at the corresponding place.
+
+00:04:37,730 --> 00:04:40,850
+And this must be true for all places.
+
+00:04:40,850 --> 00:04:46,940
+Then we say that the marking m'
+is altogether less-than-equal to the marking m.
+
+00:04:46,940 --> 00:04:52,850
+That's not about what the sum
+of the numbers for the marking is.
+
+00:04:52,850 --> 00:04:54,530
+How many tokens there are in total.
+
+00:04:54,530 --> 00:04:56,690
+Instead, it must be true for each
+
+00:04:56,690 --> 00:05:02,555
+token that m' carries a smaller value
+or at most the same value as m.
+
+00:05:03,380 --> 00:05:05,960
+Then we also say: m' is covered by m.
+
+00:05:05,960 --> 00:05:11,720
+Finally, we check that m has at least
+as many tokens as m' for each place.
+
+00:05:11,720 --> 00:05:14,060
+So, does m overlap m'?
+
+00:05:17,870 --> 00:05:18,530
+Example:
+
+00:05:18,530 --> 00:05:23,090
+Suppose our set of
+places S is three-elementary.
+
+00:05:23,090 --> 00:05:28,430
+We have already said that we can
+write down such finite functions by simply
+
+00:05:28,430 --> 00:05:32,360
+specifying (in that case) a triple, because
+there are supposed to be three places.
+
+00:05:32,360 --> 00:05:35,090
+Then our m could be the triple (0,1,2).
+
+00:05:35,090 --> 00:05:41,480
+And m', of course seen for the
+same order of places, the triple (0,0,1).
+
+00:05:41,480 --> 00:05:47,780
+And then it would indeed hold here that
+m' is less-equal to m, but not vice versa.
+
+00:05:47,780 --> 00:05:48,920
+Why is m' <= m?
+
+00:05:48,920 --> 00:05:54,590
+Because 0 is less than or equal to 0, and 0 is less
+than or equal to 1, and 1 is less than or equal to 2.
+
+00:05:54,590 --> 00:05:55,730
+But the reverse is not true.
+
+00:05:56,540 --> 00:06:00,710
+The 0 <= 0 is still true, but not 1 <= 0.
+
+00:06:01,610 --> 00:06:09,800
+In that case, we would say
+that marking is covered by this marking.
+
+00:06:09,800 --> 00:06:15,125
+It really depends on
+the comparison of each element.
+
+00:06:15,125 --> 00:06:15,890
+Also, this is still true:
+
+00:06:15,890 --> 00:06:17,900
+Every marking is
+covered by itself, trivially,
+
+00:06:17,900 --> 00:06:22,160
+because it is less-equal,
+namely equal, at every position.
+
+00:06:22,160 --> 00:06:24,890
+But what is not true
+is for example this one.
+
+00:06:24,890 --> 00:06:31,820
+So although the second marking here
+is much fuller in a place
+
+00:06:31,820 --> 00:06:35,570
+(1000), which is much larger
+than everything in the first marking.
+
+00:06:36,140 --> 00:06:40,010
+Nevertheless, this marking is
+not covered by this one.
+
+00:06:40,010 --> 00:06:41,330
+Why not?
+
+00:06:41,330 --> 00:06:44,390
+Because it is not
+true in the third place.
+
+00:06:44,990 --> 00:06:46,940
+But it would have to be
+true for every place that the
+
+00:06:46,940 --> 00:06:48,860
+number, which stands here is smaller-equal
+to the number, which stands there.
+
+00:06:48,860 --> 00:06:53,690
+This is the case for 3 and 5
+and for 1000, but not for 2 and 1.
+
+00:06:53,690 --> 00:06:57,290
+Sometimes it is simply not
+the case that the overlap exists.
+
+00:06:57,290 --> 00:07:00,740
+And it may also be that
+it is not present in either direction.
+
+00:07:00,740 --> 00:07:03,440
+That was already the case
+here, and indeed also here.
+
+00:07:04,340 --> 00:07:11,300
+Although here in both markings simply the numbers 0,
+1, 2 occur, it is neither the case that
+
+00:07:11,300 --> 00:07:14,150
+the first marking is covered
+by the second, nor vice versa.
+
+00:07:14,150 --> 00:07:18,980
+Because there is in each case a place,
+namely either the second or the third position,
+
+00:07:18,980 --> 00:07:24,290
+where in each case it is
+violated that this applies to all places.
+
+00:07:27,080 --> 00:07:30,950
+So this is how we can compare
+two markings, be it the initial marking
+
+00:07:30,950 --> 00:07:33,410
+and a weight marking, or two weight
+
+00:07:33,410 --> 00:07:37,640
+markings, or just two markings that occur
+later in the development of the Petri net.
+
+00:07:38,450 --> 00:07:48,140
+We'll write this "<=", which is what
+you're most likely to know for numbers.
+
+00:07:48,140 --> 00:07:51,230
+Mathematicians like to use
+this for all sorts of
+
+00:07:51,230 --> 00:07:53,900
+structures, including such
+marking functions, for example.
+
+00:07:56,510 --> 00:07:57,950
+Then it said something about operations.
+
+00:07:57,950 --> 00:08:00,440
+This is just an
+order relation, not an operation.
+
+00:08:00,440 --> 00:08:02,690
+So nothing that creates a new marking.
+
+00:08:02,690 --> 00:08:07,520
+But there are some
+of these, especially the addition.
+
+00:08:07,520 --> 00:08:11,030
+So if we have
+again two such markings, for
+
+00:08:11,030 --> 00:08:16,640
+the same set of places, then we
+define a third marking, which is the sum.
+
+00:08:16,640 --> 00:08:19,550
+Now here's this somewhat funny
+plus with a circle around it.
+
+00:08:19,550 --> 00:08:25,790
+That's simply choosing a symbol
+that's not the obvious plus (which
+
+00:08:25,790 --> 00:08:29,150
+you know from numbers), but
+still reminds you of addition.
+
+00:08:29,150 --> 00:08:32,540
+That's where people like to
+take symbols of about that shape.
+
+00:08:32,540 --> 00:08:36,170
+So a plus in a circle,
+because it's not the plus on numbers.
+
+00:08:36,170 --> 00:08:39,260
+Not 3 + 5, but
+the plus between two such markings.
+
+00:08:41,390 --> 00:08:42,050
+What comes out of it?
+
+00:08:42,050 --> 00:08:46,840
+A marking, which must be a
+function of S into the natural numbers.
+
+00:08:46,840 --> 00:08:47,980
+And how is it defined?
+
+00:08:47,980 --> 00:08:48,850
+Well, in places.
+
+00:08:48,850 --> 00:08:56,260
+So for each element of S, we
+define our new marking as given at that
+
+00:08:56,260 --> 00:09:02,860
+place, by the sum of the
+two original markings at the same place.
+
+00:09:03,970 --> 00:09:05,080
+That's simply a definition.
+
+00:09:05,080 --> 00:09:08,020
+So for each s,
+we define a natural number.
+
+00:09:08,020 --> 00:09:13,300
+And then that is the
+result marking of that addition.
+
+00:09:13,300 --> 00:09:19,360
+For example, if again for the
+three-element set S we have the markings
+
+00:09:19,360 --> 00:09:22,750
+(0,1,2) and (0,0,1), then their
+sum would again be a
+
+00:09:22,750 --> 00:09:27,310
+marking for this three-element
+place set, therefore a triple.
+
+00:09:27,310 --> 00:09:34,600
+And that is 0 + 0 = 0, 1
++ 0 = 1, and 2 + 1 = 3.
+
+00:09:34,600 --> 00:09:36,250
+So this is like vector addition.
+
+00:09:36,250 --> 00:09:40,720
+If you were to
+write things down vertically,
+
+00:09:40,720 --> 00:09:42,910
+that would be a triple
+vector and another triple vector.
+
+00:09:42,910 --> 00:09:44,860
+You know this from
+school (linear algebra), there
+
+00:09:44,860 --> 00:09:47,560
+just comes out
+a vector, element-wise/place-wise added.
+
+00:09:48,610 --> 00:09:50,590
+Exactly the same
+happens for these markings.
+
+00:09:54,010 --> 00:09:54,970
+You can do that for addition.
+
+00:09:54,970 --> 00:09:56,770
+You can do the same for subtraction.
+
+00:09:56,770 --> 00:09:58,210
+Then you just have
+to be a little careful,
+
+00:09:58,210 --> 00:10:02,755
+because it says here that it
+always has to be natural numbers.
+
+00:10:02,755 --> 00:10:07,270
+And it's unfortunately not
+the case that when you
+
+00:10:07,270 --> 00:10:08,740
+subtract any two natural numbers, the
+result is always a natural number.
+
+00:10:09,640 --> 00:10:15,850
+For example with 3 and 5 this is not the case, 3
++ 5 = 8 but 3 - 5 is not a natural number.
+
+00:10:15,850 --> 00:10:20,410
+Therefore, subtraction is defined
+only for the case where
+
+00:10:20,410 --> 00:10:29,110
+we want to subtract from m
+a marking that is covered by m.
+
+00:10:29,800 --> 00:10:33,820
+Here we use the relation,
+the order, from the slide before.
+
+00:10:33,820 --> 00:10:37,840
+So if m' <= m, as defined before,
+
+00:10:37,840 --> 00:10:42,130
+then we can say the subtraction of
+m and m' is in that order:
+
+00:10:48,940 --> 00:10:52,240
+For each place, it must hold that
+the new marking at the place no
+
+00:10:52,240 --> 00:10:58,450
+longer carries as its value the sum,
+but the difference, of the two original sets.
+
+00:10:58,450 --> 00:11:00,490
+The order is of course important.
+
+00:11:00,490 --> 00:11:00,760
+That we subtract m' from m and
+not vice versa. Here it is okay.
+
+00:11:00,760 --> 00:11:02,740
+There will actually come out a natural
+
+00:11:02,740 --> 00:11:05,620
+number, if we knew before
+that m' is covered by m.
+
+00:11:05,620 --> 00:11:10,960
+Because then it is exactly the case
+that this difference can never be negative.
+
+00:11:10,960 --> 00:11:12,040
+So that will then fit exactly.
+
+00:11:13,840 --> 00:11:17,560
+Again, an example: (0,1,2)
+minus (0,0,1) would be (0,1,1).
+
+00:11:17,560 --> 00:11:23,260
+So don't add element by
+element, but subtract element by element.
+
+00:11:23,260 --> 00:11:27,040
+We may not turn this around
+here; here above of course already.
+
+00:11:27,760 --> 00:11:31,330
+Here above for the sum
+we could have also written:
+
+00:11:31,330 --> 00:11:34,750
+What is written here as second
+plus what is written here as first.
+
+00:11:34,750 --> 00:11:42,340
+This is also defined and results in
+the same triple, because this addition is commutative.
+
+00:11:42,340 --> 00:11:43,990
+That does not apply
+here for the subtraction,
+
+00:11:43,990 --> 00:11:48,790
+because this condition would not be
+fulfilled then for the other direction.
+
+00:11:56,820 --> 00:12:00,090
+Then we can use these terms now.
+
+00:12:00,090 --> 00:12:02,820
+These were only definitions of
+mathematical kind for these markings.
+
+00:12:02,820 --> 00:12:05,340
+This has nothing to do with Petri nets.
+
+00:12:05,340 --> 00:12:09,150
+But we just want to use that to describe
+
+00:12:09,960 --> 00:12:14,130
+the dynamics, the semantics, the meaning
+(ultimately the execution) of Petri nets.
+
+00:12:16,470 --> 00:12:17,310
+What was important there?
+
+00:12:17,310 --> 00:12:18,600
+Being activated.
+
+00:12:19,350 --> 00:12:22,650
+Is a transition in a Petri net activated?
+
+00:12:22,650 --> 00:12:24,480
+Only then can anything happen.
+
+00:12:24,480 --> 00:12:25,440
+And what happens then?
+
+00:12:25,440 --> 00:12:28,470
+The transition fires and leads
+to a new marking, to a
+
+00:12:28,470 --> 00:12:30,270
+new allocation of the
+places in the Petri net.
+
+00:12:31,170 --> 00:12:35,130
+We can now formally define these two
+concepts using the terms we have seen.
+
+00:12:37,020 --> 00:12:40,770
+So first the activation.
+
+00:12:40,770 --> 00:12:45,420
+When is a transition
+activated for a particular marking?
+
+00:12:45,420 --> 00:12:48,510
+So we have to have a marking,
+we have to know where the tokens are.
+
+00:12:48,510 --> 00:12:51,000
+And then we can look
+at a transition and ask
+
+00:12:51,000 --> 00:12:54,570
+if that transition is activated
+right now for the current marking.
+
+00:12:54,570 --> 00:13:00,540
+That's the case when
+the pre-weight function for that
+
+00:13:00,540 --> 00:13:04,710
+particular transition is covered
+by the current marking.
+
+00:13:04,710 --> 00:13:09,960
+This means exactly that at all
+places where this transition expects tokens, i.e.
+
+00:13:09,960 --> 00:13:15,060
+where the function value of
+this function is greater than
+
+00:13:15,060 --> 00:13:19,770
+0, the marking m also contains at
+least as many tokens (or maybe even more).
+
+00:13:20,700 --> 00:13:21,090
+This must be true for every place.
+
+00:13:21,090 --> 00:13:22,860
+A transition can already not fire if
+
+00:13:22,860 --> 00:13:28,020
+there are not enough tokens in the
+current marking for one of its input places.
+
+00:13:29,490 --> 00:13:32,580
+What is written here in the
+parentheses is simply the verbalization of what
+
+00:13:32,580 --> 00:13:42,090
+the definition of the order relation
+of the penultimate slide provides here.
+
+00:13:42,090 --> 00:13:45,450
+So it succinctly captures
+when a transition is activated.
+
+00:13:45,450 --> 00:13:47,160
+And when it is, it can fire.
+
+00:13:47,160 --> 00:13:52,530
+So, let t be a transition and m be
+a marking such that t is activated for m.
+
+00:13:52,530 --> 00:13:54,480
+Then it can fire.
+
+00:13:54,480 --> 00:13:57,030
+This means that a new marking comes out.
+
+00:13:57,030 --> 00:13:57,930
+And what does it look like?
+
+00:13:58,530 --> 00:14:00,660
+We can now rewrite
+it with our subtraction/addition.
+
+00:14:00,660 --> 00:14:01,950
+Intuitively we had said:
+
+00:14:01,950 --> 00:14:05,340
+We take correspondingly
+many tokens from all
+
+00:14:06,810 --> 00:14:10,140
+places of the precondition, that
+is, with incoming arrows to t.
+
+00:14:10,140 --> 00:14:12,840
+Where "correspondingly many"
+depends on what this
+
+00:14:12,840 --> 00:14:15,570
+function says here
+for the individual places.
+
+00:14:15,570 --> 00:14:21,630
+And on the other hand, afterwards
+we add suitably many tokens to the
+
+00:14:21,630 --> 00:14:25,890
+post-weight places, that is, to the places for
+which this post-weight function has a positive value.
+
+00:14:25,890 --> 00:14:27,750
+This is exactly the same as saying:
+
+00:14:27,750 --> 00:14:30,090
+We take the current
+marking, subtract from it the
+
+00:14:30,090 --> 00:14:35,430
+pre-weight function for the corresponding t, and
+add the post-weight function on top of it.
+
+00:14:35,430 --> 00:14:40,950
+After all, this is the same transition in each
+case, and it is the one we are firing.
+
+00:14:40,950 --> 00:14:45,660
+And we must know beforehand that t
+is really activated for this marking m.
+
+00:14:45,660 --> 00:14:49,590
+Because only then we
+can form this subtraction.
+
+00:14:49,590 --> 00:14:53,310
+So this all fits together with the
+condition in the previous slide about when we're
+
+00:14:53,310 --> 00:14:54,990
+allowed to form the
+subtraction in the first place.
+
+00:14:57,000 --> 00:15:02,910
+Things play together exactly so
+that it makes sense overall.
+
+00:15:08,190 --> 00:15:10,710
+What's meant by the parentheses here is:
+
+00:15:10,710 --> 00:15:12,540
+First we subtract and then we add.
+
+00:15:12,540 --> 00:15:15,630
+You could have added parentheses there.
+
+00:15:17,850 --> 00:15:22,920
+If that is so, then we also want to
+express more concisely: m becomes m' when t is fired.
+
+00:15:22,920 --> 00:15:24,360
+And that is how it is written.
+
+00:15:25,410 --> 00:15:32,520
+This is a syntax formulated as a formula
+
+00:15:32,520 --> 00:15:36,420
+for: t now fires from here
+to there and out comes m'.
+
+00:15:36,420 --> 00:15:41,010
+And this is exactly the m'
+which results from these arithmetic operations.
+
+00:15:44,640 --> 00:15:45,900
+That would be a step.
+
+00:15:45,900 --> 00:15:49,230
+So from a marking we
+make a step with a certain
+
+00:15:49,230 --> 00:15:53,280
+transition and get a
+certain new marking m'.
+
+00:15:53,280 --> 00:15:56,190
+That could happen to be the same one.
+
+00:15:57,660 --> 00:16:00,030
+But generally some marking m'.
+
+00:16:00,030 --> 00:16:05,760
+Then obviously m' is reachable
+in a step of m.
+
+00:16:05,760 --> 00:16:08,686
+This can still be generalized
+or taken in a different way.
+
+00:16:08,686 --> 00:16:12,000
+Namely, one can ask whether some marking,
+
+00:16:12,000 --> 00:16:15,270
+not necessarily m', but some
+other marking, is reachable from m.
+
+00:16:15,270 --> 00:16:16,890
+Perhaps also in several steps.
+
+00:16:16,890 --> 00:16:19,650
+This gives our next definition.
+
+00:16:20,310 --> 00:16:25,680
+We say a marking
+is reachable, usually from m0.
+
+00:16:25,680 --> 00:16:27,450
+So we have a start
+marking for the Petri net.
+
+00:16:27,450 --> 00:16:31,680
+We wonder if some other
+marking is reachable from it.
+
+00:16:31,680 --> 00:16:34,500
+How is this defined and
+when is it the case?
+
+00:16:34,500 --> 00:16:36,960
+When there is a
+certain sequence of transitions.
+
+00:16:36,960 --> 00:16:40,590
+This could be a single transition, it
+could be zero, it could be 27,
+
+00:16:40,590 --> 00:16:43,350
+but somehow a finite sequence t_1 to t_n.
+
+00:16:43,350 --> 00:16:46,620
+In that, transitions may
+occur more than once.
+
+00:16:46,620 --> 00:16:49,200
+So maybe our Petri
+net has three transitions,
+
+00:16:49,200 --> 00:16:53,100
+but we want to have a 27 long sequence.
+
+00:16:53,100 --> 00:16:58,350
+Then at least one transition
+must occur more than once.
+
+00:16:58,350 --> 00:17:06,180
+So any transitions t_1 to t_n,
+possibly occurring more than once, so
+
+00:17:06,180 --> 00:17:13,620
+that m0 becomes m1 by firing t1, exactly this m1
+becomes m3 by firing t2, and so on, and so on.
+
+00:17:14,400 --> 00:17:19,440
+And in the end, our m comes out,
+which we wondered if it is reachable from m0.
+
+00:17:19,440 --> 00:17:26,880
+And if it is, then m
+is called reachable from the initial marking.
+
+00:17:26,880 --> 00:17:34,140
+Sometimes we don't even care
+what these intermediate markings are.
+
+00:17:34,140 --> 00:17:37,920
+Then we only want to know that we can
+get from m0 to m by t_1 to t_n.
+
+00:17:37,920 --> 00:17:42,930
+Then this is also written shortened as:
+just m0, then all transitions are written here
+
+00:17:42,930 --> 00:17:47,460
+directly in these special
+brackets (not each one separately),
+
+00:17:47,460 --> 00:17:51,300
+and we write only the end
+token there (not also all intermediate markings).
+
+00:17:51,300 --> 00:17:59,640
+Or if we summarized this list
+t_1 to t_n, as here t-"snake", so
+
+00:17:59,640 --> 00:18:06,780
+another identifier; then we also write, m0
+passes into m under this whole sequence.
+
+00:18:06,780 --> 00:18:11,010
+The sequence is then
+called a firing sequence.
+
+00:18:11,010 --> 00:18:16,350
+These are exactly the lists that show up
+in the tool in the previous video in
+
+00:18:16,350 --> 00:18:20,160
+the left window, but
+written one below the other.
+
+00:18:20,160 --> 00:18:22,890
+I had single transitions
+in my Petri nets.
+
+00:18:22,890 --> 00:18:29,520
+There I simulated, started
+executions and carried out circuits,
+
+00:18:29,520 --> 00:18:34,200
+and in the left window the
+transitions always appeared under each other.
+
+00:18:34,200 --> 00:18:35,310
+That would be such a firing sequence.
+
+00:18:35,310 --> 00:18:38,370
+At the beginning it was empty.
+
+00:18:38,370 --> 00:18:40,260
+One can also have
+the empty firing sequence.
+
+00:18:40,260 --> 00:18:46,740
+Then, of course, the m
+is necessarily equal to the m0.
+
+00:18:46,740 --> 00:18:49,680
+Each marking, also the initial marking
+
+00:18:49,680 --> 00:18:53,280
+m0, passes under empty
+firing sequence naturally into itself.
+
+00:18:53,280 --> 00:18:56,220
+One can also have the situation that
+there is only the empty firing sequence.
+
+00:18:56,880 --> 00:19:03,870
+If I have no activated transitions at all
+in the initial marking of the Petri net,
+
+00:19:03,870 --> 00:19:06,525
+then the only possible firing
+sequence is the empty firing sequence.
+
+00:19:06,525 --> 00:19:10,620
+But in general, it will
+be the case that we will
+
+00:19:10,620 --> 00:19:14,220
+have finite and non-empty
+transition sequences that are fireable.
+
+00:19:14,220 --> 00:19:15,780
+Then we have an interesting model.
+
+00:19:15,780 --> 00:19:22,040
+That was the definition.
+
+00:19:22,040 --> 00:19:24,470
+Let's talk through this
+with a concrete example.
+
+00:19:24,470 --> 00:19:27,380
+This is the example I had
+on a slide last week where we
+
+00:19:27,380 --> 00:19:32,300
+were talking about the equivalence
+of graphical and mathematical representation.
+
+00:19:32,300 --> 00:19:34,820
+So there is a slide,
+in last week's slides, where
+
+00:19:34,820 --> 00:19:38,450
+the mathematical representation
+is given for this.
+
+00:19:38,450 --> 00:19:41,630
+We need that here now as
+well, because these terms refer to that,
+
+00:19:41,630 --> 00:19:43,010
+especially these marking functions.
+
+00:19:43,010 --> 00:19:55,700
+Here we have the initial marking, that
+would be as marking m0 of course
+
+00:19:55,700 --> 00:19:58,400
+(1,2,0) because I have the
+place order s1, s2, s3.
+
+00:19:58,400 --> 00:20:02,060
+So the initial marking
+here would be: first component
+
+00:20:02,060 --> 00:20:05,690
+1, second component 2, third component 0.
+
+00:20:05,690 --> 00:20:11,480
+Now it is claimed here that the marking
+m2 = (1,1,1) is reachable in two steps.
+
+00:20:11,480 --> 00:20:13,760
+Intuitively, this means it
+must be possible to
+
+00:20:13,760 --> 00:20:15,440
+perform exactly two
+circuits/firings of transitions so
+
+00:20:15,440 --> 00:20:28,355
+that somehow the tokens move in such a way
+that afterwards there is exactly one token on each position.
+
+00:20:28,355 --> 00:20:29,810
+That's what this marking here says.
+
+00:20:29,810 --> 00:20:32,660
+And we can just try
+that out and do the math.
+
+00:20:34,490 --> 00:20:40,220
+We can see that of these three transitions,
+only t1 is activated at the beginning anyway.
+
+00:20:40,220 --> 00:20:42,950
+Therefore, the first circuit really
+has to happen with t1.
+
+00:20:42,950 --> 00:20:52,250
+The pre-weight function for t1 is (1,1,0), because
+there must be something on the first two places.
+
+00:20:52,250 --> 00:20:56,420
+There are incoming arrows, and
+without a number written on them,
+
+00:20:56,420 --> 00:20:58,400
+so this corresponds to weight 1.
+
+00:20:58,400 --> 00:21:04,010
+There is no incoming arrow from
+s3 to t1, so this is zero.
+
+00:21:04,010 --> 00:21:07,100
+That's what it had said
+on the slide last week.
+
+00:21:07,100 --> 00:21:12,530
+This marking is covered
+by the start marking.
+
+00:21:12,530 --> 00:21:15,290
+The m0 in this case would be (1,2,0).
+
+00:21:15,290 --> 00:21:23,300
+There this relation is valid,
+because at every position the value,
+
+00:21:23,300 --> 00:21:25,730
+which is here, is at least
+as high as the value here.
+
+00:21:25,730 --> 00:21:28,280
+So firing is possible in the first place.
+
+00:21:28,280 --> 00:21:32,540
+Of course we already knew
+this by looking at this
+
+00:21:32,540 --> 00:21:36,440
+graphic, but mathematically
+this is well defined.
+
+00:21:36,440 --> 00:21:37,220
+What do we get then?
+
+00:21:37,220 --> 00:21:39,890
+The next marking is our start marking
+
+00:21:39,890 --> 00:21:46,130
+m0 minus the pre-weight function for
+t1, plus the post-weight function for t1.
+
+00:21:46,130 --> 00:21:51,860
+There we could also look at the old
+slides and it would say that this is (0,0,2).
+
+00:21:52,370 --> 00:21:58,550
+Ultimately because there are no arrows from t1 to s1
+and s2, but there is this 2 arrow to s3.
+
+00:21:58,550 --> 00:22:01,160
+So we have this calculation:
+
+00:22:01,160 --> 00:22:08,450
+We have (1,2,0) as
+m0, minus (1,1,0), plus (0,0,2).
+
+00:22:08,450 --> 00:22:11,720
+Then calculating element by
+element we get (0,1,2).
+
+00:22:11,720 --> 00:22:17,690
+1 - 1 + 0 = 0, 2 - 1 +
+0 = 1, and 0 - 0 + 2 = 2.
+
+00:22:19,640 --> 00:22:26,600
+So the marking m1 after firing t1
+in the start situation is this marking.
+
+00:22:28,040 --> 00:22:29,960
+Now if we want to
+know what happens in two steps,
+
+00:22:29,960 --> 00:22:32,570
+we have to make the next step
+starting from this, not from m0 anymore.
+
+00:22:34,070 --> 00:22:42,710
+We can see, this current marking
+(0,1,2) covers the pre-weight of t2.
+
+00:22:42,710 --> 00:22:47,990
+The pre-weight function of t2 is (0,0,1)
+because it only takes something from s3.
+
+00:22:47,990 --> 00:22:51,920
+This (0,0,1) is covered by
+it, so t2 is executable.
+
+00:22:54,500 --> 00:23:00,230
+Then m2 is the current marking
+m1 minus exactly this (0,0,1), so it
+
+00:23:00,230 --> 00:23:04,190
+is the pre-weight function of t2,
+plus the post-weight function of t2.
+
+00:23:04,190 --> 00:23:05,510
+If we look there what happens:
+
+00:23:05,510 --> 00:23:10,880
+t2 puts a token after s1 and
+nothing else, so the function is (1,0,0).
+
+00:23:10,880 --> 00:23:19,070
+As a calculation, we get from
+up here: (0,1,2) - (0,0,1) + (1,0,0).
+
+00:23:19,730 --> 00:23:24,830
+And if we do this again element
+by element, we get the marking (1,1,1).
+
+00:23:24,830 --> 00:23:30,710
+So after firing t1 and t2, from
+the original marking, we would reach the
+
+00:23:30,710 --> 00:23:34,560
+situation as it is claimed here above, where
+on all three places there is exactly one token.
+
+00:23:34,560 --> 00:23:43,830
+So it is valid: m0 under
+firing of t1 passes to this
+
+00:23:43,830 --> 00:23:48,150
+m1, and under firing of
+t2 this passes to this m2.
+
+00:23:48,150 --> 00:23:51,630
+Or written shorter (if we don't
+want to note the m1 at
+
+00:23:51,630 --> 00:23:56,130
+all): m0 passes to m2
+under firing of t1 and t2.
+
+00:23:56,130 --> 00:23:59,430
+Calculated this way.
+
+00:23:59,430 --> 00:24:01,380
+Of course, we will not
+always recalculate this in such detail.
+
+00:24:01,380 --> 00:24:04,800
+But it must be understood,
+
+00:24:04,800 --> 00:24:08,700
+because later definitions will
+work with these terms.
+
+00:24:08,700 --> 00:24:12,240
+Often, we will certainly
+just work with intuition, based
+
+00:24:12,240 --> 00:24:14,022
+on the graphical representation.
+
+00:24:14,022 --> 00:24:14,097
+That's what I did in the
+modeling example in the previous video.
+
+00:24:14,097 --> 00:24:20,250
+I didn't always do the math, but
+
+00:24:20,250 --> 00:24:24,090
+simply worked with the tool
+and the intuition behind it.
+
+00:24:26,970 --> 00:24:32,250
+It is still important that this is
+now simply the firing for this concrete sequence.
+
+00:24:32,250 --> 00:24:36,330
+So it's not that m0 always
+does this and then m2 comes out.
+
+00:24:36,330 --> 00:24:39,510
+But here it only says
+that m0 can change into this
+
+00:24:39,510 --> 00:24:42,450
+concrete marking m2 by firing t1 and t2.
+
+00:24:42,450 --> 00:24:45,510
+There can also be other
+firing sequences starting from m0.
+
+00:24:46,470 --> 00:24:51,570
+In the concrete case for example
+it is also valid that m0 reaches
+
+00:24:51,570 --> 00:24:56,400
+m1 after firing t1 as above, but
+after that also t3 would have been fireable.
+
+00:24:56,400 --> 00:24:58,230
+So a different transition than t2.
+
+00:24:58,230 --> 00:25:01,230
+And then a completely different
+final marking would have come out.
+
+00:25:01,230 --> 00:25:03,300
+This is not a contradiction or wrong.
+
+00:25:03,300 --> 00:25:08,220
+But the firing always refers
+to a concrete sequence of transitions.
+
+00:25:08,220 --> 00:25:11,610
+For other transitions of course
+another marking can come out.
+
+00:25:11,610 --> 00:25:14,790
+This follows mathematically
+from the definition.
+
+00:25:14,790 --> 00:25:20,790
+But this is also an essential
+property of Petri nets, namely non-determinism.
+
+00:25:20,790 --> 00:25:26,340
+That is, it is possible, in the
+same situation, for example situation m1 (which
+
+00:25:26,340 --> 00:25:33,990
+we have reached here), to
+evolve differently for different transitions.
+
+00:25:33,990 --> 00:25:38,140
+The term for this is "non-determinism".
+
+00:25:38,140 --> 00:25:41,770
+Petri nets are
+non-deterministic, not predetermined.
+
+00:25:41,770 --> 00:25:47,830
+That is, there can be multiple
+direct successor markings to a concrete marking.
+
+00:25:47,830 --> 00:25:49,750
+Of course, there can
+always be several successor markings,
+
+00:25:49,750 --> 00:25:51,400
+since we are considering several steps.
+
+00:25:51,970 --> 00:25:56,170
+But even for the next concrete
+step there can be different results.
+
+00:25:56,170 --> 00:25:58,750
+Of course only if
+we apply different transitions.
+
+00:25:58,750 --> 00:26:03,070
+So the same marking
+and the same transition lead
+
+00:26:03,070 --> 00:26:05,590
+to the same successor marking.
+
+00:26:05,590 --> 00:26:11,770
+We can't get different
+markings from m1 with t1.
+
+00:26:11,770 --> 00:26:21,250
+But here with m1 and t2 or
+m1 and t3 we get different markings.
+
+00:26:21,250 --> 00:26:24,310
+If we have a marking, and we can choose
+
+00:26:24,310 --> 00:26:28,660
+different transitions, we can get
+different new markings in the process.
+
+00:26:28,660 --> 00:26:32,530
+Now at this point, from the
+student side, the question likes to come:
+
+00:26:34,600 --> 00:26:35,740
+Who decides that?
+
+00:26:36,670 --> 00:26:38,530
+Who chooses the transition?
+
+00:26:38,530 --> 00:26:43,150
+Or who chooses which of the
+several successor markings is the right one?
+
+00:26:43,150 --> 00:26:46,420
+For modeling, this
+question does not arise.
+
+00:26:46,420 --> 00:26:47,860
+That is not our goal in modeling.
+
+00:26:47,860 --> 00:26:50,320
+In modeling, we want
+to describe all possibilities.
+
+00:26:50,320 --> 00:26:55,180
+Nowhere in the Petri net does
+it say which transition to take.
+
+00:26:55,180 --> 00:26:59,320
+The Petri net describes, under a
+certain constellation, which transitions are possible.
+
+00:26:59,320 --> 00:27:03,970
+And also expresses what
+this does to the marking.
+
+00:27:03,970 --> 00:27:07,810
+What the next marking would
+be for a chosen transition.
+
+00:27:07,810 --> 00:27:11,290
+The model does not make a
+selection of which transition to take.
+
+00:27:11,290 --> 00:27:14,590
+That might be a
+task for implementing a system
+
+00:27:14,590 --> 00:27:17,140
+previously modeled with Petri nets.
+
+00:27:17,140 --> 00:27:20,290
+Perhaps one wants to
+follow certain protocols in a
+
+00:27:20,290 --> 00:27:23,500
+concrete executable system.
+
+00:27:23,500 --> 00:27:29,020
+So choosing certain strategies among all
+the possibilities given by the model.
+
+00:27:29,020 --> 00:27:30,790
+But that is no
+longer part of the modeling.
+
+00:27:34,090 --> 00:27:35,560
+This is an important concept.
+
+00:27:35,560 --> 00:27:38,230
+Without non-determinism, Petri nets
+would not be as interesting.
+
+00:27:38,230 --> 00:27:46,180
+And because Petri nets are
+nondeterministic (i.e., different subsequent markings can
+
+00:27:46,180 --> 00:27:48,340
+arise from one marking), if we
+
+00:27:48,340 --> 00:27:54,880
+want to get an overview of how a
+Petri net can evolve, there is a very
+
+00:27:54,880 --> 00:28:02,260
+natural relationship to the flat state
+diagrams from the beginning of the lecture.
+
+00:28:05,560 --> 00:28:07,750
+We will turn to the evolution of a graph
+
+00:28:07,750 --> 00:28:15,340
+from a Petri net, corresponding to
+reachability relations, in the next video.

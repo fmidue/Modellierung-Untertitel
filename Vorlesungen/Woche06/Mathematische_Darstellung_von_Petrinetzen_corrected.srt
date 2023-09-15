@@ -1,0 +1,630 @@
+146 # slide
+00:00:00,000 --> 00:00:05,430
+After the informal examples,
+let's discuss the formal definition
+
+00:00:05,430 --> 00:00:08,190
+of Petri nets this week.
+
+00:00:08,190 --> 00:00:13,560
+Now this looks like
+a complicated definition at first.
+
+00:00:13,560 --> 00:00:17,010
+But it simply uses set-theoretic
+
+00:00:17,010 --> 00:00:21,000
+terms that I repeated
+in a video last week.
+
+00:00:21,000 --> 00:00:24,330
+Or that you should already
+know from somewhere else, maybe
+
+00:00:24,330 --> 00:00:27,330
+also from recent mathematics lectures.
+
+00:00:27,330 --> 00:00:30,960
+So here is mathematically stated:
+
+00:00:30,960 --> 00:00:36,300
+A Petri net from now on, if we
+want to represent it formally/mathematically (and ultimately the
+
+00:00:36,300 --> 00:00:39,180
+syntax of the Petri net independent of
+the graphical representation), is defined like this.
+
+00:00:39,180 --> 00:00:41,550
+As a 5-tuple.
+
+00:00:41,550 --> 00:00:43,920
+Five components play into this.
+
+00:00:45,810 --> 00:00:48,720
+We have a finite,
+non-empty set of places.
+
+00:00:48,720 --> 00:00:53,160
+Non-empty because a Petri net
+without places would make no sense.
+
+00:00:53,160 --> 00:00:56,760
+And finite, because we are
+only considering finite Petri nets.
+
+00:00:56,760 --> 00:00:58,140
+Although I have said that the behavior
+
+00:00:58,140 --> 00:01:00,885
+described by this
+could still be infinite.
+
+00:01:00,885 --> 00:01:06,540
+So a corresponding flat state
+diagram could be infinite, even
+
+00:01:06,540 --> 00:01:08,550
+though the Petri net
+has only finitely many places.
+
+00:01:08,550 --> 00:01:12,060
+This is because, as we have already
+seen in an example in an earlier video,
+
+00:01:12,060 --> 00:01:15,960
+it could be that an arbitrary
+number of tokens accumulate on a site.
+
+00:01:15,960 --> 00:01:21,600
+So then the total number of
+all possible state configurations is quite
+
+00:01:21,600 --> 00:01:24,840
+infinite, because of these arbitrarily
+many tokens on one place,
+
+00:01:24,840 --> 00:01:30,270
+even though the Petri net itself has
+finitely many places and finitely many transitions.
+
+00:01:30,270 --> 00:01:35,130
+So S is such a
+set (finite, nonempty) of places.
+
+00:01:35,130 --> 00:01:39,570
+Analogously, a set T (also
+finite, and also non-empty) of transitions.
+
+00:01:39,570 --> 00:01:47,520
+In the graphical representation, these are
+the empty, large circles and rectangles.
+
+00:01:49,110 --> 00:01:52,350
+So that's part
+of the structural information.
+
+00:01:52,350 --> 00:01:54,990
+Of course, we need to
+know more, namely about the arrows/connections.
+
+00:01:55,740 --> 00:02:01,350
+They are represented here in the
+mathematical definition by two such functions.
+
+00:02:01,350 --> 00:02:05,340
+These are in each
+case functions from the set
+
+00:02:05,340 --> 00:02:10,710
+of places to the
+natural numbers including the zero.
+
+00:02:12,360 --> 00:02:17,130
+And such two functions
+exist for each transition t.
+
+00:02:17,130 --> 00:02:21,390
+So for each transition t, each element of
+this set T, there are two such functions.
+
+00:02:21,390 --> 00:02:22,620
+And they're called this here:
+
+00:02:22,620 --> 00:02:25,920
+Bullet, filled circle, before
+t and after t.
+
+00:02:26,850 --> 00:02:29,730
+But these are just names,
+just a short notation for them.
+
+00:02:29,730 --> 00:02:36,990
+We actually want to express the precondition
+weights of t and postcondition weights of t.
+
+00:02:36,990 --> 00:02:40,380
+We want to do this
+for each transition and each place.
+
+00:02:40,380 --> 00:02:44,550
+We take a transition t
+and specify a function that
+
+00:02:44,550 --> 00:02:48,180
+assigns a natural number to each place.
+
+00:02:48,180 --> 00:02:51,810
+Namely, this specifies how many
+tokens are taken out of each
+
+00:02:51,810 --> 00:02:55,350
+place by this transition t.
+
+00:02:55,350 --> 00:02:58,740
+Or, if we consider
+this function, then how many
+
+00:02:58,740 --> 00:03:04,680
+tokens are put on a given
+place by the corresponding transition t.
+
+00:03:05,310 --> 00:03:08,190
+Since a value is
+given here for each place.
+
+00:03:08,190 --> 00:03:12,780
+Because this is a function from the set
+of places into the set of natural numbers.
+
+00:03:12,780 --> 00:03:17,700
+Thus always all places are considered.
+
+00:03:19,110 --> 00:03:21,060
+For really every place a value is given.
+
+00:03:21,060 --> 00:03:22,320
+That is the concept of the function.
+
+00:03:22,320 --> 00:03:26,670
+But we can also have zero
+as a result for a certain place.
+
+00:03:31,110 --> 00:03:32,640
+Then there is another such function.
+
+00:03:32,640 --> 00:03:35,490
+Again, a function of
+places into the natural numbers.
+
+00:03:35,490 --> 00:03:36,990
+And that is the initial marking.
+
+00:03:36,990 --> 00:03:39,090
+This has per se nothing
+to do with the transitions, but
+
+00:03:39,090 --> 00:03:45,360
+describes how in the initial situation of
+the Petri net the tokens are distributed.
+
+00:03:45,360 --> 00:03:51,330
+Therefore, besides the sets S and T and
+these families of functions (which specify such a
+
+00:03:51,330 --> 00:04:00,600
+function for each t out of T),
+there is another distinguished function here, namely m0.
+
+00:04:00,600 --> 00:04:02,010
+This is the initial
+marking or start marking.
+
+00:04:08,510 --> 00:04:10,670
+And, as I said before:
+
+00:04:10,670 --> 00:04:16,370
+Such an expression, that is,
+one of these bullet t
+
+00:04:16,370 --> 00:04:20,780
+or t-bullet functions, evaluated for a
+particular location s, is called a weight.
+
+00:04:20,780 --> 00:04:24,860
+Or pre-weight in that case,
+post-weight in the other case.
+
+00:04:29,540 --> 00:04:32,720
+These functions of this shape S
+to N, which occur here several
+
+00:04:32,720 --> 00:04:38,120
+times, are also
+generally called "markings".
+
+00:04:38,120 --> 00:04:42,770
+Here it already appears as
+a term in the name.
+
+00:04:42,770 --> 00:04:46,400
+But also these functions
+can be understood as markings.
+
+00:04:46,400 --> 00:04:49,700
+We will need this term, so
+I will define it again separately.
+
+00:04:49,700 --> 00:04:53,270
+So a marking is simply
+a function of this form.
+
+00:04:53,270 --> 00:05:01,760
+And it can indicate how many
+tokens are currently in individual places.
+
+00:05:01,760 --> 00:05:07,910
+That would be the application here,
+to indicate the initial or initial marking.
+
+00:05:07,910 --> 00:05:12,440
+But such a function can just
+also be used to indicate how
+
+00:05:12,440 --> 00:05:14,600
+many tokens are to
+be taken from individual places.
+
+00:05:14,600 --> 00:05:16,220
+This was the case for the pre-weight.
+
+00:05:16,220 --> 00:05:18,860
+Or how many tokens are
+to be added to individual places.
+
+00:05:18,860 --> 00:05:20,870
+That would be the
+case for the post-weighting.
+
+00:05:20,870 --> 00:05:25,310
+And, of course, it's important to note that there
+can be variance in each of the three cases.
+
+00:05:25,310 --> 00:05:31,820
+So it can be assigned here, in
+a marking, a different value for each place.
+
+00:05:35,750 --> 00:05:39,920
+Now we won't always necessarily write
+these functions down as functions, that
+
+00:05:39,920 --> 00:05:41,690
+is, with an assignment rule.
+
+00:05:43,280 --> 00:05:45,680
+If S is small, for example
+contains only 3 or 4 elements,
+
+00:05:45,680 --> 00:05:48,050
+we actually want to
+specify only three values.
+
+00:05:48,050 --> 00:05:50,840
+Then we will often write
+them in tuple notation again.
+
+00:05:50,840 --> 00:05:57,680
+So in particular, if we have places s_1
+through s_n, for a not-too-large n, and we've decided
+
+00:05:57,680 --> 00:06:00,860
+on an order (perhaps
+numbering the places from
+
+00:06:00,860 --> 00:06:05,390
+s_1 to, say, s_4), then we
+can also express/write such a function by
+
+00:06:05,390 --> 00:06:12,080
+simply writing down the results of m,
+from that function, for s_1 through s_n.
+
+00:06:12,080 --> 00:06:17,510
+We'll see that in an example in a
+moment, in case this seems obscure to you.
+
+00:06:21,940 --> 00:06:22,690
+And of course:
+
+00:06:22,690 --> 00:06:28,960
+This mathematical notation, using this
+term, will ultimately have to
+
+00:06:28,960 --> 00:06:31,810
+be brought into agreement with
+the graphical representation, of course.
+
+00:06:31,810 --> 00:06:37,090
+We've already seen the graphical representation, with
+the places and rectangles and so on.
+
+00:06:37,090 --> 00:06:41,290
+There will be the relation
+that the places from the mathematical
+
+00:06:41,290 --> 00:06:44,796
+definition also correspond to the places
+, the circles, in the graphic representation.
+
+00:06:44,796 --> 00:06:47,590
+And the transitions
+from the mathematical definition,
+
+00:06:47,590 --> 00:06:51,370
+the elements of T, will
+be represented as rectangles or squares.
+
+00:06:51,370 --> 00:06:57,790
+The tokens, that is, what
+is described by the initial
+
+00:06:57,790 --> 00:07:02,980
+marking, are represented as filled small
+circles lying on the large circles.
+
+00:07:02,980 --> 00:07:08,680
+Edges between places and
+transitions are represented with arrows.
+
+00:07:08,680 --> 00:07:13,720
+This is the information that lies in
+the mathematical representation in the weight functions.
+
+00:07:13,720 --> 00:07:18,310
+And a key point that makes
+the graphical representation perhaps more intuitive
+
+00:07:18,310 --> 00:07:27,628
+than the mathematical representation is that in
+special cases we can save information for
+
+00:07:27,628 --> 00:07:30,610
+the weight functions in the
+graphical representation, or leave it implicit.
+
+00:07:30,610 --> 00:07:33,280
+So we won't draw arrows
+in the graphical representation if
+
+00:07:33,280 --> 00:07:35,710
+the weight functions say,
+
+00:07:35,710 --> 00:07:40,150
+for example, that a connection from a
+place to a transition has weight 0.
+
+00:07:40,150 --> 00:07:41,590
+Then the edge will be omitted altogether.
+
+00:07:41,590 --> 00:07:47,230
+And if a weight is
+1, we will just draw an
+
+00:07:47,230 --> 00:07:49,570
+arrow, but not give it a value.
+
+00:07:50,200 --> 00:07:54,490
+In the example from the last
+video, on the other hand, where we
+
+00:07:54,490 --> 00:07:58,060
+once wrote a 2 to an arrow
+or did so in two places, this
+
+00:07:58,060 --> 00:08:04,720
+would correspond to cases where such a function would
+also sometimes have a value 2 as a result.
+
+00:08:08,050 --> 00:08:10,600
+So we have to
+interpret the graphical representation
+
+00:08:10,600 --> 00:08:13,120
+relative to
+the mathematical representation.
+
+00:08:13,120 --> 00:08:15,280
+I will now do
+this directly with an example.
+
+00:08:16,240 --> 00:08:20,050
+Let's take this
+graphically represented Petri net.
+
+00:08:20,050 --> 00:08:23,620
+This obviously has
+three places, three transitions,
+
+00:08:23,620 --> 00:08:29,230
+and at the beginning the
+tokens are distributed as shown here.
+
+00:08:29,230 --> 00:08:30,940
+And there's a transition that
+
+00:08:30,940 --> 00:08:35,470
+generates two tokens as in the last
+video when the transition t1 is fired.
+
+00:08:37,900 --> 00:08:40,210
+That would be
+the graphical representation.
+
+00:08:40,210 --> 00:08:45,580
+In order to write down a mathematical
+
+00:08:45,580 --> 00:08:48,400
+representation, we have to
+decide on a place order.
+
+00:08:48,400 --> 00:08:52,690
+Here it is obvious to give the
+places just in the order s1, s2, s3.
+
+00:08:52,690 --> 00:08:57,010
+We will need this if we
+want to describe the markings as tuples.
+
+00:08:59,740 --> 00:09:03,070
+Mathematically, we would have here
+a three-element set of places,
+
+00:09:03,070 --> 00:09:05,260
+a three-element set of transitions, and
+
+00:09:05,260 --> 00:09:16,030
+the transitions can be written down,
+for example, for t1 as follows.
+
+00:09:18,940 --> 00:09:20,860
+What do we know about
+this transition from the graphical representation?
+
+00:09:20,860 --> 00:09:24,100
+We know that it consumes
+a token from s1, consumes
+
+00:09:24,100 --> 00:09:31,690
+a token from s2, and puts two tokens into
+s3, but does not take a token from s3.
+
+00:09:33,310 --> 00:09:36,550
+The precondition function says:
+
+00:09:36,550 --> 00:09:40,360
+One token from s1, one token
+from s2, and zero tokens from s3.
+
+00:09:40,360 --> 00:09:42,760
+This corresponds to the non-existent
+arrow from here to here.
+
+00:09:42,760 --> 00:09:47,110
+And the fact that
+t1 deposits something exactly in
+
+00:09:47,110 --> 00:09:49,420
+s3, two tokens, is expressed here.
+
+00:09:50,980 --> 00:09:54,790
+Nothing is deposited in s1 because
+there is no back arrow here.
+
+00:09:54,790 --> 00:09:57,730
+Nothing is placed in s2 because
+there is no back arrow here either.
+
+00:09:57,730 --> 00:09:59,890
+Two tokens are stored in s3.
+
+00:10:00,520 --> 00:10:05,350
+This information, in these
+two lines, corresponds to
+
+00:10:05,350 --> 00:10:12,970
+the information given here by the
+corresponding arrows and the labels around t1.
+
+00:10:16,120 --> 00:10:19,840
+The same would be done for t2
+and t3, thus writing down corresponding additional lines.
+
+00:10:19,840 --> 00:10:26,770
+For the initial marking, that is, for
+the distribution of tokens in the initial image,
+
+00:10:26,770 --> 00:10:29,410
+we have this start
+marking or initial marking.
+
+00:10:29,410 --> 00:10:29,920
+It says:
+
+00:10:29,920 --> 00:10:33,280
+On s1 there has to
+be one token on s2 there
+
+00:10:33,280 --> 00:10:40,030
+have to be two tokens and s3
+has to be empty at the beginning.
+
+00:10:40,030 --> 00:10:42,340
+If we decide on an order of the
+
+00:10:42,340 --> 00:10:47,200
+places (s1, s2, s3 for example), then
+we can write this information more compactly.
+
+00:10:47,200 --> 00:10:51,100
+For example, we simply write down
+the precondition function for t1 in the
+
+00:10:51,100 --> 00:10:57,700
+form that we form a triple from
+the three results for s1, s2, s3.
+
+00:10:57,700 --> 00:10:59,440
+For this we just need to know this order.
+
+00:10:59,440 --> 00:11:02,680
+So if we were to write them down the
+
+00:11:02,680 --> 00:11:04,420
+other way around, we might
+have to put the zero here.
+
+00:11:04,420 --> 00:11:10,270
+But for s1, s2, s3, we have 1,
+1, 0 here and 0, 0, 2 here.
+
+00:11:10,270 --> 00:11:12,610
+Of course, we can do the same thing for
+
+00:11:12,610 --> 00:11:16,480
+the initial marking and
+specify that this way.
+
+00:11:20,710 --> 00:11:27,580
+And if we do that for t2, t3
+as well, we would have a mathematical representation
+
+00:11:27,580 --> 00:11:31,180
+exactly corresponding to the graphical representation,
+which we can just work with mathematically.
+
+00:11:31,180 --> 00:11:35,020
+We will want to specify Petri nets
+sometimes this way and sometimes that way.
+
+00:11:35,020 --> 00:11:39,550
+Depending on the intended use,
+we may want to define
+
+00:11:39,550 --> 00:11:42,490
+something more mathematically, perform analysis
+for the Petri nets, for example.
+
+00:11:42,490 --> 00:11:44,980
+Or do we want to illustrate or
+
+00:11:44,980 --> 00:11:48,730
+simulate rather, or intuitively go through
+and discuss what transitions are possible?
+
+00:11:49,330 --> 00:11:52,810
+Then we can work
+more with the graphical representation.
+
+00:11:52,810 --> 00:11:55,630
+But you must know both representations
+and also be able to relate them.

@@ -1,0 +1,354 @@
+253 # slide
+00:00:00,000 --> 00:00:07,590
+Just as there are different ways
+of entering the hierarchical or region states,
+
+00:00:07,590 --> 00:00:10,410
+there are also different ways of exiting.
+
+00:00:10,410 --> 00:00:14,670
+So we have to take
+a look at that as well.
+
+00:00:14,670 --> 00:00:18,450
+On the one hand there is,
+let's take a hierarchical state first, and
+
+00:00:18,450 --> 00:00:19,710
+later again a region state.
+
+00:00:19,710 --> 00:00:23,220
+In the hierarchical states there is
+the exit from the composite state
+
+00:00:23,220 --> 00:00:25,350
+as a whole.
+
+00:00:25,350 --> 00:00:30,570
+This is, so to speak, the
+counterpart to the standard entry, where you
+
+00:00:30,570 --> 00:00:35,535
+just approach the overall state from the
+outside and don't somehow pick out something inside.
+
+00:00:35,535 --> 00:00:40,620
+And in the same way here would be
+the exit from the composite state as a whole.
+
+00:00:40,620 --> 00:00:44,010
+Without further somehow marking
+
+00:00:44,010 --> 00:00:48,420
+from which sub-state one would
+like to leave the overall state.
+
+00:00:48,420 --> 00:00:53,910
+Then there is the possibility to
+exit directly from a specific sub-state.
+
+00:00:53,910 --> 00:01:01,200
+This corresponds or would be dual
+to the explicit entry into a sub-state.
+
+00:01:02,610 --> 00:01:08,940
+And then there were the two variants
+shallow and deep history at the entry.
+
+00:01:08,940 --> 00:01:12,120
+There is nothing corresponding
+to them at the exit.
+
+00:01:12,120 --> 00:01:17,100
+Yes, at the exit possibly something is
+noted, in order to fall back at
+
+00:01:17,100 --> 00:01:23,220
+the re-entry about history then on information, where
+we have been last in this state altogether.
+
+00:01:23,220 --> 00:01:26,430
+But with the exit arrows themselves,
+
+00:01:26,430 --> 00:01:33,750
+there are no additional variants for
+history entry, history exit or so.
+
+00:01:33,750 --> 00:01:36,570
+So there's just these two
+options here at the hierarchical state.
+
+00:01:38,790 --> 00:01:39,630
+And what do they mean in each case?
+
+00:01:39,630 --> 00:01:45,300
+So the exit from a
+hierarchical state as a whole, simply
+
+00:01:45,300 --> 00:01:49,050
+means as soon as the
+trigger associated with the transition.
+
+00:01:49,680 --> 00:01:51,300
+Yes, there could be
+a trigger on each here.
+
+00:01:51,300 --> 00:01:55,470
+And as soon as that takes
+place, the overall state is simply exited.
+
+00:01:55,470 --> 00:02:00,150
+No matter where one, in which concrete
+sub-state one is here at the moment.
+
+00:02:00,150 --> 00:02:02,370
+One simply leaves the overall state.
+
+00:02:02,370 --> 00:02:07,220
+What about when you
+exit a specific sub-state?
+
+00:02:07,220 --> 00:02:11,060
+Well then this transition, which probably
+has a trigger on it, is
+
+00:02:11,060 --> 00:02:16,400
+only taken/selected at all
+if you are actually currently
+
+00:02:16,400 --> 00:02:20,750
+in the specific sub-state you
+are supposed to exit from.
+
+00:02:20,750 --> 00:02:27,920
+So in our example diagram this would be
+the state E, because this arrow goes from E.
+
+00:02:27,920 --> 00:02:32,090
+I.e., we can, if there is
+a trigger on here and the entry
+
+00:02:32,090 --> 00:02:34,760
+is to select this arrow/transition only
+if we are actually currently in E.
+
+00:02:34,760 --> 00:02:40,790
+If we are currently in C or
+D, then we cannot trigger this exit.
+
+00:02:44,420 --> 00:02:46,280
+Besides that, yes,
+there is another possibility.
+
+00:02:46,280 --> 00:02:55,610
+An exit point as well as end states
+or terminators over which we can also exit.
+
+00:02:55,610 --> 00:02:58,271
+But these are not treated here.
+
+00:02:58,271 --> 00:03:02,420
+So we will only
+need these two exit possibilities.
+
+00:03:10,030 --> 00:03:14,740
+What this means concretely for
+an example would be about this.
+
+00:03:14,740 --> 00:03:20,380
+So, if we have here
+such a state that is composed.
+
+00:03:20,380 --> 00:03:23,590
+And we have one
+exit from the overall state.
+
+00:03:23,590 --> 00:03:28,750
+Then that actually corresponds
+to three arrows in the
+
+00:03:28,750 --> 00:03:36,280
+case, namely that we could have explicitly specifically
+exited from B, from C, and from D.
+
+00:03:37,240 --> 00:03:44,530
+These three exits from specific
+sub-states are replaced by a
+
+00:03:44,530 --> 00:03:47,530
+single exit from the overall state.
+
+00:03:47,530 --> 00:03:51,400
+Because then we don't have to say
+where we are in the sub-state right now.
+
+00:03:51,400 --> 00:04:02,440
+And this is exactly where we
+save arrows in our overall/wristwatch example,
+
+00:04:02,440 --> 00:04:10,330
+because there also have just such entries
+and exits from or between overall states.
+
+00:04:10,330 --> 00:04:14,890
+Instead of having arrows for
+every combination of sub-state and sub-state.
+
+00:04:14,890 --> 00:04:18,910
+That's exactly the goal of
+this kind of entries and
+
+00:04:18,910 --> 00:04:22,030
+exits, that we save
+transitions in the representation.
+
+00:04:22,720 --> 00:04:26,800
+And here, this very
+example corresponds to that.
+
+00:04:31,700 --> 00:04:32,822
+This would be when we don't have regions.
+
+00:04:32,822 --> 00:04:34,700
+Now we still have to
+look at, what happens if
+
+00:04:34,700 --> 00:04:39,260
+we have a region state
+and we exit from that?
+
+00:04:39,260 --> 00:04:44,930
+Then there is also the exit
+from the composite state as a whole.
+
+00:04:44,930 --> 00:04:46,460
+Then we would just leave no
+
+00:04:46,460 --> 00:04:49,040
+matter what sub-states we are
+in right now in the regions.
+
+00:04:49,040 --> 00:04:53,090
+There is the exit from
+a sub-state, which is now
+
+00:04:53,090 --> 00:04:57,950
+just located in one
+of the possibly several regions.
+
+00:04:57,950 --> 00:05:01,100
+And there is additionally
+the exit over union,
+
+00:05:01,100 --> 00:05:05,930
+essentially a counterpart to
+the entrance over a fork.
+
+00:05:05,930 --> 00:05:11,900
+Histories are here again not relevant
+with the exit as somehow representation possibility.
+
+00:05:14,090 --> 00:05:17,780
+What do now these exit
+possibilities mean with region states?
+
+00:05:17,780 --> 00:05:23,000
+Well, if we want to exit
+again from the state as a
+
+00:05:23,000 --> 00:05:24,530
+whole, then this
+is simply always possible.
+
+00:05:24,530 --> 00:05:29,510
+Then simply in each region
+the sub-state present there is left.
+
+00:05:29,510 --> 00:05:34,370
+So no matter in which sub-states
+we are in the individual regions,
+
+00:05:34,370 --> 00:05:38,150
+we can always choose
+this exit from the whole.
+
+00:05:38,150 --> 00:05:46,010
+What is specific about
+exit from a sub-state?
+
+00:05:46,010 --> 00:05:56,000
+Well, if we have something like this
+situation, then we are only allowed to leave
+
+00:05:56,000 --> 00:06:01,910
+the region state if we are actually
+at the corresponding state in this region.
+
+00:06:01,910 --> 00:06:06,770
+Yes so we would be allowed to leave the regions state
+altogether if we are here in B and here in C.
+
+00:06:06,770 --> 00:06:09,080
+Or if we are here in B and here D.
+
+00:06:09,080 --> 00:06:11,360
+But not if we are here in
+A and here in C or D.
+
+00:06:14,120 --> 00:06:16,670
+So the composite state is left
+
+00:06:16,670 --> 00:06:20,750
+only if one is
+actually in the state/substate
+
+00:06:20,750 --> 00:06:24,410
+left by this arrow
+in the corresponding region.
+
+00:06:24,410 --> 00:06:28,730
+In the regions parallel to it,
+one can be in any state.
+
+00:06:28,730 --> 00:06:32,960
+So in the concrete case it was
+like this, we would only be able to
+
+00:06:32,960 --> 00:06:35,110
+exit if we are actually
+in B in the first region.
+
+00:06:35,110 --> 00:06:38,760
+That would be this case and this case.
+
+00:06:38,760 --> 00:06:42,390
+And this case now, it's explicitly stated
+
+00:06:42,390 --> 00:06:46,440
+which sub-state we should
+be in per region.
+
+00:06:46,440 --> 00:06:49,590
+And then accordingly, the rule is also.
+
+00:06:49,590 --> 00:06:54,210
+We can leave the
+composite state via the union
+
+00:06:54,210 --> 00:07:00,000
+exactly when we are in the
+appropriately labeled state in each region.
+
+00:07:00,000 --> 00:07:07,470
+So in the example we could exit only
+when we are actually in B and D.
+
+00:07:07,470 --> 00:07:09,420
+Not if we are in B and C or something.
+
+00:07:09,420 --> 00:07:13,320
+If we are in B and C,
+then we may exit over here, exit
+
+00:07:13,320 --> 00:07:17,610
+over here, but not over here.

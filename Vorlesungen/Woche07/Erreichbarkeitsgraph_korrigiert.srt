@@ -1,0 +1,939 @@
+157 # slide
+00:00:00,000 --> 00:00:09,480
+In dem vorigen Video hatte ich gegen Ende vom
+Nichtdeterminismus bei Petrinetzen gesprochen.
+
+00:00:09,480 --> 00:00:17,040
+Insbesondere in der Ausführung, also dass
+es zu einer Markierung mehrere aktivierte
+
+00:00:17,040 --> 00:00:22,860
+Transitionen geben kann, die dann auch zu
+verschiedenen Folgemarkierungen führen können.
+
+00:00:22,860 --> 00:00:28,170
+Und ich hatte schon angesprochen,
+dass sich daraus ein Graph ergibt,
+
+00:00:28,170 --> 00:00:31,860
+der letztlich einem flachen
+Zustandsdiagramm entspricht.
+
+00:00:31,860 --> 00:00:34,800
+Und zwar dem flachen Zustandsdiagramm
+genau dieses Petrinetzes.
+
+00:00:34,800 --> 00:00:38,790
+Das ist jetzt hier auf dieser Folie definiert.
+
+00:00:38,790 --> 00:00:43,050
+Ich spreche das kurz durch und dann
+sehen wir das an einem Beispiel.
+
+00:00:43,050 --> 00:00:45,270
+Und es wird natürlich auch geübt werden.
+
+00:00:45,270 --> 00:00:48,600
+Also, gegeben sei ein Petrinetz.
+
+00:00:48,600 --> 00:00:53,820
+Wir wissen, wie das mathematisch gegeben ist
+durch diese fünf Komponenten: Stellenmenge,
+
+00:00:53,820 --> 00:00:58,500
+Transitionsmenge, Vorgewichtsfunktionen,
+Nachgewichtsfunktionen, Startmarkierung.
+
+00:00:58,500 --> 00:01:03,120
+Und dann ordnen wir diesem Petrinetz
+ein flaches Zustandsdiagramm zu.
+
+00:01:05,040 --> 00:01:07,485
+Dieses besteht ja immer aus
+bestimmten Komponenten so
+
+00:01:07,485 --> 00:01:09,930
+wie weiter vorne (wo wir uns allgemein Graphen
+angeschaut haben) mathematisch definiert wurde.
+
+00:01:12,810 --> 00:01:15,330
+Also es gibt die Knotenmenge.
+
+00:01:15,330 --> 00:01:18,060
+Die wird oft V genannt für "vertices".
+
+00:01:18,060 --> 00:01:21,600
+Oder wir können sie auch Z nennen für
+Zustände, wegen des Zustandsdiagramms.
+
+00:01:21,600 --> 00:01:27,000
+Und dafür wählen wir die Menge aller
+von m0 aus erreichbaren Markierungen.
+
+00:01:27,000 --> 00:01:31,590
+Mit genau dem Erreichbarkeitsbegriff,
+der hier definiert wurde.
+
+00:01:31,590 --> 00:01:35,760
+Also jede Markierung m, die auf
+diese Weise durch eine endliche
+
+00:01:35,760 --> 00:01:43,320
+Transitionsfolge aus m0 erreichbar
+ist, wird in diese Menge Z gepackt.
+
+00:01:43,320 --> 00:01:44,760
+Zur Erinnerung:
+
+00:01:44,760 --> 00:01:51,090
+Eine Petrinetz-Konfiguration, also eine Belegung
+
+00:01:51,090 --> 00:01:56,670
+der Stellen des Petrinetzes mit Marken,
+entspricht einem Zustand des Systems.
+
+00:01:56,670 --> 00:02:02,250
+Deswegen macht es Sinn, in dem Zustandsdiagramm
+genau das als die Zustände zu wählen.
+
+00:02:02,250 --> 00:02:03,990
+Natürlich nur die erreichbaren Markierungen.
+
+00:02:03,990 --> 00:02:05,670
+Nicht etwa alle denkbaren Markierungen.
+
+00:02:05,670 --> 00:02:12,000
+Weil Markierungen, die gar nicht von
+der Startmarkierung aus erreichbar sind,
+
+00:02:12,630 --> 00:02:15,360
+nichts beitragen zum Verständnis des Petrinetzes.
+
+00:02:15,360 --> 00:02:17,790
+Die können ja sowieso nie realisiert werden.
+
+00:02:17,790 --> 00:02:22,140
+Okay, dann gibt es die Menge
+von Kantenbeschriftungen.
+
+00:02:23,280 --> 00:02:29,100
+In einem flachen Zustandsdiagramm konnten wir
+ja die Kanten zwischen den Knoten beschriften.
+
+00:02:29,100 --> 00:02:31,530
+Und dafür wählen wir hier
+die Menge der Transitionen.
+
+00:02:31,530 --> 00:02:36,330
+Also an jede Kante zwischen Knoten werden
+wir eine Transition schreiben, nämlich die
+
+00:02:36,330 --> 00:02:38,130
+Transition, die zu diesem Übergang geführt hat.
+
+00:02:38,130 --> 00:02:39,960
+Die aktiviert war in der Ursprungsmarkierung
+
+00:02:39,960 --> 00:02:45,120
+vor dem Übergang, und genau
+zum Folgezustand geführt hat.
+
+00:02:47,640 --> 00:02:55,920
+Dann erhalten wir als Kantenmenge, oder Übergänge,
+genau die Tripel bestehend aus Markierung,
+
+00:02:57,840 --> 00:03:03,030
+Transition, Folgemarkierung,
+für die diese Beziehung gilt.
+
+00:03:03,030 --> 00:03:07,800
+Also wir verknüpfen nicht einfach
+irgendwelche Markierungen miteinander.
+
+00:03:07,800 --> 00:03:13,710
+Sondern wir haben einen Übergang
+von m nach m' mit dem Label t,
+
+00:03:13,710 --> 00:03:23,280
+also mit Beschriftung t an dem Pfeil,
+genau dann wenn t aktiviert ist in
+
+00:03:23,280 --> 00:03:28,020
+Markierung m, und nach dem Schalten
+genau die Markierung m' entsteht.
+
+00:03:29,970 --> 00:03:33,960
+Damit haben wir alle Knoten, alle
+Kanten, deren Beschriftungen.
+
+00:03:33,960 --> 00:03:37,140
+In der Regel zeichnen wir in einem
+flachen Zustandsdiagramm ja noch einen
+
+00:03:37,140 --> 00:03:40,830
+speziellen Zustand aus, nämlich den Startzustand.
+
+00:03:40,830 --> 00:03:43,470
+Und das ist hier logischerweise
+die Anfangsmarkierung.
+
+00:03:43,470 --> 00:03:46,350
+Das ist ja eine von diesen
+erreichbaren Markierungen,
+
+00:03:46,350 --> 00:03:49,770
+weil sie nach der leeren
+Transitionsfolge erreichbar ist.
+
+00:03:49,770 --> 00:03:55,200
+Passt also, ist ein Element
+der relevanten Zustandsmenge.
+
+00:03:55,200 --> 00:04:03,600
+Okay, das ist dann unser flaches
+Zustandsdiagramm für unser gegebenes Petrinetz.
+
+00:04:03,600 --> 00:04:06,360
+Und das nennt man auch den Erreichbarkeitsgraph.
+
+00:04:06,360 --> 00:04:10,410
+Es ist ein Graph, der alle
+erreichbaren Markierungen darstellt,
+
+00:04:10,410 --> 00:04:16,260
+und über die Labels/Beschriftungen
+der Kanten natürlich auch klarmacht,
+
+00:04:16,260 --> 00:04:18,870
+wie eine bestimmte Markierung
+erreicht werden kann.
+
+00:04:18,870 --> 00:04:22,900
+Also letztlich ist die Schaltfolge
+in dem Graphen nachzuvollziehen.
+
+00:04:22,900 --> 00:04:27,010
+Das kann ein unendlicher Graph werden.
+
+00:04:27,730 --> 00:04:28,600
+Das Petrinetz ist immer endlich.
+
+00:04:28,600 --> 00:04:30,760
+Die Menge S war endlich, die Menge T war endlich,
+
+00:04:30,760 --> 00:04:34,625
+aber der Erreichbarkeitsgraph könnte
+durchaus ein unendlicher Graph sein.
+
+00:04:34,625 --> 00:04:38,770
+Zwar ist jede Schaltfolge endlich, aber
+es kann unendlich viele davon geben.
+
+00:04:38,770 --> 00:04:41,740
+Das werden wir im Moment
+hier noch nicht betrachten.
+
+00:04:41,740 --> 00:04:48,220
+Also hier im Moment werden wir nur ein Beispiel
+für einen endlichen Erreichbarkeitsgraphen sehen.
+
+00:04:48,220 --> 00:04:53,890
+Aber wir werden später auch auf mindestens
+ein Beispiel für Unendlichkeit zurückkommen.
+
+00:04:53,890 --> 00:04:58,810
+Da ist die Definition unverändert, die
+Entwicklung ist im Prinzip auch gleich,
+
+00:04:58,810 --> 00:05:03,040
+nur kann man natürlich einen unendlichen
+Graphen nicht in endlicher Zeit auf eine
+
+00:05:03,040 --> 00:05:07,750
+Folie malen, wie ich das jetzt hier für
+das Beispiel in Folge gleich tun werde.
+
+00:05:12,190 --> 00:05:16,300
+Und zwar betrachten wir genau den
+Erreichbarkeitsgraph für dieses Petrinetz,
+
+00:05:16,300 --> 00:05:18,820
+das wir jetzt schon mehrfach gesehen haben.
+
+00:05:18,820 --> 00:05:23,200
+Das war unser Beispiel-Petrinetz auf
+den Folien für den Zusammenhang zwischen
+
+00:05:23,200 --> 00:05:25,180
+grafischer und mathematischer Darstellung.
+
+00:05:25,180 --> 00:05:31,720
+Und es war auch das Beispiel, das ich in
+einem früheren Video in dieser Woche benutzt
+
+00:05:31,720 --> 00:05:38,230
+hatte zur Illustration der mathematischen
+Formulierung von Schalten und Erreichbarkeit.
+
+00:05:39,160 --> 00:05:42,820
+Es hilft natürlich, das schon
+getan zu haben für dieses Beispiel.
+
+00:05:42,820 --> 00:05:45,070
+Weil wir dann einen Teil
+des Erreichbarkeitsgraphen
+
+00:05:45,070 --> 00:05:47,980
+jetzt auch schon direkt kennen.
+
+00:05:53,140 --> 00:05:55,720
+Also, wie wird dieser Graph hierzu aussehen?
+
+00:05:55,720 --> 00:05:56,860
+Der wird gleich auf der folgenden Folie sein.
+
+00:05:56,860 --> 00:05:59,500
+Ich möchte aber sozusagen die ersten paar Zustände
+
+00:05:59,500 --> 00:06:03,100
+durchsprechen und danach Ihnen
+einfach den Graphen überlassen.
+
+00:06:03,100 --> 00:06:07,660
+So dass Sie da drin selber die restlichen
+Übergänge suchen oder überprüfen können.
+
+00:06:07,660 --> 00:06:13,210
+Also, laut der Definition ist
+das ein Graph, der alle alle
+
+00:06:13,210 --> 00:06:16,720
+erreichbaren Markierungen enthält, insbesondere
+natürlich mindestens die Anfangsmarkierung.
+
+00:06:16,720 --> 00:06:19,540
+Und tatsächlich, wenn wir so einen
+Erreichbarkeitsgraphen aufstellen,
+
+00:06:19,540 --> 00:06:21,190
+beginnen wir natürlich mit der Startmarkierung.
+
+00:06:21,190 --> 00:06:22,630
+Weil wir von der auf jeden Fall schon wissen,
+
+00:06:22,630 --> 00:06:24,700
+dass sie vorhanden sein muss
+und auch im Graph vorkommt.
+
+00:06:24,700 --> 00:06:26,590
+Also, was ist die Startmarkierung hier?
+
+00:06:27,310 --> 00:06:29,590
+Wir müssen uns natürlich wieder erst mal einigen,
+wie wir die Markierungen aufschreiben wollen.
+
+00:06:30,610 --> 00:06:31,300
+Ich hatte mal gesagt:
+
+00:06:31,300 --> 00:06:33,970
+Wir nehmen da gerne Tupel,
+also in dem Fall Tripel.
+
+00:06:33,970 --> 00:06:38,770
+Dafür müssen wir uns festlegen, in welcher
+Reihenfolge wir die Stellen verwenden wollen.
+
+00:06:38,770 --> 00:06:42,100
+Und wenn die schon s1, s2, s3 heißen,
+
+00:06:42,100 --> 00:06:45,100
+ist es natürlich naheliegend, sie auch
+in dieser Reihenfolge aufzuschreiben.
+
+00:06:45,100 --> 00:06:48,520
+Also, die Startmarkierung als
+Tripel wäre dann (1,2,0),
+
+00:06:48,520 --> 00:06:53,740
+weil das die Marken auf den drei
+Stellen im Startzustand sind.
+
+00:06:53,740 --> 00:06:59,050
+Das würde also von dieser Lösung
+hier diesen Teil erklären.
+
+00:06:59,050 --> 00:07:03,700
+Man nimmt (1,2,0) als erste
+Markierung und zeichnet sie
+
+00:07:03,700 --> 00:07:07,360
+auch durch diesen Eingangspfeil
+aus als die Startmarkierung.
+
+00:07:09,100 --> 00:07:14,470
+Und dann muss man weitere Knoten finden,
+und zwar alle erreichbaren Markierungen.
+
+00:07:14,470 --> 00:07:15,430
+Das heißt, da muss man jetzt fragen,
+
+00:07:15,430 --> 00:07:18,130
+von dieser Startmarkierung aus,
+die schon im Graphen vorkommt:
+
+00:07:18,130 --> 00:07:20,470
+Was sind denn die erreichbaren Markierungen?
+
+00:07:20,470 --> 00:07:24,550
+Und dafür muss man schauen, welche
+von den gegebenen Transitionen,
+
+00:07:24,550 --> 00:07:32,290
+die in dem Petrinetz existieren, sind denn in
+der gerade vorliegenden Markierung schaltbar?
+
+00:07:32,290 --> 00:07:33,220
+Am Anfang ist das die Startmarkierung.
+
+00:07:33,220 --> 00:07:35,980
+Das heißt, wir müssen uns einfach überlegen:
+
+00:07:35,980 --> 00:07:37,930
+Was ist denn in dieser Situation schaltbar?
+
+00:07:37,930 --> 00:07:40,000
+Und tatsächlich ist da nur t1 schaltbar.
+
+00:07:40,000 --> 00:07:41,620
+Und was da rauskommt wissen wir auch schon.
+
+00:07:41,620 --> 00:07:43,120
+Zum einen können wir es nachprüfen.
+
+00:07:43,120 --> 00:07:45,520
+Dann würden zwei Marken
+hier unten liegen hinterher.
+
+00:07:45,520 --> 00:07:49,330
+Also (0,1,2) wäre die nächste
+Markierung, nach Schalten von t1.
+
+00:07:49,330 --> 00:07:52,450
+Das wissen wir aber auch schon, weil
+wir es hier nachgerechnet haben.
+
+00:07:52,450 --> 00:07:53,470
+Das war ja genau der Punkt:
+
+00:07:53,470 --> 00:07:59,980
+Aus der Startmarkierung (1,2,0) können wir durch
+Schalten mit t1 diese Folgemarkierung erhalten.
+
+00:07:59,980 --> 00:08:03,790
+Die ist also erreichbar, und muss demzufolge
+auch im Erreichbarkeitsgraphen vorkommen.
+
+00:08:03,790 --> 00:08:10,690
+Und das wäre hier genau die
+Erweiterung zu diesem Teil.
+
+00:08:10,690 --> 00:08:13,480
+Wir würden also den Graphen
+jetzt Stück für Stück aufbauen.
+
+00:08:13,480 --> 00:08:15,400
+Wir haben mit (1,2,0) begonnen und wissen:
+
+00:08:15,400 --> 00:08:17,620
+Nach Schalten von t1 landen wir bei (0,1,2).
+
+00:08:17,620 --> 00:08:19,870
+Weitere Pfeile gäbe es erst mal noch nicht,
+
+00:08:19,870 --> 00:08:25,330
+weil in der Startmarkierung gar keine
+anderen Transitionen aktiviert sind.
+
+00:08:25,330 --> 00:08:27,550
+Dann würden wir als nächstes schauen:
+
+00:08:27,550 --> 00:08:29,380
+Gut, wenn es davon keine
+weiteren Übergänge mehr gibt,
+
+00:08:29,380 --> 00:08:31,120
+was ist denn mit dieser neuen Markierung (0,1,2)?
+
+00:08:31,120 --> 00:08:33,460
+Gibt es von der aus denn irgendwelche Übergänge?
+
+00:08:33,460 --> 00:08:37,870
+Dafür müssten wir uns jetzt diese
+Marke hier anders gesetzt denken.
+
+00:08:37,870 --> 00:08:39,130
+Jetzt geht es ja nicht mehr
+um die Startmarkierung,
+
+00:08:39,130 --> 00:08:40,870
+sondern um die aktuelle Markierung (0,1,2).
+
+00:08:40,870 --> 00:08:43,900
+Also, wenn hier nichts liegt, hier
+eine Marke liegt, und hier zwei,
+
+00:08:45,790 --> 00:08:48,730
+welche Transition wären denn dann schaltbar?
+
+00:08:48,730 --> 00:08:51,280
+Die t1 wäre nicht mehr schaltbar,
+wegen der gedachten Null hier.
+
+00:08:52,300 --> 00:08:58,150
+Aber t2 und t3 wären beide schaltbar,
+weil sie nur von Marken in s3 abhängen,
+
+00:08:58,150 --> 00:08:59,500
+wo jetzt ja zwei liegen würden.
+
+00:08:59,500 --> 00:09:02,830
+Also wir wüssten, als nächstes
+wären t2 und t3 schaltbar.
+
+00:09:02,830 --> 00:09:06,190
+Und natürlich haben wir auch
+genau das vorhin schon gesehen.
+
+00:09:07,210 --> 00:09:11,020
+Nämlich in diesem Beispiel hatten wir auch
+genau von der Markierung m1, die nach Schalten
+
+00:09:11,020 --> 00:09:16,780
+von t1 vorliegt, uns überlegt und letztlich
+ausgerechnet, dass t2 und t3 schaltbar sind,
+
+00:09:16,780 --> 00:09:22,450
+und das dabei die beiden Markierungen
+(1,1,1) bzw. (0,2,1) entstehen.
+
+00:09:22,450 --> 00:09:29,200
+Das können wir jetzt auch in unseren im
+Entstehen begriffenen Graphen eintragen.
+
+00:09:29,200 --> 00:09:33,040
+Also wir würden das Stück, das wir
+ja schon hatten, jetzt erweitern.
+
+00:09:33,040 --> 00:09:37,420
+Einerseits um (mit Übergang
+t2) den Knoten (1,1,1),
+
+00:09:38,920 --> 00:09:46,060
+und andererseits um (per Transition
+t3) die Folgemarkierung (0,2,1).
+
+00:09:46,060 --> 00:09:53,770
+Dann hätten wir also sozusagen
+diesen Teil des Graphen entwickelt,
+
+00:09:53,770 --> 00:09:56,980
+noch ohne die in entgegengesetzte
+Richtung gehenden Pfeile.
+
+00:09:56,980 --> 00:10:02,110
+Also diese vier Zustände und
+den Eingangsmarkierungspfeil,
+
+00:10:02,110 --> 00:10:04,390
+sowie diese drei Pfeile hier.
+
+00:10:04,390 --> 00:10:10,600
+Dann wüssten wir auch, dass wir von diesem
+Knoten aus keine weiteren Übergänge haben werden.
+
+00:10:10,600 --> 00:10:14,650
+Denn es sind t2 und t3
+aktiviert und mehr eben nicht.
+
+00:10:14,650 --> 00:10:19,060
+Also würden wir uns als nächstes die beiden
+neuen Zustände anschauen und uns überlegen,
+
+00:10:19,060 --> 00:10:21,100
+was denn von diesen aus schaltbar ist.
+
+00:10:21,100 --> 00:10:24,700
+Aber das habe ich jetzt nicht
+mehr schon auf vorhandenen Folien.
+
+00:10:24,700 --> 00:10:27,520
+Also ich hatte keine weiteren
+Sachen hier durchgerechnet.
+
+00:10:27,520 --> 00:10:31,000
+Aber natürlich kann man für die neuen
+Markierungen genauso diese Überlegungen anstellen.
+
+00:10:31,000 --> 00:10:39,940
+Oder sich das Petrinetz nehmen, diese
+Markierungen wegdenken, stattdessen
+
+00:10:39,940 --> 00:10:44,170
+zum Beispiel die Situation betrachten, wo
+auf jeder Stelle genau eine Marke liegt.
+
+00:10:44,170 --> 00:10:46,990
+Um zu überlegen, wie es
+hiervon weitergehen könnte.
+
+00:10:47,740 --> 00:10:51,940
+Also, was wäre denn, wenn hier, hier und
+hier jeweils genau eine Marke liegen würde?
+
+00:10:51,940 --> 00:10:54,250
+Welche Transitionen wären dann aktiviert?
+
+00:10:54,250 --> 00:10:54,610
+Alle!
+
+00:10:54,610 --> 00:10:56,980
+Transition t1 wegen dieser beiden Eingänge.
+
+00:10:56,980 --> 00:10:59,140
+Transition t2 wegen dieses Eingangs.
+
+00:10:59,140 --> 00:11:01,000
+Transition t3 wegen dieses Eingangs.
+
+00:11:01,000 --> 00:11:05,200
+Also wegen Vorhandensein einer Marke
+jeweils auf dem relevanten Eingang.
+
+00:11:05,200 --> 00:11:09,700
+Das heißt, von der Markierung (1,1,1) aus
+sind alle drei Transitionen schaltbar.
+
+00:11:10,750 --> 00:11:16,960
+Das würde dazu führen, dass wir von (1,1,1) aus
+tatsächlich drei ausgehende Pfeile haben müssen.
+
+00:11:16,960 --> 00:11:20,260
+Und wenn wir dann jeweils nachrechnen,
+was denn da als Folgemarkierung rauskommt,
+
+00:11:20,260 --> 00:11:24,670
+finden wir zum Beispiel heraus, dass wir,
+wenn wir t1 ausführen, zu (0,0,3) kommen.
+
+00:11:24,670 --> 00:11:26,080
+Da kommt also dieser Zustand hinzu.
+
+00:11:26,080 --> 00:11:28,360
+Wir merken aber auch:
+
+00:11:28,360 --> 00:11:31,120
+Wenn wir von (1,1,1) aus t3 schalten,
+
+00:11:31,120 --> 00:11:35,230
+dann kämen wir zur Markierung
+(1,2 0), die es aber schon gibt.
+
+00:11:35,230 --> 00:11:42,160
+Natürlich machen wir dann hier nicht
+einen neuen Knoten mit (1,2,0).
+
+00:11:42,160 --> 00:11:43,420
+Wir haben ja einen Graph.
+
+00:11:43,420 --> 00:11:50,080
+Das heißt, wir haben in dem Fall einfach
+einen mit t3 beschrifteten Rückwärtspfeil.
+
+00:11:50,080 --> 00:11:53,410
+Und es ergibt sich, dass wir
+mit t2 noch hierher kommen.
+
+00:11:53,410 --> 00:11:57,550
+Okay, und so erweitern wir
+den Graph Stück für Stück.
+
+00:11:57,550 --> 00:12:01,630
+Für jeden neuen Zustand prüfen wir immer,
+
+00:12:01,630 --> 00:12:06,160
+welche weiteren Transitionen
+denn von dort aus schaltbar sind.
+
+00:12:06,160 --> 00:12:08,410
+Wenn das zu neuen Knoten
+führt, nehmen wir die hinzu.
+
+00:12:08,410 --> 00:12:10,480
+Und müssen für jene dann auch wieder gucken,
+
+00:12:10,480 --> 00:12:13,780
+welche weiteren Transitionen
+von dort ausgehend möglich sind.
+
+00:12:13,780 --> 00:12:18,730
+Wenn wir hingegen (wie eben von hier
+nach hier) einen Rückwärtspfeil haben,
+
+00:12:18,730 --> 00:12:23,080
+müssen wir natürlich nicht noch mal schauen,
+was von dieser Markierung ausgehend möglich ist.
+
+00:12:23,080 --> 00:12:25,690
+Wir haben diese schon, also
+alle von hier ausgehenden
+
+00:12:25,690 --> 00:12:26,950
+Transitionen haben wir schon betrachtet.
+
+00:12:26,950 --> 00:12:28,210
+Das war zum Beispiel nur t1.
+
+00:12:28,210 --> 00:12:32,230
+Das ändert sich auch nicht, wenn wir die
+Verbindung zwischen diesen beiden Knoten haben.
+
+00:12:32,230 --> 00:12:35,170
+Ja, deshalb ändert sich nicht,
+was von hier aus möglich wäre.
+
+00:12:35,170 --> 00:12:40,880
+Und dann machen wir das immer weiter, bis
+irgendwann keine neuen Zustände mehr hinzukommen.
+
+00:12:40,880 --> 00:12:42,710
+Dieser Fall muss nicht unbedingt eintreten.
+
+00:12:42,710 --> 00:12:48,020
+Es kann eben sein, wenn der Erreichbarkeitsgraph
+unendlich ist, dass das immer weitergeht.
+
+00:12:48,020 --> 00:12:49,310
+Dass wir immer neue Zustände finden.
+
+00:12:49,310 --> 00:12:53,810
+Aber für dieses konkrete Petrinetz mit den
+
+00:12:53,810 --> 00:12:59,750
+hier angegebenen Verschaltungen und
+dieser Startmarkierung ergibt sich,
+
+00:12:59,750 --> 00:13:05,780
+dass nach endlich vielen Schritten keine
+weiteren Markierungen mehr hinzukommen.
+
+00:13:05,780 --> 00:13:10,070
+Und neue Übergänge können auch nicht
+hinzukommen, wenn wir alle betrachtet haben.
+
+00:13:10,070 --> 00:13:12,860
+Das heißt, dann wäre das der Ergebnisgraph.
+
+00:13:12,860 --> 00:13:27,200
+Also das ist dann der Erreichbarkeitsgraph
+für das hier angegebene Petrinetz.
+
+00:13:27,200 --> 00:13:29,510
+Und der ist nützlich, weil er jetzt letztlich das
+
+00:13:29,510 --> 00:13:33,110
+Gesamtverhalten des Petrinetzes
+beschreibt in dieser Form.
+
+00:13:33,110 --> 00:13:36,470
+Das ist jetzt vielleicht nicht so
+informativ, aus Modellierungssicht,
+
+00:13:36,470 --> 00:13:41,930
+wie diese Darstellung hier, wo wir sozusagen
+den Transitionen ansehen, wovon sie abhängen.
+
+00:13:41,930 --> 00:13:45,740
+Das ist hier höchstens noch
+indirekt herauszulesen.
+
+00:13:45,740 --> 00:13:48,140
+Da müsste man sich alle t1-Pfeile anschauen,
+
+00:13:48,140 --> 00:13:51,230
+um herauszufinden, unter welchen
+Bedingungen t1 denn schaltbar ist.
+
+00:13:51,230 --> 00:13:56,990
+Aber an dieser Darstellung lassen sich
+Eigenschaften des Petrinetzes untersuchen.
+
+00:13:56,990 --> 00:14:00,530
+In der ersten Vorlesung zu Petrinetzen
+hatten wir solche Fragen gestellt:
+
+00:14:00,530 --> 00:14:04,460
+Wie kann denn das System
+in eine Sackgasse geraten?
+
+00:14:04,460 --> 00:14:12,080
+Und das kann man hier nicht direkt sehen, ob
+nach irgendwelchen Schaltungen es passieren kann,
+
+00:14:12,080 --> 00:14:14,000
+dass keine weiteren Übergänge mehr möglich sind.
+
+00:14:14,000 --> 00:14:17,870
+Hingegen in diesem Erreichbarkeitsgraph
+ist das faktisch offensichtlich.
+
+00:14:17,870 --> 00:14:21,140
+Wir müssen nur schauen, ob es einen Knoten gibt,
+
+00:14:21,140 --> 00:14:23,960
+von dem es keine ausgehenden
+Pfeile gibt, etwa diesen hier.
+
+00:14:23,960 --> 00:14:24,920
+Und dann wissen wir:
+
+00:14:24,920 --> 00:14:27,470
+Ja, tatsächlich, dieses Petrinetz
+kann in eine Sackgasse geraten.
+
+00:14:27,470 --> 00:14:30,050
+Das hierdurch beschriebene
+System kann sich so entwickeln,
+
+00:14:30,050 --> 00:14:32,630
+dass irgendwann keine weiteren
+Übergänge mehr möglich sind.
+
+00:14:32,630 --> 00:14:36,620
+Zum Beispiel nach t1, t3, t3
+kommen wir in eine Situation,
+
+00:14:36,620 --> 00:14:38,930
+wo keine weiteren Schritte möglich sind.
+
+00:14:38,930 --> 00:14:44,240
+Dann können wir also Eigenschaften des Petrinetzes
+an diesem Erreichbarkeitsgraph untersuchen.
+
+00:14:44,240 --> 00:14:45,410
+Das gilt für die Sackgassen.
+
+00:14:45,410 --> 00:14:50,440
+Das gilt für bestimmte Lebendigkeits-Fragen.
+
+00:14:50,440 --> 00:14:52,040
+Die Frage nach Sackgassen
+ist letztlich auch die Frage:
+
+00:14:52,040 --> 00:14:53,270
+Kann das System immer weiterleben?
+
+00:14:53,270 --> 00:14:54,290
+Also wir könnten zum Beispiel untersuchen:
+
+00:14:54,290 --> 00:14:55,670
+Gibt es hier unendliche Abläufe?
+
+00:14:56,450 --> 00:15:00,794
+Ist es also möglich, dass das
+System immer weiter fortschreitet?
+
+00:15:00,794 --> 00:15:00,797
+Ja.
+
+00:15:00,797 --> 00:15:04,640
+Es kann zwar in eine Sackgasse geraten,
+aber wenn es sich günstig verhält,
+
+00:15:04,640 --> 00:15:10,880
+wenn man sozusagen sinnvolle Wahlen trifft
+als externer Akteur (das Petrinetz selbst
+
+00:15:10,880 --> 00:15:14,150
+gibt ja keine Reihenfolge oder
+die deterministische Auswahl
+
+00:15:14,150 --> 00:15:19,130
+von Übergängen vor), gibt es Abläufe
+dieses Petrinetzes, die unendlich sind.
+
+00:15:19,130 --> 00:15:24,290
+Wenn man die Sackgassen vermeidet,
+kann das System unendlich leben.
+
+00:15:24,290 --> 00:15:33,360
+Und auch Fragen nach Nebenläufigkeiten etwa lassen
+sich später anhand dieser Struktur betrachten.
+
+00:15:33,360 --> 00:15:36,960
+Das hatten wir ja bisher nur informell betrachtet.
+
+00:15:36,960 --> 00:15:38,940
+Oder Fragen nach Kapazitäten.
+
+00:15:38,940 --> 00:15:39,720
+Eine der Fragen war:
+
+00:15:39,720 --> 00:15:42,390
+Gibt es denn irgendwelche Ressourcen-Obergrenzen?
+
+00:15:42,390 --> 00:15:46,260
+Dass also zum Beispiel, wenn man
+die Marken als Ressourcen ansieht,
+
+00:15:46,260 --> 00:15:48,900
+es da Kapazitätsbeschränkungen gibt.
+
+00:15:48,900 --> 00:15:49,980
+Und das sehen wir hier in der Tat.
+
+00:15:50,760 --> 00:15:53,100
+Also hier hätte man das noch
+nicht sofort sagen können,
+
+00:15:54,570 --> 00:15:58,200
+ob denn die Gesamtzahl der Marken
+im System irgendwie begrenzt ist.
+
+00:15:58,200 --> 00:16:00,900
+Da hätte man etwas überlegen müssen, was
+denn die Transitionen mit der Gesamtzahl
+
+00:16:00,900 --> 00:16:04,260
+der Marken tun oder mit der Anzahl
+der Marken auf einzelnen Stellen.
+
+00:16:04,260 --> 00:16:06,780
+Wenn wir hingegen diesen Graphen haben,
+können wir draufschauen und sagen:
+
+00:16:06,780 --> 00:16:09,750
+Da steht nie eine Zahl größer als drei.
+
+00:16:09,750 --> 00:16:13,050
+Das heißt, wir wissen, dass
+tatsächlich in jedem Ablauf
+
+00:16:13,050 --> 00:16:16,500
+dieses Petrinetzes nie mehr als
+drei Marken auf einer Stelle sind.
+
+00:16:16,500 --> 00:16:21,540
+Das können wir dem Graphen ansehen, wenn wir ihn
+vollständig und natürlich korrekt aufgebaut haben.
+
+00:16:21,540 --> 00:16:26,340
+Okay, und diese Art Verwendung
+der Erreichbarkeitsgraphen wird
+
+00:16:26,340 --> 00:16:30,390
+uns in der nächsten Vorlesung
+beschäftigen, nicht mehr heute.
+
+00:16:30,390 --> 00:16:34,470
+Das ist Thema dann des nächsten
+Videos oder der nächsten Videos.

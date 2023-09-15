@@ -1,0 +1,756 @@
+85 # slide
+00:00:00,000 --> 00:00:07,380
+We had dealt with classes last
+week and then towards the end
+
+00:00:07,380 --> 00:00:11,250
+especially with
+inheritance between classes.
+
+00:00:11,250 --> 00:00:17,310
+The last slide on this was
+this slide with such artificial classes,
+
+00:00:17,310 --> 00:00:19,920
+where it was
+about structural restrictions.
+
+00:00:19,920 --> 00:00:22,110
+So that certain kinds of
+
+00:00:22,110 --> 00:00:25,020
+inheritance relationships should
+not be allowed.
+
+00:00:25,020 --> 00:00:31,560
+And that was independent of the content of
+the classes, that's why those were such artificial names.
+
+00:00:31,560 --> 00:00:38,010
+Now we want to
+deal with content structuring instead.
+
+00:00:38,010 --> 00:00:41,340
+Therefore now also
+more concrete examples.
+
+00:00:42,630 --> 00:00:50,220
+Here is a constellation, where we have a
+class "car" and several classes inherit from it.
+
+00:00:50,220 --> 00:00:57,330
+This picture here with the converging
+arrows or strokes, which then all end
+
+00:00:57,330 --> 00:01:04,080
+in an inheritance arrow towards
+Auto, is equivalent to simply
+
+00:01:05,280 --> 00:01:09,660
+having such an inheritance
+arrow here four times each.
+
+00:01:09,660 --> 00:01:11,400
+There's nothing cyclic here.
+
+00:01:11,400 --> 00:01:14,160
+So structurally, that's fine.
+
+00:01:14,160 --> 00:01:18,480
+And even though we haven't
+specified attributes and methods now
+
+00:01:18,480 --> 00:01:21,750
+(I left the boxes blank in each
+
+00:01:21,750 --> 00:01:27,750
+case), we can reason from the
+names that these may be meaningful relationships.
+
+00:01:27,750 --> 00:01:31,650
+So we don't look at what happens
+to the attributes or methods in inheritance,
+
+00:01:31,650 --> 00:01:38,910
+but just consider this basic
+requirement that inheritance should always be
+
+00:01:38,910 --> 00:01:44,700
+a true
+generalization/specialization relationship.
+
+00:01:44,700 --> 00:01:50,490
+So we should let other
+class inherit from "car" if
+
+00:01:50,490 --> 00:01:53,370
+representatives of these other
+classes are also cars.
+
+00:01:54,150 --> 00:01:56,940
+A private car is also a
+car, just a more specialized car.
+
+00:01:56,940 --> 00:02:00,180
+A diesel car is also a
+car, just a more special car, etc.
+
+00:02:00,180 --> 00:02:05,520
+That's why, in terms of
+content, these are meaningful inheritance relationships.
+
+00:02:05,520 --> 00:02:08,820
+Each of these four
+subclasses is a meaningful
+
+00:02:08,820 --> 00:02:12,270
+specialization of the general concept.
+
+00:02:13,500 --> 00:02:18,780
+We can let that stand for now.
+
+00:02:20,250 --> 00:02:22,050
+Interestingly, if you look
+at the content here, different
+
+00:02:23,160 --> 00:02:25,410
+aspects have led to the specialization.
+
+00:02:26,280 --> 00:02:34,620
+Certainly, all these four special types
+of cars are special manifestations of
+
+00:02:34,620 --> 00:02:38,010
+cars, but for different
+reasons and in different respects.
+
+00:02:38,550 --> 00:02:46,320
+If you take a look at these four
+types of special cars, you will see that, for
+
+00:02:46,980 --> 00:02:53,250
+example, the two on the left, private
+car and diesel car, are both special cars.
+
+00:02:53,250 --> 00:02:55,860
+But somehow in different ways they
+are more special than general cars.
+
+00:02:55,860 --> 00:02:57,390
+The private car is
+more special in terms of
+
+00:02:57,390 --> 00:02:59,940
+ownership than an unknown general car:
+
+00:03:00,870 --> 00:03:03,540
+Who owns this car?
+
+00:03:03,540 --> 00:03:09,300
+While diesel car is also a
+special car, but specialized in another direction.
+
+00:03:09,300 --> 00:03:14,340
+That is, not in terms of
+ownership, but in terms of propulsion.
+
+00:03:14,340 --> 00:03:21,090
+That is, private car and diesel
+car are different kinds of cars,
+
+00:03:21,090 --> 00:03:23,970
+but not in the sense that they
+could be seen in contrast with each other.
+
+00:03:23,970 --> 00:03:26,010
+So private cars are not
+the opposite of diesel cars,
+
+00:03:26,010 --> 00:03:30,960
+nor do they contrast with each other
+in any other respect, so to speak.
+
+00:03:30,960 --> 00:03:33,330
+They are just
+completely different dimensions
+
+00:03:33,330 --> 00:03:36,000
+in which a car can be specialized.
+
+00:03:37,530 --> 00:03:43,500
+The example is chosen so that this would not
+now be the case for all pairings of subclasses.
+
+00:03:43,500 --> 00:03:47,520
+For example, "private car" and
+"company car" are actually not only
+
+00:03:47,520 --> 00:03:53,460
+more specialized cars, but also
+specialized along the same dimension.
+
+00:03:53,460 --> 00:04:00,750
+Private car and company car are actually in this
+sense a pair of opposites, a pair of contrasts.
+
+00:04:00,750 --> 00:04:03,000
+Different from private
+car and diesel car.
+
+00:04:03,000 --> 00:04:06,060
+And the same is true
+for diesel car and solar car.
+
+00:04:06,060 --> 00:04:10,290
+They too are different kinds of
+special cars, but somehow they have
+
+00:04:10,290 --> 00:04:14,250
+become specialized in the same respect,
+namely in terms of their propulsion.
+
+00:04:14,250 --> 00:04:17,520
+Which again would not apply
+to company car and solar car.
+
+00:04:17,520 --> 00:04:20,460
+Those are specialized
+cars for different reasons.
+
+00:04:23,480 --> 00:04:29,180
+So somehow private car/company car seem
+to go together in a sense as
+
+00:04:29,180 --> 00:04:31,520
+a direction in which a
+car can become more specialized.
+
+00:04:31,520 --> 00:04:34,790
+And diesel car/solar car
+also seem to kind
+
+00:04:34,790 --> 00:04:43,400
+of belong together in that sense
+as a way to specialize "car."
+
+00:04:44,870 --> 00:04:48,440
+And this observation can also
+be represented in the diagram.
+
+00:04:48,440 --> 00:04:52,880
+So represent it in such a way that it
+becomes clear that private car and company car are more
+
+00:04:52,880 --> 00:04:57,890
+specialized cars in one respect, and diesel car/solar
+car are more specialized cars in another respect.
+
+00:04:57,890 --> 00:05:04,850
+Instead of just having all four inherit from
+car side by side here, you could group
+
+00:05:04,850 --> 00:05:10,070
+these subclasses into
+groups, so-called generalization groups.
+
+00:05:10,070 --> 00:05:14,210
+So these individual generalization
+
+00:05:14,210 --> 00:05:17,210
+relationships, which were four on the
+previous slide, you would group them together.
+
+00:05:17,210 --> 00:05:19,130
+This could then look
+like this, for example:
+
+00:05:20,120 --> 00:05:23,000
+We still have the
+car as the central class.
+
+00:05:23,000 --> 00:05:28,880
+Also as the top class, which is inherited from,
+but which itself does not inherit from anything else.
+
+00:05:28,880 --> 00:05:31,010
+And we still have
+the four subclasses, which
+
+00:05:31,010 --> 00:05:37,790
+each inherit once from "car" via these
+arrows here and once via these arrows here.
+
+00:05:37,790 --> 00:05:44,450
+But we've summarized that these
+two form a group, that
+
+00:05:44,450 --> 00:05:53,270
+is, a special kind of
+inheritance or special expression of cars.
+
+00:05:53,270 --> 00:05:56,390
+And have even noted here in
+what respect (I had said earlier
+
+00:05:56,390 --> 00:05:59,450
+"ownership", I could have just
+said "the status of the car"):
+
+00:05:59,450 --> 00:06:00,740
+Is it a private car or a company car?
+
+00:06:00,740 --> 00:06:04,940
+That would be one way of specializing.
+
+00:06:04,940 --> 00:06:08,630
+And diesel car/solar car
+are also both subclasses of
+
+00:06:08,630 --> 00:06:13,490
+"car", but they are grouped here in such
+a way that you can see that they
+
+00:06:13,490 --> 00:06:16,580
+are specialized according to a specific
+criterion, namely the criterion of propulsion.
+
+00:06:18,110 --> 00:06:21,740
+Each group, once the group
+and once the group, sort
+
+00:06:21,740 --> 00:06:27,860
+of subdivides the set of cars
+as a whole in different ways.
+
+00:06:30,710 --> 00:06:33,560
+Of course, this could be important in
+an application that is to be modeled.
+
+00:06:33,560 --> 00:06:37,320
+Because for instance in different parts
+of the application simply different generalization
+
+00:06:37,320 --> 00:06:42,330
+groups are relevant and then
+also object instances of other generalization
+
+00:06:42,330 --> 00:06:44,280
+groups do not appear at all.
+
+00:06:44,280 --> 00:06:55,230
+So if we somehow model cars for the
+vehicles of a company, then perhaps the distinction
+
+00:06:55,230 --> 00:07:01,830
+between private and company cars is
+relevant for the accounting of this company.
+
+00:07:01,830 --> 00:07:06,630
+Because it has to deal with it in a
+different way from a tax point of view, depending
+
+00:07:06,630 --> 00:07:09,840
+on the status of a car that is used.
+
+00:07:09,840 --> 00:07:15,330
+While for other aspects, such
+as the company's ecological balance
+
+00:07:15,330 --> 00:07:21,090
+sheet, it is perhaps more important to
+differentiate between cars according to their drive system.
+
+00:07:21,090 --> 00:07:28,215
+And therefore, in a certain part of the
+application, the status may not be relevant at all.
+
+00:07:28,215 --> 00:07:32,490
+And then perhaps only instances
+of this type would occur there.
+
+00:07:39,450 --> 00:07:44,910
+In order to be able to distinguish this,
+and to be able to give the child
+
+00:07:44,910 --> 00:07:53,610
+a name, so to speak, a name
+is somehow annotated here in each case at
+
+00:07:53,610 --> 00:07:55,260
+this summarized inheritance branching.
+
+00:07:55,260 --> 00:07:58,590
+Directly in the diagram, a meaningful
+name of the respective generalization group.
+
+00:08:01,140 --> 00:08:05,700
+You can even do this if
+there is only one specialization type.
+
+00:08:05,700 --> 00:08:11,280
+So on a slide before, if you
+actually have four subclasses of a common superclass
+
+00:08:11,280 --> 00:08:17,760
+and they're really all specialized according
+to the same dimension, you could still
+
+00:08:17,760 --> 00:08:27,920
+write a meaningful name on
+this "ridge" of inheritance arrows here.
+
+00:08:27,920 --> 00:08:34,250
+But in the concrete example, there
+are actually two different kinds of generalization.
+
+00:08:34,250 --> 00:08:43,310
+That's why there are these
+two different groups with different names.
+
+00:08:43,310 --> 00:08:46,550
+Now one can assign properties
+
+00:08:46,550 --> 00:08:52,430
+to these generalization groups, i.e. this
+left side and the right side.
+
+00:08:52,430 --> 00:08:59,030
+So this decomposition of all cars
+into private cars and company cars
+
+00:08:59,030 --> 00:09:03,620
+or into diesel cars and solar cars,
+it doesn't have to be a real decomposition.
+
+00:09:03,620 --> 00:09:05,000
+Perhaps it is not exhaustive at all.
+
+00:09:05,000 --> 00:09:06,140
+Perhaps there are also overlaps.
+
+00:09:06,140 --> 00:09:11,270
+So if you think about which
+properties might be relevant, you end up
+
+00:09:11,270 --> 00:09:20,030
+with a pair of opposites regarding
+the exhaustion of all instances and a
+
+00:09:20,030 --> 00:09:27,350
+pair of opposites regarding the question of
+whether each instance can be uniquely assigned.
+
+00:09:27,350 --> 00:09:30,680
+This is then
+called "complete" versus "incomplete".
+
+00:09:30,680 --> 00:09:37,580
+So here the first property would
+be that a generalization group is complete
+
+00:09:37,580 --> 00:09:41,630
+if it actually conceptually covers
+all conceivable instances of the superclass.
+
+00:09:41,630 --> 00:09:47,000
+So if every car is actually
+either a company car or a private
+
+00:09:47,000 --> 00:09:48,470
+car, and there is
+not a third possibility.
+
+00:09:48,470 --> 00:09:53,450
+Then this generalization group
+would be "complete", otherwise "incomplete".
+
+00:09:53,450 --> 00:09:59,480
+That is, if there
+were also possible instances
+
+00:09:59,480 --> 00:10:03,860
+of the superclass that are
+not exhausted by the subclasses.
+
+00:10:03,860 --> 00:10:05,870
+So that would be even with our "drive".
+
+00:10:05,870 --> 00:10:10,400
+If there is a third class of
+possible cars besides solar car and diesel car,
+
+00:10:10,400 --> 00:10:14,060
+then the distinction between diesel and
+solar cars would not be complete.
+
+00:10:14,060 --> 00:10:23,720
+That is the one question, the
+one pair of properties, of which "complete"
+
+00:10:25,760 --> 00:10:28,340
+or "incomplete" applies to a
+concrete generalization group in each case.
+
+00:10:28,340 --> 00:10:32,480
+Then there is this other
+pair of properties: "overlapping" or "disjoint".
+
+00:10:32,480 --> 00:10:35,090
+That is, overlapping or
+disjoint from each other.
+
+00:10:35,620 --> 00:10:36,940
+"Overlapping" means:
+
+00:10:36,940 --> 00:10:42,520
+Instances are conceivable that could belong to
+more than one of the specialization classes.
+
+00:10:42,520 --> 00:10:50,170
+This could be imagined in the case of the
+distinction between company and private cars, if there are
+
+00:10:50,170 --> 00:10:56,365
+also cars that are a bit
+of both, i.e., mixed-financed, so to speak.
+
+00:10:56,365 --> 00:10:59,380
+Then that distinction
+would be "overlapping."
+
+00:10:59,380 --> 00:11:05,200
+And "disjoint" would
+be the opposite, namely
+
+00:11:05,200 --> 00:11:09,820
+that these specializing classes
+do not conceptually overlap.
+
+00:11:09,820 --> 00:11:13,660
+If it is not possible to have such mixed
+
+00:11:13,660 --> 00:11:16,990
+financing, if a car is
+always in fact exactly either fully
+
+00:11:16,990 --> 00:11:20,950
+corporate-owned or fully privately-owned,
+then this subdivision, this generalization
+
+00:11:21,460 --> 00:11:25,960
+group, would
+be called "disjoint"/"disjoint."
+
+00:11:25,960 --> 00:11:29,590
+And of course, if we have a choice
+here between "complete" and "incomplete" and a choice
+
+00:11:29,590 --> 00:11:37,090
+here between "overlapping" and "disjoint," then there
+are a total of four possible combinations:
+
+00:11:37,090 --> 00:11:41,590
+complete-overlapping, incomplete-overlapping,
+complete-disjoint, incomplete-disjoint.
+
+00:11:41,590 --> 00:11:46,690
+We have four cases, and in fact you
+can also think of constellations that actually occur
+
+00:11:46,690 --> 00:11:49,960
+for each of the four cases.
+
+00:11:49,960 --> 00:11:58,150
+We can go through this for
+our example from before and other examples.
+
+00:11:58,150 --> 00:12:05,050
+So, for example, the left side of our
+example distinction seen earlier, the generalization relationship between
+
+00:12:06,160 --> 00:12:11,980
+"car" on the one
+hand and "private car"/"company car"
+
+00:12:11,980 --> 00:12:13,660
+on the other.
+
+00:12:13,660 --> 00:12:15,370
+So distinction by status.
+
+00:12:15,370 --> 00:12:23,455
+That's a generalization group and we could
+consider that to be complete and disjoint.
+
+00:12:23,455 --> 00:12:28,720
+So let's assume there's no other kind of
+status that a car can have in that
+
+00:12:28,720 --> 00:12:34,840
+respect, and we don't
+allow for mixed private/corporate cars.
+
+00:12:34,840 --> 00:12:44,260
+Then that would be a complete
+and disjunctive distinction in that respect.
+
+00:12:44,260 --> 00:12:51,860
+Then, in fact, what you end up doing
+is really partitioning the instances of the upper class.
+
+00:12:51,860 --> 00:12:57,890
+So each car falls into
+exactly one of these subclasses.
+
+00:12:57,890 --> 00:13:05,000
+Neither does it fall out of the classes, nor does
+it fall into more than one class at a time.
+
+00:13:09,680 --> 00:13:12,920
+If we take the right-hand
+side of our diagram from
+
+00:13:12,920 --> 00:13:16,670
+just now, that is, the
+distinction by drive, that's also disjoint.
+
+00:13:16,670 --> 00:13:20,780
+It's also a disjoint distinction because there
+is no car that is both diesel
+
+00:13:20,780 --> 00:13:25,100
+and solar at the same
+time (I'm just assuming now, technically).
+
+00:13:25,100 --> 00:13:29,900
+But it's not
+"complete", it's incomplete, because
+
+00:13:29,900 --> 00:13:33,080
+there are still
+gasoline cars, for example.
+
+00:13:34,340 --> 00:13:40,080
+That is another
+combination of properties.
+
+00:13:43,020 --> 00:13:47,340
+Then "complete" and
+"overlapping" are still missing.
+
+00:13:47,340 --> 00:13:53,130
+This could be imagined, for
+example, not with cars and their
+
+00:13:53,130 --> 00:13:56,520
+subclasses, but with
+animals and their subclasses.
+
+00:13:56,520 --> 00:14:02,610
+For example, if we distinguish animals by
+habitat, then there are land animals, water
+
+00:14:02,610 --> 00:14:05,070
+animals, and air
+animals or flying animals.
+
+00:14:05,070 --> 00:14:08,730
+I would say
+that's a complete distinction.
+
+00:14:08,730 --> 00:14:14,040
+So even more habitats of
+animals don't exist if we limit
+
+00:14:14,040 --> 00:14:17,880
+ourselves to planet Earth and
+don't somehow add outer space.
+
+00:14:17,880 --> 00:14:19,980
+But one could argue that this distinction
+
+00:14:19,980 --> 00:14:23,790
+is "overlapping," that
+is, not "disjoint."
+
+00:14:23,790 --> 00:14:24,660
+Why?
+
+00:14:24,660 --> 00:14:31,290
+Because, for example, there are animals
+that are both land and water animals.
+
+00:14:31,290 --> 00:14:32,820
+Turtles, for example.
+
+00:14:32,820 --> 00:14:37,980
+They are neither clearly assigned to the land
+habitat, nor clearly assigned to the water habitat.
+
+00:14:37,980 --> 00:14:45,330
+In this respect, this would not
+be an overlap-free or disjunctive distinction.
+
+00:14:45,330 --> 00:14:49,470
+What we also see here
+in the example is that
+
+00:14:49,470 --> 00:14:53,460
+of course this distinction does not always
+have to happen exactly in two subclasses.
+
+00:14:53,460 --> 00:14:56,370
+That may have still
+suggested this example here,
+
+00:14:56,370 --> 00:14:59,160
+that we always subdivide
+exactly into two subclasses.
+
+00:14:59,160 --> 00:15:00,540
+Of course, that's not true.
+
+00:15:00,540 --> 00:15:01,440
+We can see that in this example.
+
+00:15:01,440 --> 00:15:04,380
+There can also be
+more than two subclasses.
+
+00:15:04,380 --> 00:15:10,980
+And still, one can then investigate
+these properties in a meaningful way.
+
+00:15:13,650 --> 00:15:19,170
+Then there is one more
+constellation missing, namely "incomplete" and "overlapping".
+
+00:15:19,170 --> 00:15:21,000
+And we can get these, for example,
+
+00:15:21,000 --> 00:15:26,400
+if we simply omit
+a subclass from this diagram.
+
+00:15:26,400 --> 00:15:28,470
+So forget that there
+are also flying animals.
+
+00:15:28,470 --> 00:15:30,690
+Then we would be at this picture.
+
+00:15:30,690 --> 00:15:34,140
+This is still
+"overlapping", because there are
+
+00:15:34,140 --> 00:15:38,580
+still the turtles, which would
+fit into both subclasses here.
+
+00:15:38,580 --> 00:15:46,230
+But since the flying animals are missing,
+this would not be a complete distinction.
+
+00:15:46,230 --> 00:15:54,220
+Thus all four constellations would
+be occupied once by an example.

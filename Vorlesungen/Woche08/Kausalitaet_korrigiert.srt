@@ -1,0 +1,544 @@
+173 # slide
+00:00:00,000 --> 00:00:04,170
+Wir haben an Eigenschaften von
+Petrinetzen jetzt kennengelernt:
+
+00:00:04,170 --> 00:00:09,600
+die Lebendigkeitseigenschaften inklusive
+der Frage nach Verklemmungsfreiheit,
+
+00:00:09,600 --> 00:00:18,240
+und Eigenschaften zu Ressourcenbeschränkung,
+also die 1-Sicherheit und die Beschränktheit.
+
+00:00:18,240 --> 00:00:21,420
+Weitere wichtige Begriffe,
+die wir betrachten werden,
+
+00:00:21,420 --> 00:00:24,150
+sind Kausalität, Nebenläufigkeit und Konflikt.
+
+00:00:24,150 --> 00:00:27,240
+Mit denen werden wir uns also beschäftigen.
+
+00:00:27,240 --> 00:00:30,570
+Diese Woche allerdings nur
+noch mit der Kausalität.
+
+00:00:30,570 --> 00:00:33,180
+Also Nebenläufigkeit und Konflikt werden auf die
+
+00:00:33,180 --> 00:00:37,590
+nächste Woche verschoben bzw.
+uns erst dann beschäftigen.
+
+00:00:37,590 --> 00:00:43,680
+Dann haben wir fast alle zuvor informell
+diskutierten Eigenschaften auch formal gefasst.
+
+00:00:43,680 --> 00:00:47,760
+Fragen nach allgemeiner
+Fairness wären dann noch offen.
+
+00:00:47,760 --> 00:00:52,080
+Die werden wir aber in der Vorlesung
+nicht auf Petrinetze bezogen diskutieren.
+
+00:00:52,080 --> 00:00:57,840
+Ein Unterschied dieser drei Eigenschaften
+von den bisher gesehenen ist, dass das
+
+00:00:57,840 --> 00:01:04,110
+jeweils Eigenschaften sind, die einzelne
+Transitionen in einem Petrinetz betreffen.
+
+00:01:04,110 --> 00:01:06,810
+All die Eigenschaften zu Lebendigkeit und zu
+
+00:01:06,810 --> 00:01:10,260
+Beschränktheit waren Eigenschaften
+der Petrinetze als Ganzes.
+
+00:01:10,260 --> 00:01:13,890
+Ein Petrinetz ist stark lebendig oder nicht.
+
+00:01:13,890 --> 00:01:15,930
+Ein Petrinetz ist beschränkt oder nicht.
+
+00:01:15,930 --> 00:01:18,810
+Die Frage nach Kausalität ist nicht:
+
+00:01:18,810 --> 00:01:20,790
+Ist das Petrinetz kausal?
+
+00:01:20,790 --> 00:01:25,050
+Sondern da fragt man sich, ob
+bestimmte Transitionen in einem
+
+00:01:25,050 --> 00:01:27,600
+gegebenen Petrinetzen gewisse Eigenschaften haben.
+
+00:01:28,470 --> 00:01:33,540
+Das sind Eigenschaften *in* Petrinetzen, nicht
+Eigenschaften *von* Petrinetzen als Ganzes.
+
+00:01:35,130 --> 00:01:41,460
+Betrachten wir zunächst wieder die Definition
+für die erste Eigenschaft: Kausalität.
+
+00:01:41,460 --> 00:01:46,770
+Die ist definiert unter Bezug
+auf den Begriff der Schaltfolgen,
+
+00:01:46,770 --> 00:01:51,600
+den wir in einer vorherigen
+Vorlesung bereits betrachtet haben.
+
+00:01:51,600 --> 00:01:54,660
+Und erst mal hier formal definiert heißt es:
+
+00:01:54,660 --> 00:02:00,600
+Bei Kausalität geht es darum, ob eine Transition
+notwendige Bedingung für eine andere ist.
+
+00:02:00,600 --> 00:02:07,860
+Kausalität ist sozusagen die Abhängigkeit
+einer Transition von einer anderen.
+
+00:02:08,610 --> 00:02:12,910
+Man sagt, eine Transition t1 in einem
+gegebenen Petrinetz ist notwendige
+
+00:02:12,910 --> 00:02:16,930
+Bedingung für das Schalten der
+Transition t2, wenn es so ist,
+
+00:02:16,930 --> 00:02:21,880
+dass t2 nicht geschaltet werden kann, ohne
+dass vorher irgendwie t1 geschaltet wurde.
+
+00:02:21,880 --> 00:02:32,200
+Also wenn für jede Schaltfolge (mit dieser
+Notation t-Schlange), die von der ursprünglichen
+
+00:02:32,200 --> 00:02:51,880
+Ausgangsmarkierung irgendwie zum Schalten von
+t2 führt, der Fall ist, dass dieses t-Schlange
+
+00:02:51,880 --> 00:02:55,990
+auf jeden Fall Transition t1 enthalten muss,
+weil es ansonsten gar nicht zutreffen könnte.
+
+00:02:55,990 --> 00:02:57,730
+Weil wir keine andere Konstellation finden,
+
+00:02:57,730 --> 00:03:02,380
+bei der t2 geschaltet wird und
+vorher nicht t1 geschaltet wurde.
+
+00:03:02,380 --> 00:03:04,600
+Also wenn immer dann in so einer Konstellation
+
+00:03:04,600 --> 00:03:08,710
+auf jeden Fall t1 in dieser
+Schaltfolge vorkommen muss.
+
+00:03:08,710 --> 00:03:11,410
+Dann heißt t1 notwendige Bedingung für t2.
+
+00:03:11,410 --> 00:03:15,340
+Weil wir dann t2 nicht schalten können,
+ohne vorher (vielleicht nicht direkt vorher,
+
+00:03:15,340 --> 00:03:17,350
+aber irgendwann vorher) t1 geschaltet zu haben.
+
+00:03:17,350 --> 00:03:21,610
+Natürlich ist das nur interessant,
+wenn t2 eine Transition ist,
+
+00:03:21,610 --> 00:03:26,110
+die überhaupt erreichbar ist, die
+also im Erreichbarkeitsgraph vorkommt.
+
+00:03:26,110 --> 00:03:32,035
+Das wäre bei schwach lebendigen Petrinetzen
+ja schon für jede Transition der Fall.
+
+00:03:32,035 --> 00:03:37,210
+Außerdem ist die Definition auch nicht
+interessant, wenn t1 und t2 gleich sind.
+
+00:03:38,260 --> 00:03:40,000
+Irgendwann, wenn t1 schaltbar
+
+00:03:41,950 --> 00:03:42,970
+ist oder t2, irgendwann ist für
+jede Transition das erste Schalten.
+
+00:03:42,970 --> 00:03:44,410
+Davor kann sie nicht schon geschaltet worden sein.
+
+00:03:44,410 --> 00:03:48,250
+Also interessant ist das hier für
+schwach lebendige Petrinetze oder
+
+00:03:48,250 --> 00:03:51,160
+zumindest Petrinetze, in denen t2
+überhaupt geschaltet werden kann.
+
+00:03:51,160 --> 00:03:53,860
+Sowie nur für den Fall, dass
+t1 und t2 verschieden sind.
+
+00:03:57,520 --> 00:03:58,670
+Das ist also die formale Definition.
+
+00:03:58,670 --> 00:04:01,880
+Man kann das auch wieder dem
+Erreichbarkeitsgraphen ansehen,
+
+00:04:01,880 --> 00:04:03,110
+besonders wenn er endlich ist.
+
+00:04:03,110 --> 00:04:06,740
+Also, wenn wir in den Erreichbarkeitsgraphen
+schauen und uns fragen:
+
+00:04:06,740 --> 00:04:08,810
+Ist t1 notwendige Bedingung für t2?
+
+00:04:08,810 --> 00:04:11,570
+Dann wäre das dann der Fall, wenn alle Knoten,
+
+00:04:11,570 --> 00:04:16,490
+aus denen heraus t2 schaltbar ist (also
+jeder Knoten, von dem aus es einen mit
+
+00:04:16,490 --> 00:04:21,770
+t2 beschrifteten Übergang gibt), nur über
+Wege erreichbar sind, in denen t1 vorkommt.
+
+00:04:21,770 --> 00:04:26,360
+Das heißt, um t2 schalten zu können
+auf irgendeine Art und Weise,
+
+00:04:26,360 --> 00:04:30,860
+muss man vorher von m0 ausgehend
+mindestens einmal t1 geschaltet haben.
+
+00:04:30,860 --> 00:04:35,600
+Um das überprüfen im Erreichbarkeitsgraph
+zu können, müsste der endlich sein.
+
+00:04:35,600 --> 00:04:37,520
+Dann kann man den sich einfach anschauen.
+
+00:04:37,520 --> 00:04:41,660
+Jeden Punkt anschauen, wo t2
+vorkommt, und fragen, ob der Knoten,
+
+00:04:41,660 --> 00:04:46,550
+von dem aus t2 geschaltet wird, auch über Wege
+erreichbar ist, in denen t1 nicht vorkommt.
+
+00:04:46,550 --> 00:04:48,740
+Dann wäre t1 nicht notwendige Bedingung.
+
+00:04:48,740 --> 00:04:51,890
+Anderenfalls wäre t1 notwendige Bedingung für t2.
+
+00:04:54,230 --> 00:04:56,420
+Schauen wir das an einem Beispiel an.
+
+00:04:56,420 --> 00:05:02,990
+Hier haben wir ein einfaches Petrinetz
+mit vier Stellen und vier Transitionen.
+
+00:05:02,990 --> 00:05:05,570
+Und man kann sich fragen,
+ob irgendwelche Transitionen
+
+00:05:06,170 --> 00:05:08,030
+notwendige Bedingungen für andere sind.
+
+00:05:08,030 --> 00:05:10,550
+Wir können uns überlegen:
+
+00:05:10,550 --> 00:05:12,200
+Was ist hier möglich zu schalten?
+
+00:05:12,200 --> 00:05:13,760
+Zunächst muss in diesem
+Petrinetz t1 geschaltet werden.
+
+00:05:15,260 --> 00:05:18,530
+Und daraus folgt schon, dass t1
+notwendige Bedingung für die anderen ist.
+
+00:05:18,530 --> 00:05:21,140
+Jeder Ablauf, der möglich wäre, wäre derart:
+
+00:05:21,140 --> 00:05:24,260
+Man muss t1 schalten, dann hat
+man hier und hier eine Marke.
+
+00:05:24,260 --> 00:05:28,250
+Danach kann man alternativ t2 oder t3 schalten.
+
+00:05:28,250 --> 00:05:29,930
+Beide sind unabhängig voneinander aktiviert.
+
+00:05:29,930 --> 00:05:33,710
+Das würde auf jeden Fall dazu
+führen, dass hier eine Marke läge.
+
+00:05:33,710 --> 00:05:36,650
+Danach könnte man immer noch durch die andere
+
+00:05:36,650 --> 00:05:41,570
+Transition eine zweite Marke dort hinlegen oder
+t4 schalten, gegebenenfalls am Ende auch zweifach.
+
+00:05:41,570 --> 00:05:43,550
+Aber was wir schon sehen:
+
+00:05:43,550 --> 00:05:51,680
+Mögliche Abfolgen sind t1,t2,t4;
+
+00:05:52,670 --> 00:05:59,120
+t1,t2,t3,t4; t1,t3,t4; t1,t3,t2,t4;
+t1,t3,t2,t4,t4 und t1,t2,t3,t4,t4.
+
+00:05:59,120 --> 00:06:01,700
+Das wären alle Schaltfolgen, die möglich sind.
+
+00:06:01,700 --> 00:06:02,480
+Und wir sehen:
+
+00:06:02,480 --> 00:06:07,500
+In diesen Schaltfolgen taucht zum Beispiel
+nie t2 auf, ohne dass vorher t1 auftaucht.
+
+00:06:07,500 --> 00:06:11,490
+Es taucht jedoch durchaus t2 auf,
+ohne dass vorher t3 auftaucht.
+
+00:06:11,490 --> 00:06:14,100
+Das heißt, t1 ist notwendige Bedingung für t2,
+
+00:06:14,100 --> 00:06:18,060
+aber weder t3 ist notwendige
+Bedingung für t2 noch umgekehrt.
+
+00:06:18,060 --> 00:06:22,770
+Die t2 und t3 hängen nicht
+voneinander ab, aber von t1.
+
+00:06:22,770 --> 00:06:32,280
+Und natürlich auch t4 als letzte
+schaltende Transition hängt von t1 ab.
+
+00:06:32,280 --> 00:06:35,490
+Also zum Beispiel man könnte es
+auch für t2 und t3 feststellen,
+
+00:06:35,490 --> 00:06:39,570
+aber ich habe hier aufgeschrieben:
+t1 ist notwendige Bedingung für t4.
+
+00:06:39,570 --> 00:06:46,890
+Schauen wir uns das auch tatsächlich im
+dazugehörigen Erreichbarkeitsgraphen an.
+
+00:06:46,890 --> 00:06:48,075
+Der sieht so aus.
+
+00:06:48,075 --> 00:06:53,400
+Da müssen Sie mir glauben, dass ich
+ihn vollständig korrekt aufgemalt habe.
+
+00:06:53,400 --> 00:06:54,960
+Und da sehen wir zum Beispiel:
+
+00:06:54,960 --> 00:06:58,875
+Wenn wir nach t4 Ausschau halten,
+kommt t4 an mehreren Stellen vor,
+
+00:06:58,875 --> 00:07:01,350
+nämlich hier, hier, hier und hier.
+
+00:07:01,350 --> 00:07:04,920
+Und wenn wir uns die dazugehörigen
+Ausgangsknoten anschauen, in denen
+
+00:07:04,920 --> 00:07:10,500
+also t4 aktiviert ist (das wäre
+dieser, dieser, dieser und dieser=,
+
+00:07:10,500 --> 00:07:14,250
+dann sind die jeweils nur über Wege
+erreichbar, in denen t1 vorkommt.
+
+00:07:15,030 --> 00:07:17,730
+Weil t1 der Engpass ist, den
+man zuerst schalten muss.
+
+00:07:17,730 --> 00:07:22,950
+Andererseits stimmt es nicht
+zum Beispiel, dass jeder Knoten,
+
+00:07:22,950 --> 00:07:27,990
+von dem aus t4 schaltbar ist, nur auf
+Wegen erreichbar ist, in denen t2 vorkommt.
+
+00:07:27,990 --> 00:07:29,640
+Also für diesen Knoten stimmt das zum Beispiel.
+
+00:07:29,640 --> 00:07:33,480
+Hier kann ich t4 schalten, und vorher
+habe ich sowohl t1 als auch t2 ausgeführt.
+
+00:07:33,480 --> 00:07:36,570
+Allerdings gibt es auch Knoten,
+zum Beispiel diesen hier,
+
+00:07:36,570 --> 00:07:40,950
+in denen t4 schaltbar ist und in denen
+ich vorher nie t2 ausgeführt habe.
+
+00:07:40,950 --> 00:07:45,930
+Dann kann man nicht sagen, dass t2 notwendige
+Bedingung für t4 ist; t1 hingegen sehr wohl.
+
+00:07:50,670 --> 00:07:54,000
+Also t2 ist keine notwendige Bedingung für t4,
+
+00:07:54,000 --> 00:07:58,140
+denn nicht jede Schaltfolge,
+die zu t4 führt, enthält t2.
+
+00:07:58,140 --> 00:07:59,955
+Das hatte ich gerade im
+Erreichbarkeitsgraphen gezeigt.
+
+00:07:59,955 --> 00:08:03,930
+Da gab es eine Schaltfolge (nämlich t1,t3),
+mit der man einen Knoten erreicht, aus dem
+
+00:08:03,930 --> 00:08:07,830
+heraus man t4 schalten kann, und
+t2 ist vorher nicht aufgetaucht.
+
+00:08:07,830 --> 00:08:14,340
+Also entsprechend dieser Definition wäre
+dann t2 nicht notwendige Bedingung für t4.
+
+00:08:18,100 --> 00:08:21,550
+Und analoges gilt für t3.
+
+00:08:21,550 --> 00:08:26,380
+Also auch t3 ist keine
+notwendige Bedingung für t4.
+
+00:08:26,380 --> 00:08:28,900
+Weil es Schaltfolgen gibt (nämlich t1,t2),
+
+00:08:28,900 --> 00:08:32,260
+nach denen t4 schaltbar ist, ohne
+dass t3 vorher vorgekommen ist.
+
+00:08:38,460 --> 00:08:38,760
+Hier ist der Erreichbarkeitsgraph nochmal.
+
+00:08:38,760 --> 00:08:43,200
+An dem könnten Sie das auch für die
+anderen Fälle, die besprochen wurden,
+
+00:08:43,200 --> 00:08:46,530
+und für alle Kombinationen
+von Transitionen nachprüfen:
+
+00:08:46,530 --> 00:08:51,030
+Ist denn diese Transition notwendige
+Bedingung für jene Transition?
+
+00:08:53,490 --> 00:08:55,740
+Das wird natürlich auch geübt
+werden an anderen Beispielen.
+
+00:08:55,740 --> 00:09:01,890
+Und schließlich noch eine
+Bemerkung zur Kausalität,
+
+00:09:01,890 --> 00:09:04,590
+die relevant ist, weil das eine Beobachtung ist,
+
+00:09:04,590 --> 00:09:08,640
+die wir auch für andere Eigenschaften wie
+Nebenläufigkeit und Konflikt betrachten werden.
+
+00:09:10,740 --> 00:09:15,570
+Kausalität ist transitiv in dem Sinne wie zum
+Beispiel Ordnungsrelationen transitiv sind.
+
+00:09:15,570 --> 00:09:20,340
+Das müsste mindestens für die
+Komedia-Studierenden ein Begriff
+
+00:09:20,340 --> 00:09:21,990
+sein aus der Vorlesung Mathematische Strukturen.
+
+00:09:21,990 --> 00:09:25,950
+Aber wahrscheinlich auch den anderen
+Studierenden aus anderen Mathematikvorlesungen.
+
+00:09:25,950 --> 00:09:32,700
+Also es stimmt ganz offenkundig, bzw.
+kann man aus der Definition ableiten,
+
+00:09:32,700 --> 00:09:36,300
+dass wenn zum Beispiel t1 notwendige
+Bedingung für t2 ist und t2 notwendige
+
+00:09:36,300 --> 00:09:42,555
+Bedingung für t3 ist, dann auch t1
+notwendige Bedingung für t3 ist.
+
+00:09:42,555 --> 00:09:43,650
+Also das setzt sich fort.
+
+00:09:43,650 --> 00:09:48,090
+Wenn etwas notwendig ist, und
+das, was damit erreicht wird,
+
+00:09:48,090 --> 00:09:52,830
+ist notwendig für etwas anderes, dann
+ist auch in dem Fall t1 notwendig für t3.
+
+00:09:52,830 --> 00:09:57,270
+Sozusagen umgekehrt gilt das nicht unbedingt.
+
+00:09:57,270 --> 00:10:04,290
+Also nur weil etwa t1 notwendig
+für t3 ist und zum Beispiel t1
+
+00:10:05,160 --> 00:10:07,890
+auch notwendig für t2, heißt das nicht, dass
+auch dieses t2 dazwischen notwendig für t3 ist.
+
+00:10:07,890 --> 00:10:12,240
+Das kann man tatsächlich auch an dem
+eben gesehenen Beispiel überlegen.
+
+00:10:12,240 --> 00:10:16,770
+Da war t1 notwendig für t2,
+und t1 notwendig für t3,
+
+00:10:16,770 --> 00:10:22,170
+und auch t1 notwendig für t4, aber
+weder t2 noch t3 waren notwendig für t4.
+
+00:10:22,170 --> 00:10:28,230
+Also das gilt nur in diese wenn-dann-Richtung,
+nicht in die Gegenrichtung.

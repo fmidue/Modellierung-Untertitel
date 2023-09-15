@@ -1,0 +1,617 @@
+146 # slide
+00:00:00,000 --> 00:00:05,430
+Nach den informellen Beispielen
+lassen Sie uns diese Woche noch
+
+00:00:05,430 --> 00:00:08,190
+die formale Definition von Petrinetzen besprechen.
+
+00:00:08,190 --> 00:00:13,560
+Das hier sieht jetzt erst mal wie
+eine komplizierte Definition aus.
+
+00:00:13,560 --> 00:00:17,010
+Aber da werden einfach mengentheoretische Begriffe
+
+00:00:17,010 --> 00:00:21,000
+verwendet, die ich in der vergangenen
+Woche in einem Video wiederholt hatte.
+
+00:00:21,000 --> 00:00:24,330
+Oder die Sie auch von woanders
+her schon kennen müssten,
+
+00:00:24,330 --> 00:00:27,330
+vielleicht auch aus kürzlichen
+Mathematikvorlesungen.
+
+00:00:27,330 --> 00:00:30,960
+Also hier ist mathematisch angegeben:
+
+00:00:30,960 --> 00:00:36,300
+Ein Petrinetz wird ab jetzt, wenn wir es
+formal/mathematisch (und letztlich die Syntax
+
+00:00:36,300 --> 00:00:39,180
+des Petrinetzes unabhängig von der grafischen
+Darstellung) darstellen wollen, so definiert.
+
+00:00:39,180 --> 00:00:41,550
+Als ein 5-Tupel.
+
+00:00:41,550 --> 00:00:43,920
+Fünf Komponenten spielen hier hinein.
+
+00:00:45,810 --> 00:00:48,720
+Wir haben eine endliche,
+nichtleere Menge von Stellen.
+
+00:00:48,720 --> 00:00:53,160
+Nichtleer, weil ein Petrinetz ohne
+Stellen keinen Sinn ergeben würde.
+
+00:00:53,160 --> 00:00:56,760
+Und endlich, weil wir nur
+endliche Petrinetze betrachten.
+
+00:00:56,760 --> 00:00:58,140
+Obwohl ich gesagt habe, dass das Verhalten,
+
+00:00:58,140 --> 00:01:00,885
+das dadurch beschrieben wird,
+dennoch unendlich sein könnte.
+
+00:01:00,885 --> 00:01:06,540
+Also ein entsprechendes flaches
+Zustandsdiagramm könnte unendlich sein,
+
+00:01:06,540 --> 00:01:08,550
+obwohl das Petrinetz nur
+endlich viele Stellen hat.
+
+00:01:08,550 --> 00:01:12,060
+Das liegt daran, wie wir in einem Beispiel
+in einem früheren Video schon gesehen haben,
+
+00:01:12,060 --> 00:01:15,960
+dass es sein könnte, dass sich auf einer
+Stelle beliebig viele Marken ansammeln.
+
+00:01:15,960 --> 00:01:21,600
+Dann ist also die Gesamtzahl aller möglichen
+Zustandskonfigurationen durchaus unendlich,
+
+00:01:21,600 --> 00:01:24,840
+wegen dieser beliebig vielen
+Marken auf einer Stelle,
+
+00:01:24,840 --> 00:01:30,270
+obwohl das Petrinetz selbst endlich viele
+Stellen und endlich viele Transitionen hat.
+
+00:01:30,270 --> 00:01:35,130
+Also S ist eine solche Menge
+(endlich, nichtleer) von Stellen.
+
+00:01:35,130 --> 00:01:39,570
+Analog dazu eine Menge T (auch endlich,
+und auch nicht leer) von Transitionen.
+
+00:01:39,570 --> 00:01:47,520
+Das sind in der grafischen Darstellung
+die leeren, großen Kreise und Rechtecke.
+
+00:01:49,110 --> 00:01:52,350
+Das ist also ein Teil der
+strukturellen Information.
+
+00:01:52,350 --> 00:01:54,990
+Natürlich müssen wir noch mehr wissen,
+nämlich über die Pfeile/Verbindungen.
+
+00:01:55,740 --> 00:02:01,350
+Die werden hier in der mathematischen Definition
+über zwei solche Funktionen dargestellt.
+
+00:02:01,350 --> 00:02:05,340
+Das sind jeweils Funktionen von der Menge der
+
+00:02:05,340 --> 00:02:10,710
+Stellen auf die natürlichen
+Zahlen inklusive der Null.
+
+00:02:12,360 --> 00:02:17,130
+Und solche zwei Funktionen
+gibt es für jede Transition t.
+
+00:02:17,130 --> 00:02:21,390
+Also für jede Transition t, jedes Element
+dieser Menge T, gibt es zwei solche Funktionen.
+
+00:02:21,390 --> 00:02:22,620
+Und die werden so genannt hier:
+
+00:02:22,620 --> 00:02:25,920
+Bullet, ausgefüllter Kreis, vor t und nach t.
+
+00:02:26,850 --> 00:02:29,730
+Das sind aber nur Namen, einfach
+eine kurze Schreibweise dafür.
+
+00:02:29,730 --> 00:02:36,990
+Wir wollen eigentlich die Vorbedingungsgewichte
+von t und Nachbedingungsgewichte von t ausdrücken.
+
+00:02:36,990 --> 00:02:40,380
+Wir wollen das für jede
+Transition und jede Stelle tun.
+
+00:02:40,380 --> 00:02:44,550
+Wir nehmen eine Transition t
+und geben eine Funktion an,
+
+00:02:44,550 --> 00:02:48,180
+die jeder Stelle eine natürliche Zahl zuordnet.
+
+00:02:48,180 --> 00:02:51,810
+Und zwar gibt diese an, wie viele
+Marken durch diese Transition t
+
+00:02:51,810 --> 00:02:55,350
+aus der jeweiligen Stelle entnommen werden.
+
+00:02:55,350 --> 00:02:58,740
+Oder, wenn wir diese Funktion
+betrachten, dann wie viele
+
+00:02:58,740 --> 00:03:04,680
+Marken durch die entsprechende Transition
+t auf eine bestimmte Stelle gelegt werden.
+
+00:03:05,310 --> 00:03:08,190
+Da hier für jede Stelle ein Wert angegeben wird.
+
+00:03:08,190 --> 00:03:12,780
+Weil das eine Funktion von der Menge der
+Stellen in die Menge der natürlichen Zahlen ist.
+
+00:03:12,780 --> 00:03:17,700
+Damit werden immer alle Stellen betrachtet.
+
+00:03:19,110 --> 00:03:21,060
+Für wirklich jede Stelle wird ein Wert angegeben.
+
+00:03:21,060 --> 00:03:22,320
+Das ist das Konzept der Funktion.
+
+00:03:22,320 --> 00:03:26,670
+Aber wir können eben auch für eine
+bestimmte Stelle null als Ergebnis haben.
+
+00:03:31,110 --> 00:03:32,640
+Dann gibt es noch eine weitere solche Funktion.
+
+00:03:32,640 --> 00:03:35,490
+Auch wieder eine Funktion von
+Stellen in die natürlichen Zahlen.
+
+00:03:35,490 --> 00:03:36,990
+Und das ist die Anfangsmarkierung.
+
+00:03:36,990 --> 00:03:39,090
+Das hat per se nichts mit den Transitionen zu tun,
+
+00:03:39,090 --> 00:03:45,360
+sondern beschreibt, wie in der Ursprungssituation
+des Petrinetzes die Marken verteilt sind.
+
+00:03:45,360 --> 00:03:51,330
+Deswegen gibt es hier, neben den Mengen S und
+T und diesen Familien von Funktionen (die für
+
+00:03:51,330 --> 00:04:00,600
+jedes t aus T solch eine Funktion angeben), noch
+eine weitere ausgezeichnete Funktion, nämlich m0.
+
+00:04:00,600 --> 00:04:02,010
+Das ist die Anfangsmarkierung/Startmarkierung
+oder initiale Markierung.
+
+00:04:08,510 --> 00:04:10,670
+Und, wie schon gesagt:
+
+00:04:10,670 --> 00:04:16,370
+So ein Ausdruck, also eine
+dieser Bullet-t oder t-Bullet
+
+00:04:16,370 --> 00:04:20,780
+Funktionen, ausgewertet für eine spezielle
+Stelle s, wird als Gewicht bezeichnet.
+
+00:04:20,780 --> 00:04:24,860
+Oder auch Vorgewicht in dem Fall,
+Nachgewicht in dem anderen Fall.
+
+00:04:29,540 --> 00:04:32,720
+Diese Funktionen dieser Gestalt S
+nach N, die hier mehrfach auftreten,
+
+00:04:32,720 --> 00:04:38,120
+die nennt man auch allgemein "Markierungen".
+
+00:04:38,120 --> 00:04:42,770
+Hier taucht das schon als Begriff im Namen auf.
+
+00:04:42,770 --> 00:04:46,400
+Aber auch diese Funktionen kann
+man als Markierungen auffassen.
+
+00:04:46,400 --> 00:04:49,700
+Wir werden diesen Begriff brauchen, deswegen
+definiere ich den auch noch mal separat.
+
+00:04:49,700 --> 00:04:53,270
+Also eine Markierung ist einfach
+eine Funktion dieser Form.
+
+00:04:53,270 --> 00:05:01,760
+Und sie kann anzeigen, wie viele Marken
+aktuell in einzelnen Stellen liegen.
+
+00:05:01,760 --> 00:05:07,910
+Das wäre die Anwendung hier, zur Angabe
+der Anfangs- oder initialen Markierung.
+
+00:05:07,910 --> 00:05:12,440
+Aber eine solche Funktion kann eben
+auch verwendet werden, um anzugeben,
+
+00:05:12,440 --> 00:05:14,600
+wie viele Marken einzelnen
+Stellen zu entnehmen sind.
+
+00:05:14,600 --> 00:05:16,220
+Das war für das Vorgewicht der Fall.
+
+00:05:16,220 --> 00:05:18,860
+Oder wie viele Marken einzelnen
+Stellen hinzuzufügen sind.
+
+00:05:18,860 --> 00:05:20,870
+Das wäre für die Nachgewichte der Fall.
+
+00:05:20,870 --> 00:05:25,310
+Und natürlich ist wichtig, dass in allen
+drei Fällen jeweils Varianz vorliegen kann.
+
+00:05:25,310 --> 00:05:31,820
+Also es kann hier, in einer Markierung, für
+jede Stelle ein anderer Wert zugeordnet werden.
+
+00:05:35,750 --> 00:05:39,920
+Jetzt werden wir diese Funktionen nicht
+immer unbedingt als Funktionen aufschreiben,
+
+00:05:39,920 --> 00:05:41,690
+also mit einer Zuordnungsvorschrift.
+
+00:05:43,280 --> 00:05:45,680
+Wenn S klein ist, etwa nur
+3 oder 4 Element enthält,
+
+00:05:45,680 --> 00:05:48,050
+wollen wir ja eigentlich nur drei Werte angeben.
+
+00:05:48,050 --> 00:05:50,840
+Dann werden wir die oftmals auch
+wieder in Tupel-Schreibweise schreiben.
+
+00:05:50,840 --> 00:05:57,680
+Also insbesondere, wenn wir Stellen s_1 bis s_n
+haben, für ein nicht allzu großes n, und wir uns
+
+00:05:57,680 --> 00:06:00,860
+für eine Reihenfolge entschieden haben
+(vielleicht nummerieren wir die Stellen
+
+00:06:00,860 --> 00:06:05,390
+durch von s_1 bis z.B. s_4), dann können wir eine
+solche Funktion auch ausdrücken/hinschreiben,
+
+00:06:05,390 --> 00:06:12,080
+indem wir einfach die Ergebnisse von m, von
+dieser Funktion, für s_1 bis s_n aufschreiben.
+
+00:06:12,080 --> 00:06:17,510
+Das werden wir gleich in einem Beispiel
+sehen, falls Ihnen das hier obskur erscheint.
+
+00:06:21,940 --> 00:06:22,690
+Und natürlich:
+
+00:06:22,690 --> 00:06:28,960
+Diese mathematische Schreibweise, mit
+diesem Begriff, wird letztlich natürlich
+
+00:06:28,960 --> 00:06:31,810
+mit der grafischen Darstellung in
+Übereinstimmung zu bringen sein.
+
+00:06:31,810 --> 00:06:37,090
+Wir haben die grafische Darstellung schon
+gesehen, mit den Stellen und Rechtecken etc.
+
+00:06:37,090 --> 00:06:41,290
+Da wird die Beziehung sein, dass
+die Stellen aus der mathematischen
+
+00:06:41,290 --> 00:06:44,796
+Definition auch den Stellen , den Kreisen,
+in der grafischen Darstellung entsprechen.
+
+00:06:44,796 --> 00:06:47,590
+Und die Transitionen aus der
+mathematischen Definition,
+
+00:06:47,590 --> 00:06:51,370
+die Elemente von T, werden als
+Rechtecke oder Quadrate dargestellt.
+
+00:06:51,370 --> 00:06:57,790
+Die Marken, also das, was durch die
+Anfangsmarkierung beschrieben wird,
+
+00:06:57,790 --> 00:07:02,980
+werden als ausgefüllte kleine Kreise
+dargestellt, die auf den großen Kreisen liegen.
+
+00:07:02,980 --> 00:07:08,680
+Kanten zwischen Stellen und Transitionen
+werden mit Pfeilen dargestellt.
+
+00:07:08,680 --> 00:07:13,720
+Das ist die Information, die in der mathematischen
+Darstellung in den Gewichtsfunktionen liegt.
+
+00:07:13,720 --> 00:07:18,310
+Und ein wesentlicher Punkt, der die grafische
+Darstellung gegenüber der mathematischen
+
+00:07:18,310 --> 00:07:27,628
+vielleicht auch intuitiver macht, ist, dass wir
+uns in Spezialfällen in der grafischen Darstellung
+
+00:07:27,628 --> 00:07:30,610
+Informationen für die Gewichtsfunktionen
+sparen bzw. sie implizit lassen können.
+
+00:07:30,610 --> 00:07:33,280
+Also wir werden in der grafischen
+Darstellung keine Pfeile einzeichnen,
+
+00:07:33,280 --> 00:07:35,710
+wenn die Gewichtsfunktionen sagen,
+
+00:07:35,710 --> 00:07:40,150
+dass zum Beispiel eine Verbindung von einer
+Stelle zu einer Transition das Gewicht 0 hat.
+
+00:07:40,150 --> 00:07:41,590
+Dann wird die Kante ganz weggelassen.
+
+00:07:41,590 --> 00:07:47,230
+Und wenn ein Gewicht 1 ist, werden
+wir nur einen Pfeil einzeichnen,
+
+00:07:47,230 --> 00:07:49,570
+diesen aber nicht mit einem Wert versehen.
+
+00:07:50,200 --> 00:07:54,490
+In dem Beispiel aus dem letzten
+Video hingegen, wo wir einmal an
+
+00:07:54,490 --> 00:07:58,060
+einen Pfeil eine 2 geschrieben haben
+oder an zwei Stellen das getan haben,
+
+00:07:58,060 --> 00:08:04,720
+entspräche dies Fällen, wo so eine Funktion
+eben auch mal einen Wert 2 als Ergebnis hat.
+
+00:08:08,050 --> 00:08:10,600
+Also so müssen wir die grafische Darstellung
+
+00:08:10,600 --> 00:08:13,120
+relativ zur mathematischen
+Darstellung interpretieren.
+
+00:08:13,120 --> 00:08:15,280
+Das mache ich jetzt direkt an einem Beispiel.
+
+00:08:16,240 --> 00:08:20,050
+Nehmen wir dieses grafisch dargestellte Petrinetz.
+
+00:08:20,050 --> 00:08:23,620
+Das hat offenkundig drei
+Stellen, drei Transitionen,
+
+00:08:23,620 --> 00:08:29,230
+und zu Beginn sind die Marken
+wie hier dargestellt verteilt.
+
+00:08:29,230 --> 00:08:30,940
+Und es gibt einen Übergang,
+
+00:08:30,940 --> 00:08:35,470
+der wie im letzten Video beim Schalten
+der Transition t1 zwei Marken erzeugt.
+
+00:08:37,900 --> 00:08:40,210
+Das wäre die grafische Darstellung.
+
+00:08:40,210 --> 00:08:45,580
+Um eine mathematische Darstellung aufschreiben zu
+
+00:08:45,580 --> 00:08:48,400
+können, müssen wir uns für eine
+Stellenreihenfolge entscheiden.
+
+00:08:48,400 --> 00:08:52,690
+Hier ist es naheliegend, die Stellen eben
+in der Reihenfolge s1, s2, s3 anzugeben.
+
+00:08:52,690 --> 00:08:57,010
+Das werden wir brauchen, wenn wir die
+Markierungen als Tupel beschreiben wollen.
+
+00:08:59,740 --> 00:09:03,070
+Mathematisch gesehen hätten wir hier
+eine dreielementige Menge von Stellen,
+
+00:09:03,070 --> 00:09:05,260
+eine dreielementige Menge von Transitionen,
+
+00:09:05,260 --> 00:09:16,030
+und die Übergänge kann man zum
+Beispiel für t1 wie folgt aufschreiben.
+
+00:09:18,940 --> 00:09:20,860
+Was wissen wir über diese Transition
+aus der grafischen Darstellung?
+
+00:09:20,860 --> 00:09:24,100
+Wir wissen, dass sie eine Marke aus s1 konsumiert,
+
+00:09:24,100 --> 00:09:31,690
+eine Marke aus s2 konsumiert, und zwei Marken
+in s3 legt, aber keine Marke aus s3 entnimmt.
+
+00:09:33,310 --> 00:09:36,550
+Die Vorbedingungsfunktion sagt:
+
+00:09:36,550 --> 00:09:40,360
+Aus s1 eine Marke, aus s2 eine
+Marke und aus s3 null Marken.
+
+00:09:40,360 --> 00:09:42,760
+Das entspricht dem nicht vorhandenen
+Pfeil von hier nach hier.
+
+00:09:42,760 --> 00:09:47,110
+Und die Tatsache, dass t1
+genau in s3 etwas ablegt,
+
+00:09:47,110 --> 00:09:49,420
+und zwar zwei Marken, ist hier ausgedrückt.
+
+00:09:50,980 --> 00:09:54,790
+Es wird nichts in s1 abgelegt, weil
+es ja hier keinen Rückwärtspfeil gibt.
+
+00:09:54,790 --> 00:09:57,730
+Es wird nichts in s2 abgelegt, weil es
+auch hier keinen Rückwärtspfeil gibt.
+
+00:09:57,730 --> 00:09:59,890
+Es werden zwei Marken in s3 abgelegt.
+
+00:10:00,520 --> 00:10:05,350
+Diese Information, in diesen beiden
+Zeilen, entspricht der Information,
+
+00:10:05,350 --> 00:10:12,970
+die hier durch die entsprechenden Pfeile und
+die Beschriftungen um t1 herum angegeben sind.
+
+00:10:16,120 --> 00:10:19,840
+Das Gleiche würde man für t2 und t3 machen,
+also entsprechende weitere Zeilen aufschreiben.
+
+00:10:19,840 --> 00:10:26,770
+Für die Anfangsmarkierung, also für die
+Verteilung der Marken in dem Ausgangsbild,
+
+00:10:26,770 --> 00:10:29,410
+haben wir diese Startmarkierung
+bzw. initiale Markierung.
+
+00:10:29,410 --> 00:10:29,920
+Die sagt:
+
+00:10:29,920 --> 00:10:33,280
+Auf s1 habe eine Marke zu liegen auf s2 haben
+
+00:10:33,280 --> 00:10:40,030
+zwei Marken zu liegen und s3
+habe zu Beginn leer zu sein.
+
+00:10:40,030 --> 00:10:42,340
+Wenn wir uns auf eine Stellenreihenfolge festlegen
+
+00:10:42,340 --> 00:10:47,200
+(s1, s2, s3 zum Beispiel), dann können wir
+diese Information auch kompakter schreiben.
+
+00:10:47,200 --> 00:10:51,100
+Wir schreiben zum Beispiel einfach die
+Vorbedingungsfunktion für t1 in der Form auf,
+
+00:10:51,100 --> 00:10:57,700
+dass wir ein Tripel bilden aus den
+drei Ergebnissen für s1, s2, s3.
+
+00:10:57,700 --> 00:10:59,440
+Dafür müssen wir eben diese Reihenfolge wissen.
+
+00:10:59,440 --> 00:11:02,680
+Also wenn wir die andersrum aufschreiben würden,
+
+00:11:02,680 --> 00:11:04,420
+dann müssten wir die Null
+vielleicht hier hinschreiben.
+
+00:11:04,420 --> 00:11:10,270
+Aber bei s1, s2, s3 haben wir
+1, 1, 0 hier und 0, 0, 2 hier.
+
+00:11:10,270 --> 00:11:12,610
+Natürlich können wir auch
+für die initiale Markierung
+
+00:11:12,610 --> 00:11:16,480
+so vorgehen und das auf diese Weise angeben.
+
+00:11:20,710 --> 00:11:27,580
+Und wenn wir das für t2, t3 auch machen,
+hätten wir eine der grafischen Darstellung
+
+00:11:27,580 --> 00:11:31,180
+exakt entsprechende mathematische Darstellung, mit
+der wir eben auch mathematisch arbeiten können.
+
+00:11:31,180 --> 00:11:35,020
+Wir werden Petrinetze manchmal so
+und manchmal so angeben wollen.
+
+00:11:35,020 --> 00:11:39,550
+Je nach Verwendungszweck wollen
+wir vielleicht eher mathematisch
+
+00:11:39,550 --> 00:11:42,490
+etwas definieren, für die Petrinetze
+Analysen durchführen zum Beispiel.
+
+00:11:42,490 --> 00:11:44,980
+Oder wollen wir eher illustrieren oder
+
+00:11:44,980 --> 00:11:48,730
+simulieren, oder intuitiv durchgehen und
+besprechen, welche Übergänge möglich sind?
+
+00:11:49,330 --> 00:11:52,810
+Dann können wir eher mit der
+grafischen Darstellung arbeiten.
+
+00:11:52,810 --> 00:11:55,630
+Sie müssen aber beide Darstellungen kennen
+und auch in Beziehung setzen können.

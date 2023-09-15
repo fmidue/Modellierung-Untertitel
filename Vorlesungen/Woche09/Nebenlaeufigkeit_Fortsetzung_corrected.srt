@@ -1,0 +1,995 @@
+178 # slide
+00:00:01,140 --> 00:00:05,730
+Back to the slides, but the same examples
+
+00:00:05,730 --> 00:00:08,220
+that we just saw in the other video.
+
+00:00:08,220 --> 00:00:13,860
+And that is, first of all, here's
+the example that I had noticed that for
+
+00:00:13,860 --> 00:00:19,680
+this marking that we see here,
+t2 and t3 are activated concurrently.
+
+00:00:19,680 --> 00:00:24,480
+The intuition was that that was
+because I could sort of grab these
+
+00:00:24,480 --> 00:00:28,770
+two tokens and move them
+through t2 and t3 simultaneously.
+
+00:00:28,770 --> 00:00:32,220
+That was the intuition
+for that kind of parallelism.
+
+00:00:32,220 --> 00:00:38,550
+But strictly speaking, the term
+is defined mathematically, by this definition:
+
+00:00:38,550 --> 00:00:43,710
+So I actually have to do
+the math that in each case this
+
+00:00:43,710 --> 00:00:46,230
+relation holds, for the example
+and for the other examples.
+
+00:00:46,230 --> 00:00:48,360
+Let's do that.
+
+00:00:49,440 --> 00:00:53,010
+What would be the relevant
+pre-weight functions in this case?
+
+00:00:53,010 --> 00:00:54,810
+The preweight functions of t2 and t3.
+
+00:00:54,810 --> 00:01:00,720
+And I'll write each of
+those down in tuple notation.
+
+00:01:00,720 --> 00:01:03,990
+We fix ourselves on the
+place order s1, s2, s3, s4.
+
+00:01:03,990 --> 00:01:07,140
+Then, for example, the
+pre-weight function of t2
+
+00:01:07,140 --> 00:01:11,400
+is exactly the function which can
+be written down as the 4-tuple (0,1,0,0).
+
+00:01:11,400 --> 00:01:16,950
+Because exactly only of s2
+here is an input arrow.
+
+00:01:16,950 --> 00:01:20,100
+And analogously at t3
+the preweight function is (0,0,1,0).
+
+00:01:24,570 --> 00:01:25,920
+Because of this
+
+00:01:25,920 --> 00:01:31,560
+input arrow going from s3 to t3, and
+because there are no other incoming arrows after t3.
+
+00:01:31,560 --> 00:01:35,370
+That explains these two statements here.
+
+00:01:35,370 --> 00:01:39,090
+Now, to prove that
+t2 and t3 are concurrent,
+
+00:01:39,090 --> 00:01:43,620
+you have to sum
+these two pre-weight functions.
+
+00:01:43,620 --> 00:01:48,810
+And this is done with this
+sum symbol, which performs element-wise additions.
+
+00:01:48,810 --> 00:01:50,820
+That is, what is on the left here would
+
+00:01:50,820 --> 00:01:56,130
+be the vector addition of
+these two 4-tuples, that is, (0,1,1,0).
+
+00:01:56,670 --> 00:02:03,330
+And in that case, it turns out
+that this is exactly equal (less-equal would do,
+
+00:02:03,330 --> 00:02:06,750
+but it is even exactly equal in
+that case) to the marking (0,1,1,0), which
+
+00:02:06,750 --> 00:02:10,200
+also turns out if we take
+the current marking of this Petri net.
+
+00:02:10,200 --> 00:02:12,630
+Because on s1 there is
+nothing, on s2 there is
+
+00:02:12,630 --> 00:02:16,170
+something, on s3 there is something (and exactly
+one token each), on s4 there is nothing.
+
+00:02:16,170 --> 00:02:20,190
+That means, here this
+criterion is exactly fulfilled.
+
+00:02:20,190 --> 00:02:24,720
+Therefore we can also say:
+t2 and t3 are activated concurrently.
+
+00:02:24,720 --> 00:02:29,100
+In the previous video, I
+had also discussed what would
+
+00:02:29,100 --> 00:02:33,540
+happen, for example, if one were to
+create another arrow from s3 to t2.
+
+00:02:35,340 --> 00:02:37,830
+And then we had seen first:
+
+00:02:37,830 --> 00:02:41,730
+Then t2 and t3 would
+no longer be activated concurrently,
+
+00:02:41,730 --> 00:02:46,860
+because the requirements for t2 and those for t3
+would get in each other's way, so to speak.
+
+00:02:46,860 --> 00:02:53,400
+Because you can send this one token either to t2
+or to t3, but not both at the same time.
+
+00:02:53,400 --> 00:02:56,520
+What would this mean
+for the mathematical version?
+
+00:02:56,520 --> 00:02:58,890
+Nothing would change for t3.
+
+00:03:01,650 --> 00:03:11,400
+But by the additional arrow from
+s3 to t2 something changes for t2.
+
+00:03:11,400 --> 00:03:19,020
+Namely, this additional arrow turns
+this 0 into a 1.
+
+00:03:19,020 --> 00:03:26,820
+Because the arrow must be
+represented/reflected in the pre-weight function.
+
+00:03:26,820 --> 00:03:32,040
+And that would be this 1 here,
+because t2 then requests a token from s3.
+
+00:03:32,040 --> 00:03:35,460
+So there would be a 1
+here, where my cursor is currently pointing.
+
+00:03:35,460 --> 00:03:41,970
+The sum would result
+in (0,1,2,0) instead of (0,1,1,0).
+
+00:03:41,970 --> 00:03:45,630
+And (0,1,2,0) would not be
+less than or equal to (0,1,1,0).
+
+00:03:46,470 --> 00:03:50,310
+Even if there would be more tokens on
+s4, so that the sum of the tokens
+
+00:03:50,310 --> 00:03:54,450
+in this marking would be much
+larger, there would still be simply
+
+00:03:56,790 --> 00:04:03,630
+the problem concerning this only one
+token lying on s3 by (0,1,2,0).
+
+00:04:04,560 --> 00:04:06,360
+What I had also already
+discussed in the video was:
+
+00:04:06,360 --> 00:04:09,750
+However, if one then put
+down a second token on s3,
+
+00:04:09,750 --> 00:04:13,364
+then t2 and t3 would again be
+activated concurrently, because then that was enough.
+
+00:04:13,364 --> 00:04:15,870
+Then you would send a token
+up here and send one to
+
+00:04:15,870 --> 00:04:18,030
+t3, and that's not mutually exclusive.
+
+00:04:18,030 --> 00:04:23,230
+That would correspond to the situation
+where we have (0,1,1,0), here (0,0,1,0), the
+
+00:04:23,230 --> 00:04:26,590
+sum would be (0,1,2,0),
+and that would be okay.
+
+00:04:26,590 --> 00:04:31,420
+If there was at least a 2 here,
+which would correspond to the second token on s3.
+
+00:04:31,420 --> 00:04:35,440
+So there, what I
+intuitively tried to observe simply
+
+00:04:35,440 --> 00:04:42,400
+graphically on the Petri net itself,
+regarding t2 and t3, coincides with what
+
+00:04:42,400 --> 00:04:49,394
+the mathematical definition (which we had here
+on the slide) gives for this example.
+
+00:04:49,394 --> 00:04:52,180
+And that will coincide with each
+of the other examples as well.
+
+00:04:57,400 --> 00:05:00,850
+The next example was this example here.
+
+00:05:01,390 --> 00:05:02,110
+There we had found
+
+00:05:02,110 --> 00:05:08,590
+that t1, t2, t3 are all
+three activated concurrently, for this marking.
+
+00:05:10,570 --> 00:05:15,370
+Not only can there be two, but (this
+also showed up on the slide) there can be
+
+00:05:15,370 --> 00:05:20,590
+more than two transitions in this
+set T', so they can be concurrently activated.
+
+00:05:20,590 --> 00:05:22,750
+If that condition is satisfied here.
+
+00:05:22,750 --> 00:05:24,700
+Is it here?
+
+00:05:26,410 --> 00:05:29,980
+So this assertion from the
+previous video that t1, t2,
+
+00:05:29,980 --> 00:05:33,940
+t3 are concurrently activated, can that also
+be verified by doing the math?
+
+00:05:33,940 --> 00:05:38,770
+Well that's very
+easy, very straightforward.
+
+00:05:38,770 --> 00:05:45,370
+All three preweight functions for t1, t2,
+t3 are each exactly the function that
+
+00:05:45,370 --> 00:05:48,520
+says to take a token
+from s1, and that s2, s3,
+
+00:05:48,520 --> 00:05:52,960
+s4 are irrelevant to the
+possibility of firing the three transitions.
+
+00:05:52,960 --> 00:05:55,480
+Then we have
+these three pre-weight functions.
+
+00:05:55,480 --> 00:05:57,580
+Their sum is exactly (3,0,0,0).
+
+00:05:57,580 --> 00:06:00,055
+And it is again the
+case that this exactly coincides.
+
+00:06:00,055 --> 00:06:03,220
+There comes out in sum (3,0,0,0),
+and that is exactly equal, and
+
+00:06:03,220 --> 00:06:07,780
+therefore also smaller-equal, than
+the marking to be seen.
+
+00:06:07,780 --> 00:06:11,230
+This is because we have
+as many tokens to consume.
+
+00:06:11,230 --> 00:06:12,850
+Not too many, not too few.
+
+00:06:12,850 --> 00:06:13,600
+Many would not be bad.
+
+00:06:13,600 --> 00:06:16,090
+If there were 4 here,
+the "less-equal" would be fulfilled.
+
+00:06:16,090 --> 00:06:18,820
+But "too few" would
+just prevent firing, or
+
+00:06:18,820 --> 00:06:23,680
+prevent the concurrent
+activation of all three.
+
+00:06:23,680 --> 00:06:27,280
+It is also clear, of course,
+that t1, t2 are also activated concurrently.
+
+00:06:29,320 --> 00:06:33,700
+We could ignore t3 and
+say: t1, t2 are activated concurrently.
+
+00:06:33,700 --> 00:06:38,950
+Because if we just add the pre-weight
+functions of t1 and t2, (2,0,0,0) comes out.
+
+00:06:38,950 --> 00:06:40,930
+This is also
+less-than-equal to (3,0,0,0).
+
+00:06:40,930 --> 00:06:46,570
+This again agrees with this observation from
+here that if a set of transitions
+
+00:06:46,570 --> 00:06:50,020
+is concurrently activated, then it also
+holds for any subset of them.
+
+00:06:54,190 --> 00:06:57,550
+Then I had the example where
+I actually removed one of the tokens.
+
+00:06:57,550 --> 00:07:01,030
+So where we have only two tokens
+left in s1 at the beginning, but
+
+00:07:01,030 --> 00:07:03,790
+the rest of the Petri net is unchanged.
+
+00:07:03,790 --> 00:07:04,210
+There we had already said:
+
+00:07:04,210 --> 00:07:07,900
+Then it can no longer be the
+case that all three are activated concurrently.
+
+00:07:07,900 --> 00:07:13,780
+In fact, for this example we then get
+that pairwise each two of the transitions are
+
+00:07:13,780 --> 00:07:17,230
+activated concurrently, but not
+all three at the same time.
+
+00:07:19,000 --> 00:07:23,170
+So every two-element set, which we
+can form over transitions, is a set,
+
+00:07:23,170 --> 00:07:29,440
+where the transitions shown in it
+for this constellation are activated concurrently.
+
+00:07:29,440 --> 00:07:32,500
+However, this is not true for
+the total set t1, t2, t3.
+
+00:07:32,500 --> 00:07:33,610
+We see:
+
+00:07:33,610 --> 00:07:39,250
+We cannot use these two tokens to
+satisfy t1, t2, t3 all at once.
+
+00:07:39,250 --> 00:07:40,360
+What does this mean mathematically?
+
+00:07:40,360 --> 00:07:46,000
+Here again, t1, t2, t3
+all have the same pre-weight function.
+
+00:07:46,000 --> 00:07:49,870
+Namely, this one that we also
+just had on the previous slide.
+
+00:07:49,870 --> 00:07:55,060
+And it's also true that in
+each case the pairwise sums of
+
+00:07:55,060 --> 00:08:00,790
+two pre-weight functions give
+a marking, namely (2,0,0,0), which
+
+00:08:00,790 --> 00:08:05,920
+is nowhere undercut by
+the marking shown here.
+
+00:08:05,920 --> 00:08:10,090
+So this is true for any
+combination of two of the transitions.
+
+00:08:10,780 --> 00:08:14,200
+However, if we take all three transitions, we
+would also have to make this triple sum.
+
+00:08:14,200 --> 00:08:19,090
+That would be (3,0,0,0), and that is
+not less than or equal to (2,0,0,0).
+
+00:08:19,090 --> 00:08:26,050
+That's why that's not enough, or t1,
+t2, t3 are not all three activated concurrently.
+
+00:08:30,850 --> 00:08:33,520
+Then we had this example.
+
+00:08:33,520 --> 00:08:37,660
+I'm not going to do the math
+there again, although of course you could.
+
+00:08:37,660 --> 00:08:40,630
+In that example, we had discussed that
+
+00:08:40,630 --> 00:08:47,740
+one of each of the two transitions with
+t3 is concurrent, but t1 and t2 are not.
+
+00:08:47,740 --> 00:08:50,050
+Unless, of course,
+one added another token.
+
+00:08:50,050 --> 00:08:50,800
+So we had stated:
+
+00:08:50,800 --> 00:08:57,700
+The sets \{t1, t3\} and also \{t2, t3\} are
+in each case activated concurrently, because the firing of
+
+00:08:57,700 --> 00:09:04,480
+t3 is just as it were contact-free
+to the firing of t1 and/or t2.
+
+00:09:04,480 --> 00:09:10,570
+But not \{t1, t2\} together and consequently
+not \{t1, t2, t3\} all three together.
+
+00:09:10,570 --> 00:09:12,400
+Because then again would be valid:
+
+00:09:12,400 --> 00:09:18,370
+If t1, t2, t3 were activated concurrently, also
+t1, t2 would have to be activated concurrently.
+
+00:09:18,370 --> 00:09:22,600
+But this is not the case, because we
+cannot satisfy t1 and t2 at the same time
+
+00:09:22,600 --> 00:09:27,190
+with these three tokens (because of
+this only one token in the middle).
+
+00:09:27,190 --> 00:09:28,390
+This is what I had discussed.
+
+00:09:28,390 --> 00:09:34,240
+With one more token it would be possible.
+
+00:09:34,240 --> 00:09:38,500
+Then t1, t2 and t3
+would actually be activated concurrently.
+
+00:09:38,500 --> 00:09:40,450
+We had also discussed this.
+
+00:09:43,450 --> 00:09:49,120
+What this example still shows is
+that unlike causality (as discussed at the
+
+00:09:49,120 --> 00:09:54,880
+end of last week), the
+notion of concurrency is not transitive.
+
+00:09:54,880 --> 00:09:59,680
+So it's like this here:
+t1 and t3 are concurrent, t3
+
+00:09:59,680 --> 00:10:03,970
+and t2 are concurrent, but
+t1 and t2 are not concurrent.
+
+00:10:03,970 --> 00:10:05,590
+It was different with causality.
+
+00:10:05,590 --> 00:10:09,700
+If t1 was necessary condition for t2
+and t2 was necessary condition for t3,
+
+00:10:09,700 --> 00:10:12,280
+then t1 was also
+necessary condition for t3.
+
+00:10:12,280 --> 00:10:25,700
+This is not necessarily analogous for
+three transitions with respect to concurrency.
+
+00:10:25,700 --> 00:10:26,600
+So much for the examples.
+
+00:10:26,600 --> 00:10:30,890
+Then I'd like to briefly
+discuss some properties, some observations about
+
+00:10:30,890 --> 00:10:37,220
+concurrency, before we get to the
+notion of conflict in the next video.
+
+00:10:40,550 --> 00:10:47,810
+One observation is (I had also gone through this
+in the video on an example) that if we
+
+00:10:47,810 --> 00:10:52,490
+have such sets and a
+marking, so that the transitions of
+
+00:10:52,490 --> 00:10:56,000
+this set are activated concurrently,
+then any arrangement of the transitions
+
+00:10:56,000 --> 00:11:00,920
+is a valid firing sequence starting from
+m. This is the case with the set.
+
+00:11:00,920 --> 00:11:04,580
+I had discussed this exactly on the
+example for the case that we put
+
+00:11:04,580 --> 00:11:10,370
+another token on here, so that t1, t2,
+t3 were activated concurrently, all at the same time.
+
+00:11:10,370 --> 00:11:14,686
+Then you could also fire in any
+order: t1, t2, t3; t1, t3, t2; etc.
+
+00:11:14,686 --> 00:11:16,820
+I had then written that
+down, all possible firing sequences.
+
+00:11:16,820 --> 00:11:19,640
+All six that would be
+possible as permutations of t1,
+
+00:11:19,640 --> 00:11:23,180
+t2, t3, and that's a general observation.
+
+00:11:23,180 --> 00:11:26,690
+So if I have a
+set of concurrently activated transitions, then
+
+00:11:26,690 --> 00:11:30,290
+we won't look at a firing sequence
+as firing in parallel (because the firing
+
+00:11:30,290 --> 00:11:35,660
+sequences are always listings of transitions),
+but at least then any sequence
+
+00:11:35,660 --> 00:11:39,920
+of the corresponding transitions
+is a valid firing sequence.
+
+00:11:39,920 --> 00:11:45,020
+So any sequence in which each transition
+
+00:11:45,020 --> 00:11:50,570
+from T' occurs exactly once
+lets us fire from m.
+
+00:11:50,570 --> 00:11:53,270
+Not that we get stuck somewhere.
+
+00:11:53,270 --> 00:11:57,470
+And out comes a marking
+m', and that's always the same.
+
+00:11:57,470 --> 00:12:02,060
+So for an m and any set
+of concurrently activated transitions, it can't be that
+
+00:12:02,060 --> 00:12:07,100
+if we change the order of the
+transitions from the set when firing, we
+
+00:12:07,100 --> 00:12:09,770
+somehow come out at a different result.
+
+00:12:09,770 --> 00:12:13,850
+This also speaks for
+this at least conceptual consideration:
+
+00:12:13,850 --> 00:12:15,560
+It's kind of parallel.
+
+00:12:15,560 --> 00:12:18,860
+We're writing down firing sequences,
+
+00:12:18,860 --> 00:12:21,080
+but the order between
+these concurrently activated transitions doesn't matter.
+
+00:12:23,300 --> 00:12:26,720
+In the end, the same thing comes
+out unless we do something else in between.
+
+00:12:26,720 --> 00:12:27,170
+It's really just a matter of:
+
+00:12:27,170 --> 00:12:32,540
+If we have this set T'
+of activated transitions and we execute them
+
+00:12:32,540 --> 00:12:37,410
+from a marking m in any order
+(again, you could have seen this in the
+
+00:12:37,410 --> 00:12:42,300
+example that was in the video; because no
+matter what marking would be on here and
+
+00:12:42,300 --> 00:12:44,520
+no matter what order I
+then fire t1, t2, t3), the
+
+00:12:44,520 --> 00:12:50,396
+result is that in the end there is
+exactly one marking on each of the subsequent places.
+
+00:12:50,396 --> 00:12:55,890
+That would be a case
+where this becomes effective and visible.
+
+00:12:55,890 --> 00:13:06,750
+This ensures that in the one example at the beginning
+of the last video, which I think we had already
+
+00:13:06,750 --> 00:13:11,430
+seen, in the reachability graph then
+always a kind of arrangement of transitions
+
+00:13:11,430 --> 00:13:17,430
+will result in such a
+way for transitions activated concurrently.
+
+00:13:17,430 --> 00:13:20,070
+There I had had
+that before for two transitions.
+
+00:13:20,070 --> 00:13:23,370
+I think they were t2 and t3
+in the causality example from last week.
+
+00:13:23,370 --> 00:13:29,910
+Namely, if we have
+something like this, very
+
+00:13:29,910 --> 00:13:33,750
+simple, two obviously concurrently activated
+transitions, and we set
+
+00:13:33,750 --> 00:13:38,520
+up the reachability graph just for
+this example, then it looks like this:
+
+00:13:38,520 --> 00:13:39,840
+There is this square here.
+
+00:13:39,840 --> 00:13:41,700
+I have also said "diamond" to it before.
+
+00:13:41,700 --> 00:13:46,144
+It depends on how you draw it.
+
+00:13:46,144 --> 00:13:51,000
+Higher dimensionally, it will look even more
+obvious, so to speak, like a crystal structure.
+
+00:13:51,000 --> 00:13:52,740
+The point is here:
+
+00:13:52,740 --> 00:13:59,340
+Since t1, t2 are activated concurrently,
+the order doesn't matter.
+
+00:13:59,340 --> 00:14:03,450
+That means, from any marking (in
+this case the start marking of
+
+00:14:03,450 --> 00:14:08,940
+this very simple Petri net) we can
+fire first t1, t2 or t2, t1.
+
+00:14:08,940 --> 00:14:13,470
+And it results in this
+typical structure, which we find here,
+
+00:14:13,470 --> 00:14:16,290
+if we have
+concurrently activated transitions.
+
+00:14:16,290 --> 00:14:19,230
+That's because the order doesn't matter.
+
+00:14:19,230 --> 00:14:20,940
+And as I said:
+
+00:14:20,940 --> 00:14:24,870
+If we have more than two
+transitions, then that just becomes something
+
+00:14:24,870 --> 00:14:30,180
+like a higher
+dimensional such mathematical construct.
+
+00:14:30,180 --> 00:14:36,270
+So for instance if we have
+that, but just also in other Petri
+
+00:14:36,270 --> 00:14:40,170
+nets where we have three concurrent transitions
+(and that doesn't have to be as obvious
+
+00:14:40,170 --> 00:14:44,160
+or as boring as it is here,
+but is true for any constellation where
+
+00:14:44,160 --> 00:14:49,180
+we have three concurrently activated
+transitions), then such structures arise.
+
+00:14:49,180 --> 00:14:55,150
+Again because any order of
+transitions will be possible, and
+
+00:14:55,150 --> 00:15:00,040
+that then leads to such
+structures in the reachability graph.
+
+00:15:00,040 --> 00:15:04,630
+Maybe, or usually, of course
+embedded in larger reachability graphs.
+
+00:15:04,630 --> 00:15:06,520
+But you can then recognize that.
+
+00:15:06,520 --> 00:15:10,150
+And then that speaks to
+the fact that there is concurrency.
+
+00:15:10,150 --> 00:15:18,160
+That's not proof of it, but it's a
+certain identifying feature that you can look for.
+
+00:15:24,030 --> 00:15:32,580
+Then you can ask yourself if that's
+sort of guaranteed that there's concurrency if
+
+00:15:32,580 --> 00:15:37,560
+you see a structure like that, or
+if you know that all the transitions from
+
+00:15:37,560 --> 00:15:44,310
+a certain set are fireable from
+the same marking in any order.
+
+00:15:44,310 --> 00:15:50,130
+So if we have a marking m
+and a set T' such that any arrangement
+
+00:15:50,130 --> 00:15:54,870
+of these transitions is a valid
+firing sequence, is it also the
+
+00:15:54,870 --> 00:15:59,070
+case that with certainty the transitions
+from T' are activated concurrently for m?
+
+00:15:59,070 --> 00:16:02,070
+This is the converse of
+the observations we just discussed.
+
+00:16:02,070 --> 00:16:02,820
+And the answer is:
+
+00:16:02,820 --> 00:16:04,530
+No, that's not necessarily true.
+
+00:16:04,530 --> 00:16:06,660
+And here's a simple counterexample.
+
+00:16:06,660 --> 00:16:09,660
+You can use the example to think about:
+
+00:16:09,660 --> 00:16:19,050
+If we take here \{t1, t2\}
+as the set T', then of course
+
+00:16:19,050 --> 00:16:22,650
+any order of firing is possible.
+
+00:16:22,650 --> 00:16:26,460
+We can fire t1, can fire t2, we
+can fire t1, t1, can fire t2, t2.
+
+00:16:26,460 --> 00:16:33,690
+The t1 and t2 are always activated,
+but t1 and t2 are not activated concurrently.
+
+00:16:33,690 --> 00:16:38,220
+This can be checked very easily.
+
+00:16:38,220 --> 00:16:40,890
+Because for that we would have to be
+able to fire t1, t2 at the same time.
+
+00:16:40,890 --> 00:16:45,570
+So we would have to be able to fulfill
+the preconditions of t1 and t2 at the same time.
+
+00:16:45,570 --> 00:16:47,430
+But we can't do that with this one token.
+
+00:16:47,430 --> 00:16:50,190
+And even if we recalculate this
+with the preweight functions, we would
+
+00:16:50,190 --> 00:16:53,340
+have the preweight function
+1 in each case.
+
+00:16:53,340 --> 00:16:55,410
+There is only one place.
+
+00:16:55,410 --> 00:16:57,390
+So a tuple with a 1 each,
+
+00:16:57,390 --> 00:17:02,190
+the sum would be 2, but the
+current marking just has only one token.
+
+00:17:02,190 --> 00:17:09,000
+So here t1, t2 are not activated
+concurrently and yet it is the case that
+
+00:17:09,000 --> 00:17:11,190
+they can be fired in any order.
+
+00:17:16,010 --> 00:17:20,120
+That's ultimately due to
+this loop structure here.
+
+00:17:22,070 --> 00:17:25,250
+Of course, this is
+a somewhat mean Petri net
+
+00:17:25,250 --> 00:17:29,510
+here because it has this
+loop or two such loops.
+
+00:17:29,510 --> 00:17:38,690
+By loop (or loops) we mean when there
+is a transition and a place, so that
+
+00:17:38,690 --> 00:17:44,300
+this transition would like to take
+something out of this place (so
+
+00:17:44,300 --> 00:17:48,050
+it has a positive pre-weight)
+as well as put something in
+
+00:17:48,050 --> 00:17:50,720
+if it can fire (so
+it also has a positive post-weight).
+
+00:17:50,720 --> 00:17:56,720
+This leads exactly to such
+structures in the Petri net.
+
+00:17:56,720 --> 00:18:00,260
+Of course, the Petri net does
+not have to look exactly like this.
+
+00:18:00,260 --> 00:18:04,100
+This can occur somewhere
+embedded in the Petri net.
+
+00:18:04,100 --> 00:18:07,370
+So other arrows are possible, to
+
+00:18:07,370 --> 00:18:09,920
+other places or in
+connection with other transitions.
+
+00:18:10,430 --> 00:18:13,370
+But if we have a Petri net
+in which such a thing does not occur
+
+00:18:13,370 --> 00:18:16,730
+(in which there are no loops),
+that is, we have a loop-free
+
+00:18:16,730 --> 00:18:21,530
+Petri net, then the question from the
+previous slide can actually be answered positively.
+
+00:18:22,100 --> 00:18:25,430
+So if we then have a
+marking and a set of transitions
+
+00:18:25,430 --> 00:18:32,000
+such that any arrangement of these
+transitions leads to a valid firing
+
+00:18:33,050 --> 00:18:36,980
+sequence, then this set
+will also be concurrently activated.
+
+00:18:36,980 --> 00:18:41,690
+So then we can actually conclude from
+the presence of, say, a "cube" that
+
+00:18:41,690 --> 00:18:46,880
+there is a three-element
+set of concurrently activated transitions.
+
+00:18:46,880 --> 00:18:50,270
+We will not have to do that.
+
+00:18:50,270 --> 00:18:53,510
+Whenever we have such questions
+("Is there something concurrently activated?"), we
+
+00:18:53,510 --> 00:18:55,820
+can calculate it concretely.
+
+00:18:55,820 --> 00:19:02,660
+Of course, our criterion in each case
+will be to determine that with this.
+
+00:19:02,660 --> 00:19:07,040
+Or if you have done that often
+enough, you will of course recognize the things
+
+00:19:07,850 --> 00:19:11,690
+from the Petri net itself,
+and you don't necessarily have to
+
+00:19:11,690 --> 00:19:13,010
+calculate that manually, as I
+just did on the slides.
+
+00:19:16,960 --> 00:19:22,660
+That's enough for the end of the
+consideration of concurrency from the formal side.

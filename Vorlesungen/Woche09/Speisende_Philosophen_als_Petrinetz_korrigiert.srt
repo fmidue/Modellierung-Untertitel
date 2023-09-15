@@ -1,0 +1,944 @@
+189 # slide
+00:00:01,540 --> 00:00:10,580
+Wir befinden uns immer noch in dem Teil Eigenschaften
+von Petrinetzen in dieser Vorlesung.
+
+00:00:10,580 --> 00:00:15,380
+Insgesamt nähern wir uns allerdings dem Ende
+des Petrinetz-Kapitels.
+
+00:00:15,380 --> 00:00:20,930
+Tatsächlich werden wir keine weiteren Eigenschaften
+mehr einführen.
+
+00:00:20,930 --> 00:00:26,750
+Sondern in diesem Video möchte ich ein Beispiel
+diskutieren, was zu Beginn des Petrinetz-Kapitels
+
+00:00:26,750 --> 00:00:31,640
+stand, und von dem ich versprochen hatte,
+dass wir es später auch noch als Petrinetz
+
+00:00:31,640 --> 00:00:32,720
+anschauen werden.
+
+00:00:32,720 --> 00:00:35,890
+Das waren die sogenannten Speisenden Philosophen.
+
+00:00:35,890 --> 00:00:46,440
+An diesem Beispiel hatte ich eingangs auch
+einige Eigenschaften angesprochen, die man
+
+00:00:46,440 --> 00:00:51,110
+gern von solch einem dynamischen System wissen
+und untersuchen möchte.
+
+00:00:51,110 --> 00:00:56,260
+Einige davon haben wir mittlerweile formalisiert
+und können sie dann jetzt auch auf dieses
+
+00:00:56,260 --> 00:00:57,260
+Beispiel anwenden.
+
+00:00:57,260 --> 00:01:02,190
+Da waren Fragen nach dem Fortschritt oder
+Sackgassen, in denen ein System landen kann.
+
+00:01:02,190 --> 00:01:08,580
+Oder ob einzelne Aktionen, die wir als Transitionen
+in einem Petrinetz modelliert haben, immer
+
+00:01:08,580 --> 00:01:11,900
+mindestens einmal vorkommen können oder sogar
+beliebig oft ausgeführt werden können.
+
+00:01:11,900 --> 00:01:17,750
+Es gab Fragen zur Fairness, die sich bei den
+Philosophen darin äußerte, ob zwei Philosophen
+
+00:01:17,750 --> 00:01:19,680
+zusammen den dritten verhungern lassen können.
+
+00:01:19,680 --> 00:01:24,610
+Es ging um Kausalitäten, ob sich bestimmte
+Aktionen gegenseitig bedingen (was man auch
+
+00:01:24,610 --> 00:01:27,159
+hier mit dem Beispiel wiederfinden kann).
+
+00:01:27,159 --> 00:01:32,700
+Und auch die zuletzt eingeführten Begriffe
+zu Nebenläufigkeit und Konflikten lassen
+
+00:01:32,700 --> 00:01:36,170
+sich auf dieses Beispiel beziehen.
+
+00:01:36,170 --> 00:01:42,909
+Fragen zu Beschränkungen oder Kapazitäten,
+also Beschränktheit oder 1-Sicherheit, die
+
+00:01:42,909 --> 00:01:47,600
+auch in der vergangenen Woche besprochen wurden,
+haben konkret auf dieses Beispiel weniger
+
+00:01:47,600 --> 00:01:48,670
+Anwendung.
+
+00:01:48,670 --> 00:01:52,420
+Die werden wir dann separat nochmal in anderem
+Zusammenhang betrachten.
+
+00:01:52,420 --> 00:01:56,700
+Aber zur Erinnerung zunächst erst noch mal
+dieses Beispiel.
+
+00:01:56,700 --> 00:01:57,830
+Also, worum ging es da?
+
+00:01:57,830 --> 00:02:00,560
+Es gab diese drei Philosophen, die um einen
+runden Tisch sitzen.
+
+00:02:00,560 --> 00:02:02,760
+Und das ist natürlich kein Petrinetz, was
+Sie hier sehen.
+
+00:02:02,760 --> 00:02:08,800
+Das ist einfach nur eine Skizze, eine Darstellung
+der Situation.
+
+00:02:08,800 --> 00:02:10,810
+Es gibt diese drei Philosophen P1, P2, P3.
+
+00:02:10,810 --> 00:02:11,939
+Die sitzen um einen runden Tisch.
+
+00:02:11,939 --> 00:02:17,209
+Und immer zwischen zwei Philosophen liegt
+eine Gabel (englisch: Fork, deswegen F1, F2,
+
+00:02:17,209 --> 00:02:18,280
+F3).
+
+00:02:18,280 --> 00:02:23,969
+Und dann gab die Beschreibung der Situation
+her, dass die Philosophen von Zeit zu Zeit
+
+00:02:23,969 --> 00:02:27,590
+hungrig werden (das werden wir H_i für "hungrig"
+nennen).
+
+00:02:27,590 --> 00:02:33,779
+Und dann möchten sie gerne essen (das wird
+hier mit E1, E2, E3 für die drei Philosophen
+
+00:02:33,779 --> 00:02:34,879
+gekennzeichnet werden).
+
+00:02:34,879 --> 00:02:37,310
+Und dazu benötigen sie beide benachbarten
+Gabeln.
+
+00:02:37,310 --> 00:02:43,680
+Das heißt, wenn Philosoph 1 essen möchte,
+braucht er Gabeln 3 und 1.
+
+00:02:43,680 --> 00:02:49,709
+Und das Vorgehen dabei ist so, dass ein Philosoph,
+der hungrig ist, zu einem beliebigen Zeitpunkt
+
+00:02:49,709 --> 00:02:54,769
+beide Gabeln aufnimmt, und zwar zuerst die
+rechte und erst wenn die rechte in der Hand
+
+00:02:54,769 --> 00:03:00,890
+ist, dann auch die linke sofern möglich (wenn
+die linke Gabel noch da liegt).
+
+00:03:00,890 --> 00:03:03,359
+Dann wird mit beiden Gabeln gegessen.
+
+00:03:03,359 --> 00:03:06,669
+Und anschließend legt der Philosoph die beiden
+Gabeln wieder gleichzeitig zurück auf den
+
+00:03:06,669 --> 00:03:12,059
+Tisch, so dass dann vielleicht jemand anders
+nach einer dieser beiden Gabeln greifen könnte.
+
+00:03:12,059 --> 00:03:18,180
+So war die verbale Beschreibung des Problems,
+jetzt noch angereichert um diese Bezeichnungen
+
+00:03:18,180 --> 00:03:26,319
+(ich glaube, das tauchte auf den vorherigen
+Folie zu diesem Beispiel nicht auf).
+
+00:03:26,319 --> 00:03:32,069
+Jetzt können wir das prinzipiell als ein
+Petrinetz zu modellieren versuchen.
+
+00:03:32,069 --> 00:03:37,809
+Und dafür werde ich genau die Bezeichnungen,
+die hier schon aufgetreten sind, in dem Petrinetz
+
+00:03:37,809 --> 00:03:38,809
+verwenden.
+
+00:03:38,809 --> 00:03:44,189
+Und zwar werden das genau die Stellen im Petrinetz
+sein.
+
+00:03:44,189 --> 00:03:47,129
+Die Philosophen selber nicht.
+
+00:03:47,129 --> 00:03:52,749
+Die werden nicht selber im Petrinetz vorkommen,
+sondern die sind im wesentlichen gekennzeichnet
+
+00:03:52,749 --> 00:03:57,069
+durch ihr Hungrigsein und ihr Essen.
+
+00:03:57,069 --> 00:04:01,019
+Wie könnte dieses Petrinetz aussehen?
+
+00:04:01,019 --> 00:04:04,969
+Ich gebe das einfach mal vor, einerseits.
+
+00:04:04,969 --> 00:04:08,650
+Andererseits werde ich jetzt erklären, wie
+sich die Philosophen hier wiederfinden.
+
+00:04:08,650 --> 00:04:12,159
+Sofort offensichtlich kann man sie hier nicht
+wiedererkennen.
+
+00:04:12,159 --> 00:04:19,320
+Also, es gibt die Stellen H, W, F jeweils
+nummeriert mit 1, 2, 3.
+
+00:04:19,320 --> 00:04:23,100
+Und die Bedeutung zum Beispiel der Stelle
+H1 soll sein:
+
+00:04:23,100 --> 00:04:27,140
+Philosoph 1 ist hungrig bzw. ist bereit zum
+Essen.
+
+00:04:27,140 --> 00:04:30,410
+Es wird so sein, dass im Prinzip die Philosophen
+immer hungrig sind.
+
+00:04:30,410 --> 00:04:33,650
+Es wird nicht extra modelliert, dass sie erst
+mal hungrig werden müssen.
+
+00:04:33,650 --> 00:04:38,751
+Es geht darum, dass zu jedem Zeitpunkt ein
+Philosoph sich entscheiden könnte, essen
+
+00:04:38,751 --> 00:04:43,650
+zu wollen (also bereit zum Essen zu sein),
+und dann zu versuchen, nach den Gabeln zu
+
+00:04:43,650 --> 00:04:45,910
+greifen (um essen zu können).
+
+00:04:45,910 --> 00:04:51,750
+Da wir wissen, dass es diesen Moment gibt,
+wo ein Philosoph, der schon eine Gabel gegriffen
+
+00:04:51,750 --> 00:04:58,020
+hat, auf die andere Gabel warten muss, gibt
+es die zusätzlichen Stellen W1, W2, W3.
+
+00:04:58,020 --> 00:05:02,340
+Die tauchten so in der Beschreibung nicht
+auf.
+
+00:05:02,340 --> 00:05:08,320
+Das wäre der Zustand, nachdem die rechte
+Gabel bereits gegriffen wurde und gegebenenfalls
+
+00:05:08,320 --> 00:05:13,110
+auf die linke Gabel gewartet werden muss,
+weil sie nicht auf dem Tisch liegt.
+
+00:05:13,110 --> 00:05:16,290
+Dazu wird eine Marke bei W1 oder W2 bzw.
+
+00:05:16,290 --> 00:05:17,290
+W3 verwendet werden.
+
+00:05:17,290 --> 00:05:20,950
+Um auszudrücken, dass der entsprechende Philosoph
+auf die linke Gabel wartet.
+
+00:05:20,950 --> 00:05:25,130
+Was auch heißt, dass er die rechte Gabel
+bereits gegriffen hat.
+
+00:05:25,130 --> 00:05:29,030
+Wenn eine Gabel nicht gegriffen ist, dann
+liegt sie auf dem Tisch.
+
+00:05:29,030 --> 00:05:33,290
+Das entspräche der Situation, wie sie hier
+ist, wo die Gabeln wirklich noch auf dem Tisch
+
+00:05:33,290 --> 00:05:34,290
+liegen.
+
+00:05:34,290 --> 00:05:39,050
+Und dafür wird eine jeweilige Marke auf F1,
+F2, F3 benutzt werden.
+
+00:05:39,050 --> 00:05:46,180
+Das sehen wir dann sozusagen hier an den drei
+Stellen.
+
+00:05:46,180 --> 00:05:53,080
+Und dann wird es noch Marken auf den Stellen
+E1, E2, E3 geben, wenn der entsprechende Philosoph
+
+00:05:53,080 --> 00:05:54,080
+gerade isst.
+
+00:05:54,080 --> 00:05:57,510
+Also, wir sehen die Philosophen hier nicht
+explizit.
+
+00:05:57,510 --> 00:06:00,380
+Aber natürlich können wir sie trotzdem hier
+drin wiederfinden.
+
+00:06:00,380 --> 00:06:14,570
+Und zwar wäre der Philosoph 1 zum Beispiel
+hier letztlich durch diesen Teil des Petrinetzes
+
+00:06:14,570 --> 00:06:16,310
+repräsentiert.
+
+00:06:16,310 --> 00:06:22,460
+Also die drei Stellen zum Hungrigsein, zum
+Warten und zum Essen, die sich auf Philosoph
+
+00:06:22,460 --> 00:06:31,990
+1 beziehen, und letztlich diese Transition
+vor der Warten-Stelle.
+
+00:06:31,990 --> 00:06:38,710
+Das ist auch eine Transition, die zu Philosoph
+1 gehört, denn das ist da, wo Philosoph 1
+
+00:06:38,710 --> 00:06:43,090
+zunächst aktiv wird (nämlich wenn er hungrig
+ist und eine passende Gabel, seine rechte
+
+00:06:43,090 --> 00:06:45,830
+Gabel, auf dem Tisch vorfindet).
+
+00:06:45,830 --> 00:06:48,640
+Für Philosoph 1 ist F3 die rechte Gabel.
+
+00:06:48,640 --> 00:06:54,730
+Damit würde die Aktion starten für den Philosophen
+1.
+
+00:06:54,730 --> 00:07:02,180
+Im Grunde genommen ist das hier Philosoph
+1, und entsprechend kann man Philosoph 2 hier
+
+00:07:02,180 --> 00:07:06,900
+im Petrinetz wiederfinden, und ähnlich Philosoph
+3.
+
+00:07:06,900 --> 00:07:10,490
+Dann gibt es noch die beiden Gabeln.
+
+00:07:10,490 --> 00:07:11,830
+Die sind wirklich getrennt von den Philosophen.
+
+00:07:11,830 --> 00:07:17,210
+Die sind einfach da und anfangs auch belegt
+mit einer Marke.
+
+00:07:17,210 --> 00:07:18,700
+Und es gibt diese Transition.
+
+00:07:18,700 --> 00:07:22,220
+Die könnten wir eigentlich auch zum Philosophen
+1 zählen lassen.
+
+00:07:22,220 --> 00:07:29,090
+Das wäre die Transition, wo der Philosoph
+1 mit Essen fertig ist und die Gabeln wieder
+
+00:07:29,090 --> 00:07:30,090
+freigibt.
+
+00:07:30,090 --> 00:07:36,490
+So finden wir die drei Philosophen wieder,
+ausgedrückt durch diese Menge an Stellen.
+
+00:07:36,490 --> 00:07:41,580
+Die Ausgangssituation ist, dass die drei Gabeln
+auf dem Tisch liegen (das sehen wir hier),
+
+00:07:41,580 --> 00:07:45,070
+und dass alle drei Philosophen prinzipiell
+zum Essen bereit sind.
+
+00:07:45,070 --> 00:07:50,610
+Also bereit wären, nach Gabeln zu greifen,
+um dann essen zu können.
+
+00:07:50,610 --> 00:07:54,750
+Wie sind die ganzen Verschaltungen gerechtfertigt?
+
+00:07:54,750 --> 00:07:58,980
+Zum Beispiel sehen wir hier, dass tatsächlich
+diese Aktion, die dazu führen würde, dass
+
+00:07:58,980 --> 00:08:04,870
+Philosoph 1 auf die linke Gabel wartet, davon
+abhängt, dass Philosoph 1 zuvor tatsächlich
+
+00:08:04,870 --> 00:08:11,870
+hungrig war und die rechte Gabel aus F3 bereits
+genommen hat.
+
+00:08:11,870 --> 00:08:17,710
+Das würde rechtfertigen, warum das genau
+die Vorbedingungen für diese Transition sind,
+
+00:08:17,710 --> 00:08:21,380
+die dazu führt, dass dann Philosoph 1 auf
+diese Gabel wartet.
+
+00:08:21,380 --> 00:08:23,260
+Dann können wir schauen:
+
+00:08:23,260 --> 00:08:26,210
+Was muss passieren, damit Philosoph 1 essen
+kann?
+
+00:08:26,210 --> 00:08:28,810
+Er muss zuvor die rechte Gabel gegriffen haben.
+
+00:08:28,810 --> 00:08:33,570
+Das heißt, es muss von Philosoph 1 dieser
+Warten-Zustand eingenommen worden sein, und
+
+00:08:33,570 --> 00:08:38,269
+dann muss er die linke Gabel greifen können
+(was für den Philosophen 1 die Gabel F1 ist).
+
+00:08:38,269 --> 00:08:43,459
+Also wenn diese und diese Bedingung erfüllt
+sind, dann kann der Philosoph 1 essen.
+
+00:08:43,459 --> 00:08:47,079
+Dann würde eine Marke hier liegen für den
+Philosophen 1, und dann würde Philosoph 1,
+
+00:08:47,079 --> 00:08:49,569
+wenn er fertig ist mit essen, diese Transition
+schalten können.
+
+00:08:49,569 --> 00:08:52,422
+Und das würde dafür sorgen, dass Philosoph
+1 wieder in den Zustand zurückkehrt, wo er
+
+00:08:52,422 --> 00:08:57,430
+bereit ist zu essen, also wieder auf das nächste
+Mal wartet, wo er essen würde.
+
+00:08:57,430 --> 00:09:00,569
+Und natürlich müssten beide Gabeln, die
+linke und die rechte Gabel, durch Philosoph
+
+00:09:00,569 --> 00:09:01,620
+1 zurückgegeben werden.
+
+00:09:01,620 --> 00:09:07,199
+Deswegen gibt es diese beiden Ausgangspfeile
+von der Transition.
+
+00:09:07,199 --> 00:09:11,420
+Und für Philosoph 2 und Philosoph 3 ist das
+jeweils einfach symmetrisch wiederholt.
+
+00:09:11,420 --> 00:09:21,870
+Also die anderen Teile in diesem Bereich machen
+das gleiche für den Philosophen 3.
+
+00:09:21,870 --> 00:09:23,940
+Soviel zur Art der Modellierung hier.
+
+00:09:23,940 --> 00:09:31,949
+Dann können wir uns einen Durchlauf anschauen
+und dabei auf Eigenschaften achten, die wir
+
+00:09:31,949 --> 00:09:33,480
+bereits gesehen haben.
+
+00:09:33,480 --> 00:09:34,730
+Erkennen wir Nebenläufigkeit?
+
+00:09:34,730 --> 00:09:35,839
+Erkennen wir einen Konflikt?
+
+00:09:35,839 --> 00:09:37,670
+Können wir was zur Lebendigkeit sagen?
+
+00:09:37,670 --> 00:09:44,269
+Nehmen wir an, dass der Philosoph 1 derjenige
+ist, der zuerst aktiv wird.
+
+00:09:44,269 --> 00:09:48,009
+Also zum Beispiel Philosoph P1 möchte gern
+essen.
+
+00:09:48,009 --> 00:09:50,769
+Was würde das bedeuten?
+
+00:09:50,769 --> 00:09:57,230
+Das würde bedeuten, P1 muss sehen, dass er
+die erste Gabel in die Hand kriegt.
+
+00:09:57,230 --> 00:09:59,550
+Natürlich wollen letztlich auch Philosoph
+2 und Philosoph 3 essen.
+
+00:09:59,550 --> 00:10:06,130
+Aber nehmen wir an, Philosoph 1 wird zuerst
+aktiv und wird auch erfolgreich diese Transition
+
+00:10:06,130 --> 00:10:10,550
+schalten können, weil im Moment hier die
+Gabel auf dem Tisch liegt, die er dafür braucht.
+
+00:10:10,550 --> 00:10:15,740
+Also die erste aktivierte Transition könnte
+das sein und die erste ausgeführte Aktion
+
+00:10:15,740 --> 00:10:18,029
+könnte sein, dass diese Transition schalten
+wird.
+
+00:10:18,029 --> 00:10:20,279
+Nämlich auf diesen beiden Marken basierend.
+
+00:10:20,279 --> 00:10:26,309
+Natürlich könnte analog, und zwar nebenläufig
+dazu, hier auch der Philosoph 2 aktiv werden
+
+00:10:26,309 --> 00:10:30,500
+oder hier der Philosoph 3 aktiv werden.
+
+00:10:30,500 --> 00:10:39,910
+Also hier wären jetzt diese, diese und diese
+Transition nebenläufig aktiviert.
+
+00:10:39,910 --> 00:10:44,759
+Es gibt im Moment keinen Konflikt in dem Petrinetz.
+
+00:10:44,759 --> 00:10:48,040
+Zumindest nicht zwischen diesen drei Transitionen.
+
+00:10:48,040 --> 00:10:52,699
+Nur so kann ich das sagen, den Rest müssen
+wir uns noch anschauen, ob es Konflikte anderer
+
+00:10:52,699 --> 00:10:56,750
+Art gibt.
+
+00:10:56,750 --> 00:11:02,490
+Also dann hat P1 jetzt die rechte Gabel genommen.
+
+00:11:02,490 --> 00:11:06,529
+Deswegen ist auch diese Marke hier verschwunden,
+und es ist auch nicht mehr festgehalten, dass
+
+00:11:06,529 --> 00:11:08,040
+Philosoph 1 essen möchte.
+
+00:11:08,040 --> 00:11:12,160
+Denn er ist sozusagen im Prozess, sich das
+Essen zu besorgen.
+
+00:11:12,160 --> 00:11:16,329
+Zumindest schon mal die rechte Gabel gegriffen
+zu haben, um danach eventuell die linke Gabel
+
+00:11:16,329 --> 00:11:18,250
+greifen zu können und zu essen.
+
+00:11:18,250 --> 00:11:23,740
+Nehmen wir mal an, dass weder Philosoph 2
+noch Philosoph 3 irgendwie in die Quere kommen,
+
+00:11:23,740 --> 00:11:25,970
+und Philosoph 1 weiter agieren kann.
+
+00:11:25,970 --> 00:11:30,290
+Dann könnte er jetzt natürlich diese Transition
+schalten, die dafür sorgen würde, dass er
+
+00:11:30,290 --> 00:11:33,199
+auch die andere Gabel (seine linke Gabel)
+an sich nimmt.
+
+00:11:33,199 --> 00:11:34,959
+Denn jetzt wäre diese Transition aktiviert.
+
+00:11:34,959 --> 00:11:36,310
+Das war sie vorher nicht.
+
+00:11:36,310 --> 00:11:37,779
+Sie war nicht aktiviert.
+
+00:11:37,779 --> 00:11:38,779
+Warum nicht?
+
+00:11:38,779 --> 00:11:39,779
+Weil hier keine Marke lag.
+
+00:11:39,779 --> 00:11:48,149
+Das heißt, das ist hier ein Fall von Kausalität,
+weil tatsächlich erst diese Transition schalten
+
+00:11:48,149 --> 00:11:50,730
+muss, bevor jemals diese Transition schalten
+kann.
+
+00:11:50,730 --> 00:11:52,869
+Das wäre eine notwendige Bedingung.
+
+00:11:52,869 --> 00:11:54,619
+Diese Transition wäre eine notwendige Bedingung
+für diese.
+
+00:11:54,619 --> 00:11:57,850
+Und auch das finden wir analog bei den anderen
+Philosophen.
+
+00:11:57,850 --> 00:12:01,550
+Was wir jetzt auch haben, ist eine Konfliktsituation.
+
+00:12:01,550 --> 00:12:08,089
+Im Schritt davor war das noch nicht der Fall.
+
+00:12:08,089 --> 00:12:11,680
+Da waren die drei Transitionen tatsächlich
+nebenläufig aktiviert, und es gab auch keine
+
+00:12:11,680 --> 00:12:15,620
+anderen aktivierten Transitionen als diese,
+diese und diese.
+
+00:12:15,620 --> 00:12:20,730
+Da kann man sich überzeugen, dass alle anderen
+Transitionen nicht aktiviert sind, weil jeweils
+
+00:12:20,730 --> 00:12:23,759
+mindestens eine Vorbedingungsstelle nicht
+belegt ist.
+
+00:12:23,759 --> 00:12:29,860
+Aber jetzt nach Ausführen der ersten Transition
+und dann Aktiviertsein dieser Transitionen
+
+00:12:29,860 --> 00:12:31,670
+zeigt sich, dass es einen Konflikt gibt.
+
+00:12:31,670 --> 00:12:36,690
+Es gibt nämlich noch eine weitere Transition,
+die jetzt auch aktiviert ist bzw. immer noch
+
+00:12:36,690 --> 00:12:43,999
+aktiviert ist, aber jetzt eben in Konflikt
+zu der einer anderen Transition hier steht,
+
+00:12:43,999 --> 00:12:46,009
+nämlich dieser Transition.
+
+00:12:46,009 --> 00:12:51,069
+Die ist nämlich auch aktiviert, denn sie
+findet in beiden ihren Vorbedingungsstellen
+
+00:12:51,069 --> 00:12:52,589
+eine Marke vor.
+
+00:12:52,589 --> 00:12:58,339
+Sie überlappt sich aber in ihren Vorbedingungen
+auf konfliktbehaftete Weise mit der nun hier
+
+00:12:58,339 --> 00:12:59,749
+auch aktivierten Transition.
+
+00:12:59,749 --> 00:13:05,240
+Denn sowohl diese Transition als auch diese
+markierte Transition würden gern diese Marke
+
+00:13:05,240 --> 00:13:06,240
+konsumieren.
+
+00:13:06,240 --> 00:13:10,449
+Und da dort nur eine Marke liegt, können
+sie das nicht gleichzeitig, parallel, nebenläufig.
+
+00:13:10,449 --> 00:13:15,470
+Beide, also sowohl diese als auch diese Transition
+sind aktiviert, sind aber nicht nebenläufig
+
+00:13:15,470 --> 00:13:16,470
+aktiviert.
+
+00:13:16,470 --> 00:13:21,369
+Also stehen sie in Konflikt, und zwar genau
+bezüglich dieser Gabel 1, weil das die linke
+
+00:13:21,369 --> 00:13:26,980
+Gabel für den Philosophen 1 und die rechte
+Gabel für den Philosophen 2 ist.
+
+00:13:26,980 --> 00:13:35,160
+Nehmen wir mal an, von den beiden in Konflikt
+stehenden Transitionen schaltet genau wieder
+
+00:13:35,160 --> 00:13:39,470
+nur die, welche dem Philosophen 1 zugeordnet
+ist.
+
+00:13:39,470 --> 00:13:43,829
+Dann würde das dafür sorgen, dass jetzt
+die Marke hier liegt.
+
+00:13:43,829 --> 00:13:46,010
+P1 hat jetzt auch die linke Gabel genommen
+und kann essen.
+
+00:13:46,010 --> 00:13:53,069
+F1 ist leer, denn Fork 1, die linke Gabel
+von Philosoph 1, ist vom Tisch genommen.
+
+00:13:53,069 --> 00:13:58,220
+Und jetzt ist hier diese Stelle markiert,
+wo Philosoph 1 isst.
+
+00:13:58,220 --> 00:14:07,110
+Und danach könnte oder sollte Philosoph 1
+die Gabeln zurücklegen.
+
+00:14:07,110 --> 00:14:12,410
+Parallel dazu hätte Philosoph 3 hier auch
+nach der Gabel greifen können, während Philosoph
+
+00:14:12,410 --> 00:14:16,600
+2 gar nichts hätte tun können (weil diese
+Stelle hier nicht belegt ist).
+
+00:14:16,600 --> 00:14:21,800
+Jetzt würde Philosoph 1 zum Beispiel die
+Transition schalten, die seinen Essens-Vorgang
+
+00:14:21,800 --> 00:14:22,800
+beendet.
+
+00:14:22,800 --> 00:14:27,949
+Und das soll dafür sorgen, dass hier, hier
+und hier wieder Marken liegen.
+
+00:14:27,949 --> 00:14:28,949
+Und tatsächlich:
+
+00:14:28,949 --> 00:14:37,610
+Nach dem Zurücklegen der Gabeln F3 und F1
+durch Philosoph 1 sind wir wieder in der Ausgangssituation.
+
+00:14:37,610 --> 00:14:46,529
+Das hat gut funktioniert, weil nur P1 aktiv
+war und nicht irgendwie P2, P3 sich eingemischt
+
+00:14:46,529 --> 00:14:47,740
+haben.
+
+00:14:47,740 --> 00:14:55,649
+Was könnten wir noch an Eigenschaften beobachten?
+
+00:14:55,649 --> 00:15:01,269
+Vielleicht zum Beispiel, wenn P1, P2, P3 eben
+nicht so kooperativ gewesen wären und P1
+
+00:15:01,269 --> 00:15:02,510
+nicht einfach hätten machen lassen.
+
+00:15:02,510 --> 00:15:05,070
+Gibt es hier zum Beispiel auch Möglichkeiten
+der Verklemmung?
+
+00:15:05,070 --> 00:15:08,439
+Das wissen wir intuitiv bereits, dass dem
+so ist.
+
+00:15:08,439 --> 00:15:13,569
+Denn wir hatten zu Anfang diskutiert, dass
+tatsächlich P1, P2, P3 sich ungünstig verhalten
+
+00:15:13,569 --> 00:15:19,029
+könnten, und damit das System letztlich in
+einen Tot-Zustand geraten könnte.
+
+00:15:19,029 --> 00:15:20,379
+Wie kann das passieren?
+
+00:15:20,379 --> 00:15:26,410
+Zum Beispiel wenn am Anfang, als hier diese
+drei Transitionen nebenläufig aktiviert waren,
+
+00:15:26,410 --> 00:15:30,570
+die Philosophen auch einfach gierig jeweils
+diese Transition ausführen.
+
+00:15:30,570 --> 00:15:33,489
+Also jeweils nach ihrer rechten Gabel greifen.
+
+00:15:33,489 --> 00:15:41,020
+Diese drei nebenläufig aktivierten Transitionen
+könnten ja alle drei in beliebiger Reihenfolge
+
+00:15:41,020 --> 00:15:42,020
+schalten.
+
+00:15:42,020 --> 00:15:46,739
+Das ist hier wie parallel passierend dargestellt.
+
+00:15:46,739 --> 00:15:50,949
+In Wirklichkeit passiert es in irgendeiner
+Reihenfolge, dass diese, diese und diese Transition
+
+00:15:50,949 --> 00:15:51,949
+schalten.
+
+00:15:51,949 --> 00:15:56,679
+Dann wären wir in dieser Situation, wo eben
+jetzt alle drei Philosophen auf ihre jeweils
+
+00:15:56,679 --> 00:16:06,869
+linke Gabel warten, aber niemals die Gelegenheit
+erhalten werden, tatsächlich entsprechend
+
+00:16:06,869 --> 00:16:08,350
+auch fortschreiten zu können.
+
+00:16:08,350 --> 00:16:12,029
+Jetzt haben alle ihre jeweils rechte Gabel
+genommen.
+
+00:16:12,029 --> 00:16:19,239
+Und keiner von ihnen hat die geringste Chance,
+nach der linken Gabel zu greifen.
+
+00:16:19,239 --> 00:16:24,889
+Aber es wird auch niemals passieren, dass
+einer der drei jetzt seine gegriffene rechte
+
+00:16:24,889 --> 00:16:26,110
+Gabel freigibt.
+
+00:16:26,110 --> 00:16:29,000
+Dazu müsste zum Beispiel P1 diese Transition
+schalten.
+
+00:16:29,000 --> 00:16:31,899
+Dafür müsste vorher diese Transition geschaltet
+haben.
+
+00:16:31,899 --> 00:16:34,949
+Das kann sie aber nicht, weil hier keine Marke
+liegt.
+
+00:16:34,949 --> 00:16:38,410
+Und die kommt da auch nicht hin, weil für
+P2 das gleiche gilt.
+
+00:16:38,410 --> 00:16:45,490
+P2 kann die rechte Gabel erst zurücklegen,
+nachdem die linke Gabel gegriffen werden konnte,
+
+00:16:45,490 --> 00:16:49,989
+kann dies aber nicht, weil das hier diese
+Marke erfordern würde etc.
+
+00:16:49,989 --> 00:16:54,299
+Dann haben wir hier tatsächlich einen Deadlock
+erreicht.
+
+00:16:54,299 --> 00:16:59,299
+Damit wissen wir auch, dass das Modell mit
+Sicherheit nicht stark lebendig ist.
+
+00:16:59,299 --> 00:17:00,410
+Man könnte sich noch fragen:
+
+00:17:00,410 --> 00:17:02,290
+Ist es zumindest schwach lebendig?
+
+00:17:02,290 --> 00:17:06,980
+Die Antwort wäre ja, denn wir haben gesehen,
+dass P1 für alle seine Transitionen durchschalten
+
+00:17:06,980 --> 00:17:08,260
+kann.
+
+00:17:08,260 --> 00:17:10,430
+Und auch P2, P3 könnten das.
+
+00:17:10,430 --> 00:17:13,210
+Also zumindest ist jede Transition einmal
+möglich auszuführen.
+
+00:17:13,210 --> 00:17:15,040
+Nicht in jedem Durchlauf.
+
+00:17:15,040 --> 00:17:21,820
+Aber von der Ausgangsmarkierung aus ist jede
+Transition prinzipiell auch mal ausführbar
+
+00:17:21,820 --> 00:17:27,839
+durch geeignete Wahlen von Abfolgen und Schritten.
+
+00:17:27,839 --> 00:17:29,420
+Beschränktheit liegt hier auch vor.
+
+00:17:29,420 --> 00:17:33,440
+Ich habe zwar nicht alle Fälle durchprobiert
+(wir haben keinen Erreichbarkeitsgraphen aufgebaut
+
+00:17:33,440 --> 00:17:37,900
+und auch nicht alle Situationen exploriert),
+aber man kann sich leicht überlegen, dass
+
+00:17:37,900 --> 00:17:39,800
+dieses Modell sogar 1-sicher ist.
+
+00:17:39,800 --> 00:17:46,810
+Denn zu Anfang gab es maximal eine Marke pro
+Stelle, es gibt auch keine Pfeile mit irgendwelchen
+
+00:17:46,810 --> 00:17:51,440
+Gewichten > 1, also diese syntaktischen Eigenschaften
+für 1-Sicherheit sind bereits erfüllt.
+
+00:17:51,440 --> 00:17:56,390
+Und wenn man das Modell ausführt, wird man
+auch feststellen, dass nie auf irgendeiner
+
+00:17:56,390 --> 00:17:57,690
+Stelle mehr als eine Marke liegt.
+
+00:17:57,690 --> 00:18:00,909
+Damit ist das Modell 1-sicher und natürlich
+auch beschränkt.

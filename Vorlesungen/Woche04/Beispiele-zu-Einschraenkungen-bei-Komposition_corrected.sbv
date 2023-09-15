@@ -31,32 +31,28 @@ not all combinations of
 multiplicities are necessarily useful here.
 
 0:00:45.030,0:00:45.960
-So one can write
-down all of them.
+So one can write down all of them.
 
 0:00:45.960,0:00:51.900
 One can write here, multiplicity exactly
 "1" shall prevail in each case.
 
 0:00:51.900,0:00:52.440
-But the
-question is:
+But the question is:
 
 0:00:52.440,0:00:56.760
 Can this be filled with life
 in a meaningful way in the sense
 
 0:00:56.760,0:00:58.260
-that we can
-specify objects for it?
+that we can specify objects for it?
 
 0:00:58.260,0:01:05.130
 And we can actually try
 that for the time being.
 
 0:01:05.130,0:01:08.190
-So let's
-take this constellation.
+So let's take this constellation.
 
 0:01:08.190,0:01:11.310
 And let's assume that there
@@ -67,12 +63,10 @@ Then this would mean that
 such a C-object should exist here.
 
 0:01:16.796,0:01:18.120
-Let's call
-that small "c".
+Let's call that small "c".
 
 0:01:18.120,0:01:20.340
-This is an object
-of the class C.
+This is an object of the class C.
 
 0:01:20.340,0:01:25.620
 And because this exists, and
@@ -95,8 +89,7 @@ That means there would have to
 be at least two more objects here.
 
 0:01:52.440,0:02:01.470
-Namely a B-object
-and an A-object.
+Namely a B-object and an A-object.
 
 0:02:01.470,0:02:08.010
 And each of these would have
@@ -115,8 +108,7 @@ Namely, that a part, in the case of this
 C-object, is at the same time part of several wholes.
 
 0:02:31.380,0:02:33.690
-And that
-is not allowed.
+And that is not allowed.
 
 0:02:33.690,0:02:39.141
 Therefore, what is written here on
@@ -131,16 +123,14 @@ That's why it doesn't make sense
 to start with the modeling at all.
 
 0:02:48.270,0:02:52.590
-Then we look again
-at the case, how
+Then we look again at the case, how
 
 0:02:52.590,0:03:00.300
 it would be, if we
 had decided differently at the beginning.
 
 0:03:00.300,0:03:09.540
-So we would
-have started with "0..1"
+So we would have started with "0..1"
 
 0:03:09.540,0:03:16.290
 instead, for example here or
@@ -159,8 +149,7 @@ Let's assume again that there
 should be at least one C-object.
 
 0:03:31.770,0:03:36.150
-Let's specify
-that again.
+Let's specify that again.
 
 0:03:36.150,0:03:46.860
 And then, because of this
@@ -175,28 +164,23 @@ There must then be
 such a connection here.
 
 0:03:57.670,0:03:59.470
-And now
-the question is:
+And now the question is:
 
 0:03:59.470,0:04:02.410
-What about
-the other composition?
+What about the other composition?
 
 0:04:03.130,0:04:03.910
-What follows
-from this?
+What follows from this?
 
 0:04:03.910,0:04:09.460
 Well, it doesn't necessarily
 require that a B-object exists.
 
 0:04:09.460,0:04:11.290
-Because "0..1"
-is there.
+Because "0..1" is there.
 
 0:04:11.290,0:04:15.010
-If you wanted to
-insert a B-object here
+If you wanted to insert a B-object here
 
 0:04:15.010,0:04:16.115
 and connect it, then you
@@ -207,8 +191,7 @@ Then you would have the situation on the pre-foil,
 namely that you assign two integers to the C-object.
 
 0:04:23.290,0:04:25.000
-So you would
-not do that.
+So you would not do that.
 
 0:04:25.000,0:04:31.720
 But you don't have to, because it
@@ -235,8 +218,7 @@ That's why you could write
 it down in that case,
 
 0:04:51.100,0:04:52.210
-but it wouldn't
-make any sense.
+but it wouldn't make any sense.
 
 0:04:52.210,0:04:56.500
 Because one would never actually
@@ -247,8 +229,7 @@ And then it's probably already
 been wrong in the modeling
 
 0:05:01.660,0:05:05.050
-to even assume
-that that's there.
+to even assume that that's there.
 
 0:05:07.600,0:05:14.590
 So that was the combination
@@ -283,8 +264,7 @@ And in fact, you can think
 of a situation here, for example.
 
 0:05:51.430,0:05:53.620
-Let's take our
-car examples again.
+Let's take our car examples again.
 
 0:05:53.620,0:06:02.970
 So let's say we somehow have a
@@ -307,8 +287,7 @@ And vice versa, one can
 now add multiplicities to it.
 
 0:06:20.820,0:06:25.290
-A car can
-carry/contain 0..4 wheels.
+A car can carry/contain 0..4 wheels.
 
 0:06:25.860,0:06:28.800
 On the slides before I
@@ -359,16 +338,14 @@ Namely, that a part is never part of
 more than one whole at the same time.
 
 0:07:13.380,0:07:14.310
-So here it
-would really be:
+So here it would really be:
 
 0:07:14.310,0:07:16.980
 The wheel can be on a car.
 The wheel can be in a bearing.
 
 0:07:16.980,0:07:18.435
-But only one of
-the two at a time.
+But only one of the two at a time.
 
 0:07:18.435,0:07:23.910
 So here that would be the
@@ -403,24 +380,20 @@ where there are two classes that are
 in compositional relation in a double way.
 
 0:08:25.110,0:08:27.000
-That's where I
-had also said:
+That's where I had also said:
 
 0:08:27.000,0:08:31.860
 What would not be allowed would be if this diamond
 was somehow at the bottom instead of at the top.
 
 0:08:31.860,0:08:32.340
-That would
-be forbidden.
+That would be forbidden.
 
 0:08:32.340,0:08:34.500
-Then we would
-have a cyclic relationship.
+Then we would have a cyclic relationship.
 
 0:08:34.500,0:08:35.520
-That
-is forbidden.
+That is forbidden.
 
 0:08:35.520,0:08:39.690
 But that, as it is shown here and
@@ -439,16 +412,14 @@ Because then an object of the
 lower class could be related to
 
 0:09:03.480,0:09:05.400
-several objects of
-the upper class.
+several objects of the upper class.
 
 0:09:05.400,0:09:10.230
 Namely once via this one
 and once via the other composition.
 
 0:09:10.230,0:09:12.510
-This does not
-make much sense.
+This does not make much sense.
 
 0:09:12.510,0:09:20.310
 But for instance in the case that
@@ -459,8 +430,7 @@ ends, one can well imagine
 that there are meaningful expressions.
 
 0:09:27.630,0:09:29.040
-You can
-think about what
+You can think about what
 
 0:09:29.040,0:09:32.460
 might be conceivable classes here,

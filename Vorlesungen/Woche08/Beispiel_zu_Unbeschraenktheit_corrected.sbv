@@ -7,28 +7,24 @@ What we have here before is
 not yet an unbounded Petri net.
 
 0:00:09.870,0:00:11.310
-This is a
-bounded Petri net.
+This is a bounded Petri net.
 
 0:00:11.310,0:00:17.700
 We know that because we
 had already drawn a reachability graph
 
 0:00:17.700,0:00:19.530
-for it on the
-slides, and it was finite.
+for it on the slides, and it was finite.
 
 0:00:19.530,0:00:21.990
 And that means per se
 that the Petri net is bounded.
 
 0:00:21.990,0:00:22.860
-Let me
-remind you again:
+Let me remind you again:
 
 0:00:22.860,0:00:24.510
-What was
-possible here?
+What was possible here?
 
 0:00:24.510,0:00:30.360
 So, in the initial situation (the reachability graph
@@ -39,16 +35,14 @@ and would then lead to the fact
 that we ultimately have two tokens down here.
 
 0:00:38.040,0:00:41.220
-Because of
-this 2 here.
+Because of this 2 here.
 
 0:00:41.220,0:00:44.190
 And after that,
 there were several possibilities.
 
 0:00:44.190,0:00:45.990
-We could fire
-t2, fire t3.
+We could fire t2, fire t3.
 
 0:00:45.990,0:00:50.400
 We could also fire t2 and fire
@@ -59,16 +53,13 @@ Then in some of these
 constellations, we reached a dead end.
 
 0:00:53.730,0:00:56.490
-So the Petri
-net was not deadlock-free.
+So the Petri net was not deadlock-free.
 
 0:00:56.490,0:00:57.990
-But that is not
-the point at the moment.
+But that is not the point at the moment.
 
 0:00:57.990,0:01:01.440
-Let's just first
-take the path that
+Let's just first take the path that
 
 0:01:01.440,0:01:04.890
 leads to ending up
@@ -119,12 +110,10 @@ A different mathematical formulation
 would also have that.
 
 0:02:05.110,0:02:06.910
-And then
-we can look:
+And then we can look:
 
 0:02:06.910,0:02:07.840
-What would
-happen now?
+What would happen now?
 
 0:02:07.840,0:02:11.530
 And, well, I have just made
@@ -171,8 +160,7 @@ up this token, for example, then move this
 token to here, and then fire t1 again.
 
 0:03:08.060,0:03:09.110
-What would
-happen then?
+What would happen then?
 
 0:03:09.110,0:03:10.610
 Then again a token would
@@ -191,16 +179,14 @@ That could then look
 like this, for example.
 
 0:03:21.800,0:03:25.520
-And then you can
-already see that you can
+And then you can already see that you can
 
 0:03:25.520,0:03:28.790
 ultimately reach any number of tokens
 here on place s3, for example.
 
 0:03:28.790,0:03:29.510
-Not only
-on place s3.
+Not only on place s3.
 
 0:03:29.510,0:03:32.300
 We can also move them all
@@ -235,16 +221,14 @@ to 38 tokens or more
 lying on at least one position.
 
 0:03:59.960,0:04:03.320
-I hope that's clear
-basically as far as
+I hope that's clear basically as far as
 
 0:04:03.320,0:04:05.150
 I've developed it here,
 that that can happen.
 
 0:04:05.150,0:04:06.980
-So for example, I
-could now fire up here.
+So for example, I could now fire up here.
 
 0:04:06.980,0:04:12.830
 And now I could fire t1 here
@@ -255,8 +239,7 @@ I would already have six tokens lying
 at the bottom on the s3 square afterwards.
 
 0:04:28.400,0:04:31.292
-And that
-is not bounded.
+And that is not bounded.
 
 0:04:31.292,0:04:32.600
 Yes, so 6 would still be bounded, but
@@ -271,8 +254,7 @@ And thus, by definition, the
 Petri net is not bounded.
 
 0:04:40.910,0:04:42.530
-Of course it
-is not 1-safe.
+Of course it is not 1-safe.
 
 0:04:42.530,0:04:44.330
 It is not anyway, already because
@@ -291,8 +273,7 @@ not necessarily have to come from the fact
 such weights greater than 1.
 
 0:05:00.050,0:05:02.420
-So there are
-also Petri nets, which
+So there are also Petri nets, which
 
 0:05:02.420,0:05:07.550
 fulfill so to speak the first
@@ -307,8 +288,7 @@ most one token), and nevertheless such
 a Petri net can be unbounded then.
 
 0:05:16.340,0:05:18.170
-You might think about
-this on your own.
+You might think about this on your own.
 
 0:05:18.170,0:05:21.260
 Think about a Petri net which
@@ -319,17 +299,14 @@ weights greater than 1, no places of
 the start marking with more than one token),
 
 0:05:28.310,0:05:30.620
-and yet the Petri
-net is not bounded.
+and yet the Petri net is not bounded.
 
 0:05:30.620,0:05:32.420
-This is not the
-example you see here.
+This is not the example you see here.
 
 0:05:32.420,0:05:34.880
 You could think of
 a suitable example yourself.
 
 0:05:34.880,0:05:36.530
-This is quite
-instructive, I think.
+This is quite instructive, I think.

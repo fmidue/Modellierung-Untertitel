@@ -1,0 +1,1056 @@
+70 # slide
+00:00:00,000 --> 00:00:09,660
+Class and object diagrams will keep us
+busy this week and also at least next
+
+00:00:09,660 --> 00:00:14,340
+week, as the first typical
+and most prominent representatives of UML.
+
+00:00:14,340 --> 00:00:18,540
+And we'll start this
+week with class diagrams.
+
+00:00:18,540 --> 00:00:23,520
+Here's just an example.
+
+00:00:23,520 --> 00:00:26,940
+You don't need to be able
+to read this right now, of course.
+
+00:00:27,900 --> 00:00:30,885
+We'll explain the syntax for it later.
+
+00:00:30,885 --> 00:00:37,140
+Here you can see some
+details, which we will discuss later.
+
+00:00:37,140 --> 00:00:43,350
+There are also some detail deviations from it,
+as it will sometimes be in the lecture.
+
+00:00:43,350 --> 00:00:48,900
+So the language is not fully formal,
+that's why sometimes there are small deviations.
+
+00:00:48,900 --> 00:00:53,370
+For example, we're going to illustrate exactly
+the passage here a little bit differently.
+
+00:00:53,370 --> 00:00:57,150
+When we make class diagrams ourselves,
+we'll usually add types to the
+
+00:00:57,150 --> 00:01:00,840
+attributes that show up here, etc.
+
+00:01:00,840 --> 00:01:04,770
+There are various
+specifics and small details.
+
+00:01:04,770 --> 00:01:07,770
+But as a first impression, you can
+
+00:01:07,770 --> 00:01:09,750
+just take a look at this class diagram.
+
+00:01:09,750 --> 00:01:13,260
+So here are kind
+of different classes represented.
+
+00:01:13,260 --> 00:01:16,680
+Obviously, somehow a university
+situation has been modeled.
+
+00:01:16,680 --> 00:01:18,420
+Professor, institute, lecture, student.
+
+00:01:18,420 --> 00:01:19,440
+There are classes.
+
+00:01:19,440 --> 00:01:23,550
+It could somehow
+be the participants occurring
+
+00:01:24,570 --> 00:01:31,020
+in a system/program/model that
+should be captured here.
+
+00:01:31,020 --> 00:01:33,030
+Then there are
+apparently some attributes that
+
+00:01:33,690 --> 00:01:38,130
+the individual classes have, so that
+objects of those classes (the professor,
+
+00:01:38,130 --> 00:01:43,140
+concretely, or a concrete institute)
+will have manifestations of those attributes.
+
+00:01:43,140 --> 00:01:47,160
+And there are apparently some
+relationships represented here as well.
+
+00:01:47,160 --> 00:01:50,340
+There seem to be
+different kinds of relations, too.
+
+00:01:50,340 --> 00:01:54,090
+Sometimes there are numbers like this
+on here, or some very special annotation.
+
+00:01:54,090 --> 00:01:56,310
+We're going to do all of that.
+
+00:01:56,310 --> 00:01:59,200
+So learning goals for this part
+of the lecture here are that on
+
+00:01:59,200 --> 00:02:01,750
+the one hand you
+learn this modeling language.
+
+00:02:01,750 --> 00:02:08,080
+That you can read something like this
+and understand why things are annotated differently here.
+
+00:02:08,080 --> 00:02:10,000
+And on the other hand, of course, to
+
+00:02:10,000 --> 00:02:14,890
+learn to set up models yourself with it
+(little by little, also via the exercise mode).
+
+00:02:14,890 --> 00:02:27,310
+Okay, now what has to go into
+such a class diagram, or what has to
+
+00:02:27,310 --> 00:02:31,750
+happen first, before you start
+to develop an object-oriented system?
+
+00:02:31,750 --> 00:02:34,150
+What should be modeled before that?
+
+00:02:34,150 --> 00:02:36,490
+In particular, model statically first.
+
+00:02:36,490 --> 00:02:38,290
+Here are a couple of
+questions that come up, and
+
+00:02:38,290 --> 00:02:43,330
+the answers to them will
+ultimately feed into the class diagram.
+
+00:02:43,330 --> 00:02:44,740
+So first of all, obviously:
+
+00:02:44,740 --> 00:02:47,710
+What objects or classes are needed?
+
+00:02:47,710 --> 00:02:48,820
+So what are the entities?
+
+00:02:48,820 --> 00:02:51,970
+In the example,
+professor, institute, etc., which
+
+00:02:51,970 --> 00:02:55,750
+occur in the scenario and
+are therefore to be modeled.
+
+00:02:55,750 --> 00:02:56,350
+Also:
+
+00:02:56,350 --> 00:02:58,300
+How many classes are needed?
+
+00:02:58,300 --> 00:03:02,020
+Will one have a class
+for each thing that can occur?
+
+00:03:02,020 --> 00:03:05,770
+Or is it just about the central
+concepts from the domain that one is modeling?
+
+00:03:05,770 --> 00:03:10,660
+What are the attributes of these classes
+and what are the relationships between them?
+
+00:03:10,660 --> 00:03:14,890
+So what should be written as attributes
+to which classes, and how are they linked?
+
+00:03:14,890 --> 00:03:17,740
+In the example just now, there
+were somehow not pairwise relationships between
+
+00:03:17,740 --> 00:03:23,350
+all classes via this link
+here, but only for selected pairs.
+
+00:03:23,350 --> 00:03:26,020
+This must come from somewhere,
+must be modeled by something.
+
+00:03:26,980 --> 00:03:29,680
+Which operations/methods do
+these classes provide?
+
+00:03:29,680 --> 00:03:31,945
+That didn't appear at all in the example.
+
+00:03:31,945 --> 00:03:37,570
+Those were the empty boxes,
+which stood below the classes.
+
+00:03:37,570 --> 00:03:40,555
+Operations would have
+to be recorded there.
+
+00:03:40,555 --> 00:03:42,550
+This was not done in the example.
+
+00:03:42,550 --> 00:03:44,470
+How do these methods work together?
+
+00:03:44,470 --> 00:03:47,200
+That would be more
+a question for dynamic modeling.
+
+00:03:50,110 --> 00:03:51,310
+In which states can objects be?
+
+00:03:51,310 --> 00:03:53,170
+This certainly has something
+to do with attributes.
+
+00:03:53,170 --> 00:03:56,260
+Which messages are sent
+to other objects and when?
+
+00:03:56,260 --> 00:03:59,080
+Which messages there are,
+that would be static.
+
+00:03:59,080 --> 00:04:03,040
+When exactly that happens would again
+be a question for dynamic modeling,
+
+00:04:03,040 --> 00:04:10,630
+which we can only answer later
+and not with class and object diagrams.
+
+00:04:10,630 --> 00:04:13,120
+Some of these points already
+have appeal to dynamic modeling.
+
+00:04:13,120 --> 00:04:15,250
+But already for this static modeling, if
+
+00:04:15,250 --> 00:04:21,640
+you answer the first few questions
+here, you have to get going somehow.
+
+00:04:21,640 --> 00:04:25,090
+There are various approaches
+to this in the literature.
+
+00:04:25,090 --> 00:04:29,020
+They are not
+completely formal or systematic.
+
+00:04:29,020 --> 00:04:33,820
+For example, the first thing is
+to somehow record requirements for a domain.
+
+00:04:33,820 --> 00:04:36,520
+Requirements gathering.
+
+00:04:36,520 --> 00:04:42,550
+The first step would
+be to determine the classes.
+
+00:04:44,050 --> 00:04:47,410
+Later, you can try to
+establish relationships between the classes in
+
+00:04:47,410 --> 00:04:51,580
+order to ultimately work
+towards the class diagram.
+
+00:04:51,580 --> 00:04:56,380
+What I would like to do now in
+the next slides is to simply pick an example
+
+00:04:56,380 --> 00:05:00,760
+from one of the books that
+I presented at the beginning of
+
+00:05:00,760 --> 00:05:06,910
+the lecture in the first week and
+at least simulate this finding of classes.
+
+00:05:06,910 --> 00:05:08,830
+This won't be
+completely systematic, but at
+
+00:05:08,830 --> 00:05:12,130
+least it gives you an
+idea of how to proceed.
+
+00:05:12,130 --> 00:05:15,370
+Even if you have such a task
+in the exercises that you are given
+
+00:05:15,370 --> 00:05:19,360
+a scenario and you are
+supposed to identify the classes (and
+
+00:05:19,360 --> 00:05:23,080
+later also the properties
+and relationships between them).
+
+00:05:23,080 --> 00:05:25,780
+We'll do that with the following example.
+
+00:05:25,780 --> 00:05:28,930
+This is in English because, as I
+said, it's taken from one of the books,
+
+00:05:28,930 --> 00:05:32,950
+and that was the English language book.
+
+00:05:32,950 --> 00:05:37,240
+We will discuss it a bit superficially
+here, and we will not fill in
+
+00:05:37,240 --> 00:05:42,160
+all the class diagram elements.
+
+00:05:42,160 --> 00:05:46,750
+But you should get an impression
+and you should be able to copy
+
+00:05:46,750 --> 00:05:48,280
+it when you get such an exercise.
+
+00:05:48,280 --> 00:05:52,330
+Let's assume that a library is
+to be modeled in some way.
+
+00:05:52,330 --> 00:05:57,550
+And in advance, some
+use cases were recorded.
+
+00:05:57,550 --> 00:06:03,520
+In other words, we wrote down what the system
+to be designed is supposed to do in the end.
+
+00:06:03,520 --> 00:06:06,670
+And one of these use cases would be
+
+00:06:06,670 --> 00:06:09,790
+to register a new member in the library.
+
+00:06:09,790 --> 00:06:12,580
+And that was written
+down here in tabular form.
+
+00:06:12,580 --> 00:06:21,230
+In each case, what a user
+would like to do with the
+
+00:06:21,230 --> 00:06:24,920
+system from an external black box perspective,
+so to speak, what actions are executed.
+
+00:06:24,920 --> 00:06:29,870
+And then it says in each case
+how the system should react to that.
+
+00:06:29,870 --> 00:06:30,380
+Here:
+
+00:06:30,380 --> 00:06:37,670
+A customer fills out a form with name,
+
+00:06:37,670 --> 00:06:39,950
+address and phone number, and
+gives that to the employee.
+
+00:06:39,950 --> 00:06:45,785
+The clerk, or the employee, asks
+the system to create a new member.
+
+00:06:45,785 --> 00:06:49,220
+The system responds by
+asking for more information.
+
+00:06:49,220 --> 00:06:50,540
+This information is entered.
+
+00:06:50,540 --> 00:06:55,760
+The system reads the data
+and creates a new member entry.
+
+00:06:56,450 --> 00:07:01,670
+Gives it a
+unique identification number, etc.
+
+00:07:01,670 --> 00:07:05,570
+All this was written down verbally.
+
+00:07:05,570 --> 00:07:08,210
+And now the first question
+would be, in the design:
+
+00:07:08,210 --> 00:07:10,730
+What would have to be the classes
+that you want to hold on to?
+
+00:07:10,730 --> 00:07:16,460
+What are somehow types of recurring objects
+here, of objects to be captured together,
+
+00:07:16,460 --> 00:07:20,540
+that play a role in
+describing the state of the system?
+
+00:07:22,550 --> 00:07:24,320
+Of course, that would be
+just one of many use cases.
+
+00:07:24,320 --> 00:07:28,700
+There would be others to add
+new books, check out books, return a
+
+00:07:29,390 --> 00:07:36,350
+book, perhaps remove books from the
+catalog, create user account statements, etc.
+
+00:07:39,680 --> 00:07:43,940
+What might one learn from this about the
+possible classes one might want to capture here?
+
+00:07:43,940 --> 00:07:49,280
+Well, a very naive approach
+would be to simply look:
+
+00:07:49,280 --> 00:07:51,140
+What terms are in here?
+
+00:07:51,140 --> 00:07:54,950
+And the obvious approach would
+be to look at nouns/nouns first.
+
+00:07:54,950 --> 00:07:56,840
+Because classes are things.
+
+00:07:56,840 --> 00:08:02,840
+Not verbs, but subjects
+and objects of these sentences.
+
+00:08:04,400 --> 00:08:06,860
+And that sounds very naive,
+but it's actually a first
+
+00:08:06,860 --> 00:08:10,550
+step you can take
+to find candidates for classes.
+
+00:08:10,550 --> 00:08:14,420
+And if we just do that here,
+pick out all the nouns in this English
+
+00:08:14,420 --> 00:08:16,880
+text, here are all of them in bold.
+
+00:08:16,880 --> 00:08:18,470
+And that's quite a lot.
+
+00:08:18,470 --> 00:08:22,370
+You certainly don't want to have that
+many classes in the system in the end.
+
+00:08:22,370 --> 00:08:26,170
+Not all of them
+will actually become a class.
+
+00:08:28,840 --> 00:08:32,470
+You can now take these terms
+and filter or group them and
+
+00:08:32,470 --> 00:08:36,340
+find out which of them
+should actually be a class.
+
+00:08:36,340 --> 00:08:38,650
+What you have to
+record in your class diagram.
+
+00:08:40,630 --> 00:08:43,480
+And there you can
+first make some observations.
+
+00:08:43,480 --> 00:08:48,670
+For example, it's noticeable that
+there are certain entities here that
+
+00:08:48,670 --> 00:08:50,980
+seem to form composite entities.
+
+00:08:50,980 --> 00:08:57,490
+So for those it makes direct sense to
+encapsulate them as a class that has different attributes.
+
+00:08:57,490 --> 00:09:04,960
+This is the case for
+members or customers, for example.
+
+00:09:04,960 --> 00:09:06,700
+Because here it says something like this:
+
+00:09:06,700 --> 00:09:09,670
+Customer has a name, an
+address and a phone number.
+
+00:09:10,390 --> 00:09:16,420
+These are apparently
+attributes of this customer.
+
+00:09:16,420 --> 00:09:23,350
+And customer is already such a
+term, "the customer" is already very domain-specific.
+
+00:09:23,350 --> 00:09:24,610
+You could also say more generally:
+
+00:09:24,610 --> 00:09:25,390
+It's about a member.
+
+00:09:28,420 --> 00:09:28,930
+If you look:
+
+00:09:28,930 --> 00:09:30,040
+What are composite entities?
+
+00:09:30,040 --> 00:09:31,420
+There are at least two, namely:
+
+00:09:31,420 --> 00:09:37,510
+The member seems to be composite because
+there is supposed to be an identification
+
+00:09:37,510 --> 00:09:42,220
+number in the system
+and certain other information.
+
+00:09:42,220 --> 00:09:44,650
+And the system itself
+also seems to be composite
+
+00:09:45,610 --> 00:09:47,410
+because it contains,
+for example, the members.
+
+00:09:47,410 --> 00:09:51,340
+What were other nouns that occurred here?
+
+00:09:51,340 --> 00:09:54,460
+Customer, I had already said,
+is the same as a member.
+
+00:09:54,460 --> 00:09:58,990
+You could look for synonyms and say:
+
+00:09:58,990 --> 00:10:00,580
+Customer and Member are synonyms.
+
+00:10:00,580 --> 00:10:04,060
+Only for one of them
+you will have to introduce a
+
+00:10:04,060 --> 00:10:06,490
+class, the other one will
+just be another name for it.
+
+00:10:07,960 --> 00:10:09,595
+What other nouns were there?
+
+00:10:09,595 --> 00:10:10,990
+User.
+
+00:10:10,990 --> 00:10:12,910
+But that's also just another synonym.
+
+00:10:12,910 --> 00:10:18,820
+User, Customer, Member, all refers to
+the same actors in the system.
+
+00:10:20,440 --> 00:10:25,060
+So no new classes, but Customer and
+User will also be the class Member later.
+
+00:10:28,500 --> 00:10:35,370
+Application-Form, that is actually here
+only a sheet of paper,
+
+00:10:35,370 --> 00:10:38,490
+on which the customer enters
+his data at the beginning.
+
+00:10:39,030 --> 00:10:41,280
+So nothing that is
+represented in the system itself.
+
+00:10:41,280 --> 00:10:42,210
+The data later is.
+
+00:10:42,210 --> 00:10:46,680
+But this application, this
+form, which is filled
+
+00:10:46,680 --> 00:10:49,650
+out, is nothing that
+occurs in the system itself.
+
+00:10:49,650 --> 00:10:51,090
+So you could say:
+
+00:10:51,090 --> 00:10:54,780
+That's not an indication that it
+has to be introduced as a class.
+
+00:10:54,780 --> 00:10:58,110
+Then there is the request.
+
+00:10:58,110 --> 00:11:04,800
+That was something that
+the employee should trigger
+
+00:11:04,800 --> 00:11:09,150
+(like by selecting a menu,
+an entry in the system).
+
+00:11:09,150 --> 00:11:13,440
+So like application form rather
+not part of a data structure.
+
+00:11:13,440 --> 00:11:16,260
+So nothing that needs
+to be stored explicitly somehow.
+
+00:11:16,260 --> 00:11:20,460
+Then there was the
+customer name, address, phone number.
+
+00:11:20,460 --> 00:11:22,170
+I had already motivated that earlier:
+
+00:11:22,170 --> 00:11:26,250
+On the one hand, these are attributes of
+Member, and on the other hand, they are
+
+00:11:26,250 --> 00:11:28,440
+also indications that Member
+should be a class.
+
+00:11:28,440 --> 00:11:30,000
+We had talked about encapsulation.
+
+00:11:30,000 --> 00:11:35,280
+So the composition of single entities always speaks
+for the fact that they should be classes.
+
+00:11:35,280 --> 00:11:42,720
+On the other hand, such single terms as the
+name, which is not further decomposed apart from first and
+
+00:11:42,720 --> 00:11:46,110
+last name, speak for the fact that
+they are perhaps rather attributes of other classes.
+
+00:11:46,110 --> 00:11:50,820
+And there must not necessarily be an own
+class for the name or the phone number.
+
+00:11:52,950 --> 00:11:56,640
+That is, these would be attributes that
+
+00:11:56,640 --> 00:12:01,320
+we would assign (in the
+class diagram) to the Member class.
+
+00:12:08,800 --> 00:12:14,710
+The Clerk is of course an actor, but
+has here only the role to serve the system.
+
+00:12:14,710 --> 00:12:18,280
+He would not himself
+be represented in the software.
+
+00:12:18,280 --> 00:12:19,120
+Except perhaps:
+
+00:12:19,120 --> 00:12:22,690
+The Clerk also needs to
+be stored with his contact
+
+00:12:22,690 --> 00:12:26,380
+information, perhaps to
+manage the library's employees.
+
+00:12:26,380 --> 00:12:30,220
+When it comes to the library
+itself, the "business", borrowing books, etc., the
+
+00:12:30,220 --> 00:12:34,120
+Clerk himself is not something
+that needs to be stored.
+
+00:12:34,120 --> 00:12:36,310
+What else is there?
+
+00:12:36,310 --> 00:12:40,870
+Identification-Number is also
+part of Member, so
+
+00:12:40,870 --> 00:12:47,830
+would be an attribute of the Member
+class, like those three terms at the end.
+
+00:12:47,830 --> 00:12:51,280
+What else shows up there?
+
+00:12:51,280 --> 00:12:57,370
+Data and Information, these are simply also
+the things that are stored as members.
+
+00:12:57,370 --> 00:13:03,670
+Data and Information were simply collective
+terms for these attributes, not new classes.
+
+00:13:03,670 --> 00:13:16,870
+Okay, that as such not a
+complete recipe, but a certain intuitive
+
+00:13:16,870 --> 00:13:23,770
+approach to first identify from free
+text what can be classes and attributes.
+
+00:13:27,880 --> 00:13:30,970
+The next step would be then to
+derive between these classes, which one identified (the
+
+00:13:30,970 --> 00:13:37,270
+system and the member term),
+any relations, in order to
+
+00:13:37,270 --> 00:13:40,090
+be able to hold in
+the class diagram also relations.
+
+00:13:40,090 --> 00:13:46,120
+To do that, we have to go
+back to the text and look for descriptions
+
+00:13:46,120 --> 00:13:52,750
+that somehow relate two classes, specifically member
+and system, or somehow mention them together.
+
+00:13:52,750 --> 00:14:01,540
+And when we do that, we find, for example,
+the following sentence in the context of a larger point:
+
+00:14:01,540 --> 00:14:07,270
+The system remembers
+information about the member.
+
+00:14:07,270 --> 00:14:10,150
+Information, that's the
+attributes of Member.
+
+00:14:10,150 --> 00:14:14,770
+And Member would be a class,
+of which there are then different instances:
+
+00:14:14,770 --> 00:14:17,140
+the concrete individual
+members of the library.
+
+00:14:17,140 --> 00:14:23,170
+How could we represent that, somehow a
+relationship between the system and the members?
+
+00:14:23,170 --> 00:14:28,540
+Let's call the system Library, so that we
+don't call it just System in the abstract.
+
+00:14:28,540 --> 00:14:29,470
+It's about the library.
+
+00:14:29,470 --> 00:14:33,010
+So the system could be
+a class, the library class.
+
+00:14:33,010 --> 00:14:35,920
+And then there is the class Member.
+
+00:14:35,920 --> 00:14:38,800
+There are already some attributes in
+
+00:14:38,800 --> 00:14:43,480
+there that we indexed on
+the pre-slide as properties of members.
+
+00:14:43,480 --> 00:14:47,065
+And then there could be
+a relationship between the two.
+
+00:14:47,065 --> 00:14:49,240
+And there are already numbers written on
+
+00:14:49,240 --> 00:14:54,400
+here that imply (and it will be formulated
+later what exactly they mean), as a basic idea:
+
+00:14:54,400 --> 00:14:59,200
+There is a library and it
+has several members, "zero to star".
+
+00:14:59,200 --> 00:15:02,290
+Where star means: any number of members.
+
+00:15:02,290 --> 00:15:06,730
+Up to no members at all at the
+beginning, when the library might be newly founded.
+
+00:15:06,730 --> 00:15:07,720
+The library exists only once.
+
+00:15:08,500 --> 00:15:10,060
+One could also ask whether this
+must be a class or whether
+
+00:15:10,060 --> 00:15:12,610
+it is sufficient to
+have an object for it.
+
+00:15:12,610 --> 00:15:14,110
+There is the notion of a singleton class.
+
+00:15:14,110 --> 00:15:17,410
+Again, these are patterns that would
+come into play in the advanced
+
+00:15:17,410 --> 00:15:21,070
+programming techniques
+lecture, for example.
+
+00:15:21,070 --> 00:15:24,760
+But here, it's already conveyed a little
+bit by the numbers and the information
+
+00:15:24,760 --> 00:15:30,310
+about how many objects there
+can be of the singleton classes.
+
+00:15:30,310 --> 00:15:33,010
+In particular, how many
+are in such a relationship.
+
+00:15:33,010 --> 00:15:40,630
+The library manages
+a collection of members,
+
+00:15:40,630 --> 00:15:42,580
+and here it says how many that can be.
+
+00:15:45,460 --> 00:15:48,880
+Of course, types would also
+belong to the attributes here.
+
+00:15:49,420 --> 00:15:49,630
+There we have here:
+
+00:15:49,630 --> 00:15:55,135
+This is a number, this is an
+address, here maybe just a string, etc.
+
+00:15:55,135 --> 00:15:58,360
+That is not yet exactly
+fixed on this level of the
+
+00:15:58,360 --> 00:16:03,730
+class diagram, but would be also
+task of the class diagram designer.
+
+00:16:06,610 --> 00:16:08,110
+This is not very far yet, this picture.
+
+00:16:08,110 --> 00:16:12,070
+Now one could add further use
+cases, for example the creation of members.
+
+00:16:12,070 --> 00:16:15,250
+Or in addition to the creation
+of members, the creation of books.
+
+00:16:15,250 --> 00:16:17,350
+The lending of books, etc.
+
+00:16:17,350 --> 00:16:22,900
+This could lead to further
+classes, but especially to further relationships.
+
+00:16:22,900 --> 00:16:29,380
+Now here is simply shown, also
+from the book, how after some consideration
+
+00:16:29,380 --> 00:16:33,880
+of further such use cases
+the picture might be refined.
+
+00:16:33,880 --> 00:16:37,690
+For example, that in
+addition to managing members, the
+
+00:16:37,690 --> 00:16:42,550
+library also has a
+collection of books to manage.
+
+00:16:43,090 --> 00:16:44,440
+That's why there is a new class
+
+00:16:44,440 --> 00:16:47,200
+Book, and then there are
+also relationships between members and books.
+
+00:16:47,200 --> 00:16:52,870
+For example, borrowing, that is, the
+fact that a borrowing has taken place.
+
+00:16:52,870 --> 00:16:54,910
+Or maybe that if a
+book is not available, but
+
+00:16:54,910 --> 00:17:00,400
+a member wants to borrow it,
+you can then somehow create a reservation
+
+00:17:00,400 --> 00:17:06,250
+that holds a reservation on that book.
+
+00:17:06,250 --> 00:17:08,770
+So that when the book
+becomes available, you can borrow it.
+
+00:17:13,080 --> 00:17:18,390
+That would be a next
+step in designing a class diagram.
+
+00:17:18,390 --> 00:17:22,350
+And that's where you
+can do further refinement.
+
+00:17:22,350 --> 00:17:24,510
+So these relationships here,
+they would just be strokes.
+
+00:17:24,510 --> 00:17:27,420
+We're going to learn
+that there are different types
+
+00:17:27,420 --> 00:17:30,060
+of relationships that each
+have their own meaning.
+
+00:17:30,060 --> 00:17:34,680
+And if you analyze this here in
+more detail, what nature these individual relationships
+
+00:17:34,680 --> 00:17:37,020
+are, you could come to
+the following picture, for example.
+
+00:17:37,020 --> 00:17:41,370
+Where, on the one hand, one has
+introduced more classes here, namely an explicit
+
+00:17:41,370 --> 00:17:44,550
+membership catalog and a book catalog.
+
+00:17:45,870 --> 00:17:50,820
+But above all, here the connections
+have been refined, made more precise.
+
+00:17:50,820 --> 00:17:52,920
+There are different types of symbols.
+
+00:17:52,920 --> 00:17:56,580
+We'll look at all of that, what
+that's supposed to mean in each case.
+
+00:17:56,580 --> 00:17:57,300
+But the point is:
+
+00:17:57,300 --> 00:18:05,340
+People have continued to refine the picture
+here to ultimately get closer to implementation.
+
+00:18:05,340 --> 00:18:11,400
+Each step adds information that is
+motivated from the application domain, and
+
+00:18:11,400 --> 00:18:14,070
+should later help with
+the implementation of the system.
+
+00:18:18,420 --> 00:18:24,480
+Here are different names for the connections
+and also different ways of representing them.
+
+00:18:24,480 --> 00:18:28,950
+Here, for example, it was decided
+that what was here before as a
+
+00:18:28,950 --> 00:18:30,930
+class for the borrowing
+process is not strictly necessary.
+
+00:18:30,930 --> 00:18:34,230
+Because you can also store the information
+with the book or with the member.
+
+00:18:34,230 --> 00:18:39,375
+While the reservation is something that should be
+explicitly represented as a class, because there is
+
+00:18:39,375 --> 00:18:45,510
+still external information necessary, for example
+until when the book should remain reserved.
+
+00:18:51,600 --> 00:18:57,780
+That as a first example
+with not much detailed information yet,
+
+00:18:57,780 --> 00:19:03,030
+but at least an impression how
+such a class diagram should look like.
+
+00:19:03,030 --> 00:19:10,710
+Okay, next we really
+have to introduce syntax.
+
+00:19:10,710 --> 00:19:12,690
+How exactly such a
+class is to be notated.
+
+00:19:12,690 --> 00:19:15,540
+There is a lot left vague here.
+
+00:19:15,540 --> 00:19:18,660
+But I'll do that in another video.

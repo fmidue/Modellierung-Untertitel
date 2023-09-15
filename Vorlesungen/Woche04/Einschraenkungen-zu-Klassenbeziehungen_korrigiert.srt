@@ -1,0 +1,277 @@
+109 # slide
+00:00:01,470 --> 00:00:04,410
+Ich hatte jetzt bereits mehrfach von gültigen oder
+
+00:00:04,410 --> 00:00:07,530
+ungültigen Konstellationen in
+Klassendiagrammen gesprochen.
+
+00:00:07,530 --> 00:00:12,180
+Insbesondere, in Erinnerung an die
+letzte Woche, hatten wir gesagt,
+
+00:00:12,180 --> 00:00:20,490
+dass es im Kontext von Vererbung nicht erlaubt
+ist, dass es etwa eine zyklische Vererbung gibt.
+
+00:00:20,490 --> 00:00:22,560
+Oder eine Klasse von sich selbst erbt.
+
+00:00:22,560 --> 00:00:27,780
+Oder eine Klasse sozusagen doppelte
+Subklasse einer anderen Klasse ist.
+
+00:00:27,780 --> 00:00:32,880
+Ich hatte allerdings in den Videos
+dieser Woche auch betont, dass es für
+
+00:00:32,880 --> 00:00:38,910
+Assoziation und dann auch für Aggregation
+keinerlei solche Einschränkungen gibt.
+
+00:00:38,910 --> 00:00:40,200
+Wir hatten auch Beispiele gesehen.
+
+00:00:41,340 --> 00:00:44,340
+Ein Beispiel für so eine
+Konstellation, und auch eine zyklische.
+
+00:00:44,340 --> 00:00:49,020
+Ja, ein Zyklus von Assoziation und
+Aggregationsbeziehung wäre okay.
+
+00:00:49,020 --> 00:00:53,940
+Anders sieht das für die Komposition aus.
+
+00:00:53,940 --> 00:00:54,570
+Also:
+
+00:00:54,570 --> 00:00:56,850
+Für Assoziation/Aggregation keine Einschränkung
+
+00:00:56,850 --> 00:01:01,410
+bezüglich Zyklen/Selbstreferenz oder Vorliegen
+mehrerer Beziehungen zwischen gleichen Klassen.
+
+00:01:01,410 --> 00:01:05,640
+Bei Komposition hingegen sind Zyklen
+jeglicher Art wieder verboten.
+
+00:01:05,640 --> 00:01:09,090
+Also bei Komposition darf es
+keinen solchen Zyklus geben.
+
+00:01:09,090 --> 00:01:12,510
+Bei der Komposition darf es
+keine Selbstreferenz geben.
+
+00:01:12,510 --> 00:01:19,230
+Und es darf auch keine zwei Klassen geben,
+die in dieser Form direkt zyklisch sind.
+
+00:01:19,230 --> 00:01:25,515
+Dabei ist tatsächlich die Richtung
+der Enthaltenseins-Beziehung wichtig.
+
+00:01:25,515 --> 00:01:30,690
+Also das ist hier deswegen verboten, weil man
+hier im Kreis sich selbst enthalten könnte.
+
+00:01:30,690 --> 00:01:36,150
+Und auch hier ist das Problem,
+dass es diesen Zyklus gibt,
+
+00:01:36,150 --> 00:01:39,300
+weil die beiden Kompositionen
+entgegengesetzt gerichtet sind.
+
+00:01:39,300 --> 00:01:45,510
+Wenn man hier diese Beziehung umdrehen würde und
+"E" würde sozusagen auf zwei Weisen "F" enthalten,
+
+00:01:45,510 --> 00:01:50,100
+dann könnte das abhängig von den Multiplizitäten,
+die da dranstehen, noch gültig sein.
+
+00:01:50,100 --> 00:01:56,190
+Das wird auch gleich noch
+auf einer Folie diskutiert.
+
+00:01:56,190 --> 00:01:57,570
+Wichtig hier ist:
+
+00:01:57,570 --> 00:02:04,770
+Das sind wirklich Verbote, die
+spezifisch die Komposition betreffen.
+
+00:02:04,770 --> 00:02:07,230
+Also, wenn man hier eine der Kompositionen durch
+
+00:02:07,230 --> 00:02:10,110
+eine Aggregation ersetzen
+würde, wäre es wieder legal.
+
+00:02:10,110 --> 00:02:13,790
+Also die Aggregation und auch
+Assoziation zählen bezüglich
+
+00:02:13,790 --> 00:02:16,277
+dieser Einschränkung für die Komposition nicht.
+
+00:02:16,277 --> 00:02:22,100
+Da geht es wirklich darum, dass man mit
+Komposition zum Beispiel keine Kreise ziehen darf.
+
+00:02:22,100 --> 00:02:27,980
+Was ist jetzt mit nicht zyklischen Beziehungen?
+
+00:02:27,980 --> 00:02:31,280
+Zum Beispiel doppelter Kompositionsbeziehung
+
+00:02:31,280 --> 00:02:33,530
+zwischen zwei Partnern, aber nicht
+in diese zyklischen Art und Weise?
+
+00:02:33,530 --> 00:02:38,060
+Selbst dann ergeben sich noch
+Einschränkungen, und zwar daraus,
+
+00:02:38,060 --> 00:02:41,990
+dass ja ein Teil nicht gleichzeitig
+zu mehr als einem Ganzen gehören darf.
+
+00:02:41,990 --> 00:02:50,150
+Und dass das etwas ist, das über die
+Multiplizitäten allein hinausgeht.
+
+00:02:54,530 --> 00:02:59,690
+Also zum Beispiel in diesen Beziehungen gibt
+
+00:02:59,690 --> 00:03:02,630
+es Situationen, die einfach mit den
+Multiplizitäten nicht sinnvoll sind.
+
+00:03:03,770 --> 00:03:08,540
+Man dürfte hier zwar syntaktisch an
+diese beiden Enden jeweils "1" schreiben.
+
+00:03:08,540 --> 00:03:12,410
+Aber man könnte dann niemals ein
+Objektdiagramm dazu erzeugen.
+
+00:03:12,410 --> 00:03:15,560
+Man könnte keine Objekte "a", "b", "c"
+von den Klassen "A", "B", "C" angeben,
+
+00:03:15,560 --> 00:03:17,480
+die das irgendwie sinnvoll erfüllen.
+
+00:03:17,480 --> 00:03:22,400
+Denn jedes Objekt der Klasse C müsste,
+wenn hier eine 1 und hier eine 1 stünde,
+
+00:03:23,030 --> 00:03:28,430
+immer gleichzeitig zu einem Objekt der Klasse
+A und einem Objekt der Klasse B gehören.
+
+00:03:28,430 --> 00:03:32,330
+Das ist aber verboten, da ein Teil
+nicht gleichzeitig zu mehr als einem
+
+00:03:32,330 --> 00:03:34,850
+Ganzen gehören darf, wenn es um Komposition geht.
+
+00:03:34,850 --> 00:03:39,230
+Und auf ähnliche Weise ergeben sich
+
+00:03:39,230 --> 00:03:42,920
+auch hier Einschränkungen noch über
+die syntaktische Forderung hinaus.
+
+00:03:44,330 --> 00:03:50,180
+Man kann hier nicht an beiden Kompositionen
+jeweils die Multiplizität 1 stehen haben.
+
+00:03:50,180 --> 00:03:55,070
+Weil man dann keine sinnvollen
+Instanzen bilden könnte.
+
+00:03:56,810 --> 00:03:59,150
+Das müsste man sich mal genauer
+anschauen, was hier erlaubt ist.
+
+00:03:59,150 --> 00:04:00,590
+Welche Konstellation hier erlaubt ist oder nicht.
+
+00:04:00,590 --> 00:04:02,900
+Das mache ich wahrscheinlich
+noch in einem extra Video.
+
+00:04:10,750 --> 00:04:13,510
+Zu beachten ist außerdem auch noch,
+
+00:04:13,510 --> 00:04:22,540
+dass Assoziation/Aggregation/Komposition
+auch mit Vererbung zusammenspielen.
+
+00:04:22,540 --> 00:04:29,080
+Denn eine Subklasse erbt neben den Attributen
+und Methoden immer auch Assoziationen,
+
+00:04:29,080 --> 00:04:32,650
+Aggregationen und Kompositionen der Superklasse.
+
+00:04:32,650 --> 00:04:41,830
+Wenn wir zum Beispiel ein Klassendiagramm
+in folgender Form haben, haben wir ja
+
+00:04:41,830 --> 00:04:47,950
+eine Komposition zwischen A und C, eine
+Aggregation zwischen B und C, und B erbt von A.
+
+00:04:47,950 --> 00:04:52,180
+Dann erbt B von A auch diese Komposition.
+
+00:04:52,180 --> 00:04:58,510
+Das heißt, zwischen B und C besteht
+hier offensichtlich eine Aggregation,
+
+00:04:58,510 --> 00:05:01,540
+aber durch die Vererbung auch eine Komposition.
+
+00:05:01,540 --> 00:05:05,530
+Und das wiederum birgt Konfliktpotenzial.
+
+00:05:05,530 --> 00:05:09,970
+Wenn das hier eine Komposition wäre,
+dann würde es erstmal nicht so aussehen,
+
+00:05:09,970 --> 00:05:12,430
+als gäbe es hier irgendwelche
+doppelten Kompositionen.
+
+00:05:12,430 --> 00:05:17,515
+Aber da B von A erbt, gäbe es dann plötzlich
+zwei Kompositionen zwischen B und C.
+
+00:05:17,515 --> 00:05:20,800
+Das ist jetzt in dem Fall nicht so, weil
+wir Komposition und Aggregation haben.
+
+00:05:20,800 --> 00:05:28,180
+Aber im Allgemeinen sorgt Vererbung auch dafür,
+
+00:05:28,180 --> 00:05:32,170
+dass Assoziation/Aggregation/Komposition
+vererbt werden.
+
+00:05:32,170 --> 00:05:41,620
+Und dann kann das etwa Konsequenzen für diese
+Frage des Vorliegens von Kompositionszyklen haben.
+
+00:05:41,620 --> 00:05:44,260
+Darauf muss also geachtet werden.
+
+00:05:44,260 --> 00:05:53,290
+Hier kommen sich die Sachen
+jetzt nicht in die Quere.

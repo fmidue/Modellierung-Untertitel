@@ -1,0 +1,848 @@
+197 # slide
+00:00:01,350 --> 00:00:04,560
+Zum Ende des Petrinetz-Kapitels kommend,
+
+00:00:04,560 --> 00:00:09,480
+möchte ich mit Ihnen noch ein,
+zwei Beispiele durchsprechen.
+
+00:00:09,480 --> 00:00:11,400
+Und zwar sollen das Beispiele sein,
+
+00:00:11,400 --> 00:00:16,620
+an denen noch einmal typische Szenarien
+oder Modellierungsmuster deutlich werden.
+
+00:00:16,620 --> 00:00:22,260
+Mit "Modellierungsmuster" meine ich jetzt
+nicht irgendetwas formales wie die formal
+
+00:00:22,260 --> 00:00:23,670
+definierten Eigenschaften, die wir gesehen haben.
+
+00:00:23,670 --> 00:00:30,240
+Sondern einfach bestimmte Herangehensweisen, wie
+man typische Situationen in dynamischen Systemen
+
+00:00:30,240 --> 00:00:34,350
+mit Petrinetz-Modellierung
+in den Griff kriegen kann.
+
+00:00:34,350 --> 00:00:35,670
+Einiges davon haben wir schon gesehen.
+
+00:00:35,670 --> 00:00:38,400
+Insbesondere wird es hier in diesem kurzen
+Video um den wechselseitigen Ausschluss gehen.
+
+00:00:39,810 --> 00:00:45,990
+Und das haben Sie im Grunde schon gesehen bei dem Schleusen-Beispiel
+in den Übungsaufgaben (bzw. das passiert auf dem neunten Blatt).
+
+00:00:45,990 --> 00:00:51,690
+Auch in dem Nachmittags-Beispiel sind
+einige Modellierungsmuster vorgekommen.
+
+00:00:51,690 --> 00:00:58,050
+Was ich in der Vorlesung besprochen hatte und
+in dem Pipe-Tool als Petrinetz entwickelt hatte.
+
+00:00:58,050 --> 00:01:00,930
+Da wurden etwa Quellen und
+Senken benutzt: Transitionen,
+
+00:01:00,930 --> 00:01:05,430
+die keine Vor- oder Nachgewichtsstellen haben.
+
+00:01:05,430 --> 00:01:10,290
+Oder etwa Schlingen haben wir gesehen
+mit einem bestimmten Einsatzzweck,
+
+00:01:10,290 --> 00:01:15,660
+nämlich um bestimmte Stellen
+oder Transitionen zu bewachen.
+
+00:01:16,320 --> 00:01:20,130
+Also Guard-Stellen, mit
+denen man sicherstellen kann,
+
+00:01:20,130 --> 00:01:24,600
+dass bestimmte Transitionen nur unter
+gewisser Konstellation schaltbar sind.
+
+00:01:24,600 --> 00:01:26,280
+Da könnte man einfach auf
+das Beispiel zurückschauen.
+
+00:01:26,280 --> 00:01:33,180
+Oder etwa die Kapazitätsbeschränkungen,
+also Versuche, mit Petrinetzen auszudrücken,
+
+00:01:33,180 --> 00:01:38,040
+dass bestimmte Stellen nicht mehr als eine
+bestimmte Anzahl von Marken enthalten dürfen.
+
+00:01:38,040 --> 00:01:42,090
+Nicht weil das Petrinetz beschränkt
+ist als formale Eigenschaft,
+
+00:01:42,090 --> 00:01:44,790
+sondern indem das beim Modellieren schon
+hinein gebracht wird, dass bestimmte
+
+00:01:44,790 --> 00:01:48,210
+Stellen nicht mehr als eine bestimmte
+Anzahl von Marken enthalten dürfen.
+
+00:01:48,210 --> 00:01:54,060
+Das ist per se erst mal beim Erstellen des
+Petrinetzes nicht gegeben, solche Einschränkungen.
+
+00:01:54,060 --> 00:01:58,710
+Diesen letzten Aspekte, Kapazität
+einschränken oder die Möglichkeit,
+
+00:01:59,250 --> 00:02:03,557
+Grenzen anzugeben, werden wir
+nicht in diesem Video anschauen.
+
+00:02:03,557 --> 00:02:05,340
+Hier wird es um den
+wechselseitigen Ausschluss gehen.
+
+00:02:05,340 --> 00:02:08,940
+Insofern ist dies das vorletzte
+Video des Petrinetz-Kapitels.
+
+00:02:08,940 --> 00:02:15,160
+Das andere wird dann das letzte
+Video des Petrinetz-Kapitels sein.
+
+00:02:15,160 --> 00:02:19,270
+Behandeln wir zunächst das Konzept des
+wechselseitigen Ausschlusses, im Englischen
+
+00:02:19,270 --> 00:02:25,480
+"mutual exclusion", deswegen Mutex genannt
+(die Stelle, die wir dafür verwenden).
+
+00:02:25,480 --> 00:02:28,690
+Das Szenario hier ist wie folgt, und das könnte
+
+00:02:28,690 --> 00:02:31,750
+sehr allgemein in verschiedenen
+Situationen anwendbar sein.
+
+00:02:31,750 --> 00:02:35,470
+Wir betrachten irgendwie mindestens zwei
+Akteure (in dem Fall mal genau zwei Akteure),
+
+00:02:35,470 --> 00:02:38,110
+die jeweils einen kritischen Bereich haben.
+
+00:02:38,110 --> 00:02:40,870
+Damit ist irgendwie ein Ausführungsbereich,
+
+00:02:40,870 --> 00:02:47,290
+ein Handlungsbereich gemeint, den sie
+jeweils gesichert allein betreten wollen.
+
+00:02:47,290 --> 00:02:49,300
+In dem Sinne soll das "kritisch" sein,
+
+00:02:49,300 --> 00:02:51,490
+dass nicht beide Akteure gleichzeitig
+in dem kritischen Bereich sein sollen.
+
+00:02:51,490 --> 00:02:58,540
+Also es soll verhindert werden, dass die Akteure
+gleichzeitig in ihren jeweiligen Bereich kommen.
+
+00:02:59,290 --> 00:03:02,080
+Weil sie sich dort behindern könnten oder
+
+00:03:02,080 --> 00:03:04,840
+ein unerwünschtes Verhalten
+die Konsequenz sein könnte.
+
+00:03:04,840 --> 00:03:09,460
+Also stellen wir uns vor, die zwei Akteure sind
+Programme, die auf der Festplatte arbeiten.
+
+00:03:09,460 --> 00:03:13,300
+Der kritische Bereich könnte das Schreiben
+in eine bestimmte Datei sein, und wir wollen
+
+00:03:13,300 --> 00:03:17,050
+eben nicht, dass beide Akteure gleichzeitig
+versuchen, in dieselbe Datei zu schreiben.
+
+00:03:17,050 --> 00:03:21,310
+Deswegen soll sich immer höchstens ein
+Akteur in diesem kritischen Bereich befinden.
+
+00:03:21,310 --> 00:03:26,710
+Wie können wir und das als
+Petrinetz-Entwurf vorstellen?
+
+00:03:28,330 --> 00:03:32,710
+Wir hätten vielleicht zwei Petrinetze,
+für den einen und für den anderen Akteur.
+
+00:03:32,710 --> 00:03:34,570
+Ich habe das System ganz einfach stilisiert:
+
+00:03:34,570 --> 00:03:39,790
+Wir stellen uns einfach vor, der eine Akteur sei
+
+00:03:39,790 --> 00:03:42,970
+durch dieses Petrinetz dargestellt und
+der zweite Akteur durch dieses Petrinetz.
+
+00:03:42,970 --> 00:03:47,500
+In Wirklichkeit könnten sich dahinter
+jeweils größere Petrinetze verbergen.
+
+00:03:47,500 --> 00:03:50,650
+Also es könnte sein, dass das, was hier nur
+eine Stelle ist, in Wirklichkeit ein ganzes
+
+00:03:50,650 --> 00:03:54,580
+Petrinetz ist, in das irgend etwas reingeht, etwas
+rauskommt (und was hier drin passiert, ist egal).
+
+00:03:54,580 --> 00:03:56,110
+Das muss nicht genau eine Stelle sein.
+
+00:03:56,110 --> 00:03:58,660
+Das wäre der nicht-kritische Bereich.
+
+00:03:58,660 --> 00:04:01,750
+Also irgendwie ein Petrinetz-Teil, in
+dem irgendwelche Aktionen ausgeführt
+
+00:04:01,750 --> 00:04:04,270
+werden können, die nichts mit dem
+kritischen Bereich zu tun haben.
+
+00:04:05,290 --> 00:04:07,150
+Das gleiche gilt für den Akteur 2.
+
+00:04:07,150 --> 00:04:08,290
+Also das sind der nicht-kritische
+
+00:04:08,290 --> 00:04:11,770
+Bereich 1 und der nicht-kritische
+Bereich 2 für die beiden Akteure.
+
+00:04:11,770 --> 00:04:16,060
+Und dann gibt es auch einen
+kritischen Bereich für jeden Akteur,
+
+00:04:16,990 --> 00:04:18,580
+und das seien K1, K2 für diese beiden Akteure.
+
+00:04:18,580 --> 00:04:22,420
+Und die Idee ist, dass das der Bereich
+ist, der irgendwie verhindert werden soll,
+
+00:04:22,420 --> 00:04:23,590
+dass beide gleichzeitig dort sind.
+
+00:04:23,590 --> 00:04:24,280
+Also es soll verhindert werden,
+
+00:04:24,280 --> 00:04:28,630
+dass gleichzeitig zum Beispiel eine Marke
+hier liegt und eine Marke hier liegt.
+
+00:04:28,630 --> 00:04:33,250
+Weil das hieße, dass sowohl Akteur 1 als auch
+Akteur 2 in ihrem kritischen Bereich sind.
+
+00:04:33,250 --> 00:04:39,040
+Also wenn wir diese Aktionen k1, k2, nk1,
+nk2 ansehen als "Akteur 1 betritt seinen
+
+00:04:39,040 --> 00:04:41,980
+kritischen Bereich", "Akteur 2 betritt
+seinen kritischen Bereich" und analog
+
+00:04:41,980 --> 00:04:45,670
+jeweils für das Verlassen des kritischen
+bzw. Betreten des nicht-kritischen Bereichs,
+
+00:04:45,670 --> 00:04:51,130
+dann sollen bestimmte Aktionsfolgen für das
+gemeinsame Gesamtsystem nicht möglich sein.
+
+00:04:51,130 --> 00:04:57,370
+Also es soll nicht möglich sein: k1, k2, also
+Akteur 1 betritt den kritischen Bereich, und bevor
+
+00:04:57,370 --> 00:05:01,600
+Akteur 1 den kritischen Bereich verlassen hat,
+betritt auch Akteur 2 seinen kritischen Bereich.
+
+00:05:01,600 --> 00:05:04,540
+Denn wenn das dann hieße,
+dass beide Akteure versuchen,
+
+00:05:04,540 --> 00:05:07,450
+in eine Datei zu schreiben, könnten
+sie das aus Versehen gleichzeitig tun.
+
+00:05:07,450 --> 00:05:12,010
+Und natürlich das Schleusen-Beispiel
+aus dem Übungsbetrieb ist so ähnlich.
+
+00:05:12,010 --> 00:05:16,540
+Da geht es um Schiffe, die nicht gleichzeitig in
+einem bestimmten Teil der Schleuse sein sollen.
+
+00:05:16,540 --> 00:05:18,490
+Das hat letztlich auch was
+mit kritischem Bereich zu tun.
+
+00:05:21,490 --> 00:05:22,210
+Wie könnte man das lösen?
+
+00:05:23,320 --> 00:05:27,550
+Das Petrinetz, so wie hier stilisiert,
+hat natürlich die Eigenschaft,
+
+00:05:27,550 --> 00:05:30,850
+dass es durchaus möglich wäre, k1 und
+k2 direkt nacheinander auszuführen.
+
+00:05:31,360 --> 00:05:32,260
+Können wir das verhindern?
+
+00:05:33,340 --> 00:05:35,350
+Man kann so eine Art Guard-Stelle nutzen.
+
+00:05:35,350 --> 00:05:41,560
+Also eine zusätzliche Stelle, die selber gar keine
+Funktionalität im Sinne der Akteure 1 und 2 hat.
+
+00:05:41,560 --> 00:05:46,570
+Die aber dafür sorgt, dass bestimmtes
+unerwünschtes Verhalten nicht eintritt.
+
+00:05:46,570 --> 00:05:51,940
+Und zwar kann man über ein extra Stelle
+synchronisieren, und die nennt sich Mutex-Stelle.
+
+00:05:51,940 --> 00:05:55,750
+Also eine Hilfsstelle, die man oft
+Mutex nennt wegen "mutual exclusion".
+
+00:05:55,750 --> 00:05:59,050
+Und wie ist hier das Vorgehen?
+
+00:05:59,050 --> 00:06:01,990
+Das ist eine Stelle mit einer Marke am Anfang.
+
+00:06:01,990 --> 00:06:03,460
+Und diese Marke wird immer gebraucht,
+
+00:06:03,460 --> 00:06:06,100
+wenn einer der beiden Akteure
+seinen kritischen Bereich betritt.
+
+00:06:06,100 --> 00:06:09,640
+Also wenn zum Beispiel der Akteur 1
+seinen kritischen Bereich betreten möchte,
+
+00:06:09,640 --> 00:06:12,520
+dann muss natürlich irgendwie der
+nicht-kritische Bereich verlassen
+
+00:06:12,520 --> 00:06:19,210
+werden, aber zusätzlich muss diese
+Mutex-Stelle mit einer Marke belegt sein,
+
+00:06:19,210 --> 00:06:23,650
+die der Akteur 1 dann konsumiert, um
+seinen kritischen Bereich zu betreten.
+
+00:06:23,650 --> 00:06:26,260
+Das heißt, um den kritischen Bereich
+zu beizutreten (also um die Marke
+
+00:06:26,260 --> 00:06:29,290
+von hier nach hier zu bringen), muss
+zusätzlich diese Marke konsumiert werden.
+
+00:06:29,290 --> 00:06:33,730
+Was auch heißt, dass dann zum Beispiel
+direkt danach nicht der zweite Akteur
+
+00:06:33,730 --> 00:06:35,800
+seinen kritischen Bereich betreten kann.
+
+00:06:35,800 --> 00:06:40,480
+Denn das hieße k2 auszuführen, was aber
+auch von dieser Mutex-Stelle abhängt.
+
+00:06:41,680 --> 00:06:43,150
+Nehmen wir an, k1 schaltet.
+
+00:06:43,150 --> 00:06:45,370
+Dann würden diese und diese Marke
+verschwinden, hier wäre eine Marke,
+
+00:06:45,370 --> 00:06:51,670
+Akteur 1 würde seinen kritischen
+Bereich abarbeiten und würde die
+
+00:06:51,670 --> 00:06:55,720
+Marke für den Mutex erst wieder freigeben,
+wenn der kritische Bereich verlassen wird.
+
+00:06:55,720 --> 00:07:00,070
+Also wenn Akteur 1 wieder in den
+nicht-kritischen Bereich übertritt,
+
+00:07:00,070 --> 00:07:01,150
+also seinen kritischen Bereich verlässt.
+
+00:07:01,150 --> 00:07:04,630
+Dann würde diese Marke zurückgegeben werden und
+
+00:07:04,630 --> 00:07:07,270
+könnte dann wiederverwendet
+werden von k1 oder von k2.
+
+00:07:10,660 --> 00:07:14,740
+Diese Synchronisation über diese
+gemeinsame Stelle sorgt intuitiv dafür,
+
+00:07:14,740 --> 00:07:18,070
+dass nicht beide Akteure gleichzeitig
+im kritischen Bereich sein können.
+
+00:07:18,070 --> 00:07:21,550
+Das beruht natürlich darauf,
+dass es einen Konflikt gibt.
+
+00:07:24,070 --> 00:07:29,230
+Die jeweiligen Transitionen k1 und
+k2 hier sind in der dargestellten
+
+00:07:29,230 --> 00:07:33,580
+Situation beide aktiviert, aber
+eben nicht nebenläufig aktiviert.
+
+00:07:33,580 --> 00:07:36,730
+Sondern wir haben einen Konflikt
+genau über diese Stelle hier.
+
+00:07:36,730 --> 00:07:41,860
+Das verhindert, dass sie beide
+ihren kritischen Bereich betreten.
+
+00:07:41,860 --> 00:07:46,960
+Das wäre die informelle und intuitive Begründung.
+
+00:07:46,960 --> 00:07:50,020
+Natürlich kann man sich das
+wieder formal anschauen, indem
+
+00:07:50,020 --> 00:07:54,130
+man einfach den Erreichbarkeitsgraphen inspiziert.
+
+00:07:54,130 --> 00:08:04,140
+Wir wollen zeigen, dass niemals in den Stellen
+K1 und K2 gleichzeitig eine Marke liegt.
+
+00:08:04,140 --> 00:08:04,890
+Wie können wir das zeigen?
+
+00:08:04,890 --> 00:08:07,230
+Wir können den Erreichbarkeitsgraphen aufstellen.
+
+00:08:07,230 --> 00:08:11,070
+Das habe ich einfach mal getan,
+ohne das schrittweise zu entwickeln.
+
+00:08:11,070 --> 00:08:16,080
+Also wir sehen hier, wenn wir die
+Stellenreihenfolge NK1, K1, K2,
+
+00:08:16,080 --> 00:08:25,380
+NK2 nehmen (also im Grunde genommen so wie
+die Stellen hier von links nach rechts auch
+
+00:08:25,380 --> 00:08:28,680
+eingezeichnet waren), dann wissen wir,
+die Startmarkierung ist (1,0,1,0,1).
+
+00:08:29,610 --> 00:08:30,510
+Das sehen wir etwa hier.
+
+00:08:30,510 --> 00:08:34,200
+Und dann ist jeweils eingezeichnet,
+
+00:08:34,200 --> 00:08:39,750
+welche Transitionen ausführbar sind und wie
+die dadurch erreichten Markierungen aussehen.
+
+00:08:40,590 --> 00:08:45,660
+Wir können hier tatsächlich zum einen sehen,
+dass es keine Sequenzen der Art k1, k2 gibt.
+
+00:08:45,660 --> 00:08:49,470
+Wenn k1 ausgeführt wurde, dann muss
+bevor k2 ausgeführt werden kann,
+
+00:08:49,470 --> 00:08:52,680
+immer mindestens einmal
+noch nk1 ausgeführt werden.
+
+00:08:52,680 --> 00:08:54,300
+Das ist die eine Beobachtung.
+
+00:08:54,300 --> 00:08:59,250
+Und die andere Beobachtung ist tatsächlich,
+dass es unter den hier überhaupt erreichbaren
+
+00:08:59,250 --> 00:09:03,570
+Markierungen keine gibt, wo sowohl
+K1 als auch K2 eine 1 enthalten.
+
+00:09:05,040 --> 00:09:07,740
+Hier sind jeweils die beiden interessanten
+Stellen K1, K2 fett markiert.
+
+00:09:07,740 --> 00:09:13,260
+Und es gibt einfach keine erreichbare Markierung,
+in der hier und hier jeweils eine 1 steht.
+
+00:09:13,260 --> 00:09:16,740
+Das hat die Mutex-Stelle
+hier erfolgreich erreicht.
+
+00:09:21,090 --> 00:09:23,490
+Das wäre das einfachste Beispiel
+zum wechselseitigen Ausschluss.
+
+00:09:23,490 --> 00:09:29,168
+Und wie gesagt, es taucht in vielen Beispielen
+und Anwendungen von Petrinetzen auf.
+
+00:09:29,168 --> 00:09:29,520
+Man könnte sich auch fragen:
+
+00:09:29,520 --> 00:09:31,380
+Wo hätte uns das denn in
+der Vergangenheit geholfen?
+
+00:09:31,380 --> 00:09:37,680
+Und nun, tatsächlich auch bei dem Beispiel
+davor im Kontext der Speisenden Philosophen
+
+00:09:37,680 --> 00:09:40,800
+kann man vom wechselseitigen
+Ausschluss Gebrauch machen.
+
+00:09:40,800 --> 00:09:43,440
+Mindestens kann man das sehr leicht sehen,
+
+00:09:43,440 --> 00:09:46,650
+wenn man das Problem vereinfacht
+und nur zwei Philosophen betrachtet.
+
+00:09:47,550 --> 00:09:52,920
+Allgemein könnte man auch für größere
+Konstellationen von speisenden Philosophen
+
+00:09:52,920 --> 00:09:57,690
+nach Lösungen suchen, die solche
+Synchronisations-Ideen verfolgen.
+
+00:09:58,650 --> 00:10:01,020
+Ich bespreche das jetzt nur
+für den einfachsten Fall.
+
+00:10:01,020 --> 00:10:03,210
+Wir gucken uns die Speisenden Philosophen an.
+
+00:10:03,210 --> 00:10:06,390
+Das haben wir vor kurzem erst getan,
+das muss ich nicht weiter diskutieren.
+
+00:10:06,990 --> 00:10:08,820
+Wir betrachten einmal die Vereinfachung,
+
+00:10:08,820 --> 00:10:11,570
+dass wir einen der drei Philosophen
+nach Hause geschickt haben.
+
+00:10:11,570 --> 00:10:13,678
+Also sind es nur noch zwei speisende Philosophen.
+
+00:10:13,678 --> 00:10:14,870
+Das sehen wir hier unten auch.
+
+00:10:14,870 --> 00:10:17,960
+Also der Philosoph 3 ist weg und es ist eine Gabel
+
+00:10:17,960 --> 00:10:19,910
+weniger (sonst wäre das Problem
+nicht mehr so interessant).
+
+00:10:19,910 --> 00:10:24,860
+Aber wir haben jetzt P1, P2 und
+die dazwischenliegenden F1, F2.
+
+00:10:24,860 --> 00:10:29,120
+Jetzt könnte man die sich etwas anders
+hinsetzen lassen, sich gegenübersitzen etc.
+
+00:10:29,120 --> 00:10:32,420
+Aber das ändert nichts an der Problematik.
+
+00:10:32,420 --> 00:10:34,130
+Und zwar ist die Problematik die,
+
+00:10:34,130 --> 00:10:39,050
+dass nach wie vor es auch in dem so
+vereinfachten Petrinetz Deadlocks gibt.
+
+00:10:39,050 --> 00:10:44,060
+Das heißt, auch hier kann es passieren, dass P1,
+
+00:10:44,060 --> 00:10:47,180
+P2 verhungern, weil sie sich in
+ungünstiger Art und Weise verhalten.
+
+00:10:47,180 --> 00:10:51,380
+Indem beide die rechte Gabel
+greifen und dann weder essen können,
+
+00:10:51,380 --> 00:10:54,710
+noch die Gabeln zurücklegen können, weil
+sie erst die linke Gabel greifen müssen.
+
+00:10:54,710 --> 00:11:02,990
+Auch hier in diesem Petrinetz ist
+nach wie vor eine Verklemmung möglich.
+
+00:11:05,120 --> 00:11:08,300
+Da könnte uns ja vielleicht
+Synchronisation helfen.
+
+00:11:08,300 --> 00:11:11,390
+Also wir können versuchen, eine
+extra Mutex-Stelle einzuführen,
+
+00:11:11,390 --> 00:11:17,180
+die irgendwie verhindert, dass zum
+Beispiel P1 und P2 beide genau eine
+
+00:11:17,180 --> 00:11:19,670
+Gabel greifen und dann die zweite
+Gabel nicht mehr kriegen können.
+
+00:11:22,160 --> 00:11:23,330
+Vielleicht als Zwist kann man hier tatsächlich
+
+00:11:25,790 --> 00:11:30,911
+sozusagen auf Anwendungsebene das Problem
+auch ohne eine extra Mutex-Stelle lösen.
+
+00:11:30,911 --> 00:11:34,580
+Und zwar wenn man den gedanklichen
+Sprung macht, zu sagen:
+
+00:11:34,580 --> 00:11:38,120
+Wie wäre es denn, wenn die beiden
+Philosophen ihr Verhalten leicht ändern?
+
+00:11:38,120 --> 00:11:43,280
+Und zwar könnte man einen von
+beiden zu einem Linkshänder machen,
+
+00:11:43,280 --> 00:11:46,160
+also einen Händigkeitswechsel verordnen.
+
+00:11:46,160 --> 00:11:48,830
+Wie würde das aussehen?
+
+00:11:48,830 --> 00:11:53,000
+Hier habe ich gleich mal
+P1 zum Linkshänder gemacht.
+
+00:11:53,000 --> 00:11:55,610
+Das heißt, das Verhalten von P1 wäre nicht mehr,
+
+00:11:55,610 --> 00:11:58,310
+erst die rechte Gabel zu greifen
+und dann auf die linke zu warten.
+
+00:11:58,310 --> 00:12:01,340
+Sondern erst die linke Gabel zu greifen
+und dann auf die rechte zu warten.
+
+00:12:01,940 --> 00:12:06,350
+Das drückt sich hier im Petrinetz aus,
+indem einfach zwei Pfeile umgebogen wurden.
+
+00:12:06,350 --> 00:12:13,280
+Jeweils die Pfeile, wo der Philosoph 1
+Zugriff auf die Gabeln 1 und 2 nimmt.
+
+00:12:13,280 --> 00:12:16,850
+Die wurden genau so umgebogen,
+dass der Pfeil, der vorher von F2
+
+00:12:16,850 --> 00:12:22,700
+zu irgendwas beim Philosoph 1 führte, jetzt
+stattdessen daher rührt, wo vorher F1 war.
+
+00:12:22,700 --> 00:12:26,020
+Also genau diese beiden Pfeile
+laufen jetzt über Kreuz.
+
+00:12:28,660 --> 00:12:29,860
+Jetzt behaupte ich, das löst das Problem.
+
+00:12:29,860 --> 00:12:30,880
+Warum?
+
+00:12:31,690 --> 00:12:36,460
+Das führt dazu, dass jetzt nicht mehr beide
+zuerst nach der rechten Gabel greifen,
+
+00:12:36,460 --> 00:12:39,340
+sondern P1 nach der linken
+und P2 nach der rechten.
+
+00:12:39,340 --> 00:12:44,140
+Das heißt, diese Gabel F1 wäre jetzt
+die für beide zuerst gegriffene.
+
+00:12:44,140 --> 00:12:47,860
+Und das macht sie letztlich zu einem
+Synchronisationspunkt oder einer Mutex-Stelle.
+
+00:12:47,860 --> 00:12:50,740
+Wie können wir uns davon überzeugen?
+
+00:12:54,700 --> 00:12:57,870
+Wir könnten das Petrinetz nochmal anders
+darstellen, damit es offensichtlicher wird.
+
+00:12:57,870 --> 00:13:04,570
+Jetzt ist das ein bisschen unsymmetrisch, weil
+ich den dritten Philosophen entfernt habe.
+
+00:13:04,570 --> 00:13:06,880
+Wir können genau das gleiche
+Petrinetz durch ein bisschen
+
+00:13:06,880 --> 00:13:12,280
+Schütteln und Neuanordnen der
+Knoten auch so darstellen.
+
+00:13:12,280 --> 00:13:18,940
+Das müssen Sie mir jetzt entweder glauben oder
+mal auf den Folien nebeneinander vergleichen,
+
+00:13:18,940 --> 00:13:22,210
+dass das das gleiche Petrinetz ist wie
+dieses hier (nur anders hingemalt).
+
+00:13:22,210 --> 00:13:23,710
+Also genau die gleichen Verbindungen.
+
+00:13:23,710 --> 00:13:34,210
+Und hier wird jetzt offenkundiger,
+dass die F1-Stelle wie ein Mutex wirkt.
+
+00:13:35,080 --> 00:13:38,110
+Dieses Petrinetz, wie es hier
+dargestellt ist, ist verklemmungsfrei.
+
+00:13:38,110 --> 00:13:44,560
+Das können Sie mir auch glauben oder durchspielen
+bzw. den Erreichbarkeitsgraphen aufstellen.
+
+00:13:45,070 --> 00:13:49,510
+Der Punkt ist, dass hier sowohl P1 als auch P2,
+
+00:13:49,510 --> 00:13:54,220
+um gefüllt zu werden, jeweils diese
+oder diese Transition schalten müssen.
+
+00:13:54,220 --> 00:13:56,470
+Und die greifen beide auf F1 zu.
+
+00:13:56,470 --> 00:14:01,630
+Das heißt, wenn zum Beispiel Philosoph 1 nach
+seiner linken Gabel greift (nach dem F1),
+
+00:14:01,630 --> 00:14:05,650
+dann würde eben diese Marke
+hier oben hin verschwinden.
+
+00:14:05,650 --> 00:14:10,780
+Und dann ist Philosoph 2 praktisch
+lahmgelegt und kann erst wieder aktiv
+
+00:14:10,780 --> 00:14:17,080
+werden, wenn Philosoph 1 diese Gabel
+wieder abgelegt hat, also gegessen hat.
+
+00:14:17,080 --> 00:14:21,130
+Das ist ein Konflikt natürlich.
+
+00:14:21,130 --> 00:14:25,720
+Das heißt, dass diese beiden Transitionen
+konfliktbehaftet sind bezüglich der Gabel F1.
+
+00:14:25,720 --> 00:14:29,080
+Das war in dem ursprünglichen
+Philosophen-Problem gerade nicht der Fall.
+
+00:14:29,080 --> 00:14:32,620
+Da waren am Anfang die Aktionen,
+nach der rechten Gabel zu greifen,
+
+00:14:32,620 --> 00:14:34,120
+für alle drei Philosophen nebenläufig.
+
+00:14:34,120 --> 00:14:35,650
+Was erst mal schön klingt, da es parallel geht.
+
+00:14:35,650 --> 00:14:39,940
+Aber das führte zu einer Verklemmung, während
+hier durch diese Einführung des Konfliktes,
+
+00:14:39,940 --> 00:14:43,780
+des wechselseitigen Ausschlusses, dieser
+Mutex-Stelle, letztlich dafür gesorgt wird,
+
+00:14:43,780 --> 00:14:48,040
+dass nicht einfach beide Philosophen wild
+drauflos nach der ersten Gabel greifen.
+
+00:14:48,040 --> 00:14:55,990
+Sondern nur einer von beiden kann das tun, und
+danach kann der andere nicht sofort irgendwas tun.
+
+00:14:55,990 --> 00:15:00,910
+Aber wenn Philosoph 1 dann mit essen fertig
+ist, kann Philosoph 2 wieder drankommen.
+
+00:15:00,910 --> 00:15:04,690
+Das heißt, hier verhindern wir die
+Verklemmung durch Synchronisation,
+
+00:15:04,690 --> 00:15:08,380
+durch Verwendung dieser Mutex-Stelle letztlich.
+
+00:15:08,380 --> 00:15:16,630
+Das ist ein sehr typisches Modellierungsmuster
+in verschiedenen Anwendungen.

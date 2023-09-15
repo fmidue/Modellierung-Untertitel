@@ -1,0 +1,386 @@
+210 # slide
+00:00:00,000 --> 00:00:07,770
+Nach einer ganzen Reihe Inhalten und
+Videos zu Petrinetzen, nun zurück zu UML.
+
+00:00:07,770 --> 00:00:13,350
+Mit UML haben wir uns ja beschäftigt
+bei den Klassen- und Objektdiagrammen,
+
+00:00:13,350 --> 00:00:15,210
+also bei statischer Modellierung.
+
+00:00:15,210 --> 00:00:19,920
+Hingegen zu dynamischer Modellierung haben
+wir bisher tatsächlich Petrinetze gehabt
+
+00:00:19,920 --> 00:00:22,950
+und damit verwandte Konzepte
+Erreichbarkeitsgraphen etc.
+
+00:00:22,950 --> 00:00:29,280
+Und dann zu Beginn der Vorlesung die flachen
+Zustandsdiagramme, das war auch dynamische
+
+00:00:29,280 --> 00:00:33,960
+Modellierung, ja das haben wir auch genutzt,
+um Abläufe zu beschreiben oder zu modellieren.
+
+00:00:34,920 --> 00:00:40,440
+Also, dynamische Aspekte haben wir betrachtet
+in diesen beiden Hinsichten noch nicht mit UML.
+
+00:00:40,440 --> 00:00:48,330
+Wenn man noch mal auf die Einstufungen aus der
+ersten Vorlesungswoche zurückkommen und schauen,
+
+00:00:48,330 --> 00:00:50,730
+was für Art Modelle wie denn bedacht haben:
+
+00:00:50,730 --> 00:00:55,710
+Unter den dynamischen Gesichtspunkten, da war
+sowohl qualitative als auch quantitative Modelle.
+
+00:00:55,710 --> 00:00:59,640
+Also insbesondere bei den Petrinetzen durch die
+Kapazitäten, die wir zuletzt betrachtet haben,
+
+00:00:59,640 --> 00:01:02,670
+haben wir auch eine Modellierung
+in quantitativer Hinsicht.
+
+00:01:02,670 --> 00:01:06,810
+Wir haben das für ganz
+verschiedene Beispiele betrachtet
+
+00:01:06,810 --> 00:01:09,630
+und haben das nicht irgendwie
+eingeschränkt auf Softwaresysteme,
+
+00:01:09,630 --> 00:01:14,340
+sondern vor allem die Beispiele waren oftmals
+irgendwie nicht unbedingt Software getrieben.
+
+00:01:14,340 --> 00:01:18,630
+Wenn wir schauen, welche Art
+Modellierung wir betrieben haben,
+
+00:01:18,630 --> 00:01:21,690
+dann war das im Wesentlichen
+Whitebox-Modellierung.
+
+00:01:21,690 --> 00:01:26,430
+Also tatsächlich das Innere der
+beschriebenen Systeme erfasst,
+
+00:01:26,430 --> 00:01:31,650
+durch die Zustände oder durch die
+Angabe von Stellen und Transitionen.
+
+00:01:31,650 --> 00:01:34,320
+Da ging es wirklich um das
+innere Arbeiten von Systemen.
+
+00:01:34,320 --> 00:01:39,750
+Und in Summe bei den Petrinetzen war uns wichtig
+und das hat uns beschäftigt, dass wir das relativ
+
+00:01:39,750 --> 00:01:44,700
+formal gemacht haben, bzw. die Petrinetze haben
+eben eine formale Syntax und auch Semantik.
+
+00:01:44,700 --> 00:01:48,030
+Also ganz feste Regeln, nach
+denen sie aufgebaut sind und
+
+00:01:48,030 --> 00:01:53,280
+auch klare semantische mathematische
+Beschreibungen, wie ein denn ein
+
+00:01:53,280 --> 00:01:56,760
+Ablauf eines Petrinetzes aussieht oder
+welche formalen Eigenschaften das hat.
+
+00:01:58,050 --> 00:02:00,750
+Das ist also, was wir bisher gemacht
+haben, in dynamischer Hinsicht.
+
+00:02:00,750 --> 00:02:06,360
+UML dagegen habe wir bisher explizit
+nur für statische Modellierung benutzt.
+
+00:02:06,360 --> 00:02:07,860
+Ich hatte mal ganz kurz irgendwann zu
+
+00:02:07,860 --> 00:02:11,550
+Beginn des Petrinetz-Kapitels ein
+UML-Aktivitätsdiagramm gezeigt.
+
+00:02:11,550 --> 00:02:13,620
+Das werden wir auch gleich wieder sehen.
+
+00:02:13,620 --> 00:02:18,810
+Das ist dann unser Einstieg in die
+dynamische Modellierung mit UML.
+
+00:02:18,810 --> 00:02:22,140
+Ja, also Stichwort: Aktivitätsdiagramme.
+
+00:02:22,140 --> 00:02:26,520
+Das sind dann UML Diagramme, mit
+denen man anders als mit Klassen-
+
+00:02:26,520 --> 00:02:31,170
+und Objektdiagramme nicht den statischen
+Aufbau eines zum Beispiel Softwaresystems
+
+00:02:31,170 --> 00:02:34,890
+beschreiben würde, sondern da geht es darum
+Ablaufpläne, Reihenfolgen von Aktionen,
+
+00:02:34,890 --> 00:02:38,910
+Parallelität von Aktion, also solche
+dynamischen Aspekte modellieren zu können.
+
+00:02:38,910 --> 00:02:41,850
+Da wir auch wieder Nebenläufigkeit
+eine Rolle spielen.
+
+00:02:41,850 --> 00:02:46,200
+Nicht auf der formalen Ebene wie bei
+Petrinetzen, aber als Vorstellung davon,
+
+00:02:46,200 --> 00:02:52,590
+dass Aktionen unabhängig voneinander ausgeführt
+werden sollen oder nebenläufig/parallel.
+
+00:02:52,590 --> 00:02:59,340
+Anwendungen für Aktivitätsdiagramme
+gibt es sehr viele im Softwareentwurf.
+
+00:02:59,340 --> 00:03:05,790
+Allgemeiner auch durchaus mit teils etwas
+anderer Notation, aber im Grunde genommen
+
+00:03:05,790 --> 00:03:12,270
+den UML-Aktivitätsdiagrammen entsprechend, zur
+Modellierung von Geschäftsprozessen, Workflows
+
+00:03:12,270 --> 00:03:17,610
+oder eben den Fall von Softwaremodellierung
+um "use cases" zu beschreiben.
+
+00:03:17,610 --> 00:03:21,720
+Also allgemein immer, wenn es darum geht,
+
+00:03:21,720 --> 00:03:28,470
+Einzelschritte zusammenzufassen auf
+gewisse typische Arten zu Gesamtabläufen.
+
+00:03:28,470 --> 00:03:34,350
+Also, wenn es ein System gibt, das irgendwelche
+Einzelschritte durchführt und es beschrieben
+
+00:03:34,350 --> 00:03:38,460
+werden soll, welche Arten, welche Reihenfolgen
+von Schritten dabei erlaubt sein sollen.
+
+00:03:38,460 --> 00:03:44,070
+Und das entspricht natürlich nicht zufällig den
+Petrinetzen, wo wir auch ein Fokus darauf hatten,
+
+00:03:44,070 --> 00:03:49,110
+welche Folgen von Transitionen denn erlaubt
+sein sollen für ein zu modellierendes System.
+
+00:03:49,110 --> 00:03:54,323
+Und in der Tat sind Aktivitätsdiagramme in
+vielerlei Hinsicht sehr ähnlich zu Petrinetzen.
+
+00:03:54,323 --> 00:03:58,230
+Ja wir werden tatsächlich eine
+starke Verbindung herstellen,
+
+00:03:58,230 --> 00:04:02,250
+indem wir Aktivitätsdiagramme
+in Petrinetze übersetzen werden.
+
+00:04:02,250 --> 00:04:05,250
+Also dann werden sehen, wie
+die Entsprechung aussieht.
+
+00:04:05,250 --> 00:04:07,380
+Tatsächlich sind Aktivitätsdiagramme,
+
+00:04:07,380 --> 00:04:14,220
+wie in UML üblich, reicher als jetzt
+dieser formale Mechanismus der Petrinetze.
+
+00:04:14,220 --> 00:04:18,870
+Sie bieten weitere Modellierungsmöglichkeiten,
+also auch mehr Syntax, mehr verschiedene Arten
+
+00:04:18,870 --> 00:04:21,957
+von Knoten, nicht einfach nur Stellen und
+Transitionen, wie bei Petrinetzen Petrinetzen.
+
+00:04:21,957 --> 00:04:26,010
+Wo das sozusagen eine sehr einfache,
+sehr grundlegende Darstellung nur war.
+
+00:04:26,010 --> 00:04:30,180
+Da werden wir gleich sehen, dass es da
+mehr Elemente gibt in Aktivitätsdiagrammen.
+
+00:04:30,180 --> 00:04:35,070
+Die Kehrseite ist, dass sie keine
+vollständige formale Semantik haben.
+
+00:04:35,070 --> 00:04:38,820
+Also manche von den formalen Fragen, die
+wir über Petrinetze stellen können und
+
+00:04:38,820 --> 00:04:43,440
+auch eindeutig beantworten können, weil sie
+ebenso mathematisch präzise gefasst sind.
+
+00:04:43,440 --> 00:04:48,000
+Werden für Aktivitätsdiagramme nicht
+auf gleiche Weise möglich sein.
+
+00:04:48,000 --> 00:04:55,320
+Und ist auch nicht intendiert, weil Aktivdiagramme
+eben in der Software-Modellierung eher einen
+
+00:04:55,320 --> 00:05:03,420
+beschreibenden Charakter haben und nicht
+unbedingt der formalen Analyse zuerst dienen soll.
+
+00:05:03,420 --> 00:05:09,300
+O.k., also Aktivitätsdiagramme und tatsächlich
+
+00:05:09,300 --> 00:05:16,080
+werde das zunächst in einfach
+ein Aktivitätsdiagramm zeigen.
+
+00:05:16,080 --> 00:05:19,830
+Und mit dem dann ein bisschen herumspielen.
+
+00:05:19,830 --> 00:05:23,910
+Wieder in einem separaten
+Video, um sozusagen zu erfassen,
+
+00:05:23,910 --> 00:05:27,510
+was denn für dieses konkrete Aktivitätsdiagramm
+
+00:05:27,510 --> 00:05:32,580
+eigentlich die genannten Einzelschritte bzw.
+Abläufe aus Einzelschritten sein können.
+
+00:05:32,580 --> 00:05:36,210
+Wenn wir erst mal so ganz
+oberflächlich draufschauen,
+
+00:05:36,210 --> 00:05:41,220
+das ist jetzt keine Softwarebeispiel, sondern
+irgendwie ein Hausbau soll modelliert werden.
+
+00:05:41,220 --> 00:05:43,230
+Da gibt es ein Anfang und ein Ende.
+
+00:05:43,230 --> 00:05:47,250
+Das kann man hier schon so erahnen durch die
+Pfeile und deren Reihenfolge oder Richtung.
+
+00:05:47,250 --> 00:05:50,820
+Und es gibt einzelne Aktionen, solche Knoten.
+
+00:05:50,820 --> 00:05:54,960
+Natürlich sieht es ein bisschen aus
+wie ein flaches Zustandsdiagramm auch.
+
+00:05:54,960 --> 00:05:56,655
+Allerdings sehen wir eben auch schon Unterschiede.
+
+00:05:56,655 --> 00:05:58,350
+Wir sehen zum Beispiel, dass es verschiedene Arten
+
+00:05:58,350 --> 00:06:02,490
+von Knoten gibt, die wahrscheinlich
+verschiedene Bedeutung haben werden.
+
+00:06:02,490 --> 00:06:05,640
+Und solche speziellen Symbole, die es in unserem
+
+00:06:05,640 --> 00:06:08,850
+flachen Zustandsdiagramm zu Beginn
+der Vorlesung auch nicht auftraten.
+
+00:06:08,850 --> 00:06:10,800
+Dann gab's einfach nur
+Knoten und Pfeile dazwischen.
+
+00:06:10,800 --> 00:06:14,160
+Also hier gibt es schon irgendwelche speziellen
+Elemente, aber wenn erst mal man naiv schaut,
+
+00:06:14,160 --> 00:06:16,170
+könne man sich schon vorstellen, dass hier wohl im
+
+00:06:16,170 --> 00:06:22,320
+Wesentlichen irgendwie, wie in einem flachen
+Zustandsdiagramm Knoten und Pfeile existieren.
+
+00:06:22,320 --> 00:06:24,630
+Und man eben hier solche Aktionen ausführt:
+
+00:06:24,630 --> 00:06:27,630
+Bauplatz wählen, Architekt suchen,
+Plan erstellen, Plan einreichen.
+
+00:06:27,630 --> 00:06:31,740
+Naja, und dann kommt hier so
+spezielle Darstellungselemente,
+
+00:06:32,570 --> 00:06:34,880
+die wir auch in Petrinetzen
+so noch nicht gesehen haben.
+
+00:06:34,880 --> 00:06:38,480
+Und hier kann man schon erahnen, dass hier
+vielleicht irgendwas parallel passiert.
+
+00:06:38,480 --> 00:06:40,790
+Einfach durch die Art der Darstellung
+und das ist natürlich etwas, was es
+
+00:06:40,790 --> 00:06:42,770
+in flachen Zustandsdiagrammen so nicht gab.
+
+00:06:42,770 --> 00:06:44,840
+Da gab es immer nur einen aktuellen Zustand und
+
+00:06:44,840 --> 00:06:47,570
+dann bewegte man sich durch
+das flache Zustandsdiagramm.
+
+00:06:47,570 --> 00:06:49,070
+Und hier muss irgendwie noch mehr passieren,
+
+00:06:49,070 --> 00:06:55,490
+was genau werden wir uns gleich
+beim Durchspielen anschauen.
+
+00:06:55,490 --> 00:06:57,110
+Aber, worauf ich schon hinweisen wollte, war eben,
+
+00:06:57,110 --> 00:07:01,580
+dass es diese verschiedenen Arten von Elementen
+gibt, die jeweils eine ganz spezielle Rolle haben.
+
+00:07:01,580 --> 00:07:09,530
+Die wir dann beschreiben müssen, wenn wir
+Aktivitätsdiagramme genauer betrachten
+
+00:07:09,530 --> 00:07:11,840
+und die dann auch selbst erstellen können sollen.

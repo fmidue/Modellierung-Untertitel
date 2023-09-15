@@ -19,40 +19,34 @@ And that's pretty obvious, because for instance t2 has
 as a precondition only this one token of s2.
 
 0:00:28.080,0:00:29.100
-And that
-one is present.
+And that one is present.
 
 0:00:29.760,0:00:33.570
 So t2 could fire and then
 put a token here in s4.
 
 0:00:33.570,0:00:36.420
-And in the same
-way, it's also the case
+And in the same way, it's also the case
 
 0:00:36.420,0:00:40.770
 that t3 has only one precondition, which is
 that it requires only one token from s3.
 
 0:00:40.770,0:00:41.790
-There is
-one token there.
+There is one token there.
 
 0:00:41.790,0:00:45.240
-So t3 could fire and
-put a token in s4.
+So t3 could fire and put a token in s4.
 
 0:00:45.240,0:00:46.710
-And that would
-be the next situation.
+And that would be the next situation.
 
 0:00:49.050,0:00:52.410
 That would be the fireability
 of t2 and t3 individually.
 
 0:00:52.410,0:00:56.010
-However, we can
-intuitively see that t2
+However, we can intuitively see that t2
 
 0:00:56.010,0:00:59.670
 and t3 could in principle
@@ -63,20 +57,17 @@ Because these two
 preconditions do not overlap.
 
 0:01:02.250,0:01:03.210
-They have nothing to
-do with each other.
+They have nothing to do with each other.
 
 0:01:04.380,0:01:07.050
 So, what I had just
 done with the two individual tokens,
 
 0:01:07.050,0:01:11.568
-I could intuitively
-do in parallel.
+I could intuitively do in parallel.
 
 0:01:11.568,0:01:12.240
-I could
-also say:
+I could also say:
 
 0:01:12.240,0:01:17.760
 The two tokens could move to t2
@@ -91,8 +82,7 @@ Because they operate on completely different
 tokens, since there is no overlap.
 
 0:01:29.190,0:01:30.690
-So that
-we can say:
+So that we can say:
 
 0:01:30.690,0:01:38.370
 Then t2 and t3 can also both
@@ -131,8 +121,7 @@ are different, it
 can look quite different.
 
 0:02:15.640,0:02:18.820
-So if we had
-about this same example,
+So if we had about this same example,
 
 0:02:18.820,0:02:26.500
 but had another arrow (so
@@ -147,44 +136,36 @@ This would mean that there are now two
 precondition places for t2, namely s2 and s3.
 
 0:02:47.710,0:02:48.820
-What would then
-be valid here?
+What would then be valid here?
 
 0:02:48.820,0:02:49.810
-It would
-still hold
+It would still hold
 
 0:02:49.810,0:02:53.530
 that t2 and t3 are of
 course each fireable on their own.
 
 0:02:53.530,0:02:56.170
-So
-t3 anyway.
+So t3 anyway.
 
 0:02:56.170,0:02:57.760
-This t3
-has a precondition.
+This t3 has a precondition.
 
 0:02:57.760,0:02:59.920
-The token is there,
-so t3 could fire.
+The token is there, so t3 could fire.
 
 0:02:59.920,0:03:02.560
-But also
-t2 can fire.
+But also t2 can fire.
 
 0:03:02.560,0:03:04.480
-Because what
-does t2 expect?
+Because what does t2 expect?
 
 0:03:04.480,0:03:10.540
 This t2 expects that there is
 a token on both precondition places.
 
 0:03:10.540,0:03:11.890
-And this
-is the case.
+And this is the case.
 
 0:03:11.890,0:03:16.090
 That is, t2 could also fire
@@ -239,8 +220,7 @@ In the situation, it would be
 again that we could of course fire
 
 0:04:23.290,0:04:24.880
-t2 and
-t3 concurrent/parallel.
+t2 and t3 concurrent/parallel.
 
 0:04:24.880,0:04:33.250
 Because then t2 would be able to take
@@ -275,12 +255,10 @@ Let's look at another
 example, first this one.
 
 0:05:15.760,0:05:19.090
-What is
-activated concurrently here?
+What is activated concurrently here?
 
 0:05:19.090,0:05:20.590
-Now this is
-very simple, this example.
+Now this is very simple, this example.
 
 0:05:20.590,0:05:31.330
 We can see factually right away that
@@ -307,8 +285,7 @@ That would be our first example,
 where we have a three-element concurrent set.
 
 0:06:04.030,0:06:05.935
-On the
-slide also appeared:
+On the slide also appeared:
 
 0:06:05.935,0:06:10.870
 Not only can we have
@@ -319,8 +296,7 @@ the T' set of concurrently
 activated transitions would simply be the
 
 0:06:17.650,0:06:22.915
-entire transition set,
-namely t1, t2, t3.
+entire transition set, namely t1, t2, t3.
 
 0:06:22.915,0:06:27.280
 That's possible, and in that
@@ -331,8 +307,7 @@ And we can calculate that it
 also satisfies the formal condition for
 
 0:06:29.860,0:06:34.090
-concurrency of
-all three transitions.
+concurrency of all three transitions.
 
 0:06:34.090,0:06:39.100
 However, this was also only the case
@@ -367,8 +342,7 @@ So when I take the token
 out, it really has to go.
 
 0:07:07.660,0:07:08.890
-So it
-could be
+So it could be
 
 0:07:08.890,0:07:15.550
 that we decide, for example, to
@@ -383,8 +357,7 @@ The same would be true for
 t1, t3 and for t2, t3.
 
 0:07:25.870,0:07:28.870
-However, not for t1,
-t2, and t3 together.
+However, not for t1, t2, and t3 together.
 
 0:07:28.870,0:07:32.410
 So the concrete marking that we
@@ -407,20 +380,17 @@ We can calculate this
 again on the slides.
 
 0:07:56.830,0:08:03.850
-Then we
-have this example.
+Then we have this example.
 
 0:08:03.850,0:08:08.080
 It's a little bit more interesting,
 because there are more cross dependencies.
 
 0:08:08.080,0:08:10.750
-Especially at this
-point, of course.
+Especially at this point, of course.
 
 0:08:10.750,0:08:12.910
-What is
-valid here?
+What is valid here?
 
 0:08:12.910,0:08:19.150
 First of all, t1, t2, t3
@@ -455,12 +425,10 @@ act, because t2 would require that
 there is still a token here.
 
 0:08:51.900,0:08:52.770
-But this is
-not the case.
+But this is not the case.
 
 0:08:55.560,0:09:00.750
-This would be the
-case for t1, t3.
+This would be the case for t1, t3.
 
 0:09:00.750,0:09:05.160
 And analogously, we could have considered
@@ -475,8 +443,7 @@ would be able to consume this token, and thus
 just t2, t3 would be able to fire concurrently.
 
 0:09:18.030,0:09:20.640
-However, not
-t1 and t2.
+However, not t1 and t2.
 
 0:09:20.640,0:09:27.750
 This fails because we would need on the one hand
@@ -487,8 +454,7 @@ Exactly the marked center
 would be needed twice.
 
 0:09:35.190,0:09:35.730
-This is
-not possible here.
+This is not possible here.
 
 0:09:35.730,0:09:38.070
 The token can't go here
@@ -503,8 +469,7 @@ Because then also every subset of
 it would have to be activated concurrently.
 
 0:09:45.780,0:09:47.580
-And t1,
-t2 already isn't.
+And t1, t2 already isn't.
 
 0:09:56.130,0:10:01.680
 Of course, we can fix that
@@ -531,16 +496,14 @@ activate t2, and anyway completely independently
 t3 could operate on this one token.
 
 0:10:35.460,0:10:36.660
-Here it would indeed
-be possible to say:
+Here it would indeed be possible to say:
 
 0:10:36.660,0:10:38.310
 The token moves here, the token moves
 there, the token moves here, the token
 
 0:10:38.310,0:10:48.630
-moves there, the
-token moves here.
+moves there, the token moves here.
 
 0:10:48.630,0:10:51.630
 Then t1, t2,
@@ -551,8 +514,7 @@ Which means that
 actually now potentially any
 
 0:10:53.220,0:10:56.820
-order of firing
-would be possible.
+order of firing would be possible.
 
 0:10:56.820,0:11:02.580
 So when we write down firing sequences, we
@@ -583,8 +545,7 @@ That if we have concurrently
 activated transitions, then any firing
 
 0:11:56.490,0:11:59.250
-sequence of
-them is possible.
+sequence of them is possible.
 
 0:11:59.250,0:12:03.510
 Because they simply

@@ -1,0 +1,911 @@
+161 # slide
+00:00:00,000 --> 00:00:02,640
+So, welcome back.
+
+00:00:02,640 --> 00:00:10,080
+We will now deal here
+today with properties of Petri nets.
+
+00:00:10,080 --> 00:00:14,400
+I had already announced this at
+the end of the last lecture.
+
+00:00:14,400 --> 00:00:16,020
+As a reminder:
+
+00:00:16,020 --> 00:00:22,050
+We had last dealt with
+reachability graphs, respectively with their construction.
+
+00:00:22,050 --> 00:00:25,440
+That was the example
+from the last lecture.
+
+00:00:25,440 --> 00:00:32,160
+There was this Petri net, and I
+had set up the reachability graph for it.
+
+00:00:32,160 --> 00:00:37,320
+And based on that, I
+had already intuitively discussed some properties.
+
+00:00:37,320 --> 00:00:41,250
+For example, the fact that
+there is a dead end here.
+
+00:00:41,250 --> 00:00:46,290
+That you can get into a situation
+where the Petri net can't fire anymore.
+
+00:00:46,290 --> 00:00:50,490
+But I had also
+discussed other properties here.
+
+00:00:50,490 --> 00:00:53,550
+These are, of course, properties
+of the Petri net, actually.
+
+00:00:53,550 --> 00:00:59,160
+But we can recognize them
+in part better or at all
+
+00:00:59,160 --> 00:01:02,340
+by setting up and
+analyzing the reachability graph.
+
+00:01:02,910 --> 00:01:06,780
+It will be the same for
+the properties we are looking at today.
+
+00:01:06,780 --> 00:01:08,850
+They will be properties
+of Petri nets, but
+
+00:01:08,850 --> 00:01:12,540
+they will be discussed or
+defined on the reachability graph.
+
+00:01:17,430 --> 00:01:22,380
+And we will start
+first with terms related
+
+00:01:22,380 --> 00:01:26,490
+to liveness or
+even non-liveness, deadlock.
+
+00:01:26,490 --> 00:01:29,880
+Later, other properties will be added.
+
+00:01:29,880 --> 00:01:32,850
+But the first small family of properties
+
+00:01:32,850 --> 00:01:37,860
+will be about aliveness and its opposite.
+
+00:01:40,950 --> 00:01:45,000
+There are several terms there, and the
+first one is not just called "aliveness",
+
+00:01:45,000 --> 00:01:47,310
+but "strong aliveness".
+
+00:01:47,310 --> 00:01:49,290
+Here is the definition first.
+
+00:01:49,290 --> 00:01:55,890
+So a Petri net is called "strong liveness"
+if .... and then there is a definition here.
+
+00:01:55,890 --> 00:02:00,240
+So it must hold that for every
+single transition t (the Petri net can have
+
+00:02:00,240 --> 00:02:09,990
+several transitions, after all) and for every marking
+reachable from m0 (we remember, m0 was the
+
+00:02:09,990 --> 00:02:16,130
+starting marking), let's call that
+m, there is a marking m',
+
+00:02:16,130 --> 00:02:21,200
+which in turn is reachable from
+m, and for which t is activated.
+
+00:02:21,200 --> 00:02:23,330
+This is a multi-level definition:
+
+00:02:24,470 --> 00:02:26,180
+For every t and every marking m reachable
+
+00:02:26,180 --> 00:02:28,490
+from m0, let there
+be another marking m', etc.
+
+00:02:30,500 --> 00:02:32,240
+What does this mean intuitively?
+
+00:02:32,240 --> 00:02:34,100
+Basically, it means:
+
+00:02:34,100 --> 00:02:44,750
+Let the Petri net
+run arbitrarily from the initial
+
+00:02:44,750 --> 00:02:48,020
+marking without thinking of
+any special transition t.
+
+00:02:48,020 --> 00:02:49,190
+So you let it run first.
+
+00:02:49,190 --> 00:02:52,730
+At some point one says
+"Stop" and has a marking m.
+
+00:02:53,390 --> 00:02:59,690
+Now it must be possible to continue
+working from there (wherever you are) in such
+
+00:02:59,690 --> 00:03:08,480
+a way that at some point you
+still have the opportunity to fire t.
+
+00:03:09,650 --> 00:03:11,930
+It must not be possible that
+on the way from m0 to
+
+00:03:11,930 --> 00:03:17,480
+m one has somehow maneuvered
+oneself into a corner of the
+
+00:03:17,480 --> 00:03:21,230
+reachability graph, from where one never
+again gets the opportunity to fire t.
+
+00:03:21,230 --> 00:03:25,610
+Then the Petri net is strongly alive
+if that holds for every transition t.
+
+00:03:25,610 --> 00:03:34,170
+This means, of course, that then t can
+be fired arbitrarily many times, infinitely many times.
+
+00:03:34,170 --> 00:03:36,600
+But this is not
+all that the property says.
+
+00:03:36,600 --> 00:03:41,550
+Strong liveness is indeed
+a very strong notion.
+
+00:03:41,550 --> 00:03:47,220
+One can read off the
+property from the reachability graph.
+
+00:03:47,220 --> 00:03:51,690
+One can also transfer what is written
+here in the definition to the reachability graph.
+
+00:03:51,690 --> 00:03:53,700
+Then it is ultimately said:
+
+00:03:53,700 --> 00:03:58,560
+From each node of the graph a transition
+must be reachable which is labeled with t.
+
+00:03:58,560 --> 00:04:03,990
+From "every node of the graph", that
+is just all markings reachable from m0.
+
+00:04:03,990 --> 00:04:06,690
+So if we say, "for
+every marking m reachable from m0",
+
+00:04:06,690 --> 00:04:09,420
+that is equivalent to saying,
+"from every node of the reachability
+
+00:04:09,420 --> 00:04:12,120
+graph" (there are only
+reachable markings in there).
+
+00:04:12,120 --> 00:04:15,540
+So from there, you have to be able
+to get somewhere where t is activated again.
+
+00:04:15,540 --> 00:04:19,290
+That is, from each
+node of the reachability
+
+00:04:19,290 --> 00:04:21,990
+graph, another node must be
+reachable, or perhaps the same node,
+
+00:04:21,990 --> 00:04:25,260
+from which a transition
+can be made with t.
+
+00:04:25,260 --> 00:04:26,910
+This corresponds to the
+fact that t is activated.
+
+00:04:30,000 --> 00:04:36,870
+For example, is this true for
+our example Petri net from last week?
+
+00:04:37,500 --> 00:04:38,130
+For this Petri net?
+
+00:04:38,130 --> 00:04:42,210
+Does this have the property that
+if one makes any transitions (any
+
+00:04:42,750 --> 00:04:47,310
+number, any length) starting
+from this starting marking m0,
+
+00:04:47,310 --> 00:04:50,010
+it is guaranteed that in
+whatever marking m one is
+
+00:04:50,010 --> 00:04:54,480
+then, a marking m' is reachable from
+there, where t1 is fireable, for example?
+
+00:04:54,480 --> 00:04:59,070
+Or conversely, we first
+fix on t1 and ask:
+
+00:04:59,070 --> 00:05:04,920
+Is it the case that for every
+reachable marking m it is then still possible
+
+00:05:04,920 --> 00:05:06,630
+to reach an m' from which t1 is fireable?
+
+00:05:06,630 --> 00:05:08,910
+And for t1 the answer must be
+"yes", for t2 the answer must be "yes",
+
+00:05:08,910 --> 00:05:10,530
+for t3 the answer must be "yes".
+
+00:05:12,360 --> 00:05:17,190
+If for all three the answer is "Yes" in
+each case, then this Petri net would be strongly alive.
+
+00:05:19,050 --> 00:05:20,220
+You can then think about this here:
+
+00:05:20,220 --> 00:05:21,180
+What happens if I fire here?
+
+00:05:21,180 --> 00:05:22,260
+What could happen?
+
+00:05:22,260 --> 00:05:31,530
+Can I guarantee that I
+can always fire t3, for example?
+
+00:05:38,230 --> 00:05:40,360
+We can answer that
+on the reachability graph.
+
+00:05:40,360 --> 00:05:44,950
+Is it true here that
+from any node it is possible
+
+00:05:44,950 --> 00:05:48,460
+to reach a node where t1 is fireable?
+
+00:05:48,460 --> 00:05:53,710
+No, it is certainly not true
+because there is the dead end.
+
+00:05:53,710 --> 00:05:57,730
+So we take as t our t1.
+
+00:05:57,730 --> 00:06:05,350
+Then it is indeed the case that there
+is a marking m reachable from m0, and
+
+00:06:05,350 --> 00:06:10,000
+starting from it there is no
+m' in which t1 is fireable.
+
+00:06:10,000 --> 00:06:14,230
+So starting from this node
+there is no reachable node
+
+00:06:14,230 --> 00:06:17,410
+from which t1 or even
+t2 or t3 can be fired.
+
+00:06:17,410 --> 00:06:21,160
+In that case, it would not even
+matter whether one focuses on t1, t2, t3.
+
+00:06:21,160 --> 00:06:25,390
+Because it is the case for
+all three that there is at least
+
+00:06:25,390 --> 00:06:29,620
+one node, this one, from which you can
+never fire t1 or t2 or t3 again.
+
+00:06:29,620 --> 00:06:31,420
+And it's not the only dead end either.
+
+00:06:31,420 --> 00:06:34,030
+For every dead end
+in this reachability graph, we
+
+00:06:34,030 --> 00:06:37,630
+would have this phenomenon that, of
+course, transitions are never executable again.
+
+00:06:38,350 --> 00:06:39,040
+Otherwise, it wouldn't be a dead end.
+
+00:06:39,040 --> 00:06:42,370
+That is, related to this Petri net:
+
+00:06:42,370 --> 00:06:45,850
+You can have
+"deadlocking" sequences here.
+
+00:06:45,850 --> 00:06:51,340
+That will be somehow, if here for
+example t2 and t3 are not fired sensibly,
+
+00:06:51,340 --> 00:06:56,320
+alternately; but after firing t1, then
+there would be here below two tokens,
+
+00:06:56,320 --> 00:07:01,990
+for example these both with t3
+moved up and thereby prevented that
+
+00:07:01,990 --> 00:07:05,800
+ever t1 is fireable again; and then
+of course also no other transition more.
+
+00:07:05,800 --> 00:07:12,820
+So here the answer would actually be
+that this Petri net that we have
+
+00:07:12,820 --> 00:07:14,950
+seen is not strongly alive in that sense.
+
+00:07:18,700 --> 00:07:20,470
+That would be "strong liveness."
+
+00:07:20,470 --> 00:07:22,090
+If there is "strong aliveness",
+
+00:07:22,090 --> 00:07:24,130
+then surely there is also
+a notion of "weak aliveness".
+
+00:07:24,130 --> 00:07:26,860
+And perhaps our Petri
+net at least fulfills this.
+
+00:07:26,860 --> 00:07:29,350
+So what does "weak aliveness" mean?
+
+00:07:29,350 --> 00:07:36,970
+A Petri net is weakly lively
+if for each transition t there
+
+00:07:36,970 --> 00:07:39,700
+is a marking m reachable from
+m0 for which t is activated.
+
+00:07:40,360 --> 00:07:45,160
+With the strong liveness it was said
+that for each transition t and each
+
+00:07:45,160 --> 00:07:49,990
+marking m attainable from m0 it is
+so that one can fire t sometime still.
+
+00:07:49,990 --> 00:07:51,040
+While here it is only said:
+
+00:07:51,040 --> 00:07:54,760
+For every transition t there must
+be a marking m reachable from m0
+
+00:07:54,760 --> 00:07:55,765
+for which t is activated.
+
+00:07:55,765 --> 00:07:56,140
+And not:
+
+00:07:56,140 --> 00:07:59,290
+For every marking m reachable
+from m0 it must be possible
+
+00:07:59,290 --> 00:08:01,570
+to reach m' for which t is activated.
+
+00:08:01,570 --> 00:08:07,090
+So this is a weaker requirement, because here
+you can make a convenient choice, so to speak
+
+00:08:07,090 --> 00:08:14,530
+So as the person who wants to
+try to prove that a Petri net is
+
+00:08:14,530 --> 00:08:20,560
+weakly lively, here one can sort of
+choose a favorable reachable marking from m0.
+
+00:08:20,560 --> 00:08:23,980
+Whereas with strong liveness, the
+property must hold for all markings
+
+00:08:23,980 --> 00:08:26,740
+reachable from m0, including
+perhaps unfavorably chosen ones.
+
+00:08:28,540 --> 00:08:31,450
+Therefore, this is definitely
+a weaker property, which
+
+00:08:31,450 --> 00:08:35,290
+therefore potentially more
+Petri nets can satisfy.
+
+00:08:35,290 --> 00:08:39,670
+What does the property say
+in terms of the reachability graph?
+
+00:08:42,070 --> 00:08:47,200
+It simply means that every transition t
+must occur at all in the reachability graph.
+
+00:08:47,200 --> 00:08:51,940
+So if a transition t is drawn in the
+
+00:08:51,940 --> 00:08:55,210
+Petri net, then it must
+also occur in the reachability graph.
+
+00:08:55,210 --> 00:09:00,790
+Because the reachability
+graph covers all circuits
+
+00:09:00,790 --> 00:09:03,940
+which are possible
+from a reachable marking.
+
+00:09:03,940 --> 00:09:07,750
+So the requirement "there must
+be a marking reachable from
+
+00:09:07,750 --> 00:09:11,590
+m0" is equivalent to "there must
+be a node in the reachability
+
+00:09:11,590 --> 00:09:14,560
+graph" from which one
+can make a t-transition.
+
+00:09:19,120 --> 00:09:20,200
+Then we can look again:
+
+00:09:20,200 --> 00:09:23,410
+Is this now the case
+for our example Petri net?
+
+00:09:25,660 --> 00:09:27,190
+You can see that
+already in the Petri net:
+
+00:09:27,190 --> 00:09:30,130
+Here we actually know, we
+have already seen circuits where
+
+00:09:30,130 --> 00:09:32,710
+t1 has been executed, as
+well as t2 and t3.
+
+00:09:36,130 --> 00:09:38,890
+If we fire t1, we can then
+fire t2 and then also fire t3.
+
+00:09:38,890 --> 00:09:41,260
+Then we have fired
+all transitions at least once.
+
+00:09:41,260 --> 00:09:45,460
+And that would be enough to
+detect weak liveness of the Petri net.
+
+00:09:45,460 --> 00:09:48,460
+Or we look at the
+reachability graph and ask ourselves:
+
+00:09:48,460 --> 00:09:53,560
+Does every transition t1, t2,
+t3 occur here at least once?
+
+00:09:53,560 --> 00:09:56,320
+Then we see: yes, t1
+here, t2 here, t3 here.
+
+00:09:56,320 --> 00:09:56,920
+That would be enough.
+
+00:10:00,000 --> 00:10:03,750
+Thus weak liveness would already
+be present in the example.
+
+00:10:08,400 --> 00:10:16,650
+In order to be able to check
+this (this is also true for strong liveness),
+
+00:10:16,650 --> 00:10:19,770
+the reachability graph should be finite.
+
+00:10:19,770 --> 00:10:24,120
+We know, in general,
+reachability graphs can be infinite.
+
+00:10:24,120 --> 00:10:31,170
+This check for strong or
+weak liveness is possible if
+
+00:10:31,170 --> 00:10:33,420
+the reachability graph is finite.
+
+00:10:33,420 --> 00:10:39,600
+Weak liveness can often be easily
+decided even for infinite reachability graphs,
+
+00:10:39,600 --> 00:10:44,010
+if already in a finite
+part of them all transitions occur.
+
+00:10:44,520 --> 00:10:47,100
+For this it is only
+important that each transition occurs once.
+
+00:10:47,100 --> 00:10:52,881
+So if you have a Petri
+net and the reachability graph partially
+
+00:10:52,881 --> 00:10:56,910
+already; if you just start to develop
+the one you may not have finished developing
+
+00:10:56,910 --> 00:10:59,850
+(because it may not be possible in finite
+time, because it has infinitely many nodes); but
+
+00:10:59,850 --> 00:11:04,020
+if after finite time you have already
+seen every transition once, you can already say:
+
+00:11:04,020 --> 00:11:07,260
+The underlying Petri net
+was at least weakly alive.
+
+00:11:07,260 --> 00:11:13,020
+To also prove strong liveness, one would
+have to know the entire reachability graph.
+
+00:11:13,020 --> 00:11:17,040
+And this is of course
+difficult with infinite reachability graphs.
+
+00:11:20,880 --> 00:11:24,000
+That would be "strong and weak liveness."
+
+00:11:24,000 --> 00:11:29,490
+What we have seen here is
+that a Petri net can be weakly
+
+00:11:29,490 --> 00:11:34,800
+lively even though it
+contains a deadlock, a
+
+00:11:34,800 --> 00:11:36,480
+marking from which no
+further steps are possible.
+
+00:11:36,480 --> 00:11:38,250
+That does not
+argue against weak liveness.
+
+00:11:38,250 --> 00:11:40,230
+It does, however,
+speak against strong aliveness.
+
+00:11:40,230 --> 00:11:46,890
+And this kind of deadlock, impasse,
+of course it also has a definition.
+
+00:11:46,890 --> 00:11:48,510
+Even if we have
+already intuitively seen what
+
+00:11:48,510 --> 00:11:51,600
+it means, and perhaps don't
+need a formal definition at all.
+
+00:11:51,600 --> 00:11:53,280
+Nevertheless, here once written down:
+
+00:11:53,280 --> 00:11:56,490
+So a Petri net is
+said to have a deadlock (or
+
+00:11:56,490 --> 00:12:00,510
+so far I had sometimes said dead end)
+
+00:12:00,510 --> 00:12:05,550
+exactly when there is a marking reachable
+from m0 for which no transition is activated.
+
+00:12:05,550 --> 00:12:08,460
+Of course, equivalently
+for the reachability graph,
+
+00:12:08,460 --> 00:12:11,220
+this means that there is a
+node from which there is no transition.
+
+00:12:11,220 --> 00:12:15,660
+So this corresponds exactly to
+our informal question about dead ends.
+
+00:12:15,660 --> 00:12:21,060
+It also means that this Petri
+net contains at least one deadlock,
+
+00:12:21,060 --> 00:12:25,980
+and we see that, for example, in
+the reachability graph here, but also here.
+
+00:12:26,820 --> 00:12:30,030
+To say "there is a deadlock" or
+"the Petri net is not deadlock-free", it
+
+00:12:30,030 --> 00:12:32,640
+is enough to have detected a deadlock.
+
+00:12:35,670 --> 00:12:37,410
+In fact, there is
+also the term "deadlock-free".
+
+00:12:37,410 --> 00:12:40,170
+This is said when a Petri
+net does not contain any deadlock.
+
+00:12:44,130 --> 00:12:47,760
+Which is important, which is often
+done wrong in the exercise or exam:
+
+00:12:47,760 --> 00:12:52,290
+This deadlock term says
+exactly what it says.
+
+00:12:52,290 --> 00:12:54,390
+So it doesn't say, for example,
+
+00:12:54,390 --> 00:12:58,170
+that somehow there is a place
+from which there is no arrow.
+
+00:12:58,170 --> 00:13:04,290
+This is often misinterpreted by
+students, and then they argue
+
+00:13:04,290 --> 00:13:08,850
+that the Petri net is deadlock-free or
+not, and then they focus on whether
+
+00:13:08,850 --> 00:13:13,620
+there are places in it (i.e.
+circles) from which there are no arrows.
+
+00:13:13,620 --> 00:13:14,490
+That is not the criterion.
+
+00:13:14,490 --> 00:13:15,780
+The criterion is what is written here, or
+
+00:13:15,780 --> 00:13:22,200
+that there are nodes in the reachability
+graph from which there is no transition.
+
+00:13:22,200 --> 00:13:24,900
+That is, nodes from
+which there is no continuation.
+
+00:13:24,900 --> 00:13:26,310
+That is the criterion for deadlock.
+
+00:13:26,310 --> 00:13:30,780
+Not somehow a reference to
+places in the Petri net itself.
+
+00:13:30,780 --> 00:13:36,990
+To be able to check that, again it
+is important that the reachability graph is finite.
+
+00:13:36,990 --> 00:13:40,050
+This check, in this way, for that
+
+00:13:40,050 --> 00:13:46,020
+the reachability graph
+must be searched completely.
+
+00:13:46,020 --> 00:13:47,400
+And that's only possible if it's finite.
+
+00:13:47,400 --> 00:13:52,680
+This also means that you can only answer
+something like this, in the exam for example, for
+
+00:13:52,680 --> 00:13:58,770
+finite reachability graphs or for
+Petri nets with finite reachability graphs.
+
+00:13:58,770 --> 00:14:02,850
+But of course the definition
+is also generally applicable, it is
+
+00:14:02,850 --> 00:14:05,932
+just not so easy to check then.
+
+00:14:05,932 --> 00:14:09,030
+This is our example from before,
+we don't have to do anything else.
+
+00:14:09,030 --> 00:14:11,130
+We don't need to look
+at it again in more detail.
+
+00:14:11,130 --> 00:14:14,370
+I had already referred to the dead ends
+
+00:14:14,370 --> 00:14:19,320
+when I discussed or rejected
+the strong liveness for the example.
+
+00:14:23,550 --> 00:14:24,900
+What else is there to say?
+
+00:14:26,970 --> 00:14:29,010
+So what does it even mean, "strong"?
+
+00:14:29,010 --> 00:14:31,350
+Why is the
+"strong liveness" called strong?
+
+00:14:31,350 --> 00:14:34,140
+Because it is stronger in
+sum than the weak liveness.
+
+00:14:34,140 --> 00:14:38,610
+So, in particular, it is
+true that any strong liveness
+
+00:14:38,610 --> 00:14:41,280
+Petri net is both
+weakly liveness and deadlock-free.
+
+00:14:41,280 --> 00:14:42,180
+And vice versa:
+
+00:14:42,180 --> 00:14:46,020
+A Petri net that is not
+weakly lively cannot be strongly lively;
+
+00:14:46,590 --> 00:14:50,370
+a Petri net that contains
+an entanglement cannot be strongly lively.
+
+00:14:50,370 --> 00:14:57,300
+This is true because we do
+not have transition sets that are empty.
+
+00:14:57,300 --> 00:14:59,130
+If we also allowed
+empty transition sets in Petri
+
+00:14:59,970 --> 00:15:03,810
+nets, then this statement would
+hold here only with a precondition.
+
+00:15:03,810 --> 00:15:07,080
+This would be a very
+artificial case of having Petri
+
+00:15:07,080 --> 00:15:09,750
+nets in which there
+are places but no transitions.
+
+00:15:09,750 --> 00:15:13,650
+Then, formally, the Petri
+net is quite strongly alive,
+
+00:15:13,650 --> 00:15:15,330
+and then this statement would not hold.
+
+00:15:15,330 --> 00:15:19,950
+Since it would then be
+both strongly alive and deadlocked.
+
+00:15:19,950 --> 00:15:23,400
+But we consider, we
+have intentionally defined, Petri
+
+00:15:23,400 --> 00:15:26,670
+nets only for non-empty transition sets.
+
+00:15:26,670 --> 00:15:34,230
+And then the statement holds as
+it stands here, and there's this clear
+
+00:15:34,230 --> 00:15:37,785
+connection of strong to
+weak liveness and deadlock-freeness.
+
+00:15:37,785 --> 00:15:50,880
+Okay, we've just discussed
+this on the one example.
+
+00:15:50,880 --> 00:15:56,490
+I'm going to discuss in a moment in
+a separate video with examples in my whiteboard
+
+00:15:56,490 --> 00:16:01,710
+app of different combinations of the
+
+00:16:01,710 --> 00:16:05,520
+different properties in terms
+of aliveness and stuckness.
+
+00:16:05,520 --> 00:16:09,960
+So looking at simple artificial
+examples where certain combinations occur.
+
+00:16:09,960 --> 00:16:14,790
+In particular, it will also be
+a matter of clearing up the
+
+00:16:14,790 --> 00:16:21,150
+misconception, which is also widespread and is often voiced
+in exercises or the exam, namely that freedom from
+
+00:16:21,150 --> 00:16:27,570
+inhibition, so to speak, is precisely
+the difference between strong and weak liveliness.
+
+00:16:27,570 --> 00:16:31,290
+It is true that from
+strong aliveness follows weak aliveness
+
+00:16:31,290 --> 00:16:33,600
+and freedom from inhibition.
+
+00:16:33,600 --> 00:16:37,890
+But it is not true that, so to
+speak, exactly these two things must be present
+
+00:16:37,890 --> 00:16:39,480
+for strong aliveness to exist.
+
+00:16:39,480 --> 00:16:41,580
+These are independent qualities
+in a certain sense.
+
+00:16:41,580 --> 00:16:47,490
+But we will be able to make this
+clear to ourselves with the concrete small Petri nets.

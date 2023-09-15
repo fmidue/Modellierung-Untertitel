@@ -1,0 +1,432 @@
+2 # slide
+00:00:00,000 --> 00:00:07,770
+Gut, lassen Sie mich ein paar
+Worte zur Literatur sagen.
+
+00:00:07,770 --> 00:00:11,520
+Zunächst ist die Literatur
+nur als Ergänzung gedacht.
+
+00:00:12,300 --> 00:00:16,500
+Prinzipiell sollten Sie den Stoff
+der Vorlesung und der Übungen auch
+
+00:00:16,500 --> 00:00:22,560
+ohne zusätzliche Bücher bewältigen können.
+Manchmal hilft aber auch ein Extrabuch noch.
+
+00:00:22,560 --> 00:00:28,170
+Zum Teil präsentiert die Literatur den Stoff
+auch aus einer etwas anderen Perspektive als die
+
+00:00:28,170 --> 00:00:34,530
+Vorlesung, und das kann ja manchmal noch einen
+weiteren netten Zugang vielleicht ermöglichen.
+
+00:00:34,530 --> 00:00:37,830
+O.k., hier haben wir zunächst ein Buch,
+das ist ein sehr umfassendes Buch über UML.
+
+00:00:37,830 --> 00:00:46,320
+Ja, UML ist eine Modellierungsmethode, ein
+Modellierungssprachwerk, das vielleicht um
+
+00:00:46,320 --> 00:00:51,330
+die 50 Prozent der Vorlesung ausmachen
+wird, wenn ich das mal überschlage.
+
+00:00:51,330 --> 00:00:54,090
+Vielleicht ein bisschen mehr sogar.
+Also wir werden einige UML-Konzepte
+
+00:00:54,090 --> 00:00:57,390
+brauchen und deswegen ist ein Buch
+zu UML natürlich nicht verkehrt.
+
+00:00:57,390 --> 00:01:02,550
+Das ist ein Buch, aus dem ich einige
+Beispiele in die Vorlesung übernommen habe.
+
+00:01:02,550 --> 00:01:07,560
+Also, wenn Sie dieses Buch zum Beispiel aus
+der Bibliothek oder anderweitig besorgen,
+
+00:01:07,560 --> 00:01:09,840
+und darin blättern, werden Sie manches
+Beispiel vielleicht wiedererkennen,
+
+00:01:09,840 --> 00:01:11,220
+das ich in der Vorlesung hatte.
+Insofern ist es eigentlich
+
+00:01:11,220 --> 00:01:14,250
+ganz gut geeignet, das Buch.
+Leider, in der Beschreibung,
+
+00:01:14,250 --> 00:01:19,230
+auch wenn es um formale Dinge geht, ist
+dieses Buch manchmal nicht ganz sauber.
+
+00:01:19,230 --> 00:01:24,600
+Da gibt es gewisse Unstimmigkeiten, dadurch
+teils auch Abweichungen von der Vorlesung,
+
+00:01:24,600 --> 00:01:28,080
+wo ich versucht habe, Sachen
+sehr einheitlich darzustellen.
+
+00:01:28,080 --> 00:01:32,190
+Aber gerade als Einstieg und vor
+allem für Beispiele ist dieses Buch
+
+00:01:32,190 --> 00:01:40,410
+auf jeden Fall sehr gut geeignet.
+O.k., dann gibt es ein anderes
+
+00:01:40,410 --> 00:01:45,420
+englischsprachiges Buch, das sehr spezifisch
+auf objektorientiertes Design abzielt,
+
+00:01:45,420 --> 00:01:53,850
+das wird eben ein Teil der Vorlesung auch sein.
+Das ist dieses Buch hier, auch das
+
+00:01:53,850 --> 00:01:59,040
+können Sie über die Bibliothek finden.
+Das enthält auch eine nette Motivation
+
+00:01:59,040 --> 00:02:03,270
+und Beispiele, die teils auch
+in der Vorlesung auftauchen.
+
+00:02:03,270 --> 00:02:06,930
+Es ist ansonsten aber nicht
+wirklich ein Modellierungsbuch.
+
+00:02:06,930 --> 00:02:09,750
+Sie sehen das auch schon im Titel:
+da steht etwas von Implementation.
+
+00:02:09,750 --> 00:02:13,270
+Das ist ein Buch, das sicherlich ein
+paar Modellierungsanteile enthält,
+
+00:02:13,270 --> 00:02:18,760
+im Blick auf objektorientiertes Design, aber ein
+bisschen relevanter ist es vielleicht später,
+
+00:02:18,760 --> 00:02:21,700
+insbesondere wenn Sie zum Beispiel
+noch die Vorlesung Fortgeschrittene
+
+00:02:21,700 --> 00:02:25,510
+Programmiertechniken hören werden.
+Also da wird das Buch meines Wissens
+
+00:02:25,510 --> 00:02:28,600
+nicht als Lehrbuch verwendet, aber bestimmte
+Dinge, die Themen, die Sie dort behandeln
+
+00:02:28,600 --> 00:02:32,380
+werden, finden sich auch in diesem Buch.
+Also wenn Sie vorhaben, das später auch
+
+00:02:32,380 --> 00:02:36,430
+noch zu hören, wäre das vielleicht ein gutes
+Buch, das eine Brücke schlägt von Modellierung
+
+00:02:36,430 --> 00:02:40,870
+zu der Lehrveranstaltung Fortgeschrittene
+Programmiertechniken, die Sie wahrscheinlich
+
+00:02:40,870 --> 00:02:50,440
+bei Professor Pauli hören würden.
+O.k., ein weiteres Buch, sehr
+
+00:02:50,440 --> 00:02:55,330
+allgemein gehalten, Sie sehen auch UML im Titel.
+Software Engineering, da geht es um die Anwendung
+
+00:02:55,330 --> 00:03:02,800
+von UML im Bereich Modellierung von Software.
+Die Dinge werden eher nicht formal im Detail
+
+00:03:02,800 --> 00:03:06,610
+behandelt, also weniger formal als ich sie
+sicherlich in der Vorlesung machen werde, aber
+
+00:03:06,610 --> 00:03:13,840
+auch als Einstieg und Überblick nicht ungeeignet.
+Insbesondere nett an diesem Buch ist auch,
+
+00:03:13,840 --> 00:03:18,010
+dass Sie es nicht kaufen müssen oder
+in der Bibliothek besorgen müssen.
+
+00:03:18,010 --> 00:03:22,660
+Sie können das auch elektronisch lesen, und
+zwar wenn Sie in der Uni eingeloggt sind, also
+
+00:03:22,660 --> 00:03:27,640
+im Uni-Account eingeloggt sind, können Sie über
+diesen Link hier, das sollte noch funktionieren,
+
+00:03:27,640 --> 00:03:31,450
+dieses Buch auch elektronisch lesen.
+Gegebenenfalls, wenn Sie nicht im Uni-Netz sind,
+
+00:03:31,450 --> 00:03:35,350
+müssen Sie das über VPN eben machen.
+Das wurde Ihnen ja vielleicht auch
+
+00:03:35,350 --> 00:03:40,180
+schon erklärt oder Sie haben das in den letzten
+Semestern, wenn Sie nicht im ersten Semester sind,
+
+00:03:40,180 --> 00:03:53,495
+auch schon genutzt, den VPN-Zugang.
+O.k., ein weiteres Buch zu UML.
+
+00:03:53,495 --> 00:03:57,290
+Obwohl UML nicht die gesamte Vorlesung
+ausmacht, werden wir gleich andere Bücher sehen,
+
+00:03:57,290 --> 00:04:01,460
+aber hier noch ein weiteres Buch zu UML.
+Sehr umfangreich,
+
+00:04:01,460 --> 00:04:07,070
+nur ausschnittsweise für uns relevant.
+Interessant vielleicht deswegen auch
+
+00:04:07,070 --> 00:04:10,550
+für Sie, weil es das auch in Englisch gibt.
+Hier ist zwar das deutsche Buch abgebildet,
+
+00:04:10,550 --> 00:04:17,180
+aber für die englischsprachigen Studierenden gibt
+es dieses Buch auch in Englisch und das ist meines
+
+00:04:17,180 --> 00:04:21,560
+Wissens auch in unserer Bibliothek verfügbar.
+Also zumindest das Original könnte also
+
+00:04:21,560 --> 00:04:28,100
+dort ausgeliehen werden.
+Gut, dann hatte ich schon
+
+00:04:28,100 --> 00:04:34,400
+gesagt, es wird nicht nur um UML gehen.
+Ein weiteres wichtiges Modellierungsmittel,
+
+00:04:34,400 --> 00:04:36,830
+das wir in der Vorlesung verwenden
+werden, sind die sogenannten Petrinetze.
+
+00:04:36,830 --> 00:04:42,770
+Während Sie UML, zumindest Klassendiagramme,
+vielleicht schon aus dem Schulunterricht kennen,
+
+00:04:42,770 --> 00:04:48,830
+sind Ihnen Petrinetze wahrscheinlich am
+ehesten bekannt, wenn Sie am Informatik-Vorkurs
+
+00:04:48,830 --> 00:04:52,940
+teilgenommen haben oder wenn Sie eben als
+ISE-Studierende schon in anderen Vorlesungen
+
+00:04:52,940 --> 00:04:57,950
+waren, in denen Petrinetze auch verwendet wurden.
+Auch dafür gibt es mehrere Bücher, auch hier ein
+
+00:04:57,950 --> 00:05:04,370
+Buch, das online verfügbar ist wieder.
+Wenn Sie im Uniaccount eingeloggt sind,
+
+00:05:04,370 --> 00:05:09,080
+dann finden Sie hier eine Abhandlung zu
+Petrinetzen, die sehr beispielgetrieben ist.
+
+00:05:09,080 --> 00:05:18,710
+Also auch weniger formal, aber viele Beispiele
+enthalten, die uns nützlich sein werden.
+
+00:05:18,710 --> 00:05:26,210
+Dann ein bisschen im Kontrast dazu habe ich
+hier ein Buch aufgeführt, das sehr formal ist.
+
+00:05:26,210 --> 00:05:29,330
+Also hier werden eher formale
+Aspekte von Petrinetzen behandelt.
+
+00:05:29,330 --> 00:05:32,900
+Auch das passt zur Vorlesung, so
+weit wie wir das machen werden.
+
+00:05:32,900 --> 00:05:38,780
+Wir werden nicht alles machen, was in diesem Buch
+steht, aber einige formalere Konzepte, die wir uns
+
+00:05:38,780 --> 00:05:45,350
+auch anschauen werden, zu Petrinetzen, könnten Sie
+eher in diesem als im zuvor gezeigten Buch finden.
+
+00:05:45,350 --> 00:05:48,560
+Und auch dieses Buch sollte für
+Sie elektronisch verfügbar sein,
+
+00:05:48,560 --> 00:05:58,440
+wenn Sie über den Uni-Account gehen.
+Okay, hierzu auch noch mal was Englisches.
+
+00:05:58,440 --> 00:06:01,560
+Die beiden Bücher eben waren ja deutsche Bücher.
+Für die englischsprachigen Studierenden,
+
+00:06:01,560 --> 00:06:05,520
+aber auch für andere, wäre eventuell
+dieser Artikel interessant.
+
+00:06:05,520 --> 00:06:09,339
+Der ist in Englisch und hat einen
+etwas anderen Stil als die Bücher.
+
+00:06:09,339 --> 00:06:13,920
+Ja, die Bücher sind Lehrbücher, dies ist
+ein Übersichtsartikel, der ja auch schon
+
+00:06:13,920 --> 00:06:21,360
+vor einer ganzen Weile verfasst wurde.
+Er enthält auch gute Motivation, Beispiele,
+
+00:06:21,360 --> 00:06:27,210
+und bespricht auch einige der formalen
+Eigenschaften, die wir uns anschauen werden.
+
+00:06:27,210 --> 00:06:32,670
+Sie sehen das hier oben: Properties, Analysis and
+Applications, also sowohl Beispiele, Anwendungen,
+
+00:06:32,670 --> 00:06:39,000
+als auch die Eigenschaften und Analyse von
+Petrinetzen, was wir auch machen werden.
+
+00:06:39,000 --> 00:06:43,350
+Natürlich, da es nur ein Teil der Vorlesung ist,
+nicht in der gleichen Tiefe, wie es hier in dem
+
+00:06:43,350 --> 00:06:52,560
+Artikel angegangen wird, aber dennoch ist auch das
+ein möglicher Zugang zu diesem Teil der Vorlesung.
+
+00:06:52,560 --> 00:06:58,680
+O.k., auf ähnliche Weise, auch eher
+als wissenschaftlicher Artikel denn
+
+00:06:58,680 --> 00:07:07,260
+als Lehrbuch, hier ein Artikel von Harel.
+Er sollte für Sie auch verfügbar sein,
+
+00:07:07,260 --> 00:07:13,200
+und zwar sogar ohne Einschränkung, vom
+Uniaccount eingeloggt sein zu müssen.
+
+00:07:13,200 --> 00:07:18,780
+Warum ist dieser Artikel relevant?
+Weil er die Grundlage bildet für
+
+00:07:18,780 --> 00:07:25,080
+einen Teil von UML, nämlich UML-Zustandsdiagramme.
+Das wird das letzte Kapitel in der Vorlesung sein,
+
+00:07:25,080 --> 00:07:29,172
+wo wir uns mit dieser speziellen
+Art der Statecharts oder
+
+00:07:29,172 --> 00:07:33,750
+Zustandsdiagramme in UML beschäftigen.
+Das ist oftmals der als am komplexesten
+
+00:07:33,750 --> 00:07:39,840
+wahrgenommene Teil der Vorlesung.
+UML-Zustandsdiagramme werden auch
+
+00:07:39,840 --> 00:07:44,010
+in UML-Büchern zum Teil erklärt.
+Aber auf eine sehr schöne und intuitive
+
+00:07:44,010 --> 00:07:49,830
+Art und Weise sind sie meines Erachtens eben in
+dem Originalartikel beschrieben, der die Grundlage
+
+00:07:49,830 --> 00:07:54,570
+für UML-Zustandsdiagramme später bildete.
+Die Syntax ist da nicht hundertprozentig
+
+00:07:54,570 --> 00:07:59,220
+exakt gleich, aber die wichtigen Konzepte, die wir
+betrachten werden von Zustandsdiagrammen, finden
+
+00:07:59,220 --> 00:08:12,400
+Sie gut auf Englisch in diesem Artikel erklärt.
+O.k., ich glaube, ein Buch habe ich noch parat.
+
+00:08:12,400 --> 00:08:18,820
+Genau, das ist dieses Buch, auch auf
+Englisch in der Bibliothek verfügbar.
+
+00:08:18,820 --> 00:08:22,510
+Meines Wissens nicht elektronisch,
+aber als Handexemplar.
+
+00:08:22,510 --> 00:08:30,640
+Wieder ein sehr umfangreiches
+Buch, das sehr viel zu UML abdeckt.
+
+00:08:30,640 --> 00:08:35,350
+Insbesondere, deswegen habe ich es hier noch
+aufgenommen, deckt es auch die dynamischen
+
+00:08:35,350 --> 00:08:40,960
+Aspekte, dynamische Modellierung mit UML, ab.
+Was nicht unbedingt in allen der vorher genannten
+
+00:08:40,960 --> 00:08:46,720
+UML-Referenzen in gleichem Maße passiert.
+Ja, wir werden, kann ich schon vorwegnehmen,
+
+00:08:46,720 --> 00:08:51,070
+statische und dynamische Modellierung betrachten.
+Die statische Modellierung mit UML wird sehr
+
+00:08:51,070 --> 00:08:56,170
+gut an sehr vielen Stellen erklärt.
+Auch einfach in Einstiegsbüchern zum
+
+00:08:56,170 --> 00:08:59,530
+Software-Engineering werden die dynamischen
+Aspekte, zu denen die Zustandsdiagramme
+
+00:08:59,530 --> 00:09:05,560
+gehören, die sicherlich schwieriger sind und nicht
+überall in gleicher Weise abgehandelt werden,
+
+00:09:05,560 --> 00:09:12,100
+aber unter anderem in diesem Buch eben.
+O.k., nochmal zur Wiederholung:
+
+00:09:12,100 --> 00:09:15,220
+Sie müssen keines dieser Bücher lesen.
+Sie müssen auch keines dieser Bücher überhaupt
+
+00:09:15,220 --> 00:09:21,340
+zur Hand nehmen, wenn Sie das nicht möchten.
+Aber es könnte unter Umständen hilfreich sein,
+
+00:09:21,340 --> 00:09:25,000
+wenn Sie weitere Beispiele brauchen,
+etwas nochmal anders nachlesen wollen,
+
+00:09:25,000 --> 00:09:30,010
+als ich es in der Vorlesung erkläre, oder
+einfach mehr Übungsmaterial auch haben möchten.

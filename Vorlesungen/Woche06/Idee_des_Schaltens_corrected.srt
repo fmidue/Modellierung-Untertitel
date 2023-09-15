@@ -1,0 +1,809 @@
+144 # slide
+00:00:00,000 --> 00:00:04,590
+So let's consider a first concrete Petri
+
+00:00:04,590 --> 00:00:06,930
+net, in its graphical representation.
+
+00:00:06,930 --> 00:00:10,800
+We will get to
+know a mathematical representation later.
+
+00:00:10,800 --> 00:00:15,030
+But we'll introduce this informally
+first about the graphical representation.
+
+00:00:15,030 --> 00:00:21,990
+And in particular, this video will be
+about introducing the notion of firing as well.
+
+00:00:23,700 --> 00:00:24,510
+So what do we have here?
+
+00:00:24,510 --> 00:00:27,180
+A Petri net represented with these two
+
+00:00:27,180 --> 00:00:31,590
+types of ultimately nodes
+and their connections between them.
+
+00:00:33,060 --> 00:00:35,310
+I had already briefly mentioned on a
+
+00:00:35,310 --> 00:00:40,650
+previous slide that these
+circles are called places.
+
+00:00:40,650 --> 00:00:45,510
+And they're thought of as
+sort of storage places for resources.
+
+00:00:45,510 --> 00:00:49,710
+Where resources could be quite different things
+depending on the system that's being modeled.
+
+00:00:49,710 --> 00:00:52,560
+So simply the input data for a process
+
+00:00:52,560 --> 00:00:57,000
+or actually material resources like
+the snacks in a snack machine.
+
+00:00:57,000 --> 00:01:00,030
+Or simply logical
+preconditions for individual actions.
+
+00:01:00,030 --> 00:01:06,330
+Input signals/things that might
+somehow be relevant as
+
+00:01:06,330 --> 00:01:09,750
+preconditions for actions in the
+system or processes in the system.
+
+00:01:09,750 --> 00:01:14,160
+So these are these circles that
+are initially thought to be empty.
+
+00:01:14,160 --> 00:01:19,350
+And then in these circles, on
+these storage places, so-called tokens can lie.
+
+00:01:19,350 --> 00:01:21,000
+These are also called tokens.
+
+00:01:22,260 --> 00:01:27,570
+These small filled circles, which could
+lie on the previously still empty
+
+00:01:27,570 --> 00:01:29,640
+larger circles, these
+would be the resources.
+
+00:01:29,640 --> 00:01:32,040
+So the places are places for resources,
+
+00:01:32,040 --> 00:01:35,820
+and then these small
+filled circles are concrete resources.
+
+00:01:35,820 --> 00:01:39,690
+And there could be several of
+them on one place, or none.
+
+00:01:39,690 --> 00:01:42,840
+Now here is one token
+on each of these two places.
+
+00:01:42,840 --> 00:01:45,090
+There are no tokens
+on the other three places.
+
+00:01:46,380 --> 00:01:48,060
+This can also be different.
+
+00:01:48,060 --> 00:01:49,410
+There could be several tokens lying here.
+
+00:01:49,410 --> 00:01:52,380
+Or there could be tokens everywhere, or there
+could be no tokens anywhere, as in this case.
+
+00:01:52,380 --> 00:01:56,670
+That makes then in
+each case a system condition.
+
+00:01:56,670 --> 00:02:02,670
+So whether there are no tokens at all
+on these five places or one token each,
+
+00:02:02,670 --> 00:02:04,680
+or two tokens up here
+and three tokens down here,
+
+00:02:04,680 --> 00:02:07,440
+that makes up a
+system state in its entirety.
+
+00:02:07,440 --> 00:02:09,660
+If we think back to the flat state
+
+00:02:09,660 --> 00:02:13,480
+diagrams, then we had the individual
+states, which were then connected with arrows.
+
+00:02:13,480 --> 00:02:19,630
+And basically one state in such
+a flat state diagram would correspond to
+
+00:02:19,630 --> 00:02:23,170
+an overall configuration, one way
+
+00:02:23,170 --> 00:02:28,360
+in which the locations of such a Petri
+net may or may not be assigned to tokens.
+
+00:02:30,670 --> 00:02:34,690
+And then there's this other kind
+of nodes in this Petri net graph.
+
+00:02:34,690 --> 00:02:36,640
+These are the rectangles here.
+
+00:02:36,640 --> 00:02:38,470
+Sometimes I'll draw them as squares.
+
+00:02:39,310 --> 00:02:43,000
+Anyway, with corners and not as circles.
+
+00:02:43,000 --> 00:02:46,270
+And these are
+the so-called (system) transitions.
+
+00:02:46,270 --> 00:02:51,850
+So the idea then is that by the
+arrows going in or out to these rectangles,
+
+00:02:51,850 --> 00:02:57,220
+it shows under what circumstances one
+overall state can transition to another.
+
+00:02:57,220 --> 00:03:01,690
+We will discuss this in a
+moment, what for example to this transition
+
+00:03:01,690 --> 00:03:03,190
+the incoming/outgoing
+arrows mean concretely.
+
+00:03:03,190 --> 00:03:09,490
+And that will be that they somehow cause
+the tokens to be located somewhere else afterwards.
+
+00:03:09,490 --> 00:03:11,260
+So the structure of the Petri net remains
+
+00:03:11,260 --> 00:03:15,100
+the same, the places/transitions remain the same,
+but the tokens can be in other places.
+
+00:03:15,100 --> 00:03:18,580
+Then we have a new overall state
+of the Petri net as a whole.
+
+00:03:18,580 --> 00:03:23,230
+And the transitions describe, record how
+to get from one state to another.
+
+00:03:23,230 --> 00:03:27,310
+And that is, so to speak,
+recorded locally at a position in
+
+00:03:27,310 --> 00:03:29,050
+a controlled way for each transition.
+
+00:03:29,050 --> 00:03:34,420
+This is again different from flat
+state diagrams, where you can't necessarily
+
+00:03:34,420 --> 00:03:40,780
+read/recognize the preconditions for individual
+actions concentrated at one position.
+
+00:03:40,780 --> 00:03:46,720
+Okay, so this notion of transition and
+
+00:03:46,720 --> 00:03:48,640
+in/out arrows is obviously very central.
+
+00:03:48,640 --> 00:03:52,420
+So let's shed some more light on this.
+
+00:03:53,170 --> 00:03:55,540
+A transition in general
+is just such a rectangle.
+
+00:03:55,540 --> 00:04:01,390
+That can be connected to several
+of the places/circles, by incoming/outgoing arrows.
+
+00:04:01,390 --> 00:04:03,607
+And it can be quite different.
+
+00:04:03,607 --> 00:04:07,570
+There could be no incoming arrows at
+all, or more than two, or only one.
+
+00:04:07,570 --> 00:04:08,500
+So it is completely free.
+
+00:04:08,500 --> 00:04:11,590
+It depends on the concrete Petri
+net we are dealing with and
+
+00:04:11,590 --> 00:04:16,960
+the places that lie
+before the corresponding transition.
+
+00:04:16,960 --> 00:04:20,980
+So they are not graphically in front of it, but
+they are in front of it with respect to the arrows.
+
+00:04:20,980 --> 00:04:23,410
+They do not necessarily have to
+be shown above as in the example.
+
+00:04:23,410 --> 00:04:24,550
+They could also lie somewhere else.
+
+00:04:24,550 --> 00:04:30,630
+But the point is, those places that
+have an incoming arrow into a transition are
+
+00:04:30,630 --> 00:04:32,970
+called preconditions of that transition.
+
+00:04:32,970 --> 00:04:40,080
+So those are places where tokens should be
+located that will be consumed by the transition.
+
+00:04:40,080 --> 00:04:43,200
+There on the left
+are these incoming arrows.
+
+00:04:43,200 --> 00:04:48,270
+And all places that are
+located after a specific transition
+
+00:04:48,270 --> 00:04:50,490
+are called postconditions
+of this transition.
+
+00:04:50,490 --> 00:04:55,080
+So these are places into
+which tokens can be generated.
+
+00:04:55,080 --> 00:04:59,640
+And the transitions are
+the actual information carriers.
+
+00:04:59,640 --> 00:05:02,070
+There it is recorded:
+
+00:05:02,070 --> 00:05:04,260
+How do the tokens change?
+
+00:05:04,260 --> 00:05:07,620
+So the transitions together with their
+pre- and post-conditions are the central
+
+00:05:07,620 --> 00:05:11,550
+information carriers in the
+representation of a Petri net.
+
+00:05:11,550 --> 00:05:14,790
+So it could be for example like this:
+
+00:05:14,790 --> 00:05:20,040
+Here are two tokens on these two
+places and then this transition could fire.
+
+00:05:20,040 --> 00:05:24,960
+And that would cause those two tokens
+to be consumed and new tokens to
+
+00:05:24,960 --> 00:05:27,420
+be created on
+the three postcondition sites.
+
+00:05:27,420 --> 00:05:31,710
+So that's not like a token
+could move through here or that
+
+00:05:31,710 --> 00:05:33,600
+could happen independently
+for the two inputs.
+
+00:05:33,600 --> 00:05:39,000
+But rather both inputs are consumed at the
+same time and a token is deposited on
+
+00:05:39,000 --> 00:05:42,900
+all three outputs, in this specific case
+of a transition designed in this way.
+
+00:05:42,900 --> 00:05:45,990
+Of course, if the constellation
+is different, then it is analog.
+
+00:05:51,090 --> 00:05:57,300
+And exactly this change, the removal of
+the tokens of the precondition and then
+
+00:05:57,300 --> 00:06:02,340
+simultaneous generation of the tokens in the
+postcondition, is called firing of this one transition.
+
+00:06:02,340 --> 00:06:04,170
+And of course, if there
+are many transitions in the Petri
+
+00:06:04,170 --> 00:06:06,630
+net, then this can
+happen at different places.
+
+00:06:06,630 --> 00:06:08,820
+And it depends in each
+case on the pre- and post-conditions
+
+00:06:08,820 --> 00:06:11,280
+what exactly this does to a system state.
+
+00:06:11,280 --> 00:06:15,535
+This can be more general
+than here in the example.
+
+00:06:15,535 --> 00:06:19,470
+Here, by chance, it looked like
+that, for example, there was exactly
+
+00:06:19,470 --> 00:06:23,130
+one token here and afterwards
+exactly one token in the postconditions.
+
+00:06:23,130 --> 00:06:26,550
+There could also have been
+more than one token here before.
+
+00:06:26,550 --> 00:06:28,770
+So here could have been
+two tokens and one token.
+
+00:06:28,770 --> 00:06:32,127
+Then one of these two would be
+removed and the one that was here.
+
+00:06:32,127 --> 00:06:36,960
+In general, there can
+be more than one token.
+
+00:06:36,960 --> 00:06:40,260
+It is also possible to consume
+more than one token per arrow.
+
+00:06:40,260 --> 00:06:43,020
+Then you have to note that on the arrow.
+
+00:06:43,020 --> 00:06:45,510
+We will discuss how
+
+00:06:45,510 --> 00:06:49,800
+this is displayed exactly and what
+effects this has on the firing.
+
+00:06:52,380 --> 00:06:56,220
+It could also be that there are no incoming
+arrows at all or no outgoing arrows at all.
+
+00:06:56,220 --> 00:06:59,970
+This is then called either
+sources or sinks, such transitions.
+
+00:06:59,970 --> 00:07:02,580
+We will get to know that concretely, too.
+
+00:07:02,580 --> 00:07:09,300
+And unlike in this very simple example,
+it doesn't have to be the case
+
+00:07:09,300 --> 00:07:15,510
+that there are empty
+places for the post-condition places.
+
+00:07:15,510 --> 00:07:17,580
+Tokens could have
+already been placed here.
+
+00:07:17,580 --> 00:07:20,957
+Then some more would be
+added by firing this transition.
+
+00:07:20,957 --> 00:07:24,570
+So very general
+constellations are conceivable.
+
+00:07:27,360 --> 00:07:31,200
+Neither must everything have
+been empty here before,
+
+00:07:31,200 --> 00:07:33,900
+nor must everything be
+empty up here after firing.
+
+00:07:33,900 --> 00:07:39,030
+So if for example two tokens
+would have been here, and the transition
+
+00:07:39,030 --> 00:07:44,685
+demands just one token from this place, then
+afterwards just one token would have been here.
+
+00:07:44,685 --> 00:07:46,500
+So all this is possible.
+
+00:07:51,120 --> 00:07:54,720
+We can go through this again
+with the example from the slide before,
+
+00:07:54,720 --> 00:07:56,850
+for some concrete situations.
+
+00:07:56,850 --> 00:08:01,890
+For example, let's take this initial
+situation as it was on the slide.
+
+00:08:01,890 --> 00:08:05,550
+Then we can ask ourselves:
+
+00:08:05,550 --> 00:08:07,800
+Where could we fire here at all?
+
+00:08:07,800 --> 00:08:11,580
+Which of the four
+transitions could be fired?
+
+00:08:11,580 --> 00:08:19,260
+And well, it must always be the
+case that the tokens are actually present
+
+00:08:19,260 --> 00:08:22,980
+in the places from
+which tokens are requested.
+
+00:08:22,980 --> 00:08:27,270
+So for example this transition here
+on the left could not be fired
+
+00:08:27,270 --> 00:08:29,610
+in the current system state.
+
+00:08:29,610 --> 00:08:29,970
+Why?
+
+00:08:29,970 --> 00:08:33,390
+Because it would request
+a token from this place.
+
+00:08:33,390 --> 00:08:34,770
+But there are no tokens there.
+
+00:08:34,770 --> 00:08:35,580
+This space is empty.
+
+00:08:35,580 --> 00:08:37,140
+Then this transition can't fire.
+
+00:08:37,140 --> 00:08:42,060
+And the same would be
+true for this and this transition.
+
+00:08:42,060 --> 00:08:49,050
+On the other hand, this
+transition here could actually fire.
+
+00:08:49,050 --> 00:08:49,410
+Why?
+
+00:08:49,410 --> 00:08:54,690
+Because for all incoming arrows of
+this transition there is actually a token.
+
+00:08:54,690 --> 00:08:57,000
+So this transition would fire.
+
+00:08:57,000 --> 00:09:03,450
+And that would mean that the token would disappear
+and a token would be added here and here.
+
+00:09:03,450 --> 00:09:07,200
+Okay, that was also the only
+possible step in the case just now.
+
+00:09:07,200 --> 00:09:09,735
+So and then it could go on.
+
+00:09:09,735 --> 00:09:12,090
+Now we have a
+new constellation of the Petri
+
+00:09:12,090 --> 00:09:15,720
+net, i.e. a new assignment
+of the places with tokens.
+
+00:09:15,720 --> 00:09:16,740
+And then we could ask ourselves again:
+
+00:09:16,740 --> 00:09:18,030
+What is possible now?
+
+00:09:18,030 --> 00:09:21,570
+So obviously this transition
+can't directly fire again now.
+
+00:09:21,570 --> 00:09:24,750
+Because it has now no more tokens in its
+
+00:09:24,750 --> 00:09:26,370
+precondition, which would allow firing.
+
+00:09:26,370 --> 00:09:31,320
+But for example this
+transition could fire now.
+
+00:09:31,320 --> 00:09:35,340
+Because it now has a
+token on the only precondition place.
+
+00:09:35,340 --> 00:09:38,190
+So this transition could fire
+now, it is active now.
+
+00:09:38,190 --> 00:09:40,880
+It's ready to fire now.
+
+00:09:40,880 --> 00:09:44,940
+Okay, and if we just do
+that, now this token would disappear because
+
+00:09:44,940 --> 00:09:48,660
+it's consumed by the transition, and
+a token would be created here.
+
+00:09:48,660 --> 00:09:50,610
+That is, the next state would be this.
+
+00:09:50,610 --> 00:09:54,360
+And then you can
+think about other processes.
+
+00:09:54,360 --> 00:09:55,050
+What could happen now?
+
+00:09:55,050 --> 00:10:01,350
+For example, now this transition could
+fire because it is justified by this.
+
+00:10:01,350 --> 00:10:04,080
+We could also have imagined that
+
+00:10:04,080 --> 00:10:08,955
+this transition would fire at first
+and maybe the other one later.
+
+00:10:08,955 --> 00:10:13,770
+But we just happened to decide that
+we would do it in that order.
+
+00:10:13,770 --> 00:10:16,050
+But there is a
+certain non-determinism, that is,
+
+00:10:16,050 --> 00:10:21,930
+the order is not necessarily fixed
+and determined as only one possible sequence.
+
+00:10:21,930 --> 00:10:25,020
+That's called non-determinism.
+
+00:10:25,020 --> 00:10:28,770
+In the case here, I have
+now reached the initial position again.
+
+00:10:28,770 --> 00:10:32,220
+Now, if I want to continue, I
+would have to fire this transition again.
+
+00:10:32,220 --> 00:10:34,830
+Because we had already discussed that
+nothing else works in this situation.
+
+00:10:34,830 --> 00:10:38,910
+So I fire this again and
+maybe I decide now next time not
+
+00:10:38,910 --> 00:10:40,980
+to necessarily have
+the same sequence again.
+
+00:10:40,980 --> 00:10:42,720
+So to fire that and to fire that.
+
+00:10:43,560 --> 00:10:45,510
+Maybe now I decide to fire here.
+
+00:10:45,510 --> 00:10:51,810
+I may do that because I can
+always execute one of the possible activated transitions.
+
+00:10:52,340 --> 00:10:55,130
+And this transition is
+also activated because it has
+
+00:10:55,130 --> 00:10:58,310
+exactly one precondition place and
+there is a token there.
+
+00:10:58,310 --> 00:11:02,690
+So we could then consume the
+token from here, redeposit it here.
+
+00:11:02,690 --> 00:11:05,540
+Well, what else would
+be possible after that?
+
+00:11:05,540 --> 00:11:08,210
+Now only this
+transition would be fireable.
+
+00:11:08,210 --> 00:11:12,050
+This is the only transition
+that actually still finds enough tokens
+
+00:11:12,050 --> 00:11:15,140
+on its precondition places,
+in this case one.
+
+00:11:15,140 --> 00:11:23,300
+So we could fire like this
+and then it doesn't go any further.
+
+00:11:23,300 --> 00:11:36,620
+We can't do another step here, because
+none of the transitions here are enabled.
+
+00:11:36,620 --> 00:11:39,380
+That means, in that case, we would
+now have maneuvered ourselves into a dead end.
+
+00:11:39,380 --> 00:11:42,470
+I had already said that, that
+is a general term for Petri nets:
+
+00:11:42,470 --> 00:11:43,460
+The Deadlock.
+
+00:11:43,460 --> 00:11:45,230
+Now we would have reached a deadlock.
+
+00:11:45,230 --> 00:11:48,380
+Because at a point before that,
+we decided non-deterministically to execute this
+
+00:11:48,380 --> 00:11:53,210
+transition, which ultimately takes a resource
+out of the system, so to speak.
+
+00:11:53,210 --> 00:11:56,930
+From down here, that
+token never gets anywhere else.
+
+00:11:56,930 --> 00:12:02,330
+And the only possible progress left would
+
+00:12:02,330 --> 00:12:04,220
+be to execute this
+transition again at some point.
+
+00:12:04,220 --> 00:12:07,460
+But it won't come to fruition if
+it can never find a token here.
+
+00:12:07,460 --> 00:12:11,930
+Then we would have reached
+a deadlock in that case now.
+
+00:12:11,930 --> 00:12:13,430
+The system is not deadlock-free.
+
+00:12:17,090 --> 00:12:20,720
+And that was basically because we
+made an unfavorable choice at that
+
+00:12:20,720 --> 00:12:24,530
+point to execute that transition.
+
+00:12:24,530 --> 00:12:26,000
+It's not like that
+was the only possible choice.
+
+00:12:26,000 --> 00:12:29,510
+If we look closely here,
+particularly with respect to this point,
+
+00:12:29,510 --> 00:12:31,490
+there is a possible
+conflict in the Petri net.
+
+00:12:31,490 --> 00:12:36,500
+Because here this lower transition would have been
+activated as well as this above one, but of
+
+00:12:36,500 --> 00:12:38,630
+course not both at the same time.
+
+00:12:38,630 --> 00:12:40,070
+So they can't both get their way.
+
+00:12:40,070 --> 00:12:44,240
+Because this transition wants a token from
+here, this transition wants a token from here.
+
+00:12:44,240 --> 00:12:47,330
+So these two transitions are in
+conflict with respect to this resource.
+
+00:12:47,330 --> 00:12:50,570
+And, if we unfortunately decided
+in the example to give
+
+00:12:50,570 --> 00:12:57,260
+preference to the lower transition, that
+is, to pass on the token,
+
+00:12:57,260 --> 00:13:00,020
+then we have ultimately maneuvered
+the system into a dead end.
+
+00:13:00,020 --> 00:13:09,160
+And these are precisely questions that
+can then be investigated for Petri nets.
+
+00:13:09,160 --> 00:13:09,640
+Are there conflicts like that?
+
+00:13:09,640 --> 00:13:10,120
+Is there this kind of
+non-determinism where we have to decide?
+
+00:13:10,120 --> 00:13:11,590
+When do we have these kinds of
+conflicts? What are the consequences of that?
+
+00:13:11,590 --> 00:13:13,780
+Can we get into situations, say,
+
+00:13:13,780 --> 00:13:18,100
+where the system is then dead
+because no further steps are possible?
+
+00:13:18,100 --> 00:13:21,640
+Or can we perhaps always avoid
+this happening for a concrete system?
+
+00:13:21,640 --> 00:13:24,970
+These are general questions that
+we can answer for Petri nets.
+
+00:13:24,970 --> 00:13:30,070
+Here it was only a matter
+of introducing firing as a concept.
