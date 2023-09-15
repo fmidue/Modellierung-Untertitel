@@ -1,9 +1,8 @@
 0:00:01.130,0:00:06.820
 All right, let's start with a little introduction
-to modeling or to this course in terms of
+to modeling, or to this course in terms of
 
 0:00:06.820,0:00:07.820
-
 content.
 
 0:00:07.820,0:00:10.880
@@ -24,7 +23,7 @@ are models?
 
 0:00:17.550,0:00:22.789
 I'm sure you have some kind of
-colloquial idea of a model, i.e. model
+colloquial idea of a model, i.e., model
 
 0:00:22.789,0:00:25.039
 cars or a
@@ -47,7 +46,6 @@ And what is
 to be modeled here?
 
 0:00:33.970,0:00:34.970
-
 Why?
 
 0:00:34.970,0:00:37.020
@@ -64,11 +62,11 @@ in the course?
 
 0:00:44.940,0:00:48.520
 Instead of just the
-colloquial notion of model.
+colloquial notion of a model.
 
 0:00:48.520,0:00:52.980
 So first, of course, we
-can try to just define.
+can try to define it.
 
 0:00:52.980,0:00:57.260
 What is modeling or what
@@ -95,27 +93,26 @@ of
 something.
 
 0:01:14.649,0:01:19.189
-And that is of a, quite
-generally speaking, system of objects, relations and/or
+And that is, quite
+generally speaking, a system of objects, relations and/or
 
 0:01:19.189,0:01:20.189
-
 processes.
 
 0:01:20.189,0:01:23.299
 All these terms, "object", "relation", "processes",
-could of course refer in computer
+could, of course, refer in computer
 
 0:01:23.299,0:01:26.530
 science to software
-products for example.
+products, for example.
 
 0:01:26.530,0:01:33.979
-But of course one can also capture
+But, of course, one can also capture
 other real-world relationships in the same way.
 
 0:01:33.979,0:01:36.860
-So it's about representing
+So, it's about representing
 something, representing a system.
 
 0:01:36.860,0:01:41.539
@@ -123,8 +120,8 @@ And then it says here:
 a model simplifies and abstracts.
 
 0:01:41.539,0:01:44.539
-So as a rule, of
-course, you don't make a model.
+So, as a rule,
+of course, you don't make a model.
 
 0:01:44.539,0:01:48.719
 A model is not the real thing, so
@@ -135,8 +132,8 @@ a simplification/abstraction
 of it.
 
 0:01:50.530,0:01:56.770
-So somehow this system, which is
-the issue, is simplified and abstracted.
+So, somehow this system, which is
+at issue, is simplified and abstracted.
 
 0:01:56.770,0:02:00.270
 For example, by
@@ -147,7 +144,6 @@ Of course, the question of what is
 relevant depends on the purpose of the
 
 0:02:04.240,0:02:05.240
-
 model.
 
 0:02:05.240,0:02:06.240
@@ -159,8 +155,8 @@ Do I have the model car just to be
 able to look at it, at home in the living
 
 0:02:10.720,0:02:13.820
-room, when I can't be pining
-after my car in the garage?
+room, when I can't be yearning
+for my car in the garage?
 
 0:02:13.820,0:02:17.580
 Or do I want to
@@ -175,7 +171,7 @@ examining the
 model more closely.
 
 0:02:24.450,0:02:28.860
-Other properties may be relevant
+Other properties may be relevant,
 and therefore need to be simplified.
 
 0:02:28.860,0:02:36.210
@@ -195,24 +191,24 @@ How do
 you define "system"?
 
 0:02:41.820,0:02:44.670
-Again, very generally
+Again, it was very generally
 used at first.
 
 0:02:44.670,0:02:49.790
 Of course, one can already think of a computer
-science system, of a software, of a hardware prototype
+science system, some software, or a hardware prototype,
 
 0:02:49.790,0:02:50.990
 for
 example.
 
 0:02:50.990,0:02:55.390
-But in general we can say (and
+But in general, we can say (and
 many examples in the lecture will not
 
 0:02:55.390,0:02:59.790
 only be from the computer science
-context), in general a system could either
+context), in general, a system could either
 
 0:02:59.790,0:03:06.320
 reflect a part of reality or
@@ -223,8 +219,8 @@ not yet
 existing entity.
 
 0:03:07.450,0:03:10.680
-So something that is there, that one
-wants to describe, gladly by a model.
+So, something that is there, that one
+wants to describe, preferably by a model.
 
 0:03:10.680,0:03:18.130
 Or something that one wants to build/create and
@@ -248,31 +244,31 @@ that is also relevant:
 
 0:03:34.260,0:03:36.910
 The system could
-be something representational.
+be something tangible.
 
 0:03:36.910,0:03:43.040
-In the case of the model car, that
-is representational, both the model car itself and
+In the case of the model car, it
+is tangible, both the model car itself and
 
 0:03:43.040,0:03:45.540
 the real car of
-which that is a model.
+which it is a model.
 
 0:03:45.540,0:03:47.020
 Both would
-be representational things.
+be tangible things.
 
 0:03:47.020,0:03:48.240
 Or
 virtual.
 
 0:03:48.240,0:03:56.670
-So if I look again at the 3D
+So, if I look again at the 3D
 model of a skyscraper to be built, then
 
 0:03:56.670,0:04:02.990
-the skyscraper as a system would
-of course be a representational system of
+the skyscraper, as a system, would,
+of course, be a tangible system of
 
 0:04:02.990,0:04:08.400
 objects, consisting of all its floors, the beams,
@@ -284,7 +280,7 @@ skyscraper formed from them.
 
 0:04:11.840,0:04:15.540
 The 3D model, which is created on the
-computer beforehand, is of course something only virtual.
+computer beforehand, is of course, something only virtual.
 
 0:04:15.540,0:04:18.500
 But a system itself
@@ -292,18 +288,18 @@ could also be virtual.
 
 0:04:18.500,0:04:22.040
 When we talk about a software
-system, it itself is not representational.
+system, it itself is not tangible.
 
 0:04:22.040,0:04:27.450
 So both models and systems
-can be representational or virtual.
+can be tangible or virtual.
 
 0:04:27.450,0:04:31.280
 And an information technology system
-can also be representational, of course.
+can also be tangible, of course.
 
 0:04:31.280,0:04:35.150
-So an augmented reality system
+So, an augmented reality system
 that you might want to build.
 
 0:04:35.150,0:04:36.150
@@ -319,7 +315,7 @@ That's a very general
 first version of these terms.
 
 0:04:47.150,0:04:50.020
-All right, then
+All right, then,
 what is modeling?
 
 0:04:50.020,0:04:51.030
@@ -327,11 +323,11 @@ That's actually the
 question up here.
 
 0:04:51.030,0:04:54.530
-So modeling is very likely the
+So, modeling is very likely the
 process that gives rise to a model.
 
 0:04:54.530,0:04:57.650
-And actually we
+And actually, we
 take the starting point:
 
 0:04:57.650,0:05:01.590
@@ -343,11 +339,10 @@ In order to be able to better grasp,
 understand, analyze it, we first want to have a
 
 0:05:06.410,0:05:07.410
-
 model.
 
 0:05:07.410,0:05:10.440
-Modeling would then be this process
+Modeling would then be the process
 that creates a model for the system.
 
 0:05:10.440,0:05:14.030
@@ -356,7 +351,7 @@ course, we need to simplify/abstract.
 
 0:05:14.030,0:05:20.360
 Since the model represents the system in
-a simplifying and abstracting way, certain steps of
+a simplified and abstracted way, certain steps of
 
 0:05:20.360,0:05:22.200
 simplification have
@@ -364,7 +359,7 @@ to be taken.
 
 0:05:22.200,0:05:27.710
 And these can be quite different
-model building processes, which we will see
+model-building processes, which we will see
 
 0:05:27.710,0:05:29.660
 in different forms
@@ -372,14 +367,14 @@ in the lecture.
 
 0:05:29.660,0:05:34.830
 For example, this includes delimiting what
-of reality you actually want to
+parts of reality you actually want to
 
 0:05:34.830,0:05:36.020
 capture in
 the model.
 
 0:05:36.020,0:05:40.270
-So you first have to cut the system out
+So, you first have to cut the system out
 of the overall reality in order to be able to
 
 0:05:40.270,0:05:41.740
@@ -387,7 +382,7 @@ say what is
 to be modeled here.
 
 0:05:41.740,0:05:46.100
-So you have to separate the
+So, you have to separate the
 model, even the system, from the rest.
 
 0:05:46.100,0:05:48.210
@@ -412,7 +407,7 @@ to look at it, it doesn't need to
 
 0:06:03.780,0:06:04.780
 have
-the engine.
+an engine.
 
 0:06:04.780,0:06:11.310
 So you can reduce things, you can decompose,
@@ -423,15 +418,14 @@ parts, or capture how it's
 actually made up of subsystems.
 
 0:06:16.750,0:06:23.949
-And that can lead to the fact that one
-can form a model about it better, that one just
+And that can lead to one being able
+to form a better model about it, simply
 
 0:06:23.949,0:06:29.270
-carries out this decomposition of the system
-into its parts mentally and then models the
+by carrying out this decomposition of the system
+into its parts mentally, and then modeling the
 
 0:06:29.270,0:06:30.270
-
 parts.
 
 0:06:30.270,0:06:34.419
@@ -443,7 +437,7 @@ Or summarize things,
 abstract from details.
 
 0:06:38.970,0:06:44.199
-So different processes, mental processes,
+Different processes, mental processes,
 partly also technical processes, play a
 
 0:06:44.199,0:06:45.199
@@ -467,7 +461,6 @@ Maybe we want to design a
 system first or understand an existing system
 
 0:06:58.920,0:07:00.020
-
 better.
 
 0:07:00.020,0:07:03.980
@@ -475,7 +468,6 @@ Maybe we want to visualize it
 to document it, maybe for other
 
 0:07:03.980,0:07:04.980
-
 users.
 
 0:07:04.980,0:07:07.840
@@ -503,8 +495,8 @@ To be a little
 bit more concrete or
 
 0:07:38.050,0:07:43.340
-to remind you that you have of
-course already worked with models, have already seen
+to remind you that you have, of
+course, already worked with models, have already seen
 
 0:07:43.340,0:07:48.950
 models, here are a few short
@@ -536,7 +528,7 @@ atomic models, for example.
 
 0:08:11.139,0:08:15.880
 According to current knowledge, atoms
-consist of protons, neutrons and electrons.
+consist of protons, neutrons, and electrons.
 
 0:08:15.880,0:08:22.200
 Strictly speaking, these parts consist of even
@@ -547,16 +539,16 @@ we are not interested
 in that, for example.
 
 0:08:23.889,0:08:29.419
-There we carry out a simplification, an
-abstraction and simply want to understand how atoms
+There, we carry out a simplification, an
+abstraction, and simply want to understand how atoms
 
 0:08:29.419,0:08:33.400
-on this decomposition level,
+on this decomposition level
 consist of these parts.
 
 0:08:33.400,0:08:39.800
-That's about how these particles interact,
-how they make up an atom.
+It's about how these particles interact,
+and how they make up an atom.
 
 0:08:39.800,0:08:42.289
 And there's actually
@@ -572,11 +564,11 @@ of physics.
 
 0:08:49.230,0:08:57.810
 So, the beginning is made by Thomson's atomic model,
-where it was already recognized that there is positive
+where it was already recognized that there are positive
 
 0:08:57.810,0:08:58.810
 and
-negative charge.
+negative charges.
 
 0:08:58.810,0:09:01.610
 And the idea here was
@@ -599,15 +591,15 @@ So one knew, there
 must be these charges.
 
 0:09:16.510,0:09:19.380
-The electrons are mobile,
-or so one imagined it.
+The electrons are mobile;
+that is how one imagined it.
 
 0:09:19.380,0:09:23.580
 They are small particles embedded in a
-big atom, and the charge is plus
+big atom, and the positive and
 
 0:09:23.580,0:09:25.770
-and minus
+negative charges are
 the same.
 
 0:09:25.770,0:09:29.290
@@ -616,27 +608,25 @@ atom as such is neutral.
 
 0:09:29.290,0:09:33.070
 Then there were further physical experiments and
-it turned out that it cannot be
+it turned out that it could not be
 
 0:09:33.070,0:09:38.700
 that the positive charge is distributed so
 large, so to speak, in such a large
 
 0:09:38.700,0:09:39.700
-
 object.
 
 0:09:39.700,0:09:44.950
-But actually the atomic nucleus, which
+But actually, the atomic nucleus, which
 carries only the positive charge, is much
 
 0:09:44.950,0:09:45.950
-
 smaller.
 
 0:09:45.950,0:09:51.570
-Rutherford's experiments have worked this
-out or let it come out.
+Rutherford's experiments have revealed this
+or brought it to light.
 
 0:09:51.570,0:09:53.800
 And therefore
@@ -648,19 +638,19 @@ which unites all positive charge, and the
 
 0:09:59.690,0:10:03.760
 negative electrons move around
-it in a certain perimeter.
+it within a certain perimeter.
 
 0:10:03.760,0:10:05.160
 That is, a certain distance
-that they do not leave.
+they do not leave.
 
 0:10:05.160,0:10:09.029
-They are so trapped
-there near the nucleus.
+They are trapped
+near the nucleus.
 
 0:10:09.029,0:10:11.230
-Then there
-were further observations.
+Then, further observations
+were made.
 
 0:10:11.230,0:10:16.260
 The Bohr atomic model, which is
@@ -672,7 +662,7 @@ just randomly distributed around the atomic nucleus,
 
 0:10:20.870,0:10:23.480
 but that they move
-on shells, on certain paths.
+in shells, along certain paths.
 
 0:10:23.480,0:10:28.660
 And that this is very important for
@@ -691,7 +681,7 @@ about how the electrons are
 distributed around the atomic nucleus.
 
 0:10:39.300,0:10:45.130
-And with the quantum theory, quantum
+And with quantum theory, quantum
 physics, it has turned out that this
 
 0:10:45.130,0:10:49.480
@@ -703,7 +693,7 @@ these electrons simply
 hanging at certain positions.
 
 0:10:52.360,0:10:58.170
-But actually one must work
+But actually, one must work
 with orbits, thus distribution probabilities, where
 
 0:10:58.170,0:10:59.820
@@ -712,11 +702,11 @@ particles are.
 
 0:10:59.820,0:11:04.020
 Because of the final character, that
-these particles behave also like waves.
+these particles also behave like waves.
 
 0:11:04.020,0:11:10.100
-So there, in the end, it's all
-about residence probabilities instead of actual specific position.
+So in the end, it's all
+about residence probabilities instead of actual specific positions.
 
 0:11:10.100,0:11:15.540
 And now we could say, this is the
@@ -736,19 +726,18 @@ is usually used in the first place.
 
 0:11:23.550,0:11:29.890
 Because it is sufficiently and exactly correctly
-detailed for the things, which one examines
+detailed for the things that one examines
 
 0:11:29.890,0:11:30.890
-
 there.
 
 0:11:30.890,0:11:39.290
-So one has had here consciously perhaps first
-of all very simple models because of the
+So one may have initially used very simple models here,
+perhaps due to the
 
 0:11:39.290,0:11:42.740
-initially lower knowledge potential
-or lower level of knowledge.
+lower level of knowledge potential
+or lesser understanding.
 
 0:11:42.740,0:11:49.350
 But even today, one can still decide on
@@ -756,7 +745,7 @@ a level of detail that represents the relationships to
 
 0:11:49.350,0:11:50.459
 be
-investigated well.
+well investigated.
 
 0:11:50.459,0:11:55.200
 And we should see that with other
@@ -772,15 +761,15 @@ investigate.
 
 0:12:04.339,0:12:11.330
 Another example that I can't really say
-too much about, this comes from biology.
+too much about comes from biology.
 
 0:12:11.330,0:12:16.080
 It's quite nice here in the presentation, but
-I can't say that much about the content, because
+I can't say much about the content, because
 
 0:12:16.080,0:12:20.780
-I'm not as well educated biologically myself
-as I am physically, I would think.
+I'm not as well educated in biology myself
+as I am in physics, I would think.
 
 0:12:20.780,0:12:24.720
 So here, obviously, an
@@ -792,7 +781,7 @@ go into individual parts at all.
 
 0:12:28.690,0:12:34.170
 But what's interesting, why it's also in
-here: because it has a certain characteristic
+here, is because it has a certain characteristic
 
 0:12:34.170,0:12:38.200
 difference to
@@ -803,7 +792,7 @@ Namely, this seems to
 be about a process.
 
 0:12:41.300,0:12:42.360
-Here it
+Here, it
 was actually about:
 
 0:12:42.360,0:12:43.360
@@ -811,8 +800,8 @@ How are
 atoms constructed?
 
 0:12:43.360,0:12:47.070
-So back here these probability distributions
-appear, that also has something dynamic.
+So back here, these probability distributions
+appear; that also has something dynamic to it.
 
 0:12:47.070,0:12:48.170
 So, how do
@@ -820,7 +809,7 @@ these particles move?
 
 0:12:48.170,0:12:49.400
 Where are
-they, when?
+they, and when?
 
 0:12:49.400,0:12:54.130
 But especially these first three
@@ -828,7 +817,7 @@ models here, they are rather static.
 
 0:12:54.130,0:12:57.130
 It's about which subparticles
-does an atom consist of?
+an atom consists of?
 
 0:12:57.130,0:12:58.480
 How are
@@ -839,11 +828,11 @@ Where are
 they located?
 
 0:12:59.480,0:13:03.480
-Maybe also: with which
-charges are they located?
+Maybe also: with what
+charges are they associated?
 
 0:13:03.480,0:13:06.000
-With which energy levels are
+At which energy levels are
 they located on different levels?
 
 0:13:06.000,0:13:08.029
@@ -868,7 +857,7 @@ are transformed.
 
 0:13:24.620,0:13:28.720
 There is also some information here
-for in what composition, in what ratio
+about the composition and ratio in which
 
 0:13:28.720,0:13:33.670
 the individual components
@@ -879,8 +868,8 @@ But in any case,
 a transformation is described here.
 
 0:13:36.279,0:13:41.459
-We will call this
-a dynamic model shortly.
+We will soon refer to this
+as a dynamic model.
 
 0:13:41.459,0:13:45.100
 And this model came
@@ -903,8 +892,8 @@ But this is also something that you
 know as a model, perhaps from geography lessons,
 
 0:13:58.110,0:14:04.050
-when somehow climate and processes
-of the atmosphere were described.
+when climate and processes
+of the atmosphere were described somehow.
 
 0:14:04.050,0:14:11.731
 What is striking about this model, but
@@ -912,7 +901,7 @@ also certainly about the two examples before it,
 
 0:14:11.731,0:14:18.440
 is that a lot of visual and
-graphical transport and information is used here.
+graphical transport of information is used here.
 
 0:14:18.440,0:14:20.530
 Of course, this does not
@@ -944,11 +933,11 @@ now were very visual.
 
 0:14:35.280,0:14:41.040
 Of course, you can also model with
-more textual means, then for example verbal
+more textual means, such as verbal
 
 0:14:41.040,0:14:44.980
 descriptions or mathematical formulas, which are
-also in some kind of context.
+also used in some kind of context.
 
 0:14:44.980,0:14:50.410
 These would be mathematical models that
@@ -967,12 +956,12 @@ These are not primarily the kind of
 models we're going to look at here.
 
 0:14:58.730,0:15:03.820
-Because we will not look at
-formal logical models in this course, because
+Because we will not look at formal logical models
+in this course (not quite true anymore), because
 
 0:15:03.820,0:15:07.200
 there are other courses for that
-in your respective courses of study.
+in your respective fields of study.
 
 0:15:07.200,0:15:12.030
 Of course, this does not mean that
@@ -987,11 +976,10 @@ So the atomic models, which were somehow
 also visually represented on the slide before
 
 0:15:18.740,0:15:21.830
-last, are of course actually also backed up
-with formulas in physics, with the mathematical descriptive
+the last, are of course also backed up
+with formulas in physics, with the mathematical descriptions
 
 0:15:21.830,0:15:23.630
-relationships
 behind them.
 
 0:15:23.630,0:15:25.529
@@ -999,11 +987,11 @@ And that is then
 again rather mathematical text.
 
 0:15:25.529,0:15:34.460
-In this course we will
+In this course, we will
 often work with graphical representations.
 
 0:15:34.460,0:15:39.910
-Not as free-graphic as here (a colorful
+Not as free-form as here (a colorful
 picture), but already in a very disciplined way
 
 0:15:39.910,0:15:41.519
@@ -1011,15 +999,14 @@ to represent
 something graphically.
 
 0:15:41.519,0:15:45.660
-So more formal than
-here just a painted picture.
+So it's more formal than
+just a painted picture as here.
 
 0:15:45.660,0:15:51.150
 But also not as formal
 as formal logic operates to describe
 
 0:15:51.150,0:15:52.200
-
 connections.
 
 0:15:52.200,0:15:56.870
@@ -1031,7 +1018,6 @@ Of course, a graphical
 representation helps to better understand
 
 0:16:01.790,0:16:02.790
-
 models.
 
 0:16:02.790,0:16:08.350
@@ -1063,19 +1049,17 @@ Qualitative, quantitative, that you know as
 terms of course, simply from the
 
 0:16:30.860,0:16:31.860
-
 language.
 
 0:16:31.860,0:16:34.269
 So, qualitative,
-somehow the description:
+is somehow the description:
 
 0:16:34.269,0:16:37.089
 What,
 How, Why?
 
 0:16:37.089,0:16:38.089
-
 Quantitative:
 
 0:16:38.089,0:16:39.470
@@ -1095,7 +1079,7 @@ What objects
 are there?
 
 0:16:47.769,0:16:50.240
-In the atom, what
+In the atom, which
 objects occur in it?
 
 0:16:50.240,0:16:54.350
@@ -1103,15 +1087,14 @@ Which small
 particles, protons, electrons?
 
 0:16:54.350,0:16:57.019
-What characteristics/relationships do they
-have to each other?
+What characteristics or relationships do they
+have with each other?
 
 0:16:57.019,0:16:58.230
 What
 happens?
 
 0:16:58.230,0:16:59.230
-
 Not:
 
 0:16:59.230,0:17:01.670
@@ -1119,7 +1102,6 @@ In what order,
 how often, when?
 
 0:17:01.670,0:17:02.670
-
 But:
 
 0:17:02.670,0:17:03.670
@@ -1143,35 +1125,35 @@ or numbers
 or numerical values/measurements.
 
 0:17:15.929,0:17:18.089
-So questions about:
+So, questions about:
 what, how, why.
 
 0:17:18.089,0:17:20.490
 And in contrast
-to that, quantitative models.
+to that, we have quantitative models.
 
 0:17:20.490,0:17:22.490
 There it
-is just about:
+is about:
 
 0:17:22.490,0:17:24.410
 How many
 objects are there?
 
 0:17:24.410,0:17:27.390
-In which quantity ratio do
+In what quantity ratio do
 these different kinds of objects occur?
 
 0:17:27.390,0:17:30.950
-How long might a process take (if
-it is a process that is being modeled)?
+How long might a process take
+(if it's a process that is being modeled)?
 
 0:17:30.950,0:17:32.580
 How likely is
 a particular event?
 
 0:17:32.580,0:17:36.480
-I had talked about probability
+I had talked about the probability
 distribution in the fourth atomic model.
 
 0:17:36.480,0:17:42.540
@@ -1191,15 +1173,15 @@ less
 so.
 
 0:17:55.180,0:17:59.500
-Certainly also because, of course, you usually have
-to say what objects there are in the first
+Certainly, this is also because, of course, you usually have
+to identify the objects first
 
 0:17:59.500,0:18:01.799
-place before you can
+before you can
 talk about "how many".
 
 0:18:01.799,0:18:07.160
-So of course "quantitative" is often
+So of course, "quantitative" is often
 a refinement or enrichment of qualitative
 
 0:18:07.160,0:18:09.720
@@ -1215,7 +1197,7 @@ more
 qualitative.
 
 0:18:20.750,0:18:24.240
-Whereas, especially in the Bohr atomic model,
+Whereas, especially in the Bohr atom model,
 you also have a quantitative aspect, because
 
 0:18:24.240,0:18:27.480
@@ -1224,27 +1206,27 @@ on which the electrons can move.
 
 0:18:27.480,0:18:31.320
 These would also be described by
-numbers, or distances perhaps, or energy quantities.
+numbers, perhaps distances, or energy quantities.
 
 0:18:31.320,0:18:33.670
 The orbital model
 is clearly quantitative.
 
 0:18:33.670,0:18:37.860
-There one calculates with
-probabilities, these are number statements.
+In it, one calculates with
+probabilities, which are numerical statements.
 
 0:18:37.860,0:18:43.290
-In the model one has in the
-first place also certainly a qualitative modeling.
+In the model, one initially
+certainly has a qualitative modeling as well.
 
 0:18:43.290,0:18:48.650
 By this sequence, which is described,
 and the listings or compilation of
 
 0:18:48.650,0:18:54.040
-the different products, which occur (chemical
-products, which are in the game).
+the different products that occur (chemical
+products that are in play).
 
 0:18:54.040,0:18:58.490
 But there's also at least some quantitative
@@ -1259,7 +1241,6 @@ And here you also have more of a
 qualitative model, because there are no formulas or
 
 0:19:12.590,0:19:17.610
-
 numbers.
 
 0:19:17.610,0:19:20.640
@@ -1275,7 +1256,7 @@ This is often framed as
 black box versus white box.
 
 0:19:29.360,0:19:34.270
-So do we have a black box in front of
+So, do we have a black box in front of
 us, so to speak, where we can only describe behavior
 
 0:19:34.270,0:19:37.790
@@ -1283,7 +1264,6 @@ that is observable from the outside, but we
 don't know what is happening inside this black
 
 0:19:37.790,0:19:38.790
-
 box?
 
 0:19:38.790,0:19:45.770
@@ -1292,15 +1272,15 @@ box, or white box in English, where
 
 0:19:45.770,0:19:50.950
 we can also describe what, why,
-how this externally observable behavior is generated
+and how this externally observable behavior is generated
 
 0:19:50.950,0:19:51.950
 inside
 the system?
 
 0:19:51.950,0:19:59.360
-So if we imagine a software system,
-then blackbox would simply be the description/modeling:
+So, if we imagine a software system,
+then "blackbox" would simply be the description/modeling:
 
 0:19:59.360,0:20:05.330
 What happens from the user's point
@@ -1323,19 +1303,19 @@ in
 it.
 
 0:20:13.200,0:20:19.200
-Whitebox would be, if one has also the
+Whitebox would be, if one also has the
 program code or at least a description of the
 
 0:20:19.200,0:20:24.370
-internal expirations (that does not have to be
-the concrete program code), or perhaps a pseudo code
+internal operations (that does not have to be
+the actual program code), or perhaps a pseudo code
 
 0:20:24.370,0:20:28.110
-description of the internal expirations
+description of the internal operations
 of the system, before itself.
 
 0:20:28.110,0:20:31.990
-And you can also analyze why
+And one can also analyze why
 a certain behavior occurs, or perhaps
 
 0:20:31.990,0:20:33.039
@@ -1343,23 +1323,23 @@ a certain expected
 behavior does not occur.
 
 0:20:33.039,0:20:35.260
-So you
+So, you
 could imagine:
 
 0:20:35.260,0:20:42.980
-Blackbox would be a description for
+"Blackbox" would be a description for
 customers and offers more freedom to the
 
 0:20:42.980,0:20:49.900
 implementer, because only the externally observable behavior
-is important (and internally can happen what seems
+is important, and internally, what happens,
 
 0:20:49.900,0:20:52.920
-appropriate to
-the developer).
+is up to
+the developer.
 
 0:20:52.920,0:20:58.951
-Whitebox view of a system, a whitebox modeling,
+In contrast, a "Whitebox" view of a system, or whitebox modeling,
 would be important for the technical team that
 
 0:20:58.951,0:21:01.090
@@ -1384,11 +1364,11 @@ the term greybox.
 
 0:21:09.620,0:21:16.730
 That would be "not completely visible", not
-all details, but then also not completely
+all details, but also not entirely
 
 0:21:16.730,0:21:19.809
-hidden, what
-happens inside.
+hidden, what's
+happening inside.
 
 0:21:19.809,0:21:25.299
 For us, this will be most
@@ -1400,7 +1380,7 @@ parts.
 
 0:21:27.620,0:21:35.220
 Now I have already spoken several times
-about static and dynamic without saying before what
+about static and dynamic without previously defining what
 
 0:21:35.220,0:21:36.910
 exactly is
@@ -1415,7 +1395,6 @@ are hopefully
 clear enough.
 
 0:21:42.800,0:21:43.800
-
 So:
 
 0:21:43.800,0:21:48.400
@@ -1423,11 +1402,10 @@ A static model primarily describes the
 structure or a particular state of the
 
 0:21:48.400,0:21:49.530
-
 system.
 
 0:21:49.530,0:21:51.679
-Structure could
+The structure could
 be, for example:
 
 0:21:51.679,0:21:53.940
@@ -1452,10 +1430,10 @@ lined up around the nucleus?
 
 0:22:03.920,0:22:14.600
 This might be about describing a
-generally always fixed state, or if
+generally fixed state, or if
 
 0:22:14.600,0:22:19.870
-the system has potential to evolve,
+the system has the potential to evolve,
 then the static description of the state
 
 0:22:19.870,0:22:22.020
@@ -1483,11 +1461,10 @@ Of course, this will usually be based on
 the fact that one first has a static
 
 0:22:46.600,0:22:47.600
-
 description.
 
 0:22:47.600,0:22:51.039
-You first have to know which parts the system
+First, you have to know which parts the system
 consists of, in order to then be able to say
 
 0:22:51.039,0:22:54.990
@@ -1495,7 +1472,7 @@ how these parts change their
 relationship to each other, for example.
 
 0:22:54.990,0:23:02.360
-So a dynamic model will often
+So, a dynamic model will often
 include or build on a static model.
 
 0:23:02.360,0:23:08.340
@@ -1508,18 +1485,18 @@ are more static in nature.
 
 0:23:11.460,0:23:19.940
 This one is more dynamic because it's
-also about these movements of the subparticles.
+also about these movements of subparticles.
 
 0:23:19.940,0:23:22.880
 Here I
-had also said:
+also said:
 
 0:23:22.880,0:23:27.110
 It also has dynamic parts
-because of these conversion processes obviously.
+because of these conversion processes, obviously.
 
 0:23:27.110,0:23:36.260
-And also here, if you zoom in a
+Also, here, if you zoom in a
 little bit, you would find some dynamic aspects.
 
 0:23:36.260,0:23:48.040
@@ -1547,16 +1524,16 @@ So they are completely
 exact in their statements.
 
 0:24:01.440,0:24:06.720
-Capture the relationships at stake completely
+Capture the relationships at stake completely,
 exactly (which may not always be
 
 0:24:06.720,0:24:07.720
-possible
+possible,
 in reality).
 
 0:24:07.720,0:24:13.110
 So formal models, if they exist, are
-of course very nice, because they make very
+of course very nice because they make very
 
 0:24:13.110,0:24:14.110
 precise
@@ -1571,7 +1548,7 @@ That's why at the other extreme of
 the spectrum, there are non-formal models that just
 
 0:24:26.789,0:24:28.929
-describe something
+describe something,
 maybe verbally.
 
 0:24:28.929,0:24:37.080
@@ -1619,7 +1596,7 @@ precisely, but they also
 do not specify everything completely.
 
 0:25:06.350,0:25:11.940
-So they don't have the claim, like
+So, they don't have the claim, like
 an exact mathematical model, to capture everything on
 
 0:25:11.940,0:25:16.090
@@ -1639,7 +1616,7 @@ But a lot of the lecture will
 be more in the area of semi-formal models.
 
 0:25:34.840,0:25:39.669
-So UML (this modeling language from
+So, UML (this modeling language from
 software engineering that I've already mentioned
 
 0:25:39.669,0:25:48.000
