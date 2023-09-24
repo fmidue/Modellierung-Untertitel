@@ -1,3 +1,4 @@
 corrected\.sbv$
+corrected\.srt$
 -en\.sbv$
 ^XModeler/
