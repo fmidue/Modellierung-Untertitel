@@ -697,7 +697,7 @@ with Petri nets, and perhaps also in
 video form, a simulation will be carried out.
 
 00:13:08,380 --> 00:13:14,050
-From this, it is now a bit clearer 
+From this, it is now a bit clearer
 what the content of the course will be.
 
 00:13:14,050 --> 00:13:15,040
@@ -707,7 +707,7 @@ So, here's a brief overview.
 It's not exactly in that order.
 
 00:13:16,390 --> 00:13:19,480
-So, it's not chapters 
+So, it's not chapters
 that I'm going to follow.
 
 00:13:19,480 --> 00:13:23,290
