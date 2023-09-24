@@ -83,6 +83,7 @@ and especially for examples, this
 book is definitely very good.
 Okay, then there is another English-language
 
+3 # slide
 00:01:40,410 --> 00:01:45,420
 book, which is very
 specific to object-oriented design,
@@ -143,6 +144,7 @@ course, which you would probably
 attend with Professor Pauli.
 O.K., another book, very general,
 
+4 # slide
 00:02:50,440 --> 00:02:55,330
 you also see UML in the title.
 Software Engineering, it's about the application of
@@ -187,6 +189,7 @@ in the last semesters, if you are not
 in the first year.
 Okay, another book on UML.
 
+5 # slide
 00:03:53,495 --> 00:03:57,290
 Although UML doesn't completely make up
 the lecture, we'll see other books in
@@ -215,6 +218,7 @@ library. So at least the original can
 be borrowed there. Well,
 then I had already
 
+6 # slide
 00:04:28,100 --> 00:04:34,400
 said, the course will not only be
 about UML. Another important modeling tool
@@ -251,6 +255,7 @@ nets, which is very example driven.
 So it's less formal, but contains many
 examples that will be useful to us.
 
+7 # slide
 00:05:18,710 --> 00:05:26,210
 Then, a little bit in contrast, I've
 cited a book here that is very formal.
@@ -275,6 +280,7 @@ in this book rather than the book shown before.
 And also this book should
 be available to you electronically
 
+8 # slide
 00:05:48,560 --> 00:05:58,440
 if you access it through the Uni account.
 Okay, let's discuss something in English once more.
@@ -319,6 +325,7 @@ not in the same depth as it's approached here in
 the article, but nevertheless, that's also a
 possible approach to this part of the lecture.
 
+9 # slide
 00:06:52,560 --> 00:06:58,680
 OK, in a similar vein, also
 as a scholarly article rather than
@@ -371,6 +378,7 @@ we will be looking at from statecharts, you
 will find well explained in English in that article.
 Okay, I think I have one more book ready.
 
+10 # slide
 00:08:12,400 --> 00:08:18,820
 Exactly, this is the book, also
 available in English in the library.

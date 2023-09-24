@@ -83,6 +83,7 @@ allem für Beispiele ist dieses Buch
 auf jeden Fall sehr gut geeignet.
 O.k., dann gibt es ein anderes
 
+3 # slide
 00:01:40,410 --> 00:01:45,420
 englischsprachiges Buch, das sehr spezifisch
 auf objektorientiertes Design abzielt,
@@ -143,6 +144,7 @@ Programmiertechniken, die Sie wahrscheinlich
 bei Professor Pauli hören würden.
 O.k., ein weiteres Buch, sehr
 
+4 # slide
 00:02:50,440 --> 00:02:55,330
 allgemein gehalten, Sie sehen auch UML im Titel.
 Software Engineering, da geht es um die Anwendung
@@ -187,6 +189,7 @@ Semestern, wenn Sie nicht im ersten Semester sind,
 auch schon genutzt, den VPN-Zugang.
 O.k., ein weiteres Buch zu UML.
 
+5 # slide
 00:03:53,495 --> 00:03:57,290
 Obwohl UML nicht die gesamte Vorlesung
 ausmacht, werden wir gleich andere Bücher sehen,
@@ -215,6 +218,7 @@ Also zumindest das Original könnte also
 dort ausgeliehen werden.
 Gut, dann hatte ich schon
 
+6 # slide
 00:04:28,100 --> 00:04:34,400
 gesagt, es wird nicht nur um UML gehen.
 Ein weiteres wichtiges Modellierungsmittel,
@@ -251,6 +255,7 @@ Petrinetzen, die sehr beispielgetrieben ist.
 Also auch weniger formal, aber viele Beispiele
 enthalten, die uns nützlich sein werden.
 
+7 # slide
 00:05:18,710 --> 00:05:26,210
 Dann ein bisschen im Kontrast dazu habe ich
 hier ein Buch aufgeführt, das sehr formal ist.
@@ -275,6 +280,7 @@ eher in diesem als im zuvor gezeigten Buch finden.
 Und auch dieses Buch sollte für
 Sie elektronisch verfügbar sein,
 
+8 # slide
 00:05:48,560 --> 00:05:58,440
 wenn Sie über den Uni-Account gehen.
 Okay, hierzu auch noch mal was Englisches.
@@ -319,6 +325,7 @@ nicht in der gleichen Tiefe, wie es hier in dem
 Artikel angegangen wird, aber dennoch ist auch das
 ein möglicher Zugang zu diesem Teil der Vorlesung.
 
+9 # slide
 00:06:52,560 --> 00:06:58,680
 O.k., auf ähnliche Weise, auch eher
 als wissenschaftlicher Artikel denn
@@ -371,6 +378,7 @@ betrachten werden von Zustandsdiagrammen, finden
 Sie gut auf Englisch in diesem Artikel erklärt.
 O.k., ich glaube, ein Buch habe ich noch parat.
 
+10 # slide
 00:08:12,400 --> 00:08:18,820
 Genau, das ist dieses Buch, auch auf
 Englisch in der Bibliothek verfügbar.
