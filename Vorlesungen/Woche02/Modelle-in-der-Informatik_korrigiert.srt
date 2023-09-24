@@ -27,7 +27,7 @@ Also:
 
 00:00:32,850 --> 00:00:38,250
 Man möchte ein System entwerfen, besser
-verstehen, visualisieren, simulieren, etc.
+verstehen, visualisieren, simulieren, usw.
 
 00:00:38,250 --> 00:00:43,590
 Und das Gleiche kann natürlich auch
@@ -62,7 +62,7 @@ Das Gleiche wäre bei anderen
 Systemen und Modellen relevant.
 
 00:01:13,620 --> 00:01:17,280
-Also je nachdem, wenn es um Architektur geht,
+Also, je nachdem, wenn es um Architektur geht,
 
 00:01:17,280 --> 00:01:21,150
 dann hängt es schon sehr davon ab,
@@ -111,29 +111,29 @@ implementieren, zu diversen Vorteilen führt:
 Vermeidung von Fehlern, bessere Qualität.
 
 00:02:10,520 --> 00:02:15,650
-Niedrigere Kosten wegen Vermeiden
+Niedrigere Kosten durch Vermeidung
 von Reparaturen oder Irrwegen,
 
 00:02:15,650 --> 00:02:24,320
-die man dann zu wiederholen hat oder Umwege
-durch Neuentwicklung zu ersetzen hat.
+die man dann wiederholen muss, oder Umwege
+durch Neuentwicklung ersetzen muss.
 
 00:02:24,320 --> 00:02:26,510
 Bessere Dokumentation durch Modelle.
 
 00:02:26,510 --> 00:02:29,870
-Im Idealfall auch Erhöhung
+Im Idealfall auch eine Erhöhung
 der Wiederverwendbarkeit.
 
 00:02:29,870 --> 00:02:34,040
-Das heißt nicht, dass immer
-modelliert wird in der Informatik.
+Das heißt nicht, dass in der Informatik
+immer modelliert wird .
 
 00:02:34,040 --> 00:02:37,190
-Also es gibt einige Sondersituationen.
+Also, es gibt einige Sondersituationen.
 
 00:02:37,190 --> 00:02:39,470
-Sehr modern ist agile Softwareentwicklung.
+Sehr modern ist die agile Softwareentwicklung.
 
 00:02:39,470 --> 00:02:44,180
 Da wird zum Teil auf Modelle verzichtet, oder
@@ -219,15 +219,15 @@ Modelle auch die Rolle haben, als Vorlage
 zum Zweck mehrfacher Realisierung zu dienen.
 
 00:04:23,410 --> 00:04:28,870
-Also ein Modell wird erstellt, um dann,
-wenn man von einem Motor große Stückzahlen
+Also, ein Modell wird erstellt, um dann,
+wenn man große Stückzahlen etwa von einem Motor
 
 00:04:30,520 --> 00:04:34,360
 herzustellen gedenkt, sich jeweils
 an dem Modell orientieren zu können.
 
 00:04:34,360 --> 00:04:37,753
-Um tatsächlich den Motor immer gleich zu bauen.
+Um den Motor tatsächlich immer gleich zu bauen.
 
 00:04:37,753 --> 00:04:40,480
 In der Softwareentwicklung ist das nicht so.
@@ -237,11 +237,11 @@ Außer vielleicht im Kontext von
 Softwareproduktlinien (was wiederum ein
 
 00:04:44,320 --> 00:04:49,330
-Thema für die Softwaretechnik-Vorlesung) wäre, ist
+Thema für die Softwaretechnik-Vorlesung wäre), ist
 es so, dass jedes Softwareprojekt einzigartig ist.
 
 00:04:49,330 --> 00:04:54,430
-Also das Modell ist nicht dafür
+Also, das Modell ist nicht dafür
 da, mehrmals umgesetzt zu werden.
 
 00:04:54,430 --> 00:04:59,410
@@ -253,7 +253,7 @@ gleichartige Wohnungen entstehen sollen.
 
 00:05:03,940 --> 00:05:08,650
 Dann ist das Modell, der Plan, der
-3D-Plan auch dafür gut, sicherzustellen,
+3D-Plan, auch dafür gut, sicherzustellen,
 
 00:05:08,650 --> 00:05:13,030
 dass auf jeder Etage tatsächlich die
@@ -283,10 +283,10 @@ Wer ist es denn, der modelliert, in der
 Informatik, im Softwareentwicklungsprozess?
 
 00:05:37,750 --> 00:05:40,630
-Da ist die klare Antwort: es ist unklar.
+Da ist die klare Antwort: Es ist unklar.
 
 00:05:40,630 --> 00:05:45,040
-Es kommt drauf an, welche Art von
+Es kommt darauf an, welche Art von
 Softwareentwicklungs-Prozess verfolgt wird.
 
 00:05:45,040 --> 00:05:47,140
@@ -302,12 +302,12 @@ Das werden Sie, wenn Sie die
 Softwaretechnik-Vorlesung bei
 
 00:05:54,640 --> 00:05:58,900
-Frau Heisel noch hören werden,
+Professorin Heisel noch hören werden,
 dort sicherlich vertiefen.
 
 00:05:58,900 --> 00:06:02,170
 Zum Beispiel im Wasserfallmodell, das
-durch Phasen gegliedert ist, wo man
+durch Phasen gegliedert ist, in denen man
 
 00:06:02,170 --> 00:06:05,260
 sehr klar feststellen kann, wo
@@ -317,7 +317,7 @@ denn hier Modellierung passiert.
 Das wäre insbesondere hier die Designphase.
 
 00:06:07,360 --> 00:06:11,530
-Also Modellierung ist dann wirklich ein
+Also, Modellierung ist dann wirklich ein
 Akt, der separat von der Implementierung,
 
 00:06:11,530 --> 00:06:16,510
@@ -325,7 +325,7 @@ von der Programmierung stattfindet, und
 rechtfertigt auch eine eigene Rolle.
 
 00:06:16,510 --> 00:06:21,670
-Also es gibt vielleicht den Programmierer,
+Also, es gibt vielleicht den Programmierer,
 den Softwareentwickler, der implementiert.
 
 00:06:21,670 --> 00:06:25,540
@@ -384,7 +384,7 @@ Das wird kein Thema der
 Vorlesung sein im Speziellen.
 
 00:07:19,630 --> 00:07:24,010
-Also wir werden uns vor allem mit der
+Also, wir werden uns vor allem mit der
 Formulierung der Modelle und Aussagen
 
 00:07:24,010 --> 00:07:27,640
@@ -407,7 +407,7 @@ durchgeführt werden, sondern immer wieder
 für verschiedene Prototypen, für verschiedene
 
 00:07:51,910 --> 00:07:59,260
-Implementationen des zu erstellenden
+Implementierungen des zu erstellenden
 Systems, mehrere Phasen durchlaufen werden.
 
 00:07:59,260 --> 00:08:04,450
@@ -424,14 +424,14 @@ werden, um genauere Anforderungen
 
 00:08:12,670 --> 00:08:18,100
 oder zusätzliche Anforderungen für den
-nächsten Implementationszyklus festzulegen.
+nächsten Implementierungszyklus festzulegen.
 
 00:08:19,210 --> 00:08:20,740
 Was Sie hier sehen, sind
 natürlich auch nur Modelle.
 
 00:08:20,740 --> 00:08:23,890
-Also niemand vielleicht wird exakt so vorgehen.
+Also vielleicht wird niemand genau so vorgehen.
 
 00:08:23,890 --> 00:08:28,900
 Was wir sehen und gesehen haben, sind letztlich
@@ -446,7 +446,7 @@ Und das erfasst nicht jedes Detail jedes
 möglichen Softwareentwicklungsvorgehens
 
 00:08:43,870 --> 00:08:48,220
-oder jedes konkreten Projektes, was
+oder jedes konkreten Projektes, das
 vielleicht in einem Team durchgeführt wird.
 
 00:08:48,220 --> 00:08:53,620
@@ -461,7 +461,7 @@ Wir werden solche Modelle nicht weiter betrachten,
 
 00:08:58,840 --> 00:09:04,000
 denn Vorgehensmodelle sind auch Teil der
-Softwaretechnik-Vorlesung bei Frau Heisel.
+Softwaretechnik-Vorlesung bei Prof. Heisel.
 
 00:09:04,000 --> 00:09:09,100
 Schon erwähnt hatte ich Sonderfälle.
@@ -471,7 +471,7 @@ Also in agiler Softwareentwicklung wird anders,
 man könnte auch sagen weniger, modelliert.
 
 00:09:15,520 --> 00:09:20,080
-Genaugenommen tauchen auch dort Modelle
+Genau genommen tauchen auch dort Modelle
 auf, aber eher in späteren Phasen.
 
 00:09:20,080 --> 00:09:21,250
@@ -483,14 +483,14 @@ Sie werden zum Beispiel für testgetriebene
 
 00:09:27,130 --> 00:09:33,430
 Weitere Sonderfälle wären in der
-Open-Source Softwareentwicklung,
+Open-Source-Softwareentwicklung,
 
 00:09:33,430 --> 00:09:39,100
 wo oft sehr viele verschiedene
 Teilhaberinnen an einem Projekt arbeiten.
 
 00:09:39,100 --> 00:09:42,640
-Wo gar nicht irgendwie zentralisiert
+Wo es gar nicht irgendwie zentralisiert
 modelliert werden könnte,
 
 00:09:42,640 --> 00:09:47,140
@@ -520,8 +520,8 @@ für die Softwaretechnik-Vorlesung.
 Für uns ist relevant:
 
 00:10:09,730 --> 00:10:13,300
-Es gibt den Bedarf für Modelle in verschiedenen
-Phasen in der Softwareentwicklung.
+Es besteht Bedarf für Modelle in verschiedenen
+Phasen der Softwareentwicklung.
 
 00:10:13,300 --> 00:10:20,230
 Und deswegen wird diese Vorlesung sich eben
@@ -542,7 +542,7 @@ Modell-Korrektheit ist natürlich schwierig zu
 beantworten, wenn man das Modell überhaupt erst
 
 00:10:36,040 --> 00:10:41,680
-mal aufstellt, um sich gewahr zu werden, wie
+mal aufstellt, um sich bewusst zu werden, wie
 das System aussehen soll, das entwickelt wird.
 
 00:10:41,680 --> 00:10:46,390
@@ -554,14 +554,14 @@ Aber zum Beispiel könnte innere
 Konsistenz geprüft werden.
 
 00:10:48,940 --> 00:10:50,800
-Das soll auch auftauchen in unserem Beispiel.
+Das soll auch in unserem Beispiel auftauchen.
 
 00:10:50,800 --> 00:10:59,950
 Also Korrektheit objektiv hieße ja, irgendwie
 zu überprüfen, ob das System den Zweck erfüllt.
 
 00:10:59,950 --> 00:11:03,250
-Und das muss von dem Zweck abhängen,
+Und das muss vom Zweck abhängen,
 und ist gar nicht unbedingt klar,
 
 00:11:03,250 --> 00:11:06,010
@@ -621,7 +621,7 @@ Das wird nicht im Vordergrund
 stehen, nicht den Hauptteil
 
 00:11:51,700 --> 00:11:56,230
-der Vorlesung ausmachen, aber wird aufscheinen.
+der Vorlesung ausmachen, aber es wird aufscheinen.
 
 00:11:56,230 --> 00:11:58,960
 Und natürlich in anderem Kontext,
@@ -645,7 +645,7 @@ oder Verifikation betreiben.
 Das steht für uns nicht im Vordergrund.
 
 00:12:16,900 --> 00:12:22,600
-Für manche von diesen Fragestellungen werden
+Für manche dieser Fragestellungen werden
 Werkzeuge oder Software-Tools eingesetzt.
 
 00:12:23,230 --> 00:12:25,330
@@ -676,7 +676,7 @@ auch der Simulation von einzelnen Modellen
 Sie schon als Vorschläge im Moodle-Kurs.
 
 00:12:52,330 --> 00:12:56,560
-In der Vorlesung selber wird das höchstens
+In der Vorlesung selbst wird das höchstens
 mal auftreten, wenn ich mit Petrinetzen
 
 00:12:56,560 --> 00:13:03,040
@@ -688,7 +688,7 @@ Daraus ergibt sich jetzt auch etwas klarer, was
 den Inhalt der Lehrveranstaltung ausmachen wird.
 
 00:13:14,050 --> 00:13:15,040
-Also hier ist eine kurze Übersicht.
+Also, hier ist eine kurze Übersicht.
 
 00:13:15,040 --> 00:13:16,390
 Es ist nicht exakt in dieser Reihenfolge.
@@ -702,7 +702,7 @@ Allerdings sind hier die
 wesentlichen Dinge genannt.
 
 00:13:23,290 --> 00:13:26,800
-Also wir werden natürlich einige mathematische
+Also, wir werden natürlich einige mathematische
 Grundlagen brauchen und teils auch noch
 
 00:13:26,800 --> 00:13:33,610
@@ -711,7 +711,7 @@ dass es jetzt direkt ein erstes Kapitel ist.
 
 00:13:33,610 --> 00:13:37,750
 Eine wichtige Beschreibungsart, die natürlich
-mathematische Basis hat, sind Graphen.
+eine mathematische Basis hat, sind Graphen.
 
 00:13:41,140 --> 00:13:42,400
 Wir haben visuelle Darstellungsmodelle,
@@ -729,7 +729,7 @@ Also ein Graph, der die Beziehungen zwischen
 Teilkomponenten eines Systems beschreiben soll,
 
 00:13:55,450 --> 00:13:57,130
-wäre dann für statische Modellierung relevant.
+wäre dann für die statische Modellierung relevant.
 
 00:13:57,130 --> 00:14:02,200
 Oder für dynamische Modellierung, dass
@@ -805,7 +805,7 @@ Klasse von UML-Diagrammen systematisch
 
 00:15:16,120 --> 00:15:20,110
 Petrinetze erzeugen kann, um diese dann
-zum Beispiel formal zu analysieren.
+beispielsweise formal zu analysieren.
 
 00:15:20,110 --> 00:15:25,480
 UML selbst ist vielleicht aus der
@@ -876,7 +876,7 @@ Die Verwendung von Modellen zur Verifikation
 von Eigenschaften wird nicht im Zentrum stehen,
 
 00:16:34,750 --> 00:16:37,900
-allerdings bei Petrinetzen
+allerdings wird sie bei Petrinetzen
 zumindest mal aufscheinen.
 
 00:16:41,050 --> 00:16:44,290
@@ -884,7 +884,7 @@ Wir werden natürlich statische und
 dynamische Modellierung machen,
 
 00:16:44,290 --> 00:16:45,760
-vor allen Dingen im Kontext von UML.
+vor allem im Kontext von UML.
 
 00:16:45,760 --> 00:16:49,090
 Dort beides nicht besonders formal.
@@ -900,8 +900,8 @@ im letzten Video gesagt,
 ist eher eine semi-formale Modellierungsweise.
 
 00:16:57,580 --> 00:17:07,360
-Natürlich ist auch das, mit diesem Umfang,
-keinesfalls irgendwie umfassend alles,
+Natürlich ist auch das, trotz dieses Umfangs,
+keinesfalls umfassend alles,
 
 00:17:07,360 --> 00:17:09,370
 was man in der Informatik an Modellen machen kann.
@@ -914,7 +914,7 @@ Die hier vorgestellten Modellierungsmethoden
 sind nicht die einzigen, die es gibt.
 
 00:17:16,150 --> 00:17:21,100
-Der Fokus ist hier auf visueller
+Der Fokus liegt hier auf visueller
 Modellierung mit Hilfe von Diagrammen.
 
 00:17:21,100 --> 00:17:25,000
@@ -933,14 +933,14 @@ Ein bisschen bei der Beschreibung von Operationen,
 
 00:17:35,050 --> 00:17:41,110
 aber keinesfalls in dem Ausmaß, wie man das
-auch betreiben könnte in so einer Vorlesung.
+in so einer Vorlesung auch betreiben könnte.
 
 00:17:45,040 --> 00:17:48,370
 Zum Abschluss dieses Videos
 noch eine kurze Wortwolke.
 
 00:17:48,370 --> 00:17:53,080
-So ein bisschen gibt die auch einen guten
+Sie gibt ein bisschen einen guten
 Überblick über den Inhalt der Lehrveranstaltung.
 
 00:17:53,080 --> 00:17:59,710
@@ -973,7 +973,7 @@ weil das schon allein wegen dieses Begriffs
 hier unten fast auf jeder Folie auftaucht.
 
 00:18:17,590 --> 00:18:19,210
-Die hatte ich daher entfernt.
+Diese Begriffe hatte ich daher entfernt.
 
 00:18:19,900 --> 00:18:25,570
 Ansonsten, wenn Sie dann in diese
@@ -983,8 +983,8 @@ Begriffe mal eintauchen, sehen Sie,
 dass bestimmte Sachen da sehr prominent sind.
 
 00:18:27,100 --> 00:18:32,650
-Natürlich die Beschreibungsweisen
-"Petrinetz" und "UML" tauchen prominent auf.
+Natürlich tauchen die Beschreibungsweisen
+"Petrinetz" und "UML" prominent auf.
 
 00:18:32,650 --> 00:18:35,140
 Sie sehen, dass wir offenbar sehr
@@ -1039,8 +1039,8 @@ bestimmten UML-Diagrammtypen vorkommt.
 Aktivitätsdiagramme werden wir behandeln.
 
 00:19:18,020 --> 00:19:22,940
-Also man kann hier ein bisschen
-einen ersten Eindruck kriegen,
+Also, man kann hier ein bisschen
+einen ersten Eindruck bekommen,
 
 00:19:22,940 --> 00:19:24,215
 womit wir uns beschäftigen werden.
@@ -1062,7 +1062,7 @@ Das Substitutionsprinzip, das stelle
 ich nicht mehr in den Vordergrund.
 
 00:19:38,600 --> 00:19:46,340
-Also all zu viel kann man wiederum
+Also allzu viel kann man wiederum
 auch nicht aus der Wortwolke ableiten.
 
 00:19:46,340 --> 00:19:54,500

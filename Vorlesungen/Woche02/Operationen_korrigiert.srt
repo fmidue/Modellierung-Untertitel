@@ -31,7 +31,7 @@ ist für den objektorientierten Klassenentwurf,
 
 00:00:47,430 --> 00:00:52,620
 bzw. die Modellierung von Klassen
-und insbesondere ihren Methoden.
+und insbesondere ihrer Methoden.
 
 00:00:52,620 --> 00:00:54,210
 Aber dazu werden wir dann kommen.
@@ -44,15 +44,15 @@ und auch von UML losgelöst.
 Tatsächlich spielen Operationen natürlich sowohl
 
 00:01:01,140 --> 00:01:04,770
-in der Mathematik eine Rolle, als auch der
-Informatik unabhängig von Objektorientierung.
+in der Mathematik als auch in der
+Informatik eine Rolle, unabhängig von Objektorientierung.
 
 00:01:05,520 --> 00:01:10,650
 Worum geht es da jetzt spezifisch,
-auch im Informatikkontext?
+im Informatikkontext?
 
 00:01:10,650 --> 00:01:13,050
-Angenommen wir wollen ein System
+Angenommen, wir wollen ein System
 in der Informatik entwerfen,
 
 00:01:13,050 --> 00:01:15,450
@@ -67,10 +67,10 @@ und umgesetzt werden sollen.
 
 00:01:20,460 --> 00:01:24,810
 Und mindestens genauso wichtig, neben
-einfach den Namen von Operationen,
+einfach den Namen der Operationen,
 
 00:01:24,810 --> 00:01:28,080
-auch auf was für Daten sie arbeiten sollen.
+auch auf welche Daten sie angewendet werden sollen.
 
 00:01:28,080 --> 00:01:31,950
 Da geht es um statische Modellierung.
@@ -87,7 +87,7 @@ Also geht es nicht darum, was
 die Operationen genau tun werden,
 
 00:01:42,150 --> 00:01:46,470
-sondern erst mal zum Beispiel welche Aufrufe /
+sondern erst mal zum Beispiel, welche Aufrufe /
 Verwendungen syntaktisch erlaubt sein sollen.
 
 00:01:46,470 --> 00:01:50,700
@@ -107,11 +107,11 @@ die gegebenenfalls in Kombination
 benutzt werden müssen.
 
 00:02:03,060 --> 00:02:05,220
-Und mindestens wäre das
+Und das wäre mindestens
 wichtig für die Dokumentation.
 
 00:02:06,090 --> 00:02:13,950
-Also wir können einfach durch Festhalten
+Also, wir können einfach durch Festhalten
 dieser statischen Informationen etwas
 
 00:02:13,950 --> 00:02:17,190
@@ -127,7 +127,7 @@ etwa indem präzise erfasst ist, welche Fälle
 von Eingaben überhaupt behandelt werden müssen.
 
 00:02:27,780 --> 00:02:33,540
-Oder indem per Konsistenzprüfung möglicherweise
+Oder indem durch eine Konsistenzprüfung möglicherweise
 bestimmte Fehler vermieden werden können,
 
 00:02:33,540 --> 00:02:36,720
@@ -165,7 +165,7 @@ an einer ganz einfachen Domäne.
 
 00:03:07,800 --> 00:03:10,680
 Operationen beziehen sich immer auf
-irgendeinen speziellen Anwendungsbereich.
+einen speziellen Anwendungsbereich.
 
 00:03:10,680 --> 00:03:12,930
 Und der Anwendungsbereich,
@@ -177,7 +177,7 @@ sind, ist einfach Arithmetik.
 
 00:03:16,650 --> 00:03:20,250
 Also die arithmetischen Operationen, die
-heißen ja so: "Plus", "Minus", "Mal", etc.
+heißen ja so: "Plus", "Minus", "Mal", usw.
 
 00:03:20,250 --> 00:03:22,350
 Das sind natürlich Operationen in diesem Sinne.
@@ -276,7 +276,7 @@ jeweils natürliche Zahlen
 (N für natürliche Zahlen).
 
 00:04:45,980 --> 00:04:47,750
-Ergebnis auch eine natürliche Zahl.
+Das Ergebnis ist auch eine natürliche Zahl.
 
 00:04:47,750 --> 00:04:49,040
 Und natürlich:
@@ -286,7 +286,7 @@ Wenn wir mehrere Operationen
 haben (man will etwa auch die
 
 00:04:52,220 --> 00:04:55,310
-Multiplikation haben), dann haben die einen
+Multiplikation haben), dann haben diese einen
 anderen Namen (aber hier den gleichen Typ,
 
 00:04:55,310 --> 00:04:57,290
@@ -298,7 +298,7 @@ Und, sagen wir mal, vielleicht noch die Division.
 
 00:05:04,910 --> 00:05:08,978
 Subtraktion könnte man sich auch vorstellen,
-aber schon bei Division stellt sich die Frage:
+aber schon bei der Division stellt sich die Frage:
 
 00:05:08,978 --> 00:05:14,090
 Von welcher Art soll denn hier
@@ -308,7 +308,7 @@ Von welcher Art soll denn hier
 Und wir könnten sagen:
 
 00:05:17,150 --> 00:05:18,470
-Gut, wir wissen was Division ist.
+Gut, wir wissen, was Division ist.
 
 00:05:18,470 --> 00:05:20,510
 Aber genau genommen sind dies
@@ -334,7 +334,7 @@ Und wahrscheinlich würde man hier zum
 Beispiel wollen, dass man zumindest
 
 00:05:40,670 --> 00:05:44,660
-Division durch Null verbietet, damit das eben
+die Division durch Null verbietet, damit das eben
 nicht aufgerufen werden kann mit fünf und null.
 
 00:05:44,660 --> 00:05:45,530
@@ -397,15 +397,15 @@ Vor allem:
 Was möchte man hier?
 
 00:06:39,740 --> 00:06:43,880
-Also wenn man fünf und drei als Argumente
-hat (was ja jeweils passen würde,
+Also, wenn man fünf und drei als Argumente
+hat (was ja jeweils passen würde)
 
 00:06:43,880 --> 00:06:47,990
 weil drei eine positive natürliche Zahl
 ist), was soll dann das Ergebnis sein?
 
 00:06:47,990 --> 00:06:52,670
-Soll das 1,666 sein, oder
+Soll das 1,666 sein oder
 vielleicht einfach nur 1 abgerundet?
 
 00:06:52,670 --> 00:06:57,380
@@ -414,7 +414,7 @@ möchte man rationale Zahlen unterstützen?
 
 00:06:57,380 --> 00:07:00,950
 Das ist genau die Entscheidung, die man
-jetzt trifft beim Entwurf dieser Operation.
+jetzt beim Entwurf dieser Operation trifft.
 
 00:07:00,950 --> 00:07:04,160
 Wo man sich dafür entscheidet,
@@ -427,7 +427,7 @@ Das wäre die Entscheidung zwischen:
 Ich erlaube hier nur natürliche Zahlen.
 
 00:07:09,200 --> 00:07:14,720
-Dann muss ich auch die Null erlauben wegen 0
+Dann muss ich auch die Null erlauben, weil 0
 / 5 = 0, und bei fünf durch drei würde ich 1
 
 00:07:14,720 --> 00:07:17,690
@@ -458,7 +458,7 @@ Und vielleicht würde man sogar beides wollen.
 Also die Mathematiker machen das natürlich gern.
 
 00:07:36,665 --> 00:07:40,460
-Die verwenden immer das gleiche
+Sie verwenden immer das gleiche
 Symbol, in gewissem Sinne überladen,
 
 00:07:40,460 --> 00:07:43,100
@@ -479,7 +479,7 @@ keine richtige oder falsche Entscheidung.
 Es hängt vom Anwendungszweck ab.
 
 00:07:54,020 --> 00:07:56,030
-Also Sie können nicht sagen:
+Also, Sie können nicht sagen:
 
 00:07:56,030 --> 00:07:59,120
 Das hier ist die richtige Wahl
@@ -532,11 +532,11 @@ entscheide, müsste ich auch damit umgehen,
 
 00:08:50,250 --> 00:08:54,900
 dass ich dann negative Zahlen dabei hätte
-(wenn ich mich hier nicht auf die nur
+(wenn ich mich hier nicht auf nur
 
 00:08:54,900 --> 00:08:57,600
-positiven und nicht-negativen
-rationalen Zahlen beschränke).
+positive und nicht-negative
+rationale Zahlen beschränke).
 
 00:08:57,600 --> 00:09:00,090
 Also dies ist die Entscheidung,
@@ -567,14 +567,14 @@ Was ist denn mit der vorher schon
 existierenden Operation "Plus"?
 
 00:09:28,560 --> 00:09:31,230
-Verhält diese sich vielleicht auch
+Verhält sich diese vielleicht auch
 irgendwie anders, wenn einer der
 
 00:09:31,230 --> 00:09:34,050
 beiden Argumentbereiche durch N+ ersetzt wird?
 
 00:09:34,050 --> 00:09:36,870
-Also würde man sich dann als nächstes fragen:
+Also würden wir uns dann als Nächstes fragen:
 
 00:09:36,870 --> 00:09:44,520
 Was wäre denn jetzt, wo wir mehrere
@@ -621,18 +621,18 @@ Das ist dann mehr Information.
 
 00:10:18,780 --> 00:10:23,400
 Also statisch wissen wir dann mehr über das
-Ergebnis als vorher, wo hier nur N stand.
+Ergebnis als vorher, als hier nur N stand.
 
 00:10:23,400 --> 00:10:26,040
 Das hätte auch erlaubt,
 dass dort null herauskommt.
 
 00:10:26,850 --> 00:10:30,540
-Das wird nicht passieren, wenn mindestens eins
+Das wird nicht passieren, wenn mindestens eines
 der beiden Argumente gesichert nicht null ist.
 
 00:10:32,220 --> 00:10:36,360
-Natürlich ginge das genauso für
+Natürlich ginge das genauso, um
 die andere Position festzuhalten.
 
 00:10:36,360 --> 00:10:39,960
@@ -668,12 +668,12 @@ Aber diese Einschränkung, dass anders als bei
 der Addition nicht einfach schon die Tatsache,
 
 00:11:15,090 --> 00:11:19,680
-dass eins der Argumente positiv ist, dafür
+dass eines der Argumente positiv ist, dafür
 reicht, dass auch das Ergebnis positiv ist,
 
 00:11:19,680 --> 00:11:27,540
 das kann man hier bereits als Unterscheidung
-zwischen diesen beiden Operation festhalten.
+zwischen diesen beiden Operationen festhalten.
 
 00:11:27,540 --> 00:11:28,680
 Wozu das Ganze?
@@ -706,7 +706,7 @@ Und wenn man die ausrechnen
 würde, würde man feststellen,
 
 00:11:55,590 --> 00:11:57,668
-dass das hier eine sinnvolle Zahl ergibt.
+dass dies eine sinnvolle Zahl ergibt.
 
 00:11:57,668 --> 00:11:58,380
 Hier kommt: fünf plus null ist fünf, mal vier
@@ -731,7 +731,7 @@ Aber der Punkt ist:
 
 00:12:12,630 --> 00:12:16,410
 Mit den statischen Informationen, die
-auf den Folien zuvor stehen, kann man
+auf den vorherigen Folien stehen, kann man
 
 00:12:16,410 --> 00:12:19,890
 auch schon ohne Ausrechnen feststellen,
@@ -739,7 +739,7 @@ dass dieser Ausdruck nicht sicher ist.
 
 00:12:22,920 --> 00:12:28,440
 Wenn man hier mit Sicherheit keinen Wert aus N+
-stehen hat, könnte man mit den Informationen,
+vorliegen hat, könnte man mit den Informationen,
 
 00:12:28,440 --> 00:12:30,030
 mit dieser Verfeinerung der Multiplikation hier,
@@ -749,11 +749,11 @@ feststellen, dass es nicht möglich
 ist, diesen Ausdruck zu typen.
 
 00:12:34,110 --> 00:12:38,820
-Also die Operation zu verwenden mit den Angaben,
+Also die Operation mit den Angaben zu verwenden,
 
 00:12:38,820 --> 00:12:43,380
 die hier über die Parameter und Ergebnisse
-stehen, um diesen Ausdruck zu bilden.
+vorliegen, um diesen Ausdruck zu bilden.
 
 00:12:43,380 --> 00:12:47,160
 Man könnte also statisch verhindern, dass
@@ -761,7 +761,7 @@ dieser Ausdruck überhaupt hingeschrieben wird.
 
 00:12:47,160 --> 00:12:51,150
 Und dann weiß man auch, dass zur
-Laufzeit, zur Zeit, wo das System
+Laufzeit, zur Zeit, wenn das System
 
 00:12:51,150 --> 00:12:56,860
 dynamisch operieren soll, zum Beispiel
@@ -771,7 +771,7 @@ kein Division-durch-null-Fehler auftritt.
 Und der Punkt ist hier natürlich:
 
 00:13:01,870 --> 00:13:03,850
-Klar könnte ich auch was
+Klar, könnte ich auch etwas
 ausrechnen für die Zahlen,
 
 00:13:03,850 --> 00:13:06,190
@@ -798,7 +798,7 @@ können wir eben eine solche
 Unterscheidung selbst dann treffen,
 
 00:13:23,350 --> 00:13:27,700
-wenn wir Unbekannte da stehen haben und
+wenn wir Unbekannte dastehen haben und
 deswegen nicht konkret ausrechnen können.
 
 00:13:28,210 --> 00:13:32,230
@@ -956,20 +956,20 @@ einen Kreis als Bild malen können.
 Und dann müssen wir uns überlegen:
 
 00:16:39,490 --> 00:16:41,350
-Was braucht der für Parameter?
+Welche Parameter braucht er?
 
 00:16:41,350 --> 00:16:42,370
 Mindestens einen Radius.
 
 00:16:42,370 --> 00:16:44,575
-Wir können auch sagen, vielleicht eine Farbe.
+Wir könnten auch sagen, vielleicht eine Farbe.
 
 00:16:44,575 --> 00:16:45,310
 Aber man könnte auch sagen:
 
 00:16:45,310 --> 00:16:49,690
-Erst mal ein Kreis an sich ist einfach dadurch
-spezifiziert, dass es einen Radius gibt.
+Erst mal ist ein Kreis an sich einfach dadurch spezifiziert,
+dass es einen Radius gibt.
 
 00:16:49,690 --> 00:16:51,670
 Und das könnte auch eine Kommazahl sein.
@@ -980,7 +980,7 @@ die heißt "circle", nimmt eine Zahl,
 
 00:16:55,870 --> 00:16:59,080
 interpretiert diese Zahl als
-Radius, und liefert ein Bild.
+Radius und liefert ein Bild.
 
 00:17:01,150 --> 00:17:04,930
 Vorstellen könnten wir uns das so, dass
@@ -988,7 +988,7 @@ wenn wir "circle" als Operation mit dem
 
 00:17:04,930 --> 00:17:07,840
 Argument 3 aufrufen, dann
-dieses Bild entstehen soll.
+soll dieses Bild entstehen.
 
 00:17:07,840 --> 00:17:11,590
 Ich werde jetzt immer solche
@@ -1007,10 +1007,10 @@ Hier geht es ja nur darum:
 
 00:17:22,830 --> 00:17:26,460
 Es gibt diese "circle"-Operation, die
-nimmt eine Zahl und liefert ein Bild.
+eine Zahl nimmt und ein Bild liefert.
 
 00:17:26,460 --> 00:17:31,380
-Dass es dieses Bild ist im konkreten Fall, wäre
+Dass es dieses Bild ist, im konkreten Fall, wäre
 gar nicht mehr Teil der statischen Modellierung,
 
 00:17:31,380 --> 00:17:33,390
@@ -1034,11 +1034,11 @@ Operationsnamen und ihren Signaturen
 
 00:17:54,660 --> 00:18:02,430
 Hier kurz festzuhalten wäre, dass 3 natürlich
-eine ganze Zahl ist und keine Kommazahl,
+eine ganze Zahl ist und keine Kommazahl.
 
 00:18:02,430 --> 00:18:06,030
-aber dennoch hier auch verwendet werden
-darf, wenn hier ja Kommazahlen erlaubt sind.
+Aber dennoch kann sie hier auch verwendet werden,
+da hier ja Kommazahlen erlaubt sind.
 
 00:18:06,030 --> 00:18:11,220
 Weil letztlich die Menge der Kommazahlen eine
@@ -1105,7 +1105,7 @@ Die Interpretation wäre, dass wenn ich zum
 Beispiel "rectangle" mit 7 und 5 aufrufe,
 
 00:19:06,450 --> 00:19:08,130
-ich ein solches Rechteck kriege.
+ich ein solches Rechteck bekomme.
 
 00:19:08,130 --> 00:19:14,280
 Da ist schon eine Interpretation eingeflossen,
@@ -1125,16 +1125,16 @@ Als statische Information steckt nur drin:
 Es gibt zwei Fließkomma-Argumente.
 
 00:19:26,310 --> 00:19:29,820
-Und nicht wie die am Ende
+Und nicht, wie sie am Ende
 genau zu dem Bild beitragen.
 
 00:19:29,820 --> 00:19:40,320
 Was man sich hier auch fragen könnte, im Sinne
-der arithmetischen Beispieldomäne vorhin:
+der arithmetischen Beispieldomäne von vorhin:
 
 00:19:40,320 --> 00:19:42,630
 Was passiert denn, wenn
-eins der Argumente null ist?
+eines der Argumente null ist?
 
 00:19:42,630 --> 00:19:44,640
 Also schon bei dem Kreis könnte man sich fragen:
@@ -1174,7 +1174,7 @@ Argumente entweder immer sagen,
 
 00:20:22,290 --> 00:20:24,990
 die werden nicht akzeptiert, oder
-die werden wie null behandel.
+sie werden wie null behandelt.
 
 00:20:26,430 --> 00:20:28,230
 Das ist hier nicht ausgedrückt.
@@ -1198,7 +1198,7 @@ ein Quadrat als Rechteck darstellen kann.
 
 00:20:46,020 --> 00:20:49,290
 Aber es werden vielleicht noch
-andere allgemeine Operationen.
+andere allgemeine Operationen benötigt.
 
 00:20:49,290 --> 00:20:54,420
 Zum Beispiel möchte man vielleicht allgemeine
@@ -1292,7 +1292,7 @@ Also zum Beispiel print("ABC").
 
 00:22:25,090 --> 00:22:28,930
 Diese Hochkommas kennen Sie wahrscheinlich
-auch, als Begrenzer für Strings in
+auch als Begrenzer für Strings in
 
 00:22:28,930 --> 00:22:33,550
 vielen Programmiersprachen (oder in der
@@ -1307,11 +1307,11 @@ So, damit könnten wir jetzt einige Sachen machen.
 
 00:22:44,110 --> 00:22:48,940
 Genau genommen könnten wir entweder einen
-Kreis zeichnen, oder ein Rechteck zeichnen,
+Kreis zeichnen oder ein Rechteck zeichnen,
 
 00:22:48,940 --> 00:22:55,930
 oder so eine beliebige Sequenz von Strichen
-zeichnen, oder eine Zeichenkette ausgeben.
+zeichnen oder eine Zeichenkette ausgeben.
 
 00:22:57,100 --> 00:23:00,010
 Jetzt würden wir uns mehr Flexibilität wünschen.
@@ -1346,7 +1346,7 @@ zum Beispiel andere grafische
 Objekte in ihrer Größe zu verändern.
 
 00:23:27,430 --> 00:23:29,590
-Also allgemeiner wäre vielleicht, zu sagen:
+Also allgemeiner wäre es vielleicht, zu sagen:
 
 00:23:30,730 --> 00:23:36,130
 Einen String auszugeben, erfolgt immer
@@ -1354,7 +1354,7 @@ in irgendeiner festen Schriftgröße.
 
 00:23:36,670 --> 00:23:40,060
 Aber wenn wir einen String
-größer dargestellt haben wollen,
+größer darstellen wollen,
 
 00:23:40,060 --> 00:23:42,970
 dann gibt es dafür eine andere Operation,
@@ -1404,7 +1404,7 @@ Wir möchten gern eine Operation
 haben, die "scale" heißt.
 
 00:24:27,670 --> 00:24:35,440
-Sie kriegt ein Bild, kriegt zwei Zahlen,
+Sie bekommt ein Bild, erhält zwei Zahlen,
 die als Skalierung zu interpretieren sind.
 
 00:24:35,440 --> 00:24:38,522
@@ -1446,8 +1446,8 @@ oder andere Figuren einfärben wollen, wäre
 vielleicht eine "color"-Operation gut.
 
 00:25:12,160 --> 00:25:17,260
-Die muss wieder ein Bild kriegen und
-muss eine Farbe übergeben kriegen.
+Die muss wieder ein Bild bekommen und
+muss eine Farbe übergeben bekommen.
 
 00:25:17,260 --> 00:25:20,770
 Es muss also irgendwie einen
@@ -1475,7 +1475,7 @@ also die kleine Zeichenkette
 Dann erhält man dieses Ergebnis.
 
 00:25:36,880 --> 00:25:40,000
-Und gewollt wäre natürlich,
+Und gewünscht wäre natürlich,
 wenn wir das kombinieren,
 
 00:25:40,000 --> 00:25:44,200
@@ -1502,12 +1502,12 @@ kombinieren, so wie wir in der Arithmetik
 auch ineinander einsetzen können.
 
 00:26:00,290 --> 00:26:06,410
-Und immer größere Ausdrücke kriegen, die
+Und immer größere Ausdrücke bekommen, die
 komplizierter sind, aber mit den Definitionen der
 
 00:26:06,410 --> 00:26:10,850
 einzelnen Operationen ausgerechnet werden können,
-indem wir mehrere Ausrechnungsschritte tun.
+indem wir mehrere Rechenschritte tun.
 
 00:26:13,130 --> 00:26:13,910
 Was können wir noch wollen?
@@ -1531,7 +1531,7 @@ Dann müssten wir die Möglichkeit
 haben, ein Bild zu rotieren.
 
 00:26:27,770 --> 00:26:29,330
-Also wir könnten sagen:
+Also, wir könnten sagen:
 
 00:26:29,330 --> 00:26:31,910
 Unser Rechteck von vorhin, das
@@ -1542,21 +1542,21 @@ Das möchten wir gerne um einen Winkel rotieren.
 
 00:26:34,580 --> 00:26:38,420
 Dann müssten wir irgendwie
-festhalten, oder uns entscheiden,
+festhalten oder uns entscheiden,
 
 00:26:38,420 --> 00:26:40,790
 wie dieser Winkel zu interpretieren ist.
 
 00:26:40,790 --> 00:26:45,530
 Nehmen wir an, wir messen Winkel einfach in
-Grad-Angaben und nicht irgendwie in Bogenmaß.
+Gradangaben und nicht irgendwie im Bogenmaß.
 
 00:26:45,530 --> 00:26:52,910
 Dann entspricht 30 eben einem um diesen
 Winkel hier gekippten Rechteck, wobei
 
 00:26:52,910 --> 00:26:56,000
-das Rotieren immer um den Ursprung stattfindet.
+die Rotation immer um den Ursprung stattfindet.
 
 00:26:56,000 --> 00:27:04,100
 So, was können wir jetzt tun?
@@ -1566,17 +1566,17 @@ Jetzt haben wir diese Bilder, die
 wir ein bisschen verändern können.
 
 00:27:09,140 --> 00:27:11,900
-Die sind aber immer um den Ursprung zentriert.
+Sie sind aber immer um den Ursprung zentriert.
 
 00:27:11,900 --> 00:27:15,440
-Was zum Beispiel auch heißt, dass einen
-Kreis zu rotieren gar keinen Sinn ergibt.
+Das heißt zum Beispiel auch, dass es
+keinen Sinn ergibt, einen Kreis zu rotieren.
 
 00:27:15,440 --> 00:27:21,320
-Weil der Kreis um den Ursprung gebildet war.
+Weil der Kreis um den Ursprung gebildet wurde.
 
 00:27:21,320 --> 00:27:24,650
-Wenn wir den jetzt rotieren, und
+Wenn wir ihn jetzt rotieren und
 dies immer um den Ursprung geschieht,
 
 00:27:25,190 --> 00:27:28,940
@@ -1588,7 +1588,7 @@ Man könnte ihn noch skalieren und
 daraus eine Ellipse machen, indem
 
 00:27:33,920 --> 00:27:35,630
-man in x- und y-Richtung verschieden skaliert.
+man in x- und y-Richtung unterschiedlich skaliert.
 
 00:27:35,630 --> 00:27:38,750
 Aber man kann ihn zum Beispiel
@@ -1610,11 +1610,11 @@ auch Objekte an anderer Stelle
 als am Ursprung zu zeichnen.
 
 00:27:55,580 --> 00:28:01,040
-Und würden wir auch alle Zeichenketten,
+Und wenn wir auch alle Zeichenketten,
 die wir drucken wollen, immer alle am
 
 00:28:01,040 --> 00:28:03,230
-Ursprung sich überlappen lassen,
+Ursprung überlappen lassen würden,
 so könnte man gar nichts lesen.
 
 00:28:03,230 --> 00:28:05,690
@@ -1624,7 +1624,7 @@ Also, was brauchen wir dafür?
 Eine weitere Operation, um ein Bild zu bewegen.
 
 00:28:08,060 --> 00:28:09,890
-Was braucht die für Argumente?
+Welche Argumente braucht sie?
 
 00:28:10,850 --> 00:28:14,690
 Erst mal das Bild, das bewegt werden soll,
@@ -1653,7 +1653,7 @@ erhalten wir eben die gleiche Form,
 
 00:28:36,080 --> 00:28:39,650
 den gleichen Kreis, aber der befindet
-sich jetzt an einer anderen Stell.
+sich jetzt an einer anderen Stelle.
 
 00:28:42,020 --> 00:28:43,400
 Und der Kreis ist dann ganz verschoben,
@@ -1677,7 +1677,7 @@ Zum Beispiel ein Bild, das sowohl einen
 Kreis als auch ein Rechteck enthält,
 
 00:29:13,330 --> 00:29:15,610
-könnten wir so noch nicht darstellen.
+können wir so noch nicht darstellen.
 
 00:29:15,610 --> 00:29:19,960
 Mit den Operationen, die wir bisher
@@ -1754,7 +1754,7 @@ Und einen anderen Bildausdruck erhalten wir,
 indem wir ein Stück Text ausgeben, es einfärben,
 
 00:30:26,290 --> 00:30:31,450
-es geeignet rotieren und irgendwie aus dem
+es geeignet rotieren und irgendwie von dem
 Ursprung an eine andere Stelle verschieben.
 
 00:30:31,450 --> 00:30:35,290
@@ -1882,7 +1882,7 @@ So, jetzt habe ich einfach ein paar Operationen
 entworfen und ein paar Beispiele gezeigt.
 
 00:32:40,060 --> 00:32:45,070
-Ich werde natürlich jetzt keine Implementation
+Ich werde natürlich jetzt keine Implementierung
 davon durchführen, darum geht es hier ja nicht.
 
 00:32:45,070 --> 00:32:50,470
@@ -1891,7 +1891,7 @@ warum wir das einführen, ist dass wir anhand
 
 00:32:50,470 --> 00:32:55,930
 solcher statischen Informationen eben bestimmte
-Aufrufe / Kombinationen von Operationen als
+Aufrufe/Kombinationen von Operationen als
 
 00:32:55,930 --> 00:32:58,060
 sinnvoll oder auch als nicht
@@ -1905,7 +1905,7 @@ Dass solche statischen
 Informationen dazu dienen können,
 
 00:33:02,350 --> 00:33:08,080
-bestimmte potentielle Fehler letztlich
+bestimmte potenzielle Fehler letztlich
 schon in der Modellierung auszuschließen,
 
 00:33:08,080 --> 00:33:10,240
@@ -2009,7 +2009,7 @@ einen String wie einen Text, der
 dann in ein Bild umgewandelt wird.
 
 00:34:58,950 --> 00:35:02,010
-Ich kann "print" nicht ein
+Ich kann "print" kein
 schon fertiges Bild übergeben.
 
 00:35:02,010 --> 00:35:03,930
@@ -2024,12 +2024,12 @@ sind, auch nicht irgendwie
 den Text "circle(3)" drucken.
 
 00:35:10,320 --> 00:35:12,540
-Dafür hätte der in
+Dafür hätte er in
 Anführungszeichen stehen müssen.
 
 00:35:12,540 --> 00:35:16,530
 Ja, "print" kann zwar einen beliebigen Text
-ausdrucken, es müsste aber irgendwie klar sein,
+ausdrucken, es sollte aber irgendwie klar sein,
 
 00:35:16,530 --> 00:35:19,800
 durch Anführungszeichen, dass man
@@ -2040,7 +2040,7 @@ und nicht einen anderen Ausdruck, der
 als ein Bild zu interpretieren ist.
 
 00:35:27,780 --> 00:35:31,530
-Aus gleichen Gründen wäre so etwas
+Aus denselben Gründen wäre so etwas
 wie "print-von-3" nicht okay,
 
 00:35:31,530 --> 00:35:32,880
@@ -2051,7 +2051,7 @@ Es gibt Programmiersprachen, wo hier einfach
 still und leise, wenn da eine 3 steht,
 
 00:35:38,970 --> 00:35:42,540
-das implementiert würde als die Zeichenkette "3".
+das als die Zeichenkette "3" implementiert würde.
 
 00:35:42,540 --> 00:35:45,420
 Das will ich hier nicht zulassen.
@@ -2062,7 +2062,7 @@ Zahlen als verschiedene Dinge
 
 00:35:51,150 --> 00:35:54,750
 vorgestellt, beziehungsweise
-sie verschieden benannt.
+sie unterschiedlich benannt.
 
 00:35:55,320 --> 00:36:01,050
 Das heißt, "print-von-3" wäre hier in meiner
@@ -2073,12 +2073,12 @@ weil es nicht stimmt, dass die
 3 an sich eine Zeichenkette ist.
 
 00:36:05,280 --> 00:36:08,040
-Dafür müsste sie in Hochkommas
+Dafür müsste sie in Anführungszeichen
 eingeschlossen sein.
 
 00:36:09,870 --> 00:36:13,560
 Und für keine von diesen Beobachtungen
-hier muss ich irgendwie das Programm
+muss ich irgendwie das Programm
 
 00:36:13,560 --> 00:36:16,230
 laufen lassen und die Sachen malen,
@@ -2097,7 +2097,7 @@ auf eine Zeichenkette angewandt,
 
 00:36:25,800 --> 00:36:28,680
 es kommt ein Bild heraus, hier möchte
-ich gern skalieren mit dem Faktor 3.
+ich gern mit dem Faktor 3 skalieren.
 
 00:36:28,680 --> 00:36:30,900
 Warum ist das dennoch falsch?
@@ -2127,22 +2127,22 @@ Also selbst wenn man nur einen Faktor
 zur Skalierung möchte, muss man ihn
 
 00:36:48,490 --> 00:36:52,540
-zweimal angeben, um ihn für sowohl
-x- als auch y-Richtung zu verwenden.
+zweimal angeben, um ihn sowohl für die
+x- als auch die y-Richtung zu verwenden.
 
 00:36:52,540 --> 00:36:58,900
-Beim Einfärben, da brauchen wir ein
+Beim Einfärben brauchen wir ein
 Bild und eine Farbe zum Einfärben.
 
 00:36:58,900 --> 00:37:01,411
 Aber spezifiziert war das als:
 
 00:37:01,411 --> 00:37:03,490
-Man gebe erst das Bild und dann die Farbe an.
+Man gibt erst das Bild und dann die Farbe an.
 
 00:37:03,490 --> 00:37:07,360
 Und wenn ich das falsch herum mache, würde ich
-auch hier erwarten, dass das zurückgewiesen wird.
+auch hier erwarten, dass das abgelehnt wird.
 
 00:37:14,620 --> 00:37:18,970
 Noch mal eher ein Fehler der Art wie oben.
@@ -2167,8 +2167,8 @@ Aber die Zahl 30 selbst ist kein Bild
 und kann deswegen nicht rotiert werden.
 
 00:37:45,520 --> 00:37:48,610
-Unser Kombinationsoperator,
-der war gedacht für Bilder.
+Unser Kombinationsoperator
+war gedacht für Bilder.
 
 00:37:48,610 --> 00:37:54,190
 Also wie eher gesagt, die Angabe war
@@ -2191,17 +2191,17 @@ andere Operation einführen.
 
 00:38:06,040 --> 00:38:12,340
 Die Operation "und" mit diesem Symbol wurde
-eingeführt als Operation zwischen Bildern.
+als Operation zwischen Bildern eingeführt.
 
 00:38:12,340 --> 00:38:17,935
 Und "ABC" sowie "DEF" sind eben keine Bilder.
 
 00:38:17,935 --> 00:38:19,120
-Also wir haben eine ganze Reihe von Fehlern,
+Also, wir haben eine ganze Reihe von Fehlern,
 
 00:38:19,120 --> 00:38:25,660
 die man ausschließen könnte, indem man sich
-einfach an die Operations-Signaturen hält.
+einfach an die Operationssignaturen hält.
 
 00:38:25,660 --> 00:38:29,770
 Umgekehrt heißt das natürlich nicht, dass alle
@@ -2245,11 +2245,11 @@ wäre das ein Fehler, der nicht
 statisch erkannt werden kann.
 
 00:39:11,500 --> 00:39:14,050
-Denn diese Rolle dieser beiden Argumente,
+Denn die Rolle dieser beiden Argumente,
 
 00:39:14,620 --> 00:39:19,570
-die ist nicht durch die statischen Angaben
-von den vorherigen Folien festgehalten.
+ist nicht durch die statischen Angaben
+der vorherigen Folien festgehalten.
 
 00:39:19,570 --> 00:39:20,260
 Das heißt:
@@ -2279,7 +2279,7 @@ Also in Python würde "print(3)"
 wahrscheinlich funktionieren.
 
 00:39:44,470 --> 00:39:45,520
-Das würde einfach interpretiert.
+Das würde einfach interpretiert werden.
 
 00:39:45,520 --> 00:39:49,270
 In meiner Domäne hier hatte ich
@@ -2313,8 +2313,8 @@ Aber wenn Sie zum Beispiel aus
 der Schule C oder Java kennen,
 
 00:40:24,340 --> 00:40:30,190
-dann kennen Sie einerseits das Konzept von solchen
-Operationen, solchen Angaben zu Signaturen.
+dann kennen Sie einerseits das Konzept solcher
+Operationen, solcher Angaben zu Signaturen.
 
 00:40:30,190 --> 00:40:32,380
 Andererseits kennen Sie dann
@@ -2324,7 +2324,7 @@ eine andere Syntax dafür.
 Also da wird das nicht so mathematisch angegeben.
 
 00:40:35,020 --> 00:40:39,400
-Deswegen eine kleine Folie, wo einfach
+Deswegen eine kleine Folie, auf der einfach
 diese Verbindung hergestellt wird,
 
 00:40:39,400 --> 00:40:42,340
@@ -2335,11 +2335,11 @@ Also diese "rectangle"-Operation
 zum Beispiel, die ich definiert
 
 00:40:46,420 --> 00:40:54,760
-oder deklariert habe, die kriegt zwei
+oder deklariert habe, die bekommt zwei
 Zahlen übergeben und liefert ein Bild.
 
 00:40:54,760 --> 00:40:59,920
-Die entspräche in C oder Java,
+Das entspräche in C oder Java,
 und noch vielen anderen meist
 
 00:40:59,920 --> 00:41:01,900
@@ -2364,7 +2364,7 @@ dann oft zuerst angegeben.
 
 00:41:24,980 --> 00:41:29,600
 Also "rectangle" liefert ein Bild
-und kriegt die Argumente übergeben,
+und bekommt die Argumente übergeben,
 
 00:41:29,600 --> 00:41:32,570
 die hier links von dem Pfeil stehen.
@@ -2386,7 +2386,7 @@ mehr Information, wenn man denn dann
 
 00:41:47,780 --> 00:41:51,290
 x und y auch geometrisch bereits als
-die x- und y-Koordinate interpretiert.
+die x- und y-Koordinaten interpretiert.
 
 00:41:51,290 --> 00:41:53,090
 Es könnten dafür beliebige Namen stehen,
@@ -2408,7 +2408,7 @@ diese Art Notation kennen.
 
 00:42:11,570 --> 00:42:16,700
 Und dann sollten Sie es einfach sehr direkt darauf
-matchen können, wie ich jetzt hier gerade in den
+matchen können, wie ich es jetzt hier gerade in den
 
 00:42:16,700 --> 00:42:23,465
 Folien die Operationen deklariert habe, und wie es

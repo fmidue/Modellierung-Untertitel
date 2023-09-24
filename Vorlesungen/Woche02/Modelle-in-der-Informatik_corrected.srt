@@ -20,7 +20,7 @@ computer science-related courses of study?
 
 00:00:27,120 --> 00:00:32,100
 And first of all, of course, the answer is
-the same as further ahead, in an earlier video.
+the same as mentioned before, in an earlier video.
 
 00:00:32,100 --> 00:00:32,850
 So:
@@ -38,12 +38,12 @@ And especially the more complex a
 computer science system is going to be.
 
 00:00:48,660 --> 00:00:51,420
-A system could of course
+A system could, of course,
 be a program, a database, virtual
 
 00:00:51,420 --> 00:00:58,260
 reality environments (i.e.
-also quite representational systems).
+also quite tangible systems).
 
 00:00:58,260 --> 00:01:02,190
 And the more complex such a
@@ -93,7 +93,7 @@ Similarly, of course,
 for information technology systems.
 
 00:01:44,580 --> 00:01:48,510
-So a small script that is written once,
+So a small script that is written once
 certainly does not need to be modeled beforehand.
 
 00:01:48,510 --> 00:01:58,170
@@ -101,37 +101,37 @@ A more comprehensive program
 or program system certainly does.
 
 00:01:58,170 --> 00:02:03,380
-The goal and hope is
-then of course that the
+The goal and hope,
+of course, is then that the
 
 00:02:03,380 --> 00:02:08,840
-fact that one has modeled, before one
+fact that one has modeled before one
 begins to implement, leads to various advantages:
 
 00:02:08,840 --> 00:02:10,520
 Avoidance of errors, better quality.
 
 00:02:10,520 --> 00:02:15,650
-Lower costs because of
+Lower costs due to
 avoidance of repairs or wrong
 
 00:02:15,650 --> 00:02:24,320
-ways, which one has to repeat then
+ways, which one has to repeat then,
 or to replace detours by new development.
 
 00:02:24,320 --> 00:02:26,510
 Better documentation through models.
 
 00:02:26,510 --> 00:02:29,870
-In the ideal case
-also increase of the reusability.
+In an ideal case,
+there's also an increase in reusability.
 
 00:02:29,870 --> 00:02:34,040
 This does not mean that modeling
 is always used in computer science.
 
 00:02:34,040 --> 00:02:37,190
-So there are some special situations.
+So, there are some special situations.
 
 00:02:37,190 --> 00:02:39,470
 Agile software development
@@ -239,15 +239,15 @@ This is not the
 case in software development.
 
 00:04:40,480 --> 00:04:44,320
-Except perhaps in the context of
-software product lines (which again would
+Except, perhaps, in the context of
+software product lines (which would
 
 00:04:44,320 --> 00:04:49,330
 be a topic for the software engineering lecture), it
 is the case that each software project is unique.
 
 00:04:49,330 --> 00:04:54,430
-So the model is not
+So, the model is not
 there to be implemented multiple times.
 
 00:04:54,430 --> 00:04:59,410
@@ -272,11 +272,11 @@ case in software technology.
 
 00:05:16,960 --> 00:05:20,890
 So there are actually
-differences to other areas.
+differences compared to other areas.
 
 00:05:20,890 --> 00:05:25,930
-And perhaps the second point is in
-a way also a reason for reluctance to
+And perhaps the second point is,
+in a way, also a reason for reluctance to
 
 00:05:25,930 --> 00:05:30,340
 always rely on models in
@@ -290,7 +290,7 @@ Who is it that models, in
 computer science, in the software development process?
 
 00:05:37,750 --> 00:05:40,630
-There the clear answer is: it is unclear.
+The clear answer there is: it is unclear.
 
 00:05:40,630 --> 00:05:45,040
 It depends on what kind of
@@ -306,7 +306,7 @@ classic software development processes.
 
 00:05:49,570 --> 00:05:54,640
 If you are still
-listening to Ms. Heisel's software
+listening to Professor Heisel's software
 
 00:05:54,640 --> 00:05:58,900
 engineering lecture, you will certainly
@@ -318,14 +318,14 @@ which is structured by phases, where
 
 00:06:02,170 --> 00:06:05,260
 you can very clearly
-determine where modeling happens here.
+determine where modeling happens.
 
 00:06:05,260 --> 00:06:07,360
 This would be the
 design phase in particular.
 
 00:06:07,360 --> 00:06:11,530
-So modeling is then really
+So, modeling is then really
 an act that takes place separately
 
 00:06:11,530 --> 00:06:16,510
@@ -333,19 +333,19 @@ from implementation, from programming, and
 also justifies its own role.
 
 00:06:16,510 --> 00:06:21,670
-So there might be the
+So, there might be the
 programmer, the software developer, who implements.
 
 00:06:21,670 --> 00:06:25,540
 And before that, there's the design
-of the software architecture or just the
+of the software architecture, or just the
 
 00:06:25,540 --> 00:06:28,690
 design, and that's a design task that
 a programmer doesn't necessarily have to do.
 
 00:06:28,690 --> 00:06:32,110
-So maybe that would also be
+So, maybe that would also be
 a role for Komedia graduates, for example.
 
 00:06:32,110 --> 00:06:36,940
@@ -356,7 +356,7 @@ So at different levels,
 models are created, and
 
 00:06:39,700 --> 00:06:43,990
-then there are really, for example, concrete
+then there are, for example, concrete
 documents that you can also look at.
 
 00:06:43,990 --> 00:06:49,780
@@ -392,7 +392,7 @@ This will not be a
 topic of the lecture in particular.
 
 00:07:19,630 --> 00:07:24,010
-So we will mainly deal with
+So, we will mainly deal with
 the formulation of the models and
 
 00:07:24,010 --> 00:07:27,640
@@ -408,7 +408,7 @@ There are various other
 ways to do software development.
 
 00:07:40,720 --> 00:07:48,880
-Another way is iterative, so where the
+Another way is iterative, where the
 phases are not done once in a waterfall
 
 00:07:48,880 --> 00:07:51,910
@@ -424,11 +424,11 @@ And in each of these spirals in
 this execution, modeling could also take place.
 
 00:08:04,450 --> 00:08:08,410
-Because in each case
+Because in each case,
 new aspects are brought into
 
 00:08:08,410 --> 00:08:12,670
-play, for example the models
+play. For example, the models
 are refined to define more precise
 
 00:08:12,670 --> 00:08:18,100
@@ -440,7 +440,7 @@ Of course, what you see
 here are also just models.
 
 00:08:20,740 --> 00:08:23,890
-So no one perhaps is
+So, perhaps no one is
 going to proceed exactly like this.
 
 00:08:23,890 --> 00:08:28,900
@@ -468,22 +468,22 @@ that can be used as a guide.
 
 00:08:54,940 --> 00:08:58,840
 We will not consider
-such models further, because process
+such models any further because the process
 
 00:08:58,840 --> 00:09:04,000
 models are also part of the
-software engineering lecture with Mrs. Heisel.
+software engineering lecture with Professor Heisel.
 
 00:09:04,000 --> 00:09:09,100
-I had already mentioned special cases.
+I have already mentioned special cases.
 
 00:09:09,100 --> 00:09:15,520
-So in agile software development, modeling
+So, in agile software development, modeling
 is different, one could also say less.
 
 00:09:15,520 --> 00:09:20,080
 Strictly speaking, models also appear
-there, but rather in later phases.
+there, but rather in the later phases.
 
 00:09:20,080 --> 00:09:21,250
 The models are rather short-lived.
@@ -532,8 +532,8 @@ a topic for the software engineering lecture.
 What is relevant for us is:
 
 00:10:09,730 --> 00:10:13,300
-There is the need for models
-in different phases in software development.
+There is a need for models
+in different phases of software development.
 
 00:10:13,300 --> 00:10:20,230
 And that's why this lecture will
@@ -541,7 +541,7 @@ just focus on these types of models.
 
 00:10:22,960 --> 00:10:28,420
 Other important aspects when working with
-models are of course questions like:
+models are, of course, questions like:
 
 00:10:28,420 --> 00:10:30,130
 Is the model correct at all?
@@ -550,12 +550,12 @@ Is the model correct at all?
 Is it consistent in itself?
 
 00:10:31,540 --> 00:10:36,040
-Model correctness is of course difficult to
+Model correctness is, of course, difficult to
 answer if you set up the model in
 
 00:10:36,040 --> 00:10:41,680
 the first place in order to be aware of
-what the system that is being developed should look like.
+what the system being developed should look like.
 
 00:10:41,680 --> 00:10:46,390
 Then you don't really have a handle
@@ -630,17 +630,17 @@ for a whole class of models.
 
 00:11:49,900 --> 00:11:51,700
 This will not be in the
-foreground, will not be the main part
+foreground, nor will it be the main part
 
 00:11:51,700 --> 00:11:56,230
 of the lecture, but it will come up.
 
 00:11:56,230 --> 00:11:58,960
-And of course in a
+And, of course, in a
 
 00:11:58,960 --> 00:12:04,750
 different context, when you really build the system
-in the end, then you can of course ask:
+in the end, you can, of course, ask:
 
 00:12:04,750 --> 00:12:08,980
 Does the model
@@ -689,25 +689,25 @@ can already be found as
 suggestions in the Moodle course.
 
 00:12:52,330 --> 00:12:56,560
-In the lecture itself this will occur
-at most times, when I want to work
+In the lecture itself, this will occur
+most of the time, when I want to work
 
 00:12:56,560 --> 00:13:03,040
-with Petri nets, and then perhaps also in
-video form times a simulation will carry out.
+with Petri nets, and perhaps also in
+video form, a simulation will be carried out.
 
 00:13:08,380 --> 00:13:14,050
-From this it is now a bit clearer
-what will make up the content of the course.
+From this, it is now a bit clearer 
+what the content of the course will be.
 
 00:13:14,050 --> 00:13:15,040
-So here's a brief overview.
+So, here's a brief overview.
 
 00:13:15,040 --> 00:13:16,390
 It's not exactly in that order.
 
 00:13:16,390 --> 00:13:19,480
-So it's not chapters
+So, it's not chapters 
 that I'm going to follow.
 
 00:13:19,480 --> 00:13:23,290
@@ -719,8 +719,8 @@ So we're going to need some
 mathematical basics, of course, and develop
 
 00:13:26,800 --> 00:13:33,610
-some of them, or I'll give you,
-without it being a first chapter right now.
+some of them, or I'll provide them,
+without it being the first chapter right now.
 
 00:13:33,610 --> 00:13:37,750
 One important type of description, which of
@@ -785,7 +785,7 @@ interesting for us because, on
 
 00:14:36,520 --> 00:14:40,870
 the one hand, they are well
-suited to teach certain concepts of distributed
+suited to teaching certain concepts of distributed
 
 00:14:40,870 --> 00:14:47,620
 systems such as concurrency,
@@ -793,7 +793,7 @@ conflicts, liveness, and so on.
 
 00:14:47,620 --> 00:14:51,310
 On the other hand, Petri nets
-are also quite a formal modeling tool.
+are also a quite formal modeling tool.
 
 00:14:51,310 --> 00:14:56,035
 That is, you should also see
@@ -829,7 +829,7 @@ school, possibly also from the computer
 science pre-course, at least in excerpts.
 
 00:15:27,130 --> 00:15:28,930
-So at least class diagrams.
+So, at least, class diagrams.
 
 00:15:28,930 --> 00:15:31,810
 If you have covered object-oriented programming
@@ -837,14 +837,14 @@ in school in computer science classes,
 
 00:15:32,650 --> 00:15:37,720
 then you have probably already
-worked with UML at least indirectly.
+worked with UML, at least indirectly.
 
 00:15:37,720 --> 00:15:44,020
-Both Petri nets and UML you
+Both Petri nets and UML, you
 may encounter further in your studies.
 
 00:15:44,020 --> 00:15:47,080
-Of course, this depends specifically
+Of course, this specifically depends
 on your course of study.
 
 00:15:47,080 --> 00:15:53,410
@@ -861,11 +861,11 @@ Java was used.
 
 00:16:01,390 --> 00:16:06,040
 Now, after the switch to Python,
-it is probably at most on
+it probably is at most on
 
 00:16:06,040 --> 00:16:08,710
 the margins, if some Java is still
-done in the end in the course.
+done at the end of the course.
 
 00:16:08,710 --> 00:16:11,290
 On the other hand, UML will certainly
@@ -884,17 +884,17 @@ deal with small models in
 the course (for clarity/didactics of teaching).
 
 00:16:28,810 --> 00:16:30,040
-Said also:
+Also said:
 
 00:16:30,040 --> 00:16:34,750
 The use of models for the verification of
-properties will not be in the center, but
+properties will not be central, but
 
 00:16:34,750 --> 00:16:37,900
 will at least appear once in Petri nets.
 
 00:16:41,050 --> 00:16:44,290
-We will of course do static and dynamic
+We will, of course, do static and dynamic
 
 00:16:44,290 --> 00:16:45,760
 modeling, especially in
@@ -904,21 +904,21 @@ the context of UML.
 Both are not very formal there.
 
 00:16:49,090 --> 00:16:50,695
-With Petri nets more formal.
+With Petri nets, more formal.
 
 00:16:50,695 --> 00:16:52,450
-UML, I had already said
+UML, as I already said
 in the last video, is
 
 00:16:52,450 --> 00:16:57,580
-rather a semi-formal modeling method.
+a rather semi-formal modeling method.
 
 00:16:57,580 --> 00:17:07,360
-Of course, even that, with this
-scope, is by no means somehow comprehensively
+Of course, even that, within this
+scope, is by no means comprehensive;
 
 00:17:07,360 --> 00:17:09,370
-everything you can do in
+it's not everything you can do in
 computer science in terms of models.
 
 00:17:09,370 --> 00:17:12,490
@@ -934,10 +934,10 @@ on visual modeling using diagrams.
 
 00:17:21,100 --> 00:17:25,000
 I had already mentioned that there
-is of course also mathematical modeling, algebraic
+are, of course, also mathematical modeling, algebraic
 
 00:17:25,000 --> 00:17:30,850
-modeling methods that are more
+modeling methods more
 oriented to mathematical formula language.
 
 00:17:30,850 --> 00:17:31,660
@@ -961,10 +961,10 @@ of the content of the course.
 
 00:17:53,080 --> 00:17:59,710
 These are simply several terms that were
-collected in the slides of a previous
+collected from the slides of a previous
 
 00:17:59,710 --> 00:18:03,235
-year in their frequency
+year, sorted by their frequency,
 and then visualized here.
 
 00:18:03,235 --> 00:18:05,590
@@ -989,7 +989,7 @@ because just because of this term down
 here, it shows up almost on every slide.
 
 00:18:17,590 --> 00:18:19,210
-I had therefore removed them.
+Therefore, I had removed them.
 
 00:18:19,900 --> 00:18:25,570
 Otherwise, if you then dive
@@ -1042,7 +1042,7 @@ A term from dynamic modeling.
 As a synonym for it.
 
 00:19:01,940 --> 00:19:07,040
-In graphs, "nodes" appear,
+In graphs, "nodes" appear
 as parts of a graph.
 
 00:19:07,040 --> 00:19:10,130
@@ -1054,7 +1054,7 @@ This is a concept that
 appears in certain UML diagram types.
 
 00:19:14,990 --> 00:19:18,020
-Activity diagrams is what
+Activity diagrams are what
 we're going to cover.
 
 00:19:18,020 --> 00:19:22,940
