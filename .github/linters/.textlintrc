@@ -7,7 +7,7 @@
     },
     "plugins": {
         "@textlint/text": {
-            "extensions": [".sbv"]
+            "extensions": [".sbv",".srt"]
         }
     }
 }
