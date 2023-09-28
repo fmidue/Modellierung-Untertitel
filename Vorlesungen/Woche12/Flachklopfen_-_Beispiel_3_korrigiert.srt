@@ -1,7 +1,7 @@
 269 # slide
 00:00:02,830 --> 00:00:06,850
 Also als finales Beispiel noch
-ein UML-Zustandsdiagramm, das
+ein weiteres UML-Zustandsdiagramm, das
 
 00:00:06,850 --> 00:00:09,910
 in ein flaches Zustandsdiagramm zu übersetzen ist.
@@ -15,28 +15,28 @@ ein bisschen ist das wie das Beispiel 1,
 
 00:00:17,920 --> 00:00:23,200
 noch ohne Regionen, aber dafür diesmal
-mit einem Historienknoten (nämlich dem).
+mit einem Historienknoten (nämlich diesem).
 
 00:00:23,200 --> 00:00:27,760
 Also wie hier keine Regionen,
 
 00:00:29,230 --> 00:00:33,640
 aber ein hierarchischer Zustand und Historie
-(in dem konkreten Fall, flache Historie).
+(in dem konkreten Fall: flache Historie).
 
 00:00:36,220 --> 00:00:38,530
 Was wir also nicht als Beispiel
-haben ist eine Kombination,
+haben, ist eine Kombination,
 
 00:00:38,530 --> 00:00:41,680
 wo sowohl Regionen als auch Historie vorkommen.
 
 00:00:41,680 --> 00:00:44,830
-Und in der Tat werden wir
+Und in der Tat wirden
 das nicht sich gegenseitig
 
 00:00:44,830 --> 00:00:50,410
-beeinflussend auftreten haben in unseren
+beeinflussend auftreten in unseren
 Flachklopfen-Beispielen, die Sie lösen sollen.
 
 00:00:51,820 --> 00:00:54,160
@@ -52,21 +52,21 @@ Das sind unsere Beispiele 1,
 
 00:00:59,890 --> 00:01:05,380
 2, 3, und entsprechendes sollten Sie
-leisten können für analoge Beispiele.
+für analoge Beispiele leisten können.
 
 00:01:09,490 --> 00:01:12,280
 Was wird der Ansatz sein, um
-mit dem Beispiel umzugehen?
+mit diesem Beispiel umzugehen?
 
 00:01:13,330 --> 00:01:14,860
 Zunächst wieder wie im einfachen Fall,
 
 00:01:14,860 --> 00:01:21,070
 also wie im Beispiel 1 (also das, was
-hier als Ansatz, als Strategie stand):
+hier als Strategie stand):
 
 00:01:21,070 --> 00:01:23,680
-Die einfachen Zustände behalten,
+die einfachen Zustände behalten,
 
 00:01:25,180 --> 00:01:29,950
 Sachen, die am Rand von diesen hierarchischen
@@ -89,7 +89,7 @@ verschwinden können und höchstens genutzt
 werden, um Eintritte korrekt zu übersetzen).
 
 00:01:56,440 --> 00:01:59,110
-Das wird auch die Grundstrategie sein.
+Das wird auch hier die Grundstrategie sein.
 
 00:01:59,110 --> 00:02:02,230
 Natürlich ändert sich etwas dadurch,
@@ -107,20 +107,20 @@ in dem ein Historienknoten liegt, dann wissen
 wir, dass wir, falls wir später noch einmal
 
 00:02:17,050 --> 00:02:22,960
-hierher zurückkehren und insbesondere das
+hierher zurückkehren und dies insbesondere
 über ein Historieneintritt tun werden,
 
 00:02:22,960 --> 00:02:28,825
-dann müssten wir wissen, wo wir denn zuletzt
-in diesem hierarchischen Zustand gewesen sind.
+dann werden wir wissen müssen, wo wir denn
+in diesem hierarchischen Zustand zuletzt gewesen sind.
 
 00:02:28,825 --> 00:02:33,100
 Also wenn wir über e den Zustand verlassen,
 müssen wir später beim Zurückkehren noch wissen,
 
 00:02:33,100 --> 00:02:38,230
-ob wir denn aus C oder aus D diesen
-hierarchischen Zustand verlassen haben.
+ob wir diesen hierarchischen Zustand
+denn aus C oder aus D verlassen haben.
 
 00:02:38,230 --> 00:02:39,940
 Wie können wir uns das merken?
@@ -129,18 +129,18 @@ Wie können wir uns das merken?
 Nur in Zuständen des flachen Zustandsdiagramms.
 
 00:02:44,830 --> 00:02:49,630
-D.h., wir müssen, wenn wir
-etwa hier übergehen nach A,
+Das heißt, wir müssen, wenn wir
+etwa hier nach A übergehen,
 
 00:02:49,630 --> 00:02:52,600
-uns auch noch nebenbei merken, ob wir jetzt
+uns nebenbei auch noch merken, ob wir jetzt
 
 00:02:52,600 --> 00:02:55,090
 in A sind und zuletzt in C gewesen sind, oder
 ob wir in A sind und zuletzt in D gewesen sind.
 
 00:02:56,800 --> 00:03:00,040
-D.h., wir werden von A Kopien anlegen.
+Das heißt, wir werden Kopien von A anlegen.
 
 00:03:00,040 --> 00:03:02,080
 Eine dafür, dass wir wissen:
@@ -155,8 +155,8 @@ Und analog eine für:
 Wir sind in A und waren zuvor in D.
 
 00:03:09,190 --> 00:03:13,330
-Das heißt, wir müssen wegen dieses
-Historienknotens (um später an die geeignete
+Das heißt, wegen dieses Historienknotens
+müssen wir (um später an die geeignete
 
 00:03:13,330 --> 00:03:18,130
 Stelle zurückkehren zu können) Kopien der äußeren
@@ -197,10 +197,10 @@ einfachen Fall Dinge außerhalb
 
 00:03:59,410 --> 00:04:02,365
 Das führt erst mal dazu,
-dass wir so starten können.
+dass wir so starten können,
 
 00:04:02,365 --> 00:04:06,220
-Dass wir die Grundzustände A, B,
+dass wir die Grundzustände A, B,
 C, D, X behalten und schon wissen,
 
 00:04:06,220 --> 00:04:08,518
@@ -228,7 +228,7 @@ Wir sehen auch schon, zur Erinnerung:
 
 00:04:21,700 --> 00:04:27,370
 Im einfachen Fall können wir Übergänge
-behalten, die nicht irgendwas mit dem
+behalten, die nichts mit dem
 
 00:04:27,370 --> 00:04:30,940
 Eintritt oder Austritt zu/von einem
@@ -254,7 +254,7 @@ Dann sind wir hier.
 
 00:05:05,440 --> 00:05:07,240
 Den äußeren Startzustand, den
-können wir auch einfach ausnutzen.
+können wir auch einfach weiter nutzen.
 
 00:05:09,220 --> 00:05:12,160
 Und den hier drin brauchen wir nicht.
@@ -269,7 +269,7 @@ haben, das wäre dieser hier.
 
 00:05:30,130 --> 00:05:36,280
 Also weil das der Startzustand
-war von diesem inneren Komplex,
+von diesem inneren Komplex war,
 
 00:05:36,280 --> 00:05:40,990
 und es von X einen Standardeintritt
@@ -277,7 +277,7 @@ dahin gab, erhalten wir diesen Übergang.
 
 00:05:42,940 --> 00:05:48,970
 Das entspricht der Information: Standardeintritt
-unter dem Startzustand, deswegen dieser Übergang.
+per Startzustand, deswegen dieser Übergang.
 
 00:05:50,740 --> 00:05:52,300
 Was haben wir noch zu übersetzen?
@@ -294,14 +294,14 @@ Da ist ein Übergang, der egal, ob wir
 in C oder D sind, immer zu A führt.
 
 00:06:04,900 --> 00:06:06,430
-Das wäre das einfache.
+Das wäre das Einfache.
 
 00:06:06,430 --> 00:06:11,260
 Allerdings wissen wir, dass wir uns noch merken
 müssen, ob wir aus C oder aus D gekommen sind.
 
 00:06:11,260 --> 00:06:16,150
-D.h., es reicht nicht einfach nur,
+Das heißt, es reicht nicht, einfach nur
 diesen Übergang hier zu haben.
 
 00:06:16,150 --> 00:06:21,970
@@ -338,7 +338,7 @@ Wenn wir das aus C getan haben,
 wollen wir auch bei C landen.
 
 00:06:51,721 --> 00:06:53,770
-D.h., es reicht nicht einfach,
+Das heißt, es reicht nicht einfach,
 diesen b- und e-Übergang zu haben.
 
 00:06:53,770 --> 00:06:56,560
@@ -376,7 +376,7 @@ Wir legen eben Kopien an.
 
 00:07:36,010 --> 00:07:41,620
 Das, was in den UML-Zustandsdiagrammen
-A, B waren, dafür haben wir zwei Kopien:
+A und B waren, dafür haben wir zwei Kopien:
 
 00:07:41,620 --> 00:07:44,740
 eine dafür, dass wir aus C gekommen sind und
@@ -416,7 +416,7 @@ In dem konkreten Fall ist
 es zufälligerweise ja so,
 
 00:08:14,650 --> 00:08:18,310
-dass wir niemals in X sind, wenn wir
+dass wir niemals wieder in X sind, wenn wir
 vorher schon mal hier gewesen sind.
 
 00:08:18,310 --> 00:08:21,910
@@ -443,7 +443,7 @@ Das erklärt, warum wir hier von A
 und B diese beiden Kopien haben,
 
 00:08:41,500 --> 00:08:45,130
-aber für X nicht zusätzliche Kopien haben.
+aber für X nicht auch noch Kopien haben.
 
 00:08:45,130 --> 00:08:47,680
 Das sind die zusätzlichen Zustände.
@@ -456,8 +456,8 @@ auch die Übergänge dazwischen brauchen.
 Also:
 
 00:08:53,140 --> 00:08:56,080
-Dass wir zwischen A und B
-wechseln können mit a und f,
+Dass wir mit a und f zwischen A und B
+wechseln können,
 
 00:08:56,080 --> 00:09:01,480
 das wird nicht dadurch verändert, ob

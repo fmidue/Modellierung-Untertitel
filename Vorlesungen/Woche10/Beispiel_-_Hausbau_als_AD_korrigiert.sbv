@@ -25,7 +25,7 @@ Begriff der Token entlehnen.
 Wir werden die Position, wo wir während
 
 0:00:32.640,0:00:36.750
-der Abarbeitung gerade im Aktivitätsdiagramm
+der Abarbeitung im Aktivitätsdiagramm gerade
 sind, auch mit so einer Art Token darstellen.
 
 0:00:36.750,0:00:39.720
@@ -33,7 +33,7 @@ Deswegen habe ich das hier mal vorbereitet.
 
 0:00:39.720,0:00:47.220
 Also wir können uns vorstellen, dass wir mit einem
-Token am Beginn beginnen, das ist dieser Knoten,
+Token am Beginn beginnen. Das ist dieser Knoten,
 
 0:00:47.220,0:00:49.650
 der für den Start des Aktivitätsdiagramms steht.
@@ -46,7 +46,7 @@ Wir packen das jetzt nicht wie im
 Petrinetz direkt auf die Kreise,
 
 0:00:57.690,0:01:03.270
-sondern notieren das hier mal, neben diesem
+sondern notieren das hier mal neben diesem
 Aktionsknoten, wie er gleich heißen wird.
 
 0:01:03.840,0:01:09.330
@@ -57,7 +57,7 @@ sein, einen Bauplatz zu wählen,
 weil wir einfach dem ersten Pfeil gefolgt sind.
 
 0:01:11.580,0:01:24.090
-Wie letztlich hier vorgeben, durch diese
+Wie letztlich hier vorgegeben, durch diese
 erste Verbindung im Aktivitätsdiagramm.
 
 0:01:24.840,0:01:27.660
@@ -65,7 +65,7 @@ Dann ist auch klar, dass wir wahrscheinlich
 diesen Pfeilen weiter folgen werden.
 
 0:01:27.660,0:01:31.350
-Der nächste Schritt müsse dann sein,
+Der nächste Schritt müsste dann sein,
 dass wir einen Architekten suchen.
 
 0:01:32.730,0:01:39.330
@@ -78,7 +78,7 @@ Sachen verzweigt oder verbindet.
 
 0:01:43.260,0:01:46.470
 In dem konkreten Fall kommen wir durch
-diesen Pfeil herein, hier gibt es noch
+diesen Pfeil herein. Hier gibt es noch
 
 0:01:46.470,0:01:48.600
 eine andere Möglichkeit reinzukommen, aber
@@ -86,7 +86,7 @@ wir kommen jetzt auf dieser Seite rein.
 
 0:01:49.140,0:01:54.990
 Und der einzige ausgehende Pfeil wäre,
-dass wir weitergehen, zu Plan erstellen.
+dass wir weitergehen, zu "Plan erstellen".
 
 0:01:54.990,0:02:01.530
 Dann wären wir also hier, indem
@@ -113,8 +113,8 @@ Man könnte sagen, bisher war
 dieses Token vor allem dafür da,
 
 0:02:25.970,0:02:30.260
-irgendwie eine Reihenfolge zu markieren
-oder eine aktuelle Position zu markieren.
+irgendwie eine
+aktuelle Position zu markieren.
 
 0:02:30.260,0:02:33.530
 In diesem Objektknoten, den wir hier haben,
@@ -131,12 +131,12 @@ dann gäbe es vielleicht mehrere Pläne,
 die durch dieses System hindurch wandern.
 
 0:02:42.165,0:02:49.550
-Also ein Plan wurde erstellt, jetzt haben
-wir einen Plan, wie geht es mit dem weiter?
+Also ein Plan wurde erstellt. Jetzt haben
+wir einen Plan. Wie geht es mit dem weiter?
 
 0:02:49.550,0:02:54.890
-Nun der ausgehende Pfeil wäre zur
-nächsten Aktion, einen Plan einzureichen.
+Nun, der ausgehende Pfeil wäre zur
+nächsten Aktion, einen "Plan einzureichen".
 
 0:02:55.580,0:02:58.430
 Dann stellt sich heraus, danach
@@ -147,7 +147,7 @@ der jetzt allerdings einen
 Eingang und zwei Ausgänge hat.
 
 0:03:00.980,0:03:05.120
-Das heißt, hier wäre es eine Stelle, wo es eine
+Das heißt, hier wäre eine Stelle, wo es eine
 Wahl darüber zu geben scheint, was passiert.
 
 0:03:06.920,0:03:14.450
@@ -169,7 +169,7 @@ Und jetzt kann es zwei mögliche
 Ergebnisse geben, nämlich:
 
 0:03:23.060,0:03:24.680
-Dieser Plan wird angenommen oder nicht.
+Dieser Plan wird angenommen, oder nicht.
 
 0:03:24.680,0:03:28.850
 Das wird durch diese Notation hier dargestellt,
@@ -180,14 +180,14 @@ heraus belegt sein muss.
 
 0:03:34.340,0:03:38.330
 Irgendwo muss es für einen Plan einen Begriff
-geben, ob der annehmbar ist oder nicht.
+geben, ob er annehmbar ist oder nicht.
 
 0:03:38.330,0:03:41.870
 Das wird durch das Diagramm
 hier nicht weiter spezifiziert,
 
 0:03:41.870,0:03:47.240
-das benutzt einfach das Ergebnisse
+das benutzt einfach das Ergebnis
 einer solchen Überprüfung.
 
 0:03:47.240,0:03:51.710
@@ -195,11 +195,11 @@ Und nehmen wir mal an, dass der
 konkrete Plan, den wir hier haben,
 
 0:03:51.710,0:03:54.830
-tatsächlich nicht angenommen würde,
-dann würden wir eben hier weitergehen.
+tatsächlich nicht angenommen würde.
+Dann würden wir eben hier weitergehen,
 
 0:03:54.830,0:03:58.160
-Und damit wieder an dieser diesem Knoten ankommen,
+und damit wieder an diesem Knoten ankommen,
 
 0:03:58.160,0:04:02.450
 der wieder nur einen möglichen Ausgang hat,
@@ -207,7 +207,7 @@ nämlich ein neuer Plan sei zu erstellen.
 
 0:04:03.410,0:04:05.270
 Dann sehen wir schon, dass
-das so weitergehen kann,
+das so weitergehen kann:
 
 0:04:05.270,0:04:08.990
 ein neuer Plan wird eingereicht und überprüft.
@@ -217,7 +217,7 @@ Dann könnte es vielleicht passieren,
 dass wir noch einmal diesen Kreis
 
 0:04:12.770,0:04:15.980
-durchgehen müssen und irgendwann haben wir
+durchgehen müssen, und irgendwann haben wir
 vielleicht einen Plan, der annehmbar ist.
 
 0:04:19.670,0:04:20.210
@@ -229,14 +229,14 @@ hier mit unserem Plan, mit unserem Token.
 
 0:04:24.320,0:04:27.620
 Was hat es jetzt mit dieser
-speziellen Art von Knoten,
+speziellen Art von Knoten
 
 0:04:28.160,0:04:31.460
 oder Element in diesem
 Aktivitätsdiagramm auf sich?
 
 0:04:32.120,0:04:38.750
-Nun das ist eine Stelle, wo nicht nur eine
+Nun, das ist eine Stelle, wo nicht nur eine
 Wegkreuzung stattfindet, in dem Sinne,
 
 0:04:38.750,0:04:42.290
@@ -257,10 +257,10 @@ wo einer der beiden Ausgänge genommen wird.
 
 0:04:55.640,0:05:01.930
 Sondern hier, mit dem Balken, der sogenannten
-Gabelung, ist das tatsächlich so zu verstehen,
+Gabelung, ist es tatsächlich so zu verstehen,
 
 0:05:01.930,0:05:07.850
-dass dieses Token jetzt zwei geteilt wird.
+dass dieses Token jetzt zweigeteilt wird.
 Damit haben wir die Vorstellung,
 
 0:05:07.850,0:05:11.390
@@ -272,8 +272,8 @@ Es reicht also nicht, wie bei einem
 flachen Zustandsdiagramm, einfach auf
 
 0:05:13.730,0:05:15.770
-einen Knoten zu zeigen, und
-zu sagen hier sind wir gerade.
+einen Knoten zu zeigen und
+zu sagen, hier sind wir gerade.
 
 0:05:15.770,0:05:19.790
 Durch diese Aufspaltung von
@@ -291,7 +291,7 @@ Das erlaubt ein flaches Zustandsdiagramm nicht.
 
 0:05:28.130,0:05:34.640
 In unserem Wolf-Ziege-Kohlkopf-Problem gab
-es so etwas, in dieser Konstellation, nicht.
+es so etwas in dieser Konstellation nicht.
 
 0:05:34.640,0:05:38.150
 Gemeint ist jetzt hier, dass eben
@@ -308,7 +308,7 @@ Die Reihenfolge ist egal.
 Beides muss geschehen, aber es ist
 
 0:05:46.820,0:05:50.630
-nicht vorgegeben, in welcher Reihenfolge.
+nicht vorgegeben in welcher Reihenfolge.
 Es könnte sein, dass erst die Arbeit auf der
 
 0:05:50.630,0:05:55.730
@@ -319,28 +319,28 @@ oder umgekehrt, oder faktisch doch gleichzeitig.
 Der Punkt ist, dies sind unabhängige Vorgänge.
 
 0:06:01.610,0:06:03.770
-Nehmen wir an Beide wurden ausgeführt.
+Nehmen wir an, beide wurden ausgeführt.
 
 0:06:03.770,0:06:11.750
 Dann wären wir bei diesem Element, das
-offenkundig aussieht wie das Gegenteil hierzu.
+offenkundig aussieht wie das Gegenteil hierzu,
 
 0:06:11.750,0:06:14.240
-Weil es jetzt zwei Eingänge
+weil es jetzt zwei Eingänge
 und einen Ausgangspfeil gibt.
 
 0:06:14.240,0:06:16.940
-Und tatsächlich ist das der Synchronisationspunkt,
+Und tatsächlich ist das der Synchronisationspunkt.
 
 0:06:16.940,0:06:19.910
-hier würden also diese beiden
+Hier würden also diese beiden
 Token wieder verschmelzen.
 
 0:06:19.910,0:06:21.070
-Dafür müssen sie Beide da sein.
+Dafür müssen sie beide da sein.
 
 0:06:21.070,0:06:26.230
-Also wenn das eine Token noch hier läge, kann
+Also wenn das eine Token noch hier läge, könnte
 das andere Token hier nicht fortschreiten.
 
 0:06:26.230,0:06:33.370
@@ -349,7 +349,7 @@ beiden nebenläufigen Abläufen hier
 
 0:06:33.370,0:06:36.010
 unten angekommen sind, dann können und
-müssten die hier wieder verschmelzen.
+müssen sie hier wieder verschmelzen.
 
 0:06:36.010,0:06:40.870
 Dann gäbe es fortan wieder nur noch ein Token.
@@ -358,7 +358,7 @@ Dann gäbe es fortan wieder nur noch ein Token.
 Dann könnte das Haus fertiggestellt werden.
 
 0:06:44.110,0:06:48.670
-Dann würde der Fluss, hier,
+Dann würde der Fluss hier
 an dieser Stelle enden.
 
 0:06:48.670,0:06:52.450
@@ -377,14 +377,14 @@ Natürlich muss man noch erklären, was
 genau diese einzelnen Elemente bedeuten.
 
 0:07:09.310,0:07:10.450
-Das war jetzt ja nur ein Beispiel,
+Das war jetzt ja nur ein Beispiel.
 
 0:07:10.450,0:07:13.630
-aber das verdeutlicht vielleicht
+Aber das verdeutlicht vielleicht
 schon ganz gut, was hier passiert.
 
 0:07:13.630,0:07:18.940
-Dieses Token Konzept, die Idee, dass sich
+Dieses Tokenkonzept, die Idee, dass sich
 ein Fluss aufspalten oder vereinigen kann,
 
 0:07:18.940,0:07:24.430
@@ -396,19 +396,19 @@ Also, es hat was von einem
 flachen Zustandsdiagramm,
 
 0:07:29.470,0:07:32.140
-ist aber mehr durch die zusätzlichen Elemente.
+ist aber mehr, durch die zusätzlichen Elemente.
 
 0:07:32.140,0:07:35.710
 Es hat auch ein bisschen was von einem
-Petrinetz, durch dieses Token Konzept.
+Petrinetz, durch dieses Tokenkonzept.
 
 0:07:35.710,0:07:38.950
 Dennoch ergibt es Sinn, nicht
 nur Petrinetze zu nehmen,
 
 0:07:38.950,0:07:42.280
-sondern diese Aktivitätsdiagramme
-in der Praxis zu verwenden.
+sondern in der Praxis diese
+Aktivitätsdiagramme zu verwenden.
 
 0:07:42.280,0:07:49.450
 Durch die verschiedenen Elemente, die
@@ -419,7 +419,7 @@ Notation und dann eine intuitive Bedeutung haben,
 kann Modellierung einfacher fallen, statt alles
 
 0:07:55.630,0:07:59.980
-mit Petrinetz Mitteln umsetzen zu wollen, wo
+mit Petrinetzmitteln umsetzen zu wollen, wo
 man immer nur Stellen und Transitionen hat.
 
 0:07:59.980,0:08:03.760
@@ -431,7 +431,7 @@ Da werden wir aber sehen, dass wir da mehr Knoten,
 
 0:08:05.440,0:08:08.590
 mehr Stellen und Transitionen
-brauchen, als es jetzt Elemente gab.
+brauchen als es jetzt Elemente gab.
 
 0:08:08.590,0:08:12.070
 Das liegt daran, dass diese Elemente,
@@ -461,11 +461,11 @@ Während wir hier jedem Element einen
 sinnvollen Namen zuweisen können.
 
 0:08:35.530,0:08:40.000
-Jedes Element, was hier auftaucht, hat auch eine
+Jedes Element, das hier auftaucht, hat auch eine
 Bedeutung in der zu modellierenden Anwendung.
 
 0:08:40.000,0:08:41.890
-Und es gibt auch diese ganz speziellen Elemente,
+Und es gibt auch diese ganz speziellen Elemente
 
 0:08:41.890,0:08:45.640
 wie etwa diese Gabelung und diese

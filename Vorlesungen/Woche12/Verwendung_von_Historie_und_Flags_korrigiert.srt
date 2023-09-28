@@ -7,8 +7,8 @@ Armbanduhr-Beispiel zurück.
 Zur Erinnerung, das sieht bis jetzt so aus.
 
 00:00:09,270 --> 00:00:16,530
-Es werden die Stunden- und Minutenanzeige, oder
-Zählung, in parallelen Regionen realisiert.
+Es werden die Stunden- und Minutenzählung
+in parallelen Regionen realisiert.
 
 00:00:16,530 --> 00:00:24,240
 Wir hatten so einen Broadcast-Effekt genutzt, dass
@@ -26,7 +26,7 @@ dass immer wenn der Minutenzähler auf
 null geht, ein Signalton erscheinen soll.
 
 00:00:39,630 --> 00:00:46,950
-Wir haben die Alarm An- und Aus-Stellung,
+Wir haben die Alarm-An- und Aus-Stellung,
 und wir haben diese Übergänge zwischen diesen
 
 00:00:46,950 --> 00:00:51,930
@@ -44,7 +44,7 @@ Sind wir fertig?
 Nein, es gibt noch Probleme.
 
 00:01:00,480 --> 00:01:05,820
-Und zwar ein wesentliches Problem ist,
+Und zwar ist ein wesentliches Problem,
 dass wenn wir aus der Alarmeinstellung
 
 00:01:05,820 --> 00:01:08,910
@@ -58,14 +58,14 @@ Wieso ist das so?
 Wir hatten ja zuletzt diskutiert, was denn diese
 
 00:01:13,290 --> 00:01:15,780
-Ein-/Austrittsmöglichkeiten
+Ein- und Austrittsmöglichkeiten
 für Konsequenzen haben.
 
 00:01:15,780 --> 00:01:17,760
 Und zum Beispiel ist es hier so:
 
 00:01:17,760 --> 00:01:20,910
-Angenommen, wir sitzen irgendwie bei 2:58 Uhr,
+Angenommen, wir stehen irgendwie bei 2:58 Uhr,
 
 00:01:22,230 --> 00:01:27,330
 also wir haben in der Stundenzählung den Zustand
@@ -80,10 +80,10 @@ Was bewirkt der?
 
 00:01:32,700 --> 00:01:36,720
 Wir hatten gesagt, wir verlassen den
-Gesamtzustand, d.h. wir verlassen alle
+Gesamtzustand, das heißt, wir verlassen alle
 
 00:01:36,720 --> 00:01:45,480
-beide Regionen, landen hier im Alarmzustand
+beiden Regionen, landen hier im Alarmzustand
 im ersten Moment bei dem An-Unterzustand,
 
 00:01:46,350 --> 00:01:51,870
@@ -118,18 +118,18 @@ Dann landen wir wieder bei null
 und null, statt bei 2:58 Uhr.
 
 00:02:16,060 --> 00:02:19,270
-Das ist natürlich nicht gewollt,
-und das gilt auch umgekehrt.
+Das ist natürlich nicht gewollt.
+Und das gilt auch umgekehrt.
 
 00:02:19,270 --> 00:02:25,480
-Also was auch immer in der Alarmeinstellung
+Also, was auch immer in der Alarmeinstellung
 zuletzt sozusagen los war, wird ignoriert,
 
 00:02:25,480 --> 00:02:29,860
 wenn wir zur Zeitanzeige und zurück wechseln.
 
 00:02:30,400 --> 00:02:32,260
-Woran macht sich das deutlich?
+Woran wird das deutlich?
 
 00:02:32,770 --> 00:02:39,370
 Wir haben eine Uhrzeit, wir wechseln mit a zur
@@ -159,7 +159,7 @@ diesem hierarchischen Zustand beginnen.
 
 00:03:04,990 --> 00:03:08,830
 Also sind wir wieder bei On, obwohl wir das letzte
-Mal, als wir hier in dem Unterzustand waren,
+Mal, als wir
 
 00:03:08,830 --> 00:03:12,340
 in diesem linken Zustand waren,
@@ -237,7 +237,7 @@ flache Historie verwenden.
 
 00:04:40,420 --> 00:04:46,600
 Da wir beim Übergang in den rechten
-Regionenzustand zwei Region anzusteuern haben,
+Regionenzustand zwei Regionen anzusteuern haben,
 
 00:04:46,600 --> 00:04:54,160
 brauchen wir tatsächlich zwei Historienzustände,
@@ -299,11 +299,11 @@ Historienknoten verweist, und von rechts nach
 links gehen wir auch über einen Historienknoten.
 
 00:05:59,430 --> 00:06:06,150
-Wenn wir dieses Bild vergleichen mit
-diesem Diagramm, sehen wir genau,
+Wenn wir dieses Bild mit
+diesem Diagramm vergleichen, sehen wir genau,
 
 00:06:06,150 --> 00:06:10,170
-wo die Unterschiede sind, also die beiden
+wo die Unterschiede sind. Also die beiden
 rechten und linken Gesamtzustände haben
 
 00:06:10,170 --> 00:06:15,810
@@ -315,16 +315,16 @@ gestaltet und sorgen dafür, dass
 wir uns eben Unterzustände merken.
 
 00:06:19,800 --> 00:06:28,080
-Jetzt wäre es so, wenn wir sagen, wir werden
-bei 2:58 Uhr in der Stundenanzeige, würden dann
+Jetzt wäre es so, wenn wir sagen, wir wären
+bei 2:58 Uhr in der Zeitanzeige, würden dann
 
 00:06:28,080 --> 00:06:33,975
-mit a in den Alarm Einstellungszustand wechseln,
-das wird beim ersten Mal so sein, dass wir zu On
+mit a in den Alarm-Einstellungszustand wechseln
+(es wird beim ersten Mal so sein, dass wir zu On
 
 00:06:33,975 --> 00:06:39,690
 gehen, weil der Historienknoten diesen Pfeil auf
-On hat, dann können wir mir mit b mehrmals mit hin
+On hat), dann können wir mit b mehrmals hin-
 
 00:06:39,690 --> 00:06:44,700
 und herschalten oder auch nicht, würden dann mit
@@ -335,19 +335,19 @@ würden das aber nicht über den Standardeintritt
 machen, sondern per dieser Gabelung diese
 
 00:06:48,360 --> 00:06:55,110
-Historienknoten verwenden und dann wäre es ebenso,
+Historienknoten verwenden, und dann wäre es eben so,
 wenn wir zurückkehren, dass wir nicht hier zu null
 
 00:06:55,110 --> 00:06:59,580
 gehen, weil wir schon mal in dieser Region,
-diesem Gesamtzustand waren, nämlich bei 2:58,
+diesem Gesamtzustand waren, nämlich bei 2:58.
 
 00:06:59,580 --> 00:07:04,140
-d.h. diese beiden Historienknoten würden
-dafür sorgen, dass bei der Rückkehr in
+Das heißt, diese beiden Historienknoten würden
+dafür sorgen, dass wir bei der Rückkehr in
 
 00:07:04,140 --> 00:07:08,760
-diesen rechten komplexen Zustand wir bei
+diesen rechten komplexen Zustand bei
 2:58 Uhr wären und nicht bei 0:00 Uhr.
 
 00:07:08,760 --> 00:07:15,330
@@ -356,35 +356,35 @@ haben auf Off, dann mit a hierher zurückkehren
 
 00:07:15,330 --> 00:07:18,720
 in die Stunden- und Minutenanzeige
-und dann immer wieder a drücken,
+und dann wieder a drücken.
 
 00:07:18,720 --> 00:07:23,070
-dann würden wir nämlich nicht bei On landen,
+Dann würden wir nämlich nicht bei On landen,
 sondern da, wo auch immer wir in dem linken
 
 00:07:23,970 --> 00:07:28,440
-den hierarchischen Zustand zuletzt waren und wenn
-das Off war, dann würden wir auch bei Off landen,
+hierarchischen Zustand zuletzt waren. Und wenn
+das Off war, dann würden wir auch bei Off landen.
 
 00:07:28,440 --> 00:07:35,850
-das heißt diese beiden hier genannten
+Das heißt, diese beiden hier genannten
 Probleme würden genau dadurch gelöst.
 
 00:07:35,850 --> 00:07:40,560
-Wie gesagt, hier hätten wir jeweils
+Wie gesagt, hier hätten wir einerseits jeweils
 auch tiefe Historie verwenden können,
 
 00:07:40,560 --> 00:07:44,610
 weil es gar keine tiefergehenden
-Schachtelungen gibt einerseits.
+Schachtelungen gibt.
 
 00:07:44,610 --> 00:07:48,360
 Andererseits hätten wir hier
-jeweils auch eigentlich die Pfeile,
+jeweils die Pfeile,
 
 00:07:48,360 --> 00:07:52,440
 die von Historienknoten ausgehen,
-nicht einzeichnen brauchen.
+eigentlich nicht einzeichnen brauchen.
 
 00:07:52,440 --> 00:07:59,460
 Diese drei Pfeile, die werden ja nur verwendet,
@@ -392,15 +392,15 @@ falls wir noch nie in dem jeweiligen Zustand in
 
 00:07:59,460 --> 00:08:05,850
 der jeweiligen Region oder Schachtelungsebene
-waren, wenn so ein Historienknoten gar keinen
+waren. Wenn so ein Historienknoten gar keinen
 
 00:08:05,850 --> 00:08:11,460
-direkt ausgehende Pfeil hat, dann wird in jedem
+direkt ausgehenden Pfeil hat, dann wird in jedem
 Fall einfach der entsprechende Startknoten aus
 
 00:08:11,460 --> 00:08:15,240
 der jeweiligen Region oder Schachtelungsebene
-genommen und da es hier jeweils genau so ist,
+genommen. Und da es hier jeweils genau so ist,
 
 00:08:15,240 --> 00:08:17,910
 dass die Historienknoten sowieso
@@ -415,7 +415,7 @@ würde das Weglassen dieser drei
 Pfeile keinen Unterschied machen.
 
 00:08:32,670 --> 00:08:38,820
-Vor allem dann, wenn wir beim erstmaligen
+Solche Pfeile brauchen wir vor allem dann, wenn wir beim erstmaligen
 Eintritt in einen Zustand per Historienknoten
 
 00:08:38,820 --> 00:08:45,270
@@ -428,7 +428,7 @@ sondern über Standardeintritt kommen.
 
 00:08:49,401 --> 00:08:55,200
 Das sind ein paar Varianten, dass wir
-diese drei Pfeile weglassen hätten
+diese drei Pfeile hätten weglassen
 
 00:08:55,200 --> 00:08:58,680
 können und dass wir statt der flachen auch
@@ -439,7 +439,7 @@ Sind wir damit fertig, nachdem wir also von
 diesem Fall zu diesem Diagramm gekommen sind?
 
 00:09:08,280 --> 00:09:10,410
-Nein, es fehlt immer noch was.
+Nein, es fehlt immer noch etwas.
 
 00:09:10,410 --> 00:09:12,450
 Was fehlt denn noch?
@@ -449,11 +449,11 @@ Nun, was bisher noch gar nicht realisiert ist,
 ist, dass diese Alarmeinstellung wirklich etwas
 
 00:09:20,280 --> 00:09:24,090
-damit zu tun hat, ob denn nun geklickt wird
-oder nicht, ein Übergang zu einer vollen Stunde.
+damit zu tun hat, ob denn nun gepiept wird
+oder nicht, beim Übergang zu einer vollen Stunde.
 
 00:09:24,630 --> 00:09:28,920
-Hier gibt es diesen Effekt, wenn
+Hier gibt es diesen Effekt: wenn
 wir zur 0ten Minute springen,
 
 00:09:28,920 --> 00:09:32,430
@@ -461,11 +461,11 @@ also zu einer vollen Stunde, dann
 wird hier ein Signal ausgelöst.
 
 00:09:32,430 --> 00:09:37,860
-Eigentlich soll die Uhr aber nur das Signal
+Eigentlich soll die Uhr das Signal aber nur
 auslösen, wenn tatsächlich der Alarm eingestellt
 
 00:09:37,860 --> 00:09:43,050
-ist, aber es gibt keine Verbindung oder
+ist. Aber es gibt bisher keine Verbindung oder
 keine Kommunikation zwischen der Tatsache,
 
 00:09:43,050 --> 00:09:48,510
@@ -474,17 +474,17 @@ der Tatsache, wird denn hier gepiept oder nicht.
 
 00:09:52,290 --> 00:09:55,410
 Also müssen wir noch weitere
-Informationen transportieren
+Informationen transportieren,
 
 00:09:55,410 --> 00:09:57,300
-und das können wir machen über ein Flag.
+und das können wir über ein Flag machen.
 
 00:09:57,300 --> 00:09:59,610
 Das ist so wie eine Variable
-in einer Programmiersprache,
+in einer Programmiersprache.
 
 00:10:00,270 --> 00:10:04,890
-eine Variable, in der wir Werte speichern
+Eine Variable, in der wir Werte speichern
 können, zum Beispiel eine Boolesche Variable,
 
 00:10:04,890 --> 00:10:10,500
@@ -492,12 +492,12 @@ die können wir an und aus schalten,
 true und false, null und eins.
 
 00:10:11,040 --> 00:10:15,000
-Die werden wir AL für Alarm nenn
+Die werden wir AL für Alarm nennen
 und benutzen, um diesen Piep-Effekt,
 
 00:10:15,000 --> 00:10:24,720
-diesen Signalton unter Kontrolle zu kriegen,
-d.h. zum einen, dass wir das bei dem Auslösen
+diesen Signalton, unter Kontrolle zu kriegen.
+Das heißt einerseits, dass wir beim Auslösen
 
 00:10:24,720 --> 00:10:28,020
 dieses Piepens berücksichtigen sollten,
@@ -505,31 +505,31 @@ ob denn der Alarm an ist oder nicht,
 
 00:10:28,020 --> 00:10:34,140
 also dieses Flag dabei prüfen sollten,
-ob es an oder aus ist einerseits.
+ob es an oder aus ist.
 
 00:10:34,140 --> 00:10:37,200
 Andererseits müssen wir natürlich dafür
 sorgen, dass es irgendwann auch mal auf
 
 00:10:37,200 --> 00:10:42,450
-an und aus gesetzt wird, d.h. bei
+An und Aus gesetzt wird, das heißt, bei
 diesen Übergängen zwischen diesen
 
 00:10:42,450 --> 00:10:47,250
-Zuständen hier der Alarmeinstellung sollten
+Zuständen hier in der Alarmeinstellung sollten
 wir irgendwas mit diesem Alarmflag anstellen.
 
 00:10:50,100 --> 00:10:57,150
 Das werden wir gleich sehen, wie das
-geschieht, wie das dann aussieht, aber
+geschieht, wie das dann aussieht. Aber
 
 00:10:57,150 --> 00:11:04,200
-die Grundidee ist, wir setzen dieses Alarmflag
-ein, nutzen das bei dem Auslösen des Signaltons,
+die Grundidee ist: wir setzen dieses Alarmflag
+ein, nutzen das beim Auslösen des Signaltons,
 
 00:11:04,200 --> 00:11:08,850
-um zu überprüfen, ob das sein soll, und
-setzen es bei dem an- und ausschalten.
+um zu überprüfen, ob dies passieren sein soll, und
+manipulieren es beim An- und Ausschalten.
 
 00:11:11,280 --> 00:11:19,830
 Des Weiteren werden wir tatsächlich mittels dieses
@@ -537,18 +537,18 @@ Alarmflags auch die Nutzung der flachen Historie
 
 00:11:19,830 --> 00:11:25,740
 in dem Alarmeinstellungs-Unterzustand,
-in dem linken Teil vermeiden.
+im linken Teil vermeiden.
 
 00:11:25,740 --> 00:11:33,180
-Also wenn wir sowieso ein Flag einführen, dem wir
+Also, wenn wir sowieso ein Flag einführen, dem wir
 ansehen können, ob der Alarm an oder aus ist, dann
 
 00:11:33,180 --> 00:11:37,290
 brauchen wir diesen Historienknoten gar nicht,
-weil wir genauso gut auch bei dem Eintritt hier
+weil wir genauso gut auch beim Eintritt hier
 
 00:11:37,290 --> 00:11:42,900
-einfach nur dies Flag entscheidend ablesen können,
+einfach nur diesem Flag ablesen können,
 ob wir in diesen oder in diesen Zustand wollen.
 
 00:11:49,560 --> 00:11:52,260
@@ -558,14 +558,14 @@ Wie sieht das dann aus?
 Damit gehen wir zu diesem Diagramm über.
 
 00:11:57,210 --> 00:11:59,880
-Das können wir wieder vergleichen
-mit dem, was wir bisher haben.
+Das können wir wieder
+mit dem vergleichen, was wir bisher haben.
 
 00:11:59,880 --> 00:12:01,110
 Was ändert sich da?
 
 00:12:01,110 --> 00:12:08,970
-Also wieder die Hauptteile, hier ändern sich
+Also wieder die Hauptteile: hier ändern sich
 nicht die Regionen oder hier diese innere
 
 00:12:08,970 --> 00:12:13,890
@@ -574,11 +574,11 @@ Zustandes, aber insbesondere hier bei
 
 00:12:13,890 --> 00:12:22,890
 den Übergängen tun wir etwas, indem wir nämlich
-hier statt die Historie zu verwenden von rechts
+hier statt von rechts
 
 00:12:22,890 --> 00:12:28,500
-nach links einfach von diesen Flag das abhängig
-machen, ob wir zum An- oder Aus-Zustand gehen.
+nach links die Historie zu verwenden, das einfach von diesen Flag abhängig
+machen, ob wir zum An- oder zum Aus-Zustand gehen.
 
 00:12:28,500 --> 00:12:30,960
 Das dürfen wir, indem wir an diesen
@@ -590,11 +590,11 @@ sehen Sie, dass das eine mögliche Beschreibung
 
 00:12:36,540 --> 00:12:39,240
 ist, dass wir einen Trigger haben und noch
-eine mögliche Bedingung und das wäre diese
+eine mögliche Bedingung, und das wäre diese
 
 00:12:39,240 --> 00:12:42,870
-Abfrage wieder dieses Alarmflags,
-das muss irgendwo gesetzt werden.
+Abfrage wieder dieses Alarmflags.
+Das muss irgendwo gesetzt werden.
 
 00:12:42,870 --> 00:12:43,680
 Das passiert hier.
@@ -608,24 +608,24 @@ So ein Effekt kann sein,
 dieses Alarmflag zu wechseln.
 
 00:12:51,720 --> 00:12:55,260
-Also wenn wir nach Off wechseln mit dem
-Knopf b, setzen wir Alarm auf null und
+Also wenn wir mit dem
+Knopf b nach Off wechseln, setzen wir Alarm auf null und
 
 00:12:55,260 --> 00:12:57,540
 wenn wir auf On wechseln,
 setzen wir Alarm auf eins.
 
 00:12:57,540 --> 00:13:02,640
-Das nutzen wir aus, wenn wir diesem linken
-Einstellungszustand betreten, indem wir das
+Das nutzen wir aus, wenn wir diesen linken
+Einstellungszustand betreten, indem wir es
 
 00:13:02,640 --> 00:13:07,560
-von dem Alarmflag abhängig machen, ob wir hier
-oder hier lang wollen und ganz wichtig natürlich:
+vom Alarmflag abhängig machen, ob wir hier
+oder hier lang wollen. Und ganz wichtig natürlich:
 
 00:13:08,380 --> 00:13:13,660
 Wir verwenden das Alarmflag auch hier, um
-dieses Piepen, das Signal nur auszulösen,
+dieses Piepen, das Signal nur dann auszulösen,
 
 00:13:13,660 --> 00:13:17,890
 wenn wir den Null-Zustand betreten und das
@@ -639,7 +639,7 @@ diesem Diagramm und diesem Diagramm.
 War es das dann?
 
 00:13:34,870 --> 00:13:42,640
-Nun wir müssen noch irgendwie festlegen
+Nun, wir müssen noch irgendwie festlegen
 wie das Alarmflag am Anfang gesetzt ist.
 
 00:13:42,640 --> 00:13:46,360
@@ -647,15 +647,15 @@ Irgendwann am Anfang wird
 dieses Gesamtdiagramm betreten.
 
 00:13:46,360 --> 00:13:51,760
-Wir wissen wir starten in der Stunden Minuten
-Anzeige, weil der Startknoten hier drauf zeigt.
+Wir wissen, wir starten in der Stunden-Minute-Anzeige,
+weil der Startknoten hier draufzeigt.
 
 00:13:51,760 --> 00:13:58,150
-Wir wählen dafür den Standardeintritt, d.h.
-den Startzustand für Stunde Minuten 0:00 Uhr,
+Wir wählen dafür den Standardeintritt, das heißt
+den Startzustand für Stunde-Minuten 0:00 Uhr.
 
 00:13:58,150 --> 00:14:01,540
-aber ist das Alarmflag dabei gesetzt oder nicht?
+Aber ist das Alarmflag dabei gesetzt oder nicht?
 
 00:14:01,540 --> 00:14:02,740
 Das muss noch geklärt werden.
@@ -666,11 +666,11 @@ dessen werden wir auch gleich noch
 
 00:14:13,090 --> 00:14:18,790
 den dritten Aspekt modellieren,
-dass die Uhr eine Batterie hat,
+nämlich dass die Uhr eine Batterie hat,
 
 00:14:18,790 --> 00:14:26,980
-die leer werden kann und wenn die Batterie
-leer wird, dann soll man die ersetzen.
+die leer werden kann. Und wenn die Batterie
+leer wird, dann soll man sie ersetzen.
 
 00:14:26,980 --> 00:14:30,550
 Dabei sollen aber die Stunden und
@@ -681,7 +681,7 @@ Die Uhr beginnt dann wieder bei
 null zu laufen und das Alarmflag,
 
 00:14:33,250 --> 00:14:34,712
-also der Alarm soll am Anfang immer an sein.
+also der Alarm, soll am Anfang immer an sein.
 
 00:14:34,712 --> 00:14:40,390
 Das ist die Stelle, wo wir auch einstellen, ob
@@ -692,33 +692,33 @@ Also wir modellieren, dass die Uhr eine
 Batterie hat, die leer werden kann,
 
 00:14:46,600 --> 00:14:52,330
-gewechselt werden muss und in diesem
-Fall sich etwas an dem Zustand tut,
+gewechselt werden muss und sich in dem
+Fall etwas am Zustand tut.
 
 00:14:52,330 --> 00:14:58,720
-nämlich wir wollen, wenn die Batterie
+Nämlich wir wollen, wenn die Batterie
 leer war, dann nicht zum Beispiel über
 
 00:14:58,720 --> 00:15:06,940
 die Historie in die Zustände eintreten,
-sondern bei 0:00 Uhr, ein Aspekt.
+sondern bei 0:00 Uhr. Das ist ein Aspekt.
 
 00:15:06,940 --> 00:15:07,570
 Der andere Aspekt:
 
 00:15:07,570 --> 00:15:16,660
 Wir wollen, dass dann das Alarmflag auf eins
-gesetzt wird, d.h. wenn man eine neue Batterie
+gesetzt wird. Das heißt, wenn man eine neue Batterie
 
 00:15:16,660 --> 00:15:24,610
-einlegt in die Uhr und auch zu Beginn
-einfach ist der Alarmzustand immer eins.
+in die Uhr einlegt, und auch zu Beginn
+einfach, ist der Alarmzustand immer eins.
 
 00:15:28,900 --> 00:15:32,590
-Und das könnte dann so erreichen:
+Und das könnte man so erreichen:
 
 00:15:32,590 --> 00:15:37,720
-Wir packen also alles, was wir
+Wir packen alles, was wir
 bisher an Zustandsdiagramm haben,
 
 00:15:37,720 --> 00:15:43,270
@@ -731,18 +731,18 @@ wenn die Batterien nicht leer ist.
 
 00:15:47,350 --> 00:15:53,650
 Alles, was hier steht, ist genau wie bisher
-entwickelt und dann haben wir nicht parallel
+entwickelt. Und dann haben wir nicht parallel
 
 00:15:54,940 --> 00:15:57,910
-dazu, sondern unabhängig davon einen
+dazu, sondern unabhängig davon, einen
 weiteren Zustand, der dafür da ist,
 
 00:15:57,910 --> 00:16:02,140
-wenn die Batterie leer ist und bei
+wenn die Batterie leer ist. Und bei
 Auslieferung der Uhr ist das Batteriefach
 
 00:16:02,140 --> 00:16:09,190
-leer und die Batterie leer, d.h. hier ist
+leer und die Batterie leer, das heißt, hier ist
 der äußerste Beginn der gesamten Bearbeitung.
 
 00:16:09,190 --> 00:16:16,210
@@ -754,7 +754,7 @@ dass wir dann bei diesem Startzustand
 beginnen, also über den Standardeintritt
 
 00:16:20,710 --> 00:16:26,170
-hier bei null und null starten und wir
+hier bei null und null starten; und wir
 setzen dabei das Alarmflag auf eins.
 
 00:16:26,170 --> 00:16:32,830
@@ -766,8 +766,8 @@ also die Zeit schreitet fort, wir
 können die Alarmeinstellung wechseln,
 
 00:16:37,030 --> 00:16:41,020
-können dabei ein- und ausschalten, sodass
-es piept genau dann, wenn der Alarm ein ist.
+können dabei ein- und ausschalten, so dass
+es nur genau dann piept, wenn der Alarm ein ist.
 
 00:16:41,020 --> 00:16:44,170
 Wenn wir wieder in Alarmeinstellung
@@ -781,8 +781,8 @@ Alarm an ist oder nicht, etc.
 Dann kann immer die Batterie leer werden.
 
 00:16:49,780 --> 00:16:53,650
-Das führt dazu, dass wir in
-diesem Zustand wieder landen:
+Das führt dazu, dass wir wieder in
+diesem Zustand landen:
 
 00:16:53,650 --> 00:16:55,060
 Batterie ist leer.
@@ -798,8 +798,8 @@ Was passiert dabei?
 Dann landen wir wieder bei 0:00 Uhr,
 
 00:17:02,020 --> 00:17:07,000
-wie wir erwarten würden nach Verlust
-der Batterie und neuem Einsetzen.
+wie wir nach Verlust der Batterie
+und neuem Einsetzen erwarten würden.
 
 00:17:07,000 --> 00:17:12,220
 Wir landen bei 0:00 Uhr, weil wir
@@ -810,11 +810,11 @@ sondern den Standardeintritt,
 die beiden Unter-Startzustände
 
 00:17:18,760 --> 00:17:25,525
-0 und 0 und wir setzen beim Einlegen einer
+0 und 0. Und wir setzen beim Einlegen einer
 Batterie auch immer das Alarmflag auf eins,
 
 00:17:25,525 --> 00:17:31,060
-d.h. wenn wir dann erstmals a drücken würden,
+das heißt, wenn wir dann erstmals a drücken würden,
 würden wir immer in diesem Unterzustand landen.
 
 00:17:35,440 --> 00:17:41,380
@@ -822,11 +822,11 @@ Und das soll jetzt unsere finale
 Modellierung für diese Armbanduhr sein.
 
 00:17:41,380 --> 00:17:46,450
-Und da kommen die meisten der Elemente, die wir
+Und da kommen die meisten der Elemente vor, die wir
 
 00:17:46,450 --> 00:17:48,670
 zuvor für UML-Zustandsdiagramme
-eingeführt haben, vor.
+eingeführt haben.
 
 00:17:48,670 --> 00:17:52,480
 Es gibt noch viele weitere, die

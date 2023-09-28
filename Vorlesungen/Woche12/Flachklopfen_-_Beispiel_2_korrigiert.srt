@@ -3,12 +3,12 @@
 Nächstes Beispiel:
 
 00:00:02,910 --> 00:00:09,750
-Wieder ein UML-Zustandsdiagramm, welches wir in
+wieder ein UML-Zustandsdiagramm, welches wir in
 ein flaches Zustandsdiagramm verwandeln sollen.
 
 00:00:09,750 --> 00:00:17,250
 Diesmal kein hierarchischer
-Zustand, dafür ein Regionen-Zustand.
+Zustand vorhanden, dafür ein Regionen-Zustand.
 
 00:00:18,060 --> 00:00:22,980
 Charakteristika dieses Beispiels wären, dass es
@@ -19,23 +19,23 @@ Und es gibt einen Endzustand.
 
 00:00:28,410 --> 00:00:35,820
 Den werden wir, wenn überhaupt, immer nur
-außen haben (in dieser Art Zustandsdiagramm,
+außen haben (in dieser Art Zustandsdiagramme,
 
 00:00:35,820 --> 00:00:38,580
-was wir zum Flachklopfen nutzen wollen).
+die wir zum Flachklopfen nutzen wollen).
 
 00:00:41,970 --> 00:00:44,160
-Wie wäre der Ansatz jetzt hier?
+Wie wäre jetzt hier der Ansatz?
 
 00:00:44,160 --> 00:00:51,570
 Nun, zunächst mal gehen wir außerhalb der
-Region einfach vor wie bisher, das heißt,
+Region einfach so vor wie bisher, das heißt,
 
 00:00:51,570 --> 00:00:55,500
 so wie es in Beispiel 1 als Rezept stand.
 
 00:00:55,500 --> 00:00:58,440
-Also einfache Zustände behalten.
+Also einfache Zustände behalten,
 
 00:00:58,440 --> 00:01:06,180
 Eintritte und Austritte am Rand
@@ -62,14 +62,14 @@ hier, und entscheiden, was wir außen machen.
 
 00:01:29,310 --> 00:01:35,160
 Hier werden wir A und G behalten, und dass
-A der Startzustand sei (und bleiben wird).
+A der Startzustand ist (und bleiben wird).
 
 00:01:41,610 --> 00:01:43,560
 Was passiert mit den Regionen?
 
 00:01:45,840 --> 00:01:50,130
-Wir wollen ja eigentlich, bei so einer
-parallelen Darstellung von Regionen,
+Wir wollen bei so einer parallelen
+Darstellung von Regionen ja eigentlich,
 
 00:01:50,130 --> 00:01:53,640
 dass immer gleichzeitig ein Zustand
@@ -107,10 +107,10 @@ Wenn wir zum Beispiel im Zustand
 BE sind und ein b ausgelöst wird,
 
 00:02:36,660 --> 00:02:40,320
-wird das zum neuen Zustand CE führen.
+dann wird das zum neuen Zustand CE führen.
 
 00:02:40,320 --> 00:02:48,780
-Eben diese parallele Verarbeitung, wie sich in dem
+Eben im Sinne dieser parallelen Verarbeitung, wo sich in dem
 Fall das E eben nicht ändert, aber B zu C wird.
 
 00:02:48,780 --> 00:02:54,180
@@ -126,8 +126,8 @@ dem Zustand BE nach CF übergegangen wird,
 wegen dieser Parallelität, die vorliegt.
 
 00:03:05,190 --> 00:03:11,370
-Wir übersetzen sozusagen das Verhalten,
-in diesen beiden parallelen Regionen,
+Wir übersetzen sozusagen das Verhalten
+in diesen beiden parallelen Regionen
 
 00:03:11,370 --> 00:03:15,570
 in Übergänge zwischen den Kreuzproduktzuständen.
@@ -146,25 +146,25 @@ mit dem Rand beschäftigen.
 
 00:03:28,330 --> 00:03:30,910
 Was passiert, wenn wir einen
-Regionen-Zustand betreten oder verlassen.
+Regionen-Zustand betreten oder verlassen?
 
 00:03:31,780 --> 00:03:39,010
 Dafür werden wir im Grunde
 genommen einfach wieder übersetzen,
 
 00:03:39,010 --> 00:03:40,810
-was denn diese Ein- und Austritte bedeuten.
+was denn diese Ein- und Austritte bedeuten,
 
 00:03:40,810 --> 00:03:47,140
-Entsprechend der eingeführten Bedeutung
+entsprechend der bereits eingeführten Bedeutung
 dieser verschiedenen Möglichkeiten,
 
 00:03:47,140 --> 00:03:49,750
 Zustände zu betreten und zu verlassen.
 
 00:03:49,750 --> 00:03:53,050
-Was wir bisher schon getan
-hatten, an künstlichen Beispielen,
+Was wir bisher schon an künstlichen
+Beispielen getan hatten,
 
 00:03:53,050 --> 00:03:55,889
 das können wir eben auch hier
@@ -174,8 +174,8 @@ beim Flachklopfen einsetzen.
 Machen wir es konkret für dieses Beispiel.
 
 00:04:06,070 --> 00:04:09,880
-Außerhalb der Region gehen wir wie
-zuvor vor, behalten also die Dinge.
+Außerhalb der Regionen gehen wir vor wie
+zuvor, behalten also die Dinge.
 
 00:04:09,880 --> 00:04:14,320
 Das führt jetzt zu dieser Konstellation.
@@ -189,11 +189,11 @@ mit der jeweiligen Markierung
 als Start- und Endzustand.
 
 00:04:23,830 --> 00:04:26,680
-Dann wäre dies, was außerhalb der Region passiert.
+Dann wäre dies, was außerhalb der Regionen passiert.
 
 00:04:26,680 --> 00:04:31,420
 Dann ist natürlich spannender,
-was innerhalb der Region passiert.
+was innerhalb der Regionen passiert.
 
 00:04:31,420 --> 00:04:36,520
 Und da ist der erste, wichtigste Schritt dieses
@@ -205,15 +205,15 @@ mit der jeweils 2- bzw. 3-elementigen Menge,
 
 00:04:43,720 --> 00:04:48,640
 und wir das Kreuzprodukt dazwischen bilden
-sollen, erhalten wir jetzt sechs Zustände.
+sollen, erhalten wir jetzt sechs Zustände,
 
 00:04:48,640 --> 00:04:56,320
-Nämlich alle Paare: einmal B, C, D mit
+nämlich alle Paare: einmal B, C, D mit
 E gepaart, einmal B, C, D mit F gepaart.
 
 00:04:56,320 --> 00:05:01,660
 Das ergibt sich als Zustandsmenge
-erst mal aus diesem Teil.
+aus erst mal diesem Teil.
 
 00:05:01,660 --> 00:05:06,160
 Hier muss es dazwischen natürlich
@@ -225,14 +225,14 @@ die sich aus den Regionen ergeben.
 
 00:05:09,565 --> 00:05:15,910
 Wenn das b und c zwischen B, C, D
-wechselt, wobei der Zustand aus der
+wechseln, wobei der Zustand aus der
 
 00:05:15,910 --> 00:05:21,940
 anderen Region unverändert bleibt (weil
-es dort keine b oder c Übergänge gibt),
+es dort keine b- oder c-Übergänge gibt),
 
 00:05:22,610 --> 00:05:29,990
-führt es dazu, dass wir hier unabhängig von
+dann führt dies dazu, dass wir hier unabhängig von
 der zweiten Komponente fortschreiten können.
 
 00:05:29,990 --> 00:05:37,880
@@ -249,10 +249,10 @@ es noch diese Übergänge gibt.
 
 00:05:46,160 --> 00:05:49,760
 Hier muss immer das getan werden,
-was sich aus den Regionen ergibt.
+was sich aus den Regionen ergibt,
 
 00:05:49,760 --> 00:05:51,560
-Gegebenenfalls auch durch Parallelausführungen,
+gegebenenfalls auch durch Parallelausführungen,
 
 00:05:51,560 --> 00:05:54,830
 falls tatsächlich mal ein Trigger
@@ -266,15 +266,15 @@ Aber in dem konkreten Fall hier ergibt sich
 dieses Bild innerhalb der Kreuzproduktmenge.
 
 00:06:02,120 --> 00:06:09,530
-Das haben wir also außerhalb
-der Region gemacht wie bisher.
+Das haben wir also gemacht: außerhalb
+der Regionen wie bisher,
 
 00:06:09,530 --> 00:06:12,665
-Zusätzlich das Kreuzprodukt
-zwischen den Regionen gebildet.
+zusätzlich das Kreuzprodukt
+zwischen den Regionen gebildet,
 
 00:06:12,665 --> 00:06:18,230
-Innerhalb der Regionen entsprechende
+und innerhalb der Regionen entsprechende
 Übergänge geeignet übersetzt.
 
 00:06:18,230 --> 00:06:21,680
@@ -283,7 +283,7 @@ Ein- und Austritte am Rand.
 
 00:06:24,860 --> 00:06:37,181
 Nun, wir haben hier diese a-, h- und g-Übergänge,
-die den Regionszustand betreten oder verlassen.
+die den Regionenzustand betreten oder verlassen.
 
 00:06:37,181 --> 00:06:40,370
 Für die müssen wir jeweils
@@ -314,8 +314,8 @@ Das erklärt also diese Übersetzung.
 Was ist mit dem g?
 
 00:07:11,540 --> 00:07:18,020
-Wie sah das aus in dem
-ursprünglichen UML-Zustandsdiagramm?
+Wie sah das in dem
+ursprünglichen UML-Zustandsdiagramm aus?
 
 00:07:18,020 --> 00:07:24,920
 Das war ein Verlassen der Regionen aus
@@ -348,8 +348,8 @@ wie sich dieser h-Übergang
 in dem Kreuzprodukt auswirkt.
 
 00:07:58,160 --> 00:08:05,210
-Das ist ein Übergang, der explizit nur einen
-Zustand der beiden Regionen verlässt, nämlich C.
+Das ist ein Übergang, der nur einen
+Zustand der beiden Regionen explizit verlässt, nämlich C.
 
 00:08:05,210 --> 00:08:11,660
 Das bedeutet, dass wir diesen Regionen-Zustand
@@ -382,7 +382,7 @@ Also zu diesem UML-Zustandsdiagramm
 gehört dieses flache Zustandsdiagramm.
 
 00:08:50,630 --> 00:08:53,660
-Die Hauptidee ist eben, das Kreuzprodukts
+Die Hauptidee ist eben, das Kreuzprodukt
 
 00:08:53,660 --> 00:08:57,140
 zu bilden und dann natürlich auch

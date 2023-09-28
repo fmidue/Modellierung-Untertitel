@@ -19,16 +19,16 @@ was das denn jeweils bedeutet und
 auch welche vielleicht verschiedenen
 
 00:00:26,600 --> 00:00:30,680
-Möglichkeiten solcher Übergänge es gibt
-zwischen zusammengesetzten Zuständen.
+Möglichkeiten solcher Übergänge es
+zwischen zusammengesetzten Zuständen gibt.
 
 00:00:30,680 --> 00:00:35,150
 Und dafür schauen wir uns zunächst an,
 was denn die Eintrittsmöglichkeiten in
 
 00:00:35,150 --> 00:00:41,600
-einen hierarchischen Zustand dieser Art, also
-noch ohne Region und erstmal nur der Eintritt.
+einen hierarchischen Zustand dieser Art sind, also
+noch ohne Regionen und erstmal nur der Eintritt.
 
 00:00:41,600 --> 00:00:44,720
 Jeglicher Übergang besteht ja potentiell
@@ -36,7 +36,7 @@ aus einem Austritt und einem Eintritt.
 
 00:00:46,700 --> 00:00:51,920
 Schauen wir uns zunächst an, welche sehr
-flexiblen Möglichkeiten es geben wird
+flexiblen Möglichkeiten es geben wird,
 
 00:00:53,390 --> 00:00:58,340
 bei zusammengesetzten Zuständen
@@ -55,27 +55,27 @@ C und einen anderen Unterzustand B,
 
 00:01:08,480 --> 00:01:13,520
 der aber selbst auch zusammengesetzt ist aus D
-und E und dann tauchen noch andere Elemente auf.
+und E, und dann tauchen noch andere Elemente auf.
 
 00:01:15,290 --> 00:01:21,350
-Da werden wir hier schon vier verschiedene
-Möglichkeiten haben hier einzutreten.
+Da werden wir schon vier verschiedene
+Möglichkeiten haben, hier einzutreten.
 
 00:01:21,350 --> 00:01:27,500
 Den Standardeintritt, das wäre der, der auf der
-Folie eben auch auftrat für die A Übergänge.
+Folie eben auch auftrat, für die a-Übergänge.
 
 00:01:27,500 --> 00:01:32,150
-Dann gibt es expliziten Eintritt, wo
+Dann gibt es den expliziten Eintritt, wo
 man also nicht in den hierarchischen
 
 00:01:32,150 --> 00:01:37,250
-Zustand von außen insgesamt eintritt
+Zustand von außen insgesamt eintritt,
 wie dieser äußere Pfeil hier suggeriert,
 
 00:01:37,250 --> 00:01:43,970
-sondern explizit einen Unterzustand auswählt
-und dann gibt es Eintritte über sogenannte
+sondern explizit einen Unterzustand auswählt.
+Und dann gibt es Eintritte über sogenannte
 
 00:01:43,970 --> 00:01:51,980
 flache und tiefe Historie, wofür irgendwie
@@ -86,18 +86,18 @@ Als Hinweis:
 
 00:01:54,560 --> 00:01:59,450
 Ich habe an diesen Eintrittspfeilen
-jeweils keine Trigger stehen,
+jeweils keine Trigger stehen.
 
 00:01:59,450 --> 00:02:03,410
-im Allgemeinen natürlich und auch bei
-den folgenden Folien wird es so sein.
+Im Allgemeinen natürlich und auch bei
+den folgenden Folien wird es so sein:
 
 00:02:03,410 --> 00:02:08,240
-Im allgemeinen wäre hier in der Regel
+im allgemeinen wäre hier in der Regel
 auch eine Angabe eines Triggers möglich,
 
 00:02:08,240 --> 00:02:10,790
-so wie A in dem Beispiel hier.
+so wie a in dem Beispiel hier.
 
 00:02:10,790 --> 00:02:15,890
 Da ist das ein Eintritt und auf
@@ -108,13 +108,13 @@ Das könnte man sich bei diesen
 Pfeilen hier jeweils auch vorstellen,
 
 00:02:19,430 --> 00:02:21,050
-ich habe das hier nur nicht eingezeichnet.
+ich habe es hier nur nicht eingezeichnet.
 
 00:02:21,050 --> 00:02:25,520
 Zu den Historienknoten werden wir gleich kommen.
 
 00:02:25,520 --> 00:02:29,360
-Wichtig ist bzw. zunächst einmal
+Wichtig ist, bzw. zunächst einmal
 festzuhalten und auch zu berücksichtigen,
 
 00:02:29,870 --> 00:02:33,560
@@ -130,7 +130,7 @@ Unterzustände sonst nicht der Fall.
 
 00:02:47,960 --> 00:02:51,500
 Und hier stehen auch keine Trigger
-dran an diesem Pfeil nur an den
+dran an diesem Pfeil. Nur an den
 
 00:02:51,500 --> 00:02:55,880
 Eintrittpfeilen oder gegebenenfalls auch
@@ -141,7 +141,7 @@ dranstehen, die habe ich in diesem
 stilisierten Beispiel weggelassen.
 
 00:03:01,490 --> 00:03:05,060
-Also schauen wir uns an jetzt
+Also schauen wir uns jetzt an,
 welche Möglichkeiten bestehen.
 
 00:03:06,260 --> 00:03:07,250
@@ -159,7 +159,7 @@ dem zusammengesetzten Zustand haben, einfach
 der jeweilige Startzustand angesprochen wird,
 
 00:03:22,280 --> 00:03:27,020
-bzw. da es keine parallelen Regionen gibt, einfach
+bzw., da es keine parallelen Regionen gibt, einfach
 der Startzustand der obersten Hierarchieebene.
 
 00:03:29,420 --> 00:03:32,510
@@ -179,11 +179,11 @@ Was macht der wiederum?
 
 00:03:43,850 --> 00:03:50,960
 Der hat einen Übergang, einen Standardeintritt,
-in diesen zusammengesetzten Unterzustand B,
+in diesen zusammengesetzten Unterzustand B.
 
 00:03:50,960 --> 00:03:59,060
-weil das ja auch ein über den Startzustand auch
-ein Standardeintritt ist, würde eben dieser
+Weil das ja über den Startzustand auch
+ein Standardeintritt ist, würde eben in dieser
 
 00:04:01,070 --> 00:04:04,430
 Hierarchieebene der hier
@@ -195,15 +195,15 @@ Standardeintritt hier würde dafür sorgen,
 
 00:04:08,690 --> 00:04:14,300
 dass letztlich der Unterzustand D
-aktiv wird, weil der Startzustand
+aktiv wird. Weil der Startzustand
 
 00:04:14,300 --> 00:04:17,750
 der äußeren Hierarchieebene gewählt
-wird, der hat ein Standardeintritt in
+wird; der hat einen Standardeintritt in
 
 00:04:17,750 --> 00:04:24,740
-diesen Unterzustand und da wiederum
-ist der Startzustand zeigt auf D.
+diesen Unterzustand; und da wiederum
+zeigt der Startzustand auf D.
 
 00:04:24,740 --> 00:04:31,250
 Also Fortsetzung bei diesem Eintritt
@@ -217,8 +217,8 @@ Der sorgt einfach dafür, dass bei
 genau dem explizit angegebenen
 
 00:04:44,450 --> 00:04:50,780
-Unterzustand fortgesetzt wird,
-also in unserem Beispiel führt
+Unterzustand fortgesetzt wird.
+Also in unserem Beispiel führt
 
 00:04:52,940 --> 00:04:57,785
 das einfach zu Fortsetzung bei C, weil eben
@@ -236,7 +236,7 @@ Diese Möglichkeit des expliziten Eintritts
 bedeutet auch, dass wir nicht immer auf jeder
 
 00:05:11,630 --> 00:05:18,050
-Ebene ein Startzustand brauchen, wenn wir
+Ebene einen Startzustand brauchen. Wenn wir
 etwa immer per explizitem Eintritt vorgehen,
 
 00:05:18,050 --> 00:05:24,650
@@ -244,21 +244,21 @@ müssten wir nicht überall Startzustände
 haben, aber dürfen wir natürlich.
 
 00:05:30,740 --> 00:05:34,220
-Es gab noch diese Eintrittswirklichkeit über die
+Es gab noch diese Eintrittsmöglichkeiten über die
 
 00:05:34,220 --> 00:05:36,830
-Historie und das sind auch die
-komplexeren komplizierteren.
+Historien, und das sind auch die
+komplizierteren.
 
 00:05:36,830 --> 00:05:39,260
 Wir betrachten zunächst die tiefe Historie.
 
 00:05:39,260 --> 00:05:42,680
-In welchem Sinne ist das historisch sozusagen?
+In welchem Sinne ist das sozusagen "historisch"?
 
 00:05:42,680 --> 00:05:50,270
-Da geht es darum, das wir ja durch hin
-und her springen einen Unterzustand und
+Da geht es darum, dass wir ja durch hin-
+und herspringen einen Unterzustand und
 
 00:05:50,270 --> 00:05:53,420
 somit auch einen zusammengesetzten
@@ -269,8 +269,8 @@ Also nehmen wir an, in unserem Beispiel,
 dass wir irgendwann schon einmal in einem
 
 00:06:00,680 --> 00:06:05,900
-dieser Zustände C,D,E gewesen sind in
-einem dieser innersten Unterzuständen.
+dieser Zustände C, D, E gewesen sind, in
+einem dieser innersten Unterzustände.
 
 00:06:05,900 --> 00:06:09,110
 Dann sind wir irgendwo anders gewesen,
@@ -278,7 +278,7 @@ vielleicht in einer anderen Komponente
 
 00:06:09,110 --> 00:06:13,430
 des Gesamtzustandsdiagramms, die vielleicht
-hier eingezeichnet war und dann kehren wir
+hier eingezeichnet war, und dann kehren wir
 
 00:06:13,430 --> 00:06:18,590
 irgendwann über diese tiefe Historie
@@ -288,15 +288,15 @@ zurück in den hierarchischen Zustand A.
 Was passiert dann?
 
 00:06:20,360 --> 00:06:24,350
-Was dann passieren soll ist in der
-tiefen Historie, dass genau auf den
+Was dann passieren soll ist, in der
+tiefen Historie, dass genau zu dem
 
 00:06:25,670 --> 00:06:29,870
 Unterzustand der innersten Ebene,
 einer jeweiligen innersten Ebene,
 
 00:06:31,610 --> 00:06:39,140
-zugesprungen wird aus dem heraus wir das
+gesprungen wird, aus dem heraus wir das
 letzte Mal den Gesamtzustand A verlassen haben.
 
 00:06:41,270 --> 00:06:42,080
@@ -315,23 +315,23 @@ Wenn wir zuletzt von D aus verlassen haben, dann
 würden wir jetzt auch wieder bei D fortsetzen.
 
 00:07:08,180 --> 00:07:11,750
-Wenn wir zuletzt von C verlassen haben,
+Wenn wir zuletzt von C aus verlassen haben,
 dann würden wir bei C fortsetzen.
 
 00:07:11,750 --> 00:07:15,650
-Tiefst heißt hier C ist ja schon ein nicht
+Tiefst heißt hier: C ist ja schon ein nicht
 mehr hierarchischer Zustand, also C wäre
 
 00:07:15,650 --> 00:07:19,010
-auch seine tiefste Ebene, weil es nicht
-weitere geschachtelte Unterebenen gibt,
+auch seine tiefste Ebene, weil es keine
+weiteren geschachtelten Unterebenen gibt.
 
 00:07:19,010 --> 00:07:24,110
-während B zum Beispiel kein Zustand der tiefsten
+Während B zum Beispiel kein Zustand der tiefsten
 Ebene ist, weil es da drin noch D und E gibt.
 
 00:07:31,880 --> 00:07:35,330
-Das ganze kann auch sein, dass wir das
+Es kann auch sein, dass wir das
 sozusagen pro Region machen müssen.
 
 00:07:35,330 --> 00:07:38,060
@@ -339,7 +339,7 @@ Noch nicht in dem Beispiel eben,
 wo wir keine Regionen haben,
 
 00:07:38,060 --> 00:07:43,880
-aber wenn wir ein hierarchischen Zustand mit
+aber wenn wir einen hierarchischen Zustand mit
 Unterregionen haben, dann kann es auch sein,
 
 00:07:43,880 --> 00:07:49,160
@@ -348,55 +348,55 @@ aktiven Unterzustand anspringen müssen.
 
 00:07:51,860 --> 00:07:57,650
 Falls wir noch niemals zuvor überhaupt
-in den hierarchischen Zustand,
+in dem hierarchischen Zustand,
 
 00:07:57,650 --> 00:08:00,260
 in dem Fall A, gewesen sind, was passiert dann?
 
 00:08:01,430 --> 00:08:06,590
 Wenn wir noch nie irgendwie hier gewesen
-sind und wir kommen über diesen Eintritt,
+sind, und wir kommen über diesen Eintritt,
 
 00:08:07,160 --> 00:08:12,020
 diesen tiefen Historienknoten, dann wüssten wir
-nicht, sollen wir bei C,D oder E weitermachen,
+nicht: sollen wir bei C, D oder E weitermachen?
 
 00:08:12,020 --> 00:08:15,050
-weil wir noch nie irgendwo hier gewesen
-sind und uns nichts gemerkt haben,
+Weil wir noch nie irgendwo hier gewesen
+sind und uns nichts gemerkt haben.
 
 00:08:15,050 --> 00:08:21,920
-dann wird einfach dem Pfeil
+Dann wird einfach dem Pfeil
 gefolgt, der von diesem H* ausgeht.
 
 00:08:21,920 --> 00:08:24,230
 Das ist die Rolle dieses Pfeils hier.
 
 00:08:25,430 --> 00:08:31,310
-Das heißt nicht, das wir immer zu E gehen,
+Das heißt nicht, dass wir immer zu E gehen,
 sondern nur falls wir über diesen Eintritt hier
 
 00:08:32,840 --> 00:08:38,180
 in dieses A kommen und vorher noch nie in
-A gewesen sind, dann sagt uns dieser Pfeil:
+A gewesen sind. Dann sagt uns dieser Pfeil:
 
 00:08:38,900 --> 00:08:40,100
-Dann machen wir bei E weiter.
+sann machen wir bei E weiter.
 
 00:08:40,100 --> 00:08:45,110
-Sind wir hingegen schon mal in C,D oder
-E gewesen bevor wir hierher zurückkehren,
+Sind wir hingegen schon mal in C, D oder
+E gewesen, bevor wir hierher zurückkehren,
 
 00:08:45,110 --> 00:08:47,690
 dann machen wir auch an der
 jeweiligen Stelle weiter.
 
 00:08:54,170 --> 00:08:58,820
-Das beschreibt die tiefe Historie
-und ähnlich, aber subtil anders,
+Das beschreibt die tiefe Historie.
+Und ähnlich, aber subtil anders,
 
 00:08:58,820 --> 00:09:06,200
-verhält sich die flache Historie, denn
+verhält sich die flache Historie. Denn
 da kehren wir auch, falls wir schon
 
 00:09:06,200 --> 00:09:11,000
@@ -405,26 +405,26 @@ Zustand gewesen sind, im Grunde
 
 00:09:12,950 --> 00:09:20,690
 dahin zurück, wo wir vor dem letzten Verlassen
-waren, allerdings eben nicht auf die unterste
+waren. Allerdings eben nicht auf die unterste
 
 00:09:20,690 --> 00:09:26,210
-Ebene, sondern auf den jeweiligen der obersten
-Hierarchieebene den letzten Gesamtzustand.
+Ebene, sondern auf den jeweiligen letzten Gesamtzustand
+der obersten Hierarchieebene.
 
 00:09:30,470 --> 00:09:33,830
-Also stellen wir uns vor in
+Also stellen wir uns vor, in
 unserem Beispiel wieder, dass wir
 
 00:09:36,740 --> 00:09:42,110
 das letzte Mal als wir hier
-waren bei E gewesen sind,
+waren, bei E gewesen sind.
 
 00:09:44,120 --> 00:09:47,900
-wenn wir dann über die tiefste Historie
-kämen, dann würden wir bei E weitermachen
+Wenn wir dann über die tiefe Historie
+kämen, dann würden wir bei E weitermachen.
 
 00:09:47,900 --> 00:09:54,620
-nicht wegen dieses Pfeils, sondern weil E
+Nicht wegen dieses Pfeils, sondern weil E
 der zuletzt besuchte Unterzustand hier war.
 
 00:09:54,620 --> 00:09:58,760
@@ -433,26 +433,26 @@ Historie kommen, dann wird geschaut:
 
 00:09:58,760 --> 00:10:05,660
 Wir waren zuletzt in E, aber E ist Teil
-von B, also in dieser äußersten Ebene,
+von B. Also in dieser äußersten Ebene,
 
 00:10:05,660 --> 00:10:08,150
-wenn wir gucken: was ist denn die
-nächsttiefere Schachtelungsebene,
+wenn wir gucken: Was ist denn die
+nächsttiefere Schachtelungsebene?
 
 00:10:08,150 --> 00:10:09,290
-sind wir zuletzt in B gewesen,
+Da sind wir zuletzt in B gewesen,
 weil wir in E gewesen sind.
 
 00:10:09,290 --> 00:10:16,250
-D.h., wenn wir über die flache Historie kommen,
+Das heißt, wenn wir über die flache Historie kommen,
 dann würden wir sagen, wir machen bei B weiter.
 
 00:10:16,250 --> 00:10:21,500
-Bei B weiterzumachen heißt dann aber den
-Startzustand von B zu nehmen, also D,
+Bei B weiterzumachen heißt dann aber, den
+Startzustand von B zu nehmen, also D.
 
 00:10:22,580 --> 00:10:23,900
-das was hier steht.
+Das was hier steht;
 
 00:10:23,900 --> 00:10:27,410
 Falls der zusammengesetzte Zustand A das
@@ -463,31 +463,31 @@ so wird jetzt bei B fortgesetzt, weil B
 sozusagen die oberste Schachtelungsebene ist, in
 
 00:10:32,780 --> 00:10:39,740
-der E vorkommt und bei B fortsetzen heißt aber bei
+der E vorkommt. Und bei B fortsetzen, heißt aber, bei
 D fortsetzen, weil D der Startzustand von B ist.
 
 00:10:44,570 --> 00:10:48,650
-Falls man noch nie überhaupt in diesem
-zusammengesetzten Zustand schon gewesen ist,
+Falls man noch nie überhaupt schon in diesem
+zusammengesetzten Zustand gewesen ist,
 
 00:10:48,650 --> 00:10:51,440
-dann wird analog verfahren
-wie bei der tiefen Historie,
+dann wird analog wie bei der
+tiefen Historie verfahren.
 
 00:10:51,440 --> 00:10:57,260
-also wenn wir noch nie überhaupt in der Nähe
-gewesen sind innerhalb von A und wir kommen
+Also wenn wir noch nie überhaupt in der Nähe
+gewesen sind, innerhalb von A, und wir kommen
 
 00:10:57,260 --> 00:11:03,620
-über die flache Historie genau wie bei der tiefen
-Historie, dann wird einfach dort weitergemacht,
+über die flache Historie, dann wird genau wie bei
+der tiefen Historie einfach dort weitergemacht,
 
 00:11:03,620 --> 00:11:09,560
-wo dieser Pfeil von dem H-Element
-ausgeht und in dem Fall hieße das
+wohin dieser Pfeil von dem H-Element
+aus geht. Und in dem Fall hieße das,
 
 00:11:09,560 --> 00:11:13,790
-hier weiterzumachen und das hieße eben auch
+hier weiterzumachen, und das hieße eben auch
 bei D weiterzumachen in dem konkreten Fall.
 
 00:11:20,270 --> 00:11:22,085
@@ -495,38 +495,38 @@ Das ist die Rolle dieses Pfeils.
 
 00:11:22,085 --> 00:11:27,920
 Dieser Pfeil ist nicht dafür da, dass wir
-immer bei D weiter machen, also selbst wenn
+immer bei D weitermachen. Also selbst wenn
 
 00:11:27,920 --> 00:11:35,780
 dieser Pfeil hier zum Beispiel auf C zeigen
 würde, dann würden wir zwar zu C gehen,
 
 00:11:35,780 --> 00:11:42,830
-wenn wir noch nie innerhalb von A gewesen sind,
-wenn wir jedoch innerhalb von A gewesen sind,
+wenn wir noch nie innerhalb von A gewesen sind.
+Wenn wir jedoch innerhalb von A gewesen sind,
 
 00:11:42,830 --> 00:11:47,990
-zum Beispiel in E, dann würden wir tatsächlich
+zum Beispiel in E, dann würden wir tatsächlich,
 unabhängig davon, wo dieser Pfeilen hinzeigt,
 
 00:11:47,990 --> 00:11:51,860
 beim nächsten Betreten über den flachen
-Historienknoten bei D weitermachen,
+Historienknoten bei D weitermachen.
 
 00:11:51,860 --> 00:11:57,800
-weil wir gucken würden wir sind schon hier
-gewesen in E, der äußerste Gesamtzustand,
+Weil wir gucken würden: wir sind schon hier
+in E gewesen; der äußerste Gesamtzustand,
 
 00:11:57,800 --> 00:12:03,200
 in dem E vorkommt, in dem wir schon gewesen
-sind, ist B und der Startzustand von B ist D.
+sind, ist B; und der Startzustand von B ist D.
 
 00:12:03,200 --> 00:12:09,710
 Da muss man einfach mal diese Regeln sehr genau
 durchlesen und sehr genau befolgen und an dem
 
 00:12:09,710 --> 00:12:16,760
-Beispiel nachvollziehen, dann erschließt sich,
+Beispiel nachvollziehen. Dann erschließt sich,
 was jeweils die Bedeutung der Eintritte ist.
 
 00:12:18,020 --> 00:12:22,580
@@ -545,7 +545,7 @@ Den werden wir nicht behandeln.
 
 00:12:28,610 --> 00:12:30,200
 Das ist eine Möglichkeit in
-den UML-Zustandsdiagrammen,
+UML-Zustandsdiagrammen,
 
 00:12:30,200 --> 00:12:32,540
 die wir in dieser Vorlesung nicht betrachten.
@@ -555,17 +555,17 @@ Das war die Diskussion der
 Möglichkeiten, die wir hier sehen.
 
 00:12:41,570 --> 00:12:45,470
-Das war ein hierarchischen Zustand ohne Region.
+Das war ein hierarchischer Zustand ohne Regionen.
 
 00:12:45,470 --> 00:12:50,600
-Jetzt müssen wir uns noch anschauen, was passiert
-denn, wenn wir einen Regionenzustand haben?
+Jetzt müssen wir uns noch anschauen, was denn
+passiert, wenn wir einen Regionenzustand haben.
 
 00:12:52,460 --> 00:12:55,460
 Dann gibt es potenziell weitere Möglichkeiten.
 
 00:12:56,660 --> 00:13:01,190
-Die Historieneingänge lass ich jetzt mal weg,
+Die Historieneingänge lasse ich jetzt mal weg,
 um das Bild nicht unnötig zu verkomplizieren.
 
 00:13:01,190 --> 00:13:11,180
@@ -581,18 +581,18 @@ wie vor die Möglichkeit des Standardeintritts,
 
 00:13:18,980 --> 00:13:23,270
 nach wie vor die Möglichkeit des
-expliziten Eintritts, nach wie vor
+expliziten Eintritts, und nach wie vor
 
 00:13:23,270 --> 00:13:28,070
 auch Fälle für flache und tiefe Historie,
-die ich hier jetzt nicht eingezeichnet habe,
+die ich hier jetzt nicht eingezeichnet habe.
 
 00:13:28,070 --> 00:13:33,680
-und hinzu kommt die Möglichkeit des Eintritts
-über eine Gabelung und das ist natürlich die
+Und hinzu kommt die Möglichkeit des Eintritts
+über eine Gabelung. Und das ist natürlich die
 
 00:13:33,680 --> 00:13:38,270
-gleiche Art von Gabelungknoten wie sie
+gleiche Art von Gabelungsknoten, wie sie
 auch in Aktivitätsdiagrammen vorkommt.
 
 00:13:38,270 --> 00:13:41,720
@@ -604,10 +604,10 @@ Regionen gezielt anzuspringen.
 
 00:13:50,960 --> 00:13:55,550
 Hier ist offensichtlich, dass wir tatsächlich
-in jeder Region einen Zustand anspringen,
+in jeder Region einen Zustand anspringen.
 
 00:13:55,550 --> 00:13:58,190
-aber auch für die beiden anderen
+Aber auch für die beiden anderen
 Möglichkeiten muss das so sein,
 
 00:13:58,190 --> 00:14:02,390
@@ -615,15 +615,15 @@ denn bei Regionen sind wir immer in
 beiden Regionen in einem Unterzustand.
 
 00:14:02,390 --> 00:14:05,060
-D.h., obwohl dieser Standardeintritt so aussieht,
+Das heißt, obwohl dieser Standardeintritt so aussieht,
 
 00:14:05,060 --> 00:14:09,800
 als würde er nur auf eine Region zeigen, zeigt
-der eigentlich auf den gesamten Regionen-Zustand
+er eigentlich auf den gesamten Regionen-Zustand,
 
 00:14:09,800 --> 00:14:14,378
-und wir müssen auch in beiden Regionen jeweils
-einen Unterzustand auswählen beim Eintritt.
+und wir müssen beim Eintritt auch jeweils
+in beiden Regionen einen Unterzustand auswählen.
 
 00:14:14,378 --> 00:14:16,790
 Das gleiche gilt für den expliziten Eintritt.
@@ -641,7 +641,7 @@ Das müssen wir also auch noch
 beschreiben, was das jeweils bedeutet.
 
 00:14:39,140 --> 00:14:43,520
-Und zwar wie sind die Regeln hier?
+Und zwar, wie sind die Regeln hier?
 
 00:14:44,180 --> 00:14:45,860
 Der Standardeintritt ist sehr einfach.
@@ -655,22 +655,22 @@ den Startzustand der äußersten Hierarchieebene
 genommen haben, so nehmen wir jetzt einfach den
 
 00:14:55,550 --> 00:15:03,470
-Startzustand je Region, also wenn wir über diesen
+Startzustand je Region. Also wenn wir über diesen
 Eintritt hier auf diesen Regionen-Zustand kommen,
 
 00:15:03,470 --> 00:15:06,350
 dann werden wir einfach in jeder
-Region den Startzustand wählen,
+Region den Startzustand wählen.
 
 00:15:06,350 --> 00:15:16,565
-also in dem Fall wären wir in A in der
+Also in dem Fall wären wir in A in der
 ersten Region und in C in der zweiten Region.
 
 00:15:16,565 --> 00:15:17,023
 Wie ist das mit dem expliziten Eintritt?
 
 00:15:17,023 --> 00:15:21,860
-Da ist auch klar, da wollen wir offensichtlich
+Da ist auch klar: da wollen wir offensichtlich
 in der ersten Region in Unterzustand B sein,
 
 00:15:21,860 --> 00:15:25,130
@@ -685,35 +685,35 @@ Naheliegender Weise nehmen wir den
 Startzustand der anderen Region.
 
 00:15:31,160 --> 00:15:34,610
-Also ein Zustand einer Region
-wird direkt angesprungen.
+Also, ein Zustand einer Region
+wird direkt angesprungen,
 
 00:15:34,610 --> 00:15:38,690
-Das macht der explizite Eintritt und in
+das macht der explizite Eintritt, und in
 den dazu parallelen Regionen nehmen wir
 
 00:15:38,690 --> 00:15:40,760
-jeweils den Startzustand, also in unserem Beispiel
+jeweils den Startzustand. Also in unserem Beispiel
 
 00:15:44,360 --> 00:15:50,330
 über diesen Pfeil treten wir in der ersten Region
-in B ein implizit in der zweiten Region in C.
+in B ein und implizit in der zweiten Region in C.
 
 00:15:53,810 --> 00:16:04,010
-Dann gibt es noch den Fall der Gabelung und
+Dann gibt es noch den Fall der Gabelung, und
 der ist auch sehr naheliegend, denn über die
 
 00:16:04,010 --> 00:16:12,530
 Gabelung adressieren wir in jeder Region einen
-speziellen Zustand, also wenn wir über diese
+speziellen Zustand. Also wenn wir über diese
 
 00:16:12,530 --> 00:16:17,120
 Gabelung eintreten, dann werden wir natürlich
-in der ersten Region B als Unterzustand wählen,
+in der ersten Region B als Unterzustand wählen
 
 00:16:17,120 --> 00:16:26,510
-in der zweiten Region D als Unterzustand, weil
-genau das uns diese Darstellung hier vorgibt.
+und in der zweiten Region D als Unterzustand wählen,
+weil uns diese Darstellung hier genau das vorgibt.
 
 00:16:32,810 --> 00:16:39,800
 Das sind alle Fälle bis auf die Tatsache,
