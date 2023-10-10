@@ -1008,7 +1008,7 @@ You can see that we will
 obviously be working a lot with examples.
 
 00:18:35,140 --> 00:18:38,560
-That's why the word "example" shows
+That's why the word for "example" shows
 up very often in the slides here.
 
 00:18:38,560 --> 00:18:42,850
@@ -1036,10 +1036,10 @@ of the state of a system.
 A term from dynamic modeling.
 
 00:18:58,070 --> 00:18:59,450
-"Transition":
+"Übergang":
 
 00:18:59,450 --> 00:19:01,940
-As a synonym for it.
+As a German synonym for it.
 
 00:19:01,940 --> 00:19:07,040
 In graphs, "nodes" appear
