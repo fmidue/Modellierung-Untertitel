@@ -949,7 +949,7 @@ Aber das kann sozusagen gemischt sein, wer jeweils
 die Besitzer von zwei verschiedenen Autos sind.
 
 00:20:00,520 --> 00:20:05,980
-Es wäre auch denkbar, dass es noch weitere
+Es wäre hier auch denkbar, dass es noch weitere
 Personen gibt, aber keine weiteren Autos.
 
 00:20:05,980 --> 00:20:08,500
