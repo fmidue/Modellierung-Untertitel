@@ -176,7 +176,7 @@ herangezogen werden können.
 
 00:03:51,930 --> 00:03:59,370
 Und wenn das für die Beziehung, die Verbindung,
-die existieren soll, hinreichend wichtig ist,
+die da existieren soll, hinreichend wichtig ist,
 
 00:03:59,370 --> 00:04:04,170
 dass diese persistent abgespeichert werden
