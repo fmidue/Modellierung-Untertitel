@@ -347,7 +347,7 @@ der Ebene konkreter Objekte verschiedene
 Ausprägungen dieser Beziehung denkbar.
 
 00:07:22,550 --> 00:07:27,740
-Also es könnte sein, dass es genau drei
+Also es könnte durchaus sein, dass es genau drei
 Personen und drei Autos gibt und etwa genau
 
 00:07:27,740 --> 00:07:31,670
