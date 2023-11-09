@@ -421,7 +421,7 @@ Vielleicht gibt es auch Überlappungen.
 
 00:09:06,140 --> 00:09:11,270
 Also wenn man da mal überlegt, welche
-Eigenschaften da relevant sein könnten,
+Kriterien/Eigenschaften da relevant sein könnten,
 
 00:09:11,270 --> 00:09:20,030
 dann kommt man letztlich auf ein Gegensatzpaar
