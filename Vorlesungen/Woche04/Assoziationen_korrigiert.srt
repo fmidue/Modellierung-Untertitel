@@ -495,7 +495,7 @@ Ich hätte auch zufälligerweise die beiden Klassen
 
 00:10:11,920 --> 00:10:15,910
 genau vertauscht aufzeichnen
-können in meinem Graph/in meiner Grafik.
+können in meinem Graph / in meiner Grafik.
 
 00:10:15,910 --> 00:10:17,380
 Deswegen kann es wichtig sein,
