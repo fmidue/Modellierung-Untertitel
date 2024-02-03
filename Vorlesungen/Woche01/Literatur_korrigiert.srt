@@ -241,11 +241,11 @@ ISE-Studierende schon in anderen Vorlesungen
 
 00:04:52,940 --> 00:04:57,950
 waren, in denen Petrinetze auch verwendet wurden.
-Auch dafür gibt es mehrere Bücher, auch hier ein
+Auch dafür gibt es mehrere Bücher, auch hier
 
 00:04:57,950 --> 00:05:04,370
-Buch, das online verfügbar ist. Wieder,
-wenn Sie im Uniaccount eingeloggt sind,
+wieder ein Buch, das online verfügbar ist.
+Wenn Sie im Uniaccount eingeloggt sind,
 
 00:05:04,370 --> 00:05:09,080
 dann finden Sie hier eine Abhandlung zu
