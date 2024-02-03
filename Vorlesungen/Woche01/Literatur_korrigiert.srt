@@ -72,7 +72,7 @@ Da gibt es gewisse Unstimmigkeiten, dadurch
 teils auch Abweichungen von der Vorlesung,
 
 00:01:24,600 --> 00:01:28,080
-wo ich versucht habe, die Sache
+wo ich versucht habe, Sachen
 sehr einheitlich darzustellen.
 
 00:01:28,080 --> 00:01:32,190
@@ -93,7 +93,7 @@ das wird eben ein Teil der Vorlesung auch sein.
 Das ist dieses Buch hier, auch das
 
 00:01:53,850 --> 00:01:59,040
-können Sie in der Bibliothek finden.
+können Sie über die Bibliothek finden.
 Das enthält auch eine nette Motivation
 
 00:01:59,040 --> 00:02:03,270
@@ -274,7 +274,7 @@ steht. Aber einige formalere Konzepte, die wir uns
 
 00:05:38,780 --> 00:05:45,350
 auch anschauen werden, zu Petrinetzen, könnten Sie
-eher in diesem als im voran gezeigten Buch finden.
+eher in diesem als im zuvor gezeigten Buch finden.
 
 00:05:45,350 --> 00:05:48,560
 Und auch dieses Buch sollte für
@@ -322,7 +322,7 @@ Natürlich, da es nur ein Teil der Vorlesung ist,
 nicht in der gleichen Tiefe, wie es hier in dem
 
 00:06:43,350 --> 00:06:52,560
-Artikel angefangen wird, aber dennoch ist auch das
+Artikel angegangen wird, aber dennoch ist auch das
 ein möglicher Zugang zu diesem Teil der Vorlesung.
 
 9 # slide
@@ -352,7 +352,7 @@ Art der Statecharts oder
 
 00:07:29,172 --> 00:07:33,750
 Zustandsdiagramme in UML beschäftigen.
-Das ist oftmals, der als am komplexesten
+Das ist oftmals der als am komplexesten
 
 00:07:33,750 --> 00:07:39,840
 wahrgenommene Teil der Vorlesung.
@@ -363,7 +363,7 @@ in UML-Büchern zum Teil erklärt.
 Aber auf eine sehr schöne und intuitive
 
 00:07:44,010 --> 00:07:49,830
-Art und Weise, sind sie meines Erachtens eben in
+Art und Weise sind sie meines Erachtens eben in
 dem Originalartikel beschrieben, der die Grundlage
 
 00:07:49,830 --> 00:07:54,570
