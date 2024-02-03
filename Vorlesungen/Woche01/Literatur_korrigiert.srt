@@ -64,7 +64,7 @@ ganz gut geeignet, das Buch.
 Leider, in der Beschreibung,
 
 00:01:14,250 --> 00:01:19,230
-auch wenn es um formale Dinge geht, ist
+auch wenn es um formalere Dinge geht, ist
 dieses Buch manchmal nicht ganz sauber.
 
 00:01:19,230 --> 00:01:24,600
@@ -134,7 +134,7 @@ Also wenn Sie vorhaben, das später auch
 
 00:02:32,380 --> 00:02:36,430
 noch zu hören, wäre das vielleicht ein gutes
-Buch, das eine Brücke schlägt von Modellierung
+Buch, das auch eine Brücke schlägt von Modellierung
 
 00:02:36,430 --> 00:02:40,870
 zu der Lehrveranstaltung Fortgeschrittene
@@ -244,8 +244,8 @@ waren, in denen Petrinetze auch verwendet wurden.
 Auch dafür gibt es mehrere Bücher, auch hier ein
 
 00:04:57,950 --> 00:05:04,370
-Buch, das online verfügbar ist wieder.
-Wenn Sie im Uniaccount eingeloggt sind,
+Buch, das online verfügbar ist. Wieder,
+wenn Sie im Uniaccount eingeloggt sind,
 
 00:05:04,370 --> 00:05:09,080
 dann finden Sie hier eine Abhandlung zu
@@ -270,7 +270,7 @@ weit wie wir das machen werden.
 
 00:05:32,900 --> 00:05:38,780
 Wir werden nicht alles machen, was in diesem Buch
-steht, aber einige formalere Konzepte, die wir uns
+steht. Aber einige formalere Konzepte, die wir uns
 
 00:05:38,780 --> 00:05:45,350
 auch anschauen werden, zu Petrinetzen, könnten Sie
@@ -428,7 +428,7 @@ Sie müssen keines dieser Bücher lesen.
 Sie müssen auch keines dieser Bücher überhaupt
 
 00:09:15,220 --> 00:09:21,340
-zur Hand nehmen, wenn Sie das nicht möchten.
+zur Hand nehmen, wenn Sie das nicht mögen.
 Aber es könnte unter Umständen hilfreich sein,
 
 00:09:21,340 --> 00:09:25,000
