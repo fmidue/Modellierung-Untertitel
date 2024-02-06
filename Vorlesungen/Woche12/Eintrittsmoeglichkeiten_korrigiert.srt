@@ -381,7 +381,7 @@ in dieses A kommen und vorher noch nie in
 A gewesen sind. Dann sagt uns dieser Pfeil:
 
 00:08:38,900 --> 00:08:40,100
-sann machen wir bei E weiter.
+dann machen wir bei E weiter.
 
 00:08:40,100 --> 00:08:45,110
 Sind wir hingegen schon mal in C, D oder
@@ -452,7 +452,7 @@ Bei B weiterzumachen heißt dann aber, den
 Startzustand von B zu nehmen, also D.
 
 00:10:22,580 --> 00:10:23,900
-Das was hier steht;
+Das was hier steht:
 
 00:10:23,900 --> 00:10:27,410
 Falls der zusammengesetzte Zustand A das
