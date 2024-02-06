@@ -2201,6 +2201,7 @@ so to speak, of the activity diagram or
 the firing sequences in
 a translated Petri net.
 
+228 # slide
 00:40:21,560 --> 00:40:30,140
 O.k., and then there are various other
 
@@ -2208,7 +2209,6 @@ O.k., and then there are various other
 elements that we don't even discuss
 here, that I don't even show you.
 
-228 # slide
 00:40:32,750 --> 00:40:36,980
 You could just read
 up on them from literature.
