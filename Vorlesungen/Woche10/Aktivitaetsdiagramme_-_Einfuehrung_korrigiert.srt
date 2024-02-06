@@ -123,6 +123,7 @@ Das werden wir auch gleich wieder sehen.
 Das ist dann unser Einstieg in die
 dynamische Modellierung mit UML.
 
+211 # slide
 00:02:18,810 --> 00:02:22,140
 Ja, also Stichwort: Aktivitätsdiagramme.
 
@@ -248,6 +249,7 @@ eben so mathematisch präzise gefasst sind,
 werden für Aktivitätsdiagramme nicht
 auf gleiche Weise möglich sein.
 
+212 # slide
 00:04:48,000 --> 00:04:55,320
 Und das ist auch nicht intendiert, weil Aktivitätsdiagramme
 eben in der Software-Modellierung eher einen
@@ -259,6 +261,7 @@ unbedingt der formalen Analyse dienen soll.
 00:05:03,420 --> 00:05:09,300
 O.k., also Aktivitätsdiagramme und tatsächlich
 
+213 # slide
 00:05:09,300 --> 00:05:16,080
 werde ich da zunächst Ihnen einfach
 ein Aktivitätsdiagramm zeigen.

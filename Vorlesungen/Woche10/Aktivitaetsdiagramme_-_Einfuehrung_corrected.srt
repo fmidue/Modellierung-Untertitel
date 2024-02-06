@@ -124,6 +124,7 @@ We will see that again in a moment.
 This is our introduction
 to dynamic modeling with UML.
 
+211 # slide
 00:02:18,810 --> 00:02:22,140
 Yes, so keyword: activity diagrams.
 
@@ -249,6 +250,7 @@ they are just as mathematically precise.
 Will not be possible for
 activity diagrams in the same way.
 
+212 # slide
 00:04:48,000 --> 00:04:55,320
 And it is not intended, because
 activity diagrams have a descriptive character
@@ -260,6 +262,7 @@ necessarily serve the formal analysis first.
 00:05:03,420 --> 00:05:09,300
 O.k., so activity diagrams and actually
 
+213 # slide
 00:05:09,300 --> 00:05:16,080
 this will first show
 in simply an activity diagram.
