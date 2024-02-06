@@ -697,7 +697,6 @@ not a branching node
 but a connecting node
 in the concrete activity diagram.
 
-213 # slide
 00:12:30,234 --> 00:12:31,740
 That's what this one was.
 
@@ -742,7 +741,6 @@ be an auxiliary transition
 in Petri net, so
 to speak, painted somewhere here.
 
-217 # slide
 00:13:14,910 --> 00:13:19,620
 And it would be just
 this one in the concrete example.
@@ -1035,7 +1033,6 @@ to the right and arrows going down.
 So, that also fits with the
 elements that exist in Petri nets.
 
-213 # slide
 00:18:39,610 --> 00:18:47,440
 Okay, what else did we
 have in the activity diagram?
@@ -1236,7 +1233,6 @@ We will also see this in the example.
 00:22:32,730 --> 00:22:34,410
 That's exactly where it appears.
 
-213 # slide
 00:22:34,410 --> 00:22:40,950
 So in our example activity diagram it
 was so that this becomes a transition.
@@ -1253,7 +1249,6 @@ in the activity diagram.
 Then there must be
 an auxiliary place in between.
 
-221 # slide
 00:22:52,650 --> 00:23:00,660
 O.k., and as with the connection
 and branching nodes, it can also be
@@ -1297,7 +1292,6 @@ the case that unification occurs when
 00:23:41,520 --> 00:23:43,440
 there were also fork nodes before.
 
-213 # slide
 00:23:43,440 --> 00:23:48,030
 So, in this example, it is
 no coincidence that this and this
@@ -1580,7 +1574,6 @@ on the concrete example,
 if there is a difference
 between these two possible ends.
 
-213 # slide
 00:28:54,960 --> 00:29:00,570
 So in the example what I had here,
 I had used though this activity end as symbol.
@@ -1631,7 +1624,6 @@ get that that doesn't fall on your feet.
 And somehow the
 difference causes you problems.
 
-223 # slide
 00:29:55,170 --> 00:29:56,670
 So in examples that we're going to
 
@@ -1658,7 +1650,6 @@ O.k., how we implement this,
 we can see directly in the example
 Petri net, for the house building example.
 
-213 # slide
 00:30:25,830 --> 00:30:32,310
 So that was our
 house building activity diagram.
@@ -1744,7 +1735,6 @@ directly from action to action/transition to transition.
 So that then corresponds to that auxiliary place
 and also the other parts here are all
 
-213 # slide
 00:32:08,890 --> 00:32:15,640
 motivated by how we wanted
 to translate individual activity diagram elements.
@@ -1765,7 +1755,6 @@ can't be a direct connection there.
 Instead, there has to be an auxiliary
 place introduced and that's what we're seeing here.
 
-224 # slide
 00:32:32,710 --> 00:32:34,630
 So that would correspond
 to the fork node.
@@ -1797,7 +1786,6 @@ implemented here, in which simply here the last action,
 these transitions, is
 such a swallowed transitions,
 
-213 # slide
 00:33:00,220 --> 00:33:10,760
 which just corresponds to that after
 the house finish nothing more happens.
@@ -1810,7 +1798,6 @@ end of activity, I have simply realized
 by the fact that the transition, which I have
 introduced for this, has no more output for this action.
 
-224 # slide
 00:33:19,520 --> 00:33:24,650
 This is then just shown here.
 
@@ -1844,7 +1831,6 @@ transition in this particular case.
 That is this one, which was necessary so that
 I can get from this place to that place.
 
-213 # slide
 00:33:53,840 --> 00:33:59,000
 Which corresponded in
 the activity diagram
@@ -1857,7 +1843,6 @@ there is nothing else in between.
 But I am not allowed to go from
 place to place directly in the Petri net.
 
-224 # slide
 00:34:06,380 --> 00:34:15,820
 O.k., and actually all that
 we intuitively saw in the activity

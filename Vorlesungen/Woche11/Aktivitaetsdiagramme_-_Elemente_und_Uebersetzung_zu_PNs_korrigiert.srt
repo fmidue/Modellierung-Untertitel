@@ -684,7 +684,6 @@ Genau genommen ist das hier kein Verzweigungs-
 sondern ein Verbindungsknoten in
 dem konkreten Aktivitätsdiagramm.
 
-213 # slide
 00:12:30,234 --> 00:12:31,740
 Das war ja dieses hier.
 
@@ -727,7 +726,6 @@ Dazwischen muss im Petrinetz hier letztlich
 irgendwo sozusagen
 eine Hilfstransition hingemalt stehen.
 
-217 # slide
 00:13:14,910 --> 00:13:19,620
 Und es wäre dann eben diese
 hier in dem konkreten Beispiel.
@@ -1017,7 +1015,6 @@ nach unten ausgehende Pfeile.
 Das passt also auch mit den
 Elementen, die es in Petrinetzen gibt.
 
-213 # slide
 00:18:39,610 --> 00:18:47,440
 O.k., was hatten wir noch im Aktivitätsdiagramm?
 
@@ -1155,7 +1152,7 @@ oder Synchronisationsknoten, wo eben solche
 zwei Flüsse, die hier entstanden
 sind, wieder zusammengeführt werden.
 
-221 # slide 
+221 # slide
 00:21:21,870 --> 00:21:31,470
 Also Vereinigungen oder "join node" das wäre, wo
 mehrere parallele Flüsse zusammengeführt werden.
@@ -1215,7 +1212,6 @@ Auch das werden wir gleich in dem Beispiel sehen.
 00:22:32,730 --> 00:22:34,410
 Da taucht sowas ja genau auf.
 
-213 # slide
 00:22:34,410 --> 00:22:40,950
 Also in unserem Beispiel-Aktivitätsdiagramm war
 es ja so, dass hieraus einer Transition wird und
@@ -1232,7 +1228,6 @@ in Aktivitätsdiagramm so ist.
 Dann muss es eben dazwischen hier
 noch eine Hilfsstelle geben.
 
-221 # slide
 00:22:52,650 --> 00:23:00,660
 O.k., und wie bei den Verbindungs-
 und Verzweigungsknoten, kann es
@@ -1275,7 +1270,6 @@ dass Vereinigungen dann auftreten,
 00:23:41,520 --> 00:23:43,440
 wenn es vorher auch Gabelungsknoten gab.
 
-213 # slide
 00:23:43,440 --> 00:23:48,030
 Also, das ist jetzt in dem Beispiel
 auch kein Zufall, dass sozusagen dieser
@@ -1551,7 +1545,6 @@ Das kommt immer auf das konkrete Beispiel an,
 ob es überhaupt einen Unterschied zwischen
 diesen beiden möglichen Enden gibt.
 
-213 # slide
 00:28:54,960 --> 00:29:00,570
 Also in dem Beispiel, was ich hier hatte, hatte
 ich zwar dieses Aktivitätsende benutzt als Symbol.
@@ -1602,7 +1595,6 @@ darauf achten, dass Ihnen das nicht auf die Füße fällt,
 und der Unterschied
 Ihnen irgendwie Probleme bereitet.
 
-223 # slide
 00:29:55,170 --> 00:29:56,670
 Also in Beispielen, die wir betrachten werden,
 
@@ -1628,7 +1620,6 @@ O.k., wie wir das umsetzen,
 können wir direkt gleich mal in dem Beispiel-Petrinetz
 sehen, für das Hausbau-Beispiel.
 
-213 # slide
 00:30:25,830 --> 00:30:32,310
 Also das war unser Hausbau-Aktivitätsdiagramm.
 
@@ -1712,7 +1703,6 @@ von Transition zu Transition gehen können.
 Das entspricht dann also dieser Hilfsstelle.
 Und auch die anderen Teile hier sind
 
-213 # slide
 00:32:08,890 --> 00:32:15,640
 alle dadurch motiviert, wie wir einzelne
 Aktivitätsdiagrammelemente übersetzen wollten.
@@ -1732,7 +1722,6 @@ da keine direkte Verbindung sein.
 Sondern es muss eine Hilfsstelle eingeführt
 werden, und genau das sehen wir hier.
 
-224 # slide
 00:32:32,710 --> 00:32:34,630
 Also das entspräche dem Gabelungsknoten.
 
@@ -1762,7 +1751,6 @@ umgesetzt, indem einfach hier die letzte Aktion,
 diese Transition, eine solche
 verschluckende Transition ist,
 
-213 # slide
 00:33:00,220 --> 00:33:10,760
 die eben dem entspricht, dass nach dem
 Haus Fertigstellen nichts mehr passiert.
@@ -1775,7 +1763,6 @@ habe ich einfach dadurch realisiert,
 dass die Transition, die ich hier für diese Aktion
 eingeführt habe, keine Ausgabe mehr hat.
 
-224 # slide
 00:33:19,520 --> 00:33:24,650
 Das ist dann eben hier dargestellt.
 
@@ -1809,7 +1796,6 @@ nur eine Hilfstransition.
 Das ist diese hier, die nötig war, damit ich
 von dieser Stelle zu dieser Stelle kommen kann.
 
-213 # slide
 00:33:53,840 --> 00:33:59,000
 Was ja im Aktivitätsdiagramm diesen
 
@@ -1821,7 +1807,6 @@ dazwischen eben nichts weiter gibt,
 aber ich nicht direkt von Stelle zu Stelle
 gehen darf im Petrinetz.
 
-224 # slide 
 00:34:06,380 --> 00:34:15,820
 O.k., und tatsächlich alles, was wir
 intuitiv an dem Aktivitätsdiagramm
