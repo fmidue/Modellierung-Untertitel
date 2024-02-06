@@ -20,5 +20,5 @@ Some initial ideas for pull requests:
 
 | GitHub username | Lines |
 | :-- | --: |
+| timmycodesforfun | 72 |
 | sabinxh | 7 |
-| timmycodesforfun | 6 |
