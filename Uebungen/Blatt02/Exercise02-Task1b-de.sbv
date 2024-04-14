@@ -39,7 +39,7 @@ Teil (b) beschäftigt sich nun mit dem flachen
 Zustandsdiagramm.
 
 0:00:57.690,0:01:05.040
-Dabei ist es die Aufgabe, ein solches, wie
+Dabei ist es die Aufgabe, ein solches, für
 das oben genannte Rätsel anzugeben.
 
 0:01:05.040,0:01:12.160
@@ -114,7 +114,7 @@ dass die Kinder zu zweit fahren können auf
 
 0:03:38.190,0:03:41.610
 dem Boot, kann man vielleicht die Kinder mit
-einem kleinen „Kinder“ kennzeichnen.
+einem kleinen „k“ kennzeichnen.
 
 0:03:41.610,0:03:46.050
 Das verdeutlicht das noch ein bisschen besser.
@@ -141,7 +141,7 @@ Boot ist.
 Das ist alles auf derselben Seite.
 
 0:04:28.330,0:04:36.750
-Hier ist gesetzt, dass der Vater mit seinen
+Als Ziel ist gesetzt, dass der Vater mit seinen
 beiden Töchtern auf der anderen Seite und
 
 0:04:36.750,0:04:41.160
@@ -390,7 +390,7 @@ Dann können wir diesen Zustand hier betrachten.
 Was kann hier noch passieren?
 
 0:11:53.610,0:12:02.660
-Dies hatten wir ja komplett ausgenutzt, dass
+Dies hatten wir ja komplett ausgenutzt, also hier
 sind drei Personen auf einer Seite, es gibt
 
 0:12:02.660,0:12:06.042
@@ -398,7 +398,7 @@ keine Kombinationsmöglichkeiten von zwei
 Personen, weil nur ein Kind da ist.
 
 0:12:06.042,0:12:09.870
-Das heißt, wir haben zwei Pfeile und sind
+Das heißt, wir haben drei Pfeile und sind
 da fertig.
 
 0:12:09.870,0:12:14.519
@@ -713,10 +713,10 @@ alle anderen.
 
 0:20:58.309,0:21:01.399
 Für diesen Zustand haben wir jetzt auch alle
-Fälle abgedeckt, der Vater kann überall
+Fälle abgedeckt, der Vater kann rüberfahren
 
 0:21:01.399,0:21:03.509
-hin mit dem Boot und dem Kind.
+mit dem Boot und das Kind.
 
 0:21:03.509,0:21:10.710
 Das waren die genannten Fälle, die hier jeweils
@@ -724,7 +724,7 @@ mit den Pfeilen dargestellt sind.
 
 0:21:10.710,0:21:25.140
 Von diesem Zustand aus kann der Vater rüberfahren,
-es kann der rüberfahren, das sind die Fälle,
+es kann der Fischer rüberfahren, das sind die Fälle,
 
 0:21:25.140,0:21:28.029
 die wir schon abgedeckt haben, und es kann
@@ -795,7 +795,7 @@ mit dem Boot natürlich.
 
 0:23:27.309,0:23:45.149
 Das Ganze kann auch mit dem Vater passieren
-anstatt des Fischer-s und es
+anstatt des Fischers und es
 
 0:23:45.149,0:23:49.159
 kann auch sein, dass eines der Kinder übersetzt.
@@ -811,7 +811,7 @@ Möglichkeit, der Vater setzt mit dem Boot
 über, andere Möglichkeit.
 
 0:24:16.950,0:24:25.849
-Und schließlich kann auch ein Kind noch mit
+Und schließlich kann auch ein Kind noch
 übersetzen.
 
 0:24:25.849,0:24:37.470
@@ -819,7 +819,7 @@ Jetzt können wir diesen Zustand noch markieren
 als einen Endzustand, zum Beispiel indem wir
 
 0:24:37.470,0:24:44.359
-hier noch eine zweiet Linie um den Zustand
+hier noch eine zweite Linie um den Zustand
 drumherum machen.
 
 0:24:44.359,0:24:49.940
@@ -940,10 +940,11 @@ in dem Graphen nach oben und unten.
 
 0:27:54.469,0:28:09.379
 Also, wenn der Vater auf eine Seite geht,
-dann ist immer ein analoger Zustand dafür
+dann ist immer ein analoger Zustand dafür,
 
 0:28:09.379,0:28:11.179
-der Fischer auf der anderen Seite.
+dass der Fischer auf der anderen
+Seite ist.
 
 0:28:11.179,0:28:23.039
 Man könnte den Graphen an dieser horizontalen
