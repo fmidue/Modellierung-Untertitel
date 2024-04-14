@@ -4,10 +4,10 @@ to give a flat state diagram of our puzzle.
 
 0:00:09.219,0:00:14.339
 For that, we need to first think about what
-the state would look like, what the starting
+a state could look like, what the starting
 
 0:00:14.339,0:00:18.860
-state is, what states are reached for the
+state is, what states are reached from the
 starting state and so on.
 
 0:00:18.860,0:00:23.170
@@ -15,14 +15,14 @@ We’ll try to explore all reachable states
 and the transitions between them.
 
 0:00:23.170,0:00:26.769
-And not just the chain of states that would
-lead to a goal.
+Not just the chain of states that would
+lead to a goal
 
 0:00:26.769,0:00:29.490
-But all the states.
+but all the states.
 
 0:00:29.490,0:00:33.530
-And we told we do not need to label the transitions
+And we are told we do not need to label the transitions
 necessarily.
 
 0:00:33.530,0:00:37.500
@@ -49,10 +49,10 @@ and the river.
 
 0:00:57.920,0:01:04.470
 And then we end up with basically a little
-string for the state and that shows us for
+string for every node
 
 0:01:04.470,0:01:08.730
-every note, and that shows us what the state
+and that shows us what the state
 is like.
 
 0:01:08.730,0:01:14.820
@@ -60,19 +60,19 @@ I am going to put a little glossary over here
 on the side.
 
 0:01:14.820,0:01:19.460
-We are going to use the (?“I”) character
-or the vertical line character as the river.
+We are going to use
+the vertical line character as the river.
 
 0:01:19.460,0:01:25.020
 Because it kind of nicely shows us where everybody
-is on the left side of this (? I character)
+is, so being on the left side of this character
 
 0:01:25.020,0:01:30.290
-or on the left side on the starting side of
+is on the left side or the starting side of
 the river and being on the right side would
 
 0:01:30.290,0:01:34.950
-be being on the gold side of the river.
+be being on the goal side of the river.
 
 0:01:34.950,0:01:40.020
 We are going to use the upper-case B for the
@@ -84,7 +84,7 @@ V for father.
 
 0:01:44.380,0:01:49.500
 Because otherwise we are going to end up with
-another F here or a small F might be a little
+another F here and a small f might be a little
 
 0:01:49.500,0:01:50.500
 confusing.
@@ -94,15 +94,15 @@ So, we just kind of basically take a note
 from the German version of this and use V
 
 0:01:56.659,0:02:00.140
-for father from (?the German father) in this
+for Vater, the German father, in this
 case.
 
 0:02:00.140,0:02:03.500
-And we are going to use the lower c for each
+And we are going to use the lower case c for each
 child.
 
 0:02:03.500,0:02:08.770
-So, we are going to end up with 2 C’s in
+So, we are going to end up with 2 c’s in
 each state.
 
 0:02:08.770,0:02:11.340
@@ -121,7 +121,7 @@ Now, for our starting state we need everybody
 on the left side of the river.
 
 0:02:29.170,0:02:34.260
-So, we are going to use the (?I) character
+So, we are going to use the pipe character
 to indicate the river and then just put all
 
 0:02:34.260,0:02:38.780
@@ -153,11 +153,10 @@ which states are reachable.
 So, which states are reachable.
 
 0:03:02.260,0:03:04.430
-So, what transitions are possible from the
-end.
+So, what transitions are possible from here.
 
 0:03:04.430,0:03:08.629
-First of all, we can, one child can move on
+First of all, one child can move on
 its own.
 
 0:03:08.629,0:03:12.430
@@ -166,7 +165,7 @@ to the other side.
 
 0:03:12.430,0:03:17.080
 Giving us with the fisherman, the father,
-one child on and one side of the river.
+one child on one side of the river.
 
 0:03:17.080,0:03:21.849
 And the child and the boat that crossed over
@@ -177,7 +176,7 @@ From here the only possible thing is for the
 child to go back.
 
 0:03:26.069,0:03:30.860
-And our transitions ends with this double
+And our transitions ends up with this double
 arrow here.
 
 0:03:30.860,0:03:34.190
@@ -192,7 +191,7 @@ is always possible to go back to the previous
 state.
 
 0:03:39.670,0:03:42.090
-There is no other possible exit from here.
+There is no other possibilities from here.
 
 0:03:42.090,0:03:46.769
 So, we move on with the other possibilities
@@ -243,7 +242,7 @@ the starting side and the fisherman with his
 boat on the goal side.
 
 0:04:24.550,0:04:30.820
-Now the only way to move to the goal here
+Now the only way to move towards the goal here
 would be the final possible transition from
 
 0:04:30.820,0:04:32.020
@@ -377,7 +376,7 @@ the goal side.
 And this pattern kind of repeats here.
 
 0:06:52.130,0:06:58.660
-Because from here on both sides, we can one
+Because from here on both sides, one
 child can cross on her own.
 
 0:06:58.660,0:07:05.090
@@ -408,10 +407,10 @@ side.
 
 0:07:25.680,0:07:33.150
 And on the other side it is basically just
-always the father or the fisherman (? Invest)
+always the father or the fisherman reversed
 
 0:07:33.150,0:07:39.210
-here or swapped rather, sorry.
+here or swapped rather.
 
 0:07:39.210,0:07:47.810
 Of course, from this point now both children
@@ -436,7 +435,7 @@ So, when the father crosses on his own or
 the fisherman crosses on his own.
 
 0:08:11.060,0:08:13.900
-It is the same result in the state here.
+It is the same resulting state here.
 
 0:08:13.900,0:08:16.280
 Both children are left alone on the starting
@@ -502,7 +501,7 @@ One child can cross on her own.
 Giving us these two states.
 
 0:09:18.579,0:09:24.560
-And then the parents can , sorry, the adults
+And then the adults
 can transition on their own.
 
 0:09:24.560,0:09:31.100
@@ -513,7 +512,7 @@ fisherman, the father and the child and the
 boat on the goal side.
 
 0:09:33.340,0:09:37.400
-Now from here it does not there is no further
+Now from here there are no further
 possibilities over here.
 
 0:09:37.400,0:09:42.750
@@ -555,7 +554,7 @@ boat and the adults on the goal side.
 
 0:10:16.579,0:10:22.320
 And from here the children can cross together
-with the boat together.
+with the boat.
 
 0:10:22.320,0:10:24.590
 And give us everybody on the goal side.
@@ -595,7 +594,7 @@ Or one child moving back on her own, which
 does not lead us anywhere either.
 
 0:11:08.930,0:11:13.430
-And finally, the fisherman takes his boat
+And finally, the fisherman taking his boat
 back to the starting side giving us the goal
 
 0:11:13.430,0:11:17.339
@@ -619,14 +618,14 @@ exactly the same as this.
 
 0:11:39.180,0:11:44.970
 This is just one way to draw the graph and
-this kind of very tidy.
+this kind of looks very tidy.
 
 0:11:44.970,0:11:48.170
-Because going down towards the goal state.
+Because going down goes towards the goal state.
 
 0:11:48.170,0:11:52.170
 And we have this parallel pathway in the middle
-here over here.
+here.
 
 0:11:52.170,0:11:56.339
 But if yours ends up looking differently that
@@ -640,7 +639,7 @@ And all the states are correct you can even-
 like I said in the beginning, you can swap
 
 0:12:01.230,0:12:03.610
-up the letter as well.
+up the letters as well.
 
 0:12:03.610,0:12:06.600
 These particularities of that are not really
