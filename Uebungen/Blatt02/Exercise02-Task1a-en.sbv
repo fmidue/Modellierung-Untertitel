@@ -11,7 +11,7 @@ In the first part of the task, we are asked
 to give a static model of the story depicted
 
 0:00:16.340,0:00:19.460
-as a graph specifically.
+as a graph, specifically.
 
 0:00:19.460,0:00:23.810
 That is, we need to think about which people,
@@ -31,10 +31,10 @@ and therefore should be included in our model
 
 0:00:39.540,0:00:45.350
 and talk about the parts that might seem important
-but really are not.
+but really are not,
 
 0:00:45.350,0:00:47.570
-At least in terms of our puzzle here.
+at least in terms of our puzzle here.
 
 0:00:47.570,0:00:53.110
 So, in the first sentence we have a lot of
@@ -60,32 +60,32 @@ Lower Rhine area.
 
 0:01:13.580,0:01:17.420
 All of that information could be included
-in the model.
+in the model,
 
 0:01:17.420,0:01:20.960
-But since none of these really changes how
-the puzzle is solved.
+but since none of these really changes how
+the puzzle is solved,
 
 0:01:20.960,0:01:25.079
-We are not going to include it here.
+we are not going to include it here.
 
 0:01:25.079,0:01:30.600
-Next note is, there is no bridge on the river,
-this might seem very important.
+Next note is, there is no bridge on the river.
+This might seem very important,
 
 0:01:30.600,0:01:37.070
-Because this is the whole reason why they
-are trying to cross the river with the boat.
+because this is the whole reason why they
+are trying to cross the river with the boat,
 
 0:01:37.070,0:01:39.930
-But it doesn’t really change the puzzle.
+but it doesn’t really change the puzzle.
 
 0:01:39.930,0:01:43.560
 Because the set up its, okay; they are trying
 to cross the river over the boat doesn’t
 
 0:01:43.560,0:01:48.890
-really matter if there is a bridge 10 meter
+really matter if there is a bridge 10 meters
 away or 100 meters away, not.
 
 0:01:48.890,0:01:52.750
@@ -116,7 +116,7 @@ He needs to cross back and forth as well,
 and the boat is the object of transportation.
 
 0:02:20.379,0:02:23.850
-So, this is important the fact that it is
+So, this is important, the fact that it is
 small.
 
 0:02:23.850,0:02:30.400
@@ -151,7 +151,7 @@ Both the adult and the children are able to
 row, once again, this might seem very important;
 
 0:03:00.129,0:03:07.040
-but since there is nobody involved, he cannot
+but since there is nobody involved, who cannot
 row and everybody can row, it is not really
 
 0:03:07.040,0:03:10.569
@@ -159,22 +159,22 @@ an aspect that would fit well into the model
 here.
 
 0:03:10.569,0:03:16.549
-Because then would have a note that says “okay,
+Because then we would have a note that says “okay,
 people can row and that would connect to every
 
 0:03:16.549,0:03:20.819
-other actor” that is not really helpful
-here, we are just going to assume there is
+other actor”. That is not really helpful
+here, we are just going to assume this,
 
 0:03:20.819,0:03:26.400
-a cave that can row, everybody in our model
-can row we do not need to specifically add
+"okay, everybody can row, everybody in our model
+can row", we do not need to specifically add
 
 0:03:26.400,0:03:28.879
 this to the model.
 
 0:03:28.879,0:03:33.870
-What is important however, is that the boat
+What is important, however, is that the boat
 will not move on its own.
 
 0:03:33.870,0:03:38.189
@@ -185,7 +185,7 @@ and that would once again make the puzzle
 kind of trivial.
 
 0:03:39.189,0:03:44.010
-Because then, two children can cross over
+Because then, two children can cross over,
 just push the boat back and then a single
 
 0:03:44.010,0:03:45.760
@@ -224,10 +224,10 @@ off.
 
 0:04:21.400,0:04:29.250
 So, now that we have marked all the important
-information in our story.
+information in our story,
 
 0:04:29.250,0:04:31.940
-We can start drawing our graph.
+we can start drawing our graph.
 
 0:04:31.940,0:04:39.880
 We are going to start by just revolving everything
@@ -304,15 +304,15 @@ Because they are going to stay in the starting
 side as given in the story.
 
 0:06:06.120,0:06:11.130
-Next up of course we have our actor, we have
-the father, and we have his two daughters,
+Next up, of course, we have our actor, we have
+the father, and we have his two daughters.
 
 0:06:11.130,0:06:14.690
-you might separate the daughters into two
-notes here.
+You might separate the daughters into two
+notes here,
 
 0:06:14.690,0:06:18.009
-But that is not strictly necessary here.
+but that is not strictly necessary here.
 
 0:06:18.009,0:06:22.169
 Because in terms of the puzzle, the daughters
@@ -347,7 +347,7 @@ Because he is going to be riding back and
 forth as well.
 
 0:06:54.979,0:06:58.490
-Then, of course we have all the information
+Then, of course, we have all the information
 about the properties between them.
 
 0:06:58.490,0:07:01.200
@@ -365,7 +365,7 @@ So, that kind of implies that can cross alone
 and nobody else fits in.
 
 0:07:16.220,0:07:21.509
-Next up the father of course, he has the same
+Next up, the father of course, he has the same
 property, he fits alone in the boat.
 
 0:07:21.509,0:07:25.740
@@ -395,7 +395,7 @@ side.
 Same with the boat.
 
 0:07:50.150,0:07:55.100
-And the father and daughters end up in the
+And the father and daughters end up on the
 other side.
 
 0:07:55.100,0:07:57.180
