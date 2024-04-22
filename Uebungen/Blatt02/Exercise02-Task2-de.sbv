@@ -20,7 +20,7 @@ entscheiden, ob er, so wie er dort steht, korrekt
 
 0:00:43.140,0:01:00.780
 ist oder nicht. Wir haben als ersten Term print
-von print und 1.2 in Anführungszeichen gegeben.
+von print von 1.2 in Anführungszeichen gegeben.
 
 0:01:02.700,0:01:11.700
 Diese Anführungszeichen hier machen den
@@ -35,7 +35,7 @@ soweit also korrekt. Allerdings kann das
 äußere print nicht so aufgerufen werden,
 
 0:01:28.140,0:01:36.480
-denn dieses print Geschichtezeugt ein Picture
+denn dieses print erzeugt ein Picture
 und print nimmt einen String. Deshalb ist das
 
 0:01:46.020,0:01:53.340
@@ -44,18 +44,18 @@ print ja nicht den richtigen Typ liefert.
 
 0:01:56.340,0:02:17.040
 Als nächstes kommt hier move. Und move nimmt
-print „no“ und circle 3 und dann minus 2 und 5.
+print „no“ und circle 3 und dann -2 und 5.
 
 0:02:22.440,0:02:34.320
 Also, das erste print mit dem no-String
-erzeugt ein Picture und verknüpft zwei
+erzeugt ein Picture und & verknüpft zwei
 
 0:02:34.320,0:02:44.448
 Picture. Circle mit dem Wert 3 erzeugt auch
 ein Picture und diese Parameter des move,
 
 0:02:44.448,0:02:51.180
--2, 5, sind auch von move benötigt, nämlich
+-2 und 5, sind auch von move benötigt, nämlich
 der zweite und dritte Parameter, die angeben,
 
 0:02:51.180,0:03:00.660
@@ -99,20 +99,20 @@ das Ganze zu betrachten. Circle von 4 ist ein
 korrekter Term, das erzeugt ein Picture. Der
 
 0:04:28.260,0:04:33.780
-Float 4 wird hier an circle übergeben, es wird
+Float-Wert 4 wird hier an circle übergeben, es wird
 ein Picture daraus entstehen, dann wird hier
 
 0:04:33.780,0:04:43.740
-rotate auf circle 4 und 37 angewendet. Auch das
+rotate auf circle(4) und 37 angewendet. Auch das
 ist korrekt. Weil 37 hier als Float als zweiter
 
 0:04:43.740,0:04:52.380
 Parameter von circle von 4 angenommen wird.
-Also das ergibt auch wieder ein Picture. dann
+Also das ergibt auch wieder ein Picture. Dann
 
 0:04:52.380,0:05:06.060
 kommt hier color und das nimmt hier blue und
-Blue rotate. Das ist problematisch, weil color
+rotate. Das ist problematisch, weil color
 
 0:05:12.000,0:05:19.800
 erst das Picture nehmen müsste und dann
@@ -146,8 +146,8 @@ Float-Werte. Das wäre dann gültig, wenn die beiden
 vertauscht wären, würden wir einen korrekten Term
 
 0:06:36.240,0:06:49.200
-erhalten. Der nächste Term beginnt mit rectangle
-3,1. Das erzeugt ein Picture nach der Definition
+erhalten. Der nächste Term beginnt mit rectangle(3,1)
+Das erzeugt ein Picture nach der Definition
 
 0:06:49.200,0:06:55.320
 der Vorlesung, denn es werden zwei Float-Werte
@@ -158,15 +158,15 @@ Und somit entsteht hier ein Picture. Dann dieses
 &, das verknüpft zwei Picture. Betrachten wir
 
 0:07:02.880,0:07:16.320
-dann das nächste Picture, rectangle 1,3 erzeugt
+dann das nächste Picture, rectangle(1,3) erzeugt
 auch wieder ein Picture. Rotate da drauf erzeugt
 
 0:07:19.620,0:07:21.720
 auch wieder ein
 
 0:07:24.360,0:07:34.860
-Picture, also rotate mit dem Picture rectangle
-1.3 und dem Wert 135, der hier als Float übergeben
+Picture, also rotate mit dem Picture rectangle(1,3)
+und dem Wert 135, der hier als Float übergeben
 
 0:07:34.860,0:07:42.960
 wird. Und somit ist auch der zweite Term hier ein
@@ -237,14 +237,14 @@ erzeugte Picture nehmen und mit den Werten 4 und
 
 0:10:03.000,0:10:13.800
 Fehler enthalten. Gehen wir zum nächsten
-Term. Hier ist auch wieder 6 verwendet um
+Term. Hier ist auch wieder & verwendet um
 
 0:10:13.800,0:10:24.960
 zwei Picture zu verbinden. Schauen wir uns das
-erste an. Hier ist circle 0.5 das erste Bild
+erste an. Hier ist circle(0.5) das erste Bild
 
 0:10:26.220,0:10:37.440
-und scale ist das zweite Bild. Das 6 Teil mit
+und scale ist das zweite Bild. Diesen Teil mit
 scale betrachten wir auch wieder von innen
 
 0:10:37.440,0:10:47.520
@@ -256,8 +256,8 @@ mit circle 5 als erstem Parameter und 35, also
 Picture und Float ist auch ein gültiges Picture.
 
 0:11:01.560,0:11:14.460
-Und dann kommt scale, was ein rotate von circle
-5 und 35 nimmt als ersten Parameter. Also ein
+Und dann kommt scale, was ein rotate von circle(5)
+und 35 nimmt als ersten Parameter. Also ein
 
 0:11:14.460,0:11:31.920
 Picture ist das auch. Dann als zweiten Wert 4
@@ -308,7 +308,7 @@ Picture erzeugt. Der erste Parameter von scale ist
 ein Picture, das stimmt. Danach kommt 3.8 und 2.7,
 
 0:13:30.300,0:13:39.480
-und die beiden Parameter Float werden auch für
+und die beiden Parameter als Float werden auch für
 scale benötigt. Also ist auch dieser Teil korrekt.
 
 0:13:39.480,0:13:47.400
@@ -317,7 +317,7 @@ von & benötigt wird. Also ist der Gesamtausdruck
 
 0:13:47.400,0:13:56.580
 ein Picture. Und dann kommt ein scale, das dieses
-Picture nimmt, was der erste Parameter ist und als
+Picture nimmt, was der erste Parameter ist, und als
 
 0:13:58.020,0:14:09.060
 zweiten die 2. Allerdings fehlt hier der
@@ -336,7 +336,7 @@ wenn hier noch zum Beispiel ,3 stehen
 würde, dann wäre das ein korrekter
 
 0:14:30.000,0:14:37.800
-Ausdruck. So im ersten Schritt allerdings ein
+Ausdruck. So ist es allerdings ein
 falscher und damit haben wir für alle Terme der
 
 0:14:37.800,0:14:48.060

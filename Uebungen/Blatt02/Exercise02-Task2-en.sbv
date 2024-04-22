@@ -14,7 +14,7 @@ I don't really have the space here to put
 the definitions next to this task.
 
 0:00:17.680,0:00:21.980
-Because either way the definitions of the
+Because either way the definitions or the
 task would be too small for you to read.
 
 0:00:21.980,0:00:25.340
@@ -65,24 +65,24 @@ Because the type does not match.
 
 0:01:12.700,0:01:21.229
 For B we have a “move” which expects something
-of type picture and there are 2 more parameters
+of type picture and 2 more parameters,
 
 0:01:21.229,0:01:24.340
 determining by how much it is moved.
 
 0:01:24.340,0:01:31.200
-And here we have a “print no” composited
-with “circle” which is- which returns
+And here we have a print("no") composited
+with “circle” which returns
 
 0:01:31.200,0:01:32.200
 something of type picture.
 
 0:01:32.200,0:01:37.869
 So, the first argument here is correct and
-the second and third argument are minus two
+the second and third argument are -2
 
 0:01:37.869,0:01:40.820
-and five which are also correct and acceptable
+and 5 which are also correct and acceptable
 here.
 
 0:01:40.820,0:01:48.149
@@ -113,14 +113,14 @@ second argument, a 6 which is correct for
 the third argument.
 
 0:02:16.890,0:02:22.340
-But here, we have a fourth argument and the
+But here, we have a fourth argument and
 scale only expects 3 arguments.
 
 0:02:22.340,0:02:27.730
 So, this extra argument here is incorrect.
 
 0:02:27.730,0:02:30.959
-And makes this part incorrect.
+And makes this term incorrect.
 
 0:02:30.959,0:02:36.310
 Moving on to D we have another “scale”
@@ -151,7 +151,7 @@ this “color” here provides.
 
 0:02:58.060,0:03:02.120
 And provided by how much it is moved by, this
-is the (?number) on type of arguments to move
+is the number and type of arguments for move
 
 0:03:02.120,0:03:03.120
 as well.
@@ -174,7 +174,7 @@ type picture for “color” operation which
 this second argument provides.
 
 0:03:16.970,0:03:21.770
-So, this “rotate” here merges correct,
+So, this “rotate” here, which is correct,
 provides the “picture” and blue provides
 
 0:03:21.770,0:03:22.770
@@ -214,7 +214,7 @@ And for the second composition our operator
 expects something of type picture at first
 
 0:04:03.150,0:04:06.269
-which this composition operator provides.
+which this first composition operator provides.
 
 0:04:06.269,0:04:09.370
 And another “picture” which this “circle”
@@ -227,14 +227,14 @@ So, E is correct.
 It is not what I wanted to do.
 
 0:04:14.090,0:04:17.760
-That is- this is correct.
+This is correct.
 
 0:04:17.760,0:04:25.270
 And we can move on to F. F gives us a “rotate”
 with a “rectangle” being rotated.
 
 0:04:25.270,0:04:28.870
-Here we have to watch out for the parenthesis
+Here we have to watch out for the parenthesis,
 where they are.
 
 0:04:28.870,0:04:33.300
@@ -242,7 +242,7 @@ So, this is the first argument here, this
 entire “rotate” thing which is correct.
 
 0:04:33.300,0:04:35.230
-Or this composition operator.
+For this composition operator.
 
 0:04:35.230,0:04:38.090
 So, this is something of type picture.
@@ -286,11 +286,11 @@ And “prints” expects something of type
 string as we have learned in the first part,
 
 0:05:20.680,0:05:22.690
-which this “modellierung” is not.
+which this “Modellierung” is not.
 
 0:05:22.690,0:05:28.789
 Because it is missing it is not marked as
-being a “string “. So, this “modellierung”
+being a “string “. So, this “Modellierung”
 
 0:05:28.789,0:05:33.300
 here is not a “string” and therefore not
@@ -312,11 +312,11 @@ Because this composition is inside of this
 “rotate”.
 
 0:05:49.360,0:05:56.150
-So, this “move” here causing (?the composition)
-all of this is the first argument, up to the
+So, this “move” here crossing the composition
+operator, all of this is the first argument,
 
 0:05:56.150,0:05:57.830
-last comma back here.
+up to the last comma back here.
 
 0:05:57.830,0:06:01.790
 So, this is the first argument providing something
@@ -402,7 +402,7 @@ This is correct.
 
 0:07:19.930,0:07:27.639
 This “rotate” needs something of type
-picture which the “circle 5” provides
+picture which the circle(5) provides
 
 0:07:27.639,0:07:31.060
 and by how much it is rotated by so this is
@@ -413,7 +413,7 @@ Now we step this far deep inside here as we
 could everything is correct.
 
 0:07:35.740,0:07:40.580
-So, this G is correct term G is correct as
+So, term G is correct as
 well.
 
 0:07:40.580,0:07:49.840
@@ -421,11 +421,11 @@ Put a check mark here, marking G as correct.
 
 0:07:49.840,0:07:56.360
 And finally, we have H with an outer “rotate”
-this “rotate” gets on the parenthesis
+this “rotate” gets, as the first parameter,
 
 0:07:56.360,0:08:02.940
 something of type picture which starts by
-this “scale “here, up to this last comma
+this “scale“ here, up to this last comma
 
 0:08:02.940,0:08:03.940
 back here.
@@ -458,7 +458,7 @@ something else is being scaled.
 
 0:08:32.849,0:08:36.729
 And the second argument telling us the X axis
-is scaling.
+of the scaling.
 
 0:08:36.729,0:08:43.640
 But we are missing a third argument for the
