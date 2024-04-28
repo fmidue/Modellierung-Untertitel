@@ -11,7 +11,7 @@ aus der Vorlesung kennen, um eine weitere
 Operation erweitern, die ein solches, wie
 
 0:00:12.900,0:00:15.879
-hier unten dargestellt, regelmäßiges Vieleck
+hier unten dargestelltes, regelmäßiges Vieleck
 zeichnen kann.
 
 0:00:15.879,0:00:23.029
@@ -19,7 +19,7 @@ Wir sollen uns dafür nicht mit der eigentlichen
 Implementierung beschäftigen, das macht die
 
 0:00:23.029,0:00:27.010
-Vektorgraphik-Operation aus der Vorlesung
+Vektorgraphik-Operationen-Sammlung aus der Vorlesung
 ja auch nicht, sondern wir sollen einfach
 
 0:00:27.010,0:00:35.070
@@ -131,7 +131,7 @@ alle Seiten dieselbe Länge.
 
 0:02:38.340,0:02:42.969
 Also, warum geben wir nicht einfach als Parameter
-an, die Länge dieser Seite zum Beispiel?
+die Länge dieser Seite zum Beispiel an?
 
 0:02:42.969,0:02:45.849
 Das wäre auch vollkommen möglich.
@@ -179,7 +179,7 @@ Das ist natürlich dann für uns ein bisschen
 einfacher.
 
 0:03:24.950,0:03:29.989
-So oder so, wie dieser ... wahrscheinlich
+So oder so, dieser Wert wird wahrscheinlich
 keine ganze Zahl sein, wir können ja auch
 
 0:03:29.989,0:03:33.319
