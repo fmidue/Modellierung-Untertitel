@@ -41,7 +41,7 @@ Am Ende bekommen wir daraus ein Picture.
 Jetzt sollen wir das Ganze in die Praxis umsetzen.
 
 0:00:51.560,0:00:57.020
-Dafür werden wir die Codewort Webseite benutzen
+Dafür werden wir die "CodeWorld" Webseite benutzen
 und sehen, wie das richtig funktioniert und
 
 0:00:57.020,0:00:59.710
@@ -58,7 +58,7 @@ Der Radius beträgt 2, wie wir hier sehen.
 
 0:01:09.750,0:01:27.280
 Dann gehen wir jetzt hierhin und schreiben:
-vieleck (13,2) als Radiuslänge.
+vieleck (13,2) mit 13 Kanten, 2 als Radiuslänge.
 
 0:01:27.280,0:01:31.230
 Jetzt sehen wir, dass es funktioniert.
@@ -84,7 +84,8 @@ Deswegen müssen wir diesen Operator benutzen,
 den ihr ja schon in der Vorlesung kennengelernt
 
 0:02:00.509,0:02:01.719
-habt.
+habt. Der Operator verbindet zwei
+Objekte vom Typ Picture.
 
 0:02:01.719,0:02:10.720
 & vieleck (7,1).
@@ -108,8 +109,8 @@ schon in der Vorlesung vorgekommen ist.
 Die heißt Move.
 
 0:02:34.430,0:02:50.099
-Wir brauchen Argumente, die für die X- und
-die Y-Achse stehen.
+Move nimmt ein Picture und noch zwei Float-
+Argumente, die für die X- und die Y-Achse stehen.
 
 0:02:50.099,0:02:58.629
 Zuerst sollen wir angeben, um wie viele Einheiten
