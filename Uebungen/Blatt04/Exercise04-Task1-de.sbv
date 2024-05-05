@@ -25,7 +25,7 @@ Also wenn wir anhand dieses Klassendiagramms
 Objekte instanziieren würden, welche Objekte
 
 0:00:32.790,0:00:34.710
-könnten dann diese Funktion hier aufrufen?
+könnten dann diese Funktionen hier aufrufen?
 
 0:00:34.710,0:00:38.570
 Dafür gehen wir einfach mal alle diese Klassen
@@ -52,7 +52,7 @@ Das ist die Definition einer Abstract-Klasse.
 
 0:01:01.240,0:01:07.439
 Also müssen wir weiter gucken, welche Klassen
-könnten denn diese Funktion erben?
+könnten denn diese Funktionen erben?
 
 0:01:07.439,0:01:09.790
 Also hier haben wir einen Vererbungsfall.
@@ -125,7 +125,7 @@ Das sollen wir ändern, und zwar so, dass
 die Methoden-Typen der objektorientierten
 
 0:02:29.599,0:02:32.489
-Sicht auf die Vektorgrafik Funktionen entsprechen.
+Sicht auf die Vektorgrafik-Operationen entsprechen.
 
 0:02:32.489,0:02:35.079
 Diese Funktionen kennen wir schon aus der
