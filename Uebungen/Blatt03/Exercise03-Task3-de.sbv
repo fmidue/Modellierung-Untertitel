@@ -76,7 +76,7 @@ Klasse, Person, und zwei Klassen, Student,
 und eine Klasse Prüfer.
 
 0:01:24.500,0:01:38.650
-Und diesen beiden Klassen, Student und Prüfer,
+Und diese beiden Klassen, Student und Prüfer,
 sind Personen, das heißt, beide erben von
 
 0:01:38.650,0:01:39.650
@@ -305,7 +305,7 @@ Das Alter bei Student ist drin, der Kursname
 bei Prüfer ist auch drin.
 
 0:06:22.680,0:06:24.380
-Anzahl bei Prüfungsamt ist auch drin.
+AnzahlMitarbeiter bei Prüfungsamt ist auch drin.
 
 0:06:24.380,0:06:27.770
 Jetzt müssen wir noch gucken, ob es irgendwelche
