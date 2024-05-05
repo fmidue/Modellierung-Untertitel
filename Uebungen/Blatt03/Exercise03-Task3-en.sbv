@@ -8,14 +8,14 @@ scenario.
 
 0:00:16.440,0:00:21.980
 Which we have to consider in order to create
-simple class diagram.
+a simple class diagram.
 
 0:00:21.980,0:00:30.240
 Also, we should think about the properties
 that the actors and institutions in this model
 
 0:00:30.240,0:00:33.750
-must have and yeah.
+must have.
 
 0:00:33.750,0:00:41.520
 And then, give an appropriate class diagram
@@ -26,7 +26,7 @@ And we also have to define the types of the
 attributes.
 
 0:00:46.050,0:00:51.930
-For this class I want to read the little scenario.
+For this task I want to read the little scenario.
 
 0:00:51.930,0:00:54.570
 Different persons appear in our model.
@@ -69,10 +69,10 @@ which tell us a lot about this class diagram.
 
 0:01:49.680,0:02:04.540
 It tell us that are different persons in our
-model, (?the A), differently aged students.
+model. There are differently aged students.
 
 0:02:04.540,0:02:09.899
-So, first of all, we have students in our
+So, first of all, we have student as a
 class.
 
 0:02:09.899,0:02:19.459
@@ -83,7 +83,7 @@ And we have the examination office.
 
 0:02:30.640,0:02:36.790
 We write those classes in Camel Case which
-means that the person let us uppercase letters
+means that the first letters are uppercase letters
 
 0:02:36.790,0:02:40.000
 and all the other letters are lowercase.
@@ -101,7 +101,7 @@ So, like we did here with the examination
 office.
 
 0:02:56.600,0:03:00.620
-And if you use singular forms for our classes.
+And we use singular forms for our classes.
 
 0:03:00.620,0:03:08.520
 So, we have the examiner class, the student
@@ -112,14 +112,14 @@ And we have another class given in the next
 sentence.
 
 0:03:16.170,0:03:21.150
-Where stayed of course students and examiners
+Where it states that of course students and examiners
 as persons.
 
 0:03:21.150,0:03:28.950
 So, we have another class called “person”.
 
 0:03:28.950,0:03:34.780
-And (?the states) that every person has a
+And there it states that every person has a
 name.
 
 0:03:34.780,0:03:38.610
@@ -138,21 +138,21 @@ persons.
 
 0:04:02.819,0:04:09.819
 But we also have info about the students which
-was the (?A), age.
+was, that they are aged.
 
 0:04:09.819,0:04:21.610
 So, we also have the age for the students.
 
 0:04:21.610,0:04:43.770
-And now, we have the examiners and they have
-not the aged stored.
+And now, we have the examiners and they do not
+have their ages stored.
 
 0:04:43.770,0:04:45.110
 This is important.
 
 0:04:45.110,0:04:51.330
-Because if they would have the aged then we
-would have to define the age in person.
+Because if they would have the age then we
+would have to define the age within person.
 
 0:04:51.330,0:05:00.160
 But the ages are only stored for the students,
@@ -166,19 +166,19 @@ course.
 So, we should store the course name.
 
 0:05:07.840,0:05:14.310
-I didn’t read the matriculation number and
-I typed “Int” here.
+I have written the matriculation number and
+age as “Int” here.
 
 0:05:14.310,0:05:20.380
 Because I think it should be quite clear that
-the age It’s of course an Int value.
+the age is of course an Int value.
 
 0:05:20.380,0:05:24.520
 And the matriculation number is usually an
 Int.
 
 0:05:24.520,0:05:28.030
-So, we have it in this book as well.
+So, we have it in Duisburg-Essen as well.
 
 0:05:28.030,0:05:36.479
 So, we use just an Int value here and the
@@ -202,15 +202,15 @@ And the examination office has the number
 of employees.
 
 0:06:00.800,0:06:08.850
-So, as we talk about a number or, well, we
+So, as we talk about a number, we
 should use “Int” as a type here.
 
 0:06:08.850,0:06:21.490
 So, we can say, the examination office has
-the number of employees as Int so we can for
+the number of employees as Int so we can call it,
 
 0:06:21.490,0:06:29.270
-instance, “employees” and say that it’s
+for instance, “employees” and say there is
 an Int value for that.
 
 0:06:29.270,0:06:40.270
@@ -233,13 +233,13 @@ This implies that we should have an inheritance
 here.
 
 0:07:09.440,0:07:13.460
-So, students should inherit from a person.
+So, students should inherit from person.
 
 0:07:13.460,0:07:14.919
 But also, the examiners.
 
 0:07:14.919,0:07:23.050
-So, we can draw an inheritance to persons
+So, we can draw an inheritance to person
 from both of them.
 
 0:07:23.050,0:07:32.800
