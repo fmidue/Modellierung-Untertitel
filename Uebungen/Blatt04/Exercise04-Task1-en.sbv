@@ -3,11 +3,11 @@ Welcome to this video about the exercise task
 about the vector graphics example. In this
 
 0:00:12.050,0:00:23.060
-task, first of all, we have given a class
+task, first of all, we have a class
 diagram, which consists of five classes. And
 
 0:00:23.060,0:00:31.480
-we shall see which method or which classes
+we shall say which method or which classes
 can invoke the methods scale, color, rotate,
 
 0:00:31.480,0:00:40.940
@@ -20,10 +20,10 @@ the Picture class. So, that is why we could
 
 0:00:50.579,0:01:04.570
 simply say, of course, all objects of class
-Picture could call those methods. Or all those
+Picture could call those methods.
 
 0:01:04.570,0:01:10.891
-objects could invoke those methods. But, as
+But, as
 the Picture class is an abstract class, there
 
 0:01:10.891,0:01:21.509
@@ -44,7 +44,7 @@ and Path can all invoke those mentioned methods.
 
 0:01:49.469,0:02:01.620
 But for Point, this is not true. So, because
-Point is in relation with Path an aggregation,
+Point is in relation with Path by an aggregation,
 
 0:02:01.620,0:02:10.670
 Points cannot invoke these methods. For instance,
@@ -67,16 +67,16 @@ the vector graphics example when it was introduced.
 Because there we have the operations or the
 
 0:02:50.040,0:02:57.740
-functions to find which are the basis for
+functions defined which are the basis for
 the methods which we've got in this class
 
 0:02:57.740,0:03:06.459
 here. And this function always takes a Picture
-and then more arguments and return a picture.
+and then more arguments and returns a picture.
 
 0:03:06.459,0:03:13.540
-In our case, we've got the object (?entered
-few) of this now. And we've got a Picture
+In our case, we've got the object-oriented view
+ of this now. And we've got a Picture
 
 0:03:13.540,0:03:24.360
 already. On the specific Picture, we call
@@ -88,7 +88,7 @@ require further arguments. But we change the
 
 0:03:33.070,0:03:39.700
 Picture at hand. That is why we do not require
-Pictures and arguments. And when we have got
+a Picture as an argument. And when we have got
 
 0:03:39.700,0:03:51.129
 scale, we shall use the UML syntax here. We
@@ -99,7 +99,7 @@ for scale, we, of course, would scale within
 the x and y direction. So, we require an x
 
 0:04:01.159,0:04:10.020
-and a y value. So, let's say extent is the
+and a y value. This is the
 type that we've got from here already, which
 
 0:04:10.020,0:04:18.019
@@ -139,8 +139,8 @@ methods here by looking at the functions that
 we had in the vector graphics example that
 
 0:05:27.819,0:05:32.750
-was introduced. And the color changes the
-color of the Picture and therefore requires
+was introduced. And "color" changes the
+color of the Picture and therefore requires a
 
 0:05:32.750,0:05:45.430
 color. Let's call it C. And then we've got
@@ -151,7 +151,7 @@ as we rotate the Picture itself. This would
 be just float for an angle. So, let's call
 
 0:05:54.170,0:06:04.680
-it angle. And you will require a float. Once
+it angle. And you we require a float. Once
 again, we do not require a return type of
 
 0:06:04.680,0:06:10.650
@@ -172,10 +172,10 @@ is the same, and we can also keep the same
 
 0:06:45.819,0:06:53.910
 names for our parameters. Because in this
-case, it's also that we have got an x and
+case, we have also got an x and
 
 0:06:53.910,0:07:05.370
-a y-direction for moving. Now extend is an
+a y-direction for moving. Now extent is an
 operation that is not found here within the
 
 0:07:05.370,0:07:14.410
@@ -187,12 +187,12 @@ it was mentioned within the object orientation
 already, but there we have the example again.
 
 0:07:20.940,0:07:31.860
-And there is extend defined as returning a
+And there is extent defined as returning a
 float value for Picture. So, we could think
 
 0:07:31.860,0:07:37.550
 about this like, we've got a picture already,
-and when we call extend on it, we just want
+and when we call extent on it, we just want
 
 0:07:37.550,0:07:45.020
 to return the float value. So, this is different
@@ -247,7 +247,7 @@ that takes one argument, which is the other
 Picture. So, let's call it p. And this of
 
 0:09:41.190,0:09:56.710
-time Picture. And it will change the Picture
+type Picture. And it will change the Picture
 at hand by calling this method. We have then
 
 0:09:56.710,0:10:05.630

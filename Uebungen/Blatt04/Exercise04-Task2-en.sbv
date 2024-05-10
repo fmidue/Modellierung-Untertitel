@@ -96,11 +96,11 @@ types of computers because, technically,
 
 0:02:40.800,0:02:48.180
 Laptop and Tablet could also be servers. So, it
-would make sense to have it directly inherited
+would make sense to have it directly inherit
 
 0:02:48.180,0:02:56.340
-from the Computer and not directly related to
-the Client and server in any way. If we do that,
+from Computer and not directly related to
+Client and server in any way. If we do that,
 
 0:02:57.720,0:03:06.780
 we have our second generalization
@@ -151,7 +151,7 @@ complete generalization group. Now, you could also
 argue in this case that you just use your Computer
 
 0:04:22.440,0:04:27.300
-for gaming, for example. You are not a client or
+for gaming, for example. You are not a client for
 anything. You are not a server for anything. You
 
 0:04:27.300,0:04:32.280
@@ -168,14 +168,14 @@ even if you're playing games, you're still a
 
 0:04:44.520,0:04:49.860
 client for something. Because how did you get the
-game? These days you normally download it (? from
+game? These days you normally downloaded it.
 
 0:04:49.860,0:04:55.800
-somewhere). So, at some point, your Computer was
+So, at some point, your Computer was
 a client. So, let's say, in this case, this is a
 
 0:04:55.800,0:04:59.880
-complete generalization because your Computer
+complete generalization group because your Computer
 is going to be either a client or a server.
 
 0:05:03.720,0:05:10.980
@@ -247,8 +247,8 @@ your Computer technically both. So, that would
 be a case where it's overlapping. Or we could go
 
 0:07:09.000,0:07:12.840
-with a narrative we've used before. Your Client
-is either a server or a computer. Therefore,
+with a narrative we've used before. Your computer
+is either a server or a client. Therefore,
 
 0:07:16.140,0:07:22.020
 this would be a disjoint generalization
@@ -259,11 +259,11 @@ And say this is a complete generalization group,
 and it's disjoint. Because computers can be either
 
 0:07:30.660,0:07:36.180
-clients or servers. That can never be both. So,
+clients or servers. They can never be both. So,
 this is both a complete generalization group
 
 0:07:36.180,0:07:41.880
-and disjointed at the same time. And for our
+and disjoint at the same time. And for our
 device-types generalization group, we decided
 
 0:07:41.880,0:07:49.260
@@ -276,7 +276,7 @@ we are supposed to give a possible attribute for
 
 0:07:58.080,0:08:04.200
 each of three of the classes. So, basically, three
-attributes are distributed throughout our diagram
+attributes distributed throughout our diagram
 
 0:08:04.200,0:08:14.400
 here. And they need to capture the property of
@@ -284,7 +284,7 @@ the object exactly from that class. That means, if
 
 0:08:14.400,0:08:20.940
 we think of any attribute, we need to be careful
-that attribute actually belongs only in that class
+that the attribute actually belongs only in that class
 
 0:08:22.500,0:08:29.760
 and in any classes that inherit from that
@@ -292,7 +292,7 @@ class. I will give an example. So, for example,
 
 0:08:29.760,0:08:36.900
 we decide that we want an attribute for the
-number of CPU cores. Let's just call it core.
+number of CPU cores. Let's just call it cores.
 
 0:08:36.900,0:08:43.920
 And we give it a type of Int because you can't
@@ -319,7 +319,7 @@ attribute makes the most sense being in Computer
 because all the other classes inherit from it. So,
 
 0:09:13.380,0:09:17.460
-we've put in Computer. We have one of
+we put in Computer. We have one of
 our attributes correctly placed already.
 
 0:09:17.460,0:09:25.020
@@ -356,7 +356,7 @@ for a Laptop that wouldn't work for any of these
 
 0:10:08.160,0:10:18.120
 other ones? For example, you could say the number
-of keys on the keyboard. The number of keys,
+of keys on the keyboard. Once again,
 
 0:10:20.820,0:10:26.640
 you only have whole keys. So, we type it as
@@ -407,7 +407,7 @@ three attributes here: cores in Computer, number
 of keys in Laptop, Tablet has touch sensitivity.
 
 0:11:48.960,0:11:54.420
-And for this one, also going (? all out for a)
+And for this one, also going over it for a
 moment. The Laptop normally wouldn't have touch
 
 0:11:54.420,0:12:00.540

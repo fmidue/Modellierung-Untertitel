@@ -1,5 +1,5 @@
 0:00:02.159,0:00:06.029
-Willkommen zum Video, zur Übungsaufgabe zu
+Willkommen zum Video zur Übungsaufgabe zu
 Generalisierungsgruppen.
 
 0:00:06.029,0:00:12.139
@@ -100,7 +100,7 @@ Ich hatte gesagt, die Kategorie hier in dem
 ersten Fall wäre dann die Nutzungsart, in
 
 0:03:00.870,0:03:11.130
-dem Fall hier drüben wäre es die Gerät-Klasse.
+dem Fall hier drüben wäre es die Geräteklasse.
 
 0:03:11.130,0:03:24.850
 Dann gilt es natürlich noch weiter zu unterscheiden,
@@ -227,7 +227,7 @@ angegeben werden, die eingetragen werden sollen.
 
 0:06:35.440,0:06:41.860
 Da könnten wir jetzt für alle Klassen einfach
-belegen, was hier vorhanden sein könnte.
+überlegen, was hier vorhanden sein könnte.
 
 0:06:41.860,0:06:48.680
 Beim Rechner könnte man sagen, jeder Rechner
@@ -277,13 +277,13 @@ Festplatte.
 
 0:07:55.390,0:08:01.491
 Ein Server nicht unbedingt, denn dort ist
-zum Beispiel Netzwerk gut möglich, über
+zum Beispiel ein Netzwerk-Boot möglich, über
 
 0:08:01.491,0:08:03.410
 den das System startet.
 
 0:08:03.410,0:08:09.920
-Und dann gibt es Network-Attachment-Storage
+Und dann gibt es Network-Attached-Storage
 oder so etwas, auf das der Server zugreift.
 
 0:08:09.920,0:08:14.460
@@ -302,13 +302,13 @@ Beim Tablet ist vielleicht interessant, ob
 es einen SIM-Karten-Slot hat, deshalb könnte
 
 0:08:39.120,0:08:46.819
-man gerade SIM-Karten-Slot als Boolean angeben.
+man 'hatSimkartenslot' als Boolean angeben.
 
 0:08:46.819,0:08:52.629
 Also entweder es hat einen oder es hat keinen.
 
 0:08:52.629,0:09:09.649
-Der Laptop, den
+Der Laptop, da
 habe ich hier angenommen, dass der keinen
 
 0:09:09.649,0:09:10.649
