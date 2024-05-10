@@ -3,10 +3,10 @@ In dieser Aufgabe beschäftigen wir uns mit
 Klassen und Objekten und ganz spezifisch mit
 
 0:00:07.130,0:00:10.820
-dem Anfang von OML, hier in Form eines OML-Klassendiagramms.
+dem Anfang von UML, hier in Form eines UML-Klassendiagramms.
 
 0:00:10.820,0:00:14.650
-Wir haben hier dieses OML-Klassendiagramm
+Wir haben hier dieses UML-Klassendiagramm
 schon vorgegeben.
 
 0:00:14.650,0:00:20.269
@@ -32,7 +32,7 @@ Also, es heißt, MotorizedVehicle vererbt
 an Motorcycle, beziehungsweise, umgekehrt
 
 0:00:40.030,0:00:46.320
-gelesen, Motorcycle erbt von auf der Pfeilseite,
+gelesen, Motorcycle erbt von, auf der Pfeilseite,
 MotorizedVehicle und MotorizedVehicle erbt
 
 0:00:46.320,0:00:47.370
@@ -237,7 +237,7 @@ jetzt DU-101.
 
 0:05:07.280,0:05:16.659
 Jetzt haben wir ja das MotorizedVehicle, wovon
-der Transporter erbt, aber MotorizedVehicle
+der Transporter direkt erbt, aber MotorizedVehicle
 
 0:05:16.659,0:05:18.139
 erbt auch nochmal von RentableVehicle.
