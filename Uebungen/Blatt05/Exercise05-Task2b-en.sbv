@@ -40,10 +40,10 @@ attributes or methods. So, we're just going to
 
 0:01:09.600,0:01:16.800
 get rid of these placeholders here and just
-leave it like this. Then we have our events
+leave it like this. Then we have our event
 
 0:01:16.800,0:01:23.640
-that are going on. In this case, this is a film.
+that is going on. In this case, this is a film.
 Since this is a generalization going on here, we
 
 0:01:23.640,0:01:30.420
@@ -71,7 +71,7 @@ our class diagram. So, we need those as well.
 
 0:02:16.440,0:02:22.140
 They are given in the text as well. The director
-of that famous Volkert Mort. We have a director.
+of that famous Volkert Mort. So we have 'director'.
 
 0:02:28.080,0:02:30.000
 The main actor is Harry Topper.
@@ -93,7 +93,7 @@ With that, we have the event that's going on
 in our object diagram and its relation to the
 
 0:03:10.800,0:03:17.220
-theater. And we can move on to the dates
+theater. And we can move on to the date
 where this is happening. Or we could move
 
 0:03:17.220,0:03:24.000
@@ -114,11 +114,11 @@ just leave it like that. We don't really
 
 0:03:52.140,0:03:59.640
 know how calendar date types are defined.
-But let's just assume. Writing this down.
+But let's assume it's just writing this down.
 
 0:04:01.020,0:04:06.420
 It's happening next year on a Saturday. Saturday
-doesn't really come into play. But next year, we
+doesn't really come into play here, but next year, we
 
 0:04:06.420,0:04:16.800
 can put this as 2021. Since it's 2020 currently.
@@ -146,7 +146,7 @@ So, we're just going to pull a single line here
 
 0:04:54.900,0:05:09.360
 for which we can copy this. Didn't copy all of it.
-There we go. It's a little fiddly sometimes. So,
+There we go. Drawio is a little fiddly sometimes. So,
 
 0:05:09.360,0:05:16.560
 this is the date of this film. So, this is our
@@ -198,11 +198,11 @@ seat number one for the attributes. And another
 
 0:06:44.400,0:06:54.840
 one, which is going to be seat number two, which
-is going our two booked seats. Both of those are
+is going to be our two booked seats. Both of those are
 
 0:06:54.840,0:07:07.920
 connected to booking via an aggregation,
-as we did in our class diagram. (9 sec.)
+as we did in our class diagram.
 
 0:07:07.920,0:07:16.980
 Some of these pre-made objects aren't that great.
@@ -241,7 +241,7 @@ this room one if we wanted to, just to have one
 object with the actual name. Rooms have names.
 
 0:08:20.400,0:08:26.280
-And the name is given an hour task as well. This
+And the name is given in our task as well. This
 is the "Bluesky" room. So, the name is "Bluesky."
 
 0:08:30.300,0:08:36.720
@@ -261,11 +261,11 @@ very fiddly.
 
 0:09:14.400,0:09:22.860
 I'm not sure what's doing that. But this sort
-of works. There we go. If you're using draw,
+of works. There we go. If you're using drawio,
 
 0:09:22.860,0:09:26.880
 you need to be careful to hit these little
-(?angle points) that show up sometimes. So,
+anchor points that show up sometimes. So,
 
 0:09:26.880,0:09:33.900
 this is our room connected to the seats now and
@@ -280,8 +280,8 @@ here. So, you can pull a normal line to the room.
 And once again, copy this label here, which tells
 
 0:09:50.460,0:09:56.760
-us that this event is happening on this date.
-There's something happening in that room.
+us, that on this date there is something
+happening in that room.
 
 0:09:57.900,0:10:04.320
 And looking at our task description again. See
@@ -293,7 +293,7 @@ going on. We have a room named "Bluesky." We have
 
 0:10:10.920,0:10:15.360
 our two seats. And we have
-our bookings. So, that's our
+our booking. So, that's our
 
 0:10:16.440,0:10:20.400
 object diagram dealt with as
