@@ -18,7 +18,7 @@ genau wir eigentlich machen müssen.
 
 0:00:20.720,0:00:35.930
 Hier steht, ein Petrinetz ist ein Tupel aus
-Tupel N = (S,T,((),()(,mo), wobei S eine endliche,
+Tupel N = (S,T,*(),()*,m0), wobei S eine endliche,
 
 0:00:35.930,0:00:42.190
 nichtleere Menge von Stellen und T eine endliche,
@@ -40,7 +40,7 @@ Wenn wir jetzt zu unserer Aufgabe zurückkommen,
 müssen wir auch erst mal definieren, dass
 
 0:01:15.020,0:01:26.770
-wir N = (S,T,((),()(,mo) haben.
+wir N = (S,T,*(),()*,m0) haben.
 
 0:01:26.770,0:01:37.080
 Dann müssen wir als nächstes S definieren.
@@ -51,7 +51,7 @@ Stellen.
 
 0:01:38.080,0:01:42.530
 Also schreiben wir auf, S ist eine Menge,
-also brauchen wir die Menge in Klammern, dann
+also brauchen wir die Mengenklammern, dann
 
 0:01:42.530,0:01:50.930
 schreiben wir hier rein s1, s2, s3, denn das
@@ -59,10 +59,10 @@ sind alle Stellen, die wir haben.
 
 0:01:50.930,0:01:59.229
 Dann müssen wir das Gleiche für die Transition
-auch machen, also schreiben wir T und in die
+auch machen, also schreiben wir T, öffnen die
 
 0:01:59.229,0:02:08.330
-Klammer t1, t2, t3 und t4, weil wir vier Transitionen
+Klammer, t1, t2, t3 und t4, weil wir vier Transitionen
 haben.
 
 0:02:08.330,0:02:13.850
@@ -80,7 +80,7 @@ das an und nehmen uns jetzt Transition für
 Transition vor.
 
 0:02:24.840,0:02:35.460
-Gucken wir uns die Transition 1 an und gucken,
+Gucken wir uns die Transition t1 an und gucken,
 was in t1 hineingeht.
 
 0:02:35.460,0:02:40.200
@@ -151,7 +151,7 @@ In t4 sehen wir, dass hier zwei Pfeile reingehen.
 
 0:03:49.190,0:03:57.740
 Nehmen wir uns erst mal den oberen vor und
-schreiben auf, t4 von wo kommt der Pfeil her?
+schreiben auf, t4 von, wo kommt der Pfeil her?
 
 0:03:57.740,0:04:00.260
 Aus s1 geht er in t4 rein.
