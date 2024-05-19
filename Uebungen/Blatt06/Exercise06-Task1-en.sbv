@@ -14,7 +14,7 @@ We already know that these Petri Nets are
 not correct.
 
 0:00:23.720,0:00:34.100
-And therefore, we have to check one of them
+And therefore, we have to check each one of them
 for reasons that make them invalid.
 
 0:00:34.100,0:00:42.510
@@ -76,11 +76,11 @@ this Petri Net.
 
 0:02:18.730,0:02:25.340
 So, there are no connections between transitions
-or place itself.
+or places themselves.
 
 0:02:25.340,0:02:37.170
 But there is another issue, and this concerns
-on the weight of which is given here because
+the weight which is given here because
 
 0:02:37.170,0:02:43.920
 negative weights are not allowed at these
