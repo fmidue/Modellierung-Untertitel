@@ -109,7 +109,7 @@ Allerdings erbt A die beiden Aggregation,
 die B hat, denn B ist die Superklasse.
 
 0:02:21.700,0:02:29.510
-Und dementsprechend haben wir zwischen A und
+Und dementsprechend haben wir zwar zwischen A und
 C durch die geerbte Aggregation hier mit der
 
 0:02:29.510,0:02:32.040
