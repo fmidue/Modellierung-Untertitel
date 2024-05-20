@@ -8,14 +8,14 @@ are simplified. So, there are no attributes and
 
 0:00:19.260,0:00:33.660
 no methods. These class diagrams simply consist
-of those boxes and have relationships between
+of boxes and have relationships between
 
 0:00:33.660,0:00:44.400
 them. So, we do not have to look at attributes
 and methods here. We can assume that these
 
 0:00:44.400,0:00:53.820
-classes are (?well-tiered). For instance, this
+classes are well-tiered. For instance, this
 A class here shall be treated as a valid class,
 
 0:00:53.820,0:01:01.440
@@ -31,7 +31,7 @@ between A and B. So, A consists of B's. And
 we have an aggregation where B's consist of A.
 
 0:01:30.000,0:01:40.860
-But this is not problematic because if it were
+But this is not problematic. If it were just
 compositions, then we would have cycled between
 
 0:01:40.860,0:01:50.460
@@ -52,7 +52,7 @@ means B's are also A's. And when this happens,
 
 0:02:27.420,0:02:34.980
 then this means that they also inherit the
-composition where A consists of C's. And
+composition where A's consists of C's. And
 
 0:02:34.980,0:02:41.160
 this would mean that B's consist of C's whereas
@@ -79,16 +79,16 @@ of A and of C at the same time. And this is
 not allowed as the composition rules are that
 
 0:03:43.740,0:03:57.060
-a part can only be a part of (?one
-whole). So, this does not make sense.
+one part can only be a part of one
+whole. So, this does not make sense.
 
 0:03:58.680,0:04:04.620
 So, we could argue that the class diagram
 is valid. But if we say it's valid,
 
 0:04:04.620,0:04:10.560
-then we also have to admit that there is (?no
-instance valid). So, we can also say this class
+then we also have to admit that there is no
+valid instance. So, we can also say this class
 
 0:04:10.560,0:04:21.600
 diagram is invalid. But if you say it's valid,

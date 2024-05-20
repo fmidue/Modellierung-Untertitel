@@ -1,6 +1,6 @@
 0:00:00.480,0:00:06.060
 In this task, we are going to model an online
-ticketing system for theater. For this system,
+ticketing system for a theater. For this system,
 
 0:00:06.060,0:00:11.460
 we are already given a very thorough description
@@ -19,8 +19,8 @@ some additional notes here for the data types
 that we might use in our attributes. We can
 
 0:00:29.280,0:00:35.340
-use some given classes, namely price for
-prices, calendar date for calendar dates,
+use some given classes, namely 'Price' for
+prices, 'CalendarDate' for calendar dates,
 
 0:00:35.340,0:00:39.540
 and time for clock times. We don't need to model
@@ -55,11 +55,11 @@ theater class. And it consists of different rooms.
 We can't really do anything with that yet because
 
 0:01:24.240,0:01:29.340
-we don't have other classes. (?But we'd hold)
-each room, the room is also underlined. So, this
+we don't have other classes. But we're told,
+each room, the room is also underlined so this
 
 0:01:29.340,0:01:36.660
-is going to be a class as well. Has a name, and
+is going to be a class as well, has a name and
 each seat has a number. So, we have room and seat.
 
 0:01:36.660,0:01:42.780
@@ -111,8 +111,8 @@ just start working out the relations
 between the classes here right away.
 
 0:02:48.120,0:02:53.520
-I'm just going to start by reading this
-entry here. Consists kind of implies some
+I'm just going to start by reading a little
+into this here. Consists kind of implies some
 
 0:02:53.520,0:03:00.120
 kind of relation to other Class because a theater
@@ -140,7 +140,7 @@ So, we are going to make that a composition,
 
 0:03:35.640,0:03:44.220
 connecting theater to room. And the composition
-arrow we get from the draw arrow here already
+arrow we get from the drawio here already
 
 0:03:44.220,0:03:49.920
 has some multiplicity here, at least one,
@@ -191,11 +191,11 @@ anything for us yet. But an event is either a film
 or a concert. There is underlines. Once again,
 
 0:05:11.760,0:05:18.120
-tell us that these are classes. So, we have
+that tells us that these are classes. So, we have
 the class event. And we have the classes
 
 0:05:20.520,0:05:30.540
-filmed and concept. Each event has a name.
+'Film' and 'Concert'. Each event has a name.
 So, you have the name attribute in Event.
 
 0:05:31.380,0:05:34.800
@@ -203,7 +203,7 @@ Additionally, we have, for a
 film, the name of the director
 
 0:05:39.180,0:05:47.880
-and the main actor stored. (5 sec.)
+and the main actor stored.
 
 0:05:47.880,0:05:54.160
 For a concert, the name of the conductor and
@@ -241,7 +241,7 @@ joined in the middle here and then just one arrow
 
 0:06:57.960,0:07:04.740
 to the event. But this works as well. We can get
-rid of these extent labels. Draw arrow adds these
+rid of these extent labels. Drawio adds these
 
 0:07:04.740,0:07:09.300
 automatically. But the arrow already means that
@@ -265,7 +265,7 @@ Because the event isn't part of the theater,
 
 0:07:37.260,0:07:42.600
 and the theater isn't part of the event. So, this
-is most likely just the simple association here.
+is most likely just a simple association here.
 
 0:07:45.660,0:07:52.860
 We're not going to use the arrow that draw
@@ -277,7 +277,7 @@ child. This is not really all that helpful.
 
 0:07:59.880,0:08:06.780
 Instead, we are going to add a label that gives us
-some indication of what this association formed,
+some indication of what this association is for,
 
 0:08:06.780,0:08:14.100
 namely conducts. So, the theater conducts an
@@ -329,7 +329,7 @@ and then we can use one of those predefined
 
 0:09:25.440,0:09:34.920
 classes that we were told about in the help
-text, namely the calendar date. (5 sec.)
+text, namely the calendar date.
 
 0:09:34.920,0:09:39.780
 It's important here that we make use of
@@ -344,16 +344,16 @@ to define our own. So, this is really helpful that
 these are given to us. We have the time as well.
 
 0:09:55.800,0:10:00.960
-You need the time class that we are given. And we
-have the price for the seats. Of course, we can
+Using the time class that we are given. And we
+have the price for the seats. Which we can
 
 0:10:00.960,0:10:07.080
-just give us the price. And for that, we're using
-the price class. And that's our three attributes.
+just give as 'price'. And for that, we're using
+the Price class. And that's our three attributes.
 
 0:10:09.780,0:10:13.020
 There's, once again, no indication of
-finding methods here. So, we're going
+any methods here. So, we're going
 
 0:10:13.020,0:10:17.940
 to delete this method placeholder.
@@ -428,7 +428,7 @@ to infinity. So, this can be a relationship of one
 event on however many dates, at least one date.
 
 0:12:21.240,0:12:26.520
-It can really be zero to however many
+It can't really be zero to however many
 here because the text specifically says
 
 0:12:26.520,0:12:32.940
@@ -453,10 +453,10 @@ then add a reading direction, once again.
 
 0:13:02.940,0:13:07.860
 A label with a reading direction
-that says the date a room happens.
+that says,
 
 0:13:09.540,0:13:16.500
-For example, a room is booked for a
+for example, a room is booked for a
 specific date. So, we can say booked
 
 0:13:19.560,0:13:28.500
@@ -469,10 +469,10 @@ date is taking place in a specific room. So,
 
 0:13:40.080,0:14:03.660
 taking place. Or just in. And then reading arrow
-in the other direction. There we go. So, happened
+in the other direction. There we go.
 
 0:14:03.660,0:14:11.220
-in. (? Do like that). So, some kind of date, some
+So, some kind of date, some
 kind of event is happening in that specific room.
 
 0:14:12.360,0:14:18.120
@@ -480,7 +480,7 @@ Speaking of that specific room, the text says a
 room where it happens. So, not multiple rooms. So,
 
 0:14:18.120,0:14:24.480
-this is implicated in the multiplicity of one
+this is implicated the multiplicity of one
 here. You can just leave that as the one here.
 
 0:14:24.480,0:14:31.980
@@ -544,8 +544,8 @@ theater and reserves the selected seats.
 So, we're going to add another method here,
 
 0:16:03.480,0:16:11.160
-which is called "send," which just sends the book
-into the theater and reserves the selected seats.
+which is called "send," which just sends the booking
+to the theater and reserves the selected seats.
 
 0:16:11.160,0:16:17.520
 The booking is being sent away here. So, this
@@ -593,7 +593,7 @@ booking just having a relationship to the date.
 
 0:17:23.340,0:17:33.640
 Namely, being a booking for a specific date
-with reading directed from booking to date. Move
+with reading direction from booking to date. Move
 
 0:17:34.800,0:17:40.980
 a little closer. Let's just leave
@@ -620,11 +620,11 @@ And we're told one or more. So,
 
 0:18:14.640,0:18:19.620
 the multiplicity on the side of the seat
-is going to be one, two, however many.
+is going to be one to however many.
 
 0:18:23.100,0:18:30.240
 And we can remove this multiplicity down here that
-draw arrow added if I can (? get it). There it is.
+drawio added.
 
 0:18:32.400,0:18:39.660
 Because there's no indication that one seat

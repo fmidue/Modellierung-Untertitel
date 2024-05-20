@@ -1,6 +1,6 @@
 0:00:01.100,0:00:09.160
 This is exercise five, task three. I'm going
-to use xmodeler software to solve it. I'm
+to use XModeler software to solve it. I'm
 
 0:00:09.160,0:00:23.630
 going to create a project. Let's call it e5t3.
@@ -43,19 +43,19 @@ constraints are basically. We're going to
 see this now. Okay, let me do the first class
 
 0:01:27.150,0:02:36.150
-diagram. So, we have A, B, C and D. (35 sec)
-A subclass of B. (22 sec) There's an association
+diagram. So, we have A, B, C and D.
+A is a subclass of B. There's an association
 
 0:02:36.150,0:03:12.040
-between C and D. (11 sec) And it is 1 to 1.
-(15 sec) There is an association between A
+between C and D. And it is 1 to 1.
+There is an association between A
 
 0:03:12.040,0:04:01.709
-and C. (10 sec) And it is an aggregation.
-(32 sec) There is an association between B
+and C. And it is an aggregation.
+There is an association between B
 
 0:04:01.709,0:04:25.710
-and D, and it is an aggregation. (19 sec)
+and D, and it is an aggregation.
 And just like that we have the first class
 
 0:04:25.710,0:04:34.900
@@ -68,7 +68,7 @@ they're connected with some kind of association.
 
 0:04:43.320,0:05:03.740
 Let's try this here. Now, let's make an A
-and a C. Instance. (5 sec) Okay, no warnings,
+and a C instance. Okay, no warnings,
 
 0:05:03.740,0:05:10.080
 nothing happened. So far. So, good. Let's
@@ -99,8 +99,8 @@ It is because of this association here. And
 we have options, we can actually make the
 
 0:06:24.770,0:06:33.030
-software ignore this issue for a while. But
-we can do-, we can consider the constraints
+software ignore this issue for a while.
+We can consider the constraints,
 
 0:06:33.030,0:06:40.090
 we can do it correctly by either creating
@@ -156,14 +156,14 @@ we can continue let's do the rest of the object
 
 0:08:14.789,0:08:30.849
 diagrams and the other class diagram. Let
-me remove this one. (8 sec) Let's try the
+me remove this one. Let's try the
 
 0:08:30.849,0:08:45.580
 other one. We have B, C and D connected to
 each other. Let's do this. Not a MetaClass,
 
 0:08:45.580,0:09:17.510
-should be an instance. (10 sec) So, just like
+should be an instance. So, just like
 the previous case, we have this association
 
 0:09:17.510,0:09:31.579
@@ -179,7 +179,7 @@ it automatically named it as aggr2. So, it
 recognizes that we are doing this one here
 
 0:09:53.250,0:09:59.180
-and now finally, we have link between B and
+and now finally, we have a link between B and
 C, let's try to do this here. So, link from
 
 0:09:59.180,0:10:06.550
@@ -192,7 +192,7 @@ This is true, there is no link between something
 
 0:10:17.540,0:10:26.610
 of class B and something of class C. If this
-B-, this B that we have here, if it (?were)
+B that we have here, if it was
 
 0:10:26.610,0:10:35.100
 a specific type of B, which is some A, a subclass
@@ -208,26 +208,26 @@ B and C. And the software is recognizing this
 
 0:10:45.310,0:11:42.000
 fact. Now let's do the third object diagram,
-we have A, B, C, D. (45 sec) And we see that
+we have A, B, C, D. And we see that
 
 0:11:42.000,0:11:50.570
 this one fits, everything is fine. This one
 got recognized and is aggr1, this one got
 
 0:11:50.570,0:11:58.440
-recognized two, this is aggr2, this is the
+recognized too, this is aggr2, this is the
 association that was enforced. Everything's
 
 0:11:58.440,0:12:58.680
 fine. Now let's do class diagram D, the fourth
-class diagram we have A, C, D. (1 min) Right
+class diagram, we have A, C, D. Right
 
 0:12:58.680,0:13:16.990
 so, this one fits to everything's fine. Let's
 do the last one. We have A, D, D, we have
 
 0:13:16.990,0:13:52.960
-two D’s. (29 sec) And it is enforcing the
+two D’s. And it is enforcing the
 existence of C because of the same association,
 
 0:13:52.960,0:14:02.510
@@ -243,20 +243,20 @@ first one. We have this aggregation, we just
 need to change the multiplicity here. We have
 
 0:14:19.230,0:17:23.120
-this aggregation but instead of going to A
-it's from-, it's with C and B. (2 min 53 sec)
+this aggregation but instead of going to A,
+it's with C and B.
 
 0:17:23.120,0:17:30.251
 There's a problem here, I meant to edit this
 one for some reason it edited this one. Let's
 
 0:17:30.251,0:19:23.790
-fix it. (1 min 9 sec) Let's do the first one.
-A and C. (41 sec) So, as soon as we created
+fix it. Let's do the first one.
+A and C. So, as soon as we created
 
 0:19:23.790,0:19:35.100
 an A, it required two D’s. Because and A
-is inheriting. And A is a B so it’s inheriting
+is inheriting. An A is a B so it’s inheriting
 
 0:19:35.100,0:19:40.110
 this aggregation here and this aggregation
@@ -268,7 +268,7 @@ does not fit. The first one does not fit.
 
 0:19:50.190,0:20:21.980
 Let's do the second one. We have B C D connected
-to each other. (22 sec) And now is enforcing
+to each other. And now it is enforcing
 
 0:20:21.980,0:20:31.730
 the existence of a D. So, we have a D here,
@@ -279,11 +279,11 @@ another D, for this instance of B. And this
 does not exist. So, we can already see that
 
 0:20:37.380,0:20:51.820
-it's not fitting, let's continue, let's try.
+it's not fitting, but let's continue, let's try.
 The object B requires a link to an instance
 
 0:20:51.820,0:20:58.929
-of D at level 0. You tell it, Okay, let's
+of D at level 0. You tell it, okay, let's
 choose the same D here, that D that we already
 
 0:20:58.929,0:21:19.750
@@ -291,8 +291,8 @@ have. It does not accept. You see it? So,
 it wants us to create another D.
 
 0:21:19.750,0:21:29.300
-And then it's says B requires 0, so we choose
-the d1 this new d. And now it stops complaining.
+And then it's says B requires a link to an instance at level 0
+so we choose the d1 this new d. And now it stops complaining.
 
 0:21:29.300,0:21:36.270
 But now it's already different from what we
@@ -300,7 +300,7 @@ have here. Here we have one D. And here we
 
 0:21:36.270,0:21:52.200
 have two D’s. So, the answer is it does
-not fit. Let's do the third one. (7 sec) A,
+not fit. Let's do the third one. A,
 
 0:21:52.200,0:22:09.679
 B, C, D. Again, as soon as we create an A,
@@ -331,12 +331,12 @@ So, we must have two Ds, but here we have
 just one and now here the last one. Let's
 
 0:22:55.861,0:23:03.059
-do the last one. We have A and existence of
+do the last one. We have A, and the existence of
 A requires the existence of two D’s. This
 
 0:23:03.059,0:23:43.539
 is fine. Let's see if there are any further
-problems. (33 sec) And that's it. Nothing
+problems. And that's it. Nothing
 
 0:23:43.539,0:23:49.820
 else is being enforced. Nothing is required.

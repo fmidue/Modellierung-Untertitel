@@ -60,10 +60,10 @@ this case. And there's an edge between A and C,
 
 0:02:38.040,0:02:45.480
 which is fine as well because A's inherit
-from B's and do inherit this edge here
+from B's and thus inherit this edge here
 
 0:02:46.260,0:02:59.700
-two Cs. So, this edge between A and C is fine. But
+to Cs. So, this edge between A and C is fine. But
 then there is a missing edge to Ds because of this
 
 0:02:59.700,0:03:12.120
@@ -123,8 +123,8 @@ second class diagram? So, here we have an
 edge between B and C, which is optional.
 
 0:05:16.500,0:05:24.180
-So, this edge is fine. And this object diagram
-considering this class diagram, we have an edge
+So, this edge is fine in this object diagram
+considering this class diagram. We have an edge
 
 0:05:24.180,0:05:29.580
 between C and D, which is optional. And that's
@@ -199,11 +199,11 @@ Considering the edge between C and D. This is
 fine as well because there is this optional
 
 0:08:12.840,0:08:24.060
-relationship. So, we have this disconnection as
-well. Again, there is a disconnection between
+relationship. So, we have this connection as
+well. Again, there is this connection between
 
 0:08:24.060,0:08:31.920
-B and C, which is optional. So, there
+B and C, which is optional. So here, there
 is no connection. That's fine as well.
 
 0:08:33.240,0:08:40.620
@@ -244,7 +244,7 @@ why it can have a connection to D. That is fine.
 
 0:09:55.020,0:09:59.820
 And there are no further connections,
-but there is also no further connection
+but there is also no further connections
 
 0:09:59.820,0:10:05.580
 required in our class diagram. So, this
@@ -255,7 +255,7 @@ How about the second class diagram? In this case,
 we can check again for our classes. First of all,
 
 0:10:19.380,0:10:28.920
-for our objects, take A and consider the
+for our objects, let's take A and consider the
 connection to a C, which is fine as it is
 
 0:10:28.920,0:10:38.760
@@ -264,7 +264,7 @@ to C. Then we have an inherited connection to D.
 
 0:10:41.640,0:10:52.020
 So, A requires a connection to D via inheritance
-from B. Have a connection. But again, we require
+from B. We have a connection. But again, we require
 
 0:10:52.020,0:10:58.980
 to have two connections to D, which we do not
@@ -276,7 +276,7 @@ connection. As this optional connection
 
 0:11:08.700,0:11:22.320
 is in the object diagram. But again, this two
-once more lead to this object diagram not being
+once more leads to this object diagram not being
 
 0:11:22.320,0:11:29.940
 a valid instance for the second class diagram.
@@ -296,7 +296,7 @@ So, it's totally fine because of this aggregation
 
 0:11:55.920,0:12:04.020
 here. It's totally fine to have also two
-connections to the D object. But our D objects
+connections to D objects. But our D objects
 
 0:12:04.020,0:12:12.300
 require a connection to a C object. And this is
@@ -308,10 +308,10 @@ So, it does not fit the first class diagram.
 
 0:12:20.940,0:12:30.840
 Now, we can check for the second class diagram.
-Once more, we inherit the connections from B,
+Once more, we inherit the connections from B
 
 0:12:30.840,0:12:38.160
-and we have an A object. And so, this A object may
+when we have an A object. And so, this A object may
 be connected to a C object. It is not. But that's
 
 0:12:38.160,0:12:51.000
@@ -320,7 +320,7 @@ check for connections to D. So, we require two D
 
 0:12:51.000,0:12:57.480
 objects for each B object. And because of the
-inheritance, also required for A object. So,
+inheritance, it's also required for each A object. So,
 
 0:12:57.480,0:13:13.140
 this A object is connected to two D objects.
@@ -343,5 +343,5 @@ you've written what I have said more
 or less, or at least the reasons for
 
 0:13:52.560,0:13:57.660
-that the object diagram cannot be an
+which the object diagram cannot be an
 instance, then you've fulfilled the task.
