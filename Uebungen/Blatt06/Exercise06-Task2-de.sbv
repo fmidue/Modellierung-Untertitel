@@ -3,7 +3,7 @@ In dieser Aufgabe geht es darum, dass wir
 eine mathematische Notation eines Petrinetzes
 
 0:00:06.520,0:00:12.070
-haben und wir die in ein Petrinetz übersetzen
+haben und die in ein Petrinetz übersetzen
 sollen.
 
 0:00:12.070,0:00:17.950
@@ -14,8 +14,8 @@ wir auch in der Vorlesung hatten.
 Ich zeige das einmal in den Vorlesungsfolien.
 
 0:00:23.390,0:00:36.870
-Hier steht ein Petrinetz ist ein Tupel aus
-Tupel N = (S,T,((),()(,mo), wobei S eine endliche,
+Hier steht ein Petrinetz ist ein Tupel bestehend
+aus N = (S,T,*(),()*,,m0), wobei S eine endliche,
 
 0:00:36.870,0:00:41.910
 nichtleere Menge von Stellen und T eine endliche,
@@ -101,7 +101,7 @@ Transition rein.
 
 0:02:57.510,0:03:05.560
 Wir haben hier t1, aus der Stelle s1 kommt
-ein Token in die Stelle s1.
+ein Token in t1.
 
 0:03:05.560,0:03:19.140
 Das bedeutet, ich nehme eine dieser Transitionen,
@@ -202,7 +202,7 @@ Und aus s3 geht ein Token in t3 hinein.
 Und hier haben wir, was aus t3 hinaus geht.
 
 0:05:43.379,0:05:49.599
-Aus s1 in t3 hinein gehen zwei Token.
+Aus t3 in s1 hinein gehen zwei Token.
 
 0:05:49.599,0:05:56.319
 Das bedeutet, dass wir hier einen Pfeil von
@@ -319,7 +319,7 @@ eine Startmarkierung haben.
 
 0:08:31.550,0:08:38.260
 Das bedeutet, m0 ist ja die Startmarkierung
-und die Startmarkierung von s0 und s4 ist
+und die Startmarkierung von s1 und s4 ist
 
 0:08:38.260,0:08:39.260
 gleich 1.

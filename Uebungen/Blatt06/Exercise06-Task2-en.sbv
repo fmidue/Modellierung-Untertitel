@@ -1,9 +1,9 @@
 0:00:01.750,0:00:09.890
 This task is about the mathematical and graphical
-representation of Petri Nets more specific.
+representation of Petri Nets. More specifically,
 
 0:00:09.890,0:00:20.680
-In this task, it's our task to represent this
+in this task, it's our task to represent this
 given Petri Net in the mathematical notation
 
 0:00:20.680,0:00:25.420
@@ -61,14 +61,14 @@ And when we look at these definitions here,
 we find the information that is required for
 
 0:02:12.890,0:02:15.040
-our Petri Nets here.
+our Petri Net here.
 
 0:02:15.040,0:02:29.569
 And we see that in this case, there is an
 edge between
 
 0:02:29.569,0:02:38.660
-the transition one on place s1, and we see
+the transition t1 on place s1, and we see
 that this transition is going to s2.
 
 0:02:38.660,0:02:48.840
@@ -76,8 +76,8 @@ We can think of t1 being in the middle of
 s1 and s2 somewhere.
 
 0:02:48.840,0:03:01.341
-The next definition is for t1 already, so
-we can check for t2 and t2 is having s2 and
+The next definition is for t2 already, so
+we can check and t2 is having s2 and
 
 0:03:01.341,0:03:09.519
 s3 as neighboring edges or we could place
@@ -148,19 +148,19 @@ And so we continue from s2 to t2, from t2
 to s3, from s3 to t3, from t3 to s1.
 
 0:05:54.919,0:06:13.870
-And we scrolled on, there we have s1 to t4,
+And we scroll down, there we have s1 to t4,
 t4 to s4, s3 to t5 and s4 to t5.
 
 0:06:13.870,0:06:25.550
 And maybe we move this layer here off s4,
-so that it's more visible (?inside), to get
+so that it's more visible we move it inside, to get
 
 0:06:25.550,0:06:29.789
 a more dense graph, it doesn't matter really.
 
 0:06:29.789,0:06:37.210
 Just that we can see the labels all because
-it was hidden behind in a row at the moment.
+it was hidden behind an arrow at the moment.
 
 0:06:37.210,0:06:39.860
 Now it looks a bit better.
@@ -179,11 +179,11 @@ then we have to add a number.
 
 0:07:01.590,0:07:10.830
 And we do not require those numbers because
-by default, the weight is one of the edge.
+by default, the weight of the edge is one.
 
 0:07:10.830,0:07:20.750
-And if there is no edge for instance, between
-s1 and t2, there is no edge, this means that
+And if there is no edge, for instance between
+s1 and t2 there is no edge, this means that
 
 0:07:20.750,0:07:26.720
 the weight of this connection is zero.
@@ -193,8 +193,8 @@ That is why we have the weight of one if there
 is an arrow.
 
 0:07:36.020,0:07:41.350
-But for our representation here, we have some
-times two or so.
+But for our representation here, we have
+sometimes two or so.
 
 0:07:41.350,0:07:47.419
 And this is for instance from the outgoing
@@ -210,7 +210,7 @@ the ingoing edge to t5 from s4.
 
 0:08:06.860,0:08:13.940
 So this is this edge here and we should add
-weight here of two as well.
+weight of two here as well.
 
 0:08:13.940,0:08:21.950
 So, now we considered all the weights, but

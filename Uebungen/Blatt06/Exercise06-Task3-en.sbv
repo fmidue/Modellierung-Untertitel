@@ -40,7 +40,7 @@ most specifically.
 
 0:01:26.370,0:01:41.579
 So we say, this is our Petri Net, where the
-places s are the set of all the places that
+places S are the set of all the places that
 
 0:01:41.579,0:01:51.230
 we've got, and in this case, they have three,
@@ -103,7 +103,7 @@ Then we continue with t3, there's also an
 edge, so we write t3 as well.
 
 0:03:52.000,0:03:58.540
-And it's coming from s3 and there's no labels.
+And it's coming from s3 and there's no label.
 
 0:03:58.540,0:04:14.720
 So, again one and then we've got t4 and there
@@ -113,7 +113,7 @@ are two edges so we can have one t4 coming
 from s1 and there's no label again.
 
 0:04:19.291,0:04:43.850
-Again one and another for t5 and from s2 with
+Again one, and another for t5 and from s2 with
 no label again, so having one.
 
 0:04:43.850,0:04:59.710
@@ -151,15 +151,15 @@ We continue for t2, it has an outgoing edge
 and I forgot the dot here which is important.
 
 0:06:17.669,0:06:26.900
-So, marking it as outgoing edge here on the
+Marking it as outgoing edge here on the
 right hand side, this one goes to s3 and again
 
 0:06:26.900,0:06:31.410
 no labels, so the weight of one.
 
 0:06:31.410,0:06:48.030
-Then we have got t3, it has also an edge in
-the outgoing to s1 and it has again no labels.
+Then we have got t3, it has also an edge
+outgoing to s1 and it has again no labels.
 
 0:06:48.030,0:06:57.789
 So, one is the weight and then we have an
@@ -183,17 +183,17 @@ edges from these transitions but those defined.
 
 0:07:53.960,0:08:06.419
 And furthermore, for our tuple, we require
-m0 and that is why we can save m0 and then
+m0. So we write m0 and then
 
 0:08:06.419,0:08:11.320
-we will look for all of these places what
+we check all of these places for what
 m0 will look like.
 
 0:08:11.320,0:08:19.830
-So for m0 and of s1, it has one token as well.
+So for m0 of s1, it has one token.
 
 0:08:19.830,0:08:27.340
-It is for m0 of s2.
+The same goes for m0 of s2.
 
 0:08:27.340,0:08:30.580
 So there we have one.
