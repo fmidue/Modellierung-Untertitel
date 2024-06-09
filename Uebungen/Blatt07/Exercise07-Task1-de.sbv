@@ -178,8 +178,8 @@ Es stand ja auch in der Aufgabe, wenn ein
 Kunde seine Waren aufs Band legt, belegen
 
 0:04:01.970,0:04:20.850
-diese zunächst
-Platz 1.
+diese zunächst Platz 1. Das bedeutet, wenn der Kunde
+etwas auf Platz 1 legt, wird dieser von "leer" zu "voll".
 
 0:04:20.850,0:04:37.550
 Es steht oben, nach erfolgreichem Ablegen
@@ -189,7 +189,7 @@ wechselt der Kunde (bzw. Kassierer) in den
 Zustand beschäftigt.
 
 0:04:39.150,0:04:45.680
-Das bedeutet, der Kunde wechselt von warten,
+Das bedeutet, der Kunde wechselt von wartend,
 während er die Waren ablegt oder sie abgelegt
 
 0:04:45.680,0:04:49.590
@@ -201,7 +201,7 @@ Jetzt ist der Kunde beschäftigt und der Platz
 
 0:04:57.100,0:05:10.569
 Im Text stand, dass, wenn der Kunde beschäftigt
-war, das nach kurzer Zeit wieder wartend wird.
+war, dass er nach kurzer Zeit wieder wartend wird.
 
 0:05:10.569,0:05:18.610
 Wir müssen also von beschäftigt wieder eine
