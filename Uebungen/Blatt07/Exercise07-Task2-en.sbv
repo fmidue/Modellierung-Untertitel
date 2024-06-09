@@ -1,6 +1,6 @@
 0:00:02.190,0:00:12.000
 Within this task, we shall give a marking
-that has no successful marking and in each
+that has no successor marking and in each
 
 0:00:12.000,0:00:20.510
 case, we shall also say which transitions
@@ -29,7 +29,7 @@ So, anyways, it has to start with T2.
 
 0:01:03.930,0:01:13.990
 So, we can start with T2 and when we process
-this transaction, when we fire it then there
+this transition, when we fire it then there
 
 0:01:13.990,0:01:23.829
 will be markings in S2 and S3 because of these
@@ -50,8 +50,8 @@ So, when we do that, we remove one token from
 S2 and add a token in S1.
 
 0:01:56.640,0:02:08.209
-And now, what is another reachable marking
-is we can still fire T3.
+And now, there is still another reachable marking
+as we can still fire T3.
 
 0:02:08.209,0:02:17.530
 And when we do this, so let me properly remove
@@ -63,7 +63,7 @@ this token here as well.
 
 0:02:24.620,0:02:31.080
 And then we are in this marking here now,
-we can find no more transition.
+we can fire no more transition.
 
 0:02:31.080,0:02:35.550
 So, we reached a final marking.
@@ -73,7 +73,7 @@ And now we can name actually this marking
 as we know which marking it is.
 
 0:02:47.880,0:03:02.790
-And it is in S1 there are two tokens and in
+In S1 there are two tokens and in
 S2, there are zero tokens.
 
 0:03:02.790,0:03:13.989
@@ -136,7 +136,7 @@ quite promising so we could choose T2 to fire
 
 0:05:00.699,0:05:10.430
 and in this case we would get to this point
-here where/ so, well this was the sequence,
+here where... So, well this was the sequence.
 
 0:05:10.430,0:05:15.100
 I'll write it down here below.
@@ -147,7 +147,7 @@ in the final marking because there is no transition
 
 0:05:23.260,0:05:30.479
 that we can fire now because T2 requires a
-token in S1 as well does T1, and T3 requires
+token in S1 and so does T1, and T3 requires
 
 0:05:30.479,0:05:31.870
 a token in S2.
@@ -201,15 +201,15 @@ one token in S3.
 And now we’ve reached a different marking.
 
 0:07:12.250,0:07:28.229
-So, in this case, so this one should be the
+So, in this case, this one should be the
 same, but S4 would be one in this case.
 
 0:07:28.229,0:07:31.990
-And let me write this arrow again.
+Let me write this arrow again.
 
 0:07:31.990,0:07:44.400
 So, S4 would be one and in order to reach
-this sequence, we execute it first of all
+this sequence, we executed first of all
 
 0:07:44.400,0:07:54.539
 T1 then T3, and then T2.
@@ -226,8 +226,8 @@ So now in this state, we could once more fire
 T1.
 
 0:08:16.449,0:08:33.070
-So, by firing T1 at this stage we get to token
-into S2 and removing it from S1.
+So, by firing T1 at this stage we get the token
+into S2 and remove it from S1.
 
 0:08:33.070,0:08:40.360
 And now we can fire only one transition again
@@ -241,11 +241,11 @@ in S4 and again a token in S1 and the token
 in S2 is removed.
 
 0:08:53.470,0:09:08.709
-So (?roughly) we can fire T3 here once more
+So we can fire T3 here once more
 and then again we can either fire T2 which
 
 0:09:08.709,0:09:14.200
-we get a token here and we have reached a
+will get the token here and we have reached a
 final marking as we can fire no more transition
 
 0:09:14.200,0:09:15.450
@@ -270,7 +270,7 @@ finally fire T2 but there are no further options
 but cycling in this case.
 
 0:09:52.160,0:09:57.959
-Now let's consider the last Petri Net in three.
+Now let's consider the last Petri Net N3.
 
 0:09:57.959,0:10:05.230
 And in this case, there is only T3 active,
@@ -306,7 +306,7 @@ So I can put this token back in here and we
 add a token in S4.
 
 0:10:59.200,0:11:19.230
-And this was call it T3 and we could now either
+And this, i'll call it T3, and we could now either
 fire T1 or T2 because both just require a
 
 0:11:19.230,0:11:27.180
@@ -321,11 +321,11 @@ We remove a token from S4 and get a token
 into S1.
 
 0:11:39.850,0:11:51.991
-So now this is marking without successor because
+So now this is a marking without successor because
 now we can't fire any transition anymore.
 
 0:11:51.991,0:11:59.200
-T1, and T2, require both a token in S4, and
+T1, and T2, both require a token in S4, and
 T3 requires a token in S3.
 
 0:11:59.200,0:12:05.850
@@ -370,7 +370,7 @@ Or we could again fire T3 and then T2, so
 either of these sequences would be okay.
 
 0:13:40.269,0:13:49.990
-So, for instance, T2/T3/T1 would be another
+So, for instance, T3/T2/T3/T1 would be another
 option of a sequence that will lead to the
 
 0:13:49.990,0:13:55.699
