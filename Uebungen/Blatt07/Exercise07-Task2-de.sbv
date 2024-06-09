@@ -204,11 +204,11 @@ die Nachbedingung ist, dass eine Marke wieder
 rauskommt, also eine Marke auftaucht.
 
 0:04:50.560,0:05:01.070
-Jetzt sind wir schon an einem Punkt, ich nenne
-ihn a., wo keine andere Markierung mehr möglich
+Jetzt sind wir schon an einem Punkt,
+wo keine andere Markierung mehr möglich
 
 0:05:01.070,0:05:02.070
-ist.
+ist. (a.)
 
 0:05:02.070,0:05:07.920
 Es hätte aber auch die Möglichkeit gegeben,
@@ -277,7 +277,7 @@ Dann wären wir jetzt an diesem Punkt, dass
 die Marke hier liegt.
 
 0:06:32.480,0:06:37.380
-Und dann könnte wieder t3 nur schalten.
+Und dann könnte wieder nur t3 schalten.
 
 0:06:37.380,0:06:43.630
 Dann würde die Marke verschwinden als Vorbedingung
@@ -367,11 +367,11 @@ aufgeschrieben.
 Ich hoffe, dass die Lösung trotzdem klar
 daraus hervorgeht.
 
-0:08:49.610,0:08:58.970
+0:08:49.610,0:09:07.500
 Ich schreibe mal noch dazu, Stellenreihenfolge
 (s1,s2,s3,s4).
 
-0:08:58.970,0:09:10.830
+0:09:07.500,0:09:10.830
 Kommen wir jetzt zum allerletzten Petrinetz.
 
 0:09:10.830,0:09:12.800
@@ -491,7 +491,7 @@ Und jetzt sind wir quasi wieder im Startzustand.
 
 0:11:16.980,0:11:24.680
 Mit anderen Worten, dieser Schritt, dass t3
-und t2 abläuft, kann auch je immer und immer
+und t2 abläuft, kann jetzt auch immer und immer
 
 0:11:24.680,0:11:26.440
 und immer wieder im Kreis laufen.
