@@ -1,6 +1,6 @@
 0:00:00.610,0:00:06.520
 In dieser Aufgabe geht es darum, dass wir
-eine mathematische Notation eines Petrinetzes
+die mathematische Notation eines Petrinetzes
 
 0:00:06.520,0:00:12.070
 haben und die in ein Petrinetz übersetzen
@@ -15,7 +15,7 @@ Ich zeige das einmal in den Vorlesungsfolien.
 
 0:00:23.390,0:00:36.870
 Hier steht ein Petrinetz ist ein Tupel bestehend
-aus N = (S,T,*(),()*,,m0), wobei S eine endliche,
+aus N = (S,T,*(),()*,m0), wobei S eine endliche,
 
 0:00:36.870,0:00:41.910
 nichtleere Menge von Stellen und T eine endliche,

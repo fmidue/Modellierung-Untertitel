@@ -113,7 +113,7 @@ sentence.
 
 0:03:16.170,0:03:21.150
 Where it states that of course students and examiners
-as persons.
+are persons.
 
 0:03:21.150,0:03:28.950
 So, we have another class called “person”.
@@ -138,7 +138,7 @@ persons.
 
 0:04:02.819,0:04:09.819
 But we also have info about the students which
-was, that they are aged.
+was that they are aged.
 
 0:04:09.819,0:04:21.610
 So, we also have the age for the students.
@@ -152,7 +152,7 @@ This is important.
 
 0:04:45.110,0:04:51.330
 Because if they would have the age then we
-would have to define the age within person.
+would have to define the age within Person.
 
 0:04:51.330,0:05:00.160
 But the ages are only stored for the students,
@@ -233,13 +233,13 @@ This implies that we should have an inheritance
 here.
 
 0:07:09.440,0:07:13.460
-So, students should inherit from person.
+So, students should inherit from Person.
 
 0:07:13.460,0:07:14.919
 But also, the examiners.
 
 0:07:14.919,0:07:23.050
-So, we can draw an inheritance to person
+So, we can draw an inheritance to Person
 from both of them.
 
 0:07:23.050,0:07:32.800

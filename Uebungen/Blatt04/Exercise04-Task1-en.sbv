@@ -31,7 +31,7 @@ are no such objects. That's why we could consider
 the other classes. Circle, Rectangle, and
 
 0:01:21.509,0:01:30.350
-Path are all also pictures because they inherit
+Path are all also Pictures because they inherit
 from the Picture class. And that is why they
 
 0:01:30.350,0:01:38.100
@@ -72,18 +72,18 @@ the methods which we've got in this class
 
 0:02:57.740,0:03:06.459
 here. And this function always takes a Picture
-and then more arguments and returns a picture.
+and then more arguments and returns a Picture.
 
 0:03:06.459,0:03:13.540
 In our case, we've got the object-oriented view
- of this now. And we've got a Picture
+of this now. And we've got a Picture
 
 0:03:13.540,0:03:24.360
 already. On the specific Picture, we call
 such methods. So, we will call scale on a
 
 0:03:24.360,0:03:33.070
-specific picture. And when we do that, we
+specific Picture. And when we do that, we
 require further arguments. But we change the
 
 0:03:33.070,0:03:39.700
@@ -104,10 +104,10 @@ type that we've got from here already, which
 
 0:04:10.020,0:04:18.019
 we require here as a type for our arguments.
-So, this is a float. And the same goes for
+So, this is a Float. And the same goes for
 
 0:04:18.019,0:04:29.340
-our y argument, which is also a float. So,
+our y argument, which is also a Float. So,
 this should all be within the box. I just
 
 0:04:29.340,0:04:39.090
@@ -127,7 +127,7 @@ scale to the Picture at hand and change the
 Picture. We do not get a copy of any Picture
 
 0:05:05.360,0:05:11.199
-or an additional picture. We change the original
+or an additional Picture. We change the original
 Picture. And that's the difference to the
 
 0:05:11.199,0:05:20.030
@@ -144,14 +144,14 @@ color of the Picture and therefore requires a
 
 0:05:32.750,0:05:45.430
 color. Let's call it C. And then we've got
-rotate, which takes a picture and a float
+rotate, which takes a Picture and a Float
 
 0:05:45.430,0:05:54.170
 as we rotate the Picture itself. This would
-be just float for an angle. So, let's call
+be just Float for an angle. So, let's call
 
 0:05:54.170,0:06:04.680
-it angle. And you we require a float. Once
+it angle. And we require a Float. Once
 again, we do not require a return type of
 
 0:06:04.680,0:06:10.650
@@ -188,14 +188,14 @@ already, but there we have the example again.
 
 0:07:20.940,0:07:31.860
 And there is extent defined as returning a
-float value for Picture. So, we could think
+Float value for Picture. So, we could think
 
 0:07:31.860,0:07:37.550
-about this like, we've got a picture already,
+about this like, we've got a Picture already,
 and when we call extent on it, we just want
 
 0:07:37.550,0:07:45.020
-to return the float value. So, this is different
+to return the Float value. So, this is different
 from the other functions and also the other
 
 0:07:45.020,0:07:51.090
@@ -204,7 +204,7 @@ So, that's why we have an opening and closing
 
 0:07:51.090,0:07:57.740
 bracket simply. And then the return type is
-really important. Because this is a float
+really important. Because this is a Float
 
 0:07:57.740,0:08:04.430
 in this case. And this was already mentioned
@@ -223,8 +223,8 @@ which was defined within the introduction
 to the vector graphics example. Here it is.
 
 0:08:39.030,0:08:48.339
-So, it combines two pictures and results in
-a picture. If we want to realize this within
+So, it combines two Pictures and results in
+a Picture. If we want to realize this within
 
 0:08:48.339,0:08:59.830
 the domain of object orientation within this
@@ -232,10 +232,10 @@ class diagram, we could extend our Picture
 
 0:08:59.830,0:09:10.579
 here and realize this as well. When we think
-about it, we can realize it by adding a picture
+about it, we can realize it by adding a Picture
 
 0:09:10.579,0:09:21.810
-to another picture. So, this way, we could
+to another Picture. So, this way, we could
 combine or change one Picture by adding another
 
 0:09:21.810,0:09:31.050
@@ -244,7 +244,7 @@ it like this we have an ampersand function
 
 0:09:31.050,0:09:41.190
 that takes one argument, which is the other
-Picture. So, let's call it p. And this of
+Picture. So, let's call it p. And it is of
 
 0:09:41.190,0:09:56.710
 type Picture. And it will change the Picture

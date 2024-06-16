@@ -50,7 +50,7 @@ this table here.
 
 0:01:30.560,0:01:40.880
 But I will talk about the reasons why
-I fill in the table they way I'll do.
+I fill in the table the way I'll do.
 
 0:01:40.880,0:01:53.320
 Let's have a look at the first Petri net and
@@ -169,7 +169,7 @@ although it is not strongly live.
 
 0:04:45.320,0:05:03.660
 And for this property, we check if
-the reachibility graph contains all the transitions.
+the reachability graph contains all the transitions.
 
 0:05:03.660,0:05:08.240
 We have t1 in the reachability graph.
@@ -337,7 +337,7 @@ node, which contains more tokens than two.
 
 0:09:47.260,0:09:56.589
 And because when we check all these numbers
-here, we have only 0's, 1's and 2's
+here, we have only 0s, 1s and 2s
 
 0:09:56.589,0:10:08.510
 for all these nodes in the reachability graph

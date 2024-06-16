@@ -117,7 +117,7 @@ and also the same for customer in space one.
 
 0:03:41.290,0:03:52.560
 So, that means when the customer for this
-transaction, when the customer is waiting
+place, when the customer is waiting,
 
 0:03:52.560,0:03:59.950
 it has to become either again waiting or busy,
@@ -231,7 +231,7 @@ waiting, and the place two of the conveyor
 belt is not empty.
 
 0:07:38.470,0:07:45.319
-So this means this transaction should probably
+So this means this place should probably
 represent this state, so the cashier is
 
 0:07:45.319,0:07:53.820

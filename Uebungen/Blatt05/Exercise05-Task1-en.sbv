@@ -15,8 +15,8 @@ them. So, we do not have to look at attributes
 and methods here. We can assume that these
 
 0:00:44.400,0:00:53.820
-classes are well-tiered. For instance, this
-A class here shall be treated as a valid class,
+classes are well-formed. For instance, this A
+class here shall be treated as a valid class,
 
 0:00:53.820,0:01:01.440
 and we just have to look at the connections

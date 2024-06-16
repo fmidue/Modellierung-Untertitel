@@ -68,7 +68,7 @@ Dann schreiben wir das auf.
 
 0:01:49.890,0:02:00.590
 Wir haben jetzt also eine Marke in s1, eine
-Marke in s2, und null Marken in s3 und s4
+Marke in s2, und null Marken in s3 und s4.
 
 0:02:00.590,0:02:06.300
 t1 kann nochmal feuern, warum nicht?
@@ -99,7 +99,7 @@ Was ich vorhin vergessen habe, wir müssen
 natürlich an die Übergänge immer dranschreiben,
 
 0:02:41.450,0:02:42.700
-welche Transaktion geschaltet hat.
+welche Transition geschaltet hat.
 
 0:02:42.700,0:02:52.459
 Also hier in dem Fall hat t1 geschaltet und
@@ -157,13 +157,13 @@ an Stelle s3 und null an Stelle s4.
 
 0:03:58.459,0:04:04.640
 Wir zeichnen wieder einen Pfeil dahin und
-schreiben dran, welche Transaktion, nämlich
+schreiben dran, welche Transition, nämlich
 
 0:04:04.640,0:04:07.380
 t2, geschaltet hat.
 
 0:04:07.380,0:04:11.540
-Jetzt können wir gucken, welche Transaktion
+Jetzt können wir gucken, welche Transition
 von s3 aus schalten kann.
 
 0:04:11.540,0:04:12.870

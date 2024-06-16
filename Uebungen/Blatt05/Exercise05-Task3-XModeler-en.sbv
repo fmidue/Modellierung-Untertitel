@@ -223,7 +223,7 @@ fine. Now let's do class diagram D, the fourth
 class diagram, we have A, C, D. Right
 
 0:12:58.680,0:13:16.990
-so, this one fits to everything's fine. Let's
+so, this one fits, so everything's fine. Let's
 do the last one. We have A, D, D, we have
 
 0:13:16.990,0:13:52.960
@@ -291,8 +291,8 @@ have. It does not accept. You see it? So,
 it wants us to create another D.
 
 0:21:19.750,0:21:29.300
-And then it's says B requires a link to an instance at level 0
-so we choose the d1 this new d. And now it stops complaining.
+And then it says B requires a link to an instance at level 0,
+so we choose the d1, this new d. And now it stops complaining.
 
 0:21:29.300,0:21:36.270
 But now it's already different from what we

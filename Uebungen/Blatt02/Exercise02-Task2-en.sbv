@@ -65,7 +65,7 @@ Because the type does not match.
 
 0:01:12.700,0:01:21.229
 For B we have a “move” which expects something
-of type picture and 2 more parameters,
+of type Picture and 2 more parameters,
 
 0:01:21.229,0:01:24.340
 determining by how much it is moved.
@@ -75,7 +75,7 @@ And here we have a print("no") composited
 with “circle” which returns
 
 0:01:31.200,0:01:32.200
-something of type picture.
+something of type Picture.
 
 0:01:32.200,0:01:37.869
 So, the first argument here is correct and
@@ -102,7 +102,7 @@ And here we have the first argument which
 is long rotate here which returns something
 
 0:02:08.770,0:02:11.060
-of type picture, which is correct for the
+of type Picture, which is correct for the
 first argument.
 
 0:02:11.060,0:02:15.890
@@ -130,7 +130,7 @@ inside of which we have a “move” which
 goes up to the closing parenthesis down here.
 
 0:02:38.400,0:02:39.900
-This is all of the type pictures.
+This is all of the type Picture.
 
 0:02:39.900,0:02:42.620
 So, this is correct for the first argument.
@@ -144,7 +144,7 @@ So, this outer scale at least is correct.
 
 0:02:50.069,0:02:56.670
 So, moving further inside we have this “move”
-which expects something of type picture, which
+which expects something of type Picture, which
 
 0:02:56.670,0:02:58.060
 this “color” here provides.
@@ -168,7 +168,7 @@ correct.
 
 0:03:09.590,0:03:15.140
 Because the first argument needs to be of
-type picture for “color” operation which
+type Picture for “color” operation which
 
 0:03:15.140,0:03:16.970
 this second argument provides.
@@ -189,7 +189,7 @@ Moving on to E we have a “rectangle” with
 the correct type and number of arguments.
 
 0:03:38.700,0:03:43.569
-Creating something of type picture for the
+Creating something of type Picture for the
 composition operator here as the first argument
 
 0:03:43.569,0:03:44.840
@@ -200,7 +200,7 @@ And we have “rotate” with a “rectangle”
 inside and by how much it is rotated creates
 
 0:03:49.510,0:03:53.480
-something of type picture as well which is
+something of type Picture as well which is
 correct for this composition operator second
 
 0:03:53.480,0:03:54.480
@@ -211,7 +211,7 @@ So, this entire first part here is correct.
 
 0:03:57.230,0:04:03.150
 And for the second composition our operator
-expects something of type picture at first
+expects something of type Picture at first
 
 0:04:03.150,0:04:06.269
 which this first composition operator provides.
@@ -234,7 +234,7 @@ And we can move on to F. F gives us a “rotate”
 with a “rectangle” being rotated.
 
 0:04:25.270,0:04:28.870
-Here we have to watch out for the parenthesis,
+Here we have to watch out for the parentheses,
 where they are.
 
 0:04:28.870,0:04:33.300
@@ -245,10 +245,10 @@ entire “rotate” thing which is correct.
 For this composition operator.
 
 0:04:35.230,0:04:38.090
-So, this is something of type picture.
+So, this is something of type Picture.
 
 0:04:38.090,0:04:42.530
-But there is something of type picture inside
+But there is something of type Picture inside
 and the correct arguments here.
 
 0:04:42.530,0:04:46.789
@@ -257,22 +257,22 @@ all the way till the end.
 
 0:04:46.789,0:04:52.610
 This is our second argument for this composition
-operator also of type picture, “scale”
+operator also of type Picture, “scale”
 
 0:04:52.610,0:04:56.320
-provides the first argument of type picture
+provides the first argument of type Picture
 which is correct for “move”.
 
 0:04:56.320,0:05:02.050
-And 2 more arguments that are “float”
-by how much it is moved by, so this outer
+And 2 more arguments that are of type Float,
+by how much it is moved, so this outer
 
 0:05:02.050,0:05:07.440
 “move” here is correct, we can step further
 inside, this “scale” expects something
 
 0:05:07.440,0:05:11.060
-of type picture which “print” provides
+of type Picture which “print” provides
 and by how much it is scaled.
 
 0:05:11.060,0:05:13.520
@@ -320,13 +320,13 @@ up to the last comma back here.
 
 0:05:57.830,0:06:01.790
 So, this is the first argument providing something
-of type picture.
+of type Picture.
 
 0:06:01.790,0:06:05.780
 Because we have a “move” here.
 
 0:06:05.780,0:06:11.550
-And then, we have a “float” back here
+And then, we have a Float back here
 that 64 which provides by how much it is rotated
 
 0:06:11.550,0:06:12.550
@@ -341,7 +341,7 @@ Now, we can step further inside, we can look
 at “move” which gets something of type
 
 0:06:21.380,0:06:26.330
-picture provided by this composition operator
+Picture provided by this composition operator
 and this “scale” here.
 
 0:06:26.330,0:06:32.900
@@ -360,7 +360,7 @@ So, we have from “circle” up to this 6.2
 closing parenthesis, being the first argument
 
 0:06:48.349,0:06:49.889
-being of type picture.
+being of type Picture.
 
 0:06:49.889,0:06:54.050
 And then 2 more parameters telling us how
@@ -380,7 +380,7 @@ This “circle” is pretty easy.
 This is correct.
 
 0:07:00.810,0:07:04.569
-This creates something of type picture for
+This creates something of type Picture for
 the composition operator.
 
 0:07:04.569,0:07:10.150
@@ -388,11 +388,11 @@ And the second argument here is “scale”
 up to the closing parenthesis which is something
 
 0:07:10.150,0:07:12.600
-of type picture and has the correct arguments.
+of type Picture and has the correct arguments.
 
 0:07:12.600,0:07:17.599
-“Rotate” creates something of type picture
-and 2 more floats here for determining how
+“Rotate” creates something of type Picture
+and 2 more Floats here for determining how
 
 0:07:17.599,0:07:18.599
 much it is scaled by.
@@ -402,7 +402,7 @@ This is correct.
 
 0:07:19.930,0:07:27.639
 This “rotate” needs something of type
-picture which the circle(5) provides
+Picture which the circle(5) provides
 
 0:07:27.639,0:07:31.060
 and by how much it is rotated by so this is
@@ -424,7 +424,7 @@ And finally, we have H with an outer “rotate”
 this “rotate” gets, as the first parameter,
 
 0:07:56.360,0:08:02.940
-something of type picture which starts by
+something of type Picture which starts by
 this “scale“ here, up to this last comma
 
 0:08:02.940,0:08:03.940
@@ -432,7 +432,7 @@ back here.
 
 0:08:03.940,0:08:07.819
 This is the entire first argument, something
-of type picture which is correct.
+of type Picture which is correct.
 
 0:08:07.819,0:08:10.600
 And the second argument is correct as well.
@@ -450,7 +450,7 @@ from here to back over here.
 
 0:08:22.180,0:08:27.909
 This is one long “scale”, inside of “scale”
-there is something of type picture this “move”,
+there is something of type Picture this “move”,
 
 0:08:27.909,0:08:32.849
 together with the composition operator and

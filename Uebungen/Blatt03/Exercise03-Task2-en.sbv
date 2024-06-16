@@ -70,7 +70,7 @@ that are required for this class.
 
 0:02:07.659,0:02:15.480
 And these are given here, in this case
-it’s just model.
+it’s just a model.
 
 0:02:15.480,0:02:23.140
 We can ignore the methods that are given,
@@ -118,7 +118,7 @@ we can choose the name ourselves.
 The bicycle is a rentable vehicle.
 
 0:03:31.890,0:03:38.650
-That’s why we have to consider both attributes,
+That’s why we have to consider both sets of attributes,
 those of RentableVehicle and those of Bicycle
 
 0:03:38.650,0:03:41.040
@@ -189,10 +189,10 @@ just to start with- let’s just say it’s
 
 0:05:43.310,0:05:49.259
 an “escooter” that we want
-to construct here.
+to construct here,
 
 0:05:49.259,0:06:04.470
-And this is a MotorizedVehicle and increase
+and this is a MotorizedVehicle, and increase
 the size a bit.
 
 0:06:04.470,0:06:06.530
@@ -217,7 +217,7 @@ a RentableVehicle.
 And we also require a license plate.
 
 0:06:36.820,0:06:37.820
-Please note, that
+Please note that
 
 0:06:37.820,0:06:44.810
 we do not require the attributes of bicycle
@@ -244,7 +244,7 @@ here and instead I added the license plate
 
 0:07:11.250,0:07:23.039
 and for our license plate, we can choose any
-value that is String, for instance we could
+value that is a String, for instance we could
 
 0:07:23.039,0:07:25.500
 say our license plate
@@ -254,7 +254,7 @@ could look something like this, it contains numbers
 and letters.
 
 0:07:34.730,0:07:39.160
-Maybe this is also a valid license plate but yeah.
+Maybe this is also a valid license plate, but yeah.
 
 0:07:39.160,0:07:49.430
 The important thing is that we fulfill the requirements
@@ -373,11 +373,11 @@ So, as what was introduced in the lecture like this
 could say the value is like this or we actually state
 
 0:11:17.560,0:11:20.720
-that this is a float by adding a dot here.
+that this is a Float by adding a dot here.
 
 0:11:20.720,0:11:32.339
 And saying it’s 2500.0 so, that’s clearer,
-that we are having floats here.
+that we are having Floats here.
 
 0:11:32.339,0:11:37.760
 And as the last class, we are missing the
@@ -407,7 +407,7 @@ Please note.
 
 0:12:16.910,0:12:22.060
 We have a weight for the transporter as well,
-altough we do not inherit from the
+although we do not inherit from the
 
 0:12:22.060,0:12:23.970
 MotorizedVehicle.

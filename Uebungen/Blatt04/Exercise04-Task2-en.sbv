@@ -28,7 +28,7 @@ way, makes the most sense in this case.
 
 0:00:43.740,0:00:49.980
 Now looking at the other classes, we have Client
-and server, which are pretty distinct use cases
+and Server, which are pretty distinct use cases
 
 0:00:49.980,0:00:55.740
 for a Computer. So, we can use that immediately
@@ -59,7 +59,7 @@ we can put a label on it that says use-cases,
 making this our use-cases generalization group.
 
 0:01:40.800,0:01:45.900
-Next up, we have a laptop and tablet remaining.
+Next up, we have Laptop and Tablet remaining.
 We need to think about whether they can be part
 
 0:01:45.900,0:01:51.720
@@ -67,7 +67,7 @@ of this generalization group as well. Well, not
 really because Laptop and Tablet aren't use-cases
 
 0:01:51.720,0:01:56.580
-of a computer. They are kinds of computers.
+of a Computer. They are kinds of Computers.
 So, it would make more sense to create a new
 
 0:01:56.580,0:02:03.360
@@ -88,19 +88,19 @@ Client and, in turn, that inherits from Computer
 
 0:02:24.180,0:02:29.760
 as well. So, Laptop and Tablet are still kinds of
-computers, but they are primary kinds of clients.
+Computers, but they are primarily kinds of Clients.
 
 0:02:32.160,0:02:40.800
 Of course, you can model them as direct
-types of computers because, technically,
+types of Computers because, technically,
 
 0:02:40.800,0:02:48.180
-Laptop and Tablet could also be servers. So, it
+Laptop and Tablet could also be Servers. So, it
 would make sense to have it directly inherit
 
 0:02:48.180,0:02:56.340
 from Computer and not directly related to
-Client and server in any way. If we do that,
+Client and Server in any way. If we do that,
 
 0:02:57.720,0:03:06.780
 we have our second generalization
@@ -140,7 +140,7 @@ be in the generalization group but that
 
 0:03:59.400,0:04:07.620
 are not included in the model right now. So, for
-use-cases here, for Client and server, normally,
+use-cases here, for Client and Server, normally,
 
 0:04:07.620,0:04:14.640
 a computer is either a client to something or a
@@ -156,7 +156,7 @@ anything. You are not a server for anything. You
 
 0:04:27.300,0:04:32.280
 just play offline games, for example. Then your
-Computer is neither a client nor a server. So,
+computer is neither a client nor a server. So,
 
 0:04:32.280,0:04:38.880
 this would be an incomplete generalization group.
@@ -171,11 +171,11 @@ client for something. Because how did you get the
 game? These days you normally downloaded it.
 
 0:04:49.860,0:04:55.800
-So, at some point, your Computer was
+So, at some point, your computer was
 a client. So, let's say, in this case, this is a
 
 0:04:55.800,0:04:59.880
-complete generalization group because your Computer
+complete generalization group because your computer
 is going to be either a client or a server.
 
 0:05:03.720,0:05:10.980
@@ -232,18 +232,18 @@ technically. So, this is definitely an overlapping
 
 0:06:35.160,0:06:42.960
 generalization group. Because you have these sort
-of hybrid devices. And for Client and server,
+of hybrid devices. And for Client and Server,
 
 0:06:46.440,0:06:52.140
 it comes down to how you argue your case
 here once again because technically,
 
 0:06:52.140,0:06:58.800
-your Computer can run a server software and be a
+your computer can run a server software and be a
 client to something else at the same time, making
 
 0:06:58.800,0:07:09.000
-your Computer technically both. So, that would
+your computer technically both. So, that would
 be a case where it's overlapping. Or we could go
 
 0:07:09.000,0:07:12.840
@@ -304,10 +304,10 @@ make sense. Because your tablet is going to
 
 0:08:50.520,0:08:55.740
 have some kind of CPU with a number of cores.
-Your Computer is going to have a CPU with some
+Your computer is going to have a CPU with some
 
 0:08:55.740,0:08:59.700
-number of cores. Your Client and server as
+number of cores. Any client or server as
 well. So, just putting this attribute here
 
 0:08:59.700,0:09:07.200
@@ -347,12 +347,12 @@ a client will have a screen normally. Server,
 not necessarily. But a client will definitely
 
 0:09:57.060,0:10:02.940
-have a screen most of the time. Tablet will have
+have a screen most of the time. A tablet will have
 a screen. So, putting a screen attribute in Laptop
 
 0:10:02.940,0:10:08.160
 doesn't really make sense. What else can we put
-for a Laptop that wouldn't work for any of these
+for Laptop that wouldn't work for any of these
 
 0:10:08.160,0:10:18.120
 other ones? For example, you could say the number
@@ -387,8 +387,8 @@ For the third attribute, we could come up
 with something for a tablet, for example,
 
 0:11:04.320,0:11:10.920
-and say touchscreen sensitivity. And
-that would be a float value. Determining
+say touchscreen sensitivity. And
+that would be a Float value. Determining
 
 0:11:12.000,0:11:19.380
 how accurate your pointer is going to be
@@ -399,7 +399,7 @@ from where you actually touch. So, let's say
 sensitivity or something or touch sensitivity.
 
 0:11:32.520,0:11:39.960
-And we put that as a float value because we want
+And we put that as a Float value because we want
 to have that to be really exact. So, this would be
 
 0:11:39.960,0:11:46.680
@@ -408,14 +408,14 @@ of keys in Laptop, Tablet has touch sensitivity.
 
 0:11:48.960,0:11:54.420
 And for this one, also going over it for a
-moment. The Laptop normally wouldn't have touch
+moment. A laptop normally wouldn't have touch
 
 0:11:54.420,0:12:00.540
 sensitivity. The Computer doesn't necessarily
 have touch functionality at all. So, it doesn't
 
 0:12:00.540,0:12:06.840
-make sense being here. And for the Client, it's
+make sense being here. And for a client, it's
 the same case. A client could have a touchscreen,
 
 0:12:06.840,0:12:11.700
