@@ -97,15 +97,15 @@ empty or full.
 
 0:02:57.019,0:03:06.150
 So, in this case, space two would be empty
-and in this case, space one would be full.
+and space one would be full.
 
 0:03:06.150,0:03:13.920
 So that we have both states for space one
 and for space two.
 
 0:03:13.920,0:03:28.280
-And these places represent states, which were
-always/ either of them has to be selected
+And these places represent states, where
+one of them has to be selected at all times,
 
 0:03:28.280,0:03:34.420
 because a space is either empty or full and
@@ -211,7 +211,7 @@ and space two should be full afterwards.
 
 0:07:01.620,0:07:09.879
 And then again, we can think about the process
-of how the space two becomes empty.
+of how space two becomes empty.
 
 0:07:09.879,0:07:18.970
 So, we have a representation for getting it
@@ -232,7 +232,7 @@ belt is not empty.
 
 0:07:38.470,0:07:45.319
 So this means this transaction should probably
-represent these states, so the cashier is
+represent this state, so the cashier is
 
 0:07:45.319,0:07:53.820
 waiting and space two is full.
@@ -303,7 +303,7 @@ would be going out of waiting and empty but
 we would then have tokens in busy and full.
 
 0:10:07.120,0:10:19.470
-And then again, we could, when we have a token
+And then again, when we have a token
 here, then it could go via this transition
 
 0:10:19.470,0:10:24.720
@@ -333,7 +333,7 @@ And again, after doing that, he could again
 fire this transition, which we already checked
 
 0:11:12.430,0:11:19.060
-that it's still is just one token in each
+is still just one token in each
 column.
 
 0:11:19.060,0:11:24.310
@@ -344,7 +344,7 @@ So we have just one token here and only one.
 
 0:11:27.280,0:11:40.800
 So there's not zero tokens, it's exact exactly
-one token in each/ yeah, call them here, so.
+one token in each column here.
 
 0:11:40.800,0:11:51.640
 And then finally this transition can only
@@ -379,13 +379,13 @@ working as expected, in the sense that no
 
 0:12:47.550,0:13:02.440
 token is additionally added in while executing
-the graph, or that token
+the graph, or that a token
 
 0:13:02.440,0:13:03.790
 gets completely removed.
 
 0:13:03.790,0:13:13.050
-He could check further interactions between
+We could check further interactions between
 those but I think you get the picture of what's
 
 0:13:13.050,0:13:19.220

@@ -36,7 +36,7 @@ da noch ein Pfeil drauf zeigen.
 
 0:01:05.180,0:01:14.350
 Von der Startmarkierung s1 gehen zwei Pfeile
-aus, da können wir gucken, in welche Transaktion.
+aus, da können wir gucken, in welche Transitionen.
 
 0:01:14.350,0:01:16.590
 Einmal hier hin und einmal hier hin.
@@ -68,10 +68,10 @@ Dann schreiben wir das auf.
 
 0:01:49.890,0:02:00.590
 Wir haben jetzt also eine Marke in s1, eine
-Marke in s2, und null Marken in s3 und in
+Marke in s2, und null Marken in s3 und s4
 
 0:02:00.590,0:02:06.300
-s4. t1 kann nochmal feuern, warum nicht?
+t1 kann nochmal feuern, warum nicht?
 
 0:02:06.300,0:02:09.750
 Die Vorbedingung ist eine Marke, eine haben
@@ -157,7 +157,7 @@ an Stelle s3 und null an Stelle s4.
 
 0:03:58.459,0:04:04.640
 Wir zeichnen wieder einen Pfeil dahin und
-schreiben dran, welch Transaktion, nämlich
+schreiben dran, welche Transaktion, nämlich
 
 0:04:04.640,0:04:07.380
 t2, geschaltet hat.
@@ -182,7 +182,7 @@ lösche ich die.
 
 0:04:25.510,0:04:39.789
 Und es kommt als Nachbedingung eine in s4
-und als Nachbedingung eine in s2 hinein.
+und eine in s2 hinein.
 
 0:04:39.789,0:04:48.080
 Also sind wir jetzt wieder in dem Zustand,
@@ -233,7 +233,7 @@ Was kann hier schalten?
 
 0:05:41.050,0:05:47.860
 Hier könnte zum Beispiel t4 schalten, weil
-das ja eine Vorbedingung ist, wenn t4 schaltet.
+s4 ja eine Vorbedingung ist.
 
 0:05:47.860,0:05:52.430
 Dann geht die Marke hier raus und da rein.
