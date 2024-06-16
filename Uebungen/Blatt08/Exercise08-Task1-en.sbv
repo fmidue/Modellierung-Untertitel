@@ -11,7 +11,7 @@ their reachability graphs.
 
 0:00:21.880,0:00:30.619
 But nevertheless, we are able to decide on
-whether there are some properties are valid
+whether some properties are valid
 
 0:00:30.619,0:00:32.360
 for the Petri nets.
@@ -24,8 +24,8 @@ that there are four transitions for each Petri
 net.
 
 0:00:40.320,0:00:46.660
-We know the ... #00:00:42# original Petri
-nets, there are four transitions where we
+We know that within the original Petri
+nets, there are four transitions but we
 
 0:00:46.660,0:00:51.219
 do not know the actual Petri nets.
@@ -49,8 +49,8 @@ I would just indicate to properties within
 this table here.
 
 0:01:30.560,0:01:40.880
-But I will talk about the reasons that like
-I fill in the table as I'll do.
+But I will talk about the reasons why
+I fill in the table they way I'll do.
 
 0:01:40.880,0:01:53.320
 Let's have a look at the first Petri net and
@@ -62,7 +62,7 @@ states within the reachability graph, and
 
 0:02:01.399,0:02:10.810
 so
-this Petri net or the Petri net belong to
+this Petri net or the Petri net belonging to
 
 0:02:10.810,0:02:16.170
 this reachability graph is probably strongly
@@ -92,14 +92,14 @@ We just choose one state in the reachability
 graph.
 
 0:02:55.670,0:02:57.480
-Let's choose 0 1, 1.
+Let's choose (0,1,1).
 
 0:02:57.480,0:03:00.010
 So the starting state.
 
 0:03:00.010,0:03:06.940
-So, when we choose this marking, then we know
-we can only have this marking in the Petri
+So, when we choose this marking, then we know,
+when we have this marking in the Petri
 
 0:03:06.940,0:03:07.940
 net.
@@ -168,8 +168,8 @@ Let's check if this maybe is weakly live,
 although it is not strongly live.
 
 0:04:45.320,0:05:03.660
-And for this property, we check
-the net that it consists of all the transitions.
+And for this property, we check if
+the reachibility graph contains all the transitions.
 
 0:05:03.660,0:05:08.240
 We have t1 in the reachability graph.
@@ -205,7 +205,7 @@ Now we can check for deadlock freeness.
 
 0:05:56.979,0:06:08.500
 And as we’ve already mentioned, we can get
-to each other of the nodes when we follow
+to each of the other nodes when we follow
 
 0:06:08.500,0:06:11.720
 the edges in the reachability graph.
@@ -246,10 +246,10 @@ we know this one is deadlock free.
 
 0:06:54.120,0:07:00.940
 Now we check the second net and there we find
-a node which has no outgoing edge, so 0, 2,
+a node which has no outgoing edge, so
 
 0:07:00.940,0:07:03.590
-0, 0 has no outgoing edge.
+(0,2,0,0) has no outgoing edge.
 
 0:07:03.590,0:07:07.790
 This one is actually a deadlock.
@@ -267,10 +267,10 @@ Now we check for safeness.
 Is this net safe?
 
 0:07:27.449,0:07:28.449
-Well safe?
+When is it safe?
 
 0:07:28.449,0:07:34.950
-It is if there is most one token for every
+It is if there is at most one token for every
 place.
 
 0:07:34.950,0:07:43.000
@@ -282,7 +282,7 @@ a place, it is not safe.
 
 0:07:45.440,0:07:52.340
 And in this case, we have, for example, this
-node here 0, 2, 0, 0, which contains more
+node here (0,2,0,0) which contains more
 
 0:07:52.340,0:07:59.290
 than one token and for the second place, so
@@ -310,7 +310,7 @@ For instance, this node here contains two
 tokens in the first place.
 
 0:08:41.990,0:08:48.650
-2, 0, 0 contains more than one token for the
+So (2,0,0) contains more than one token for the
 first place here.
 
 0:08:48.650,0:09:04.580
@@ -324,11 +324,11 @@ Well, we can find a constant C for each of
 the tokens of the places where no node has
 
 0:09:26.630,0:09:34.250
-more tokens than this constant for these cases
-or if we can, then it is bounded, but we can
+more tokens than this constant for these cases.
+If we can, then it is bounded.
 
 0:09:34.250,0:09:40.650
-for if we choose two for instance, or even
+If we choose two for instance, or even
 three, well two is enough in this case, or
 
 0:09:40.650,0:09:47.260
@@ -337,26 +337,26 @@ node, which contains more tokens than two.
 
 0:09:47.260,0:09:56.589
 And because when we check all these numbers
-here, we have only 0, 0, 0, 1 and 2.
+here, we have only 0's, 1's and 2's
 
 0:09:56.589,0:10:08.510
-For all these nodes in the reachability graph
+for all these nodes in the reachability graph
 so in fact this is bounded.
 
 0:10:08.510,0:10:18.270
 And then we check the second net and here
-again, we can choose a constant C equal two
+again, we can choose a constant C equal to two,
 
 0:10:18.270,0:10:24.500
-can be the same as in this case, because there
+it can be the same as in this case, because there
 two is the highest number of tokens for a
 
 0:10:24.500,0:10:30.120
-place here for this Petri net or in the reachability
-graph.
+place here for this Petri net, so in the reachability
+graph
 
 0:10:30.120,0:10:38.459
-There is no number higher than two ever occurring
+there is no number higher than two ever occurring
 for any tokens in any place.
 
 0:10:38.459,0:10:48.760

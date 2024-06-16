@@ -62,7 +62,7 @@ Lebendigkeit folgendes bedeutet, wobei für
 
 0:01:08.680,0:01:15.400
 uns der Satz wichtig ist: Bezüglich des Erreichbarkeitsgraphen
-bedeutet dies, für jede Transition t, dass
+bedeutet dies für jede Transition t, dass
 
 0:01:15.400,0:01:20.000
 von jedem Knoten des Graphen aus ein Übergang
@@ -87,7 +87,7 @@ t1 kommen.
 
 0:01:41.650,0:01:45.880
 Wir kommen von dem Knoten aus direkt zu t3
-und über den Knoten aus direkt zu t4.
+und über den Knoten direkt zu t4.
 
 0:01:45.880,0:01:50.090
 Also werden alle vier Transitionen von dem

@@ -18,7 +18,7 @@ for Petri net N1.
 
 0:00:44.950,0:01:03.700
 This is for Petri net N1, and then we have
-the casualties on the right-hand side.
+the causalties on the right-hand side.
 
 0:01:03.700,0:01:14.299
 Left are the transitions and right are the
@@ -34,14 +34,14 @@ there shall be the causalities.
 
 0:01:29.830,0:01:38.840
 And when we start with the first transition,
-then we can check here, can we fire t1 while
+then we can check here, can we fire t1?
 
 0:01:38.840,0:01:48.540
-we require token in s1 and we require token
+We require token in s1 and we require token
 in s2 and therefore we do not require to fire
 
 0:01:48.540,0:01:52.939
-any other transition so we can fire t1 right
+any other transition, so we can fire t1 right
 away.
 
 0:01:52.939,0:01:58.000
@@ -76,15 +76,14 @@ just this set of t2, which is the precondition,
 
 0:03:03.780,0:03:12.730
 the necessary condition, which we add here
-on the … #00:03:09# t3.
+for t3.
 
 0:03:12.730,0:03:24.080
 And then to find out the necessary conditions
 for t4, we look at what t4 requires.
 
 0:03:24.080,0:03:30.560
-t4 requires a token in s3, which there it
-is.
+t4 requires a token in s3, which there is.
 
 0:03:30.560,0:03:40.000
 Again, the necessary condition for t4 would
@@ -102,10 +101,10 @@ And now I write the headings down as well
 as we have transitions on the left-hand side
 
 0:04:02.060,0:04:06.260
-and on the right-hand side.
+and on the right-hand side
 
 0:04:06.260,0:04:20.040
-We write the necessary conditions.
+we write the necessary conditions.
 
 0:04:20.040,0:04:24.020
 And in this case, we have five transitions.
@@ -162,8 +161,7 @@ would be by firing T1.
 And we can fire t1.
 
 0:05:50.060,0:05:55.630
-This is already part of our necessary condition
-t1.
+So t1 is alrady part of our necessary condition.
 
 0:05:55.630,0:06:02.750
 And we can fire t1 right away because there's
