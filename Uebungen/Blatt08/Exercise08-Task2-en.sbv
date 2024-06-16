@@ -18,14 +18,14 @@ graph because of course it is infinite.
 
 0:00:34.810,0:00:44.399
 But the part that we shall create should contain
-all states that are reachable within the most
+all states that are reachable within at most
 
 0:00:44.399,0:00:47.180
 three transitions.
 
 0:00:47.180,0:00:58.450
 We have to have all the connections between
-all possible transitions between the states.
+all possible transitions between these states.
 
 0:00:58.450,0:01:04.510
 That's what hint also tells us.
@@ -49,10 +49,10 @@ We use the usual sequence of places.
 
 0:01:34.619,0:01:48.549
 s1 is the first, so is the first place of
-our triple then second there is s2.
+our tuple.
 
 0:01:48.549,0:01:54.000
-Yes, second is s2, which has zero tokens.
+Second is s2, which has zero tokens.
 
 0:01:54.000,0:01:59.509
 And third is s3, which has also zero tokens.
@@ -92,30 +92,30 @@ Let's say we go from here to the next state,
 which is zero tokens in s1, because there's
 
 0:03:19.420,0:03:28.420
-no arrow going from t1 there, but one arrow
+no arrow from t1 going there, but one arrow
 going from s1 to t1.
 
 0:03:28.420,0:03:37.670
 And s2 and s3 will each get one token.
 
 0:03:37.670,0:03:44.190
-This was firing by t1.
+So by firing t1
 
 0:03:44.190,0:03:46.730
-We reached this state.
+we have reached this state.
 
 0:03:46.730,0:03:50.519
 And now we have two options.
 
 0:03:50.519,0:03:58.230
 There's no token in s1 now, so we cannot fire
-t1 when we are in this-, when we reach this
+t1 when we reach this
 
 0:03:58.230,0:03:59.230
 marking.
 
 0:03:59.230,0:04:06.900
-But we can fire t2 as we have got token in
+But we can fire t2 as we have got a token in
 s2 and we can t3 as we have got a token in
 
 0:04:06.900,0:04:08.200
@@ -168,14 +168,14 @@ t3.
 When we fire t3, we would reach the state.
 
 0:05:47.030,0:06:02.699
-Well, we would reach the state 0, 1, 2 because
+Well, we would reach the state (0,1,2) because
 we take one token out of s3, but place two
 
 0:06:02.699,0:06:05.729
 tokens back in.
 
 0:06:05.729,0:06:12.330
-This was by firing t3.
+This was reached by firing t3.
 
 0:06:12.330,0:06:26.410
 And we can reach this particular state also
@@ -186,7 +186,7 @@ and adds a token to s2 and adds a token to
 s3.
 
 0:06:34.860,0:06:40.789
-This was firing t1.
+This was reached by firing t1.
 
 0:06:40.789,0:06:55.039
 In this particular case, we would already
@@ -219,7 +219,7 @@ token in s3 as we take one token and add two
 tokens to s3.
 
 0:07:49.810,0:08:05.300
-We reach the state 1, 0, 2 by firing t3.
+We reach the state (1,0,2) by firing t3.
 
 0:08:05.300,0:08:19.259
 And now we can
@@ -233,15 +233,15 @@ t1 and t3.
 
 0:08:33.029,0:08:40.580
 Thus, we can think about the transitions that
-we can fire up from here.
+we can fire from here.
 
 0:08:40.580,0:08:50.670
 And there are two options; we can fire t2,
 which takes one token from s2.
 
 0:08:50.670,0:08:57.160
-And it's a token in s1 which would lead us
-to 1, 0, 2, which is the state we already
+And adds a token to s1 which would lead us
+to (1,0,2), which is the state we already
 
 0:08:57.160,0:09:02.980
 have, so we can fire t2 here.
@@ -251,7 +251,7 @@ Or we can fire t3, which takes one token from
 s3 and adds two tokens to s3, which would
 
 0:09:13.150,0:09:21.660
-lead us to the state 0, 1, 3.
+lead us to the state (0,1,3).
 
 0:09:21.660,0:09:32.250
 Actually, when we now look at this graph,
@@ -264,11 +264,10 @@ three transitions.
 And we are already done with the task.
 
 0:09:39.350,0:09:53.640
-You could furthermore add all the edges that
-go
+You could furthermore add all the edges
 
 0:09:53.640,0:10:07.630
-to different-, that go to outside of these
+that go outside of these
 states.
 
 0:10:07.630,0:10:13.769
@@ -291,7 +290,7 @@ this is as I said, optional.
 
 0:10:33.660,0:10:40.160
 When we think, for instance for this, from
-this state here, 1, 0, 2 we could fire t1
+this state here, (1,0,2) we could fire t1
 
 0:10:40.160,0:10:57.760
 here and we could also fire t2 here.
@@ -304,10 +303,10 @@ We could fire t1 from here and we could fire
 t3.
 
 0:11:12.640,0:11:16.100
-And from the other state we could fire-.
+And from the other state,
 
 0:11:16.100,0:11:34.850
-This one here, we could fire t2 and we could
+from this one here, we could fire t2 and we could
 fire t3.
 
 0:11:34.850,0:11:41.550
@@ -339,7 +338,7 @@ Or we shall use it as well.
 
 0:12:29.120,0:12:41.959
 And when we look at it, then we can identify
-some places, for instance, we could-.
+some places.
 
 0:12:41.959,0:12:53.750
 Let me just maybe mark this place here.
@@ -374,12 +373,12 @@ But we could fire the same transitions t1
 and t2 again.
 
 0:13:47.630,0:14:04.130
-When doing this, we could basically fire sequence
-t1, t2 and fire those repetitively.
+When doing this, we could basically fire the
+sequence t1, t2 repeatedly.
 
 0:14:04.130,0:14:23.930
 And we would get a sequence which always adds
-another token to place s3.
+another token to the place s3.
 
 0:14:23.930,0:14:35.630
 For instance, if we consider this place here,
@@ -400,8 +399,8 @@ And these considerations could be made for
 other places as well.
 
 0:15:00.370,0:15:11.040
-We could do the same or could consider maybe
-other sites.
+We could consider doing the same with maybe
+some other states.
 
 0:15:11.040,0:15:22.000
 Well for these two here, maybe we could, for
@@ -414,11 +413,11 @@ state here.
 We could have the sequence t1 and t2 here.
 
 0:15:27.790,0:15:34.610
-Or we could repetitively have a t3 fire tier.
+Or we could repetitively have t3 fired here.
 
 0:15:34.610,0:15:45.959
 Because when we fire t3 again, so firing t3
-repetitively, then we get into this tier.
+repeatedly, then we get into this state here.
 
 0:15:45.959,0:15:51.010
 We can repeat this ever again.
@@ -515,10 +514,10 @@ connection between s3 and t2.
 
 0:19:09.289,0:19:27.020
 If s3 will be a requirement for firing t2,
-then this will prevent firing
+then this will prevent
 
 0:19:27.020,0:19:30.409
-or generating more targets in s3.
+generating more tokens in s3.
 
 0:19:30.409,0:19:37.400
 Because now when we fire t1 and afterwards
@@ -536,10 +535,10 @@ Because now there will not be a deadlock where
 we can do nothing any more.
 
 0:20:04.780,0:20:16.580
-Because we can always fire t3 and we can fire-.
+Because we can always fire t3
 
 0:20:16.580,0:20:25.110
-We can always fire t3 or t2 when there are
+or t2 when there are
 tokens in s2 or s3.
 
 0:20:25.110,0:20:34.600
