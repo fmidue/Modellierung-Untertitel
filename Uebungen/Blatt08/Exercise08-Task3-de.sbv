@@ -3,7 +3,7 @@ In dieser Aufgabe geht es um die Kausalitäten
 von Petrinetzen.
 
 0:00:05.509,0:00:13.310
-Dafür soll man sich die Petrinetze N¬¬1
+Dafür soll man sich die Petrinetze N1
 und N2 angucken und für beide Petrinetze
 
 0:00:13.310,0:00:18.540
@@ -31,7 +31,7 @@ dann, wenn für alle Schaltfolgen von t gilt:
 
 0:00:44.809,0:00:53.370
 falls von der Startmarkierung aus ein t geschaltet
-werden muss, um t zu t2 schalten zu können,
+werden muss, um t2 schalten zu können,
 
 0:00:53.370,0:00:59.429
 um zu einer Markierung zu kommen für die
@@ -59,16 +59,16 @@ tue.
 Wir haben erstmal N1.
 
 0:01:20.979,0:01:25.070
-Und dann haben wir alle Transition.
+Und dann haben wir alle Transitionen.
 
 0:01:25.070,0:01:29.060
-Jetzt habe ich Transition falsch geschrieben.
+Jetzt habe ich Transitionen falsch geschrieben.
 
 0:01:29.060,0:01:30.369
 Ich mache es nochmal.
 
 0:01:30.369,0:01:39.689
-Wir haben alle Transitionen, (4 Sek.) die
+Wir haben alle Transitionen, die
 wir durchgehen müssen.
 
 0:01:39.689,0:01:43.539
@@ -140,7 +140,7 @@ t2 hat als Vorbedingung nur, dass eine Marke
 aus s1 kommt.
 
 0:03:00.860,0:03:03.400
-In der Startmarkierung gibt es ein s1.
+In der Startmarkierung gibt es eine Marke in s1.
 
 0:03:03.400,0:03:06.540
 Also kann t2 auch direkt schalten.
@@ -216,7 +216,7 @@ damit man die noch sieht.
 
 0:04:22.790,0:04:32.280
 Ich schreibe hier jetzt nur T für Transition
-und notwendige Bedingung.
+und notwendige Bedingung (n.B.).
 
 0:04:32.280,0:04:42.200
 Wir haben hier wieder t1, t2, t3, t4 und sogar
