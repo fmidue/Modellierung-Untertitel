@@ -248,7 +248,7 @@ Wir schreiben das wieder auf.
 
 0:05:06.530,0:05:24.780
 Wenn wir hier als dritten Übergang nochmal
-t3 schalten, dann haben wir null, eins, drei.
+t3 schalten, dann haben wir (0,1,3).
 
 0:05:24.780,0:05:28.949
 Und damit hätten wir auch unsere drei Übergänge.
@@ -261,8 +261,7 @@ auch noch t2 schalten.
 Also machen wir das auch einmal nochmal.
 
 0:05:36.729,0:05:41.729
-Also gehen wir zu dem Zustand null, eins,
-zwei zurück.
+Also gehen wir zu dem Zustand (0,1,2) zurück.
 
 0:05:41.729,0:05:44.590
 Da konnten wir auch t2 schalten.
