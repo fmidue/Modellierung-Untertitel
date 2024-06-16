@@ -11,19 +11,19 @@ So, this leads us to our first task which
 is determining the initial marking.
 
 0:00:25.060,0:00:34.899
-So, first of all, so we look at all the places
+So, first of all, we look at all the places
 and we see that in S1 there are two tokens
 
 0:00:34.899,0:00:39.340
 and in S2, S3 and S4 there are zero tokens.
 
 0:00:39.340,0:00:49.230
-And this is our initial state and if you write
-it down the state and given the order of these
+And this is our initial state and if we write
+down the states and given the order of these
 
 0:00:49.230,0:01:01.719
-places, so, we define the place order for
-this graph as being state/ place one being
+places, we define the place order for
+this graph as being place one being
 
 0:01:01.719,0:01:12.290
 S1, the second position being place S2 and
@@ -76,7 +76,7 @@ So it's only T1 that we can fire because there
 are tokens in S1.
 
 0:02:39.160,0:02:49.630
-So we can fire T1 and this would lead to the
+So we can fire T1 and this would lead to a
 new state.
 
 0:02:49.630,0:03:06.459
@@ -88,7 +88,7 @@ So, first of all, we can check that we have
 this marking not named yet.
 
 0:03:12.549,0:03:19.550
-But there's one token, in this one we have
+But there's one token in S1 and we have
 no state referring to that marking.
 
 0:03:19.550,0:03:28.950
@@ -113,7 +113,7 @@ So now we have two options, we can either
 fire T1 again.
 
 0:04:11.750,0:04:27.190
-So if we do this/ let's do this one first
+So if we do this,
 then we get another token in S2, so we again,
 
 0:04:27.190,0:04:34.470
@@ -126,10 +126,10 @@ this yet, so we create a new state.
 
 0:04:43.990,0:04:54.220
 And we have zero tokens in S1 and two tokens
-in S2 and zero and S3 and zero in S4 and when
+in S2 and zero and S3 and zero in S4 and we
 
 0:04:54.220,0:05:08.160
-you reach this state by going/ again, by firing
+reach this state, by firing
 T1.
 
 0:05:08.160,0:05:15.530
@@ -187,7 +187,7 @@ And it's zero tokens in S1, zero tokens in
 S2, and one token in S3.
 
 0:07:12.129,0:07:27.139
-And this one’s using this transition here
+And this was using this transition here
 by using transition 2.
 
 0:07:27.139,0:07:41.050
@@ -218,14 +218,13 @@ create a new state.
 
 0:08:27.639,0:08:37.680
 And there are zero tokens in S3, there is
-one token in S4 and there's one token in/
+one token in S4 and there's one token
 
 0:08:37.680,0:08:45.050
-sorry in S1, and zero tokens there in S2.
+in S1, and zero tokens there in S2.
 
 0:08:45.050,0:08:55.470
-And we reached this state by firing transition
-three.
+And we reached this state by firing T3.
 
 0:08:55.470,0:09:07.360
 Now that
@@ -248,7 +247,7 @@ But we can fire either T4 or we can fire T1.
 So let's first of all fire T4.
 
 0:09:33.160,0:09:45.690
-So if we do that, then remove one token from
+So if we do that, then we remove one token from
 S4 and get one token in S1.
 
 0:09:45.690,0:09:51.510
@@ -256,7 +255,7 @@ And now we have to check if this is a state
 that we've covered already but as we can see
 
 0:09:51.510,0:09:58.279
-as the graph is now as original we know we
+the graph is now original, we now
 have two tokens in S1, we have zero tokens
 
 0:09:58.279,0:10:03.380
@@ -264,7 +263,7 @@ in S2, zero tokens in S3, and zero tokens
 in S4.
 
 0:10:03.380,0:10:13.330
-So we create no new state, but we create or
+So we create no new state, but
 we add in a transition, which goes from this
 
 0:10:13.330,0:10:23.500
@@ -273,10 +272,10 @@ firing T4.
 
 0:10:23.500,0:10:32.279
 And as we haven't covered all the states that
-we can reach from this transition, we go back/
+we can reach from this marking,
 
 0:10:32.279,0:10:35.660
-from this marking, we go back to the marking.
+we go back to the marking.
 
 0:10:35.660,0:10:48.800
 So once more, we go back to this state, this
@@ -305,7 +304,7 @@ in S2, we have zero tokens in S1, we have
 
 0:11:46.649,0:12:08.540
 one token in S2, and we have one token in
-S4, and this one we got there by firing T1.
+S4, and we got there by firing T1.
 
 0:12:08.540,0:12:13.040
 So that's the label of the edge.
@@ -315,14 +314,14 @@ And now that we are in this state, we can
 fire T4 once more.
 
 0:12:23.000,0:12:30.681
-It can't fire any other transition because
+We can't fire any other transition because
 there are no tokens in S1 and because there
 
 0:12:30.681,0:12:32.940
 are no tokens in S3.
 
 0:12:32.940,0:12:38.900
-So that's why we can't fly a T2 and we can't
+So that's why we can't fire T2 and we can't
 fire T3 and we can't fire T1.
 
 0:12:38.900,0:12:42.500
@@ -348,13 +347,13 @@ and this is this state here.
 
 0:13:32.019,0:13:45.380
 So we add this edge here, maybe make the graph
-a bit more readable by putting it like this
+a bit more readable by putting it like this.
 
 0:13:45.380,0:13:53.140
-and this was by actually firing T4.
+This was reached by actually firing T4.
 
 0:13:53.140,0:13:57.780
-So we fire T4 and get back to the state.
+So we fire T4 and get back to this state.
 
 0:13:57.780,0:14:01.970
 And from there, we can continue as mentioned
@@ -380,7 +379,7 @@ graph, it's really important to consider every
 state and consider every transition.
 
 0:14:42.660,0:14:49.160
-And when you add a new state check before
+And when you add a new state, check before
 if the state already exists.
 
 0:14:49.160,0:14:56.540
