@@ -171,7 +171,7 @@ was daraus möglich ist.
 
 0:03:03.900,0:03:07.260
 t1 ist nicht möglich, denn es gibt kein Token
-in null.
+in t1.
 
 0:03:07.260,0:03:11.800
 Damit ist die Vorbedingung nicht gegeben und
@@ -493,7 +493,7 @@ lebendig.
 
 0:09:31.890,0:09:38.990
 Stark lebendig heißt einfach nur, dass von
-jeder Markierung aus und für jede Transition
+jeder Markierung aus für jede Transition
 
 0:09:38.990,0:09:42.960
 eine Markierung erreichbar ist, die diese
@@ -549,7 +549,7 @@ Jetzt ist die Frage, ob es schwach lebendig
 ist.
 
 0:10:47.660,0:10:53.040
-Schwach lebendig ist nicht ganz so, deswegen
+Schwach lebendig ist nicht ganz so streng, deswegen
 heißt es auch schwach und nicht stark lebendig.
 
 0:10:53.040,0:10:58.180
@@ -698,7 +698,7 @@ zwei Marken in einer Stelle drin liegen, können
 wir sagen, dass es beschränkt ist.
 
 0:13:53.029,0:13:56.500
-Und wir können sagen es ist zwei-beschränkt.
+Und besonders können wir sagen es ist zwei-beschränkt.
 
 0:13:56.500,0:14:02.840
 Und damit haben wir diese Tabellen fertig
