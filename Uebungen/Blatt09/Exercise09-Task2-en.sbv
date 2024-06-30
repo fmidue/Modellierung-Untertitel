@@ -15,11 +15,11 @@ So we take a look at our Petri nets, figure
 out the initial marking, which for the first
 
 0:00:24.800,0:00:30.429
-one would be 1, 1, 1, because we have three
+one would be (1,1,1), because we have three
 places with one token each.
 
 0:00:30.429,0:00:36.160
-For N2, this would be 1, 1, 0, 0, because
+For N2, this would be (1,1,0,0), because
 we have four places and one token in S1 and
 
 0:00:36.160,0:00:37.550
@@ -29,8 +29,8 @@ one token in S2.
 So if we just write these down.
 
 0:00:40.050,0:00:48.800
-We have 1, 1, 1 over here, and we have 1,
-1, 0, 0 over here.
+We have (1,1,1) over here, and we have
+(1,1,0,0) over here.
 
 0:00:48.800,0:00:56.140
 Then we take all sets of two transitions and
@@ -48,32 +48,32 @@ So that basically means we first figure out
 the preconditions for every transition.
 
 0:01:06.259,0:01:20.100
-So for N1, for t1, this would be t1 expects
+So for N1, t1 expects
 one token in S1 and one token in S2.
 
 0:01:20.100,0:01:29.600
-So this is 1, 1, 0.
+So this is (1,1,0).
 
 0:01:29.600,0:01:39.509
 For t2, the precondition expects one token
 in S1 and nothing else.
 
 0:01:39.509,0:01:43.530
-So this is 1, 0, 0.
+So this is (1,0,0).
 
 0:01:43.530,0:01:51.509
-For t3, t3 expects two tokens in S2 and nothing
+t3 expects two tokens in S2 and nothing
 else.
 
 0:01:51.509,0:01:57.049
-So this is 0, 2, 0.
+So this is (0,2,0).
 
 0:01:57.049,0:02:02.860
-For t4, t4 expects one token in S3 and nothing
+And t4 expects one token in S3 and nothing
 else.
 
 0:02:02.860,0:02:07.180
-So this is 0, 0, 1.
+So this is (0,0,1).
 
 0:02:07.180,0:02:14.230
 Now, we can either just have a look at which
@@ -118,7 +118,7 @@ Let's just work it out step by step here.
 So we take t1 and t2, we take the direct sum.
 
 0:02:56.330,0:02:59.090
-This would result in 2, 1, 0.
+This would result in (2,1,0).
 
 0:02:59.090,0:03:05.400
 In this case, there's a two over here and
@@ -128,8 +128,7 @@ that's more than in S1 in the initial marking.
 So the t1 and t2 are not concurrently activated.
 
 0:03:08.730,0:03:13.090
-t1 and t3, this would result in a three over
-here.
+t1 and t3, this would result in a three in S2.
 
 0:03:13.090,0:03:18.450
 That's also bigger than the initial marking
@@ -140,18 +139,18 @@ So t1 and t3 are out as well.
 
 0:03:21.670,0:03:28.510
 Well, we see that pretty much immediately,
-t1 and t4 are 1, 1, 0 and 0, 0, 1.
+t1 and t4 are (1,1,0) and (0,0,1).
 
 0:03:28.510,0:03:41.340
 So the direct sum of
 
 0:03:41.340,0:03:57.860
-the precondition
-of t4 is 1, 1, 1, which is less than or equal
+the preconditions of t1 and t4
+is (1,1,1), which is less than or equal
 
 0:03:57.860,0:04:03.470
-to the initial marking, which is also 1, 1,
-1.
+to the initial marking, which is also
+(1,1,1).
 
 0:04:03.470,0:04:07.989
 So this is how we would need to write it down.
@@ -182,7 +181,7 @@ t2 and t3 would result in a 2 in the second
 place, which is higher than the initial marking.
 
 0:04:57.860,0:05:04.420
-t2 and t4 would result in 1, 0, 1, which is
+t2 and t4 would result in (1,0,1), which is
 less than the initial marking.
 
 0:05:04.420,0:05:06.449
@@ -193,7 +192,7 @@ So we write those down as well and say the
 precondition of t2 direct sum with the precondition
 
 0:05:14.229,0:05:28.070
-of t4 results in 1, 0, 1, which is less than
+of t4 results in (1,0,1), which is less than
 or equal the initial marking.
 
 0:05:28.070,0:05:45.960
@@ -201,12 +200,11 @@ So the set of t2 and t4 is concurrently active
 as well.
 
 0:05:45.960,0:05:55.260
-That's all the possible combinations from-
-Well, we also need to consider t3 and t4.
+We also need to consider t3 and t4.
 
 0:05:55.260,0:06:00.630
 So just for completeness sake, t3 and t4 would
-result in 0, 2, 1, and that's higher than
+result in (0,2,1), and that's higher than
 
 0:06:00.630,0:06:01.800
 the initial marking.
@@ -242,7 +240,7 @@ So the precondition for t1 in N2 is just one
 token in S1 and nothing else.
 
 0:06:58.440,0:07:03.940
-So it's 1, 0, 0, 0, because we have four places
+So it's (1,0,0,0), because we have four places
 here.
 
 0:07:03.940,0:07:10.860
@@ -250,20 +248,20 @@ The precondition for t2 expects one token
 in S2 and nothing else.
 
 0:07:10.860,0:07:13.180
-So 0, 1, 0, 0.
+So (0,1,0,0).
 
 0:07:13.180,0:07:21.020
 The precondition for t3 expects one token
 in S3.
 
 0:07:21.020,0:07:29.889
-So 0, 0, 1, 0.
+So (0,0,1,0).
 
 0:07:29.889,0:07:37.960
 The precondition for t4 is two tokens in S4.
 
 0:07:37.960,0:07:44.759
-So 0, 0, 0, 2.
+So (0,0,0,2).
 
 0:07:44.759,0:07:50.460
 t5 expects one token in S1.
@@ -274,10 +272,10 @@ of transitions we just worked through here,
 
 0:08:00.740,0:08:07.729
 take the direct sum, and look at if the direct
-sum is bigger or equal than the initial marking.
+sum is bigger than or equal to the initial marking.
 
 0:08:07.729,0:08:11.730
-For t1 and t2, this results in 1, 1, 0, 0,
+For t1 and t2, this results in (1,1,0,0),
 which is perfect.
 
 0:08:11.730,0:08:13.060
@@ -289,10 +287,10 @@ direct
 
 0:08:24.259,0:08:33.860
 sum of the precondition of t1 and t2 results
-in 1, 1, 0, 0, which is less than or equal
+in (1,1,0,0), which is less than or equal
 
 0:08:33.860,0:08:36.990
-to our initial marking 1, 1, 0, 0.
+to our initial marking (1,1,0,0).
 
 0:08:36.990,0:08:48.260
 So the set of t1 and t2 are concurrently active.
@@ -301,8 +299,8 @@ So the set of t1 and t2 are concurrently active.
 Moving on.
 
 0:08:49.260,0:08:55.050
-We have t1 and t3, this results in 1, 0, 1,
-0, and the one over here in the third place
+We have t1 and t3, this results in (1,0,1,0),
+and the one over here in the third place
 
 0:08:55.050,0:08:56.880
 is not present in the initial marking.
@@ -318,7 +316,7 @@ there are no markings in the fourth place.
 So that's out as well.
 
 0:09:04.570,0:09:12.360
-t1 and t5 results in 2, 0, 0, 0, which is
+t1 and t5 results in (2,0,0,0), which is
 one higher than these tokens present in S1
 
 0:09:12.360,0:09:13.360
@@ -331,7 +329,7 @@ So that's it for t1, it's just t1 and t2.
 Next we look at t2 and t3.
 
 0:09:21.890,0:09:24.520
-This results in 0, 1, 1, 0.
+This results in (0,1,1,0).
 
 0:09:24.520,0:09:26.640
 There's no marking in S3 in the initial marking.
@@ -352,7 +350,7 @@ So that's out.
 t2 and t4 is out as well.
 
 0:09:34.840,0:09:40.579
-But t2 and t5 result in 1, 1, 0, 0, which
+But t2 and t5 result in (1,1,0,0), which
 is exactly our initial marking.
 
 0:09:40.579,0:09:42.670
@@ -363,7 +361,7 @@ So it's again the direct sum of the precondition
 for t2 and the precondition for t5 result
 
 0:09:53.990,0:10:04.899
-in 1, 1, 0, 0, which is less than or equal
+in (1,1,0,0), which is less than or equal
 to our initial marking.
 
 0:10:04.899,0:10:19.149
@@ -438,7 +436,7 @@ So for t1, we have the precondition of one
 token in S1 and one token in S2.
 
 0:12:02.150,0:12:08.389
-So 1, 1, 0, and that is less than or equal
+So (1,1,0), and that is less than or equal
 to M0.
 
 0:12:08.389,0:12:11.980
@@ -452,7 +450,7 @@ t2 is also active because that's just one
 token in S1 expected.
 
 0:12:20.760,0:12:24.519
-So it's 1, 0, 0.
+So it's (1,0,0).
 
 0:12:24.519,0:12:30.850
 So that's also less than or equal to our initial
@@ -471,7 +469,7 @@ S3 expected, which is the initial marking.
 
 0:12:46.110,0:12:56.180
 So we can write that down as well as precondition
-0, 0, 1, and that is less than or equal to
+(0,0,1), and that is less than or equal to
 
 0:12:56.180,0:12:58.380
 the initial marking.
@@ -522,7 +520,7 @@ these two.
 
 0:13:55.670,0:14:16.399
 For t1 and t2, the direct sum of the preconditions
-would be 2, 1, 0, which is not less than or
+would be (2,1,0), which is not less than or
 
 0:14:16.399,0:14:19.139
 equal to our initial marking.
@@ -537,7 +535,7 @@ marking.
 
 0:14:32.480,0:14:44.820
 t2 and t4 are not in conflict because the
-direct sum of those is just 1, 0, 1, and that's
+direct sum of those is just (1,0,1), and that's
 
 0:14:44.820,0:14:46.259
 also less than or equal to M0.
@@ -624,7 +622,7 @@ active.
 But the direct sum
 
 0:16:43.319,0:16:55.720
-of the two preconditions is 2, 0, 0, 0, which
+of the two preconditions is (2,0,0,0), which
 is not less than or equal to M0.
 
 0:16:55.720,0:17:10.190
