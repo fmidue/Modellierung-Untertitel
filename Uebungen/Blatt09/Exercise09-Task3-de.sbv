@@ -250,7 +250,7 @@ hoch zu bekommen, dann feuern wir t2, dann
 wird das Tor geöffnet.
 
 0:07:13.469,0:07:20.159
-Und wenn wir jetzt den t6 feuern und nicht
+Und wenn wir jetzt t6 feuern und nicht
 t1, dann wird der Wasserstand niedrig und
 
 0:07:20.159,0:07:21.520
@@ -651,7 +651,7 @@ Da besteht das Problem, dass Tor eins nicht
 mehr geöffnet werden kann, weil der Token
 
 0:20:04.669,0:20:07.640
-durch das Feuern von t4 aus t1 verschwindet.
+durch das Feuern von t4 aus Tor eins verschwindet.
 
 0:20:07.640,0:20:12.330
 Da können wir im Prinzip denselben Trick
