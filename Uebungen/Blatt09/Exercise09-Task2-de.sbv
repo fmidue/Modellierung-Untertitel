@@ -40,7 +40,7 @@ Wir haben etwas, das in t2 reingeht und wir
 haben etwas, das in t3 reingeht.
 
 0:00:55.850,0:01:02.840
-Von s1 gehen null in t1 rein, deswegen steht
+Von s1 gehen null in t2 rein, deswegen steht
 hier eine null.
 
 0:01:02.840,0:01:04.420
@@ -199,7 +199,7 @@ es nicht gibt.
 
 0:04:06.050,0:04:13.129
 Oder t4 könnte von der Anfangsmarkierung
-aus starten.
+aus schalten.
 
 0:04:13.129,0:04:20.190
 Das bedeutet, wenn wir uns das jetzt angucken
@@ -252,7 +252,7 @@ Das bedeutet, wir müssen hier (0,0,1) hinschreiben.
 Ich werde das darunter jetzt zusammenrechnen.
 
 0:05:34.390,0:05:37.470
-Eins plus null ist ein.
+Eins plus null ist eins.
 
 0:05:37.470,0:05:40.730
 Eins plus null ist eins.
@@ -489,7 +489,7 @@ Pärchen mit Nebenläufigkeit haben.
 Unsere Vermutung war also richtig.
 
 0:12:04.720,0:12:10.090
-Das Pärchen ist t1 und t2. Dan gucken wir
+Das Pärchen ist t1 und t2. Dann gucken wir
 weiter.
 
 0:12:10.090,0:12:12.779
@@ -793,10 +793,10 @@ könnte.
 
 0:19:21.230,0:19:27.650
 Wir hatten schon festgestellt, dass t1 und
-t4 nebenläufig sind, sowie t2 und t4 sind
+t4, sowie t2 und t4 nebenläufig
 
 0:19:27.650,0:19:29.120
-nebenläufig.
+sind.
 
 0:19:29.120,0:19:35.770
 Und t3 kann auch nicht schalten, wenn hier
@@ -894,11 +894,11 @@ in s2.
 
 0:22:08.940,0:22:16.670
 Das bedeutet, wenn wir das wieder vergleichen,
-dass eins kleiner ist als eins, null kleiner
+dass eins kleiner gleich eins ist, null kleiner
 
 0:22:16.670,0:22:19.920
-ist als eins, null kleiner ist als null, und
-null kleiner ist als null.
+gleich eins ist, null kleiner gleich null ist, und
+null kleiner gleich null ist.
 
 0:22:19.920,0:22:24.040
 Das bedeutet t1 ist kleiner gleich m0.
