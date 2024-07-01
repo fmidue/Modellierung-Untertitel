@@ -1,22 +1,22 @@
 0:00:02.450,0:00:14.019
 This task is about a Petri net and it's a
-task about you are fixing a Petri net.
+task about fixing a Petri net.
 
 0:00:14.019,0:00:27.279
 We have been given the task of fixing the
-Petri net for a watergate, the Petriburg watergate.
+Petri net for a water gate, the Petriburg water gate.
 
 0:00:27.279,0:00:33.260
 First of all, we need to understand how the
-watergate shall function.
+water gate shall function.
 
 0:00:33.260,0:00:43.770
 So we have got a river and we have got a lake
-and a watergate in between.
+and a water gate in between.
 
 0:00:43.770,0:00:53.750
 Ships are able to go from the river to the
-lake by using the watergate.
+lake by using the water gate.
 
 0:00:53.750,0:01:05.740
 Ships are only going in one direction and
@@ -26,41 +26,41 @@ the river has a higher water level than the
 lake.
 
 0:01:09.080,0:01:17.510
-The watergate can have a high water level
+The water gate can have a high water level
 and a low water level.
 
 0:01:17.510,0:01:25.540
 Gate one can open only if the water level
-within the watergate is high, or can only
+within the water gate is high, or can only
 
 0:01:25.540,0:01:30.180
-be open if the water level in the watergate
+be open if the water level in the water gate
 is high.
 
 0:01:30.180,0:01:35.890
 Gate two can only be open if the water level
-in the watergate is low.
+in the water gate is low.
 
 0:01:35.890,0:01:42.540
-Then ships can go from the river to the watergate
-if the gate one is open and from the watergate
+Then ships can go from the river to the water gate
+if the gate one is open and from the water gate
 
 0:01:42.540,0:01:51.080
 to the lake if gate two is open.
 
 0:01:51.080,0:01:59.460
-Ships can only go into the watergate if there
-is no ship in the watergate already.
+Ships can only go into the water gate if there
+is no ship in the water gate already.
 
 0:01:59.460,0:02:10.440
 Furthermore, this process shall continue even
 if there was a ship already going through
 
 0:02:10.440,0:02:12.250
-the watergate.
+the water gate.
 
 0:02:12.250,0:02:19.880
-So it shall not be that the watergate is only
+So it shall not be that the water gate is only
 to be used once or twice or something like
 
 0:02:19.880,0:02:20.880
@@ -70,7 +70,7 @@ this.
 So the process should be able to continue.
 
 0:02:34.920,0:02:48.140
-For each side, so for the gates, it shall
+So for the gates, it shall
 be so that the gate is either opened or closed.
 
 0:02:48.140,0:02:51.860
@@ -82,21 +82,21 @@ The water level is either high or low.
 
 0:02:56.400,0:03:08.819
 So this is all the information that we have
-available at each time step and there are
+available at each point in time and there are
 
 0:03:08.819,0:03:12.620
 ships either waiting or not waiting.
 
 0:03:12.620,0:03:22.430
 So ships can either wait at the river or within
-the watergate, but either a ship is waiting
+the water gate, but either a ship is waiting
 
 0:03:22.430,0:03:25.970
 or there is no ship waiting.
 
 0:03:25.970,0:03:32.690
 So we do not want to have multiple ships in
-the watergate.
+the water gate.
 
 0:03:32.690,0:03:43.130
 We've been given a Petri net and this Petri
@@ -127,7 +127,7 @@ net has got all these places and transitions.
 
 0:04:33.580,0:04:44.680
 We shall think of what the description of
-the watergate was and then compare to what's
+the water gate was and then compare to what's
 
 0:04:44.680,0:04:48.400
 happening actually.
@@ -206,10 +206,10 @@ So when we fire t8, then we open gate two.
 
 0:07:37.940,0:07:44.490
 Now at the moment, the water level within
-the watergate is low.
+the water gate is low.
 
 0:07:44.490,0:07:52.419
-So this is good because only gate two will
+So this is good because gate two shall only
 be opened if the water level is low.
 
 0:07:52.419,0:07:57.229
@@ -233,12 +233,9 @@ open, which was prohibited in our task.
 0:08:31.550,0:08:36.650
 Let's go back and let's consider another situation.
 
-0:08:36.650,0:09:02.250
-We could
-
-0:09:02.250,0:09:09.810
-fire t5 first, and then we can fire t2, and
-we have got gate one open.
+0:08:36.650,0:09:09.810
+We could fire t5 first, and then we can fire t2,
+and we have got gate one open.
 
 0:09:09.810,0:09:20.740
 Here we have got the same problem because
@@ -319,16 +316,16 @@ And if we would still have a token here right
 in that position, then we could fire t4 again
 
 0:11:30.640,0:11:37.100
-and we would have another ship in the watergate,
+and we would have another ship in the water gate,
 which is obviously a problem.
 
 0:11:37.100,0:11:47.760
 We see this problem also occurring here because
-we have at the moment a token within the ship
+we have at the moment a token within the
 
 0:11:47.760,0:11:53.750
-in the watergate yes, and also within the
-ship in watergate no.
+ship-in-watergate-yes, and also within the
+ship-in-watergate-no.
 
 0:11:53.750,0:12:00.510
 So this is a state which should never, ever
@@ -340,20 +337,20 @@ here leads to two problems.
 
 0:12:07.920,0:12:12.899
 So we have the problem that there could be
-multiple ships in the watergate, and we have
+multiple ships in the water gate, and we have
 
 0:12:12.899,0:12:27.339
 the problem that gate one
 
 0:12:27.339,0:12:36.850
-can be opened, or can be neither open nor
+can be neither open nor
 closed.
 
 0:12:36.850,0:12:40.959
 Let's continue with the next problem.
 
 0:12:40.959,0:12:43.209
-Therefore we start with the same sequence.
+For that, we start with the same sequence.
 
 0:12:43.209,0:12:55.570
 So we start with t5, t2, t3, and t4.
@@ -385,8 +382,8 @@ now is that we have no token in gate two as
 well.
 
 0:13:47.829,0:14:03.490
-So now we have a problem that we have now
-a token in gate two open or gate two closed.
+So now we have a problem that we have no
+token in either gate-2-open or gate-2-closed.
 
 0:14:03.490,0:14:11.670
 This is a serious error.
@@ -483,7 +480,7 @@ closed, because after we fire this transition,
 the gate needs to be closed still.
 
 0:17:10.350,0:17:14.140
-This is what we have not represent yet.
+This is something we have not represented yet.
 
 0:17:14.140,0:17:30.980
 So we can add a transition here that goes
@@ -504,7 +501,7 @@ In this case, we could fire t6 while gate
 one was opened.
 
 0:17:56.270,0:18:06.880
-Again, this we can prohibit by requiring that
+Again, we can prohibit this by requiring that
 we can fire t6 only when gate one is closed.
 
 0:18:06.880,0:18:22.880
@@ -536,7 +533,7 @@ When we fire t4, we remove the token from
 gate one.
 
 0:19:13.890,0:19:23.929
-We just fixed this problem for the watergate.
+We just fixed this problem for the water gate.
 
 0:19:23.929,0:19:29.600
 So maybe let's actually show that this problem
@@ -551,7 +548,7 @@ So it does not lead to a problem and the same
 occurs here.
 
 0:19:41.620,0:19:46.159
-So we still have a token enclosed in both.
+So we still have a token in closed.
 
 0:19:46.159,0:19:48.120
 We can fix this problem here.
@@ -577,7 +574,7 @@ This is the back edge here so that we actually
 can see both edges.
 
 0:20:33.240,0:20:36.659
-So one edge goes back and the other falls.
+So one edge goes back and the other forward.
 
 0:20:36.659,0:20:40.380
 So we keep the token in gate one open.
@@ -598,7 +595,7 @@ So we are free to choose this one.
 
 0:21:04.290,0:21:08.470
 There's nothing in the description of the
-text.
+text preventing it.
 
 0:21:08.470,0:21:18.230
 The other one that was a similar problem was
@@ -619,7 +616,7 @@ Then there was the last problem, which also
 was entered by firing t4 here, which was that
 
 0:21:46.650,0:21:55.740
-we could have multiple ships in the watergate,
+we could have multiple ships in the water gate,
 which can actually arise just now, and we
 
 0:21:55.740,0:21:58.760
@@ -635,10 +632,10 @@ not allowed.
 
 0:22:11.110,0:22:20.799
 Because the condition says there shall be
-one token either in the ship in watergate
+one token either in ship-in-watergate-yes,
 
 0:22:20.799,0:22:23.299
-yes, or in the ship in watergate no.
+or in ship-in-watergate-no.
 
 0:22:23.299,0:22:27.500
 So, how do we fix this?
@@ -648,15 +645,15 @@ Well, we add another precondition for t4 by
 adding an edge.
 
 0:22:41.120,0:22:49.261
-What we require for the watergate is when
-we want to add a ship into the watergate where
+What we require for the water gate is, that when
+we want to add a ship into the water gate then
 
 0:22:49.261,0:22:55.370
-we require that there is no ship in the watergate,
+we require that there is no ship in the water gate,
 and this is exactly the edge we add.
 
 0:22:55.370,0:23:07.250
-So from the ship in watergate to transition
+So from the ship in water gate to transition
 four, we add another edge.
 
 0:23:07.250,0:23:16.730
@@ -699,18 +696,18 @@ if there are tokens in the ship waiting and
 gate one open.
 
 0:24:09.309,0:24:19.970
-Only when we can close the gate
+Only when we close the gate again
 and then set the water level to low, then
 
 0:24:19.970,0:24:24.240
 we can let the ship leave.
 
 0:24:24.240,0:24:32.000
-Then we can have another ship enter the watergate.
+Then we can have another ship enter the water gate.
 
 0:24:32.000,0:24:40.490
 We can start even with our sequences and see
-that there arises no problems.
+that no problems arise.
 
 0:24:40.490,0:24:50.480
 So we can fire t8 and then afterwards we can
@@ -731,7 +728,7 @@ So the second problem is solved as well.
 
 0:25:09.130,0:25:22.000
 When we fire t5, and then we fire t2, and
-then we fire t3, and then we fire t4, we get
+then we fire t3, and then we fire t4, we had
 
 0:25:22.000,0:25:23.200
 two problems.
@@ -745,18 +742,18 @@ Now we have a token still in gate one, and
 we have only one token for the ship in the
 
 0:25:39.669,0:25:40.669
-watergate.
+water gate.
 
 0:25:40.669,0:25:50.679
-So we remove two arrows here and we can check
-the last of our arrows as well.
+So we remove two errors here and we can check
+the last of our errors as well.
 
 0:25:50.679,0:25:58.220
 So we fire t5 and t2, and then we fire t3
 and t4.
 
 0:25:58.220,0:26:04.679
-Now we have a token right in here where we
+Now we have a token right in here. We
 cannot fire t6 right on.
 
 0:26:04.679,0:26:06.630
