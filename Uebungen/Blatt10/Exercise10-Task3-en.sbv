@@ -6,8 +6,8 @@ we have been given the following properties
 where we shall complete action sequences.
 
 0:00:21.710,0:00:29.179
-Action sequences are from the initial note
-to the final note or the ones that are searched
+Action sequences are from the initial node
+to the final node or the ones that are searched
 
 0:00:29.179,0:00:30.810
 for here.
@@ -127,10 +127,10 @@ We have in principle a choice here, but as
 the task said that Y shall be false, also
 
 0:04:47.550,0:04:48.750
-shall not be-.
+shall not be valid the whole time
 
 0:04:48.750,0:04:54.000
-(?While at the whole) time, we cannot choose
+we cannot choose
 F here.
 
 0:04:54.000,0:05:02.930
@@ -142,7 +142,7 @@ next action that’s executed is E and then
 only the next activity will be C. Now we have
 
 0:05:15.910,0:05:20.540
-the option of choosing D or choosing it not
+the option of choosing D or not choosing it
 as well.
 
 0:05:20.540,0:05:28.289
@@ -179,7 +179,7 @@ into task, so it has to contain D but not
 E. As it should not contain E, we might as
 
 0:06:34.819,0:06:48.600
-well (?write) to choose F as a first
+well choose F as a first
 part of the sequence.
 
 0:06:48.600,0:06:52.599
@@ -193,8 +193,8 @@ what was mentioned.
 Again, we could also choose C and D here.
 
 0:07:03.710,0:07:08.050
-(?While) we have to choose C, it could have
-been … #00:07:06# well.
+Well, we have to choose C, it could have
+been first as well.
 
 0:07:08.050,0:07:16.210
 It could have been before F. The order does
@@ -209,7 +209,7 @@ We should not choose D because this would
 get us a longer sequence.
 
 0:07:32.130,0:07:38.509
-And then-, I’m sorry, we have to choose
+I’m sorry, we have to choose
 D because our task says so.
 
 0:07:38.509,0:07:54.909
@@ -235,8 +235,8 @@ of length longer than nine, in which Y holds
 until D was executed.
 
 0:08:33.640,0:08:43.520
-Our sequence shall be long … #00:08:34#
-equal 9, and we have to think about what happens
+Our sequence shall be longer than or
+equal to 9, and we have to think about what happens
 
 0:08:43.520,0:08:54.960
 to Y until D was executed.
@@ -313,7 +313,7 @@ And then the paths are again joined after
 the fork.
 
 0:11:20.880,0:11:25.850
-This part here, … #00:11:25# itself.
+This part here, the join itself.
 
 0:11:25.850,0:11:32.149
 Afterwards, we can either go this way up here.
@@ -330,8 +330,8 @@ We see in a Petri net, we can also fire D
 after we fire G which would not be possible
 
 0:11:53.649,0:12:01.940
-in the activity diagram because there is (?right)
-the end after firing G.
+in the activity diagram because the end is
+right after firing G.
 
 0:12:01.940,0:12:06.050
 We cannot continue from here.
@@ -385,10 +385,10 @@ D because it's what our task said.
 
 0:13:36.029,0:13:44.820
 And finally, we do the join and the G. Well,
-remember that it doesn't matter for our sequence
+remember that the order doesn't matter for our sequence,
 
 0:13:44.820,0:13:53.100
-if the joins could have been before or after
+the joins could have been before or after
 G. And it's only because we have to execute
 
 0:13:53.100,0:14:15.519
@@ -419,7 +419,7 @@ Y holds the whole time and as soon as D is
 activated, then Y doesn't hold anymore.
 
 0:15:15.779,0:15:27.509
-Yes, we fired A and we fired B, we activated
+We fired A and we fired B, we activated
 A and B in the activity diagram.
 
 0:15:27.509,0:15:42.709
@@ -463,18 +463,18 @@ And after that, we can fire C, activate C
 in the activity diagram.
 
 0:17:30.690,0:17:51.640
-And now, we may have to rejoin back here.
+And now, we have to rejoin back here.
 
 0:17:51.640,0:18:02.610
 And now we could choose G here, which of course
 is not useful because then our sequence would
 
 0:18:02.610,0:18:05.930
-be finished and it's not long enough yet.
+be finished, but it's not long enough yet.
 
 0:18:05.930,0:18:14.140
 That is why we choose Y here which has no
-name here, so Y is so true.
+name here, so Y is still true.
 
 0:18:14.140,0:18:18.720
 We also have no other choice because D was
@@ -492,7 +492,7 @@ And we have to fire B which is here in our
 activity diagram, activate B. And now, we
 
 0:18:37.350,0:18:55.659
-fire again the fork and we can choose for
+fire the fork again and we can choose for
 instance to fire C. So activate C here.
 
 0:18:55.659,0:19:01.330
@@ -508,21 +508,18 @@ to be activated in order to finish our sequence
 with at least nine.
 
 0:19:21.539,0:19:42.590
-In this case, we could already fire T and
+In this case, we could already fire D,
 activate D for instance.
 
 0:19:42.590,0:19:58.640
 Let's consider
 D and then we could activate E because Y is
 
-0:19:58.640,0:20:14.940
+0:19:58.640,0:20:25.450
 not true anymore, so we have E. And then
 
-0:20:14.940,0:20:25.450
-we would have to consider that when we entered-.
-
 0:20:25.450,0:20:38.940
-We have E and then when we get out, we have
+we have E and then when we get out, we have
 Y as well not considered true, so we can choose
 
 0:20:38.940,0:20:40.760
@@ -535,7 +532,7 @@ And then we are done.
 I forgot to activate the transition C as well.
 
 0:20:48.100,0:21:02.450
-We can choose C, E, and G and this is the
+We can choose the E, and G and this is the
 same sequence A, B, F, C, B, C, D. I have
 
 0:21:02.450,0:21:10.490
