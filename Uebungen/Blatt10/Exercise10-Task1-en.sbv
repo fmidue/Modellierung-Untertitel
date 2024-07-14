@@ -1,12 +1,12 @@
 0:00:00.840,0:00:05.480
 In this task, we need to give a 1-safe and
-loop free.
+loop free petri net.
 
 0:00:05.480,0:00:09.769
 1-safe means just at max one token per place.
 
 0:00:09.769,0:00:18.460
-And loop free Petri net with seven transitions
+With seven transitions
 t1, t2, t3, t4, t5, t6, t7, with exactly one
 
 0:00:18.460,0:00:21.780
@@ -32,14 +32,14 @@ t5 and only then t4.
 
 0:00:49.370,0:00:54.989
 These are different orderings of transition
-activations and these can be possible and
+activations and these can't be possible and
 
 0:00:54.989,0:00:57.879
 these must be possible.
 
 0:00:57.879,0:01:04.299
 There's a couple of hints down here, we should
-try to read off the existing casualties, concurrencies
+try to read off the existing causalties, concurrencies
 
 0:01:04.299,0:01:07.220
 and conflicts from the allowed and non-allowed
@@ -50,7 +50,7 @@ We’ll just work our way through how to construct
 a Petri net based on these firing sequences.
 
 0:01:16.350,0:01:23.770
-And (?task in the description) says that at
+And the task description says that at
 least, these should be possible.
 
 0:01:23.770,0:01:28.470
@@ -83,7 +83,7 @@ by looking at the ones that are not possible.
 
 0:01:57.950,0:02:02.860
 It would be best if we just start with one
-of these possible ones, construct our pattern
+of these possible ones, construct our petri net
 
 0:02:02.860,0:02:08.280
 according to that, and then start modifying
@@ -105,8 +105,7 @@ with one token, because that's what the task
 asks for.
 
 0:02:25.040,0:02:32.040
-This means we can't have just to start being
-or let's try it incorrectly first.
+Let's try it incorrectly first.
 
 0:02:32.040,0:02:38.600
 Let's say we start with a t1 and this just
@@ -137,7 +136,7 @@ tokens and one place.
 And in that case, it's no longer 1-safe.
 
 0:03:01.770,0:03:07.090
-So, this is exactly what marker basically
+So, this exactly one marker basically
 just limits us to staying at some initial
 
 0:03:07.090,0:03:09.680
@@ -151,7 +150,7 @@ can always fire as the first one.
 So, this is our starting point.
 
 0:03:21.450,0:03:28.769
-For that, it is possible to find t2 or t3.
+For that, it is possible to fire t2 or t3.
 
 0:03:28.769,0:03:35.790
 Since t2 and t3 in the allowed sequences are
@@ -176,11 +175,11 @@ t2, and it also deposits a token into this
 place from where there's a transition t3.
 
 0:04:08.519,0:04:13.030
-So, this would mean that (?parallel) because
+So, this would mean they are in parallel because
 after firing t1, there's a token here, there's
 
 0:04:13.030,0:04:18.979
-a token here, and then either t2 or t2 can
+a token here, and then either t2 or t3 can
 activate.
 
 0:04:18.979,0:04:26.199
@@ -251,7 +250,7 @@ Afterwards, either t5, t6 or t7 are possible.
 So, t4 definitely deposit somewhere.
 
 0:06:03.090,0:06:17.419
-And from that place, there's a t5, t6 or t7
+And from that place, there's t5, t6 or t7
 possible.
 
 0:06:17.419,0:06:26.139
@@ -277,7 +276,7 @@ And since that is not allowed, that kind of
 tells us that there’s a case here where
 
 0:06:49.680,0:06:56.000
-these are (?pulling) from a common place or
+these are pulling from a common place or
 there's some other sort of restriction here
 
 0:06:56.000,0:07:01.800
@@ -311,7 +310,7 @@ In that case, we would need at least four
 places here where t4 deposits.
 
 0:07:45.940,0:07:55.770
-So, the t5, t6, and t7, all of those each
+So, t5, t6, and t7, all of those each
 share two spaces.
 
 0:07:55.770,0:08:06.720
@@ -331,7 +330,7 @@ t5 and t7 for examples.
 
 0:08:28.169,0:08:36.180
 T7 could be possible because t5 pulls from
-both of these and t7 pulled from both of these,
+both of these and t7 pulls from both of these,
 
 0:08:36.180,0:08:39.190
 so those could fire after each other.
@@ -358,7 +357,7 @@ that are allowed work, so let's go through
 t1, t2, t3, t4, t5.
 
 0:09:07.769,0:09:14.121
-Going from here, t1, t2, t3, activate, puts
+Going from here, t1, t2, t3, activates, puts
 a token in here.
 
 0:09:14.121,0:09:15.650
@@ -376,7 +375,7 @@ B is t1, t2, t3, t4 and then t6 that would
 also work, it’s basically just the same
 
 0:09:33.630,0:09:39.560
-and t1 token here, t3 token here, then t2
+and t1, token here, t3, token here, then t2,
 token here.
 
 0:09:39.560,0:09:44.490
@@ -391,7 +390,7 @@ All of the ones that are supposed to work
 can work.
 
 0:09:53.839,0:09:59.660
-For the first that are not allowed t1 and
+The first of the ones that are not allowed, t1 and
 t2, then t3.
 
 0:09:59.660,0:10:00.950
@@ -402,7 +401,7 @@ That's not possible because t5 expects that
 there's tokens in here and that can only happen
 
 0:10:07.120,0:10:10.300
-if t4 fire at first.
+if t4 fired first.
 
 0:10:10.300,0:10:16.860
 D doesn't work and our Petri net satisfies
@@ -437,7 +436,7 @@ That one is satisfied as well.
 T1, t3, that works for now.
 
 0:10:50.300,0:10:54.200
-Then t3 doesn't work because t2 needs to activate
+Then t4 doesn't work because t2 needs to activate
 first.
 
 0:10:54.200,0:11:03.510
@@ -446,7 +445,7 @@ t5, t6, this is where our conflicts implementation
 
 0:11:03.510,0:11:08.730
 here comes into play is because t5 and t6
-can't activate because they share this complex
+can't activate because they share this common place
 
 0:11:08.730,0:11:12.450
 in here, which only has one token, so that
