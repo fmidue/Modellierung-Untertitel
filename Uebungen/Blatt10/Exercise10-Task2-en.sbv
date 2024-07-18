@@ -15,14 +15,14 @@ complementary states so that the sum of the
 
 0:00:22.140,0:00:30.429
 tokens in the state and its complementary
-state always results in the de sired capacity.
+state always results in the desired capacity.
 
 0:00:30.429,0:00:39.969
 The second step is if a transition t altogether
 takes away tokens from a state s in such a
 
 0:00:39.969,0:00:48.410
-way, then we add an edge from t to s bar with
+way, then we add an edge from t to s-bar with
 the weight minus n.
 
 0:00:48.410,0:00:57.780
@@ -30,7 +30,7 @@ The third step is, if a transition altogether
 adds tokens to a state s in such a way, then
 
 0:00:57.780,0:01:05.760
-insert an edge from s bar to this transition
+insert an edge from s-bar to this transition
 with the weight n.
 
 0:01:05.760,0:01:10.280
@@ -45,28 +45,28 @@ And let's do the first step.
 
 0:01:17.610,0:01:25.119
 So, for s1, let's make a complimentary state
-s1 bar.
+s1-bar.
 
 0:01:25.119,0:01:31.220
 And how many tokens are we going to put inside
 it?
 
 0:01:31.220,0:01:38.420
-As I said before, s1 has the capacity of two
+As I said before, s1 has a capacity of two
 and it already has two tokens.
 
 0:01:38.420,0:01:43.460
 This means we don't add any tokens here.
 
 0:01:43.460,0:01:51.220
-The same goes for s2, it has the capacity
+The same goes for s2, it has a capacity
 of two, and it already has two tokens.
 
 0:01:51.220,0:01:55.560
-This means for s2 bar, we don't add any tokens.
+This means for s2-bar, we don't add any tokens.
 
 0:01:55.560,0:02:01.490
-Let's make a complimentary state for s3 bar.
+Let's make a complimentary state for s3,  s3-bar.
 
 0:02:01.490,0:02:08.110
 And because the capacity of s3 is one and
@@ -76,11 +76,11 @@ it doesn't have any tokens, this means we
 add one token here.
 
 0:02:10.300,0:02:18.080
-Now, s4 bar, the capacity of s4 is three,
+Now, s4-bar, the capacity of s4 is three,
 and s4 doesn't have any tokens.
 
 0:02:18.080,0:02:22.380
-This means we add three tokens to s4 bar.
+This means we add three tokens to s4-bar.
 
 0:02:22.380,0:02:26.680
 Now, step two.
@@ -89,7 +89,7 @@ Now, step two.
 T1 takes one token from s1.
 
 0:02:32.300,0:02:38.110
-This means we do an edge from t1 to s1 bar
+This means we do an edge from t1 to s1-bar
 like this.
 
 0:02:38.110,0:02:48.860
