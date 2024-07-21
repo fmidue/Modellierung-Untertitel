@@ -1,7 +1,4 @@
-0:00:01.000,0:00:04.920
-Exercise sheet 12, task three.
-
-0:00:04.920,0:00:08.880
+0:00:00.000,0:00:08.880
 Translating an activity diagram to a Petri
 net.
 
@@ -23,11 +20,11 @@ But if it leads to something, then it has
 to be a place.
 
 0:00:32.520,0:00:36.120
-So, we add the place.
+So, we add a place.
 
 0:00:36.120,0:00:45.760
-And we can see now that this place represents
-this object node B. (Again?), we have an action,
+And we can say now that this place represents
+this object node B. Again, we have an action,
 
 0:00:45.760,0:00:52.500
 the action becomes transition C with the same
@@ -83,8 +80,8 @@ So, let's add this transition that represents
 F. And, as I said before, since this is a
 
 0:01:55.469,0:02:02.119
-Petri net, so this transition, if it's going
-to lead to something, then it has to be a
+Petri net, this transition, if it's going
+to lead to something, it has to lead to a
 
 0:02:02.119,0:02:03.119
 place.
@@ -163,11 +160,8 @@ Now let's do the right branch.
 So, this place can correspond to this merge
 node.
 
-0:03:41.970,0:03:44.500
-Now let's make.
-
-0:03:44.500,0:03:52.580
-I want to go from this place back to this
+0:03:41.970,0:03:52.580
+Now, I want to go from this place back to this
 place somehow to represent this arrow here.
 
 0:03:52.580,0:03:53.780
