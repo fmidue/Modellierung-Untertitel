@@ -1,6 +1,3 @@
-0:00:00.530,0:00:06.720
-Exercise sheet 12, task four.
-
 0:00:06.720,0:00:11.680
 Before I start answering the questions, I
 would like to point out some important things.
@@ -25,7 +22,7 @@ into nine.
 
 0:00:41.380,0:00:52.640
 So, in comparison, this transition is doing
-us an explicit entry.
+an explicit entry.
 
 0:00:52.640,0:01:00.140
 While this transition, for example, E is not
@@ -36,7 +33,7 @@ entry, because it's going to the D as a whole.
 
 0:01:04.960,0:01:13.760
 And then the decision becomes that we start
-with a starting state, which is ten.
+with the starting state, which is ten.
 
 0:01:13.760,0:01:20.799
 The general structure of this diagram is that
@@ -75,7 +72,7 @@ the diagram start?
 The answer is six and three.
 
 0:02:19.580,0:02:24.550
-Since the fork explicitly jumps to the States
+Since the fork explicitly jumps to the states
 at the beginning, this is the fork we are
 
 0:02:24.550,0:02:26.200
@@ -100,7 +97,7 @@ C it's going to this state three.
 
 0:02:59.740,0:03:05.860
 And here it's doing the same and it's going
-to into state six.
+into state six.
 
 0:03:05.860,0:03:15.330
 Question B. Name all possible states or combinations
@@ -125,10 +122,10 @@ which is a joint state.
 
 0:03:47.900,0:03:54.530
 The second possibility is to exit with the
-help of this transition E. And when you exit
+help of this transition, e. And when you exit
 
 0:03:54.530,0:04:01.340
-with E, it doesn't matter where you are, it
+with e, it doesn't matter where you are, it
 doesn't matter where which state you are currently
 
 0:04:01.340,0:04:02.659
@@ -164,8 +161,8 @@ This happens because here it says we leave
 C from seven and four.
 
 0:04:43.979,0:04:53.380
-This means we do this transition D, and this
-transition D is not pointing at any interstate
+This means we do this transition d, and this
+transition d is not pointing at any inner state
 
 0:04:53.380,0:04:59.250
 of D. It's just pointing at D as a whole.
@@ -210,7 +207,7 @@ So, it remembers we were at E or at C. And
 that's it.
 
 0:06:08.530,0:06:12.479
-It doesn't look at the interstates one or
+It doesn't look at the inner states one or
 two.
 
 0:06:12.479,0:06:17.389
@@ -235,7 +232,7 @@ state points at one.
 This means we start with one.
 
 0:06:50.690,0:06:57.830
-Next question says, does the answer to D change
+Next question says, does the answer to (d) change
 if we change that shallow history state to
 
 0:06:57.830,0:06:59.930
@@ -248,8 +245,8 @@ And if so, how?
 The answer is yes.
 
 0:07:05.530,0:07:13.129
-Because as I discussed before, the deepest
-two would remember exactly which one of those
+Because as I discussed before, the deep
+history would remember exactly which one of those
 
 0:07:13.129,0:07:18.099
 one or two we were at.
@@ -346,7 +343,7 @@ starting states.
 
 0:09:42.620,0:09:56.140
 Now the second possibility is to go from eight
-with the transition I if B, this B was last
+with the transition i if B, this B, was last
 
 0:09:56.140,0:10:02.540
 exited from C which is this state here.
@@ -360,11 +357,11 @@ shallow history remembers one thing, which
 
 0:10:15.190,0:10:21.180
 is that we were in C. As I said before, it
-doesn't care which in our state we were at.
+doesn't care which inner state we were at.
 
 0:10:21.180,0:10:33.140
 So, this means when we go from eight with
-I into B, we go into C and with C, we just
+i into B, we go into C and with C, we just
 
 0:10:33.140,0:10:36.910
 start with these two starting states.
