@@ -92,10 +92,10 @@ D, E, F und G zu kommen. Dafür führen
 
 0:05:04.380,0:05:10.140
 wir erstmal drei neue Stellen ein, die die
-unterschiedlichen Pfade darstellen sollen,
+unterschiedlichen Pfade darstellen sollen.
 
 0:05:27.120,0:05:40.800
-ein. (15 Sek.) Von der vorherigen Transition
+Von der vorherigen Transition
 geht jeweils ein Pfeil in jeden Pfad,
 
 0:05:41.880,0:05:47.880
@@ -173,8 +173,8 @@ werden, wenn wir eine entsprechende Transition
 einfügen. Danach brauchen wir wieder eine Stelle.
 
 0:09:44.400,0:09:50.040
-Den Rück-Pfad erreichen wir nur, indem wir wieder
-auf die Stelle kommen, um G erneut auszuführen.
+Den Rück-Pfad hier können wir nur repräsentieren, indem wir
+wieder auf die Stelle kommen, um G erneut auszuführen.
 
 0:09:50.040,0:09:59.100
 Dafür brauchen wir eine Hilfstransition die wir
@@ -270,4 +270,4 @@ zusammenzuführen und letztendlich das Programm
 
 0:13:39.600,0:13:47.100
 zu beenden. Wie gesagt sind diese beiden Stellen
-optional. Und damit wird die Aufgabe gelöst.
+optional. Und damit ist die Aufgabe gelöst.
