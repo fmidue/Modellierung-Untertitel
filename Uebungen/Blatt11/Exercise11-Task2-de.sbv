@@ -65,12 +65,9 @@ hier.
 Diesen können wir über ausgehende Kanten
 verlassen.
 
-0:02:29.190,0:02:37.400
+0:02:29.190,0:02:39.180
 Das sehen wir hier über diese zusammengeführten
-Zustände, also über die ausgehende Kante
-
-0:02:37.400,0:02:39.180
-d.
+Zustände, also über die ausgehende Kante d.
 
 0:02:39.180,0:02:50.989
 Das bedeutet, dass wir den Zustand verlassen
@@ -137,11 +134,11 @@ D zuletzt von 8 aus verlassen wurde?“.
 
 0:05:06.940,0:05:23.789
 Wir verlassen C von 7 und 4 aus, das heißt
-über D. Weil das die einzigen ausgehenden
+über d. Weil das die einzigen ausgehenden
 
 0:05:23.789,0:05:36.259
 Kanten von 4 und 7 sind, daher geht das nur
-über D, und D zuletzt von 8 aus verlassen
+über d, und D zuletzt von 8 aus verlassen
 
 0:05:36.259,0:05:41.039
 wurde, also von diesem hier.
@@ -235,10 +232,10 @@ Verhalten?
 
 0:08:40.349,0:08:53.829
 Die Antwort ist ja, denn wenn wir eine tiefe
-Historie haben, wird nicht nur, welcher Zustand
+Historie haben, wird nicht nur gespeichert,
 
 0:08:53.829,0:08:58.510
-auf diesem Level erfolgt ist, gespeichert,
+welcher Zustand auf diesem Level erfolgt ist,
 sondern auch tiefer.
 
 0:08:58.510,0:09:03.589
@@ -274,8 +271,8 @@ die Ausgangsmöglichkeiten aus D betrachten.
 Da kommen f und i in Frage.
 
 0:10:08.720,0:10:20.220
-Betrachten wir zunächst f: f
-erreichen wir, wenn wir direkt auf 3 springen.
+Betrachten wir zunächst f:
+f erreichen wir, wenn wir direkt auf 3 springen.
 
 0:10:20.220,0:10:35.220
 Weil das in einer swim-lane ist und ein Startknoten
@@ -316,7 +313,7 @@ Wenn wir zuvor in C waren und zum Beispiel
 dass wir zuvor in Zustand 6 waren.
 
 0:11:57.710,0:12:14.880
-Wenn B über E oder D verlassen haben, würde
+Wenn wir B über e oder d verlassen haben, würde
 C in der flachen Historie gespeichert worden
 
 0:12:14.880,0:12:16.670
