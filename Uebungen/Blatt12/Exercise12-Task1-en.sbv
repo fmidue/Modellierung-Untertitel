@@ -1,11 +1,8 @@
-0:00:01.069,0:00:05.100
-Exercise sheet 13, task one.
-
 0:00:05.100,0:00:08.840
 We have this UML state diagram.
 
 0:00:08.840,0:00:15.389
-And the first thing we are asked to do is
+And the first thing we are asked to do is answer
 in which non-composite state, does every flow
 
 0:00:15.389,0:00:18.199
@@ -174,11 +171,11 @@ And this is how we express it, this is how
 we write it.
 
 0:04:46.570,0:04:52.050
-And the last element of the sequence is B
+And the last element of the sequence is B,
 there are no Bs here.
 
 0:04:52.050,0:05:04.169
-So, this means we stay in A. But for D if
+So, this means we stay in A. But for D if you
 use B you go to C. And this means after using
 
 0:05:04.169,0:05:08.639
@@ -192,10 +189,10 @@ And now we do this sequence.
 
 0:05:14.539,0:05:22.620
 Again, we start with F, and then we have A,
-A take’s us to G, and we have H, H takes
+A takes us to G, and we have H, H takes
 
 0:05:22.620,0:05:32.250
-us to E. And then we have H. H takes us to
+us to E. And then we have H again. H takes us to
 this composite state, the same thing happens.
 
 0:05:32.250,0:05:36.070
