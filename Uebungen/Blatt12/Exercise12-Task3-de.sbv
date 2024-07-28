@@ -266,7 +266,7 @@ wechseln kann.
 
 0:06:20.380,0:06:26.300
 Es startet mit der eins, weshalb ich es für
-die anderen drei Ziffern übertrage.
+die anderen beiden Ziffern übertrage.
 
 0:06:26.300,0:06:46.690
 Gleich werde ich weiter erklären, wie das
@@ -287,7 +287,7 @@ Uns fehlt jetzt dieser Balken.
 
 0:07:08.310,0:07:16.610
 Wir müssen sagen, welcher der drei Bereiche
-gerade aktiv ist und welcher verändert werden
+gerade aktiv ist und verändert werden
 
 0:07:16.610,0:07:19.580
 darf.
@@ -297,7 +297,7 @@ Dafür müssen wir noch eine weitere Region
 erschaffen, die dazu auch parallel läuft.
 
 0:07:30.710,0:07:37.120
-Die erste Ziffer ist am Anfang aktiv und kann
+Die besagt, die erste Ziffer ist am Anfang aktiv und kann
 am Anfang verändert werden.
 
 0:07:37.120,0:07:43.860
@@ -357,7 +357,7 @@ Wir sehen noch, dass beim Drücken von L es
 immer zur ganz linken Ziffer wechselt.
 
 0:09:30.660,0:09:33.140
-Gerade habe ich noch eins nicht gemacht.
+Gerade habe ich eines noch nicht gemacht.
 
 0:09:33.140,0:09:40.010
 Was passiert, wenn wir bei R bei der ganz
@@ -403,10 +403,10 @@ Ich sagte es vorhin.
 
 0:10:54.120,0:11:00.550
 Wenn man beim dritten Zustand ist und rechts
-drückt, kommt man auch zum linken Zustand.
+drückt, kommt man zum ersten Zustand.
 
 0:11:00.550,0:11:08.899
-Wenn man beim anderen Zustand ist und nach
+Und wenn man beim dritten Zustand ist und nach
 links drückt, kommt man auch zum ersten Zustand.
 
 0:11:08.899,0:11:21.880
@@ -689,7 +689,7 @@ Jetzt fehlt noch eine einzige nicht implementierte
 Sache.
 
 0:18:00.590,0:18:06.370
-Wenn ok gedrückt wird, endet der Eingabeprozess.
+Wenn OK gedrückt wird, endet der Eingabeprozess.
 
 0:18:06.370,0:18:08.600
 Ich mache es jetzt schicker.
