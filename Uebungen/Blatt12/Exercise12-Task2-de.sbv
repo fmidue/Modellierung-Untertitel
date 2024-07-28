@@ -65,7 +65,7 @@ Dann haben wir Zustand A und D. das wären
 diese.
 
 0:02:17.010,0:02:20.610
-Dann haben wir noch B und C und B und D.
+Dann haben wir noch B und C, und B und D.
 
 0:02:20.610,0:02:25.430
 Das sind die Zustände, die wir hier betrachten
@@ -96,7 +96,7 @@ Der Zustand enthält aber keine Region.
 Wir können hier also die Zustandsnamen behalten.
 
 0:03:24.379,0:03:27.010
-Es gibt auch keine Namen Missmatches.
+Es gibt auch keine Namen Mismatches.
 
 0:03:27.010,0:03:32.450
 Wir können einfach Zustände F und G übernehmen.
@@ -115,7 +115,7 @@ ursprünglichen Diagramm betrachten.
 
 0:04:03.340,0:04:08.700
 Ich beginne hier wieder mit dem Zustand, der
-die Region enthält.
+die Regionen enthält.
 
 0:04:08.700,0:04:19.109
 Wir müssen Kanten von A nach B mit Trigger
@@ -310,7 +310,7 @@ Es ist nichts weiter zu betrachten, da diese
 Übergänge hier lokal sind und sich durch
 
 0:11:36.279,0:11:38.660
-das flachklopfen nichts ändert.
+das Flachklopfen nichts ändert.
 
 0:11:38.660,0:11:47.550
 Wir haben hier die K Kante, die wir betrachten
@@ -367,7 +367,7 @@ nach F und von D nach F.
 Wir zeichnen hier oben also diese Kanten ein.
 
 0:14:26.290,0:14:40.790
-Von AD nach, dasselbe auch von AC geht es.
+Von AD nach F, dasselbe auch von AC.
 
 0:14:40.790,0:14:48.940
 Diese Kante ist doppelt, die habe ich bereits
@@ -493,10 +493,10 @@ werden.
 Das haben wir gemacht.
 
 0:18:38.730,0:18:40.380
-daher mussten wir diesen nicht berücksichtigen.
+daher mussten wir diesen berücksichtigen.
 
 0:18:40.380,0:18:47.230
-Dieser Startzustand wird nie verwendet, da
+Dieser Startzustand aber wird nie verwendet, da
 wir keinen Zugang in die andere Region hier
 
 0:18:47.230,0:18:54.280
@@ -507,7 +507,7 @@ Zustand haben.
 Das ist also auch betrachtet.
 
 0:18:57.270,0:19:03.430
-Damit haben wir das ganze um ein Zustandsdiagramm
+Damit haben wir das ganze UML-Zustandsdiagramm
 betrachtet und flachgeklopft und die Aufgabe
 
 0:19:03.430,0:19:04.330
