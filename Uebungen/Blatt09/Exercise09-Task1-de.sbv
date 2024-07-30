@@ -171,7 +171,7 @@ was daraus möglich ist.
 
 0:03:03.900,0:03:07.260
 t1 ist nicht möglich, denn es gibt kein Token
-in t1.
+in s1.
 
 0:03:07.260,0:03:11.800
 Damit ist die Vorbedingung nicht gegeben und
@@ -698,7 +698,7 @@ zwei Marken in einer Stelle drin liegen, können
 wir sagen, dass es beschränkt ist.
 
 0:13:53.029,0:13:56.500
-Und besonders können wir sagen es ist zwei-beschränkt.
+Und insbesondere können wir sagen, es ist zwei-beschränkt.
 
 0:13:56.500,0:14:02.840
 Und damit haben wir diese Tabellen fertig

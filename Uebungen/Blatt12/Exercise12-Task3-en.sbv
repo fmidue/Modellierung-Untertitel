@@ -281,16 +281,16 @@ So, this is the complete state around it. And
 now we can think about how to enter the state.
 
 0:14:37.080,0:14:46.860
-So, the device has screen with three digits
-that's was what it says and we have
+So, the device has a screen with three digits,
+that's was what it says, and we have
 
 0:14:48.420,0:14:52.620
-at the beginning all three
+at the beginning: all three
 digits are equal to one.
 
 0:14:54.180,0:15:01.320
 So, and we start with the leftmost digit, and
-we can represent this so we have start state.
+we can represent this so we have a start state.
 
 0:15:05.460,0:15:16.560
 Let's start with the outermost starting state,

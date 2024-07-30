@@ -66,7 +66,7 @@ of two, and it already has two tokens.
 This means for s2-bar, we don't add any tokens.
 
 0:01:55.560,0:02:01.490
-Let's make a complimentary state for s3,  s3-bar.
+Let's make a complimentary state for s3, s3-bar.
 
 0:02:01.490,0:02:08.110
 And because the capacity of s3 is one and
@@ -76,7 +76,7 @@ it doesn't have any tokens, this means we
 add one token here.
 
 0:02:10.300,0:02:18.080
-Now, s4-bar, the capacity of s4 is three,
+Now, s4-bar. The capacity of s4 is three,
 and s4 doesn't have any tokens.
 
 0:02:18.080,0:02:22.380

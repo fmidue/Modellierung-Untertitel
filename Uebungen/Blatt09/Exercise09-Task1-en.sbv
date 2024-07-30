@@ -20,14 +20,14 @@ The reachability graph is going to consist of
 
 0:00:38.760,0:00:45.840
 tuples with three components, just like this
-one. The first one is going to represent S1.
+one. The first one is going to represent s1.
 
 0:00:45.840,0:00:49.740
-The second one is going to represent S2.
-The third one is going to represent S3.
+The second one is going to represent s2.
+The third one is going to represent s3.
 
 0:00:53.160,0:00:59.580
-So we have tokens in S1 and S2. This is why
+So we have tokens in s1 and s2. This is why
 we start with this tuple. One token here,
 
 0:00:59.580,0:01:05.820
@@ -44,7 +44,7 @@ this marking. Also you can fire t2 to go back
 
 0:01:24.060,0:01:33.660
 from this marking to the first marking, because t2
-requires a token in S2, and we have tokens in S2.
+requires a token in s2, and we have tokens in s2.
 
 0:01:36.000,0:01:41.040
 From the first marking, you can also
@@ -52,15 +52,15 @@ fire t2 and you reach this marking
 
 0:01:41.040,0:01:53.040
 because you have the requirement for t2, which is
-a token in S2. Also, you can go back by firing t1.
+a token in s2. Also, you can go back by firing t1.
 
 0:01:53.760,0:02:02.700
 The same, you have the required tokens
-for t1, which is just one token in S1.
+for t1, which is just one token in s1.
 
 0:02:05.220,0:02:17.340
 Let's try firing t3 from this first marking.
-For t3, what's required is a token in S1. Yes,
+For t3, what's required is a token in s1. Yes,
 
 0:02:17.340,0:02:25.080
 we have that. Then we'll reach this
@@ -68,11 +68,11 @@ marking. Firing t4 gives us this marking.
 
 0:02:26.100,0:02:36.900
 What does t4 require? It requires a token in
-S2. Yes, we have that here. If you fire t4
+s2. Yes, we have that here. If you fire t4
 
 0:02:37.500,0:02:45.120
 while you have this marking, it is possible
-because t4 requires tokens in S2. We have that.
+because t4 requires tokens in s2. We have that.
 
 0:02:46.380,0:02:52.200
 Then you reach this marking, which already
@@ -83,7 +83,7 @@ Also with this marking, you can fire
 t3 because you have the required
 
 0:02:59.460,0:03:10.260
-token in S1. Then you reach the already existing
+token in s1. Then you reach the already existing
 marking (1,0,1). Between these two markings,
 
 0:03:10.260,0:03:20.040
@@ -91,12 +91,12 @@ you can go back and forth because t1 and t2
 will have the required tokens. So here for t1,
 
 0:03:20.040,0:03:26.220
-you need a token in S1. You have that already. For
-t2 you need a token in S2, and you have that here.
+you need a token in s1. You have that already. For
+t2 you need a token in s2, and you have that here.
 
 0:03:28.920,0:03:37.860
 From this marking, you can fire t4 because
-t4 requires a token in S2, which we have,
+t4 requires a token in s2, which we have,
 
 0:03:38.880,0:03:44.580
 and you reach this marking (0,0,2).
@@ -104,7 +104,7 @@ Finally, you can go from
 
 0:03:44.580,0:03:51.660
 this marking to this marking by firing t3,
-because you have the required token in S1.
+because you have the required token in s1.
 
 0:03:55.140,0:04:03.120
 So how do we know that we are done with the
@@ -131,16 +131,16 @@ What about this marking? So here we have t1. And
 t1, as I said, is possible because we have the
 
 0:04:42.360,0:04:53.460
-required token, which is a token in S1. What about
+required token, which is a token in s1. What about
 t2? It seems like t2 is not possible. Let's check.
 
 0:04:54.180,0:05:02.280
-So t2 requires a token in S2, which we don't
+So t2 requires a token in s2, which we don't
 have here. What about t3? We have t3. We've done
 
 0:05:02.280,0:05:11.160
 it already. What about t4? For t4 it requires a
-token in S2, which we don't have. So this means
+token in s2, which we don't have. So this means
 
 0:05:11.160,0:05:18.840
 all possibilities are covered. The same goes for
@@ -151,36 +151,36 @@ For this marking, for example, we have t2 and
 t4, but we don't have t3 and t1 going out of it.
 
 0:05:33.300,0:05:44.460
-That is because t1 requires a token in S1,
+That is because t1 requires a token in s1,
 which we don't have, and t3 requires a token
 
 0:05:44.460,0:05:51.960
-in S1 as well, which we don't have. For this
+in s1 as well, which we don't have. For this
 marking, we don't have t2, we don't have t4,
 
 0:05:51.960,0:05:58.800
 because both of these transitions require
-tokens in S2, which we don't have.
+tokens in s2, which we don't have.
 
 0:06:01.680,0:06:10.140
 For this transition, we don't have t1 and we don't
 have t3 because both of these transitions require
 
 0:06:11.760,0:06:22.080
-tokens in S1, which we don't have. Finally,
+tokens in s1, which we don't have. Finally,
 for this marking, nothing is possible. No
 
 0:06:22.080,0:06:27.600
 transitions can be fired because t1 requires
-something in S1. We don't have anything in S1.
+something in s1. We don't have anything in s1.
 
 0:06:28.140,0:06:36.780
-t2 requires something in S2 and we don't
-have anything in S2. t3 requires a token in S1,
+t2 requires something in s2 and we don't
+have anything in s2. t3 requires a token in s1,
 
 0:06:36.780,0:06:43.620
-and t4 requires a token in S2. So we don't have anything
-in S1 and S2. This is why this is a dead end.
+and t4 requires a token in s2. So we don't have anything
+in s1 and s2. This is why this is a dead end.
 
 0:06:44.760,0:06:50.700
 Now we can use this reachability graph

@@ -1,6 +1,6 @@
 0:00:00.840,0:00:05.480
 In this task, we need to give a 1-safe and
-loop free petri net.
+loop free Petri net.
 
 0:00:05.480,0:00:09.769
 1-safe means just at max one token per place.
@@ -39,7 +39,7 @@ these must be possible.
 
 0:00:57.879,0:01:04.299
 There's a couple of hints down here, we should
-try to read off the existing causalties, concurrencies
+try to read off the existing causalities, concurrencies
 
 0:01:04.299,0:01:07.220
 and conflicts from the allowed and non-allowed
@@ -83,7 +83,7 @@ by looking at the ones that are not possible.
 
 0:01:57.950,0:02:02.860
 It would be best if we just start with one
-of these possible ones, construct our petri net
+of these possible ones, construct our Petri net
 
 0:02:02.860,0:02:08.280
 according to that, and then start modifying
@@ -311,7 +311,7 @@ places here where t4 deposits.
 
 0:07:45.940,0:07:55.770
 So, t5, t6, and t7, all of those each
-share two spaces.
+share two places.
 
 0:07:55.770,0:08:06.720
 If t4 deposits into all four of these, and

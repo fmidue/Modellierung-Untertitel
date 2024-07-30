@@ -96,7 +96,7 @@ Der Zustand enthält aber keine Region.
 Wir können hier also die Zustandsnamen behalten.
 
 0:03:24.379,0:03:27.010
-Es gibt auch keine Namen Mismatches.
+Es gibt auch keine Namen-Mismatches.
 
 0:03:27.010,0:03:32.450
 Wir können einfach Zustände F und G übernehmen.
@@ -493,7 +493,7 @@ werden.
 Das haben wir gemacht.
 
 0:18:38.730,0:18:40.380
-daher mussten wir diesen berücksichtigen.
+Daher mussten wir diesen berücksichtigen.
 
 0:18:40.380,0:18:47.230
 Dieser Startzustand aber wird nie verwendet, da

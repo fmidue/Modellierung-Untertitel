@@ -645,8 +645,8 @@ Well, we add another precondition for t4 by
 adding an edge.
 
 0:22:41.120,0:22:49.261
-What we require for the water gate is, that when
-we want to add a ship into the water gate then
+What we require for the water gate is that when
+we want to add a ship into the water gate, then
 
 0:22:49.261,0:22:55.370
 we require that there is no ship in the water gate,

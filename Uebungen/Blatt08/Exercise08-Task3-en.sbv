@@ -155,13 +155,13 @@ s3, we require a token in s3.
 
 0:05:37.550,0:05:44.580
 And the only way of getting a token into s3
-would be by firing T1.
+would be by firing t1.
 
 0:05:44.580,0:05:50.060
 And we can fire t1.
 
 0:05:50.060,0:05:55.630
-So t1 is alrady part of our necessary condition.
+So t1 is already part of our necessary condition.
 
 0:05:55.630,0:06:02.750
 And we can fire t1 right away because there's
