@@ -32,18 +32,18 @@ der genau auf den zu Beginn auszuführenden
 Zustand zeigt.
 
 0:00:57.000,0:01:06.340
-Unser Startzustand ist in diesem Fall als
+Unser Startzustand ist in diesem Fall
 F.
 
 0:01:06.340,0:01:11.119
 Das wäre also die Antwort auf die erste Frage.
 
 0:01:11.119,0:01:22.390
-Dann soll betrachtet werden, wie die Abfolge
-von Triggern die Sequenz von nacheinander
+Dann soll betrachtet werden, wie für die gegebene
+Abfolge von Triggern die Sequenz von nacheinander
 
 0:01:22.390,0:01:23.390
-durchlaufenden Zustände ist.
+durchlaufenen Zuständen ist.
 
 0:01:23.390,0:01:30.750
 Wir starten also von F aus.
@@ -108,7 +108,7 @@ Dafür ist der Startzustand dort zu betrachten.
 
 0:03:17.980,0:03:31.140
 Damit landen wir in diesem Zustand in F.
-wenn wir in F sind, kommt hier der letzte
+Wenn wir in F sind, kommt hier der letzte
 
 0:03:31.140,0:03:33.690
 Trigger A zum Einsatz.
@@ -199,10 +199,10 @@ betrachten.
 
 0:05:53.770,0:06:03.880
 Wir betreten hier A. der Zustand wäre hier
-also DA.
+also (D,A).
 
 0:06:03.880,0:06:05.780
-Wir könnten auch AD schreiben.
+Wir könnten auch (A,D) schreiben.
 
 0:06:05.780,0:06:07.980
 In dem Fall ist die Reihenfolge egal.
@@ -216,10 +216,10 @@ In der Aufgabe steht als Hinweis, dass es
 beispielsweise so aufgeschrieben werden kann.
 
 0:06:21.150,0:06:24.150
-AD wäre auch valid.
+(A,D) wäre auch valide.
 
 0:06:24.150,0:06:35.930
-Wir sind im zusammengesetzten Zustand DA und
+Wir sind im zusammengesetzten Zustand (D,A) und
 es folgt der Trigger B. wir können von A
 
 0:06:35.930,0:06:44.979
@@ -238,7 +238,7 @@ auch relevant.
 
 0:07:03.210,0:07:19.419
 Wir bleiben also in A und verlassen nur D.
-wir landen also in AC.
+wir landen also in (A,C).
 
 0:07:19.419,0:07:29.070
 Dann sind wir hier im letzten Zustand angekommen
@@ -266,7 +266,7 @@ Kante überhaupt zu wählen, das ist auch
 der vorhandene Trigger.
 
 0:07:57.730,0:08:10.580
-Wir gehen also über A nach G. von G aus haben
+Wir gehen also über A nach G. Von G aus haben
 wir die Möglichkeit, über A oder H zu gehen.
 
 0:08:10.580,0:08:15.530
@@ -303,10 +303,10 @@ aktiviert werden.
 Es gilt wieder, den Startzustand zu suchen.
 
 0:09:06.810,0:09:11.670
-Wir landen in AD.
+Wir landen in (A,D).
 
 0:09:11.670,0:09:21.269
-Von AD ausgehend wird hier jetzt A getriggert.
+Von (A,D) ausgehend wird hier jetzt A getriggert.
 
 0:09:21.269,0:09:30.623
 Als ausgehende Kanten aus dem gemeinsamen
@@ -327,13 +327,13 @@ Das heißt, das ist die letzte Kante, die
 wir wählen müssen.
 
 0:09:53.670,0:09:57.570
-Damit landen wir im Zustand (?B).
+Damit landen wir im Zustand B.
 
 0:09:57.570,0:10:00.200
 Der D Zustand bleibt erhalten.
 
 0:10:00.200,0:10:15.900
-Wir landen hier also in B, D. Also in dem
+Wir landen hier also in (B,D). Also in dem
 gemeinsamen Zustand B und D.
 
 0:10:15.900,0:10:25.190
@@ -359,16 +359,16 @@ Kante auch weg.
 Es bleibt also nur diese übrig.
 
 0:10:49.800,0:10:52.690
-Das ist nur eine mit B getriggerte.
+Das ist auch eine mit B getriggerte.
 
 0:10:52.690,0:10:54.600
 Diese verwenden wir.
 
 0:10:54.600,0:11:03.190
-Damit landen wir im Zustand BC.
+Damit landen wir im Zustand (B,C).
 
 0:11:03.190,0:11:20.800
-Wenn wir in diesem Zustand BC sind, folgt
+Wenn wir in diesem Zustand (B,C) sind, folgt
 hier der letzte Trigger in der Sequenz.
 
 0:11:20.800,0:11:22.440
