@@ -51,10 +51,10 @@ a Petri net based on these firing sequences.
 
 0:01:16.350,0:01:23.770
 And the task description says that at
-least, these should be possible.
+least these should be possible.
 
 0:01:23.770,0:01:28.470
-But that means that only these must be possible.
+But that does not mean that only these are possible.
 
 0:01:28.470,0:01:31.950
 There could be other ones that are not considered
@@ -62,7 +62,7 @@ here.
 
 0:01:31.950,0:01:40.360
 It's not necessary to construct our Petri
-net only these three are possible.
+net so that only these three are possible.
 
 0:01:40.360,0:01:43.299
 There could be other ones.
