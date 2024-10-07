@@ -192,10 +192,10 @@ O.k., ein weiteres Buch zu UML.
 5 # slide
 00:03:53,495 --> 00:03:57,290
 Obwohl UML nicht die gesamte Vorlesung
-ausmacht, werden wir gleich andere Bücher sehen,
+ausmacht (wir werden gleich andere Bücher sehen),
 
 00:03:57,290 --> 00:04:01,460
-aber hier noch ein weiteres Buch zu UML.
+hier noch ein weiteres Buch zu UML.
 Sehr umfangreich,
 
 00:04:01,460 --> 00:04:07,070

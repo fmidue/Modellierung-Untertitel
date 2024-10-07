@@ -192,10 +192,10 @@ Okay, another book on UML.
 5 # slide
 00:03:53,495 --> 00:03:57,290
 Although UML doesn't completely make up
-the lecture, we'll see other books in
+the lecture (we'll see other books in
 
 00:03:57,290 --> 00:04:01,460
-a moment, but here's another
+a moment), here's another
 book on UML. It's very comprehensive,
 
 00:04:01,460 --> 00:04:07,070
