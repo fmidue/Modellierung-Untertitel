@@ -22,7 +22,7 @@ The goal will be that each of
 these nodes of such a tree should
 
 0:00:47.010,0:00:49.320
-be an instance of somehow a class "node".
+be an instance of somehow a class "Node".
 
 0:00:49.320,0:00:49.860
 And then the question is:
@@ -68,7 +68,7 @@ possibility how we could
 formalize or model this.
 
 0:01:34.530,0:01:36.870
-So there should be this node class.
+So there should be this Node class.
 
 0:01:36.870,0:01:39.270
 It has an attribute.
@@ -113,7 +113,7 @@ direction, so from where to where we go
 (namely, from parent to child in the tree).
 
 0:02:24.550,0:02:31.600
-And the multiplicity we keep according to
+And the multiplicities we set according to
 the character on the one hand that
 
 0:02:31.600,0:02:37.930
@@ -175,7 +175,7 @@ For association, that's
 not a contradiction.
 
 0:03:29.800,0:03:32.470
-Nodes can be associated to themselves.
+Nodes can be associated to the same class.
 
 0:03:32.470,0:03:41.380
 It doesn't mean that in the
@@ -217,7 +217,7 @@ leaf nodes that have no successors.
 
 0:04:18.900,0:04:21.150
 Suppose we don't want
-to have a class "node"
+to have a class "Node"
 
 0:04:21.150,0:04:24.720
 that stands for every node in this tree.
@@ -266,7 +266,7 @@ at first, but it is more precise.
 What do we have here?
 
 0:05:18.960,0:05:21.510
-We have this node class.
+We have this Node class.
 
 0:05:23.550,0:05:25.620
 It is marked here as "abstract".
@@ -281,7 +281,7 @@ be created of this class itself.
 
 0:05:31.762,0:05:35.100
 So there will be no
-instances of this abstract class "node".
+instances of this abstract class "Node".
 
 0:05:35.100,0:05:39.720
 That's just there to serve
@@ -402,7 +402,7 @@ not go back somehow to
 inner nodes (is no self-association).
 
 0:07:52.290,0:07:56.040
-But it leads to more general nodes.
+But it leads to nodes generally.
 
 0:07:56.040,0:07:58.530
 Which then means concretely
@@ -414,7 +414,7 @@ as well as inner nodes.
 
 0:08:03.000,0:08:11.220
 Because they both inherit from the abstract
-class "node" to which this child relation points.
+class "Node" to which this child relation points.
 
 0:08:11.220,0:08:17.520
 So then that's another way,
@@ -461,7 +461,7 @@ associations for left and right successors.
 For example, it might look like this.
 
 0:09:23.210,0:09:26.540
-So we go back to a single node class.
+So we go back to a single Node class.
 
 0:09:26.540,0:09:32.120
 That carries a value as an

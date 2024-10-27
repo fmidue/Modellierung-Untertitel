@@ -22,7 +22,7 @@ Das Ziel wird sein, dass jeder dieser
 Knoten solch eines Baumes eine Instanz
 
 0:00:47.010,0:00:49.320
-von irgendwie einer Klasse "Knoten" sein soll.
+von irgendwie einer Klasse "Node" sein soll.
 
 0:00:49.320,0:00:49.860
 Und dann ist die Frage:
@@ -69,7 +69,7 @@ wie wir das formalisieren
 oder modellieren könnten.
 
 0:01:34.530,0:01:36.870
-Also es soll diese Knotenklasse geben.
+Also es soll diese Node-Klasse geben.
 
 0:01:36.870,0:01:39.270
 Die hat ein Attribut.
@@ -112,7 +112,7 @@ also von wo nach wo wir gehen (nämlich
 vom Elternteil zum Kind im Baum).
 
 0:02:24.550,0:02:31.600
-Und die Vielfachheit halten wir entsprechend
+Und die Multiplizitäten halten wir entsprechend
 einerseits dem Charakter fest, dass jeder
 
 0:02:31.600,0:02:37.930
@@ -171,7 +171,7 @@ Weil das Vererbung war.
 Für die Assoziation ist das kein Widerspruch.
 
 0:03:29.800,0:03:32.470
-Knoten können zu sich selbst assoziiert sein.
+Knoten können zur gleichen Klasse assoziiert sein.
 
 0:03:32.470,0:03:41.380
 Das heißt nicht, dass in dem modellierten
@@ -397,7 +397,7 @@ nicht irgendwie hier zu inneren Knoten
 zurückgeht (keine Selbstassoziation ist).
 
 0:07:52.290,0:07:56.040
-Sondern die führt zu allgemeineren Knoten.
+Sondern die führt zu Knoten allgemein.
 
 0:07:56.040,0:07:58.530
 Was dann konkret heißt, dass die Kinder eines
