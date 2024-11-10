@@ -450,7 +450,7 @@ and at the beginning the
 tokens are distributed as shown here.
 
 00:08:29,230 --> 00:08:30,940
-And there's a transition that
+And there's an arrow that
 
 00:08:30,940 --> 00:08:35,470
 generates two tokens as in the last
@@ -483,7 +483,7 @@ a three-element set of places,
 a three-element set of transitions, and
 
 00:09:05,260 --> 00:09:16,030
-the transitions can be written down,
+the arrow representation can be written down,
 for example, for t1 as follows.
 
 00:09:18,940 --> 00:09:20,860

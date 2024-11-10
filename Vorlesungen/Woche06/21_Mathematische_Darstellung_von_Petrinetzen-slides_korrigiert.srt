@@ -440,7 +440,7 @@ und zu Beginn sind die Marken
 wie hier dargestellt verteilt.
 
 00:08:29,230 --> 00:08:30,940
-Und es gibt einen Übergang,
+Und es gibt einen Pfeil,
 
 00:08:30,940 --> 00:08:35,470
 der wie im letzten Video beim Schalten
@@ -472,7 +472,7 @@ eine dreielementige Menge von Stellen,
 eine dreielementige Menge von Transitionen,
 
 00:09:05,260 --> 00:09:16,030
-und die Übergänge kann man zum
+und die Pfeil-Repräsentation kann man zum
 Beispiel für t1 wie folgt aufschreiben.
 
 00:09:18,940 --> 00:09:20,860
