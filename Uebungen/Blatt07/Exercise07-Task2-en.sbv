@@ -1,385 +1,393 @@
-0:00:02.190,0:00:12.000
-Within this task, we shall give a marking
-that has no successor marking and in each
+0:00:01.500,0:00:10.130
+This task is about to reachability graph of
+a Petri Net and we have been given a Petri
 
-0:00:12.000,0:00:20.510
-case, we shall also say which transitions
-must be fired in sequence to reach that marking.
+0:00:10.130,0:00:15.540
+Net and we shall create the reachability graph
+for it.
 
-0:00:20.510,0:00:28.539
-And we have been given these three nets here
-and we start with the first one.
+0:00:15.540,0:00:25.060
+So, this leads us to our first task which
+is determining the initial marking.
 
-0:00:28.539,0:00:41.570
-In order to find such marking where no further
-marking can be reached, we can actually try
+0:00:25.060,0:00:34.899
+So, first of all, we look at all the places
+and we see that in s1 there are two tokens
 
-0:00:41.570,0:00:46.160
-a sequence.
+0:00:34.899,0:00:39.340
+and in s2, s3 and s4 there are zero tokens.
 
-0:00:46.160,0:00:52.730
-And when we start with this Petri Net here,
-there's only one option or one transition
+0:00:39.340,0:00:49.230
+And this is our initial state and if we write
+down the states and given the order of these
 
-0:00:52.730,0:00:57.360
-we can fire and this is t2.
+0:00:49.230,0:01:01.719
+places, we define the place order for
+this graph as being place one being
 
-0:00:57.360,0:01:03.930
-So, anyways, it has to start with t2.
+0:01:01.719,0:01:12.290
+s1, the second position being place s2 and
+the third position being s3 has zero tokens
 
-0:01:03.930,0:01:13.990
-So, we can start with t2 and when we process
-this transition, when we fire it then there
+0:01:12.290,0:01:19.830
+and the fourth position being place four having
+zero tokens.
 
-0:01:13.990,0:01:23.829
-will be markings in s2 and s3 because of these
-arrows here going out from t2.
+0:01:19.830,0:01:30.420
+And we keep this sequence for the complete
+reachability graph.
 
-0:01:23.829,0:01:37.870
-And when we have reached this marking here,
-then we can either execute t3 or t1 so we
+0:01:30.420,0:01:39.140
+And because this is the initial state, we’ll
+require an arrow going to the initial state,
 
-0:01:37.870,0:01:41.070
-can fire t1 or we can fire t2.
+0:01:39.140,0:01:44.770
+so, like this.
 
-0:01:41.070,0:01:45.530
-And let's say we fire t1.
+0:01:44.770,0:01:50.040
+And this marks it as the initial set having
+an arrow going there.
 
-0:01:45.530,0:01:56.640
-So, when we do that, we remove one token from
-s2 and add a token in s1.
+0:01:50.040,0:01:55.469
+This is important to have, so, this is the
+initial marking.
 
-0:01:56.640,0:02:08.209
-And now, there is still another reachable marking
-as we can still fire t3.
+0:01:55.469,0:02:04.570
+And now, we can think of how to get to the
+next state.
 
-0:02:08.209,0:02:17.530
-And when we do this, so let me properly remove
-those tokens here.
+0:02:04.570,0:02:17.269
+And this is considering the graph here, the
+Petri net and we have to think of all the
 
-0:02:17.530,0:02:24.620
-So, when we process t3 then we can remove
-this token here as well.
+0:02:17.269,0:02:22.050
+transitions that are active.
 
-0:02:24.620,0:02:31.080
-And then we are in this marking here now,
-we can fire no more transition.
+0:02:22.050,0:02:28.019
+And t4 is not active, because there are no
+tokens in s4, t3 is not active, because there
 
-0:02:31.080,0:02:35.550
-So, we reached a final marking.
+0:02:28.019,0:02:33.160
+are no tokens in s3, s2 is not active because
+there are no tokens in s2.
 
-0:02:35.550,0:02:47.880
-And now we can name actually this marking
-as we know which marking it is.
+0:02:33.160,0:02:39.160
+So it's only t1 that we can fire because there
+are tokens in s1.
 
-0:02:47.880,0:03:02.790
-In s1 there are two tokens and in
-s2, there are zero tokens.
+0:02:39.160,0:02:49.630
+So we can fire t1 and this would lead to a
+new state.
 
-0:03:02.790,0:03:13.989
-And this goes also for s3 and also for s4.
+0:02:49.630,0:03:06.459
+So this is the new marking we get and we can
+name this marking here.
 
-0:03:13.989,0:03:26.379
-So, this is the first option that we have
-found the first net but of course, we could
+0:03:06.459,0:03:12.549
+So, first of all, we can check that we have
+this marking not named yet.
 
-0:03:26.379,0:03:34.409
-have also chosen to go another way.
+0:03:12.549,0:03:19.550
+But there's one token in s1 and we have
+no state referring to that marking.
 
-0:03:34.409,0:03:41.180
-So if I undo these steps here and go back
-to the beginning, then I said when we fire
+0:03:19.550,0:03:28.950
+So that's why we create a new state, one token
+for s2 and s3 and s4 have zero tokens.
 
-0:03:41.180,0:03:49.069
-t2, then we were in this state here, and then
-we chose a transition, so we chose t1 to fire
+0:03:28.950,0:03:32.080
+So this is our new state.
 
-0:03:49.069,0:03:52.520
-but we could have chosen t3 as well.
+0:03:32.080,0:03:47.870
+And we have a transition going from the initial
+state to this new state via firing transition
 
-0:03:52.520,0:04:04.159
-So if we choose t3 first, then also in this
-marking we can also choose only one transition,
-
-0:04:04.159,0:04:15.739
-but it's t1 in this case, so we get the same
-result, it's still this marking but another
-
-0:04:15.739,0:04:16.859
-sequence.
-
-0:04:16.859,0:04:21.080
-So, either one of those sequences is fine.
-
-0:04:21.080,0:04:27.750
-So either this one or that one is fine for
-the first Petri Net.
-
-0:04:27.750,0:04:35.590
-Now, let's see for the second Petri Net what
-we can do here.
-
-0:04:35.590,0:04:43.360
-So, again, as I said we can execute the Petri
-Net until we reach a point where nothing is
-
-0:04:43.360,0:04:45.009
-possible anymore.
-
-0:04:45.009,0:04:50.940
-And for this Petri Net, we can choose t1 or
-t2 at the beginning.
-
-0:04:50.940,0:05:00.699
-And when we look at this one here this looks
-quite promising so we could choose t2 to fire
-
-0:05:00.699,0:05:10.430
-and in this case we would get to this point
-here where... So, well this was the sequence.
-
-0:05:10.430,0:05:15.100
-I'll write it down here below.
-
-0:05:15.100,0:05:23.260
-So, when we just execute t2 then we are already
-in the final marking because there is no transition
-
-0:05:23.260,0:05:30.479
-that we can fire now because t2 requires a
-token in s1 and so does t1, and t3 requires
-
-0:05:30.479,0:05:31.870
-a token in s2.
-
-0:05:31.870,0:05:48.220
-So, now we have reached a final marking and
-we can name it by saying s1 has zero tokens,
-
-0:05:48.220,0:06:11.000
-s2 has zero tokens, s3 has one token, and
-s4 has zero tokens.
-
-0:06:11.000,0:06:17.150
-So, in this case, we just execute t2 and
-we are done.
-
-0:06:17.150,0:06:23.820
-But as I said we could have chosen a different
-way here because we had the option of firing
-
-0:06:23.820,0:06:25.580
-t1 and t2 at the beginning.
-
-0:06:25.580,0:06:33.509
-So, if we fire t1, then we get into this state
-here.
-
-0:06:33.509,0:06:36.919
-And now, in this state, we can only fire t3.
-
-0:06:36.919,0:06:42.600
-So, we can't fire t2 because it requires a
-token in s1, and also t1 requires one.
-
-0:06:42.600,0:06:45.020
-So it can only fire t3.
-
-0:06:45.020,0:06:55.790
-But if we do so, then we get a token in s4
-and as well in s1.
-
-0:06:55.790,0:07:01.700
-And when we are in this state, we can fire
-again either t1 or t2.
-
-0:07:01.700,0:07:09.160
-So, if we fire t2 at this time, then we get
-one token in s3.
-
-0:07:09.160,0:07:12.250
-And now we’ve reached a different marking.
-
-0:07:12.250,0:07:28.229
-So, in this case, this one should be the
-same, but s4 would be one in this case.
-
-0:07:28.229,0:07:31.990
-Let me write this arrow again.
-
-0:07:31.990,0:07:44.400
-So, s4 would be one and in order to reach
-this sequence, we executed first of all
-
-0:07:44.400,0:07:54.539
-t1 then t3, and then t2.
-
-0:07:54.539,0:08:05.949
-And in this case, we could have chosen to
-go further on, so we could have chosen t1.
-
-0:08:05.949,0:08:10.919
-t3 this was the state that we executed before.
-
-0:08:10.919,0:08:16.449
-So now in this state, we could once more fire
+0:03:47.870,0:03:51.190
 t1.
 
-0:08:16.449,0:08:33.070
-So, by firing t1 at this stage we get the token
-into s2 and remove it from s1.
+0:03:51.190,0:04:04.090
+So okay, then we continue with this state.
 
-0:08:33.070,0:08:40.360
-And now we can fire only one transition again
-and this is t3 in this case.
+0:04:04.090,0:04:11.750
+So now we have two options, we can either
+fire t1 again.
 
-0:08:40.360,0:08:51.600
-So now if you fire t3 we get another token
-in s4 and again a token in s1 and the token
+0:04:11.750,0:04:27.190
+So if we do this,
+then we get another token in s2, so we again,
 
-0:08:51.600,0:08:53.470
-in s2 is removed.
+0:04:27.190,0:04:34.470
+check, have we got this state already in our
+reachability graph?
 
-0:08:53.470,0:09:08.709
-So we can fire t3 here once more
-and then again we can either fire t2 which
+0:04:34.470,0:04:43.990
+And we see zero tokens in s1, we don't have
+this yet, so we create a new state.
 
-0:09:08.709,0:09:14.200
-will get the token here and we have reached a
-final marking as we can fire no more transition
+0:04:43.990,0:04:54.220
+And we have zero tokens in s1 and two tokens
+in s2 and zero and s3 and zero in s4 and we
 
-0:09:14.200,0:09:15.450
-now.
+0:04:54.220,0:05:08.160
+reach this state, by firing
+t1.
 
-0:09:15.450,0:09:23.980
-And I think you’ve got the point so in this
-case, we have another marking, this s4 having
+0:05:08.160,0:05:15.530
+So this is the sequence that leads us into
+this state.
 
-0:09:23.980,0:09:27.850
-two tokens.
+0:05:15.530,0:05:25.130
+And when we consider this state now, then
+we don't have any option of firing another
 
-0:09:27.850,0:09:32.089
-And we could continue this game more often.
+0:05:25.130,0:05:27.759
+transition because there's none active.
 
-0:09:32.089,0:09:41.220
-So we could after processing t1, t3, t1, t3,
-we could go further on with that until we
+0:05:27.759,0:05:42.971
+t4 and t3 require a token in s4 or s3 respectively
+and transition t1 requires a token in s1 and
 
-0:09:41.220,0:09:52.160
-finally fire t2 but there are no further options
-but cycling in this case.
+0:05:42.971,0:05:53.310
+t2 requires not only a token in s2, but also
+a token in s1.
 
-0:09:52.160,0:09:57.959
-Now let's consider the last Petri Net N3.
+0:05:53.310,0:06:03.720
+So, have to get back to this state here so,
+let's go back.
 
-0:09:57.959,0:10:05.230
-And in this case, there is only t3 active,
-so we can only fire t3.
+0:06:03.720,0:06:16.130
+And when we are in this state, then we have
+not only the option to fire t1, as we already
 
-0:10:05.230,0:10:12.600
-We cannot fire t2 because it requires a token
-in s4 and we cannot fire t1 because it also
+0:06:16.130,0:06:20.590
+did, but we can also fire t2.
 
-0:10:12.600,0:10:15.050
-requires a token in s4.
+0:06:20.590,0:06:26.099
+So, this is what we can do now.
 
-0:10:15.050,0:10:21.800
-But we can fire t3 as it requires a token
-in s3 which there is and a token in s2 which
+0:06:26.099,0:06:37.880
+So we fire t2, we get a new token in s3 then
+there is no token in s2 anymore, but also
 
-0:10:21.800,0:10:24.590
-there is as well.
+0:06:37.880,0:06:42.750
+the tokens in s1 are gone.
 
-0:10:24.590,0:10:35.030
-And as we can fire this transition we have
-not reached a final marking but when we fire
+0:06:42.750,0:06:46.319
+Again, we check if this is a new state.
 
-0:10:35.030,0:10:43.830
-this transition we’ll remove one token from
-s3 and we remove one token from s2, but we
+0:06:46.319,0:06:54.410
+No tokens in s1 and no tokens in s2, we don't
+have yet a state with that label, which means
 
-0:10:43.830,0:10:48.010
-place a token again back into s2.
+0:06:54.410,0:06:57.610
+we can create a new state.
 
-0:10:48.010,0:10:59.200
-So I can put this token back in here and we
-add a token in s4.
+0:06:57.610,0:07:12.129
+And it's zero tokens in s1, zero tokens in
+s2, and one token in s3.
 
-0:10:59.200,0:11:19.230
-And this, I'll call it t3, and we could now either
-fire t1 or t2 because both just require a
+0:07:12.129,0:07:27.139
+And this was using this transition here
+by using transition 2.
 
-0:11:19.230,0:11:27.180
-token in s4 but we cannot fire t3 as it requires
-a token s3.
+0:07:27.139,0:07:41.050
+Now that we've reached this state here, we
+can fire another transition, and this is t3.
 
-0:11:27.180,0:11:34.130
-If we fire t1, so let's fire t1.
+0:07:41.050,0:07:50.180
+We cannot fire t2, we cannot fire t1 and we
+cannot fire t4 each because there are no tokens
 
-0:11:34.130,0:11:39.850
-We remove a token from s4 and get a token
-into s1.
+0:07:50.180,0:07:59.930
+in the required places but we can fire t3
+and this will lead to a new state.
 
-0:11:39.850,0:11:51.991
-So now this is a marking without successor because
-now we can't fire any transition anymore.
+0:07:59.930,0:08:08.350
+We remove the token of s3 and we get one token
+in s4.
 
-0:11:51.991,0:11:59.200
-t1, and t2, both require a token in s4, and
-t3 requires a token in s3.
+0:08:08.350,0:08:13.389
+And we get one token back in s1.
 
-0:11:59.200,0:12:05.850
-And so, this would be the marking that we
-have.
+0:08:13.389,0:08:24.199
+So this again is a new state, we have no state
+yet where there is a token in s4, that's why
 
-0:12:05.850,0:12:29.750
-So, s1 would be one, s2 would be one and s3
-would be zero and s4 would also be zero.
+0:08:24.199,0:08:27.639
+create a new state.
 
-0:12:29.750,0:12:38.790
-But as I said in the previous step before
-executing t1, so, after executing t3 in this
+0:08:27.639,0:08:37.680
+And there are zero tokens in s3, there is
+one token in s4 and there's one token
 
-0:12:38.790,0:12:43.089
-state here we could have also fired t2.
+0:08:37.680,0:08:45.050
+in s1, and zero tokens there in s2.
 
-0:12:43.089,0:12:53.110
-So, this would be another option, if we have
-t3 and then fire t2, then we would remove
+0:08:45.050,0:08:55.470
+And we reached this state by firing t3.
 
-0:12:53.110,0:13:03.839
-one token here and add it right up here into
-s3.
+0:08:55.470,0:09:07.360
+Now that
+we've reached this marking, we have got two
 
-0:13:03.839,0:13:16.170
-So, if you do this, we have again/ so this
-was t2, we have again the initial state and
+0:09:07.360,0:09:08.890
+options.
 
-0:13:16.170,0:13:21.920
-now we could again execute either sequence.
+0:09:08.890,0:09:15.140
+So we can't fire t3 because there are no tokens
+in s3 and we can't fire t2 because there are
 
-0:13:21.920,0:13:29.430
-So we could execute t3/t1 which will lead
-us to a final marking which will of course
+0:09:15.140,0:09:17.160
+no tokens in s2.
 
-0:13:29.430,0:13:32.149
-be the same as before.
+0:09:17.160,0:09:26.709
+But we can fire either t4 or we can fire t1.
 
-0:13:32.149,0:13:40.269
-Or we could again fire t3 and then t2, so
-either of these sequences would be okay.
+0:09:26.709,0:09:33.160
+So let's first of all fire t4.
 
-0:13:40.269,0:13:49.990
-So, for instance, t3/t2/t3/t1 would be another
-option of a sequence that will lead to the
+0:09:33.160,0:09:45.690
+So if we do that, then we remove one token from
+s4 and get one token in s1.
 
-0:13:49.990,0:13:55.699
-same marking without successor.
+0:09:45.690,0:09:51.510
+And now we have to check if this is a state
+that we've covered already but as we can see
 
-0:13:55.699,0:14:05.670
-So, if you have any sequence that starts with
-t3/t2 and then followed by t3/t1 then you
+0:09:51.510,0:09:58.279
+the graph is now original, we now
+have two tokens in s1, we have zero tokens
 
-0:14:05.670,0:14:09.939
-have the sequence correct for this Petri Net
-as well.
+0:09:58.279,0:10:03.380
+in s2, zero tokens in s3, and zero tokens
+in s4.
+
+0:10:03.380,0:10:13.330
+So we create no new state, but
+we add in a transition, which goes from this
+
+0:10:13.330,0:10:23.500
+state to the state that we just reached by
+firing t4.
+
+0:10:23.500,0:10:32.279
+And as we haven't covered all the states that
+we can reach from this marking,
+
+0:10:32.279,0:10:35.660
+we go back to the marking.
+
+0:10:35.660,0:10:48.800
+So once more, we go back to this state, this
+marking where we have one token in s1 and
+
+0:10:48.800,0:10:53.079
+one token in s4.
+
+0:10:53.079,0:11:02.250
+And in the reachability graph, we can add
+another edge going to a state where we actually
+
+0:11:02.250,0:11:03.440
+fire t1.
+
+0:11:03.440,0:11:19.019
+So, if we fire T one, we will remove one token
+in s1 and add a token in s2 and this is a
+
+0:11:19.019,0:11:24.910
+new state.
+
+0:11:24.910,0:11:46.649
+So now we have one token
+in s2, we have zero tokens in s1, we have
+
+0:11:46.649,0:12:08.540
+one token in s2, and we have one token in
+s4, and we got there by firing t1.
+
+0:12:08.540,0:12:13.040
+So that's the label of the edge.
+
+0:12:13.040,0:12:23.000
+And now that we are in this state, we can
+fire t4 once more.
+
+0:12:23.000,0:12:30.681
+We can't fire any other transition because
+there are no tokens in s1 and because there
+
+0:12:30.681,0:12:32.940
+are no tokens in s3.
+
+0:12:32.940,0:12:38.900
+So that's why we can't fire t2 and we can't
+fire t3 and we can't fire t1.
+
+0:12:38.900,0:12:42.500
+So we can only fire t4.
+
+0:12:42.500,0:13:00.160
+And when we do that, we remove one token from
+s4 and add a token in s1.
+
+0:13:00.160,0:13:18.649
+And now we have got a marking where there
+is one token in s1 and one token in s2 and
+
+0:13:18.649,0:13:21.600
+all the others have zero tokens.
+
+0:13:21.600,0:13:28.589
+When we look at our graph, we see that there
+is already a state describing exactly this,
+
+0:13:28.589,0:13:32.019
+and this is this state here.
+
+0:13:32.019,0:13:45.380
+So we add this edge here, maybe make the graph
+a bit more readable by putting it like this.
+
+0:13:45.380,0:13:53.140
+This was reached by actually firing t4.
+
+0:13:53.140,0:13:57.780
+So we fire t4 and get back to this state.
+
+0:13:57.780,0:14:01.970
+And from there, we can continue as mentioned
+before.
+
+0:14:01.970,0:14:09.661
+Now, as we have considered all the states
+already with all the transitions, we have
+
+0:14:09.661,0:14:16.610
+finally reached a state where we have got
+the complete reachability graph.
+
+0:14:16.610,0:14:27.260
+And so we have covered every connection and
+every state.
+
+0:14:27.260,0:14:38.279
+And so the take away for creating the reachability
+graph, it's really important to consider every
+
+0:14:38.279,0:14:42.660
+state and consider every transition.
+
+0:14:42.660,0:14:49.160
+And when you add a new state, check before
+if the state already exists.
+
+0:14:49.160,0:14:56.540
+And if it exists, add an edge going to the
+existing state and only if it doesn't exist,
+
+0:14:56.540,0:14:58.779
+create a new state.
+
+0:14:58.779,0:15:00.360
+And that's it for this task.
