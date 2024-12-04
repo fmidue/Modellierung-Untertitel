@@ -336,7 +336,7 @@ So let's set it up.
 
 0:06:26.120,0:06:32.660
 How many markings are there
-here that come into question?
+here that are relevant?
 
 0:06:33.210,0:06:35.550
 Again, exactly two.
@@ -409,10 +409,10 @@ Why is that?
 
 0:08:12.150,0:08:14.730
 Because every transition occurs
-in the reachability graph
+in the reachability graph.
 
 0:08:14.730,0:08:18.780
-. There is no transition
+There is no transition
 that can never be fired.
 
 0:08:18.780,0:08:22.200
@@ -456,11 +456,11 @@ Strong liveness would mean:
 
 0:08:59.120,0:09:05.960
 For every transition t and every
-marking reachable from the start marking m0,
+marking m reachable from the start marking m0,
 
 0:09:05.960,0:09:11.870
 there must be a marking m' reachable
-from m0 in which t is activated.
+from m in which t is activated.
 
 0:09:11.870,0:09:16.970
 If we say that this Petri net

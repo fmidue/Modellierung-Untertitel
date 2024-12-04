@@ -332,7 +332,7 @@ Erreichbarkeitsgraphen davon überzeugen.
 Also stellen wir den mal auf.
 
 0:06:26.120,0:06:32.660
-Wie viele Markierung gibt es
+Wie viele Markierungen gibt es
 denn hier, die in Frage kommen?
 
 0:06:33.210,0:06:35.550
@@ -406,10 +406,10 @@ Warum ist das so?
 
 0:08:12.150,0:08:14.730
 Weil jede Transition im
-Erreichbarkeitsgraphen vorkommt
+Erreichbarkeitsgraphen vorkommt.
 
 0:08:14.730,0:08:18.780
-. Es gibt keine Transition,
+Es gibt keine Transition,
 die nie geschaltet werden kann.
 
 0:08:18.780,0:08:22.200
@@ -452,10 +452,10 @@ Starke Lebendigkeit hieße ja:
 
 0:08:59.120,0:09:05.960
 Es muss für jede Transition t und jede von der
-Startmarkierung m0 aus erreichbare Markierung
+Startmarkierung m0 aus erreichbare Markierung m
 
 0:09:05.960,0:09:11.870
-eine Markierung m' geben, die von m0 aus
+eine Markierung m' geben, die von m aus
 erreichbar ist und in der t aktiviert ist.
 
 0:09:11.870,0:09:16.970
