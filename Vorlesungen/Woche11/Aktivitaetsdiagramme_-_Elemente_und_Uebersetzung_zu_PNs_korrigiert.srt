@@ -580,7 +580,7 @@ Denn das würde ja bedeuten, dass wir irgendwas
 aufsplitten, also zwei Token ausgeben.
 
 00:10:41,370 --> 00:10:45,900
-Nein, es gibt eine Stelle, in die diese
+Nein, es gibt eine Stelle (die NICHT als Hilfsstelle zählt), in die diese
 Aktion, diese Transition, ein Token ablegt.
 
 00:10:45,900 --> 00:10:51,150
@@ -928,7 +928,7 @@ Kontroll- oder Objektflüsse zusammen.
 
 00:16:53,760 --> 00:16:57,150
 Im Petrinetz wären das einfach
-wieder Hilfsstellen.
+wieder Stellen (die NICHT als Hilfsstellen zählen).
 
 00:16:57,150 --> 00:17:03,780
 Hier ist es ja auch so, dass wenn ich eine

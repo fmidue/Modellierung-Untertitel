@@ -589,7 +589,7 @@ Because that would mean that we're splitting
 something up, so we're outputting two tokens.
 
 00:10:41,370 --> 00:10:45,900
-No, there is a place where
+No, there is a place (that does NOT count as auxiliary place) where
 this action, this transition puts a token.
 
 00:10:45,900 --> 00:10:51,150
@@ -946,7 +946,7 @@ control or object flows.
 
 00:16:53,760 --> 00:16:57,150
 In the Petri net these
-would be again simply auxiliary places.
+would again simply be places (that do NOT count as auxiliary places).
 
 00:16:57,150 --> 00:17:03,780
 Here it is also the case that if I
