@@ -126,7 +126,7 @@ to dynamic modeling with UML.
 
 211 # slide
 00:02:18,810 --> 00:02:22,140
-Yes, so keyword: activity diagrams.
+Yes, so key word: activity diagrams.
 
 00:02:22,140 --> 00:02:26,520
 These are UML diagrams which,
@@ -264,8 +264,8 @@ O.k., so activity diagrams and actually
 
 213 # slide
 00:05:09,300 --> 00:05:16,080
-this will first show
-in simply an activity diagram.
+I will first simply show
+an activity diagram.
 
 00:05:16,080 --> 00:05:19,830
 And then play around

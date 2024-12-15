@@ -263,7 +263,7 @@ O.k., also Aktivitätsdiagramme und tatsächlich
 
 213 # slide
 00:05:09,300 --> 00:05:16,080
-werde ich da zunächst Ihnen einfach
+werde ich Ihnen da zunächst einfach
 ein Aktivitätsdiagramm zeigen.
 
 00:05:16,080 --> 00:05:19,830
