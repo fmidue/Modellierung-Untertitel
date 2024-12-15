@@ -167,7 +167,7 @@ und Objektdiagramm in Beziehung steht.
 Dann reden wir eher vom Objektfluss.
 
 00:03:04,830 --> 00:03:08,130
-Es gibt diesen Fluss zwischen
+Aber der Punkt ist: Es gibt diesen Fluss zwischen
 den Aktionen in erster Linie.
 
 00:03:08,130 --> 00:03:11,760
@@ -198,7 +198,7 @@ und Stellen abwechselnd vorkommen müssen.
 
 00:03:33,390 --> 00:03:39,390
 Deswegen wird es dann hier eine
-sogenannte Hilfsstelle geben.
+sogenannte Hilfsstelle geben (anderswo später auch Hilfstransitionen).
 
 00:03:39,390 --> 00:03:42,420
 Also auf Petrinetz-Seite gibt es eine

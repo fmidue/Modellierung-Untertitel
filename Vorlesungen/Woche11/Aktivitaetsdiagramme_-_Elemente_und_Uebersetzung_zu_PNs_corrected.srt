@@ -169,8 +169,8 @@ Then we're talking more about the
 object flow of all the places.
 
 00:03:04,830 --> 00:03:08,130
-There is this flow between
-actions in the first place.
+But the point is: There is this flow,
+primarily between actions.
 
 00:03:08,130 --> 00:03:11,760
 How can we represent that in a Petri net?
@@ -201,7 +201,7 @@ and sites must always occur alternately.
 
 00:03:33,390 --> 00:03:39,390
 Therefore there will be
-a so called auxiliary place.
+a so called auxiliary place here (elswehere later also auxiliary transitions).
 
 00:03:39,390 --> 00:03:42,420
 So on the Petri net side there
