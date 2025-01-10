@@ -1,261 +1,137 @@
-0:00:05.100,0:00:08.840
-We have this UML state diagram.
+0:00:05.350,0:00:11.880
+This is a state diagram, and we need to turn
+it into a flat state diagram.
 
-0:00:08.840,0:00:15.389
-And the first thing we are asked to do is answer
-in which non-composite state, does every flow
+0:00:11.880,0:00:16.480
+Solving task one can help you solve this task.
 
-0:00:15.389,0:00:18.199
-of this diagram start?
+0:00:16.480,0:00:23.199
+The first state we have is F. Because if you
+look at this diagram, if you go from the outside,
 
-0:00:18.199,0:00:23.550
-To answer this question, we start looking
-from the outside.
+0:00:23.199,0:00:27.789
+this is the only entrance, it takes us here
+to this composite state.
 
-0:00:23.550,0:00:29.910
-And in the outside, you see, the only entrance
-to this diagram is this starting state.
+0:00:27.789,0:00:37.000
+And in this composite state, the only entrance
+here is to go to F. Now, if we are in F, if
 
-0:00:29.910,0:00:35.500
-And this starting state is pointing to this
-composite state, which has no name.
+0:00:37.000,0:00:46.260
+you are visiting F, then we have the possibility
+to go from F to G and go back using A. So,
 
-0:00:35.500,0:00:41.879
-So, this means now this state is going to
-be activated.
+0:00:46.260,0:00:50.020
+we just do that here.
 
-0:00:41.879,0:00:48.720
-And since the arrow is not pointing explicitly
-directly at any of these two non-composite
+0:00:50.020,0:00:57.820
+From G, you can go with H and it takes you
+to E, let's just add it here.
 
-0:00:48.720,0:00:53.719
-states, this means we go the standard way.
+0:00:57.820,0:01:06.030
+From E, you will go with K and K points at
+this composite state as a whole.
 
-0:00:53.719,0:01:00.539
-The standard way is to also look here in the
-outside, and we see the only entrance is this
+0:01:06.030,0:01:13.380
+And this composite state starts with F. So,
+basically we're going from E to F using K,
 
-0:01:00.539,0:01:02.609
-starting state.
+0:01:13.380,0:01:17.000
+let’s add it here.
 
-0:01:02.609,0:01:10.040
-And it's pointing to this non-composite state
-F. So, the answer is F.
+0:01:17.000,0:01:26.480
+And from E, you go with H. H points at D explicitly,
+and D is a part of this composite state.
 
-0:01:10.040,0:01:15.400
-This means every time we're going to use this
-diagram, every time is going to be activated,
+0:01:26.480,0:01:33.950
+And this leads to visiting A and D at the
+same time.
 
-0:01:15.400,0:01:23.979
-the first non-composite state to be active
-is F. Now, for the second part of the question
+0:01:33.950,0:01:44.439
+Let's add this here, we add one state, which
+is called A and D. And when you are in A and
 
-0:01:23.979,0:01:29.630
-of the task, it says give for each of the
-following successions of triggers the sequence
+0:01:44.439,0:01:52.280
+D at the same time, and you do A, it keeps
+you in D but it moves you from A to B, this
 
-0:01:29.630,0:01:35.040
-of states as they are visited one after another.
+0:01:52.280,0:02:03.000
+means we go to a new state called B and D.
+And we can go back from B and D. Because when
 
-0:01:35.040,0:01:40.829
-And now, as I said, F is the starting state,
-is the first state to be visited.
+0:02:03.000,0:02:11.450
+you are in B and D, there is this arrow with
+A and it takes you back to AD, it doesn't
 
-0:01:40.829,0:01:46.810
-This means it's going to be the first state
-in every solution for these sequences.
+0:02:11.450,0:02:18.060
+change anything with D, it just takes you
+back from B to A and D stays visited.
 
-0:01:46.810,0:01:55.090
-And now for the first sequence, it starts
-with A, and only A going out from our active
+0:02:18.060,0:02:25.019
+And now while we are in A and D at the same
+time, if we do B we have the similar case
 
-0:01:55.090,0:02:02.210
-states is this one here, there is no other
-A going out from this composite state, there's
+0:02:25.019,0:02:27.100
+as here.
 
-0:02:02.210,0:02:06.060
-only this one going out from F.
+0:02:27.100,0:02:33.160
+Doing B takes us from D to C and it keeps
+A visited.
 
-0:02:06.060,0:02:15.791
-This means after F we have G. And now again,
-we have H. So, this H only occurs here, it's
+0:02:33.160,0:02:41.400
+This means we go to a state called A and C.
+When you are in A and C at the same time.
 
-0:02:15.791,0:02:21.970
-going out from G. There are no other Hs here.
+0:02:41.400,0:02:48.120
+And you do A it takes you to B but it keeps
+you in C. So, you go to a new state called
 
-0:02:21.970,0:02:30.730
-And this means the next state that we are
-going to visit is E. Next in the sequence,
+0:02:48.120,0:02:55.390
+B and C. And also you can go back from B and
+C to A and C. And again you can go back from
 
-0:02:30.730,0:02:34.370
-we have K and K is here.
+0:02:55.390,0:03:02.520
+A and C to A and D, and now look at this state
+and this state.
 
-0:02:34.370,0:02:36.820
-There are no other Ks around.
+0:03:02.520,0:03:10.531
+We have B and C, B and D. And between C and
+D, you can go back and forth with B, let's
 
-0:02:36.820,0:02:41.600
-So, K brings us back to this composite state.
-
-0:02:41.600,0:02:51.250
-And this arrow of K is not pointing explicitly,
-directly to any of these non-composite states.
-
-0:02:51.250,0:02:56.010
-But rather it's pointing to this composite
-state, the big one.
-
-0:02:56.010,0:03:03.970
-And this means we go the standard way, which
-is again, we say this state is active, it's
-
-0:03:03.970,0:03:05.959
-visited now.
-
-0:03:05.959,0:03:11.430
-And we search here, we see that the only entrance
-is the starting state here, which goes to
-
-0:03:11.430,0:03:21.090
-F, the arrow is pointing at F. Now the last
-element in the sequence is A, and A takes
-
-0:03:21.090,0:03:24.860
-us from F to G.
-
-0:03:24.860,0:03:28.280
-This is the solution for this sequence.
-
-0:03:28.280,0:03:34.290
-Now for the next sequence, again, we have
-F at the start.
-
-0:03:34.290,0:03:44.120
-And the sequence starts with A, A takes us
-to G and then we have H, H takes us to E once
-
-0:03:44.120,0:03:47.700
-again.
-
-0:03:47.700,0:03:55.750
-This time we have H and H is going to take
-us to this composite state, this big one.
-
-0:03:55.750,0:04:04.680
-And since this arrow is pointing explicitly,
-and directly at D, this means D is active,
-
-0:04:04.680,0:04:05.760
-it's visited.
-
-0:04:05.760,0:04:08.849
-It's going to be visited no matter what happens.
-
-0:04:08.849,0:04:16.410
-But at the same time as I said this big composite
-state is also active and it has regions.
-
-0:04:16.410,0:04:25.380
-So, this means in addition to D in this part
-here, we need to look for the standard way
-
-0:04:25.380,0:04:32.449
-of going which is A because the starting state
-is pointing at A, the arrow is pointing at
-
-0:04:32.449,0:04:42.080
-A and now this means we have two non-composite
-states A and D being visited at the same time.
-
-0:04:42.080,0:04:46.570
-And this is how we express it, this is how
-we write it.
-
-0:04:46.570,0:04:52.050
-And the last element of the sequence is B,
-there are no Bs here.
-
-0:04:52.050,0:05:04.169
-So, this means we stay in A. But for D if you
-use B you go to C. And this means after using
-
-0:05:04.169,0:05:08.639
-B, we are in A and C at the same time.
-
-0:05:08.639,0:05:12.520
-This is the final solution.
-
-0:05:12.520,0:05:14.539
-And now we do this sequence.
-
-0:05:14.539,0:05:22.620
-Again, we start with F, and then we have A,
-A takes us to G, and we have H, H takes
-
-0:05:22.620,0:05:32.250
-us to E. And then we have H again. H takes us to
-this composite state, the same thing happens.
-
-0:05:32.250,0:05:36.070
-And we are in A and D at the same time.
-
-0:05:36.070,0:05:43.889
-This time we have A and A does nothing for
-D, we stay in D, but it takes us from A to
-
-0:05:43.889,0:05:44.889
-B.
-
-0:05:44.889,0:05:49.660
-This means now we are in B and D at the same
-time.
-
-0:05:49.660,0:05:56.440
-And then we have B. B takes us from D to C
-and it keeps us in B, it doesn't change anything
-
-0:05:56.440,0:05:58.250
-here.
-
-0:05:58.250,0:06:03.850
-And this means we are now visiting B and C
-at the same time.
-
-0:06:03.850,0:06:07.060
-And the last element of the sequence is K.
-
-0:06:07.060,0:06:12.389
-But you might wonder how can we do K while
-we are in B and C?
-
-0:06:12.389,0:06:20.050
-Well, this is possible because as I said before,
-it's not just B and C, which are being visited.
-
-0:06:20.050,0:06:25.690
-Actually we are visiting also this composite
-state which contains them.
-
-0:06:25.690,0:06:30.620
-And from this composite state, this big one
-here we have an arrow with K.
-
-0:06:30.620,0:06:34.970
-So, it is possible to use K and go here.
-
-0:06:34.970,0:06:40.930
-Now we have this composite state active and
-the arrow is not pointing directly.
-
-0:06:40.930,0:06:47.330
-It's not pointing explicitly at any of the
-non-composite states F and G.
-
-0:06:47.330,0:06:53.610
-We go the standard way which is starting with
-F. So, this means this is how the solution
-
-0:06:53.610,0:06:54.610
-looks like.
-
-0:06:54.610,0:06:55.469
-This is the final solution.
+0:03:10.531,0:03:13.780
+add this here.
+
+0:03:13.780,0:03:22.650
+And since when you are in A or B or C or D
+or any combinations of these, then this big
+
+0:03:22.650,0:03:27.280
+composite state is also considered active
+and visited.
+
+0:03:27.280,0:03:33.909
+Then you can go with K, it takes you to this
+composite state, which starts with F. So,
+
+0:03:33.909,0:03:40.939
+this means from either of these four, you
+can go with K and it's going to take you to
+
+0:03:40.939,0:03:48.420
+the first state of this composite state which
+is F. So, I just added four arrows from each
+
+0:03:48.420,0:03:56.409
+of these states with K and it takes you to
+F. And now since we have covered everything
+
+0:03:56.409,0:04:05.540
+we can safely say we have created a corresponding
+equivalent flat state diagram to the original
+
+0:04:05.540,0:04:06.640
+one.
+
+0:04:06.640,0:04:13.460
+It has no regions it has no hierarchical structure,
+and at the same time is equivalent.

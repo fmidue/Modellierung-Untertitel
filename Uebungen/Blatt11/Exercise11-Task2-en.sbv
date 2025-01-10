@@ -1,373 +1,261 @@
-0:00:06.720,0:00:11.680
-Before I start answering the questions, I
-would like to point out some important things.
+0:00:05.100,0:00:08.840
+We have this UML state diagram.
 
-0:00:11.680,0:00:19.289
-So, for example, what is happening here with
-this transition G is that we are going directly
+0:00:08.840,0:00:15.389
+And the first thing we are asked to do is answer
+in which non-composite state, does every flow
 
-0:00:19.289,0:00:23.630
-from two to nine.
+0:00:15.389,0:00:18.199
+of this diagram start?
 
-0:00:23.630,0:00:32.660
-This means, yes, we are activating this composite
-state D, this whole thing here.
+0:00:18.199,0:00:23.550
+To answer this question, we start looking
+from the outside.
 
-0:00:32.660,0:00:39.410
-But we are not going into the start state
-which is ten, but rather we're going directly
+0:00:23.550,0:00:29.910
+And in the outside, you see, the only entrance
+to this diagram is this starting state.
 
-0:00:39.410,0:00:41.380
-into nine.
+0:00:29.910,0:00:35.500
+And this starting state is pointing to this
+composite state, which has no name.
 
-0:00:41.380,0:00:52.640
-So, in comparison, this transition is doing
-an explicit entry.
+0:00:35.500,0:00:41.879
+So, this means now this state is going to
+be activated.
 
-0:00:52.640,0:01:00.140
-While this transition, for example, E is not
-doing an explicit entry, it's doing a standard
+0:00:41.879,0:00:48.720
+And since the arrow is not pointing explicitly
+directly at any of these two non-composite
 
-0:01:00.140,0:01:04.960
-entry, because it's going to the D as a whole.
+0:00:48.720,0:00:53.719
+states, this means we go the standard way.
 
-0:01:04.960,0:01:13.760
-And then the decision becomes that we start
-with the starting state, which is ten.
+0:00:53.719,0:01:00.539
+The standard way is to also look here in the
+outside, and we see the only entrance is this
 
-0:01:13.760,0:01:20.799
-The general structure of this diagram is that
-we have these states, A, B, C, D, these are
+0:01:00.539,0:01:02.609
+starting state.
 
-0:01:20.799,0:01:23.390
-composite states.
+0:01:02.609,0:01:10.040
+And it's pointing to this non-composite state
+F. So, the answer is F.
 
-0:01:23.390,0:01:29.820
-The biggest one is a that contains everything,
-of course, everything except for this part
+0:01:10.040,0:01:15.400
+This means every time we're going to use this
+diagram, every time is going to be activated,
 
-0:01:29.820,0:01:33.210
+0:01:15.400,0:01:23.979
+the first non-composite state to be active
+is F. Now, for the second part of the question
+
+0:01:23.979,0:01:29.630
+of the task, it says give for each of the
+following successions of triggers the sequence
+
+0:01:29.630,0:01:35.040
+of states as they are visited one after another.
+
+0:01:35.040,0:01:40.829
+And now, as I said, F is the starting state,
+is the first state to be visited.
+
+0:01:40.829,0:01:46.810
+This means it's going to be the first state
+in every solution for these sequences.
+
+0:01:46.810,0:01:55.090
+And now for the first sequence, it starts
+with A, and only A going out from our active
+
+0:01:55.090,0:02:02.210
+states is this one here, there is no other
+A going out from this composite state, there's
+
+0:02:02.210,0:02:06.060
+only this one going out from F.
+
+0:02:06.060,0:02:15.791
+This means after F we have G. And now again,
+we have H. So, this H only occurs here, it's
+
+0:02:15.791,0:02:21.970
+going out from G. There are no other Hs here.
+
+0:02:21.970,0:02:30.730
+And this means the next state that we are
+going to visit is E. Next in the sequence,
+
+0:02:30.730,0:02:34.370
+we have K and K is here.
+
+0:02:34.370,0:02:36.820
+There are no other Ks around.
+
+0:02:36.820,0:02:41.600
+So, K brings us back to this composite state.
+
+0:02:41.600,0:02:51.250
+And this arrow of K is not pointing explicitly,
+directly to any of these non-composite states.
+
+0:02:51.250,0:02:56.010
+But rather it's pointing to this composite
+state, the big one.
+
+0:02:56.010,0:03:03.970
+And this means we go the standard way, which
+is again, we say this state is active, it's
+
+0:03:03.970,0:03:05.959
+visited now.
+
+0:03:05.959,0:03:11.430
+And we search here, we see that the only entrance
+is the starting state here, which goes to
+
+0:03:11.430,0:03:21.090
+F, the arrow is pointing at F. Now the last
+element in the sequence is A, and A takes
+
+0:03:21.090,0:03:24.860
+us from F to G.
+
+0:03:24.860,0:03:28.280
+This is the solution for this sequence.
+
+0:03:28.280,0:03:34.290
+Now for the next sequence, again, we have
+F at the start.
+
+0:03:34.290,0:03:44.120
+And the sequence starts with A, A takes us
+to G and then we have H, H takes us to E once
+
+0:03:44.120,0:03:47.700
+again.
+
+0:03:47.700,0:03:55.750
+This time we have H and H is going to take
+us to this composite state, this big one.
+
+0:03:55.750,0:04:04.680
+And since this arrow is pointing explicitly,
+and directly at D, this means D is active,
+
+0:04:04.680,0:04:05.760
+it's visited.
+
+0:04:05.760,0:04:08.849
+It's going to be visited no matter what happens.
+
+0:04:08.849,0:04:16.410
+But at the same time as I said this big composite
+state is also active and it has regions.
+
+0:04:16.410,0:04:25.380
+So, this means in addition to D in this part
+here, we need to look for the standard way
+
+0:04:25.380,0:04:32.449
+of going which is A because the starting state
+is pointing at A, the arrow is pointing at
+
+0:04:32.449,0:04:42.080
+A and now this means we have two non-composite
+states A and D being visited at the same time.
+
+0:04:42.080,0:04:46.570
+And this is how we express it, this is how
+we write it.
+
+0:04:46.570,0:04:52.050
+And the last element of the sequence is B,
+there are no Bs here.
+
+0:04:52.050,0:05:04.169
+So, this means we stay in A. But for D if you
+use B you go to C. And this means after using
+
+0:05:04.169,0:05:08.639
+B, we are in A and C at the same time.
+
+0:05:08.639,0:05:12.520
+This is the final solution.
+
+0:05:12.520,0:05:14.539
+And now we do this sequence.
+
+0:05:14.539,0:05:22.620
+Again, we start with F, and then we have A,
+A takes us to G, and we have H, H takes
+
+0:05:22.620,0:05:32.250
+us to E. And then we have H again. H takes us to
+this composite state, the same thing happens.
+
+0:05:32.250,0:05:36.070
+And we are in A and D at the same time.
+
+0:05:36.070,0:05:43.889
+This time we have A and A does nothing for
+D, we stay in D, but it takes us from A to
+
+0:05:43.889,0:05:44.889
+B.
+
+0:05:44.889,0:05:49.660
+This means now we are in B and D at the same
+time.
+
+0:05:49.660,0:05:56.440
+And then we have B. B takes us from D to C
+and it keeps us in B, it doesn't change anything
+
+0:05:56.440,0:05:58.250
 here.
 
-0:01:33.210,0:01:44.899
-And then inside A we have two big composite
-states, which are D and B. And then inside
+0:05:58.250,0:06:03.850
+And this means we are now visiting B and C
+at the same time.
 
-0:01:44.899,0:01:56.520
-B we have smaller composite states, which
-are E and C. And this composite state C is
+0:06:03.850,0:06:07.060
+And the last element of the sequence is K.
 
-0:01:56.520,0:02:04.210
-divided into two regions by this line.
+0:06:07.060,0:06:12.389
+But you might wonder how can we do K while
+we are in B and C?
 
-0:02:04.210,0:02:10.069
-I think now we are ready to start answering
-the questions.
+0:06:12.389,0:06:20.050
+Well, this is possible because as I said before,
+it's not just B and C, which are being visited.
 
-0:02:10.069,0:02:15.690
-Question A. With which state or states does
-the diagram start?
+0:06:20.050,0:06:25.690
+Actually we are visiting also this composite
+state which contains them.
 
-0:02:15.690,0:02:19.580
-The answer is six and three.
+0:06:25.690,0:06:30.620
+And from this composite state, this big one
+here we have an arrow with K.
 
-0:02:19.580,0:02:24.550
-Since the fork explicitly jumps to the states
-at the beginning, this is the fork we are
+0:06:30.620,0:06:34.970
+So, it is possible to use K and go here.
 
-0:02:24.550,0:02:26.200
-talking about.
+0:06:34.970,0:06:40.930
+Now we have this composite state active and
+the arrow is not pointing directly.
 
-0:02:26.200,0:02:29.030
-This is the starting state.
+0:06:40.930,0:06:47.330
+It's not pointing explicitly at any of the
+non-composite states F and G.
 
-0:02:29.030,0:02:37.940
-It's in the outside of A which is as I said,
-it's the biggest state, the composite state
+0:06:47.330,0:06:53.610
+We go the standard way which is starting with
+F. So, this means this is how the solution
 
-0:02:37.940,0:02:42.190
-that contains almost everything here.
+0:06:53.610,0:06:54.610
+looks like.
 
-0:02:42.190,0:02:54.410
-So, this fork is going directly into B. And
-from B, it's going directly into C. And from
-
-0:02:54.410,0:02:59.740
-C it's going to this state three.
-
-0:02:59.740,0:03:05.860
-And here it's doing the same and it's going
-into state six.
-
-0:03:05.860,0:03:15.330
-Question B. Name all possible states or combinations
-of states from which C can be left.
-
-0:03:15.330,0:03:23.220
-The answer is leaving C is possible in these
-combinations of states, six and five, six
-
-0:03:23.220,0:03:29.489
-and four, six and three, or seven and four.
-
-0:03:29.489,0:03:34.340
-These are four states, four state combinations.
-
-0:03:34.340,0:03:40.110
-But actually, they result from two possibilities.
-
-0:03:40.110,0:03:47.900
-The first one is to exit through this state,
-which is a joint state.
-
-0:03:47.900,0:03:54.530
-The second possibility is to exit with the
-help of this transition, e. And when you exit
-
-0:03:54.530,0:04:01.340
-with e, it doesn't matter where you are, it
-doesn't matter where which state you are currently
-
-0:04:01.340,0:04:02.659
-in here.
-
-0:04:02.659,0:04:07.819
-This is why you have six with five, six with
-four and six with three.
-
-0:04:07.819,0:04:09.370
-Next question.
-
-0:04:09.370,0:04:14.840
-Which state or states result from leaving
-C from seven?
-
-0:04:14.840,0:04:17.920
-This is seven and four.
-
-0:04:17.920,0:04:28.590
-This is four, if the previously last visited
-state in D was eight, which is this one.
-
-0:04:28.590,0:04:30.540
-The answer is ten.
-
-0:04:30.540,0:04:36.800
-Since the entry happens via the start state
-of D. But why?
-
-0:04:36.800,0:04:43.979
-This happens because here it says we leave
-C from seven and four.
-
-0:04:43.979,0:04:53.380
-This means we do this transition d, and this
-transition d is not pointing at any inner state
-
-0:04:53.380,0:04:59.250
-of D. It's just pointing at D as a whole.
-
-0:04:59.250,0:05:06.750
-And since there is no history state in D,
-we just go where the start state is pointing
-
-0:05:06.750,0:05:11.690
-at, which is state ten.
-
-0:05:11.690,0:05:20.319
-Next question says, which state or states
-result from leaving D from eight?
-
-0:05:20.319,0:05:22.580
-This is eight.
-
-0:05:22.580,0:05:30.860
-If B was previously last left from two, this
-is B. And this is two.
-
-0:05:30.860,0:05:41.759
-The answer is one, because the starting state
-of E is what we jump to.
-
-0:05:41.759,0:05:42.980
-Why do we do that?
-
-0:05:42.980,0:05:47.700
-Because the history here is a shallow history.
-
-0:05:47.700,0:05:57.889
-In other words, this shallow history belongs
-to the composite state B. So, it remembers
-
-0:05:57.889,0:06:07.530
-the last state we were at when we left B.
-So, it remembers we were at E or at C. And
-
-0:06:07.530,0:06:08.530
-that's it.
-
-0:06:08.530,0:06:12.479
-It doesn't look at the inner states one or
-two.
-
-0:06:12.479,0:06:17.389
-Otherwise, it would be a deep history.
-
-0:06:17.389,0:06:28.130
-So, this history, remember that we left B
-from E and not from C. Okay, but where does
-
-0:06:28.130,0:06:29.949
-it say that here?
-
-0:06:29.949,0:06:38.160
-It says that here by telling us that B was
-previously last left from two and two is contained
-
-0:06:38.160,0:06:46.700
-in E. Now, let's go into E. And the starting
-state points at one.
-
-0:06:46.700,0:06:50.690
-This means we start with one.
-
-0:06:50.690,0:06:57.830
-Next question says, does the answer to (d) change
-if we change that shallow history state to
-
-0:06:57.830,0:06:59.930
-a deep history state?
-
-0:06:59.930,0:07:03.840
-And if so, how?
-
-0:07:03.840,0:07:05.530
-The answer is yes.
-
-0:07:05.530,0:07:13.129
-Because as I discussed before, the deep
-history would remember exactly which one of those
-
-0:07:13.129,0:07:18.099
-one or two we were at.
-
-0:07:18.099,0:07:24.970
-The next question says, what different possibilities
-are there to jump to state six when leaving
-
-0:07:24.970,0:07:26.480
-D?
-
-0:07:26.480,0:07:32.800
-This is six and this is D.
-
-0:07:32.800,0:07:37.500
-The answer is there are two possibilities.
-
-0:07:37.500,0:07:46.979
-The first one is to go from state nine, which
-is this one using the transition F. But as
-
-0:07:46.979,0:07:56.849
-you can see the transition F goes directly
-into three, it doesn't point at six at all.
-
-0:07:56.849,0:08:02.940
-So, how does this get us to six?
-
-0:08:02.940,0:08:12.980
-Well, the answer is C, this composite state
-C is divided into two regions.
-
-0:08:12.980,0:08:23.759
-And this division into two regions means that
-these two parts, these two regions run in
-
-0:08:23.759,0:08:26.810
-a parallel way.
-
-0:08:26.810,0:08:32.060
-So, it is not like C is divided into two states.
-
-0:08:32.060,0:08:35.719
-No, this is still one state.
-
-0:08:35.719,0:08:43.510
-A good way to think about this is to imagine
-going into a house and then inside this house
-
-0:08:43.510,0:08:46.290
-going into the bathroom.
-
-0:08:46.290,0:08:50.190
-So, this means you occupy the bathroom.
-
-0:08:50.190,0:08:53.820
-And we can say that the bathroom is occupied
-by you.
-
-0:08:53.820,0:08:56.950
-So, we say it's active.
-
-0:08:56.950,0:09:01.360
-But does this mean that you are somehow not
-inside the house anymore?
-
-0:09:01.360,0:09:04.670
-No, it means you are still inside the house.
-
-0:09:04.670,0:09:10.100
-And it means that the house is occupied by
-you.
-
-0:09:10.100,0:09:11.930
-And the same goes here.
-
-0:09:11.930,0:09:22.190
-So, when you go into three, the whole C, the
-whole state C is now active.
-
-0:09:22.190,0:09:29.519
-And when state C is active, we have rules
-here, we have things that have to be fulfilled,
-
-0:09:29.519,0:09:32.990
-that have to happen.
-
-0:09:32.990,0:09:39.980
-It says here we start with five, the state
-five and the state six, these are the two
-
-0:09:39.980,0:09:42.620
-starting states.
-
-0:09:42.620,0:09:56.140
-Now the second possibility is to go from eight
-with the transition i if B, this B, was last
-
-0:09:56.140,0:10:02.540
-exited from C which is this state here.
-
-0:10:02.540,0:10:06.329
-Let's see how this works.
-
-0:10:06.329,0:10:15.190
-Let's say we last exited B from C. So, the
-shallow history remembers one thing, which
-
-0:10:15.190,0:10:21.180
-is that we were in C. As I said before, it
-doesn't care which inner state we were at.
-
-0:10:21.180,0:10:33.140
-So, this means when we go from eight with
-i into B, we go into C and with C, we just
-
-0:10:33.140,0:10:36.910
-start with these two starting states.
-
-0:10:36.910,0:10:41.870
-And we start with five and six.
-
-0:10:41.870,0:10:43.320
-And we are done.
+0:06:54.610,0:06:55.469
+This is the final solution.

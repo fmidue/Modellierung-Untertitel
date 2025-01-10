@@ -1,411 +1,514 @@
-0:00:02.730,0:00:07.230
-Diese Aufgabe beschäftigt sich mit Zustandsdiagrammen.
+0:00:02.879,0:00:08.430
+In dieser Aufgabe geht es wieder um Zustandsdiagramme.
 
-0:00:07.230,0:00:13.620
-Der erste Aufgabenteil, der hier zu lösen
-ist, ist folgender.
+0:00:08.430,0:00:12.780
+Wir haben dieses Zustandsdiagramm gegeben.
 
-0:00:13.620,0:00:20.850
-In welchem nicht zusammengesetzten Zustand,
-was hier im Diagramm von a bis g benannte
+0:00:12.780,0:00:21.109
+Die Aufgabe ist nun, dieses Zustandsdiagramm
+in ein flaches Zustandsdiagramm zu überführen,
 
-0:00:20.850,0:00:27.050
-Zustände sind, beginnt jeder Ablauf dieses
-Zustandsdiagramms?
+0:00:21.109,0:00:34.300
+also in eines ohne hierarchische Zustände
+oder Regionen.
 
-0:00:27.050,0:00:30.630
-Dafür müssen wir den äußeren Startzustand
-betrachten.
+0:00:34.300,0:00:46.230
+Die Zustandsnamen dürfen Paare von nicht
+zusammengesetzten Zuständen des ursprünglichen
 
-0:00:30.630,0:00:34.660
-Das ist dieser hier.
+0:00:46.230,0:00:47.230
+Zustandsdiagramms sein.
 
-0:00:34.660,0:00:45.710
-Wenn wir diesen Startzustand betrachten, zeigt
-er auf diesen Zustand hier.
-
-0:00:45.710,0:00:54.000
-Dort haben wir wieder einen Startzustand,
-der genau auf den zu Beginn auszuführenden
-
-0:00:54.000,0:00:57.000
-Zustand zeigt.
-
-0:00:57.000,0:01:06.340
-Unser Startzustand ist in diesem Fall
-F.
-
-0:01:06.340,0:01:11.119
-Das wäre also die Antwort auf die erste Frage.
-
-0:01:11.119,0:01:22.390
-Dann soll betrachtet werden, wie für die gegebene
-Abfolge von Triggern die Sequenz von nacheinander
-
-0:01:22.390,0:01:23.390
-durchlaufenen Zuständen ist.
-
-0:01:23.390,0:01:30.750
-Wir starten also von F aus.
-
-0:01:30.750,0:01:37.920
-Danach gibt es eine Abfolge von Triggern.
-
-0:01:37.920,0:01:42.420
-Dann müssen wir angeben, wie die Zustände
-durchlaufen werden.
-
-0:01:42.420,0:01:51.750
-Wir beginnen wie gesagt bei F, was der erste
-Zustand ist.
-
-0:01:51.750,0:01:54.880
-Dann folgt der erste Trigger.
-
-0:01:54.880,0:02:00.920
-Das ist A. wir sehen einen ausgehenden Pfeil
-mit A.
-
-0:02:00.920,0:02:04.070
-Das ist der hier.
-
-0:02:04.070,0:02:08.530
-Das ist also auch der erste Trigger, der losgeht.
-
-0:02:08.530,0:02:22.349
-Damit landen wir in g. nach F kommt G. von
-G aus betrachten wir den nächsten Trigger,
-
-0:02:22.349,0:02:23.550
-der H ist.
-
-0:02:23.550,0:02:31.860
-Wir haben hier eine ausgehende Kante mit H,
-die zum Zustand E führt.
-
-0:02:31.860,0:02:38.160
-Der nächste Zustand ist also E.
-
-0:02:38.160,0:02:42.250
-von hier aus wird K getriggert.
-
-0:02:42.250,0:02:48.200
-Da schauen wir wieder.
-
-0:02:48.200,0:02:55.060
-Wir haben zwei ausgehende Kanten und H, was
-nicht der gesuchte Trigger ist.
-
-0:02:55.060,0:03:05.200
-Wir haben K. wir haben nur diese eine ausgehende
-Kante mit K, also wird diese getriggert.
-
-0:03:05.200,0:03:11.319
-Wir landen in diesem zusammengesetzten Zustand.
-
-0:03:11.319,0:03:17.980
-Dafür ist der Startzustand dort zu betrachten.
-
-0:03:17.980,0:03:31.140
-Damit landen wir in diesem Zustand in F.
-Wenn wir in F sind, kommt hier der letzte
-
-0:03:31.140,0:03:33.690
-Trigger A zum Einsatz.
-
-0:03:33.690,0:03:37.890
-Hier können wir wieder die ausgehenden Kanten
-absuchen.
-
-0:03:37.890,0:03:47.310
-Wir haben nur diese eine mit A. das heißt,
-der letzte Zustand den wir erreichen ist in
-
-0:03:47.310,0:03:57.459
-dieser Folge G. So können wir nun mit dem
-Teil c der Aufgabe fortfahren.
-
-0:03:57.459,0:04:03.730
-Wir starten wieder im Zustand F, da es unser
-Startzustand war.
-
-0:04:03.730,0:04:07.470
-Von dort aus wird A getriggert.
-
-0:04:07.470,0:04:13.810
-Das ist wieder genau diese Kante, die wir
-nehmen können.
-
-0:04:13.810,0:04:18.170
-Wir landen also wieder in G.
-
-0:04:18.170,0:04:25.620
-Von G aus wird wieder H getriggert.
-
-0:04:25.620,0:04:27.509
-Wir haben hier zwei ausgehende Kanten.
-
-0:04:27.509,0:04:32.280
-A ist nicht der gesuchte Trigger.
-
-0:04:32.280,0:04:33.520
-Wir haben noch H.
-
-0:04:33.520,0:04:35.620
-Hier ist der geforderte Trigger.
-
-0:04:35.620,0:04:41.229
-Wir landen letztendlich also wieder in E.
-
-0:04:41.229,0:04:44.919
-Hier wird nun H statt K getriggert.
-
-0:04:44.919,0:04:52.789
-Wir suchen also wieder die ausgehende Kante
-und haben wieder diese zwei Optionen.
-
-0:04:52.789,0:05:04.479
-Es ist entweder K oder H. H wird wie gesagt
-getriggert, das heißt wir landen in D.
-
-0:05:04.479,0:05:12.000
-Wenn wir in D sind wird letztendlich E getriggert.
-
-0:05:12.000,0:05:24.860
-Ich muss dazu sagen, dass wenn wir von E aus
-über H in D landen, das noch nicht vollständig
-
-0:05:24.860,0:05:25.860
+0:00:47.230,0:00:53.700
+Das ist so wie es auch in den Folien geschehen
 ist.
 
-0:05:25.860,0:05:31.560
-Wir haben hier einen zusammengesetzten Zustand
-betreten.
+0:00:53.700,0:00:57.100
+Nach diesem Schema kann das hier auch angewandt
+werden.
 
-0:05:31.560,0:05:35.970
-Hier haben wir eine Region.
+0:00:57.100,0:01:04.640
+Wir betrachten also dieses Zustandsdiagramm.
 
-0:05:35.970,0:05:45.639
-Wenn wir D betreten, betreten wir auch den
-anderen parallelen Teil.
+0:01:04.640,0:01:15.140
+Wir beginnen zunächst damit, die benötigten
+Zustände zu erzeugen, bevor wir die Beziehungen
 
-0:05:45.639,0:05:50.680
-Wenn wir D betreten, müssen wir auch in dem
-linken Teil etwas betreten.
+0:01:15.140,0:01:16.140
+eintragen.
 
-0:05:50.680,0:05:53.770
-Wir müssen hier also auch den Startzustand
-betrachten.
+0:01:16.140,0:01:31.610
+Beginnen wir mit der linken Seite, wo wir
+tatsächlich einen zusammengesetzten Zustand
 
-0:05:53.770,0:06:03.880
-Wir betreten hier A. der Zustand wäre hier
-also (D,A).
+0:01:31.610,0:01:33.890
+mit einer Region haben.
 
-0:06:03.880,0:06:05.780
-Wir könnten auch (A,D) schreiben.
+0:01:33.890,0:01:42.070
+Hier müssen wir beachten, dass alle Kombinationen
+der Zustände hier möglich sind.
 
-0:06:05.780,0:06:07.980
-In dem Fall ist die Reihenfolge egal.
+0:01:42.070,0:01:46.130
+Wir müssen also das Kreuzprodukt zwischen
+den Regionen bilden.
 
-0:06:07.980,0:06:15.770
-Das ist der zusammengesetzte Zustand, den
-wir erreichen.
+0:01:46.130,0:01:53.329
+Das sind dementsprechend auch die Zustände,
+die wir haben können.
 
-0:06:15.770,0:06:21.150
-In der Aufgabe steht als Hinweis, dass es
-beispielsweise so aufgeschrieben werden kann.
+0:01:53.329,0:02:01.390
+Das heißt, wir haben einerseits Zustand A
+und C.
 
-0:06:21.150,0:06:24.150
-(A,D) wäre auch valide.
+0:02:01.390,0:02:17.010
+Dann haben wir Zustand A und D. das wären
+diese.
 
-0:06:24.150,0:06:35.930
-Wir sind im zusammengesetzten Zustand (D,A) und
-es folgt der Trigger B. wir können von A
+0:02:17.010,0:02:20.610
+Dann haben wir noch B und C, und B und D.
 
-0:06:35.930,0:06:44.979
-aus nur mit einem A Trigger in den Zustand
-B kommen und nur mit einem K Trigger aus dem
+0:02:20.610,0:02:25.430
+Das sind die Zustände, die wir hier betrachten
+müssen.
 
-0:06:44.979,0:06:46.990
-gesamten Zustand rauskommen.
+0:02:25.430,0:02:28.180
+Entschuldigung.
 
-0:06:46.990,0:06:58.639
-Wie gesagt haben wir hier ein B. von D aus
-gibt es diese Kante hier mit B. Diese ist
+0:02:28.180,0:02:50.900
+Es war B und C sowie B und D. Dann haben wir
+hier einen Zustand, der kein hierarchischer
 
-0:06:58.639,0:07:03.210
-auch relevant.
+0:02:50.900,0:02:53.739
+Zustand ist, und zwar Zustand E.
 
-0:07:03.210,0:07:19.419
-Wir bleiben also in A und verlassen nur D.
-wir landen also in (A,C).
+0:02:53.739,0:02:59.770
+Den können wir behalten und müssen nichts
+transformieren.
 
-0:07:19.419,0:07:29.070
-Dann sind wir hier im letzten Zustand angekommen
-und haben alle Trigger durchlaufen.
+0:02:59.770,0:03:13.480
+Wir haben dann die Zustände F und G, die
+hier in einem zusammengesetzten Zustand sind.
 
-0:07:29.070,0:07:33.860
-Wir können uns also Teil D der Aufgabe anschauen.
+0:03:13.480,0:03:18.750
+Der Zustand enthält aber keine Region.
 
-0:07:33.860,0:07:40.520
-Wir beginnen wieder über die Startknoten
-hier in F.
+0:03:18.750,0:03:24.379
+Wir können hier also die Zustandsnamen behalten.
 
-0:07:40.520,0:07:43.889
-Das bleibt erhalten.
+0:03:24.379,0:03:27.010
+Es gibt auch keine Namen-Mismatches.
 
-0:07:43.889,0:07:47.530
-Wir beginnen in F und dann folgt der Trigger
+0:03:27.010,0:03:32.450
+Wir können einfach Zustände F und G übernehmen.
+
+0:03:32.450,0:03:46.930
+Das sind die Zustände, die wir betrachten
+müssen.
+
+0:03:46.930,0:03:56.140
+Jetzt geht es um das Darstellen der Übergänge
+zwischen diesen Zuständen.
+
+0:03:56.140,0:04:03.340
+Dafür müssen wir die Übergänge aus dem
+ursprünglichen Diagramm betrachten.
+
+0:04:03.340,0:04:08.700
+Ich beginne hier wieder mit dem Zustand, der
+die Regionen enthält.
+
+0:04:08.700,0:04:19.109
+Wir müssen Kanten von A nach B mit Trigger
+A eintragen sowie von B nach A mit Trigger
+
+0:04:19.109,0:04:20.109
 A.
 
-0:07:47.530,0:07:55.790
-Wir haben hier wieder nur die Option, diese
-Kante überhaupt zu wählen, das ist auch
+0:04:20.109,0:04:22.590
+Das ist in dem ursprünglichen Diagramm.
 
-0:07:55.790,0:07:57.730
-der vorhandene Trigger.
+0:04:22.590,0:04:25.160
+Das bedeutet folgendes.
 
-0:07:57.730,0:08:10.580
-Wir gehen also über A nach G. Von G aus haben
-wir die Möglichkeit, über A oder H zu gehen.
+0:04:25.160,0:04:41.560
+Alle Zustände, die ein A enthalten und einen
+der Zustände auf der anderen Seite und der
 
-0:08:10.580,0:08:15.530
-Der Trigger, der hier in der Aufgabe steht,
-ist H.
+0:04:41.560,0:04:45.960
+Zustand, der ein B enthält und denselben
+Zustand auf der Seite sind die, zwischen den
 
-0:08:15.530,0:08:18.860
-Wir landen also in E.
+0:04:45.960,0:04:51.509
+beiden eine A Kante hinzugefügt werden muss.
 
-0:08:18.860,0:08:30.569
-Von E aus haben wir wieder die Möglichkeit,
-über diese oder diese Kante zu gehen.
+0:04:51.509,0:05:01.310
+Von AC können wir hier nach BC wechseln,
+mittels einer solchen A Kante.
 
-0:08:30.569,0:08:37.110
-Dabei haben wir den H oder den K Trigger,
-die uns wegführen.
+0:05:01.310,0:05:21.139
+Von BC geht es nach AC. Genauso können wir
+von AD nach BD und von BD nach AD wechseln.
 
-0:08:37.110,0:08:40.229
-In der Aufgabe ist es der H Trigger.
+0:05:21.139,0:05:24.410
+Das trage ich jetzt hier ein.
 
-0:08:40.229,0:08:50.060
-Wir nehmen also diese Kante hier und landen
-in D.
+0:05:24.410,0:05:34.930
+Wir können also von AC nach BC wechseln und
+umgekehrt.
 
-0:08:50.060,0:08:55.390
-Wenn wir hier in D landen, betreten wir wieder
-den zusammengesetzten Zustand.
+0:05:34.930,0:05:53.680
+Von AC nach BC und von BC nach AC geht es.
 
-0:08:55.390,0:09:00.690
-Dann muss auch in diesem linken Teil ein Zustand
-aktiviert werden.
+0:05:53.680,0:06:01.530
+Das ist ein A, was wir jeweils da dran geschrieben
+haben.
 
-0:09:00.690,0:09:06.810
-Es gilt wieder, den Startzustand zu suchen.
+0:06:01.530,0:06:07.650
+Dieselben Kanten existieren wie gesagt zwischen
+AD und BD.
 
-0:09:06.810,0:09:11.670
-Wir landen in (A,D).
+0:06:07.650,0:06:18.280
+Hier haben wir also auch diese Kanten, die
+diese Zustände verbinden, die wieder mit
 
-0:09:11.670,0:09:21.269
-Von (A,D) ausgehend wird hier jetzt A getriggert.
+0:06:18.280,0:06:22.330
+einem A bezeichnet sind.
 
-0:09:21.269,0:09:30.623
-Als ausgehende Kanten aus dem gemeinsamen
-Zustand haben wir hier jetzt diese Kante.
+0:06:22.330,0:06:26.140
+Wir haben die B Kanten.
 
-0:09:30.623,0:09:35.300
-Wir hätten die Möglichkeit, mit dieser Kante
-und mit dieser Kante einen Zustand zu ändern.
+0:06:26.140,0:06:33.349
+Das ist der Wechsel zwischen den Zuständen,
+wo sich C und D austauscht.
 
-0:09:35.300,0:09:43.160
-Das sind die Trigger K, B und A.
+0:06:33.349,0:06:37.699
+Der Zustand auf der anderen Seite bleibt aber
+derselbe.
 
-0:09:43.160,0:09:45.610
-In der Aufgabe haben wir wie gesagt A.
+0:06:37.699,0:06:47.449
+Wir können also von Zustand AC in den Zustand
+AD wechseln und umgekehrt, da diese Rückkante
 
-0:09:45.610,0:09:53.670
-Das heißt, das ist die letzte Kante, die
-wir wählen müssen.
+0:06:47.449,0:06:50.569
+existiert.
 
-0:09:53.670,0:09:57.570
-Damit landen wir im Zustand B.
+0:06:50.569,0:06:54.460
+Genauso können wir von BC in BD wechseln.
 
-0:09:57.570,0:10:00.200
-Der D Zustand bleibt erhalten.
+0:06:54.460,0:07:13.580
+Wir haben hier also auch diese Kanten von
+AC nach AD und von BD nach BC sowie von BC
 
-0:10:00.200,0:10:15.900
-Wir landen hier also in (B,D). Also in dem
-gemeinsamen Zustand B und D.
+0:07:13.580,0:07:14.669
+nach BD.
 
-0:10:15.900,0:10:25.190
-Es folgt der nächste Trigger B. Aus B und
-D haben wir wieder diese Kante, die wir nehmen
+0:07:14.669,0:07:23.880
+Dieses Mal sind natürlich alle mit einem
+B statt einem A gelabelt.
 
-0:10:25.190,0:10:26.190
-können.
+0:07:23.880,0:07:39.740
+Das sind
+die Kanten hier.
 
-0:10:26.190,0:10:34.589
-Diesmal ist es die umgekehrte Kante im ersten
-Teil des zusammengesetzten Zustands.
+0:07:39.740,0:07:44.240
+Vielleicht markiere ich das doch hier im ursprünglichen
+Diagramm.
 
-0:10:34.589,0:10:42.380
-Das wäre aber eine A Kante, die mit A Trigger
-genommen werden kann.
+0:07:44.240,0:07:56.620
+Wir haben diese Zustände schon abgearbeitet.
 
-0:10:42.380,0:10:46.560
-Wir haben hier aber ein B, also fällt diese
-Kante auch weg.
+0:07:56.620,0:08:16.230
+Wir hatten die Kombination aus AC und aus
+AD und die Kombination aus BC und aus BD.
 
-0:10:46.560,0:10:49.800
-Es bleibt also nur diese übrig.
+0:08:16.230,0:08:23.150
+Die haben wir hier als Zustände für den
+zusammengesetzten Zustand eingetragen.
 
-0:10:49.800,0:10:52.690
-Das ist auch eine mit B getriggerte.
+0:08:23.150,0:08:32.200
+Wir haben die A Kanten, die zwischen diesen
+zusammengesetzten Zuständen existieren können
 
-0:10:52.690,0:10:54.600
-Diese verwenden wir.
+0:08:32.200,0:08:37.060
+schon erledigt, wie auch die B Kanten.
 
-0:10:54.600,0:11:03.190
-Damit landen wir im Zustand (B,C).
+0:08:37.060,0:08:40.709
+Jetzt können wir die anderen Kanten betrachten.
 
-0:11:03.190,0:11:20.800
-Wenn wir in diesem Zustand (B,C) sind, folgt
-hier der letzte Trigger in der Sequenz.
+0:08:40.709,0:08:54.110
+Wir können diese Kante hier betrachten, die
+von E nach D geht.
 
-0:11:20.800,0:11:22.440
-Der ist K.
+0:08:54.110,0:09:02.079
+Wenn wir D betreten, müssen wir gleichzeitig
+einen Zustand auf der anderen Seite betreten,
 
-0:11:22.440,0:11:29.580
-Wir hätten hier wieder die Kanten, umgekehrt
-von der B Kante.
+0:09:02.079,0:09:06.170
+was hier über den Startzustand A ist.
 
-0:11:29.580,0:11:34.480
-Es ist die A Kante über A und den B Trigger.
+0:09:06.170,0:09:16.339
+Diese Kante muss zum zusammengesetzten Zustand
+AD führen.
 
-0:11:34.480,0:11:41.209
-Die K Kante ist es jetzt, weshalb die anderen
-beiden rausfallen.
+0:09:16.339,0:09:27.220
+Wir tragen hier in unserem Diagramm also eine
+Kante
 
-0:11:41.209,0:11:52.390
-Wir wechseln hier drüben den Zustand über
-diese Kante.
+0:09:27.220,0:09:34.100
+von E nach AD ein.
 
-0:11:52.390,0:11:57.310
-Das ist ein zusammengesetzter Zustand.
+0:09:34.100,0:09:39.460
+Das ist diese H Kante.
 
-0:11:57.310,0:12:03.029
-Wir müssen also schauen, welchen Zustand
-wir hier betreten.
+0:09:39.460,0:09:47.030
+Da gibt es nur diese eine, da dieser konkrete
+Zustand hier benannt ist.
 
-0:12:03.029,0:12:06.420
-Dafür müssen wir den inneren Startzustand
-betrachten.
+0:09:47.030,0:09:50.660
+Diese Kante haben wir jetzt also auch erledigt.
 
-0:12:06.420,0:12:12.890
-Das ist F. das heißt, wir wechseln in F.
+0:09:50.660,0:10:06.350
+Wir verfahren weiter simpel und gehen mit
+dieser anderen H Kante hier um, die vom Zustand
 
-0:12:12.890,0:12:19.300
-Das ist der letzte Zustand, den wir erreichen.
+0:10:06.350,0:10:09.149
+G zum Zustand E geht.
 
-0:12:19.300,0:12:25.069
-Damit ist die Sequenz abgearbeitet und die
-Aufgabe gelöst.
+0:10:09.149,0:10:12.020
+Das ist auch wieder relativ simpel.
+
+0:10:12.020,0:10:20.950
+Hier ist nichts weiter kompliziertes zu betrachten.
+
+0:10:20.950,0:10:28.320
+Wir gehen direkt von G in E und das bleibt
+in unserem Diagramm auch so.
+
+0:10:28.320,0:10:36.630
+Versehentlich habe ich hier gescrollt.
+
+0:10:36.630,0:10:51.769
+Wir wechseln hier also von G direkt zu E mit
+H. Damit ist auch diese Kante erledigt.
+
+0:10:51.769,0:10:55.940
+Es ist weiter simpel.
+
+0:10:55.940,0:11:01.950
+Wir haben hier auch A Kanten zwischen G und
+F.
+
+0:11:01.950,0:11:24.279
+Das ist von G nach F und von F nach G. Auch
+hier
+
+0:11:24.279,0:11:25.930
+bleibt alles gleich.
+
+0:11:25.930,0:11:36.279
+Es ist nichts weiter zu betrachten, da diese
+Übergänge hier lokal sind und sich durch
+
+0:11:36.279,0:11:38.660
+das Flachklopfen nichts ändert.
+
+0:11:38.660,0:11:47.550
+Wir haben hier die K Kante, die wir betrachten
+müssen.
+
+0:11:47.550,0:11:55.920
+Die geht von E zu diesem zusammengesetzten
+Zustand.
+
+0:11:55.920,0:11:59.530
+Dabei muss auch hier ein konkreter aktiv werden.
+
+0:11:59.530,0:12:04.530
+Das passiert hier über den Startzustand.
+
+0:12:04.530,0:12:29.300
+Unsere K Kante geht also von E nach F. So
+tragen wir die hier auch
+
+0:12:29.300,0:12:35.540
+in unserem Zustandsdiagramm, das flachgeklopft
+ist, ein.
+
+0:12:35.540,0:12:39.990
+Das ist die K Kante.
+
+0:12:39.990,0:12:54.290
+Dann haben wir noch diese K Kante, nachdem
+wir diese K Kante erledigt haben, übrig.
+
+0:12:54.290,0:13:16.589
+Für diese müssen wir betrachten, dass wir
+aus diesem zusammengesetzten Zustand in diesen
+
+0:13:16.589,0:13:18.630
+zusammengesetzten Zustand kommen.
+
+0:13:18.630,0:13:24.010
+Hier gilt wieder, dass wir den Startzustand
+betrachten müssen.
+
+0:13:24.010,0:13:28.089
+Wir kommen hier also zum Zustand F.
+
+0:13:28.089,0:13:36.410
+Wir müssen also von jedem Zustand auf der
+linken Seite eine Kante nach F zeichnen.
+
+0:13:36.410,0:13:54.889
+Es geht von A nach F, von C nach F, von B
+nach F und von D nach F.
+
+0:13:54.889,0:14:26.290
+Wir zeichnen hier oben also diese Kanten ein.
+
+0:14:26.290,0:14:40.790
+Von AD nach F, dasselbe auch von AC.
+
+0:14:40.790,0:14:48.940
+Diese Kante ist doppelt, die habe ich bereits
+eingezeichnet.
+
+0:14:48.940,0:15:00.399
+Es geht also von AD nach F, von AC nach F,
+von BD nach F.
+
+0:15:00.399,0:15:05.980
+Diese führe ich hier außen lang.
+
+0:15:05.980,0:15:29.580
+Und es geht auch von BC nach F.
+
+0:15:29.580,0:15:38.829
+Diese müssen natürlich beschriftet werden.
+
+0:15:38.829,0:15:40.709
+Das sind alles K Kanten.
+
+0:15:40.709,0:15:52.411
+Davon haben wir jetzt wie gesagt vier Stück
+von AD nach F, von AC nach F, von BD nach
+
+0:15:52.411,0:16:01.779
+F und von BC nach F.
+
+0:16:01.779,0:16:10.089
+Dann haben wir diese Kante damit erledigt.
+
+0:16:10.089,0:16:17.720
+Hier sind wir aber noch nicht fertig, da noch
+unser Startknoten fehlt.
+
+0:16:17.720,0:16:23.760
+Der muss noch eingezeichnet werden, da es
+irgendwo losgehen muss.
+
+0:16:23.760,0:16:32.790
+Dafür müssen wir diesen Startknoten hier
+betrachten sowie wo er hinführt.
+
+0:16:32.790,0:16:47.640
+Diesen Startknoten meinte ich.
+
+0:16:47.640,0:16:55.240
+Den füge ich jetzt noch hier hinzu.
+
+0:16:55.240,0:17:00.790
+Der zeigt hier tatsächlich auf den zusammengesetzten
+Zustand von F und G.
+
+0:17:00.790,0:17:07.339
+Hier gilt zu betrachten, dass hier wieder
+ein innerer Startzustand ist.
+
+0:17:07.339,0:17:08.339
+Das ist F.
+
+0:17:08.339,0:17:13.549
+Unser Startknoten muss hier also auch auf
+F zeigen.
+
+0:17:13.549,0:17:24.850
+Wir haben hier also noch den Startknoten mit
+drin.
+
+0:17:24.850,0:17:31.010
+Damit ist unser Diagramm fertig.
+
+0:17:31.010,0:17:40.530
+Wir können nochmal in das originale Zustandsdiagramm
+gucken, das nicht zusammengeklopft ist.
+
+0:17:40.530,0:17:43.049
+Wir haben diesen Startzustand erledigt.
+
+0:17:43.049,0:17:49.080
+Wir haben noch die anderen Startzustände,
+die wir jeweils betrachten mussten.
+
+0:17:49.080,0:17:55.890
+Diesen Startzustand mussten wir immer betrachten,
+wenn wir Kanten hatten, die von außen auf
+
+0:17:55.890,0:17:57.330
+den Zustand reingingen.
+
+0:17:57.330,0:18:00.790
+Das heißt, das war immer bei diesen der Fall.
+
+0:18:00.790,0:18:03.740
+Diese Kanten haben wir alle schon betrachtet.
+
+0:18:03.740,0:18:09.710
+Wir haben das also schon berücksichtigt.
+
+0:18:09.710,0:18:17.330
+Diese Startzustände mussten wir immer berücksichtigen,
+wenn wir Kanten hatten, die auf den Gesamtzustand
+
+0:18:17.330,0:18:18.330
+gekommen sind.
+
+0:18:18.330,0:18:19.330
+Davon gab es keine.
+
+0:18:19.330,0:18:25.450
+Es gab aber eine Kante direkt in einen Zustand.
+
+0:18:25.450,0:18:27.840
+Das ist diese hier.
+
+0:18:27.840,0:18:36.730
+Da wir eine Region haben, muss im anderen
+Teil der Region der Startzustand berücksichtigt
+
+0:18:36.730,0:18:37.730
+werden.
+
+0:18:37.730,0:18:38.730
+Das haben wir gemacht.
+
+0:18:38.730,0:18:40.380
+Daher mussten wir diesen berücksichtigen.
+
+0:18:40.380,0:18:47.230
+Dieser Startzustand aber wird nie verwendet, da
+wir keinen Zugang in die andere Region hier
+
+0:18:47.230,0:18:54.280
+haben und auch keinen Pfeil auf den äußeren
+Zustand haben.
+
+0:18:54.280,0:18:57.270
+Das ist also auch betrachtet.
+
+0:18:57.270,0:19:03.430
+Damit haben wir das ganze UML-Zustandsdiagramm
+betrachtet und flachgeklopft und die Aufgabe
+
+0:19:03.430,0:19:04.330
+ist erledigt.
