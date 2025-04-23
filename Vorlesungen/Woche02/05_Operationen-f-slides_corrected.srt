@@ -559,7 +559,7 @@ was only in play for the natural numbers.
 
 00:09:14,970 --> 00:09:19,020
 As soon as I have now
-introduced, for example, this extra quantity,
+introduced, for example, this extra set,
 
 00:09:19,020 --> 00:09:23,670
 in order to be able to deal with the
@@ -722,7 +722,7 @@ by twenty.
 
 00:12:02,010 --> 00:12:05,910
 Whether dividing by an integer or
-not, at least a result comes out.
+not, at least a result is returned.
 
 00:12:05,910 --> 00:12:08,940
 Whereas with this expression, if
@@ -743,8 +743,8 @@ that this expression is not
 safe even without calculating it out.
 
 00:12:22,920 --> 00:12:28,440
-If you don't have a value from N+
-standing here with certainty, you could use the information,
+Because you don't have a value from N+
+standing here, you could use the information,
 
 00:12:28,440 --> 00:12:30,030
 with this refinement
@@ -790,7 +790,7 @@ In general, I might have an expression
 that depends on variables in the program.
 
 00:13:10,270 --> 00:13:11,620
-Then I couldn't anymore say:
+Then I couldn't say anymore:
 
 00:13:11,620 --> 00:13:15,400
 I'll calculate this for a test to
@@ -1256,10 +1256,10 @@ So (-1,0) would be the first point here, x-axis
 -1, y-axis 0, and the next point would be here.
 
 00:21:35,350 --> 00:21:36,940
-So behind the point, point,
+So behind the dot, dot, dot,
 
 00:21:36,940 --> 00:21:41,140
-point would be hiding other
+there would be other
 such pairs, for example (1,2).
 
 00:21:42,160 --> 00:21:46,060
@@ -1300,7 +1300,7 @@ would be a string, a text.
 
 00:22:17,020 --> 00:22:21,160
 And the result would be
-an image representing that text.
+a picture representing that text.
 
 00:22:21,160 --> 00:22:23,530
 So, for example, print("ABC").
@@ -1315,7 +1315,7 @@ the programming language you currently learn).
 
 00:22:33,550 --> 00:22:38,530
 And then the result here will be
-an image that contains exactly the text ABC.
+a picture that contains exactly the text ABC.
 
 00:22:41,800 --> 00:22:44,110
 So, we could do a
@@ -1378,7 +1378,7 @@ larger, there is another operation for
 that, which can enlarge any image.
 
 00:23:42,970 --> 00:23:46,030
-Also including images created by "print".
+Also including images created using "print".
 
 00:23:46,030 --> 00:23:52,480
 If we decide this way, it
@@ -1472,7 +1472,7 @@ That's just a new set
 that would be defined somewhere.
 
 00:25:23,530 --> 00:25:26,380
-And the result would be an image again.
+And the result would be a picture again.
 
 00:25:26,380 --> 00:25:28,240
 And then we could say, for example:
@@ -1863,7 +1863,7 @@ than two pictures by simply writing: this
 
 00:31:51,720 --> 00:32:01,890
 picture, operation symbol, next picture,
-operation symbol, next picture again, etc.?
+operation symbol, next picture again, etc.
 
 00:32:01,890 --> 00:32:05,970
 For the Komedia students, for
@@ -1938,7 +1938,7 @@ For example, it makes no sense for the
 
 00:33:17,830 --> 00:33:22,900
 operation introduced by me to
-write something like "circle-of-circle-3" here.
+write something like "circle(circle(3))" here.
 
 00:33:22,900 --> 00:33:25,330
 So, "circle(3)" is
@@ -1968,7 +1968,7 @@ is not a number, but an image.
 
 00:33:56,050 --> 00:34:00,040
 Because 3 is a
-number, "circle-of-3" is then a
+number, "circle(3)" is then a
 
 00:34:00,040 --> 00:34:03,550
 picture, and I can't put a
@@ -2028,8 +2028,8 @@ a string like text, which
 is then converted to an image.
 
 00:34:58,950 --> 00:35:02,010
-I can't pass "print"
-an already finished image.
+I can't pass a completed picture
+to "print".
 
 00:35:02,010 --> 00:35:03,930
 Then "print" would not
@@ -2060,7 +2060,7 @@ to be interpreted as an image.
 
 00:35:27,780 --> 00:35:31,530
 For the same reasons, something
-like "print-from-3" would not be okay,
+like "print(3)" would not be okay,
 
 00:35:31,530 --> 00:35:32,880
 at least in my interpretation.
@@ -2085,7 +2085,7 @@ things, respectively
 named them differently.
 
 00:35:55,320 --> 00:36:01,050
-That is, "print-from-3" would not be a
+That is, "print(3)" would not be a
 valid expression here in my example domain
 
 00:36:01,050 --> 00:36:05,280
@@ -2183,7 +2183,7 @@ Here in front, there should be an image,
 and the number 30 itself is not an image.
 
 00:37:33,670 --> 00:37:38,890
-You can print 30 with "print(30)", and then you
+You can print 30 with "print("30")", and then you
 would have an image that you could rotate.
 
 00:37:38,890 --> 00:37:45,520
