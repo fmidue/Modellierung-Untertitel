@@ -8,7 +8,7 @@ introduction to UML (in particular static
 
 00:00:12,060 --> 00:00:16,170
 modeling with UML)
-and object orientation.
+and introduce object orientation.
 
 00:00:17,370 --> 00:00:23,070
 Before that, a few words about
@@ -79,7 +79,7 @@ It is also now over 20 years
 old and has spread accordingly since then.
 
 00:01:38,010 --> 00:01:41,640
-Usage you will certainly see (for
+You will certainly see it used (for
 some of the types of diagrams
 
 00:01:41,640 --> 00:01:43,380
@@ -95,14 +95,14 @@ example, or in the
 
 00:01:51,930 --> 00:01:56,910
 Software Engineering lecture, you will certainly
-encounter some of the things again.
+encounter some of these things again.
 
 00:01:56,910 --> 00:02:03,090
 Both static and dynamic
-modeling is supported by UML.
+modeling are supported by UML.
 
 00:02:03,090 --> 00:02:07,320
-We also see here already
+We also see here
 that graphs play a role.
 
 00:02:08,040 --> 00:02:14,820
@@ -131,7 +131,7 @@ there is less mathematical modeling in UML.
 
 00:02:41,130 --> 00:02:46,740
 Both static and
-dynamic modeling is supported.
+dynamic modeling are supported.
 
 00:02:46,740 --> 00:02:51,585
 In the lecture we will first
@@ -149,15 +149,15 @@ covered Petri nets in between.
 In other respects:
 
 00:03:04,980 --> 00:03:09,720
-We had seen so
-different distinction types of models.
+We had seen various
+types of distinctions for models.
 
 00:03:09,720 --> 00:03:12,030
 So besides "static" / "dynamic",
 it was about "qualitative" or "quantitative".
 
 00:03:12,030 --> 00:03:15,480
-This is both covered in UML.
+Both are covered in UML.
 
 00:03:15,480 --> 00:03:18,930
 So for example, the class and
@@ -175,12 +175,12 @@ used to specify software systems, especially
 object-oriented software systems.
 
 00:03:35,850 --> 00:03:40,410
-With regard to the
-transparency of the models,
+With regard to the transparency
+of the models, so to speak,
 
 00:03:40,410 --> 00:03:45,930
-so to speak, there are both
-whitebox and blackbox models in UML.
+there are both whitebox
+and blackbox models in UML.
 
 00:03:45,930 --> 00:03:47,880
 So it depends on the type
@@ -191,7 +191,7 @@ you think of it more
 as a whitebox or a blackbox.
 
 00:03:50,370 --> 00:03:53,010
-That's both covered in principle.
+Both are covered in principle.
 
 00:03:57,360 --> 00:03:57,857
 In terms of the level
@@ -267,10 +267,9 @@ procedural processes, and then UML
 would perhaps be even more present.
 
 00:05:25,510 --> 00:05:29,140
-UML can be used not
+UML can be used not only for
 
 00:05:29,140 --> 00:05:32,800
-only for
 visualization/specification of models.
 
 00:05:32,800 --> 00:05:40,240
@@ -279,7 +278,7 @@ code directly from models created with UML.
 
 00:05:40,240 --> 00:05:44,260
 I had already
-mentioned model-driven/model-driven development.
+mentioned model-driven development.
 
 00:05:44,260 --> 00:05:48,100
 Then it would be the case that
@@ -294,8 +293,8 @@ supplemented, but already provides
 a framework for the implementation).
 
 00:05:52,480 --> 00:05:58,660
-And then, of course, the role of
-models would again be strengthened against other approaches.
+And that would, of course, strengthen the role of
+models compared to other approaches.
 
 00:06:04,030 --> 00:06:09,970
 Here is an overview, schematically,
@@ -326,8 +325,8 @@ through all of the 10, 12,
 14, or however many boxes this is.
 
 00:06:34,090 --> 00:06:37,510
-But various of the
-chart types we'll actually see.
+But several of the
+diagram types we'll actually see.
 
 00:06:37,510 --> 00:06:38,754
 We can look at. What do we have here?
@@ -348,7 +347,7 @@ is for dynamic modeling using UML.
 
 00:06:52,570 --> 00:06:57,460
 So since we're doing static modeling first,
-we're going to stay left here first.
+we're going to stay on the left side for now.
 
 00:06:57,460 --> 00:07:01,690
 And in particular, we're going to look
@@ -405,11 +404,11 @@ But there are still the
 distinctions qualitative/quantitative, black box/white box, etc.
 
 00:07:56,770 --> 00:07:58,840
-And something of all of
-them shows up here somewhere.
+And aspects of all of
+them appear here somewhere.
 
 00:07:58,840 --> 00:08:03,160
-So there are charts here that
+So there are diagrams here that
 are more qualitative versus quantitative, etc.
 
 00:08:03,160 --> 00:08:05,110
@@ -428,8 +427,8 @@ First, as I said, class and object
 diagrams, as just shown on the slide.
 
 00:08:24,950 --> 00:08:29,480
-The two on the left from
-the top representatives below structure diagrams.
+The two on the left among
+the top examples under structure diagrams.
 
 00:08:29,480 --> 00:08:34,070
 What's being statically modeled there?
@@ -444,7 +443,7 @@ properties, and relationships between them.
 
 00:08:41,621 --> 00:08:43,520
 So those are the three
-things that it's kind of about.
+things it's essentially about.
 
 00:08:43,520 --> 00:08:49,910
 What are the things/objects that are in
@@ -462,7 +461,7 @@ That can be different
 properties for different areas,
 
 00:08:58,640 --> 00:09:01,340
-which the appearing things must have.
+which the occurring things must have.
 
 00:09:01,340 --> 00:09:03,680
 And what are the
@@ -487,7 +486,7 @@ So, not necessarily what concrete values must
 be present at a point in time, but:
 
 00:09:20,810 --> 00:09:23,210
-How is the state organized.
+How is the state organized?
 
 00:09:23,210 --> 00:09:24,620
 What must be known
@@ -528,7 +527,7 @@ And that also limits
 how the system can develop.
 
 00:09:43,340 --> 00:09:48,380
-And docking to what we did last week:
+And linking back to what we did last week:
 
 00:09:48,380 --> 00:09:50,810
 What operations are offered?
@@ -565,12 +564,12 @@ start with static modeling.
 But, as we saw in last week's
 
 00:10:17,070 --> 00:10:20,910
-article, we can
+material, we can
 start with static modeling.
 
 00:10:20,910 --> 00:10:24,300
 What are the objects
-involved in the first place.
+involved in the first place?
 
 00:10:24,300 --> 00:10:27,450
 So, how is the
@@ -600,7 +599,7 @@ And, this will not be in
 the foreground in this lecture, but:
 
 00:10:49,350 --> 00:10:55,350
-Such a static modeling also allows
+Such a static model also allows
 the application of certain design principles.
 
 00:10:55,350 --> 00:11:01,860
@@ -609,14 +608,14 @@ of modeling is done with
 
 00:11:01,860 --> 00:11:07,650
 object orientation, then there are certain
-principles what a good object-oriented design is.
+principles about what constitutes good object-oriented design.
 
 00:11:07,650 --> 00:11:09,720
 And if you use the UML language, then
 
 00:11:09,720 --> 00:11:12,600
 these principles are very easy to apply,
-so they are also easy to recognize.
+and also easy to recognize.
 
 00:11:12,600 --> 00:11:14,730
 So there are
@@ -669,7 +668,7 @@ What is a good or a bad model?
 
 00:12:00,530 --> 00:12:05,780
 If one commits oneself then
-to a certain model language.
+to a certain modeling language.
 
 00:12:12,320 --> 00:12:13,970
 What is this
@@ -740,7 +739,7 @@ together with the functionality
 
 00:13:16,010 --> 00:13:21,110
 that operates on this data, is
-organized together, summarized together (this is
+organized together, combined together (this is
 
 00:13:21,110 --> 00:13:24,890
 also called encapsulation), and assigned
@@ -750,7 +749,7 @@ to individual objects in each case.
 So an object summarizes: certain data
 
 00:13:28,100 --> 00:13:32,390
-and methods/operation that
+and methods/operations that
 should operate on it.
 
 00:13:32,390 --> 00:13:40,340
@@ -872,11 +871,11 @@ We first draw a
 rectangle with certain dimensions.
 
 00:15:47,860 --> 00:15:50,530
-That would be our picture 1, Picture 1.
+That would be our picture 1, Picture p1.
 
 00:15:50,530 --> 00:15:54,070
 Then we color that red,
-so we have another Picture.
+so we have another Picture p2.
 
 00:15:54,070 --> 00:15:58,360
 So now a red
@@ -942,7 +941,7 @@ you work on that directly.
 
 00:17:01,840 --> 00:17:05,920
 So in an object-oriented way, you would say
-here, the image is summarized with its operations.
+here, the image is combined with its operations.
 
 00:17:05,920 --> 00:17:12,700
 So there is an image p, which is created
@@ -975,12 +974,12 @@ Now move this image
 to the following coordinates.
 
 00:17:37,210 --> 00:17:39,430
-That is, in contrast to here
-above one does not have several pictures,
+That is, in contrast to the approach above,
+one does not have several pictures,
 
 00:17:39,430 --> 00:17:44,650
 which are built up gradually and then
-also still separately from each other further exist.
+also still separately exist from each other.
 
 00:17:44,650 --> 00:17:49,780
 So here above you would have p1, p2, p3,
@@ -991,7 +990,7 @@ While here one simply says:
 
 00:17:51,430 --> 00:17:54,400
 On the one image
-p perform these operations.
+p, perform these operations.
 
 00:17:54,940 --> 00:17:57,940
 So you don't always have, as here
@@ -1043,7 +1042,7 @@ If you add numbers, the
 old numbers do not disappear.
 
 00:18:54,400 --> 00:18:59,040
-Yes, the situation up here is more
+Yes, the situation above is more
 like how you work with arithmetic expressions.
 
 00:18:59,040 --> 00:19:00,220
@@ -1065,7 +1064,7 @@ Just like here:
 
 00:19:09,730 --> 00:19:14,110
 When I end up with the
-red, twisted, shifted rectangle, it's not
+red, rotated, shifted rectangle, it's not
 
 00:19:14,110 --> 00:19:16,930
 that the original rectangle
@@ -1073,7 +1072,7 @@ has disappeared as a result.
 
 00:19:16,930 --> 00:19:22,600
 Here below, however, the original rectangle
-is overwritten with, then at the end,
+is overwritten, ending up as
 
 00:19:23,980 --> 00:19:28,960
 the final rectangle with
@@ -1158,7 +1157,7 @@ I do it on an image.
 
 00:20:55,980 --> 00:21:02,391
 And the result, the colored picture,
-is what comes out after the operation.
+is what the image becomes after the operation.
 
 00:21:02,391 --> 00:21:07,140
 So the picture on which I
@@ -1218,14 +1217,14 @@ not supposed to change an object, but
 
 00:22:09,700 --> 00:22:11,830
 are simply supposed to
-perform a calculation somehow.
+perform some calculation.
 
 00:22:11,830 --> 00:22:15,190
 So let's imagine that there
 is another operation that simply determines
 
 00:22:15,190 --> 00:22:20,710
-the dimension, the size, the diameter
+the dimensions, the size, the diameter
 or something like that for an image.
 
 00:22:20,710 --> 00:22:24,100
@@ -1321,7 +1320,7 @@ when you specify diagrams that you
 really stick to the UML notation.
 
 00:24:21,100 --> 00:24:22,225
-Why do you do object orientation?
+Why use object orientation?
 
 00:24:22,225 --> 00:24:23,950
 Where is it used in practice?
@@ -1346,7 +1345,7 @@ in more detail from
 a modeling point of view),
 
 00:24:41,170 --> 00:24:46,750
-it will be possible
+it becomes possible
 to reuse functionality once developed
 
 00:24:46,750 --> 00:24:49,630
@@ -1408,15 +1407,15 @@ the ability to call
 
 00:25:48,320 --> 00:25:52,580
 methods between objects, provides
-a good structuring means for
+a good structuring mechanism for
 
 00:25:52,580 --> 00:25:57,920
 communication in such a
 multitasking or concurrent environment.
 
 00:25:57,920 --> 00:26:02,030
-That's why, among other things,
-people like to use that.
+That's why, among other reasons,
+people like to use it.
 
 00:26:05,930 --> 00:26:08,837
 And, of course, the original motivation:
@@ -1440,11 +1439,11 @@ way, but definitely a prominent one.
 Again, a very naive example, just to
 
 00:26:37,940 --> 00:26:42,440
-put this last point a bit stronger.
+emphasize this last point a bit more.
 
 00:26:42,440 --> 00:26:46,310
 So yes, here would be a real
-world thing like that: a ticket machine.
+world thing: a ticket machine.
 
 00:26:46,310 --> 00:26:49,700
 You can also see that this
@@ -1463,8 +1462,8 @@ So a ticket vending machine, of
 course it has data to store:
 
 00:27:03,080 --> 00:27:06,549
-Destinations, zoning, travel
-cost tables, etc.
+Destinations, zoning, fare
+tables, etc.
 
 00:27:06,549 --> 00:27:07,430
 That would be the data.
@@ -1481,7 +1480,7 @@ display prices, insert coins.
 There is a cash register that is managed.
 
 00:27:15,260 --> 00:27:17,540
-There are tickets to be ejected.
+There are tickets to be dispensed.
 
 00:27:17,540 --> 00:27:19,550
 The idea is just that:
@@ -1534,7 +1533,7 @@ are object-oriented and do not contain classes.
 
 00:28:04,250 --> 00:28:06,590
 There each object is
-considered only individually for itself.
+considered only individually.
 
 00:28:06,590 --> 00:28:13,040
 But the standard languages, such as
@@ -1546,7 +1545,7 @@ class of all such automata.
 
 00:28:19,400 --> 00:28:21,140
 There this would
-be summarized generally: which
+be summarized generally: what
 
 00:28:21,140 --> 00:28:26,090
 kind of data they must administer and which
@@ -1565,8 +1564,8 @@ at all, from which
 this class then inherits properties.
 
 00:28:38,060 --> 00:28:41,270
-The class will simply
-group similar things together.
+The class simply
+groups similar things together.
 
 00:28:41,270 --> 00:28:46,490
 And then there are objects, which
@@ -1574,7 +1573,7 @@ are simply manifestations/instances of a class.
 
 00:28:46,490 --> 00:28:52,130
 So the specific ticket vending machine
-that was photographed on the pre-foil.
+that was photographed on the previous slide.
 
 00:28:52,130 --> 00:28:55,190
 That would be an object
