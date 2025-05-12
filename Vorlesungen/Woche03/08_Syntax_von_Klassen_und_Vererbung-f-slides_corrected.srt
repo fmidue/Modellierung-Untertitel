@@ -116,7 +116,7 @@ are already activities here.
 
 00:01:50,009 --> 00:01:57,810
 For example, one may move a point
-in x- and y-direction to any number differences.
+in x- and y-direction by certain numerical differences.
 
 00:01:57,810 --> 00:02:00,219
 Nevertheless, what is written
@@ -336,11 +336,11 @@ integer, and the default is zero.
 
 00:05:41,000 --> 00:05:46,880
 That would mean then that if in an object
-of this class to the x nothing is said,
+of this class nothing is specified for x,
 
 00:05:46,880 --> 00:05:53,420
-it would have simply
-already directly the value zero.
+it would simply
+already directly have the value zero.
 
 00:05:53,420 --> 00:05:57,880
 Now, of course, classes
@@ -789,7 +789,7 @@ superclass.
 
 00:13:54,630 --> 00:13:57,160
 That's where we
-talk about polymorphism/polymorphism.
+talk about polymorphism.
 
 00:13:57,160 --> 00:14:01,810
 In the sense that everything you can
