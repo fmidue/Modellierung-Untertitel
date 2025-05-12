@@ -35,7 +35,7 @@ that's why sometimes there are small deviations.
 
 00:00:48,900 --> 00:00:53,370
 For example, we're going to illustrate exactly
-the passage here a little bit differently.
+this part here a little bit differently.
 
 00:00:53,370 --> 00:00:57,150
 When we make class diagrams ourselves,
@@ -55,8 +55,8 @@ But as a first impression, you can
 just take a look at this class diagram.
 
 00:01:09,750 --> 00:01:13,260
-So here are kind
-of different classes represented.
+So here different classes
+are represented.
 
 00:01:13,260 --> 00:01:16,680
 Obviously, somehow a university
@@ -86,7 +86,7 @@ objects of those classes (the professor,
 
 00:01:38,130 --> 00:01:43,140
 concretely, or a concrete institute)
-will have manifestations of those attributes.
+will have instances of those attributes.
 
 00:01:43,140 --> 00:01:47,160
 And there are apparently some
@@ -120,7 +120,7 @@ And on the other hand, of course, to
 
 00:02:10,000 --> 00:02:14,890
 learn to set up models yourself with it
-(little by little, also via the exercise mode).
+(little by little, also via the exercise sessions).
 
 00:02:14,890 --> 00:02:27,310
 Okay, now what has to go into
@@ -245,7 +245,7 @@ and not with class and object diagrams.
 
 00:04:10,630 --> 00:04:13,120
 Some of these points already
-have appeal to dynamic modeling.
+allude to dynamic modeling.
 
 00:04:13,120 --> 00:04:15,250
 But already for this static modeling, if
@@ -325,7 +325,7 @@ and that was the English language book.
 
 00:05:32,950 --> 00:05:37,240
 We will discuss it a bit superficially
-here, and we will not fill in
+here, and we will not flesh out
 
 00:05:37,240 --> 00:05:42,160
 all the class diagram elements.
@@ -674,7 +674,7 @@ last name, speak for the fact that
 they are perhaps rather attributes of other classes.
 
 00:11:46,110 --> 00:11:50,820
-And there must not necessarily be an own
+And there doesn't necessarily need to be a separate
 class for the name or the phone number.
 
 00:11:52,950 --> 00:11:56,640
@@ -686,7 +686,7 @@ class diagram) to the Member class.
 
 00:12:08,800 --> 00:12:14,710
 The Clerk is of course an actor, but
-has here only the role to serve the system.
+here only has the role of operating the system.
 
 00:12:14,710 --> 00:12:18,280
 He would not himself
@@ -742,7 +742,7 @@ approach to first identify from free
 text what can be classes and attributes.
 
 00:13:27,880 --> 00:13:30,970
-The next step would be then to
+The next step would then be to
 derive between these classes, which one identified (the
 
 00:13:30,970 --> 00:13:37,270
@@ -750,8 +750,8 @@ system and the member term),
 any relations, in order to
 
 00:13:37,270 --> 00:13:40,090
-be able to hold in
-the class diagram also relations.
+be able to represent
+in the class diagram also relationships.
 
 00:13:40,090 --> 00:13:46,120
 To do that, we have to go
@@ -804,7 +804,7 @@ There are already some attributes in
 
 00:14:38,800 --> 00:14:43,480
 there that we indexed on
-the pre-slide as properties of members.
+the previous slide as properties of members.
 
 00:14:43,480 --> 00:14:47,065
 And then there could be
@@ -882,10 +882,10 @@ address, here maybe just a string, etc.
 
 00:15:55,135 --> 00:15:58,360
 That is not yet exactly
-fixed on this level of the
+determined on this level of the
 
 00:15:58,360 --> 00:16:03,730
-class diagram, but would be also
+class diagram, but would also be
 task of the class diagram designer.
 
 00:16:06,610 --> 00:16:08,110
@@ -998,7 +998,7 @@ that's supposed to mean in each case.
 But the point is:
 
 00:17:57,300 --> 00:18:05,340
-People have continued to refine the picture
+The picture has been further refined
 here to ultimately get closer to implementation.
 
 00:18:05,340 --> 00:18:11,400
@@ -1027,10 +1027,10 @@ with the book or with the member.
 
 00:18:34,230 --> 00:18:39,375
 While the reservation is something that should be
-explicitly represented as a class, because there is
+explicitly represented as a class, because additional
 
 00:18:39,375 --> 00:18:45,510
-still external information necessary, for example
+external information is necessary, for example,
 until when the book should remain reserved.
 
 00:18:51,600 --> 00:18:57,780
@@ -1038,7 +1038,7 @@ That as a first example
 with not much detailed information yet,
 
 00:18:57,780 --> 00:19:03,030
-but at least an impression how
+but at least an impression of what
 such a class diagram should look like.
 
 00:19:03,030 --> 00:19:10,710
