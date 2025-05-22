@@ -627,8 +627,8 @@ This is then the situation:
 A part belongs to exactly one whole,
 
 00:10:54,030 --> 00:10:58,680
-and this always, and cannot belong also
-temporarily for example times to no whole.
+and this is always like that, and cannot belong
+temporarily for example to no whole.
 
 00:10:58,680 --> 00:11:03,570
 We will discuss another
@@ -679,8 +679,8 @@ Then it would not matter
 what is at the ends here.
 
 00:12:12,010 --> 00:12:19,030
-Even if there stands "0..1" in each case, it
-may not be nevertheless that the part belongs at the
+Even if "0..1" stands there in each case, it must
+nevertheless not be the case that the part belongs at the
 
 00:12:19,030 --> 00:12:24,820
 same time to a whole of the one
@@ -796,7 +796,7 @@ of a single operation.
 
 00:14:42,460 --> 00:14:50,590
 So anything that should be
-stored permanently over the objects.
+stored permanently for the objects.
 
 00:14:50,590 --> 00:14:51,460
 What was aggregation?
