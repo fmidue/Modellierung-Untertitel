@@ -223,7 +223,7 @@ whose type is class B, then yes, in every
 
 00:04:56,340 --> 00:05:02,250
 object of class A there is something stored that
-refers to a B. This will be the case.
+refers to a B.
 
 00:05:02,250 --> 00:05:05,760
 However, it will be the case
@@ -408,7 +408,7 @@ then again Person 1, Car 1.
 Why is that?
 
 00:08:34,700 --> 00:08:41,840
-Because these are quantities,
+Because these are sets,
 related to your math lecture.
 
 00:08:41,840 --> 00:08:43,160
@@ -499,18 +499,18 @@ exactly to a German sentence.
 That is, of course, coincidental.
 
 00:10:08,050 --> 00:10:11,920
-I could also
-have accidentally recorded the
+I could also have accidentally drawn the
 
 00:10:11,920 --> 00:10:15,910
-two classes exactly reversed in my graph.
+two classes exactly reversed
+in my graph / in my diagram.
 
 00:10:15,910 --> 00:10:17,380
 That's why it can be
 
 00:10:17,380 --> 00:10:26,050
-important to actually give some direction
-on this name for this association.
+important to actually specify a direction
+for the name of this association.
 
 00:10:26,050 --> 00:10:28,090
 So who actually owns who here?
@@ -627,7 +627,7 @@ the idea would be, as just said, that it
 
 00:12:55,170 --> 00:13:00,750
 is the Person objects that have references
-to Auto objects, and not vice versa.
+to Car (Auto) objects, and not vice versa.
 
 00:13:00,750 --> 00:13:08,400
 Since it should still be allowed that a
@@ -687,7 +687,7 @@ relationship, but still we don't
 
 00:14:11,740 --> 00:14:16,120
 store cars with the person, but vice
-versa with the cars with the persons.
+versa, store the persons with the cars.
 
 00:14:16,120 --> 00:14:21,190
 This is somewhat unusual, and
@@ -830,7 +830,7 @@ Each car belongs to exactly one person.
 
 00:17:14,840 --> 00:17:19,250
 So you have to remember
-how around that is meant.
+which way around this is meant.
 
 00:17:19,250 --> 00:17:20,540
 The 1 does not mean:
@@ -964,7 +964,7 @@ Each car belongs to exactly two people.
 
 00:19:53,470 --> 00:20:00,520
 But this can be mixed, so to speak,
-who are the owners of two different cars each.
+as to who the owners of any two different cars are.
 
 00:20:00,520 --> 00:20:05,980
 It would also be conceivable that there
@@ -975,7 +975,7 @@ Because each person must
 own up to five cars,
 
 00:20:09,670 --> 00:20:12,160
-but that can be zero
+but that can also be zero
 cars for a given person.
 
 00:20:12,790 --> 00:20:15,280
@@ -994,7 +994,7 @@ So it would be possible that
 there are cars 3, 4 and
 
 00:20:27,220 --> 00:20:32,050
-5, which all belong to person 1.
+5, which all belong, for example, to person 1.
 
 00:20:32,050 --> 00:20:35,020
 But then they would also have
@@ -1013,11 +1013,11 @@ that between m and n instances of A
 can be associated to an instance of B.
 
 00:21:08,090 --> 00:21:13,010
-So I take an instance of
-class B, then i, between m
+So I take an instance of class B; then it
+can have i, between m
 
 00:21:13,010 --> 00:21:17,240
-and n, can have A instances as partners.
+and n, A-instances as partners.
 
 00:21:17,240 --> 00:21:21,290
 And vice versa, if you
@@ -1145,7 +1145,7 @@ to name the association itself.
 
 00:23:59,640 --> 00:24:04,620
 In the case of "owns", the two
-roles could have been named "owner" and "possessed".
+roles could have been named "owner" and "property".
 
 00:24:04,620 --> 00:24:08,040
 Then there would have been no need to
@@ -1195,4 +1195,4 @@ which are at the ends, already
 convey enough information about this association.
 
 00:25:00,890 --> 00:25:03,230
-That much about associations.
+So much for associations.

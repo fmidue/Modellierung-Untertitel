@@ -18,8 +18,8 @@ not allowed that there is, say, cyclic inheritance.
 Or a class inheriting from itself.
 
 00:00:22,560 --> 00:00:27,780
-Or a class being duplicate subclasses
-of another class, so to speak.
+Or a class being, so to speak, a subclass
+of another class two times over.
 
 00:00:27,780 --> 00:00:32,880
 However, I had also emphasized in
@@ -139,7 +139,7 @@ Even then, there are still
 limitations, and they come from the
 
 00:02:38,060 --> 00:02:41,990
-fact that yes, a part may not belong
+fact that a part may not belong
 to more than one whole at the same time.
 
 00:02:41,990 --> 00:02:50,150
@@ -169,12 +169,12 @@ One could not specify any objects "a", "b",
 fulfill this in any meaningful way.
 
 00:03:17,480 --> 00:03:22,400
-Because each object of the class C would have to
-belong, if here a 1 and here a 1 would stand,
+Because each object of class C,
+if a '1' stood here and a '1' here, would have to
 
 00:03:23,030 --> 00:03:28,430
-always at the same time to an object of the
-class A and to an object of the class B.
+belong always at the same time to an object of
+the class A and to an object of the class B.
 
 00:03:28,430 --> 00:03:32,330
 But that is forbidden, because a part
@@ -227,7 +227,7 @@ in addition to attributes and methods.
 
 00:04:32,650 --> 00:04:41,830
 For example, if we have a class
-diagram in the following form, yes we
+diagram in the following form, we
 
 00:04:41,830 --> 00:04:47,950
 have a composition between A and C, an aggregation
@@ -277,8 +277,8 @@ And then that can have consequences, for instance,
 for this question of the presence of composition cycles.
 
 00:05:41,620 --> 00:05:44,260
-So that's what has
-to be paid attention to.
+So, attention must be paid
+to that.
 
 00:05:44,260 --> 00:05:53,290
 Here, things don't get

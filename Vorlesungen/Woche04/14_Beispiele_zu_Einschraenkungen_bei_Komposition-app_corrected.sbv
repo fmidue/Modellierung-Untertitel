@@ -187,7 +187,7 @@ and connect it, then you
 would have a problem, of course.
 
 0:04:16.115,0:04:23.290
-Then you would have the situation on the pre-foil,
+Then you would have the situation on the previous slide,
 namely that you assign two integers to the C-object.
 
 0:04:23.290,0:04:25.000
@@ -307,23 +307,23 @@ but not always, on a car.
 
 0:06:38.880,0:06:42.870
 For example, summer wheels are in
-a wheel bearing in the winter.
+a wheel storage in the winter.
 
 0:06:42.870,0:06:45.930
 So let's say there
-is another class "bearing" here.
+is another class "storage" here.
 
 0:06:46.650,0:06:53.580
-A wheel can also be in a bearing,
-and a bearing can perhaps contain "0..20" wheels.
+A wheel can also be in a storage,
+and a storage can perhaps contain "0..20" wheels.
 
 0:06:53.580,0:07:00.420
 And now here it is quite conceivable that
-a wheel is sometimes in the bearing and
+a wheel is sometimes in the storage and
 
 0:07:00.420,0:07:03.720
 sometimes on a car, but is
-never with both at the same time.
+never both at the same time.
 
 0:07:03.720,0:07:07.290
 That it is never at both at the
@@ -342,7 +342,7 @@ So here it would really be:
 
 0:07:14.310,0:07:16.980
 The wheel can be on a car.
-The wheel can be in a bearing.
+The wheel can be in storage.
 
 0:07:16.980,0:07:18.435
 But only one of the two at a time.
@@ -427,7 +427,7 @@ we specify this with "0..1" at both
 
 0:09:20.310,0:09:27.630
 ends, one can well imagine
-that there are meaningful expressions.
+that there are meaningful instances.
 
 0:09:27.630,0:09:29.040
 You can think about what
