@@ -44,7 +44,7 @@ arrows or strokes, which then all end
 
 00:00:57,330 --> 00:01:04,080
 in an inheritance arrow towards
-Auto, is equivalent to simply
+car (Auto), is equivalent to simply
 
 00:01:05,280 --> 00:01:09,660
 having such an inheritance
@@ -473,7 +473,7 @@ of the superclass that are
 not exhausted by the subclasses.
 
 00:10:03,860 --> 00:10:05,870
-So that would be even with our "drive".
+So that would be the case for our 'propulsion' example.
 
 00:10:05,870 --> 00:10:10,400
 If there is a third class of
@@ -539,7 +539,7 @@ then this subdivision, this generalization
 
 00:11:21,460 --> 00:11:25,960
 group, would
-be called "disjoint"/"disjoint."
+be called "disjoint".
 
 00:11:25,960 --> 00:11:29,590
 And of course, if we have a choice
@@ -592,11 +592,11 @@ allow for mixed private/corporate cars.
 
 00:12:34,840 --> 00:12:44,260
 Then that would be a complete
-and disjunctive distinction in that respect.
+and disjoint distinction in that respect.
 
 00:12:44,260 --> 00:12:51,860
 Then, in fact, what you end up doing
-is really partitioning the instances of the upper class.
+is really partitioning the instances of the superclass.
 
 00:12:51,860 --> 00:12:57,890
 So each car falls into
@@ -659,8 +659,8 @@ I would say
 that's a complete distinction.
 
 00:14:08,730 --> 00:14:14,040
-So even more habitats of
-animals don't exist if we limit
+So, there are no further habitats for
+animals if we limit
 
 00:14:14,040 --> 00:14:17,880
 ourselves to planet Earth and
@@ -689,7 +689,7 @@ habitat, nor clearly assigned to the water habitat.
 
 00:14:37,980 --> 00:14:45,330
 In this respect, this would not
-be an overlap-free or disjunctive distinction.
+be an overlap-free or disjoint distinction.
 
 00:14:45,330 --> 00:14:49,470
 What we also see here
@@ -700,8 +700,8 @@ of course this distinction does not always
 have to happen exactly in two subclasses.
 
 00:14:53,460 --> 00:14:56,370
-That may have still
-suggested this example here,
+This example here might still
+have suggested,
 
 00:14:56,370 --> 00:14:59,160
 that we always subdivide
@@ -753,4 +753,4 @@ this would not be a complete distinction.
 
 00:15:46,230 --> 00:15:54,220
 Thus all four constellations would
-be occupied once by an example.
+be demonstrated by an example.
