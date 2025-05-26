@@ -17,7 +17,7 @@ specification of individual objects.
 
 00:00:22,410 --> 00:00:26,040
 An object, we know, is
-an expression of a class.
+an instance of a class.
 
 00:00:26,040 --> 00:00:33,180
 And what you're seeing here is a slide
@@ -36,7 +36,7 @@ Reminder:
 
 00:00:43,800 --> 00:00:47,160
 In particular, all attributes
-had to be occupied.
+had to be set.
 
 00:00:47,160 --> 00:00:50,790
 If this was a subclass of another class,
@@ -80,17 +80,17 @@ class diagram, and then you can talk
 
 00:01:24,750 --> 00:01:29,850
 about creating an object
-diagram to that class diagram.
+diagram for that class diagram.
 
 00:01:29,850 --> 00:01:32,940
 The idea here is:
 
 00:01:32,940 --> 00:01:39,960
-If the class diagram puts in the framework of how
+If the class diagram defines the framework for how
 a system can be designed, then an object diagram would
 
 00:01:39,960 --> 00:01:44,610
-be sort of a snapshot or a snapshot
+be a kind of snapshot
 of the system at a point in time.
 
 00:01:44,610 --> 00:01:48,360
@@ -125,8 +125,8 @@ clear mapping of, for example,
 the various associations and the properties.
 
 00:02:21,840 --> 00:02:23,670
-The multiplicities have to
-be roughly adhered to.
+For instance, the multiplicities
+must be adhered to.
 
 00:02:23,670 --> 00:02:27,480
 So we have to fulfill
@@ -229,7 +229,7 @@ exam) that you should
 make a complete instantiation.
 
 00:04:11,520 --> 00:04:13,470
-That is, that you should occupy
+That is, that you should set
 
 00:04:13,470 --> 00:04:18,480
 all attributes that are predefined by
@@ -260,11 +260,11 @@ object diagram it would be in principle
 
 00:04:42,530 --> 00:04:46,880
 also possible to form an
-embodiment of an abstract class.
+instantiation of an abstract class.
 
 00:04:46,880 --> 00:04:57,260
 Of course, under the circumstances that not
-all attributes are occupied (which would be necessary
+all attributes are set (which would be necessary
 
 00:04:58,640 --> 00:05:05,270
 if we would specify objects from
@@ -340,7 +340,7 @@ This is also an
 object of the class "Point".
 
 00:06:15,170 --> 00:06:20,540
-Therefore, in this specification, a superclass should also
+Therefore, in this specification, a superclass could also
 be specified, if we don't want to have
 
 00:06:20,540 --> 00:06:25,580
@@ -356,15 +356,15 @@ the inheritance arrows in the object
 diagram, but the other relationships do.
 
 00:06:36,740 --> 00:06:39,620
-How do we find
-them in the object diagram?
+How are they represented
+in the object diagram?
 
 00:06:39,620 --> 00:06:47,150
-By means of the notion of
-"link", which is simply also a
+By means of the term
+"link", which is simply a connection,
 
 00:06:47,150 --> 00:06:50,480
-link, but now
+a link, but now
 any relationship between objects.
 
 00:06:52,400 --> 00:06:56,450
@@ -380,7 +380,7 @@ by means of a connecting
 line, a link, a connection.
 
 00:07:05,240 --> 00:07:10,940
-These are then quite concrete expressions of
+These are then quite concrete instances of
 such a relationship of specific objects of
 
 00:07:10,940 --> 00:07:16,520
@@ -409,7 +409,7 @@ one relationship between two concrete objects.
 
 00:07:43,460 --> 00:07:49,970
 And although this may be an
-expression of an association with multiplicities,
+instance of an association with multiplicities,
 
 00:07:49,970 --> 00:07:53,030
 these multiplicities will not
@@ -511,7 +511,7 @@ have the parking lot with an
 aggregation to car with corresponding multiplicities here.
 
 00:09:36,540 --> 00:09:43,050
-And the car has an aggregation
+And the car has a composition
 to wheel, again with certain multiplicities.
 
 00:09:43,050 --> 00:09:47,580
@@ -527,7 +527,7 @@ In the other example I had
 said, a wheel could be also
 
 00:09:54,510 --> 00:09:56,460
-in the camp, then just in no car.
+in storage, then not in any car.
 
 00:09:57,480 --> 00:09:59,070
 Here it is more specific.
@@ -633,11 +633,11 @@ That would be "Name-of-object is
 object of the class parking lot".
 
 00:11:49,790 --> 00:11:51,770
-What I did here now in the example times,
+What I've done here in this example this time,
 
 00:11:52,280 --> 00:11:56,540
-is that I omitted
-everywhere the attribute boxes.
+is that I've omitted the attribute boxes
+everywhere.
 
 00:11:57,170 --> 00:11:58,370
 Actually, for all attributes, which are
@@ -659,7 +659,7 @@ only have the box with the name and
 not also the two boxes for attributes and methods.
 
 00:12:21,710 --> 00:12:24,050
-So this one parking space.
+So this one parking lot.
 
 00:12:24,050 --> 00:12:28,520
 Then I had talked about two cars, for
@@ -675,7 +675,7 @@ in this one parking lot.
 
 00:12:37,130 --> 00:12:42,230
 So these two links here
-are expressions of this one relationship.
+are instances of this one relationship.
 
 00:12:50,090 --> 00:13:00,260
 Then there's an owner in each
@@ -705,7 +705,7 @@ because each car has
 only exactly one owner.
 
 00:13:30,410 --> 00:13:31,610
-Then there is this relation here.
+Then there is this relationship here.
 
 00:13:31,610 --> 00:13:35,960
 To each car belong exactly four wheels,
@@ -733,7 +733,7 @@ left wheel of the green Skoda" or so.
 Here we see again:
 
 00:13:55,310 --> 00:14:02,420
-For each incarnation of the
+For each instance of the
 composition there is a link.
 
 00:14:02,420 --> 00:14:06,680
@@ -745,8 +745,8 @@ And they each have exactly one
 link to the car containing them.
 
 00:14:14,510 --> 00:14:18,560
-So this is enough
-for these multiplicities here.
+So this satisfies
+these multiplicities here.
 
 00:14:18,560 --> 00:14:20,660
 But they are not
@@ -794,8 +794,8 @@ it to any car, I would have
 violated the class diagram as well.
 
 00:15:03,870 --> 00:15:09,180
-Because to this wheel there would not be
-then the exactly one car, which it contains.
+Because for this wheel there would not
+then be the exactly one car that contains it.
 
 00:15:09,180 --> 00:15:09,480
 Which, however, must exist
@@ -819,7 +819,7 @@ exam could be to decide for a class
 
 00:15:29,970 --> 00:15:34,140
 diagram and an object diagram whether this
-object diagram fits to this class diagram.
+object diagram fits this class diagram.
 
 00:15:34,140 --> 00:15:38,370
 Or to set up an object diagram
@@ -837,7 +837,7 @@ just now, also note the aggregation
 and composition symbols in the object diagram.
 
 00:15:57,570 --> 00:16:05,040
-Since these four links are manifestations of
+Since these four links are instances of
 this composition, one could also draw this filled
 
 00:16:05,040 --> 00:16:10,140
@@ -905,7 +905,7 @@ without any further annotations on them.
 
 00:17:29,540 --> 00:17:33,020
 I had already
-pronounced this "attention" message:
+given this "Attention" warning:
 
 00:17:33,020 --> 00:17:38,330
 We must remember, of course, when
@@ -973,7 +973,7 @@ A customer may have several
 accounts, because nothing is restricted here.
 
 00:18:48,190 --> 00:18:51,430
-But each current account or savings
+But each checking account or savings
 account must have exactly one owner.
 
 00:18:52,780 --> 00:18:56,110
@@ -992,7 +992,7 @@ What would not be allowed, however,
 would be that there is simply another
 
 00:19:06,160 --> 00:19:09,880
-savings account or another current
+savings account or another checking
 account, which have no owner.
 
 00:19:09,880 --> 00:19:13,150
