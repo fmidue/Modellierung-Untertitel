@@ -981,7 +981,7 @@ If one had seen both lights switched
 on at the same stock level, then
 
 00:19:23,960 --> 00:19:28,803
-one would simply have the full set \{yellow, red}\
+one would simply have the full set \{yellow, red\}
 in the first component instead of the empty set, which
 
 00:19:28,803 --> 00:19:36,950
