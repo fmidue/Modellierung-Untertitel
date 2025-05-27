@@ -337,10 +337,10 @@ set that contains no elements.
 
 00:06:23,410 --> 00:06:27,580
 It is automatically a subset, even
-a real subset, of any other set.
+a proper subset, of any other set.
 
 00:06:27,580 --> 00:06:32,590
-Real subset in the sense that it is
+Proper subset in the sense that it is
 not equal to any non-empty set, of course.
 
 00:06:32,590 --> 00:06:40,970
@@ -353,7 +353,7 @@ the set union, written with this symbol.
 
 00:06:46,985 --> 00:06:50,600
 We will see the reverse symbol
-for the average in a moment.
+for the intersection in a moment.
 
 00:06:50,600 --> 00:06:54,530
 The union is
@@ -361,7 +361,7 @@ about throwing quantities together.
 
 00:06:54,530 --> 00:06:59,810
 So the result set here is the set of all elements that occur
-in A or in B. The result set cannot be smaller than this symbol.
+in A or in B.
 
 00:07:01,880 --> 00:07:07,400
 The result set cannot be smaller
@@ -387,11 +387,11 @@ conditional has been replaced by "and".
 But this makes a big difference.
 
 00:07:37,730 --> 00:07:44,480
-In particular, the average usually makes
+In particular, the intersection usually makes
 sets smaller, at least not larger.
 
 00:07:44,480 --> 00:07:50,870
-So the average of A and B is
+So the intersection of A and B is
 in any case subset of both A and B.
 
 00:07:50,870 --> 00:07:52,610
@@ -558,7 +558,7 @@ doesn't necessarily make this subset relation hold,
 especially if C is the empty set.
 
 00:11:18,210 --> 00:11:20,910
-That would be to form pairs.
+That was about forming pairs.
 
 00:11:20,910 --> 00:11:25,470
 And just as you can form pairs
@@ -686,10 +686,10 @@ we'll need, called the power set.
 
 00:13:30,850 --> 00:13:37,330
 This starts from a single set, that is, not
-two sets A and B, but a single set M.
+two sets A and B,
 
 00:13:37,330 --> 00:13:39,340
-And the power set is the set A.
+but a single set M.
 
 00:13:39,340 --> 00:13:44,380
 And the power set is the
@@ -711,7 +711,7 @@ It is called a power set
 because the number of elements increases exponentially.
 
 00:14:05,830 --> 00:14:13,660
-So approximately the power set of
+So, for example, the power set of
 the set \{1,2,3\} is this eight-element set.
 
 00:14:13,660 --> 00:14:16,990
@@ -739,8 +739,8 @@ set, but a one-element set
 containing exactly the empty set.
 
 00:14:40,190 --> 00:14:44,510
-This will rather not fall on
-our feet here in the lecture,
+This is unlikely to cause us problems
+here in the lecture,
 
 00:14:44,510 --> 00:14:47,090
 because we will not
@@ -923,7 +923,7 @@ For these stock level indicators, you just
 take a number between zero and 30.
 
 00:18:06,090 --> 00:18:11,310
-Because those are the possible expressions, that you
+Because those are the possible values, that you
 have zero bars, two bars, up to 30 bars.
 
 00:18:11,310 --> 00:18:16,290
@@ -955,14 +955,14 @@ Cartesian product of the power set of the
 
 00:18:40,110 --> 00:18:42,720
 set \{yellow, red\} (which is
-a set of two colors
+simply a set of two colors)
 
 00:18:42,720 --> 00:18:46,880
-simple) and in each of the other
+and in each of the other
 two components a number between zero and 30.
 
 00:18:46,880 --> 00:18:51,230
-So about the element (empty set, 20,
+So, for example, the element (empty set, 20,
 
 00:18:51,230 --> 00:19:00,260
 10), which is undoubtedly an element of
@@ -973,7 +973,7 @@ This is the state in
 which both warning lights are off
 
 00:19:04,490 --> 00:19:11,180
-(because this is where the empty quantity is), and
+(because this is where the empty set is), and
 there are still 20 bars and 10 packages of chips.
 
 00:19:11,180 --> 00:19:23,960
@@ -981,11 +981,11 @@ If one had seen both lights switched
 on at the same stock level, then
 
 00:19:23,960 --> 00:19:28,803
-one would simply have the full quantity \{yellow, red\}
-in the first component instead of the empty quantity, which
+one would simply have the full set \{yellow, red\}
+in the first component instead of the empty set, which
 
 00:19:28,803 --> 00:19:36,950
-is also a subset of this quantity, and
+is also a subset of this set, and
 thus is an element of this power set.
 
 00:19:41,210 --> 00:19:41,720
@@ -1057,7 +1057,7 @@ later, how to model such things.
 
 00:20:45,680 --> 00:20:48,230
 This means not only to specify
-the quantity, but also to express
+the set, but also to express
 
 00:20:48,230 --> 00:20:52,130
 state transitions in a compact way.
@@ -1089,7 +1089,7 @@ So notation here:
 
 00:21:23,150 --> 00:21:28,280
 The function has a name and maps
-from a definition set to a value set.
+from a domain to a codomain.
 
 00:21:28,280 --> 00:21:29,990
 And these are just arbitrary sets:
@@ -1117,7 +1117,7 @@ You know this from school, y
 is f(x) for respective corresponding elements
 
 00:21:55,170 --> 00:21:57,600
-from definition and value domains.
+from domain and codomain.
 
 00:21:57,600 --> 00:22:01,590
 We will write it
@@ -1125,7 +1125,7 @@ down partly like this, that
 
 00:22:01,590 --> 00:22:08,460
 is, as an explicit mapping: a
-is mapped to (or mapped to) b.
+is mapped to b.
 
 00:22:08,460 --> 00:22:11,010
 Then, if the set A is finite, one could
@@ -1144,7 +1144,7 @@ the sine function, where we have the set
 
 00:22:26,250 --> 00:22:28,980
 of all real numbers
-here, to write down finitely.
+here, which cannot be written down finitely.
 
 00:22:28,980 --> 00:22:34,710
 But for many cases, especially when A
@@ -1215,7 +1215,7 @@ enumeration, because there are still infinitely many
 negative and infinitely many more positive numbers.
 
 00:23:51,700 --> 00:23:56,440
-But if the range were finite,
+But if the domain were finite,
 one could give a section here
 
 00:23:56,440 --> 00:23:59,740
@@ -1240,7 +1240,7 @@ Formally, a graph is
 also simply a set-theoretic construct.
 
 00:24:20,620 --> 00:24:24,550
-So you have a set of labels or labels.
+So you have a set of labels.
 
 00:24:24,550 --> 00:24:32,170
 Then a directed and edge labeled graph (these
@@ -1385,7 +1385,7 @@ And as the set of labels, we use
 the relationships that came up in the example.
 
 00:27:26,930 --> 00:27:32,420
-We had modeled static briefly, and there
+We had briefly done static modeling, and there
 we had talked about possession and feeding relationships.
 
 00:27:32,420 --> 00:27:38,870
@@ -1398,7 +1398,6 @@ first component comes from V, the second component comes from
 
 00:27:43,250 --> 00:27:47,060
 L, and the third component comes from V.
-And then, of course, we can represent that.
 
 00:27:47,060 --> 00:27:53,210
 And of course, we can
@@ -1445,11 +1444,11 @@ It says up front here, a
 graph is just such a pair of
 
 00:28:42,720 --> 00:28:48,300
-vertex and edge sets with this context.
+vertex and edge sets with this structure.
 
 00:28:48,300 --> 00:28:57,330
 So strictly speaking, these three
-sets together are stated the graph.
+sets taken together define the graph.
 
 00:28:57,330 --> 00:29:01,110
 And this below is simply

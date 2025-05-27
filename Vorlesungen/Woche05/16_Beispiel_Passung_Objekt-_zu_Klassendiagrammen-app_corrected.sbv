@@ -81,10 +81,10 @@ are additionally given by attributes.
 
 0:01:27.090,0:01:32.600
 So I would have to look now here only whether
-A and C (thus the two classes, about which it
+A and C (thus the two classes, in question
 
 0:01:32.600,0:01:34.609
-concerns here) exist at all.
+here) exist at all.
 
 0:01:34.609,0:01:37.320
 Yes, they do exist in the class diagram.
@@ -118,7 +118,7 @@ to B objects in aggregation.
 And now we can look:
 
 0:02:10.921,0:02:12.519
-There is no multiplicity at all.
+No multiplicity is specified.
 
 0:02:12.519,0:02:15.769
 That is, the default multiplicity
@@ -179,7 +179,7 @@ exist from A are really given here.
 
 0:03:26.609,0:03:33.189
 There is especially this relation here,
-but it has also "0..*" as multiplicities.
+but it also has "0..*" as multiplicities.
 
 0:03:33.189,0:03:37.590
 That means, "a" could have a
@@ -189,7 +189,7 @@ relation with itself or for example with
 another A-object.
 
 0:03:38.750,0:03:41.930
-But it must not, because of this "0..*".
+But it doesn't have to, because of this "0..*".
 
 0:03:41.930,0:03:45.709
 So for "a" and "c"
@@ -204,7 +204,7 @@ It must be justified by something.
 
 0:03:50.080,0:03:53.840
 It is not enough to say that "c" and "a"
-have nothing missing (so everything that "c" and "a" should
+are not missing anything (so everything that "c" and "a" should
 
 0:03:53.840,0:03:54.840
 have, they have).
@@ -275,7 +275,7 @@ What would it be like if we
 had looked at the other class diagram?
 
 0:04:57.890,0:05:00.410
-And there is indeed the answer:
+And there, the answer is indeed:
 
 0:05:00.410,0:05:01.570
 Yes that fits.
@@ -289,7 +289,7 @@ about this inheritance arrow.
 
 0:05:06.510,0:05:10.130
 That it goes in the wrong direction, so to
-speak (for the fact that "a" could have a relationship
+speak (for "a" to be able to have a relationship
 
 0:05:10.130,0:05:11.130
 with "c").
@@ -299,7 +299,7 @@ Here the arrow is
 exactly the other way round.
 
 0:05:12.860,0:05:17.000
-That is, there is no obvious relationship
+That is, there is admittedly no obvious relationship
 between A and C in the class diagram.
 
 0:05:17.000,0:05:22.670
@@ -311,8 +311,8 @@ other relationships that B
 has with any other classes.
 
 0:05:25.230,0:05:30.370
-So in particular, A inherits from
-B also this relationship to C.
+So in particular, A also inherits from
+B this relationship to C.
 
 0:05:30.370,0:05:33.690
 And that's why this
@@ -366,10 +366,10 @@ be violated here do not exist.
 
 0:06:20.510,0:06:26.890
 For example "a" does not have to have
-a relationship to an A-object, since here nothing
+a relationship to an A-object, since, although nothing is written here,
 
 0:06:26.890,0:06:31.750
-is written, but then implicitly
+but then implicitly
 "0..*" is written there as multiplicity.
 
 0:06:31.750,0:06:38.300
@@ -426,7 +426,7 @@ a B and a D object.
 And that fits as well.
 
 0:07:20.910,0:07:24.740
-That would correspond to this
+That corresponds to this
 relationship in the class diagram.
 
 0:07:24.740,0:07:26.800
@@ -456,7 +456,7 @@ And the fact that B inherits from
 A does not necessarily lead to further links.
 
 0:07:52.110,0:07:58.330
-Because A has this relation to A, but
+Because A does have this relation to A, but
 just with these lower limits zero in each case.
 
 0:07:58.330,0:08:02.740
@@ -467,8 +467,8 @@ be somehow missing in the object diagram.
 What about "c"?
 
 0:08:05.210,0:08:07.510
-There is nothing more
-to be said about it.
+No further requirements
+are added for it.
 
 0:08:07.510,0:08:09.020
 So "c" can have relations with Bs.
@@ -478,11 +478,11 @@ In the concrete case it is
 even so in the object diagram.
 
 0:08:10.840,0:08:14.250
-But there are also no multiplicities.
+But no multiplicities are specified either.
 
 0:08:14.250,0:08:20.170
 That means, zero would be
-allowed as number by default anyway.
+allowed as the count by default anyway.
 
 0:08:20.170,0:08:21.830
 And what about the "d"?
@@ -562,7 +562,7 @@ We'll have to take a look at that:
 
 0:10:10.460,0:10:19.520
 Now we have an A-object here, so
-the question arises, in how far this
+the question arises, to what extent this
 
 0:10:19.520,0:10:20.990
 changes something.
@@ -579,7 +579,7 @@ Now there is an A here.
 
 0:10:33.510,0:10:39.270
 So this can only be
-an expression of this relationship.
+a manifestation of this relationship.
 
 0:10:39.270,0:10:40.270
 Let's see:
@@ -657,14 +657,14 @@ have a link to an A-object like here?
 
 0:12:16.710,0:12:22.510
 If we look at the class diagram, "b"
-only has links to C and D objects.
+only has relationships to C and D objects.
 
 0:12:22.510,0:12:26.060
 A does inherit from B, but that means:
 
 0:12:26.060,0:12:28.340
 A can have all
-the relationship that B has.
+the relationships that B has.
 
 0:12:28.340,0:12:32.279
 It does not mean B
@@ -718,7 +718,7 @@ And there we see, however,
 that this is an illegal relationship.
 
 0:13:40.080,0:13:42.460
-In so far that they can't both exist.
+Insofar as they can't both exist.
 
 0:13:42.460,0:13:52.310
 Namely this one A-object has
@@ -728,12 +728,12 @@ relations concerning this association circled above
 to two other A-objects.
 
 0:13:55.730,0:14:02.330
-But here it says as multiplicity at
-this end, to which is navigated (that we
+But here the multiplicity specified at
+this end, the one being navigated to (that we
 
 0:14:02.330,0:14:07.090
-see indeed at this arrow here, that
-this end should be obviously these two ends):
+see indeed from this arrow here, that
+this end clearly corresponds to these two ends)):
 
 0:14:07.090,0:14:15.550
 It says as multiplicity that this can
@@ -768,8 +768,8 @@ And the answer is:
 So B, C, D objects don't exist at all.
 
 0:14:46.680,0:14:51.910
-So there can't be
-any requirements or prohibitions there.
+So neither requirements nor prohibitions
+can arise concerning them.
 
 0:14:51.910,0:14:54.940
 We just have to look at A.
@@ -864,11 +864,11 @@ what the requirements are because of that.
 
 0:16:48.920,0:16:55.240
 But because the relation here above is
-so liberal (always also allowed by the multiplicities
+so liberal (since the multiplicities always allow for
 
 0:16:55.240,0:17:03.680
-that zero is present as the number
-of counterparts), there are no further obligations
+the number of counterparts to be zero),
+there are no further obligations
 
 0:17:03.680,0:17:04.750
 for the B-object.
@@ -957,7 +957,7 @@ The "b" is allowed to have no D-partner at all,
 or to have one D-partner, but not more than one.
 
 0:18:51.289,0:19:00.080
-Each b object is allowed to have at most
+Each B object is allowed to have at most
 one D object as a counterpart along a link
 
 0:19:00.080,0:19:01.289
