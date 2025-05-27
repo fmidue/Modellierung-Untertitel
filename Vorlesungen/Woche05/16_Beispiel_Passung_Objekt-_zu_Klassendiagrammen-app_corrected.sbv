@@ -656,7 +656,7 @@ So with what right should a B-object
 have a link to an A-object like here?
 
 0:12:16.710,0:12:22.510
-If we look at the class diagram, "B"
+If we look at the class diagram, "b"
 only has relationships to C and D objects.
 
 0:12:22.510,0:12:26.060
@@ -671,7 +671,7 @@ It does not mean B
 can have relationships that A has.
 
 0:12:32.279,0:12:35.520
-So "B" may only have
+So "b" may only have
 relations to C and D objects.
 
 0:12:35.520,0:12:38.760
