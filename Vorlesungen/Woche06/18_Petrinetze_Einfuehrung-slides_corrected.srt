@@ -306,7 +306,7 @@ to give you simply again more motivation.
 
 00:05:44,520 --> 00:05:48,630
 On another example, which I will discuss
-in more detail at this point already as
+in more detail at this point already than
 
 00:05:48,630 --> 00:05:50,430
 the house building example
@@ -761,7 +761,7 @@ For example, there is resource access to
 the money or to the account balances,
 
 00:13:58,870 --> 00:14:05,800
-and then, please, that should
+and then, it should certainly
 run correctly in each case.
 
 00:14:05,800 --> 00:14:09,970
@@ -931,7 +931,7 @@ both forks back at the same time.
 
 00:16:52,160 --> 00:16:56,840
 Now one can already ask
-certain questions at this simple system.
+certain questions about this simple system.
 
 00:16:56,840 --> 00:17:00,110
 So, can several philosophers
@@ -956,8 +956,8 @@ There are only three forks,
 so parallelism is not given.
 
 00:17:16,130 --> 00:17:21,350
-Is there perhaps something finer
-at least between individual action concurrency?
+Is there perhaps, if we check more fine-grained,
+at least concurrency between individual actions?
 
 00:17:21,350 --> 00:17:28,700
 So maybe reaching for the forks
@@ -1259,8 +1259,8 @@ occur in this example, but will be
 of interest to us in the further course.
 
 00:22:53,570 --> 00:23:02,060
-Namely that a Petri net
-described also finitely can correspond
+Namely that even a finitely described
+Petri net can ultimately correspond
 
 00:23:02,060 --> 00:23:05,390
 to an infinitely unfolded system.
@@ -1342,7 +1342,7 @@ We will repeatedly pick up individual
 simplified examples that may fall into
 
 00:24:54,890 --> 00:24:57,710
-these domains, even in the exercise mode.
+these domains, also in the exercises.
 
 00:24:57,710 --> 00:25:06,860
 We will not schedule an in-depth look at
