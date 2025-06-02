@@ -111,7 +111,7 @@ could be no tokens anywhere, as in this case.
 
 00:01:52,380 --> 00:01:56,670
 That makes then in
-each case a system condition.
+each case a system state.
 
 00:01:56,670 --> 00:02:02,670
 So whether there are no tokens at all
@@ -334,7 +334,7 @@ of a transition designed in this way.
 
 00:05:42,900 --> 00:05:45,990
 Of course, if the constellation
-is different, then it is analog.
+is different, then it is analogous.
 
 00:05:51,090 --> 00:05:57,300
 And exactly this change, the removal of
@@ -498,7 +498,7 @@ a token from this place.
 But there are no tokens there.
 
 00:08:34,770 --> 00:08:35,580
-This space is empty.
+This place is empty.
 
 00:08:35,580 --> 00:08:37,140
 Then this transition can't fire.
@@ -566,7 +566,7 @@ token on the only precondition place.
 
 00:09:35,340 --> 00:09:38,190
 So this transition could fire
-now, it is active now.
+now, it is enabled now.
 
 00:09:38,190 --> 00:09:40,880
 It's ready to fire now.
@@ -591,7 +591,7 @@ What could happen now?
 
 00:09:55,050 --> 00:10:01,350
 For example, now this transition could
-fire because it is justified by this.
+fire because it is enabled by this.
 
 00:10:01,350 --> 00:10:04,080
 We could also have imagined that
@@ -643,11 +643,11 @@ Maybe now I decide to fire here.
 
 00:10:45,510 --> 00:10:51,810
 I may do that because I can
-always execute one of the possible activated transitions.
+always execute one of the possible enabled transitions.
 
 00:10:52,340 --> 00:10:55,130
 And this transition is
-also activated because it has
+also enabled because it has
 
 00:10:55,130 --> 00:10:58,310
 exactly one precondition place and
@@ -746,7 +746,7 @@ conflict in the Petri net.
 
 00:12:31,490 --> 00:12:36,500
 Because here this lower transition would have been
-activated as well as this above one, but of
+enabled as well as this above one, but of
 
 00:12:36,500 --> 00:12:38,630
 course not both at the same time.
