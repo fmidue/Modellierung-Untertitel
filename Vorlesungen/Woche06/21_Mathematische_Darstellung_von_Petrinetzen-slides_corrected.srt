@@ -74,7 +74,7 @@ seen in an example in an earlier video,
 
 00:01:12,060 --> 00:01:15,960
 it could be that an arbitrary
-number of tokens accumulate on a site.
+number of tokens accumulate on a place.
 
 00:01:15,960 --> 00:01:21,600
 So then the total number of
@@ -265,7 +265,7 @@ tokens are currently in individual places.
 
 00:05:01,760 --> 00:05:07,910
 That would be the application here,
-to indicate the initial or initial marking.
+to indicate the initial marking.
 
 00:05:07,910 --> 00:05:12,440
 But such a function can just
@@ -386,7 +386,7 @@ the graphical representation perhaps more intuitive
 
 00:07:18,310 --> 00:07:27,628
 than the mathematical representation is that in
-special cases we can save information for
+special cases we can save on information for
 
 00:07:27,628 --> 00:07:30,610
 the weight functions in the
