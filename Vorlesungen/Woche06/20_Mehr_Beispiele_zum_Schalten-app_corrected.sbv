@@ -15,8 +15,8 @@ For example, that it is quite possible that
 there is more than one token in one place.
 
 0:00:24.870,0:00:28.200
-And then you can also ask
-yourself what happens when you change gears.
+And then one can also ask oneself
+what happens, for example, during firing.
 
 0:00:28.200,0:00:30.810
 Let's take a look at this situation.
@@ -282,7 +282,7 @@ these paths would still
 
 0:04:57.010,0:05:00.250
 be possible, and then this
-transition to firing would occur again.
+transition would indeed fire again.
 
 0:05:00.250,0:05:11.560
 But for example up to here the
@@ -357,10 +357,10 @@ tokens before and afterwards there are two tokens again.
 
 0:06:41.750,0:06:46.880
 But for example, in the case where we had
-one token at the top before and two tokens afterwards
+one token on each upper place before and afterwards, because of
 
 0:06:46.880,0:06:50.840
-because of this 2 here at the bottom left, then
+these 2 here at the bottom left, there are now two tokens, then
 it looks as if a new token has been created.
 
 0:06:51.350,0:06:52.400
@@ -437,7 +437,7 @@ So then it could go on like
 this, starting from the situation (assuming we
 
 0:08:17.600,0:08:23.690
-had reached that somehow), that about
+had reached that somehow), that, for example,
 in the situation now this transition could
 
 0:08:23.690,0:08:28.040
@@ -555,7 +555,7 @@ That would result in
 these three tokens disappearing,
 
 0:10:44.580,0:10:48.570
-and one token
+and one token would appear
 in each post-condition location.
 
 0:10:48.570,0:10:49.890
