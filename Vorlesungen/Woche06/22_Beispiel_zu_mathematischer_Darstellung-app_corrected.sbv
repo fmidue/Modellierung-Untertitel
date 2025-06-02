@@ -89,7 +89,7 @@ up that information as well.
 
 0:02:19.490,0:02:22.760
 But the relevant information is,
-of course, primarily what is here.
+of course, primarily what is said here.
 
 0:02:22.760,0:02:32.930
 Or first, I might want to
@@ -139,8 +139,7 @@ Because we have to specify pre- and
 post-weights for each transition for each place.
 
 0:03:22.160,0:03:28.610
-Now it is here so
-that 10 values are explicitly given.
+Here, 10 values are explicitly given.
 
 0:03:28.610,0:03:32.870
 And for all others, it says
