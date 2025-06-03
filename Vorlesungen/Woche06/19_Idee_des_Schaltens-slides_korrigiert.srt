@@ -560,7 +560,7 @@ der einzigen Vorbedingungsstelle.
 
 00:09:35,340 --> 00:09:38,190
 Also diese Transition könnte jetzt
-schalten, die ist jetzt aktiv.
+schalten, die ist jetzt aktiviert.
 
 00:09:38,190 --> 00:09:40,880
 Sie ist jetzt schaltbereit.
@@ -584,7 +584,7 @@ Was könnte jetzt passieren?
 
 00:09:55,050 --> 00:10:01,350
 Zum Beispiel könnte jetzt diese Transition
-schalten, weil sie hierdurch gerechtfertigt ist.
+schalten, weil sie hierdurch aktiviert ist.
 
 00:10:01,350 --> 00:10:04,080
 Wir hätten uns auch vorstellen können,
