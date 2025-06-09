@@ -58,7 +58,7 @@ Then you can play
 around with your Petri nets.
 
 0:01:01.140,0:01:05.190
-So that's all what I want
+So that's all that I want
 to teach you with the example here.
 
 0:01:05.190,0:01:13.230
@@ -166,10 +166,10 @@ need places and transitions.
 
 0:02:51.450,0:02:58.200
 And I could think, for example, that
-there are at least two at transitions (at
+there are at least two transitions (things
 
 0:02:58.200,0:03:01.410
-things that happen;
+that happen;
 actions that are executed).
 
 0:03:01.410,0:03:08.940
@@ -278,8 +278,8 @@ is just this one place here
 where the set homework is.
 
 0:05:09.235,0:05:15.130
-That can be also several
-on the day, the set homework.
+That can also be several
+a day, the set homework.
 
 0:05:15.130,0:05:18.880
 And then these would probably
@@ -404,7 +404,7 @@ on the left, for one thing.
 First of all, the start marking.
 
 0:07:19.760,0:07:22.430
-That's the one that I painted.
+That's the one that I drew.
 
 0:07:22.430,0:07:24.620
 And then we see here in red now
@@ -437,7 +437,7 @@ Then I can execute further transitions.
 
 0:07:42.620,0:07:46.880
 And here we also see that
-after I've executed the train once,
+after I've executed 'training' once,
 
 0:07:47.870,0:07:50.180
 this transition is no
@@ -556,7 +556,7 @@ the tasks are set
 and the training is prepared.
 
 0:09:39.120,0:09:39.720
-And not simple:
+And not simply:
 
 0:09:39.720,0:09:40.560
 There are already tokens lying there.
@@ -570,7 +570,7 @@ For example, you could have
 a source like this here.
 
 0:09:49.680,0:09:53.070
-So a transitions, which is
+So a transition, which is
 to be fired at the beginning.
 
 0:10:00.540,0:10:02.670
@@ -716,8 +716,8 @@ If I proceed like this, I could
 "come from school" here at the beginning,
 
 0:13:12.350,0:13:14.840
-and then do any
-order of homework and training.
+and then do homework and training
+in any order.
 
 0:13:14.840,0:13:17.510
 And it can't happen, like just
@@ -904,7 +904,7 @@ done), then maybe going to
 practice, then after practice unfortunately having
 
 0:17:33.540,0:17:36.210
-to do the more
+to do more
 homework, and then deciding:
 
 0:17:36.210,0:17:38.430
@@ -943,7 +943,7 @@ I could say, of course:
 
 0:18:22.010,0:18:24.230
 We'll control this by
-not having this badge here.
+not having this token here.
 
 0:18:24.230,0:18:28.220
 But that would only
@@ -1000,24 +1000,25 @@ sure that this play
 action doesn't just always happen.
 
 0:19:32.070,0:19:36.960
-But not only depends on
+Rather, it should not only depend on
 the occupancy of this place
 
 0:19:36.960,0:19:40.740
-here, but also depends on whether
-we just have afternoon or not.
+here, but also on whether
+it is afternoon right now or not.
 
 0:19:40.740,0:19:48.480
 So whether the action "come out of
 school" was carried out in advance or not.
 
 0:19:48.480,0:19:56.460
-It may not be directly at the
+This 'play' (Spielen) action must not be
+already applicable right at the
 beginning of a new day (after the
 
 0:19:56.460,0:20:00.720
 day's work of the previous day
-is done) already this play action applicable.
+is done).
 
 0:20:02.310,0:20:03.120
 Now you can ask yourself:
@@ -1060,7 +1061,7 @@ meaning of it should ultimately
 be that it's in the afternoon.
 
 0:20:38.070,0:20:40.650
-This passage is
+This place is
 supposed to somehow express
 
 0:20:40.650,0:20:42.990
@@ -1069,7 +1070,7 @@ afternoon right now, not morning.
 
 0:20:42.990,0:20:49.530
 So I'm going to
-name those appropriately for now.
+name it appropriately for now.
 
 0:20:50.100,0:20:51.210
 I call it "afternoon".
@@ -1124,10 +1125,10 @@ play, because this place is occupied here.
 
 0:21:53.250,0:21:56.430
 There is a token consumed from here on the one
-hand, and on the other hand, it is looked whether
+hand, and on the other hand, it is checked whether
 
 0:21:56.430,0:21:57.720
-it is in the afternoon at all.
+it is currently afternoon at all.
 
 0:21:57.720,0:22:00.060
 The problem is:
@@ -1247,7 +1248,7 @@ We don't really want
 two tokens to accumulate here.
 
 0:23:58.890,0:24:01.590
-This afternoon token, it's really
+This afternoon place, it's really
 just to represent the fact:
 
 0:24:01.590,0:24:02.070
@@ -1283,7 +1284,7 @@ it's easier to read everything. Other than
 that, I'm not changing anything right now).
 
 0:24:43.910,0:24:47.420
-What would be the happening now?
+What would happen now?
 
 0:24:47.420,0:24:53.000
 Coming out of
@@ -1320,22 +1321,22 @@ or the next school morning.
 
 0:25:14.570,0:25:18.290
 That is, although there are still tokens
-accumulated here, can not be played now.
+accumulated here, playing is not possible now.
 
 0:25:18.290,0:25:20.120
-Because has not yet returned from school.
+Because the return from school has not happened yet.
 
 0:25:20.120,0:25:24.050
-If again from the school is returned,
-then it is in the afternoon, then can
+If he returns from school again,
+then it is afternoon. Then he can
 
 0:25:24.050,0:25:31.130
-be played, can be used up here even
-the saved up tokens of the previous day.
+play, and the saved-up tokens
+from the previous day can even be used up here.
 
 0:25:31.130,0:25:35.210
-So if at the lecture was
-not so often the Playstation on, this
+So if on the previous day the
+Playstation wasn't on so often, this
 
 0:25:35.210,0:25:39.200
 can now be used more often the next day.
