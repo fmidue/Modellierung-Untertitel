@@ -1146,7 +1146,7 @@ The m0 in this case would be (1,2,0).
 
 00:21:15,290 --> 00:21:23,300
 There this relation is valid,
-because at every place the value,
+because at every position the value,
 
 00:21:23,300 --> 00:21:25,730
 which is here, is at least
