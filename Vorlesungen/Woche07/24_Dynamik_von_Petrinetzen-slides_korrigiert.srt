@@ -1121,7 +1121,7 @@ Das m0 in diesem Fall wäre (1,2,0).
 
 00:21:15,290 --> 00:21:23,300
 Da gilt diese Relation, da
-an jeder Stelle der Wert,
+an jeder Position der Wert,
 
 00:21:23,300 --> 00:21:25,730
 der hier steht, mindestens so
