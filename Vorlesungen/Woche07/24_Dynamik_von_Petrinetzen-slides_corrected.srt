@@ -45,7 +45,7 @@ corresponded to the occupancy of the places
 at the beginning on the graphical page.
 
 00:01:02,930 --> 00:01:08,670
-Since, the marking function m0
+There, the marking function m0
 would be used to count
 
 00:01:08,670 --> 00:01:14,550
@@ -65,8 +65,8 @@ In particular, if there is to be no arrow from s
 to t or from t to s (in each case in the
 
 00:01:32,460 --> 00:01:40,110
-appropriate order), that from it can
-be read whether the pre-weight condition function
+appropriate order), it can be inferred from this
+whether the pre-weight condition function
 
 00:01:40,110 --> 00:01:44,490
 for that transition carries the value
@@ -256,7 +256,7 @@ How many tokens there are in total.
 Instead, it must be true for each
 
 00:04:56,690 --> 00:05:02,555
-token that m' carries a smaller value
+place that m' carries a smaller value
 or at most the same value as m.
 
 00:05:03,380 --> 00:05:05,960
@@ -267,7 +267,7 @@ Finally, we check that m has at least
 as many tokens as m' for each place.
 
 00:05:11,720 --> 00:05:14,060
-So, does m overlap m'?
+So, does m cover m'?
 
 00:05:17,870 --> 00:05:18,530
 Example:
@@ -364,7 +364,7 @@ and for 1000, but not for 2 and 1.
 
 00:06:53,690 --> 00:06:57,290
 Sometimes it is simply not
-the case that the overlap exists.
+the case that the coverage exists.
 
 00:06:57,290 --> 00:07:00,740
 And it may also be that
@@ -470,7 +470,7 @@ function of S into the natural numbers.
 And how is it defined?
 
 00:08:47,980 --> 00:08:48,850
-Well, in places.
+Place-wise.
 
 00:08:48,850 --> 00:08:56,260
 So for each element of S, we
@@ -581,7 +581,7 @@ the new marking at the place no
 
 00:10:52,240 --> 00:10:58,450
 longer carries as its value the sum,
-but the difference, of the two original sets.
+but the difference, of the two original markings.
 
 00:10:58,450 --> 00:11:00,490
 The order is of course important.
@@ -644,10 +644,10 @@ These were only definitions of
 mathematical kind for these markings.
 
 00:12:02,820 --> 00:12:05,340
-This has nothing to do with Petri nets.
+This doesn't yet have anything directly to do with Petri nets.
 
 00:12:05,340 --> 00:12:09,150
-But we just want to use that to describe
+But we want to use just that to describe
 
 00:12:09,960 --> 00:12:14,130
 the dynamics, the semantics, the meaning
@@ -964,7 +964,7 @@ brackets (not each one separately),
 
 00:17:47,460 --> 00:17:51,300
 and we write only the end
-token there (not also all intermediate markings).
+marking there (not also all intermediate markings).
 
 00:17:51,300 --> 00:17:59,640
 Or if we summarized this list
@@ -992,7 +992,7 @@ in my Petri nets.
 
 00:18:22,890 --> 00:18:29,520
 There I simulated, started
-executions and carried out circuits,
+executions and carried out firings,
 
 00:18:29,520 --> 00:18:34,200
 and in the left window the
@@ -1097,7 +1097,7 @@ must be possible to
 
 00:20:13,760 --> 00:20:15,440
 perform exactly two
-circuits/firings of transitions so
+firings of transitions so
 
 00:20:15,440 --> 00:20:28,355
 that somehow the tokens move in such a way
@@ -1115,7 +1115,7 @@ We can see that of these three transitions,
 only t1 is activated at the beginning anyway.
 
 00:20:40,220 --> 00:20:42,950
-Therefore, the first circuit really
+Therefore, the first firing really
 has to happen with t1.
 
 00:20:42,950 --> 00:20:52,250
@@ -1146,7 +1146,7 @@ The m0 in this case would be (1,2,0).
 
 00:21:15,290 --> 00:21:23,300
 There this relation is valid,
-because at every position the value,
+because at every place the value,
 
 00:21:23,300 --> 00:21:25,730
 which is here, is at least

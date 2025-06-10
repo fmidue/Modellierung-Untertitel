@@ -171,7 +171,7 @@ nodes, all edges, their labels.
 
 00:03:33,960 --> 00:03:37,140
 As a rule, in a flat
-state diagram, we still draw out a
+state diagram, we still designate a
 
 00:03:37,140 --> 00:03:40,830
 special state, namely the start state.
@@ -206,7 +206,7 @@ all the reachable markings, and
 
 00:04:10,410 --> 00:04:16,260
 of course makes it clear
-via the labels/labels of the
+via the labels on the
 
 00:04:16,260 --> 00:04:18,870
 edges how a particular
@@ -372,10 +372,10 @@ part from this solution here.
 
 00:06:59,050 --> 00:07:03,700
 You take (1,2,0) as the
-first marking and also draw it
+first marking and also mark it
 
 00:07:03,700 --> 00:07:07,360
-out by this input
+with this input
 arrow as the start marking.
 
 00:07:09,100 --> 00:07:14,470
@@ -541,7 +541,7 @@ On the one hand by
 
 00:09:38,920 --> 00:09:46,060
 and on the other hand by
-(per transition t3) the succession marking (0,2,1).
+(per transition t3) the subsequent marking (0,2,1).
 
 00:09:46,060 --> 00:09:53,770
 So then we would have developed
@@ -552,7 +552,7 @@ speak, still without the arrows
 going in the opposite direction.
 
 00:09:56,980 --> 00:10:02,110
-So these four states and the input token
+So these four states and the initial marking
 
 00:10:02,110 --> 00:10:04,390
 arrow, plus these three arrows here.
@@ -762,8 +762,8 @@ This is perhaps not as informative,
 from a modeling point of view,
 
 00:13:36,470 --> 00:13:41,930
-as this representation here, where we look at
-the transitions, so to speak, what they depend on.
+as this representation here, where we tell from the transitions,
+so to speak, what they depend on.
 
 00:13:41,930 --> 00:13:45,740
 That can be read
@@ -778,7 +778,7 @@ which conditions t1 is fireable.
 
 00:13:51,230 --> 00:13:56,990
 But properties of the Petri net
-can be examined at this representation.
+can be examined in this representation.
 
 00:13:56,990 --> 00:14:00,530
 In the first lecture on Petri
@@ -789,7 +789,7 @@ How can the system reach a dead end?
 
 00:14:04,460 --> 00:14:12,080
 And this can't be seen here directly,
-whether after some circuits it can happen
+whether after some firings it can happen
 
 00:14:12,080 --> 00:14:14,000
 that no further transitions are possible.
@@ -919,7 +919,7 @@ what the transitions do to the total
 
 00:16:00,900 --> 00:16:04,260
 number of tokens or to the
-number of tokens on individual positions.
+number of tokens on individual places.
 
 00:16:04,260 --> 00:16:06,780
 On the other hand, if we have this
