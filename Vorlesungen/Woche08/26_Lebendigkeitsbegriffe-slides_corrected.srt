@@ -833,7 +833,7 @@ are places but no transitions.
 
 00:15:09,750 --> 00:15:13,650
 Then, formally, the Petri
-net is definitly strongly live,
+net is definitely strongly live,
 
 00:15:13,650 --> 00:15:15,330
 and then this statement would not hold.
@@ -900,7 +900,7 @@ But it is not true that, so to
 speak, exactly these two things must be present
 
 00:16:37,890 --> 00:16:39,480
-for strong liveness to exist.
+for strong liveness to hold.
 
 00:16:39,480 --> 00:16:41,580
 These are independent qualities
