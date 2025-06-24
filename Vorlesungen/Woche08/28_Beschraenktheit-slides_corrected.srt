@@ -358,8 +358,8 @@ net itself does not matter at all.
 So here only the reachability
 
 00:06:49,540 --> 00:06:53,020
-graph is referred to
-and the reachable markings.
+graph and the reachable markings
+are referred to.
 
 00:06:53,020 --> 00:06:54,550
 And that can be
