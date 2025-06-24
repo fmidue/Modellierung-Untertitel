@@ -975,7 +975,7 @@ You can tell that this is a strict
 subset by the fact that there are also Petri
 
 0:20:23.980,0:20:29.140
-nets that live here, that is, they are deadlock-free
+nets that reside here, that is, they are deadlock-free
 and weakly live, but not strongly live.
 
 0:20:29.140,0:20:32.020
