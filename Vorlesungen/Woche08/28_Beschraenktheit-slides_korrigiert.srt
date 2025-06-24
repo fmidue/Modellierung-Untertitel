@@ -355,8 +355,8 @@ Gewichten steht, ist dafür völlig egal.
 Hier wird also nur auf
 
 00:06:49,540 --> 00:06:53,020
-den Erreichbarkeitsgraphen Bezug genommen
-und auf die erreichbaren Markierungen.
+den Erreichbarkeitsgraphen und die
+erreichbaren Markierungen Bezug genommen.
 
 00:06:53,020 --> 00:06:54,550
 Und das kann man im
