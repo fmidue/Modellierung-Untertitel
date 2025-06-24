@@ -172,7 +172,7 @@ would be put down at the bottom.
 
 0:03:14.990,0:03:18.260
 Because of this 3, which is
-at the starting arrow for t1.
+at the output arrow for t1.
 
 0:03:20.360,0:03:21.800
 That could then look
@@ -218,7 +218,7 @@ processes, which at some point lead
 
 0:03:53.900,0:03:57.080
 to 38 tokens or more
-lying on at least one position.
+lying on at least one place.
 
 0:03:59.960,0:04:03.320
 I hope that's clear basically as far as
@@ -236,7 +236,7 @@ again with these two tokens, and then
 
 0:04:12.830,0:04:19.250
 I would already have six tokens lying
-at the bottom on the s3 square afterwards.
+at the bottom on the s3 place afterwards.
 
 0:04:28.400,0:04:31.292
 And that is not bounded.

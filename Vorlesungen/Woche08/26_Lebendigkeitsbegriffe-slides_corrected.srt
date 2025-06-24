@@ -80,20 +80,20 @@ Later, other properties will be added.
 But the first small family of properties
 
 00:01:32,850 --> 00:01:37,860
-will be about aliveness and its opposite.
+will be about liveness and its opposite.
 
 00:01:40,950 --> 00:01:45,000
 There are several terms there, and the
-first one is not just called "aliveness",
+first one is not just called "liveness",
 
 00:01:45,000 --> 00:01:47,310
-but "strong aliveness".
+but "strong liveness".
 
 00:01:47,310 --> 00:01:49,290
 Here is the definition first.
 
 00:01:49,290 --> 00:01:55,890
-So a Petri net is called "strong liveness"
+So a Petri net is called "strongly live"
 if .... and then there is a definition here.
 
 00:01:55,890 --> 00:02:00,240
@@ -164,7 +164,7 @@ reachability graph, from where one never
 again gets the opportunity to fire t.
 
 00:03:21,230 --> 00:03:25,610
-Then the Petri net is strongly alive
+Then the Petri net is strongly live
 if that holds for every transition t.
 
 00:03:25,610 --> 00:03:34,170
@@ -273,7 +273,7 @@ for t3 the answer must be "yes".
 
 00:05:12,360 --> 00:05:17,190
 If for all three the answer is "Yes" in
-each case, then this Petri net would be strongly alive.
+each case, then this Petri net would be strongly live.
 
 00:05:19,050 --> 00:05:20,220
 You can then think about this here:
@@ -368,35 +368,35 @@ for example these both with t3
 moved up and thereby prevented that
 
 00:07:01,990 --> 00:07:05,800
-ever t1 is fireable again; and then
-of course also no other transition more.
+t1 is ever fireable again; and then
+of course also no other transition.
 
 00:07:05,800 --> 00:07:12,820
 So here the answer would actually be
 that this Petri net that we have
 
 00:07:12,820 --> 00:07:14,950
-seen is not strongly alive in that sense.
+seen is not strongly live in that sense.
 
 00:07:18,700 --> 00:07:20,470
 That would be "strong liveness."
 
 00:07:20,470 --> 00:07:22,090
-If there is "strong aliveness",
+If there is "strong liveness",
 
 00:07:22,090 --> 00:07:24,130
 then surely there is also
-a notion of "weak aliveness".
+a notion of "weak liveness".
 
 00:07:24,130 --> 00:07:26,860
 And perhaps our Petri
 net at least fulfills this.
 
 00:07:26,860 --> 00:07:29,350
-So what does "weak aliveness" mean?
+So what does "weak liveness" mean?
 
 00:07:29,350 --> 00:07:36,970
-A Petri net is weakly lively
+A Petri net is weakly live
 if for each transition t there
 
 00:07:36,970 --> 00:07:39,700
@@ -404,12 +404,12 @@ is a marking m reachable from
 m0 for which t is activated.
 
 00:07:40,360 --> 00:07:45,160
-With the strong liveness it was said
+With strong liveness it was said
 that for each transition t and each
 
 00:07:45,160 --> 00:07:49,990
-marking m attainable from m0 it is
-so that one can fire t sometime still.
+marking m reachable from m0 it is
+the case that one can still fire t at some point.
 
 00:07:49,990 --> 00:07:51,040
 While here it is only said:
@@ -440,7 +440,7 @@ So as the person who wants to
 try to prove that a Petri net is
 
 00:08:14,530 --> 00:08:20,560
-weakly lively, here one can sort of
+weakly live, here one can sort of
 choose a favorable reachable marking from m0.
 
 00:08:20,560 --> 00:08:23,980
@@ -476,7 +476,7 @@ also occur in the reachability graph.
 
 00:08:55,210 --> 00:09:00,790
 Because the reachability
-graph covers all circuits
+graph covers all firing sequences
 
 00:09:00,790 --> 00:09:03,940
 which are possible
@@ -507,7 +507,7 @@ already in the Petri net:
 
 00:09:27,190 --> 00:09:30,130
 Here we actually know, we
-have already seen circuits where
+have already seen firing sequences where
 
 00:09:30,130 --> 00:09:32,710
 t1 has been executed, as
@@ -592,7 +592,7 @@ seen every transition once, you can already say:
 
 00:11:04,020 --> 00:11:07,260
 The underlying Petri net
-was at least weakly alive.
+was at least weakly live.
 
 00:11:07,260 --> 00:11:13,020
 To also prove strong liveness, one would
@@ -610,7 +610,7 @@ What we have seen here is
 that a Petri net can be weakly
 
 00:11:29,490 --> 00:11:34,800
-lively even though it
+live even though it
 contains a deadlock, a
 
 00:11:34,800 --> 00:11:36,480
@@ -623,7 +623,7 @@ argue against weak liveness.
 
 00:11:38,250 --> 00:11:40,230
 It does, however,
-speak against strong aliveness.
+speak against strong liveness.
 
 00:11:40,230 --> 00:11:46,890
 And this kind of deadlock, impasse,
@@ -739,11 +739,11 @@ To be able to check that, again it
 is important that the reachability graph is finite.
 
 00:13:36,990 --> 00:13:40,050
-This check, in this way, for that
+This check, in this way, requires
 
 00:13:40,050 --> 00:13:46,020
 the reachability graph
-must be searched completely.
+to be searched completely.
 
 00:13:46,020 --> 00:13:47,400
 And that's only possible if it's finite.
@@ -794,22 +794,22 @@ sum than the weak liveness.
 
 00:14:34,140 --> 00:14:38,610
 So, in particular, it is
-true that any strong liveness
+true that any strongly live
 
 00:14:38,610 --> 00:14:41,280
 Petri net is both
-weakly liveness and deadlock-free.
+weakly live and deadlock-free.
 
 00:14:41,280 --> 00:14:42,180
 And vice versa:
 
 00:14:42,180 --> 00:14:46,020
 A Petri net that is not
-weakly lively cannot be strongly lively;
+weakly live cannot be strongly live;
 
 00:14:46,590 --> 00:14:50,370
 a Petri net that contains
-an entanglement cannot be strongly lively.
+a deadlock cannot be strongly live.
 
 00:14:50,370 --> 00:14:57,300
 This is true because we do
@@ -833,14 +833,14 @@ are places but no transitions.
 
 00:15:09,750 --> 00:15:13,650
 Then, formally, the Petri
-net is quite strongly alive,
+net is definitly strongly live,
 
 00:15:13,650 --> 00:15:15,330
 and then this statement would not hold.
 
 00:15:15,330 --> 00:15:19,950
 Since it would then be
-both strongly alive and deadlocked.
+both strongly live and deadlocked.
 
 00:15:19,950 --> 00:15:23,400
 But we consider, we
@@ -870,7 +870,7 @@ app of different combinations of the
 
 00:16:01,710 --> 00:16:05,520
 different properties in terms
-of aliveness and stuckness.
+of liveness and deadlocks.
 
 00:16:05,520 --> 00:16:09,960
 So looking at simple artificial
@@ -882,25 +882,25 @@ a matter of clearing up the
 
 00:16:14,790 --> 00:16:21,150
 misconception, which is also widespread and is often voiced
-in exercises or the exam, namely that freedom from
+in exercises or the exam, namely that deadlock-freeness,
 
 00:16:21,150 --> 00:16:27,570
-inhibition, so to speak, is precisely
-the difference between strong and weak liveliness.
+so to speak, is precisely
+the difference between strong and weak liveness.
 
 00:16:27,570 --> 00:16:31,290
 It is true that from
-strong aliveness follows weak aliveness
+strong liveness follows weak liveness
 
 00:16:31,290 --> 00:16:33,600
-and freedom from inhibition.
+and deadlock-freeness.
 
 00:16:33,600 --> 00:16:37,890
 But it is not true that, so to
 speak, exactly these two things must be present
 
 00:16:37,890 --> 00:16:39,480
-for strong aliveness to exist.
+for strong liveness to exist.
 
 00:16:39,480 --> 00:16:41,580
 These are independent qualities

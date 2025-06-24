@@ -16,7 +16,7 @@ Not about the numbers that were in there.
 
 00:00:22,620 --> 00:00:25,980
 So it was not about the
-number of tokens on single positions.
+number of tokens on single places.
 
 00:00:25,980 --> 00:00:30,090
 But it was about whether
@@ -162,10 +162,10 @@ also every marking that can be reached from
 
 00:03:02,540 --> 00:03:07,760
 there) also has the property that for
-every location that the Petri net has,
+every place that the Petri net has,
 
 00:03:07,760 --> 00:03:11,330
-the marking for that location gives
+the marking for that place gives
 a value of 1 at most.
 
 00:03:11,330 --> 00:03:17,390
@@ -188,7 +188,7 @@ We can see this immediately, because it
 has for example a 2 here, and also
 
 00:03:35,150 --> 00:03:43,490
-because the start tokener has more than
+because the start marking has more than
 one token on at least one place.
 
 00:03:44,240 --> 00:03:48,770
@@ -296,7 +296,7 @@ but you say "1-safe" to it.
 
 00:05:51,890 --> 00:05:55,850
 Besides that, there are other notions
-of boundedness, which also allow larger value.
+of boundedness, which also allow larger values.
 
 00:05:55,850 --> 00:05:59,660
 Which in particular do not already restrict
@@ -337,8 +337,7 @@ marking reachable from m0, has the property that for every place
 s (i.e. in every component in tuple notation) there is a
 
 00:06:28,550 --> 00:06:34,921
-number which is at most c. If c
-= 15, then this number should not be c.
+number which is at most c.
 
 00:06:34,921 --> 00:06:37,750
 If c = 15, there
@@ -380,7 +379,7 @@ marking m reachable from m0 and a place (not
 
 00:07:15,190 --> 00:07:21,820
 all places, but one place), so that actually
-times a value larger than c is assumed.
+a value larger than c is assumed.
 
 00:07:21,820 --> 00:07:25,780
 So "bounded" and "unbounded" are actually

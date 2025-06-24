@@ -284,7 +284,7 @@ Which one does it not have?
 
 0:05:26.660,0:05:32.150
 That can be actually
-only the strong liveliness.
+only the strong liveness.
 
 0:05:32.150,0:05:34.490
 Because if it had that, it
@@ -427,16 +427,15 @@ which this transition is fireable.
 But this Petri net is not strongly alive.
 
 0:08:29.580,0:08:38.640
-What this example also gives
-us is that while weak liveness
+What this example also gives us
+is that while strong liveness implies weak liveness
 
 0:08:38.640,0:08:40.230
-and non-deadlocking follow
-from strong liveness, not
+and deadlock-freedom, not
+every deadlock-free and weakly
 
 0:08:40.230,0:08:44.750
-every deadlock-free and weakly lively
-Petri net is also strongly lively.
+live Petri net is also strongly live.
 
 0:08:45.800,0:08:48.530
 This one is not.
@@ -562,7 +561,7 @@ as a token from here.
 This actually means:
 
 0:11:26.970,0:11:36.570
-If we paint the reachability graph here,
+If we draw the reachability graph here,
 it is very simple and very small.
 
 0:11:36.570,0:11:42.840
@@ -587,7 +586,7 @@ That is:
 
 0:12:02.550,0:12:05.970
 What you can see here on
-the right is the entire accessibility graph.
+the right is the entire reachability graph.
 
 0:12:05.970,0:12:11.970
 You can then also
@@ -608,8 +607,8 @@ t2 label in the whole reachability graph.
 So in fact it is not weakly lively.
 
 0:12:29.670,0:12:34.080
-It can't be strongly alive
-with it either, of course.
+It can therefore also not be
+strongly live, of course.
 
 0:12:34.080,0:12:43.380
 We already know that, because any strongly
@@ -671,7 +670,7 @@ exactly once to fire t2.
 
 0:13:51.670,0:13:56.050
 And when that happens,
-then we have deadlocking.
+then we have a deadlock.
 
 0:13:56.050,0:13:58.390
 So this is already
@@ -712,7 +711,7 @@ yes, every transition can be executed
 
 0:14:42.550,0:14:47.500
 at least once, in
-some sequence each time.
+some sequence.
 
 0:14:48.280,0:14:53.080
 If we again refer
@@ -752,11 +751,11 @@ occurs in the reachability graph.
 
 0:15:47.590,0:15:55.810
 If you have now followed
-the combinations, and given that weak
+the combinations, and given that strong
 
 0:15:55.810,0:15:59.530
-liveness and non-deadlocking follow
-from strong liveness (and
+liveness implies weak liveness
+and deadlock-freedom (and
 
 0:15:59.530,0:16:05.440
 so we cannot present
@@ -767,8 +766,8 @@ respectively result from alternations of
 "contains" versus "contains no deadlock",
 
 0:16:15.730,0:16:17.740
-is "strongly lively" versus "not
-strongly lively", is "weakly lively"
+"strongly lively" versus "not
+strongly lively", "weakly lively"
 
 0:16:17.740,0:16:26.380
 versus "not weakly lively"), then only
@@ -797,7 +796,7 @@ But that's not mathematically forbidden.
 It's a valid Petri net.
 
 0:16:45.370,0:16:47.710
-What is valid about this Petri net?
+What is true for this Petri net?
 
 0:16:47.710,0:16:49.030
 What can happen here?
@@ -880,17 +879,17 @@ This follows, among other things, from the
 fact that it is not weakly alive.
 
 0:18:16.860,0:18:19.590
-And what about deadlocking?
+And what about deadlocks?
 
 0:18:20.190,0:18:21.540
 The system is not deadlock-free either.
 
 0:18:22.380,0:18:27.540
 Because in the situation we have
-seen, we have reached an entrapment.
+seen, we have reached a deadlock.
 
 0:18:27.540,0:18:27.630
-It contains an entrapment.
+It contains a deadlock.
 
 0:18:27.630,0:18:34.170
 So that's still the last property (of
@@ -916,7 +915,7 @@ which possibilities/overlaps/combinations
 there are.
 
 0:19:10.780,0:19:13.270
-This is supposed to indicate quantities.
+This is supposed to indicate sets.
 
 0:19:13.270,0:19:16.240
 So there are all possible Petri
@@ -957,27 +956,27 @@ three interesting
 or desirable properties.
 
 0:19:56.320,0:20:00.910
-Also, we know that it is true
+Also, we know that it is true,
 
 0:20:00.910,0:20:04.810
 that any net that is strongly
-alive is also non-deadlocked and weakly alive.
+live is also deadlock-free and weakly live.
 
 0:20:04.810,0:20:11.170
 This is represented by the fact
-that this is a (strict) subset
+that this is a (strict) subset of the
 
 0:20:12.640,0:20:17.080
-of the average of
-deadlock-free and weakly alive nets.
+intersection of deadlock-free
+and weakly live nets.
 
 0:20:17.080,0:20:23.980
 You can tell that this is a strict
 subset by the fact that there are also Petri
 
 0:20:23.980,0:20:29.140
-nets that are alive here, so they're deadlock-free
-and weakly alive, but they're not strongly alive.
+nets that live here, that is, they are deadlock-free
+and weakly live, but not strongly live.
 
 0:20:29.140,0:20:32.020
 And we saw an example of that as well.
@@ -989,11 +988,11 @@ That would have been this example.
 No, it wouldn't.
 
 0:20:41.170,0:20:42.430
-This example would be such an
+This example would be such an example,
 
 0:20:42.430,0:20:47.560
-example that is uninhibited and
-weakly alive, but not strongly alive.
+that is deadlock-free and weakly
+live, but not strongly live.
 
 0:20:52.250,0:21:02.300
 This example would live at
@@ -1005,7 +1004,7 @@ somehow interesting positions here we
 
 0:21:05.510,0:21:11.450
 find an example in each case
-under the Petri nets just seen.
+among the Petri nets just seen.
 
 0:21:11.450,0:21:17.120
 So for example a net, which is free
