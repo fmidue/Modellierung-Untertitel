@@ -4,14 +4,14 @@ Let us come to
 the concept of concurrency.
 
 00:00:04,140 --> 00:00:08,730
-There it is that concurrency (like
+It is the case that concurrency (like
 
 00:00:08,730 --> 00:00:12,780
 causality) always refers
 to single transitions.
 
 00:00:13,320 --> 00:00:16,350
-With the causality we had observed
+With causality we had observed
 
 00:00:16,350 --> 00:00:21,810
 that in a Petri net two
@@ -41,7 +41,7 @@ the transitions, for example, which
 we have picked out there.
 
 00:00:46,620 --> 00:00:51,120
-And then, if necessary, they are
+And then they are potentially
 activated concurrently for a certain marking.
 
 00:00:51,120 --> 00:00:57,030
@@ -112,10 +112,10 @@ that is, again, a "marking."
 
 00:01:53,610 --> 00:02:00,150
 And we then check whether this is
-less-equal than the chosen relevant marking m.
+less than or equal to the chosen relevant marking m.
 
 00:02:00,150 --> 00:02:07,620
-And this smaller-equal, also to remember (or
+And this less-than-or-equal, as a reminder (or
 to look up in the old slides),
 
 00:02:07,620 --> 00:02:13,790
@@ -123,7 +123,7 @@ that meant that per place the entry
 that arose here on the left side must
 
 00:02:13,790 --> 00:02:17,870
-be smaller-equal to the entry on
+be less than or equal to the entry on
 the right side at the corresponding place.
 
 00:02:17,870 --> 00:02:20,720
@@ -158,7 +158,7 @@ about "concurrent" being the formal criterion
 
 00:02:53,450 --> 00:02:56,870
 that would in
-principle allow concurrent-parallel execution.
+principle allow simultaneous, parallel execution.
 
 00:02:56,870 --> 00:03:01,100
 So relevant here is
@@ -170,11 +170,11 @@ from the previous video on causality, there we
 
 00:03:08,270 --> 00:03:13,220
 had this example and observed for example
-that t1 was necessary condition for t4.
+that t1 was a necessary condition for t4.
 
 00:03:13,220 --> 00:03:22,730
 In the sense that
-we had sequential dependence.
+we had a sequential dependence.
 
 00:03:22,730 --> 00:03:28,190
 So t4, when we started like this
@@ -289,7 +289,7 @@ t2 and t3 from taking this
 
 00:05:13,340 --> 00:05:19,700
 token and this token, respectively, at the same
-time, and putting that down on the last position.
+time, and putting them down on the last position.
 
 00:05:19,700 --> 00:05:20,360
 What would that mean?
@@ -396,7 +396,7 @@ If we have transitions t1, t2,
 t3 and they are concurrently activated, then
 
 00:07:05,080 --> 00:07:08,260
-only t1, t2 together
+just t1 and t2 together
 would also be concurrently activated.
 
 00:07:08,260 --> 00:07:13,330
@@ -450,12 +450,11 @@ So, that also a one-element
 set can be concurrently activated; there is
 
 00:07:58,240 --> 00:08:01,145
-not really something concurrently activated, if
-that is n = 1.
+not really anything concurrent, if n = 1.
 
 00:08:01,145 --> 00:08:03,310
 So it is
-interesting from two-element sets.
+interesting starting from two-element sets.
 
 00:08:03,310 --> 00:08:06,940
 And the larger the set, the
