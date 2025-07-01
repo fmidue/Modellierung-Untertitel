@@ -474,7 +474,7 @@ to the firing of t1 and/or t2.
 00:09:04,480 --> 00:09:10,570
 But not \{t1, t2\} together and consequently
 not \{t1, t2, t3\} all three together.
-^	
+
 00:09:10,570 --> 00:09:12,400
 Because then again would be valid:
 
