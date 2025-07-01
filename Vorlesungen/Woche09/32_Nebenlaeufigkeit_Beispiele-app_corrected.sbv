@@ -12,11 +12,11 @@ t2 and t3 were activated concurrently here.
 
 0:00:17.700,0:00:22.740
 Of course, we can first consider that
-t2 and t3 are each activated by itself.
+t2 and t3 are each activated by themselves.
 
 0:00:22.740,0:00:28.080
 And that's pretty obvious, because for instance t2 has
-as a precondition only this one token of s2.
+as a precondition only this one token from s2.
 
 0:00:28.080,0:00:29.100
 And that one is present.
@@ -64,7 +64,7 @@ So, what I had just
 done with the two individual tokens,
 
 0:01:07.050,0:01:11.568
-I could intuitively do in parallel.
+I could intuitively do that in parallel.
 
 0:01:11.568,0:01:12.240
 I could also say:
@@ -101,11 +101,11 @@ could do so without
 interfering with each other.
 
 0:01:53.910,0:01:58.800
-And that's what also the formal
-condition (which was on the slide),
+And that is also what the formal
+condition (which was on the slide)
 
 0:01:58.800,0:02:04.830
-ultimately expressed by this sum
+ultimately expresses by this sum
 and comparison with the current marking.
 
 0:02:04.830,0:02:06.300
@@ -121,14 +121,14 @@ are different, it
 can look quite different.
 
 0:02:15.640,0:02:18.820
-So if we had about this same example,
+So if we had, for instance, this same example,
 
 0:02:18.820,0:02:26.500
 but had another arrow (so
-still an additional dependency), we say
+an additional dependency), let's say
 
 0:02:26.500,0:02:36.940
-about here another arrow (which is then of
+for instance, here another arrow (which is then of
 course an additional precondition) from s3 to t2.
 
 0:02:40.990,0:02:45.820
@@ -136,7 +136,7 @@ This would mean that there are now two
 precondition places for t2, namely s2 and s3.
 
 0:02:47.710,0:02:48.820
-What would then be valid here?
+What would then apply here?
 
 0:02:48.820,0:02:49.810
 It would still hold
@@ -177,7 +177,7 @@ simultaneously as in the previous example.
 
 0:03:20.080,0:03:23.470
 Because in order for t2 to fire,
-it would take out these two tokens.
+it would consume these two tokens.
 
 0:03:23.470,0:03:29.050
 And then t3 cannot fire
@@ -208,7 +208,7 @@ For example, if we were to make another
 change here, namely to have it so that there
 
 0:04:05.170,0:04:13.120
-are two tokens on s3 of
+are two tokens on s3 in
 our marking, then it would again be
 
 0:04:13.120,0:04:18.460
@@ -216,11 +216,11 @@ true that t2 is activated, t3 is activated,
 and even t2 and t3 are also activated concurrently.
 
 0:04:18.460,0:04:23.290
-In the situation, it would be
-again that we could of course fire
+In this situation, it would again be the
+case that we could of course fire t2 and
 
 0:04:23.290,0:04:24.880
-t2 and t3 concurrent/parallel.
+t3 concurrently/in parallel.
 
 0:04:24.880,0:04:33.250
 Because then t2 would be able to take
@@ -289,7 +289,7 @@ On the slide also appeared:
 
 0:06:05.935,0:06:10.870
 Not only can we have
-two transitions concurrent, but about here
+two transitions concurrently, but here for instance
 
 0:06:10.870,0:06:17.650
 the T' set of concurrently
@@ -339,7 +339,7 @@ duplicate anything, of course.
 
 0:07:03.880,0:07:07.660
 So when I take the token
-out, it really has to go.
+out, it really has to disappear.
 
 0:07:07.660,0:07:08.890
 So it could be
@@ -364,12 +364,12 @@ So the concrete marking that we
 have here, with only two tokens at
 
 0:07:32.410,0:07:39.550
-the top, ensures that the quantity t1, t2 and
-the quantity t2, t3 and the quantity t1 t3 are
+the top, ensures that the set t1, t2 and
+the set t2, t3 and the set t1, t3 are
 
 0:07:39.550,0:07:44.890
 each activated concurrently, but the total
-quantity t1, t2, t3 is not.
+set t1, t2, t3 is not.
 
 0:07:46.090,0:07:51.400
 Because the two tokens above are not enough to
@@ -390,7 +390,7 @@ because there are more cross dependencies.
 Especially at this point, of course.
 
 0:08:10.750,0:08:12.910
-What is valid here?
+What applies here, for instance?
 
 0:08:12.910,0:08:19.150
 First of all, t1, t2, t3
@@ -440,7 +440,7 @@ to go to t2, and completely independently t3
 
 0:09:13.320,0:09:18.030
 would be able to consume this token, and thus
-just t2, t3 would be able to fire concurrently.
+t2 and t3 would be able to fire concurrently.
 
 0:09:18.030,0:09:20.640
 However, not t1 and t2.
