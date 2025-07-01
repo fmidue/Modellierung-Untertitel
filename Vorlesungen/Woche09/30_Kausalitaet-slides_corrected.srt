@@ -32,7 +32,7 @@ until next week, or
 we'll deal with them then.
 
 00:00:37,590 --> 00:00:43,680
-Then we will have formally summarized almost
+Then we will have formally defined almost
 all the properties that were discussed informally before.
 
 00:00:43,680 --> 00:00:47,760
@@ -53,13 +53,13 @@ single transitions in a Petri net.
 
 00:01:04,110 --> 00:01:06,810
 All the properties about
-liveness and about boundedness
+liveness and boundedness
 
 00:01:06,810 --> 00:01:10,260
 were properties of Petri nets as a whole.
 
 00:01:10,260 --> 00:01:13,890
-A Petri net is strongly lively or not.
+A Petri net is strongly live or not.
 
 00:01:13,890 --> 00:01:15,930
 A Petri net is bounded or not.
@@ -106,23 +106,23 @@ dependence of one transition on another.
 
 00:02:08,610 --> 00:02:12,910
 One says, a transition t1
-in a given Petri net is
+in a given Petri net is a
 
 00:02:12,910 --> 00:02:16,930
 necessary condition for the firing of
 the transition t2, if it is
 
 00:02:16,930 --> 00:02:21,880
-so that t2 cannot be fired,
-without that before somehow t1 was fired.
+so that t2 cannot be fired
+without t1 having been fired somehow before.
 
 00:02:21,880 --> 00:02:32,200
-So if for any firing sequence (using
-this notation t-serpent) that somehow leads from the
+So if for every firing sequence (using
+this notation t-tilde) that somehow leads from the
 
 00:02:32,200 --> 00:02:51,880
 original initial marking to the firing of
-t2, the case is that this t-serpent
+t2, it is the case that this t-tilde
 
 00:02:51,880 --> 00:02:55,990
 must in any case contain transition t1, because
@@ -136,14 +136,14 @@ constellation where t2 is fired
 and t1 wasn't fired before.
 
 00:03:02,380 --> 00:03:04,600
-So if always then in such a constellation
+So if in such a constellation
 
 00:03:04,600 --> 00:03:08,710
 in any case t1 must
 occur in this firing sequence.
 
 00:03:08,710 --> 00:03:11,410
-Then t1 is called
+Then t1 is called a
 necessary condition for t2.
 
 00:03:11,410 --> 00:03:15,340
@@ -163,8 +163,8 @@ reachable at all, that is,
 it occurs in the reachability graph.
 
 00:03:26,110 --> 00:03:32,035
-This would be already the case for
-every transition in weakly living Petri nets.
+This would already be the case for
+every transition in weakly live Petri nets.
 
 00:03:32,035 --> 00:03:37,210
 Furthermore, the definition is not interesting
@@ -182,7 +182,7 @@ It can't have been fired before that.
 
 00:03:44,410 --> 00:03:48,250
 So this is interesting for
-weakly alive Petri nets or at
+weakly live Petri nets or at
 
 00:03:48,250 --> 00:03:51,160
 least Petri nets where t2
@@ -206,7 +206,7 @@ So, if we look at
 the reachability graph and ask ourselves:
 
 00:04:06,740 --> 00:04:08,810
-Is t1 necessary condition for t2?
+Is t1 a necessary condition for t2?
 
 00:04:08,810 --> 00:04:11,570
 Then that would be the case if all nodes
@@ -275,7 +275,7 @@ be fired in this Petri net.
 
 00:05:15,260 --> 00:05:18,530
 And from this it already follows that
-t1 is necessary condition for the others.
+t1 is a necessary condition for the others.
 
 00:05:18,530 --> 00:05:21,140
 Every execution which would be
@@ -352,7 +352,7 @@ it also for t2 and t3,
 
 00:06:35,490 --> 00:06:39,570
 but I wrote down here:
-t1 is necessary condition for t4.
+t1 is a necessary condition for t4.
 
 00:06:39,570 --> 00:06:46,890
 Let's actually look at this
@@ -377,19 +377,19 @@ here, here, here and here.
 
 00:07:01,350 --> 00:07:04,920
 And if we look at the
-corresponding output nodes, in which t4
+corresponding nodes, in which t4
 
 00:07:04,920 --> 00:07:10,500
 is activated (that would be this
 one, this one, this one and
 
 00:07:10,500 --> 00:07:14,250
-this one=, then they can only be
+this one), then they can only be
 reached via paths in which t1 occurs.
 
 00:07:15,030 --> 00:07:17,730
 Because t1 is the
-bottleneck to fire first.
+bottleneck that must be fired first.
 
 00:07:17,730 --> 00:07:22,950
 On the other hand, it
@@ -403,8 +403,8 @@ is only reachable by paths in which t2 occurs.
 So for this node, for example, it's true.
 
 00:07:29,640 --> 00:07:33,480
-Here I can fire t4, and
-before I did both t1 and t2.
+Here I can fire t4, and before that
+I have fired both t1 and t2.
 
 00:07:33,480 --> 00:07:36,570
 However, there are also
@@ -415,7 +415,7 @@ one, where t4 is fireable and
 where I never executed t2 before.
 
 00:07:40,950 --> 00:07:45,930
-Then you can't say that t2 is
+Then you can't say that t2 is a
 necessary condition for t4; but t1 is.
 
 00:07:50,670 --> 00:07:54,000
@@ -440,7 +440,7 @@ and t2 had not appeared before.
 
 00:08:07,830 --> 00:08:14,340
 So according to this definition then t2
-would not be necessary condition for t4.
+would not be a necessary condition for t4.
 
 00:08:18,100 --> 00:08:21,550
 And the same is true for t3.
@@ -492,7 +492,7 @@ Causality is transitive in the sense
 that, for example, order relations are transitive.
 
 00:09:15,570 --> 00:09:20,340
-This should be a concept at least for the
+This should be a familiar concept at least for the
 
 00:09:20,340 --> 00:09:21,990
 Komedia students from
@@ -507,12 +507,12 @@ So it's quite obviously true, or
 you can deduce from the definition,
 
 00:09:32,700 --> 00:09:36,300
-that if, for example, t1 is
-necessary condition for t2 and t2 is
+that if, for example, t1 is a
+necessary condition for t2 and t2 is a
 
 00:09:36,300 --> 00:09:42,555
 necessary condition for t3, then t1
-is also necessary condition for t3.
+is also a necessary condition for t3.
 
 00:09:42,555 --> 00:09:43,650
 So that continues.
