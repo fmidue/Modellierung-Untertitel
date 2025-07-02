@@ -8,7 +8,7 @@ Petri nets, namely
 the concept of conflict.
 
 00:00:07,890 --> 00:00:13,500
-There it is again about two transitions,
+This is again about two transitions,
 which can be in conflict or not.
 
 00:00:13,500 --> 00:00:17,220
@@ -62,8 +62,8 @@ That is, each one could fire,
 but they cannot both fire concurrently.
 
 00:01:07,230 --> 00:01:12,210
-Because they are in conflict, or
-by that a conflict is defined then.
+Because they are in conflict, or rather,
+that is how a conflict is defined.
 
 00:01:12,210 --> 00:01:18,780
 So exactly
@@ -71,7 +71,7 @@ this descriptive consideration.
 
 00:01:18,780 --> 00:01:21,600
 This is then checked
-with the prebalance functions.
+with the pre-weight functions.
 
 00:01:21,600 --> 00:01:25,320
 What is concurrent, we
@@ -102,11 +102,11 @@ place in the precondition.
 
 00:01:53,300 --> 00:01:58,550
 So there must be a place s such
-that both the preweight function for t with
+that both the pre-weight function for t with
 
 00:01:58,550 --> 00:02:04,580
 respect to s requires at least one
-token and the preweight function for t'.
+token and the pre-weight function for t'.
 
 00:02:04,580 --> 00:02:10,610
 If this is not so, and
@@ -144,8 +144,8 @@ the preconditions, there must
 also be a conflict.
 
 00:02:35,930 --> 00:02:42,230
-So to check the presence of
-a conflict is always with the definition.
+So, the presence of a conflict
+must always be checked using the definition.
 
 00:02:42,230 --> 00:02:53,570
 Okay, an example: a Petri
@@ -175,10 +175,10 @@ this can only be due to.
 
 00:03:16,910 --> 00:03:19,040
 It can only be
-because of this common point.
+because of this common place.
 
 00:03:19,040 --> 00:03:20,540
-That is the only common point.
+That is the only common place.
 
 00:03:20,540 --> 00:03:23,120
 So somehow it could cause a conflict.
@@ -195,7 +195,7 @@ But as drawn here, there is a conflict.
 
 00:03:30,830 --> 00:03:39,290
 And the check is simple using
-the definition for activated and concurrency.
+the definition for activation and concurrency.
 
 00:03:39,290 --> 00:03:41,960
 Yes, so t1 must be activated.
@@ -225,7 +225,7 @@ left that is no larger than on the right.
 
 00:04:08,760 --> 00:04:12,090
 And that's the definition
-of t1 being enabled.
+of t1 being activated.
 
 00:04:12,090 --> 00:04:17,670
 That showed up relatively early in
@@ -236,14 +236,14 @@ Very similarly, t2 is also activated.
 
 00:04:22,020 --> 00:04:24,540
 Because there the
-preweight function looks a
+pre-weight function looks a
 
 00:04:24,540 --> 00:04:29,010
 little bit different (because t2 requires a
-marking from s2 and s3 each), but also
+token from s2 and s3 each), but also
 
 00:04:29,010 --> 00:04:33,495
-this preweight function is
+this pre-weight function is
 smaller-equal than the current marking.
 
 00:04:33,495 --> 00:04:36,690
@@ -252,7 +252,7 @@ and t2 are not activated concurrently.
 
 00:04:36,690 --> 00:04:41,130
 Because for this the sum of these two
-preweight functions (here again written down as a sum)
+pre-weight functions (here again written down as a sum)
 
 00:04:41,130 --> 00:04:46,080
 would also have to be
@@ -310,14 +310,14 @@ course t2 and t3 are in conflict.
 
 00:05:29,910 --> 00:05:33,930
 Yes, there the picture is very similar, there
-it's simply a matter of these three precondition points.
+it's simply a matter of these three precondition places.
 
 00:05:35,070 --> 00:05:39,300
 And then there's the problem here
 that s3 only has one token, but
 
 00:05:39,300 --> 00:05:43,800
-if we add the preweight functions of
+if we add the pre-weight functions of
 t2 and t3, we would need a 2.
 
 00:05:43,800 --> 00:05:50,190
@@ -339,27 +339,27 @@ Here it says (0,0,1,1,0,0,0).
 
 00:06:01,320 --> 00:06:04,968
 Yes, this then belongs here to t3,
-there is this and this place occupied.
+this and this place are occupied.
 
 00:06:04,968 --> 00:06:08,340
 Also this and this place
 corresponds to a 1 in the
 
 00:06:08,340 --> 00:06:12,960
-preweight, and then the sum would be
-(1,1,1,0,0,0), and that would still be under here.
+pre-weight, and then the sum would be
+(1,1,1,1,0,0,0), and that would still fit under here.
 
 00:06:12,960 --> 00:06:18,660
 That is, t1 and t3 are, after all,
 activated concurrently, so they cannot be in conflict.
 
 00:06:18,660 --> 00:06:26,850
-And also with the circumstantial
+And also with the indication
 from the previous slide, we know:
 
 00:06:26,850 --> 00:06:32,146
 t1 and t3 can't be in conflict
-anyway because they don't share a precondition site.
+anyway because they don't share a precondition place.
 
 00:06:32,146 --> 00:06:36,390
 Yes, t1 depends only on these two
@@ -388,7 +388,7 @@ causal for t3, then t1 is also causal for t3.
 
 00:06:56,610 --> 00:07:00,390
 With concurrency, we had
-seen, this is not present.
+seen, this is not the case.
 
 00:07:00,390 --> 00:07:02,580
 And this is also not
@@ -418,18 +418,17 @@ so that there is just no concurrency.
 
 00:07:31,530 --> 00:07:34,890
 So as soon as we have two
-transitions, which are activated in each case.
+transitions, which are each activated.
 
 00:07:34,890 --> 00:07:36,030
 Otherwise it's boring.
 
 00:07:36,030 --> 00:07:37,710
-They must be activated in each case.
+They must be each activated.
 
 00:07:37,710 --> 00:07:40,860
 But they are not concurrent,
 so they are automatically in conflict.
 
 00:07:40,860 --> 00:07:45,750
-In the exercise mode of
-course then again more to it.
+More on this in the exercise sessions, of course.

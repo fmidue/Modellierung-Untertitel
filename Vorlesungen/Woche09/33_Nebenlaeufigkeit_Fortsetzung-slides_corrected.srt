@@ -34,7 +34,7 @@ So I actually have to do
 the math that in each case this
 
 00:00:43,710 --> 00:00:46,230
-relation holds, for the example
+relation holds, for this example
 and for the other examples.
 
 00:00:46,230 --> 00:00:48,360
@@ -64,8 +64,8 @@ is exactly the function which can
 be written down as the 4-tuple (0,1,0,0).
 
 00:01:11,400 --> 00:01:16,950
-Because exactly only of s2
-here is an input arrow.
+Because the only input arrow
+here is from s2.
 
 00:01:16,950 --> 00:01:20,100
 And analogously at t3
@@ -76,7 +76,7 @@ Because of this
 
 00:01:25,920 --> 00:01:31,560
 input arrow going from s3 to t3, and
-because there are no other incoming arrows after t3.
+because there are no other incoming arrows to t3.
 
 00:01:31,560 --> 00:01:35,370
 That explains these two statements here.
@@ -102,7 +102,7 @@ these two 4-tuples, that is, (0,1,1,0).
 
 00:01:56,670 --> 00:02:03,330
 And in that case, it turns out
-that this is exactly equal (less-equal would do,
+that this is exactly equal (less than or equal to would do,
 
 00:02:03,330 --> 00:02:06,750
 but it is even exactly equal in
@@ -196,7 +196,7 @@ larger, there would still be simply
 
 00:03:56,790 --> 00:04:03,630
 the problem concerning this only one
-token lying on s3 by (0,1,2,0).
+token lying on s3 due to (0,1,2,0).
 
 00:04:04,560 --> 00:04:06,360
 What I had also already
@@ -305,12 +305,12 @@ And it is again the
 case that this exactly coincides.
 
 00:06:00,055 --> 00:06:03,220
-There comes out in sum (3,0,0,0),
+The sum comes out to (3,0,0,0),
 and that is exactly equal, and
 
 00:06:03,220 --> 00:06:07,780
-therefore also smaller-equal, than
-the marking to be seen.
+therefore also less than or equal to,
+the marking shown.
 
 00:06:07,780 --> 00:06:11,230
 This is because we have
@@ -324,7 +324,7 @@ Many would not be bad.
 
 00:06:13,600 --> 00:06:16,090
 If there were 4 here,
-the "less-equal" would be fulfilled.
+the "less than or equal to" would be fulfilled.
 
 00:06:16,090 --> 00:06:18,820
 But "too few" would
@@ -348,7 +348,7 @@ functions of t1 and t2, (2,0,0,0) comes out.
 
 00:06:38,950 --> 00:06:40,930
 This is also
-less-than-equal to (3,0,0,0).
+less than or equal to (3,0,0,0).
 
 00:06:40,930 --> 00:06:46,570
 This again agrees with this observation from
@@ -389,7 +389,7 @@ So every two-element set, which we
 can form over transitions, is a set,
 
 00:07:23,170 --> 00:07:29,440
-where the transitions shown in it
+where the transitions contained in it
 for this constellation are activated concurrently.
 
 00:07:29,440 --> 00:07:32,500
@@ -423,7 +423,7 @@ two pre-weight functions give
 a marking, namely (2,0,0,0), which
 
 00:08:00,790 --> 00:08:05,920
-is nowhere undercut by
+is not undercut anywhere by
 the marking shown here.
 
 00:08:05,920 --> 00:08:10,090
@@ -453,8 +453,8 @@ there again, although of course you could.
 In that example, we had discussed that
 
 00:08:40,630 --> 00:08:47,740
-one of each of the two transitions with
-t3 is concurrent, but t1 and t2 are not.
+one of each of the two transitions is
+concurrent with t3, but not t1 and t2.
 
 00:08:47,740 --> 00:08:50,050
 Unless, of course,
@@ -468,7 +468,7 @@ The sets \{t1, t3\} and also \{t2, t3\} are
 in each case activated concurrently, because the firing of
 
 00:08:57,700 --> 00:09:04,480
-t3 is just as it were contact-free
+t3 is just as it were, contact-free
 to the firing of t1 and/or t2.
 
 00:09:04,480 --> 00:09:10,570
@@ -479,8 +479,8 @@ not \{t1, t2, t3\} all three together.
 Because then again would be valid:
 
 00:09:12,400 --> 00:09:18,370
-If t1, t2, t3 were activated concurrently, also
-t1, t2 would have to be activated concurrently.
+If t1, t2, t3 were activated concurrently,
+then t1, t2 would also have to be activated concurrently.
 
 00:09:18,370 --> 00:09:22,600
 But this is not the case, because we
@@ -504,7 +504,7 @@ would actually be activated concurrently.
 We had also discussed this.
 
 00:09:43,450 --> 00:09:49,120
-What this example still shows is
+What this example also shows is
 that unlike causality (as discussed at the
 
 00:09:49,120 --> 00:09:54,880
@@ -523,12 +523,12 @@ t1 and t2 are not concurrent.
 It was different with causality.
 
 00:10:05,590 --> 00:10:09,700
-If t1 was necessary condition for t2
-and t2 was necessary condition for t3,
+If t1 was a necessary condition for t2
+and t2 was a necessary condition for t3,
 
 00:10:09,700 --> 00:10:12,280
 then t1 was also
-necessary condition for t3.
+a necessary condition for t3.
 
 00:10:12,280 --> 00:10:25,700
 This is not necessarily analogous for
@@ -559,7 +559,7 @@ then any arrangement of the transitions
 
 00:10:56,000 --> 00:11:00,920
 is a valid firing sequence starting from
-m. This is the case with the set.
+m. This is the case with this set.
 
 00:11:00,920 --> 00:11:04,580
 I had discussed this exactly on the
@@ -586,19 +586,19 @@ t2, t3, and that's a general observation.
 
 00:11:23,180 --> 00:11:26,690
 So if I have a
-set of concurrently activated transitions, then
+set of concurrently activated transitions,
 
 00:11:26,690 --> 00:11:30,290
-we won't look at a firing sequence
-as firing in parallel (because the firing
+then we won't be able to tell from a firing sequence
+that they fire in parallel (because the firing
 
 00:11:30,290 --> 00:11:35,660
 sequences are always listings of transitions),
-but at least then any sequence
+but at least then any
 
 00:11:35,660 --> 00:11:39,920
-of the corresponding transitions
-is a valid firing sequence.
+arbitrary order of the corresponding
+transitions is a valid firing sequence.
 
 00:11:39,920 --> 00:11:45,020
 So any sequence in which each transition
@@ -656,7 +656,7 @@ from a marking m in any order
 
 00:12:37,410 --> 00:12:42,300
 example that was in the video; because no
-matter what marking would be on here and
+matter what token would be on here and
 
 00:12:42,300 --> 00:12:44,520
 no matter what order I
@@ -664,7 +664,7 @@ then fire t1, t2, t3), the
 
 00:12:44,520 --> 00:12:50,396
 result is that in the end there is
-exactly one marking on each of the subsequent places.
+exactly one token on each of the subsequent places.
 
 00:12:50,396 --> 00:12:55,890
 That would be a case
@@ -706,13 +706,13 @@ this example, then it looks like this:
 There is this square here.
 
 00:13:39,840 --> 00:13:41,700
-I have also said "diamond" to it before.
+I have also called it a "diamond" before.
 
 00:13:41,700 --> 00:13:46,144
 It depends on how you draw it.
 
 00:13:46,144 --> 00:13:51,000
-Higher dimensionally, it will look even more
+In higher dimensions, it will look even more
 obvious, so to speak, like a crystal structure.
 
 00:13:51,000 --> 00:13:52,740
@@ -749,12 +749,12 @@ If we have more than two
 transitions, then that just becomes something
 
 00:14:24,870 --> 00:14:30,180
-like a higher
-dimensional such mathematical construct.
+like such a higher-dimensional
+mathematical construct.
 
 00:14:30,180 --> 00:14:36,270
 So for instance if we have
-that, but just also in other Petri
+that, but also in other Petri
 
 00:14:36,270 --> 00:14:40,170
 nets where we have three concurrent transitions
@@ -976,7 +976,7 @@ can calculate it concretely.
 
 00:18:55,820 --> 00:19:02,660
 Of course, our criterion in each case
-will be to determine that with this.
+will be to determine it using this.
 
 00:19:02,660 --> 00:19:07,040
 Or if you have done that often
