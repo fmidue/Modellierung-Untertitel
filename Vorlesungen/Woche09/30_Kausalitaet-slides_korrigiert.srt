@@ -374,7 +374,7 @@ Ausgangsknoten anschauen, in denen
 
 00:07:04,920 --> 00:07:10,500
 also t4 aktiviert ist (das wäre
-dieser, dieser, dieser und dieser=,
+dieser, dieser, dieser und dieser),
 
 00:07:10,500 --> 00:07:14,250
 dann sind die jeweils nur über Wege
