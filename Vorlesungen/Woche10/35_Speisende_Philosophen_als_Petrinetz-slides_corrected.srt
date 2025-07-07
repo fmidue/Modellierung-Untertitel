@@ -24,7 +24,7 @@ Petri net.
 
 00:00:32,720 --> 00:00:35,890
 That was the
-so-called feeding philosophers.
+so-called dining philosophers.
 
 00:00:35,890 --> 00:00:46,440
 At the beginning of this example I
@@ -125,7 +125,7 @@ F3).
 
 00:02:18,280 --> 00:02:23,969
 And then the description of the situation
-gave that the philosophers get hungry from time
+stated that the philosophers get hungry from time
 
 00:02:23,969 --> 00:02:27,590
 to time (we will
@@ -213,7 +213,7 @@ On the other hand, I will now
 explain how the philosophers find themselves here.
 
 00:04:08,650 --> 00:04:12,159
-Immediately obviously one
+At first glance, one
 cannot recognize them here.
 
 00:04:12,159 --> 00:04:19,320
@@ -261,7 +261,7 @@ that in the description.
 
 00:05:02,340 --> 00:05:08,320
 This would be the state after the
-right fork has already been gripped and,
+right fork has already been picked up and,
 
 00:05:08,320 --> 00:05:13,110
 if necessary, the left fork must be waited
@@ -324,12 +324,12 @@ be represented here by this part of the Petri
 net.
 
 00:06:16,310 --> 00:06:22,460
-So the three passages on being hungry, on
+So the three places on being hungry, on
 waiting, and on eating, which relate to philosopher
 
 00:06:22,460 --> 00:06:31,990
 1, and ultimately this
-transition before the waiting passage.
+transition before the waiting place.
 
 00:06:31,990 --> 00:06:38,710
 This is also a transition that belongs to
@@ -399,7 +399,7 @@ So they would be ready to reach for
 forks in order to be able to eat then.
 
 00:07:50,610 --> 00:07:54,750
-How are all the convolutions justified?
+How are all these connections justified?
 
 00:07:54,750 --> 00:07:58,980
 For example, we see here that in
@@ -433,8 +433,8 @@ He must have grabbed
 the right fork beforehand.
 
 00:08:28,810 --> 00:08:33,570
-That is, this waiting condition must
-have been taken by philosopher 1, and
+That is, philosopher 1 must have entered
+this waiting state, and
 
 00:08:33,570 --> 00:08:38,269
 then he must be able to grasp the
@@ -787,7 +787,7 @@ simply let P1 do it.
 
 00:15:02,510 --> 00:15:05,070
 For example, are there
-also possibilities of entrapment here?
+also possibilities of deadlock here?
 
 00:15:05,070 --> 00:15:08,439
 We already know intuitively
@@ -889,13 +889,13 @@ reached a deadlock here.
 
 00:16:54,299 --> 00:16:59,299
 This also tells us that the
-model is certainly not strongly alive.
+model is certainly not strongly live.
 
 00:16:59,299 --> 00:17:00,410
 One might still ask:
 
 00:17:00,410 --> 00:17:02,290
-Is it at least weakly alive?
+Is it at least weakly live?
 
 00:17:02,290 --> 00:17:06,980
 The answer would be yes, because we have
@@ -916,7 +916,7 @@ Not in every pass.
 
 00:17:15,040 --> 00:17:21,820
 But from the initial marking every
-transition is in principle also once executable
+transition is in principle also executable at least once
 
 00:17:21,820 --> 00:17:27,839
 by suitable choices
