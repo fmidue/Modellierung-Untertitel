@@ -1,6 +1,6 @@
 210 # slide
 00:00:00,000 --> 00:00:07,770
-Nach einer ganzen Reihe Inhalten und
+Nach einer ganzen Reihe von Inhalten und
 Videos zu Petrinetzen, nun zurück zu UML.
 
 00:00:07,770 --> 00:00:13,350
@@ -140,7 +140,7 @@ beschreiben würde. Sondern da geht es darum,
 Ablaufpläne, Reihenfolgen von Aktionen,
 
 00:02:34,890 --> 00:02:38,910
-Parallelität von Aktion, also solche
+Parallelität von Aktionen, also solche
 dynamischen Aspekte modellieren zu können.
 
 00:02:38,910 --> 00:02:41,850
@@ -256,7 +256,7 @@ eben in der Software-Modellierung eher einen
 
 00:04:55,320 --> 00:05:03,420
 beschreibenden Charakter haben und nicht
-unbedingt der formalen Analyse dienen soll.
+unbedingt der formalen Analyse dienen sollen.
 
 00:05:03,420 --> 00:05:09,300
 O.k., also Aktivitätsdiagramme und tatsächlich
