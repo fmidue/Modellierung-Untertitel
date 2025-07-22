@@ -607,7 +607,7 @@ wir sogar in dem Beispiel hier,
 dass wir jetzt Hilfstransitionen einführen müssen.
 
 00:11:15,150 --> 00:11:19,230
-Also dann diese Stelle dafür sorgt, dass
+Also, dass dann diese Stelle dafür sorgt, dass
 wir so eine Verzweigung haben können.
 
 00:11:19,230 --> 00:11:22,140
@@ -2091,7 +2091,7 @@ Und dann kann man diese Darstellung mit solch
 einer Zerlegung der Ebene in mehrere Bereiche
 
 00:39:13,130 --> 00:39:18,380
-nutzenm denen dann eben diese Elemente zugeordnet
+nutzen denen dann eben diese Elemente zugeordnet
 werden, um diese Verantwortlichkeiten auszudrücken.
 
 00:39:18,380 --> 00:39:22,220
