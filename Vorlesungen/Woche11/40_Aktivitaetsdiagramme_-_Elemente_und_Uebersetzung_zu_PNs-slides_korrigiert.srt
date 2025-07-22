@@ -91,7 +91,7 @@ mit dem entsprechenden Namen sein.
 
 00:01:45,990 --> 00:01:49,830
 Und weil es um Aktionen geht,
-könnte man als so Indiz nehmen,
+könnte man als Indiz nehmen,
 
 00:01:49,830 --> 00:01:54,750
 dass man da in der Regel dann Namen hat, die
@@ -528,7 +528,7 @@ Wo aus alternativen Wegen
 immer genau einer gewählt wird.
 
 00:09:38,970 --> 00:09:43,500
-Also keine Aufsplitterung von
+Also keine Aufsplittung vom
 Kontrollfluss oder von Token,
 
 00:09:43,500 --> 00:09:47,700
