@@ -11,11 +11,11 @@ for class and object diagrams, i.e.
 for static modeling.
 
 00:00:15,210 --> 00:00:19,920
-Whereas on dynamic modeling, we've
+Whereas for dynamic modeling, we've
 actually had Petri nets so far,
 
 00:00:19,920 --> 00:00:22,950
-and related concepts
+and related concepts like
 reachability graphs, etc.
 
 00:00:22,950 --> 00:00:29,280
@@ -27,8 +27,8 @@ was also dynamic modeling, yes we also
 used that to describe or model processes.
 
 00:00:34,920 --> 00:00:40,440
-So, we have not yet looked at
-dynamic aspects in these two respects with UML.
+So, we have considered dynamic aspects
+in these two respects, but not yet with UML.
 
 00:00:40,440 --> 00:00:48,330
 If you go back to the classifications
@@ -40,7 +40,7 @@ of models we considered:
 
 00:00:50,730 --> 00:00:55,710
 Under the dynamic aspects, there
-was both qualitative and quantitative models.
+were both qualitative and quantitative models.
 
 00:00:55,710 --> 00:00:59,640
 So especially with the Petri nets
@@ -82,7 +82,7 @@ That was really about
 the inner workings of systems.
 
 00:01:34,320 --> 00:01:39,750
-And in sum, with the Petri nets, it was
+And especially with the Petri nets, it was
 important to us, and that kept us busy, that we
 
 00:01:39,750 --> 00:01:44,700
@@ -188,8 +188,8 @@ should be described which types, which
 sequences of steps should be allowed.
 
 00:03:38,460 --> 00:03:44,070
-And this of course does not correspond to
-the Petri nets, where we also had a focus
+And it is no coincidence that this corresponds
+to the Petri nets, where we also had a focus
 
 00:03:44,070 --> 00:03:49,110
 on which sequences of transitions should be
@@ -208,7 +208,7 @@ by translating activity
 diagrams into Petri nets.
 
 00:04:02,250 --> 00:04:05,250
-So then will see
+So then we will see
 what the correspondence looks like.
 
 00:04:05,250 --> 00:04:07,380
@@ -216,15 +216,15 @@ In fact, activity diagrams,
 
 00:04:07,380 --> 00:04:14,220
 as is common in UML, are richer
-than now this formal mechanism of Petri nets.
+than this formal mechanism of Petri nets.
 
 00:04:14,220 --> 00:04:18,870
-They provide more modeling possibilities, so
-also more syntax, more different kinds
+They provide more modeling possibilities, i.e.
+more syntax, more different kinds
 
 00:04:18,870 --> 00:04:21,957
 of nodes, not just places and
-transitions, as in Petri nets Petri nets.
+transitions, as in Petri nets.
 
 00:04:21,957 --> 00:04:26,010
 Where that was sort of a
@@ -232,7 +232,7 @@ very simple, very basic representation only.
 
 00:04:26,010 --> 00:04:30,180
 So we'll see in a moment that
-there are more elements there in activity diagrams.
+there are more elements in activity diagrams.
 
 00:04:30,180 --> 00:04:35,070
 The flip side is that
@@ -244,10 +244,10 @@ that we can ask about Petri nets
 
 00:04:38,820 --> 00:04:43,440
 and also answer unambiguously because
-they are just as mathematically precise.
+they are just so mathematically precise,
 
 00:04:43,440 --> 00:04:48,000
-Will not be possible for
+will not be possible for
 activity diagrams in the same way.
 
 212 # slide
@@ -257,7 +257,7 @@ activity diagrams have a descriptive character
 
 00:04:55,320 --> 00:05:03,420
 in software modeling and should not
-necessarily serve the formal analysis first.
+necessarily serve the formal analysis.
 
 00:05:03,420 --> 00:05:09,300
 O.k., so activity diagrams and actually
@@ -324,7 +324,7 @@ flat state diagram at the
 beginning of the lecture either.
 
 00:06:08,850 --> 00:06:10,800
-Then there was just
+There were just
 nodes and arrows in between.
 
 00:06:10,800 --> 00:06:14,160
@@ -338,11 +338,10 @@ you can imagine that there are nodes
 and arrows like in a flat state diagram.
 
 00:06:22,320 --> 00:06:24,630
-And one carries out just
-here such actions: Choose a
+And one carries out such actions here:
 
 00:06:24,630 --> 00:06:27,630
-building site, look for an architect,
+Choose a building site, look for an architect,
 create a plan, submit a plan.
 
 00:06:27,630 --> 00:06:31,740
