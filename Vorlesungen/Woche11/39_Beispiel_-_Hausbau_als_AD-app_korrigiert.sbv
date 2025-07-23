@@ -42,22 +42,22 @@ der für den Start des Aktivitätsdiagramms steht.
 Dann nutzen wir so ein Token.
 
 0:00:51.960,0:00:57.690
-Wir packen das jetzt nicht wie im
-Petrinetz direkt auf die Kreise,
+Wir packen das jetzt nicht, wie bei den Stellen
+und Transitionen im Petrinetz, direkt auf die Kreise,
 
 0:00:57.690,0:01:03.270
 sondern notieren das hier mal neben diesem
-Aktionsknoten, wie er gleich heißen wird.
+Aktionsknoten, wie er gleich heißen wird
 
 0:01:03.840,0:01:09.330
-Dann müsste ein erster Schritt hier
-sein, einen Bauplatz zu wählen,
+und würden dann sagen: Ein erster Schritt müsste
+hier sein, einen Bauplatz zu wählen,
 
 0:01:09.330,0:01:11.580
-weil wir einfach dem ersten Pfeil gefolgt sind.
+weil wir einfach dem ersten Pfeil gefolgt sind,
 
 0:01:11.580,0:01:24.090
-Wie letztlich hier vorgegeben, durch diese
+wie letztlich hier vorgegeben, durch diese
 erste Verbindung im Aktivitätsdiagramm.
 
 0:01:24.840,0:01:27.660
@@ -113,7 +113,7 @@ Man könnte sagen, bisher war
 dieses Token vor allem dafür da,
 
 0:02:25.970,0:02:30.260
-irgendwie eine
+irgendwie eine Reihenfolge oder
 aktuelle Position zu markieren.
 
 0:02:30.260,0:02:33.530

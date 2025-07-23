@@ -58,7 +58,7 @@ building site, because we
 simply followed the first arrow.
 
 0:01:11.580,0:01:24.090
-As ultimately pretend here, through this
+as is ultimately specified here, through this
 first link in the activity diagram.
 
 0:01:24.840,0:01:27.660
@@ -87,7 +87,7 @@ come in on this side now.
 
 0:01:49.140,0:01:54.990
 And the only outgoing arrow would be
-that we go on, to create plan.
+that we go on, to "create plan".
 
 0:01:54.990,0:02:01.530
 So then we would be
@@ -106,8 +106,8 @@ This would actually be something like a place
 in the Petri net where something can be deposited.
 
 0:02:16.850,0:02:21.920
-Where if necessary also, if there were
-several entrances, for example, several plans could lie.
+Where, if there were
+multiple inputs, for example, several plans could be present.
 
 0:02:21.920,0:02:25.970
 You could say, so far
@@ -115,7 +115,7 @@ this token was mainly there to
 
 0:02:25.970,0:02:30.260
 somehow mark a sequence or
-to mark a current position.
+a current position.
 
 0:02:30.260,0:02:33.530
 In this object node we have here,
@@ -138,7 +138,7 @@ have a plan, what happens to that?
 
 0:02:49.550,0:02:54.890
 Well the outgoing arrow would be
-to the next action, submit a plan.
+to the next action, "submit a plan".
 
 0:02:55.580,0:02:58.430
 Then it turns out, after
@@ -178,10 +178,10 @@ this notation here, which
 
 0:03:28.850,0:03:34.340
 has to be somehow
-evidenced from the application.
+defined by the application.
 
 0:03:34.340,0:03:38.330
-Somewhere there has to be a term
+Somewhere there has to be a definition
 for a plan, whether it's acceptable or not.
 
 0:03:38.330,0:03:41.870
@@ -197,11 +197,10 @@ that we have here would in fact
 
 0:03:51.710,0:03:54.830
 not be accepted, then we
-would just move on here.
+would just move on here,
 
 0:03:54.830,0:03:58.160
-And thus arrive again
-at this this node, which
+and thus arrive again at this node, which
 
 0:03:58.160,0:04:02.450
 again has only one possible outcome, which is
@@ -215,7 +214,7 @@ a new plan is submitted and reviewed.
 
 0:04:08.990,0:04:12.770
 Then it might happen that we
-have to go through this circle
+have to go through this loop
 
 0:04:12.770,0:04:15.980
 again and at some point we
@@ -257,11 +256,11 @@ where one of the two outputs is taken.
 
 0:04:55.640,0:05:01.930
 But here, with the bar, the so-called
-forking, it is to be understood actually in
+fork, it is actually to be understood
 
 0:05:01.930,0:05:07.850
-such a way that this token is
-divided now two. So we have the
+that this token is now split in two.
+So we have the
 
 0:05:07.850,0:05:11.390
 idea, like with Petri nets, that we
@@ -283,15 +282,15 @@ tokens it is more interesting now.
 We're not going left or right.
 
 0:05:22.340,0:05:24.590
-But rather we go left and right
-the next actions at the same time.
+But rather we perform the next actions
+to the left and right at the same time.
 
 0:05:25.430,0:05:28.130
 That's not what a
 flat state diagram allows.
 
 0:05:28.130,0:05:34.640
-In our wolf-goat-carbon-head problem there was
+In our wolf-goat-cabbage problem there was
 no such thing, in this constellation.
 
 0:05:34.640,0:05:38.150
@@ -314,7 +313,7 @@ work on the construction site takes place first and
 
 0:05:50.630,0:05:55.730
 then work in the office, or vice versa,
-or factually at the same time after all.
+or in fact at the same time after all.
 
 0:05:55.730,0:05:59.750
 The point is,
@@ -325,25 +324,24 @@ Let's assume both were performed.
 
 0:06:03.770,0:06:11.750
 Then we would be at this element,
-which obviously looks like the opposite of this.
+which obviously looks like the opposite of this,
 
 0:06:11.750,0:06:14.240
-Because now there are two
+because now there are two
 inputs and one output arrow.
 
 0:06:14.240,0:06:16.940
-And actually this is the synchronization
+And in fact, this is the join node.
 
 0:06:16.940,0:06:19.910
-point, so here these
-two tokens would merge again.
+Here, the two tokens would merge again.
 
 0:06:19.910,0:06:21.070
 For this they both have to be there.
 
 0:06:21.070,0:06:26.230
 So if the one token would still
-be here, the other token can't progress here.
+be here, the other token couldn't progress here.
 
 0:06:26.230,0:06:33.370
 But if both tokens in
@@ -368,7 +366,7 @@ would end at this place.
 Since this special node stands for the
 
 0:06:52.450,0:06:57.460
-fact that the river ends, and there
+fact that the flow ends, and there
 are also no further exit arrows from there.
 
 0:06:59.170,0:07:04.360
@@ -396,18 +394,18 @@ node, alternatives can be represented here.
 
 0:07:24.430,0:07:29.470
 So, it has something of a flat state
+diagram,
 
 0:07:29.470,0:07:32.140
-diagram, but is more
-through the additional elements.
+but it is more, due to the additional elements.
 
 0:07:32.140,0:07:35.710
-It also has a bit of
-a Petri net, through this token concept.
+It also is a bit of a
+Petri net, due to this token concept.
 
 0:07:35.710,0:07:38.950
 Still, it makes sense to
-not just take Petri nets,
+not just use Petri nets,
 
 0:07:38.950,0:07:42.280
 but to use these
@@ -442,10 +440,10 @@ that these elements, like this one for
 
 0:08:12.070,0:08:16.060
 example, already have a very special meaning, which
-one must first reconstruct with the Petri net,
+one must first reconstruct in a Petri net,
 
 0:08:16.060,0:08:18.100
-and it cannot necessarily be
+and cannot necessarily be
 done with exactly one node.
 
 0:08:19.690,0:08:23.500
@@ -456,8 +454,8 @@ We often had in Petri
 nets many places and transitions,
 
 0:08:27.160,0:08:30.190
-which did not have a
-meaningful name for each of them.
+which did not each have a
+meaningful name.
 
 0:08:30.190,0:08:34.780
 Whereas here we can assign
