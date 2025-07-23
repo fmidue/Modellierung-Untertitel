@@ -517,10 +517,10 @@ That was after "creating a plan".
 
 00:09:19,230 --> 00:09:23,850
 There, we wanted to submit it
-and there should then be the possibility,
+and there should then be the possibility
 
 00:09:23,850 --> 00:09:26,640
-either that the plan is accepted or not.
+that either the plan is accepted or not.
 
 00:09:26,640 --> 00:09:31,350
 And that led to
@@ -623,15 +623,15 @@ we can have such a branch.
 We couldn't do that directly.
 
 00:11:22,140 --> 00:11:26,430
-Yes, if we did the same here too, there
+Yes, if we did the same here too, if there
 followed another node like that in the example,
 
 00:11:26,430 --> 00:11:30,780
-then we can't just say,
+then we couldn't just say
 we'll replace it again with
 
 00:11:30,780 --> 00:11:33,390
-a place like this node,
+a place like this node
 and have a direct connection.
 
 00:11:33,390 --> 00:11:34,110
@@ -681,11 +681,11 @@ In the same way this can
 be also with the reverse order.
 
 00:12:11,580 --> 00:12:16,050
-So not only with following, but
+So not only with following but
 also with preceding decision or object nodes.
 
 00:12:16,050 --> 00:12:20,310
-And also the merge nodes,
+And also the merge nodes
 which we will see shortly.
 
 00:12:20,310 --> 00:12:23,430
@@ -887,7 +887,7 @@ so either the distribution nodes
 or others we will see shortly,
 
 00:16:00,150 --> 00:16:03,240
-of these, one assumes
+of these one assumes
 that they simply happen immediately.
 
 00:16:03,240 --> 00:16:06,060
@@ -1261,10 +1261,10 @@ the same time, so to speak.
 
 00:23:06,300 --> 00:23:10,230
 So a bar doesn't necessarily have to
-have one input, multiple outputs, or vice-versa,
+have one input, multiple outputs, or vice-versa.
 
 00:23:10,770 --> 00:23:16,170
-it could also have multiple inputs
+It could also have multiple inputs
 at the top and multiple outputs at the bottom.
 
 00:23:16,170 --> 00:23:18,210
@@ -1402,8 +1402,8 @@ would have to be just
 here the second token, so
 
 00:25:34,740 --> 00:25:40,590
-that also the transitions, which are
-translated and drawn in here below, can fire.
+that also the transitions which are
+translated and drawn in here below can fire.
 
 00:25:40,590 --> 00:25:46,230
 So a place with as many tokens
