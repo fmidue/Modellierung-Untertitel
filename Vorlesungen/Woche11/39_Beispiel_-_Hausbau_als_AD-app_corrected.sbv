@@ -55,7 +55,7 @@ have to be to choose a
 
 0:01:09.330,0:01:11.580
 building site, because we
-simply followed the first arrow.
+simply followed the first arrow,
 
 0:01:11.580,0:01:24.090
 as is ultimately specified here, through this
@@ -259,7 +259,7 @@ But here, with the bar, the so-called
 fork, it is actually to be understood
 
 0:05:01.930,0:05:07.850
-that this token is now split in two.
+in such a way that this token is now split in two.
 So we have the
 
 0:05:07.850,0:05:11.390
@@ -341,7 +341,7 @@ For this they both have to be there.
 
 0:06:21.070,0:06:26.230
 So if the one token would still
-be here, the other token couldn't progress here.
+be here, the other token could not progress here.
 
 0:06:26.230,0:06:33.370
 But if both tokens in
@@ -443,7 +443,7 @@ example, already have a very special meaning, which
 one must first reconstruct in a Petri net,
 
 0:08:16.060,0:08:18.100
-and cannot necessarily be
+which cannot necessarily be
 done with exactly one node.
 
 0:08:19.690,0:08:23.500
