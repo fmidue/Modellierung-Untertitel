@@ -187,7 +187,7 @@ werden soll, welche Arten, welche Reihenfolgen
 von Schritten dabei erlaubt sein sollen.
 
 00:03:38,460 --> 00:03:44,070
-Und das entspricht natürlich nicht zufällig den
+Und das entspricht nicht nur zufällig den
 Petrinetzen, wo wir auch einen Fokus darauf hatten,
 
 00:03:44,070 --> 00:03:49,110
