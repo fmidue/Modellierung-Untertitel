@@ -327,7 +327,7 @@ einem tatsächlichen Rechteck.
 
 00:05:51,790 --> 00:05:57,790
 Die stehen intuitiv
-sozusagen für eine Ablagerungsmöglichkeit,
+sozusagen für eine Ablagemöglichkeit,
 
 00:05:57,790 --> 00:06:00,490
 für einen Speicher für konkrete Objekte.
