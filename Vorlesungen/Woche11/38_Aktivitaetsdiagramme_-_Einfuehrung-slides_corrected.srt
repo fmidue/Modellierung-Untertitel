@@ -188,7 +188,7 @@ should be described which types, which
 sequences of steps should be allowed.
 
 00:03:38,460 --> 00:03:44,070
-And it is no coincidence that this corresponds
+And it is not just coincidence that this corresponds
 to the Petri nets, where we also had a focus
 
 00:03:44,070 --> 00:03:49,110
