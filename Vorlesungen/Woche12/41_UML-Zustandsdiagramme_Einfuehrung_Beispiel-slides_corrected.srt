@@ -1,7 +1,7 @@
 229 # slide
 00:00:01,860 --> 00:00:04,200
 Let's move on to
-the chapter on statecharts.
+the chapter on state diagrams.
 
 00:00:04,200 --> 00:00:07,350
 Especially UML statecharts.
@@ -29,7 +29,7 @@ we will get to know in a moment.
 Concerning usage.
 
 00:00:38,970 --> 00:00:45,630
-Statecharts are used when the
+State diagrams are used when the
 
 00:00:45,630 --> 00:00:49,890
 focus of modeling is on
@@ -40,8 +40,8 @@ So a bit away
 from what activity diagrams do.
 
 00:00:53,460 --> 00:00:58,440
-In a way also the Petri
-nets namely to aim at action sequences.
+In a way also the Petri nets,
+which primarily aim at action sequences.
 
 00:00:58,440 --> 00:01:00,870
 So putting the actions in the foreground.
@@ -59,7 +59,7 @@ is no typical sequence.
 
 00:01:11,220 --> 00:01:17,520
 Rather, the focus is on
-sequences and events that occur randomly
+sequences of events that occur randomly
 
 00:01:17,520 --> 00:01:22,800
 or are equally likely
@@ -70,11 +70,12 @@ This is not to say
 that there are not systems that
 
 00:01:24,210 --> 00:01:26,250
-can usefully be modeled with Petri
+can be meaningfully modeled with both
+Petri nets/activity diagrams
 
 00:01:28,080 --> 00:01:31,680
-nets/activity diagrams as well as
-flat or UML state diagrams.
+as well as with flat 
+or UML state diagrams.
 
 00:01:31,680 --> 00:01:33,840
 These are all
@@ -105,8 +106,8 @@ And then it has to be
 described what that does to the states,
 
 00:02:09,660 --> 00:02:12,660
-or what new state is
-then taken by the system.
+or what new state the system
+then enters.
 
 00:02:12,660 --> 00:02:16,800
 Instead of simply putting sequences
@@ -144,7 +145,7 @@ processes in user interfaces.
 Embedded systems.
 
 00:02:52,230 --> 00:02:56,070
-One can certainly continue the list long.
+One can certainly continue this list.
 
 00:02:56,070 --> 00:03:01,500
 Because states and transitions have
@@ -177,29 +178,29 @@ slides, in the first or second
 
 00:03:29,550 --> 00:03:34,020
 week, I had given
-an article by Mr. Harel.
+an article by David Harel.
 
 00:03:34,020 --> 00:03:38,130
 That is the original
 paper where statecharts were introduced.
 
 00:03:38,130 --> 00:03:42,510
-And with about different
+And with a somewhat different
 syntax, they later entered UML.
 
 00:03:42,510 --> 00:03:50,130
-A major goal
-of UML statecharts/statecharts is
+A major goal of UML
+statecharts/statecharts is to deal with
 
 00:03:50,130 --> 00:03:51,960
-what can happen in flat statecharts.
+what can happen in flat state diagrams.
 
 00:03:51,960 --> 00:03:56,032
 Namely, to get a handle on the
 fact that the state space grows a lot.
 
 00:03:56,032 --> 00:03:59,790
-There are simply certain features
+There are simply certain new features
 that statecharts are equipped with.
 
 00:03:59,790 --> 00:04:02,970
@@ -207,7 +208,7 @@ In addition to simply
 states and state transitions,
 
 00:04:02,970 --> 00:04:08,640
-which already existed in flat statecharts,
+which already existed in flat state diagrams,
 there are, for example, refinements of states.
 
 00:04:08,640 --> 00:04:13,170
@@ -237,15 +238,15 @@ That it's important to be able to express
 that; or interesting to be able to model that.
 
 00:04:36,150 --> 00:04:40,800
-In statecharts (UML and statecharts)
+In state diagrams (UML and statecharts)
 there is an explicit concept
 
 00:04:40,800 --> 00:04:45,300
 here for what is
-called parallel switching through regions.
+called parallel switching, using regions.
 
 00:04:45,300 --> 00:04:50,730
-Which a flat statechart does
+Which a flat state diagram does
 not allow to express explicitly.
 
 00:04:50,730 --> 00:04:55,170
@@ -253,8 +254,8 @@ And also this will lead
 us to model more compactly
 
 00:04:55,170 --> 00:04:57,990
-in UML statecharts
-than with flat statecharts.
+in UML state diagrams
+than with flat state diagrams.
 
 00:04:57,990 --> 00:05:04,080
 A related feature, which
@@ -265,8 +266,8 @@ or possible to deal with
 these two aspects, is history nodes.
 
 00:05:09,420 --> 00:05:11,689
-I haven't had much to
-say about that yet either.
+I don't have much to
+say about that yet.
 
 00:05:11,689 --> 00:05:14,010
 We'll see when we get
@@ -288,8 +289,8 @@ In order to be able
 to resume work later when returning
 
 00:05:31,350 --> 00:05:37,140
-to such a hierarchical/parallel connected
-area of the state diagram.
+to such a hierarchical/parallel
+region of the state diagram.
 
 00:05:37,140 --> 00:05:40,890
 Instead of having to store
@@ -320,22 +321,22 @@ have a lot of states.
 
 00:06:13,680 --> 00:06:16,350
 Or if you have many states,
-to group them in a meaningful way.
+to group them in a meaningful way,
 
 00:06:16,350 --> 00:06:19,080
-That the diagram still remains clear.
+so that the diagram still remains clear.
 
 00:06:19,080 --> 00:06:25,470
 So the goal is a size
-reduction, versus using a flat state diagram.
+reduction, compared to using a flat state diagram.
 
 00:06:26,320 --> 00:06:30,700
-What will not occur here that
+What will not occur here is that
 we switch between finite and infinite.
 
 00:06:30,700 --> 00:06:34,810
 We usually assume flat
-statecharts to be finite.
+state diagrams to be finite.
 
 00:06:34,810 --> 00:06:39,670
 And even a finite UML state diagram will
@@ -348,7 +349,7 @@ infinite flat state diagram.
 This is different from Petri nets.
 
 00:06:44,980 --> 00:06:48,490
-An infinite Petri net can
+A finite Petri net can
 have an infinite reachability graph.
 
 00:06:48,490 --> 00:06:52,060
@@ -430,7 +431,7 @@ What should be the intuition here?
 This below is not yet a state diagram.
 
 00:08:14,800 --> 00:08:17,800
-I'm just giving in a stylized
+I'm just showing in a stylized
 
 00:08:20,230 --> 00:08:23,980
 way how the wristwatch can
@@ -460,15 +461,15 @@ It can be in
 a so-called time display mode.
 
 00:08:37,150 --> 00:08:40,780
-Then we have just here
-in the display the current time.
+Then we have the current time
+here on the display.
 
 00:08:40,780 --> 00:08:46,750
 The hour and minute
 hand, but digitally displayed.
 
 00:08:46,750 --> 00:08:50,290
-Or it can be in an alarm setting.
+Or it can be on an alarm display.
 
 00:08:50,290 --> 00:08:51,880
 You can set an alarm.
@@ -511,7 +512,7 @@ So if we are in the alarm setting display
 
 00:09:24,400 --> 00:09:27,310
 and we press a again, we
-come back to the time setting.
+come back to the time display.
 
 00:09:27,310 --> 00:09:28,840
 And we want to
@@ -604,7 +605,7 @@ alarm setting, then we turn the alarm off.
 
 00:10:51,160 --> 00:10:54,400
 Then we also want to be
-able to switch back to the time.
+able to switch back to the time display.
 
 00:10:54,400 --> 00:10:56,620
 And not just after we turn the alarm on.
@@ -655,7 +656,7 @@ whether we turned the alarm
 
 00:11:35,390 --> 00:11:40,250
 on or off the last time
-we were in the alarm setting.
+we were in the alarm display.
 
 00:11:40,250 --> 00:11:42,080
 And then switched to the time display.
@@ -691,7 +692,7 @@ time or the alarm state/alarm setting?
 
 00:12:07,820 --> 00:12:18,140
 If you think about it now, if
-you wanted to model some flat state diagram,
+you wanted to model this with some flat state diagram,
 
 00:12:18,140 --> 00:12:19,775
 you would need quite a lot of states.
