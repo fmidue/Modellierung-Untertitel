@@ -226,7 +226,7 @@ ein System modellieren wollen,
 das gar nicht terminieren soll.
 
 00:04:04,470 --> 00:04:06,540
-Es soll immer weiterlaufen und
+Die Uhr soll immer weiterlaufen und
 nicht irgendwo stehen bleiben.
 
 00:04:06,540 --> 00:04:08,370
@@ -1001,7 +1001,7 @@ Und separat dazu soll es noch diese
 Also vorstellbar: wir haben Alarm an, Alarm aus,
 
 00:18:31,630 --> 00:18:34,300
-und zwischen denen soll es Trigger geben.
+und zwischen denen soll es einen Trigger geben.
 
 00:18:34,300 --> 00:18:39,160
 Mit dem Drücken des Knopfes
@@ -1123,7 +1123,7 @@ zwischen "an" und "aus" zu wechseln.
 
 00:21:05,770 --> 00:21:11,080
 Der Vorteil hier ist: wir können, was wir für die
-Zwitzählung gemacht haben, einfach weiter verwenden,
+Stundenzählung gemacht haben, einfach weiter verwenden,
 
 00:21:11,080 --> 00:21:17,710
 und diese Alarm-Komponente als
