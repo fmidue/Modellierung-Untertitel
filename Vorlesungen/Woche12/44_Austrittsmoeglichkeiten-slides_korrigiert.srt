@@ -269,7 +269,7 @@ Austritt aus dem Ganzen wählen.
 
 00:05:38,150 --> 00:05:46,010
 Was ist bei Austritt aus
-einem spetifischen Unterzustand?
+einem spezifischen Unterzustand?
 
 00:05:46,010 --> 00:05:56,000
 Also, wenn wir so etwas wie diese Situation
@@ -277,7 +277,7 @@ haben, dann dürfen wir den Regionen-Zustand
 
 00:05:56,000 --> 00:06:01,910
 nur dann verlassen, wenn wir in dieser Region
-tatsächlich bei dem entsprechend Zustand sind.
+tatsächlich bei dem entsprechenden Zustand sind.
 
 00:06:01,910 --> 00:06:06,770
 Ja, also wir dürften den Regionen-Zustand insgesamt
