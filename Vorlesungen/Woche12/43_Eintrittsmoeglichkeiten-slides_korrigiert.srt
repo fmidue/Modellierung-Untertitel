@@ -118,7 +118,7 @@ Wichtig ist, bzw. zunächst einmal
 festzuhalten und auch zu berücksichtigen,
 
 00:02:29,870 --> 00:02:33,560
-wenn sie etwa selber Zustandsdiagramme erstellen,
+wenn Sie etwa selber Zustandsdiagramme erstellen,
 
 00:02:33,560 --> 00:02:40,640
 dass es von jedem dieser H- oder H*-Knoten
@@ -133,7 +133,7 @@ Und hier stehen auch keine Trigger
 dran an diesem Pfeil. Nur an den
 
 00:02:51,500 --> 00:02:55,880
-Eintrittpfeilen oder gegebenenfalls auch
+Eintrittspfeilen oder gegebenenfalls auch
 an den Pfeilen hier könnten auch Trigger
 
 00:02:55,880 --> 00:02:59,390
@@ -221,7 +221,7 @@ Unterzustand fortgesetzt wird.
 Also in unserem Beispiel führt
 
 00:04:52,940 --> 00:04:57,785
-das einfach zu Fortsetzung bei C, weil eben
+das einfach zur Fortsetzung bei C, weil eben
 dieser explizite Eintritt genau auf C zeigt.
 
 00:04:57,785 --> 00:04:59,270
@@ -288,7 +288,7 @@ zurück in den hierarchischen Zustand A.
 Was passiert dann?
 
 00:06:20,360 --> 00:06:24,350
-Was dann passieren soll ist, in der
+Was dann passieren soll, ist, in der
 tiefen Historie, dass genau zu dem
 
 00:06:25,670 --> 00:06:29,870
@@ -452,7 +452,7 @@ Bei B weiterzumachen heißt dann aber, den
 Startzustand von B zu nehmen, also D.
 
 00:10:22,580 --> 00:10:23,900
-Das was hier steht:
+Das, was hier steht:
 
 00:10:23,900 --> 00:10:27,410
 Falls der zusammengesetzte Zustand A das
@@ -484,7 +484,7 @@ der tiefen Historie einfach dort weitergemacht,
 
 00:11:03,620 --> 00:11:09,560
 wohin dieser Pfeil von dem H-Element
-aus geht. Und in dem Fall hieße das,
+ausgeht. Und in dem Fall hieße das,
 
 00:11:09,560 --> 00:11:13,790
 hier weiterzumachen, und das hieße eben auch
@@ -507,7 +507,7 @@ Wenn wir jedoch innerhalb von A gewesen sind,
 
 00:11:42,830 --> 00:11:47,990
 zum Beispiel in E, dann würden wir tatsächlich,
-unabhängig davon, wo dieser Pfeilen hinzeigt,
+unabhängig davon, wo dieser Pfeil hinzeigt,
 
 00:11:47,990 --> 00:11:51,860
 beim nächsten Betreten über den flachen
@@ -681,7 +681,7 @@ irgendetwas in der zweiten Region tun.
 Was tun wir da?
 
 00:15:27,110 --> 00:15:29,360
-Naheliegender Weise nehmen wir den
+Naheliegenderweise nehmen wir den
 Startzustand der anderen Region.
 
 00:15:31,160 --> 00:15:34,610
