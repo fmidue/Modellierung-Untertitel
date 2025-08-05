@@ -475,8 +475,8 @@ dann wird analog wie bei der
 tiefen Historie verfahren.
 
 00:10:51,440 --> 00:10:57,260
-Also wenn wir noch nie überhaupt in der Nähe
-gewesen sind, innerhalb von A, und wir kommen
+Also wenn wir noch nie überhaupt
+innerhalb von A gewesen sind, und wir kommen
 
 00:10:57,260 --> 00:11:03,620
 über die flache Historie, dann wird genau wie bei
