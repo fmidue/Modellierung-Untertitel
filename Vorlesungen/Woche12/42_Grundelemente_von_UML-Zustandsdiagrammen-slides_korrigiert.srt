@@ -180,7 +180,7 @@ mit dieser Art Darstellung notiert.
 
 00:03:16,770 --> 00:03:20,460
 Das Flussende in Entsprechung zu
-Aktivitätsdiagrammen gibt es nicht,
+Aktivitätsdiagrammen gibt es in UML-Zustandsdiagrammen nicht,
 
 00:03:20,460 --> 00:03:23,850
 aber diese Art, den Endzustand zu bezeichnen.
@@ -448,7 +448,7 @@ zu welchem Zeitpunkt dieser Effekt eintreten soll.
 
 00:08:03,260 --> 00:08:07,899
 Nämlich eben genau dieses: beim Eintritt,
-beim Verweilen, während des Verlassens.
+während des Verweilens, beim Verlassen.
 
 00:08:07,899 --> 00:08:12,080
 Das heißt, der Trigger kann unter
@@ -1001,7 +1001,7 @@ Und separat dazu soll es noch diese
 Also vorstellbar: wir haben Alarm an, Alarm aus,
 
 00:18:31,630 --> 00:18:34,300
-und zwischen denen soll es einen Trigger geben.
+und zwischen denen soll es Trigger geben.
 
 00:18:34,300 --> 00:18:39,160
 Mit dem Drücken des Knopfes
