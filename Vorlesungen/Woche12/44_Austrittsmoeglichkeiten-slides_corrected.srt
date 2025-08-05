@@ -14,7 +14,7 @@ a look at that as well.
 Let's look at a hierarchical state first,
 
 00:00:18,450 --> 00:00:19,710
-and later at a region state again.
+and later at a regions state again.
 
 00:00:19,710 --> 00:00:23,220
 In the hierarchical states there is
@@ -247,7 +247,7 @@ here on exit as a representation option.
 
 00:05:14,090 --> 00:05:17,780
 Now, what do these exit
-possibilities mean for region states?
+possibilities mean for regions states?
 
 00:05:17,780 --> 00:05:23,000
 Well, if we want to exit
@@ -282,7 +282,7 @@ the region state if we are actually
 at the corresponding state in this region.
 
 00:06:01,910 --> 00:06:06,770
-Yes, so we would be allowed to leave the region state
+Yes, so we would be allowed to leave the regions state
 altogether if we are here in B and here in C.
 
 00:06:06,770 --> 00:06:09,080
