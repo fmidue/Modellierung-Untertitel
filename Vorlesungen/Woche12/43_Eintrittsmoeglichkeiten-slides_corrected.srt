@@ -38,11 +38,11 @@ Let's have a look at
 the very flexible ways to
 
 00:00:53,390 --> 00:00:58,340
-implement the entry in composite states.
+realize the entry in composite states.
 
 00:00:58,340 --> 00:01:02,240
 We look at a hierarchical
-state, which is quite deeply nested.
+state, actually quite deeply nested.
 
 00:01:02,240 --> 00:01:04,160
 There is this outer nesting level A.
@@ -476,8 +476,8 @@ if we have never been at all
 inside A and we enter via the
 
 00:10:57,260 --> 00:11:03,620
-shallow history, exactly as with the deep history,
-then one simply continues where this arrow
+shallow history, then exactly as with the deep history,
+one simply continues where this arrow
 
 00:11:03,620 --> 00:11:09,560
 from the H-element points, and in
