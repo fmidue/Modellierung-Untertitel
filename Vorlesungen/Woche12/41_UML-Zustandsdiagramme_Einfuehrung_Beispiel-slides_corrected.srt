@@ -1,10 +1,10 @@
 229 # slide
 00:00:01,860 --> 00:00:04,200
 Let's move on to
-the chapter on state diagrams.
+the chapter on statecharts,
 
 00:00:04,200 --> 00:00:07,350
-Especially UML statecharts.
+specifically UML state diagrams.
 
 00:00:07,350 --> 00:00:14,610
 We had already seen flat state diagrams
@@ -37,17 +37,17 @@ states and transitions between them.
 
 00:00:49,890 --> 00:00:52,800
 So a bit away
-from what activity diagrams do.
+from what activity diagrams do,
 
 00:00:53,460 --> 00:00:58,440
-In a way also the Petri nets,
-which primarily aim at action sequences.
+and also from what Petri nets no,
+namely to primarily aim at action sequences.
 
 00:00:58,440 --> 00:01:00,870
-So putting the actions in the foreground.
+That is, putting the actions in the foreground.
 
 00:01:00,870 --> 00:01:05,010
-This is more about states and
+This here now is more about states and
 state transitions of a given system.
 
 00:01:05,010 --> 00:01:09,060
@@ -71,7 +71,7 @@ that there are not systems that
 
 00:01:24,210 --> 00:01:26,250
 can be meaningfully modeled with both
-Petri nets/activity diagrams
+Petri nets / activity diagrams
 
 00:01:28,080 --> 00:01:31,680
 as well as with flat
@@ -190,7 +190,7 @@ syntax, they later entered UML.
 
 00:03:42,510 --> 00:03:50,130
 A major goal of UML
-statecharts/statecharts is to deal with
+state diagrams / statecharts is to deal with
 
 00:03:50,130 --> 00:03:51,960
 what can happen in flat state diagrams.
@@ -290,7 +290,7 @@ to resume work later when returning
 
 00:05:31,350 --> 00:05:37,140
 to such a hierarchical/parallel
-region of the state diagram.
+area of the state diagram.
 
 00:05:37,140 --> 00:05:40,890
 Instead of having to store
