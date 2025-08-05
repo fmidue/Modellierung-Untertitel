@@ -39,14 +39,14 @@ Also ein bisschen weg von dem, was
 die Aktivitätsdiagramme machen,
 
 00:00:53,460 --> 00:00:58,440
-in gewisser Weise auch die Petrinetze,
+und in gewisser Weise auch die Petrinetze machen,
 nämlich vorwiegend auf Aktionsfolgen abzuzielen,
 
 00:00:58,440 --> 00:01:00,870
 also die Aktionen in den Vordergrund zu stellen.
 
 00:01:00,870 --> 00:01:05,010
-Hier geht es eher um Zustände und
+Hier nun geht es eher um Zustände und
 Zustandsübergänge eines gegebenen Systems.
 
 00:01:05,010 --> 00:01:09,060
@@ -187,7 +187,7 @@ sie später in UML eingegangen.
 
 00:03:42,510 --> 00:03:50,130
 Ein wesentliches Ziel von
-UML-Zustandsdiagrammen/Statecharts ist das,
+UML-Zustandsdiagrammen / Statecharts ist das,
 
 00:03:50,130 --> 00:03:51,960
 was bei flachen Zustandsdiagrammen passieren kann,
