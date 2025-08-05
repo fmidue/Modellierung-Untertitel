@@ -47,7 +47,7 @@ like a flat state diagram.
 
 00:00:57,990 --> 00:01:02,910
 But later it will appear
-nested in a larger state diagram.
+nested in a larger state diagram,
 
 00:01:02,910 --> 00:01:03,840
 and then it won't be flat anymore.
@@ -183,7 +183,7 @@ diagrams, with this kind of depiction.
 
 00:03:16,770 --> 00:03:20,460
 The flow end node from activity diagrams
-does not exist,
+does not exist in UML state diagrams,
 
 00:03:20,460 --> 00:03:23,850
 but this way of indicating the end state does.
@@ -345,7 +345,7 @@ The condition can
 be something supervisory, a guard.
 
 00:05:43,110 --> 00:05:52,780
-And what is specified there can depend on different properties
+And what may occur there can depend on different properties
 of the system.
 
 00:05:52,780 --> 00:05:55,750
@@ -454,7 +454,7 @@ at what time this effect should occur.
 
 00:08:03,260 --> 00:08:07,899
 Namely exactly this: when
-entering, while staying, and when leaving.
+entering, while staying, when leaving.
 
 00:08:07,899 --> 00:08:12,080
 That means the trigger
@@ -567,7 +567,7 @@ And nothing else could happen in there.
 That would be the minute display.
 
 00:10:03,040 --> 00:10:09,790
-along with the beeping whenever the
+Along with the beeping whenever the
 zero-minute state is entered.
 
 00:10:09,790 --> 00:10:11,890
@@ -1021,11 +1021,11 @@ Between them there should be triggers.
 
 00:18:34,300 --> 00:18:39,160
 By pressing button
-a you should get there.
+"a" you should get there.
 
 00:18:39,160 --> 00:18:43,420
 And we should be able to switch between these
-two states, alarm on or alarm off, by pressing b.
+two states, alarm on or alarm off, by pressing "b".
 
 00:18:46,000 --> 00:18:54,580
 If we look at our stylized
@@ -1033,7 +1033,7 @@ picture of the clock, we see that
 
 00:18:54,580 --> 00:18:59,230
 we would then need quite a
-lot of transitions labeled with a.
+lot of transitions labeled with "a".
 
 00:18:59,230 --> 00:19:03,610
 Which would have to go out
@@ -1041,7 +1041,7 @@ from all possible hour and minute states.
 
 00:19:03,610 --> 00:19:06,340
 If we have 00:00, then it
-must be possible to press a
+must be possible to press "a"
 
 00:19:06,340 --> 00:19:08,530
 to get into the alarm display.
@@ -1055,7 +1055,7 @@ In fact, for every combination
 of hour and minute we
 
 00:19:14,050 --> 00:19:19,390
-would have to have an a-
+would have to have an "a"-
 transition to go into the alarm state.
 
 00:19:20,950 --> 00:19:22,090
@@ -1122,10 +1122,10 @@ There is on and off.
 
 00:20:43,390 --> 00:20:45,610
 You can switch back and
-forth between them with b.
+forth between them with "b".
 
 00:20:45,610 --> 00:20:53,200
-And there is button a, which switches
+And there is button "a", which switches
 between the alarm display and the time display.
 
 00:20:54,280 --> 00:20:59,410
@@ -1203,7 +1203,7 @@ rather than
 being hierarchically composed.
 
 00:22:25,200 --> 00:22:27,090
-A region state is also composite,
+A regions state is also composite,
 
 00:22:27,090 --> 00:22:31,290
 but in a different way than
@@ -1222,7 +1222,7 @@ speak of composite states in general.
 
 00:22:47,700 --> 00:22:52,650
 Instead, I will speak of hierarchical states on the
-one hand and region states on the other.
+one hand and regions states on the other.
 
 00:22:52,650 --> 00:22:56,970
 Hierarchical states will be something like
