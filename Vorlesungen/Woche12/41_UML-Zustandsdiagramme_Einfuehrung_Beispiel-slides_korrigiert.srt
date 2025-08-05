@@ -400,7 +400,7 @@ Dieser hat es allerdings noch ausführlicher
 und mit mehr Eigenschaften diskutiert.
 
 00:07:45,400 --> 00:07:48,340
-Wir machen als eine vereinfachte
+Das ist eine vereinfachte
 Variante von dem Beispiel,
 
 00:07:48,340 --> 00:07:51,580
