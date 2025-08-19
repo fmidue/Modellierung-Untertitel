@@ -132,7 +132,7 @@ wenn wir zur Zeitanzeige und zurück wechseln.
 Woran wird das deutlich?
 
 00:02:32,770 --> 00:02:39,370
-Wir haben eine Uhrzeit, wir wechseln mit a zur
+Angenommen wir haben eine Uhrzeit, wir wechseln mit a zur
 Alarmeinstellung, dann ist das erst mal On,
 
 00:02:39,370 --> 00:02:47,710
@@ -278,7 +278,7 @@ in den beiden Regionen eintretend.
 Und das sieht dann so aus.
 
 00:05:38,460 --> 00:05:40,710
-In den Unterzuständen hat sich nichts geändert,
+In den Unterzuständen hat sich nicht viel geändert,
 
 00:05:41,880 --> 00:05:44,520
 zum Beispiel diese Region
@@ -727,7 +727,7 @@ mal in einen hierarchischen Zustand,
 
 00:15:43,270 --> 00:15:47,350
 nämlich wie die Uhr sich verhält,
-wenn die Batterien nicht leer ist.
+wenn die Batterie nicht leer ist.
 
 00:15:47,350 --> 00:15:53,650
 Alles, was hier steht, ist genau wie bisher
@@ -778,7 +778,7 @@ Flags überprüft, ob denn der
 Alarm an ist oder nicht, etc.
 
 00:16:47,095 --> 00:16:49,780
-Dann kann immer die Batterie leer werden.
+Dann kann irgendwann natürlich die Batterie leer werden.
 
 00:16:49,780 --> 00:16:53,650
 Das führt dazu, dass wir wieder in
