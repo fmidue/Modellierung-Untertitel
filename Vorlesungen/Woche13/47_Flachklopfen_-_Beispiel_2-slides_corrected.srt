@@ -118,7 +118,7 @@ This must be reflected in the transition
 between corresponding states of the cross product.
 
 00:02:54,180 --> 00:02:59,430
-Or if we also had a 'b' down here, then 
+Or if we also had a 'b' down here, then
 with the 'b' trigger, a transition
 
 00:02:59,430 --> 00:03:05,190
