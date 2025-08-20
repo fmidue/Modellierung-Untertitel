@@ -23,7 +23,7 @@ if at all (in this kind of state diagram,
 
 00:00:35,820 --> 00:00:38,580
 which is what we
-want to use for flat-knocking).
+want to use for flattening).
 
 00:00:41,970 --> 00:00:44,160
 Now what would be the approach here?
@@ -33,7 +33,7 @@ Well, first of all, outside the region
 we just proceed as before, that is,
 
 00:00:51,570 --> 00:00:55,500
-as it was in Example 1 as a recipe.
+as was the procedure in Example 1.
 
 00:00:55,500 --> 00:00:58,440
 So keep simple states.
@@ -47,8 +47,8 @@ This will later
 also affect region entries/exits.
 
 00:01:09,210 --> 00:01:17,460
-Keep transitions between outer states
-also simple and keep only the
+Also, keep transitions between outer states
+and only keep the
 
 00:01:17,460 --> 00:01:20,220
 outermost start state as such.
@@ -69,15 +69,13 @@ that A is (and will remain) the start state.
 What happens to the regions?
 
 00:01:45,840 --> 00:01:50,130
-We actually want, with such a
-parallel representation of regions, that always
+With such a parallel representation of regions, we actually want
 
 00:01:50,130 --> 00:01:53,640
-at the same time a state from
-one region and a state from the
+a state from one region and a state from the
 
 00:01:53,640 --> 00:01:58,410
-other region are active, when we are
+other region to be simultaneously active, when we are
 in this part of the state diagram.
 
 00:01:58,410 --> 00:02:03,900
@@ -85,12 +83,12 @@ That is, with these three states and these
 two states, we now have to form pairs.
 
 00:02:03,900 --> 00:02:07,110
-This means the cross
+That is the cross
 product between the states.
 
 00:02:07,110 --> 00:02:13,650
-Let there be a BE state, a CE,
-a DE, a BF, a CF, a DF.
+So there will be a BE state, a CE,
+a DE, a BF, a CF, and a DF.
 
 00:02:13,650 --> 00:02:18,120
 So just the cross product between the
@@ -106,30 +104,30 @@ have to be appropriate transitions.
 
 00:02:29,010 --> 00:02:36,660
 For example, if we're in the BE
-state and a b is triggered, that
+state and a 'b' is triggered, that
 
 00:02:36,660 --> 00:02:40,320
 will lead to the new CE state.
 
 00:02:40,320 --> 00:02:48,780
-Just this parallel processing, how in that case
-the E just doesn't change, but B becomes C.
+This reflects the parallel processing, where in this case
+E doesn't change, but B becomes C.
 
 00:02:48,780 --> 00:02:54,180
 This must be reflected in the transition
 between corresponding states of the cross product.
 
 00:02:54,180 --> 00:02:59,430
-Or if we would have a b below here, then it
-would have to be so that with the b from the
+Or if we also had a 'b' down here, then 
+with the 'b' trigger, a transition
 
 00:02:59,430 --> 00:03:05,190
-state BE to CF is transferred,
-because of this parallelism, which is present.
+from state BE to CF would occur,
+because of the inherent parallelism.
 
 00:03:05,190 --> 00:03:11,370
-We're sort of translating the behavior,
-in these two parallel regions, into
+We're sort of translating the behavior
+in these two parallel regions into
 
 00:03:11,370 --> 00:03:15,570
 transitions between the
@@ -155,10 +153,10 @@ For this, we will
 basically just translate again
 
 00:03:39,010 --> 00:03:40,810
-what then these entries and exits mean.
+what these entries and exits mean,
 
 00:03:40,810 --> 00:03:47,140
-According to the introduced
+according to the previously introduced
 meaning of these different
 
 00:03:47,140 --> 00:03:49,750
@@ -166,17 +164,17 @@ ways of entering and leaving states.
 
 00:03:49,750 --> 00:03:53,050
 What we had already
-done so far, on artificial
+done so far, with artificial
 
 00:03:53,050 --> 00:03:55,889
-examples, we can use just
-here for the flat knocking.
+examples, we can also use
+here for the flattening.
 
 00:03:55,889 --> 00:04:03,910
 Let's make it concrete for this example.
 
 00:04:06,070 --> 00:04:09,880
-Outside the region, we proceed
+Outside the regions, we proceed
 as before, so we keep things.
 
 00:04:09,880 --> 00:04:14,320
@@ -192,11 +190,11 @@ as start and end state.
 
 00:04:23,830 --> 00:04:26,680
 Then this would be
-what happens outside the region.
+what happens outside the regions.
 
 00:04:26,680 --> 00:04:31,420
 Then, of course, what is more
-exciting is what happens inside the region.
+exciting is what happens inside the regions.
 
 00:04:31,420 --> 00:04:36,520
 And there the first, most important step is this
@@ -215,8 +213,8 @@ Namely all pairs: once B, C, D paired
 with E, once B, C, D paired with F.
 
 00:04:56,320 --> 00:05:01,660
-That results as state set
-first of all from this part.
+That would be the state set
+from this part.
 
 00:05:01,660 --> 00:05:06,160
 Here, of course, there must
@@ -227,8 +225,8 @@ And these are simply the
 ones that result from the regions.
 
 00:05:09,565 --> 00:05:15,910
-If the b and c changes between B,
-C, D, while the state from the other
+When b and c cause transitions between B,
+C, and D, while the state from the other
 
 00:05:15,910 --> 00:05:21,940
 region remains unchanged (because there are
@@ -243,60 +241,60 @@ On the other hand, in the other region
 there is this e-transition, from E to F, where
 
 00:05:37,880 --> 00:05:41,930
-B, C, D are not affected in the
-other region because there is no e-transition there.
+B, C, and D in the other region are not affected
+because there is no e-transition there.
 
 00:05:41,930 --> 00:05:46,160
 This then leads to the fact
 that there are still these transitions.
 
 00:05:46,160 --> 00:05:49,760
-Here always that must be
-done, which results from the regions.
+Here, the action taken must always be
+the one that results from the regions,
 
 00:05:49,760 --> 00:05:51,560
-If necessary also by parallel
+possibly also through parallel
 
 00:05:51,560 --> 00:05:54,830
-executions, if actually times a
-trigger occurs in both regions.
+executions, if a
+trigger actually occurs in both regions.
 
 00:05:54,830 --> 00:05:55,970
-Then it can also come to other arrows.
+That can also result in other arrows.
 
 00:05:55,970 --> 00:06:02,120
-But in the concrete case here, this
-picture results within the cross product set.
+But in this specific case, this
+is the resulting diagram within the cross product set.
 
 00:06:02,120 --> 00:06:09,530
-So we did that
-outside the region as before.
+So, this is what we did:
+outside the regions as before.
 
 00:06:09,530 --> 00:06:12,665
-In addition, the cross product
-between the regions was formed.
+In addition, we formed the cross product
+between the regions,
 
 00:06:12,665 --> 00:06:18,230
-Within the regions
-corresponding transitions suitably translated.
+and we suitably translated the
+corresponding transitions within the regions.
 
 00:06:18,230 --> 00:06:21,680
 Then it's still a matter of
 the entries and exits at the edge.
 
 00:06:24,860 --> 00:06:37,181
-Now, we have here these a, h, and
+Now, we have these a, h, and
 g transitions that enter or leave the region state.
 
 00:06:37,181 --> 00:06:40,370
-We still have to give
+We still have to provide
 translations for each of those.
 
 00:06:43,220 --> 00:06:44,900
 The a transition is very easy.
 
 00:06:44,900 --> 00:06:53,150
-This was here a transition into
+This was a transition into
 the region state by standard entry.
 
 00:06:53,150 --> 00:06:56,120
@@ -304,8 +302,8 @@ Then we know: we just choose
 the starting state in each region.
 
 00:06:57,170 --> 00:07:03,035
-So this transition from A through
-a must lead to the pair BE.
+So this transition from A via
+'a' must lead to the pair BE.
 
 00:07:03,035 --> 00:07:04,490
 That's exactly what happens here.
@@ -329,7 +327,7 @@ D in the first region
 and F in the second.
 
 00:07:27,950 --> 00:07:30,740
-That means, again, in translating to
+This means, again, in the translation to
 this cross product, we then have
 
 00:07:30,740 --> 00:07:36,980
@@ -353,8 +351,8 @@ how this h transition plays
 out in the cross product.
 
 00:07:58,160 --> 00:08:05,210
-That is a transition that explicitly leaves
-only one state of the two regions, C.
+That is a transition that only leaves
+one state of the two regions explicitly, C.
 
 00:08:05,210 --> 00:08:11,660
 This means that we are allowed to
@@ -373,7 +371,7 @@ This is what happens right here.
 
 00:08:25,394 --> 00:08:31,130
 The h is allowed to act
-and lead to G to the outside
+and lead outward to G
 
 00:08:31,130 --> 00:08:36,260
 exactly when there is C in the first region (and
@@ -383,8 +381,8 @@ it does not matter what is in the second region).
 This would also solve this example.
 
 00:08:43,100 --> 00:08:49,880
-So to this UML state
-diagram belongs this flat state diagram.
+So, this flat state diagram
+corresponds to this UML state diagram.
 
 00:08:50,630 --> 00:08:53,660
 The main idea is just to form
