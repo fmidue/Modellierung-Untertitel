@@ -183,14 +183,14 @@ wissen, was es denn bedeutet,
 
 00:03:24,040 --> 00:03:27,876
 aus so einem Gesamtzustand
-mit dem Trigger e auszutreten.
+mit dem Trigger 'e' auszutreten.
 
 00:03:27,876 --> 00:03:30,850
 Das bedeutet (das wissen wir, wenn wir
 zurückgehen auf die entsprechenden
 
 00:03:30,850 --> 00:03:36,280
-Folien), dass wir mit e sowohl aus C als
+Folien), dass wir mit 'e' sowohl aus C als
 auch aus D zu A kommen könnten.
 
 00:03:36,280 --> 00:03:43,630
@@ -239,7 +239,7 @@ tun haben und die schlicht zwischen einfachen
 Unterzuständen sind, die werden beibehalten.
 
 00:04:21,260 --> 00:04:24,260
-Also dass wir von A nach B mit f gehen können,
+Also dass wir von A nach B mit 'f' gehen können,
 
 00:04:24,260 --> 00:04:28,640
 Das ist in dem UML-Zustandsdiagramm so, und
@@ -352,13 +352,13 @@ Und dann müssen wir nur noch die Übergänge
 
 00:06:28,110 --> 00:06:32,790
 hierarchischen Zustand zu tun haben, also
-diesen e-Übergang und diesen a-Übergang.
+diesen 'e'-Übergang und diesen 'a'-Übergang.
 
 00:06:33,630 --> 00:06:34,770
 Was ist da die jeweilige Übersetzung?
 
 00:06:34,770 --> 00:06:39,030
-Für den a-Übergang wissen wir:
+Für den 'a'-Übergang wissen wir:
 
 00:06:39,030 --> 00:06:42,390
 Das war ein Standardeintritt in
@@ -383,13 +383,13 @@ Sie bleibt also in dem flachen Zustandsdiagramm
 nicht erhalten, sollte aber benutzt werden,
 
 00:06:59,910 --> 00:07:03,570
-um festzustellen, wo wir von A mit a hinkommen.
+um festzustellen, wo wir von A mit 'a' hinkommen.
 
 00:07:05,850 --> 00:07:08,100
 Das ist die Übersetzung dieses Teils.
 
 00:07:09,750 --> 00:07:10,680
-Und dann müssen wir uns noch um e kümmern.
+Und dann müssen wir uns noch um 'e' kümmern.
 
 00:07:10,680 --> 00:07:16,440
 Das ist dieser Übergang, der ja vom Rand

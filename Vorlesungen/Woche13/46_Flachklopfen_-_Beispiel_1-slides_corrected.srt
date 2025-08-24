@@ -131,7 +131,7 @@ what UML state diagrams are capable of in general,
 is that no regions appear here.
 
 00:02:37,360 --> 00:02:40,870
-So no region state, just
+So no regions state, just
 a hierarchical state.
 
 00:02:40,870 --> 00:02:43,990
@@ -182,14 +182,14 @@ know what that means, to
 
 00:03:24,040 --> 00:03:27,876
 exit from such an
-overall state with trigger e.
+overall state with trigger 'e'.
 
 00:03:27,876 --> 00:03:30,850
 That means (we know that if
 we go back to the
 
 00:03:30,850 --> 00:03:36,280
-corresponding slides) that with e we could get to A
+corresponding slides) that with 'e' we could get to A
 from C as well as from D.
 
 00:03:36,280 --> 00:03:43,630
@@ -239,7 +239,7 @@ hierarchy at all and that are
 simply between simple sub-states will be kept.
 
 00:04:21,260 --> 00:04:24,260
-So the fact that we can go from A to B with f,
+So the fact that we can go from A to B with 'f',
 
 00:04:24,260 --> 00:04:28,640
 that's how it is in the UML state diagram, and
@@ -354,16 +354,16 @@ transitions that have something to do with the
 
 00:06:28,110 --> 00:06:32,790
 edge of a hierarchical state,
-so this e-transition and this a-transition.
+so this e-transition and this 'a'-transition.
 
 00:06:33,630 --> 00:06:34,770
 What is the respective translation there?
 
 00:06:34,770 --> 00:06:39,030
-For the a-transition we know:
+For the 'a'-transition we know:
 
 00:06:39,030 --> 00:06:42,390
-That was a standard entry
+That was a default entry
 into this complex right state.
 
 00:06:42,390 --> 00:06:48,990
@@ -386,13 +386,13 @@ So it doesn't remain in the flat
 state diagram, but it should be used
 
 00:06:59,910 --> 00:07:03,570
-to determine where we get to from A with a.
+to determine where we get to from A with 'a'.
 
 00:07:05,850 --> 00:07:08,100
 That's the translation of this part.
 
 00:07:09,750 --> 00:07:10,680
-And then we still have to take care of e.
+And then we still have to take care of 'e'.
 
 00:07:10,680 --> 00:07:16,440
 That's this transition that, yes, goes from

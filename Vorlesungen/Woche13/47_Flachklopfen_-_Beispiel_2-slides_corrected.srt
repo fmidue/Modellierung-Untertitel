@@ -8,7 +8,7 @@ are to transform into a flat state diagram.
 
 00:00:09,750 --> 00:00:17,250
 This time no hierarchical
-state, but a region state.
+state, but a regions state.
 
 00:00:18,060 --> 00:00:22,980
 Characteristics of this example would be that
@@ -83,12 +83,12 @@ That is, with these three states and these
 two states, we now have to form pairs.
 
 00:02:03,900 --> 00:02:07,110
-That is the cross
-product between the states.
+That is, the cross
+product between the state sets.
 
 00:02:07,110 --> 00:02:13,650
-So there will be a BE state, a CE,
-a DE, a BF, a CF, and a DF.
+So there will be a (B,E) state, a (C,E),
+a (D,E), a (B,F), a (C,F), and a (D,F).
 
 00:02:13,650 --> 00:02:18,120
 So just the cross product between the
@@ -103,11 +103,11 @@ Then, of course, there
 have to be appropriate transitions.
 
 00:02:29,010 --> 00:02:36,660
-For example, if we're in the BE
+For example, if we're in the (B,E)
 state and a 'b' is triggered, that
 
 00:02:36,660 --> 00:02:40,320
-will lead to the new CE state.
+will lead to the new (C,E) state.
 
 00:02:40,320 --> 00:02:48,780
 This reflects the parallel processing, where in this case
@@ -122,7 +122,7 @@ Or if we also had a 'b' down here, then
 with the 'b' trigger, a transition
 
 00:02:59,430 --> 00:03:05,190
-from state BE to CF would occur,
+from state (B,E) to (C,F) would occur,
 because of the inherent parallelism.
 
 00:03:05,190 --> 00:03:11,370
@@ -146,7 +146,7 @@ Then we have to deal with the edge again.
 
 00:03:28,330 --> 00:03:30,910
 What happens when we enter
-or leave a region state.
+or leave a regions state.
 
 00:03:31,780 --> 00:03:39,010
 For this, we will
@@ -181,7 +181,7 @@ as before, so we keep things.
 This now leads to this constellation.
 
 00:04:14,320 --> 00:04:19,480
-Because there is hardly anything outside the region state,
+Because there is hardly anything outside the regions state,
 we can only keep the A and the G,
 
 00:04:19,480 --> 00:04:21,670
@@ -225,12 +225,12 @@ And these are simply the
 ones that result from the regions.
 
 00:05:09,565 --> 00:05:15,910
-When b and c cause transitions between B,
+When 'b' and 'c' cause transitions between B,
 C, and D, while the state from the other
 
 00:05:15,910 --> 00:05:21,940
 region remains unchanged (because there are
-no b or c transitions there), it
+no 'b' or 'c' transitions there), it
 
 00:05:22,610 --> 00:05:29,990
 leads to the fact that we can
@@ -238,11 +238,11 @@ progress here independently of the second component.
 
 00:05:29,990 --> 00:05:37,880
 On the other hand, in the other region
-there is this e-transition, from E to F, where
+there is this 'e'-transition, from E to F, where
 
 00:05:37,880 --> 00:05:41,930
 B, C, and D in the other region are not affected
-because there is no e-transition there.
+because there is no 'e'-transition there.
 
 00:05:41,930 --> 00:05:46,160
 This then leads to the fact
@@ -283,19 +283,19 @@ Then it's still a matter of
 the entries and exits at the edge.
 
 00:06:24,860 --> 00:06:37,181
-Now, we have these a, h, and
-g transitions that enter or leave the region state.
+Now, we have these 'a', 'h', and
+'g' transitions that enter or leave the regions state.
 
 00:06:37,181 --> 00:06:40,370
 We still have to provide
 translations for each of those.
 
 00:06:43,220 --> 00:06:44,900
-The a transition is very easy.
+The 'a' transition is very easy.
 
 00:06:44,900 --> 00:06:53,150
 This was a transition into
-the region state by standard entry.
+the regions state by default entry.
 
 00:06:53,150 --> 00:06:56,120
 Then we know: we just choose
@@ -303,7 +303,7 @@ the starting state in each region.
 
 00:06:57,170 --> 00:07:03,035
 So this transition from A via
-'a' must lead to the pair BE.
+'a' must lead to the pair (B,E).
 
 00:07:03,035 --> 00:07:04,490
 That's exactly what happens here.
@@ -312,7 +312,7 @@ That's exactly what happens here.
 So that explains this translation.
 
 00:07:08,600 --> 00:07:11,540
-What about the g?
+What about the 'g'?
 
 00:07:11,540 --> 00:07:18,020
 What did that look like
@@ -331,8 +331,8 @@ This means, again, in the translation to
 this cross product, we then have
 
 00:07:30,740 --> 00:07:36,980
-to have a transition with g from
-the pair DF to the outer state G.
+to have a transition with 'g' from
+the pair (D,F) to the outer state G.
 
 00:07:36,980 --> 00:07:40,880
 So that explains why
@@ -347,7 +347,7 @@ And then we're still
 missing the translation of
 
 00:07:52,880 --> 00:07:58,160
-how this h transition plays
+how this 'h' transition plays
 out in the cross product.
 
 00:07:58,160 --> 00:08:05,210
@@ -356,7 +356,7 @@ one state of the two regions explicitly, C.
 
 00:08:05,210 --> 00:08:11,660
 This means that we are allowed to
-leave this region state whenever C is present
+leave this regions state whenever C is present
 
 00:08:11,660 --> 00:08:16,160
 in the first region (while it does not
@@ -364,13 +364,13 @@ matter what is present in the second region).
 
 00:08:16,160 --> 00:08:21,710
 We are allowed to take this transition
-whenever we are in state CE or CF.
+whenever we are in state (C,E) or (C,F).
 
 00:08:21,710 --> 00:08:25,394
 This is what happens right here.
 
 00:08:25,394 --> 00:08:31,130
-The h is allowed to act
+The 'h' is allowed to act
 and lead outward to G
 
 00:08:31,130 --> 00:08:36,260

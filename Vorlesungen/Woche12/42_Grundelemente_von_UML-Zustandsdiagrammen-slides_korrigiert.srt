@@ -1005,18 +1005,18 @@ und zwischen denen soll es Trigger geben.
 
 00:18:34,300 --> 00:18:39,160
 Mit dem Drücken des Knopfes
-"a" soll man dorthin gelangen.
+'a' soll man dorthin gelangen.
 
 00:18:39,160 --> 00:18:43,420
 Und zwischen diesen beiden Zuständen "Alarm an"
-und "Alarm aus" soll man mit "b" wechseln können.
+und "Alarm aus" soll man mit 'b' wechseln können.
 
 00:18:46,000 --> 00:18:54,580
 Wenn wir auf unser stilisiertes Bild
 der Uhr schauen, dann sehen wir,
 
 00:18:54,580 --> 00:18:59,230
-dass wir dann ganz schön viele mit "a"
+dass wir dann ganz schön viele mit 'a'
 beschriftete Transitionen bräuchten,
 
 00:18:59,230 --> 00:19:03,610
@@ -1025,7 +1025,7 @@ Minutenzuständen ausgehen müssten.
 
 00:19:03,610 --> 00:19:06,340
 Wenn wir 00:00 Uhr haben, dann
-muss es möglich sein, "a" zu schalten,
+muss es möglich sein, 'a' zu schalten,
 
 00:19:06,340 --> 00:19:08,530
 um in die Alarmdarstellung zu kommen.
@@ -1039,7 +1039,7 @@ Faktisch für jede Kombination
 aus Stunde und Minute müssten
 
 00:19:14,050 --> 00:19:19,390
-wir eine "a" Transition haben,
+wir eine 'a' Transition haben,
 die in den Alarm-Zustand geht.
 
 00:19:20,950 --> 00:19:22,090
@@ -1107,10 +1107,10 @@ die ist so modelliert.
 Da gibt es "an" und "aus".
 
 00:20:43,390 --> 00:20:45,610
-Dazwischen kann man mit "b" hin und her wechseln.
+Dazwischen kann man mit 'b' hin und her wechseln.
 
 00:20:45,610 --> 00:20:53,200
-Und es gibt den Knopf "a", der zwischen der
+Und es gibt den Knopf 'a', der zwischen der
 Alarmdarstellung und der Zeitanzeige wechselt.
 
 00:20:54,280 --> 00:20:59,410
@@ -1118,7 +1118,7 @@ Das entspricht dann der Möglichkeit, zwischen
 der Zeit und der Alarmdarstellung zu wechseln.
 
 00:20:59,410 --> 00:21:04,210
-Und "b" ist, um in der Alarmdarstellung
+Und 'b' ist, um in der Alarmdarstellung
 zwischen "an" und "aus" zu wechseln.
 
 00:21:05,770 --> 00:21:11,080
@@ -1156,7 +1156,7 @@ Initial soll die Zeitanzeige und
 nicht die Alarmanzeige aktiviert sein.
 
 00:21:50,190 --> 00:21:53,610
-Diese a-Übergänge sollen eben
+Diese 'a'-Übergänge sollen eben
 nicht von Unterzuständen ausgehen,
 
 00:21:53,610 --> 00:21:56,190
@@ -1165,7 +1165,7 @@ zusammengesetzten Zustand hier.
 
 00:21:56,190 --> 00:22:04,290
 Das erspart uns die ansonsten notwendigen
-sehr vielen mit "a" beschrifteten Transitionen,
+sehr vielen mit 'a' beschrifteten Transitionen,
 
 00:22:04,290 --> 00:22:06,390
 die wir sonst potenziell bräuchten.

@@ -116,7 +116,7 @@ history entry, then we would need to know
 where we were last in that hierarchical state.
 
 00:02:28,825 --> 00:02:33,100
-So if we leave the state via e, we
+So if we leave the state via 'e', we
 still have to know later when we return whether
 
 00:02:33,100 --> 00:02:38,230
@@ -268,7 +268,7 @@ It's only needed if we
 have an entry into this
 
 00:05:20,650 --> 00:05:24,970
-part via a standard entry,
+part via a default entry,
 which would be this one.
 
 00:05:30,130 --> 00:05:36,280
@@ -276,11 +276,11 @@ So because that was the
 starting state of this inner complex,
 
 00:05:36,280 --> 00:05:40,990
-and there was a standard entry
+and there was a default entry
 there from X, we get this transition.
 
 00:05:42,940 --> 00:05:48,970
-This corresponds to the information: standard entry
+This corresponds to the information: default entry
 via the start state, therefore this transition.
 
 00:05:50,740 --> 00:05:52,300
@@ -288,7 +288,7 @@ What else do we have to translate?
 
 00:05:54,130 --> 00:05:58,540
 We know that we always get
-to A from here with e.
+to A from here with 'e'.
 
 00:05:58,540 --> 00:05:59,950
 That's what we see here.
@@ -318,7 +318,7 @@ to come back to D and not C.
 
 00:06:25,120 --> 00:06:30,730
 So that's if we come here from D
-with e and then come back with b.
+with 'e' and then come back with 'b'.
 
 00:06:30,730 --> 00:06:31,810
 Then we want to end up at D.
@@ -335,8 +335,8 @@ That would be exactly
 what this history accomplishes.
 
 00:06:40,000 --> 00:06:46,750
-If we came from D with e and later came back
-with b via history, we want to end up at D.
+If we came from D with 'e' and later came back
+with 'b' via history, we want to end up at D.
 
 00:06:46,750 --> 00:06:51,721
 If we did that from C, we
@@ -344,7 +344,7 @@ also want to end up at C.
 
 00:06:51,721 --> 00:06:53,770
 That is, it is not enough simply
-to have this b and e transition.
+to have this 'b' and 'e' transition.
 
 00:06:53,770 --> 00:06:56,560
 It also has to be recorded somehow that
@@ -462,7 +462,7 @@ So:
 
 00:08:53,140 --> 00:08:56,080
 That we can switch between A
-and B with a and f,
+and B with 'a' and 'f',
 
 00:08:56,080 --> 00:09:01,480
 that is not changed by whether we
@@ -474,7 +474,7 @@ we create these copies of the outer states (in
 
 00:09:08,950 --> 00:09:11,822
 that case, of A and B) and their transitions;
-these two a, f transitions, which we find both
+these two 'a', 'f' transitions, which we find both
 
 00:09:11,822 --> 00:09:11,919
 here and here; and then for completion,
@@ -485,7 +485,7 @@ When do we get to A(C)?
 
 00:09:11,945 --> 00:09:35,140
 When we have been last in C
-and then took this e-transition leading to A.
+and then took this 'e'-transition leading to A.
 
 00:09:35,140 --> 00:09:38,740
 When we take this transition
@@ -500,7 +500,7 @@ we've been in C when, again, we
 
 00:09:45,820 --> 00:09:51,190
 want to go from B to D at some point
-with b. So, if we take that transition at some point.
+with 'b'. So, if we take that transition at some point.
 
 00:09:51,190 --> 00:09:54,370
 So if we take this

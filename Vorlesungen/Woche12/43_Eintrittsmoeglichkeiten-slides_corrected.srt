@@ -60,7 +60,7 @@ So we will have four
 different possibilities to enter here.
 
 00:01:21,350 --> 00:01:27,500
-The standard entry, that would be the one that
+The default entry, that would be the one that
 just appeared on the slide for the a-transitions.
 
 00:01:27,500 --> 00:01:32,150
@@ -147,7 +147,7 @@ look at the possibilities now.
 We do it one after the other:
 
 00:03:07,250 --> 00:03:09,200
-We start with the standard entry.
+We start with the default entry.
 
 00:03:10,700 --> 00:03:17,150
 The default entry simply ensures that in
@@ -166,7 +166,7 @@ So in our example, if
 we enter this hierarchical state here
 
 00:03:32,510 --> 00:03:35,990
-via this standard entry,
+via this default entry,
 then what does that mean?
 
 00:03:35,990 --> 00:03:41,390
@@ -177,11 +177,11 @@ be chosen, which would be this one.
 What does this one do?
 
 00:03:43,850 --> 00:03:50,960
-It has a transition, a standard
+It has a transition, a default
 entry, into this composite sub-state B,
 
 00:03:50,960 --> 00:03:59,060
-because this is also a standard entry via
+because this is also a default entry via
 the start state, the start state present here
 
 00:04:01,070 --> 00:04:04,430
@@ -190,7 +190,7 @@ for this hierarchical level.
 
 00:04:04,430 --> 00:04:08,690
 That in turn points to D, i.e.,
-the standard entry here would ensure that
+the default entry here would ensure that
 
 00:04:08,690 --> 00:04:14,300
 ultimately the sub-state D becomes active,
@@ -198,7 +198,7 @@ because the start state of the
 
 00:04:14,300 --> 00:04:17,750
 outer hierarchy level is selected,
-which has a standard entry into
+which has a default entry into
 
 00:04:17,750 --> 00:04:24,740
 this sub-state, and there, in turn,
@@ -577,7 +577,7 @@ have history in play.
 
 00:13:15,936 --> 00:13:18,980
 So in a state with regions there
-is still the possibility of standard entry,
+is still the possibility of default entry,
 
 00:13:18,980 --> 00:13:23,270
 still the possibility of explicit

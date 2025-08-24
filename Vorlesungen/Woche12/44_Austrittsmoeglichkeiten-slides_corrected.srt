@@ -25,7 +25,7 @@ as a whole.
 
 00:00:25,350 --> 00:00:30,570
 This is, so to speak, the
-counterpart to the standard entry, where you
+counterpart to the default entry, where you
 
 00:00:30,570 --> 00:00:35,535
 just approach the overall state from the

@@ -71,7 +71,7 @@ so we have state 2 in the hour
 count and state 58 in the minute count.
 
 00:01:27,330 --> 00:01:31,470
-Then button a is pressed,
+Then button 'a' is pressed,
 so this trigger is fired.
 
 00:01:31,470 --> 00:01:32,700
@@ -91,18 +91,18 @@ then maybe we turn the alarm on and
 
 00:01:51,870 --> 00:01:55,530
 off several times (that's where we would use
-b to switch back and forth between these
+'b' to switch back and forth between these
 
 00:01:55,530 --> 00:01:57,739
-two sub-states), then we press a
-again, so we fire trigger a.
+two sub-states), then we press 'a'
+again, so we fire trigger 'a'.
 
 00:01:57,739 --> 00:01:58,245
 What would that do?
 
 00:01:58,245 --> 00:02:04,740
 We would leave that sub-state, go
-back to that more complex region
+back to that more complex regions
 
 00:02:04,740 --> 00:02:07,530
 state, and we would do
@@ -131,16 +131,16 @@ we switch to the time display and back.
 What makes this clear?
 
 00:02:32,770 --> 00:02:39,370
-Suppose we have a time, we switch with a
+Suppose we have a time, we switch with 'a'
 to the alarm setting, then that is first On,
 
 00:02:39,370 --> 00:02:47,710
-then we press b, are Off, then we press
-button a, then we get back into this region state,
+then we press 'b', are Off, then we press
+button 'a', then we get back into this regions state,
 
 00:02:47,710 --> 00:02:52,030
 switch there maybe a few times,
-press button a again at some point.
+press button 'a' again at some point.
 
 00:02:52,030 --> 00:02:52,720
 What happens then?
@@ -185,7 +185,7 @@ only used the exit from the
 
 00:03:34,690 --> 00:03:40,810
 overall state and the
-standard entry into composite states.
+default entry into composite states.
 
 00:03:42,010 --> 00:03:48,310
 And that just doesn't exhaust the possibilities
@@ -193,7 +193,7 @@ we have for not forgetting sub-states (i.e., the
 
 00:03:48,310 --> 00:03:55,510
 last state in a hierarchical
-state or a region state).
+state or a regions state).
 
 00:03:56,260 --> 00:04:01,540
 So, the problems were to be expected
@@ -219,7 +219,7 @@ Well, because there are no
 deeper nesting levels here at all.
 
 00:04:15,160 --> 00:04:22,120
-So both the right region state
+So both the right regions state
 and the left hierarchical state have
 
 00:04:22,120 --> 00:04:27,880
@@ -239,7 +239,7 @@ Since we have two regions to enter
 when we transition to the right
 
 00:04:46,600 --> 00:04:54,160
-region state, we actually need two history
+regions state, we actually need two history
 states, one in each of the two regions.
 
 00:04:54,160 --> 00:05:00,280
@@ -328,7 +328,7 @@ On. Then we can switch back and forth with 'b'
 
 00:06:39,690 --> 00:06:44,700
 several times or not, and would then go back
-to the region state on the right with 'a',
+to the regions state on the right with 'a',
 
 00:06:44,700 --> 00:06:47,790
 but we would not do that via the default entry,
@@ -424,7 +424,7 @@ start state of that level would
 
 00:08:45,270 --> 00:08:49,401
 be if we came via
-standard entry rather than history.
+default entry rather than history.
 
 00:08:49,401 --> 00:08:55,200
 So, those are a couple of variations:

@@ -87,8 +87,8 @@ Zuständen müssen wir jetzt Paare bilden.
 Das meint das Kreuzprodukt zwischen den Zuständen.
 
 00:02:07,110 --> 00:02:13,650
-Es soll einen Zustand BE geben, einen CE,
-einen DE, einen BF, einen CF, einen DF.
+Es soll einen Zustand (B,E) geben, einen (C,E),
+einen (D,E), einen (B,F), einen (C,F), einen (D,F).
 
 00:02:13,650 --> 00:02:18,120
 Also einfach das Kreuzprodukt zwischen den
@@ -104,10 +104,10 @@ entsprechende Übergänge geben.
 
 00:02:29,010 --> 00:02:36,660
 Wenn wir zum Beispiel im Zustand
-BE sind und ein b ausgelöst wird,
+(B,E) sind und ein 'b' ausgelöst wird,
 
 00:02:36,660 --> 00:02:40,320
-dann wird das zum neuen Zustand CE führen.
+dann wird das zum neuen Zustand (C,E) führen.
 
 00:02:40,320 --> 00:02:48,780
 Eben im Sinne dieser parallelen Verarbeitung, wo sich in dem
@@ -118,11 +118,11 @@ Das muss sich im Übergang zwischen entsprechenden
 Zuständen des Kreuzproduktes widerspiegeln.
 
 00:02:54,180 --> 00:02:59,430
-Oder wenn wir hier unten etwa auch ein b stehen
-hätten, dann müsste es so sein, dass mit dem b aus
+Oder wenn wir hier unten etwa auch ein 'b' stehen
+hätten, dann müsste es so sein, dass mit dem 'b' aus
 
 00:02:59,430 --> 00:03:05,190
-dem Zustand BE nach CF übergegangen wird,
+dem Zustand (B,E) nach (C,F) übergegangen wird,
 wegen dieser Parallelität, die vorliegt.
 
 00:03:05,190 --> 00:03:11,370
@@ -224,12 +224,12 @@ Und das sind einfach diejenigen,
 die sich aus den Regionen ergeben.
 
 00:05:09,565 --> 00:05:15,910
-Wenn das b und c zwischen B, C, D
+Wenn das 'b' und 'c' zwischen B, C, D
 wechseln, wobei der Zustand aus der
 
 00:05:15,910 --> 00:05:21,940
 anderen Region unverändert bleibt (weil
-es dort keine b- oder c-Übergänge gibt),
+es dort keine 'b'- oder 'c'-Übergänge gibt),
 
 00:05:22,610 --> 00:05:29,990
 dann führt dies dazu, dass wir hier unabhängig von
@@ -237,11 +237,11 @@ der zweiten Komponente fortschreiten können.
 
 00:05:29,990 --> 00:05:37,880
 Andererseits gibt es in der anderen Region
-diesen e-Übergang, von E zu F, wobei B,
+diesen 'e'-Übergang, von E zu F, wobei B,
 
 00:05:37,880 --> 00:05:41,930
 C, D in der anderen Region nicht betroffen
-sind, weil es dort keinen e-Übergang gibt.
+sind, weil es dort keinen 'e'-Übergang gibt.
 
 00:05:41,930 --> 00:05:46,160
 Das führt dann eben dazu, dass
@@ -282,7 +282,7 @@ Dann geht es noch um die
 Ein- und Austritte am Rand.
 
 00:06:24,860 --> 00:06:37,181
-Nun, wir haben hier diese a-, h- und g-Übergänge,
+Nun, wir haben hier diese 'a'-, 'h'- und 'g'-Übergänge,
 die den Regionenzustand betreten oder verlassen.
 
 00:06:37,181 --> 00:06:40,370
@@ -290,7 +290,7 @@ Für die müssen wir jeweils
 noch Übersetzungen angeben.
 
 00:06:43,220 --> 00:06:44,900
-Der Übergang a ist sehr leicht.
+Der Übergang 'a' ist sehr leicht.
 
 00:06:44,900 --> 00:06:53,150
 Das war hier ein Übergang in den
@@ -302,7 +302,7 @@ in jeder Region den Startzustand.
 
 00:06:57,170 --> 00:07:03,035
 Also dieser Übergang von A
-durch a muss zum Paar BE führen.
+durch 'a' muss zum Paar (B,E) führen.
 
 00:07:03,035 --> 00:07:04,490
 Genau das passiert hier.
@@ -311,7 +311,7 @@ Genau das passiert hier.
 Das erklärt also diese Übersetzung.
 
 00:07:08,600 --> 00:07:11,540
-Was ist mit dem g?
+Was ist mit dem 'g'?
 
 00:07:11,540 --> 00:07:18,020
 Wie sah das in dem
@@ -330,8 +330,8 @@ Das heißt wiederum, bei der Übersetzung
 in dieses Kreuzprodukt müssen wir dann
 
 00:07:30,740 --> 00:07:36,980
-einen Übergang mit g von dem Paar
-DF zu dem äußeren Zustand G haben.
+einen Übergang mit 'g' von dem Paar
+(D,F) zu dem äußeren Zustand G haben.
 
 00:07:36,980 --> 00:07:40,880
 Das erklärt also, warum dieser Übergang genau hier
@@ -344,7 +344,7 @@ anderen Zustände aus dem Kreuzprodukt.
 Und dann fehlt noch die Übersetzung davon,
 
 00:07:52,880 --> 00:07:58,160
-wie sich dieser h-Übergang
+wie sich dieser 'h'-Übergang
 in dem Kreuzprodukt auswirkt.
 
 00:07:58,160 --> 00:08:05,210
@@ -361,13 +361,13 @@ was in der zweiten Region vorliegt).
 
 00:08:16,160 --> 00:08:21,710
 Diesen Übergang dürfen wir dann nehmen,
-wenn wir in Zustand CE oder CF sind.
+wenn wir in Zustand (C,E) oder (C,F) sind.
 
 00:08:21,710 --> 00:08:25,394
 Das passiert genau hier.
 
 00:08:25,394 --> 00:08:31,130
-Das h darf genau dann wirken
+Das 'h' darf genau dann wirken
 und zu G nach außen führen,
 
 00:08:31,130 --> 00:08:36,260

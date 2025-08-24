@@ -446,7 +446,7 @@ Ganz wichtig!
 Also, es gibt diese Uhr.
 
 00:08:29,980 --> 00:08:32,290
-Sie hat zwei Knöpfe, a und b, links und rechts.
+Sie hat zwei Knöpfe, 'a' und 'b', links und rechts.
 
 00:08:32,290 --> 00:08:33,850
 Und Sie hat zwei Modi.
@@ -536,7 +536,7 @@ Wir sind in der Alarmanzeige
 und der Alarm ist aktuell an,
 
 00:09:53,852 --> 00:09:57,790
-und wir drücken b. Dann sind wir immer
+und wir drücken 'b'. Dann sind wir immer
 noch in der Alarmanzeigen-Darstellung,
 
 00:09:57,790 --> 00:09:59,080

@@ -450,8 +450,8 @@ Very important!
 So there is this watch.
 
 00:08:29,980 --> 00:08:32,290
-It has two buttons, a
-and b, left and right.
+It has two buttons, 'a'
+and 'b', left and right.
 
 00:08:32,290 --> 00:08:33,850
 And it has two modes.
@@ -491,13 +491,13 @@ So switch between the
 two on and off situations.
 
 00:09:06,010 --> 00:09:09,250
-For switching, this button a is meant.
+For switching, this button 'a' is meant.
 
 00:09:09,250 --> 00:09:12,130
 So if we're in the time display, we
 
 00:09:12,130 --> 00:09:15,700
-can press the button a and
+can press the button 'a' and
 get into the alarm setting display.
 
 00:09:15,700 --> 00:09:18,670
@@ -511,7 +511,7 @@ And of course we can go back from that.
 So if we are in the alarm setting display
 
 00:09:24,400 --> 00:09:27,310
-and we press a again, we
+and we press 'a' again, we
 come back to the time display.
 
 00:09:27,310 --> 00:09:28,840
@@ -537,7 +537,7 @@ And then when we're
 in this alarm setting display,
 
 00:09:45,520 --> 00:09:49,870
-we can use the b button to switch
+we can use the 'b' button to switch
 whether the alarm should be on or off.
 
 00:09:51,220 --> 00:09:53,852
@@ -545,7 +545,7 @@ We are in the alarm display
 and the alarm is currently on.
 
 00:09:53,852 --> 00:09:57,790
-And we press b, then
+And we press 'b', then
 we're still in the alarm display.
 
 00:09:57,790 --> 00:09:59,080
@@ -626,7 +626,7 @@ That means the other way around:
 
 00:11:08,000 --> 00:11:12,980
 If we wait a few minutes and then press
-a again, we don't want to end up here.
+'a' again, we don't want to end up here.
 
 00:11:13,490 --> 00:11:15,530
 After all, we intentionally
@@ -645,7 +645,7 @@ That's not how it's supposed to be.
 
 00:11:24,740 --> 00:11:30,320
 Instead, from the time
-display, by pressing a,
+display, by pressing 'a',
 
 00:11:30,320 --> 00:11:32,960
 we can end up either here or here.
@@ -666,7 +666,7 @@ That may look non-deterministic here.
 
 00:11:44,900 --> 00:11:48,710
 That here you don't know what's
-going to happen when you press a.
+going to happen when you press 'a'.
 
 00:11:48,710 --> 00:11:50,150
 But of course,

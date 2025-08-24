@@ -97,11 +97,11 @@ im allgemeinen wäre hier in der Regel
 auch eine Angabe eines Triggers möglich,
 
 00:02:08,240 --> 00:02:10,790
-so wie a in dem Beispiel hier.
+so wie 'a' in dem Beispiel hier.
 
 00:02:10,790 --> 00:02:15,890
 Da ist das ein Eintritt und auf
-dem Pfeil steht a als Trigger.
+dem Pfeil steht 'a' als Trigger.
 
 00:02:15,890 --> 00:02:19,430
 Das könnte man sich bei diesen

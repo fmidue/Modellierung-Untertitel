@@ -72,7 +72,7 @@ also wir haben in der Stundenzählung den Zustand
 2 und in der Minutenzählung den Zustand 58.
 
 00:01:27,330 --> 00:01:31,470
-Danach wird der Knopf a gedrückt,
+Danach wird der Knopf 'a' gedrückt,
 also dieser Trigger ausgelöst.
 
 00:01:31,470 --> 00:01:32,700
@@ -91,12 +91,12 @@ weil das der Startzustand ist; dann schalten
 wir vielleicht mehrmals den Alarm an und
 
 00:01:51,870 --> 00:01:55,530
-aus (da würden wir mit b zwischen diesen
+aus (da würden wir mit 'b' zwischen diesen
 beiden Unterzuständen hin und her wechseln),
 
 00:01:55,530 --> 00:01:57,739
-dann drücken wir wieder a,
-lösen also den Trigger a aus.
+dann drücken wir wieder 'a',
+lösen also den Trigger 'a' aus.
 
 00:01:57,739 --> 00:01:58,245
 Was würde das bewirken?
@@ -132,16 +132,16 @@ wenn wir zur Zeitanzeige und zurück wechseln.
 Woran wird das deutlich?
 
 00:02:32,770 --> 00:02:39,370
-Angenommen wir haben eine Uhrzeit, wir wechseln mit a zur
+Angenommen wir haben eine Uhrzeit, wir wechseln mit 'a' zur
 Alarmeinstellung, dann ist das erst mal On,
 
 00:02:39,370 --> 00:02:47,710
-dann drücken wir b, sind Off, dann drücken
-wir Knopf a, dann geraten wir wieder in diesen
+dann drücken wir 'b', sind Off, dann drücken
+wir Knopf 'a', dann geraten wir wieder in diesen
 
 00:02:47,710 --> 00:02:52,030
 Regionenzustand, schalten da vielleicht ein
-paar mal, drücken irgendwann wieder Knopf a.
+paar mal, drücken irgendwann wieder Knopf 'a'.
 
 00:02:52,030 --> 00:02:52,720
 Was passiert dann?
@@ -252,7 +252,7 @@ Also hier von rechts nach links können
 wir sagen, wir führen hier eine flache
 
 00:05:02,740 --> 00:05:05,980
-Historie ein und diesen a-Übergang gehen
+Historie ein und diesen 'a'-Übergang gehen
 wir eben zu dem Historienknoten hier.
 
 00:05:05,980 --> 00:05:09,250
@@ -268,7 +268,7 @@ dass wir uns merken konnten, was der
 letzte Stunden- bzw. Minutenzustand war.
 
 00:05:18,220 --> 00:05:21,910
-Denn wir haben a nach rechts gehend über eine
+Denn wir haben 'a' nach rechts gehend über eine
 
 00:05:21,910 --> 00:05:28,120
 Gabelung jeweils zu Historienknoten
@@ -319,16 +319,16 @@ Jetzt wäre es so, wenn wir sagen, wir wären
 bei 2:58 Uhr in der Zeitanzeige, würden dann
 
 00:06:28,080 --> 00:06:33,975
-mit a in den Alarm-Einstellungszustand wechseln
+mit 'a' in den Alarm-Einstellungszustand wechseln
 (es wird beim ersten Mal so sein, dass wir zu On
 
 00:06:33,975 --> 00:06:39,690
 gehen, weil der Historienknoten diesen Pfeil auf
-On hat), dann können wir mit b mehrmals hin-
+On hat), dann können wir mit 'b' mehrmals hin-
 
 00:06:39,690 --> 00:06:44,700
 und herschalten oder auch nicht, würden dann mit
-a wieder in den Regionenzustand rechts gehen,
+'a' wieder in den Regionenzustand rechts gehen,
 
 00:06:44,700 --> 00:06:47,790
 würden das aber nicht über den Standardeintritt
@@ -352,11 +352,11 @@ diesen rechten komplexen Zustand bei
 
 00:07:08,760 --> 00:07:15,330
 Und genauso umgekehrt, wenn wir hier geschaltet
-haben auf Off, dann mit a hierher zurückkehren
+haben auf Off, dann mit 'a' hierher zurückkehren
 
 00:07:15,330 --> 00:07:18,720
 in die Stunden- und Minutenanzeige
-und dann wieder a drücken.
+und dann wieder 'a' drücken.
 
 00:07:18,720 --> 00:07:23,070
 Dann würden wir nämlich nicht bei On landen,
@@ -609,7 +609,7 @@ dieses Alarmflag zu wechseln.
 
 00:12:51,720 --> 00:12:55,260
 Also wenn wir mit dem
-Knopf b nach Off wechseln, setzen wir Alarm auf null und
+Knopf 'b' nach Off wechseln, setzen wir Alarm auf null und
 
 00:12:55,260 --> 00:12:57,540
 wenn wir auf On wechseln,
@@ -814,7 +814,7 @@ die beiden Unter-Startzustände
 Batterie auch immer das Alarmflag auf eins,
 
 00:17:25,525 --> 00:17:31,060
-das heißt, wenn wir dann erstmals a drücken würden,
+das heißt, wenn wir dann erstmals 'a' drücken würden,
 würden wir immer in diesem Unterzustand landen.
 
 00:17:35,440 --> 00:17:41,380

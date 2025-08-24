@@ -1021,11 +1021,11 @@ Between them there should be triggers.
 
 00:18:34,300 --> 00:18:39,160
 By pressing button
-"a" you should get there.
+'a' you should get there.
 
 00:18:39,160 --> 00:18:43,420
 And we should be able to switch between these
-two states, alarm on or alarm off, by pressing "b".
+two states, alarm on or alarm off, by pressing 'b'.
 
 00:18:46,000 --> 00:18:54,580
 If we look at our stylized
@@ -1033,7 +1033,7 @@ picture of the clock, we see that
 
 00:18:54,580 --> 00:18:59,230
 we would then need quite a
-lot of transitions labeled with "a".
+lot of transitions labeled with 'a'.
 
 00:18:59,230 --> 00:19:03,610
 Which would have to go out
@@ -1041,7 +1041,7 @@ from all possible hour and minute states.
 
 00:19:03,610 --> 00:19:06,340
 If we have 00:00, then it
-must be possible to press "a"
+must be possible to press 'a'
 
 00:19:06,340 --> 00:19:08,530
 to get into the alarm display.
@@ -1055,7 +1055,7 @@ In fact, for every combination
 of hour and minute we
 
 00:19:14,050 --> 00:19:19,390
-would have to have an "a"-
+would have to have an 'a'-
 transition to go into the alarm state.
 
 00:19:20,950 --> 00:19:22,090
@@ -1122,10 +1122,10 @@ There is on and off.
 
 00:20:43,390 --> 00:20:45,610
 You can switch back and
-forth between them with "b".
+forth between them with 'b'.
 
 00:20:45,610 --> 00:20:53,200
-And there is button "a", which switches
+And there is button 'a', which switches
 between the alarm display and the time display.
 
 00:20:54,280 --> 00:20:59,410
@@ -1133,7 +1133,7 @@ That then corresponds to being able to
 switch between the time and the alarm display.
 
 00:20:59,410 --> 00:21:04,210
-And b is to switch between
+And 'b' is to switch between
 on and off in the alarm display.
 
 00:21:05,770 --> 00:21:11,080
@@ -1173,7 +1173,7 @@ Initially the time display and not
 the alarm display shall be activated.
 
 00:21:50,190 --> 00:21:53,610
-These a-transitions should
+These 'a'-transitions should
 not start from sub-states,
 
 00:21:53,610 --> 00:21:56,190
@@ -1181,7 +1181,7 @@ but from the whole composite state here.
 
 00:21:56,190 --> 00:22:04,290
 This saves us the
-otherwise necessary many a-labeled transitions,
+otherwise necessary many 'a'-labeled transitions,
 
 00:22:04,290 --> 00:22:06,390
 which we would potentially
