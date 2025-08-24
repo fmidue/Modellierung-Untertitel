@@ -19,7 +19,7 @@ regions, but this time with
 a history node (namely that one).
 
 00:00:23,200 --> 00:00:27,760
-So like here no regions,
+So, like in this case, no regions,
 
 00:00:29,230 --> 00:00:33,640
 but a hierarchical state and history
@@ -34,10 +34,10 @@ regions and history occur.
 
 00:00:41,680 --> 00:00:44,830
 And in fact, we
-won't have that interacting occur
+won't have them interacting with each other
 
 00:00:44,830 --> 00:00:50,410
-in our flat-knock examples
+in our flattening examples
 that you're supposed to solve.
 
 00:00:51,820 --> 00:00:54,160
@@ -79,7 +79,7 @@ keep the entries and exits, other transitions
 
 00:01:35,620 --> 00:01:42,220
 but for example such transitions outside
-or such transitions inside) simple, and keep
+or such transitions inside) as they are, and keep
 
 00:01:42,220 --> 00:01:49,090
 the outer start state also as
@@ -121,10 +121,10 @@ still have to know later when we return whether
 
 00:02:33,100 --> 00:02:38,230
 we left this hierarchical state from C
-or from D. How can we remember that?
+or from D.
 
 00:02:38,230 --> 00:02:39,940
-How can we remember this?
+How can we remember that?
 
 00:02:42,280 --> 00:02:44,830
 Only in states of the flat state diagram.
@@ -281,7 +281,7 @@ there from X, we get this transition.
 
 00:05:42,940 --> 00:05:48,970
 This corresponds to the information: standard entry
-under the start state, therefore this transition.
+via the start state, therefore this transition.
 
 00:05:50,740 --> 00:05:52,300
 What else do we have to translate?
@@ -347,15 +347,14 @@ That is, it is not enough simply
 to have this b and e transition.
 
 00:06:53,770 --> 00:06:56,560
-We also have to somehow hold that
-this is why we are returning to
+It also has to be recorded somehow that
+this is why we are returning to D,
 
 00:06:56,560 --> 00:07:03,640
-D, because we had come to A from D. And there is just the
-idea that if we do that from C, we will end up at C, too.
+because we had come from D to A.
 
 00:07:03,640 --> 00:07:09,550
-And there's just the idea that we do
+And the idea is precisely that we do
 that by capturing that in the states as well.
 
 00:07:09,550 --> 00:07:14,920
@@ -381,8 +380,8 @@ have to do that for C as well.
 We just create copies.
 
 00:07:36,010 --> 00:07:41,620
-What were in the UML state diagrams
-A, B, for that we have two copies:
+For what were A and B in the UML state diagram,
+we have two copies:
 
 00:07:41,620 --> 00:07:44,740
 one for the fact that we came from C
@@ -422,7 +421,7 @@ have never been in this part at all.
 In this specific case, it happens that
 
 00:08:14,650 --> 00:08:18,310
-we are never in X
+we are never in X again
 if we have been here before.
 
 00:08:18,310 --> 00:08:21,910
@@ -509,7 +508,7 @@ transition at some point, via history
 
 00:09:55,630 --> 00:10:01,960
 nodes, and have last been in C, we also want
-to return to C. And this happens through this additional transition.
+to return to C.
 
 00:10:01,960 --> 00:10:07,870
 And that is done
