@@ -15,10 +15,3 @@ Some initial ideas for pull requests:
   > Please correct grammar mistakes in the following subtitles. Do not change line breaks. Do not change the assignment of time stamps. If the grammar is correct, return the given subtitles exactly as they are. Here are the given subtitles: ...
 
   respectively. (But blindly taking over ChatGPT-produced changes will not work satisfactorily. Instead, going through them individually, and selecting the appropriate line changes, will most likely be necessary. Maybe use a tool like [Beyond Compare](https://www.beyondcompare.de/) or hunk staging with `git add -p` to facilitate this.)
-
-## Leader board
-
-| GitHub username | Lines |
-| :-- | --: |
-| timmycodesforfun | 72 |
-| sabinxh | 7 |
