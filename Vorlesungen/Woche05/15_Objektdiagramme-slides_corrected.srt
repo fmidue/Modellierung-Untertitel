@@ -252,11 +252,11 @@ Although I had said last week that
 
 00:04:32,120 --> 00:04:41,095
 you cannot instantiate objects from
-abstract class in a concrete implementation.
+abstract classes in a concrete implementation.
 
 00:04:41,095 --> 00:04:42,530
 For such a representation of the
-object diagram it would be in principle
+object diagram, it would be in principle
 
 00:04:42,530 --> 00:04:46,880
 also possible to form an
@@ -267,7 +267,7 @@ Of course, under the circumstances that not
 all attributes are set (which would be necessary
 
 00:04:58,640 --> 00:05:05,270
-if we would specify objects from
+if we specify objects from
 a concrete subclass of the abstract class).
 
 00:05:09,980 --> 00:05:10,910
@@ -341,11 +341,11 @@ object of the class "Point".
 
 00:06:15,170 --> 00:06:20,540
 Therefore, in this specification, a superclass could also
-be specified, if we don't want to have
+be specified if we don't want to have
 
 00:06:20,540 --> 00:06:25,580
 this more precise again in the exercise
-or the exam, or explicitly exclude it.
+or the exam or explicitly exclude it.
 
 00:06:30,590 --> 00:06:33,140
 I had already spoken about the
@@ -369,7 +369,7 @@ any relationship between objects.
 
 00:06:52,400 --> 00:06:56,450
 If we have an association on the class
-level, or an aggregation, or a composition, then
+level, or an aggregation or a composition, then
 
 00:06:56,450 --> 00:07:02,360
 this can be found on the level
@@ -385,7 +385,7 @@ such a relationship of specific objects of
 
 00:07:10,940 --> 00:07:16,520
 the classes involved in the
-relationship existing on class level.
+relationships existing on class level.
 
 00:07:16,520 --> 00:07:23,780
 There are no multiplicities
@@ -489,11 +489,11 @@ or build two examples together.
 
 00:09:09,330 --> 00:09:11,700
 Once we had the example
-with parking lot and cars.
+with parking lots and cars.
 
 00:09:11,700 --> 00:09:15,570
 Then at some point we
-also had a situation with cars
+also had a situation with cars,
 
 00:09:15,570 --> 00:09:24,540
 and owners, and on the whiteboard slides
@@ -524,7 +524,7 @@ the 1 here at the composition.
 
 00:09:52,500 --> 00:09:54,510
 In the other example I had
-said, a wheel could be also
+said a wheel could be also
 
 00:09:54,510 --> 00:09:56,460
 in storage, then not in any car.
@@ -612,7 +612,7 @@ cars, for example up to five.
 
 00:11:28,830 --> 00:11:32,480
 So what might a concrete object
-diagram to this class diagram look like?
+diagram of this class diagram look like?
 
 00:11:32,480 --> 00:11:33,770
 For example, as follows:
@@ -795,7 +795,7 @@ violated the class diagram as well.
 
 00:15:03,870 --> 00:15:09,180
 Because for this wheel there would not
-then be the exactly one car that contains it.
+then be exactly one car that contains it.
 
 00:15:09,180 --> 00:15:09,480
 Which, however, must exist
@@ -952,7 +952,7 @@ explicit relationship of these to customers.
 
 00:18:21,860 --> 00:18:26,270
 They inherit that because
-they are subclasses of account.
+they are subclasses of Account.
 
 00:18:26,270 --> 00:18:36,610
 That is, an object

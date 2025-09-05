@@ -185,10 +185,10 @@ occurrence of an element, cannot be multiple.
 
 00:03:43,780 --> 00:03:46,450
 First of all, sets are disordered,
-so whether I write down \{1,2,3\}
+so whether I write down {1,2,3}
 
 00:03:46,450 --> 00:03:50,680
-or \{1,3,2\} or any other
+or {1,3,2} or any other
 permutation of the numbers 1,2,3.
 
 00:03:50,680 --> 00:03:52,000
@@ -203,8 +203,8 @@ Or, if you would write them
 down several times, it makes no difference.
 
 00:04:01,150 --> 00:04:04,390
-The set \{1,2,3,4,4\} is
-still just the set \{1,2,3,4\},
+The set {1,2,3,4,4} is
+still just the set {1,2,3,4},
 
 00:04:05,350 --> 00:04:07,660
 because it only matters if
@@ -220,8 +220,8 @@ And not somehow how many times.
 That means, these sets are equal,
 
 00:04:13,300 --> 00:04:16,510
-but of course different from \{1,2,3\}
-and also from the set \{1,2,3,4,5\}.
+but of course different from {1,2,3}
+and also from the set {1,2,3,4,5}.
 
 00:04:19,780 --> 00:04:24,490
 Because there is actually one element too
@@ -277,7 +277,7 @@ to denote that finite number.
 
 00:05:20,260 --> 00:05:26,500
 Then there is the notion of
-subset and a corresponding symbol for it.
+a subset and a corresponding symbol for it.
 
 00:05:27,490 --> 00:05:30,430
 That is, A is a subset of B.
@@ -295,7 +295,7 @@ But at least every element from
 A must also be present in B.
 
 00:05:41,560 --> 00:05:48,400
-So for example the even integer numbers
+So, for example, the even integer numbers
 are a subset of all integer numbers.
 
 00:05:48,400 --> 00:05:52,030
@@ -348,7 +348,7 @@ Then there are operations
 which link several sets.
 
 00:06:40,970 --> 00:06:46,985
-On the one hand there is
+On the one hand, there is
 the set union, written with this symbol.
 
 00:06:46,985 --> 00:06:50,600
@@ -368,7 +368,7 @@ The result set cannot be smaller
 than either of the original sets.
 
 00:07:07,400 --> 00:07:17,930
-And of course both A and B are
+And, of course, both A and B are
 subsets of the union of A and B.
 
 00:07:17,930 --> 00:07:26,540
@@ -392,13 +392,13 @@ sets smaller, at least not larger.
 
 00:07:44,480 --> 00:07:50,870
 So the intersection of A and B is
-in any case subset of both A and B.
+in any case a subset of both A and B.
 
 00:07:50,870 --> 00:07:52,610
 While here the reverse was true:
 
 00:07:52,610 --> 00:07:55,730
-A and B are each subset of the union.
+A and B are each a subset of the union.
 
 00:07:58,940 --> 00:08:04,700
 These are operations on sets in such
@@ -416,7 +416,7 @@ so-called cross product
 or "Cartesian product".
 
 00:08:18,590 --> 00:08:20,990
-There the structure
+There, the structure
 of the elements changes.
 
 00:08:20,990 --> 00:08:25,025
@@ -432,11 +432,11 @@ So we have given two sets A and
 B, and we get the set of all pairs.
 
 00:08:36,140 --> 00:08:42,050
-And ordered pairs in such a way,
+And ordered pairs in such a way
 that the first element, the left element
 
 00:08:42,050 --> 00:08:47,090
-of the pair, always comes from the set A,
+of the pair always comes from the set A,
 and the right element always comes from the set B.
 
 00:08:47,090 --> 00:08:50,320
@@ -463,7 +463,7 @@ would be as follows:
 That has six elements.
 
 00:09:18,190 --> 00:09:23,650
-It results exactly the number of elements of
+It results exactly in the number of elements of
 a cross product with finite sets A and B
 
 00:09:23,650 --> 00:09:29,140
@@ -476,7 +476,7 @@ this set with every element from that one.
 
 00:09:32,680 --> 00:09:37,540
 There are exactly these
-six pairs in the case.
+six pairs in this case.
 
 00:09:37,540 --> 00:09:41,770
 Of course, the order in which we
@@ -495,7 +495,7 @@ A special case would be the
 Cartesian product with the empty set.
 
 00:09:53,230 --> 00:09:54,550
-There always the empty set comes out.
+There, always the empty set comes out.
 
 00:09:54,550 --> 00:09:58,840
 For example, no matter how large the
@@ -528,11 +528,11 @@ think about certain relations
 between the relations we have seen.
 
 00:10:30,750 --> 00:10:37,740
-For example, in the case of subset relation and the cross product, if
+For example, in the case of the subset relation and the cross product, if
 A is a subset of B, then the same kind of relation holds
 
 00:10:37,740 --> 00:10:43,680
-even after cross producting with some set C. And it
+even after cross-producting with some set C. And it
 doesn't matter if I have the set C or not.
 
 00:10:43,680 --> 00:10:49,740
@@ -791,7 +791,7 @@ very quickly very many states.
 
 00:15:42,950 --> 00:15:48,860
 That is one thing that one
-would like to avoid, in modeling ultimately.
+would like to avoid in modeling ultimately.
 
 00:15:48,860 --> 00:16:00,680
 To repeat this notation, or just
@@ -1071,7 +1071,7 @@ Functions are known from school.
 
 00:21:02,780 --> 00:21:09,680
 So typical representatives, which one
-uses in the analysis for example.
+uses in the analysis, for example.
 
 00:21:09,680 --> 00:21:11,540
 In the discussion of curves
@@ -1243,7 +1243,7 @@ also simply a set-theoretic construct.
 So you have a set of labels.
 
 00:24:24,550 --> 00:24:32,170
-Then a directed and edge labeled graph (these
+Then a directed and edge-labeled graph (these
 will be the graphs we will be primarily interested
 
 00:24:32,170 --> 00:24:38,530

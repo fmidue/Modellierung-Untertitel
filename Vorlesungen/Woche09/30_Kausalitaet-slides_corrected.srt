@@ -309,11 +309,11 @@ t4, if necessary at the end also twice.
 But what we already see:
 
 00:05:43,550 --> 00:05:51,680
-Possible sequences are t1,t2,t4;
+Possible sequences are t1, t2, t4;
 
 00:05:52,670 --> 00:05:59,120
-t1,t2,t3,t4; t1,t3,t4; t1,t3,t2,t4;
-t1,t3,t2,t4,t4 and t1,t2,t3,t4,t4.
+t1, t2, t3, t4; t1, t3, t4; t1, t3, t2, t4;
+t1, t3, t2, t4, t4 and t1, t2, t3, t4, t4.
 
 00:05:59,120 --> 00:06:01,700
 That would be all the
@@ -431,7 +431,7 @@ I had just shown
 this in the reachability graph.
 
 00:07:59,955 --> 00:08:03,930
-There was a firing sequence (namely t1,t3)
+There was a firing sequence (namely t1, t3)
 that was used to reach a node from
 
 00:08:03,930 --> 00:08:07,830
@@ -454,7 +454,7 @@ Because there are
 firing sequences (namely
 
 00:08:28,900 --> 00:08:32,260
-t1,t2) after which t4 is
+t1, t2) after which t4 is
 fireable without t3 having occurred before.
 
 00:08:38,460 --> 00:08:38,760
@@ -535,7 +535,7 @@ t3 and for example t1 is also
 
 00:10:05,160 --> 00:10:07,890
 necessary for t2, this does not mean that
-this t2 in between is also necessary for t3.
+t2 in between is also necessary for t3.
 
 00:10:07,890 --> 00:10:12,240
 In fact, this can also be

@@ -7,8 +7,8 @@ we have to read and then understand and
 then we have to create a state chart.
 
 0:00:22.140,0:00:28.140
-For its next invention Gyro Gearloose
-needs a device which allows to input
+For its next invention, Gyro Gearloose
+needs a device which allows input
 
 0:00:28.140,0:00:36.900
 numbers consisting of three digits from one
@@ -16,14 +16,14 @@ to four. Gyro envisages the device as follows.
 
 0:00:38.580,0:00:45.540
 The device has a screen with three digits on it.
-At each moment exactly one of the three digits is
+At each moment, exactly one of the three digits is
 
 0:00:45.540,0:00:52.320
 active. At the beginning, all three digits are
 equal to one, and the leftmost digit is active.
 
 0:00:52.320,0:01:01.620
-Additionally, the device has five buttons.
+Additionally, the device has five buttons:
 Plus, minus, L, R, and OK. When plus or minus
 
 0:01:02.340,0:01:09.180
@@ -35,7 +35,7 @@ If the digit would become higher than four
 or lower than one by this, then it becomes
 
 0:01:18.720,0:01:33.300
-one respectively four.
+one, respectively four.
 
 0:01:33.300,0:01:39.240
 The buttons L
@@ -46,16 +46,16 @@ Pressing R activates the digit to the right
 of the current active one. If the rightmost
 
 0:01:46.680,0:01:55.440
-digit is already active before pressing of R,
+digit is already active before pressing R,
 then instead the leftmost digit becomes active.
 
 0:01:56.280,0:02:01.380
-Pressing L on the other hand will
+Pressing L, on the other hand, will
 always switch to the leftmost digit.
 
 0:02:02.220,0:02:11.460
 If that one is not already active anyway.
-When okay is pressed, the input process ends.
+When OK is pressed, the input process ends.
 
 0:02:12.000,0:02:20.040
 And now we have to help Gyro by giving a UML
@@ -71,7 +71,7 @@ And here is a picture of the device. So,
 
 0:02:36.180,0:02:45.720
 we have three digits going up to four, and we
-have plus, minus button buttons, L R and OK.
+have plus, minus buttons, L, R, and OK.
 
 0:02:47.820,0:02:57.600
 So, I guess we should start by having some states.
@@ -79,7 +79,7 @@ At least, we require these four number states
 
 0:02:57.600,0:03:14.880
 for each digit. So, maybe let's just start by
-having those states here as numbers. So, 1, 2, 3
+having those states here as numbers: 1, 2, 3
 
 0:03:19.980,0:03:29.700
 and 4. These are just states for the numbers.
@@ -95,7 +95,7 @@ increment the number. So, that's this direction.
 
 0:03:56.160,0:04:03.180
 And when we are already at
-the highest number-. Maybe
+the highest number, maybe
 
 0:04:04.560,0:04:12.660
 let's draw this from here. When we
@@ -105,7 +105,7 @@ are already at the highest number,
 then we go back to the first. So,
 
 0:04:26.340,0:04:39.840
-let me choose a plus here as design for
+let me choose a plus here as a design for
 incrementing the numbers and then we have the
 
 0:04:39.840,0:04:48.420
@@ -113,7 +113,7 @@ other direction as well. So, we can go from four
 to three by decrementing using the minus button.
 
 0:04:52.200,0:05:05.880
-And again from, when we reach one, and
+And again from when we reach one and
 we press minus, we end up in four again.
 
 0:05:07.320,0:05:17.100
@@ -133,7 +133,7 @@ the switching of the numbers does, and
 we have this whole thing three times,
 
 0:06:00.120,0:06:09.720
-and we have one number which is active, and
+and we have one number that is active, and
 then we have two numbers, which are inactive.
 
 0:06:10.440,0:06:20.400
@@ -150,7 +150,7 @@ as well. So, I will add a history node here. And
 
 0:06:40.200,0:06:49.860
 that's the basic part which I have in
-mind for yeah, using or reusing this part.
+mind for using or reusing this part.
 
 0:06:51.120,0:07:01.500
 So, I will create a state around this, which
@@ -161,7 +161,7 @@ So, this shall be a basic state that we can now
 repeat three times so that we have three digits.
 
 0:07:28.440,0:07:40.980
-And yeah, we can of course, label them. I
+And yeah, we can of course label them. I
 haven't added a label yet. So, one is digit
 
 0:07:41.580,0:07:46.260
@@ -207,7 +207,7 @@ We can go from digit two to digit
 three, we can go from digit one to digit two.
 
 0:10:00.960,0:10:07.440
-Maybe I move the whole part a bit. So,
+Maybe I move the whole part a bit so
 that we have a bit more space in between.
 
 0:10:12.420,0:10:26.160
@@ -220,7 +220,7 @@ node that we reach then.
 
 0:10:42.480,0:10:51.900
 So, this is the R button. So, let's create
-labels for these, this is the R button
+labels for these; this is the R button
 
 0:10:57.960,0:11:08.640
 and then we have the L button as well, which
@@ -228,19 +228,19 @@ always leads to the leftmost digit. So,
 
 0:11:08.640,0:11:14.880
 we can skip it for the first digit actually,
-because when we are at first digit,
+because when we are at the first digit,
 
 0:11:16.020,0:11:25.140
 we are not required to go to the leftmost digit
 because we are already there. So, there is no such
 
 0:11:27.420,0:11:35.580
-required. If we are in the right most we simply
+requirement. If we are in the rightmost, we simply
 reuse this one here. So, we use L in this case
 
 0:11:36.240,0:11:54.360
-and then we have digit two when we want press L
-there then we actually-, when we are here, then
+and then we have digit two when we want to press L
+there, then we actually, when we are here, then
 
 0:11:58.800,0:12:17.880
 we can go up there. Okay. So, this is
@@ -256,10 +256,10 @@ R and L. So, this makes it maybe much clearer.
 
 0:12:49.140,0:13:03.420
 Move this up here. So, and okay, this is what
-remembering the state's just as histories,
+remembering the states is just like histories,
 
 0:13:03.960,0:13:14.460
-but we need to provide more information and that
+but we need to provide more information, and that
 is especially how the whole action starts. And
 
 0:13:17.400,0:13:20.040
@@ -267,29 +267,29 @@ I will make some more space here.
 
 0:13:24.600,0:13:31.920
 Yeah, we need another state around the
-whole thing which is the complete device.
+whole thing, which is the complete device.
 
 0:13:33.840,0:13:50.220
-So, I create a new state and this should be the
-device and I want to place this whole thing into
+So, I create a new state, and this should be the
+device, and I want to place this whole thing into
 
 0:13:52.800,0:14:04.680
-and because state is maybe, like this.
+and because state is maybe like this.
 
 0:14:10.440,0:14:30.600
 So, this is the complete state around it. And
 now we can think about how to enter the state.
 
 0:14:37.080,0:14:46.860
-So, the device has a screen with three digits,
-that's was what it says, and we have
+So, the device has a screen with three digits;
+that's what it says, and we have
 
 0:14:48.420,0:14:52.620
 at the beginning: all three
 digits are equal to one.
 
 0:14:54.180,0:15:01.320
-So, and we start with the leftmost digit, and
+So, we start with the leftmost digit, and
 we can represent this so we have a start state.
 
 0:15:05.460,0:15:16.560
@@ -314,7 +314,7 @@ Then we have the history,
 
 0:16:05.700,0:16:13.860
 which when we leave the state, we can
-either go to digit two, or digit three.
+either go to digit two or digit three.
 
 0:16:13.860,0:16:22.980
 And they are all starting at one. That is why
@@ -322,7 +322,7 @@ we require an arrow from our history to one.
 
 0:16:25.920,0:16:37.080
 So, that means when we switch the digit
-using R or L, well, L don’t make sense,
+using R or L, well, L doesn’t make sense,
 
 0:16:37.800,0:16:46.140
 digit one. But when we switch to the right,
@@ -333,7 +333,7 @@ then if you switch to two, and use R, then we
 start here in one as well. And when we switch
 
 0:16:54.900,0:17:03.420
-to two here, and then switch using or L
+to two here, and then switch using L
 back to digit one, and then go to R again,
 
 0:17:03.420,0:17:08.100
@@ -342,15 +342,15 @@ our old state, and we'll be there again.
 
 0:17:09.720,0:17:26.460
 So, that means we keep track of our history.
-And thus, we keep the state and as we have
+And thus, we keep the state, and as we have
 
 0:17:26.460,0:17:33.300
 the starting state in digit one, and we start in
-digit one, how we can just keep our history node
+digit one, we can just keep our history node
 
 0:17:33.300,0:17:41.160
 around. So, this is flat history here, because
-it's enough, we just require the history to
+it's enough; we just require the history to
 
 0:17:41.160,0:17:52.080
 keep the state at that level. So, remember,
@@ -365,24 +365,24 @@ that is ending the whole thing.
 And the task says for the ending,
 
 0:18:12.900,0:18:20.460
-that we can have a OK button. And when
+that we can have an OK button. And when
 we press OK, the input process ends.
 
 0:18:21.420,0:18:36.240
 So, you have an end state here. And whenever we
-are ready, we can you can use this state here.
+are ready, we can use this state here.
 
 0:18:37.620,0:18:50.040
 Okay. And there is the label missing. So, this
 is the OK button. And now, let's check back to
 
 0:18:50.040,0:18:59.880
-our picture, we have the plus buttons represented
+our picture; we have the plus buttons represented
 here in our digits, we have the minus buttons in
 
 0:18:59.880,0:19:07.500
-which go the opposite direction decrementing
-the numbers and we have our L and R. L going
+which go in the opposite direction decrementing
+the numbers, and we have our L and R. L going
 
 0:19:07.500,0:19:12.900
 always to the leftmost state, but when we are
@@ -398,8 +398,8 @@ OK button, which ends the whole process. And so,
 
 0:19:35.400,0:19:41.160
 I just realized it wasn't in view
-here below so plus minus, L, R and OK.
+here below: so plus, minus, L, R, and OK.
 
 0:19:43.380,0:19:49.020
 So, we are done with our state
-diagram and solve this task as well.
+diagram and solved this task as well.

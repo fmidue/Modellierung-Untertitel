@@ -20,7 +20,7 @@ computer science-related courses of study?
 
 00:00:27,120 --> 00:00:32,100
 And first of all, of course, the answer is
-the same as mentioned before, in an earlier video.
+the same as mentioned before in an earlier video.
 
 00:00:32,100 --> 00:00:32,850
 So:
@@ -73,7 +73,7 @@ If you're just building a doghouse, you might
 not need to have a plan and a
 
 00:01:24,060 --> 00:01:27,480
-3D model for it, you can
+3D model for it; you can
 just go ahead and do it.
 
 00:01:27,480 --> 00:01:34,050
@@ -106,7 +106,7 @@ of course, is then that the
 
 00:02:03,380 --> 00:02:08,840
 fact that one has modeled before one
-begins to implement, leads to various advantages:
+begins to implement leads to various advantages:
 
 00:02:08,840 --> 00:02:10,520
 Avoidance of errors, better quality.
@@ -117,7 +117,7 @@ avoidance of repairs or wrong
 
 00:02:15,650 --> 00:02:24,320
 ways, which one has to repeat then,
-or to replace detours by new development.
+or to replace detours with new development.
 
 00:02:24,320 --> 00:02:26,510
 Better documentation through models.
@@ -479,7 +479,7 @@ I have already mentioned special cases.
 
 00:09:09,100 --> 00:09:15,520
 So, in agile software development, modeling
-is different, one could also say less.
+is different; one could also say less.
 
 00:09:15,520 --> 00:09:20,080
 Strictly speaking, models also appear
@@ -1019,7 +1019,7 @@ Then there are more concrete terms like
 modeling to some extent.
 
 00:18:45,520 --> 00:18:46,169
-"State."
+"State".
 
 00:18:46,169 --> 00:18:50,060
 That's obviously about static

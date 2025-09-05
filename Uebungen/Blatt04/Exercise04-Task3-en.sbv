@@ -11,7 +11,7 @@ We shall also justify our decision. We shall
 choose the strongest existing relationship type.
 
 0:00:35.760,0:00:44.760
-The first example is a color is in a
+The first example is a color in a
 painting. We know that color can be
 
 0:00:44.760,0:00:51.840
@@ -20,7 +20,7 @@ painting consists of all these colors. So,
 
 0:00:55.620,0:01:01.560
 it's an aggregation. The important thing
-is that it is not composition is because
+is that it is not composition because
 
 0:01:01.560,0:01:08.580
 the colors could also be used in another
@@ -28,18 +28,18 @@ painting. That is why it is an aggregation.
 
 0:01:09.840,0:01:18.180
 The human body consists of organs. In this
-case, I think we've got a composition. Because
+case, I think we've got a composition, because
 
 0:01:20.400,0:01:29.160
 when the body doesn't exist anymore, then
-the organs won't be any more as well.
+the organs won't be anymore as well.
 
 0:01:31.080,0:01:41.700
 Only if we consider the case of organ donations,
 then could we say it's not a composition. It's
 
 0:01:41.700,0:01:47.460
-rather an aggregation. Because then the organs
+rather an aggregation, because then the organs
 could be transferred to another body and could
 
 0:01:47.460,0:01:55.440
@@ -58,7 +58,7 @@ not exclusive to the phone. That's why there is an
 aggregation here. A university has many teaching
 
 0:02:22.560,0:02:34.980
-chairs. In this case, it would be a composition
+chairs. In this case, it would be a composition,
 because if the university is closed, then there
 
 0:02:34.980,0:02:40.980
@@ -107,10 +107,10 @@ multiple buildings. But when the university is
 
 0:04:20.160,0:04:28.920
 dissolved, then the building will still exist.
-It could be part of anything else. Transferred
+It could be part of anything else, transferred
 
 0:04:31.260,0:04:44.520
-maybe in housing or into a clinic or something
+maybe into housing or into a clinic or something
 else. The next one is students attend a lecture.
 
 0:04:45.960,0:04:54.240

@@ -587,7 +587,7 @@ User.
 But that's also just another synonym.
 
 00:10:12,910 --> 00:10:18,820
-User, Customer, Member, all refers to
+User, Customer, Member, all refer to
 the same actors in the system.
 
 00:10:20,440 --> 00:10:25,060
@@ -886,7 +886,7 @@ determined on this level of the
 
 00:15:58,360 --> 00:16:03,730
 class diagram, but would also be
-task of the class diagram designer.
+a task for the class diagram designer.
 
 00:16:06,610 --> 00:16:08,110
 This is not very far yet, this picture.
@@ -1027,7 +1027,7 @@ with the book or with the member.
 
 00:18:34,230 --> 00:18:39,375
 While the reservation is something that should be
-explicitly represented as a class, because additional
+explicitly represented as a class because additional
 
 00:18:39,375 --> 00:18:45,510
 external information is necessary, for example,

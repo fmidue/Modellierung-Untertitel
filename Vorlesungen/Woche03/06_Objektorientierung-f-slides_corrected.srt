@@ -12,7 +12,7 @@ and introduce object orientation.
 
 00:00:17,370 --> 00:00:23,070
 Before that, a few words about
-UML as such, since, as I said,
+UML as such since, as I said,
 
 00:00:23,970 --> 00:00:29,670
 this language will generally take
@@ -30,7 +30,7 @@ Quite common both in
 the literature and in practice.
 
 00:00:39,780 --> 00:00:44,490
-Possibly known from school, if
+Possibly known from school if
 you had computer science classes
 
 00:00:44,490 --> 00:00:48,930
@@ -134,7 +134,7 @@ Both static and
 dynamic modeling are supported.
 
 00:02:46,740 --> 00:02:51,585
-In the lecture we will first
+In the lecture, we will first
 deal with static modeling in UML.
 
 00:02:51,585 --> 00:02:55,646
@@ -184,7 +184,7 @@ and blackbox models in UML.
 
 00:03:45,930 --> 00:03:47,880
 So it depends on the type
-of diagram you're looking at, whether
+of diagram you're looking at whether
 
 00:03:47,880 --> 00:03:50,370
 you think of it more
@@ -577,7 +577,7 @@ data structured in the system?
 
 00:10:27,450 --> 00:10:30,780
 Which operations are
-possible, i.e. are offered?
+possible, i.e., are offered?
 
 00:10:30,780 --> 00:10:34,290
 This also limits the dynamic behavior.
@@ -1122,7 +1122,7 @@ for the concrete, more specific things
 
 00:20:17,490 --> 00:20:22,350
 that you have at the beginning, that you can
-start from, i.e. the basic shapes rectangle, circle etc..
+start from, i.e., the basic shapes rectangle, circle, etc..
 
 00:20:22,350 --> 00:20:29,580
 And then there are analogous
@@ -1173,7 +1173,7 @@ like that in our diagrams.
 
 00:21:16,874 --> 00:21:20,940
 Not necessarily with exactly this syntax here,
-for example not necessarily with this "void".
+for example, not necessarily with this "void".
 
 00:21:21,600 --> 00:21:29,220
 But this will be the nature of
@@ -1187,7 +1187,7 @@ There would be some annotations missing,
 
 00:21:38,770 --> 00:21:42,400
 probably some "abstract"
-annotations for example.
+annotations, for example.
 
 00:21:42,400 --> 00:21:45,790
 But this is only
@@ -1585,7 +1585,7 @@ entrances to the Duisburg station, there
 
 00:28:58,940 --> 00:29:02,330
 are other objects, but they all
-have certain property types in common
+have certain property types in common,
 
 00:29:02,330 --> 00:29:06,980
 and therefore belong to the

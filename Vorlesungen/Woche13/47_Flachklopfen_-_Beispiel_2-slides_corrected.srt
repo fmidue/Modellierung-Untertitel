@@ -356,7 +356,7 @@ one state of the two regions explicitly, C.
 
 00:08:05,210 --> 00:08:11,660
 This means that we are allowed to
-leave this regions state whenever C is present
+leave this regions' state whenever C is present
 
 00:08:11,660 --> 00:08:16,160
 in the first region (while it does not

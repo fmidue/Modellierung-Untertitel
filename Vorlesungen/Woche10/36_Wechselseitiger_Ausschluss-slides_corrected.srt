@@ -49,7 +49,7 @@ developed in the pipe tool as a Petri net.
 
 00:00:58,050 --> 00:01:00,930
 For example, sources and
-sinks were used: Transitions that
+sinks were used: transitions that
 
 00:01:00,930 --> 00:01:05,430
 have no pre- or post-weight places.
@@ -229,7 +229,7 @@ to do with the critical region.
 The same is true for actor 2.
 
 00:04:07,150 --> 00:04:08,290
-So that's non-critical region
+So that's the non-critical region
 
 00:04:08,290 --> 00:04:11,770
 1 and non-critical region
@@ -265,7 +265,7 @@ nk1, nk2 as "actor 1 enters its critical
 
 00:04:39,040 --> 00:04:41,980
 region", "actor 2 enters its
-critical region" and analogously for
+critical region", and analogously for
 
 00:04:41,980 --> 00:04:45,670
 leaving the critical region and
@@ -793,10 +793,10 @@ paralyzed and can only become active again
 
 00:14:10,780 --> 00:14:17,080
 when philosopher 1 has put down
-this fork again, i.e. has eaten.
+this fork again, i.e., has eaten.
 
 00:14:17,080 --> 00:14:21,130
-This is a conflict of course.
+This is a conflict, of course.
 
 00:14:21,130 --> 00:14:25,720
 That is, these two transitions are in
@@ -819,7 +819,7 @@ first, since it is parallel.
 
 00:14:35,650 --> 00:14:39,940
 But that led to a deadlock,
-while here by this introduction of the
+while here, by this introduction of the
 
 00:14:39,940 --> 00:14:43,780
 conflict, the mutual exclusion,

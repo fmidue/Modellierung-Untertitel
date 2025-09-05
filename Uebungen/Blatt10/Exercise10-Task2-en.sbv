@@ -63,7 +63,7 @@ Okay, so here we go, 1, 2, 3.
 
 0:01:30.509,0:01:37.290
 And this one here in the middle is the same
-case as here, it does not correspond to anything.
+case as here; it does not correspond to anything.
 
 0:01:37.290,0:01:40.770
 Because this here, this F is an action.
@@ -98,7 +98,7 @@ So, it's going to correspond to this end node
 from the activity diagram, which means this
 
 0:02:16.569,0:02:23.770
-is not necessary, this is optional, you can
+is not necessary; this is optional, you can
 remove it, and you can just say: “Okay,
 
 0:02:23.770,0:02:30.250
@@ -125,7 +125,7 @@ So, this place corresponds to this decision
 node.
 
 0:02:47.380,0:02:54.659
-For the Action D, we add a transition D. And
+For the action D, we add a transition D. And
 for the action E, we add the transition E.
 
 0:02:54.659,0:02:59.010

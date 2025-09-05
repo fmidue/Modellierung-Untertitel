@@ -10,10 +10,10 @@ according to the definition of causality.
 
 0:00:23.090,0:00:36.590
 And therefore, I just create a little table
-where we have all the transitions and so in
+where we have all the transitions and so on
 
 0:00:36.590,0:00:44.950
-the first case, these are for transitions
+in the first case, these are four transitions
 for Petri net N1.
 
 0:00:44.950,0:01:03.700
@@ -21,15 +21,15 @@ This is for Petri net N1, and then we have
 the causalities on the right-hand side.
 
 0:01:03.700,0:01:14.299
-Left are the transitions and right are the
-causalities.
+On the left are the transitions and on the
+right are the causalities.
 
 0:01:14.299,0:01:22.840
 I do not have enough space for the heading
-now because I draw it up here, but so left
+now because I drew it up here, but so on the left
 
 0:01:22.840,0:01:29.830
-is the transitions and on the right side,
+are the transitions and on the right side,
 there shall be the causalities.
 
 0:01:29.830,0:01:38.840
@@ -37,8 +37,8 @@ And when we start with the first transition,
 then we can check here, can we fire t1?
 
 0:01:38.840,0:01:48.540
-We require token in s1 and we require token
-in s2 and therefore we do not require to fire
+We require a token in s1 and we require a token
+in s2, and therefore we do not need to fire
 
 0:01:48.540,0:01:52.939
 any other transition, so we can fire t1 right
@@ -53,7 +53,7 @@ For t2, we require one token in s1, which
 we have, that's why t2 has also no causalities
 
 0:02:08.560,0:02:12.360
-on empty set for the-.
+on the empty set for the-.
 
 0:02:12.360,0:02:27.269
 And t3 requires two tokens in s2, but there
@@ -71,7 +71,7 @@ That means, at any point in time, we have
 to fire t2 before we can fire t3, but we do
 
 0:02:48.900,0:03:03.780
-not have to fire anything else so we have
+not need to fire anything else, so we have
 just this set of t2, which is the precondition,
 
 0:03:03.780,0:03:12.730
@@ -110,7 +110,7 @@ we write the necessary conditions.
 And in this case, we have five transitions.
 
 0:04:24.020,0:04:34.169
-We have t1, t2, t3, t4 and t5.
+We have t1, t2, t3, t4, and t5.
 
 0:04:34.169,0:04:38.010
 These are all within our table.
@@ -126,7 +126,7 @@ Can we fire t1 right away?
 
 0:04:44.980,0:04:53.039
 Yes, we can because there's a token in s1
-and we required one token in s1 in order to
+and we require one token in s1 in order to
 
 0:04:53.039,0:04:54.139
 fire t1.
@@ -135,7 +135,7 @@ fire t1.
 Our necessary condition is the empty set.
 
 0:05:00.850,0:05:10.580
-And for the second transition can we fire
+And for the second transition, can we fire
 t2 right away?
 
 0:05:10.580,0:05:17.330
@@ -151,7 +151,7 @@ Then we have t3, which requires a token in
 s3, which we don't have, so in order to fire
 
 0:05:33.699,0:05:37.550
-s3, we require a token in s3.
+t3, we require a token in s3.
 
 0:05:37.550,0:05:44.580
 And the only way of getting a token into s3
@@ -239,7 +239,7 @@ required because we can also fire t1 and t2
 two times.
 
 0:08:36.390,0:08:44.380
-We could also start with t2, of course so
+We could also start with t2, of course, so
 there would be three sequences and all have
 
 0:08:44.380,0:08:51.821
@@ -257,7 +257,7 @@ And in order to fire t5, we require one token
 in s1.
 
 0:09:08.200,0:09:14.430
-Once more the empty set for t5 here.
+Once more, the empty set for t5 here.
 
 0:09:14.430,0:09:23.579
 And, once again, just to confirm, the table
@@ -268,7 +268,7 @@ the transitions and necessary conditions.
 
 0:09:26.880,0:09:32.430
 Of course, these are the transitions here,
-and these are the necessary conditions and
+and these are the necessary conditions, and
 
 0:09:32.430,0:09:40.699
 we've answered this part for both Petri nets

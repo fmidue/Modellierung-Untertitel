@@ -431,7 +431,7 @@ What this example also gives us
 is that while strong liveness implies weak liveness
 
 0:08:38.640,0:08:40.230
-and deadlock-freedom, not
+and deadlock freedom, not
 every deadlock-free and weakly
 
 0:08:40.230,0:08:44.750
@@ -490,11 +490,11 @@ What do we have here?
 This is our m0, and we consider t1.
 
 0:09:46.550,0:09:54.530
-Then for strong liveness it would have to
+Then for strong liveness, it would have to
 be true that for every marking m reachable from
 
 0:09:54.530,0:10:03.170
-m0, for example for this one, it
+m0, for example, for this one, it
 must hold that there is a successor
 
 0:10:03.170,0:10:08.270
@@ -502,7 +502,7 @@ marking (or the current marking itself),
 so that t1 is fireable from there.
 
 0:10:08.270,0:10:13.970
-But in fact t1 is
+But in fact, t1 is
 never fireable again from here.
 
 0:10:13.970,0:10:19.970
@@ -539,7 +539,7 @@ On the one hand, it can constantly move
 here by means of t1, so to speak.
 
 0:11:04.770,0:11:07.410
-So actually the marking
+So actually, the marking
 doesn't change at all,
 
 0:11:07.410,0:11:10.890

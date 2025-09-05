@@ -89,7 +89,7 @@ generally speaking, a system of objects, relations and/or
 processes.
 
 00:01:20,189 --> 00:01:23,299
-All these terms, "object", "relation", "processes",
+All these terms, "object," "relation," "processes",
 could, of course, refer in computer
 
 00:01:23,299 --> 00:01:26,530
@@ -542,7 +542,7 @@ observed the electrons in the context
 of electric current.
 
 00:09:13,960 --> 00:09:16,510
-So one knew, there must be these charges.
+So one knew there must be these charges.
 
 00:09:16,510 --> 00:09:19,380
 The electrons are mobile;
@@ -659,7 +659,7 @@ about residence probabilities instead of actual specific positions.
 
 00:11:10,100 --> 00:11:15,540
 And now we could say, this is the
-best model, this seems to correspond to the most
+best model; this seems to correspond to the most
 
 00:11:15,540 --> 00:11:16,540
 modern physics.
@@ -711,7 +711,7 @@ too much about comes from biology.
 
 00:12:11,330 --> 00:12:16,080
 It's quite nice here in the presentation, but
-I can't say much about the content, because
+I can't say much about the content because
 
 00:12:16,080 --> 00:12:20,780
 I'm not as well educated in biology myself
