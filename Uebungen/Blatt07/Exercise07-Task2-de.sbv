@@ -39,7 +39,7 @@ Von der Startmarkierung s1 gehen zwei Pfeile
 aus, da können wir gucken, in welche Transitionen.
 
 0:01:14.350,0:01:16.590
-Einmal hier hin und einmal hier hin.
+Einmal hierhin und einmal hierhin.
 
 0:01:16.590,0:01:24.160
 Wenn wir uns t2 angucken, das hat die Vorbedingung,
@@ -54,11 +54,11 @@ in diesem Fall noch gar nicht feuern.
 
 0:01:31.580,0:01:35.960
 Also die Einzige, die als erstes hier feuern
-kann, ist t2.
+kann, ist t1.
 
 0:01:35.960,0:01:42.450
-Wenn t2 jetzt feuert, dann nehmen wir hier
-eine Marke raus, und legen die hier unten
+Wenn t1 jetzt feuert, dann nehmen wir hier
+eine Marke raus und legen die hier unten
 
 0:01:42.450,0:01:48.250
 rein.
@@ -68,7 +68,7 @@ Dann schreiben wir das auf.
 
 0:01:49.890,0:02:00.590
 Wir haben jetzt also eine Marke in s1, eine
-Marke in s2, und null Marken in s3 und s4.
+Marke in s2 und null Marken in s3 und s4.
 
 0:02:00.590,0:02:06.300
 t1 kann nochmal feuern, warum nicht?
@@ -139,7 +139,7 @@ Also kann in diesem Fall t2 schalten.
 Ich schreibe das direkt wieder auf.
 
 0:03:33.120,0:03:34.780
-Erst mal lassen wir t2 schalten.
+Erstmal lassen wir t2 schalten.
 
 0:03:34.780,0:03:41.290
 Das bedeutet hier, die Marken verschwinden,
@@ -200,7 +200,7 @@ auch noch einen Pfeil hin.
 
 0:05:01.889,0:05:10.689
 Ich ordne das jetzt so an, weil ich schon
-weiß, wie das später aufgebaut ist, so dass
+weiß, wie das später aufgebaut ist, sodass
 
 0:05:10.689,0:05:13.469
 das schon strukturiert ist.
@@ -246,7 +246,7 @@ Wir haben jetzt wieder die Startmarkierung,
 sind also eigentlich wieder bei derselben
 
 0:05:58.240,0:05:59.759
-Markierung, wie ganz am Anfang.
+Markierung wie ganz am Anfang.
 
 0:05:59.759,0:06:08.080
 Das bedeutet, wir können von hier einen Pfeil
@@ -326,11 +326,11 @@ Nämlich hier.
 
 0:07:39.619,0:07:44.429
 Wir haben eine Marke in s1, eine Marke in
-s2, und in den anderen sonst null.
+s2 und in den anderen sonst null.
 
 0:07:44.429,0:07:49.539
 Das bedeutet, wir machen von diesem Zustand
-noch einen Pfeil da hin und schreiben da t4
+noch einen Pfeil dahin und schreiben da t4
 
 0:07:49.539,0:07:50.860
 dran, weil t4 geschaltet hat.

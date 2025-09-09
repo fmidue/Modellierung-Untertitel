@@ -1,9 +1,9 @@
 0:00:00.840,0:00:06.300
 In dieser Aufgabe haben wir diverse Szenarien
-vorgegeben, für die wir entscheiden sollen,
+vorgegeben, für die wir entscheiden sollen.
 
 0:00:06.300,0:00:11.700
-ob es sich bei der jeweils beschriebenen Beziehung
+Ob es sich bei der jeweils beschriebenen Beziehung
 um eine Assoziation, eine Aggregation oder eine
 
 0:00:11.700,0:00:16.860
@@ -11,8 +11,7 @@ Komposition handelt. Speziell sollen wir auch
 jeweils immer die stärkste folgende Beziehung
 
 0:00:16.860,0:00:22.140
-angeben und natürlich ausführlich begründen.
-Diese Zahl ist nochmal extra angegeben,
+angeben und natürlich ausführlich begründen. Diese Zahl ist nochmal extra angegeben,
 
 0:00:22.140,0:00:27.360
 denn wir wissen, dass eine Aggregation einer
@@ -27,12 +26,10 @@ wenn wir diese Extrazeile nicht hätten, könnten
 wir einfach überall Assoziation dran schreiben
 
 0:00:36.660,0:00:42.420
-und damit wäre die Aufgabe ziemlich trivial.
-Also hier müssen wir ganz konkret darauf achten,
+und damit wäre die Aufgabe ziemlich trivial. Also hier müssen wir ganz konkret darauf achten,
 
 0:00:42.420,0:00:47.820
-okay, die Beziehung, die vorliegt, ist
-es mehr als eine Assoziation? Wenn ja,
+okay, die Beziehung, die vorliegt, ist es mehr als eine Assoziation? Wenn ja,
 
 0:00:47.820,0:00:51.120
 ist es eine Aggregation oder ist es
@@ -44,14 +41,14 @@ Unterschied, wie man entscheiden kann, ob es
 
 0:00:58.410,0:01:02.640
 eine Aggregation oder eine Komposition ist, grob
-gesagt, schaut man sich erst mal an, gibt es eine
+gesagt, schaut man sich erstmal an, gibt es eine
 
 0:01:02.640,0:01:11.760
 Teil-Ganzes-Beziehung? Das heißt, ist irgendwas
 beschrieben, wo ein Teil eines beschriebenen
 
 0:01:11.760,0:01:16.980
-Objektes oder einer beschriebenen Sache, Teil
+Objektes oder einer beschriebenen Sache Teil
 eines größeren Ganzen ist. Wenn ja, dann haben
 
 0:01:16.980,0:01:23.700
@@ -64,11 +61,11 @@ voneinander abhängig? Das heißt, wenn wir das
 
 0:01:31.020,0:01:37.800
 große Ganze vernichten, verschwinden dann auch die
-Teile des großen Ganzen. Wenn das der Fall ist,
+Teile des großen Ganzen? Wenn das der Fall ist,
 
 0:01:37.800,0:01:42.540
 haben wir eine Komposition. Wenn die Teile
-auch alleine weiter existieren können, also die
+auch alleine weiterexistieren können, also die
 
 0:01:42.540,0:01:47.220
 Lebenszeiten nicht voneinander abhängig sind, dann
@@ -104,7 +101,7 @@ also die Farbe Rot zum Beispiel als abstraktes
 
 0:02:29.880,0:02:35.160
 Konzept existiert natürlich weiter, selbst
-wenn wir ein Gemälde, wo rot drin ist,
+wenn wir ein Gemälde, wo Rot drin ist,
 
 0:02:35.160,0:02:40.800
 vernichten würden. Damit hätten wir nur eine
@@ -120,7 +117,7 @@ an. Und nehmen wir an, die Farbe wurde speziell
 
 0:02:53.280,0:02:59.400
 für dieses eine Gemälde zusammengemischt und wurde
-danach nirgendwo anders mehr benutzt und die Farbe
+danach nirgendwo anders mehr benutzt, und die Farbe
 
 0:02:59.400,0:03:04.200
 wurde vernichtet. Dann wäre es eine Komposition,
@@ -180,14 +177,14 @@ werden ignoriert, weil es für niemanden hilfreich
 
 0:04:18.900,0:04:22.440
 ist. Man könnte theoretisch alles daran
-setzen, je nachdem wie man argumentiert.
+setzen, je nachdem, wie man argumentiert.
 
 0:04:24.960,0:04:30.480
 Bei C haben wir, auf dem Telefon sind
-Bilder gespeichert. Bilder gespeichert,
+Bilder gespeichert. Bilder, die gespeichert sind,
 
 0:04:30.480,0:04:37.500
-auf dem Telefon ist unsere Teil-Ganzes-Beziehung.
+auf dem Telefon sind unsere Teil-Ganzes-Beziehung.
 Die Bilder sind Teil des Telefons und je nachdem,
 
 0:04:37.500,0:04:42.000
@@ -203,7 +200,7 @@ Allerdings können die Bilder zum Beispiel auch
 in der Cloud gespeichert sein. Oder wir haben
 
 0:04:52.740,0:04:57.600
-sie von unserem Computer auf das Telefon gezogen
+Sie von unserem Computer auf das Telefon gezogen
 und haben sie noch auf dem Computer oder auf einem
 
 0:04:57.600,0:05:01.860
@@ -260,10 +257,10 @@ Bei D gehen wir konkret in die Lehrstühle rein.
 
 0:06:12.840,0:06:17.640
 Hier kriegen wir jetzt mehr Informationen. Hier
-ist angegeben, an einem Lehrstuhl arbeiten mehrere
+ist angegeben, dass an einem Lehrstuhl mehrere
 
 0:06:17.640,0:06:23.580
-Personen als wissenschaftliche Mitarbeiter. Es
+Personen als wissenschaftliche Mitarbeiter arbeiten. Es
 ist nicht so ganz eindeutig, denn hier können
 
 0:06:23.580,0:06:28.440
@@ -292,10 +289,10 @@ Dementsprechend gibt es die wissenschaftlichen
 
 0:06:53.700,0:06:58.020
 Mitarbeiter nicht mehr, wenn wir den Lehrstuhl
-aufgelöst haben und es wäre eine Komposition.
+aufgelöst haben, und es wäre eine Komposition.
 
 0:07:01.500,0:07:07.620
-Bei F haben wir der Raum LF233
+Bei F haben wir, der Raum LF233
 befindet sich im Gebäude LF.
 
 0:07:09.180,0:07:14.040
@@ -323,24 +320,24 @@ dann ist es normalerweise nicht mehr wirklich ein
 Raum. Also Aggregation ist hier weniger möglich.
 
 0:07:42.360,0:07:47.520
-Bei G haben wir, das Gebäude LF ist
+Bei G haben wir, dass das Gebäude LF ist
 Teil der Universität Duisburg-Essen.
 
 0:07:48.960,0:07:53.640
-Hier ist ganz klar direkt im Text gegeben, das
-Gebäude ist Teil der Universität. Wenn wir die
+Hier ist ganz klar direkt im Text gegeben, dass
+das Gebäude Teil der Universität ist. Wenn wir die
 
 0:07:53.640,0:08:00.480
 Universität auflösen, dann gibt es das Gebäude
 LF zwar in Form LF nicht mehr, aber das Gebäude
 
 0:08:00.480,0:08:06.660
-selber existiert ja noch. Also es ist hier
+selber existiert ja noch. Also ist es hier
 eher eine Aggregation als eine Komposition.
 
 0:08:06.660,0:08:12.960
-Wo man natürlich auch hier argumentieren kann, das
-Gebäude gibt es zwar noch, aber es ist nicht mehr
+Wo man natürlich auch hier argumentieren kann, dass
+das Gebäude zwar noch existiert, aber es ist nicht mehr
 
 0:08:12.960,0:08:16.680
 das Gebäude LF. Das ist hier dann im Endeffekt der
@@ -355,7 +352,7 @@ dann vielleicht doch eher eine Komposition. Auch
 hier wieder stark von der Begründung abhängig.
 
 0:08:29.160,0:08:33.780
-Bei H haben wir, in der Vorlesung sitzen
+Bei H haben wir, dass in der Vorlesung sitzen
 Studierende. Hier ist gar nicht wirklich
 
 0:08:33.780,0:08:40.740
@@ -379,8 +376,8 @@ haben wir hier wirklich eher eine Assoziation
 als alles andere. Wir haben auf jeden Fall keine
 
 0:08:58.500,0:09:04.080
-Komposition, weil die Studierenden werden nicht
-umgebracht, wenn die Vorlesung nicht existiert.
+Komposition, weil die Studierenden nicht
+umgebracht werden, wenn die Vorlesung nicht existiert.
 
 0:09:04.080,0:09:09.600
 Und umgekehrt gibt es trotzdem Studierende,
@@ -404,10 +401,10 @@ her. Für I haben wir, die Erde hat verschiedene
 
 0:09:37.920,0:09:44.880
 Kontinente, Kontinente sind Teil der
-Erde und wenn wir die Erde vernichten,
+Erde und wenn wir die Erde vernichten.
 
 0:09:44.880,0:09:52.740
-dann verschwinden auch die Kontinente. Selbst wenn
+Dann verschwinden auch die Kontinente. Selbst wenn
 die Kontinente irgendwie ins Weltall abdriften,
 
 0:09:52.740,0:09:59.880
@@ -415,7 +412,7 @@ dann sind es keine Kontinente mehr. Deswegen ist
 hier ziemlich klar, dass es eine Komposition ist.
 
 0:10:01.200,0:10:07.380
-Und als letztes Szenario, ein Haus steht an einer
+Und als letztes Szenario: Ein Haus steht an einer
 Straße. Auch hier ist es wieder nicht wirklich
 
 0:10:07.380,0:10:11.220
@@ -428,14 +425,14 @@ Teil einer Straße, denn das Haus steht ja nicht
 
 0:10:16.140,0:10:20.220
 in der Straße, sondern an der Straße. Wenn man
-es umgekehrt betrachtet, die Straße ist nicht
+es umgekehrt betrachtet: Die Straße ist nicht
 
 0:10:20.220,0:10:25.680
 Teil eines Hauses, denn die Straße kann alleine
 existieren, das Haus kann alleine existieren. Hier
 
 0:10:25.680,0:10:31.380
-ist es ziemlich klar auch wieder eine Assoziation,
+ist es ziemlich klar, auch wieder eine Assoziation,
 denn es gibt keine Teil-Ganzes-Beziehung und
 
 0:10:31.380,0:10:35.940

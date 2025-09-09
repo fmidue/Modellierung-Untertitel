@@ -12,11 +12,11 @@ aber da noch mal explizit angesprochen haben.
 
 00:00:14,310 --> 00:00:21,750
 Das war zum einen der wechselseitige
-Ausschluss bzw. Synchronisation.
+Ausschluss bzw. die Synchronisation.
 
 00:00:22,290 --> 00:00:27,900
 Wir haben das dann auch an dem Beispiel
-der Speisenden Philosophen diskutiert.
+der speisenden Philosophen diskutiert.
 
 00:00:27,900 --> 00:00:33,810
 Wie man da mit zwei Philosophen die Probleme
@@ -47,10 +47,10 @@ Zahl von Marken liegen kann, und dabei auch
 
 00:01:08,190 --> 00:01:12,990
 für verschiedene Stellen verschiedene solche
-oberen Kapazitätsbegrenzungen angeben können.
+oberen Kapazitätsbegrenzungen angeben kann.
 
 00:01:12,990 --> 00:01:17,700
-Das ist nicht genau das gleiche wie
+Das ist nicht genau das Gleiche wie
 die Beschränktheit von Petrinetzen.
 
 00:01:17,700 --> 00:01:19,950
@@ -115,11 +115,11 @@ Nehmen wir an, wir wollen das
 stattdessen im Modell begrenzen.
 
 00:02:18,470 --> 00:02:25,790
-Also zum Beispiel könnte sein, wenn
+Also zum Beispiel könnte es sein, wenn
 wir einen Snackautomaten beschreiben,
 
 00:02:25,790 --> 00:02:28,250
-das wir vielleicht ausdrücken
+dass wir vielleicht ausdrücken
 wollen, dass da nie mehr als
 
 00:02:28,250 --> 00:02:35,240
@@ -179,7 +179,7 @@ Das muss Sie nicht erschrecken,
 
 00:03:26,660 --> 00:03:32,210
 weil es eine sehr einfache Definition
-ist, auch eine sehr klare Semantik hat.
+ist, die auch eine sehr klare Semantik hat.
 
 00:03:32,210 --> 00:03:36,650
 Man könnte sagen, man erweitert einfach
@@ -219,7 +219,7 @@ Damit soll ausgedrückt sein, dass niemals
 
 00:04:16,720 --> 00:04:24,220
 niemals später) auf einer Stelle sich mehr Marken
-befinden können als k für diese Stelle angibt.
+befinden können als k, was für diese Stelle angibt.
 
 00:04:25,030 --> 00:04:33,130
 Damit muss insbesondere für die Anfangsmarkierung
@@ -233,11 +233,11 @@ In dem Sinne, wie wir solche
 Funktionen vergleichen können.
 
 00:04:37,090 --> 00:04:43,570
-Das ist ja eine Markierung in dem Sinne wie
-auch die Anfangsmarkierung eine Markierung ist,
+Das ist ja eine Markierung in dem Sinne, wie
+auch die Anfangsmarkierung eine Markierung ist.
 
 00:04:43,570 --> 00:04:48,520
-und wie auch die Vor- und Nachgewichtsfunktionen
+Und wie auch die Vor- und Nachgewichtsfunktionen
 in dem Petrinetz Markierungen waren.
 
 00:04:48,520 --> 00:04:52,750
@@ -273,7 +273,7 @@ m0 von d kleiner-gleich k von s ist.
 Was genau heißt, dass die Anfangsmarkierung
 
 00:05:16,750 --> 00:05:22,810
-auf keiner Stelle mehr Marken trägt
+auf keiner Stelle mehr Marken trägt,
 als die Kapazitätsfunktion erlaubt.
 
 00:05:22,810 --> 00:05:27,130
@@ -282,7 +282,7 @@ wir als Modellierer mit angeben.
 
 00:05:27,130 --> 00:05:36,100
 Natürlich ist es hier nicht besonders interessant,
-wenn k für eine Stelle null zurück gibt.
+wenn k für eine Stelle null zurückgibt.
 
 00:05:36,100 --> 00:05:38,890
 Also würde man erwarten, dass
@@ -300,7 +300,7 @@ dieser Stelle nie irgendwelche
 Marken liegen haben möchte.
 
 00:05:48,460 --> 00:05:51,850
-Dann braucht man diese Stelle gar nicht einführen.
+Dann braucht man diese Stelle gar nicht einzuführen.
 
 00:05:51,850 --> 00:05:53,920
 Also es wäre nicht sinnvoll.
@@ -310,8 +310,8 @@ Interessanterweise kennt das Pipe-Tool,
 mit dem wir gearbeitet haben (mit dem ich
 
 00:06:03,220 --> 00:06:07,210
-gearbeitet habe und Sie vielleicht auch,
-im Übungsbetrieb), solche Petrinetze.
+gearbeitet habe und Sie vielleicht auch
+im Übungsbetrieb) solche Petrinetze.
 
 00:06:07,210 --> 00:06:10,300
 Es kennt den Begriff der
@@ -513,7 +513,7 @@ Hingegen dürfte t3 durchaus schalten.
 
 00:09:43,580 --> 00:09:47,030
 Das würde diese Marke konsumieren und
-hat kein Problem irgendwas abzulegen,
+hat kein Problem, irgendwas abzulegen,
 
 00:09:47,030 --> 00:09:48,920
 weil es gar keine Ausgangspfeile gibt.
@@ -624,7 +624,7 @@ Und nur wenn dem so ist (deswegen
 steht hier "und wenn es erlaubt ist"),
 
 00:11:52,950 --> 00:11:56,220
-darf die Tradition t in der
+darf die Transition t in der
 Markierung m überhaupt schalten.
 
 00:11:56,220 --> 00:11:59,670
@@ -723,18 +723,18 @@ da ist t1 nicht aktiviert.
 
 00:13:37,390 --> 00:13:44,320
 Obwohl, wenn wir diese beiden Annotationen hier
-ignorieren würden, durchaus t1 schalten dürfte.
+ignorieren würden, dürfte t1 durchaus schalten.
 
 00:13:44,320 --> 00:13:47,830
 Also t2 kann schalten, t3 kann schalten.
 
 00:13:47,830 --> 00:13:55,000
-Was dabei rauskommt, ist genau das gleiche, was
+Was dabei rauskommt, ist genau das Gleiche, was
 auch bei einem normalen Petrinetz herauskäme.
 
 00:13:55,000 --> 00:13:58,600
 Nur schauen wir eben immer, wenn wir
-dann gucken welche weiteren Übergänge
+dann gucken, welche weiteren Übergänge
 
 00:13:58,600 --> 00:14:02,920
 sind möglich; da wird immer
@@ -745,7 +745,7 @@ aktiviert sind unter Berücksichtigung eben
 auch dieser Kapazitätseinschränkungen.
 
 00:14:06,940 --> 00:14:14,590
-Hier wirkt sich das vor allen hier aus,
+Hier wirkt sich das vor allem hier aus,
 dass wir hier t1 nicht schalten dürfen.
 
 00:14:14,590 --> 00:14:16,630
@@ -834,7 +834,7 @@ Es gibt eine Möglichkeit, das, was wir hier
 gemacht haben, auch zu erreichen, ohne diese
 
 00:15:50,600 --> 00:15:56,480
-Annotationen zu machen in jedem Petrinetz, was
+Annotationen zu machen in jedem Petrinetz, das
 mit solchen Kapazitätsbegrenzungen arbeitet.
 
 00:15:56,480 --> 00:16:01,880
@@ -842,7 +842,7 @@ Stattdessen ein äquivalentes Petrinetz
 zu erzeugen, das mit einfachen Mitteln
 
 00:16:01,880 --> 00:16:05,630
-auskommt (also nicht solche Annotation benötigt),
+auskommt (also nicht solche Annotationen benötigt),
 
 00:16:05,630 --> 00:16:12,050
 aber dennoch das Verhalten erreicht, welches
@@ -871,7 +871,7 @@ Also die Einsicht hier ist, dass man
 diese Art Kapazitätsbegrenzung auch
 
 00:16:44,420 --> 00:16:47,570
-erreichen kann ohne gleich eine
+erreichen kann, ohne gleich eine
 neue Petrinetz-Art einzuführen.
 
 00:16:47,570 --> 00:16:52,280
@@ -916,7 +916,7 @@ Auf der wir immer festhalten, wie
 viele Marken noch maximal auf die
 
 00:17:38,180 --> 00:17:41,240
-ursprüngliche Stelle s gelegt werden dürften.
+ursprüngliche Stelle s gelegt werden dürften."
 
 00:17:41,240 --> 00:17:46,820
 Also in dem Beispiel eben hatten wir zwei Stellen.
@@ -1110,7 +1110,7 @@ Es könnte ja sein, dass t und s
 nichts miteinander zu tun haben,
 
 00:21:24,150 --> 00:21:29,880
-dass Schalten von t die Anzahl von Marken
+dass das Schalten von t die Anzahl von Marken
 in Stelle s einfach nie verändern kann.
 
 00:21:29,880 --> 00:21:31,800
@@ -1313,7 +1313,7 @@ dass das gewünschte Verhalten eintritt.
 
 00:25:29,560 --> 00:25:35,230
 Wenn man hier noch genau hinschaut,
-sieht man, dass etwas merkwürdig
+sieht man, dass etwas merkwürdiges
 
 00:25:35,230 --> 00:25:37,960
 scheint, dass der Fall "gleich null"
@@ -1629,20 +1629,20 @@ denn t1 entnimmt nichts aus
 s2, legt dort aber etwas ab.
 
 00:31:35,760 --> 00:31:40,500
-Also t1 fügt netto s2 eine Marke hinzu.
+Also fügt t1 netto s2 eine Marke hinzu.
 
 00:31:40,500 --> 00:31:44,610
-Deswegen musst t1 aus
+Deswegen muss t1 aus
 s2-quer eine Marke entnehmen.
 
 00:31:44,610 --> 00:31:48,960
 Das begründet und erzwingt diesen Pfeil hier.
 
 00:31:51,060 --> 00:31:53,940
-Für t2 und s1, sowie s2, ist das ganz analog.
+Für t2 und s1 sowie s2 ist das ganz analog.
 
 00:31:53,940 --> 00:32:00,510
-Also t2 legt eine Marke in s1 ab, muss
+Also legt t2 eine Marke in s1 ab, muss
 deswegen eine Marke aus s1-quer entnehmen.
 
 00:32:00,510 --> 00:32:03,750
@@ -1679,7 +1679,7 @@ Das erklärt, warum es zwischen t3
 und s1-quer keine Verbindung gibt.
 
 00:32:40,650 --> 00:32:45,170
-Hingegen t3 und s2 sind relevant.
+Hingegen sind t3 und s2 relevant.
 
 00:32:45,170 --> 00:32:50,540
 Denn t3 entnimmt aus s2 eine Marke, muss
@@ -1833,8 +1833,8 @@ dass danach zwei Marken auf s1 liegen
 und keine Marke mehr auf s1-quer.
 
 00:36:11,220 --> 00:36:15,420
-Also ein weiteres Ablegen von einer
-Marke in s1 wäre nicht erlaubt.
+Also wäre ein weiteres Ablegen von einer
+Marke in s1 nicht erlaubt.
 
 00:36:16,260 --> 00:36:21,600
 Das würde hier verhindert (dass

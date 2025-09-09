@@ -75,7 +75,7 @@ gibt es keine zusätzlichen Varianten für
 Historienein- und Historienaustritt oder so.
 
 00:01:33,750 --> 00:01:36,570
-Also es gibt hier beim hierarchischen
+Also gibt es hier beim hierarchischen
 Zustand nur diese beiden Möglichkeiten.
 
 00:01:38,790 --> 00:01:39,630

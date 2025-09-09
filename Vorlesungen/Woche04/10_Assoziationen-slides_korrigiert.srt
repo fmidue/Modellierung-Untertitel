@@ -9,7 +9,7 @@ weitere Beziehungen zwischen Klassen in UML.
 
 00:00:13,770 --> 00:00:19,650
 Letztlich sind das dann Beziehungen, die
-sich auch auf Objektebene widerspiegeln
+sich auch auf Objektebene widerspiegeln.
 
 00:00:20,160 --> 00:00:25,620
 Wir werden hier folgende drei
@@ -20,7 +20,7 @@ Das sind bei weitem nicht alle,
 die in UML vorhanden sind.
 
 00:00:32,550 --> 00:00:36,270
-Also es gibt noch Abhängigkeit,
+Also gibt es noch Abhängigkeit,
 Nutzungsbeziehungen, Generizität,
 
 00:00:36,270 --> 00:00:37,710
@@ -61,7 +61,7 @@ Sinne eine spezielle Assoziation.
 Und Komposition als hier stärkste Art der
 
 00:01:28,290 --> 00:01:32,580
-Beziehung ist nochmal eine
+Beziehung ist noch einmal eine
 speziellere Aggregation.
 
 00:01:32,580 --> 00:01:38,970
@@ -124,11 +124,11 @@ Und dieser Bezug, dieser
 Zusammenhang, sei nicht hierarchisch.
 
 00:02:42,120 --> 00:02:46,710
-Also erst mal ein recht vages
+Also erst einmal ein recht vages
 Konzept, so wie es hier steht.
 
 00:02:47,700 --> 00:02:54,360
-Dieser "nicht hierarchisch" Aspekt ist
+Dieser "nicht hierarchisch"-Aspekt ist
 relevant, denn wenn irgendwas hierarchisch ist,
 
 00:02:54,360 --> 00:02:58,170
@@ -149,7 +149,7 @@ oder Komposition handeln (im Sinne
 
 00:03:14,580 --> 00:03:20,040
 hierarchischer Teil-Ganzes-Beziehungen, was uns
-aber wie gesagt erst später beschäftigen wird).
+aber, wie gesagt, erst später beschäftigen wird).
 
 00:03:20,040 --> 00:03:22,470
 Also letztlich:
@@ -226,10 +226,10 @@ etwas abgespeichert, das auf ein B verweist.
 
 00:05:02,250 --> 00:05:05,760
 Allerdings wird es so sein (deswegen ist
-das nochmal sehr stark hervorgehoben),
+das nochmal sehr stark hervorgehoben).
 
 00:05:05,760 --> 00:05:10,260
-dass man diese spezielle Art der Attribute eben
+Dass man diese spezielle Art der Attribute eben
 dann nicht mehr in die Klassen eintragen wird.
 
 00:05:10,260 --> 00:05:14,220
@@ -263,7 +263,7 @@ durch Attribute implementieren kann.
 Wie ist das gemeint?
 
 00:05:44,340 --> 00:05:48,240
-Also statt A und B mal etwas konkreteres.
+Also statt A und B mal etwas Konkreteres.
 
 00:05:48,960 --> 00:05:51,090
 Die eine Klasse sei eine Klasse von Personen.
@@ -396,7 +396,7 @@ es ergibt keinen Sinn, hier aufzuschreiben:
 
 00:08:27,470 --> 00:08:31,220
 Person 1, Auto 1, und dann
-noch mal Person 1, Auto 1.
+nochmal Person 1, Auto 1.
 
 00:08:31,220 --> 00:08:34,070
 Warum ist das so?
@@ -470,7 +470,7 @@ Aber in dem Fall ist das eben
 nicht weiter eingeschränkt.
 
 00:09:45,680 --> 00:09:49,820
-Deswegen sind alle diese drei und noch
+Deswegen sind all diese drei und noch
 viele weitere Ausprägungen denkbar.
 
 00:09:54,260 --> 00:09:57,070
@@ -544,10 +544,10 @@ direkt an der Verbindungslinie angefügt.
 Dadurch wird die Navigationsrichtung ausgedrückt.
 
 00:11:22,960 --> 00:11:27,160
-Und diese beschreibt, Objekte welcher Klasse ihre
+Und diese beschreibt, welche Objekte welcher Klasse
 
 00:11:27,160 --> 00:11:33,940
-Assoziationspartner kennen müssen und
+ihre Assoziationspartner kennen müssen und
 daher deren Methoden aufrufen können.
 
 00:11:33,940 --> 00:11:38,110
@@ -594,7 +594,7 @@ In einem gewissen Sinne sind diese
 Navigationsrichtungen ein Hinweis,
 
 00:12:27,930 --> 00:12:29,430
-oder ein Vorgriff, auf die Implementierung.
+oder ein Vorgriff auf die Implementierung.
 
 00:12:29,430 --> 00:12:33,810
 Es kann auch gar keine
@@ -605,11 +605,11 @@ Dann wird in der Regel angenommen, dass diese
 entweder einfach im aktuellen Modellierungsstand
 
 00:12:37,080 --> 00:12:44,190
-nicht wichtig ist, oder dass die Assoziation
+nicht wichtig ist oder dass die Assoziation
 in beide Richtungen navigierbar ist.
 
 00:12:50,340 --> 00:12:55,170
-In dem Beispiel wie es hier angeben ist,
+In dem Beispiel, wie es hier angegeben ist,
 wäre die Vorstellung, wie eben schon gesagt,
 
 00:12:55,170 --> 00:13:00,750
@@ -621,7 +621,7 @@ Da nach wie vor dennoch erlaubt sein soll,
 dass eine Person mehrere Autos besitzen kann,
 
 00:13:08,400 --> 00:13:11,700
-reicht natürlich nicht, hier
+reicht es natürlich nicht, hier
 genau ein Auto abzuspeichern.
 
 00:13:11,700 --> 00:13:15,150
@@ -629,14 +629,14 @@ Sondern für jede Person müsste eine
 Menge von Autos abgespeichert werden,
 
 00:13:15,150 --> 00:13:17,250
-die von dieser Personen besessen werden.
+die von dieser Person besessen werden.
 
 00:13:18,630 --> 00:13:23,730
 Zum Beispiel könnte es sein, dass für Person 1
 die Menge \{ Auto 1, Auto 2\} abgespeichert ist,
 
 00:13:23,730 --> 00:13:27,420
-für Person 2 die leere Menge, und
+für Person 2 die leere Menge und
 für Person 3 die Menge \{ Auto 3 \}.
 
 00:13:27,420 --> 00:13:35,310
@@ -964,7 +964,7 @@ Was hier natürlich nicht möglich
 ist, ist, dass es noch weitere
 
 00:20:15,280 --> 00:20:17,020
-Autos gibt aber keine weiteren Personen.
+Autos gibt, aber keine weiteren Personen.
 
 00:20:17,830 --> 00:20:21,610
 Jedes weitere Auto müsste
@@ -1059,7 +1059,7 @@ UML selbst gibt keine Standard-Multiplizität vor.
 
 00:22:23,480 --> 00:22:28,280
 In manchen Büchern steht, vereinbart
-als Standard-Multiplizität, 1.
+als Standard-Multiplizität 1.
 
 00:22:28,280 --> 00:22:30,020
 Aber UML selbst gibt keine vor.

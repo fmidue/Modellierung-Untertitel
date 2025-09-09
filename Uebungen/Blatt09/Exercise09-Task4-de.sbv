@@ -14,7 +14,7 @@ im Endeffekt immer noch dieselbe Verhaltensweise
 zeigt wie dieses hier mit Kapazitäten.
 
 0:00:19.900,0:00:25.060
-Nach mal ganz kurz zur Wiederholung: Kapazitäten
+Nachmal ganz kurz zur Wiederholung: Kapazitäten
 bedeutet einfach nur, dass die Anzahl der
 
 0:00:25.060,0:00:28.150
@@ -45,7 +45,7 @@ sein.
 
 0:00:49.110,0:00:55.149
 Wenn wir das Petrinetz einfach so nehmen würden
-und die Kapazitäten durchstreichen, und sonst
+und die Kapazitäten durchstreichen und sonst
 
 0:00:55.149,0:00:59.750
 nichts verändern, um es in ein herkömmliches
@@ -60,7 +60,7 @@ Denn t1 erwartet nur ein Token in s1, und
 da sind zwei drin, also können wir t1 direkt
 
 0:01:09.270,0:01:14.220
-zweimal ausführen, hätten nur zwei Token
+zweimal ausführen, hätten nur zwei Tokens
 in s3 gelegt und diese Kapazität 1 gebrochen.
 
 0:01:14.220,0:01:19.140
@@ -83,7 +83,7 @@ nur, dass zu jeder Stelle mit Kapazitäten
 
 0:01:30.189,0:01:39.790
 eine Komplementärstelle hinzugefügt wird,
-die die Token hält, die maximal da sein dürfen.
+die die Tokens hält, die maximal da sein dürfen.
 
 0:01:39.790,0:01:45.400
 Das heißt, insgesamt wird dann jede Stelle
@@ -91,7 +91,7 @@ mit Kapazität eine Komplementärstelle haben,
 
 0:01:45.400,0:01:51.520
 und diese beiden Stellen zusammen haben dann
-genauso viele Token wie die Kapazität ist.
+genauso viele Tokens, wie die Kapazität ist.
 
 0:01:51.520,0:01:55.340
 Und wie das im Endeffekt aussieht, schauen
@@ -102,11 +102,11 @@ Wir fangen einmal mit der Stelle s1 an.
 
 0:01:57.810,0:02:01.469
 Die Stelle s1 hat immer noch als Start zwei
-Token.
+Tokens.
 
 0:02:01.469,0:02:09.410
 Das heißt, unsere Komplementärstelle, die
-wir dazuschreiben, hat keine Token.
+wir dazuschreiben, hat keine Tokens.
 
 0:02:09.410,0:02:14.260
 Denn, wie ich eben schon gesagt habe, die
@@ -114,14 +114,14 @@ Komplementärstelle und die ursprüngliche
 
 0:02:14.260,0:02:19.470
 Stelle zusammen müssen insgesamt die Menge
-der Token haben, die die Kapazität sind.
+der Tokens haben, die die Kapazität ist.
 
 0:02:19.470,0:02:22.660
-Hier sind zwei Token in der normalen Stelle
+Hier sind zwei Tokens in der normalen Stelle
 drin, das heißt, unsere Komplementärstelle
 
 0:02:22.660,0:02:30.010
-braucht jetzt keine Token noch dazuzubekommen.
+braucht jetzt keine Tokens mehr dazuzubekommen.
 s1 ist natürlich immer noch mit den Transitionen
 
 0:02:30.010,0:02:43.080
@@ -153,17 +153,17 @@ denn ansonsten ist nicht unbedingt garantiert,
 
 0:03:26.560,0:03:31.130
 dass t4 nicht auch feuern kann, wenn nicht
-genug Token in s4 drin sind.
+genug Tokens in s4 drin sind.
 
 0:03:31.130,0:03:37.830
 So muss bei t4 immer auch mindestens ein Token
-in s1-Komplementär darin sein, damit es einen
+in der s1-Komplementär darin sein, damit es einen
 
 0:03:37.830,0:03:39.780
 Token in s1 hineingeben kann.
 
 0:03:39.780,0:03:43.750
-So bleibt diese Anzahl der Token zwischen
+So bleibt diese Anzahl der Tokens zwischen
 s1 und dem Komplementär immer konstant auf
 
 0:03:43.750,0:03:44.940
@@ -171,7 +171,7 @@ zwei.
 
 0:03:44.940,0:03:51.590
 Und das machen wir jetzt einfach für die
-übrig gebliebenen Stellen und wechseln dabei
+übriggebliebenen Stellen und wechseln dabei
 
 0:03:51.590,0:03:53.490
 wieder die Farbe.
@@ -180,16 +180,16 @@ wieder die Farbe.
 Dann machen wir mit s2 weiter.
 
 0:03:58.140,0:04:07.980
-s2 sieht genauso aus wie s1, hat zwei Token
+s2 sieht genauso aus wie s1, hat zwei Tokens
 drin, bekommt dann als Komplementärstelle
 
 0:04:07.980,0:04:25.720
-eine Stelle ohne Token. s2 ist verbunden mit
+eine Stelle ohne Tokens. s2 ist verbunden mit
 t2 und mit t5, und wir machen genau dasselbe,
 
 0:04:25.720,0:04:33.010
 wie wir es oben gemacht haben: t2 muss einen
-Token an s2-Komplementär abgeben und t5 muss
+Token an s2-Komplementär abgeben, und t5 muss
 
 0:04:33.010,0:04:41.380
 sich einen Token aus s2-Komplementär herausholen,
@@ -201,14 +201,14 @@ jetzt mit s3 verbunden.
 
 0:04:49.980,0:04:56.710
 s3 hat eine Kapazität von eins und keinerlei
-Token darin.
+Tokens darin.
 
 0:04:56.710,0:05:04.000
 Das heißt, die Komplementärstelle hier hat
 einen Token darin, damit sie zusammengerechnet
 
 0:05:04.000,0:05:08.630
-die Anzahl der Token haben, die die Kapazität
+die Anzahl der Tokens haben, die die Kapazität
 angibt.
 
 0:05:08.630,0:05:18.590
@@ -268,4 +268,4 @@ weil ich nicht so gut malen kann, aber das
 
 0:07:03.370,0:07:13.449
 ist jetzt unser fertiges Petrinetz mit Komplementärstellen,
-die die Kapazitätenfunktion ersetzen.
+die die Kapazitätsfunktion ersetzen.

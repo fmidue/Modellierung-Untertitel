@@ -203,7 +203,7 @@ sein.
 
 0:03:50.080,0:03:53.840
 Es reicht nicht, zu sagen "c" und "a" fehlt
-nichts (also alles was "c" und "a" haben müssten,
+nichts (also alles, was "c" und "a" haben müssten,
 
 0:03:53.840,0:03:54.840
 haben sie auch).
@@ -277,7 +277,7 @@ betrachtet hätten?
 Und da ist die Antwort tatsächlich:
 
 0:05:00.410,0:05:01.570
-Ja das passt.
+Ja, das passt.
 
 0:05:01.570,0:05:03.570
 Ich kürze das einfach mal ab.
@@ -288,7 +288,7 @@ gesprochen.
 
 0:05:06.510,0:05:10.130
 Dass der sozusagen in die falsche Richtung
-geht (dafür dass "a" mit "c" eine Beziehung
+geht (dafür, dass "a" mit "c" eine Beziehung
 
 0:05:10.130,0:05:11.130
 haben könnte).
@@ -442,7 +442,7 @@ Und die könnte ja auch sowieso null sein,
 weil keine Multiplizitäten explizit dranstehen.
 
 0:07:41.490,0:07:45.350
-Das gleiche gilt für diese Beziehung zu D.
+Das Gleiche gilt für diese Beziehung zu D.
 
 0:07:45.350,0:07:52.110
 Und dass B von A erbt, führt hier nicht zwangsläufig
@@ -654,7 +654,7 @@ hat "b" nur Beziehungen zu C- und D-Objekten.
 A erbt zwar von B, das heißt aber:
 
 0:12:26.060,0:12:28.340
-A kann alle Beziehung haben, die B hat.
+A kann alle Beziehungen haben, die B hat.
 
 0:12:28.340,0:12:32.279
 Es heißt nicht, B kann Beziehungen haben,
@@ -818,7 +818,7 @@ stehen.
 
 0:16:00.140,0:16:06.160
 In dieser Multiplizität natürlich einen
-Partner zu haben hier, fällt in dieses Intervall
+Partner zu haben, hier fällt in dieses Intervall
 
 0:16:06.160,0:16:07.160
 hinein.

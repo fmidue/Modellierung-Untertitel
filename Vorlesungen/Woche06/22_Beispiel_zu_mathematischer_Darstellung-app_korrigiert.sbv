@@ -28,7 +28,7 @@ die mathematische Darstellung eines Petrinetzes
 
 0:00:33.180,0:00:38.880
 angegeben war, und gefragt wurde nach dem
-entsprechenden grafisch dargestellten Petrinetz.
+entsprechend grafisch dargestellten Petrinetz.
 
 0:00:38.880,0:00:45.150
 Und das würde ich jetzt einfach mal mit Ihnen
@@ -38,14 +38,14 @@ kurz entwickeln hier, also Ihnen das vormachen.
 Also, was haben wir?
 
 0:00:47.820,0:00:51.120
-Wir haben gegeben Informationen über die
+Wir haben Informationen über die
 
 0:00:51.120,0:00:55.290
 Anzahl und letztlich Identität
 der Stellen und Transitionen.
 
 0:00:55.290,0:00:56.310
-Also, was wir hier sehen ist:
+Also, was wir hier sehen, ist:
 
 0:00:56.310,0:01:01.350
 Es gibt drei Stellen s1, s2, s3 und
@@ -119,7 +119,7 @@ Und dann kann ich mich mit
 den Pfeilen beschäftigen.
 
 0:03:10.220,0:03:11.180
-Das was hier steht.
+Das, was hier steht.
 
 0:03:11.180,0:03:12.800
 Man sieht hier:
@@ -129,7 +129,7 @@ Es gibt drei Stellen, vier Transitionen.
 
 0:03:14.285,0:03:18.050
 Da könnte es durchaus mehr
-Einträge geben als hier stehen.
+Einträge geben, als hier stehen.
 
 0:03:18.050,0:03:22.160
 Weil wir ja für jede Transition für jede
@@ -140,7 +140,7 @@ Jetzt ist es hier so, dass 10
 Werte explizit gegeben sind.
 
 0:03:28.610,0:03:32.870
-Und für alle anderen, steht
+Und für alle anderen steht
 hier unten, ist der Wert 0.
 
 0:03:32.870,0:03:33.950
@@ -158,7 +158,7 @@ von hier als Pfeile einzeichnen.
 Und da fangen wir einfach mit dem ersten an.
 
 0:03:47.780,0:03:54.650
-Also was will dieser Eintrag uns sagen?
+Also, was will dieser Eintrag uns sagen?
 
 0:03:54.650,0:03:56.090
 Der sagt:
@@ -184,7 +184,7 @@ geben von s2 mit dem Wert 1.
 
 0:04:23.150,0:04:30.410
 Und "mit dem Wert 1" heißt einfach, dass es hier
-einen Pfeil gibt, aber kein Gewicht da dransteht.
+einen Pfeil gibt, aber kein Gewicht dran steht.
 
 0:04:30.410,0:04:35.690
 Also von s2 zu t2 muss es einen Pfeil geben.
@@ -270,7 +270,7 @@ Das würde aber alles keinen Unterschied machen.
 
 0:07:15.320,0:07:21.110
 Ja, wenn ich irgendwie einzelne Knoten
-irgendwo anders hin verschieben würde hier
+irgendwo anders hin verschieben würde, hier
 
 0:07:21.110,0:07:25.640
 und die Verbindung dabei mitziehen würde,
@@ -278,10 +278,10 @@ wäre das immer noch das gleiche Petrinetz.
 
 0:07:25.640,0:07:31.130
 Das wäre dann einfach nur eine andere grafische
-Darstellung für das gleiche Petrinetz,
+Darstellung für das gleiche Petrinetz.
 
 0:07:31.130,0:07:36.680
-und zwar entsprechend der hier vorher
+Und zwar entsprechend der hier vorher
 aufgeschriebenen mathematischen Darstellung.
 
 0:07:36.680,0:07:40.010

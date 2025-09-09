@@ -1,9 +1,9 @@
 0:00:02.190,0:00:10.670
 Dieses Video ist zum zweiten Übungsblatt,
-und zwar zum zweiten Teil der ersten Aufgabe,
+und zwar zum zweiten Teil der ersten Aufgabe.
 
 0:00:10.670,0:00:12.969
-also zum Teil (b).
+Also zum Teil (b).
 
 0:00:12.969,0:00:20.540
 Hierbei geht es um flache Zustandsdiagramme
@@ -13,7 +13,7 @@ und konkret geht es darum, ein flaches Zustandsdiagramm
 zu erstellen.
 
 0:00:21.540,0:00:27.120
-Die Ausgangsgeschichte ist dieselbe, wie in
+Die Ausgangsgeschichte ist dieselbe wie in
 dem Video zuvor.
 
 0:00:27.120,0:00:31.500
@@ -25,7 +25,7 @@ entwickelt.
 
 0:00:35.210,0:00:40.699
 Das ist die Geschichte, die hier jetzt noch
-zu sehen, ist.
+zu sehen ist.
 
 0:00:40.699,0:00:46.300
 Ich scrolle runter zum Teil (b) der Aufgabe.
@@ -39,7 +39,7 @@ Teil (b) beschäftigt sich nun mit dem flachen
 Zustandsdiagramm.
 
 0:00:57.690,0:01:05.040
-Dabei ist es die Aufgabe, ein solches, für
+Dabei ist es die Aufgabe, ein solches für
 das oben genannte Rätsel anzugeben.
 
 0:01:05.040,0:01:12.160
@@ -170,10 +170,10 @@ Das kann man jetzt einfach der Reihe nach
 hier durchgehen, welche Personen das sind.
 
 0:05:30.729,0:05:40.320
-Das kann der Fischer sein, der da rüber geht.
+Das kann der Fischer sein, der da rübergeht.
 
 0:05:40.320,0:05:47.120
-Es kann der Vater sein, der da rüber geht.
+Es kann der Vater sein, der da rübergeht.
 
 0:05:47.120,0:05:52.690
 Das setze ich mal hier unten hin, den Zustand.
@@ -253,7 +253,7 @@ werden kann, denn dieselbe Person kann natürlich
 auch wieder in die Gegenrichtung fahren.
 
 0:08:31.160,0:08:34.930
-Deshalb gibt es hier dann auch hier noch jeweils
+Deshalb gibt es hier dann auch noch jeweils
 einen Rückpfeil.
 
 0:08:34.930,0:08:44.010
@@ -300,7 +300,7 @@ Seite, es kann nur der Fischer das Boot nehmen,
 denn die hier drüben haben gar kein Boot.
 
 0:09:25.320,0:09:30.230
-Das heißt, es ist nur möglich hier lang
+Das heißt, es ist nur möglich, hier lang
 wieder zurück zu diesem Zustand zu kommen.
 
 0:09:30.230,0:09:34.440
@@ -324,14 +324,14 @@ bei diesem Zustand landet.
 
 0:09:50.430,0:09:58.640
 Wenn die Kinder jetzt übergesetzt sind und
-der Vater mit dem Fischer alleine sind, können
+der Vater mit dem Fischer alleine ist, können
 
 0:09:58.640,0:10:02.860
 diese natürlich nicht mehr weiterfahren.
 
 0:10:02.860,0:10:09.420
 Aber jetzt ist es möglich, dass eines der
-Kinder übersetzt anstatt beider.
+Kinder übersetzt, anstatt beider.
 
 0:10:09.420,0:10:16.840
 Hier sind ja zwei Kinder, das heißt, es ist
@@ -356,7 +356,7 @@ Seite und das Boot.
 
 0:10:45.950,0:10:53.010
 Von diesem Zustand aus kann ein Kind zurückfahren,
-es kann aber auch der Vater oder Fischer zurückfahren.
+es kann aber auch der Vater oder der Fischer zurückfahren.
 
 0:10:53.010,0:11:04.850
 Das heißt, es ergibt wieder zwei Zustände,
@@ -429,7 +429,7 @@ ursprünglich da ist und nicht der Fischer.
 
 0:12:51.760,0:13:02.530
 Und dann auch hier wieder die Übergänge,
-also es gilt auch wieder, dass, wenn die einmal
+also es gilt auch wieder, dass, wenn sie einmal
 
 0:13:02.530,0:13:10.000
 übergesetzt sind, dieselbe Person natürlich
@@ -474,7 +474,7 @@ andere Richtung.
 
 0:14:20.610,0:14:26.040
 Aber der Fischer kann in diesem Fall hier
-unten zum Beispiel aber auch übersetzen.
+unten zum Beispiel auch übersetzen.
 
 0:14:26.040,0:14:29.730
 Und das ist tatsächlich derselbe Zustand.
@@ -492,8 +492,8 @@ Das heißt, hier entsteht eine Verbindung
 auch über diesen Weg.
 
 0:14:47.710,0:14:53.980
-In diesem Zustand können nur Vater oder Fischer
-übersetzen, wenn der Fischer übersetzt,
+In diesem Zustand können nur der Vater oder der Fischer
+übersetzen. Wenn der Fischer übersetzt,
 
 0:14:53.980,0:14:58.100
 wäre es dieser Pfeil, wenn der Vater übersetzt,
@@ -501,14 +501,14 @@ wäre es dieser Pfeil.
 
 0:14:58.100,0:15:07.019
 In dem Zustand hier haben wir aber noch nicht
-alle Ereignisse betrachtet, es kann nämlich
+alle Ereignisse betrachtet, es kann nämlich.
 
 0:15:07.019,0:15:12.790
 hier passieren, dass die beiden Kinder übersetzen.
 
 0:15:12.790,0:15:24.380
-Hier war ein Kind übergesetzt, je können
-hier beide Kinder übersetzen.
+Hier war ein Kind übergesetzt, hier können
+beide Kinder übersetzen.
 
 0:15:24.380,0:15:37.870
 Also entsteht ein neuer Zustand, in dem jetzt
@@ -527,7 +527,7 @@ Also auch bei dem Zustand, wo der Fischer
 mit den Kindern da ist, sonst können die
 
 0:15:56.630,0:16:08.930
-Kinder übersetzen und dann erhalten wir einen
+Kinder übersetzen, und dann erhalten wir einen
 ähnlichen Zustand, wobei der Fischer hier
 
 0:16:08.930,0:16:15.029
@@ -538,7 +538,7 @@ Vater mit den beiden Kindern auf der anderen
 Seite ist.
 
 0:16:16.029,0:16:23.769
-Nochmal diesen Zustand betrachten, wir drei
+Nochmal diesen Zustand betrachten, wir haben drei
 Pfeile, es gibt auch drei Möglichkeiten.
 
 0:16:23.769,0:16:29.470
@@ -593,13 +593,13 @@ Also, hier kann auch der Vater mit dem Boot
 das ist wieder derselbe Zustand.
 
 0:17:42.809,0:17:49.940
-Also das hier geht auch.
+Also, das hier geht auch.
 
 0:17:49.940,0:17:57.639
 Von hier aus gibt es keine andere Möglichkeit.
 
 0:17:57.639,0:18:03.460
-Entweder der Vater oder Fischer setzt über,
+Entweder der Vater oder der Fischer setzt über,
 das sind die Möglichkeiten, die hier bestehen.
 
 0:18:03.460,0:18:07.899
@@ -634,7 +634,7 @@ anderen Seite.
 
 0:18:49.230,0:19:04.139
 Dieser Zustand existiert auch analog auf der
-anderen Seite hier unten und wenn ein Kind
+anderen Seite hier unten, und wenn ein Kind
 
 0:19:04.139,0:19:07.739
 hier übersetzt, bleibt der Vater natürlich
@@ -652,14 +652,14 @@ Dann haben wir hier alle Fälle erledigt,
 denn es gibt drei Pfeile.
 
 0:19:30.479,0:19:35.179
-Es kann der Fischer Übersetzen, es können
+Es kann der Fischer übersetzen, es können
 beide Kinder übersetzen und es kann ein Kind
 
 0:19:35.179,0:19:36.179
 übersetzen.
 
 0:19:36.179,0:19:38.770
-Und wir haben drei Pfeile, das heißt dieser
+Und wir haben drei Pfeile, das heißt, dieser
 Fall ist erledigt.
 
 0:19:38.770,0:19:42.629
@@ -692,10 +692,10 @@ Das wäre die eine Möglichkeit.
 
 0:20:24.809,0:20:31.090
 Und hier ist der Fischer, der rüberfahren
-kann und es ist tatsächlich auch wieder derselbe
+kann, und es ist tatsächlich auch wieder derselbe
 
 0:20:31.090,0:20:37.729
-Zustand wie hier, der von hier Erreichbare.
+Zustand wie hier, der von hier erreichbar ist.
 
 0:20:37.729,0:20:42.609
 Das heißt, wenn der Fischer mit dem Boot
@@ -768,7 +768,7 @@ diesem Zustand aus erreichbar ist, also der
 andere Zustand.
 
 0:22:38.889,0:22:40.669
-Es gib keine weiteren Zustände, die erreichbar
+Es gibt keine weiteren Zustände, die erreichbar
 sind.
 
 0:22:40.669,0:22:42.980
@@ -795,7 +795,7 @@ mit dem Boot natürlich.
 
 0:23:27.309,0:23:45.149
 Das Ganze kann auch mit dem Vater passieren
-anstatt des Fischers und es
+anstatt des Fischers, und es
 
 0:23:45.149,0:23:49.159
 kann auch sein, dass eines der Kinder übersetzt.
@@ -805,7 +805,7 @@ Das wäre die andere Möglichkeit.
 
 0:23:51.940,0:24:12.759
 Der Fischer setzt mit seinem Boot über, eine
-Möglichkeit, der Vater setzt mit dem Boot
+Möglichkeit; der Vater setzt mit dem Boot
 
 0:24:12.759,0:24:16.950
 über, andere Möglichkeit.
@@ -816,7 +816,7 @@ Und schließlich kann auch ein Kind noch mit
 
 0:24:25.849,0:24:37.470
 Jetzt können wir diesen Zustand noch markieren
-als einen Endzustand, zum Beispiel indem wir
+als einen Endzustand, zum Beispiel, indem wir
 
 0:24:37.470,0:24:44.359
 hier noch eine zweite Linie um den Zustand
@@ -883,7 +883,7 @@ würde, wenn man hier statt der beiden Kinder,
 statt demselben Buchstaben k eine Unterscheidung
 
 0:26:13.859,0:26:22.460
-hätte, vielleicht K1 oder K2, dann würde
+hätte, vielleicht K1 oder K2; dann würde
 der Zustandsraum sehr stark explodieren, weil
 
 0:26:22.460,0:26:31.529
@@ -896,7 +896,7 @@ zweite Kind mit auf die andere Seite geht.
 
 0:26:37.009,0:26:43.049
 Zum Beispiel hier, da fährt ein Kind mit
-dem Boot rüber, dafür müsste dann hier
+dem Boot rüber; dafür müsste dann hier
 
 0:26:43.049,0:26:47.009
 noch ein weiterer Zustand berücksichtigt
@@ -918,7 +918,7 @@ Dadurch hat man nicht diese Zustandsexplosion.
 
 0:27:19.340,0:27:24.929
 Ansonsten würden da noch weitere Zustände
-hinzukommen und das würde noch komplexer
+hinzukommen, und das würde noch komplexer
 
 0:27:24.929,0:27:25.929
 werden.
@@ -955,7 +955,7 @@ jeweils austauschen würde.
 
 0:28:25.110,0:28:32.240
 Hier ist Vater auf der linken Seite und Fischer
-auf der rechten Seite und hier ist der Fischer
+auf der rechten Seite, und hier ist der Fischer
 
 0:28:32.240,0:28:34.289
 auf der linken Seite und der Vater auf der
@@ -995,14 +995,14 @@ Seite, und hier ist es genau umgekehrt.
 
 0:29:45.599,0:30:02.679
 Das stimmt natürlich nicht ganz für das
-hier oben, der gespiegelte Zustand wäre ja,
+hier oben; der gespiegelte Zustand wäre ja,
 
 0:30:02.679,0:30:08.659
-wenn Vater und Fischer, und auf der anderen
+wenn Vater und Fischer und auf der anderen
 Seite wären, aber wenn auch Vater und Fischer
 
 0:30:08.659,0:30:15.710
-ausgetauscht wären, dann würde das hier
+Austauschbar wären, dann würde das hier
 auch wieder dieses Bild ergeben.
 
 0:30:15.710,0:30:27.629

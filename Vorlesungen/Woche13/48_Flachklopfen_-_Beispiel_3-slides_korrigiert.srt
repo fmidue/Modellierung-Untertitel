@@ -397,7 +397,7 @@ Also eine Kopie für: wir waren zuletzt in C hier.
 Eine für: wir waren zuletzt in D hier.
 
 00:07:57,460 --> 00:07:59,620
-Eine für: wir waren noch gar nicht in diesen Teil.
+Eine für: wir waren noch gar nicht in diesem Teil.
 
 00:07:59,620 --> 00:08:04,240
 Das habe ich für das X getan,
@@ -468,7 +468,7 @@ Auch das geht aus der Strategie hier hervor, dass
 wir diese Kopien der äußeren Zustände (in dem
 
 00:09:08,950 --> 00:09:11,822
-Fall, von A und B) und ihrer Übergänge anlegen;
+Fall von A und B) und ihrer Übergänge anlegen;
 diese beiden 'a'-, 'f'-Übergänge, die wir sowohl hier
 
 00:09:11,822 --> 00:09:11,919
@@ -528,4 +528,4 @@ hierarchischen Zustandes man dorthin geraten ist.
 
 00:10:44,980 --> 00:10:52,510
 Um das dann ausnutzen zu können, wenn man einen
-Historieneintritt hat wie hier in dem Beispiel.
+Historieneintritt hat, wie hier in dem Beispiel.

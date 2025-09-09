@@ -1,5 +1,5 @@
 0:00:00.000,0:00:09.000
-So, ich würde gern nochmal hier in der
+So, ich würde gern noch einmal hier in der
 App ein paar Beispiele durchsprechen.
 
 0:00:09.510,0:00:17.760
@@ -241,11 +241,11 @@ nämlich die Tatsache, dass sie diesen Wert tragen.
 
 0:04:48.300,0:04:54.390
 Also vielleicht ergibt es Sinn, das als zwei
-Unterklassen einer allgemeineren Klasse zu haben,
+Unterklassen einer allgemeineren Klasse zu haben.
 
 0:04:54.390,0:05:00.900
 welche für Knoten steht (unabhängig von
-Blatt- oder innere Knoten; und die dieses
+Blatt- oder inneren Knoten; und die dieses.
 
 0:05:00.900,0:05:06.480
 Attribut "value" hat), und von der die anderen
@@ -299,7 +299,7 @@ Weil man die Oberklasse als abstrakt markiert hat
 
 0:05:54.120,0:05:57.030
 und von ihr selbst deswegen keine
-Objekt gebildet werden können.
+Objekte gebildet werden können.
 
 0:05:57.030,0:06:03.510
 Das ist also sozusagen die
@@ -323,7 +323,7 @@ natürlich keine Selbstassoziation
 
 0:06:21.930,0:06:25.050
 mehr gibt von inneren Knoten zu sich
-selbst, und von Knoten zu sich selbst.
+selbst und von Knoten zu sich selbst.
 
 0:06:25.050,0:06:27.150
 Jetzt ist es so, dass es die Blattknoten gibt.
@@ -404,7 +404,7 @@ Was dann konkret heißt, dass die Kinder eines
 
 0:07:58.530,0:08:03.000
 Knotens sowohl Blattknoten als
-auch innere Knoten sein können.
+auch inneren Knoten sein können.
 
 0:08:03.000,0:08:11.220
 Weil die beide von der abstrakten Klasse "Knoten"
@@ -430,7 +430,7 @@ Nehmen wir an, wir möchten gern zu den Knoten
 und den Verbindungen jeweils auch wissen,
 
 0:08:50.420,0:08:54.260
-was der linke und der rechte Nachfolger ist.
+was der linke und der rechte Nachfolger sind.
 
 0:08:54.260,0:09:01.190
 Also statt einfach wie in diesem
@@ -457,7 +457,7 @@ Das könnte zum Beispiel so aussehen.
 
 0:09:23.210,0:09:26.540
 Also wir gehen wieder zurück zu
-einer einzelne Knoten-Klasse.
+einer einzelnen Knoten-Klasse.
 
 0:09:26.540,0:09:32.120
 Die trägt einen Wert als Attribut,
@@ -508,7 +508,7 @@ haben weniger strukturelle Einschränkungen.
 
 0:10:21.740,0:10:27.290
 Sie können zum Beispiel Zyklen
-haben, oder auch Selbstzyklen, und
+haben oder auch Selbstzyklen und
 
 0:10:27.290,0:10:29.000
 mehrere Assoziationen zwischen gleichen Partnern.
@@ -520,7 +520,7 @@ Anders als bei Vererbung.
 Jetzt könnten wir sowas ausdrücken.
 
 0:10:33.440,0:10:40.580
-Das ist abgedeckt, es gibt eben
+Das ist abgedeckt; es gibt eben
 zum Beispiel diese mehreren Knoten.
 
 0:10:40.580,0:10:47.060
@@ -549,7 +549,7 @@ in Links- und Rechts-Beziehungen haben wir
 
 0:11:20.060,0:11:26.150
 plötzlich die Situation, dass
-ein Knoten sowohl einen linken,
+ein Knoten sowohl einen linken
 
 0:11:26.150,0:11:28.040
 als auch einen rechten Vorgänger haben könnte.
@@ -563,22 +563,22 @@ wäre eine Konstellation wie die folgende
 mit drei Knoten und folgender Assoziation.
 
 0:11:51.890,0:12:00.860
-Dass nämlich der Knoten Drei linker Nachfolger
-von Zwei und rechter Nachfolger von Eins wäre.
+Dass nämlich der Knoten drei linker Nachfolger
+von zwei und rechter Nachfolger von eins wäre.
 
 0:12:00.860,0:12:03.350
 Und das wäre keine Baumstruktur mehr.
 
 0:12:03.350,0:12:10.400
-Das wäre sowohl bei dieser, als auch bei
-dieser Modellierung, nicht möglich gewesen.
+Das wäre sowohl bei dieser als auch bei
+dieser Modellierung nicht möglich gewesen.
 
 0:12:10.400,0:12:13.100
 Hier hätte das dieses 0..1 verhindert.
 
 0:12:13.100,0:12:17.900
 Es gibt höchstens einen Vorgänger und
-nicht einen Vorgänger dessen linker,
+nicht einen Vorgänger, dessen linker
 
 0:12:17.900,0:12:21.350
 und einen Vorgänger, dessen

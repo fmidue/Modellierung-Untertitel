@@ -37,7 +37,7 @@ wird, wenn ich das mal überschlage.
 
 00:00:51,330 --> 00:00:54,090
 Vielleicht ein bisschen mehr sogar.
-Also wir werden einige UML-Konzepte
+Also, wir werden einige UML-Konzepte
 
 00:00:54,090 --> 00:00:57,390
 brauchen und deswegen ist ein Buch
@@ -429,12 +429,12 @@ Sie müssen auch keines dieser Bücher überhaupt
 
 00:09:15,220 --> 00:09:21,340
 zur Hand nehmen, wenn Sie das nicht mögen.
-Aber es könnte unter Umständen hilfreich sein,
+Aber es könnte unter Umständen hilfreich sein.
 
 00:09:21,340 --> 00:09:25,000
-wenn Sie weitere Beispiele brauchen,
+Wenn Sie weitere Beispiele brauchen,
 etwas nochmal anders nachlesen wollen,
 
 00:09:25,000 --> 00:09:30,010
 als ich es in der Vorlesung erkläre, oder
-einfach mehr Übungsmaterial auch haben möchten.
+einfach mehr Übungsmaterial haben möchten.

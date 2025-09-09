@@ -3,7 +3,7 @@ Diese Aufgabe beschäftigt sich mit dem UML-Zustandsdiagramm.
 
 0:00:08.389,0:00:20.500
 In dieser Aufgabe sollen die Fragen zum abgebildeten
-UML-Zustandsdiagramm beantworten werden.
+UML-Zustandsdiagramm beantwortet werden.
 
 0:00:20.500,0:00:28.609
 Dabei sollen immer nicht zusammengesetzte
@@ -15,7 +15,7 @@ durch die Zahlen angegeben.
 
 0:00:38.420,0:00:46.501
 Es ist zu beachten, dass mitunter mehrere
-Zustände für die Aufgaben angegeben werden
+Zustände für die Aufgaben angegeben werden,
 
 0:00:46.501,0:00:47.501
 müssen.
@@ -29,7 +29,7 @@ startet das Diagramm?“.
 
 0:01:02.260,0:01:15.970
 Dafür müssen wir den äußersten Startzustand
-anschauen, er zeigt an wie das UML-Diagramm
+anschauen, er zeigt an, wie das UML-Diagramm
 
 0:01:15.970,0:01:17.170
 startet.
@@ -43,7 +43,7 @@ Hier gibt es einen Verweis auf Zustand 3 und
 6, also diese beiden.
 
 0:01:41.420,0:01:54.130
-Das sind auch die beiden anzugebenen Zustände,
+Das sind auch die beiden angegebenen Zustände,
 um die Aufgabe zu beantworten.
 
 0:01:54.130,0:02:08.179
@@ -81,7 +81,7 @@ weil die Bedingung gefordert ist, dass 4 und
 7 gleichzeitig aktiv sein müssen.
 
 0:03:04.790,0:03:09.709
-Also 4 und 7 wäre eine Möglichkeit.
+Also 4 und 7 wären eine Möglichkeit.
 
 0:03:09.709,0:03:19.970
 Wir haben aber noch weitere ausgehende Kanten,
@@ -99,7 +99,7 @@ Da wir in einem Bereich sind von C, in dem
 gleichzeitig noch andere Zustände aktiv sind,
 
 0:03:38.840,0:03:47.170
-nämlich 3,4 beziehungsweise 5 und wir hier
+nämlich 3, 4 beziehungsweise 5 und wir hier
 direkt aus 6 hinausgehen, können wir hier
 
 0:03:47.170,0:04:02.959
@@ -137,7 +137,7 @@ Wir verlassen C von 7 und 4 aus, das heißt
 über d. Weil das die einzigen ausgehenden
 
 0:05:23.789,0:05:36.259
-Kanten von 4 und 7 sind, daher geht das nur
+Kanten von 4 und 7 sind, geht das nur
 über d, und D zuletzt von 8 aus verlassen
 
 0:05:36.259,0:05:41.039
@@ -214,7 +214,7 @@ Die nächste Frage bezieht sich auch hierauf.
 
 0:08:10.659,0:08:19.870
 Ändert sich
-die Antwort der vorhergehenden Frage, vielleicht
+die Antwort der vorhergehenden Frage? Vielleicht
 
 0:08:19.870,0:08:30.500
 lasse ich die Frage zumindest noch teilweise
@@ -244,17 +244,17 @@ Dann würde auch gemerkt werden, dass diese
 
 0:09:03.589,0:09:09.350
 Bei diesem Zustand, also wenn wir hier die
-tiefe Historie haben, würde es dementsprechend
+tiefe Historie haben, würde es dementsprechend.
 
 0:09:09.350,0:09:18.459
-im Zustand 2 weitergehen.
+Im Zustand 2 würde es weitergehen.
 
 0:09:18.459,0:09:26.190
 Schauen wir mal, was die letzte Aufgabe dieses
 Teils ist: Welche Möglichkeiten gibt es beim
 
 0:09:26.190,0:09:34.839
-Verlassen von D in den Zustand 6 überzugehen?
+Verlassen von D, in den Zustand 6 überzugehen?
 
 0:09:34.839,0:09:47.040
 Wir sind sozusagen irgendwo in diesem Bereich.
@@ -275,8 +275,8 @@ Betrachten wir zunächst f:
 f erreichen wir, wenn wir direkt auf 3 springen.
 
 0:10:20.220,0:10:35.220
-Weil das in einer swim-lane ist und ein Startknoten
-in der anderen lane ist und auf 6 verweist,
+Weil das in einer Swim-Lane ist und ein Startknoten
+in der anderen Lane ist und auf 6 verweist,
 
 0:10:35.220,0:10:47.829
 könnten wir das Verlassen von Zustand D zu
@@ -292,7 +292,7 @@ gehen.
 würden wir 3 und 6 erreichen.
 
 0:11:07.100,0:11:13.269
-Also 3 und 6 würden wir über f erreichen.
+Also würden wir 3 und 6 über f erreichen.
 
 0:11:13.269,0:11:28.889
 Wenn wir über i gehen, haben wir als nächstes
@@ -307,7 +307,7 @@ Wir haben hier eine flache Historie.
 
 0:11:35.560,0:11:43.680
 Wenn wir zuvor in C waren und zum Beispiel
-über e hinausgegangen sind ist es also möglich,
+über e hinausgegangen sind, ist es also möglich,
 
 0:11:43.680,0:11:57.710
 dass wir zuvor in Zustand 6 waren.

@@ -87,7 +87,7 @@ Also ein Petrinetz ist
 
 00:01:44,610 --> 00:01:55,770
 Erstens, für jede Transition t und jede Stelle s,
-die das Petrinetz hat, gilt dass dieser Ausdruck,
+die das Petrinetz hat, gilt, dass dieser Ausdruck,
 
 00:01:55,770 --> 00:02:00,990
 die Vorgewichtsfunktion von t angewandt
@@ -121,7 +121,7 @@ ist es eine ohne ein zusätzliches Gewicht,
 einfach nur ein einfacher Pfeil mit Gewicht 1.
 
 00:02:29,570 --> 00:02:31,520
-Und das gleiche gilt für die Nachgewichte.
+Und das Gleiche gilt für die Nachgewichte.
 
 00:02:31,520 --> 00:02:33,800
 Also für jedes t und jedes s gilt,
@@ -143,7 +143,7 @@ anschauen und letztlich sehen:
 
 00:02:45,980 --> 00:02:50,480
 Steht da irgendwo etwas anderes, etwas
-größeres als eine 1 an einem Gewicht dran?
+Größeres als eine 1 an einem Gewicht dran?
 
 00:02:50,480 --> 00:02:54,410
 Zusätzlich gilt auch noch
@@ -228,54 +228,53 @@ eine Zahl größer 1 als Gewicht steht,
 als auch jede erreichbare Markierung (also jeder
 
 00:04:27,890 --> 00:04:32,720
-Knoten im Erreichbarkeitsgraphen)
-nichts größer 1 enthalten darf.
+Knoten im Erreichbarkeitsgraphen darf nichts größer 1 enthalten.
 
 00:04:32,720 --> 00:04:34,940
-Das ist tatsächlich eine
+Das ist tatsächlich eine 
 sehr starke Einschränkung.
 
 00:04:37,310 --> 00:04:38,900
-Natürlich heißt "erreichbar" hier
+Natürlich heißt "erreichbar" hier 
 "erreichbar von der Startmarkierung".
 
 00:04:43,010 --> 00:04:47,570
-Jetzt habe ich ein Beispiel besprochen,
+Jetzt habe ich ein Beispiel besprochen, 
 das eklatant nicht 1-sicher ist.
 
 00:04:47,570 --> 00:04:50,360
-Gibt es auch Petrinetze, die wir schon
+Gibt es auch Petrinetze, die wir schon 
 besprochen haben, die 1-sicher sind?
 
 00:04:50,360 --> 00:04:54,170
 Ja. Das waren alles 1-sichere Petrinetze.
 
 00:04:54,170 --> 00:05:00,170
-Hier tauchen niemals in den Darstellungen
+Hier tauchen niemals in den Darstellungen 
 der Petrinetze selber irgendwie Gewichte
 
 00:05:00,170 --> 00:05:05,120
-größer 1 au,f und wenn Sie im vorigen Video
+größer 1 auf, und wenn Sie im vorigen Video 
 sich noch einmal die Erreichbarkeitsgraphen
 
 00:05:05,120 --> 00:05:11,120
-für diese Petrinetze anschauen, werden Sie auch
+für diese Petrinetze anschauen, werden Sie auch 
 da nie eine Komponente finden, die größer 1 ist.
 
 00:05:11,120 --> 00:05:15,200
-Deswegen sind das tatsächlich alles
+Deswegen sind das tatsächlich alles 
 Beispiele für 1-sichere Petrinetze gewesen.
 
 00:05:18,620 --> 00:05:21,470
-Diese Überprüfung, dass nie im
+Diese Überprüfung, dass nie im 
 Erreichbarkeitsgraphen etwas
 
 00:05:21,470 --> 00:05:28,310
-größer 1 vorkommt, ist natürlich nur machbar,
+größer 1 vorkommt, ist natürlich nur machbar, 
 wenn der Erreichbarkeitsgraph endlich ist.
 
 00:05:28,310 --> 00:05:31,580
-Das wird er aber sein, wenn
+Das wird er aber sein, wenn 
 diese Eigenschaft zutrifft.
 
 00:05:34,430 --> 00:05:36,860
@@ -283,28 +282,28 @@ Das bezieht sich also auf "1-sicher":
 
 00:05:36,860 --> 00:05:44,180
 Gewichte nur 1, jede Markierung enthält
-nur maximal ein Token pro Stelle, etc.
+ nur maximal ein Token pro Stelle, etc.
 
 00:05:44,180 --> 00:05:45,890
 Das ist sehr beschränkt.
 
 00:05:45,890 --> 00:05:50,600
-Tatsächlich "1-sicher" oder "1-beschränkt",
+Tatsächlich "1-sicher" oder "1-beschränkt", 
 aber man sagt "1-sicher" dazu.
 
 00:05:51,890 --> 00:05:55,850
-Daneben gibt es noch andere Begriffe von
-Beschränktheit, die auch größere Wert zulassen.
+Daneben gibt es noch andere Begriffe von 
+Beschränktheit, die auch größere Werte zulassen.
 
 00:05:55,850 --> 00:05:59,660
-Die insbesondere nicht schon in dem
+Die insbesondere nicht schon in dem 
 Petrinetz selber die Gewichte beschränken.
 
 00:05:59,660 --> 00:06:03,020
 Sondern die nur beschränken, dass die Markierungen
 
 00:06:03,020 --> 00:06:07,010
-im Erreichbarkeitsgraphen durch eine
+im Erreichbarkeitsgraphen durch eine 
 Konstante beschränkt sein müssen.
 
 00:06:07,010 --> 00:06:08,600
@@ -314,76 +313,75 @@ Und das muss nicht unbedingt die Konstante 1 sein.
 Also ein Petrinetz heißt "beschränkt",
 
 00:06:11,780 --> 00:06:14,150
-wenn es eine gewisse Konstante
+wenn es eine gewisse Konstante 
 gibt, irgendeine natürliche Zahl.
 
 00:06:14,150 --> 00:06:16,370
-Das kann natürlich die 1 sein,
+Das kann natürlich die 1 sein, 
 das kann aber auch die 15 sein.
 
 00:06:16,370 --> 00:06:17,930
 Und was soll gelten?
 
 00:06:17,930 --> 00:06:22,430
-Für diese Konstante soll gelten,
+Für diese Konstante soll gelten, 
 dass jede erreichbare Markierung m,
 
 00:06:22,430 --> 00:06:28,550
-also jede von m0 erreichbare Markierung, die
+also jede von m0 erreichbare Markierung, die 
 Eigenschaft hat, dass für jede Stelle s (also
 
 00:06:28,550 --> 00:06:34,921
-in jeder Komponente in Tupel-Schreibweise)
+in jeder Komponente in Tupel-Schreibweise) 
 eine Zahl steht, die höchstens c ist.
 
 00:06:34,921 --> 00:06:37,750
-Wenn c = 15 wäre, dürfte eben im
+Wenn c = 15 wäre, dürfte eben im 
 Erreichbarkeitsgraphen nirgendwo
 
 00:06:37,750 --> 00:06:41,140
 eine Zahl größer als 15 auftreten.
 
 00:06:41,140 --> 00:06:45,490
-Wenn da nur Zahlen bis 15 stehen,
+Wenn da nur Zahlen bis 15 stehen, 
 dann wäre das Petrinetz beschränkt.
 
 00:06:45,490 --> 00:06:48,370
-Und was in dem Petrinetz selbst an
+Und was in dem Petrinetz selbst an 
 Gewichten steht, ist dafür völlig egal.
 
 00:06:48,370 --> 00:06:49,540
 Hier wird also nur auf
 
 00:06:49,540 --> 00:06:53,020
-den Erreichbarkeitsgraphen und die
+den Erreichbarkeitsgraphen und die 
 erreichbaren Markierungen Bezug genommen.
 
 00:06:53,020 --> 00:06:54,550
-Und das kann man im
-Erreichbarkeitsgraphen feststellen.
+Und das kann man im Erreichbarkeitsgraphen feststellen.
 
 00:06:57,370 --> 00:06:59,740
-Und dazu gibt es das Gegenteil,
+Und dazu gibt es das Gegenteil, 
 nämlich "unbeschränkt".
 
 00:07:03,580 --> 00:07:06,160
-Ein Petrinetz ist unbeschränkt,
+Ein Petrinetz ist unbeschränkt, 
 wenn das gerade nicht zutrifft.
 
 00:07:06,160 --> 00:07:14,500
-Sondern wenn für jede Konstante c es eine von m0
+Sondern wenn für jede Konstante c es eine von m0 
 aus erreichbare Markierung m gibt und eine Stelle
 
 00:07:15,190 --> 00:07:21,820
-(nicht alle Stellen, sondern eine Stelle), so dass
+(nicht alle Stellen, sondern eine Stelle), so dass 
 tatsächlich mal ein Wert größer c angenommen wird.
 
 00:07:21,820 --> 00:07:25,780
-Also "beschränkt" und "unbeschränkt" sind
+Also "beschränkt" und "unbeschränkt" sind 
 tatsächlich das genaue Gegenteil zueinander.
 
 00:07:25,780 --> 00:07:30,910
-Während "1-sicher" nicht irgendwie Gegenteil
+Während "1-sicher" nicht irgendwie das Gegenteil 
 einer der beiden Eigenschaften ist.
 
 00:07:34,810 --> 00:07:36,250
@@ -393,7 +391,7 @@ Wie könnte man das testen?
 Wie kann man diese Eigenschaften überprüfen?
 
 00:07:39,610 --> 00:07:43,570
-Also erst mal gilt natürlich, dass jedes
+Also erst mal gilt natürlich, dass jedes 
 1-sichere Petrinetz auch beschränkt ist.
 
 00:07:44,680 --> 00:07:46,120
@@ -406,57 +404,56 @@ Und dann, wenn es beschränkt ist, gucken:
 Ist es sogar auch 1-sicher?
 
 00:07:48,910 --> 00:07:51,955
-Wenn ein Petrinetz unbeschränkt ist,
+Wenn ein Petrinetz unbeschränkt ist, 
 ist es mit Sicherheit nicht 1-sicher.
 
 00:07:51,955 --> 00:07:55,180
-Denn die Tatsache, dass hier
+Denn die Tatsache, dass hier 
 Werte größer c angenommen werden,
 
 00:07:55,180 --> 00:07:58,300
 widerspricht natürlich der "maximal 1".
 
 00:08:00,550 --> 00:08:04,270
-Und diese Unterscheidung "beschränkt/unbeschränkt"
+Und diese Unterscheidung "beschränkt/unbeschränkt" 
 kann man am Erreichbarkeitsgraphen festmachen.
 
 00:08:04,270 --> 00:08:08,590
-Nämlich ein Petrinetz ist unbeschränkt genau dann,
+Nämlich ein Petrinetz ist unbeschränkt genau dann, 
 wenn der Erreichbarkeitsgraph unendlich groß ist.
 
 00:08:08,590 --> 00:08:09,430
 Oder anders formuliert:
 
 00:08:09,430 --> 00:08:14,350
-Ein Petrinetz ist beschränkt genau dann, wenn
+Ein Petrinetz ist beschränkt genau dann, wenn 
 der Erreichbarkeitsgraph endlich groß ist.
 
 00:08:14,350 --> 00:08:22,000
-Das heißt, während zwar unser Beispiel hier nicht
+Das heißt, während zwar unser Beispiel hier nicht 
 1-sicher war, ist es auf jeden Fall beschränkt.
 
 00:08:22,000 --> 00:08:23,860
 Das können wir hier noch nicht sehen.
 
 00:08:23,860 --> 00:08:27,130
-Das Petrinetz selbst ist gar nicht so relevant
+Das Petrinetz selbst ist gar nicht so relevant 
 für die Beschränktheit/Unbeschränktheit.
 
 00:08:27,130 --> 00:08:29,560
-Sondern der Erreichbarkeitsgraph,
+Sondern der Erreichbarkeitsgraph, 
 und der ist endlich.
 
 00:08:29,560 --> 00:08:30,965
-Wir sehen hier sogar, was
+Wir sehen hier sogar, was 
 die kleinste Konstante c ist.
 
 00:08:30,965 --> 00:08:41,260
-Für die Konstante c = 3 gilt hier, dass nie ein
+Für die Konstante c = 3 gilt hier, dass nie ein 
 Knoten auftritt, der einen Eintrag größer 3 hat.
 
 00:08:41,260 --> 00:08:44,840
-Natürlich wäre das hier
-auch für c = 15 zutreffend.
+Natürlich wäre das hier auch für c = 15 zutreffend.
 
 00:08:44,840 --> 00:08:46,850
 Aber 3 ist die interessante Konstante hier.
@@ -512,10 +509,10 @@ und wenn das schon nicht erfüllt ist, dann
 ist das Petrinetz auch nicht 1-sicher.
 
 00:09:38,300 --> 00:09:40,760
-Wenn die erste Eigenschaft erfüllt,
+Wenn die erste Eigenschaft erfüllt
 
 00:09:42,800 --> 00:09:47,510
-dass man bei den Vor- und Nachgewichten keine
+ist, dass man bei den Vor- und Nachgewichten keine
 Zahlen größer 1 findet, dann ist die Frage:
 
 00:09:47,510 --> 00:09:49,460

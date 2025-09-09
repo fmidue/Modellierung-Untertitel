@@ -65,7 +65,7 @@ der dazu führt, dass wir wieder
 in der Ausgangsmarkierung landen.
 
 0:01:04.890,0:01:10.620
-Das wäre also Ausführen von t2, t3
+Das wäre also das Ausführen von t2, t3
 oder t3, t2 in beliebiger Reihenfolge.
 
 0:01:10.620,0:01:13.238
@@ -270,7 +270,7 @@ nicht unbedingt daher rühren muss (wie hier),
 dass wir solche Gewichte größer als 1 haben.
 
 0:05:00.050,0:05:02.420
-Also es gibt durchaus auch Petrinetze,
+Also, es gibt durchaus auch Petrinetze,
 
 0:05:02.420,0:05:07.550
 die erfüllen sozusagen die erste Bedingung

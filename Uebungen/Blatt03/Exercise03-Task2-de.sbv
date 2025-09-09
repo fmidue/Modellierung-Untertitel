@@ -10,7 +10,7 @@ Wir haben hier dieses UML-Klassendiagramm
 schon vorgegeben.
 
 0:00:14.650,0:00:20.269
-Wir haben verschiedene Klassen, RentableVehicle,
+Wir haben verschiedene Klassen: RentableVehicle,
 Bicycle, MotorizedVehicle und so weiter, die
 
 0:00:20.269,0:00:21.480
@@ -52,7 +52,7 @@ Attribute der geerbten Klassen mit reinnehmen.
 
 0:01:15.110,0:01:20.830
 Ganz konkret heißt das, wenn wir hier mal
-einfach mit Transporter anfangen unten auf
+einfach mit Transporter anfangen, unten auf
 
 0:01:20.830,0:01:26.470
 der Seite, müssen wir erst mal einen neuen
@@ -64,7 +64,7 @@ bei diesen Diagrammen.
 
 0:01:30.470,0:01:37.630
 Bei diesen Klassendiagrammen haben wir immer
-drei Kästchen, einen mit dem Namen der Klasse,
+drei Kästchen: einen mit dem Namen der Klasse,
 
 0:01:37.630,0:01:43.050
 einen mit den diversen Attributen und einen,
@@ -105,7 +105,7 @@ wir benutzen können.
 
 0:02:15.750,0:02:22.620
 Objekt, Interface, Klasse, das sieht ein bisschen
-aus, wie das hier, oder das, was wir in diesem
+aus wie das hier, oder das, was wir in diesem
 
 0:02:22.620,0:02:25.260
 Fall wollen, einfach nur Instanzen.
@@ -126,7 +126,7 @@ Wir können uns jetzt einfach etwas ausdenken.
 
 0:02:46.340,0:02:51.330
 Eine Instanz hat normalerweise immer einen
-Namen, das heißt, wir geben erstmal den kleingeschriebenen
+Namen, das heißt, wir geben erst mal den kleingeschriebenen
 
 0:02:51.330,0:02:59.569
 Namen an, mytransporter zum Beispiel, machen
@@ -153,14 +153,14 @@ uns die Attribute auszusuchen.
 Wir haben hier schon ein paar Attribute drin.
 
 0:03:25.600,0:03:33.400
-Dieses + sind Access-Variable, ob das public,
+Dieses + sind Access-Variablen, ob das public,
 private oder sonst was ist.
 
 0:03:33.400,0:03:37.060
 Das können wir hier erst mal komplett ignorieren.
 
 0:03:37.060,0:03:41.030
-Das macht das Diagramm, was wir hier angegeben
+Das macht das Diagramm, das wir hier angegeben
 haben, ja auch.
 
 0:03:41.030,0:03:44.349
@@ -172,7 +172,7 @@ Also nehmen wir dieses + davor weg.
 
 0:03:46.620,0:03:51.320
 Angefangen mit den Attributen, die hier im
-Transporter stehen, haben wir height, hier
+Transporter stehen, haben wir height; hier
 
 0:03:51.320,0:03:58.200
 gibt es keinen Doppelpunkt, weil wir nicht
@@ -198,7 +198,7 @@ zu achten, deswegen habe ich einen Punkt gemacht,
 weil das halt ein Float sein soll.
 
 0:04:21.180,0:04:25.139
-Für das nächste Attribut haben wir weight,
+Für das nächste Attribut haben wir weight;
 da können wir uns wieder etwas ausdenken.
 
 0:04:25.139,0:04:29.749
@@ -243,11 +243,11 @@ der Transporter direkt erbt, aber MotorizedVehicle
 erbt auch nochmal von RentableVehicle.
 
 0:05:18.139,0:05:22.580
-Das heißt wir müssen auch noch das Attribut
+Das heißt, wir müssen auch noch das Attribut
 model mit reinnehmen.
 
 0:05:22.580,0:05:30.550
-In drawio geht das ganz einfach, wir können
+In drawio geht das ganz einfach. Wir können
 uns von der Seite hier dieses Extra-Attribut
 
 0:05:30.550,0:05:31.550
@@ -269,7 +269,7 @@ uns auch einfach nur etwas aus.
 Das ist der Hersteller, wie auch immer.
 
 0:05:48.190,0:05:54.310
-Es muss nur ein String sein, ansonsten ist
+Es muss nur ein String sein. Ansonsten ist
 es komplett egal, was wir machen.
 
 0:05:54.310,0:05:55.800
@@ -277,7 +277,7 @@ Damit hätten wir dann unsere erste Instanz
 fertig.
 
 0:05:55.800,0:06:03.020
-Das ist der Transporter und wir können mit
+Das ist der Transporter, und wir können mit
 dem nächsten beliebig weitermachen.
 
 0:06:03.020,0:06:06.780
@@ -285,7 +285,7 @@ Wir können jetzt hier zum Beispiel mit dem
 Car weitermachen, das funktioniert genauso.
 
 0:06:06.780,0:06:11.490
-Wir gucken erst mal hier rein, das Attribut
+Wir gucken erst mal hier rein. Das Attribut
 ist einmal weight, was ein Float ist.
 
 0:06:11.490,0:06:14.889
@@ -308,7 +308,7 @@ Car, und dann hier unsere ausgedachten Werte
 für model, licenseplate und weight.
 
 0:06:32.939,0:06:39.080
-Ich habe das jetzt andersherum sortiert, hier
+Ich habe das jetzt andersherum sortiert. Hier
 ist es in der Reihenfolge des erstgeerbten
 
 0:06:39.080,0:06:40.819
@@ -349,14 +349,14 @@ Und damit haben wir auch das Motorcycle.
 
 0:07:18.119,0:07:24.259
 Im nächsten Schritt wird es ein bisschen
-einfacher, da machen wir ein MotorizedVehicle,
+einfacher. Da machen wir ein MotorizedVehicle,
 
 0:07:24.259,0:07:30.069
 das hat nur licenseplate, sonst hat es keine
 Attribute, und es erbt einmal von RentableVehicle,
 
 0:07:30.069,0:07:34.949
-das kriegt dann model, das heißt für MotorizedVehicle
+das kriegt dann model. Das heißt, für MotorizedVehicle
 haben wir zum Beispiel so etwas hier unten.
 
 0:07:34.949,0:07:40.979
@@ -364,7 +364,7 @@ Das ist ein mv : MotorizedVehicle, model = BMW,
 licenseplate = DU-D1.
 
 0:07:40.979,0:07:47.229
-Für RentableVehicle ist es nochmal einfacher,
+Für RentableVehicle ist es nochmal einfacher.
 RentableVehicle hat einfach nur ein model
 
 0:07:47.229,0:07:53.899
@@ -391,7 +391,7 @@ und das model.
 
 0:08:10.710,0:08:18.490
 Also zum Beispiel sowas hier, model = HotWheels,
-haslights = true, weil es ein Boolean ist
+hasLights = true, weil es ein Boolean ist
 
 0:08:18.490,0:08:21.210
 und size = 11 als Int.

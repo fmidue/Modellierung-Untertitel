@@ -46,10 +46,10 @@ flaches Zustandsdiagramm ist.
 
 00:00:57,990 --> 00:01:02,910
 Aber später wird es eben in einem größeren
-Zustandsdiagramm geschachtelt auftreten
+Zustandsdiagramm geschachtelt auftreten.
 
 00:01:02,910 --> 00:01:03,840
-und dann nicht mehr flach sein.
+Und dann nicht mehr flach sein.
 
 00:01:03,840 --> 00:01:08,160
 Also zunächst erstmal nur ganz
@@ -125,7 +125,7 @@ zählen bis 59 hoch, jeweils nach 1 Minute,
 
 00:02:08,370 --> 00:02:11,940
 weil das die Minutenanzeige sein
-soll, und kehren dann zu null zurück.
+soll und kehren dann zu null zurück.
 
 00:02:11,940 --> 00:02:13,470
 Und dann geht das immer so weiter.
@@ -137,7 +137,7 @@ Also, was sind die Elemente hier?
 Zustände: das sind diese Darstellungen.
 
 00:02:22,710 --> 00:02:28,140
-SweStartzustand wird dargestellt durch
+Der Startzustand wird dargestellt durch
 diesen speziellen Startknoten,
 
 00:02:28,140 --> 00:02:31,050
@@ -259,14 +259,14 @@ Und so völlig losgelöst oder völlig anders als
 
 00:04:33,990 --> 00:04:37,530
 der Begriff der Transitionen in
-Petrinetzen ist es ja auch nicht.
+Petri-Netzen ist es ja auch nicht.
 
 00:04:37,530 --> 00:04:42,510
 Es geht ja auch darum, eine Vermittlung
 herzustellen zwischen zwei Zuständen hier.
 
 00:04:42,510 --> 00:04:48,810
-Im Petrinetz eben zwischen zwei Stellen, bzw.
+Im Petri-Netz eben zwischen zwei Stellen, bzw.
 der Transport von Marken zwischen Stellen.
 
 00:04:49,470 --> 00:04:51,480
@@ -275,7 +275,7 @@ einfach hier dieser Pfeil,
 
 00:04:51,480 --> 00:04:55,050
 und nicht irgendein Extraknoten,
-wie das in Petrinetzen der Fall war.
+wie das in Petri-Netzen der Fall war.
 
 00:04:55,050 --> 00:04:59,430
 Im Allgemeinen steht auf
@@ -306,7 +306,7 @@ Und es kann einen Effekt geben.
 
 00:05:14,970 --> 00:05:18,060
 Da werden wir gleich sehen, was da in
-Frage kommt, und wie wir das nutzen können.
+Frage kommt und wie wir das nutzen können.
 
 00:05:18,060 --> 00:05:19,920
 Diese beiden Teile sind allerdings optional.
@@ -518,7 +518,7 @@ vielleicht separat noch beschrieben ist.
 Da geben wir hier keine weitere Struktur vor.
 
 00:09:17,270 --> 00:09:21,610
-Und diese Aktibität soll immer dann ausgelöst werden,
+Und diese Aktivität soll immer dann ausgelöst werden,
 wenn der Zustand 0 betreten wird.
 
 00:09:21,610 --> 00:09:24,400
@@ -560,7 +560,7 @@ und da drin nichts weiter passieren konnte.
 Das wäre die Minutenanzeige,
 
 00:10:03,040 --> 00:10:09,790
-samt des Piepens wann immer der
+samt des Piepens, wann immer der
 Null-Minuten-Zustand betreten wird.
 
 00:10:09,790 --> 00:10:11,890
@@ -587,8 +587,8 @@ Das naive Vorgehen wäre dann, zu sagen,
 wir müssen das Kreuzprodukt bilden
 
 00:10:33,640 --> 00:10:36,940
-aus der Menge aller Minuten, 0-59,
-und der Menge aller Stunden, 0-24.
+aus der Menge aller Minuten, 0–59,
+und der Menge aller Stunden, 0–24.
 
 00:10:37,510 --> 00:10:41,680
 Dann wäre jeder Zustand ein Paar
@@ -661,7 +661,7 @@ Unser Beispiel wird es eben erlauben,
 zu haben, die parallel laufen.
 
 00:11:51,270 --> 00:11:53,250
-Wir müssten dann "nur" 84 Zustände aufmalen,
+Wir müssten dann „nur“ 84 Zustände aufmalen,
 
 00:11:53,250 --> 00:11:57,360
 statt explizit alle Paare zwischen
@@ -735,7 +735,7 @@ ist, dass Minuten- und Stundenzähler
 parallel gleichzeitig Fortschritt machen.
 
 00:13:15,300 --> 00:13:19,530
-Also wenn ein Trigger in beiden
+Also, wenn ein Trigger in beiden
 Regionen vorkommt, dann kann er
 
 00:13:19,530 --> 00:13:25,350
@@ -796,7 +796,7 @@ eine von den beiden parallelen Regionen.
 Und die andere Region sieht so ähnlich aus,
 
 00:14:31,170 --> 00:14:35,550
-aber hat weniger Zustände, weil
+hat aber weniger Zustände, weil
 es eben nur um die Stunden geht,
 
 00:14:35,550 --> 00:14:37,830
@@ -825,7 +825,7 @@ Das ist okay, weil sie in
 verschiedenen Regionen sind.
 
 00:14:54,240 --> 00:14:57,150
-Also diese Null kann man nicht mit
+Also, diese Null kann man nicht mit
 dieser Null verwechseln, etc.
 
 00:14:57,150 --> 00:15:01,020
@@ -855,8 +855,8 @@ Er wird immer dann ausgelöst, wenn in
 der Minuten-Region eine Stunde voll ist.
 
 00:15:22,440 --> 00:15:27,930
-Also beim Übergang von 59 Minuten zu
-wieder 0 Minuten gibt es einen Stunden-Übergang,
+Also, beim Übergang von 59 Minuten zu
+wieder 0 Minuten gibt es einen Stundenübergang,
 
 00:15:27,930 --> 00:15:35,010
 der dann gleichzeitig in der Stundenzählung
@@ -923,7 +923,7 @@ Das soll für Stunde ("hour") stehen.
 
 00:16:40,500 --> 00:16:45,840
 Dieser Effekt h sorgt als Trigger
-in der parallelen Regionen dafür,
+in den parallelen Regionen dafür,
 
 00:16:45,840 --> 00:16:48,120
 dass die Stunden hochgezählt werden.
@@ -980,25 +980,25 @@ Dann würden wir diesen Teil des Zustandsdiagramms,
 
 00:18:02,920 --> 00:18:05,860
 der sich mit der Zeit beschäftigt,
-unnötig verkomplizieren,
+unnötig verkomplizieren.
 
 00:18:05,860 --> 00:18:12,160
-indem wir auch diese "Alarm an/aus"
+Indem wir auch diese "Alarm an/aus"
 Eigenschaft hier einbringen.
 
 00:18:12,160 --> 00:18:13,780
 Wir wollen gern modular arbeiten.
 
 00:18:13,780 --> 00:18:17,020
-Das was wir bis jetzt haben,
+Das, was wir bis jetzt haben,
 soll weiterhin nutzbar sein.
 
 00:18:17,020 --> 00:18:25,120
 Und separat dazu soll es noch diese
-"Alarm an/aus" Möglichkeit geben.
+"Alarm an/aus"-Möglichkeit geben.
 
 00:18:27,400 --> 00:18:31,630
-Also vorstellbar: wir haben Alarm an, Alarm aus,
+Also vorstellbar: Wir haben Alarm an, Alarm aus,
 
 00:18:31,630 --> 00:18:34,300
 und zwischen denen soll es Trigger geben.
@@ -1039,7 +1039,7 @@ Faktisch für jede Kombination
 aus Stunde und Minute müssten
 
 00:19:14,050 --> 00:19:19,390
-wir eine 'a' Transition haben,
+wir eine 'a'-Transition haben,
 die in den Alarm-Zustand geht.
 
 00:19:20,950 --> 00:19:22,090
@@ -1083,7 +1083,7 @@ mal in dem Beispiel an.
 Was wir tun können:
 
 00:20:17,740 --> 00:20:22,930
-wir können, was wir bisher
+Wir können, was wir bisher
 als unsere Zeitzählung haben,
 
 00:20:22,930 --> 00:20:25,660
@@ -1122,7 +1122,7 @@ Und 'b' ist, um in der Alarmdarstellung
 zwischen "an" und "aus" zu wechseln.
 
 00:21:05,770 --> 00:21:11,080
-Der Vorteil hier ist: wir können, was wir für die
+Der Vorteil hier ist: Wir können, was wir für die
 Stundenzählung gemacht haben, einfach weiter verwenden,
 
 00:21:11,080 --> 00:21:17,710
@@ -1130,7 +1130,7 @@ und diese Alarm-Komponente als
 separate Komponente beschreiben.
 
 00:21:20,970 --> 00:21:22,890
-Das rechts, was vorher unserer
+Das rechts, was vorher unser
 gesamtes Zustandsdiagramm war,
 
 00:21:22,890 --> 00:21:25,350
@@ -1174,12 +1174,12 @@ die wir sonst potenziell bräuchten.
 Noch zwei Anmerkungen.
 
 00:22:12,030 --> 00:22:15,720
-Zum einen: die Zustände mit Regionen
+Zum einen: Die Zustände mit Regionen
 sind natürlich auch zusammengesetzt,
 
 00:22:15,720 --> 00:22:19,050
 und zwar in dem Sinne, dass sie
-sich aus Regionen zusammensetzen
+sich aus Regionen zusammensetzen,
 
 00:22:19,050 --> 00:22:21,210
 statt hierarchisch zusammengesetzt zu sein.
@@ -1208,7 +1208,7 @@ Stattdessen eher von hierarchischen Zuständen
 einerseits und Regionenzuständen andererseits.
 
 00:22:52,650 --> 00:22:56,970
-Hierarchische Zuständen werden so etwas
+Hierarchische Zustände werden so etwas
 sein wie das, was hier links zu sehen ist.
 
 00:22:56,970 --> 00:23:01,320

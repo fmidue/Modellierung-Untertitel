@@ -3,7 +3,7 @@ In dieser Aufgabe geht es um unbeschränkte
 Petrinetze.
 
 0:00:03.889,0:00:08.820
-Hier haben wir ein so genanntes unbeschränktes
+Hier haben wir ein sogenanntes unbeschränktes
 Petrinetz abgebildet.
 
 0:00:08.820,0:00:13.450
@@ -26,7 +26,7 @@ Also gehen wir mal nach unten und schreiben
 auf: Aufgabe a.
 
 0:00:30.650,0:00:38.410
-Jetzt macht es natürlich als Erstes Sinn
+Jetzt macht es natürlich als Erstes Sinn,
 beim Erreichbarkeitsgraphen erstmal die Startmarkierung
 
 0:00:38.410,0:00:39.500
@@ -57,7 +57,7 @@ Von diesem Zustand aus kann nur t1 schalten,
 weil das als Vorbedingung gilt.
 
 0:01:06.750,0:01:09.219
-Das bedeutet wir lassen t1 mal schalten.
+Das bedeutet, wir lassen t1 mal schalten.
 
 0:01:09.219,0:01:11.369
 Eine Marke geht als Vorbedingung rein.
@@ -117,7 +117,7 @@ t2 geschaltet hat.
 
 0:02:17.140,0:02:21.969
 Und jetzt sind wir bei dem Zustand, dass hier
-ein Marke ist, da null Marken sind, und dort
+eine Marke ist, da null Marken sind, und dort
 
 0:02:21.969,0:02:24.660
 wieder eine Marke ist.
@@ -248,7 +248,7 @@ Wir schreiben das wieder auf.
 
 0:05:06.530,0:05:24.780
 Wenn wir hier als dritten Übergang nochmal
-t3 schalten, dann haben wir (0,1,3).
+t3 schalten, dann haben wir (0, 1, 3).
 
 0:05:24.780,0:05:28.949
 Und damit hätten wir auch unsere drei Übergänge.
@@ -261,7 +261,7 @@ auch noch t2 schalten.
 Also machen wir das auch einmal nochmal.
 
 0:05:36.729,0:05:41.729
-Also gehen wir zu dem Zustand (0,1,2) zurück.
+Also gehen wir zu dem Zustand (0, 1, 2) zurück.
 
 0:05:41.729,0:05:44.590
 Da konnten wir auch t2 schalten.
@@ -272,7 +272,7 @@ hier oben wieder raus.
 
 0:05:50.729,0:05:56.260
 Dann kommen wir zu dem Zustand, dass eine
-Marke da ist und zwei Marken da.
+Marke da ist und zwei Marken da sind.
 
 0:05:56.260,0:06:04.970
 Ich mache von hier aus mal einen Strich nach
@@ -366,7 +366,7 @@ dem Zustand, in dem wir jetzt gerade noch
 sind, wieder t1 schalten lassen.
 
 0:08:56.630,0:09:06.060
-Und wenn wir das machen geht eine Marke hier
+Und wenn wir das machen, geht eine Marke hier
 rein und eine Marke noch hier mit rein, dann
 
 0:09:06.060,0:09:09.730
@@ -436,7 +436,7 @@ Wir sollen das mit Hilfe des Graphen machen.
 Also gucken wir uns den Graphen an.
 
 0:10:26.430,0:10:31.350
-Ich nehme mal eine andere Farbe wie zum Beispiel
+Ich nehme mal eine andere Farbe, wie zum Beispiel
 rot.
 
 0:10:31.350,0:10:37.190
@@ -462,14 +462,14 @@ und t2 immer wieder schaltet, dann werden
 in s3 immer mehr Marken hinzugefügt.
 
 0:11:07.580,0:11:10.550
-Das bedeutet, da ist das schonmal unendlich.
+Das bedeutet, da ist das schon mal unendlich.
 
 0:11:10.550,0:11:21.250
 Eine zweite Möglichkeit zur Erklärung wäre
 sonst auch
 
 0:11:21.250,0:11:30.790
-dieser Zustand, denn, wenn man genau hinguckt,
+dieser Zustand, denn wenn man genau hinguckt,
 dann ist zwischen diesem Zustand und dem hier
 
 0:11:30.790,0:11:37.320
@@ -487,7 +487,7 @@ oder man schaltete von hier aus t3, um dort
 hinzukommen.
 
 0:11:46.770,0:11:54.760
-Das bedeutet, immer, wenn man t3 schaltet,
+Das bedeutet, immer wenn man t3 schaltet,
 dann folgt darauf auch, dass dort immer eine
 
 0:11:54.760,0:11:55.760
@@ -529,7 +529,7 @@ werden.
 
 0:13:46.690,0:14:16.850
 Eine Schaltfolge der Art: t1, t2, unendlich,
-kann daher genauso wie: t3, unendlich, zu
+kann daher genauso wie: t3, unendlich, zu.
 
 0:14:16.850,0:14:31.570
 einer beliebig großen Anzahl von Marken in
@@ -611,7 +611,7 @@ Das bedeutet, wir müssen versuchen, zu vermeiden,
 dass diese Marken hier immer mehr werden.
 
 0:16:01.860,0:16:02.860
-Das machen wir nochmal.
+Das machen wir noch einmal.
 
 0:16:02.860,0:16:15.770
 Und das kann man schaffen, indem man von dieser

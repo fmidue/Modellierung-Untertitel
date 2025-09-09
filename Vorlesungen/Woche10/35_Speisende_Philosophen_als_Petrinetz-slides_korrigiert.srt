@@ -13,7 +13,7 @@ mehr einführen.
 
 00:00:20,930 --> 00:00:26,750
 Sondern in diesem Video möchte ich ein Beispiel
-diskutieren, was zu Beginn des Petrinetz-Kapitels
+diskutieren, das zu Beginn des Petrinetz-Kapitels
 
 00:00:26,750 --> 00:00:31,640
 stand, und von dem ich versprochen hatte,
@@ -23,7 +23,7 @@ dass wir es später auch noch als Petrinetz
 anschauen werden.
 
 00:00:32,720 --> 00:00:35,890
-Das waren die sogenannten Speisenden Philosophen.
+Das waren die sogenannten speisenden Philosophen.
 
 00:00:35,890 --> 00:00:46,440
 An diesem Beispiel hatte ich eingangs auch
@@ -152,7 +152,7 @@ beide Gabeln aufnimmt, und zwar zuerst die
 rechte und erst wenn die rechte in der Hand
 
 00:02:54,769 --> 00:03:00,890
-ist, dann auch die linke sofern möglich (wenn
+ist, dann auch die linke, sofern möglich (wenn
 die linke Gabel noch da liegt).
 
 00:03:00,890 --> 00:03:03,359
@@ -163,7 +163,7 @@ Und anschließend legt der Philosoph die beiden
 Gabeln wieder gleichzeitig zurück auf den
 
 00:03:06,669 --> 00:03:12,059
-Tisch, so dass dann vielleicht jemand anders
+Tisch, sodass dann vielleicht jemand anders
 nach einer dieser beiden Gabeln greifen könnte.
 
 00:03:12,059 --> 00:03:18,180
@@ -171,7 +171,7 @@ So war die verbale Beschreibung des Problems,
 jetzt noch angereichert um diese Bezeichnungen
 
 00:03:18,180 --> 00:03:26,319
-(ich glaube, das tauchte auf den vorherigen
+(ich glaube, das tauchte auf der vorherigen
 Folie zu diesem Beispiel nicht auf).
 
 00:03:26,319 --> 00:03:32,069
@@ -194,7 +194,7 @@ Die Philosophen selber nicht.
 
 00:03:47,129 --> 00:03:52,749
 Die werden nicht selber im Petrinetz vorkommen,
-sondern die sind im wesentlichen gekennzeichnet
+sondern die sind im Wesentlich gekennzeichnet
 
 00:03:52,749 --> 00:03:57,069
 durch ihr Hungrigsein und ihr Essen.
@@ -435,7 +435,7 @@ dann muss er die linke Gabel greifen können
 (was für den Philosophen 1 die Gabel F1 ist).
 
 00:08:38,269 --> 00:08:43,459
-Also wenn diese und diese Bedingung erfüllt
+Also, wenn diese und diese Bedingung erfüllt
 sind, dann kann der Philosoph 1 essen.
 
 00:08:43,459 --> 00:08:47,079
@@ -443,7 +443,7 @@ Dann würde eine Marke hier liegen für den
 Philosophen 1, und dann würde Philosoph 1,
 
 00:08:47,079 --> 00:08:49,569
-wenn er fertig ist mit essen, diese Transition
+wenn er fertig ist mit Essen, diese Transition
 schalten können.
 
 00:08:49,569 --> 00:08:52,422
@@ -471,7 +471,7 @@ jeweils einfach symmetrisch wiederholt.
 
 00:09:11,420 --> 00:09:21,870
 Also die anderen Teile in diesem Bereich machen
-das gleiche für den Philosophen 3.
+das Gleiche für den Philosophen 3.
 
 00:09:21,870 --> 00:09:23,940
 Soviel zur Art der Modellierung hier.
@@ -497,7 +497,7 @@ Nehmen wir an, dass der Philosoph 1 derjenige
 ist, der zuerst aktiv wird.
 
 00:09:44,269 --> 00:09:48,009
-Also zum Beispiel Philosoph P1 möchte gern
+Also zum Beispiel möchte Philosoph P1 gern
 essen.
 
 00:09:48,009 --> 00:09:50,769
@@ -505,11 +505,11 @@ Was würde das bedeuten?
 
 00:09:50,769 --> 00:09:57,230
 Das würde bedeuten, P1 muss sehen, dass er
-die erste Gabel in die Hand kriegt.
+die erste Gabel in die Hand bekommt.
 
 00:09:57,230 --> 00:09:59,550
-Natürlich wollen letztlich auch Philosoph
-2 und Philosoph 3 essen.
+Natürlich wollen letztlich auch die Philosophen
+2 und 3 essen.
 
 00:09:59,550 --> 00:10:06,130
 Aber nehmen wir an, Philosoph 1 wird zuerst
@@ -521,10 +521,10 @@ Gabel auf dem Tisch liegt, die er dafür braucht.
 
 00:10:10,550 --> 00:10:15,740
 Also die erste aktivierte Transition könnte
-das sein und die erste ausgeführte Aktion
+das sein, und die erste ausgeführte Aktion
 
 00:10:15,740 --> 00:10:18,029
-könnte sein, dass diese Transition schalten
+könnte sein, dass diese Transition geschaltet
 wird.
 
 00:10:18,029 --> 00:10:20,279
@@ -647,7 +647,7 @@ mindestens eine Vorbedingungsstelle nicht
 belegt ist.
 
 00:12:23,759 --> 00:12:29,860
-Aber jetzt nach Ausführen der ersten Transition
+Aber jetzt, nach Ausführen der ersten Transition
 und dann Aktiviertsein dieser Transitionen
 
 00:12:29,860 --> 00:12:31,670
@@ -659,7 +659,7 @@ die jetzt auch aktiviert ist bzw. immer noch
 
 00:12:36,690 --> 00:12:43,999
 aktiviert ist, aber jetzt eben in Konflikt
-zu der einer anderen Transition hier steht,
+zu einer anderen Transition hier steht,
 
 00:12:43,999 --> 00:12:46,009
 nämlich dieser Transition.
@@ -773,7 +773,7 @@ Vielleicht zum Beispiel, wenn P1, P2, P3 eben
 nicht so kooperativ gewesen wären und P1
 
 00:15:01,269 --> 00:15:02,510
-nicht einfach hätten machen lassen.
+nicht einfach hätte machen lassen.
 
 00:15:02,510 --> 00:15:05,070
 Gibt es hier zum Beispiel auch Möglichkeiten
@@ -789,7 +789,7 @@ tatsächlich P1, P2, P3 sich ungünstig verhalten
 
 00:15:13,569 --> 00:15:19,029
 könnten, und damit das System letztlich in
-einen Tot-Zustand geraten könnte.
+einen Totzustand geraten könnte.
 
 00:15:19,029 --> 00:15:20,379
 Wie kann das passieren?

@@ -1,7 +1,7 @@
 103 # slide
 00:00:00,000 --> 00:00:06,960
-Kommen wir als nächste Beziehung zwischen
-Klassen zur sogenannten Aggregation.
+Kommen wir zur nächsten Beziehung zwischen
+Klassen, zur sogenannten Aggregation.
 
 00:00:06,960 --> 00:00:12,390
 Das ist eine Beziehung, die etwas
@@ -22,7 +22,7 @@ B in irgendeiner Form als Teile enthalten.
 Also im Sinne:
 
 00:00:28,770 --> 00:00:32,010
-Es gibt ein Ganzes, das enthält mehrere Teile.
+Es gibt ein Ganzes, das mehrere Teile enthält.
 
 00:00:32,010 --> 00:00:37,080
 Das ist erst mal eine semantische
@@ -47,7 +47,7 @@ Notations-Spezialfall von Assoziationen.
 Ansonsten hat sie die gleichen Features.
 
 00:00:54,120 --> 00:00:56,700
-Also es gibt Namen der
+Also gibt es Namen der
 Assoziation und Aggregation.
 
 00:00:56,700 --> 00:01:01,320
@@ -89,7 +89,7 @@ genau einer Playlist existieren kann.
 
 00:01:49,680 --> 00:01:54,510
 Dennoch wird dort aggregiert, also Songs
-werden aggregiert zu einer Playlist.
+werden zu einer Playlist aggregiert.
 
 00:01:57,480 --> 00:02:01,005
 Eine explizite Benennung der
@@ -105,13 +105,13 @@ in das Klassendiagramm einzeichnen.
 
 00:02:09,450 --> 00:02:14,620
 Oftmals ist das nicht nötig, da
-daraus, dass es eine Aggregation ist,
+aus der Tatsache, dass es eine Aggregation ist,
 
 00:02:14,620 --> 00:02:16,240
 bereits die Natur der Beziehung folgt.
 
 00:02:16,240 --> 00:02:22,210
-Also die Beziehung hieße vielleicht
+Also hieße die Beziehung vielleicht
 am Ende sowieso "enthält" als Name.
 
 00:02:22,210 --> 00:02:24,670
@@ -138,7 +138,7 @@ Aber an einem Ende, und zwar am Ende des
 Ganzen (also das, was in der Aggregation
 
 00:02:48,130 --> 00:02:55,930
-die Rolle des Ganzen übernimmt), da wird
+die Rolle des Ganzen übernimmt), wird
 dieser nicht ausgefüllte Diamant gezeichnet.
 
 00:02:57,340 --> 00:02:58,390
@@ -170,7 +170,7 @@ Da durch das Ende, an dem
 der Diamant angebracht wird,
 
 00:03:18,820 --> 00:03:21,370
-auch ausgedrückt wird, wer denn hier wen enthält.
+auch ausgedrückt wird, wer hier wen enthält.
 
 00:03:21,370 --> 00:03:22,840
 Also hier:
@@ -195,11 +195,11 @@ Die Rolle des Ganzen hier übernimmt,
 wie gesagt, der Parkplatz.
 
 00:03:44,450 --> 00:03:50,000
-Die Rolle des Teils, in dieser
-Teil-Ganzes-Beziehung, übernimmt das Auto.
+Die Rolle des Teils in dieser
+Teil-Ganzes-Beziehung übernimmt das Auto.
 
 00:03:50,000 --> 00:03:55,760
-Durch diese "0..1" Multiplizität ist ausgedrückt,
+Durch diese "0..1"-Multiplizität ist ausgedrückt,
 
 00:03:55,760 --> 00:03:59,870
 dass ein Auto zumindest nie
@@ -263,7 +263,7 @@ dass ein Teil jeweils weiß,
 zu welchem Ganzen es gehört.
 
 00:04:56,180 --> 00:04:59,780
-Also es wird irgendwie vorausgesetzt,
+Also, es wird irgendwie vorausgesetzt,
 
 00:04:59,780 --> 00:05:04,670
 dass man von dem Auto auch den es
@@ -289,10 +289,10 @@ hier "Fahrzeugflotte" oder "Autohändler-Katalog".
 
 00:05:24,320 --> 00:05:29,180
 Dann kann ein Auto natürlich in einer
-Fahrzeugflotte enthalten sein, oder in
+Fahrzeugflotte enthalten sein oder in
 
 00:05:29,180 --> 00:05:32,390
-einem Autohändler-Katalog,
+einem Autohändler-Katalog
 und durchaus auch in mehreren.
 
 00:05:32,390 --> 00:05:38,480
@@ -323,7 +323,7 @@ strukturellen Einschränkungen.
 Da ist die Situation wie bei Assoziationen.
 
 00:05:56,010 --> 00:05:58,050
-Also es ist nicht verboten, Zyklen zu haben.
+Also, es ist nicht verboten, Zyklen zu haben.
 
 00:05:58,050 --> 00:05:59,910
 Es ist nicht verboten, Selbstreferenzen zu haben.
@@ -349,7 +349,7 @@ Die war eingeführt, bzw. schon mal kurz erwähnt,
 als die stärkste der betrachteten Beziehungen.
 
 00:06:20,070 --> 00:06:22,380
-Also Assoziation, Aggregation und Komposition.
+Also, Assoziation, Aggregation und Komposition.
 
 00:06:24,120 --> 00:06:25,050
 Wie ist hier das Verständnis?
@@ -362,7 +362,7 @@ zwischen zwei Klassen A und B,
 drückt auch so eine Teil-Ganzes-Beziehung aus.
 
 00:06:31,380 --> 00:06:36,540
-Also Instanzen der Klasse A enthalten
+Also, Instanzen der Klasse A enthalten
 Instanzen der Klasse B als Teile.
 
 00:06:38,280 --> 00:06:43,920
@@ -384,7 +384,7 @@ Das ist bei Parkplatz und Auto nicht der Fall.
 Sicherlich enthält ein Parkplatz Autos.
 
 00:06:57,630 --> 00:07:00,990
-Aber das heißt nicht, dass wenn der Parkplatz
+Aber das heißt nicht, dass, wenn der Parkplatz
 geschlossen wird oder nicht mehr existiert,
 
 00:07:00,990 --> 00:07:02,700
@@ -474,11 +474,11 @@ der auch davon abhängt, was man
 beim Modellieren ausdrücken möchte.
 
 00:08:34,190 --> 00:08:37,700
-Also es kann sein, dass da manchmal
+Also, es kann sein, dass da manchmal
 sowohl die Verwendung von Aggregation,
 
 00:08:37,700 --> 00:08:40,640
-als auch die von Komposition, sinnvoll erscheint.
+als auch die von Komposition sinnvoll erscheint.
 
 00:08:40,640 --> 00:08:42,560
 Dann muss man sich eben für
@@ -504,7 +504,7 @@ Schauen wir uns vorher aber noch
 mal die grafische Darstellung an.
 
 00:09:06,290 --> 00:09:10,700
-Also für eine Komposition nimmt man eine
+Also, für eine Komposition nimmt man eine
 ähnliche Darstellung wie für die Aggregation.
 
 00:09:10,700 --> 00:09:13,820
@@ -620,7 +620,7 @@ von Kompositionen diskutieren,
 wo "0..1" auch Sinn ergibt, zumindest temporär.
 
 00:11:07,110 --> 00:11:14,110
-Also auch das wären Kriterien,
+Also, auch das wären Kriterien,
 die zur Unterscheidung zwischen
 
 00:11:14,110 --> 00:11:16,330
@@ -643,7 +643,7 @@ einem Ganzen zu gehören) stärker ist
 als nur die Multiplizitäten angeben.
 
 00:11:44,770 --> 00:11:58,060
-Also ein Teil könnte potenziell, zumindest auf
+Also, ein Teil könnte potenziell, zumindest auf
 
 00:11:58,060 --> 00:11:59,050
 Klassenebene, in Kompositionsbeziehung
@@ -692,8 +692,8 @@ Das sind letztlich auf Englisch die Sachen,
 die ich auf den Folien auch ausgedrückt habe.
 
 00:13:08,140 --> 00:13:12,280
-Also irgendwie eine Assoziation als
-diese vageste Form der Beziehung.
+Also, irgendwie eine Assoziation als
+diese vage Form der Beziehung.
 
 00:13:12,280 --> 00:13:19,390
 Die irgendwie repräsentiert, wenn
@@ -801,7 +801,7 @@ Da ist die Forderung, dass jede Instanz
 dieser Teile-Klasse zu nur einer Instanz
 
 00:15:23,320 --> 00:15:29,590
-der Ganzes-Klasse gehören kann, und
+der Ganzes-Klasse gehören kann und
 ohne diese auch nicht existieren kann.
 
 00:15:30,280 --> 00:15:34,660

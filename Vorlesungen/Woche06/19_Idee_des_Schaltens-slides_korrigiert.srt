@@ -1,17 +1,17 @@
 144 # slide
 00:00:00,000 --> 00:00:04,590
 Also betrachten wir einmal ein
-erstes konkretes Petrinetz,
+erstes konkretes Petrinetz.
 
 00:00:04,590 --> 00:00:06,930
-und zwar in seiner grafischen Darstellung.
+Und zwar in seiner grafischen Darstellung.
 
 00:00:06,930 --> 00:00:10,800
 Wir werden später noch eine
 mathematische Darstellung kennen lernen.
 
 00:00:10,800 --> 00:00:15,030
-Aber wir führen das informell ein
+Aber wir führen das informell ein,
 zunächst über die grafische Darstellung.
 
 00:00:15,030 --> 00:00:21,990
@@ -90,7 +90,7 @@ Kreise sind konkrete Ressourcen.
 
 00:01:35,820 --> 00:01:39,690
 Und davon könnten auch mehrere auf
-einem Platz liegen, oder keine.
+einem Platz liegen oder keine.
 
 00:01:39,690 --> 00:01:42,840
 Hier liegt jetzt jeweils eine
@@ -106,7 +106,7 @@ Das kann auch anders sein.
 Hier könnten noch mehrere Marken liegen.
 
 00:01:49,410 --> 00:01:52,380
-Oder es könnten überall Marken liegen, oder
+Oder es könnten überall Marken liegen oder
 nirgends Marken liegen, wie in dem Fall.
 
 00:01:52,380 --> 00:01:56,670
@@ -247,7 +247,7 @@ entsprechenden Transition liegen.
 
 00:04:16,960 --> 00:04:20,980
 Also nicht graphisch davor liegen,
-sondern bezüglich der Pfeile davor liegen
+sondern bezüglich der Pfeile davor liegen.
 
 00:04:20,980 --> 00:04:23,410
 Die müssen nicht unbedingt oberhalb
@@ -275,7 +275,7 @@ Und alle Stellen/Plätze, die nach
 einer konkreten Transition liegen,
 
 00:04:48,270 --> 00:04:50,490
-werden Nachbedingung dieser Transition genannt.
+werden Nachbedingungen dieser Transition genannt.
 
 00:04:50,490 --> 00:04:55,080
 Das sind also Stellen/Plätze, in die
@@ -286,7 +286,7 @@ Und die Transitionen sind die
 eigentlichen Informationsträger.
 
 00:04:59,640 --> 00:05:02,070
-Da wird konzertiert festgehalten:
+Da wird konkret festgehalten:
 
 00:05:02,070 --> 00:05:04,260
 Wie ändern sich denn die Marken?
@@ -336,7 +336,7 @@ anders ist, dann ist es eben analog.
 
 00:05:51,090 --> 00:05:57,300
 Und genau diesen Wechsel, das Entfernen der
-Marken der Vorbedingung und dann gleichzeitiges
+Marken der Vorbedingungen und dann gleichzeitiges
 
 00:05:57,300 --> 00:06:02,340
 Erzeugen der Marken in der Nachbedingung, nennt
@@ -498,7 +498,7 @@ Dieser Platz ist leer.
 Dann kann diese Transition nicht schalten.
 
 00:08:37,140 --> 00:08:42,060
-Und das gleiche würde auch für
+Und das Gleiche würde auch für
 diese und diese Transition gelten.
 
 00:08:42,060 --> 00:08:49,050
@@ -524,7 +524,7 @@ Okay, das war auch der einzig
 mögliche Schritt in dem Fall eben.
 
 00:09:07,200 --> 00:09:09,735
-So und dann könnte es weiter gehen.
+So und dann könnte es weitergehen.
 
 00:09:09,735 --> 00:09:12,090
 Jetzt haben wir eine neue
@@ -560,7 +560,7 @@ der einzigen Vorbedingungsstelle.
 
 00:09:35,340 --> 00:09:38,190
 Also diese Transition könnte jetzt
-schalten, die ist jetzt aktiviert.
+schalten; die ist jetzt aktiviert.
 
 00:09:38,190 --> 00:09:40,880
 Sie ist jetzt schaltbereit.
@@ -599,7 +599,7 @@ dass wir das in der Reihenfolge tun.
 
 00:10:13,770 --> 00:10:16,050
 Aber da ist ein gewisser
-Nichtdeterminismus, das heißt,
+Nichtdeterminismus; das heißt,
 
 00:10:16,050 --> 00:10:21,930
 die Reihenfolge ist nicht unbedingt fix und
@@ -621,7 +621,7 @@ Denn das hatten wir schon diskutiert, dass
 in der Situation gar nichts anderes geht.
 
 00:10:34,830 --> 00:10:38,910
-Also schalte ich das noch mal und vielleicht
+Also schalte ich das nochmal und vielleicht
 entscheide ich mich jetzt beim nächsten Mal,
 
 00:10:38,910 --> 00:10:40,980
@@ -648,7 +648,7 @@ hat und dort eine Marke liegt.
 
 00:10:58,310 --> 00:11:02,690
 Also könnten wir dann die Marke von
-hier konsumieren, hier neu ablegen.
+hier konsumieren und hier neu ablegen.
 
 00:11:02,690 --> 00:11:05,540
 Gut, was wäre danach noch möglich?
@@ -705,7 +705,7 @@ dass man irgendwann diese
 Transition wieder ausführen kann.
 
 00:12:04,220 --> 00:12:07,460
-Aber die wird nicht zum Zuge kommen, wenn
+Aber die wird nicht zum Zug kommen, wenn
 sie nie hier eine Marke vorfinden kann.
 
 00:12:07,460 --> 00:12:11,930
@@ -779,7 +779,7 @@ Wann gibt es solche Konflikte?
 Welche Konsequenzen hat das?
 
 00:13:11,590 --> 00:13:13,780
-Können wir in Situation geraten etwa,
+Können wir in Situationen geraten etwa,
 
 00:13:13,780 --> 00:13:18,100
 in denen das System dann tot ist, weil
