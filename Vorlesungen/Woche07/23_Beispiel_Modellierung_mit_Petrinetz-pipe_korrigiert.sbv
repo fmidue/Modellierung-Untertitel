@@ -47,7 +47,7 @@ Also zum Beispiel das Feuern sehen kann,
 
 0:00:51.810,0:00:57.180
 das ich in der vergangenen Woche auf meinem
-Whiteboard einfach händisch getan hatte.
+Whiteboard einfach händisch getan habe.
 
 0:00:57.180,0:00:59.070
 Das kann das Programm eben automatisch ausführen.
@@ -78,10 +78,10 @@ konkreten anschaulichen Sachverhalt modelliert.
 
 0:01:26.220,0:01:30.570
 Und vor allem da auch diverse
-Features drin vorkommen,
+Features darin vorkommen,
 
 0:01:30.570,0:01:33.330
-die interessant sind auch für
+die interessant sind, auch für
 die Übungsaufgaben zum Beispiel.
 
 0:01:33.330,0:01:36.240
@@ -94,7 +94,7 @@ Petrinetz ausdrücken kann; etc.
 
 0:01:39.525,0:01:42.750
 Obwohl das ein kleines Beispiel ist, kommen
-da einige interessante Features drin vor.
+da einige interessante Features darin vor.
 
 0:01:42.750,0:01:46.680
 Und zwar hatte ich mir damals
@@ -146,7 +146,7 @@ dass wir unseren Alltag mit Petrinetzen gestalten.
 
 0:02:29.220,0:02:33.780
 Und tatsächlich wird mein Sohn im
-übernächsten Jahr volljährig und dann
+übernächsten Jahr volljährig, und dann
 
 0:02:33.780,0:02:37.710
 wäre das sowieso absurd, weiter so vorzugehen. :-)
@@ -242,11 +242,11 @@ Sport, und das soll auch eine Handlung sein.
 
 0:04:19.140,0:04:23.160
 Vielleicht benenne ich tatsächlich
-zuerst die Transitionen.
+zuerst die Transitionen."
 
-0:04:23.830,0:04:43.720
-Also zum Beispiel hier das "Hausaufgaben Machen"
-und diese andere Transition wäre das "Trainieren".
+"0:04:23.830,0:04:43.720
+Also zum Beispiel hier das „Hausaufgabenmachen“
+und diese andere Transition wäre das „Trainieren“.
 
 0:04:47.200,0:04:50.740
 Dann wissen wir schon, damit so eine
@@ -462,7 +462,7 @@ aktivierter Transitionen auszuführen.
 
 0:08:16.250,0:08:20.000
 Ich kann hier oben sagen:
-"randomly fire a transition".
+„randomly fire a transition“.
 
 0:08:20.000,0:08:23.390
 Und dann würde das System in dem
@@ -506,7 +506,7 @@ Parallelität und Nebenläufigkeit sind,
 das hier völlig unabhängige Aktionsblöcke sind.
 
 0:09:00.840,0:09:05.670
-Also die sind nicht in irgendeiner
+Also, die sind nicht in irgendeiner
 Weise verknüpft, daher nebenläufig,
 
 0:09:05.670,0:09:09.030
@@ -539,7 +539,7 @@ diese Plätze erstmal befüllt werden müssen.
 
 0:09:33.180,0:09:36.450
 Es gibt einen Start des Tages
-oder des Nachmittages, und dann
+oder des Nachmittags, und dann
 
 0:09:36.450,0:09:39.120
 werden die Aufgaben gestellt
@@ -558,7 +558,7 @@ Wie könnte man das organisieren oder darstellen?
 Man könnte zum Beispiel hier so eine Quelle haben.
 
 0:09:49.680,0:09:53.070
-Also eine Transitionen, die
+Also eine Transition, die
 am Anfang zu schalten ist.
 
 0:10:00.540,0:10:02.670
@@ -590,14 +590,14 @@ und am linken Pfeil hätte
 ich gerne das Gewicht drei.
 
 0:10:49.170,0:10:54.570
-Damit das dem entspricht wie vorhin, nämlich
+Damit das dem entspricht, wie vorhin, nämlich
 dass direkt drei Hausaufgaben gestellt werden.
 
 0:10:54.570,0:10:58.140
 Jetzt sähe das Modell so aus.
 
 0:10:58.140,0:11:00.000
-Also am Anfang ist überhaupt nichts belegt,
+Also, am Anfang ist überhaupt nichts belegt,
 
 0:11:00.000,0:11:02.396
 aber es gibt eine Transition,
@@ -636,7 +636,7 @@ Jetzt kann man auch feststellen, wenn ich das so
 modelliere, ist etwas ungünstig oder merkwürdig.
 
 0:11:43.800,0:11:47.700
-Es wäre nämlich auch möglich hier, da es
+Es wäre nämlich auch möglich, hier, da es
 keine Vorbedingungen für diese Transition
 
 0:11:47.700,0:11:51.990
@@ -728,10 +728,10 @@ Zum Beispiel würde mein Sohn
 tatsächlich natürlich einen
 
 0:13:44.480,0:13:46.790
-Teil des Nachmittages mit Spielen verbringen.
+Teil des Nachmittags mit Spielen verbringen.
 
 0:13:46.790,0:14:10.850
-Also es möge sowohl noch eine Aktion
+Also, es möge sowohl noch eine Aktion
 als auch Ressourcen dafür geben.
 
 0:14:10.850,0:14:25.940
@@ -739,11 +739,11 @@ Die Aktion wäre "spielen", und zwar
 wird mit der Playstation gespielt.
 
 0:14:25.940,0:14:36.170
-Deswegen muss hier eine Marke drauf liegen,
+Deswegen muss hier eine Marke draufliegen,
 damit diese Aktion dann ausgeführt werden kann.
 
 0:14:36.170,0:14:38.600
-Die Spielen-Aktion hat keine Nachbedingung.
+Die Spiel-Aktion hat keine Nachbedingung.
 
 0:14:38.600,0:14:39.950
 Spielen ist sozusagen nicht produktiv.
@@ -771,11 +771,11 @@ Hausaufgaben gemacht hat) man
 auch mehrmals spielen kann.
 
 0:15:00.380,0:15:03.230
-Das würde jetzt dafür sorgen, dass wenn
+Das würde jetzt dafür sorgen, dass, wenn
 Hausaufgaben gemacht wurden, a) die
 
 0:15:03.230,0:15:09.710
-Hausaufgaben erledigt sind, und b) hier auf
+Hausaufgaben erledigt sind und b) hier auf
 dieser Playstation-Stelle weitere Marken lägen,
 
 0:15:09.710,0:15:13.850
@@ -797,7 +797,7 @@ Es wäre aber sicherlich auch sinnvoll,
 vielleicht diesen Abschluss des
 
 0:15:32.750,0:15:37.100
-Tages/Nachmittages auch explizit in dem
+Tages/Nachmittags auch explizit in dem
 Ablaufprotokoll (das links immer entstand,
 
 0:15:37.100,0:15:40.310
@@ -812,7 +812,7 @@ Die muss einen sinnvollen Namen haben, und
 die wäre eben auszuführen am Ende des Tages.
 
 0:15:48.200,0:15:53.420
-Also die könnte heißen: "Tagwerk getan".
+Also die könnte heißen: "Tagwerk getan."
 
 0:15:57.230,0:15:59.730
 Und wann ist das Tagwerk getan?
@@ -906,7 +906,7 @@ mache, kommen da (bis auf diesen Aspekt,
 
 0:17:56.580,0:18:02.220
 dass gespielt werden könnte, bevor aus der Schule
-zurückkommen wurde) sinnvolle Abfolgen heraus.
+zurückgekommen wurde) sinnvolle Abfolgen heraus.
 
 0:18:06.000,0:18:13.850
 Wie kann ich dem Problem begegnen, dass
@@ -1012,10 +1012,10 @@ Kann man das verhindern?
 
 0:20:05.880,0:20:11.400
 Und da gibt es eine Möglichkeit, das
-ist ein typischer Modellierungstrick
+ist ein typischer Modellierungstrick.
 
 0:20:11.400,0:20:14.610
-oder Modellierungsmuster bei Petrinetzen.
+Oder Modellierungsmuster bei Petrinetzen.
 
 0:20:14.610,0:20:18.630
 Wenn man diese Ausführung von
@@ -1029,11 +1029,11 @@ haben, von der man eine Marke konsumiert.
 Denn das ist die Art, wie man die Ausführung einer
 
 0:20:26.910,0:20:29.820
-Transition einschränkt ist: dass
+Transition einschränkt: dass
 sie von einer Vorbedingung abhängt.
 
 0:20:29.820,0:20:33.330
-Also, wir hätten gern hier eine Stelle und die
+Also, wir hätten gern hier eine Stelle, und die
 
 0:20:33.330,0:20:38.070
 Bedeutung davon soll letztlich
@@ -1049,7 +1049,7 @@ haben und nicht Vormittag.
 
 0:20:42.990,0:20:49.530
 Also benenne ich die zunächst
-erst mal entsprechend.
+erstmal entsprechend.
 
 0:20:50.100,0:20:51.210
 Ich nenne sie "nachmittags".
@@ -1080,7 +1080,7 @@ Und das möchte ich dann
 benutzen, um spielen zu können.
 
 0:21:28.860,0:21:33.330
-Also nur wenn es nachmittags
+Also nur, wenn es nachmittags
 ist, darf gespielt werden.
 
 0:21:35.580,0:21:36.960
@@ -1126,7 +1126,7 @@ darf trotzdem nicht noch mal gespielt werden.
 Das kann so nicht sein.
 
 0:22:13.080,0:22:20.610
-Aber was wir tun könnten ist, tatsächlich diesen
+Aber was wir tun könnten, ist, tatsächlich diesen
 Pfeil in beide Richtungen wirken zu lassen.
 
 0:22:20.610,0:22:24.660
@@ -1169,7 +1169,7 @@ Jetzt könnte ich tatsächlich zum
 Beispiel hier mehrere Marken ansammeln,
 
 0:23:05.550,0:23:07.590
-verdient durch das Hausaufgaben Machen.
+verdient durch das Hausaufgabenmachen.
 
 0:23:07.590,0:23:10.380
 Und dann könnte so oft gespielt
@@ -1188,7 +1188,7 @@ werden, aber nicht zurückgelegt.
 
 0:23:21.270,0:23:27.570
 Sie sehen, die Transition bleibt solange
-aktiviert, wie hier die eine Marke liegt
+aktiviert, wie hier die eine Marke liegt,
 
 0:23:27.570,0:23:32.280
 (die aber auch wieder zurückgelegt wird)
@@ -1271,8 +1271,8 @@ Das heißt, es kann gespielt
 werden, solange hier Marken liegen.
 
 0:24:55.430,0:24:59.090
-Also es könnte auch direkt gespielt
-werden, und Hausaufgaben gemacht werden.
+Also, es könnte auch direkt gespielt
+werden und Hausaufgaben gemacht werden.
 
 0:24:59.090,0:25:01.700
 Das führt dazu, dass sich
@@ -1286,7 +1286,7 @@ Es könnte auch trainiert werden,
 
 0:25:05.450,0:25:09.290
 und die letzten Hausaufgaben gemacht
-werden, und dann der Tag beendet werden.
+werden und dann der Tag beendet werden.
 
 0:25:09.290,0:25:12.170
 Dann kann auch nicht mehr gespielt werden.
@@ -1311,7 +1311,7 @@ gespielt werden, können hier sogar auch die
 angesparten Marken des Vortages verbraucht werden.
 
 0:25:31.130,0:25:35.210
-Also wenn am Vortrag nicht so oft
+Also, wenn am Vortrag nicht so oft
 die Playstation an war, kann das
 
 0:25:35.210,0:25:39.200
@@ -1332,7 +1332,7 @@ Reihenfolgen/Möglichkeiten sinnvoll findet.
 
 0:26:03.980,0:26:07.160
 Oder ob wir vielleicht an irgendwelchen
-Parametern drehen müssen, und ob er doch meint,
+Parametern drehen müssen und ob er doch meint,
 
 0:26:07.160,0:26:10.580
 er kann auch während der Schulzeit
@@ -1367,7 +1367,7 @@ Man kann hier sogar auch auf einen
 Schlag lange Sequenzen erzeugen.
 
 0:26:43.760,0:26:44.840
-Also man kann sagen:
+Also, man kann sagen:
 
 0:26:44.840,0:26:47.360
 Ich möchte gern einfach mal

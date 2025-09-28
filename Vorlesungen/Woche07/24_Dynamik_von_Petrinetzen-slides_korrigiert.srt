@@ -214,13 +214,13 @@ Man hätte auch m1, m2 sagen können.
 
 00:04:18,430 --> 00:04:21,430
 Und wie ist dann definiert,
-dass m' kleiner-gleich m ist?
+dass m' kleiner gleich m ist?
 
 00:04:22,450 --> 00:04:25,730
 Falls für alle Stellen aus der entsprechenden zu
 
 00:04:25,730 --> 00:04:29,750
-Grunde liegenden Menge gilt, dass
+grundliegende Menge gilt, dass
 m' von s kleiner gleich m von s ist.
 
 00:04:29,750 --> 00:04:34,220
@@ -278,11 +278,11 @@ wir einfach (in dem Fall) ein Tripel angeben,
 weil es eben drei Stellen sein sollen.
 
 00:05:32,360 --> 00:05:35,090
-Dann könnte unser m das Tripel (0,1,2) sein.
+Dann könnte unser m das Tripel (0, 1, 2) sein.
 
 00:05:35,090 --> 00:05:41,480
 Und m', natürlich für die gleiche Reihenfolge
-der Stellen gesehen, das Tripel (0,0,1).
+der Stellen gesehen, das Tripel (0, 0, 1).
 
 00:05:41,480 --> 00:05:47,780
 Und dann würde hier tatsächlich gelten, dass
@@ -346,7 +346,7 @@ Es müsste aber für jede
 Stelle gelten, dass die Zahl,
 
 00:06:46,940 --> 00:06:48,860
-die hier steht kleiner-gleich
+die hier steht, kleiner-gleich
 der Zahl ist, die dort steht.
 
 00:06:48,860 --> 00:06:53,690
@@ -413,7 +413,7 @@ Das hier ist nur eine
 Ordnungsrelation, keine Operation.
 
 00:08:00,440 --> 00:08:02,690
-Also nichts was eine neue Markierung erzeugt.
+Also nichts, was eine neue Markierung erzeugt.
 
 00:08:02,690 --> 00:08:07,520
 Davon gibt es aber auch einige,
@@ -516,7 +516,7 @@ da kommt eben ein Vektor heraus,
 elementweise/stellenweise addiert.
 
 00:09:48,610 --> 00:09:50,590
-Genau das gleiche passiert für diese Markierungen.
+Genau das Gleiche passiert für diese Markierungen.
 
 00:09:54,010 --> 00:09:54,970
 Das kann man für die Addition machen.
@@ -540,7 +540,7 @@ Zahlen immer eine natürliche Zahl herauskommt.
 
 00:10:09,640 --> 00:10:15,850
 Zum Beispiel bei 3 und 5 ist das nicht der Fall,
-3 + 5 = 8 aber 3 - 5 ist keine natürliche Zahl.
+3 + 5 = 8, aber 3 - 5 ist keine natürliche Zahl.
 
 00:10:15,850 --> 00:10:20,410
 Deswegen ist die Subtraktion
@@ -578,7 +578,7 @@ Hier ist das okay.
 
 00:11:00,760 --> 00:11:02,740
 Da wird tatsächlich eine
-natürliche Zahl rauskommen,
+natürliche Zahl herauskommen,
 
 00:11:02,740 --> 00:11:05,620
 wenn wir vorher wussten, dass
@@ -608,8 +608,8 @@ Hier oben für die Summe hätten
 wir auch schreiben können:
 
 00:11:31,330 --> 00:11:34,750
-Das was hier als zweites steht
-plus das was hier als erstes steht.
+Das, was hier als Zweites steht
+plus das, was hier als Erstes steht.
 
 00:11:34,750 --> 00:11:42,340
 Das ist auch definiert und ergibt das gleiche
@@ -730,8 +730,8 @@ eine Transition aktiviert ist.
 Und wenn sie das ist, kann sie schalten.
 
 00:13:47,160 --> 00:13:52,530
-Also, sei t eine Transition und m eine
-Markierung so dass t für m aktiviert ist.
+Also sei t eine Transition und m eine
+Markierung, sodass t für m aktiviert ist.
 
 00:13:52,530 --> 00:13:54,480
 Dann kann sie schalten.
@@ -755,7 +755,7 @@ Wir entnehmen allen Stellen der Vorbedingung,
 
 00:14:06,810 --> 00:14:10,140
 also mit eingehenden Pfeilen zu
-t, entsprechend viele Marken.
+t entsprechend viele Marken.
 
 00:14:10,140 --> 00:14:12,840
 Wobei "entsprechend viele"
@@ -900,7 +900,7 @@ Darin dürfen Transitionen auch mehrfach vorkommen.
 
 00:16:46,620 --> 00:16:49,200
 Also vielleicht hat unser
-Petrinetze drei Transitionen,
+Petrinetz drei Transitionen,
 
 00:16:49,200 --> 00:16:53,100
 aber wir wollen eine 27-stellige Folge haben.
@@ -911,7 +911,7 @@ Transition mehrfach vorkommen.
 
 00:16:58,350 --> 00:17:06,180
 Also irgendwelche Transitionen t_1 bis t_n,
-möglicherweise auch mehrfach vorkommend, so dass
+möglicherweise auch mehrfach vorkommend, sodass
 
 00:17:06,180 --> 00:17:13,620
 m0 unter Schalten von t1 zu m1 wird, genau dieses
@@ -1035,7 +1035,7 @@ wo es um die Äquivalenz der grafischen
 und mathematischen Darstellung ging.
 
 00:19:32,300 --> 00:19:34,820
-Also es gibt eine Folie, in den
+Also gibt es eine Folie, in den
 Folien der vergangenen Woche,
 
 00:19:34,820 --> 00:19:38,450
@@ -1148,12 +1148,12 @@ m0 minus die Vorgewichtsfunktion für t1,
 plus die Nachgewichtsfunktion für t1.
 
 00:21:46,130 --> 00:21:51,860
-Da könnten wir auch auf die alten Folien schauen
+Da könnten wir auch auf die alten Folien schauen,
 und da würde stehen, dass das (0,0,2) ist.
 
 00:21:52,370 --> 00:21:58,550
-Letztlich weil es von t1 keine Pfeile nach s1
-und s2 gibt, aber diesen 2er Pfeil nach s3.
+Letztlich, weil es von t1 keine Pfeile nach s1
+und s2 gibt, aber diesen 2er-Pfeil nach s3.
 
 00:21:58,550 --> 00:22:01,160
 Also haben wir diese Rechnung:
@@ -1177,7 +1177,7 @@ Wenn wir jetzt wissen wollen, was
 in zwei Schritten passiert, dann
 
 00:22:29,960 --> 00:22:32,570
-müssen wir den nächsten Schritt hiervon
+Müssen wir den nächsten Schritt hiervon
 ausgehend machen, nicht mehr von m0 aus.
 
 00:22:34,070 --> 00:22:42,710
@@ -1190,7 +1190,7 @@ weil sie nur etwas aus s3 entnimmt.
 
 00:22:47,990 --> 00:22:51,920
 Dieses (0,0,1) wird dadurch
-überdeckt, t2 ist also ausführbar.
+überdeckt. t2 ist also ausführbar.
 
 00:22:54,500 --> 00:23:00,230
 Dann ist m2 die aktuelle Markierung
@@ -1201,7 +1201,7 @@ also die Vorgewichtsfunktion von t2,
 plus die Nachgewichtsfunktion von t2.
 
 00:23:04,190 --> 00:23:05,510
-Wenn wir da schauen was passiert:
+Wenn wir da schauen, was passiert:
 
 00:23:05,510 --> 00:23:10,880
 t2 legt eine Marke nach s1 und nichts
@@ -1220,7 +1220,7 @@ Also nach Schalten von t1 und t2, aus der
 Ursprungsmarkierung, würden wir die Situation
 
 00:23:30,710 --> 00:23:34,560
-erreichen wie sie hier oben behauptet ist, wo
+erreichen, wie sie hier oben behauptet ist, wo
 auf allen drei Stellen genau eine Marke liegt.
 
 00:23:34,560 --> 00:23:43,830
@@ -1320,7 +1320,7 @@ Das folgt erstmal mathematisch aus der Definition.
 
 00:25:14,790 --> 00:25:20,790
 Das ist aber auch eine wesentliche Eigenschaft
-von Petrinetzen, nämlich Nicht-Determinismus.
+von Petrinetzen, nämlich Nichtdeterminismus.
 
 00:25:20,790 --> 00:25:26,340
 Das heißt, es ist möglich, in der gleichen
@@ -1331,7 +1331,7 @@ hier erreicht haben), sich verschieden weiter
 zu entwickeln für verschiedene Transitionen.
 
 00:25:33,990 --> 00:25:38,140
-Der Begriff dafür ist "Nicht-Determinismus".
+Der Begriff dafür ist "Nichtdeterminismus".
 
 00:25:38,140 --> 00:25:41,770
 Petrinetze sind nicht-deterministisch,
@@ -1353,7 +1353,7 @@ Aber selbst für den nächsten konkreten
 Schritt kann es verschiedene Ergebnisse geben.
 
 00:25:56,170 --> 00:25:58,750
-Natürlich nur wenn wir
+Natürlich nur, wenn wir
 verschiedene Transitionen anwenden.
 
 00:25:58,750 --> 00:26:03,070
@@ -1408,7 +1408,7 @@ Im Petrinetz steht nirgendwo dran,
 welche Transition zu nehmen ist.
 
 00:26:55,180 --> 00:26:59,320
-Das Petrinetz beschreibt, unter einer bestimmten
+Das Petrinetz beschreibt unter einer bestimmten
 Konstellation, welche Transitionen möglich sind.
 
 00:26:59,320 --> 00:27:03,970

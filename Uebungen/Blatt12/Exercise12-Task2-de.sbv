@@ -31,7 +31,7 @@ Zu Beginn sind alle Ziffern gleich eins und
 die ganz linke Ziffer ist aktiv.
 
 0:00:32.960,0:00:38.700
-Außerdem gibt es fünf Knöpfe plus, minus,
+Außerdem gibt es fünf Knöpfe: plus, minus,
 L, R und OK.
 
 0:00:38.700,0:00:44.280
@@ -43,7 +43,7 @@ dekrementiert.
 
 0:00:45.280,0:00:50.610
 Wenn die Ziffer dadurch höher als vier oder
-niedriger als eins würde, wird sie zu ein
+niedriger als eins wird, wird sie zu eins
 
 0:00:50.610,0:00:51.969
 beziehungsweise vier.
@@ -61,7 +61,7 @@ aktiv.
 
 0:01:00.541,0:01:06.100
 Ist vor dem Drücken R schon die ganze Ziffer
-aktiv stattdessen zur Ziffer ganz links gewechselt.
+aktiv, wechselt stattdessen die Ziffer ganz links.
 
 0:01:06.100,0:01:12.320
 Die Taste L dagegen wechselt immer zur ganz
@@ -75,7 +75,7 @@ Wenn OK gedrückt wird, endet der Eingabeprozess.
 
 0:01:15.880,0:01:21.390
 Modellieren Sie für Daniel das beschriebene
-Gerät mithilfe eines UML Zustandsdiagramms.
+Gerät mithilfe eines UML-Zustandsdiagramms.
 
 0:01:21.390,0:01:26.210
 Benutzen Sie hierarchische Zustände und eventuell
@@ -90,13 +90,13 @@ Geräts.
 
 0:01:30.510,0:01:37.439
 Wir haben den Bildschirm, die drei Ziffern,
-die von eins bis vier schalten können und
+die von eins bis vier schalten können, und
 
 0:01:37.439,0:01:38.890
 den kleinen Balken.
 
 0:01:38.890,0:01:42.710
-Anhand diesem können wir sehen, welche Ziffer
+Anhand dessen können wir sehen, welche Ziffer
 gerade aktiv ist.
 
 0:01:42.710,0:01:47.740
@@ -153,7 +153,7 @@ ist, von eins bis vier zu schalten.
 
 0:03:02.840,0:03:12.769
 Dann müsste man etwas modellieren, das aussagt,
-welche Ziffer gerade aktiv ist, damit die
+welche Ziffer gerade aktiv ist, damit diese
 
 0:03:12.769,0:03:19.250
 dann manipuliert, also verändert werden kann.
@@ -184,12 +184,12 @@ den ich gleich genauer abtrennen werde.
 Wir haben noch Ziffer drei.
 
 0:04:10.390,0:04:17.730
-Ich werde das ganze jetzt Schritt für Schritt
+Ich werde das Ganze jetzt Schritt für Schritt
 für Ziffer eins modellieren und dann für
 
 0:04:17.730,0:04:24.040
 Ziffer zwei und drei übernehmen, da was bei
-den Ziffern passieren kann quasi das gleiche
+den Ziffern passieren kann, quasi das Gleiche
 
 0:04:24.040,0:04:25.040
 ist.
@@ -199,10 +199,10 @@ Bei den Ziffern haben wir die Möglichkeit,
 dass es auf eins stehen kann, dass der Bildschirm
 
 0:04:33.259,0:04:36.340
-an der Stelle der Ziffer zwei anzeigen kann.
+an der Stelle der Ziffer zwei angezeigt werden kann.
 
 0:04:36.340,0:04:51.510
-Es besteht die Möglichkeit die drei und zuletzt
+Es besteht die Möglichkeit, die drei und zuletzt
 auch die vier anzuzeigen.
 
 0:04:51.510,0:05:02.190
@@ -240,15 +240,15 @@ Startpunkt geben.
 Der soll auf die eins gerichtet sein.
 
 0:05:47.880,0:05:56.979
-Daher setzen wir hier einen Starpunkt mit
+Daher setzen wir hier einen Startpunkt mit
 Pfeil dazwischen hin.
 
 0:05:56.979,0:06:00.870
-damit haben wir die erste Region schon modelliert.
+Damit haben wir die erste Region schon modelliert.
 
 0:06:00.870,0:06:06.729
-Das ist noch nicht 100 Prozentig, da hier
-noch die Beschriftungen gehlen.
+Das ist noch nicht hundertprozentig, da hier
+noch die Beschriftungen fehlen.
 
 0:06:06.729,0:06:08.230
 Dazu komme ich noch.
@@ -265,7 +265,7 @@ aus, da es da auch von Zahl eins bis vier
 wechseln kann.
 
 0:06:20.380,0:06:26.300
-Es startet mit der eins, weshalb ich es für
+Es startet mit der Eins, weshalb ich es für
 die anderen beiden Ziffern übertrage.
 
 0:06:26.300,0:06:46.690
@@ -319,7 +319,7 @@ Es kann hier nur links, Mitte oder rechts,
 also Ziffer eins, zwei oder drei aktiv sein.
 
 0:08:09.139,0:08:16.000
-Somit brauchen wir eins aktiv.
+Somit brauchen wir Eins aktiv.
 
 0:08:16.000,0:08:22.860
 Ich mache es etwas kleiner.
@@ -346,7 +346,7 @@ Ziffer nach rechts ausgewählt wird, wenn
 wir R drücken.
 
 0:08:59.100,0:09:10.589
-Das bedeutet, dass wir hier zwischen Pfeile
+Das bedeutet, dass wir hier zwischen Pfeilen
 machen, damit immer beim Drücken von R die
 
 0:09:10.589,0:09:17.080
@@ -377,7 +377,7 @@ zu der Ziffer zurück gewechselt.
 Das kann ich direkt modellieren.
 
 0:09:59.870,0:10:10.990
-Das bedeutet, dass wenn wir bei eins sind
+Das bedeutet, dass, wenn wir bei eins sind
 und L drücken, es direkt zu eins wechselt.
 
 0:10:10.990,0:10:15.070
@@ -427,7 +427,7 @@ beeinflusst oder bedeutet, was gerade aktiv
 ist.
 
 0:11:40.209,0:11:44.400
-ich betitle den Bereich als Auswahl.
+Ich betitle den Bereich als Auswahl.
 
 0:11:44.400,0:11:50.810
 Es ist also, was an Tasten ausgewählt wird.
@@ -457,8 +457,8 @@ diese Transition ausgelöst wird.
 Wir übersetzen es.
 
 0:12:22.800,0:12:32.210
-Wenn die Zahl eins aktiv ist, kann plus oder
-minus gedrückt werden, um diese Zahl zu manipulieren.
+Wenn die Zahl eins aktiv ist, kann Plus oder
+Minus gedrückt werden, um diese Zahl zu manipulieren.
 
 0:12:32.210,0:12:35.660
 Also haben wir den Trigger.
@@ -476,20 +476,20 @@ Die Zahl bleibt weiter aktiv.
 Nichts ändert sich an der Aktivität.
 
 0:12:49.230,0:12:51.550
-Wir haben den Trigger da plus gedrückt wird.
+Wir haben den Trigger, da Plus gedrückt wird.
 
 0:12:51.550,0:12:56.720
 Es passiert irgendwas.
 
 0:12:56.720,0:13:04.320
-Was passiert denn genau, wenn wir plus drücken?
+Was passiert denn genau, wenn wir Plus drücken?
 
 0:13:04.320,0:13:07.910
 Wir sind hier oben in Ziffer eins und drücken
-plus.
+Plus.
 
 0:13:07.910,0:13:10.949
-Wir sind in der eins drin.
+Wir sind in der Eins drin.
 
 0:13:10.949,0:13:15.839
 Dann bewegt sich hier die Aktivität von eins
@@ -501,7 +501,7 @@ dran schreiben, damit klar wird, dass ein
 
 0:13:23.380,0:13:26.050
 Effekt ausgelöst wird, wenn wir hier unten
-plus drücken.
+Plus drücken.
 
 0:13:26.050,0:13:31.920
 Den nennen wir jetzt einfach u1.
@@ -519,10 +519,10 @@ ein Effekt.
 
 0:13:45.860,0:13:52.079
 Wenn wir hier oben den Trigger u1 dran schreiben,
-dann wird hier unten folgendes passieren.
+dann wird hier unten Folgendes passieren.
 
 0:13:52.079,0:13:55.430
-Der Trigger ist das plus, das gedrückt wird.
+Der Trigger ist das Plus, das gedrückt wird.
 
 0:13:55.430,0:13:58.630
 Der Effekt ist, dass u1 ausgelöst wird.
@@ -532,42 +532,42 @@ Hier oben finden wir u1 wieder, das ausgeführt
 wird.
 
 0:14:03.130,0:14:05.040
-damit kommen wir zur zwei.
+Damit kommen wir zur Zwei.
 
 0:14:05.040,0:14:06.830
-Das gleiche gilt wieder.
+Das Gleiche gilt wieder.
 
 0:14:06.830,0:14:09.470
-Wir sind bei der zwei.
+Wir sind bei der Zwei.
 
 0:14:09.470,0:14:12.130
 Es wird Trigger eins ausgelöst, also plus
 gedrückt.
 
 0:14:12.130,0:14:13.209
-Wir kommen zur drei.
+Wir kommen zur Drei.
 
 0:14:13.209,0:14:16.639
 Das bedeutet, wir müssen hier auch wieder
 u1 dran schreiben.
 
 0:14:16.639,0:14:24.370
-Hier muss also u1 dran und das gleiche gilt
+Hier muss also u1 dran, und das Gleiche gilt
 hier.
 
 0:14:24.370,0:14:33.570
-Zuletzt passiert was wenn wir bei der vier
+Zuletzt passiert was, wenn wir bei der Vier
 ankommen und plus drücken?
 
 0:14:33.570,0:14:35.490
-Dann kommen wir zur eins zurück.
+Dann kommen wir zur Eins zurück.
 
 0:14:35.490,0:14:42.009
 Wir müssen daher auch noch hier oben u1 dran
 schreiben.
 
 0:14:42.009,0:14:46.370
-Das gleiche haben wir im umgekehrten Fall.
+Das Gleiche haben wir im umgekehrten Fall.
 
 0:14:46.370,0:14:48.149
 Was passiert, wenn wir minus drücken?
@@ -580,28 +580,28 @@ wird etwas ausgelöst.
 Das nennen wir d1.
 
 0:15:08.580,0:15:16.850
-Wenn wir bei eins anfangen und minus drücken,
-wird zur vier gewechselt.
+Wenn wir bei Eins anfangen und minus drücken,
+wird zur Vier gewechselt.
 
 0:15:16.850,0:15:28.529
 Wir brauchen hier oben also auch wieder Kästchen,
-die sagen, dass beim Drücken der eins
+die sagen, dass beim Drücken der Eins
 
 0:15:28.529,0:15:30.720
-zur vier gewechselt wird.
+zur Vier gewechselt wird.
 
 0:15:30.720,0:15:34.699
-wenn wir bei der vier sind und minus drücken,
-wird zur drei gewechselt.
+Wenn wir bei der Vier sind und minus drücken,
+wird zur Drei gewechselt.
 
 0:15:34.699,0:15:44.540
-Das gleiche gilt auch für die zwei.
+Das Gleiche gilt auch für die Zwei.
 
 0:15:44.540,0:15:46.779
 Hier haben wir die Aktivität voll.
 
 0:15:46.779,0:15:51.430
-Man kann von eins zu zwei, zu drei, zu vier
+Man kann von Eins zu Zwei, zu Drei, zu Vier
 wechseln, wenn man plus drückt.
 
 0:15:51.430,0:15:54.199
@@ -617,25 +617,25 @@ Hier unten kann man zwischen R und L die Aktivitäten
 wechseln.
 
 0:16:03.920,0:16:09.610
-Wenn wir zur Aktivität zwei wechseln, ist
+Wenn wir zur Aktivität Zwei wechseln, ist
 dieser Bereich aktiv.
 
 0:16:09.610,0:16:16.149
-Wenn gerade der hier in zwei geendet hat,
-ist wichtig, dass diese zwei immer noch auf
+Wenn gerade der hier in Zwei geendet hat,
+ist wichtig, dass diese Zwei immer noch auf
 
 0:16:16.149,0:16:18.149
 dem Display angezeigt wird.
 
 0:16:18.149,0:16:23.970
-Wenn die Aktivität wechselt ist aber klar,
+Wenn die Aktivität wechselt, ist aber klar,
 dass jetzt dieser Bereich manipuliert wird.
 
 0:16:23.970,0:16:29.639
-Da müssen wir das gleiche wie dort hier einfügen.
+Da müssen wir das Gleiche wie dort hier einfügen.
 
 0:16:29.639,0:16:37.320
-Ich habe es rüber kopiert.
+Ich habe es rüberkopiert.
 
 0:16:37.320,0:16:39.180
 Wichtig ist jetzt, den Effekt umzubenennen.
@@ -662,10 +662,10 @@ dort passiert.
 Das habe ich jetzt auch umgesetzt.
 
 0:17:11.490,0:17:14.870
-Das gleiche fehlt uns zu drei.
+Das Gleiche fehlt uns zur Drei.
 
 0:17:14.870,0:17:23.880
-Ich setze es auch um, wenn drei aktiv ist.
+Ich setze es auch um, wenn Drei aktiv ist.
 
 0:17:23.880,0:17:32.270
 Jetzt habe ich es für alles umgesetzt.
@@ -698,7 +698,7 @@ Ich mache es jetzt schicker.
 Die Regionen habe ich bisher nur im Kopf gemacht.
 
 0:18:12.370,0:18:19.150
-jetzt mache ich immer den großen Kasten drum
+Jetzt mache ich immer den großen Kasten drum
 und trenne die Regionen ab.
 
 0:18:19.150,0:18:23.559
@@ -706,7 +706,7 @@ Vielleicht wird dann die Darstellung etwas
 klarer.
 
 0:18:23.559,0:18:26.100
-Dann werden wir den OK Knopf implementieren.
+Dann werden wir den OK-Knopf implementieren.
 
 0:18:26.100,0:18:47.570
 Leider sind die Ecken hier recht rund, was
@@ -720,14 +720,14 @@ Regionen.
 Ich hoffe, man kann es erkennen.
 
 0:18:54.880,0:18:58.309
-Das ist Region eins, zwei, drei und vier.
+Das ist Region Eins, Zwei, Drei und Vier.
 
 0:18:58.309,0:19:07.720
 Der gesamte Zustand muss irgendwann starten,
 wofür wir auch einen Startpunkt brauchen.
 
 0:19:07.720,0:19:11.790
-Alles ist beim OK drücken beendet und die
+Alles ist beim OK-Drücken beendet, und die
 Zahlen sind eingegeben.
 
 0:19:11.790,0:19:29.799
@@ -746,7 +746,7 @@ Als Trigger sollten wir es anschreiben.
 
 0:19:46.919,0:19:51.090
 Wenn man zum Schluss OK drückt, wird das
-ganze beendet.
+Ganze beendet.
 
 0:19:51.090,0:19:58.930
 Jetzt stelle ich eine zweite Lösung dar,
@@ -773,31 +773,30 @@ unlogisch.
 
 0:20:34.410,0:20:39.880
 Bei der Lösung, die jetzt kommt, finde ich
-das mit den plus minus wechseln einfacher.
+das mit den Plus-Minus-Wechseln einfacher.
 
 0:20:39.880,0:20:45.669
 Das mit dem R und L wechseln ist aufgrund
 der flachen Historie etwas komplizierter.
 
 0:20:45.669,0:20:49.890
-Beides ist aber vollkommen ok verständlich.
+Beides ist aber vollkommen okay verständlich.
 
 0:20:49.890,0:20:53.820
 Wir haben also die verschiedenen Zustände
-und Ziffer eins, zwei und drei.
+und Ziffer Eins, Zwei und Drei.
 
 0:20:53.820,0:20:55.850
 Es muss einzeln modelliert werden.
 
 0:20:55.850,0:21:00.309
-Wie gesagt muss es immer angezeigt werden.
-
+Wie gesagt, muss es immer angezeigt werden.
 0:21:00.309,0:21:04.840
 Die müssen natürlich verbunden werden.
 
 0:21:04.840,0:21:10.730
-Ich modelliere es wieder für Ziffer eins
-und kopiere es dann für die anderen beiden
+Ich modelliere es wieder für Ziffer Eins
+und kopiere es dann für die anderen beiden.
 
 0:21:10.730,0:21:13.120
 Ziffern.
@@ -806,7 +805,7 @@ Ziffern.
 Ich habe die Pfeile dran gemacht.
 
 0:21:21.279,0:21:23.590
-jetzt müssen wir noch betiteln, was passiert.
+Jetzt müssen wir noch betiteln, was passiert.
 
 0:21:23.590,0:21:29.230
 Wenn wir von eins zu zwei wechseln, drücken
@@ -817,14 +816,14 @@ Ich habe jetzt überall plus und minus dran
 geschrieben.
 
 0:21:40.700,0:21:44.970
-Das jetzt meinte ich mit etwas intuitiver.
+Das meinte ich jetzt mit etwas intuitiver.
 
 0:21:44.970,0:21:54.140
 Man wechselt von eins mit plus zu zwei, von
 zwei mit plus zu drei und so weiter.
 
 0:21:54.140,0:22:00.659
-bei der einen müssen wir starten, weshalb
+Bei der einen müssen wir starten, weshalb
 ich hier vorne einen Startknoten hinmache.
 
 0:22:00.659,0:22:06.900
@@ -832,10 +831,10 @@ Hier müssen wir dranschreiben, dass das Ziffer
 eins ist.
 
 0:22:06.900,0:22:12.929
-Jetzt haben wir das wichtigste dargestellt.
+Jetzt haben wir das Wichtigste dargestellt.
 
 0:22:12.929,0:22:16.360
-ich mache einen großen Kasten drum.
+Ich mache einen großen Kasten drum.
 
 0:22:16.360,0:22:19.690
 Das ist ein Zustand.
@@ -861,21 +860,21 @@ mit der Aktivität gleich ergeben wird.
 
 0:22:55.350,0:23:00.440
 Ziffer zwei und Ziffer drei brauchen beide
-nicht diesen Starpunkt.
+nicht diesen Startpunkt.
 
 0:23:00.440,0:23:05.380
-Das ergibt sich durch den Historien Knoten,
-wen ich gleich einfügen werde.
+Das ergibt sich durch den Historienknoten,
+den ich gleich einfügen werde.
 
 0:23:05.380,0:23:07.860
 Nur Ziffer eins braucht es.
 
 0:23:07.860,0:23:14.370
-Wenn man das Gerät das erste mal startet,
+Wenn man das Gerät das erste Mal startet,
 fängt es damit an.
 
 0:23:14.370,0:23:21.750
-Die Frage ist jetzt, was passiert wenn wir
+Die Frage ist jetzt, was passiert, wenn wir
 nach links oder rechts gehen.
 
 0:23:21.750,0:23:27.160
@@ -897,14 +896,14 @@ Wenn wir bei der zwei waren, bleiben wir bei
 der zwei.
 
 0:23:39.650,0:23:45.029
-Wir fügen jetzt einen Historien Knoten ein.
+Wir fügen jetzt einen Historienknoten ein.
 
 0:23:45.029,0:23:51.279
 Es kann auch eine flache Historie sein, da
 es hier keine weiteren Unterzustände gibt.
 
 0:23:51.279,0:23:54.160
-Hier haben wir diesen Historien Knoten.
+Hier haben wir diesen Historienknoten.
 
 0:23:54.160,0:23:57.490
 Was passiert, wenn wir jetzt nach links drücken?
@@ -939,10 +938,10 @@ Zustand hier rein.
 
 0:24:46.380,0:24:50.490
 Wenn wir uns schon einmal durchgeklickt haben
-und hier schonmal eine drei ausgewählt haben,
+und hier schon mal eine drei ausgewählt haben,
 
 0:24:50.490,0:24:54.110
-kommen wir mit dem flachen Historien Knoten
+kommen wir mit dem flachen Historienknoten
 halt hier in die drei rein.
 
 0:24:54.110,0:24:58.970
@@ -964,8 +963,8 @@ zuvor betreten wurde, wird wie bei der Tiefenhistorie
 verfahren.
 
 0:25:16.440,0:25:24.350
-Da steht halt, dass dann der Zustand wo die
-Kante hinzeigt angesprungen wird.
+Da steht halt, dass dann der Zustand, wo die
+Kante hinzeigt, angesprungen wird.
 
 0:25:24.350,0:25:33.150
 Wir müssen das H hier also noch irgendwo
@@ -991,7 +990,7 @@ Wir sind also von der Ziffer eins nach links
 und rechts gegangen.
 
 0:26:14.020,0:26:21.810
-Wir gucken also was passiert, wenn wir von
+Wir gucken also, was passiert, wenn wir von
 der Ziffer zwei nach links gehen.
 
 0:26:21.810,0:26:24.580
@@ -1009,14 +1008,14 @@ Was würde passieren, wenn wir von der Ziffer
 zwei nach rechts gehen würden?
 
 0:26:37.299,0:26:38.760
-Wir haben das gleiche wie hier oben.
+Wir haben das Gleiche wie hier oben.
 
 0:26:38.760,0:26:47.220
 Wir haben einen Pfeil von Ziffer zwei, der
 zu einem tiefen Historienknoten in drei geht.
 
 0:26:47.220,0:26:48.240
-Hier gilt das gleiche.
+Hier gilt das Gleiche.
 
 0:26:48.240,0:26:55.150
 Was passiert, wenn wir vorher noch nicht in
@@ -1030,7 +1029,7 @@ Von der Tiefenhistorie werden wir direkt zur
 eins springen.
 
 0:27:08.490,0:27:16.659
-Was passiert wenn wir von Ziffer zwei nach
+Was passiert, wenn wir von Ziffer zwei nach
 links oder rechts gehen?
 
 0:27:16.659,0:27:17.750
@@ -1040,8 +1039,7 @@ Das haben wir auch geklärt.
 Daher müssen wir noch zu Ziffer drei.
 
 0:27:20.940,0:27:22.870
-Was passiert da beim nach links oder rechts
-gehen?
+Was passiert da beim Nach-links- oder Rechtsgehen?
 
 0:27:22.870,0:27:26.530
 Das ist ein Synonym zu dem hier.
@@ -1052,11 +1050,11 @@ gehen, kommen wir zu Zustand eins zurück.
 
 0:27:30.409,0:27:35.990
 Wir brauchen hier also nur einen Pfeil, der
-hier oben zur Tiefenhistorie zurück geht.
+hier oben zur Tiefenhistorie zurückgeht.
 
 0:27:35.990,0:27:46.630
 Da schreiben wir dran, dass es gilt, wenn
-man von da aus nach links und nach rechts
+man von da aus nach links und nach rechts.
 
 0:27:46.630,0:27:47.630
 geht.
@@ -1069,7 +1067,7 @@ Damit haben wir jetzt wie vorhin fast alles
 umgesetzt.
 
 0:27:56.240,0:28:04.289
-Wir haben nach links und rechts wechseln,
+Wir haben nach links und rechts gewechselt,
 wie die Aktivität ist, wann welcher Bereich
 
 0:28:04.289,0:28:05.360
@@ -1090,7 +1088,7 @@ indem wir von außen einen Startknoten dran
 machen würden.
 
 0:28:30.080,0:28:45.539
-Wenn wir das hier mit so einem Eingang starten
+Wenn wir das hier mit so einem Eingang starten,
 ist die Frage, wo er loslegen soll, wenn hier
 
 0:28:45.539,0:28:47.080
@@ -1126,17 +1124,17 @@ zusammengesetzten Zuständen.
 
 0:29:44.240,0:29:50.390
 Hier finde ich es etwas einfacher oder intuitiver,
-dass man hier mit dem plus und minus einfach
+dass man hier mit dem Plus und Minus einfach
 
 0:29:50.390,0:29:51.500
 wechseln kann.
 
 0:29:51.500,0:29:58.960
-Mit den Historien Knoten die Aktivität zu
-regeln ist etwas weniger intuitiv.
+Mit den Historienknoten die Aktivität zu
+regeln, ist etwas weniger intuitiv.
 
 0:29:58.960,0:30:01.149
-Beim anderen ist es genau anders herum.
+Beim anderen ist es genau andersherum.
 
 0:30:01.149,0:30:07.110
 Das ist also eine mögliche Lösung der Aufgabe

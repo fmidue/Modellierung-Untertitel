@@ -20,12 +20,12 @@ Und zwar soll das Beispiel sein:
 Eine Klasse von Punkten soll angelegt werden.
 
 00:00:19,840 --> 00:00:22,520
-Also wir wollen Punkte des zweidimensionalen
+Also wollen wir Punkte des zweidimensionalen
 Raums abspeichern.
 
 00:00:22,520 --> 00:00:26,960
-Also wir werden jeweils x- und y-Koordinaten
-haben, und irgendwelche Operationen auf diesen
+Also werden wir jeweils x- und y-Koordinaten
+haben und irgendwelche Operationen auf diesen
 
 00:00:26,960 --> 00:00:27,960
 Punkten.
@@ -42,10 +42,10 @@ Das könnte man sich ja vorstellen.
 
 00:00:36,780 --> 00:00:41,840
 Dann wird es am Ende einen Graphen geben,
-und in dem Graphen werden einzelne Knoten
+und in dem Graphen wird es einzelne Knoten
 
 00:00:41,840 --> 00:00:47,030
-sein, die jeweils solche Kästen sind (also
+geben, die jeweils solche Kästen sind (also
 eine kleine Grafik).
 
 00:00:47,030 --> 00:00:49,579
@@ -78,7 +78,7 @@ Nicht immer wird das schon so früh so detailliert
 gemacht.
 
 00:01:15,509 --> 00:01:18,560
-Also wir haben vorhin Beispiele gesehen, wo
+Also haben wir vorhin Beispiele gesehen, wo
 die Typangaben fehlten.
 
 00:01:18,560 --> 00:01:22,119
@@ -410,7 +410,7 @@ Funktionalität (einen Punkt zu bewegen, die
 Vektorlänge eines Punktes zu bestimmen, etc.)
 
 00:07:19,990 --> 00:07:22,630
-nichts was für einzelne Punkte verschieden
+nichts, was für einzelne Punkte verschieden
 ist.
 
 00:07:22,630 --> 00:07:26,000
@@ -488,7 +488,7 @@ Funktionalität für sie verfügbar ist.
 Noch als Hinweis zur Übung:
 
 00:08:43,000 --> 00:08:48,220
-Da werden wir auch so was haben, dass Sie
+Da werden wir auch so etwas haben, dass Sie
 zu Klassen oder einer Klasse Objekte angeben
 
 00:08:48,220 --> 00:08:49,220
@@ -499,7 +499,7 @@ Dann müssen Sie das, außer es steht explizit
 gefordert da, nicht unbedingt tun, indem Sie
 
 00:08:54,460 --> 00:09:00,420
-die Klasse noch mal abschreiben und die Objekte
+die Klasse noch einmal abschreiben und die Objekte
 angeben und immer diese Instanziierungspfeile
 
 00:09:00,420 --> 00:09:01,420
@@ -525,7 +525,7 @@ Eine erste solche Beziehung ist die sogenannte
 Vererbung.
 
 00:09:24,420 --> 00:09:31,649
-Da geht es also darum, das Klassen sich ähneln
+Da geht es also darum, dass Klassen sich ähneln
 können, oder eine Klasse in gewissem Sinne
 
 00:09:31,649 --> 00:09:34,520
@@ -537,7 +537,7 @@ Ein Beispiel für unsere Grafikdomäne wäre:
 
 00:09:38,450 --> 00:09:45,670
 Wir haben Punkte, die speichern bestimmte
-Information und bieten bestimmte Methoden
+Informationen und bieten bestimmte Methoden
 
 00:09:45,670 --> 00:09:46,670
 an.
@@ -558,7 +558,7 @@ zusätzlich aber noch eine Farbe haben (und
 vielleicht auch weitere Operationen).
 
 00:10:03,930 --> 00:10:06,540
-Also wir müssten eine Farbe speichern.
+Also, wir müssten eine Farbe speichern.
 
 00:10:06,540 --> 00:10:12,340
 Und vielleicht gibt es eine Operation, die
@@ -587,7 +587,7 @@ für die Sachen, die hier stehen.
 Das sind immer Zusatzinformationen/Zusatzaspekte.
 
 00:10:34,000 --> 00:10:37,760
-Also auch der ColoredPoint hat eine x- und
+Also, auch der ColoredPoint hat eine x- und
 y-Koordinate.
 
 00:10:37,760 --> 00:10:41,500
@@ -602,7 +602,7 @@ mit dieser speziellen Art von Pfeilspitze,
 ausdrückt.
 
 00:10:48,420 --> 00:10:50,230
-Also ColoredPoint erbt von Point.
+Also, ColoredPoint erbt von Point.
 
 00:10:50,230 --> 00:10:53,890
 Das heißt, Attribute von Point sind auch
@@ -646,7 +646,7 @@ Gibt es auch Mehrfachvererbung?
 Kann man auch von mehreren Sachen erben?
 
 00:11:33,090 --> 00:11:35,580
-Also könnte ColoredPoint auch von zwei verschiedenen
+Also, könnte ColoredPoint auch von zwei verschiedenen
 Klassen erben?
 
 00:11:35,580 --> 00:11:36,600
@@ -681,7 +681,7 @@ Wo zum Beispiel verschiedene Klassen etwas
 gemeinsam haben?
 
 00:11:58,990 --> 00:12:03,080
-Also nehmen wir an, es gäbe in der Bibliothek
+Also, nehmen wir an, es gäbe in der Bibliothek
 auch noch andere Medien als Bücher.
 
 00:12:03,080 --> 00:12:04,370
@@ -709,10 +709,10 @@ diese Medien.
 
 00:12:27,290 --> 00:12:31,320
 Also vielleicht würde es Sinn ergeben, eine
-Klasse für Medien allgemein einzuführen
+Klasse für Medien allgemein einzuführen.
 
 00:12:31,320 --> 00:12:35,280
-und dann erbende, spezialisierte Klassen für
+und dann erben spezialisierte Klassen für
 Bücher, CDs, etc.
 
 00:12:35,280 --> 00:12:42,920
@@ -727,7 +727,7 @@ Die Subklasse erbt Attribute und Methoden
 (später auch weitere Beziehungen, die wir
 
 00:12:51,330 --> 00:12:55,140
-noch diskutieren werden) der Superklasse,
+noch diskutieren werden) der Superklasse
 und kann weitere hinzufügen.
 
 00:12:55,140 --> 00:13:01,160
@@ -735,7 +735,7 @@ Ein Aspekt für die Implementierung, der jetzt
 für die statische Modellierung nicht so wichtig
 
 00:13:01,160 --> 00:13:07,360
-ist, ist dass Methoden der Oberklasse überschrieben
+ist, ist, dass Methoden der Oberklasse überschrieben
 werden können.
 
 00:13:07,360 --> 00:13:08,720
@@ -754,7 +754,7 @@ sein muss.
 
 00:13:18,180 --> 00:13:21,910
 Dann würde man also nicht ändern, dass die
-Methoden existieren, aber was sie tun.
+Methoden existieren, sondern was sie tun.
 
 00:13:21,910 --> 00:13:26,800
 Und für die neuen Methoden muss man natürlich
@@ -785,15 +785,15 @@ machen kann, man mit ColoredPoint auch noch
 machen kann.
 
 00:14:02,810 --> 00:14:07,451
-Also ColoredPoints ist nicht einfach irgendeine
+Also ColoredPoints sind nicht einfach irgendeine
 andere Sache, die zufällig auch eine x- und
 
 00:14:07,451 --> 00:14:08,451
 y-Koordinate hat.
 
 00:14:08,451 --> 00:14:11,460
-Sondern ColoredPoint ist wirklich zu sehen
-als auch ein Punkt, aber noch zusätzliche
+Sondern ColoredPoint ist wirklich als auch
+ein Punkt zu sehen, aber mit zusätzlichen
 
 00:14:11,460 --> 00:14:12,460
 Informationen dazu.
@@ -862,7 +862,7 @@ das, was hier festgehalten ist.
 Also hier steht:
 
 00:15:24,790 --> 00:15:26,640
-"Konstellationen, die verboten sind."
+„Konstellationen, die verboten sind.“
 
 00:15:26,640 --> 00:15:31,290
 Was verboten ist, wären erst mal irgendwelche
@@ -873,7 +873,7 @@ Also man kann nicht im Kreis vererben.
 
 00:15:34,120 --> 00:15:38,779
 Es kann nicht sein, dass B von A erbt, C von
-B erbt, und A von C.
+B erbt und A von C.
 
 00:15:38,779 --> 00:15:41,980
 Es könnte schon sein, dass B von A erbt und
@@ -955,5 +955,5 @@ Das ist prinzipiell in UML erlaubt, aber nicht
 alle Programmiersprachen unterstützen das.
 
 00:17:04,880 --> 00:17:10,250
-Wir werden da gesondert drauf achten, ob das
+Wir werden da gesondert darauf achten, ob das
 jeweils erlaubt sein soll oder nicht.

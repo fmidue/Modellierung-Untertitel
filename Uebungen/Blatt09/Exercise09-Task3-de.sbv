@@ -113,7 +113,7 @@ dass entweder das eine oder das andere zu
 jedem Zeitpunkt gelten soll.
 
 0:03:00.770,0:03:06.440
-Und hier sind auch die Übergänge benannt
+Und hier sind auch die Übergänge benannt,
 wie zum Beispiel das Öffnen und Schließen
 
 0:03:06.440,0:03:09.440
@@ -201,7 +201,7 @@ Wenn wir also t8 feuern, dann landet ein Token
 in offen und der Wasserstand bleibt niedrig.
 
 0:05:43.449,0:05:50.539
-Aber danach haben wir die Möglichkeit t5
+Aber danach haben wir die Möglichkeit, t5
 zu feuern, was dazu führen würde, dass wir
 
 0:05:50.539,0:05:55.270
@@ -209,7 +209,7 @@ ein Token in offen hätten und gleichzeitig
 in hoch.
 
 0:05:55.270,0:06:10.279
-Und das wäre ein nichterlaubter Zustand,
+Und das wäre ein nicht erlaubter Zustand,
 weil das Tor eben nicht geöffnet sein darf,
 
 0:06:10.279,0:06:13.539
@@ -251,7 +251,7 @@ wird das Tor geöffnet.
 
 0:07:13.469,0:07:20.159
 Und wenn wir jetzt t6 feuern und nicht
-t1, dann wird der Wasserstand niedrig und
+t1, dann wird der Wasserstand niedrig, und
 
 0:07:20.159,0:07:21.520
 das Tor ist dennoch offen.
@@ -287,7 +287,7 @@ Und dann könnten wir noch t3 feuern und t4.
 Dann könnte ein Schiff fahren.
 
 0:08:18.360,0:08:22.589
-Und, was da passiert, schauen wir uns jetzt
+Und was da passiert, schauen wir uns jetzt
 mal genauer an.
 
 0:08:22.589,0:08:26.169
@@ -328,7 +328,7 @@ nämlich fragen, was passieren würde, wenn
 das Tor geöffnet bliebe.
 
 0:09:35.960,0:09:43.830
-Also angenommen das Tor bleibt weiter offen
+Also angenommen, das Tor bleibt weiter offen
 oder wird danach geschlossen.
 
 0:09:43.830,0:09:47.251
@@ -400,8 +400,8 @@ Oder vielleicht starten wir lieber legal,
 denn wenn ich hier direkt ein Token hinlegen
 
 0:12:10.030,0:12:15.780
-würde, würde ich zwischenzeitlich einen
-inkonsistenten Zustand haben mit dem niedrigen
+würde, hätte ich zwischenzeitlich einen
+inkonsistenten Zustand mit dem niedrigen
 
 0:12:15.780,0:12:16.960
 und hohen Wasserstand.
@@ -439,7 +439,7 @@ Und den kriegen wir nur durch t8 dorthin.
 
 0:13:35.220,0:13:43.050
 Das heißt, wir mussten erst t6 noch feuern,
-dass der Token wieder hier anlandet, der vorher
+damit der Token wieder hier anlandet, der vorher
 
 0:13:43.050,0:13:44.050
 in hoch war.
@@ -565,10 +565,10 @@ muss.
 
 0:17:13.309,0:17:21.879
 Und damit es hier zu keinem Fehlerzustand
-kommt, der durch das hinzufügen des Pfeils
+kommt, der durch das Hinzufügen des Pfeils
 
 0:17:21.879,0:17:27.499
-passiert, weil ja dann potentiell hier in
+passiert, weil ja dann potenziell hier in
 dem Fall der Token aus Tor zwei verschwinden
 
 0:17:27.499,0:17:31.600
@@ -610,7 +610,7 @@ konnte, wenn zum Beispiel t8 gefeuert wurde
 und danach t5.
 
 0:18:41.350,0:18:46.610
-Das ist jetzt nicht mehr möglich, weil, wenn
+Das ist jetzt nicht mehr möglich, denn wenn
 t8 gefeuert wurde, dann muss zunächst t9
 
 0:18:46.610,0:18:51.510
@@ -679,7 +679,7 @@ nicht genau beschrieben wird, wie sich das
 hier verhalten soll.
 
 0:20:44.749,0:20:51.170
-Ich mach diesen Rückpfeil jetzt hier einfach
+Ich mache diesen Rückpfeil jetzt hier einfach
 mal zum Zustand offen.
 
 0:20:51.170,0:21:02.190
@@ -723,7 +723,7 @@ Schiffe in der Schleuse landen können.
 
 0:22:09.309,0:22:19.799
 Und das kann verhindert werden, indem t4 nur
-geschalten werden darf, wenn kein Schiff in
+geschaltet werden darf, wenn kein Schiff in
 
 0:22:19.799,0:22:20.999
 der Schleuse ist.

@@ -4,7 +4,7 @@ Willkommen zurück.
 
 00:00:02,730 --> 00:00:11,850
 Wir haben uns in den letzten Videos vor allem mit
-UML Klassen- und Objektdiagrammen beschäftigt.
+UML-Klassen- und Objektdiagrammen beschäftigt.
 
 00:00:11,850 --> 00:00:14,310
 Sie sehen jetzt hier auf der Folie,
@@ -17,7 +17,7 @@ hier um ein Aktivitätsdiagramm geht.
 Das ist eine andere Art von UML-Diagrammen.
 
 00:00:22,170 --> 00:00:28,380
-Und das obwohl wir eigentlich noch nicht in dem
+Und das, obwohl wir eigentlich noch nicht in dem
 Teil der Vorlesung angekommen sind, wo wir uns
 
 00:00:28,380 --> 00:00:31,080
@@ -55,7 +55,7 @@ dass diese UML-Aktivitätsdiagramme vereinfacht
 durch Petrinetze dargestellt werden können.
 
 00:01:04,890 --> 00:01:10,110
-Petrinetze sind ein einfacherer Mechanismus,
+Petrinetze sind ein einfacher Mechanismus,
 der in Richtung UML-Aktivitätsdiagramme geht.
 
 00:01:10,920 --> 00:01:16,530
@@ -238,7 +238,7 @@ die wir in der Vorlesung behandeln,
 besitzen sie eine sehr formale Semantik.
 
 00:04:33,410 --> 00:04:35,105
-Also sie sind wirklich exakt
+Also sind sie wirklich exakt
 mathematisch definiert.
 
 00:04:35,105 --> 00:04:37,190
@@ -332,7 +332,7 @@ Genannt hatte ich schon:
 
 00:06:22,320 --> 00:06:28,980
 Petrinetze sind ein Formalismus dynamischer
-Modellierung, für bestimmte Situationen.
+Modellierung für bestimmte Situationen.
 
 00:06:28,980 --> 00:06:33,120
 Also immer dann, wenn es irgendwie
@@ -492,7 +492,7 @@ auf jeden Fall schlagen.
 
 00:09:12,260 --> 00:09:16,960
 Zur Praxis hatte ich schon einige
-Anwendungsgebiete genannt wird.
+Anwendungsgebiete genannt.
 
 00:09:16,960 --> 00:09:18,860
 Zumindest genannt, wo Ihnen
@@ -520,8 +520,8 @@ wie sie hier und auch in Büchern zu finden sind).
 Aber die in UML vorhandenen Aktivitätsdiagramme
 
 00:09:42,170 --> 00:09:46,910
-sind leichte Abwandlungen, und andere
-Darstellung letztlich, von Petrinetzen.
+sind leichte Abwandlungen und andere
+Darstellungen letztlich von Petrinetzen.
 
 00:09:46,910 --> 00:09:50,180
 Diese Brücke werden wir später
@@ -551,10 +551,10 @@ vielen Stellen das Phänomen.
 
 00:10:19,960 --> 00:10:24,340
 Und natürlich auch etwa in der Informatik
-gibt es viele Situation von Parallelität.
+gibt es viele Situationen von Parallelität.
 
 00:10:24,340 --> 00:10:28,810
-Also vielleicht wenn Sie eine Spiele-Grafikkarte
+Also vielleicht, wenn Sie eine Spiele-Grafikkarte
 haben, dann haben Sie vielleicht auch darüber
 
 00:10:28,810 --> 00:10:33,550
@@ -600,7 +600,7 @@ dass Dinge parallel passieren oder
 parallel verarbeitet werden können.
 
 00:11:15,070 --> 00:11:20,350
-Also wir werden bei Petrinetzen von
+Also werden wir bei Petrinetzen von
 Nebenläufigkeit von Einzelaktionen
 
 00:11:20,350 --> 00:11:21,370
@@ -679,7 +679,7 @@ Berechnungen in der Tabelle durchführt),
 wollen wir die GUI noch bedienen können.
 
 00:12:40,180 --> 00:12:44,950
-Und nicht irgendwie ausgebremst sein, und
+Und nicht irgendwie ausgebremst sein und
 das Programm nicht mehr bedienen können.
 
 00:12:44,950 --> 00:12:49,484
@@ -696,10 +696,10 @@ gleichen Ressourcen zugreifen.
 
 00:12:55,000 --> 00:13:00,640
 Und wie das dann genau umgesetzt ist, ob
-tatsächlich zwei verschiedene Rechnerkerne
+tatsächlich zwei verschiedene Rechnerkerne.
 
 00:13:00,640 --> 00:13:03,700
-diese beiden Aktionen ausführen oder
+Diese beiden Aktionen ausführen oder
 nicht, ist dafür gar nicht so relevant.
 
 00:13:04,270 --> 00:13:05,290
@@ -717,7 +717,7 @@ Und natürlich finden Sie
 auch viele andere Beispiele,
 
 00:13:12,610 --> 00:13:14,620
-auch in der Alltagswelt, von Nebenläufigkeit.
+auch in der Alltagswelt von Nebenläufigkeit.
 
 00:13:14,620 --> 00:13:17,260
 Also jedes Banksystem:
@@ -842,10 +842,10 @@ die Gabeln, und zwar auch drei an der Zahl.
 Und die liegen genau zwischen den Philosophen.
 
 00:15:39,220 --> 00:15:40,660
-Soweit so gut.
+Soweit, so gut.
 
 00:15:40,660 --> 00:15:43,810
-Das Problem ist, dass wenn die Philosophen hungrig
+Das Problem ist, dass, wenn die Philosophen hungrig
 
 00:15:43,810 --> 00:15:47,110
 sind und essen wollen, sie dann
@@ -867,7 +867,7 @@ Jetzt können natürlich offensichtlich nicht
 die drei Philosophen gleichzeitig essen.
 
 00:15:58,540 --> 00:16:00,610
-Dann bräuchten Sie mindestens sechs
+Dann bräuchten sie mindestens sechs
 Gabeln, es gibt aber nur drei.
 
 00:16:02,470 --> 00:16:04,930
@@ -942,7 +942,7 @@ ist Parallelität nicht gegeben.
 
 00:17:16,130 --> 00:17:21,350
 Gibt es vielleicht etwas feingliedriger zumindest
-zwischen einzelnen Aktion Nebenläufigkeit?
+zwischen einzelnen Aktionen Nebenläufigkeit?
 
 00:17:21,350 --> 00:17:28,700
 Also ist das Greifen nach den Gabeln
@@ -950,10 +950,10 @@ vielleicht zumindest unabhängig vom Essen?
 
 00:17:28,700 --> 00:17:35,060
 Das kann man untersuchen, wenn man
-das System genauer beschrieben hat,
+das System genauer beschrieben hat.
 
 00:17:35,060 --> 00:17:39,290
-wenn man diese verbalen Regeln fester gefasst hat.
+Wenn man diese verbalen Regeln fester gefasst hat.
 
 00:17:39,290 --> 00:17:39,886
 Das werden wir später tun.
@@ -992,7 +992,7 @@ dass zum Beispiel P2 nach F1 greift,
 und bevor P2 nach F2 greifen kann,
 
 00:18:13,580 --> 00:18:20,000
-P3 nach F2 greift (weil P3 auch hungrig geworden
+greift P3 nach F2 (weil P3 auch hungrig geworden
 ist und auch seine rechte Gabel zuerst greift).
 
 00:18:21,950 --> 00:18:26,180
@@ -1045,10 +1045,10 @@ eine Situation manövriert haben, in
 der kein Fortschritt möglich ist.
 
 00:19:08,500 --> 00:19:13,210
-Auch das, diese Art Verklemmung, werden wir formal
+Auch diese Art Verklemmung werden wir formal
 
 00:19:13,210 --> 00:19:17,140
-fassen allgemein für Petrinetze und dann
+fassen, allgemein für Petrinetze, und dann
 auf Fälle wie diesen anwenden können.
 
 00:19:20,770 --> 00:19:23,710
@@ -1184,11 +1184,11 @@ zwischen Aktionen bestehen.
 Weil die vielleicht nicht sofort offensichtlich
 
 00:21:41,920 --> 00:21:47,770
-sind, und erst aus dem Verhalten des
+sind und erst aus dem Verhalten des
 Systems erschlossen werden müssen.
 
 00:21:50,230 --> 00:21:54,520
-Aktionen können sich bedingen, Aktionen
+Aktionen können sich bedingen; Aktionen
 können sich aber auch widersprechen.
 
 00:21:54,520 --> 00:21:57,100
@@ -1221,7 +1221,7 @@ inhärente Beschränkungen für das Vorhandensein
 und den Verbrauch von Ressourcen gibt.
 
 00:22:24,880 --> 00:22:31,300
-Also ist System zum Beispiel so gestaltet,
+Also ist das System zum Beispiel so gestaltet,
 dass es nie (nicht nur aus externen Gründen,
 
 00:22:31,300 --> 00:22:37,330
@@ -1243,7 +1243,7 @@ beschriebenes Petrinetz letztlich einem
 unendlich ausgefalteten System entsprechen kann.
 
 00:23:05,390 --> 00:23:11,720
-Also es ist möglich, Petrinetzen zu haben,
+Also es ist möglich, Petrinetze zu haben,
 die endlich sind (also vollständig auf
 
 00:23:11,720 --> 00:23:18,500
@@ -1283,7 +1283,7 @@ Wir werden nicht alle diese
 Punkte hier formal behandeln,
 
 00:23:54,770 --> 00:24:03,260
-aber zumindest den ersten, den zweiten,
+aber zumindest den ersten, den zweiten
 und zu gewissem Grade die letzten beiden.
 
 00:24:13,370 --> 00:24:20,630
@@ -1300,7 +1300,7 @@ Modellierungsmechanismen angewandt.
 
 00:24:30,740 --> 00:24:36,830
 Modellierung von Web Services, Beschreibung
-von grafischen Benutzungsoberflächen,
+von grafischen Benutzeroberflächen,
 
 00:24:36,830 --> 00:24:41,120
 Prozessmodellierung bei Betriebssystemen (da

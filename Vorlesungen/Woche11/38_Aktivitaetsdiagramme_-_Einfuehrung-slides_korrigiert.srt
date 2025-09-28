@@ -11,11 +11,11 @@ bei den Klassen- und Objektdiagrammen,
 also bei statischer Modellierung.
 
 00:00:15,210 --> 00:00:19,920
-Hingegen zu dynamischer Modellierung haben
-wir bisher tatsächlich Petrinetze gehabt
+Hingegen zur dynamischen Modellierung haben
+wir bisher tatsächlich Petrinetze gehabt.
 
 00:00:19,920 --> 00:00:22,950
-und damit verwandte Konzepte
+Und damit verwandte Konzepte,
 Erreichbarkeitsgraphen etc.
 
 00:00:22,950 --> 00:00:29,280
@@ -59,7 +59,7 @@ eingeschränkt auf Softwaresysteme,
 
 00:01:09,630 --> 00:01:14,340
 sondern vor allem die Beispiele waren oftmals
-irgendwie nicht unbedingt Software-getrieben.
+irgendwie nicht unbedingt softwaregetrieben.
 
 00:01:14,340 --> 00:01:18,630
 Wenn wir schauen, welche Art
@@ -207,7 +207,7 @@ indem wir Aktivitätsdiagramme
 in Petrinetze übersetzen werden.
 
 00:04:02,250 --> 00:04:05,250
-Also dann werden sehen wir, wie
+Also dann werden wir sehen, wie
 die Entsprechung aussieht.
 
 00:04:05,250 --> 00:04:07,380
@@ -239,7 +239,7 @@ vollständig formale Semantik haben.
 
 00:04:35,070 --> 00:04:38,820
 Also manche von den formalen Fragen, die
-wir über Petrinetze stellen können und
+wir über Petrinetze stellen können, und
 
 00:04:38,820 --> 00:04:43,440
 auch eindeutig beantworten können, weil sie
@@ -247,7 +247,7 @@ eben so mathematisch präzise gefasst sind,
 
 00:04:43,440 --> 00:04:48,000
 werden für Aktivitätsdiagramme nicht
-auf gleiche Weise möglich sein.
+auf die gleiche Weise möglich sein.
 
 212 # slide
 00:04:48,000 --> 00:04:55,320
@@ -289,7 +289,7 @@ Das ist jetzt kein Softwarebeispiel, sondern
 irgendwie ein Hausbau soll modelliert werden.
 
 00:05:41,220 --> 00:05:43,230
-Da gibt es ein Anfang und ein Ende.
+Da gibt es einen Anfang und ein Ende.
 
 00:05:43,230 --> 00:05:47,250
 Das kann man hier schon so erahnen durch die
@@ -325,7 +325,7 @@ Knoten und Pfeile dazwischen.
 
 00:06:10,800 --> 00:06:14,160
 Also hier gibt es schon irgendwelche speziellen
-Elemente, aber wenn man erstmal naiv schaut,
+Elemente, aber wenn man erst mal naiv schaut,
 
 00:06:14,160 --> 00:06:16,170
 könnte man sich schon vorstellen, dass hier wohl im

@@ -1,7 +1,7 @@
 115 # slide
 00:00:01,440 --> 00:00:08,910
 Nachdem wir uns mit Klassendiagrammen beschäftigt
-haben, und insbesondere auch mit der Validität von
+haben und insbesondere auch mit der Validität von
 
 00:00:08,910 --> 00:00:14,070
 Klassendiagrammen (also den Einschränkungen,
@@ -23,7 +23,7 @@ Und was Sie hier sehen, ist eine Folie, die Sie
 so ähnlich oder genauso schon gesehen haben.
 
 00:00:33,180 --> 00:00:37,080
-Also wir haben eine Klasse, und dann haben wir
+Also, wir haben eine Klasse, und dann haben wir
 diskutiert (und auch in der Übung kam das vor),
 
 00:00:37,080 --> 00:00:42,630
@@ -53,7 +53,7 @@ Weil die in einem Objekt
 nichts zu suchen haben (bei
 
 00:01:02,700 --> 00:01:04,110
-dieser Art Modellierung, die wir hier machen).
+dieser Art der Modellierung, die wir hier machen).
 
 00:01:06,120 --> 00:01:07,740
 Das wäre ein Objekt.
@@ -74,8 +74,8 @@ dort bestehen sollen/können,
 von einem Klassendiagramm abhängen würden.
 
 00:01:20,340 --> 00:01:24,750
-Also man muss ein gültiges Klassendiagramm
-haben, und kann dann darüber sprechen,
+Also, man muss ein gültiges Klassendiagramm
+haben und kann dann darüber sprechen,
 
 00:01:24,750 --> 00:01:29,850
 dass ein Objektdiagramm zu diesem
@@ -93,7 +93,7 @@ Objektdiagramm eine Art Momentaufnahme oder
 ein Snapshot des Systems zu einem Zeitpunkt.
 
 00:01:44,610 --> 00:01:48,360
-Also eine Menge von Objekten mit ihren
+Also, eine Menge von Objekten mit ihren
 Beziehungen zueinander, so wie sie zu einem
 
 00:01:48,360 --> 00:01:49,920
@@ -113,8 +113,8 @@ Ein Objektdiagramm muss dann
 eine konkrete Ausprägung davon
 
 00:02:05,880 --> 00:02:09,720
-sein (die sich natürlich an alles, was im
-Klassendiagramm modelliert wurde, hält).
+sein (die sich natürlich an alles hält, was im
+Klassendiagramm modelliert wurde).
 
 00:02:11,970 --> 00:02:15,420
 Der Sinn ist, dass wir dann eine übersichtliche
@@ -128,7 +128,7 @@ Die Multiplizitäten müssen
 etwa eingehalten werden.
 
 00:02:23,670 --> 00:02:27,480
-Also wir müssen alles, was
+Also, wir müssen alles, was
 das Klassendiagramm vorgibt,
 
 00:02:27,480 --> 00:02:29,580
@@ -147,7 +147,7 @@ Man könnte hier auch "myPoint1"
 oder "myPoint2" haben.
 
 00:02:45,240 --> 00:02:54,495
-Also die Objekte haben eine Identität, die
+Also, die Objekte haben eine Identität, die
 durch einen Namen dargestellt werden kann.
 
 00:02:54,495 --> 00:02:56,790
@@ -202,13 +202,13 @@ Dann hatte ich eben gesagt, dass wir
 in den Objekten die Attribute belegen,
 
 00:03:48,210 --> 00:03:49,410
-die durch die Klassen vorgeben sind.
+die durch die Klassen vorgegeben sind.
 
 00:03:49,410 --> 00:03:52,530
 UML verlangt das nicht unbedingt immer.
 
 00:03:52,530 --> 00:04:01,020
-Also UML lässt auch zu, dass wir von einem Objekt
+Also, UML lässt auch zu, dass wir von einem Objekt
 nicht alle Attribute belegen, weil vielleicht für
 
 00:04:01,020 --> 00:04:04,650
@@ -246,7 +246,7 @@ abstrakter Klassen im Objektdiagramm darstellen.
 Obwohl ich in der vergangenen Woche gesagt hatte,
 
 00:04:32,120 --> 00:04:41,095
-dass man von abstrakten Klasse in einer konkreten
+dass man von abstrakten Klassen in einer konkreten
 Implementierung keine Objekte instanziieren kann.
 
 00:04:41,095 --> 00:04:42,530
@@ -337,7 +337,7 @@ Oberklasse angegeben sein, wenn wir das nicht
 
 00:06:20,540 --> 00:06:25,580
 in der Übung oder der Klausur wieder präziser
-haben wollen, oder explizit ausschließen.
+haben wollen oder explizit ausschließen.
 
 00:06:30,590 --> 00:06:33,140
 Ich hatte schon davon gesprochen,
@@ -374,7 +374,7 @@ Das sind dann also ganz konkrete Ausprägungen
 einer solchen Beziehung spezifischer Objekte
 
 00:07:10,940 --> 00:07:16,520
-der in die auf Klassenebene bestehende
+der in die auf Klassenebene bestehenden
 Beziehung involvierten Klassen.
 
 00:07:16,520 --> 00:07:23,780
@@ -423,7 +423,7 @@ dann muss es natürlich die Multiplizitäten
 aus dem Klassendiagramm erfüllen.
 
 00:08:11,250 --> 00:08:13,140
-Ist also im Klassendiagramm vorgegeben, "es stehen
+Ist also im Klassendiagramm vorgegeben: "Es stehen
 
 00:08:13,140 --> 00:08:18,780
 Objekte der Klasse A mit maximal zwei
@@ -682,7 +682,7 @@ bzw. diese Beziehung hier, verschwinden.
 
 00:13:20,060 --> 00:13:24,110
 Denn Gabi und Peter können nicht
-beide Besitzer des grünen Skodas sein,
+beide Besitzer des grünen Skodas sein.
 
 00:13:24,110 --> 00:13:26,600
 weil jedes Auto nur genau einen Besitzer hat.
@@ -726,7 +726,7 @@ Rädern, und der schwarze Ford auch.
 
 00:14:06,680 --> 00:14:14,510
 Und die haben jeweils genau einen
-Link zu dem sie enthaltenden Auto.
+Link zu dem sie enthaltenen Auto.
 
 00:14:14,510 --> 00:14:18,560
 Das genügt also diesen Multiplizitäten hier.
@@ -870,7 +870,7 @@ Den hätte man auch noch an diese vier Stellen
 schreiben können, muss man aber nicht.
 
 00:16:57,180 --> 00:17:06,260
-Das gleiche gilt für Leserichtung
+Das Gleiche gilt für Leserichtung
 und Navigationsrichtung.
 
 00:17:06,890 --> 00:17:07,831
@@ -885,7 +885,7 @@ Wir werden auch Objektdiagramme haben, wo
 einfach nur die Links eingezeichnet sind
 
 00:17:14,240 --> 00:17:17,120
-ohne irgendwelche weiteren Annotationen da dran.
+ohne irgendwelche weiteren Annotationen daran.
 
 00:17:29,540 --> 00:17:33,020
 Diese "Achtung"-Meldung hatte
@@ -905,7 +905,7 @@ zwischen Klassen vererbt werden.
 
 00:17:48,050 --> 00:17:54,380
 Wenn eine Klasse Beziehungen dieser Art zu
-einer anderen Klassen hat, dann liegen die
+einer anderen Klasse hat, dann liegen die
 
 00:17:54,380 --> 00:17:58,520
 auch in der Unterklasse vor, müssen also bei
@@ -919,7 +919,7 @@ Nehmen wir an, wir haben eine Klasse
 Konto und davon zwei Unterklassen,
 
 00:18:03,560 --> 00:18:06,530
-und wir haben eine Beziehung von Kunden zu Kontos.
+und wir haben eine Beziehung von Kunden zu Konten.
 
 00:18:07,370 --> 00:18:11,960
 Jedes Konto muss insbesondere genau einen

@@ -1,10 +1,10 @@
 123 # slide
 00:00:00,000 --> 00:00:08,400
-Bevor wir in der nächsten Woche uns
+Bevor wir uns in der nächsten Woche
 von statischer Modellierung mit UML
 
 00:00:08,400 --> 00:00:14,460
-weg bewegen und uns mit Petrinetzen und
+wegbewegen und uns mit Petrinetzen und
 damit dynamischer Modellierung beschäftigen,
 
 00:00:14,460 --> 00:00:23,370
@@ -12,8 +12,8 @@ möchte ich in diesem Video zunächst einige
 mathematische Hilfsmittel/Begriffe einführen,
 
 00:00:23,370 --> 00:00:25,020
-bzw. ich hoffe für die
-meisten von Ihnen wiederholen.
+bzw. ich hoffe, für die
+meisten von Ihnen zu wiederholen.
 
 00:00:25,020 --> 00:00:27,960
 Also das wären einfache
@@ -31,29 +31,29 @@ insbesondere die Komedia-Studierenden
 werden die Folien wiedererkennen,
 
 00:00:43,350 --> 00:00:46,800
-da sie doch recht ähnlich sind zu meiner
-Vorlesung Mathematische Strukturen.
+da sie doch recht ähnlich zu meiner
+Vorlesung Mathematische Strukturen sind.
 
 00:00:47,370 --> 00:00:49,470
 Ich denke, auch für die Informatik-Studierenden
 
 00:00:49,470 --> 00:00:55,860
-dürfte einiges recht ähnlich etwa in der
-Logik-Vorlesung schon drangewesen sein.
+dürfte einiges recht ähnlich, etwa in der
+Logik-Vorlesung, schon dran gewesen sein.
 
 00:00:55,860 --> 00:00:58,650
-Und auch für die ISE-Studierenden sollten,
+Und auch für die ISE-Studierenden sollten
 
 00:00:58,650 --> 00:01:02,040
 aus der Diskreten Mathematik zum
-Beispiel, diese Begriffe bekannt sein.
+Beispiel diese Begriffe bekannt sein.
 
 00:01:02,040 --> 00:01:07,500
 Ich wiederhole dennoch, einfach damit
 Sie auch die Notation genau so sehen,
 
 00:01:07,500 --> 00:01:09,660
-wie ich die in den weiteren Folien haben werde.
+wie ich sie in den weiteren Folien haben werde.
 
 00:01:09,660 --> 00:01:14,340
 Falls Sie merken, dass Sie das schon alles wissen,
@@ -66,8 +66,8 @@ natürlich auch überspringen.
 Wir werden es mit Mengen zu tun haben.
 
 00:01:25,895 --> 00:01:29,450
-Also Mengen werden vorkommen in
-der Formalisierung von Petrinetzen.
+Also Mengen werden in
+der Formalisierung von Petrinetzen vorkommen.
 
 00:01:29,450 --> 00:01:34,940
 Und Mengen kennen Sie mindestens aus der Schule
@@ -81,7 +81,7 @@ Wenn die Mengen aufgezählt
 werden können, so stückweise,
 
 00:01:40,910 --> 00:01:43,520
-dann wird das gern so aufgeschrieben mit Kommas.
+dann wird das gern so aufgeschrieben, mit Kommas.
 
 00:01:43,520 --> 00:01:46,190
 Und vielleicht auch Punkt, Punkt, Punkt,
@@ -110,8 +110,8 @@ dass man ihre Eigenschaften beschreibt.
 Also etwa die Menge aller natürlichen Zahlen,
 
 00:02:07,670 --> 00:02:13,280
-die gerade sind, schreibt man gern auf diese
-sogenannte Komprehensions-Schreibweise.
+die gerade sind, schreibt man gern in dieser
+sogenannten Komprehensions-Schreibweise.
 
 00:02:13,280 --> 00:02:15,410
 Also die Menge aller n, "so dass".
@@ -140,7 +140,7 @@ arithmetischen Operationen, hatte ich
 das auch schon als Menge kurz benutzt.
 
 00:02:43,430 --> 00:02:50,200
-Das wäre noch mal die Darstellung für irgendeine
+Das wäre noch einmal die Darstellung für irgendeine
 allgemeine Eigenschaft, die von einem x abhängt.
 
 00:02:50,200 --> 00:02:55,060
@@ -177,15 +177,15 @@ Dies einfach als Möglichkeiten,
 Mengen aufzuschreiben.
 
 00:03:21,790 --> 00:03:36,580
-Wichtig für Betrachtung von Mengen ist,
+Wichtig für die Betrachtung von Mengen ist,
 dass Mengen ungeordnet sind, und auch
 
 00:03:36,580 --> 00:03:43,780
 die Anzahl der Elemente, also das Auftreten
-eines Elements, nicht mehrfach sein kann.
+eines Elements nicht mehrfach sein kann.
 
 00:03:43,780 --> 00:03:46,450
-Erst mal sind Mengen ungeordnet,
+Erst einmal sind Mengen ungeordnet,
 also ob ich aufschreibe \{1,2,3\}
 
 00:03:46,450 --> 00:03:50,680
@@ -199,7 +199,7 @@ Das ist immer die gleiche Menge.
 Zum anderen tauchen Elemente nicht mehrfach auf.
 
 00:03:58,150 --> 00:04:00,610
-Bzw., wenn man sie mehrfach hinschreiben
+Bzw. wenn man sie mehrfach hinschreiben
 würde, macht das keinen Unterschied.
 
 00:04:01,150 --> 00:04:04,390
@@ -214,7 +214,7 @@ ein Element in der Menge ist:
 Ja oder nein?
 
 00:04:08,170 --> 00:04:09,910
-Und nicht irgendwie wie oft.
+Und nicht irgendwie, wie oft.
 
 00:04:09,910 --> 00:04:13,300
 Das heißt, diese Mengen sind gleich,
@@ -225,7 +225,7 @@ und auch von der Menge \{1,2,3,4,5\}.
 
 00:04:19,780 --> 00:04:24,490
 Weil da dann tatsächlich jeweils ein
-Element zu viel oder oder zu wenig drin ist.
+Element zu viel oder zu wenig drin ist.
 
 00:04:24,490 --> 00:04:30,100
 Während dieses "doppelt vorkommen" von 4
@@ -264,7 +264,7 @@ Das geht natürlich nur,
 wenn die Menge endlich ist.
 
 00:05:08,830 --> 00:05:11,800
-Allgemein können Menge unendlich
+Allgemein können Mengen unendlich
 sein, wie die natürlichen Zahlen.
 
 00:05:11,800 --> 00:05:14,860
@@ -335,7 +335,7 @@ die keine Elemente enthält.
 
 00:06:23,410 --> 00:06:27,580
 Die ist automatisch Teilmenge, sogar
-echte Teilmenge, jeder anderen Menge.
+echte Teilmenge jeder anderen Menge.
 
 00:06:27,580 --> 00:06:32,590
 Echte Teilmenge in dem Sinne, dass sie natürlich
@@ -358,7 +358,7 @@ Bei der Vereinigung geht es
 darum, Mengen zusammenzuwerfen.
 
 00:06:54,530 --> 00:06:59,810
-Also Ergebnismenge hier ist die Menge aller
+Also die Ergebnismenge hier ist die Menge aller
 Elemente, die in A oder in B vorkommen.
 
 00:07:01,880 --> 00:07:07,400
@@ -366,7 +366,7 @@ Die Ergebnismenge kann nicht kleiner
 sein als eine der beiden Ursprungsmengen.
 
 00:07:07,400 --> 00:07:17,930
-Und natürlich sind sowohl A, als auch B,
+Und natürlich sind sowohl A als auch B
 Teilmenge der Vereinigung von A und B.
 
 00:07:17,930 --> 00:07:26,540
@@ -390,7 +390,7 @@ in der Regel kleiner, zumindest nicht größer.
 
 00:07:44,480 --> 00:07:50,870
 Also der Durchschnitt von A und B ist auf jeden
-Fall Teilmenge sowohl von A, als auch von B.
+Fall Teilmenge sowohl von A als auch von B.
 
 00:07:50,870 --> 00:07:52,610
 Während hier umgekehrt galt:
@@ -403,7 +403,7 @@ Das sind Operationen auf Mengen
 dergestalt, dass die Art von Elementen,
 
 00:08:04,700 --> 00:08:12,590
-die in Ergebnismenge drin sind, Elemente
+die in der Ergebnismenge drin sind, Elemente
 aus den Ursprungsmengen A und/oder B wären.
 
 00:08:12,590 --> 00:08:15,650
@@ -411,14 +411,14 @@ Dann gibt es eine weitere Operation,
 
 00:08:15,650 --> 00:08:18,590
 das sogenannte Kreuzprodukt
-oder "kartesische Produkt".
+oder "kartesisches Produkt".
 
 00:08:18,590 --> 00:08:20,990
 Da ändert sich die Struktur der Elemente.
 
 00:08:20,990 --> 00:08:25,025
 Also in der Ergebnismenge sind andere Arten
-von Elemente als in der Ursprungsmenge.
+von Elementen als in der Ursprungsmenge.
 
 00:08:25,025 --> 00:08:30,341
 Nämlich nicht einfach die Elemente aus
@@ -433,7 +433,7 @@ Und zwar geordnete Paare derart, dass
 das erste Element, das linke Element
 
 00:08:42,050 --> 00:08:47,090
-des Paars, immer aus der Menge A kommt, und
+des Paares immer aus der Menge A kommt, und
 das rechte Element immer aus der Menge B.
 
 00:08:47,090 --> 00:08:50,320
@@ -467,7 +467,7 @@ und B als das Produkt der Anzahlen der
 Elemente dieser beiden Einzelmengen.
 
 00:09:29,140 --> 00:09:32,680
-Weil wir jedes Element aus diese Menge mit
+Weil wir jedes Element aus dieser Menge mit
 jedem Element aus dieser paaren können.
 
 00:09:32,680 --> 00:09:37,540
@@ -505,7 +505,7 @@ aus dieser leeren Menge kommen soll
 (in der ja gar nichts drin ist).
 
 00:10:05,830 --> 00:10:13,320
-Dies hatte ich gerade schon gesagt:
+Das hatte ich gerade schon gesagt:
 
 00:10:13,320 --> 00:10:18,120
 Für endliche Mengen gilt, dass die Anzahl
@@ -532,7 +532,7 @@ Menge C die gleiche Art Beziehung gilt.
 
 00:10:43,680 --> 00:10:49,740
 Und zwar egal, ob ich die Menge C von rechts beim
-Kreuzprodukt dran multipliziere oder von links.
+Kreuzprodukt dranmultipliziere oder von links.
 
 00:10:54,660 --> 00:10:57,600
 Das sind einfach Verträglichkeitseigenschaften
@@ -590,7 +590,7 @@ n = 4, n = 5 gibt es noch
 spezielle Bezeichnungen dafür.
 
 00:11:58,050 --> 00:12:03,180
-Natürlich sind Tupel nicht das gleiche wie Mengen.
+Natürlich sind Tupel nicht das Gleiche wie Mengen.
 
 00:12:03,180 --> 00:12:04,050
 Also wirklich wichtig:
@@ -609,7 +609,7 @@ und die Menge \{1,3,2\} aufgeschrieben,
 
 00:12:16,800 --> 00:12:19,680
 jeweils in geschweiften Klammern
-geschrieben, das gleiche waren (das
+geschrieben, das Gleiche waren (das
 
 00:12:19,680 --> 00:12:23,790
 tauchte vor ein paar Folien auf),
@@ -620,7 +620,7 @@ Also das Tripel (1,2,3) ist echt
 verschieden vom Tripel (1,3,2),
 
 00:12:27,240 --> 00:12:30,030
-obwohl die gleiche Elemente auftreten.
+obwohl die gleichen Elemente auftreten.
 
 00:12:30,030 --> 00:12:32,610
 Aber sie tauchen eben in anderer Reihenfolge auf.
@@ -780,7 +780,7 @@ sehr viele Zustände gibt.
 
 00:15:42,950 --> 00:15:48,860
 Das ist eine Sache, die man vermeiden
-möchte gern, in der Modellierung letztlich.
+möchte, in der Modellierung letztlich.
 
 00:15:48,860 --> 00:16:00,680
 Zur Wiederholung dieser Notation, oder
@@ -859,7 +859,7 @@ Die können unabhängig voneinander leuchten:
 Es kann keine der beiden leuchten,
 
 00:17:20,490 --> 00:17:24,240
-oder dass die gelbe an, ist oder dass
+oder dass die gelbe an ist oder dass
 die rote an ist, oder dass beide an sind.
 
 00:17:25,770 --> 00:17:28,830
@@ -930,14 +930,14 @@ der Menge \{gelb, rot\} speichern wollen.
 
 00:18:28,860 --> 00:18:34,290
 Also unseren Zustandsraum, die Menge
-aller möglichen Zustände dieses Automaten,
+aller möglichen Zustände dieses Automaten.
 
 00:18:34,290 --> 00:18:40,110
 könnte man ansehen als das kartesische
-Produkt aus der Potenzmenge der Menge \{gelb,
+Produkt aus der Potenzmenge der Menge {gelb,
 
 00:18:40,110 --> 00:18:42,720
-rot\} (das ist eine Menge von zwei Farben einfach)
+rot} (das ist eine Menge von zwei Farben einfach).
 
 00:18:42,720 --> 00:18:46,880
 und in den beiden anderen Komponenten
@@ -952,7 +952,7 @@ Potenzmenge ist, würde man so interpretieren:
 
 00:19:00,260 --> 00:19:04,490
 Das ist der Zustand, in dem beide
-Warnleuchten ausgeschaltet sind
+Warnleuchten ausgeschaltet sind.
 
 00:19:04,490 --> 00:19:11,180
 (weil hier ja die leere Menge steht), und es
@@ -964,10 +964,10 @@ Leuchten angeschaltet gesehen, dann würde
 
 00:19:23,960 --> 00:19:28,803
 man einfach in der ersten Komponente statt
-der leeren Menge eben die volle Menge \{gelb,
+der leeren Menge eben die volle Menge {gelb,
 
 00:19:28,803 --> 00:19:36,950
-rot\} haben, die auch Teilmenge dieser Menge
+rot} haben, die auch Teilmenge dieser Menge
 ist, mithin Element dieser Potenzmenge ist.
 
 00:19:41,210 --> 00:19:41,720
@@ -999,7 +999,7 @@ Da würde man wegen des Kreuzprodukts die
 Multiplikation der Anzahl dieser Elemente,
 
 00:20:05,390 --> 00:20:08,510
-der Anzahl dieser Elemente, und
+der Anzahl dieser Elemente und
 der Anzahl dieser Elemente kriegen.
 
 00:20:08,510 --> 00:20:12,650
@@ -1059,7 +1059,7 @@ Bei der Kurvendiskussion
 macht man was mit Funktionen.
 
 00:21:11,540 --> 00:21:15,050
-Aber es gibt auch den allgemeinen Funktionsbegriff
+Aber es gibt auch den allgemeinen Funktionsbegriff,
 
 00:21:15,050 --> 00:21:17,450
 für beliebige Mengen und nicht
@@ -1142,14 +1142,14 @@ angeben, also wie a abgebildet wird auf f(a).
 
 00:22:48,900 --> 00:22:55,530
 Zum Beispiel "a zum Quadrat" könnte man auch so
-angeben statt durch diese y=f(x) Schreibweise.
+angeben statt durch diese y=f(x)-Schreibweise.
 
 00:22:55,530 --> 00:22:59,790
 Ein Beispiel:
 
 00:22:59,790 --> 00:23:02,700
 Die Quadratfunktion auf der Menge
-der ganzen Zahlen, würde man sagen,
+der ganzen Zahlen würde man sagen,
 
 00:23:02,700 --> 00:23:05,940
 das ist eine Abbildung von den ganzen
@@ -1242,7 +1242,7 @@ Das heißt, die Kanten werden Tripel sein, in denen
 die erste Komponente ein Knoten ist, die zweite
 
 00:24:53,500 --> 00:24:58,060
-Komponente ein Element der Beschriftungsmenge,
+Komponente ein Element der Beschriftungsmenge
 und die dritte Komponente ein weiterer Knoten.
 
 00:24:58,060 --> 00:25:01,060
@@ -1322,7 +1322,7 @@ Wie sieht es mit leeren Mengen aus?
 Unendlich hatte ich schon besprochen.
 
 00:26:15,085 --> 00:26:26,900
-Was man haben kann ist, dass die Knotenmenge zwar
+Was man haben kann, ist, dass die Knotenmenge zwar
 nicht leer ist, aber die Kantenmenge leer ist.
 
 00:26:26,900 --> 00:26:31,430
@@ -1330,7 +1330,7 @@ Das wäre ein trivialer Graph, in dem es nur
 Knoten gibt und keine Kanten dazwischen.
 
 00:26:31,430 --> 00:26:37,520
-Was nicht sein kann ist, dass die Knotenmenge
+Was nicht sein kann, ist, dass die Knotenmenge
 leer ist, aber die Kantenmenge nicht.
 
 00:26:37,520 --> 00:26:48,560
@@ -1376,12 +1376,12 @@ Das ist eine Menge von Tripeln, wobei
 jeweils die erste Komponente aus V kommt,
 
 00:27:43,250 --> 00:27:47,060
-die zweite Komponente aus L,
+die zweite Komponente aus L
 und die dritte Komponente aus V.
 
 00:27:47,060 --> 00:27:53,210
 Und das können wir natürlich dann auch
-darstellen bildhaft als dieser Graph,
+darstellen, bildhaft als dieser Graph,
 
 00:27:53,210 --> 00:27:56,990
 den wir weiter vorn in der
@@ -1399,7 +1399,7 @@ Wir würden dann wirklich Bilder haben,
 
 00:28:14,880 --> 00:28:22,170
 sei es mit Fotos da drin oder diesen Knoten
-mit den jeweils Beschriftungen aus der Menge V.
+mit den jeweiligen Beschriftungen aus der Menge V.
 
 00:28:22,170 --> 00:28:23,940
 Aber wichtig ist:
@@ -1427,7 +1427,7 @@ Knoten- und Kantenmenge mit diesem Zusammenhang.
 
 00:28:48,300 --> 00:28:57,330
 Also genau genommen sind diese drei
-Mengen zusammen angegeben der Graph.
+Mengen zusammen der Graph.
 
 00:28:57,330 --> 00:29:01,110
 Und das hier unten ist

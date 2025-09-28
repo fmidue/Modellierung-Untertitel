@@ -160,7 +160,7 @@ ein Token dann für einen konkreten
 Plan steht, also für ein Objekt.
 
 00:02:57,600 --> 00:03:02,460
-Etwas das auch vielleicht mit einem Klassen-
+Etwas, das auch vielleicht mit einem Klassen-
 und Objektdiagramm in Beziehung steht.
 
 00:03:02,460 --> 00:03:04,830
@@ -385,7 +385,7 @@ Also aus diesem Objektknoten würde im Petrinetz
 eine Stelle, und die hat dann auch einen Namen.
 
 00:06:53,640 --> 00:06:57,360
-Es ist also nicht nur ein Hilfsstelle,
+Es ist also nicht nur eine Hilfsstelle,
 es ist eine richtige benannte Stelle.
 
 00:06:57,360 --> 00:06:59,910
@@ -710,7 +710,7 @@ wie wir ja schon beschrieben hatten
 auf einer Folie (wie aus diesem Teil
 
 00:12:57,540 --> 00:13:03,330
-des Aktivitätsdiagrammes ein Petrinetz-Teil wird),
+des Aktivitätsdiagramms ein Petrinetz-Teil wird),
 
 00:13:03,330 --> 00:13:04,710
 da wurde das zu einer Stelle.
@@ -739,7 +739,7 @@ Einige Anmerkungen möchte
 ich machen an dieser Stelle.
 
 00:13:38,430 --> 00:13:41,070
-Das hatte ich genaugenommen jetzt schon
+Das hatte ich genau genommen jetzt schon
 mehrfach gesagt.
 
 00:13:41,070 --> 00:13:46,230
@@ -762,7 +762,7 @@ die in dem Aktivitätsdiagramm gar nicht sichtbar
 waren, weil da andere Elemente drin vorkommen.
 
 00:14:03,960 --> 00:14:08,760
-O.k. das hatte ich auch gerade schon angedeutet.
+O.k., das hatte ich auch gerade schon angedeutet.
 
 00:14:08,760 --> 00:14:12,990
 Also das, was da gerade in diesen eckigen
@@ -792,7 +792,7 @@ Aber die sollten sich logisch nicht überlappen.
 
 00:14:36,510 --> 00:14:38,640
 Also es macht Sinn, sowas wie
-"angenommen", "nicht angenommen" zu haben.
+"angenommen", "nicht angenommen", zu haben.
 
 00:14:38,640 --> 00:14:41,760
 Weil das genau gegenteilige Aussagen sind,
@@ -810,7 +810,7 @@ passenden Ausgang zu wählen.
 
 00:14:54,810 --> 00:14:59,070
 Aber das ist nicht mehr Teil
-des Aktivitätsdiagrammes,
+des Aktivitätsdiagramms,
 
 00:14:59,070 --> 00:15:04,920
 das näher auszuführen, wie
@@ -830,7 +830,7 @@ von diesen Objekten Bezug nehmen.
 
 00:15:17,250 --> 00:15:18,750
 Vielleicht irgendwelche
-Booleschen Bedingungen überprüfen.
+booleschen Bedingungen überprüfen.
 
 00:15:18,750 --> 00:15:20,880
 Aber das werden wir so detailliert nicht machen,
@@ -895,7 +895,7 @@ Das wäre ja relevant, wenn
 man so ein Aktivitätsdiagramm
 
 00:16:22,140 --> 00:16:24,690
-nutzen wollte, um quantitative Aussagen treffen.
+nutzen wollte, um quantitative Aussagen zu treffen.
 
 00:16:24,690 --> 00:16:26,520
 Das werden wir aber auch nicht tun.
@@ -931,12 +931,12 @@ Im Petrinetz wären das einfach
 wieder Stellen (die NICHT als Hilfsstellen zählen).
 
 00:16:57,150 --> 00:17:03,780
-Hier ist es ja auch so, dass wenn ich eine
+Hier ist es ja auch so, dass, wenn ich eine
 Stelle habe und es gibt aus zwei verschiedenen
 
 00:17:03,780 --> 00:17:06,990
 Richtungen jeweils einen
-Pfeil von Transitionen da hin, dann kann es eben sein,
+Pfeil von Transitionen dahin, dann kann es eben sein,
 
 00:17:06,990 --> 00:17:10,980
 dass in diesem Fall von links ein Token
@@ -958,7 +958,7 @@ für Weiter-/Fortführung dann in
 diesem Teil des Petrinetzes dienen.
 
 00:17:33,630 --> 00:17:40,870
-O.k. natürlich in der Nachbedingung
+O.k., natürlich in der Nachbedingung
 verschiedener Transitionen.
 
 00:17:41,410 --> 00:17:44,470
@@ -979,7 +979,7 @@ Verzweigungs- oder Verbindungsknoten.
 
 00:18:05,590 --> 00:18:09,520
 Es gibt auch sozusagen den gemeinsamen Fall,
-wo wir so einen Diamant haben, indem vielleicht
+wo wir so einen Diamanten haben, in dem vielleicht
 
 00:18:09,520 --> 00:18:12,055
 zum Beispiel zwei Eingänge
@@ -1055,7 +1055,7 @@ Also, das ist eine Stelle, an der ein
 Kontroll- oder Objektfluss in mehrere
 
 00:19:30,280 --> 00:19:33,490
-parallelen Flüsse aufgeteilt
+parallele Flüsse aufgeteilt
 wird: parallel, nebenläufig.
 
 00:19:33,490 --> 00:19:36,250
@@ -1125,7 +1125,7 @@ Und das Gleiche könnte hier
 im rechten Fluss passieren.
 
 00:20:42,690 --> 00:20:48,810
-O.k., das sind wieder solche unbenannte
+O.k., das sind wieder solche unbenannten
 Transitionen, die kriegen keinen Namen.
 
 00:20:48,810 --> 00:20:54,105
@@ -1154,7 +1154,7 @@ sind, wieder zusammengeführt werden.
 
 221 # slide
 00:21:21,870 --> 00:21:31,470
-Also Vereinigungen oder "join node" das wäre, wo
+Also Vereinigungen oder "join node", das wäre, wo
 mehrere parallele Flüsse zusammengeführt werden.
 
 00:21:31,470 --> 00:21:33,240
@@ -1172,11 +1172,11 @@ sind, wieder verschmelzen müssen.
 Und wie können wir das tun?
 
 00:21:42,060 --> 00:21:47,040
-Na mit einer Transition, die zwei Stellen in
+Na, mit einer Transition, die zwei Stellen in
 der Vorbedingung statt in der Nachbedingung hat.
 
 00:21:47,040 --> 00:21:55,830
-Also diese Art Darstellung im Aktivitätsdiagramm
+Also diese Art der Darstellung im Aktivitätsdiagramm
 entspräche so einer Situation in einem Petrinetz.
 
 00:21:55,830 --> 00:22:04,290
@@ -1214,7 +1214,7 @@ Da taucht sowas ja genau auf.
 
 00:22:34,410 --> 00:22:40,950
 Also in unserem Beispiel-Aktivitätsdiagramm war
-es ja so, dass hieraus einer Transition wird und
+es ja so, dass hieraus eine Transition wird und
 
 00:22:40,950 --> 00:22:45,060
 hieraus auch eine Transition wird,
@@ -1222,7 +1222,7 @@ weil das eben mit Aktionen und
 
 00:22:45,060 --> 00:22:49,590
 Synchronisationsknoten/Vereinigungsknoten
-in Aktivitätsdiagramm so ist.
+im Aktivitätsdiagramm so ist.
 
 00:22:49,590 --> 00:22:52,650
 Dann muss es eben dazwischen hier
@@ -1230,7 +1230,7 @@ noch eine Hilfsstelle geben.
 
 00:22:52,650 --> 00:23:00,660
 O.k., und wie bei den Verbindungs-
-und Verzweigungsknoten, kann es
+und Verzweigungsknoten kann es
 
 00:23:00,660 --> 00:23:03,000
 auch bei den Vereinigungen und Gabelungen so sein,
@@ -1271,7 +1271,7 @@ dass Vereinigungen dann auftreten,
 wenn es vorher auch Gabelungsknoten gab.
 
 00:23:43,440 --> 00:23:48,030
-Also, das ist jetzt in dem Beispiel
+Also das ist jetzt in dem Beispiel
 auch kein Zufall, dass sozusagen dieser
 
 00:23:48,030 --> 00:23:50,730
@@ -1279,7 +1279,7 @@ und dieser Balken irgendwie zusammengehören.
 
 00:23:50,730 --> 00:23:54,900
 Also dieser Balken konsumiert
-genau die aufgespalten Flüsse,
+genau die aufgespaltenen Flüsse,
 
 00:23:54,900 --> 00:23:57,090
 die hier oben entstanden sind.
@@ -1338,7 +1338,7 @@ damit überhaupt ein
 Fluss zustande kommen kann.
 
 00:24:57,810 --> 00:25:03,120
-Wie viel Token liegen da?
+Wie viele Token liegen da?
 
 00:25:03,120 --> 00:25:03,930
 Wie viele Marken liegen da?
@@ -1365,7 +1365,7 @@ nach rechts in Gang bringen kann,
 
 00:25:23,250 --> 00:25:25,980
 also eine Transition schalten kann,
-die hier rechts stehen würden,
+die hier rechts stehen würde,
 
 00:25:25,980 --> 00:25:29,010
 entsprechend irgendwelche
@@ -1387,7 +1387,7 @@ Also eine Stelle mit so vielen
 Marken wie aus dem Startknoten
 
 00:25:46,230 --> 00:25:49,080
-des Aktivitätsdiagramm ausgehende Pfeile.
+des Aktivitätsdiagramms ausgehende Pfeile.
 
 00:25:49,080 --> 00:25:59,100
 O.k., dann gibt es so eine Regel, dass
@@ -1413,7 +1413,7 @@ Aktivitätsdiagramm zum Hausbau haben wollen,
 dann würden wir einen Startknoten haben.
 
 00:26:19,440 --> 00:26:27,360
-Der setzt sozusagen eine Aktion in Gang und aus
+Der setzt sozusagen eine Aktion in Gang, und aus
 dieser Aktion kann dann ein Objekt entstehen,
 
 00:26:27,360 --> 00:26:29,580
@@ -1427,7 +1427,7 @@ zu Objektknoten gibt es in
 Aktivitätsdiagrammen nicht.
 
 00:26:37,560 --> 00:26:41,550
-Was erlaubt ist, ist dass es mehrere Startknoten
+Was erlaubt ist, ist, dass es mehrere Startknoten
 in einem Aktivitätsdiagramm gibt.
 
 00:26:42,750 --> 00:26:47,880
@@ -1462,7 +1462,7 @@ gleich zu Beginn Aktionen/Transitionen feuern.
 
 00:27:16,470 --> 00:27:21,660
 O.k., und dann muss es auch
-noch was für das Ende geben.
+noch etwas für das Ende geben.
 
 00:27:22,740 --> 00:27:24,540
 Zum Start gehört auch ein Ende.
@@ -1516,12 +1516,12 @@ Was in Petrinetzen eher passiert, ist das, was
 dem Flussende in Aktivitätsdiagrammen entspricht.
 
 00:28:19,050 --> 00:28:23,970
-Nämlich das frisst sozusagen nur den
+Nämlich, das frisst sozusagen nur den
 in es hineinlaufenden Kontrollfluss.
 
 00:28:23,970 --> 00:28:30,900
 Das entspräche einer Transition, die
-nur eingehende aber keine ausgehende Kanten hat.
+nur eingehende, aber keine ausgehenden Kanten hat.
 
 00:28:30,900 --> 00:28:34,710
 Die frisst also Token, die hineinlaufen,
@@ -1546,7 +1546,7 @@ ob es überhaupt einen Unterschied zwischen
 diesen beiden möglichen Enden gibt.
 
 00:28:54,960 --> 00:29:00,570
-Also in dem Beispiel, was ich hier hatte, hatte
+Also in dem Beispiel, das ich hier hatte, hatte
 ich zwar dieses Aktivitätsende benutzt als Symbol.
 
 00:29:00,570 --> 00:29:02,430
@@ -1611,7 +1611,7 @@ weil es ja gerade eben Positionen sein sollen,
 
 00:30:11,820 --> 00:30:14,820
 wo ein Fluss endet und nicht
-irgendwie noch etwas weiter geht.
+irgendwie noch etwas weitergeht.
 
 00:30:14,820 --> 00:30:20,940
 O.k., wie wir das umsetzen,
@@ -1621,7 +1621,7 @@ können wir direkt gleich mal in dem Beispiel-Petrinetz
 sehen, für das Hausbau-Beispiel.
 
 00:30:25,830 --> 00:30:32,310
-Also das war unser Hausbau-Aktivitätsdiagramm.
+Also, das war unser Hausbau-Aktivitätsdiagramm.
 
 00:30:32,310 --> 00:30:36,450
 Und wir haben jetzt tatsächlich für alle darin
@@ -1636,7 +1636,7 @@ Da hatte ich gerade nur angedeutet,
 das wird in der Regel irgendwie
 
 00:30:46,380 --> 00:30:50,400
-entweder eine Stelle sein, in der ein Token zwar
+entweder eine Stelle sein, an der ein Token zwar
 landet, aber es dann von da aus nicht weitergeht,
 
 00:30:50,400 --> 00:30:53,910
@@ -1661,7 +1661,7 @@ Aktivitätsdiagramm dargestellt werden sollte.
 
 00:31:14,250 --> 00:31:19,230
 Das wäre im Wesentlichen einfach ein
-Uusammenbasteln der Bestandteile,
+Zusammenbasteln der Bestandteile,
 
 00:31:19,230 --> 00:31:23,430
 die wir jetzt für einzelne Auszüge
@@ -1723,7 +1723,7 @@ Sondern es muss eine Hilfsstelle eingeführt
 werden, und genau das sehen wir hier.
 
 00:32:32,710 --> 00:32:34,630
-Also das entspräche dem Gabelungsknoten.
+Also, das entspräche dem Gabelungsknoten.
 
 00:32:34,630 --> 00:32:37,240
 Das entspricht dem. Diese beiden Transitionen
@@ -1851,7 +1851,7 @@ Für die werde ich aber nicht jeweils immer
 eine volle Übersetzung in Petrinetze angeben.
 
 00:35:00,220 --> 00:35:05,920
-Sie müssen dann natürlich auch in Übung
+Sie müssen dann natürlich auch in der Übung
 oder Klausur nur Aktivitätsdiagramme in
 
 00:35:05,920 --> 00:35:09,430
@@ -1904,7 +1904,7 @@ Aussage an einem Objektknoten.
 
 00:35:53,770 --> 00:35:59,620
 Es gibt auch quantitative Aussagen an den
-Übergängen. Da kann ein Gewicht dran stehen.
+Übergängen. Da kann ein Gewicht dranstehen.
 
 00:35:59,620 --> 00:36:04,420
 Und das entspricht dann auch genau dem
@@ -2091,7 +2091,7 @@ Und dann kann man diese Darstellung mit solch
 einer Zerlegung der Ebene in mehrere Bereiche
 
 00:39:13,130 --> 00:39:18,380
-nutzen denen dann eben diese Elemente zugeordnet
+nutzen, denen dann eben diese Elemente zugeordnet
 werden, um diese Verantwortlichkeiten auszudrücken.
 
 00:39:18,380 --> 00:39:22,220
@@ -2144,7 +2144,7 @@ Es ist also mehr eine Art Dokumentation,
 wer für welche Aktion verantwortlich ist.
 
 00:40:07,790 --> 00:40:11,750
-An der Reihenfolge des Schaltens, oder
+An der Reihenfolge des Schaltens oder
 welche Schaltvorgänge möglich sind,
 
 00:40:11,750 --> 00:40:13,970
@@ -2153,14 +2153,14 @@ sind, ändert das nichts.
 
 00:40:13,970 --> 00:40:18,230
 Es hat wenig Einfluss auf die Semantik
-des Aktivitätsdiagrammes oder auf
+des Aktivitätsdiagramms oder auf
 
 00:40:18,230 --> 00:40:21,560
 die Schaltfolgen in einem übersetzten Petrinetz.
 
 228 # slide
 00:40:21,560 --> 00:40:30,140
-O.k., und dann gibt noch diverse weitere Elemente,
+O.k., und dann gibt es noch diverse weitere Elemente,
 
 00:40:30,140 --> 00:40:32,750
 die ich Ihnen nicht
@@ -2179,17 +2179,17 @@ Es gibt diverse weitere Elemente, die
 jeweils ihre eigene Darstellung haben,
 
 00:40:45,680 --> 00:40:49,910
-die in unseren Beispielen nicht auftrat
-und auch nicht auftreten wird.
+die in unseren Beispielen nicht auftraten
+und auch nicht auftreten werden.
 
 00:40:49,910 --> 00:40:56,660
 Das ist nur so als eine Aufzählung nochmal, damit
-Ihnen klar ist, dass UML Aktivitätsdiagramme
+Ihnen klar ist, dass UML-Aktivitätsdiagramme
 
 00:40:56,660 --> 00:41:01,460
-noch mehr Variantenreichtum haben
+noch mehr Variantenreichtum haben,
 als wir hier schon gesehen haben.
 
 00:41:01,460 --> 00:41:06,020
 Und auf jeden Fall mehr als Petrinetze,
-wo es ja nur Stellen und Transitionen gab.
+wo es ja nur Stellen und Transitionen gab."

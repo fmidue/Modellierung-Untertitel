@@ -29,7 +29,7 @@ Deswegen ist hier die Definition formuliert
 für irgendwelche Transitionen t1 bis tn.
 
 00:00:36,240 --> 00:00:41,910
-Also wir betrachten eine Teilmenge
+Also, wir betrachten eine Teilmenge
 T' der Menge T aller Transitionen.
 
 00:00:41,910 --> 00:00:44,790
@@ -45,7 +45,7 @@ bestimmte Markierung nebenläufig aktiviert.
 
 00:00:51,120 --> 00:00:57,030
 Das ist auch ein Unterschied zu vorher,
-nämlich dass die Kausalität sich immer
+nämlich, dass die Kausalität sich immer
 
 00:00:57,030 --> 00:01:01,260
 einfach auf zwei Transitionen bezieht,
@@ -124,7 +124,7 @@ kleiner-gleich sein muss zum Eintrag auf der
 rechten Seite an der entsprechenden Stelle.
 
 00:02:17,870 --> 00:02:20,720
-Also es geht nicht darum, irgendwie
+Also, es geht nicht darum, irgendwie
 alle Marken insgesamt zu zählen,
 
 00:02:20,720 --> 00:02:22,820
@@ -162,7 +162,7 @@ der Unterschied zur Kausalität.
 
 00:03:01,100 --> 00:03:08,270
 Wenn wir nochmal auf ein Beispiel aus dem
-vorherigen Video zur Kausalität schauen, da hatte
+vorherigen Video zur Kausalität schauen, da hatten
 
 00:03:08,270 --> 00:03:13,220
 wir dieses Beispiel und zum Beispiel beobachtet,
@@ -173,7 +173,7 @@ In dem Sinne, dass wir sequenziell
 eine Abhängigkeit hatten.
 
 00:03:22,730 --> 00:03:28,190
-Also t4 konnte, wenn wir so begannen mit
+Also, t4 konnte, wenn wir so begannen mit
 diesem Petrinetz, nie geschaltet werden,
 
 00:03:28,190 --> 00:03:29,780
@@ -215,7 +215,7 @@ Erreichbarkeitsgraphen angeschaut.
 
 00:03:58,670 --> 00:04:04,400
 Und da war das Argument, zum Beispiel
-dafür dass t4 von t1 abhängt,
+dafür, dass t4 von t1 abhängt,
 
 00:04:04,400 --> 00:04:06,380
 dass t1 eine notwendige Bedingung für t4 ist.
@@ -225,7 +225,7 @@ Dass wir nie t4 ausführen können, wenn
 wir nicht vorher auch t1 ausgeführt haben.
 
 00:04:10,220 --> 00:04:12,290
-Also auch da ging es um sequenzielle Reihenfolgen.
+Also, auch da ging es um sequenzielle Reihenfolgen.
 
 00:04:12,290 --> 00:04:17,660
 Hingegen t2, t3 hatten eben keine
@@ -305,7 +305,7 @@ von dieser Markierung ausgehend t2 und t3 im
 
 00:05:33,050 --> 00:05:36,710
 Grunde parallel sind bzw. nebenläufig
-sind, und gleichzeitig feuern könnten,
+sind und gleichzeitig feuern könnten,
 
 00:05:36,710 --> 00:05:40,640
 wenn wir das nicht so sequenziell als
@@ -331,7 +331,7 @@ eben schon von gleichzeitigem Schalten sprechen.
 Wichtig auch:
 
 00:06:08,720 --> 00:06:10,490
-Wir haben uns das grade in einem
+Wir haben uns das gerade in einem
 Erreichbarkeitsgraphen angeschaut,
 
 00:06:10,490 --> 00:06:16,040
@@ -366,11 +366,11 @@ Okay, dann kann man hier noch
 eine Beobachtung treffen,
 
 00:06:37,060 --> 00:06:41,770
-die sehr naheliegend ist schon aus
+die sehr naheliegend ist, schon aus
 dem intuitiven Verständnis heraus.
 
 00:06:41,770 --> 00:06:47,650
-Nämlich, dass wenn wir solch eine Menge von
+Nämlich, dass, wenn wir solch eine Menge von
 Transitionen haben, deren Elemente für eine
 
 00:06:47,650 --> 00:06:55,540
@@ -379,7 +379,7 @@ dann auch für jede Teilmenge von T' gilt.
 
 00:06:55,540 --> 00:06:58,870
 Also wir suchen natürlich
-potentiell immer große Mengen,
+potenziell immer große Mengen,
 
 00:06:58,870 --> 00:07:00,970
 die gleichzeitig nebenläufig aktiviert sind.
@@ -458,7 +458,7 @@ Okay, ein erstes Beispiel.
 
 00:08:15,520 --> 00:08:20,710
 Und tatsächlich ist das das Petrinetz,
-das wir auch schon bei der Kausalität
+das wir auch schon bei der Kausalität.
 
 00:08:20,710 --> 00:08:24,400
 betrachtet hatten, und auf das ich
@@ -472,7 +472,7 @@ hier t2 und t3 nebenläufig aktiviert sind.
 Allerdings nicht in der Ausgangskonstellation.
 
 00:08:33,550 --> 00:08:42,040
-Also es ist nicht sinnvoll zu behaupten, dass
+Also ist es nicht sinnvoll zu behaupten, dass
 hier t2 und t3 nebenläufig aktiviert seien.
 
 00:08:42,040 --> 00:08:44,410

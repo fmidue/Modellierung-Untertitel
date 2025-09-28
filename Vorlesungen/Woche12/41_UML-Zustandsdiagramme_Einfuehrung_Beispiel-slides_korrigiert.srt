@@ -418,7 +418,7 @@ eine sehr einfache Armbanduhr.
 
 00:08:06,070 --> 00:08:10,090
 Sie hat eine Anzeige, einen
-Alarm, und zwei Knöpfe.
+Alarm und zwei Knöpfe.
 
 00:08:10,090 --> 00:08:13,540
 Was soll hier die Intuition sein?
@@ -449,7 +449,7 @@ Also, es gibt diese Uhr.
 Sie hat zwei Knöpfe, 'a' und 'b', links und rechts.
 
 00:08:32,290 --> 00:08:33,850
-Und Sie hat zwei Modi.
+Und sie hat zwei Modi.
 
 00:08:33,850 --> 00:08:37,150
 Sie kann in einem sogenannten
@@ -482,7 +482,7 @@ der Knöpfe an- und ausschalten,
 
 00:08:59,770 --> 00:09:04,180
 also wechseln zwischen den
-"an" und "aus" Situationen.
+"an" und "aus"-Situationen.
 
 00:09:06,010 --> 00:09:09,250
 Zum Wechsel ist dieser Knopf "a" gedacht.
@@ -536,7 +536,7 @@ Wir sind in der Alarmanzeige
 und der Alarm ist aktuell an,
 
 00:09:53,852 --> 00:09:57,790
-und wir drücken 'b'. Dann sind wir immer
+und wir drücken "b". Dann sind wir immer
 noch in der Alarmanzeigen-Darstellung,
 
 00:09:57,790 --> 00:09:59,080
@@ -644,7 +644,7 @@ Drücken von "a" entweder hier oder hier landen.
 Und zwar je nachdem, ob wir beim letzten Mal,
 
 00:11:35,390 --> 00:11:40,250
-als wir in der Alarm-Darstellung waren,
+als wir in der Alarmdarstellung waren,
 den Alarm an- oder ausgemacht haben,
 
 00:11:40,250 --> 00:11:42,080
@@ -715,9 +715,10 @@ Das möchten wir nicht.
 Also suchen wir nach einer
 kompakteren Darstellung.
 
+
 00:12:48,140 --> 00:12:59,150
 Und das wird eben analog zu dem Beispiel von Harel
-über ein UML-Zustandsdiagramme realisiert werden,
+über ein UML-Zustandsdiagramm realisiert werden.
 
 00:12:59,150 --> 00:13:01,940
-in den folgenden Videos.
+In den folgenden Videos.

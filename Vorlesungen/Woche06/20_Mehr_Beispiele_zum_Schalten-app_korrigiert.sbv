@@ -12,7 +12,7 @@ auf der Folie nicht zu sehen waren.
 
 0:00:16.590,0:00:24.870
 Etwa, dass es durchaus möglich ist, dass
-auf einer Stelle mehr als eine Marke liegt.
+an einer Stelle mehr als eine Marke liegt.
 
 0:00:24.870,0:00:28.200
 Und man sich dann auch fragen kann, was
@@ -79,7 +79,7 @@ muss eine Stelle nicht leeren.
 
 0:01:33.690,0:01:39.090
 Es werden einfach so viele Marken
-konsumiert wie die Eingangspfeile verlangen.
+konsumiert, wie die Eingangspfeile verlangen.
 
 0:01:39.960,0:01:45.840
 Deswegen wäre in diesem Fall
@@ -243,7 +243,7 @@ entnehmen, und die obere Transition
 schalten und diese Marke entnehmen.
 
 0:04:22.090,0:04:23.860
-Dann wären die beide möglich gewesen.
+Dann wären beide möglich gewesen.
 
 0:04:23.860,0:04:27.760
 Und obwohl wir diese eine Marke
@@ -254,7 +254,7 @@ ist das System nicht notwendigerweise tot.
 
 0:04:29.320,0:04:32.860
 Weil es zum Beispiel mit der
-oben vorhandenen Marke jetzt
+oben vorhandenen Marke jetzt.
 
 0:04:32.860,0:04:37.120
 weiter entsprechend arbeiten und schalten könnte.
@@ -267,7 +267,7 @@ die hier auftreten können.
 In dem Fall, klar:
 
 0:04:44.530,0:04:48.130
-Wenn ich jetzt mich entscheiden
+Wenn ich mich jetzt entscheiden
 würde, mit der Marke runterzugehen,
 
 0:04:48.130,0:04:52.270
@@ -311,7 +311,7 @@ genau um eine Marke pro Stelle gehen muss.
 
 0:05:37.300,0:05:42.850
 Betrachten wir mal eine Situation, wo ich diese
-beiden Marken entferne, so dass ich die gleiche
+beiden Marken entferne, sodass ich die gleiche
 
 0:05:42.850,0:05:50.650
 Ausgangssituation wie ganz am Anfang habe, aber
@@ -321,7 +321,7 @@ zum Beispiel stünde an diesem Pfeil hier eine 2.
 Damit ist dann gemeint, dass wenn diese Transition
 
 0:05:55.060,0:06:01.030
-schaltet, und sie entsprechende Marken aus
+schaltet und sie entsprechende Marken aus
 den Vorbedingungsstellen entnommen hat,
 
 0:06:01.030,0:06:06.070
@@ -357,7 +357,7 @@ oben jeweils eine Marke hatten und hinterher wegen
 
 0:06:46.880,0:06:50.840
 dieser 2 hier unten links jetzt zwei Marken, dann
-sieht das aus als wäre eine Marke neu entstanden.
+sieht das aus, als wäre eine Marke neu entstanden.
 
 0:06:51.350,0:06:52.400
 Aber in Wirklichkeit ist es immer so:
@@ -378,7 +378,7 @@ Das ist eher zufällig dann so,
 wenn jede Transition genauso
 
 0:07:02.510,0:07:07.070
-viele eingehende wie ausgehende Pfeil hat und
+viele eingehende wie ausgehende Pfeile hat und
 nie irgendwo so eine Annotation hier steht.
 
 0:07:07.070,0:07:08.930
@@ -515,7 +515,7 @@ Weil hier nirgendwo eine Zahl größer 1 steht.
 Das heißt, dann wäre ein möglicher Ablauf:
 
 0:10:08.790,0:10:13.170
-Hier diese Marke verschwindet,
+Hier verschwindet diese Marke,
 diese zwei Marken verschwinden,
 
 0:10:13.170,0:10:20.310
@@ -534,7 +534,7 @@ Und dann würde das früher oder später dazu
 führen, dass wir nicht mehr genug Marken haben.
 
 0:10:32.520,0:10:36.090
-Also wir könnten hier noch einmal
+Also könnten wir hier noch einmal
 schalten, hier noch einmal schalten.
 
 0:10:36.090,0:10:38.760
@@ -557,7 +557,7 @@ noch drei Marken im System.
 
 0:10:58.230,0:11:04.650
 Und dann könnten wir noch hier schalten,
-hier schalten, hier schalten zum Beispiel.
+hier schalten, hier schalten, zum Beispiel.
 
 0:11:04.650,0:11:10.110
 Und dann könnten wir nicht mehr weitermachen,
@@ -597,7 +597,7 @@ viele Marken mindestens sein.
 
 0:11:40.530,0:11:43.590
 Wenn es mehr sind, dann werden eben nur
-so viele konsumiert wie gebraucht werden.
+so viele konsumiert, wie gebraucht werden.
 
 0:11:43.590,0:11:45.990
 Wenn die Transition schalten kann, werden

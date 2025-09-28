@@ -1,5 +1,5 @@
 0:00:00.000,0:00:07.680
-Also ich wollte mit Ihnen
+Also, ich wollte mit Ihnen
 Nebenläufigkeit diskutieren.
 
 0:00:07.680,0:00:11.610
@@ -119,7 +119,7 @@ anders ist oder die Verschaltungen der
 Transitionen anders sind, ganz anders aussehen.
 
 0:02:15.640,0:02:18.820
-Also wenn wir etwa dieses gleiche Beispiel hätten,
+Also, wenn wir etwa dieses gleiche Beispiel hätten,
 
 0:02:18.820,0:02:26.500
 aber einen weiteren Pfeil hätten (also noch
@@ -144,7 +144,7 @@ dass t2 und t3 natürlich jeweils
 für sich genommen schaltbar sind.
 
 0:02:53.530,0:02:56.170
-Also t3 sowieso.
+Also, t3 sowieso.
 
 0:02:56.170,0:02:57.760
 Dieses t3 hat eine Vorbedingung.
@@ -191,7 +191,7 @@ neuen Angabe der Vorbedingungen (insbesondere,
 
 0:03:44.950,0:03:50.980
 dass t2 diese zweite Vorbedingung hat,
-die von S3 abhängt), nicht möglich,
+die von s3 abhängt), nicht möglich,
 
 0:03:50.980,0:03:55.840
 dass einfach beide Transitionen t2
@@ -244,7 +244,7 @@ Denn dann können die Vorbedingungen von
 t2 und t3 gleichzeitig erfüllt werden.
 
 0:04:58.270,0:05:02.530
-Also es kommt genau auf die jeweilige
+Also, es kommt genau auf die jeweilige
 Vorbedingung an und welche Marken vorhanden sind.
 
 0:05:09.100,0:05:15.760
@@ -255,7 +255,7 @@ Beispiel an, zunächst dieses.
 Was ist hier nebenläufig aktiviert?
 
 0:05:19.090,0:05:20.590
-Nun das ist sehr einfach, dieses Beispiel.
+Nun, das ist sehr einfach, dieses Beispiel.
 
 0:05:20.590,0:05:31.330
 Wir können faktisch sofort sehen, dass hier
@@ -266,7 +266,7 @@ Und zwar nebenläufig in dem Sinne,
 dass wir oben genau drei Marken haben
 
 0:05:35.980,0:05:43.390
-und genau jede eine davon eine der drei
+und genau jede davon eine der drei
 Transitionen glücklich machen könnte.
 
 0:05:43.390,0:05:50.020
@@ -329,7 +329,7 @@ einzelne dieser Transitionen feuern.
 Wir können auch zwei davon gleichzeitig feuern.
 
 0:07:02.200,0:07:03.880
-Ich darf nichts verdoppeln natürlich.
+Ich darf nichts verdoppeln, natürlich.
 
 0:07:03.880,0:07:07.660
 Also wenn ich die Marke entnehme,
@@ -347,7 +347,7 @@ Sie sind nebenläufig aktiviert, weil
 tatsächlich genug Marken da sind.
 
 0:07:22.510,0:07:25.870
-Das gleiche würde gelten
+Das Gleiche würde gelten
 für t1, t3 und für t2, t3.
 
 0:07:25.870,0:07:28.870
@@ -359,7 +359,7 @@ hier haben, mit nur zwei Marken oben,
 
 0:07:32.410,0:07:39.550
 die sorgt dafür, dass die Menge t1, t2
-und die Menge t2, t3 und die Menge t1 t3
+und die Menge t2, t3 und die Menge t1, t3
 
 0:07:39.550,0:07:44.890
 jeweils nebenläufig aktiviert sind, jedoch
@@ -405,11 +405,11 @@ und völlig unabhängig davon
 t3 diese Marke nehmen könnte.
 
 0:08:35.140,0:08:43.620
-Und dann tatsächlich hier wieder ein paralleler
-Durchgang durch t1 und t3 möglich wäre.
+Und dann wäre tatsächlich hier wieder ein paralleler
+Durchgang durch t1 und t3 möglich.
 
 0:08:43.620,0:08:47.430
-Dieses t2 wäre davon nicht betroffen,
+Dieses t2 wäre davon nicht betroffen
 und könnte auch nicht handeln,
 
 0:08:47.430,0:08:51.900
@@ -428,7 +428,7 @@ dass t2, t3 hier nebenläufig aktiviert sind.
 
 0:09:05.160,0:09:13.320
 Denn diese beiden Marken würden zu t2
-gehen können, und völlig unabhängig
+gehen können und völlig unabhängig
 
 0:09:13.320,0:09:18.030
 davon t3 diese Marke konsumieren können, und
@@ -492,7 +492,7 @@ Hier wäre es tatsächlich möglich, zu sagen:
 
 0:10:36.660,0:10:38.310
 Die Marke wandert hierhin, die Marke wandert
-dorthin, die Marke wandert hierhin, die
+dorthin, die Marke wandert hierhin, die.
 
 0:10:38.310,0:10:48.630
 Marke dorthin, die Marke wandert hierhin.
@@ -532,7 +532,7 @@ Das ist eine generelle Beobachtung bezüglich
 dieses Begriffs der nebenläufigen Aktivierung.
 
 0:11:47.670,0:11:56.490
-Dass wenn wir nebenläufig aktivierte
+Dass, wenn wir nebenläufig aktivierte
 Transitionen haben, dann jede beliebige
 
 0:11:56.490,0:11:59.250

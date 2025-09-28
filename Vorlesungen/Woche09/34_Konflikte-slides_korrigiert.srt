@@ -4,7 +4,7 @@ Kommen wir zur nächsten zu
 diskutierenden Eigenschaft in
 
 00:00:04,920 --> 00:00:07,890
-Petrinetzen, nämlich dem Begriff des Konfliktes.
+Petrinetzen, nämlich dem Begriff des Konflikts.
 
 00:00:07,890 --> 00:00:13,500
 Da geht es wieder um zwei Transitionen, welche
@@ -15,7 +15,7 @@ Das ist wieder relativ zu
 einer gegebenen Markierung.
 
 00:00:17,220 --> 00:00:19,440
-Also wir brauchen ein Petrinetz
+Also, wir brauchen ein Petrinetz
 mit einer bestimmten Markierung,
 
 00:00:19,440 --> 00:00:22,350
@@ -39,7 +39,7 @@ aktiviert sind, dies aber nur daran liegt, dass
 sie sich sozusagen irgendwie in die Quere kommen.
 
 00:00:41,700 --> 00:00:47,280
-Also es kann ja auch sein, dass t und
+Also, es kann ja auch sein, dass t und
 t' nicht nebenläufig aktiviert sind,
 
 00:00:47,280 --> 00:00:50,490
@@ -50,7 +50,7 @@ Transitionen selbst nicht aktiviert ist.
 Dann wäre es kein Konflikt.
 
 00:00:51,750 --> 00:00:57,150
-Also ein Konflikt heißt es für zwei
+Also, ein Konflikt heißt es für zwei
 Transitionen t, t', wenn sie beide
 
 00:00:57,150 --> 00:01:01,410
@@ -66,7 +66,7 @@ Weil sie in Konflikt stehen, bzw.
 dadurch wird ein Konflikt dann definiert.
 
 00:01:12,210 --> 00:01:18,780
-Also genau diese anschauliche Überlegung.
+Also, genau diese anschauliche Überlegung.
 
 00:01:18,780 --> 00:01:21,600
 Überprüft wird das dann eben
@@ -92,7 +92,7 @@ Die beiden Transitionen müssen mindestens eine
 gemeinsame Stelle in der Vorbedingung haben.
 
 00:01:43,310 --> 00:01:49,520
-Man kann sich überlegen, dass wann immer wir
+Man kann sich überlegen, dass, wann immer wir
 zwei in Konflikt stehende Transitionen haben,
 
 00:01:49,520 --> 00:01:53,300
@@ -100,7 +100,7 @@ es eine gemeinsame Stelle in
 den Vorbedingungen geben muss.
 
 00:01:53,300 --> 00:01:58,550
-Also es muss eine Stelle s geben, so
+Also, es muss eine Stelle s geben, so
 dass sowohl die Vorgewichtsfunktion für t
 
 00:01:58,550 --> 00:02:04,580
@@ -126,7 +126,7 @@ Das ist sozusagen wieder nur
 ein Indiz für einen Konflikt.
 
 00:02:22,100 --> 00:02:24,020
-Also einen Konflikt für t und
+Also, einen Konflikt für t und
 t' zu vermuten, ergibt nur Sinn,
 
 00:02:26,870 --> 00:02:30,080
@@ -134,14 +134,14 @@ wenn sie mindestens eine gemeinsame
 Stelle in den Vorbedingungen haben.
 
 00:02:30,080 --> 00:02:32,990
-Es stimmt nicht, dass sobald solch eine
+Es stimmt nicht, dass, sobald solch eine
 gemeinsame Stelle in den Vorbedingungen
 
 00:02:32,990 --> 00:02:35,930
 vorliegt, auch ein Konflikt vorliegen muss.
 
 00:02:35,930 --> 00:02:42,230
-Also zu überprüfen ist das Vorliegen
+Also ist zu überprüfen das Vorliegen
 eines Konfliktes immer mit der Definition.
 
 00:02:42,230 --> 00:02:53,570
@@ -157,7 +157,7 @@ Und zwar ist das ein Begriff wieder nur für Paare.
 
 00:03:02,840 --> 00:03:06,050
 Es gibt hier nur die Paare
-(t1,t2), (t2,t3) und (t1,t3),
+(t1, t2), (t2, t3) und (t1, t3),
 
 00:03:06,050 --> 00:03:08,420
 für die es sinnvoll ist, sich das zu fragen.
@@ -177,7 +177,7 @@ Das kann nur an dieser gemeinsamen Stelle liegen.
 Das ist die einzige gemeinsame Stelle.
 
 00:03:20,540 --> 00:03:23,120
-Also irgendwie könnte die
+Also, irgendwie könnte die
 für einen Konflikt sorgen.
 
 00:03:23,120 --> 00:03:24,350
@@ -211,7 +211,7 @@ das sind die beiden Pfeile hier) ist
 kleiner-gleich als die aktuelle Markierung.
 
 00:03:56,850 --> 00:04:01,890
-Die aktuelle Markierung hat (1,1,1,1)
+Die aktuelle Markierung hat (1, 1, 1, 1)
 auf s1 bis s4 und dann drei Nullen.
 
 00:04:01,890 --> 00:04:04,050
@@ -335,7 +335,7 @@ Hier steht (0,0,1,1,0,0,0).
 
 00:06:01,320 --> 00:06:04,968
 Ja, das gehört dann hier zu t3, da
-ist diese und diese Stelle belegt.
+sind diese und diese Stelle belegt.
 
 00:06:04,968 --> 00:06:08,340
 Auch dieser und dieser Stelle
@@ -379,11 +379,11 @@ Bei Kausalität, da hatten wir festgestellt,
 dass das ein transitiver Begriff ist.
 
 00:06:51,300 --> 00:06:56,610
-Also wenn t1 kausal für t2 ist, und t2 kausal
+Also wenn t1 kausal für t2 ist und t2 kausal
 für t3, dann ist auch t1 kausal für t3.
 
 00:06:56,610 --> 00:07:00,390
-Bei Nebenläufigkeit, hatten wir
+Bei Nebenläufigkeit hatten wir
 gesehen, liegt das nicht vor.
 
 00:07:00,390 --> 00:07:02,580
@@ -413,7 +413,7 @@ aber eben jeweils so herum gedreht, dass
 gerade keine Nebenläufigkeit vorliegt.
 
 00:07:31,530 --> 00:07:34,890
-Also sobald wir zwei Transitionen
+Also, sobald wir zwei Transitionen
 haben, die jeweils aktiviert sind.
 
 00:07:34,890 --> 00:07:36,030
