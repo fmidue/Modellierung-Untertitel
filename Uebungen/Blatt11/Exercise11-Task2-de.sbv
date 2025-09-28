@@ -2,11 +2,11 @@
 Diese Aufgabe beschäftigt sich mit Zustandsdiagrammen.
 
 0:00:07.230,0:00:13.620
-Der erste Aufgabenteil, der hier zu lösen 
+Der erste Aufgabenteil, der hier zu lösen
 ist, ist folgender.
 
 0:00:13.620,0:00:20.850
-In welchem nicht zusammengesetzten Zustand, 
+In welchem nicht zusammengesetzten Zustand,
 was hier im Diagramm von a bis g benannt ist,
 
 0:00:20.850,0:00:27.050
@@ -22,7 +22,7 @@ Das ist dieser hier.
 Wenn wir diesen Startzustand betrachten, zeigt er auf diesen Zustand hier.
 
 0:00:45.710,0:00:54.000
-Dort haben wir wieder einen Startzustand, 
+Dort haben wir wieder einen Startzustand,
 der genau auf den zu Beginn auszuführenden
 
 0:00:54.000,0:00:57.000
@@ -35,7 +35,7 @@ Unser Startzustand ist in diesem Fall F.
 Das wäre also die Antwort auf die erste Frage.
 
 0:01:11.119,0:01:22.390
-Dann soll betrachtet werden, wie für die gegebene 
+Dann soll betrachtet werden, wie für die gegebene
 Abfolge von Triggern die Sequenz von nacheinander
 
 0:01:22.390,0:01:23.390
@@ -48,11 +48,11 @@ Wir starten also von F aus.
 Danach gibt es eine Abfolge von Triggern.
 
 0:01:37.920,0:01:42.420
-Dann müssen wir angeben, wie die Zustände 
+Dann müssen wir angeben, wie die Zustände
 durchlaufen werden.
 
 0:01:42.420,0:01:51.750
-Wir beginnen, wie gesagt, bei F, was der erste 
+Wir beginnen, wie gesagt, bei F, was der erste
 Zustand ist.
 
 0:01:51.750,0:01:54.880
@@ -68,14 +68,14 @@ Das ist der hier.
 Das ist also auch der erste Trigger, der losgeht.
 
 0:02:08.530,0:02:22.349
-Damit landen wir in g. Nach F kommt G. Von 
+Damit landen wir in g. Nach F kommt G. Von
 G aus betrachten wir den nächsten Trigger,
 
 0:02:22.349,0:02:23.550
 der H ist.
 
 0:02:23.550,0:02:31.860
-Wir haben hier eine ausgehende Kante mit H, 
+Wir haben hier eine ausgehende Kante mit H,
 die zum Zustand E führt.
 
 0:02:31.860,0:02:38.160
@@ -148,18 +148,18 @@ Wir landen letztendlich also wieder in E.
 Hier wird nun H statt K getriggert.
 
 0:04:44.919,0:04:52.789
-Wir suchen also wieder die ausgehende Kante 
+Wir suchen also wieder die ausgehende Kante
 und haben wieder diese zwei Optionen.
 
 0:04:52.789,0:05:04.479
-Es ist entweder K oder H. H wird, wie gesagt, 
+Es ist entweder K oder H. H wird, wie gesagt,
 getriggert, das heißt, wir landen in D.
 
 0:05:04.479,0:05:12.000
 Wenn wir in D sind, wird letztendlich E getriggert.
 
 0:05:12.000,0:05:24.860
-Ich muss dazu sagen, dass wenn wir von E aus 
+Ich muss dazu sagen, dass wenn wir von E aus
 über H in D landen, das noch nicht vollständig
 
 0:05:24.860,0:05:25.860
@@ -172,7 +172,7 @@ Wir haben hier einen zusammengesetzten Zustand betreten.
 Hier haben wir eine Region.
 
 0:05:35.970,0:05:45.639
-Wenn wir D betreten, betreten wir auch den 
+Wenn wir D betreten, betreten wir auch den
 anderen parallelen Teil.
 
 0:05:45.639,0:05:50.680
@@ -201,36 +201,36 @@ beispielsweise so aufgeschrieben werden kann.
 (A,D) wäre auch valide.
 
 0:06:24.150,0:06:35.930
-Wir sind im zusammengesetzten Zustand (D,A) und 
+Wir sind im zusammengesetzten Zustand (D,A) und
 es folgt der Trigger B. Wir können von A
 
 0:06:35.930,0:06:44.979
-aus nur mit einem A-Trigger in den Zustand 
+aus nur mit einem A-Trigger in den Zustand
 B kommen und nur mit einem K-Trigger aus dem
 
 0:06:44.979,0:06:46.990
 gesamten Zustand rauskommen.
 
 0:06:46.990,0:06:58.639
-Wie gesagt, haben wir hier ein B. Von D aus 
+Wie gesagt, haben wir hier ein B. Von D aus
 gibt es diese Kante hier mit B. Diese ist
 
 0:06:58.639,0:07:03.210
 auch relevant.
 
 0:07:03.210,0:07:19.419
-Wir bleiben also in A und verlassen nur D. 
+Wir bleiben also in A und verlassen nur D.
 Wir landen also in (A,C).
 
 0:07:19.419,0:07:29.070
-Dann sind wir hier im letzten Zustand angekommen 
+Dann sind wir hier im letzten Zustand angekommen
 und haben alle Trigger durchlaufen.
 
 0:07:29.070,0:07:33.860
 Wir können uns also Teil D der Aufgabe anschauen.
 
 0:07:33.860,0:07:40.520
-Wir beginnen wieder über die Startknoten 
+Wir beginnen wieder über die Startknoten
 hier in F.
 
 0:07:40.520,0:07:43.889
@@ -240,14 +240,14 @@ Das bleibt erhalten.
 Wir beginnen in F und dann folgt der Trigger A.
 
 0:07:47.530,0:07:55.790
-Wir haben hier wieder nur die Option, diese 
+Wir haben hier wieder nur die Option, diese
 Kante überhaupt zu wählen. Das ist auch
 
 0:07:55.790,0:07:57.730
 der vorhandene Trigger.
 
 0:07:57.730,0:08:10.580
-Wir gehen also über A nach G. Von G aus haben 
+Wir gehen also über A nach G. Von G aus haben
 wir die Möglichkeit, über A oder H zu gehen.
 
 0:08:10.580,0:08:15.530
