@@ -744,11 +744,9 @@ What comes out is exactly the same as
 what would come out in a normal Petri net.
 
 00:13:55,000 --> 00:13:58,600
-Only when we look at
+Only: when we look at
 which further transitions are possible,
-```
 
-```
 00:13:58,600 --> 00:14:02,920
 we always check which transitions are
 

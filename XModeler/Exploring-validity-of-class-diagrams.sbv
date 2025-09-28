@@ -7,10 +7,10 @@ And it says: “Which of these class diagram
 candidates are valid class diagrams?”
 
 0:00:12.420,0:00:13.980
-We're going to use X modeler.
+We're going to use XModeler.
 
 0:00:13.980,0:00:22.150
-So, with X modeler, what should happen is
+So, with XModeler, what should happen is
 that if we manage to create one of these,
 
 0:00:22.150,0:00:29.109
@@ -18,7 +18,7 @@ if we manage to create it, and it's exactly
 the same, then it is a valid class diagram.
 
 0:00:29.109,0:00:35.800
-If X modeler interrupts and says there is
+If XModeler interrupts and says there is
 a problem, and it rejects it does not allow
 
 0:00:35.800,0:00:41.470
@@ -29,11 +29,11 @@ these class diagrams, then it is invalid.
 Let's do number one.
 
 0:00:46.930,0:01:03.230
-(10 sec) They have A, B, C, D, let's just
+They have A, B, C, D, let's just
 do them first and then we connect.
 
 0:01:03.230,0:01:14.680
-(6 sec) A is here, C is here and then B is
+A is here, C is here and then B is
 down here, D to the left.
 
 0:01:14.680,0:01:16.720
@@ -117,7 +117,7 @@ Change parent to B. Change parent to B change
 parent to B. So, let me fix this mess.
 
 0:03:37.440,0:03:51.629
-(9 sec) And this looks exactly like the class
+And this looks exactly like the class
 diagram here.
 
 0:03:51.629,0:03:56.360
@@ -131,7 +131,7 @@ Now let's do number 3.
 Change parent to B and fix this.
 
 0:04:14.280,0:04:47.169
-(16 sec) Change parent of B to D.
+Change parent of B to D.
 And change parent of D to A.
 
 0:04:47.169,0:04:57.750
@@ -153,7 +153,7 @@ Let's do number four.
 
 0:05:10.850,0:05:59.509
 Change parent to C. Change parent to B, change parent
-to D. (19 sec) This should fix it.
+to D. This should fix it.
 
 0:05:59.509,0:06:01.710
 And it looks exactly like this one.

@@ -495,7 +495,7 @@ This arrow is not there for us to
 always continue at D, so even if this
 
 00:11:27,920 --> 00:11:35,780
-if the arrow here were to point to C, for
+arrow here were to point to C, for
 example, then we would indeed go to C if
 
 00:11:35,780 --> 00:11:42,830

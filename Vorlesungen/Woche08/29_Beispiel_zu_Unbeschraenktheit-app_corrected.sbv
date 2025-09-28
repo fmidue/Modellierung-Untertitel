@@ -280,11 +280,11 @@ fulfill, so to speak, the first
 condition of 1-safety (namely, each weight is
 
 0:05:07.550,0:05:12.560
-at most 1 and in the start
-marking, even on each place, lies at
+at most 1 and even in the start
+marking, on each place lies at
 
 0:05:12.560,0:05:16.340
-most one token), and nevertheless, such
+most one token) and nevertheless, such
 a Petri net can be unbounded then.
 
 0:05:16.340,0:05:18.170

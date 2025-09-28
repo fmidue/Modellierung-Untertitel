@@ -229,11 +229,10 @@ to do with the critical region.
 The same is true for actor 2.
 
 00:04:07,150 --> 00:04:08,290
-So that's the non-critical region
+So that's the non-critical region 1
 
 00:04:08,290 --> 00:04:11,770
-1 and non-critical region
-2 for the two actors.
+and non-critical region 2 for the two actors.
 
 00:04:11,770 --> 00:04:16,060
 And then there's also a

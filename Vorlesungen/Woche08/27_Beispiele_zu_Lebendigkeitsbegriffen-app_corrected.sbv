@@ -494,7 +494,7 @@ Then for strong liveness, it would have to
 be true that for every marking m reachable from
 
 0:09:54.530,0:10:03.170
-m0, for example, for this one, it
+m0 (for example, for this one), it
 must hold that there is a successor
 
 0:10:03.170,0:10:08.270

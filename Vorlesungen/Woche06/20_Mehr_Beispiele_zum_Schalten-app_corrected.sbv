@@ -151,7 +151,7 @@ shown here now, these transitions could fire.
 
 0:02:52.140,0:02:54.780
 Of course, these two transitions could
-also fire because of this token.
+also fire, because of this token.
 
 0:02:54.780,0:03:01.050
 But let's assume that
@@ -525,11 +525,11 @@ possible sequence would be:
 
 0:10:08.790,0:10:13.170
 Here this token disappears, these
-two tokens disappear, on the
+two tokens disappear; on the
 
 0:10:13.170,0:10:20.310
-right, a token is added, on the
-left also only one token is added.
+right, a token is added; on the
+left, also only one token is added.
 
 0:10:20.310,0:10:24.270
 And then we have seen

@@ -1019,10 +1019,10 @@ Then there are more concrete terms like
 modeling to some extent.
 
 00:18:45,520 --> 00:18:46,169
-"State".
+"State",
 
 00:18:46,169 --> 00:18:50,060
-That's obviously about static
+that's obviously about static
 modeling, the description of a
 
 00:18:50,060 --> 00:18:54,260

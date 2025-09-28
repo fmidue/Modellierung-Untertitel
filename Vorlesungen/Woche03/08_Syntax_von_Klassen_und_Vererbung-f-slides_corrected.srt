@@ -509,7 +509,7 @@ unless it is explicitly required, by copying
 
 00:08:54,460 --> 00:09:00,420
 the class again and specifying the
-objects and always making these instantiations
+objects and always making these instantiation
 
 00:09:00,420 --> 00:09:01,420
 arrows.

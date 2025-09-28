@@ -503,7 +503,6 @@ This place is empty.
 00:08:35,580 --> 00:08:37,140
 Then this transition can't fire.
 
-```
 00:08:37,140 --> 00:08:42,060
 And the same would be
 true for this and this transition.

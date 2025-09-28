@@ -6,14 +6,14 @@ It has a class diagram and an object diagram.
 
 0:00:07.919,0:00:15.580
 And we have to do the mapping; we have to
-find out X, Y, and Z, which one of these corresponds
+find out x, y, and z, which one of these corresponds
 
 0:00:15.580,0:00:26.910
-to which one of these A, B, and C. So, first
+to which one of these a, b, and c. So, first
 I'm going to create a class diagram.
 
 0:00:26.910,0:00:42.540
-(15 sec) Now I'm going to create the object
+Now I'm going to create the object
 diagram, and it should give us the solution,
 
 0:00:42.540,0:00:51.000
@@ -39,14 +39,14 @@ I'm going to ignore this.
 Why?
 
 0:01:18.430,0:01:28.000
-Because X modeler, because the software does
+Because XModeler, because the software does
 not allow me, unfortunately, to create a C.
 
 0:01:28.000,0:01:32.790
-So, this C here can be satisfied.
+So, this c here can be satisfied.
 
 0:01:32.790,0:01:40.950
-If I link a B with a file, link this B with
+If I link a B with
 a D or a C, not just an explicit A, but I should be able to
 use a D or a C instead.
 
@@ -82,14 +82,14 @@ B at level zero.
 So, it needs to connect to a B.
 
 0:02:28.050,0:02:31.260
-We have three B's here.
+We have three Bs here.
 
 0:02:31.260,0:02:39.379
 So, if I choose one of them, let's say B one,
 I click OK.
 
 0:02:39.379,0:02:47.580
-It linked using a B. So, it tried to fulfill
+It linked using a b. So, it tried to fulfill
 this one here.
 
 0:02:47.580,0:02:52.850
@@ -101,7 +101,7 @@ Again, let's click OK; it got linked again.
 
 0:02:56.200,0:03:03.950
 But this time, I wish I could show you, this
-time it linked with an A. So, let's try again,
+time it linked with an a. So, let's try again,
 
 0:03:03.950,0:03:05.950
 let's link with B one.
@@ -120,10 +120,10 @@ There's not much more to do here.
 
 0:03:18.820,0:03:28.790
 So, I'm going to continue with the requirements
-of C; let's do B and click OK.
+of C; let's do b and click OK.
 
 0:03:28.790,0:03:36.540
-And it links with an A. Let's do, this is
+And it links with an a. Let's do, this is
 the old request here.
 
 0:03:36.540,0:03:38.549
@@ -155,7 +155,7 @@ It does not work.
 
 0:04:05.490,0:04:13.040
 So, I tried to create a link, an association
-B, and it said the multiplicity does not allow
+b, and it said the multiplicity does not allow
 
 0:04:13.040,0:04:17.889
 new link, and this is because of this.
@@ -165,12 +165,12 @@ So, a C is a D, and every D can connect or
 has to connect with exactly one B through
 
 0:04:28.830,0:04:34.250
-this association or this aggregation B, and
+this association or this aggregation b, and
 it is already here.
 
 0:04:34.250,0:04:43.470
 So, if you try to connect using another aggregation
-be like you try to do B connection here.
+be like you try to do b connection here.
 
 0:04:43.470,0:04:47.650
 It's not going to work because this contradicts
@@ -187,13 +187,13 @@ The standard is gone.
 
 0:04:56.540,0:05:05.301
 Let's go to, let's do a, we click on OK, click
-anywhere to update, and we have A. So, if
+anywhere to update, and we have a. So, if
 
 0:05:05.301,0:05:07.931
-you take a look here, we have Y, Y, Y.
+you take a look here, we have y, y, y.
 
 0:05:07.931,0:05:11.350
-And here we have A, A, A.
+And here we have a, a, a.
 
 0:05:11.350,0:05:13.400
 We have one B here.
@@ -204,11 +204,11 @@ not add any more Bs.
 
 0:05:18.650,0:05:26.160
 So, this means we already know a big part of
-the solution; we know that Y corresponds to
+the solution; we know that y corresponds to
 
 0:05:26.160,0:05:43.650
-A, and Z corresponds to B. And now, I'm going
-to do the last one here, which is this X.
+a, and z corresponds to b. And now, I'm going
+to do the last one here, which is this x.
 
 0:05:43.650,0:05:46.150
 Let's connect C to itself.
@@ -217,7 +217,7 @@ Let's connect C to itself.
 It gets recognized; it accepts.
 
 0:05:48.520,0:05:52.790
-So, the X modeler software allows me to connect
+So, the XModeler software allows me to connect
 C to itself.
 
 0:05:52.790,0:05:57.520
@@ -254,22 +254,22 @@ And C requires whatever; just forget about
 it.
 
 0:06:39.729,0:06:52.470
-(5 sec) And let's connect it manually to this
+And let's connect it manually to this
 C. Let's ignore the rest of the things.
 
 0:06:52.470,0:06:53.470
 Okay.
 
 0:06:53.470,0:07:02.379
-So, it recognizes this link as C. How do we
-check that the first one was already C and
+So, it recognizes this link as c. How do we
+check that the first one was already c and
 
 0:07:02.379,0:07:06.490
-that now we have two times C, we have two
-C's; how do you check?
+that now we have two times c, we have two
+Cs; how do you check?
 
 0:07:06.490,0:07:13.220
-Well, the connection, the association C here
+Well, the connection, the association c here
 has the maximum of two.
 
 0:07:13.220,0:07:18.940
@@ -291,7 +291,7 @@ like this.
 Ignore the rest of the issues.
 
 0:07:43.760,0:07:54.030
-(5 sec) Let me do this again.
+Let me do this again.
 
 0:07:54.030,0:07:58.650
 So, from this C, we have two arrows going
@@ -313,8 +313,8 @@ Number two, and it says the multiplicity does
 not allow a new link.
 
 0:08:19.150,0:08:29.260
-So, that is a proof that this one is a C; it
-gets recognized as a C. And what happened
+So, that is a proof that this one is a c; it
+gets recognized as a c. And what happened
 
 0:08:29.260,0:08:38.560
 a few seconds ago that I somehow could link
@@ -355,5 +355,5 @@ We don't need them anymore.
 And here we are— we have a solution.
 
 0:09:36.089,0:09:45.460
-So, the solution is Z is B, Y is A and X is
-C.
+So, the solution is z is b, y is a and x is
+c.

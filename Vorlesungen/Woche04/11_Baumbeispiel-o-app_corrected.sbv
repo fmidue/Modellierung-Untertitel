@@ -118,7 +118,7 @@ the character on the one hand that
 
 0:02:31.600,0:02:37.930
 each node can have at most one predecessor
-node (the tree has the two as predecessor node,
+node (the three has the two as predecessor node,
 
 0:02:37.930,0:02:42.550
 for example), but there are also nodes, namely
@@ -149,7 +149,7 @@ Therefore 0 to 2.
 
 0:03:05.920,0:03:08.860
 And 1 should also be allowed, because for
-example the tree here has only one successor.
+example the three here has only one successor.
 
 0:03:11.200,0:03:16.840
 It is interesting from the structural point of

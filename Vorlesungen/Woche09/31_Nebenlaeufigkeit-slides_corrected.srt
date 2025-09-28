@@ -310,7 +310,7 @@ So we'll see in a moment that actually
 starting from this marking, t2 and t3 are
 
 00:05:33,050 --> 00:05:36,710
-basically parallel or concurrent and
+basically parallel (or concurrent) and
 could fire simultaneously if we didn't
 
 00:05:36,710 --> 00:05:40,640
@@ -435,7 +435,7 @@ case below the chosen marking.
 
 00:07:41,320 --> 00:07:45,460
 This is the reason why
-this observation is valid mathematically.
+this observation is valid, mathematically.
 
 00:07:45,460 --> 00:07:49,030
 But we can also think about

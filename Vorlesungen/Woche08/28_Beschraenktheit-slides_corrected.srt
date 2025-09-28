@@ -300,7 +300,7 @@ of boundedness, which also allow larger values.
 
 00:05:55,850 --> 00:05:59,660
 Which in particular do not restrict
-the weights in the Petri net itself.
+the weights in the Petri net itself already.
 
 00:05:59,660 --> 00:06:03,020
 But they only restrict

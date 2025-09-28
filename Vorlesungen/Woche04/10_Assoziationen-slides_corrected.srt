@@ -60,10 +60,10 @@ certain sense a special association.
 
 00:01:25,680 --> 00:01:28,290
 And composition, as the
-strongest kind of relation,
+strongest kind of relationship
 
 00:01:28,290 --> 00:01:32,580
-here is again a more special aggregation.
+here, is again a more special aggregation.
 
 00:01:32,580 --> 00:01:38,970
 That's why it makes sense that we look
@@ -603,7 +603,7 @@ attribute with type Person in the car.
 
 00:12:21,210 --> 00:12:27,930
 In a sense, these
-navigation directions are a hint,
+navigation directions are a hint
 
 00:12:27,930 --> 00:12:29,430
 or an anticipation
@@ -646,11 +646,11 @@ person would have to be stored.
 
 00:13:18,630 --> 00:13:23,730
 For example it could be that for person 1
-the set { car 1, car 2 } is stored,
+the set \{ car 1, car 2 \} is stored,
 
 00:13:23,730 --> 00:13:27,420
 for person 2 the empty set, and for
-person 3 the set { car 3 }.
+person 3 the set \{ car 3 \}.
 
 00:13:27,420 --> 00:13:35,310
 That would then correspond to
