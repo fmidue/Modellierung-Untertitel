@@ -122,10 +122,10 @@ which is a joint state.
 
 0:03:47.900,0:03:54.530
 The second possibility is to exit with the
-help of this transition E. And when you exit
+help of this transition "e". And when you exit
 
 0:03:54.530,0:04:01.340
-with E, it doesn't matter where you are, it
+with "e", it doesn't matter where you are, it
 doesn't matter which state you are currently
 
 0:04:01.340,0:04:02.659
@@ -161,8 +161,8 @@ This happens because here it says we leave
 C from seven and four.
 
 0:04:43.979,0:04:53.380
-This means we do this transition D, and this
-transition D is not pointing at any inner state
+This means we do this transition "d", and this
+transition "d" is not pointing at any inner state
 
 0:04:53.380,0:04:59.250
 of D. It's just pointing at D as a whole.
@@ -269,7 +269,7 @@ The first one is to go from state nine, which
 is this one using the transition F. But as
 
 0:07:46.979,0:07:56.849
-you can see, the transition F goes directly
+you can see, the transition "f" goes directly
 into three; it doesn't point at six at all.
 
 0:07:56.849,0:08:02.940
