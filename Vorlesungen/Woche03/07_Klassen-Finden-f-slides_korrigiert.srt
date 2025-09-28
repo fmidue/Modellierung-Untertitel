@@ -374,7 +374,7 @@ Hier:
 Ein Kunde füllt ein Formular aus mit Namen,
 
 00:06:37,670 --> 00:06:39,950
-Adresse und Telefonnummer, und
+Adresse und Telefonnummer und
 gibt das zu dem Angestellten.
 
 00:06:39,950 --> 00:06:45,785
@@ -394,7 +394,7 @@ erzeugt einen neuen Mitgliedseintrag.
 
 00:06:56,450 --> 00:07:01,670
 Gibt dazu eine eindeutige
-Identifikationsnummer, usw.
+Identifikationsnummer usw.
 
 00:07:01,670 --> 00:07:05,570
 All das wurde verbal aufgeschrieben.
@@ -423,7 +423,7 @@ Bücher auszuleihen, ein Buch zurückzubringen,
 
 00:07:29,390 --> 00:07:36,350
 vielleicht Bücher aus dem Katalog zu entfernen,
-Auszüge der Benutzerkonten zu erstellen, etc.
+Auszüge der Benutzerkonten zu erstellen etc.
 
 00:07:39,680 --> 00:07:43,940
 Was könnte man hieraus über die möglichen
@@ -475,10 +475,10 @@ tatsächlich eine Klasse werden.
 
 00:08:28,840 --> 00:08:32,470
 Man kann jetzt diese Begriffe nehmen
-und die mal filtern oder gruppieren,
+und die mal filtern oder gruppieren.
 
 00:08:32,470 --> 00:08:36,340
-und herausfinden, was davon denn
+Und herausfinden, was davon denn
 tatsächlich eine Klasse sein sollte.
 
 00:08:36,340 --> 00:08:38,650
@@ -578,7 +578,7 @@ Den User.
 Das ist aber auch nur ein weiteres Synonym.
 
 00:10:12,910 --> 00:10:18,820
-User, Customer, Member, bezieht sich alles
+User, Customer, Member bezieht sich alles
 auf die gleichen Akteure in dem System.
 
 00:10:20,440 --> 00:10:25,060
@@ -658,7 +658,7 @@ außer Vor- und Nachname nicht noch weiter zerlegt
 
 00:11:42,720 --> 00:11:46,110
 ist, sprechen dafür, dass es vielleicht
-eher Attribute von anderen Klasse sind.
+eher Attribute von anderen Klassen sind.
 
 00:11:46,110 --> 00:11:50,820
 Und es nicht unbedingt eine eigene Klasse geben
@@ -720,8 +720,8 @@ Data und Information waren einfach Sammelbegriffe
 für diese Attribute, keine neuen Klassen.
 
 00:13:03,670 --> 00:13:16,870
-Okay, das als so kein vollständiges Rezept,
-aber eine bestimmte intuitive Vorgehensweise,
+Okay, das ist kein vollständiges Rezept,
+sondern eine bestimmte intuitive Vorgehensweise,
 
 00:13:16,870 --> 00:13:23,770
 um aus freiem Text zunächst zu identifizieren,
@@ -729,10 +729,10 @@ was denn Klassen und Attribute sein können.
 
 00:13:27,880 --> 00:13:30,970
 Der nächste Schritt wäre dann, zwischen
-diesen Klassen, die man identifiziert hat
+diesen Klassen, die man identifiziert hat,
 
 00:13:30,970 --> 00:13:37,270
-(das System und der Memberbegriff),
+(das System und der Memberbegriff)
 irgendwelche Beziehungen abzuleiten,
 
 00:13:37,270 --> 00:13:40,090
@@ -777,7 +777,7 @@ es nicht abstrakt nur System zu nennen.
 Es geht ja um die Bibliothek.
 
 00:14:29,470 --> 00:14:33,010
-Also das System könnte eine Klasse
+Also, das System könnte eine Klasse
 sein, die Bibliotheksklasse.
 
 00:14:33,010 --> 00:14:35,920
@@ -817,7 +817,7 @@ Die Bibliothek gibt es nur einmal.
 
 00:15:08,500 --> 00:15:10,060
 Man könnte sich auch fragen,
-ob das eine Klasse sein muss
+ob das eine Klasse sein muss,
 
 00:15:10,060 --> 00:15:12,610
 oder ob es reicht, dafür ein Objekt zu haben.
@@ -859,7 +859,7 @@ eigentlich auch wieder noch Typen gehören.
 Da haben wir hier:
 
 00:15:49,630 --> 00:15:55,135
-Das ist eine Zahl, das ist ein Adresse,
+Das ist eine Zahl, das ist eine Adresse,
 hier vielleicht nur eine Zeichenkette, etc.
 
 00:15:55,135 --> 00:15:58,360
@@ -915,7 +915,7 @@ Zum Beispiel das Ausleihen, also die Tatsache,
 dass ein Ausleihvorgang stattgefunden hat.
 
 00:16:52,870 --> 00:16:54,910
-Oder vielleicht auch, dass wenn
+Oder vielleicht auch, dass, wenn
 ein Buch nicht verfügbar ist,
 
 00:16:54,910 --> 00:17:00,400
@@ -934,17 +934,17 @@ Das wäre ein nächster Schritt beim
 Entwurf eines Klassendiagramms.
 
 00:17:18,390 --> 00:17:22,350
-Und da kann man noch weitere Verfeinerung machen.
+Und da kann man noch weitere Verfeinerungen machen.
 
 00:17:22,350 --> 00:17:24,510
-Also diese Beziehungen hier,
+Also, diese Beziehungen hier,
 die wären einfach nur Striche.
 
 00:17:24,510 --> 00:17:27,420
 Wir werden lernen, dass es verschiedene Arten von
 
 00:17:27,420 --> 00:17:30,060
-Beziehungen gibt, die jeweils
+Beziehungen gibt es, die jeweils
 ihre eigene Bedeutung haben.
 
 00:17:30,060 --> 00:17:34,680
@@ -993,7 +993,7 @@ und auch verschiedene Darstellungsweisen.
 
 00:18:24,480 --> 00:18:28,950
 Hier wurde zum Beispiel entschieden,
-dass was hier vorher noch als Klasse
+dass das, was hier vorher noch als Klasse
 
 00:18:28,950 --> 00:18:30,930
 für den Ausleihvorgang stand,
@@ -1013,7 +1013,7 @@ bis wann das Buch reserviert bleiben soll.
 
 00:18:51,600 --> 00:18:57,780
 Das als erstes Beispiel mit noch
-nicht viel Detailinformationen,
+nicht vielen Detailinformationen,
 
 00:18:57,780 --> 00:19:03,030
 aber zumindest einem Eindruck, wie so
@@ -1027,7 +1027,7 @@ mal wirklich Syntax einführen.
 Wie denn so eine Klasse genau zu notieren ist.
 
 00:19:12,690 --> 00:19:15,540
-Hier ist sehr viel im Vagen geblieben.
+Hier ist sehr vieles im Vagen geblieben.
 
 00:19:15,540 --> 00:19:18,660
 Das mache ich aber in einem weiteren Video.

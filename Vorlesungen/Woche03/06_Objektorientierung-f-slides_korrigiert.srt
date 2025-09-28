@@ -7,7 +7,7 @@ Wir werden uns jetzt zunächst, letztlich
 als Einstieg in UML (insbesondere statische
 
 00:00:12,060 --> 00:00:16,170
-Modellierung mit UML), einführend
+Modellierung mit UML) einführend
 mit Objektorientierung beschäftigen.
 
 00:00:17,370 --> 00:00:23,070
@@ -220,7 +220,7 @@ Also was so ein Diagramm konkret bedeutet, da
 gibt es ein Verständnis von, aber das ist nicht
 
 00:04:22,840 --> 00:04:29,200
-unbedingt mathematisch ausgearbeitet in irgendwie
+unbedingt mathematisch ausgearbeitet in irgendeiner
 voller logischer, mathematischer Stringenz.
 
 00:04:29,200 --> 00:04:35,380
@@ -460,16 +460,16 @@ haben die jeweiligen Dinge?
 
 00:08:54,920 --> 00:08:58,640
 Das können ja für verschiedene Bereiche
-verschiedene Eigenschaften sein,
+verschiedene Eigenschaften sein.
 
 00:08:58,640 --> 00:09:01,340
-die die auftretenden Dinge haben müssen.
+Die die auftretenden Dinge haben müssen.
 
 00:09:01,340 --> 00:09:03,680
 Und was sind die Beziehungen zwischen den Dingen?
 
 00:09:03,680 --> 00:09:06,350
-Also, Eigenschaften beziehen sich auf eine Sache.
+Also Eigenschaften beziehen sich auf eine Sache.
 
 00:09:06,350 --> 00:09:10,250
 Beziehungen sind zwischen verschiedenen
@@ -487,7 +487,7 @@ Also nicht unbedingt, welche konkreten Werte
 zu einem Zeitpunkt vorliegen müssen, sondern:
 
 00:09:20,810 --> 00:09:23,210
-Wie ist der Zustand organisiert.
+Wie ist der Zustand organisiert?
 
 00:09:23,210 --> 00:09:24,620
 Was muss über das System bekannt sein,
@@ -638,18 +638,18 @@ Einfach weil es in der
 Programmiersprache vorhanden ist,
 
 00:11:32,550 --> 00:11:34,020
-heißt das nicht, dass man es überall benutzt muss.
+heißt das nicht, dass man es überall benutzen muss.
 
 00:11:34,020 --> 00:11:40,140
 Und ein klares Design, eine klare Modellierung
-mittels UML, kann es vereinfachen,
+mittels UML kann es vereinfachen,
 
 00:11:40,140 --> 00:11:44,865
 erst mal sinnvoll zu ermitteln, wann man
 tatsächlich Vererbung einsetzen sollte.
 
 00:11:44,865 --> 00:11:47,790
-Auch das sind wieder Pattern, die zum
+Auch das sind wieder Patterns, die zum
 
 00:11:47,790 --> 00:11:54,720
 Beispiel in der Vorlesung "Fortgeschrittene
@@ -677,7 +677,7 @@ Das kann man erst mal wieder sehr
 abstrakt fassen, so wie wir auch
 
 00:12:20,450 --> 00:12:25,025
-unseren Modell- und System-Begriff
+unseren Modell- und Systembegriff
 anfangs recht abstrakt gefasst haben.
 
 00:12:25,025 --> 00:12:25,910
@@ -707,10 +707,10 @@ auch auf Modellierung und auf die
 Softwareentwicklung im Allgemeinen.
 
 00:12:52,970 --> 00:12:56,090
-Wie ist es dann etwas genauer zu fassen?
+Wie ist es dann, etwas genauer zu fassen?
 
 00:12:56,090 --> 00:12:57,800
-Also die Idee ist:
+Also, die Idee ist:
 
 00:12:57,800 --> 00:13:01,040
 Man nimmt die Daten, die irgendwie
@@ -724,7 +724,7 @@ Und die werden mit der
 Funktionalität zusammengefasst.
 
 00:13:05,990 --> 00:13:11,030
-Das nennt man Methoden, und entspricht
+Das nennt man Methoden und entspricht
 Operationen aus der vergangenen Woche.
 
 00:13:11,030 --> 00:13:16,010
@@ -732,17 +732,17 @@ Und diese Daten, zusammen mit der Funktionalität,
 
 00:13:16,010 --> 00:13:21,110
 die auf diesen Daten operiert, die werden
-gemeinsam organisiert, gemeinsam zusammengefasst
+gemeinsam organisiert, gemeinsam zusammengefasst.
 
 00:13:21,110 --> 00:13:24,890
 (man spricht auch von einer Kapselung),
 und jeweils einzelnen Objekten zugeordnet.
 
 00:13:24,890 --> 00:13:28,100
-Also ein Objekt fasst zusammen: bestimmte
+Also, ein Objekt fasst zusammen: bestimmte
 
 00:13:28,100 --> 00:13:32,390
-Daten und Methoden/Operation,
+Daten und Methoden/Operationen,
 die darauf operieren sollen.
 
 00:13:32,390 --> 00:13:40,340
@@ -750,7 +750,7 @@ Und dann ist jedes Objekt in der
 Lage, Methodenaufrufe zu empfangen.
 
 00:13:40,340 --> 00:13:46,310
-Also Operationen auszuführen, die
+Also, Operationen auszuführen, die
 die Daten verarbeiten oder wieder
 
 00:13:46,310 --> 00:13:51,860
@@ -779,7 +779,7 @@ Die nahmen Bilder als Eingabe und gaben
 eventuell Bilder als Ausgabe zurück.
 
 00:14:15,560 --> 00:14:16,730
-Also es ging beides:
+Also, es ging beides:
 
 00:14:16,730 --> 00:14:20,750
 Man konnte ein Bild als Eingabe
@@ -794,7 +794,7 @@ Aber es war nicht so, dass die Methoden
 direkt an die Bilder gekoppelt waren.
 
 00:14:31,730 --> 00:14:34,850
-Das werden wir gleich noch mal im Kontrast sehen.
+Das werden wir gleich noch einmal im Kontrast sehen.
 
 00:14:38,450 --> 00:14:40,610
 Und wichtig:
@@ -808,7 +808,7 @@ Objekten (ganze Klassen von Objekten, wie
 wir dann sagen werden) einmal realisiert
 
 00:14:53,930 --> 00:14:56,600
-werden, und dann in verschiedenen Kontexten
+werden und dann in verschiedenen Kontexten
 wiederverwendet werden können sollen.
 
 00:14:56,600 --> 00:15:00,800
@@ -820,7 +820,7 @@ dass wir dann bestehende Modelle in verschiedenen
 Anwendungskontexten wiederverwenden können.
 
 00:15:12,940 --> 00:15:17,740
-Gucken wir uns das tatsächlich erst mal etwas
+Gucken wir uns das tatsächlich erst einmal etwas
 naiv illustriert an, aus Programmierer-Sicht.
 
 00:15:17,740 --> 00:15:19,330
@@ -831,18 +831,18 @@ Aber um diese Grundidee der
 Objektorientierung zu verstehen,
 
 00:15:21,490 --> 00:15:24,370
-ist auch nicht verkehrt, sich das
+ist es auch nicht verkehrt, sich das
 mal so mit Pseudocode anzuschauen.
 
 00:15:24,370 --> 00:15:27,220
 Und das tun wir tatsächlich an der eben schon
 
 00:15:27,220 --> 00:15:30,040
-noch mal in Erinnerung gerufenen
+noch einmal in Erinnerung gerufenen
 Beispieldomäne, der Vektorgrafik.
 
 00:15:30,040 --> 00:15:36,730
-Und wir stellen uns mal vor, dass wir
+Und wir stellen uns einmal vor, dass wir
 ein kleines Bild beschreiben wollen,
 
 00:15:36,730 --> 00:15:41,710
@@ -850,7 +850,7 @@ das irgendwie schrittweise aus
 verschiedenen Operationen aufgebaut ist.
 
 00:15:41,710 --> 00:15:42,700
-Also das steht jetzt hier.
+Also, das steht jetzt hier.
 
 00:15:42,700 --> 00:15:43,450
 Wir stellen uns vor:
@@ -873,16 +873,15 @@ Also jetzt ein rotes Rechteck mit diesen Maßen.
 Dann rotieren wir das noch.
 
 00:16:00,130 --> 00:16:03,340
-Kriegen ein neues Bild p3,
-und bewegen dieses Bild p3
+Kriegen ein neues Bild p3 und bewegen dieses Bild p3
 
 00:16:03,340 --> 00:16:10,240
-um irgendwelche x/y-Koordinaten, und
+um irgendwelche x/y-Koordinaten und
 erhalten dann unser finales Bild p4.
 
 00:16:11,140 --> 00:16:14,470
 Das wäre eine Möglichkeit, wie wir
-so einen schrittweise Aufbau eines
+so einen schrittweisen Aufbau eines
 
 00:16:14,470 --> 00:16:17,320
 Bildes mit den Operationen aus der
@@ -892,7 +891,7 @@ letzten Woche beschreiben könnten.
 Und dann könnten wir p4 auf den Bildschirm malen.
 
 00:16:21,580 --> 00:16:29,530
-Was hier auffällt, und vielleicht ungeschickt
+Was hier auffällt und vielleicht ungeschickt
 erscheinen mag auf den ersten Blick:
 
 00:16:30,130 --> 00:16:35,170
@@ -915,7 +914,7 @@ Programmierung zu vermeiden,
 indem das sozusagen eher etwas implizit bleibt.
 
 00:16:54,250 --> 00:16:57,250
-Also statt sich vorzustellen, man
+Also, statt sich vorzustellen, man
 erzeuge jedes Mal ein neues Bild,
 
 00:16:57,250 --> 00:16:59,230
@@ -926,7 +925,7 @@ ausführt, sagt man einfach:
 Man hat ein Bild und arbeitet auf dem direkt.
 
 00:17:01,840 --> 00:17:05,920
-Also objektorientiert würde man hier sagen, das
+Also, objektorientiert würde man hier sagen, das
 Bild wird mit seinen Operationen zusammengefasst.
 
 00:17:05,920 --> 00:17:12,700
@@ -997,7 +996,7 @@ sozusagen jeweils überschrieben wird.
 
 00:18:12,610 --> 00:18:16,660
 Während man hier oben wirklich
-Werte für die einzelnen Bilder hat
+Werte für die einzelnen Bilder hat,
 
 00:18:16,660 --> 00:18:21,280
 und durchaus neben p4 weiterhin
@@ -1079,7 +1078,7 @@ von Bildern als Ein- und Ausgaben.
 
 00:19:48,060 --> 00:19:52,260
 Also "color" nahm ein Bild und eine
-Farbe, und lieferte ein neues Bild.
+Farbe und lieferte ein neues Bild.
 
 00:19:52,260 --> 00:19:55,050
 Und analog bei den anderen Operationen.
@@ -1119,7 +1118,7 @@ jeweils einem Picture-Objekt.
 Also man sagt dann nur noch, innerhalb der Klasse
 
 00:20:34,950 --> 00:20:41,820
-Picture gibt es gekapselt Operationen
+Picture gibt es gekapselte Operationen
 für etwa Einfärben, Rotieren, Bewegen.
 
 00:20:41,820 --> 00:20:46,920
@@ -1159,7 +1158,7 @@ hier, etwa nicht unbedingt mit diesem "void".
 
 00:21:21,600 --> 00:21:29,220
 Aber dieser Natur werden unsere Methoden/Angaben
-sein, und nicht dieser eher mathematischen Natur.
+sein und nicht dieser eher mathematischen Natur.
 
 00:21:29,220 --> 00:21:37,030
 Das ist auch nicht exakt zum Beispiel Java-Syntax.
@@ -1358,7 +1357,7 @@ erwarten, auch von Hardware erwarten,
 
 00:25:18,010 --> 00:25:23,140
 dass Dinge nicht nur rein linear passieren,
-sonder Dingen auch parallel funktionieren.
+sondern Dinge auch parallel funktionieren.
 
 00:25:23,140 --> 00:25:25,510
 Also Multitasking in einem
@@ -1384,7 +1383,7 @@ Kontrollflusses prinzipiell parallel stattfinden.
 
 00:25:43,760 --> 00:25:48,320
 Und der Nachrichtenaustausch, die
-Möglichkeit Methoden aufzurufen
+Möglichkeit, Methoden aufzurufen
 
 00:25:48,320 --> 00:25:52,580
 zwischen den Objekten, bietet ein gutes
@@ -1405,11 +1404,11 @@ Da die reale Welt sich oftmals so vorgestellt
 werden kann (als bestehend aus Dingen und deren
 
 00:26:16,220 --> 00:26:24,260
-Eigenschaften, plus Beziehungen dazwischen),
-ist es eben für viele Bereiche auch nützlich,
+Eigenschaften, plus Beziehungen dazwischen,
+ist es eben für viele Bereiche auch nützlich.
 
 00:26:24,260 --> 00:26:27,680
-direkt die Softwaremodellierung
+Direkt die Softwaremodellierung
 auf diese Weise durchzuführen.
 
 00:26:27,680 --> 00:26:31,340
@@ -1420,7 +1419,7 @@ aber auf jeden Fall eine prominente.
 Nochmal ein ganz naives Beispiel, nur um diesen
 
 00:26:37,940 --> 00:26:42,440
-letzten Punkt noch mal ein
+letzten Punkt nochmal ein
 bisschen stärker zu setzen.
 
 00:26:42,440 --> 00:26:46,310
@@ -1445,7 +1444,7 @@ hat natürlich Daten zu speichern:
 
 00:27:03,080 --> 00:27:06,549
 Fahrziele, Zoneneinteilung,
-Fahrtkosten-Tabellen, etc.
+Fahrtkosten-Tabellen etc.
 
 00:27:06,549 --> 00:27:07,430
 Das wären die Daten.
@@ -1555,7 +1554,7 @@ da auf der Vorfolie fotografiert wurde.
 Das wäre ein Objekt, das zu dieser Klasse gehört.
 
 00:28:55,190 --> 00:28:58,940
-Und an anderen Bahnhöfen, oder anderen
+Und an anderen Bahnhöfen oder anderen
 Eingängen des Duisburger Bahnhofs,
 
 00:28:58,940 --> 00:29:02,330

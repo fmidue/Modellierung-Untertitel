@@ -32,7 +32,7 @@ sind, auch mit so einer Art Token darstellen.
 Deswegen habe ich das hier mal vorbereitet.
 
 0:00:39.720,0:00:47.220
-Also wir können uns vorstellen, dass wir mit einem
+Also, wir können uns vorstellen, dass wir mit einem
 Token am Beginn beginnen. Das ist dieser Knoten,
 
 0:00:47.220,0:00:49.650
@@ -106,7 +106,7 @@ im Petrinetz, wo etwas abgelegt werden kann.
 
 0:02:16.850,0:02:21.920
 Wo gegebenenfalls auch, wenn es mehrere Eingänge
-gäbe, z.B. mehrere Pläne liegen könnten.
+gäbe, z. B. mehrere Pläne liegen könnten.
 
 0:02:21.920,0:02:25.970
 Man könnte sagen, bisher war
@@ -131,7 +131,7 @@ dann gäbe es vielleicht mehrere Pläne,
 die durch dieses System hindurch wandern.
 
 0:02:42.165,0:02:49.550
-Also ein Plan wurde erstellt. Jetzt haben
+Also, ein Plan wurde erstellt. Jetzt haben
 wir einen Plan. Wie geht es mit dem weiter?
 
 0:02:49.550,0:02:54.890
@@ -169,7 +169,7 @@ Und jetzt kann es zwei mögliche
 Ergebnisse geben, nämlich:
 
 0:03:23.060,0:03:24.680
-Dieser Plan wird angenommen, oder nicht.
+Dieser Plan wird angenommen oder nicht.
 
 0:03:24.680,0:03:28.850
 Das wird durch diese Notation hier dargestellt,
@@ -195,8 +195,7 @@ Und nehmen wir mal an, dass der
 konkrete Plan, den wir hier haben,
 
 0:03:51.710,0:03:54.830
-tatsächlich nicht angenommen würde.
-Dann würden wir eben hier weitergehen,
+tatsächlich nicht angenommen würde. Dann würden wir eben hier weitergehen,
 
 0:03:54.830,0:03:58.160
 und damit wieder an diesem Knoten ankommen,
@@ -308,7 +307,7 @@ Die Reihenfolge ist egal.
 Beides muss geschehen, aber es ist
 
 0:05:46.820,0:05:50.630
-nicht vorgegeben in welcher Reihenfolge.
+nicht vorgegeben, in welcher Reihenfolge.
 Es könnte sein, dass erst die Arbeit auf der
 
 0:05:50.630,0:05:55.730
@@ -431,7 +430,7 @@ Da werden wir aber sehen, dass wir da mehr Knoten,
 
 0:08:05.440,0:08:08.590
 mehr Stellen und Transitionen
-brauchen als es jetzt Elemente gab.
+brauchen, als es jetzt Elemente gab.
 
 0:08:08.590,0:08:12.070
 Das liegt daran, dass diese Elemente,

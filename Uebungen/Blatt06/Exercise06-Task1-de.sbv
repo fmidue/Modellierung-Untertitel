@@ -1,5 +1,5 @@
 0:00:00.690,0:00:04.370
-In dieser Aufgabe geht um diese drei Petrinetze.
+In dieser Aufgabe geht es um diese drei Petrinetze.
 
 0:00:04.370,0:00:10.009
 Wir sollen jeweils alle Gründe angeben, warum
@@ -10,10 +10,10 @@ handelt.
 
 0:00:11.230,0:00:14.509
 Also starten wir mit dem ersten Petrinetz
-hier, (a).
+hier (a).
 
 0:00:14.509,0:00:19.340
-Wie sehen, wir haben drei verschiedene Stellen
+Wie wir sehen, haben wir drei verschiedene Stellen
 und vier Transitionen.
 
 0:00:19.340,0:00:26.660
@@ -39,7 +39,7 @@ Wenn wir uns jetzt aber dieses Petrinetz angucken,
 dann sehen wir hier, dass zwischen t2 und
 
 0:00:43.010,0:00:49.300
-t4 keine Stelle ist, das bedeutet, die Transition
+t4 keine Stelle ist. Das bedeutet, die Transition
 t2 führt direkt in die Transition t4.
 
 0:00:49.300,0:00:56.109
@@ -58,7 +58,7 @@ Das bedeutet, das ist der zweite Fehler, warum
 dieses Petrinetz nicht korrekt ist.
 
 0:01:13.340,0:01:20.350
-Wenn wir uns Petrinetz (b) angucken, dann
+Wenn wir uns das Petrinetz (b) angucken, dann
 haben wir wieder drei Stellen und vier Transitionen.
 
 0:01:20.350,0:01:27.530
@@ -115,7 +115,7 @@ Token die Vorbedingung sind.
 
 0:02:28.230,0:02:34.420
 Da macht es einfach keinen Sinn, zwei Pfeile
-zu haben, die das gleiche wie ein Pfeil aussagen.
+zu haben, die das Gleiche wie ein Pfeil aussagen.
 
 0:02:34.420,0:02:42.870
 Außerdem haben wir hier quasi das Gegenteil zu Petrinetz

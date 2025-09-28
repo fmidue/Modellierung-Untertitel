@@ -20,7 +20,7 @@ zusammengesetzten Zuständen des ursprünglichen
 Zustandsdiagramms sein.
 
 0:00:47.230,0:00:53.700
-Das ist so wie es auch in den Folien geschehen
+Das ist so, wie es auch in den Folien geschehen
 ist.
 
 0:00:53.700,0:00:57.100
@@ -61,11 +61,11 @@ Das heißt, wir haben einerseits Zustand A
 und C.
 
 0:02:01.390,0:02:17.010
-Dann haben wir Zustand A und D. das wären
+Dann haben wir Zustand A und D. Das wären
 diese.
 
 0:02:17.010,0:02:20.610
-Dann haben wir noch B und C, und B und D.
+Dann haben wir noch B und C und B und D.
 
 0:02:20.610,0:02:25.430
 Das sind die Zustände, die wir hier betrachten
@@ -75,7 +75,7 @@ müssen.
 Entschuldigung.
 
 0:02:28.180,0:02:50.900
-Es war B und C sowie B und D. Dann haben wir
+Es waren B und C sowie B und D. Dann haben wir
 hier einen Zustand, der kein hierarchischer
 
 0:02:50.900,0:02:53.739
@@ -99,7 +99,7 @@ Wir können hier also die Zustandsnamen behalten.
 Es gibt auch keine Namen-Mismatches.
 
 0:03:27.010,0:03:32.450
-Wir können einfach Zustände F und G übernehmen.
+Wir können einfach die Zustände F und G übernehmen.
 
 0:03:32.450,0:03:46.930
 Das sind die Zustände, die wir betrachten
@@ -128,7 +128,7 @@ A.
 Das ist in dem ursprünglichen Diagramm.
 
 0:04:22.590,0:04:25.160
-Das bedeutet folgendes.
+Das bedeutet Folgendes.
 
 0:04:25.160,0:04:41.560
 Alle Zustände, die ein A enthalten und einen
@@ -136,14 +136,14 @@ der Zustände auf der anderen Seite und der
 
 0:04:41.560,0:04:45.960
 Zustand, der ein B enthält und denselben
-Zustand auf der Seite sind die, zwischen den
+Zustand auf der Seite, sind die, zwischen den
 
 0:04:45.960,0:04:51.509
-beiden eine A Kante hinzugefügt werden muss.
+beiden eine A-Kante hinzugefügt werden muss.
 
 0:04:51.509,0:05:01.310
 Von AC können wir hier nach BC wechseln,
-mittels einer solchen A Kante.
+mittels einer solchen A-Kante.
 
 0:05:01.310,0:05:21.139
 Von BC geht es nach AC. Genauso können wir
@@ -164,7 +164,7 @@ Das ist ein A, was wir jeweils da dran geschrieben
 haben.
 
 0:06:01.530,0:06:07.650
-Dieselben Kanten existieren wie gesagt zwischen
+Dieselben Kanten existieren, wie gesagt, zwischen
 AD und BD.
 
 0:06:07.650,0:06:18.280
@@ -175,11 +175,11 @@ diese Zustände verbinden, die wieder mit
 einem A bezeichnet sind.
 
 0:06:22.330,0:06:26.140
-Wir haben die B Kanten.
+Wir haben die B-Kanten.
 
 0:06:26.140,0:06:33.349
 Das ist der Wechsel zwischen den Zuständen,
-wo sich C und D austauscht.
+wo sich C und D austauschen.
 
 0:06:33.349,0:06:37.699
 Der Zustand auf der anderen Seite bleibt aber
@@ -226,11 +226,11 @@ Die haben wir hier als Zustände für den
 zusammengesetzten Zustand eingetragen.
 
 0:08:23.150,0:08:32.200
-Wir haben die A Kanten, die zwischen diesen
-zusammengesetzten Zuständen existieren können
+Wir haben die A-Kanten, die zwischen diesen
+zusammengesetzten Zuständen existieren können,
 
 0:08:32.200,0:08:37.060
-schon erledigt, wie auch die B Kanten.
+schon erledigt, wie auch die B-Kanten.
 
 0:08:37.060,0:08:40.709
 Jetzt können wir die anderen Kanten betrachten.
@@ -258,7 +258,7 @@ Kante
 von E nach AD ein.
 
 0:09:34.100,0:09:39.460
-Das ist diese H Kante.
+Das ist diese H-Kante.
 
 0:09:39.460,0:09:47.030
 Da gibt es nur diese eine, da dieser konkrete
@@ -269,7 +269,7 @@ Diese Kante haben wir jetzt also auch erledigt.
 
 0:09:50.660,0:10:06.350
 Wir verfahren weiter simpel und gehen mit
-dieser anderen H Kante hier um, die vom Zustand
+dieser anderen H-Kante hier um, die vom Zustand
 
 0:10:06.350,0:10:09.149
 G zum Zustand E geht.
@@ -278,7 +278,7 @@ G zum Zustand E geht.
 Das ist auch wieder relativ simpel.
 
 0:10:12.020,0:10:20.950
-Hier ist nichts weiter kompliziertes zu betrachten.
+Hier ist nichts weiter Kompliziertes zu betrachten.
 
 0:10:20.950,0:10:28.320
 Wir gehen direkt von G in E und das bleibt
@@ -295,7 +295,7 @@ H. Damit ist auch diese Kante erledigt.
 Es ist weiter simpel.
 
 0:10:55.940,0:11:01.950
-Wir haben hier auch A Kanten zwischen G und
+Wir haben hier auch A-Kanten zwischen G und
 F.
 
 0:11:01.950,0:11:24.279
@@ -313,7 +313,7 @@ Es ist nichts weiter zu betrachten, da diese
 das Flachklopfen nichts ändert.
 
 0:11:38.660,0:11:47.550
-Wir haben hier die K Kante, die wir betrachten
+Wir haben hier die K-Kante, die wir betrachten
 müssen.
 
 0:11:47.550,0:11:55.920
@@ -321,13 +321,13 @@ Die geht von E zu diesem zusammengesetzten
 Zustand.
 
 0:11:55.920,0:11:59.530
-Dabei muss auch hier ein konkreter aktiv werden.
+Dabei muss auch hier ein Konkreter aktiv werden.
 
 0:11:59.530,0:12:04.530
 Das passiert hier über den Startzustand.
 
 0:12:04.530,0:12:29.300
-Unsere K Kante geht also von E nach F. So
+Unsere K-Kante geht also von E nach F. So
 tragen wir die hier auch
 
 0:12:29.300,0:12:35.540
@@ -335,11 +335,11 @@ in unserem Zustandsdiagramm, das flachgeklopft
 ist, ein.
 
 0:12:35.540,0:12:39.990
-Das ist die K Kante.
+Das ist die K-Kante.
 
 0:12:39.990,0:12:54.290
-Dann haben wir noch diese K Kante, nachdem
-wir diese K Kante erledigt haben, übrig.
+Dann haben wir noch diese K-Kante, nachdem
+wir diese K-Kante erledigt haben, übrig.
 
 0:12:54.290,0:13:16.589
 Für diese müssen wir betrachten, dass wir
@@ -387,10 +387,10 @@ Und es geht auch von BC nach F.
 Diese müssen natürlich beschriftet werden.
 
 0:15:38.829,0:15:40.709
-Das sind alles K Kanten.
+Das sind alles K-Kanten.
 
 0:15:40.709,0:15:52.411
-Davon haben wir jetzt wie gesagt vier Stück
+Davon haben wir jetzt, wie gesagt, vier Stück
 von AD nach F, von AC nach F, von BD nach
 
 0:15:52.411,0:16:01.779
@@ -440,7 +440,7 @@ drin.
 Damit ist unser Diagramm fertig.
 
 0:17:31.010,0:17:40.530
-Wir können nochmal in das originale Zustandsdiagramm
+Wir können noch einmal in das originale Zustandsdiagramm
 gucken, das nicht zusammengeklopft ist.
 
 0:17:40.530,0:17:43.049

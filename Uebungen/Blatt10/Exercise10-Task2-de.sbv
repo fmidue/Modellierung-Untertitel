@@ -8,14 +8,14 @@ Petrinetzes mit den Namen der Objektknoten und
 
 0:00:18.780,0:00:33.360
 Aktionen übereinstimmen. Andere Hilfsstellen oder
--transitionen müssen nicht beschriftet werden.
+Transitionen müssen nicht beschriftet werden.
 
 0:00:34.620,0:00:47.040
 Hier ist das entsprechende Aktivitätsdiagramm,
-welches wir nun schrittweise umwandeln
+das wir nun schrittweise umwandeln.
 
 0:00:47.040,0:00:55.620
-werden. Dabei beginnen wir am Anfang des
+Dabei beginnen wir am Anfang des
 Aktivitätsdiagramms mit einem Startknoten.
 
 0:00:56.640,0:01:03.540
@@ -27,19 +27,19 @@ Davon ausgehend können wir fortfahren. Wir sehen
 hier eine erste Aktion im Aktivitätsdiagramm,
 
 0:01:15.600,0:01:40.170
-die wir repräsentieren können durch einen Übergang
-im Petrinetz. Der Name der Transition lautet
+die wir durch einen Übergang im Petrinetz
+repräsentieren können. Der Name der Transition lautet
 
 0:01:40.170,0:01:50.820
 entsprechend der Aktivität im Aktivitätsdiagramm:
-A. Danach folgt im Aktivitätsdiagramm B, welche
+A. Danach folgt im Aktivitätsdiagramm B, das
 
 0:02:04.140,0:02:14.760
 als Stelle bezeichnet werden kann.
 B ist also keine Aktion, sondern ein
 
 0:02:14.760,0:02:24.660
-Zustand im Aktivitätsdiagramm, die wir als Stelle
+Zustand im Aktivitätsdiagramm, den wir als Stelle
 repräsentieren können. Dieses Mal hat die Stelle
 
 0:02:25.260,0:02:44.400
@@ -83,15 +83,14 @@ Jetzt haben wir hier die Verzweigungen
 in drei unterschiedliche Pfade in
 
 0:04:48.240,0:04:54.960
-unserem Aktivitätsdiagramm, in
-dem wir die Möglichkeiten haben,
+unserem Aktivitätsdiagramm, in dem wir die Möglichkeiten haben,
 
 0:05:00.600,0:05:04.380
 mit weiteren Verzweigungen auf die Pfade
 D, E, F und G zu kommen. Dafür führen
 
 0:05:04.380,0:05:10.140
-wir erstmal drei neue Stellen ein, welche die
+wir zuerst drei neue Stellen ein, welche die
 unterschiedlichen Pfade darstellen sollen.
 
 0:05:27.120,0:05:40.800
@@ -100,7 +99,7 @@ geht jeweils ein Pfeil in jeden Pfad,
 
 0:05:41.880,0:05:47.880
 sodass es möglich ist, jeden dieser
-Pfade bzw. Pfeile zu wählen. Dadurch
+Pfade beziehungsweise Pfeile zu wählen. Dadurch
 
 0:05:50.880,0:06:00.900
 können wir den ersten Pfad mit D und E weiter
@@ -145,12 +144,12 @@ E. Das funktioniert, weil es unterschiedliche,
 aber von derselben Stelle ausgehende Transitionen
 
 0:07:44.880,0:07:49.860
-sind. Danach werden die wieder zusammengeführt.
+sind. Danach werden sie wieder zusammengeführt.
 Dafür wird wieder eine Stelle eingefügt.
 
 0:07:59.160,0:08:10.380
 Beim nächsten Pfad kommt ein F. Diese
-Transition muss nicht weiter fortgeführt werden
+Transition muss nicht weiter fortgeführt werden,
 
 0:08:34.560,0:08:42.600
 im Sinne, dass danach noch etwas passieren
@@ -173,15 +172,15 @@ werden, wenn wir eine entsprechende Transition
 einfügen. Danach brauchen wir wieder eine Stelle.
 
 0:09:44.400,0:09:50.040
-Den Rück-Pfad hier können wir nur repräsentieren, indem wir
+Den Rückpfad hier können wir nur repräsentieren, indem wir
 wieder auf die Stelle kommen, um G erneut auszuführen.
 
 0:09:50.040,0:09:59.100
-Dafür brauchen wir eine Hilfstransition die wir
+Dafür brauchen wir eine Hilfstransition, die wir
 hier einfügen und mit Hilfe derer wir wieder von
 
 0:09:59.100,0:10:10.140
-dieser Stelle zurück zur Stelle vor G zurückkommen
+dieser Stelle zurück zur Stelle vor G zurückkommen,
 um G erneut feuern zu können, im Petrinetz und im
 
 0:10:10.140,0:10:24.180
@@ -213,12 +212,12 @@ Es wäre möglich, dass nach F und nach G
 weitere Stellen existieren. Aber wie gesagt
 
 0:11:15.120,0:11:19.800
-ist das optional. Es könnte also so aussehen,
+das ist optional. Es könnte also so aussehen,
 dass hier und dort noch eine Stelle ist.
 
 0:11:25.080,0:11:39.960
 Dafür müssen noch Pfeile von F und dem
-Vereinigungsknoten, des joins am Ende, existieren.
+Vereinigungsknoten des Joins am Ende existieren.
 
 0:11:43.260,0:11:51.840
 Damit ist die Umwandlung in das Petrinetz
@@ -229,11 +228,11 @@ hier nur partiell sichtbar, aber Sie können
 die Aufgabenstellung direkt danebenlegen.
 
 0:12:01.020,0:12:08.460
-Wenn wir nochmal den Pfad abgehen sehen wir hier
+Wenn wir nochmal den Pfad abgehen, sehen wir hier
 den Startknoten, dann die Aktivität A, dann kommt
 
 0:12:09.180,0:12:20.340
-B was wir hier als Stelle repräsentieren, und
+B, was wir hier als Stelle repräsentieren, und
 dann die Aktivität C. Danach brauchen wir eine
 
 0:12:20.340,0:12:28.980
@@ -242,11 +241,11 @@ Dafür führen wir eine Hilfsstelle ein. Danach
 
 0:12:28.980,0:12:40.080
 verzweigen wir in drei Stellen, die uns dann
-ermöglichen verschiedene Aktionen durchzuführen,
+ermöglichen, verschiedene Aktionen durchzuführen,
 
 0:12:40.080,0:12:45.960
 also verschiedene Transitionen im
-Petrinetz zu feuern. Nämlich D oder E.
+Petrinetz zu feuern, nämlich D oder E.
 
 0:12:46.620,0:12:54.240
 Das ist über die Verzweigung am Startknoten
@@ -254,7 +253,7 @@ möglich, also dass wir zwei unterschiedliche Pfade
 
 0:12:54.240,0:13:08.160
 haben von dieser Stelle. Also zwei ausgehende
-Kanten aber bei Ausführung nur ein Token, sodass
+Kanten, aber bei Ausführung nur ein Token, sodass
 
 0:13:08.160,0:13:15.300
 nur eine gefeuert werden kann. F und G haben wir
@@ -269,5 +268,5 @@ uns diese beiden Stellen, die Pfade
 zusammenzuführen und letztendlich das Programm
 
 0:13:39.600,0:13:47.100
-zu beenden. Wie gesagt sind diese beiden Stellen
+zu beenden. Wie gesagt, sind diese beiden Stellen
 optional. Und damit ist die Aufgabe gelöst.

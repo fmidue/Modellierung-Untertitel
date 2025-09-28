@@ -10,7 +10,7 @@ Sie die neu deklarierte Operation zusammen
 mit welchen aus der Vorlesung, um einen Term
 
 0:00:14.879,0:00:19.230
-anzugeben, der in etwas das folgende Bild
+anzugeben, der in etwa das folgende Bild
 beschreibt.
 
 0:00:19.230,0:00:21.770
@@ -28,11 +28,11 @@ In Teilaufgabe (a) wurde schon ein Vieleck
 deklariert.
 
 0:00:35.290,0:00:42.090
-Int steht hier für Anzahl der Kanten, in
+Int steht hier für die Anzahl der Kanten, in
 diesem Fall sind es sieben.
 
 0:00:42.090,0:00:45.320
-Float steht für Radius, in diesem Fall 2.
+Float steht für den Radius, in diesem Fall 2.
 
 0:00:45.320,0:00:48.130
 Am Ende bekommen wir daraus ein Picture.
@@ -41,7 +41,7 @@ Am Ende bekommen wir daraus ein Picture.
 Jetzt sollen wir das Ganze in die Praxis umsetzen.
 
 0:00:51.560,0:00:57.020
-Dafür werden wir die "CodeWorld" Webseite benutzen
+Dafür werden wir die "CodeWorld"-Webseite benutzen
 und sehen, wie das richtig funktioniert und
 
 0:00:57.020,0:00:59.710

@@ -10,7 +10,7 @@ Lebendigkeit gesehen haben, diskutieren
 und insbesondere Kombinationen anschauen.
 
 0:00:17.280,0:00:21.810
-Also wann können diese und jene Eigenschaft
+Also, wann können diese und jene Eigenschaft
 gleichzeitig eintreffen oder auch nicht?
 
 0:00:24.060,0:00:27.630
@@ -93,10 +93,10 @@ dass für jede Transition (in dem Fall
 
 0:01:38.400,0:01:43.350
 wieder für t1 und t2 separat zu
-überprüfen), und egal wie lang das
+überprüfen), und egal, wie lang das
 
 0:01:43.350,0:01:48.840
-Petrinetzen schon ausgeführt wurde (und sich in
+Petrinetz schon ausgeführt wurde (und sich in
 irgendeine Markierung hinein entwickelt hat),
 
 0:01:48.840,0:01:53.400
@@ -129,7 +129,7 @@ Verklemmt ist das Petrinetz
 offenkundig auch nicht.
 
 0:02:14.510,0:02:18.710
-Denn egal wie wir vorgehen,
+Denn egal, wie wir vorgehen,
 wir kommen immer weiter.
 
 0:02:18.710,0:02:23.360
@@ -176,7 +176,7 @@ hier immer die Nummerierung s1,
 s2 (auch in den folgenden Beispielen).
 
 0:03:04.790,0:03:08.300
-Also wie die Stellen nummeriert
+Also, wie die Stellen nummeriert
 sind, so fasse ich sie auch auf,
 
 0:03:08.300,0:03:09.980
@@ -225,7 +225,7 @@ Erreichbarkeitsgraphen auch ablesen,
 dass das Petrinetz stark lebendig ist.
 
 0:04:17.240,0:04:27.650
-Denn egal wo wir sind (ob hier oder hier),
+Denn egal, wo wir sind (ob hier oder hier),
 es ist immer möglich, nach gegebenenfalls
 
 0:04:27.650,0:04:32.137
@@ -290,7 +290,7 @@ es auch die anderen beiden.
 
 0:05:34.490,0:05:38.600
 Dann würde es nicht stimmen, dass
-nicht alle drei Eigenschaft vorliegen.
+nicht alle drei Eigenschaften vorliegen.
 
 0:05:38.600,0:05:42.860
 Also, wie kann sich dieses Petrinetz verhalten?
@@ -321,7 +321,7 @@ Selbst hier hinten können wir immer
 noch beliebig oft t3 ausführen.
 
 0:06:12.521,0:06:17.180
-Also wir können schon mal festhalten,
+Also können wir schon mal festhalten,
 dass es verklemmungsfrei ist.
 
 0:06:18.110,0:06:23.630
@@ -424,7 +424,7 @@ aus diese Transition schaltbar ist.
 Aber dieses Petrinetz ist nicht stark lebendig.
 
 0:08:29.580,0:08:38.640
-Was uns dieses Beispiel auch liefert
+Was uns dieses Beispiel auch liefert,
 ist, dass zwar aus starker Lebendigkeit
 
 0:08:38.640,0:08:40.230
@@ -433,7 +433,7 @@ Verklemmungsfreiheit folgen, dass
 
 0:08:40.230,0:08:44.750
 aber nicht jedes verklemmungsfreie und schwach
-lebendige Petrinetz auch stark lebendig sei.
+lebendige Petrinetz auch stark lebendig ist.
 
 0:08:45.800,0:08:48.530
 Dieses hier ist das nicht.
@@ -533,14 +533,14 @@ Wir haben diese Marke hier oben.
 
 0:10:59.220,0:11:04.770
 Die kann einerseits mittels t1
-ständig hier wandern sozusagen.
+ständig hier wandern, sozusagen.
 
 0:11:04.770,0:11:07.410
 Also eigentlich ändert sich
 die Markierung gar nicht,
 
 0:11:07.410,0:11:10.890
-denn Schalten von t1 führt genau
+denn das Schalten von t1 führt genau
 zur gleichen Markierung zurück.
 
 0:11:10.890,0:11:16.560
@@ -679,7 +679,7 @@ klar erkennbare Situation,
 in der keine Transition mehr schaltbar ist.
 
 0:14:02.890,0:14:10.540
-Also wir können schon einmal festhalten, dass
+Also können wir schon einmal festhalten, dass
 dieses Petrinetz eine Verklemmung enthält.
 
 0:14:10.540,0:14:16.630
@@ -745,7 +745,7 @@ im Erreichbarkeitsgraphen vor.
 
 0:15:47.590,0:15:55.810
 Wenn Sie jetzt den Kombinationen gefolgt
-sind, und in Anbetracht der Tatsache,
+sind und in Anbetracht der Tatsache,
 
 0:15:55.810,0:15:59.530
 dass aus starker Lebendigkeit die schwache
@@ -884,7 +884,7 @@ Es enthält eine Verklemmung.
 
 0:18:27.630,0:18:34.170
 Das ist also noch die letzte Eigenschaft (von den
-drei betrachten Eigenschaften), die hier vorliegt.
+drei betrachteten Eigenschaften), die hier vorliegt.
 
 0:18:40.560,0:18:44.310
 Genau diese Kombination hatten wir vorher
@@ -909,7 +909,7 @@ es denn gibt.
 Das sollen so Mengen andeuten.
 
 0:19:13.270,0:19:16.240
-Also es gibt alle möglichen Petrinetze,
+Also, es gibt alle möglichen Petrinetze,
 das ist die äußere blaue Menge.
 
 0:19:16.240,0:19:19.630
@@ -998,11 +998,11 @@ gesehenen Petrinetzen ein Beispiel.
 
 0:21:11.450,0:21:17.120
 Also etwa ein Netz, das zwar verklemmungsfrei
-ist, aber weder stark, noch schwach lebendig ist.
+ist, aber weder stark noch schwach lebendig ist.
 
 0:21:17.120,0:21:22.670
 Oder ein Netz, das zwar schwach lebendig ist,
-aber weder stark lebendig, noch verklemmungsfrei.
+aber weder stark lebendig noch verklemmungsfrei.
 
 0:21:25.100,0:21:27.890
 Das rechtfertigt, dass dieses Mengendiagramm,

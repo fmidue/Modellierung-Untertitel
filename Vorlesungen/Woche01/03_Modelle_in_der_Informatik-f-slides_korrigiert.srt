@@ -127,7 +127,7 @@ der Wiederverwendbarkeit.
 
 00:02:29,870 --> 00:02:34,040
 Das heißt nicht, dass in der Informatik
-immer modelliert wird .
+immer modelliert wird.
 
 00:02:34,040 --> 00:02:37,190
 Also, es gibt einige Sondersituationen.
@@ -348,7 +348,7 @@ Also auf verschiedenen Ebenen
 werden Modelle erstellt,
 
 00:06:39,700 --> 00:06:43,990
-und es gibt dann wirklich z.B. konkrete
+und es gibt dann wirklich z. B. konkrete
 Dokumente, die man auch anschauen kann.
 
 00:06:43,990 --> 00:06:49,780
@@ -400,7 +400,7 @@ Softwareentwicklung zu betreiben.
 
 00:07:40,720 --> 00:07:48,880
 Ein anderes Verfahren ist iterativer, wo
-also die Phasen nicht ein Mal wasserfallartig
+also die Phasen nicht einmal wasserfallartig
 
 00:07:48,880 --> 00:07:51,910
 durchgeführt werden, sondern immer wieder
@@ -457,10 +457,10 @@ eine vereinfachende Darstellung,
 an der sich orientiert werden kann.
 
 00:08:54,940 --> 00:08:58,840
-Wir werden solche Modelle nicht weiter betrachten,
+Wir werden solche Modelle nicht weiter betrachten.
 
 00:08:58,840 --> 00:09:04,000
-denn Vorgehensmodelle sind auch Teil der
+Denn Vorgehensmodelle sind auch Teil der
 Softwaretechnik-Vorlesung bei Prof. Heisel.
 
 00:09:04,000 --> 00:09:09,100
@@ -561,7 +561,7 @@ Also Korrektheit objektiv hieße ja, irgendwie
 zu überprüfen, ob das System den Zweck erfüllt.
 
 00:10:59,950 --> 00:11:03,250
-Und das muss vom Zweck abhängen,
+Und das muss vom Zweck abhängen
 und ist gar nicht unbedingt klar,
 
 00:11:03,250 --> 00:11:06,010
@@ -657,7 +657,7 @@ Darstellungen eines Modells.
 
 00:12:28,270 --> 00:12:32,200
 Zum Archivieren, zur Codegenerierung,
-Dokumentation, und natürlich zur Analyse.
+Dokumentation und natürlich zur Analyse.
 
 00:12:32,200 --> 00:12:38,140
 Auch das wird nicht großen Raum
@@ -680,7 +680,7 @@ In der Vorlesung selbst wird das höchstens
 mal auftreten, wenn ich mit Petrinetzen
 
 00:12:56,560 --> 00:13:03,040
-arbeiten möchte, und dann vielleicht auch in
+arbeiten möchte und dann vielleicht auch in
 Videoform mal eine Simulation durchführen werde.
 
 00:13:08,380 --> 00:13:14,050
@@ -838,7 +838,7 @@ Petrinetze sind im Kontext verteilter Systeme
 relevant und tauchen sicher noch einmal auf.
 
 00:15:53,410 --> 00:15:59,320
-UML war früher auch prominenter Teil der
+UML war früher auch ein prominenter Teil der
 Vorlesung Grundlegende Programmiertechniken,
 
 00:15:59,320 --> 00:16:01,390

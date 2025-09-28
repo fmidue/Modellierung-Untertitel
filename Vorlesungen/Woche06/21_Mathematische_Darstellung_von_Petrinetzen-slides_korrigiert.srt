@@ -1,10 +1,10 @@
 146 # slide
 00:00:00,000 --> 00:00:05,430
 Nach den informellen Beispielen
-lassen Sie uns diese Woche noch
+lassen Sie uns diese Woche noch.
 
 00:00:05,430 --> 00:00:08,190
-die formale Definition von Petrinetzen besprechen.
+Die formale Definition von Petrinetzen besprechen.
 
 00:00:08,190 --> 00:00:13,560
 Das hier sieht jetzt erst mal wie
@@ -256,7 +256,7 @@ eine Funktion dieser Form.
 
 00:04:53,270 --> 00:05:01,760
 Und sie kann anzeigen, wie viele Marken
-aktuell in einzelnen Stellen liegen.
+aktuell an einzelnen Stellen liegen.
 
 00:05:01,760 --> 00:05:07,910
 Das wäre die Anwendung hier, zur Angabe
@@ -281,7 +281,7 @@ Stellen hinzuzufügen sind.
 Das wäre für die Nachgewichte der Fall.
 
 00:05:20,870 --> 00:05:25,310
-Und natürlich ist wichtig, dass in allen
+Und natürlich ist es wichtig, dass in allen
 drei Fällen jeweils Varianz vorliegen kann.
 
 00:05:25,310 --> 00:05:31,820
@@ -297,7 +297,7 @@ also mit einer Zuordnungsvorschrift.
 
 00:05:43,280 --> 00:05:45,680
 Wenn S klein ist, etwa nur
-3 oder 4 Element enthält,
+3 oder 4 Elemente enthält,
 
 00:05:45,680 --> 00:05:48,050
 wollen wir ja eigentlich nur drei Werte angeben.
@@ -346,7 +346,7 @@ Da wird die Beziehung sein, dass
 die Stellen aus der mathematischen
 
 00:06:41,290 --> 00:06:44,796
-Definition auch den Stellen , den Kreisen,
+Definition auch den Stellen, den Kreisen,
 in der grafischen Darstellung entsprechen.
 
 00:06:44,796 --> 00:06:47,590
@@ -450,15 +450,15 @@ der Transition t1 zwei Marken erzeugt.
 Das wäre die grafische Darstellung.
 
 00:08:40,210 --> 00:08:45,580
-Um eine mathematische Darstellung aufschreiben zu
+Um eine mathematische Darstellung aufzuschreiben,
 
 00:08:45,580 --> 00:08:48,400
-können, müssen wir uns für eine
+müssen wir uns für eine
 Stellenreihenfolge entscheiden.
 
 00:08:48,400 --> 00:08:52,690
 Hier ist es naheliegend, die Stellen eben
-in der Reihenfolge s1, s2, s3 anzugeben.
+in der Reihenfolge s_1, s_2, s_3 anzugeben.
 
 00:08:52,690 --> 00:08:57,010
 Das werden wir brauchen, wenn wir die
@@ -483,7 +483,7 @@ aus der grafischen Darstellung?
 Wir wissen, dass sie eine Marke aus s1 konsumiert,
 
 00:09:24,100 --> 00:09:31,690
-eine Marke aus s2 konsumiert, und zwei Marken
+eine Marke aus s2 konsumiert und zwei Marken
 in s3 legt, aber keine Marke aus s3 entnimmt.
 
 00:09:33,310 --> 00:09:36,550
@@ -516,8 +516,8 @@ auch hier keinen Rückwärtspfeil gibt.
 Es werden zwei Marken in s3 abgelegt.
 
 00:10:00,520 --> 00:10:05,350
-Diese Information, in diesen beiden
-Zeilen, entspricht der Information,
+Diese Information in diesen beiden
+Zeilen entspricht der Information,
 
 00:10:05,350 --> 00:10:12,970
 die hier durch die entsprechenden Pfeile und
@@ -539,14 +539,14 @@ bzw. initiale Markierung.
 Die sagt:
 
 00:10:29,920 --> 00:10:33,280
-Auf s1 habe eine Marke zu liegen auf s2 haben
+Auf s1 habe eine Marke zu liegen, auf s2 haben
 
 00:10:33,280 --> 00:10:40,030
 zwei Marken zu liegen und s3
 habe zu Beginn leer zu sein.
 
 00:10:40,030 --> 00:10:42,340
-Wenn wir uns auf eine Stellenreihenfolge festlegen
+Wenn wir uns auf eine Stellenreihenfolge festlegen,
 
 00:10:42,340 --> 00:10:47,200
 (s1, s2, s3 zum Beispiel), dann können wir
@@ -598,14 +598,14 @@ Je nach Verwendungszweck wollen
 wir vielleicht eher mathematisch
 
 00:11:39,550 --> 00:11:42,490
-etwas definieren, für die Petrinetze
-Analysen durchführen zum Beispiel.
+etwas definieren, um für die Petrinetze
+Analysen durchführen zu können, zum Beispiel.
 
 00:11:42,490 --> 00:11:44,980
 Oder wollen wir eher illustrieren oder
 
 00:11:44,980 --> 00:11:48,730
-simulieren, oder intuitiv durchgehen und
+simulieren oder intuitiv durchgehen und
 besprechen, welche Übergänge möglich sind?
 
 00:11:49,330 --> 00:11:52,810

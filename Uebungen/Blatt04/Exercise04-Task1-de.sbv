@@ -1,6 +1,6 @@
 0:00:01.060,0:00:07.490
 In dieser Aufgabe haben wir dieses Klassendiagramm
-gegeben, was die Vektorgrafik-Funktionen und
+gegeben, das die Vektorgrafik-Funktionen und
 
 0:00:07.490,0:00:09.960
 Objekte, die wir in der Vorlesung kennengelernt
@@ -41,7 +41,7 @@ die Funktion aufrufen können.
 
 0:00:47.870,0:00:51.760
 Hier müssen wir aber aufpassen, denn hier
-oben steht Picture ist eine Abstract-Klasse.
+oben steht, Picture ist eine Abstract-Klasse.
 
 0:00:51.760,0:00:57.150
 Das heißt, von der Klasse Picture kann es
@@ -74,8 +74,8 @@ Rectangle kann diese Funktion aufrufen und
 Path kann auch diese Funktion aufrufen.
 
 0:01:28.530,0:01:33.749
-Jetzt haben wir diese vier Klassen abgedeckt,
-nun müssen wir uns noch die letzte hier unten
+Jetzt haben wir diese vier Klassen abgedeckt.
+Nun müssen wir uns noch die letzte hier unten
 
 0:01:33.749,0:01:34.749
 angucken, Point.
@@ -98,10 +98,10 @@ mit Path verbunden, semantisch, aber es erbt
 
 0:01:55.359,0:01:57.880
 nicht diese Funktion, was bedeutet, dass Point
-nicht dazu gehört.
+nicht dazugehört.
 
 0:01:57.880,0:02:03.030
-Also die Antwort zur Teilaufgabe A wäre einfach
+Also wäre die Antwort zur Teilaufgabe A einfach
 nur, Instanzen der Klasse Circle, Rectangle
 
 0:02:03.030,0:02:06.270
@@ -117,7 +117,7 @@ Wir sehen, dass bei den Funktionen hier nur
 die Namen angegeben sind und die Angabe der
 
 0:02:21.870,0:02:25.140
-Argumente und welche Typen die Argumente haben,
+Argumente und welche Typen die Argumente haben
 fehlt.
 
 0:02:25.140,0:02:29.599
@@ -199,7 +199,7 @@ der Effekt von dieser objektorientierten Sicht
 
 0:03:50.550,0:03:54.239
 und dass diese Funktion direkt in der Klasse
-Picture drin sind.
+Picture drin ist.
 
 0:03:54.239,0:03:57.439
 Das heißt, wir können uns diese Typ-Signaturen
@@ -226,32 +226,32 @@ Picture.
 
 0:04:20.060,0:04:23.840
 Das brauchen wir auch wieder nicht anzugeben,
-weil wie ich schon erwähnte, da wird einfach
+weil, wie ich schon erwähnte, da wird einfach
 
 0:04:23.840,0:04:25.610
 nur die Klasse selber verändert.
 
 0:04:25.610,0:04:34.310
-Das heißt für Scale konkret sind die Argumente
-einfach nur, wir haben ein x-Argument, was
+Das heißt, für Scale konkret sind die Argumente
+einfach nur, wir haben ein x-Argument, das
 
 0:04:34.310,0:04:37.160
 das Scaling auf der x-Achse angibt und das
 ist vom Typ Float.
 
 0:04:37.160,0:04:42.470
-Und ein y-Argument, was das Scaling auf der
-y-Achse angibt und das ist auch vom Typ Float
+Und ein y-Argument, das das Scaling auf der
+y-Achse angibt, und das ist auch vom Typ Float.
 
 0:04:42.470,0:04:45.199
-und damit ist Scale vervollständigt.
+Und damit ist Scale vervollständigt.
 
 0:04:45.199,0:04:47.420
 Für Color machen wir dasselbe.
 
 0:04:47.420,0:04:53.580
 Color bekommt einfach nur einen Color-Wert
-und sonst gar nichts, weil hier ist auch wieder
+und sonst gar nichts, denn hier ist auch wieder
 
 0:04:53.580,0:04:58.090
 das erste Argument die Klasse selbst und der
@@ -268,7 +268,7 @@ Für Move haben wir wieder zwei Floats.
 Da bewegen wir uns wieder auf der x- und y-Achse.
 
 0:05:16.190,0:05:22.090
-Und am Ende noch für Extent, Extent ist ein
+Und am Ende noch für Extent. Extent ist ein
 bisschen anders.
 
 0:05:22.090,0:05:24.599
@@ -279,7 +279,7 @@ Genau, hier unten ist Extent.
 
 0:05:29.800,0:05:33.960
 Extent hat einfach nur das erste Element,
-was vom Typ Picture ist und gibt einen Float
+das vom Typ Picture ist und gibt einen Float
 
 0:05:33.960,0:05:34.960
 zurück.
@@ -293,11 +293,11 @@ die Funktion drin ist.
 
 0:05:43.039,0:05:47.420
 Das heißt, hier geben wir nur eine leere
-Klammer an, für keine Argumente nötig und
+Klammer an, da keine Argumente nötig sind, und
 
 0:05:47.420,0:05:52.030
-Ausgabewert ist was vom Typ Float, weil hier
-kommt jetzt wirklich was zurück, denn das
+der Ausgabewert ist etwas vom Typ Float, denn hier
+kommt jetzt wirklich etwas zurück, denn das
 
 0:05:52.030,0:05:58.379
 ist nicht die Klasse selbst, die manipuliert

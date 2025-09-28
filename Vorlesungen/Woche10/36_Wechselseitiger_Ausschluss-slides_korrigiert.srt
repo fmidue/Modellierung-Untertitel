@@ -3,7 +3,7 @@
 Zum Ende des Petrinetz-Kapitels kommend,
 
 00:00:04,560 --> 00:00:09,480
-möchte ich mit Ihnen noch ein,
+möchte ich mit Ihnen noch ein, 
 zwei Beispiele durchsprechen.
 
 00:00:09,480 --> 00:00:11,400
@@ -15,7 +15,7 @@ oder Modellierungsmuster deutlich werden.
 
 00:00:16,620 --> 00:00:22,260
 Mit "Modellierungsmuster" meine ich jetzt
-nicht irgendetwas formales wie die formal
+nicht irgendetwas Formales wie die formal
 
 00:00:22,260 --> 00:00:23,670
 definierten Eigenschaften, die wir gesehen haben.
@@ -83,12 +83,12 @@ dass bestimmte Stellen nicht mehr als eine
 bestimmte Anzahl von Marken enthalten dürfen.
 
 00:01:38,040 --> 00:01:42,090
-Nicht weil das Petrinetz beschränkt
+Nicht, weil das Petrinetz beschränkt
 ist als formale Eigenschaft,
 
 00:01:42,090 --> 00:01:44,790
 sondern indem das beim Modellieren schon
-hinein gebracht wird, dass bestimmte
+hineingebracht wird, dass bestimmte
 
 00:01:44,790 --> 00:01:48,210
 Stellen nicht mehr als eine bestimmte
@@ -99,7 +99,7 @@ Das ist per se erst mal beim Erstellen des
 Petrinetzes nicht gegeben, solche Einschränkungen.
 
 00:01:54,060 --> 00:01:58,710
-Diesen letzten Aspekte, Kapazität
+Diesen letzten Aspekt, Kapazität
 einschränken oder die Möglichkeit,
 
 00:01:59,250 --> 00:02:03,557
@@ -182,7 +182,7 @@ Deswegen soll sich immer höchstens ein
 Akteur in diesem kritischen Bereich befinden.
 
 00:03:21,310 --> 00:03:26,710
-Wie können wir und das als
+Wie können wir uns das als
 Petrinetz-Entwurf vorstellen?
 
 00:03:28,330 --> 00:03:32,710
@@ -208,7 +208,7 @@ Also es könnte sein, dass das, was hier nur
 eine Stelle ist, in Wirklichkeit ein ganzes
 
 00:03:50,650 --> 00:03:54,580
-Petrinetz ist, in das irgend etwas reingeht, etwas
+Petrinetz ist, in das irgendetwas reingeht, etwas
 rauskommt (und was hier drin passiert, ist egal).
 
 00:03:54,580 --> 00:03:56,110
@@ -226,7 +226,7 @@ werden können, die nichts mit dem
 kritischen Bereich zu tun haben.
 
 00:04:05,290 --> 00:04:07,150
-Das gleiche gilt für den Akteur 2.
+Das Gleiche gilt für den Akteur 2.
 
 00:04:07,150 --> 00:04:08,290
 Also das sind der nicht-kritische
@@ -293,15 +293,15 @@ in eine Datei zu schreiben, könnten
 sie das aus Versehen gleichzeitig tun.
 
 00:05:07,450 --> 00:05:12,010
-Und natürlich das Schleusen-Beispiel
-aus dem Übungsbetrieb ist so ähnlich.
+Und natürlich ist das Schleusen-Beispiel
+aus dem Übungsbetrieb so ähnlich.
 
 00:05:12,010 --> 00:05:16,540
 Da geht es um Schiffe, die nicht gleichzeitig in
 einem bestimmten Teil der Schleuse sein sollen.
 
 00:05:16,540 --> 00:05:18,490
-Das hat letztlich auch was
+Das hat letztlich auch etwas
 mit kritischem Bereich zu tun.
 
 00:05:21,490 --> 00:05:22,210
@@ -330,7 +330,7 @@ Die aber dafür sorgt, dass bestimmtes
 unerwünschtes Verhalten nicht eintritt.
 
 00:05:46,570 --> 00:05:51,940
-Und zwar kann man über ein extra Stelle
+Und zwar kann man über eine extra Stelle
 synchronisieren, und die nennt sich Mutex-Stelle.
 
 00:05:51,940 --> 00:05:55,750
@@ -368,7 +368,7 @@ seinen kritischen Bereich zu betreten.
 
 00:06:23,650 --> 00:06:26,260
 Das heißt, um den kritischen Bereich
-zu beizutreten (also um die Marke
+zu betreten (also um die Marke
 
 00:06:26,260 --> 00:06:29,290
 von hier nach hier zu bringen), muss
@@ -467,8 +467,8 @@ Das habe ich einfach mal getan,
 ohne das schrittweise zu entwickeln.
 
 00:08:11,070 --> 00:08:16,080
-Also wir sehen hier, wenn wir die
-Stellenreihenfolge NK1, K1, K2,
+Also, wir sehen hier, wenn wir die
+Stellenreihefolge NK1, K1, K2,
 
 00:08:16,080 --> 00:08:25,380
 NK2 nehmen (also im Grunde genommen so wie
@@ -540,7 +540,7 @@ der Vergangenheit geholfen?
 
 00:09:31,380 --> 00:09:37,680
 Und nun, tatsächlich auch bei dem Beispiel
-davor im Kontext der Speisenden Philosophen
+davor im Kontext der speisenden Philosophen
 
 00:09:37,680 --> 00:09:40,800
 kann man vom wechselseitigen
@@ -559,14 +559,14 @@ Konstellationen von speisenden Philosophen
 
 00:09:52,920 --> 00:09:57,690
 nach Lösungen suchen, die solche
-Synchronisations-Ideen verfolgen.
+Synchronisationsideen verfolgen.
 
 00:09:58,650 --> 00:10:01,020
 Ich bespreche das jetzt nur
 für den einfachsten Fall.
 
 00:10:01,020 --> 00:10:03,210
-Wir gucken uns die Speisenden Philosophen an.
+Wir gucken uns die speisenden Philosophen an.
 
 00:10:03,210 --> 00:10:06,390
 Das haben wir vor kurzem erst getan,
@@ -634,7 +634,7 @@ Da könnte uns ja vielleicht
 Synchronisation helfen.
 
 00:11:08,300 --> 00:11:11,390
-Also wir können versuchen, eine
+Also, wir können versuchen, eine
 extra Mutex-Stelle einzuführen,
 
 00:11:11,390 --> 00:11:17,180
@@ -653,7 +653,7 @@ sozusagen auf Anwendungsebene das Problem
 auch ohne eine extra Mutex-Stelle lösen.
 
 00:11:30,911 --> 00:11:34,580
-Und zwar wenn man den gedanklichen
+Und zwar, wenn man den gedanklichen
 Sprung macht, zu sagen:
 
 00:11:34,580 --> 00:11:38,120
@@ -698,7 +698,7 @@ Die wurden genau so umgebogen,
 dass der Pfeil, der vorher von F2
 
 00:12:16,850 --> 00:12:22,700
-zu irgendwas beim Philosoph 1 führte, jetzt
+zu irgendwas beim Philosophen 1 führte, jetzt
 stattdessen daher rührt, wo vorher F1 war.
 
 00:12:22,700 --> 00:12:26,020
@@ -796,7 +796,7 @@ werden, wenn Philosoph 1 diese Gabel
 wieder abgelegt hat, also gegessen hat.
 
 00:14:17,080 --> 00:14:21,130
-Das ist ein Konflikt natürlich.
+Das ist ein Konflikt, natürlich.
 
 00:14:21,130 --> 00:14:25,720
 Das heißt, dass diese beiden Transitionen
@@ -833,7 +833,7 @@ Sondern nur einer von beiden kann das tun, und
 danach kann der andere nicht sofort irgendwas tun.
 
 00:14:55,990 --> 00:15:00,910
-Aber wenn Philosoph 1 dann mit essen fertig
+Aber wenn Philosoph 1 dann mit dem Essen fertig
 ist, kann Philosoph 2 wieder drankommen.
 
 00:15:00,910 --> 00:15:04,690

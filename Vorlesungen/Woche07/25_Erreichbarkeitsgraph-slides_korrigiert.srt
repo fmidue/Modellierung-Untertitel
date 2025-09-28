@@ -50,14 +50,14 @@ ein flaches Zustandsdiagramm zu.
 
 00:01:05,040 --> 00:01:07,485
 Dieses besteht ja immer aus
-bestimmten Komponenten so
+bestimmten Komponenten, so
 
 00:01:07,485 --> 00:01:09,930
 wie weiter vorne (wo wir uns allgemein Graphen
 angeschaut haben) mathematisch definiert wurde.
 
 00:01:12,810 --> 00:01:15,330
-Also es gibt die Knotenmenge.
+Also, es gibt die Knotenmenge.
 
 00:01:15,330 --> 00:01:18,060
 Die wird oft V genannt für "vertices".
@@ -135,11 +135,11 @@ Transition, die zu diesem Übergang geführt hat.
 Die aktiviert war in der Ursprungsmarkierung
 
 00:02:39,960 --> 00:02:45,120
-vor dem Übergang, und genau
+vor dem Übergang und genau
 zum Folgezustand geführt hat.
 
 00:02:47,640 --> 00:02:55,920
-Dann erhalten wir als Kantenmenge, oder Übergänge,
+Dann erhalten wir als Kantenmenge oder Übergänge,
 genau die Tripel bestehend aus Markierung,
 
 00:02:57,840 --> 00:03:03,030
@@ -156,10 +156,10 @@ von m nach m' mit dem Label t,
 
 00:03:13,710 --> 00:03:23,280
 also mit Beschriftung t an dem Pfeil,
-genau dann wenn t aktiviert ist in
+genau dann, wenn t aktiviert ist in
 
 00:03:23,280 --> 00:03:28,020
-Markierung m, und nach dem Schalten
+Markierung m und nach dem Schalten
 genau die Markierung m' entsteht.
 
 00:03:29,970 --> 00:03:33,960
@@ -243,15 +243,15 @@ ein Beispiel für Unendlichkeit zurückkommen.
 
 00:04:53,890 --> 00:04:58,810
 Da ist die Definition unverändert, die
-Entwicklung ist im Prinzip auch gleich,
+Entwicklung ist im Prinzip auch gleich.
 
 00:04:58,810 --> 00:05:03,040
-nur kann man natürlich einen unendlichen
+Nur kann man natürlich einen unendlichen
 Graphen nicht in endlicher Zeit auf eine
 
 00:05:03,040 --> 00:05:07,750
 Folie malen, wie ich das jetzt hier für
-das Beispiel in Folge gleich tun werde.
+das Beispiel in der Folge gleich tun werde.
 
 00:05:12,190 --> 00:05:16,300
 Und zwar betrachten wir genau den
@@ -300,12 +300,12 @@ durchsprechen und danach Ihnen
 einfach den Graphen überlassen.
 
 00:06:03,100 --> 00:06:07,660
-So dass Sie da drin selber die restlichen
+So dass Sie darin selbst die restlichen
 Übergänge suchen oder überprüfen können.
 
 00:06:07,660 --> 00:06:13,210
 Also, laut der Definition ist
-das ein Graph, der alle alle
+das ein Graph, der alle
 
 00:06:13,210 --> 00:06:16,720
 erreichbaren Markierungen enthält, insbesondere
@@ -323,7 +323,7 @@ Weil wir von der auf jeden Fall schon wissen,
 
 00:06:22,630 --> 00:06:24,700
 dass sie vorhanden sein muss
-und auch im Graph vorkommt.
+und auch im Graphen vorkommt.
 
 00:06:24,700 --> 00:06:26,590
 Also, was ist die Startmarkierung hier?
@@ -405,7 +405,7 @@ Was ist denn in dieser Situation schaltbar?
 Und tatsächlich ist da nur t1 schaltbar.
 
 00:07:40,000 --> 00:07:41,620
-Und was da rauskommt wissen wir auch schon.
+Und was da rauskommt, wissen wir auch schon.
 
 00:07:41,620 --> 00:07:43,120
 Zum einen können wir es nachprüfen.
@@ -416,7 +416,7 @@ hier unten liegen hinterher.
 
 00:07:45,520 --> 00:07:49,330
 Also (0,1,2) wäre die nächste
-Markierung, nach Schalten von t1.
+Markierung nach Schalten von t1.
 
 00:07:49,330 --> 00:07:52,450
 Das wissen wir aber auch schon, weil
@@ -430,7 +430,7 @@ Aus der Startmarkierung (1,2,0) können wir durch
 Schalten mit t1 diese Folgemarkierung erhalten.
 
 00:07:59,980 --> 00:08:03,790
-Die ist also erreichbar, und muss demzufolge
+Die ist also erreichbar und muss demzufolge
 auch im Erreichbarkeitsgraphen vorkommen.
 
 00:08:03,790 --> 00:08:10,690
@@ -473,14 +473,14 @@ Marke hier anders gesetzt denken.
 
 00:08:37,870 --> 00:08:39,130
 Jetzt geht es ja nicht mehr
-um die Startmarkierung,
+um die Startmarkierung.
 
 00:08:39,130 --> 00:08:40,870
-sondern um die aktuelle Markierung (0,1,2).
+Sondern um die aktuelle Markierung (0,1,2).
 
 00:08:40,870 --> 00:08:43,900
 Also, wenn hier nichts liegt, hier
-eine Marke liegt, und hier zwei,
+eine Marke liegt und hier zwei,
 
 00:08:45,790 --> 00:08:48,730
 welche Transition wären denn dann schaltbar?
@@ -491,13 +491,13 @@ wegen der gedachten Null hier.
 
 00:08:52,300 --> 00:08:58,150
 Aber t2 und t3 wären beide schaltbar,
-weil sie nur von Marken in s3 abhängen,
+weil sie nur von Marken in s3 abhängen.
 
 00:08:58,150 --> 00:08:59,500
-wo jetzt ja zwei liegen würden.
+Wo jetzt ja zwei liegen würden.
 
 00:08:59,500 --> 00:09:02,830
-Also wir wüssten, als nächstes
+Also, wir wüssten, als nächstes
 wären t2 und t3 schaltbar.
 
 00:09:02,830 --> 00:09:06,190
@@ -510,18 +510,18 @@ genau von der Markierung m1, die nach Schalten
 
 00:09:11,020 --> 00:09:16,780
 von t1 vorliegt, uns überlegt und letztlich
-ausgerechnet, dass t2 und t3 schaltbar sind,
+ausgerechnet, dass t2 und t3 schaltbar sind.
 
 00:09:16,780 --> 00:09:22,450
-und das dabei die beiden Markierungen
+Und dass dabei die beiden Markierungen
 (1,1,1) bzw. (0,2,1) entstehen.
 
 00:09:22,450 --> 00:09:29,200
-Das können wir jetzt auch in unseren im
+Das können wir jetzt auch in unserem
 Entstehen begriffenen Graphen eintragen.
 
 00:09:29,200 --> 00:09:33,040
-Also wir würden das Stück, das wir
+Also, wir würden das Stück, das wir
 ja schon hatten, jetzt erweitern.
 
 00:09:33,040 --> 00:09:37,420
@@ -567,7 +567,7 @@ Aber das habe ich jetzt nicht
 mehr schon auf vorhandenen Folien.
 
 00:10:24,700 --> 00:10:27,520
-Also ich hatte keine weiteren
+Also, ich hatte keine weiteren
 Sachen hier durchgerechnet.
 
 00:10:27,520 --> 00:10:31,000
@@ -636,7 +636,7 @@ Wenn wir von (1,1,1) aus t3 schalten,
 
 00:11:31,120 --> 00:11:35,230
 dann kämen wir zur Markierung
-(1,2 0), die es aber schon gibt.
+(1,2,0), die es aber schon gibt.
 
 00:11:35,230 --> 00:11:42,160
 Natürlich machen wir dann hier nicht
@@ -655,7 +655,7 @@ mit t2 noch hierher kommen.
 
 00:11:53,410 --> 00:11:57,550
 Okay, und so erweitern wir
-den Graph Stück für Stück.
+den Graphen Stück für Stück.
 
 00:11:57,550 --> 00:12:01,630
 Für jeden neuen Zustand prüfen wir immer,
@@ -680,7 +680,7 @@ Wenn wir hingegen (wie eben von hier
 nach hier) einen Rückwärtspfeil haben,
 
 00:12:18,730 --> 00:12:23,080
-müssen wir natürlich nicht noch mal schauen,
+müssen wir natürlich nicht nochmal schauen,
 was von dieser Markierung ausgehend möglich ist.
 
 00:12:23,080 --> 00:12:25,690
@@ -823,7 +823,7 @@ an diesem Erreichbarkeitsgraph untersuchen.
 Das gilt für die Sackgassen.
 
 00:14:45,410 --> 00:14:50,440
-Das gilt für bestimmte Lebendigkeits-Fragen.
+Das gilt für bestimmte Lebendigkeitsfragen.
 
 00:14:50,440 --> 00:14:52,040
 Die Frage nach Sackgassen
@@ -879,7 +879,7 @@ Oder Fragen nach Kapazitäten.
 Eine der Fragen war:
 
 00:15:39,720 --> 00:15:42,390
-Gibt es denn irgendwelche Ressourcen-Obergrenzen?
+Gibt es denn irgendwelche Ressourcenobergrenzen?
 
 00:15:42,390 --> 00:15:46,260
 Dass also zum Beispiel, wenn man

@@ -23,7 +23,7 @@ Marken greifen und gleichzeitig
 durch t2 und t3 bewegen könnte.
 
 00:00:28,770 --> 00:00:32,220
-Das war die Intuition für diese Art Parallelität.
+Das war die Intuition für diese Art der Parallelität.
 
 00:00:32,220 --> 00:00:38,550
 Genau genommen definiert ist der Begriff aber
@@ -92,7 +92,7 @@ Und zwar mit diesem Summensymbol, welches
 elementweise Additionen durchführt.
 
 00:01:48,810 --> 00:01:50,820
-Das heißt, das was hier links steht,
+Das heißt, das, was hier links steht,
 
 00:01:50,820 --> 00:01:56,130
 wäre die Vektoraddition dieser
@@ -108,7 +108,7 @@ gleich) zur Markierung (0,1,1,0),
 
 00:02:06,750 --> 00:02:10,200
 die sich auch ergibt, wenn wir die aktuelle
-Markierung dieses Petrinetz nehmen.
+Markierung dieses Petrinetzes nehmen.
 
 00:02:10,200 --> 00:02:12,630
 Denn auf s1 liegt nichts, auf s2 liegt etwas,
@@ -184,7 +184,7 @@ nicht kleiner-gleich (0,1,1,0).
 
 00:03:46,470 --> 00:03:50,310
 Auch wenn auf s4 noch mehrere Marken
-liegen würden, so dass die Summe der
+liegen würden, sodass die Summe der
 
 00:03:50,310 --> 00:03:54,450
 Marken in dieser Markierung viel größer
@@ -192,7 +192,7 @@ würde, bestünde dennoch durch (0,1,2,0)
 
 00:03:56,790 --> 00:04:03,630
 einfach das Problem bezüglich dieser
-nur einen auf s3 liegenden Marke.
+nur einer auf s3 liegenden Marke.
 
 00:04:04,560 --> 00:04:06,360
 Was ich auch schon in dem
@@ -200,7 +200,7 @@ Video diskutiert hatte, war:
 
 00:04:06,360 --> 00:04:09,750
 Wenn man dann allerdings auf
-s3 eine zweite Marke abgelegt,
+s3 eine zweite Marke ablegt,
 
 00:04:09,750 --> 00:04:13,364
 dann wären t2 und t3 wieder nebenläufig
@@ -269,15 +269,15 @@ Also diese Behauptung aus dem
 vorherigen Video, dass t1, t2,
 
 00:05:29,980 --> 00:05:33,940
-t3 nebenläufig aktiviert sind, lässt die
-sich auch durch das Rechnen nachprüfen?
+t3 nebenläufig aktiviert sind, lässt sich
+auch durch das Rechnen nachprüfen?
 
 00:05:33,940 --> 00:05:38,770
-Nun das ist sehr leicht, sehr direkt.
+Nun, das ist sehr leicht, sehr direkt.
 
 00:05:38,770 --> 00:05:45,370
-Alle drei Vorgewichtsfunktion für t1, t2, t3
-sind jeweils genau die Funktion, die sagt,
+Alle drei Vorgewichtsfunktionen für t1, t2, t3
+sind jeweils genau die Funktionen, die sagen,
 
 00:05:45,370 --> 00:05:48,520
 dass aus s1 eine Marke entnommen
@@ -301,7 +301,7 @@ Da kommt in Summe (3,0,0,0)
 raus, und das ist genau gleich,
 
 00:06:03,220 --> 00:06:07,780
-und damit auch kleiner-gleich,
+und damit auch kleiner gleich,
 als die zu sehende Markierung.
 
 00:06:07,780 --> 00:06:11,230
@@ -316,7 +316,7 @@ Viele wären nicht schlimm.
 
 00:06:13,600 --> 00:06:16,090
 Wenn hier 4 wären, wäre das
-"kleiner-gleich" erfüllt.
+"kleiner gleich" erfüllt.
 
 00:06:16,090 --> 00:06:18,820
 Aber "zu wenig" würde eben
@@ -339,7 +339,7 @@ Denn wenn wir nur die Vorgewichtsfunktionen
 von t1 und t2 addieren, kommt (2,0,0,0) raus.
 
 00:06:38,950 --> 00:06:40,930
-Das ist auch kleiner-gleich (3,0,0,0).
+Das ist auch kleiner gleich (3,0,0,0).
 
 00:06:40,930 --> 00:06:46,570
 Das deckt sich wiederum mit dieser Beobachtung
@@ -478,7 +478,7 @@ diesen drei Marken nicht gleichzeitig t1
 
 00:09:22,600 --> 00:09:27,190
 und t2 zufriedenstellen können (wegen
-dieser nur einen Marke in der Mitte).
+dieser nur einer Marke in der Mitte).
 
 00:09:27,190 --> 00:09:28,390
 Das hatte ich so durchdiskutiert.
@@ -630,7 +630,7 @@ aber die Reihenfolge zwischen diesen
 nebenläufig aktivierten Transitionen ist egal.
 
 00:12:23,300 --> 00:12:26,720
-Am Ende kommt das gleiche heraus, wenn wir
+Am Ende kommt das Gleiche heraus, wenn wir
 nicht noch etwas anderes dazwischen machen.
 
 00:12:26,720 --> 00:12:27,170
@@ -701,7 +701,7 @@ Ich habe dazu auch schon mal "Diamant" gesagt.
 Das kommt darauf an, wie man das zeichnet.
 
 00:13:46,144 --> 00:13:51,000
-Höherdimensional wird es dann noch offenkundiger
+Höherdimensional wird es dann noch offenkundiger,
 sozusagen wie eine Kristallstruktur aussehen.
 
 00:13:51,000 --> 00:13:52,740
@@ -758,7 +758,7 @@ drei nebenläufig aktivierte Transitionen
 haben), dann entstehen solche Strukturen.
 
 00:14:49,180 --> 00:14:55,150
-Wieder weil jede Reihenfolge der
+Wieder, weil jede Reihenfolge der
 Transitionen möglich sein wird,
 
 00:14:55,150 --> 00:15:00,040
@@ -933,7 +933,7 @@ dann ist die Frage von der vorigen Folie
 tatsächlich positiv zu beantworten.
 
 00:18:22,100 --> 00:18:25,430
-Also wenn wir dann eine Markierung
+Also, wenn wir dann eine Markierung
 haben und eine Menge von Transitionen,
 
 00:18:25,430 --> 00:18:32,000
@@ -971,7 +971,7 @@ Oder wenn Sie das oft genug getan haben,
 erkennen Sie die Sachen natürlich auch
 
 00:19:07,850 --> 00:19:11,690
-an dem Petrinetz selber, und müssen das
+an dem Petrinetz selber und müssen das
 nicht unbedingt händisch ausrechnen,
 
 00:19:11,690 --> 00:19:13,010

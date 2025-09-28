@@ -21,7 +21,7 @@ Vererbungszusammenhängen
 nicht erlaubt sein sollen.
 
 00:00:25,020 --> 00:00:31,560
-Und das war unabhängig vom Inhalt der Klassen,
+Und das war unabhängig vom Inhalt der Klassen;
 deswegen waren das so künstliche Namen.
 
 00:00:31,560 --> 00:00:38,010
@@ -77,7 +77,7 @@ echte Generalisierungs-/Spezialisierungs-Beziehung
 sein soll.
 
 00:01:44,700 --> 00:01:50,490
-Also wir sollten andere Klasse
+Also wir sollten andere Klassen
 von "Auto" erben lassen,
 
 00:01:50,490 --> 00:01:53,370
@@ -194,7 +194,7 @@ diesem Sinne ein Gegensatzpaar, ein Kontrastpaar.
 Anders als Privatauto und Dieselauto.
 
 00:04:03,000 --> 00:04:06,060
-Und das gleiche gilt für Dieselauto und Solarauto.
+Und das Gleiche gilt für Dieselauto und Solarauto.
 
 00:04:06,060 --> 00:04:10,290
 Auch die sind verschiedene Arten von
@@ -338,7 +338,7 @@ relevant für die Buchhaltung dieser Firma.
 
 00:07:01,830 --> 00:07:06,630
 Weil sie da steuerlich verschieden mit
-umzugehen hat, je nachdem wie ein Auto,
+umzugehen hat, je nachdem, wie ein Auto,
 
 00:07:06,630 --> 00:07:09,840
 das benutzt wird, vom Status her ist.
@@ -443,7 +443,7 @@ wenn sie tatsächlich konzeptionell alle
 denkbaren Instanzen der Oberklasse abdeckt.
 
 00:09:41,630 --> 00:09:47,000
-Also wenn jedes Auto tatsächlich entweder
+Also, wenn jedes Auto tatsächlich entweder
 ein Firmenauto oder ein Privatauto ist,
 
 00:09:47,000 --> 00:09:48,470
@@ -454,14 +454,14 @@ Dann wäre diese Generalisierungsgruppe
 "complete", andernfalls "incomplete".
 
 00:09:53,450 --> 00:09:59,480
-Also falls es auch mögliche Instanzen der
+Also, falls es auch mögliche Instanzen der
 
 00:09:59,480 --> 00:10:03,860
 Oberklasse gäbe, die nicht durch
 die Unterklassen erschöpft werden.
 
 00:10:03,860 --> 00:10:05,870
-Also das wäre bei unserem "Antrieb" eben.
+Also, das wäre bei unserem "Antrieb" eben.
 
 00:10:05,870 --> 00:10:10,400
 Wenn es neben Solarauto und Dieselauto eine
@@ -484,7 +484,7 @@ Dann gibt es dieses andere Eigenschaftspaar:
 "overlapping" oder "disjoint".
 
 00:10:32,480 --> 00:10:35,090
-Also überlappend oder disjunkt voneinander.
+Also, überlappend oder disjunkt voneinander.
 
 00:10:35,620 --> 00:10:36,940
 "Überlappend" heißt:
@@ -544,7 +544,7 @@ Wir haben vier Fälle, und tatsächlich kann
 man sich auch für alle vier Fälle jeweils
 
 00:11:46,690 --> 00:11:49,960
-Konstellation überlegen,
+Konstellationen überlegen,
 die tatsächlich auftreten.
 
 00:11:49,960 --> 00:11:58,150
@@ -566,7 +566,7 @@ zwischen "Auto" einerseits und
 Also Unterscheidung nach dem Status.
 
 00:12:15,370 --> 00:12:23,455
-Das ist eine Generalisierungsgruppe und die
+Das ist eine Generalisierungsgruppe, und die
 könnten wir als vollständig und disjunkt ansehen.
 
 00:12:23,455 --> 00:12:28,720
@@ -586,7 +586,7 @@ Dann ist es tatsächlich so, dass man letztlich
 die Instanzen der Oberklasse echt partitioniert.
 
 00:12:51,860 --> 00:12:57,890
-Also jedes Auto fällt in exakt
+Also, jedes Auto fällt in exakt
 eine dieser Unterklassen hinein.
 
 00:12:57,890 --> 00:13:05,000
@@ -642,7 +642,7 @@ Ich würde sagen, das ist eine
 vollständige Unterscheidung.
 
 00:14:08,730 --> 00:14:14,040
-Also noch weitere Lebensräume von
+Also, noch weitere Lebensräume von
 Tieren gibt es nicht, wenn wir uns auf
 
 00:14:14,040 --> 00:14:17,880
@@ -731,5 +731,5 @@ Aber da eben die fliegenden Tiere fehlen, wäre
 das eine nicht vollständige Unterscheidung.
 
 00:15:46,230 --> 00:15:54,220
-Damit wären alle vier Konstellation
+Damit wären alle vier Konstellationen
 einmal durch ein Beispiel belegt.

@@ -7,7 +7,7 @@ Wir wollen uns jetzt hier heute mit
 Eigenschaften von Petrinetzen beschäftigen.
 
 00:00:10,080 --> 00:00:14,400
-Das hatte ich zum Schluss der vergangenen
+Das hatte ich zum Schluss der letzten
 Vorlesung bereits angekündigt.
 
 00:00:14,400 --> 00:00:16,020
@@ -235,7 +235,7 @@ Beispiel-Petrinetz aus der vergangenen Woche zu?
 Für dieses Petrinetz?
 
 00:04:38,130 --> 00:04:42,210
-Hat das die Eigenschaft, dass wenn man
+Hat das die Eigenschaft, dass, wenn man
 von dieser Startmarkierung m0 ausgehend
 
 00:04:42,750 --> 00:04:47,310
@@ -361,7 +361,7 @@ abwechselnd schaltet; sondern nach Schalten
 von t1, dann wären hier unten ja zwei Marken,
 
 00:06:56,320 --> 00:07:01,990
-zum Beispiel diese beide mit t3 nach
+zum Beispiel diese beiden mit t3 nach
 oben bewegt und dadurch verhindert,
 
 00:07:01,990 --> 00:07:05,800
@@ -426,11 +426,11 @@ Für jede von m0 aus erreichbare
 Markierung m muss es möglich sein,
 
 00:07:59,290 --> 00:08:01,570
-m' zu erreichen, für das t aktiviert ist.
+m' zu erreichen, für die t aktiviert ist.
 
 00:08:01,570 --> 00:08:07,090
 Also das ist eine schwächere Forderung, weil man
-hier sozusagen eine günstige Wahl treffen kann
+hier sozusagen eine günstige Wahl treffen kann.
 
 00:08:07,090 --> 00:08:14,530
 Also als diejenige Person, die versuchen möchte,
@@ -453,7 +453,7 @@ Deswegen ist das auf jeden Fall
 eine schwächere Eigenschaft,
 
 00:08:31,450 --> 00:08:35,290
-die deswegen potentiell mehr
+die deswegen potenziell mehr
 Petrinetze erfüllen können.
 
 00:08:35,290 --> 00:08:39,670
@@ -599,7 +599,7 @@ Erreichbarkeitsgraphen natürlich schwierig.
 Das wären "starke und schwache Lebendigkeit".
 
 00:11:24,000 --> 00:11:29,490
-Was wir hier gesehen haben, ist dass ein
+Was wir hier gesehen haben, ist, dass ein
 Petrinetz schwach lebendig sein kann,
 
 00:11:29,490 --> 00:11:34,800
@@ -623,7 +623,7 @@ die hat natürlich auch eine Definition.
 Auch wenn wir schon intuitiv gesehen haben,
 
 00:11:48,510 --> 00:11:51,600
-was das bedeutet, und vielleicht gar
+was das bedeutet und vielleicht gar
 keine formale Definition brauchen.
 
 00:11:51,600 --> 00:11:53,280
@@ -806,7 +806,7 @@ Transitionsmengen haben, die leer sind.
 
 00:14:57,300 --> 00:14:59,130
 Wenn man in Petrinetzen auch
-leere Transitionsmenge zuließe,
+leere Transitionsmengen zuließe,
 
 00:14:59,970 --> 00:15:03,810
 dann würde diese Aussage hier nur
@@ -862,7 +862,7 @@ Eigenschaften bezüglich Lebendigkeit
 und Verklemmung durchdiskutieren.
 
 00:16:05,520 --> 00:16:09,960
-Also einfache künstliche Beispiel anschauen,
+Also einfache künstliche Beispiele anschauen,
 wo bestimmte Kombinationen auftreten.
 
 00:16:09,960 --> 00:16:14,790

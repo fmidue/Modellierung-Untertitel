@@ -8,7 +8,7 @@ und das anhand dieses kleinen Rätsels getan
 haben, wird es in diesem Video einerseits um
 
 00:00:15,870 --> 00:00:23,880
-etwas sehr viel informatikspezifischeres gehen und
+etwas sehr viel Informatikspezifischeres gehen und
 andererseits wird es auch nicht um Graphen gehen.
 
 00:00:23,880 --> 00:00:28,380
@@ -172,8 +172,7 @@ Und der Anwendungsbereich,
 den Sie aus der Schule kennen,
 
 00:03:12,930 --> 00:03:16,650
-wo Ihnen Operationen begegnet
-sind, ist einfach Arithmetik.
+wo Ihnen Operationen begegnet sind, ist einfach Arithmetik.
 
 00:03:16,650 --> 00:03:20,250
 Also die arithmetischen Operationen, die
@@ -409,7 +408,7 @@ Soll das 1,666 sein oder
 vielleicht einfach nur 1 abgerundet?
 
 00:06:52,670 --> 00:06:57,380
-Macht man ganzzahlige Division, oder
+Macht man ganzzahlige Division oder
 möchte man rationale Zahlen unterstützen?
 
 00:06:57,380 --> 00:07:00,950
@@ -935,11 +934,11 @@ die wir aber brauchen, um unsere
 Vektorgrafik-Domäne zu unterstützen.
 
 00:16:17,350 --> 00:16:19,330
-Also was brauchen wir im Grafikbereich?
+Also, was brauchen wir im Grafikbereich?
 
 00:16:19,330 --> 00:16:24,190
 Farben vielleicht, Punkte,
-Koordinaten, oder auch ganze Bilder.
+Koordinaten oder auch ganze Bilder.
 
 00:16:27,520 --> 00:16:30,040
 Also, überlegen wir uns eine erste Operation.
@@ -1045,7 +1044,7 @@ Weil letztlich die Menge der Kommazahlen eine
 Obermenge der Menge der ganzen Zahlen ist.
 
 00:18:11,220 --> 00:18:13,740
-Also jede ganze Zahl ist
+Also ist jede ganze Zahl
 natürlich auch eine "Kommazahl".
 
 00:18:13,740 --> 00:18:18,690
@@ -1239,7 +1238,7 @@ Und in dieser Liste können
 Koordinatenpaare stehen.
 
 00:21:28,770 --> 00:21:35,350
-Also (-1,0) wäre hier der erste Punkt, x-Achse
+Also (-1, 0) wäre hier der erste Punkt, x-Achse
 -1, y-Achse 0, und der nächste Punkt wäre hier.
 
 00:21:35,350 --> 00:21:36,940
@@ -1247,10 +1246,10 @@ Also hinter dem Punkt, Punkt,
 
 00:21:36,940 --> 00:21:41,140
 Punkt würden sich weitere solche
-Paare verstecken, zum Beispiel (1,2).
+Paare verstecken, zum Beispiel (1, 2).
 
 00:21:42,160 --> 00:21:46,060
-Hier scheint (3,0) zu sein und dann hier (6,4).
+Hier scheint (3, 0) zu sein und dann hier (6, 4).
 
 00:21:46,060 --> 00:21:51,880
 Also ich rufe die Pfadoperation mit einer
@@ -1409,10 +1408,10 @@ die als Skalierung zu interpretieren sind.
 
 00:24:35,440 --> 00:24:38,522
 Vergrößerung oder Verkleinerung, je
-nachdem ob größer 1 oder kleiner 1.
+nachdem, ob größer als 1 oder kleiner als 1.
 
 00:24:38,522 --> 00:24:42,370
-Also je ein Faktor soll das
+Also, je ein Faktor soll das
 sein, in x- und y-Richtung.
 
 00:24:42,370 --> 00:24:42,790
@@ -1581,7 +1580,7 @@ dies immer um den Ursprung geschieht,
 
 00:27:25,190 --> 00:27:28,940
 könnte man mit dem Kreis nichts anderes
-tun als ihn zu malen und einzufärben.
+tun, als ihn zu malen und einzufärben.
 
 00:27:31,610 --> 00:27:33,920
 Man könnte ihn noch skalieren und
@@ -1887,7 +1886,7 @@ davon durchführen, darum geht es hier ja nicht.
 
 00:32:45,070 --> 00:32:50,470
 Aber was hier interessant und wichtig ist, und
-warum wir das einführen, ist dass wir anhand
+warum wir das einführen, ist, dass wir anhand
 
 00:32:50,470 --> 00:32:55,930
 solcher statischen Informationen eben bestimmte
@@ -2077,7 +2076,7 @@ Dafür müsste sie in Anführungszeichen
 eingeschlossen sein.
 
 00:36:09,870 --> 00:36:13,560
-Und für keine von diesen Beobachtungen
+Und für keine dieser Beobachtungen
 muss ich irgendwie das Programm
 
 00:36:13,560 --> 00:36:16,230
