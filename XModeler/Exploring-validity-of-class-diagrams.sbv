@@ -11,10 +11,10 @@ We're going to use X modeler.
 
 0:00:13.980,0:00:22.150
 So, with X modeler, what should happen is
-that if we managed to create one of these,
+that if we manage to create one of these,
 
 0:00:22.150,0:00:29.109
-if we managed to create it, and it's exactly
+if we manage to create it, and it's exactly
 the same, then it is a valid class diagram.
 
 0:00:29.109,0:00:35.800
@@ -122,7 +122,7 @@ diagram here.
 
 0:03:51.629,0:03:56.360
 This means class diagram number 2 or candidate
-number 2 is valid class diagram.
+number 2 is a valid class diagram.
 
 0:03:56.360,0:04:03.890
 Now let's do number 3.
@@ -152,8 +152,8 @@ This is invalid.
 Let's do number four.
 
 0:05:10.850,0:05:59.509
-Change parent C. Change parent B, change parent
-D. (19 sec) This should fix it.
+Change parent to C. Change parent to B, change parent
+to D. (19 sec) This should fix it.
 
 0:05:59.509,0:06:01.710
 And it looks exactly like this one.

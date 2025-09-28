@@ -4,7 +4,7 @@ modeler.
 
 0:00:05.270,0:00:11.750
 In case you don't have a link to the download
-page, you can search it yourself, you go to
+page, you can search it yourself; you go to
 
 0:00:11.750,0:00:20.930
 some search engine, you type in this.
@@ -50,7 +50,7 @@ So, what you do is you download any of these
 files and you install it.
 
 0:01:26.730,0:01:32.630
-And it's very straightforward, it's simple
+And it's very straightforward; it's simple
 to do.
 
 0:01:32.630,0:01:36.009
@@ -73,15 +73,15 @@ And then again I am on Windows.
 So, I'm going to download this one.
 
 0:02:01.420,0:02:05.860
-Now I have these two files on my downloads
+Now I have these two files in my downloads
 folder.
 
 0:02:05.860,0:02:12.970
 I'm going to take them to some folder that
-I created an empty folder and just paste it
+I created, an empty folder, and just paste it
 
 0:02:12.970,0:02:31.640
-here and extract.(11 sec) Now let's go back
+here and extract. (11 sec) Now let's go back
 to the tutorial.
 
 0:02:31.640,0:02:35.830
@@ -95,19 +95,19 @@ are working on Windows.
 This is the file they are talking about.
 
 0:02:44.960,0:02:52.340
-And you're going to edit it, you can do it
+And you're going to edit it; you can do it
 like this with a default text editor that
 
 0:02:52.340,0:02:59.560
-you have with any text editor, I'm going to
-do it with notepad++.
+you have, with any text editor. I'm going to
+do it with Notepad++.
 
 0:02:59.560,0:03:03.180
 And it tells you that you need to find this
 line.
 
 0:03:03.180,0:03:11.490
-They are actually talking about this line
+They are actually talking about this line;
 it is a bit different.
 
 0:03:11.490,0:03:18.709
@@ -119,8 +119,8 @@ You go here to library, you copy this path,
 you replace this.
 
 0:03:27.860,0:03:33.430
-And of course don't forget to put your path
-in side quotation marks like this.
+And of course, don't forget to put your path
+inside quotation marks like this.
 
 0:03:33.430,0:03:37.319
 And now save the file and close it.
@@ -129,25 +129,25 @@ And now save the file and close it.
 Let's try to run Xmodeler.
 
 0:03:46.049,0:03:53.360
-And as you can see it is working.
+And as you can see, it is working.
 
 0:03:53.360,0:03:56.300
-Create a project, call it whatever.
+Create a project; call it whatever.
 
 0:03:56.300,0:03:59.230
-And now you have the project here, left click.
+And now you have the project here; left click.
 
 0:03:59.230,0:04:01.190
 Now you have it here.
 
 0:04:01.190,0:04:04.720
-You have the Models, you click Create Diagram.
+You have the Models; you click Create Diagram.
 
 0:04:04.720,0:04:06.269
 Call it whatever.
 
 0:04:06.269,0:04:15.799
-Click OK and now this diagram is here, you
+Click OK, and now this diagram is here; you
 double click it and it's open.
 
 0:04:15.799,0:04:20.329
@@ -164,17 +164,17 @@ for us in this course.
 So, I'm just going to show you the basics.
 
 0:04:31.230,0:04:38.889
-To create a class you right click, you choose
-Add you click class.
+To create a class, you right click, you choose
+Add, you click class.
 
 0:04:38.889,0:04:41.639
-And then let's call it A for example.
+And then let's call it A, for example.
 
 0:04:41.639,0:04:46.110
 And then you have this level field here.
 
 0:04:46.110,0:04:50.510
-Just put 1 when you ever you creating a class
+Just put 1 whenever you are creating a class
 and put 0 whenever you're creating anything
 
 0:04:50.510,0:04:51.900
@@ -198,7 +198,7 @@ This is the class.
 
 0:05:06.940,0:05:13.650
 This is class A. So, we don't care about the
-level, we don't care about that it says it's
+level; we don't care about that it says it's
 
 0:05:13.650,0:05:15.229
 a meta class.
@@ -241,22 +241,22 @@ And it creates an arrow automatically.
 
 0:06:09.480,0:06:14.039
 If you mess with the levels of the elements
-that you creating, let's say for example,
+that you're creating, let's say for example,
 
 0:06:14.039,0:06:19.759
-you have 2 here, instead of 1 or you have
+you have 2 here instead of 1 or you have
 0 or whatever, and then you might face some
 
 0:06:19.759,0:06:25.910
-problems, you cannot-, for example, you cannot
-make C and hurt from B. So, just stick to
+problems; you cannot—for example, you cannot
+make C inherit from B. So, just stick to
 
 0:06:25.910,0:06:31.520
-what I said do 1’s for classes and 0 for
+what I said: do 1’s for classes and 0 for
 everything else.
 
 0:06:31.520,0:06:40.169
-And of course, it gets messy, sometimes you
+And of course, it gets messy; sometimes you
 see, the arrows are kind of stuck to each
 
 0:06:40.169,0:06:43.419
@@ -264,7 +264,7 @@ other, so we need to separate them.
 
 0:06:43.419,0:06:51.190
 To do this, first, I'm going to move this
-class here because this line is not connected
+class here because this line is not connected.
 
 0:06:51.190,0:06:55.419
 from this side, it's actually connected from
@@ -278,14 +278,14 @@ And this one is connected from the top and
 from the bottom at the same time.
 
 0:07:06.099,0:07:12.190
-So, what I'm going to do is left click and
+So, what I'm going to do is left-click and
 hold on this line, move it to the side and
 
 0:07:12.190,0:07:13.800
 release.
 
 0:07:13.800,0:07:17.729
-Now this arrow is separated, this is the same
+Now this arrow is separated; this is the same
 for this one.
 
 0:07:17.729,0:07:20.120
@@ -293,25 +293,25 @@ Good, it's separated now.
 
 0:07:20.120,0:07:33.020
 So, move this one here, just to make it look
-a bit better, bit more easier to read.
+a bit better, a bit more easier to read.
 
 0:07:33.020,0:07:46.379
-Okay, now let's do other classes, let's create
+Okay, now let's do other classes; let's create
 Class D, level 1, put it here.
 
 0:07:46.379,0:07:50.680
-E level 1, put it here.
+Class E level 1, put it here.
 
 0:07:50.680,0:07:56.190
 And now let's say I would like an association
-between E and D. You can either right click
+between E and D. You can either right-click
 
 0:07:56.190,0:07:58.520
 and add Association.
 
 0:07:58.520,0:08:04.870
-Or you can do Association from here, just
-left click once do not hold just left click,
+Or you can do Association from here; just
+left-click once, do not hold, just left-click,
 
 0:08:04.870,0:08:07.009
 and then the cursor changes.
@@ -320,8 +320,8 @@ and then the cursor changes.
 You go from E to D, for example.
 
 0:08:12.470,0:08:18.340
-And left click and then no holding, no dragging,
-just left click and release and then left
+And left-click and then no holding, no dragging,
+just left-click and release and then left
 
 0:08:18.340,0:08:19.659
 click again.
@@ -331,13 +331,13 @@ And you have this window.
 
 0:08:22.210,0:08:28.050
 So, let's call the association and you have
-to call it, you have to fill in these fields,
+to call it; you have to fill in these fields,
 
 0:08:28.050,0:08:29.930
 you cannot leave them empty.
 
 0:08:29.930,0:08:33.610
-So, let's call this association, small X.
+So, let's call this association small X.
 
 0:08:33.610,0:08:38.810
 And it starts from E and it ends in D. And
@@ -348,22 +348,22 @@ So, here you put 0 because we're not creating
 classes.
 
 0:08:43.470,0:08:48.110
-And you leave everything here as it is, it's
+And you leave everything here as it is; it's
 not important for us.
 
 0:08:48.110,0:08:54.839
-And you these two options are the 1 that decide
+And these two options are the ones that decide
 the navigation arrow.
 
 0:08:54.839,0:08:59.990
-The arrow that tells you whether this an object
+The arrow that tells you whether this object
 of this class knows an object from the other
 
 0:08:59.990,0:09:01.279
 class or not.
 
 0:09:01.279,0:09:06.970
-So, for now, I'm going to do this, I'm going
+So, for now, I'm going to do this; I'm going
 to check these two boxes, and these are the
 
 0:09:06.970,0:09:07.970
@@ -373,7 +373,7 @@ multiplicities.
 Now you can change.
 
 0:09:09.980,0:09:15.730
-Let's say I would like to have multiplicity,
+Let's say I would like to have multiplicity
 2 to 5 here.
 
 0:09:15.730,0:09:18.220
@@ -383,13 +383,13 @@ Click OK.
 And then here, let's do 0 to star.
 
 0:09:21.610,0:09:25.010
-So, I removed the upper limit, I click OK.
+So, I removed the upper limit; I click OK.
 
 0:09:25.010,0:09:26.570
 Now click OK.
 
 0:09:26.570,0:09:29.670
-And I have the association is created now.
+And I have the association created now.
 
 0:09:29.670,0:09:37.320
 And these errors are because of the checkboxes
@@ -400,20 +400,20 @@ target visible from source and source visible
 from target.
 
 0:09:40.650,0:09:43.100
-So, let's remove this one for example.
+So, let's remove this one, for example.
 
 0:09:43.100,0:09:44.230
 Click OK.
 
 0:09:44.230,0:09:51.200
 And you have just one arrowhead here but no
-arrowhead head here.
+arrowhead here.
 
 0:09:51.200,0:09:53.370
 This is the reading direction.
 
 0:09:53.370,0:09:56.940
-It's it always sticks to the name of the association.
+It always sticks to the name of the association.
 
 0:09:56.940,0:09:58.570
 So, this is the name that we chose.
@@ -422,8 +422,8 @@ So, this is the name that we chose.
 This is the X.
 
 0:09:59.570,0:10:03.690
-You can move this around, you cannot move
-these around, you move them, but they go back
+You can move this around; you cannot move
+these around; you move them, but they go back
 
 0:10:03.690,0:10:04.720
 to their position.
@@ -439,7 +439,7 @@ entered.
 We don't care about this.
 
 0:10:13.740,0:10:17.519
-This 0 here is similar to this one here, don't
+This 0 here is similar to this one here; don't
 get confused by it.
 
 0:10:17.519,0:10:25.330
@@ -447,7 +447,7 @@ And this software also shows you some methods,
 some operations like this.
 
 0:10:25.330,0:10:33.870
-If you don't want to see these get operations
+If you don't want to see these get operations,
 just go here, to this one, uncheck this box.
 
 0:10:33.870,0:10:36.770
@@ -460,21 +460,21 @@ Now, let me continue with this example.
 So, first, let me edit, just change some things.
 
 0:10:44.700,0:10:47.350
-For example here, this multiplicity, I would
+For example, here, this multiplicity, I would
 like to change it.
 
 0:10:47.350,0:10:53.959
-So, I'm going to double click on this line
+So, I'm going to double-click on this line
 on this association.
 
 0:10:53.959,0:10:57.520
-And let me change instead of 0 to start.
+And let me change instead of 0 to star.
 
 0:10:57.520,0:11:03.380
-Let's do 1 to 1, okay.
+Let's do 1 to 1, okay?
 
 0:11:03.380,0:11:07.540
-So, now we have 1, here, we have 2 to 5.
+So, now we have 1 here; we have 2 to 5.
 
 0:11:07.540,0:11:09.579
 And now let's create some objects.
@@ -483,7 +483,7 @@ And now let's create some objects.
 So, I'm going to create an object diagram.
 
 0:11:13.230,0:11:19.980
-And X modeler is going to verify, it's going
+And X modeler is going to verify; it's going
 to tell you whether there is a problem.
 
 0:11:19.980,0:11:25.079
@@ -492,18 +492,18 @@ conforms to this class diagram or not.
 
 0:11:25.079,0:11:33.480
 So, I'm going to move my mouse cursor here
-to the top, and then scroll down, to zoom
+to the top, and then scroll down to zoom
 
 0:11:33.480,0:11:41.130
 out, scroll down with my mouse, and then zoom
 in here.
 
 0:11:41.130,0:11:45.670
-Actually, you can do like this, you can navigate
+Actually, you can do like this; you can navigate
 here as well.
 
 0:11:45.670,0:11:51.130
-But I prefer this way, I prefer to zoom out,
+But I prefer this way; I prefer to zoom out
 and then zoom in.
 
 0:11:51.130,0:11:53.950
@@ -523,29 +523,29 @@ This is fine.
 And here, let's do one to two.
 
 0:12:15.360,0:12:28.070
-Now let's create something, some instance
-of E. Call it small e, click OK.
+Now let's create something, an instance of E.
+Call it small e, click OK.
 
 0:12:28.070,0:12:29.260
 Place it.
 
 0:12:29.260,0:12:33.170
-So, far, so good, no problems.
+So far, so good; no problems.
 
 0:12:33.170,0:12:40.170
 And now let's create an instance of D. You
-can do this you can do as I just did, right
+can do this; you can do as I just did: right-
 
 0:12:40.170,0:12:41.230
 click and add instance.
 
 0:12:41.230,0:12:45.870
-But you can also right click this the class
+But you can also right-click this the class
 that you want.
 
 0:12:45.870,0:12:51.510
 And you create an instance of this class,
-right click, and then add instance.
+right-click, and then add instance.
 
 0:12:51.510,0:12:54.540
 So, let's keep it d1 is fine.
@@ -560,18 +560,18 @@ d1 that he just created needs to be linked
 
 0:13:04.490,0:13:11.350
 to an instance of E.” So, you can ignore
-this issue, you can click OK.
+this issue; you can click OK.
 
 0:13:11.350,0:13:16.630
 So, nothing happens except that there's still
 a complaint here.
 
 0:13:16.630,0:13:20.170
-If you double click again, you get the window
+If you double-click again, you get the window
 again.
 
 0:13:20.170,0:13:25.010
-I mean, if you double click it, if you would
+I mean, if you double-click it, if you would
 like to see the window again, you just double
 
 0:13:25.010,0:13:28.200
@@ -585,7 +585,7 @@ E, or you can link to an instance that you
 already have.
 
 0:13:35.380,0:13:40.220
-So, we already have an E here, behind this
+So, we already have an E here; behind this
 window, you cannot see it.
 
 0:13:40.220,0:13:44.139
@@ -610,7 +610,7 @@ E through an association called X.
 
 0:14:05.660,0:14:10.940
 So, it automatically adds this X with the
-same reading direction with the same navigation
+same reading direction and the same navigation
 
 0:14:10.940,0:14:13.070
 direction.
@@ -630,15 +630,15 @@ here, it's basically saying, whenever you
 
 0:14:27.070,0:14:35.660
 have something of type D, you have to have
-or at least one thing, one instance of E and
+at least one thing, one instance of E and
 
 0:14:35.660,0:14:40.800
 this instance, at least 1 instance and at
 most 2 instances, okay?
 
 0:14:40.800,0:14:47.820
-And this one or two instances have to be connected
-to this D with an X Association.
+And these one or two instances have to be connected
+to this D with an X association.
 
 0:14:47.820,0:14:50.149
 And this is exactly what we have here.
@@ -658,26 +658,26 @@ And then I'm going to manually connect d1
 to e2.
 
 0:15:08.490,0:15:18.470
-You can you can do it by left clicking here
-and then left click here, left click here.
+You can do it by left-clicking here
+and then left-clicking here, left-clicking here.
 
 0:15:18.470,0:15:25.949
 And since there are no options, the only choice
-that X modeler has is to recognize the link
+that Xmodeler has is to recognize the link
 
 0:15:25.949,0:15:28.240
-that you just created as an X Association.
+that you just created as an X association.
 
 0:15:28.240,0:15:32.069
 This is the only thing possible according
 to this class diagram.
 
 0:15:32.069,0:15:40.930
-So, it does it took recognizes like this and
+So, it does it, recognizes it like this and
 it connects it and again this is the reading
 
 0:15:40.930,0:15:46.750
-direction, this is the navigation arrow.
+direction; this is the navigation arrow.
 
 0:15:46.750,0:15:50.560
 And this object diagram conforms to this class

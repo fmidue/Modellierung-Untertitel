@@ -11,7 +11,7 @@ causality) always refers
 to single transitions.
 
 00:00:13,320 --> 00:00:16,350
-With causality we had observed
+With causality, we had observed
 
 00:00:16,350 --> 00:00:21,810
 that in a Petri net two
@@ -89,7 +89,7 @@ case their pre-weight functions.
 
 00:01:31,410 --> 00:01:33,780
 As we remember, these
-are "markings", i.e. functions from
+are "markings", i.e., functions from
 
 00:01:33,780 --> 00:01:35,580
 the place set into the natural numbers.
@@ -269,7 +269,7 @@ this 1 moves to here.
 
 00:04:49,430 --> 00:04:54,110
 Yes, here in the marking you can see
-that, that this 1 goes from here to here.
+that this 1 goes from here to here.
 
 00:04:54,110 --> 00:04:58,220
 And t3 means that this
@@ -289,7 +289,7 @@ t2 and t3 from taking this
 
 00:05:13,340 --> 00:05:19,700
 token and this token, respectively, at the same
-time, and putting them down on the last position.
+time, and putting them down in the last position.
 
 00:05:19,700 --> 00:05:20,360
 What would that mean?
@@ -310,7 +310,7 @@ So we'll see in a moment that actually
 starting from this marking, t2 and t3 are
 
 00:05:33,050 --> 00:05:36,710
-basically parallel, or concurrent, and
+basically parallel or concurrent and
 could fire simultaneously if we didn't
 
 00:05:36,710 --> 00:05:40,640
@@ -435,7 +435,7 @@ case below the chosen marking.
 
 00:07:41,320 --> 00:07:45,460
 This is the reason why
-this observation is valid, mathematically.
+this observation is valid mathematically.
 
 00:07:45,460 --> 00:07:49,030
 But we can also think about
@@ -446,11 +446,11 @@ Of course, this is
 only interesting from two-element sets.
 
 00:07:54,220 --> 00:07:58,240
-So, that also a one-element
+So that also a one-element
 set can be concurrently activated; there is
 
 00:07:58,240 --> 00:08:01,145
-not really anything concurrent, if n = 1.
+not really anything concurrent if n = 1.
 
 00:08:01,145 --> 00:08:03,310
 So it is
@@ -519,7 +519,7 @@ for the start marking here,
 
 00:09:05,680 --> 00:09:09,580
 t2 and t3 would not be activated
-concurrently, because they are not even activated themselves.
+concurrently because they are not even activated themselves.
 
 00:09:11,620 --> 00:09:17,080
 But in this concrete constellation,

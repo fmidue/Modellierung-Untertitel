@@ -38,7 +38,7 @@ constellation, and also a cyclic one.
 
 00:00:44,340 --> 00:00:49,020
 Yes, a cycle of association
-and aggregation relationship would be okay.
+and aggregation relationships would be okay.
 
 00:00:49,020 --> 00:00:53,940
 It looks different for composition.
@@ -52,7 +52,7 @@ no restriction
 
 00:00:56,850 --> 00:01:01,410
 on cycles/self-reference or presence of
-multiple relationships between same classes.
+multiple relationships between the same classes.
 
 00:01:01,410 --> 00:01:05,640
 For composition, however, cycles of
@@ -84,7 +84,7 @@ is that there is this cycle,
 
 00:01:36,150 --> 00:01:39,300
 because the two
-compositions are directed opposite.
+compositions are directed oppositely.
 
 00:01:39,300 --> 00:01:45,510
 If one would turn this relationship around here and
@@ -220,7 +220,7 @@ interacts with inheritance.
 
 00:04:22,540 --> 00:04:29,080
 This is because a subclass always inherits
-associations, aggregations and compositions from the superclass
+associations, aggregations, and compositions from the superclass
 
 00:04:29,080 --> 00:04:32,650
 in addition to attributes and methods.

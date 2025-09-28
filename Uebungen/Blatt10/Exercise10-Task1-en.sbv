@@ -22,7 +22,7 @@ this task, and we see that we have different
 
 0:00:49.660,0:01:01.890
 activities within our diagram from A to G.
-And there are also conditions on some points
+And there are also conditions at some points
 
 0:01:01.890,0:01:05.510
 here.
@@ -33,10 +33,10 @@ a sequence where Y never holds.
 
 0:01:16.060,0:01:23.500
 When we consider this diagram, we see that
-there is for instance X and Y and besides
+there is, for instance, X and Y, and besides
 
 0:01:23.500,0:01:27.439
-X and Y we have Z here as well.
+X and Y, we have Z here as well.
 
 0:01:27.439,0:01:36.130
 And when you create the first action sequence,
@@ -63,7 +63,7 @@ as well when we generate these sequences.
 
 0:02:20.519,0:02:28.269
 This is not part of the task to generate the
-Petri net but of course, if you like to solve
+Petri net but, of course, if you like to solve
 
 0:02:28.269,0:02:31.950
 it that way, it would also be reasonable.
@@ -101,11 +101,11 @@ And we have to execute multiple paths here
 because there's a join at the end again which
 
 0:03:50.879,0:03:56.140
-of course, is required for this fork.
+of course is required for this fork.
 
 0:03:56.140,0:04:05.860
 But we can see that one path is independent
-here, it does not rejoin here.
+here; it does not rejoin here.
 
 0:04:05.860,0:04:12.840
 So D might execute it, or might not execute
@@ -124,7 +124,7 @@ E and F.
 
 0:04:36.479,0:04:47.550
 We have in principle a choice here, but as
-the task said that Y shall be false, also
+the task said that Y shall be false, it also
 
 0:04:47.550,0:04:48.750
 shall not be valid the whole time,
@@ -135,7 +135,7 @@ F here.
 
 0:04:54.000,0:05:02.930
 But besides that, we can choose any sequence
-for C, D and E. Let's for instance say the
+for C, D, and E. Let's for instance say the
 
 0:05:02.930,0:05:15.910
 next action that’s executed is E and then
@@ -168,14 +168,14 @@ not E, that is as short as possible.
 
 0:06:02.080,0:06:10.190
 For our second path, second sequence, we have
-to start it same way again.
+to start it the same way again.
 
 0:06:10.190,0:06:22.200
 We have to choose A and we have to choose
 B. And we shall again, once more what's written
 
 0:06:22.200,0:06:34.819
-into task, so it has to contain D but not
+in the task, so it has to contain D but not
 E. As it should not contain E, we might as
 
 0:06:34.819,0:06:48.600
@@ -183,7 +183,7 @@ well choose F as a first
 part of the sequence.
 
 0:06:48.600,0:06:52.599
-We might choose F here for instance.
+We might choose F here, for instance.
 
 0:06:52.599,0:06:59.950
 It should not contain E. That was part of
@@ -193,7 +193,7 @@ what was mentioned.
 Again, we could also choose C and D here.
 
 0:07:03.710,0:07:08.050
-Well, we have to choose C, it could have
+Well, we have to choose C; it could have
 been first as well.
 
 0:07:08.050,0:07:16.210
@@ -201,7 +201,7 @@ It could have been before F. The order does
 not matter here.
 
 0:07:16.210,0:07:22.199
-And we want to have sequence which is as short
+And we want to have a sequence which is as short
 as possible.
 
 0:07:22.199,0:07:32.130
@@ -213,7 +213,7 @@ I’m sorry, we have to choose
 D because our task says so.
 
 0:07:38.509,0:07:54.909
-We have to choose D which I will choose right
+We have to choose D, which I will choose right
 here, D. And finally, we can join those paths
 
 0:07:54.909,0:08:03.530
@@ -232,14 +232,14 @@ which is C and we shall search for a sequence
 
 0:08:25.259,0:08:33.640
 of length longer than nine, in which Y holds
-until D was executed.
+until D is executed.
 
 0:08:33.640,0:08:43.520
 Our sequence shall be longer than or
 equal to 9, and we have to think about what happens
 
 0:08:43.520,0:08:54.960
-to Y until D was executed.
+to Y until D is executed.
 
 0:08:54.960,0:08:59.690
 This is C now.
@@ -256,27 +256,27 @@ net so that we already have a look at what
 we've done with the tasks before.
 
 0:09:33.310,0:09:42.820
-I switch back to task A which was simply having
+I switch back to task A, which was simply having
 a sequence during which Y never holds.
 
 0:09:42.820,0:09:55.399
 When you have this Petri net here, we can
-simply fire sequences and the Petri net gives
+simply fire sequences, and the Petri net gives
 
 0:09:55.399,0:09:58.980
 us certain limitations on what we are able
 to do.
 
 0:09:58.980,0:10:05.200
-As we see, we could fire A first and it was
+As we see, we could fire A first, and it was
 only B that we could fire.
 
 0:10:05.200,0:10:11.890
 Now we have to fire the fork here, which is
-of course, no activity.
+of course no activity.
 
 0:10:11.890,0:10:16.950
-But anyways, we have to fire it in a Petri
+But anyway, we have to fire it in a Petri
 net.
 
 0:10:16.950,0:10:27.830
@@ -285,24 +285,24 @@ other activities here, so C, D, E, F.
 
 0:10:27.830,0:10:41.940
 We have no limitations in our Petri net on
-these preconditions here for X and Y for instance.
+these preconditions here for X and Y, for instance.
 
 0:10:41.940,0:10:47.709
 As this condition said, we shall not use one
-with Y, our only option would be to choose
+with Y; our only option would be to choose
 
 0:10:47.709,0:10:52.650
 this path (?herefor, E), as we did right here.
 
 0:10:52.650,0:10:57.920
 We could have chosen C and D. That's what
-I said before, we could have chosen those
+I said before; we could have chosen those
 
 0:10:57.920,0:11:00.990
 first.
 
 0:11:00.990,0:11:11.510
-But we can also choose C now and we could
+But we can also choose C now, and we could
 choose D when we didn't do it here for a sequence,
 
 0:11:11.510,0:11:13.040
@@ -320,14 +320,14 @@ Afterwards, we can either go this way up here.
 
 0:11:32.149,0:11:40.139
 But as we said in the first task, Y shall
-not hold the whole time, that's why Z has
+not hold the whole time; that's why Z has
 
 0:11:40.139,0:11:45.070
-to hold and we fire G and are done.
+to hold, and we fire G and are done.
 
 0:11:45.070,0:11:53.649
 We see in a Petri net, we can also fire D
-after we fire G which would not be possible
+after we fire G, which would not be possible
 
 0:11:53.649,0:12:01.940
 in the activity diagram because the end is
@@ -344,7 +344,7 @@ If you want to fire D, you have to do it before
 firing G.
 
 0:12:13.990,0:12:22.880
-But certainly it limits the possibilities
+But certainly, it limits the possibilities
 using this Petri net here.
 
 0:12:22.880,0:12:32.649
@@ -352,15 +352,15 @@ Let's switch you to the Petri net and go back
 to the beginning.
 
 0:12:32.649,0:12:40.579
-Now we can do the second task which was a
+Now we can do the second task, which was a
 sequence containing D but not E that is as
 
 0:12:40.579,0:12:44.060
 short as possible.
 
 0:12:44.060,0:12:54.709
-Again, firing A and B is required, then we
-fire the fork and now we can choose again.
+Again, firing A and B is required; then we
+fire the fork, and now we can choose again.
 
 0:12:54.709,0:13:02.639
 Again, we have to think of what the task says
@@ -371,14 +371,14 @@ that contains D but not E. In this case, E
 would not be in choice because of the task.
 
 0:13:11.440,0:13:20.970
-We could choose F or C or D as we did here.
+We could choose F or C or D, as we did here.
 
 0:13:20.970,0:13:23.019
 Let's do it as we did here.
 
 0:13:23.019,0:13:30.820
 We choose F, then we choose C. And then we
-choose D, remember that, we have to choose
+choose D; remember that; we have to choose
 
 0:13:30.820,0:13:36.029
 D because it's what our task said.
@@ -397,34 +397,34 @@ the activity diagram to Petri net.
 
 0:14:15.519,0:14:24.970
 Now we have checked those parts for the first
-task and we can use this one as well to create
+task, and we can use this one as well to create
 
 0:14:24.970,0:14:29.450
 maybe the last one now.
 
 0:14:29.450,0:14:38.850
-Let's go back to the beginning, there we are,
+Let's go back to the beginning. There we are,
 right at the beginning.
 
 0:14:38.850,0:14:45.070
-Again, we have to choose A and we have to
+Again, we have to choose A, and we have to
 choose B. Let's check back what our task was.
 
 0:14:45.070,0:14:58.009
-A sequence of length greater or equal than
-nine, in which Y holds until D was executed.
+A sequence of length greater than or equal to
+nine, in which Y holds until D is executed.
 
 0:14:58.009,0:15:15.779
-Y holds the whole time and as soon as D is
+Y holds the whole time, and as soon as D is
 activated, then Y doesn't hold anymore.
 
 0:15:15.779,0:15:27.509
-We fired A and we fired B, we activated
+We fired A, and we fired B; we activated
 A and B in the activity diagram.
 
 0:15:27.509,0:15:42.709
-Now we fire the fork and in the activity diagram,
-we can choose of C, D, E and F. But there
+Now we fire the fork, and in the activity diagram,
+we can choose C, D, E, and F. But there
 
 0:15:42.709,0:15:47.269
 are certain limitations which we should keep
@@ -442,11 +442,11 @@ does not consider the limitations of our task.
 
 0:16:05.490,0:16:19.210
 When we fire D, we instantly have the consequence
-that Y does not hold any more.
+that Y does not hold anymore.
 
 0:16:19.210,0:16:31.560
 And so we could choose E afterwards only because
-we're done, so Y would not hold any more.
+we're done, so Y would not hold anymore.
 
 0:16:31.560,0:16:51.889
 I would consider that the
@@ -459,7 +459,7 @@ be F because Y holds through here.
 We have F here.
 
 0:17:10.150,0:17:30.690
-And after that, we can fire C, activate C
+And after that, we can fire C; activate C
 in the activity diagram.
 
 0:17:30.690,0:17:51.640
@@ -473,35 +473,35 @@ is not useful because then our sequence would
 be finished, but it's not long enough yet.
 
 0:18:05.930,0:18:14.140
-That is why we choose Y here which has no
-name here, so Y is still true.
+That is why we choose Y here, which has no
+name here; so Y is still true.
 
 0:18:14.140,0:18:18.720
 We also have no other choice because D was
 not fired yet.
 
 0:18:18.720,0:18:24.289
-Considering our task, we can even not choose
-G which is good because now we have to choose
+Considering our task, we cannot even choose
+G, which is good because now we have to choose
 
 0:18:24.289,0:18:25.289
 Y.
 
 0:18:25.289,0:18:37.350
-And we have to fire B which is here in our
-activity diagram, activate B. And now, we
+And we have to fire B, which is here in our
+activity diagram; activate B. And now, we
 
 0:18:37.350,0:18:55.659
-fire the fork again and we can choose for
-instance to fire C. So activate C here.
+fire the fork again, and we can choose, for
+instance, to fire C. So activate C here.
 
 0:18:55.659,0:19:01.330
 And now we can have a look at how many actions
-we already activated here.
+we have already activated here.
 
 0:19:01.330,0:19:15.980
 It was A, B, F, C, B, C, so we are at six
-now, we need three more activities which need
+now; we need three more activities which need
 
 0:19:15.980,0:19:21.539
 to be activated in order to finish our sequence
@@ -513,13 +513,13 @@ activate D for instance.
 
 0:19:42.590,0:19:58.640
 Let's consider
-D and then we could activate E because Y is
+D, and then we could activate E because Y is
 
 0:19:58.640,0:20:25.450
 not true anymore, so we have E. And then
 
 0:20:25.450,0:20:38.940
-we have E and then when we get out, we have
+we have E, and then when we get out, we have
 Y as well not considered true, so we can choose
 
 0:20:38.940,0:20:40.760
@@ -532,11 +532,11 @@ And then we are done.
 I forgot to activate the transition C as well.
 
 0:20:48.100,0:21:02.450
-We can choose the E, and G and this is the
+We can choose E and G, and this is the
 same sequence A, B, F, C, B, C, D. I have
 
 0:21:02.450,0:21:10.490
-by accident activated D two times but it could
+by accident activated D two times, but it could
 have been one time as well.
 
 0:21:10.490,0:21:14.250
@@ -547,7 +547,7 @@ We could have chosen it just a single time
 and then we have the same sequence as on the
 
 0:21:21.750,0:21:22.750
-right hand side.
+right-hand side.
 
 0:21:22.750,0:21:24.159
 Thank you very much.

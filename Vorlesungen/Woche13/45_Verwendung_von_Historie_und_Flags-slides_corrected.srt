@@ -391,7 +391,7 @@ These three arrows are only used if we have
 never been in the respective state in the respective
 
 00:07:59,460 --> 00:08:05,850
-region or nesting level, if such
+region or nesting level; if such
 a history node has no direct outgoing
 
 00:08:05,850 --> 00:08:11,460

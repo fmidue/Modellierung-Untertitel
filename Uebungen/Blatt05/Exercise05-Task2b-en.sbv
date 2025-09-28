@@ -31,11 +31,11 @@ here with nothing in front of this. This kind
 of shows that this is an unnamed object here.
 
 0:00:56.280,0:01:03.180
-But it's of the Class theater. You can also
+But it's of the class Theatre. You can also
 underline it to indicate that this is an object.
 
 0:01:04.260,0:01:09.600
-Theater in our class diagram didn't have any
+Theatre in our class diagram didn't have any
 attributes or methods. So, we're just going to
 
 0:01:09.600,0:01:16.800
@@ -71,7 +71,7 @@ our class diagram. So, we need those as well.
 
 0:02:16.440,0:02:22.140
 They are given in the text as well. The director
-of that famous Volkert Mort. So we have 'director'.
+of that film is Volkert Mort. So, we have 'director'.
 
 0:02:28.080,0:02:30.000
 The main actor is Harry Topper.
@@ -81,19 +81,19 @@ And that's our film object done. Since the film
 is inheriting from the event, it inherits the
 
 0:02:45.360,0:02:52.200
-same kind of relation to the theater. So,
+same kind of relation to the theatre. So,
 this is just a simple association here.
 
 0:02:56.040,0:03:03.480
 Once again, we can copy and paste this label
-here. So, the theater conducts this film.
+here. So, the theatre conducts this film.
 
 0:03:05.520,0:03:10.800
 With that, we have the event that's going on
 in our object diagram and its relation to the
 
 0:03:10.800,0:03:17.220
-theater. And we can move on to the date
+theatre. And we can move on to the date
 where this is happening. Or we could move
 
 0:03:17.220,0:03:24.000
@@ -106,7 +106,7 @@ is going on is Saturday 16th of January at
 
 0:03:37.680,0:03:44.580
 Underline this as well, which has three
-attributes, date, time, and price. In this case,
+attributes: date, time, and price. In this case,
 
 0:03:44.580,0:03:52.140
 our date is the 16th of January. We can
@@ -137,7 +137,7 @@ And we have the price, of course, which is
 going to be eight euros, which we're just
 
 0:04:38.640,0:04:46.560
-going to put as you would normally put down
+going to put as you would normally write down
 any currencies. That gives us our date class.
 
 0:04:46.560,0:04:53.400
@@ -161,7 +161,7 @@ with the room because we definitely need the
 room. Because there's a composition going on
 
 0:05:27.300,0:05:35.340
-here. And the theater consists of rooms where the
+here. And the theatre consists of rooms where the
 room consists of seats. So, we definitely need an
 
 0:05:35.340,0:05:40.080
@@ -173,7 +173,7 @@ And just put the booking class, which in
 our case, since this is an object diagram,
 
 0:05:47.520,0:05:55.380
-doesn't get any method. So, this is just going
+doesn't get any methods. So, this is just going
 to be a booking object here with no attributes
 
 0:06:00.240,0:06:04.860
@@ -242,7 +242,7 @@ object with the actual name. Rooms have names.
 
 0:08:20.400,0:08:26.280
 And the name is given in our task as well. This
-is the "Bluesky" room. So, the name is "Bluesky."
+is the "Bluesky" room. So, the name is "Bluesky".
 
 0:08:30.300,0:08:36.720
 No further attributes. And our room is
@@ -280,7 +280,7 @@ here. So, you can pull a normal line to the room.
 And once again, copy this label here, which tells
 
 0:09:50.460,0:09:56.760
-us, that on this date there is something
+us that on this date there is something
 happening in that room.
 
 0:09:57.900,0:10:04.320

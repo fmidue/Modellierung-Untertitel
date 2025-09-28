@@ -15,7 +15,7 @@ of places S and a set
 of transitions T, plus various other ingredients.
 
 00:00:22,950 --> 00:00:32,640
-Among them were markings, i.e. functions from the
+Among them were markings, i.e., functions from the
 set of places S into the natural numbers.
 
 00:00:32,640 --> 00:00:36,450
@@ -57,8 +57,8 @@ And the arrows in
 the graphical representation correspond
 
 00:01:17,490 --> 00:01:21,780
-exactly to the pre and
-post weights in a certain way.
+exactly to the pre- and
+post-weights in a certain way.
 
 00:01:23,640 --> 00:01:32,460
 In particular, if there is to be no arrow from s
@@ -221,7 +221,7 @@ You could have also said m1, m2.
 
 00:04:18,430 --> 00:04:21,430
 And then how is it defined
-that m' is less than-equal to m?
+that m' is less than or equal to m?
 
 00:04:22,450 --> 00:04:25,730
 If it is true for all places from the
@@ -243,7 +243,7 @@ And this must be true for all places.
 
 00:04:40,850 --> 00:04:46,940
 Then we say that the marking m'
-is altogether less-than-equal to the marking m.
+is altogether less than or equal to the marking m.
 
 00:04:46,940 --> 00:04:52,850
 That's not about what the sum
@@ -293,7 +293,7 @@ same order of places, the triple (0,0,1).
 
 00:05:41,480 --> 00:05:47,780
 And then it would indeed hold here that
-m' is less-equal to m, but not vice versa.
+m' is less than or equal to m, but not vice versa.
 
 00:05:47,780 --> 00:05:48,920
 Why is m' <= m?
@@ -324,7 +324,7 @@ Every marking is
 covered by itself, trivially,
 
 00:06:17,900 --> 00:06:22,160
-because it is less-equal,
+because it is less than or equal,
 namely equal, at every position.
 
 00:06:22,160 --> 00:06:24,890
@@ -355,7 +355,7 @@ But it would have to be
 true for every place that the
 
 00:06:46,940 --> 00:06:48,860
-number, which stands here is smaller-equal
+number, which stands here, is smaller than or equal
 to the number, which stands there.
 
 00:06:48,860 --> 00:06:53,690
@@ -520,7 +520,7 @@ vector and another triple vector.
 
 00:09:42,910 --> 00:09:44,860
 You know this from
-school (linear algebra), there
+school (linear algebra); there
 
 00:09:44,860 --> 00:09:47,560
 just comes out
@@ -553,7 +553,7 @@ subtract any two natural numbers, the
 result is always a natural number.
 
 00:10:09,640 --> 00:10:15,850
-For example with 3 and 5 this is not the case, 3
+For example, with 3 and 5 this is not the case, 3
 + 5 = 8 but 3 - 5 is not a natural number.
 
 00:10:15,850 --> 00:10:20,410
@@ -581,10 +581,10 @@ the new marking at the place no
 
 00:10:52,240 --> 00:10:58,450
 longer carries as its value the sum,
-but the difference, of the two original markings.
+but the difference of the two original markings.
 
 00:10:58,450 --> 00:11:00,490
-The order is of course important.
+The order is, of course, important.
 
 00:11:00,490 --> 00:11:00,760
 That we subtract m' from m and
@@ -594,7 +594,7 @@ not vice versa. Here it is okay.
 There will actually come out a natural
 
 00:11:02,740 --> 00:11:05,620
-number, if we knew before
+number if we knew before
 that m' is covered by m.
 
 00:11:05,620 --> 00:11:10,960
@@ -614,7 +614,7 @@ element, but subtract element by element.
 
 00:11:23,260 --> 00:11:27,040
 We may not turn this around
-here; here above of course already.
+here; here above, of course, already.
 
 00:11:27,760 --> 00:11:31,330
 Here above for the sum
@@ -626,7 +626,7 @@ plus what is written here as first.
 
 00:11:34,750 --> 00:11:42,340
 This is also defined and results in
-the same triple, because this addition is commutative.
+the same triple because this addition is commutative.
 
 00:11:42,340 --> 00:11:43,990
 That does not apply
@@ -709,7 +709,7 @@ by the current marking.
 
 00:13:04,710 --> 00:13:09,960
 This means exactly that at all
-places where this transition expects tokens, i.e.
+places where this transition expects tokens, i.e.,
 
 00:13:09,960 --> 00:13:15,060
 where the function value of
@@ -808,8 +808,8 @@ And we must know beforehand that t
 is really activated for this marking m.
 
 00:14:45,660 --> 00:14:49,590
-Because only then we
-can form this subtraction.
+Because only then can we
+form this subtraction.
 
 00:14:49,590 --> 00:14:53,310
 So this all fits together with the
@@ -827,7 +827,7 @@ that it makes sense overall.
 What's meant by the parentheses here is:
 
 00:15:10,710 --> 00:15:12,540
-First we subtract and then we add.
+First we subtract, and then we add.
 
 00:15:12,540 --> 00:15:15,630
 You could have added parentheses there.
@@ -854,7 +854,7 @@ which results from these arithmetic operations.
 That would be a step.
 
 00:15:45,900 --> 00:15:49,230
-So from a marking we
+So from a marking, we
 make a step with a certain
 
 00:15:49,230 --> 00:15:53,280
@@ -869,7 +869,7 @@ But generally some marking m'.
 
 00:16:00,030 --> 00:16:05,760
 Then obviously m' is reachable
-in a step of m.
+in a step from m.
 
 00:16:05,760 --> 00:16:08,686
 This can still be generalized
@@ -924,7 +924,7 @@ So maybe our Petri
 net has three transitions,
 
 00:16:49,200 --> 00:16:53,100
-but we want to have a 27 long sequence.
+but we want to have a 27-long sequence.
 
 00:16:53,100 --> 00:16:58,350
 Then at least one transition
@@ -992,7 +992,7 @@ in my Petri nets.
 
 00:18:22,890 --> 00:18:29,520
 There I simulated, started
-executions and carried out firings,
+executions, and carried out firings,
 
 00:18:29,520 --> 00:18:34,200
 and in the left window the
@@ -1074,7 +1074,7 @@ especially these marking functions.
 
 00:19:43,010 --> 00:19:55,700
 Here we have the initial marking, that
-would be as marking m0 of course
+would be marking m0, of course
 
 00:19:55,700 --> 00:19:58,400
 (1,2,0) because I have the

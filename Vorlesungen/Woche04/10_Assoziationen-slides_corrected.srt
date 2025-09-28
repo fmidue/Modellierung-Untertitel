@@ -9,7 +9,7 @@ other, further relationships between classes in UML.
 
 00:00:13,770 --> 00:00:19,650
 Ultimately, these are then relationships that
-are also reflected at the object level
+are also reflected at the object level.
 
 00:00:20,160 --> 00:00:25,620
 We will look at the
@@ -59,8 +59,8 @@ Aggregation is in a
 certain sense a special association.
 
 00:01:25,680 --> 00:01:28,290
-And composition as the
-strongest kind of relation
+And composition, as the
+strongest kind of relation,
 
 00:01:28,290 --> 00:01:32,580
 here is again a more special aggregation.
@@ -107,7 +107,7 @@ abstractly now class A, class B.
 
 00:02:23,970 --> 00:02:29,010
 And they are associated (or: there is
-an association between them), if there is
+an association between them) if there is
 
 00:02:29,010 --> 00:02:33,630
 somehow a semantic connection between these
@@ -125,7 +125,7 @@ And this relation, this
 connection, is not hierarchical.
 
 00:02:42,120 --> 00:02:46,710
-So first of all a rather
+So first of all, a rather
 vague concept, as it is written here.
 
 00:02:47,700 --> 00:02:54,360
@@ -180,7 +180,7 @@ And if that is sufficiently important for
 the relationship, the connection to exist, that it
 
 00:03:59,370 --> 00:04:04,170
-should be stored persistently (i.e. not
+should be stored persistently (i.e., not
 fleetingly relevant only briefly in the
 
 00:04:04,170 --> 00:04:09,870
@@ -199,7 +199,7 @@ express that by an association.
 And actually in an implementation of an
 
 00:04:18,900 --> 00:04:25,830
-object-oriented system such a connection
+object-oriented system, such a connection
 would be made by the
 
 00:04:25,830 --> 00:04:34,110
@@ -554,7 +554,7 @@ directly to the association line.
 This expresses the navigation direction.
 
 00:11:22,960 --> 00:11:27,160
-And this describes, objects
+And this describes objects
 of which class must
 
 00:11:27,160 --> 00:11:33,940
@@ -606,7 +606,7 @@ In a sense, these
 navigation directions are a hint,
 
 00:12:27,930 --> 00:12:29,430
-or an anticipation,
+or an anticipation
 of the implementation.
 
 00:12:29,430 --> 00:12:33,810
@@ -646,11 +646,11 @@ person would have to be stored.
 
 00:13:18,630 --> 00:13:23,730
 For example it could be that for person 1
-the set \{ car 1, car 2\} is stored,
+the set { car 1, car 2 } is stored,
 
 00:13:23,730 --> 00:13:27,420
 for person 2 the empty set, and for
-person 3 the set \{ car 3 \}.
+person 3 the set { car 3 }.
 
 00:13:27,420 --> 00:13:35,310
 That would then correspond to
@@ -1010,7 +1010,7 @@ their interval m to n, k to l, this would mean
 
 00:20:55,520 --> 00:21:08,090
 that between m and n instances of A
-can be associated to an instance of B.
+can be associated with an instance of B.
 
 00:21:08,090 --> 00:21:13,010
 So I take an instance of class B; then it
@@ -1033,7 +1033,7 @@ were simply manifestations of this.
 
 00:21:32,930 --> 00:21:40,100
 If you don't want to have an upper bound here
-(i.e. you don't want to say "from m to n",
+(i.e., you don't want to say "from m to n",
 
 00:21:40,100 --> 00:21:44,660
 but always just "at least m"), then
@@ -1055,7 +1055,7 @@ Conversely, if one would have wanted to say,
 "at most two", one would have written: "0..2".
 
 00:21:59,840 --> 00:22:02,780
-The lower bound is of course zero and for
+The lower bound is, of course, zero and for
 
 00:22:02,780 --> 00:22:07,100
 the upper bound one inserts a

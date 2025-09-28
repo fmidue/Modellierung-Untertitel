@@ -7,7 +7,7 @@ we are already given a very thorough description
 that we basically just need to read out and
 
 0:00:11.460,0:00:16.980
-translate into a working-class diagram. Later
+translate into a working class diagram. Later
 on, we'll also make an object diagram based on
 
 0:00:16.980,0:00:22.200
@@ -115,7 +115,7 @@ I'm just going to start by reading a little
 into this here. Consists kind of implies some
 
 0:02:53.520,0:03:00.120
-kind of relation to other Class because a theater
+kind of relation to other classes because a theater
 consists of different rooms. And especially, it
 
 0:03:00.120,0:03:06.660
@@ -124,7 +124,7 @@ it's definitely either aggregation or composition.
 
 0:03:06.660,0:03:13.440
 And to determine which of those it is, we just
-need to think about the lifetimes of the object
+need to think about the lifetimes of the objects
 
 0:03:13.440,0:03:21.180
 here. The theater is the whole, and the room is
@@ -188,7 +188,7 @@ are conducted in a theater. This doesn't really do
 
 0:05:05.460,0:05:11.760
 anything for us yet. But an event is either a film
-or a concert. There is underlines. Once again,
+or a concert. There are underlines. Once again,
 
 0:05:11.760,0:05:18.120
 that tells us that these are classes. So, we have
@@ -336,7 +336,7 @@ It's important here that we make use of
 these given classes. Because otherwise,
 
 0:09:39.780,0:09:44.880
-date as an int or float doesn't really make
+date as an Int or Float doesn't really make
 sense. And if we don't use these, then we need
 
 0:09:44.880,0:09:54.600
@@ -509,7 +509,7 @@ consists of a date and one or more seats. So,
 
 0:15:05.040,0:15:12.060
 booking is a class, indicated by the underline
-here. Consists of date and one or more seats.
+here. Consists of a date and one or more seats.
 
 0:15:12.060,0:15:15.900
 These are classes that we already have.
@@ -520,8 +520,8 @@ But we are told about some methods that booking is
 going to have. Namely, a booking has an operation
 
 0:15:23.280,0:15:29.520
-"readPrice." So, this is going to be our first
-method in this class diagram, "readPrice,"
+"readPrice". So, this is going to be our first
+method in this class diagram, "readPrice",
 
 0:15:30.300,0:15:34.980
 which computes the overall price of all
@@ -537,14 +537,14 @@ here as the datatype for the return as well.
 
 0:15:52.020,0:15:56.160
 Furthermore, a booking has an operation
-"send," which sends the booking to the
+"send", which sends the booking to the
 
 0:15:56.160,0:16:01.200
 theater and reserves the selected seats.
 So, we're going to add another method here,
 
 0:16:03.480,0:16:11.160
-which is called "send," which just sends the booking
+which is called "send", which just sends the booking
 to the theater and reserves the selected seats.
 
 0:16:11.160,0:16:17.520

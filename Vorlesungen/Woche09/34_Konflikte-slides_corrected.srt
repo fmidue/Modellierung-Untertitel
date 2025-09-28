@@ -256,7 +256,7 @@ pre-weight functions (here again written down as a sum)
 
 00:04:41,130 --> 00:04:46,080
 would also have to be
-smaller-equal than the current marking.
+smaller or equal to the current marking.
 
 00:04:46,080 --> 00:04:47,310
 And this is just not the case.
@@ -363,7 +363,7 @@ anyway because they don't share a precondition place.
 
 00:06:32,146 --> 00:06:36,390
 Yes, t1 depends only on these two
-pre-condition places, t3 depends only on these.
+precondition places, t3 depends only on these.
 
 00:06:36,390 --> 00:06:38,940
 There's no potential for conflict there.

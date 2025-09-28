@@ -82,7 +82,7 @@ In Petri nets, transitions looked like
 this and could have a name.
 
 00:01:39,480 --> 00:01:42,900
-So so an action from
+So an action from
 an activity diagram would just be
 
 00:01:42,900 --> 00:01:45,990
@@ -201,7 +201,7 @@ and places must always occur alternately.
 
 00:03:33,390 --> 00:03:39,390
 Therefore there will be
-a so called auxiliary place here (elsewhere later also auxiliary transitions).
+a so-called auxiliary place here (elsewhere later also auxiliary transitions).
 
 00:03:39,390 --> 00:03:42,420
 So on the Petri net side there
@@ -244,7 +244,7 @@ firing of these transitions.
 
 00:04:19,150 --> 00:04:21,550
 And for this they
-should be linked meaningfully
+should be linked meaningfully,
 
 00:04:21,550 --> 00:04:25,150
 and this is easily done
@@ -273,11 +273,11 @@ We had that already several times that
 we could not necessarily give a meaningful
 
 00:04:53,620 --> 00:04:55,660
-name to all elements in Petri net.
+name to all elements in the Petri net.
 
 00:04:56,320 --> 00:04:58,900
 These three transitions would have a
-meaningful name here, because they correspond to
+meaningful name here because they correspond to
 
 00:04:58,900 --> 00:05:03,880
 these actions, and these are auxiliary places, because
@@ -393,12 +393,12 @@ So it's not just an auxiliary
 place, it's a real named place.
 
 00:06:57,360 --> 00:06:59,910
-Logically it gets the same
+Logically, it gets the same
 name as this object node.
 
 00:06:59,910 --> 00:07:03,090
-And if there would be
-for example here now several possibilities,
+And if there would be,
+for example, here now several possibilities,
 
 00:07:03,090 --> 00:07:05,400
 from which somehow a plan can result.
@@ -423,7 +423,7 @@ for that we had stored
 tokens on places in Petri nets.
 
 00:07:29,700 --> 00:07:35,130
-From this part of the activity diagram then
+From this part of the activity diagram, then
 this part of a Petri net with these
 
 00:07:35,130 --> 00:07:43,620
@@ -470,7 +470,7 @@ that there are these object
 types from the static modeling.
 
 00:08:28,290 --> 00:08:32,850
-I.e. not that these
+I.e., not that these
 object nodes have somehow
 
 00:08:32,850 --> 00:08:37,710
@@ -498,11 +498,11 @@ for concrete objects and not an object.
 
 00:08:58,290 --> 00:09:05,940
 O.k., what else did we
-have in our example activity diagram.
+have in our example activity diagram?
 
 217 # slide
 00:09:05,940 --> 00:09:09,210
-Well we still had this kind of node.
+Well, we still had this kind of node.
 
 00:09:09,210 --> 00:09:14,670
 I hadn't given them a name yet,
@@ -542,7 +542,7 @@ control flow or of tokens,
 but actually a choice of one path.
 
 00:09:47,700 --> 00:09:51,630
-O.k., for this these
+O.k., for this, these
 diamond nodes are used,
 
 00:09:51,630 --> 00:09:54,900
@@ -565,7 +565,7 @@ the Petri net, we can do that by
 branching from a place where a token could be.
 
 00:10:13,140 --> 00:10:17,610
-Like for example here the
+Like for example here, the
 submitted plan, have several possible exits,
 
 00:10:17,610 --> 00:10:22,860
@@ -588,7 +588,7 @@ Because that would mean that we're splitting
 something up, so we're outputting two tokens.
 
 00:10:41,370 --> 00:10:45,900
-No, there is a place (that does NOT count as auxiliary place) where
+No, there is a place (that does NOT count as an auxiliary place) where
 this action, this transition puts a token.
 
 00:10:45,900 --> 00:10:51,150
@@ -608,7 +608,7 @@ then the first of them
 could be the output here.
 
 00:11:02,820 --> 00:11:12,060
-O.k. it can be, we even see
+O.k., it can be, we even see
 that in the example here, that we
 
 00:11:12,060 --> 00:11:15,150
@@ -639,10 +639,10 @@ That is not possible.
 
 00:11:34,110 --> 00:11:37,020
 Because of the rules of
-Petri net again, that there
+Petri nets again, that there
 
 00:11:37,020 --> 00:11:40,800
-can be only connection from places
+can be only connections from places
 to transitions and transitions to places,
 
 00:11:40,800 --> 00:11:43,500
@@ -666,7 +666,7 @@ Which would not be a valid Petri net.
 
 00:11:57,360 --> 00:11:59,430
 This can occur here
-for example, because a
+for example because a
 
 00:11:59,430 --> 00:12:03,810
 decision node is followed by
@@ -677,8 +677,8 @@ object node, which would also be
 realized by a Petri net place.
 
 00:12:07,830 --> 00:12:11,580
-In the same way this can
-be also with the reverse order.
+In the same way, this can
+also be with the reverse order.
 
 00:12:11,580 --> 00:12:16,050
 So not only with following but
@@ -905,7 +905,7 @@ actions/activities/verbs
 that somehow require extra time as steps.
 
 00:16:18,390 --> 00:16:22,140
-That would be relevant, if
+That would be relevant if
 one wanted to use such
 
 00:16:22,140 --> 00:16:24,690
@@ -1013,7 +1013,7 @@ simply by a place, which
 
 00:18:18,670 --> 00:18:22,480
 then has, perhaps
-in the postcondition, several transitions
+in the postcondition, several transitions,
 
 00:18:22,480 --> 00:18:26,290
 and at the same time
@@ -1133,7 +1133,7 @@ a transition directly to a transition, so then we
 
 00:20:32,070 --> 00:20:35,430
 have an auxiliary place here and
-only after that comes the Transition, which
+only after that comes the transition, which
 
 00:20:35,430 --> 00:20:39,495
 corresponds to the action node, which
@@ -1261,7 +1261,7 @@ the same time, so to speak.
 
 00:23:06,300 --> 00:23:10,230
 So a bar doesn't necessarily have to
-have one input, multiple outputs, or vice-versa.
+have one input, multiple outputs, or vice versa.
 
 00:23:10,770 --> 00:23:16,170
 It could also have multiple inputs
@@ -1280,7 +1280,7 @@ So really splitting or merging,
 not a mixture of those.
 
 00:23:28,560 --> 00:23:36,600
-O.k. of course a
+O.k., of course a
 certain discipline is useful.
 
 00:23:36,600 --> 00:23:41,520
@@ -1418,7 +1418,7 @@ these edges do not lead to object nodes.
 
 00:25:59,100 --> 00:26:05,700
 So the intuition is that object nodes
-are supposed to, yes hold some concrete artifacts,
+are supposed to, yes, hold some concrete artifacts,
 
 00:26:05,700 --> 00:26:09,270
 like the plan earlier, and that
@@ -1573,7 +1573,7 @@ between these two possible ends.
 
 00:28:54,960 --> 00:29:00,570
 So in the example what I had here,
-I had used though this activity end as symbol.
+I had used though this activity end as a symbol.
 
 00:29:00,570 --> 00:29:02,430
 I could also have taken the flow end,
@@ -1758,10 +1758,10 @@ to the fork node.
 
 00:32:34,630 --> 00:32:37,240
 That corresponds to
-the, these two transitions
+these two transitions
 
 00:32:37,240 --> 00:32:40,570
-correspond to the two actions
+corresponding to the two actions
 in these two concurrent paths.
 
 00:32:40,570 --> 00:32:43,060
@@ -1777,7 +1777,7 @@ diagram that we've seen to a Petri net.
 
 00:32:50,740 --> 00:32:55,030
 And we see also the end I have
-implemented here, in which simply here the last action,
+implemented here, in which simply the last action,
 
 00:32:55,030 --> 00:33:00,220
 this transition, is
@@ -1785,7 +1785,7 @@ such a swallowing transition,
 
 00:33:00,220 --> 00:33:10,760
 which corresponds to the fact that after
-finishing the house nothing more happens.
+finishing the house, nothing more happens.
 
 00:33:10,760 --> 00:33:13,610
 This end of flow here, this
@@ -1800,7 +1800,7 @@ This is then just shown here.
 
 00:33:24,650 --> 00:33:31,606
 O.k., most of the places
-here are really such auxiliary places.
+here are really auxiliary places.
 
 00:33:31,606 --> 00:33:33,500
 You see here the
@@ -1861,7 +1861,7 @@ as the activity
 diagram we originally saw.
 
 00:34:32,350 --> 00:34:36,760
-And this is a general recipe how
+And this is a general recipe of how
 to get Petri nets from activity diagrams.
 
 00:34:36,760 --> 00:34:41,410
@@ -1880,7 +1880,7 @@ introduce all of them.
 I'll touch on and mention a few now.
 
 00:34:52,900 --> 00:35:00,220
-But for those I will not always
+But for those, I will not always
 give a full translation in Petri nets.
 
 00:35:00,220 --> 00:35:05,920
@@ -1909,7 +1909,7 @@ and on the other hand, there
 are simply own syntax/own representation options.
 
 00:35:25,570 --> 00:35:31,360
-For example, at object nodes you can specify the
+For example, at object nodes, you can specify the
 maximum number of objects that can be located there.
 
 00:35:31,360 --> 00:35:35,020
@@ -1933,12 +1933,12 @@ diagram in such a way that
 one indicates an upper bound here.
 
 00:35:49,360 --> 00:35:53,770
-O.k. so a quantitative
+O.k., so a quantitative
 statement at an object node.
 
 00:35:53,770 --> 00:35:59,620
 There are also quantitative statements at the
-transitions, there can be a weight at it.
+transitions; there can be a weight at it.
 
 00:35:59,620 --> 00:36:04,420
 And this corresponds exactly to the
@@ -1953,7 +1953,7 @@ be a maximum of six dishes at
 the same time here as a reservoir.
 
 00:36:14,020 --> 00:36:18,400
-And the weight would say, there are
+And the weight would say there are
 always two dishes served at the same time.
 
 00:36:18,400 --> 00:36:20,470
@@ -2047,18 +2047,18 @@ concrete software modeling context, perhaps.
 
 226 # slide
 00:37:50,740 --> 00:37:53,890
-O.k. so the point here is:
+O.k., so the point here is:
 
 00:37:53,890 --> 00:37:56,500
 This correspondence, it's
 not completely exact.
 
 00:37:56,500 --> 00:38:00,250
-Yes not for all concepts from
-activity diagram there is a direct translation.
+Yes, not for all concepts from
+activity diagrams is there a direct translation.
 
 00:38:00,250 --> 00:38:01,600
-And of course it's also because
+And of course, it's also because
 
 00:38:01,600 --> 00:38:04,210
 activity diagrams are
@@ -2082,7 +2082,7 @@ in the tasks.
 
 227 # slide
 00:38:25,690 --> 00:38:30,920
-O.k. what else do we have?
+O.k., what else do we have?
 
 00:38:30,920 --> 00:38:31,880
 Activity areas.
@@ -2096,7 +2096,7 @@ In Petri nets, there are simply
 places, transitions, and connections in between.
 
 00:38:45,710 --> 00:38:47,780
-In activity diagrams one
+In activity diagrams, one
 
 00:38:47,780 --> 00:38:51,620
 structures the diagrams even further,
@@ -2231,5 +2231,5 @@ even more richness of variation
 than we've already seen here.
 
 00:41:01,460 --> 00:41:06,020
-And in any case more than Petri
+And in any case, more than Petri
 nets, where there were only places and transitions.

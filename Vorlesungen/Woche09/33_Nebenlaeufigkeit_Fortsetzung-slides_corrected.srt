@@ -27,7 +27,7 @@ for that kind of parallelism.
 
 00:00:32,220 --> 00:00:38,550
 But strictly speaking, the term
-is defined mathematically, by this definition:
+is defined mathematically by this definition:
 
 00:00:38,550 --> 00:00:43,710
 So I actually have to do
@@ -160,7 +160,7 @@ Nothing would change for t3.
 
 00:03:01,650 --> 00:03:11,400
 But by the additional arrow from
-s3 to t2 something changes for t2.
+s3 to t2, something changes for t2.
 
 00:03:11,400 --> 00:03:19,020
 Namely, this additional arrow turns
@@ -753,7 +753,7 @@ like such a higher-dimensional
 mathematical construct.
 
 00:14:30,180 --> 00:14:36,270
-So for instance if we have
+So for instance, if we have
 that, but also in other Petri
 
 00:14:36,270 --> 00:14:40,170
@@ -769,7 +769,7 @@ we have three concurrently activated
 transitions), then such structures arise.
 
 00:14:49,180 --> 00:14:55,150
-Again because any order of
+Again, because any order of
 transitions will be possible, and
 
 00:14:55,150 --> 00:15:00,040
@@ -880,7 +880,7 @@ current marking just has only one token.
 
 00:17:02,190 --> 00:17:09,000
 So here t1, t2 are not activated
-concurrently and yet it is the case that
+concurrently, and yet it is the case that
 
 00:17:09,000 --> 00:17:11,190
 they can be fired in any order.
@@ -898,7 +898,7 @@ here because it has this
 loop or two such loops.
 
 00:17:29,510 --> 00:17:38,690
-By loop (or loops) we mean when there
+By loop (or loops), we mean when there
 is a transition and a place, so that
 
 00:17:38,690 --> 00:17:44,300

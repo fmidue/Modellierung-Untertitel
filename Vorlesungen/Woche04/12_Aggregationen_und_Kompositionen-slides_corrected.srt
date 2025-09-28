@@ -120,7 +120,7 @@ So the relationship might end up
 being called "contains" as a name anyway.
 
 00:02:22,210 --> 00:02:24,670
-Instead of "possesses" one
+Instead of "possesses", one
 would perhaps write: "contains".
 
 00:02:25,390 --> 00:02:29,260
@@ -153,7 +153,7 @@ An example would be:
 A parking lot contains several cars.
 
 00:03:01,030 --> 00:03:02,620
-Here it says "contains" as name.
+Here it says "contains" as a name.
 
 00:03:02,620 --> 00:03:05,440
 But you could probably save that.
@@ -202,7 +202,7 @@ takes over, as said, the parking lot.
 
 00:03:44,450 --> 00:03:50,000
 The role of the part, in
-this part-whole-relationship, takes over the car.
+this part-whole relationship, takes over the car.
 
 00:03:50,000 --> 00:03:55,760
 By this "0..1"
@@ -628,7 +628,7 @@ A part belongs to exactly one whole,
 
 00:10:54,030 --> 00:10:58,680
 and this is always like that, and cannot belong
-temporarily for example to no whole.
+temporarily, for example, to no whole.
 
 00:10:58,680 --> 00:11:03,570
 We will discuss another
@@ -691,7 +691,7 @@ You really have to be careful
 what this "belongs to exactly", or in
 
 00:12:29,350 --> 00:12:32,770
-the case of 0..1 "to
+the case of "0..1" "to
 at most one whole" means.
 
 00:12:32,770 --> 00:12:35,140
@@ -783,7 +783,7 @@ maybe exactly one
 operation or one method.
 
 00:14:27,670 --> 00:14:33,670
-In that case it would simply be possible to
+In that case, it would simply be possible to
 pass the target object as a parameter to the method.
 
 00:14:33,670 --> 00:14:38,710
@@ -825,7 +825,7 @@ of this part class can belong to
 
 00:15:23,320 --> 00:15:29,590
 only one instance of the whole
-class, and cannot exist without it.
+class and cannot exist without it.
 
 00:15:30,280 --> 00:15:34,660
 The part can only exist

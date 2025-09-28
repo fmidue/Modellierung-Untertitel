@@ -43,7 +43,7 @@ we have these states, A, B, C, D, these are
 composite states.
 
 0:01:23.390,0:01:29.820
-The biggest one is a that contains everything,
+The biggest one is A that contains everything,
 of course, everything except for this part
 
 0:01:29.820,0:01:33.210
@@ -122,11 +122,11 @@ which is a joint state.
 
 0:03:47.900,0:03:54.530
 The second possibility is to exit with the
-help of this transition, e. And when you exit
+help of this transition "e". And when you exit
 
 0:03:54.530,0:04:01.340
-with e, it doesn't matter where you are, it
-doesn't matter where which state you are currently
+with "e", it doesn't matter where you are, it
+doesn't matter which state you are currently
 
 0:04:01.340,0:04:02.659
 in here.
@@ -161,8 +161,8 @@ This happens because here it says we leave
 C from seven and four.
 
 0:04:43.979,0:04:53.380
-This means we do this transition d, and this
-transition d is not pointing at any inner state
+This means we do this transition "d", and this
+transition "d" is not pointing at any inner state
 
 0:04:53.380,0:04:59.250
 of D. It's just pointing at D as a whole.
@@ -269,8 +269,8 @@ The first one is to go from state nine, which
 is this one using the transition F. But as
 
 0:07:46.979,0:07:56.849
-you can see the transition F goes directly
-into three, it doesn't point at six at all.
+you can see, the transition "f" goes directly
+into three; it doesn't point at six at all.
 
 0:07:56.849,0:08:02.940
 So, how does this get us to six?
@@ -329,14 +329,14 @@ whole state C is now active.
 
 0:09:22.190,0:09:29.519
 And when state C is active, we have rules
-here, we have things that have to be fulfilled,
+here; we have things that have to be fulfilled,
 
 0:09:29.519,0:09:32.990
 that have to happen.
 
 0:09:32.990,0:09:39.980
 It says here we start with five, the state
-five and the state six, these are the two
+five and the state six; these are the two
 
 0:09:39.980,0:09:42.620
 starting states.
@@ -346,7 +346,7 @@ Now the second possibility is to go from eight
 with the transition i if B, this B, was last
 
 0:09:56.140,0:10:02.540
-exited from C which is this state here.
+exited from C, which is this state here.
 
 0:10:02.540,0:10:06.329
 Let's see how this works.

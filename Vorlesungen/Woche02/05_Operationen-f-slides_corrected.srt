@@ -12,7 +12,7 @@ more specific to computer science, and on the
 other hand, it won't be about graphs either.
 
 00:00:23,880 --> 00:00:28,380
-I had said that we will be
+I had said that we would be
 doing a lot of modeling with graphs, but
 
 00:00:28,380 --> 00:00:34,620
@@ -272,7 +272,7 @@ Otherwise, at this moment, simply
 an operation name "plus", two arguments,
 
 00:04:44,210 --> 00:04:45,980
-each natural numbers
+each natural number
 (N for natural numbers).
 
 00:04:45,980 --> 00:04:47,750
@@ -849,7 +849,7 @@ the operations through their signatures, input and
 output formats and the rules according to which terms
 
 00:14:19,060 --> 00:14:23,860
-are set up), is not
+are set up) is not
 only possible for arithmetic operations on numbers.
 
 00:14:23,860 --> 00:14:27,760
@@ -1036,7 +1036,7 @@ want with the operation.
 
 00:17:42,540 --> 00:17:47,550
 Although I will always show such examples,
-the focus is actually on these operation
+the focus is actually on these operations
 
 00:17:47,550 --> 00:17:51,690
 names and their signatures
@@ -1160,7 +1160,7 @@ This could have been countered
 by deliberately introducing another set with
 
 00:19:57,990 --> 00:20:02,610
-only non-negative floating point numbers.
+only non-negative floating-point numbers.
 
 00:20:03,240 --> 00:20:06,420
 Or one could then make
@@ -1557,7 +1557,7 @@ We'd like to rotate that by an angle.
 Then we would have to somehow capture, or
 
 00:26:38,420 --> 00:26:40,790
-decide, how to interpret that angle.
+decide how to interpret that angle.
 
 00:26:40,790 --> 00:26:45,530
 Let's assume we measure angles simply
@@ -1745,7 +1745,7 @@ This could be a
 binary operation with two arguments,
 
 00:29:57,400 --> 00:30:00,640
-each Pictures, and it
+each Picture, and it
 should return a Picture.
 
 00:30:00,640 --> 00:30:06,190
@@ -1808,7 +1808,7 @@ used as an infix operation.
 
 00:31:06,810 --> 00:31:09,390
 That is, unlike "move"
-and "color" etc, it is
+and "color" etc., it is
 
 00:31:09,390 --> 00:31:12,000
 no longer used with
@@ -2116,7 +2116,7 @@ Here's the error: we applied
 "print" to a string, and
 
 00:36:25,800 --> 00:36:28,680
-an image comes out, here I'd like
+an image comes out; here I'd like
 to scale it by a factor of 3.
 
 00:36:28,680 --> 00:36:30,900
@@ -2131,7 +2131,7 @@ I introduced up front:
 
 00:36:33,450 --> 00:36:36,870
 "scale" always takes two arguments in addition
-to the image, i.e. two numbers, to
+to the image, i.e., two numbers, to
 
 00:36:36,870 --> 00:36:39,240
 be able to scale in x and y directions.
@@ -2195,7 +2195,7 @@ Our combination operator was
 meant for images.
 
 00:37:48,610 --> 00:37:54,190
-So as was said, the specification was
+So, as was said, the specification was
 for a Picture and also a Picture, and
 
 00:37:54,190 --> 00:37:55,660
@@ -2233,7 +2233,7 @@ Conversely, of course, this does not mean
 that all programming errors are automatically detectable.
 
 00:38:29,770 --> 00:38:34,480
-So for instance, with the
+So, for instance, with the
 rectangle operation, the requirement was:
 
 00:38:34,480 --> 00:38:35,680
@@ -2292,7 +2292,7 @@ But a whole series of
 possible errors is already caught statically.
 
 00:39:32,200 --> 00:39:37,840
-And depending on the programming language, more
+And, depending on the programming language, more
 or less of such errors are acceptable here,
 
 00:39:37,840 --> 00:39:42,160

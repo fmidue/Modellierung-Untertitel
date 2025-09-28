@@ -10,7 +10,7 @@ below here, and the description says what
 we shall model here in this Petri Net.
 
 0:00:27.800,0:00:31.200
-And it is a check out with a cashier and a
+And it is a checkout with a cashier and a
 customer.
 
 0:00:31.200,0:00:40.149
@@ -42,7 +42,7 @@ which are in place two.
 
 0:01:12.290,0:01:20.690
 And the customer and also the cashier can
-be either busy or waiting and the cashier
+be either busy or waiting, and the cashier
 
 0:01:20.690,0:01:29.300
 can only process goods if he is waiting and
@@ -53,7 +53,7 @@ And after successfully placing the goods or
 processing them, the customer or cashier changes
 
 0:01:37.329,0:01:53.570
-to the state busy after which they become
+to the state busy, after which they become
 waiting again shortly.
 
 0:01:53.570,0:02:06.079
@@ -64,7 +64,7 @@ will become waiting, so, that's what the queue,
 in this case, will be.
 
 0:02:08.500,0:02:16.519
-And there are blanks in the chart so, we have
+And there are blanks in the chart, so, we have
 to fill in the statements and we have to fill
 
 0:02:16.519,0:02:18.000
@@ -72,7 +72,7 @@ in further arrows.
 
 0:02:18.000,0:02:29.060
 So, first of all, the customer is waiting
-or busy this was mentioned here and this is
+or busy; this was mentioned here and this is
 
 0:02:29.060,0:02:31.140
 also true for the cashier.
@@ -112,8 +112,8 @@ because a space is either empty or full and
 there's no in-between.
 
 0:03:34.420,0:03:41.290
-And also a cashier’s either waiting or busy
-and also the same for customer in space one.
+And also a cashier’s either waiting or busy,
+and also the same for the customer in space one.
 
 0:03:41.290,0:03:52.560
 So, that means when the customer for this
@@ -135,7 +135,7 @@ goods onto space one.
 
 0:04:24.900,0:04:33.930
 This means that this transition can represent
-a state so the space is empty and after the
+a state; so the space is empty and after the
 
 0:04:33.930,0:04:37.690
 transition, we expect the state to be full.
@@ -188,11 +188,11 @@ a state.
 
 0:06:01.420,0:06:13.710
 This means we have goods in space one, but
-we don't have goods in space two
+we don't have goods in space two.
 
 0:06:13.710,0:06:24.050
 because they can only be shifted if the first
-space is empty
+space is empty.
 
 0:06:24.050,0:06:29.620
 because if there are goods in space two, then
@@ -225,14 +225,14 @@ And therefore, we need the cashier.
 
 0:07:28.150,0:07:36.009
 The cashier can only process goods if he is
-waiting, and the place two of the conveyor
+waiting, and place two of the conveyor
 
 0:07:36.009,0:07:38.470
 belt is not empty.
 
 0:07:38.470,0:07:45.319
 So this means this place should probably
-represent this state, so the cashier is
+represent this state; so the cashier is
 
 0:07:45.319,0:07:53.820
 waiting and space two is full.
@@ -246,7 +246,7 @@ the state busy or processing them.
 
 0:08:05.860,0:08:15.750
 So this again is also for the cashier, so
-when the cashier processes the goods then
+when the cashier processes the goods, then
 
 0:08:15.750,0:08:24.160
 he becomes busy.
@@ -263,7 +263,7 @@ And after a short waiting time, again, as
 it was for the customer, the busy cashier
 
 0:08:45.170,0:08:54.620
-will also become waiting again and therefore
+will also become waiting again, and therefore
 we have this transition here.
 
 0:08:54.620,0:08:58.990
@@ -297,7 +297,7 @@ has the state and the space as well.
 
 0:09:50.800,0:10:00.450
 So when we process this transition, then tokens
-would be going out of waiting and empty but
+would be going out of waiting and empty, but
 
 0:10:00.450,0:10:07.120
 we would then have tokens in busy and full.
@@ -343,7 +343,7 @@ So this is what still persists also here.
 So we have just one token here and only one.
 
 0:11:27.280,0:11:40.800
-So there's not zero tokens, it's exact exactly
+So there's not zero tokens, it's exactly
 one token in each column here.
 
 0:11:40.800,0:11:51.640
@@ -356,7 +356,7 @@ remove these tokens and place them here, as
 
 0:12:03.079,0:12:11.050
 the arrows indicate, and then the space becomes
-empty but the cashier becomes busy.
+empty, but the cashier becomes busy.
 
 0:12:11.050,0:12:18.080
 So still, it's the same picture, we only have
@@ -371,7 +371,7 @@ And then again, this transition does also
 nothing harmful, because still, we have just
 
 0:12:30.690,0:12:34.870
-one token in here, if we fire this transition.
+one token in here if we fire this transition.
 
 0:12:34.870,0:12:47.550
 So we have checked also that our graph is
@@ -386,7 +386,7 @@ gets completely removed.
 
 0:13:03.790,0:13:13.050
 We could check further interactions between
-those but I think you get the picture of what's
+those, but I think you get the picture of what's
 
 0:13:13.050,0:13:19.220
 going on and how you can check that your Petri

@@ -65,7 +65,7 @@ where attributes can be entered.
 
 00:01:03,260 --> 00:01:08,149
 In this case, these are the information to
-be stored, i.e. the x and y coordinates.
+be stored, i.e., the x and y coordinates.
 
 00:01:08,149 --> 00:01:09,670
 This is a number in each case.
@@ -269,7 +269,7 @@ symbols: Plus, minus.
 
 00:04:19,280 --> 00:04:22,760
 Sometimes these can also
-be designations, i.e. character strings.
+be designations, i.e., character strings.
 
 00:04:22,760 --> 00:04:24,420
 But sometimes they are
@@ -362,7 +362,7 @@ So our Point class can have
 many objects, which are its manifestation.
 
 00:06:15,510 --> 00:06:22,090
-And a concrete point, for example my concrete
+And a concrete point, for example, my concrete
 point of the class "Point", would then be
 
 00:06:22,090 --> 00:06:27,470
@@ -459,7 +459,7 @@ have two different classes.
 
 00:07:59,690 --> 00:08:04,110
 So there can still be classes
-that also store two integers, for example
+that also store two integers, for example,
 
 00:08:04,110 --> 00:08:06,860
 a class for arithmetic fractions.
@@ -509,7 +509,7 @@ unless it is explicitly required, by copying
 
 00:08:54,460 --> 00:09:00,420
 the class again and specifying the
-objects and always making these instantiation
+objects and always making these instantiations
 
 00:09:00,420 --> 00:09:01,420
 arrows.
@@ -740,7 +740,7 @@ methods (and later other relationships we
 
 00:12:51,330 --> 00:12:55,140
 will discuss) of the
-superclass, and can add more.
+superclass and can add more.
 
 00:12:55,140 --> 00:13:01,160
 One aspect for implementation that is
