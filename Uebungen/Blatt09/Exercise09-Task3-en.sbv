@@ -34,19 +34,19 @@ Gate one can open only if the water level
 within the water gate is high, or can only
 
 0:01:25.540,0:01:30.180
-be opened if the water level in the water gate
+be open if the water level in the water gate
 is high.
 
 0:01:30.180,0:01:35.890
-Gate two can only be opened if the water level
+Gate two can only be open if the water level
 in the water gate is low.
 
 0:01:35.890,0:01:42.540
 Then ships can go from the river to the water gate
-if gate one is opened and from the water gate
+if gate one is open and from the water gate
 
 0:01:42.540,0:01:51.080
-to the lake if gate two is opened.
+to the lake if gate two is open.
 
 0:01:51.080,0:01:59.460
 Ships can only go into the water gate if there
@@ -71,7 +71,7 @@ So the process should be able to continue.
 
 0:02:34.920,0:02:48.140
 So for the gates, it shall
-be that the gate is either opened or closed.
+be that the gate is either open or closed.
 
 0:02:48.140,0:02:51.860
 It shall be true for gate one and for gate
@@ -324,8 +324,8 @@ We see this problem also occurring here because
 we have at the moment a token within the
 
 0:11:47.760,0:11:53.750
-ship-in-water gate-yes, and also within the
-ship-in-water gate-no.
+ship-in-water-gate-yes, and also within the
+ship-in-water-gate-no.
 
 0:11:53.750,0:12:00.510
 So this is a state that should never, ever
@@ -438,8 +438,8 @@ this by adding an edge from the gate two closed
 side.
 
 0:15:58.070,0:16:18.410
-So when we say when gate two is closed, that
-only then can we fire this transition, then
+So when we say, "when gate two is closed", that
+only then we can fire this transition, then
 
 0:16:18.410,0:16:28.240
 we will not have the problem that we can fire
@@ -453,8 +453,8 @@ transition as this edge requires that there's
 a token in here.
 
 0:16:36.810,0:16:41.100
-So only if we have the token in there can
-we fire this transition.
+So: only if we have the token in there, we can
+fire this transition.
 
 0:16:41.100,0:16:43.110
 Now we added a new problem.
