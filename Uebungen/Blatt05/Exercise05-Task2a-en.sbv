@@ -336,7 +336,7 @@ It's important here that we make use of
 these given classes. Because otherwise,
 
 0:09:39.780,0:09:44.880
-date as an Int or float doesn't really make
+date as an Int or Float doesn't really make
 sense. And if we don't use these, then we need
 
 0:09:44.880,0:09:54.600
