@@ -688,11 +688,11 @@ class and a whole of the other class.
 
 00:12:24,820 --> 00:12:29,350
 You really have to be careful
-what this "belongs to exactly", or in
+what this "belongs to exactly" (or in
 
 00:12:29,350 --> 00:12:32,770
-the case of "0..1" "to
-at most one whole" means.
+the case of 0..1, "to
+at most one whole") means.
 
 00:12:32,770 --> 00:12:35,140
 But we will also discuss that.

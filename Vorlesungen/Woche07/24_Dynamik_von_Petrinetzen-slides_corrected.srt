@@ -520,10 +520,10 @@ vector and another triple vector.
 
 00:09:42,910 --> 00:09:44,860
 You know this from
-school (linear algebra); there
+school (linear algebra): there
 
 00:09:44,860 --> 00:09:47,560
-just comes out
+just results
 a vector, element-wise/place-wise added.
 
 00:09:48,610 --> 00:09:50,590

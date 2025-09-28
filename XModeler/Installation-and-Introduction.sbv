@@ -1,6 +1,5 @@
 0:00:01.220,0:00:05.270
-This is an introduction to the software X
-modeler.
+This is an introduction to the software XModeler.
 
 0:00:05.270,0:00:11.750
 In case you don't have a link to the download
@@ -28,7 +27,7 @@ Despite the first one.
 
 0:00:45.579,0:00:50.000
 This tutorial gives you two options on how
-to run X modeler.
+to run XModeler.
 
 0:00:50.000,0:00:52.829
 I'm going to go for option number two.
@@ -81,7 +80,7 @@ I'm going to take them to some folder that
 I created, an empty folder, and just paste it
 
 0:02:12.970,0:02:31.640
-here and extract. (11 sec) Now let's go back
+here and extract. Now let's go back
 to the tutorial.
 
 0:02:31.640,0:02:35.830
@@ -126,7 +125,7 @@ inside quotation marks like this.
 And now save the file and close it.
 
 0:03:37.319,0:03:46.049
-Let's try to run Xmodeler.
+Let's try to run XModeler.
 
 0:03:46.049,0:03:53.360
 And as you can see, it is working.
@@ -154,7 +153,7 @@ double click it and it's open.
 Now you can create a diagram.
 
 0:04:20.329,0:04:25.120
-There are many features in Xmodeler that we
+There are many features in XModeler that we
 are not going to use because they are irrelevant
 
 0:04:25.120,0:04:26.900
@@ -252,7 +251,7 @@ problems; you cannot—for example, you cannot
 make C inherit from B. So, just stick to
 
 0:06:25.910,0:06:31.520
-what I said: do 1’s for classes and 0 for
+what I said: do 1s for classes and 0 for
 everything else.
 
 0:06:31.520,0:06:40.169
@@ -293,14 +292,14 @@ Good, it's separated now.
 
 0:07:20.120,0:07:33.020
 So, move this one here, just to make it look
-a bit better, a bit more easier to read.
+a bit better, a bit easier to read.
 
 0:07:33.020,0:07:46.379
 Okay, now let's do other classes; let's create
 Class D, level 1, put it here.
 
 0:07:46.379,0:07:50.680
-Class E level 1, put it here.
+Class E at level 1, put it here.
 
 0:07:50.680,0:07:56.190
 And now let's say I would like an association
@@ -337,7 +336,7 @@ to call it; you have to fill in these fields,
 you cannot leave them empty.
 
 0:08:29.930,0:08:33.610
-So, let's call this association small X.
+So, let's call this association small x.
 
 0:08:33.610,0:08:38.810
 And it starts from E and it ends in D. And
@@ -419,7 +418,7 @@ It always sticks to the name of the association.
 So, this is the name that we chose.
 
 0:09:58.570,0:09:59.570
-This is the X.
+This is the x.
 
 0:09:59.570,0:10:03.690
 You can move this around; you cannot move
@@ -483,7 +482,7 @@ And now let's create some objects.
 So, I'm going to create an object diagram.
 
 0:11:13.230,0:11:19.980
-And X modeler is going to verify; it's going
+And XModeler is going to verify; it's going
 to tell you whether there is a problem.
 
 0:11:19.980,0:11:25.079
@@ -602,14 +601,14 @@ And I didn't even have to do anything manually.
 
 0:13:50.570,0:13:58.810
 I didn't have to say what kind of association
-this is because it recognizes, Xmodeler looks
+this is because it recognizes, XModeler looks
 
 0:13:58.810,0:14:05.660
 here and sees that a D is connected to an
-E through an association called X.
+E through an association called x.
 
 0:14:05.660,0:14:10.940
-So, it automatically adds this X with the
+So, it automatically adds this x with the
 same reading direction and the same navigation
 
 0:14:10.940,0:14:13.070
@@ -638,7 +637,7 @@ most 2 instances, okay?
 
 0:14:40.800,0:14:47.820
 And these one or two instances have to be connected
-to this D with an X association.
+to this D with an x association.
 
 0:14:47.820,0:14:50.149
 And this is exactly what we have here.
@@ -663,10 +662,10 @@ and then left-clicking here, left-clicking here.
 
 0:15:18.470,0:15:25.949
 And since there are no options, the only choice
-that Xmodeler has is to recognize the link
+that XModeler has is to recognize the link
 
 0:15:25.949,0:15:28.240
-that you just created as an X association.
+that you just created as an x association.
 
 0:15:28.240,0:15:32.069
 This is the only thing possible according

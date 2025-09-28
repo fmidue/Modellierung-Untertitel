@@ -642,8 +642,8 @@ Because of the rules of
 Petri nets again, that there
 
 00:11:37,020 --> 00:11:40,800
-can be only connections from places
-to transitions and transitions to places,
+can only be connections from places
+to transitions and from transitions to places,
 
 00:11:40,800 --> 00:11:43,500
 then we must introduce an
@@ -665,8 +665,8 @@ connection from place to place.
 Which would not be a valid Petri net.
 
 00:11:57,360 --> 00:11:59,430
-This can occur here
-for example because a
+This can occur here,
+for example, because a
 
 00:11:59,430 --> 00:12:03,810
 decision node is followed by
@@ -1012,8 +1012,8 @@ And also this is translated
 simply by a place, which
 
 00:18:18,670 --> 00:18:22,480
-then has, perhaps
-in the postcondition, several transitions,
+then has (perhaps
+in the postcondition) several transitions,
 
 00:18:22,480 --> 00:18:26,290
 and at the same time

@@ -535,7 +535,7 @@ t3 and for example t1 is also
 
 00:10:05,160 --> 00:10:07,890
 necessary for t2, this does not mean that
-t2 in between is also necessary for t3.
+this t2 in between is also necessary for t3.
 
 00:10:07,890 --> 00:10:12,240
 In fact, this can also be

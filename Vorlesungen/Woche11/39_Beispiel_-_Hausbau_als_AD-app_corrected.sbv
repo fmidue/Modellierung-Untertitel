@@ -339,7 +339,7 @@ Here, the two tokens would merge again.
 For this, they both have to be there.
 
 0:06:21.070,0:06:26.230
-So if one token would still
+So if that one token would still
 be here, the other token could not progress here.
 
 0:06:26.230,0:06:33.370
@@ -393,10 +393,10 @@ node, alternatives can be represented here.
 
 0:07:24.430,0:07:29.470
 So, it has something of a flat state
-diagram,
+diagram;
 
 0:07:29.470,0:07:32.140
-but it is more due to the additional elements.
+but it is more, due to the additional elements.
 
 0:07:32.140,0:07:35.710
 It also is a bit of a

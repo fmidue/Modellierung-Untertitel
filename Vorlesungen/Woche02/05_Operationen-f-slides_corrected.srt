@@ -272,7 +272,7 @@ Otherwise, at this moment, simply
 an operation name "plus", two arguments,
 
 00:04:44,210 --> 00:04:45,980
-each natural number
+each natural numbers
 (N for natural numbers).
 
 00:04:45,980 --> 00:04:47,750
@@ -1745,7 +1745,7 @@ This could be a
 binary operation with two arguments,
 
 00:29:57,400 --> 00:30:00,640
-each Picture, and it
+each a Picture, and it
 should return a Picture.
 
 00:30:00,640 --> 00:30:06,190

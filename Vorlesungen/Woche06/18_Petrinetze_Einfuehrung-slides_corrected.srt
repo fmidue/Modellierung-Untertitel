@@ -517,7 +517,7 @@ the UML language family, which is widely
 
 00:09:30,020 --> 00:09:36,230
 used in software engineering, Petri
-nets as such do not exist,
+nets as such do not exist
 
 00:09:36,230 --> 00:09:38,870
 (directly in the representation as
@@ -527,8 +527,8 @@ found here and also in books).
 But the activity diagrams present in UML
 
 00:09:42,170 --> 00:09:46,910
-are slight variations, and other
-representations ultimately of Petri nets.
+are slight variations (and other
+representations ultimately) of Petri nets.
 
 00:09:46,910 --> 00:09:50,180
 We will also want
@@ -761,7 +761,7 @@ For example, there is resource access to
 the money or to the account balances.
 
 00:13:58,870 --> 00:14:05,800
-and then, it should certainly
+And then, it should certainly
 run correctly in each case.
 
 00:14:05,800 --> 00:14:09,970
@@ -849,7 +849,7 @@ philosophers P1, P2, P3.
 
 00:15:31,226 --> 00:15:35,800
 They sit around the table, and there are
-the forks, the forks, and also three in number.
+the forks, also three in number.
 
 00:15:35,800 --> 00:15:38,140
 And they lie
@@ -1110,7 +1110,7 @@ One wants to avoid that in practice.
 
 00:19:57,760 --> 00:20:02,230
 So one wants to be able to capture
-that when a system has this property or not.
+that: when a system has this property or not.
 
 00:20:02,230 --> 00:20:09,820
 Does every single modeled action get

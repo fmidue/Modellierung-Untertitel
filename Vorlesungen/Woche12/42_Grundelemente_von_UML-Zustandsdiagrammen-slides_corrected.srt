@@ -610,7 +610,7 @@ Here is ultimately a pair of a
 number of hours and a number of minutes.
 
 00:10:50,320 --> 00:10:55,090
-But 24 × 60 that would be already
+But 24 × 60, that would be already
 very many such pairs which one can form.
 
 00:10:55,090 --> 00:10:55,840
@@ -1222,7 +1222,7 @@ speak of composite states in general.
 
 00:22:47,700 --> 00:22:52,650
 Instead, I will speak of hierarchical states on the
-one hand and region states on the other.
+one hand and regions states on the other.
 
 00:22:52,650 --> 00:22:56,970
 Hierarchical states will be something like

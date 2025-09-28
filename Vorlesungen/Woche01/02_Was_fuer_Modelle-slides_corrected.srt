@@ -89,7 +89,7 @@ generally speaking, a system of objects, relations and/or
 processes.
 
 00:01:20,189 --> 00:01:23,299
-All these terms, "object," "relation," "processes",
+All these terms, "object", "relation", "processes",
 could, of course, refer in computer
 
 00:01:23,299 --> 00:01:26,530

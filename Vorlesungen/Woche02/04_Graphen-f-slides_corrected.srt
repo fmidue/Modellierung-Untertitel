@@ -772,7 +772,7 @@ and ultimately also in programming (so also
 
 00:12:21,800 --> 00:12:24,800
 in other lectures you will
-encounter these terms: syntax and semantics.
+encounter these terms): syntax and semantics.
 
 00:12:24,800 --> 00:12:30,200
 So the syntax, the symbols, the
@@ -1311,7 +1311,7 @@ Then there are two arrows now.
 
 00:22:13,080 --> 00:22:18,180
 The farmer can cross the river with
-the goat; then he would be here.
+the goat. Then he would be here.
 
 00:22:18,180 --> 00:22:20,340
 Then this would be the state.
