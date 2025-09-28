@@ -58,7 +58,7 @@ and which class it belongs to.
 So, the text is underlined.
 
 0:01:47.479,0:01:53.110
-This is important for the object in the objects
+This is important for the objects in the object
 diagram.
 
 0:01:53.110,0:01:57.740
@@ -99,7 +99,7 @@ We have a RentableVehicle, and we can continue
 with the other classes.
 
 0:02:57.879,0:03:01.380
-So, we need another one for the bicycle.
+So, we need another one for the bicycle class.
 
 0:03:01.380,0:03:10.970
 So, let’s define the bicycle.
@@ -220,7 +220,7 @@ And we also require a license plate.
 Please note that
 
 0:06:37.820,0:06:44.810
-we do not require the attributes of the bicycle
+we do not require the attributes of the bicycle class,
 of course, just the attributes where
 
 0:06:44.810,0:06:52.160
@@ -236,7 +236,7 @@ Because it’s inheriting.
 Only from RentableVehicles.
 
 0:06:59.910,0:07:00.910
-Not from the bicycle.
+Not from Bicycle.
 
 0:07:00.910,0:07:11.250
 So, that’s why I removed those attributes
@@ -276,7 +276,7 @@ Let’s define the motorcycle.
 And again, we can choose any name we want.
 
 0:08:08.440,0:08:12.229
-Let’s call it "the bike".
+Let’s call it "theBike".
 
 0:08:12.229,0:08:15.870
 And we need a model name as well.
@@ -351,7 +351,7 @@ Again, we have to choose different values.
 So, let’s give our car a name.
 
 0:10:27.029,0:10:39.470
-So, it’s just "a car"; that’s the name and
+So, it’s just "aCar"; that’s the name and
 the model.
 
 0:10:39.470,0:10:49.230
@@ -417,7 +417,7 @@ This is because the transporter has its own
 weight defined, luckily.
 
 0:12:31.540,0:12:35.080
-So, we have weight for the transporter and car.
+So, we have weight for Transporter and Car.
 
 0:12:35.080,0:12:38.160
 But not in general for MotorizedVehicles.
