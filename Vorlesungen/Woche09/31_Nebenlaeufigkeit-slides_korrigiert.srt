@@ -131,7 +131,8 @@ alle Marken insgesamt zu zählen,
 sondern um einen stellenweisen Vergleich.
 
 00:02:24,380 --> 00:02:29,480
-Und wenn das erfüllt ist, dann heißt das intuitiv,
+Und wenn das erfüllt ist,
+dann heißt das intuitiv,
 
 00:02:29,480 --> 00:02:35,420
 dass letztlich die Markierung m genug Marken
@@ -225,7 +226,8 @@ Dass wir nie t4 ausführen können, wenn
 wir nicht vorher auch t1 ausgeführt haben.
 
 00:04:10,220 --> 00:04:12,290
-Also, auch da ging es um sequenzielle Reihenfolgen.
+Also, auch da ging es um
+sequenzielle Reihenfolgen.
 
 00:04:12,290 --> 00:04:17,660
 Hingegen t2, t3 hatten eben keine
@@ -491,7 +493,8 @@ Aber wir sprechen nicht davon,
 "wir schalten das und das und
 
 00:08:55,150 --> 00:08:57,190
-das", sondern wir nehmen eine konkrete Markierung.
+das", sondern wir nehmen
+eine konkrete Markierung.
 
 00:08:57,190 --> 00:09:00,490
 Und das ist eben nicht die, sondern die von

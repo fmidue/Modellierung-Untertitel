@@ -14,39 +14,39 @@ to single transitions.
 With causality, we had observed
 
 00:00:16,350 --> 00:00:21,810
-that in a Petri net two
-certain transitions can stand in this relationship.
+that in a Petri net two certain
+transitions can stand in this relationship.
 
 00:00:21,810 --> 00:00:24,720
-That is, that one transition is
-a "necessary condition" for the other.
+That is, that one transition is a
+"necessary condition" for the other.
 
 00:00:24,720 --> 00:00:29,610
-In concurrency, this could be even
-more than two transitions that we consider.
+In concurrency, this could be even more
+than two transitions that we consider.
 
 00:00:29,610 --> 00:00:36,240
-Therefore here the definition is formulated
-for any transitions t1 to tn.
+Therefore here the definition is
+formulated for any transitions t1 to tn.
 
 00:00:36,240 --> 00:00:41,910
-So we consider a subset T'
-of the set T of all transitions.
+So we consider a subset T' of
+the set T of all transitions.
 
 00:00:41,910 --> 00:00:44,790
-And then we can number
-the transitions, for example, which
+And then we can number the
+transitions, for example, which
 
 00:00:44,790 --> 00:00:46,620
 we have picked out there.
 
 00:00:46,620 --> 00:00:51,120
-And then they are potentially
-activated concurrently for a certain marking.
+And then they are potentially activated
+concurrently for a certain marking.
 
 00:00:51,120 --> 00:00:57,030
-This is also a difference to
-before, namely that the causality always simply
+This is also a difference to before,
+namely that the causality always simply
 
 00:00:57,030 --> 00:01:01,260
 relates to two transitions, and
@@ -64,12 +64,12 @@ a set of transitions
 and a certain marking m.
 
 00:01:11,850 --> 00:01:16,440
-And then the criterion
-is as follows, first mathematically.
+And then the criterion is as
+follows, first mathematically.
 
 00:01:16,440 --> 00:01:18,180
-We'll see what that
-means intuitively in a moment.
+We'll see what that means
+intuitively in a moment.
 
 00:01:18,180 --> 00:01:20,790
 Mathematically, the procedure
@@ -80,16 +80,16 @@ One takes these transitions t1 to
 tn, which are of course different
 
 00:01:25,140 --> 00:01:28,770
-(otherwise this would not be a
-set), thus different transitions t1 to tn.
+(otherwise this would not be a set),
+thus different transitions t1 to tn.
 
 00:01:28,770 --> 00:01:31,410
-One considers in each
-case their pre-weight functions.
+One considers in each case
+their pre-weight functions.
 
 00:01:31,410 --> 00:01:33,780
-As we remember, these
-are "markings", i.e., functions from
+As we remember, these are
+"markings", i.e., functions from
 
 00:01:33,780 --> 00:01:35,580
 the place set into the natural numbers.
@@ -103,28 +103,28 @@ We remember, that was addition, which
 is a little bit like vector addition.
 
 00:01:45,090 --> 00:01:51,120
-So where we add in places
-the entries of these n pre-weight functions.
+So where we add in places the entries
+of these n pre-weight functions.
 
 00:01:51,120 --> 00:01:53,610
-And what comes out of
-that is, again, a "marking."
+And what comes out of that
+is, again, a "marking."
 
 00:01:53,610 --> 00:02:00,150
-And we then check whether this is
-less than or equal to the chosen relevant marking m.
+And we then check whether this is less than
+or equal to the chosen relevant marking m.
 
 00:02:00,150 --> 00:02:07,620
-And this less-than-or-equal, as a reminder (or
-to look up in the old slides),
+And this less-than-or-equal, as a reminder
+(or to look up in the old slides),
 
 00:02:07,620 --> 00:02:13,790
 that meant that per place the entry
 that arose here on the left side must
 
 00:02:13,790 --> 00:02:17,870
-be less than or equal to the entry on
-the right side at the corresponding place.
+be less than or equal to the entry on the
+right side at the corresponding place.
 
 00:02:17,870 --> 00:02:20,720
 So it's not about somehow
@@ -134,39 +134,39 @@ counting all the tokens in total,
 it's about a place-by-place comparison.
 
 00:02:24,380 --> 00:02:29,480
-And if this is
-fulfilled, then it means intuitively
+And if this is fulfilled,
+then it means intuitively
 
 00:02:29,480 --> 00:02:35,420
 that ultimately the marking m contains
 enough tokens, at all relevant places, that
 
 00:02:35,960 --> 00:02:41,720
-the transitions from T' (these t1
-to tn) could in principle fire simultaneously.
+the transitions from T' (these t1 to tn)
+could in principle fire simultaneously.
 
 00:02:41,720 --> 00:02:44,630
 Simultaneously in the sense of parallel.
 
 00:02:44,630 --> 00:02:49,220
-After all, we had already
-intuitively discussed the notions of "concurrent"
+After all, we had already intuitively
+discussed the notions of "concurrent"
 
 00:02:49,220 --> 00:02:53,450
-and "parallel", and I had talked
-about "concurrent" being the formal criterion
+and "parallel", and I had talked about
+"concurrent" being the formal criterion
 
 00:02:53,450 --> 00:02:56,870
-that would in
-principle allow simultaneous, parallel execution.
+that would in principle allow
+simultaneous, parallel execution.
 
 00:02:56,870 --> 00:03:01,100
-So relevant here is
-indeed the difference to causality.
+So relevant here is indeed
+the difference to causality.
 
 00:03:01,100 --> 00:03:08,270
-If we look again at an example
-from the previous video on causality, there we
+If we look again at an example from the
+previous video on causality, there we
 
 00:03:08,270 --> 00:03:13,220
 had this example and observed for example
@@ -191,8 +191,8 @@ But t2 and t3 were independent,
 and in fact we will see in
 
 00:03:34,700 --> 00:03:38,720
-a moment that t2 and t3 here
-are parallel or just concurrent in certain senses.
+a moment that t2 and t3 here are parallel
+or just concurrent in certain senses.
 
 00:03:38,720 --> 00:03:43,070
 The causality referred
@@ -202,43 +202,43 @@ to sequential order.
 So, for example, t2 can never be fired
 
 00:03:46,220 --> 00:03:49,460
-if t1 was not fired
-before (because of this dependence here).
+if t1 was not fired before
+(because of this dependence here).
 
 00:03:49,460 --> 00:03:52,340
 While t2 and t3 were
 not dependent in this sense.
 
 00:03:52,340 --> 00:03:55,040
-And in fact these will
-be recognized as concurrent right away.
+And in fact these will be
+recognized as concurrent right away.
 
 00:03:55,040 --> 00:03:58,670
-We had also looked at
-this in the reachability graph.
+We had also looked at this
+in the reachability graph.
 
 00:03:58,670 --> 00:04:04,400
-And there the argument, for example,
-for t4 depending on t1 was
+And there the argument, for
+example, for t4 depending on t1 was
 
 00:04:04,400 --> 00:04:06,380
 that t1 is a necessary condition for t4.
 
 00:04:06,380 --> 00:04:10,220
-That we can never execute t4
-if we haven't executed t1 first.
+That we can never execute t4 if
+we haven't executed t1 first.
 
 00:04:10,220 --> 00:04:12,290
 So there, too, it
 was about sequential order.
 
 00:04:12,290 --> 00:04:17,660
-Whereas t2, t3 just had
-no such relationship to each other.
+Whereas t2, t3 just had no such
+relationship to each other.
 
 00:04:17,660 --> 00:04:21,770
-And in fact, if we look at t2
-and t3 here, how they can fire out of
+And in fact, if we look at t2 and
+t3 here, how they can fire out of
 
 00:04:21,770 --> 00:04:26,030
 this marking, then we can already
@@ -260,8 +260,8 @@ could have fired t3, t2 instead.
 Why is that?
 
 00:04:41,540 --> 00:04:44,600
-Because basically t2 and t3
-are firing completely independently here.
+Because basically t2 and t3 are
+firing completely independently here.
 
 00:04:44,600 --> 00:04:49,430
 The t2 makes sure that
@@ -280,8 +280,8 @@ So t2 ultimately depends on this 1 here, t3
 depends on this 1 here, at this position, and
 
 00:05:07,070 --> 00:05:09,770
-these are conditions
-that are completely independent.
+these are conditions that
+are completely independent.
 
 00:05:09,770 --> 00:05:13,340
 So basically, nobody would prevent
@@ -314,8 +314,8 @@ basically parallel (or concurrent) and
 could fire simultaneously if we didn't
 
 00:05:36,710 --> 00:05:40,640
-want to write this down
-so sequentially as a reachability graph.
+want to write this down so
+sequentially as a reachability graph.
 
 00:05:42,680 --> 00:05:47,300
 So this scheme here, this "diamond"
@@ -326,19 +326,19 @@ shape in the reachability graph where
 t2 and t3 are just so alternately
 
 00:05:52,610 --> 00:05:57,440
-fireable), that's at least an
-indication of such potentially parallel behavior.
+fireable), that's at least an indication
+of such potentially parallel behavior.
 
 00:05:57,440 --> 00:06:07,910
-So in this sense one could already
-speak of simultaneous firing in this example.
+So in this sense one could already speak
+of simultaneous firing in this example.
 
 00:06:07,910 --> 00:06:08,720
 Also important:
 
 00:06:08,720 --> 00:06:10,490
-We just looked at this
-in a reachability graph, but
+We just looked at this in
+a reachability graph, but
 
 00:06:10,490 --> 00:06:16,040
 in fact this definition refers
@@ -348,20 +348,20 @@ to a concrete marking, not to
 the reachability graph as a whole.
 
 00:06:17,750 --> 00:06:21,380
-So it's not going to be
-about analyzing the reachability graph as
+So it's not going to be about
+analyzing the reachability graph as
 
 00:06:21,380 --> 00:06:23,480
 a whole and identifying
 any properties in it.
 
 00:06:23,480 --> 00:06:25,880
-Rather, it is always about a
-concrete marking and what is possible there.
+Rather, it is always about a concrete
+marking and what is possible there.
 
 00:06:25,880 --> 00:06:28,100
-We can see here that
-this condition actually refers to
+We can see here that this
+condition actually refers to
 
 00:06:28,100 --> 00:06:30,740
 this marking and not
@@ -372,55 +372,55 @@ Okay, then one can
 make another observation here,
 
 00:06:37,060 --> 00:06:41,770
-which is very obvious
-already from the intuitive understanding.
+which is very obvious already
+from the intuitive understanding.
 
 00:06:41,770 --> 00:06:47,650
-Namely, if we have such a set
-of transitions whose elements are concurrent for
+Namely, if we have such a set of transitions
+whose elements are concurrent for
 
 00:06:47,650 --> 00:06:55,540
 a given marking, then this is
 also true for any subset of T'.
 
 00:06:55,540 --> 00:06:58,870
-So, of course, we
-are potentially always looking for
+So, of course, we are
+potentially always looking for
 
 00:06:58,870 --> 00:07:00,970
-large sets that
-are simultaneously concurrently activated.
+large sets that are simultaneously
+concurrently activated.
 
 00:07:00,970 --> 00:07:05,080
-If we have transitions t1, t2,
-t3 and they are concurrently activated, then
+If we have transitions t1, t2, t3 and
+they are concurrently activated, then
 
 00:07:05,080 --> 00:07:08,260
-just t1 and t2 together
-would also be concurrently activated.
+just t1 and t2 together would
+also be concurrently activated.
 
 00:07:08,260 --> 00:07:13,330
 And in particular, of course, the individual
 transitions t1, t2, t3 are also activated.
 
 00:07:13,330 --> 00:07:16,270
-It cannot be that t1,
-t2, t3 are activated concurrently,
+It cannot be that t1, t2, t3
+are activated concurrently,
 
 00:07:16,270 --> 00:07:17,920
 but t2 itself is not activated.
 
 00:07:17,920 --> 00:07:20,830
-In the end, we can already
-see this from this mathematical definition.
+In the end, we can already see this
+from this mathematical definition.
 
 00:07:20,830 --> 00:07:25,540
 Because if we simply ignore
 some of the transitions on
 
 00:07:25,540 --> 00:07:30,580
-the left, nothing can change
-in the occurrence of this inequality.
+the left, nothing can change in
+the occurrence of this inequality.
 
 00:07:30,580 --> 00:07:32,200
 Because if we omit something on the
@@ -430,58 +430,58 @@ left, these terms can become at
 the most still smaller in the sum.
 
 00:07:36,910 --> 00:07:41,320
-So they remain in any
-case below the chosen marking.
+So they remain in any case
+below the chosen marking.
 
 00:07:41,320 --> 00:07:45,460
-This is the reason why
-this observation is valid, mathematically.
+This is the reason why this
+observation is valid, mathematically.
 
 00:07:45,460 --> 00:07:49,030
-But we can also think about
-it intuitively, for example, using the examples.
+But we can also think about it intuitively,
+for example, using the examples.
 
 00:07:49,030 --> 00:07:54,220
-Of course, this is
-only interesting from two-element sets.
+Of course, this is only
+interesting from two-element sets.
 
 00:07:54,220 --> 00:07:58,240
-So that also a one-element
-set can be concurrently activated; there is
+So that also a one-element set can
+be concurrently activated; there is
 
 00:07:58,240 --> 00:08:01,145
 not really anything concurrent if n = 1.
 
 00:08:01,145 --> 00:08:03,310
-So it is
-interesting starting from two-element sets.
+So it is interesting starting
+from two-element sets.
 
 00:08:03,310 --> 00:08:06,940
-And the larger the set, the
-nicer, so to speak, as an observation.
+And the larger the set, the nicer,
+so to speak, as an observation.
 
 00:08:06,940 --> 00:08:15,520
 Okay, a first example.
 
 00:08:15,520 --> 00:08:20,710
-And in fact, this is the Petri
-net, which we had also already looked
+And in fact, this is the Petri net,
+which we had also already looked
 
 00:08:20,710 --> 00:08:24,400
 at in causality, and which I
 had also just come back to.
 
 00:08:24,400 --> 00:08:29,830
-And I had just indicated that
-here t2 and t3 are activated concurrently.
+And I had just indicated that here
+t2 and t3 are activated concurrently.
 
 00:08:29,830 --> 00:08:33,550
 However, not in
 the initial constellation.
 
 00:08:33,550 --> 00:08:42,040
-So it doesn't make sense to say
-that here t2 and t3 are activated concurrently.
+So it doesn't make sense to say that here
+t2 and t3 are activated concurrently.
 
 00:08:42,040 --> 00:08:44,410
 They are not activated
@@ -503,23 +503,23 @@ But we don't talk about
 this", but we take a concrete marking.
 
 00:08:57,190 --> 00:09:00,490
-And that's just not the one, but the
-one from the slide that I just looked at.
+And that's just not the one, but the one
+from the slide that I just looked at.
 
 00:09:00,490 --> 00:09:01,300
 And then ask ourselves:
 
 00:09:01,300 --> 00:09:03,280
-Are t2 and t3
-activated concurrently for this marking?
+Are t2 and t3 activated
+concurrently for this marking?
 
 00:09:03,280 --> 00:09:05,680
 So for this marking,
 for the start marking here,
 
 00:09:05,680 --> 00:09:09,580
-t2 and t3 would not be activated
-concurrently because they are not even activated themselves.
+t2 and t3 would not be activated concurrently
+because they are not even activated themselves.
 
 00:09:11,620 --> 00:09:17,080
 But in this concrete constellation,
@@ -547,8 +547,8 @@ Where you can also
 see how the tokens move.
 
 00:09:40,615 --> 00:09:43,150
-Where we can see in each
-case what is concurrent or not.
+Where we can see in each case
+what is concurrent or not.
 
 00:09:43,150 --> 00:09:45,460
 And then I'll come back

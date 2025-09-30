@@ -1,26 +1,26 @@
 172 # slide
 00:00:00,000 --> 00:00:09,030
-Just now we were dealing with
-liveness notions, i.e., properties of Petri
+Just now we were dealing with liveness
+notions, i.e., properties of Petri
 
 00:00:09,030 --> 00:00:12,240
-nets that have something to
-do with liveness (in various degrees).
+nets that have something to do
+with liveness (in various degrees).
 
 00:00:12,240 --> 00:00:18,870
-And this was about the structure of
-the Petri net or the corresponding reachability graph.
+And this was about the structure of the Petri
+net or the corresponding reachability graph.
 
 00:00:20,910 --> 00:00:22,620
 Not about the numbers that were in there.
 
 00:00:22,620 --> 00:00:25,980
-So it was not about the
-number of tokens on single places.
+So it was not about the number
+of tokens on single places.
 
 00:00:25,980 --> 00:00:30,090
-But it was about whether
-certain transitions are executable, again
+But it was about whether certain
+transitions are executable, again
 
 00:00:30,090 --> 00:00:32,010
 and again or at least once.
@@ -29,12 +29,12 @@ and again or at least once.
 Whether a node can be a dead end.
 
 00:00:35,370 --> 00:00:37,920
-So in the end it was
-about the structure of the graphs,
+So in the end it was about
+the structure of the graphs,
 
 00:00:37,920 --> 00:00:44,250
-not about the content of
-the single places in a marking.
+not about the content of the
+single places in a marking.
 
 00:00:44,250 --> 00:00:46,620
 So it wasn't about numbers.
@@ -51,8 +51,8 @@ That corresponds to the
 informal questions from earlier
 
 00:00:55,650 --> 00:01:01,650
-in the lecture, about bounds
-or capacities of individual places.
+in the lecture, about bounds or
+capacities of individual places.
 
 00:01:01,650 --> 00:01:04,620
 So do we want that
@@ -78,8 +78,8 @@ This is about
 the concept of "boundedness".
 
 00:01:26,430 --> 00:01:31,830
-And there is first of all a
-term, which is called "safe" or "1-safe".
+And there is first of all a term,
+which is called "safe" or "1-safe".
 
 00:01:34,830 --> 00:01:39,210
 And it's first defined here on the slide.
@@ -93,19 +93,19 @@ First, for every transition t and every place
 s that the Petri net has, this expression, the
 
 00:01:55,770 --> 00:02:00,990
-preweight function of t applied to
-s, is less than or equal
+preweight function of t applied
+to s, is less than or equal
 
 00:02:00,990 --> 00:02:03,630
 to 1 (that is, zero or one; negative is
 
 00:02:04,470 --> 00:02:08,750
-not possible anyway, here we
-only assume natural numbers including zero).
+not possible anyway, here we only
+assume natural numbers including zero).
 
 00:02:08,750 --> 00:02:11,960
-So if it says "less than or equal to
-1", it can only mean: either zero or one.
+So if it says "less than or equal to 1",
+it can only mean: either zero or one.
 
 00:02:11,960 --> 00:02:18,650
 Either there is no transition at all,
@@ -130,8 +130,8 @@ true for the post weights.
 So for any t and any s, the
 
 00:02:33,800 --> 00:02:38,120
-post-weight function of t applied to s also
-has the value at most 0 or 1.
+post-weight function of t applied to
+s also has the value at most 0 or 1.
 
 00:02:38,120 --> 00:02:40,010
 So all weights at most 1.
@@ -145,16 +145,16 @@ I can look at the
 Petri net and ultimately see:
 
 00:02:45,980 --> 00:02:50,480
-Is there something else, something greater than
-a 1 attached to a weight somewhere?
+Is there something else, something greater
+than a 1 attached to a weight somewhere?
 
 00:02:50,480 --> 00:02:54,410
 In addition, a
 dynamic property also applies.
 
 00:02:54,410 --> 00:02:58,490
-Namely, even in the reachability graph,
-it must be the case that every
+Namely, even in the reachability
+graph, it must be the case that every
 
 00:02:58,490 --> 00:03:02,540
 reachable marking (i.e., the m0 itself, but
@@ -165,8 +165,8 @@ there) also has the property that for
 every place that the Petri net has,
 
 00:03:07,760 --> 00:03:11,330
-the marking for that place gives
-a value of 1 at most.
+the marking for that place
+gives a value of 1 at most.
 
 00:03:11,330 --> 00:03:17,390
 That is, if we have the tuple
@@ -177,43 +177,43 @@ in the nodes), then there must never be
 a component there that is not 0 or 1.
 
 00:03:21,980 --> 00:03:26,900
-Thus we can already say
-quite clearly, as a simple example, that
+Thus we can already say quite
+clearly, as a simple example, that
 
 00:03:26,900 --> 00:03:31,340
 for example this Petri net is not 1-safe.
 
 00:03:31,340 --> 00:03:35,150
-We can see this immediately, because it
-has for example a 2 here, and also
+We can see this immediately, because
+it has for example a 2 here, and also
 
 00:03:35,150 --> 00:03:43,490
-because the start marking has more than
-one token on at least one place.
+because the start marking has more
+than one token on at least one place.
 
 00:03:44,240 --> 00:03:48,770
-So already here you would see that
-to the Petri net in this representation.
+So already here you would see that to
+the Petri net in this representation.
 
 00:03:48,770 --> 00:03:53,030
-Of course, we could also
-look at the reachability graph.
+Of course, we could also look
+at the reachability graph.
 
 00:03:53,030 --> 00:03:57,620
-And there we see immediately, especially already
-in the start marking (but also in
+And there we see immediately, especially
+already in the start marking (but also in
 
 00:03:57,620 --> 00:04:00,890
-other markings) in any
-case numbers greater than 1.
+other markings) in any case
+numbers greater than 1.
 
 00:04:00,890 --> 00:04:04,790
-So this is quite blatantly
-not 1-safe, for various reasons.
+So this is quite blatantly not
+1-safe, for various reasons.
 
 00:04:04,790 --> 00:04:13,070
-Both concerning this fact, that this
-2 is here for example, and
+Both concerning this fact, that
+this 2 is here for example, and
 
 00:04:13,070 --> 00:04:15,470
 because of observations
@@ -224,8 +224,8 @@ If a Petri net may be called "1-safe",
 it must have both the property that there
 
 00:04:21,020 --> 00:04:25,400
-is never a number greater than 1 as
-a weight in the Petri net representation, and
+is never a number greater than 1 as a
+weight in the Petri net representation, and
 
 00:04:25,400 --> 00:04:27,890
 that every reachable marking
@@ -243,12 +243,12 @@ Of course, "reachable" here means
 "reachable from the start marking".
 
 00:04:43,010 --> 00:04:47,570
-Now I have discussed an
-example that is blatantly not 1-safe.
+Now I have discussed an example
+that is blatantly not 1-safe.
 
 00:04:47,570 --> 00:04:50,360
-Are there also Petri nets that
-we have already discussed that are 1-safe?
+Are there also Petri nets that we have
+already discussed that are 1-safe?
 
 00:04:50,360 --> 00:04:54,170
 Yes. Those were all 1-safe Petri nets.
@@ -258,8 +258,8 @@ Here, there are never any weights
 greater than 1 in the representations
 
 00:05:00,170 --> 00:05:05,120
-of the Petri nets themselves, and if
-you look at the reachability graphs for these
+of the Petri nets themselves, and if you
+look at the reachability graphs for these
 
 00:05:05,120 --> 00:05:11,120
 Petri nets again in the previous video, you will
@@ -270,12 +270,12 @@ Therefore, these have actually all
 been examples of 1-safe Petri nets.
 
 00:05:18,620 --> 00:05:21,470
-This check that there
-is never anything greater than
+This check that there is
+never anything greater than
 
 00:05:21,470 --> 00:05:28,310
-1 in the reachability graph is, of course,
-only feasible if the reachability graph is finite.
+1 in the reachability graph is, of course, only
+feasible if the reachability graph is finite.
 
 00:05:28,310 --> 00:05:31,580
 But it will be if this property holds.
@@ -295,12 +295,12 @@ In fact "1-safe" or "1-bounded",
 but you say "1-safe" to it.
 
 00:05:51,890 --> 00:05:55,850
-Besides that, there are other notions
-of boundedness, which also allow larger values.
+Besides that, there are other notions of
+boundedness, which also allow larger values.
 
 00:05:55,850 --> 00:05:59,660
-Which in particular do not restrict
-the weights in the Petri net itself already.
+Which in particular do not restrict the
+weights in the Petri net itself already.
 
 00:05:59,660 --> 00:06:03,020
 But they only restrict
@@ -318,8 +318,8 @@ have to be the constant 1.
 So a Petri net is
 
 00:06:11,780 --> 00:06:14,150
-called "bounded" if there is
-some constant, some natural number.
+called "bounded" if there is some
+constant, some natural number.
 
 00:06:14,150 --> 00:06:16,370
 This can be 1, of course,
@@ -329,12 +329,12 @@ but it can also be 15.
 And what should be valid?
 
 00:06:17,930 --> 00:06:22,430
-For this constant it should be valid
-that every reachable marking m, i.e. every
+For this constant it should be valid that
+every reachable marking m, i.e. every
 
 00:06:22,430 --> 00:06:28,550
-marking reachable from m0, has the property that for every place
-s (i.e. in every component in tuple notation) there is a
+marking reachable from m0, has the property that for every
+place s (i.e. in every component in tuple notation) there is a
 
 00:06:28,550 --> 00:06:34,921
 number which is at most c.
@@ -347,8 +347,8 @@ should be no number greater than
 15 anywhere in the reachability graph.
 
 00:06:41,140 --> 00:06:45,490
-If there are only numbers up to
-15, then the Petri net would be bounded.
+If there are only numbers up to 15,
+then the Petri net would be bounded.
 
 00:06:45,490 --> 00:06:48,370
 And what weights are in the Petri
@@ -362,12 +362,12 @@ graph and the reachable markings
 are referred to.
 
 00:06:53,020 --> 00:06:54,550
-And that can be
-determined in the reachability graph.
+And that can be determined
+in the reachability graph.
 
 00:06:57,370 --> 00:06:59,740
-And for this there
-is the opposite, namely "unbounded".
+And for this there is the
+opposite, namely "unbounded".
 
 00:07:03,580 --> 00:07:06,160
 A Petri net is unbounded
@@ -378,16 +378,16 @@ But if for each constant c there is a
 marking m reachable from m0 and a place (not
 
 00:07:15,190 --> 00:07:21,820
-all places, but one place) so that actually
-a value larger than c is realized.
+all places, but one place) so that
+actually a value larger than c is realized.
 
 00:07:21,820 --> 00:07:25,780
 So "bounded" and "unbounded" are actually
 the exact opposite of each other.
 
 00:07:25,780 --> 00:07:30,910
-While "1-safe" is not
-somehow opposite of either property.
+While "1-safe" is not somehow
+opposite of either property.
 
 00:07:34,810 --> 00:07:36,250
 How could one test this?
@@ -396,8 +396,8 @@ How could one test this?
 How could one test these properties?
 
 00:07:39,610 --> 00:07:43,570
-Well, first of all, of course, it is
-true that every 1-safe Petri net is also bounded.
+Well, first of all, of course, it is true
+that every 1-safe Petri net is also bounded.
 
 00:07:44,680 --> 00:07:46,120
 One could test for boundedness first.
@@ -409,12 +409,12 @@ And then, if it is bounded, look:
 Is it even 1-safe?
 
 00:07:48,910 --> 00:07:51,955
-If a Petri net is
-unbounded, it is certainly not 1-safe.
+If a Petri net is unbounded,
+it is certainly not 1-safe.
 
 00:07:51,955 --> 00:07:55,180
-Because the fact that here
-values greater than c are assumed,
+Because the fact that here values
+greater than c are assumed,
 
 00:07:55,180 --> 00:07:58,300
 contradicts of course the "maximum 1".
@@ -424,26 +424,26 @@ And this distinction "bounded/unbounded" can
 be determined by the reachability graph.
 
 00:08:04,270 --> 00:08:08,590
-Namely, a Petri net is unbounded
-exactly when the reachability graph is infinite.
+Namely, a Petri net is unbounded exactly
+when the reachability graph is infinite.
 
 00:08:08,590 --> 00:08:09,430
 Or formulated differently:
 
 00:08:09,430 --> 00:08:14,350
-A Petri net is bounded if and
-only if the reachability graph is finite.
+A Petri net is bounded if and only
+if the reachability graph is finite.
 
 00:08:14,350 --> 00:08:22,000
-That is, while our example here
-was not 1-safe, it is definitely bounded.
+That is, while our example here was
+not 1-safe, it is definitely bounded.
 
 00:08:22,000 --> 00:08:23,860
 We can't see that here yet.
 
 00:08:23,860 --> 00:08:27,130
-The Petri net itself is
-not so relevant to boundedness/unboundedness.
+The Petri net itself is not so
+relevant to boundedness/unboundedness.
 
 00:08:27,130 --> 00:08:29,560
 But the reachability graph,
@@ -454,8 +454,8 @@ We even see here what
 the smallest constant c is.
 
 00:08:30,965 --> 00:08:41,260
-For the constant c = 3, it is true here that
-there is never a node that has an entry greater than 3.
+For the constant c = 3, it is true here that there
+is never a node that has an entry greater than 3.
 
 00:08:41,260 --> 00:08:44,840
 Of course, that would be true
@@ -479,8 +479,8 @@ containing a value greater than 2.
 And the graph is finite.
 
 00:08:59,360 --> 00:09:07,005
-It could become infinite only if
-there are also arbitrarily large entries.
+It could become infinite only if there
+are also arbitrarily large entries.
 
 00:09:07,005 --> 00:09:09,230
 That is, if there
@@ -498,12 +498,12 @@ and then it is also bounded.
 Any Petri net that is not bounded,
 
 00:09:21,020 --> 00:09:24,560
-will automatically have
-an infinite reachability graph.
+will automatically have an
+infinite reachability graph.
 
 00:09:28,340 --> 00:09:30,380
-And of course, we can then
-check 1-safety by doing syntactic checking on
+And of course, we can then check
+1-safety by doing syntactic checking on
 
 00:09:31,190 --> 00:09:32,720
 the one hand.
@@ -544,8 +544,8 @@ Which would not have been
 the case in this example.
 
 00:10:06,170 --> 00:10:17,590
-Now we have seen
-examples for different constellations.
+Now we have seen examples
+for different constellations.
 
 00:10:17,590 --> 00:10:20,710
 We have seen bounded

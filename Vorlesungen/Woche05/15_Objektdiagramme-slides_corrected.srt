@@ -4,28 +4,28 @@ Having dealt with class diagrams, and in
 particular also with the validity of class
 
 00:00:08,910 --> 00:00:14,070
-diagrams (i.e., the constraints that
-exist on class diagrams when
+diagrams (i.e., the constraints
+that exist on class diagrams when
 
 00:00:14,070 --> 00:00:17,940
-considering the various relationships), we
-now come to object diagrams.
+considering the various relationships),
+we now come to object diagrams.
 
 00:00:17,940 --> 00:00:22,410
-So obviously the
-specification of individual objects.
+So obviously the specification
+of individual objects.
 
 00:00:22,410 --> 00:00:26,040
 An object, we know, is
 an instance of a class.
 
 00:00:26,040 --> 00:00:33,180
-And what you're seeing here is a slide
-that you've seen something similar or exactly the same.
+And what you're seeing here is a slide that
+you've seen something similar or exactly the same.
 
 00:00:33,180 --> 00:00:37,080
-So we have a class, and then we discussed
-(and this also came up in the exercise) when then
+So we have a class, and then we discussed (and
+this also came up in the exercise) when then
 
 00:00:37,080 --> 00:00:42,630
 an object is an instantiation of
@@ -75,8 +75,8 @@ should/could exist there would
 depend on a class diagram.
 
 00:01:20,340 --> 00:01:24,750
-So you have to have a valid
-class diagram, and then you can talk
+So you have to have a valid class
+diagram, and then you can talk
 
 00:01:24,750 --> 00:01:29,850
 about creating an object
@@ -86,24 +86,24 @@ diagram for that class diagram.
 The idea here is:
 
 00:01:32,940 --> 00:01:39,960
-If the class diagram defines the framework for how
-a system can be designed, then an object diagram would
+If the class diagram defines the framework for how a
+system can be designed, then an object diagram would
 
 00:01:39,960 --> 00:01:44,610
-be a kind of snapshot
-of the system at a point in time.
+be a kind of snapshot of the
+system at a point in time.
 
 00:01:44,610 --> 00:01:48,360
-In other words, a set of objects with
-their relationships to each other as they might be
+In other words, a set of objects with their
+relationships to each other as they might be
 
 00:01:48,360 --> 00:01:49,920
-present in a system at a particular
-point in time that satisfies the class diagram.
+present in a system at a particular point
+in time that satisfies the class diagram.
 
 00:01:49,920 --> 00:01:57,480
-A class diagram was used to
-record what types of actors should exist,
+A class diagram was used to record
+what types of actors should exist,
 
 00:01:57,480 --> 00:02:01,890
 what attributes exist, how
@@ -121,27 +121,27 @@ that was modeled in the class diagram).
 The point is that we then have a
 
 00:02:15,420 --> 00:02:21,840
-clear mapping of, for example,
-the various associations and the properties.
+clear mapping of, for example, the
+various associations and the properties.
 
 00:02:21,840 --> 00:02:23,670
 For instance, the multiplicities
 must be adhered to.
 
 00:02:23,670 --> 00:02:27,480
-So we have to fulfill
-everything that the class diagram
+So we have to fulfill everything
+that the class diagram
 
 00:02:27,480 --> 00:02:29,580
-specifies, also in
-a corresponding object diagram.
+specifies, also in a
+corresponding object diagram.
 
 00:02:29,580 --> 00:02:36,330
 Thereby the objects get names.
 
 00:02:36,330 --> 00:02:41,520
-We have here perhaps a class "Point"
-and then several individual points, here "myPoint".
+We have here perhaps a class "Point" and then
+several individual points, here "myPoint".
 
 00:02:42,570 --> 00:02:45,240
 We could also have
@@ -179,31 +179,31 @@ So that this object
 would have no proper name,
 
 00:03:19,080 --> 00:03:21,900
-but would simply remain an
-anonymous object of the corresponding class.
+but would simply remain an anonymous
+object of the corresponding class.
 
 00:03:21,900 --> 00:03:26,310
-We will not include the
-classes themselves in the object diagram.
+We will not include the classes
+themselves in the object diagram.
 
 00:03:26,310 --> 00:03:30,780
-We will have separately a class
-diagram and then a matching object diagram.
+We will have separately a class diagram
+and then a matching object diagram.
 
 00:03:30,780 --> 00:03:34,710
-So not the situation where both are
-in one diagram with these extra arrows.
+So not the situation where both are in
+one diagram with these extra arrows.
 
 00:03:34,710 --> 00:03:36,060
 We're not going to do that here.
 
 00:03:36,060 --> 00:03:39,510
-You can do that, but that's
-not going to happen in our tasks.
+You can do that, but that's not
+going to happen in our tasks.
 
 00:03:39,510 --> 00:03:48,210
-Then I had just said that
-in the objects we assign the attributes
+Then I had just said that in the
+objects we assign the attributes
 
 00:03:48,210 --> 00:03:49,410
 that are predefined by the classes.
@@ -213,8 +213,8 @@ UML does not
 necessarily always require this.
 
 00:03:52,530 --> 00:04:01,020
-UML also allows that we do not assign
-all attributes of an object, because perhaps not all
+UML also allows that we do not assign all
+attributes of an object, because perhaps not all
 
 00:04:01,020 --> 00:04:04,650
 attributes are relevant for the concrete
@@ -225,8 +225,8 @@ Of course, the situation is different if
 we require (for example, in the exercise or
 
 00:04:08,670 --> 00:04:11,520
-exam) that you should
-make a complete instantiation.
+exam) that you should make
+a complete instantiation.
 
 00:04:11,520 --> 00:04:13,470
 That is, that you should set
@@ -236,39 +236,39 @@ all attributes that are predefined by
 the class definition in the object.
 
 00:04:18,480 --> 00:04:21,410
-If you refrain from this
-requirement (i.e., you don't explicitly
+If you refrain from this requirement
+(i.e., you don't explicitly
 
 00:04:21,410 --> 00:04:24,140
-require this, as we might do
-in the exercise or exam), then you
+require this, as we might do in
+the exercise or exam), then you
 
 00:04:24,140 --> 00:04:29,180
-could certainly represent instantiations of
-abstract classes in the object diagram.
+could certainly represent instantiations
+of abstract classes in the object diagram.
 
 00:04:29,180 --> 00:04:32,120
 Although I had said last week that
 
 00:04:32,120 --> 00:04:41,095
-you cannot instantiate objects from
-abstract classes in a concrete implementation.
+you cannot instantiate objects from abstract
+classes in a concrete implementation.
 
 00:04:41,095 --> 00:04:42,530
-For such a representation of the
-object diagram, it would be in principle
+For such a representation of the object
+diagram, it would be in principle
 
 00:04:42,530 --> 00:04:46,880
 also possible to form an
 instantiation of an abstract class.
 
 00:04:46,880 --> 00:04:57,260
-Of course, under the circumstances that not
-all attributes are set (which would be necessary
+Of course, under the circumstances that not all
+attributes are set (which would be necessary
 
 00:04:58,640 --> 00:05:05,270
-if we specify objects from
-a concrete subclass of the abstract class).
+if we specify objects from a concrete
+subclass of the abstract class).
 
 00:05:09,980 --> 00:05:10,910
 And very important:
@@ -278,78 +278,78 @@ There are no
 inheritance arrows between objects.
 
 00:05:14,600 --> 00:05:18,260
-We will see in a moment how the
-other relationships that exist at the class level
+We will see in a moment how the other
+relationships that exist at the class level
 
 00:05:18,260 --> 00:05:27,050
-(association, aggregation, composition) are
-reflected in the object diagram.
+(association, aggregation, composition)
+are reflected in the object diagram.
 
 00:05:27,050 --> 00:05:28,550
-The inheritance arrows between classes in
-the class diagram, on the other hand,
+The inheritance arrows between classes
+in the class diagram, on the other hand,
 
 00:05:28,550 --> 00:05:31,430
-have no equivalent in the object
-diagram, because we specify concrete objects there.
+have no equivalent in the object diagram,
+because we specify concrete objects there.
 
 00:05:31,430 --> 00:05:32,900
 An object then belongs
 to a concrete class.
 
 00:05:32,900 --> 00:05:36,380
-This can be a class from
-a class hierarchy with several inheritances.
+This can be a class from a class
+hierarchy with several inheritances.
 
 00:05:36,380 --> 00:05:38,360
 But this one object we are mapping
 
 00:05:38,360 --> 00:05:42,080
-belongs to *one* class and
-does *not* inherit from another object.
+belongs to *one* class and does
+*not* inherit from another object.
 
 00:05:42,080 --> 00:05:45,050
-Rather, it belongs to a class
-that may inherit from other classes.
+Rather, it belongs to a class that
+may inherit from other classes.
 
 00:05:45,050 --> 00:05:48,860
 The inheritance arrows that exist between
 classes do not exist between objects.
 
 00:05:54,530 --> 00:05:59,870
-Because of the
-concepts of inheritance, superclasses,
+Because of the concepts of
+inheritance, superclasses,
 
 00:05:59,870 --> 00:06:04,130
 subclasses, objects could in principle
 also have a superclass specified.
 
 00:06:05,270 --> 00:06:08,450
-If we remember the "Points"
-and the "ColouredPoints", then we
+If we remember the "Points" and
+the "ColouredPoints", then we
 
 00:06:08,450 --> 00:06:10,550
 could have a concrete "ColouredPoint".
 
 00:06:10,550 --> 00:06:12,680
-So a concrete object
-of the class "ColouredPoint".
+So a concrete object of
+the class "ColouredPoint".
 
 00:06:12,680 --> 00:06:15,170
 This is also an
 object of the class "Point".
 
 00:06:15,170 --> 00:06:20,540
-Therefore, in this specification, a superclass could also
-be specified if we don't want to have
+Therefore, in this specification, a superclass
+could also be specified if we don't want to have
 
 00:06:20,540 --> 00:06:25,580
 this more precise again in the exercise
 or the exam or explicitly exclude it.
 
 00:06:30,590 --> 00:06:33,140
-I had already spoken about the
-fact that we do not find
+I had already spoken about
+the fact that we do not find
 
 00:06:33,140 --> 00:06:36,740
 the inheritance arrows in the object
@@ -360,20 +360,20 @@ How are they represented
 in the object diagram?
 
 00:06:39,620 --> 00:06:47,150
-By means of the term
-"link", which is simply a connection,
+By means of the term "link",
+which is simply a connection,
 
 00:06:47,150 --> 00:06:50,480
 a link, but now
 any relationship between objects.
 
 00:06:52,400 --> 00:06:56,450
-If we have an association on the class
-level, or an aggregation or a composition, then
+If we have an association on the class level,
+or an aggregation or a composition, then
 
 00:06:56,450 --> 00:07:02,360
-this can be found on the level
-of the objects of the corresponding classes
+this can be found on the level of the
+objects of the corresponding classes
 
 00:07:02,360 --> 00:07:05,240
 by means of a connecting
@@ -384,8 +384,8 @@ These are then quite concrete instances of
 such a relationship of specific objects of
 
 00:07:10,940 --> 00:07:16,520
-the classes involved in the
-relationship existing on the class level.
+the classes involved in the relationship
+existing on the class level.
 
 00:07:16,520 --> 00:07:23,780
 There are no multiplicities
@@ -396,20 +396,20 @@ The multiplicities in the
 class diagram tell us
 
 00:07:26,960 --> 00:07:33,140
-how many objects of this or that
-type can be involved in such a relationship.
+how many objects of this or that type
+can be involved in such a relationship.
 
 00:07:33,140 --> 00:07:35,840
-In the object diagram we
-always have very concrete objects.
+In the object diagram we always
+have very concrete objects.
 
 00:07:35,840 --> 00:07:43,460
-So a link represents exactly
-one relationship between two concrete objects.
+So a link represents exactly one
+relationship between two concrete objects.
 
 00:07:43,460 --> 00:07:49,970
-And although this may be an
-instance of an association with multiplicities,
+And although this may be an instance
+of an association with multiplicities,
 
 00:07:49,970 --> 00:07:53,030
 these multiplicities will not
@@ -420,8 +420,8 @@ Of course, they still
 have to be observed.
 
 00:07:56,090 --> 00:08:02,610
-So you don't see on a
-concrete link which multiplicities are prevalent there.
+So you don't see on a concrete link
+which multiplicities are prevalent there.
 
 00:08:02,610 --> 00:08:04,200
 Because that's a class-level concept.
@@ -431,8 +431,8 @@ But if we look at
 the entire object diagram, then
 
 00:08:07,170 --> 00:08:11,250
-of course it has to satisfy
-the multiplicities from the class diagram.
+of course it has to satisfy the
+multiplicities from the class diagram.
 
 00:08:11,250 --> 00:08:13,140
 So if the class
@@ -462,8 +462,8 @@ objects that are related must
 be within their respective bounds.
 
 00:08:37,590 --> 00:08:40,740
-But there is not a
-number attached to each link somehow.
+But there is not a number
+attached to each link somehow.
 
 00:08:40,740 --> 00:08:45,690
 Because these numbers span all links.
@@ -484,16 +484,16 @@ Let's take an example
 that we had before and
 
 00:09:06,330 --> 00:09:09,330
-extend it a little bit
-or build two examples together.
+extend it a little bit or
+build two examples together.
 
 00:09:09,330 --> 00:09:11,700
 Once we had the example
 with parking lots and cars.
 
 00:09:11,700 --> 00:09:15,570
-Then at some point we
-also had a situation with cars
+Then at some point we also
+had a situation with cars
 
 00:09:15,570 --> 00:09:24,540
 and owners, and on the whiteboard slides
@@ -503,20 +503,20 @@ I had also once related cars and wheels.
 Always these two pairs of classes.
 
 00:09:28,140 --> 00:09:31,470
-Let's put that into a
-larger, extended class diagram, where we
+Let's put that into a larger,
+extended class diagram, where we
 
 00:09:31,470 --> 00:09:36,540
-have the parking lot with an
-aggregation to car with corresponding multiplicities here.
+have the parking lot with an aggregation to
+car with corresponding multiplicities here.
 
 00:09:36,540 --> 00:09:43,050
-And the car has a composition
-to wheel, again with certain multiplicities.
+And the car has a composition to wheel,
+again with certain multiplicities.
 
 00:09:43,050 --> 00:09:47,580
-Different from the example that
-I had looked at on
+Different from the example
+that I had looked at on
 
 00:09:47,580 --> 00:09:51,780
 the whiteboard, I really have
@@ -541,8 +541,8 @@ there's also the ownership, so there's
 an association of person to car.
 
 00:10:06,480 --> 00:10:11,370
-So now we have
-three different kinds of relationships.
+So now we have three different
+kinds of relationships.
 
 00:10:11,370 --> 00:10:14,130
 Now we don't have
@@ -566,8 +566,8 @@ from the superclasses in addition to their attributes.
 So that's one possible class diagram.
 
 00:10:35,220 --> 00:10:42,600
-Now we can take a look at what
-an object diagram might look like for this.
+Now we can take a look at what an
+object diagram might look like for this.
 
 00:10:42,600 --> 00:10:45,000
 We need to decide how
@@ -595,24 +595,24 @@ that happens to have these two cars.
 We also know:
 
 00:11:02,670 --> 00:11:09,630
-Each car has exactly four wheels, and
-no wheel can belong to two cars.
+Each car has exactly four wheels,
+and no wheel can belong to two cars.
 
 00:11:09,630 --> 00:11:12,420
-That is, if we have two cars, we
-will probably have exactly eight wheels as other objects.
+That is, if we have two cars, we will probably
+have exactly eight wheels as other objects.
 
 00:11:13,020 --> 00:11:18,630
-And then each car must
-also have an owner, exactly one.
+And then each car must also
+have an owner, exactly one.
 
 00:11:18,630 --> 00:11:25,350
 However, one owner can own several
 cars, for example up to five.
 
 00:11:28,830 --> 00:11:32,480
-So what might a concrete object
-diagram for this class diagram look like?
+So what might a concrete object diagram
+for this class diagram look like?
 
 00:11:32,480 --> 00:11:33,770
 For example, as follows:
@@ -636,27 +636,27 @@ object of the class parking lot".
 What I've done here in this example this time,
 
 00:11:52,280 --> 00:11:56,540
-is that I've omitted the attribute boxes
-everywhere.
+is that I've omitted the
+attribute boxes everywhere.
 
 00:11:57,170 --> 00:11:58,370
 Actually, for all attributes, which are
 
 00:11:58,370 --> 00:12:05,690
-mentioned here in the second box,
-there would be assignments here as well.
+mentioned here in the second box, there
+would be assignments here as well.
 
 00:12:05,690 --> 00:12:07,760
-We will also have
-that sometimes in the exercises,
+We will also have that
+sometimes in the exercises,
 
 00:12:07,760 --> 00:12:14,330
 that we stylize the objects and partly also
 the classes in such a way that we actually
 
 00:12:14,330 --> 00:12:21,710
-only have the box with the name and
-not also the two boxes for attributes and methods.
+only have the box with the name and not also
+the two boxes for attributes and methods.
 
 00:12:21,710 --> 00:12:24,050
 So this one parking lot.
@@ -666,20 +666,20 @@ Then I had talked about two cars, for
 example a green Skoda and a black Ford.
 
 00:12:28,520 --> 00:12:32,330
-These are each cars as
-different instantiations of the class car,
+These are each cars as different
+instantiations of the class car,
 
 00:12:32,330 --> 00:12:37,130
 and they're both contained
 in this one parking lot.
 
 00:12:37,130 --> 00:12:42,230
-So these two links here
-are instances of this one relationship.
+So these two links here are
+instances of this one relationship.
 
 00:12:50,090 --> 00:13:00,260
-Then there's an owner in each
-case, which are instantiations of this class.
+Then there's an owner in each case,
+which are instantiations of this class.
 
 00:13:00,260 --> 00:13:03,170
 These are these two person
@@ -693,8 +693,8 @@ There could also be another link
 from Gabi to the green Skoda.
 
 00:13:15,290 --> 00:13:20,060
-But then this object, or this
-relationship here, would have to disappear.
+But then this object, or this relationship
+here, would have to disappear.
 
 00:13:20,060 --> 00:13:24,110
 Because Gabi and Peter can't both
@@ -749,24 +749,24 @@ So this satisfies
 these multiplicities here.
 
 00:14:18,560 --> 00:14:20,660
-But they are not
-attached to the links themselves,
+But they are not attached
+to the links themselves,
 
 00:14:20,660 --> 00:14:22,520
 because that makes no
 sense for a single link.
 
 00:14:22,520 --> 00:14:31,580
-What is important is that, for example,
-these four links together satisfy these constraints
+What is important is that, for example, these
+four links together satisfy these constraints
 
 00:14:31,580 --> 00:14:36,950
-here, which result from the
-composition here with the corresponding multiplicities.
+here, which result from the composition
+here with the corresponding multiplicities.
 
 00:14:38,810 --> 00:14:43,280
-Now if we were to start
-deleting objects or deleting links or
+Now if we were to start deleting
+objects or deleting links or
 
 00:14:43,280 --> 00:14:45,920
 adding more objects, we
@@ -779,8 +779,8 @@ Does it still satisfy this class diagram?
 If I specify a fifth wheel here,
 
 00:14:51,320 --> 00:14:54,680
-and also link it to the green
-Skoda, then I would have a violation.
+and also link it to the green Skoda,
+then I would have a violation.
 
 00:14:54,680 --> 00:14:58,400
 Because then I would have assigned five
@@ -798,16 +798,16 @@ Because for this wheel there would not
 then be exactly one car that contains it.
 
 00:15:09,180 --> 00:15:09,480
-Which, however, must exist
-according to this specification here.
+Which, however, must exist according
+to this specification here.
 
 00:15:09,480 --> 00:15:15,990
-Of course, this is not
-the only suitable object diagram.
+Of course, this is not the
+only suitable object diagram.
 
 00:15:15,990 --> 00:15:20,970
-But many changes we could make
-locally now would violate the class diagram.
+But many changes we could make locally
+now would violate the class diagram.
 
 00:15:20,970 --> 00:15:24,900
 However, there are other object diagrams
@@ -822,23 +822,23 @@ diagram and an object diagram whether this
 object diagram fits this class diagram.
 
 00:15:34,140 --> 00:15:38,370
-Or to set up an object diagram
-of a certain size for a class diagram.
+Or to set up an object diagram of
+a certain size for a class diagram.
 
 00:15:43,920 --> 00:15:46,890
 Two more comments:
 
 00:15:48,270 --> 00:15:51,810
-We could certainly, even though I
-didn't do it in the example
+We could certainly, even though
+I didn't do it in the example
 
 00:15:51,810 --> 00:15:57,570
-just now, also note the aggregation
-and composition symbols in the object diagram.
+just now, also note the aggregation and
+composition symbols in the object diagram.
 
 00:15:57,570 --> 00:16:05,040
-Since these four links are instances of
-this composition, one could also draw this filled
+Since these four links are instances of this
+composition, one could also draw this filled
 
 00:16:05,040 --> 00:16:10,140
 diamond at each of these four places
@@ -852,8 +852,8 @@ Likewise, you can
 omit the association name.
 
 00:16:18,990 --> 00:16:21,570
-Here I did it for the
-sake of clarity, so that you
+Here I did it for the sake
+of clarity, so that you
 
 00:16:21,570 --> 00:16:23,280
 know what these two associations are.
@@ -886,8 +886,8 @@ It could have been written in these
 four places, but it doesn't have to be.
 
 00:16:57,180 --> 00:17:06,260
-The same applies to
-reading direction and navigation direction.
+The same applies to reading
+direction and navigation direction.
 
 00:17:06,890 --> 00:17:07,831
 This is what it says here:
@@ -912,55 +912,55 @@ We must remember, of course, when
 specifying an object diagram or checking
 
 00:17:38,330 --> 00:17:43,970
-the fit to a class
-diagram, that relationships (i.e., associations,
+the fit to a class diagram, that
+relationships (i.e., associations,
 
 00:17:43,970 --> 00:17:47,210
-aggregations, compositions) are
-inherited between classes.
+aggregations, compositions)
+are inherited between classes.
 
 00:17:48,050 --> 00:17:54,380
 If a class has relationships of this
 type to another class, then they are also
 
 00:17:54,380 --> 00:17:58,520
-present in the subclass, so must
-be considered for objects of the subclass.
+present in the subclass, so must be
+considered for objects of the subclass.
 
 00:17:58,520 --> 00:18:00,140
 Example:
 
 00:18:01,070 --> 00:18:03,560
-Suppose we have a class
-Account and two subclasses of it,
+Suppose we have a class Account
+and two subclasses of it,
 
 00:18:03,560 --> 00:18:06,530
-and we have a
-relationship of customers to accounts.
+and we have a relationship
+of customers to accounts.
 
 00:18:07,370 --> 00:18:11,960
-In particular, each account must have exactly
-one owner, a customer who owns it.
+In particular, each account must have
+exactly one owner, a customer who owns it.
 
 00:18:11,960 --> 00:18:17,210
-Then savings accounts and checking accounts
-must also have exactly one owner
+Then savings accounts and checking
+accounts must also have exactly one owner
 
 00:18:17,210 --> 00:18:20,570
-each, even though there is no
-explicit relationship of these to customers.
+each, even though there is no explicit
+relationship of these to customers.
 
 00:18:21,860 --> 00:18:26,270
-They inherit that because
-they are subclasses of Account.
+They inherit that because they
+are subclasses of Account.
 
 00:18:26,270 --> 00:18:36,610
 That is, an object
 diagram might look like this:
 
 00:18:36,610 --> 00:18:39,970
-Suppose we have exactly two accounts,
-a savings account and a checking account.
+Suppose we have exactly two accounts, a
+savings account and a checking account.
 
 00:18:40,990 --> 00:18:41,679
 Then they must each have an owner.
@@ -969,20 +969,20 @@ Then they must each have an owner.
 They could also have the same owner.
 
 00:18:43,660 --> 00:18:48,190
-A customer may have several
-accounts, because nothing is restricted here.
+A customer may have several accounts,
+because nothing is restricted here.
 
 00:18:48,190 --> 00:18:51,430
 But each checking account or savings
 account must have exactly one owner.
 
 00:18:52,780 --> 00:18:56,110
-There could also be a
-second object, another customer, who
+There could also be a second
+object, another customer, who
 
 00:18:56,110 --> 00:19:00,430
-would own the savings account
-and Klaus only the checking account.
+would own the savings account and
+Klaus only the checking account.
 
 00:19:00,430 --> 00:19:01,930
 That would also be allowed.
@@ -1000,8 +1000,8 @@ Because then this requirement
 would not be fulfilled.
 
 00:19:13,150 --> 00:19:22,390
-Of course, it would also not be allowed
-that there is another customer and the savings
+Of course, it would also not be allowed that
+there is another customer and the savings
 
 00:19:22,390 --> 00:19:28,120
 account would be owned by Klaus

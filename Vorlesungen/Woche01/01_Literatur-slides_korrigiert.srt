@@ -89,8 +89,8 @@ englischsprachiges Buch, das sehr spezifisch
 auf objektorientiertes Design abzielt,
 
 00:01:45,420 --> 00:01:53,850
-das wird eben ein Teil der Vorlesung auch sein.
-Das ist dieses Buch hier, auch das
+das wird eben ein Teil der Vorlesung auch
+sein. Das ist dieses Buch hier, auch das
 
 00:01:53,850 --> 00:01:59,040
 können Sie über die Bibliothek finden.
@@ -133,8 +133,8 @@ werden, finden sich auch in diesem Buch.
 Also wenn Sie vorhaben, das später auch
 
 00:02:32,380 --> 00:02:36,430
-noch zu hören, wäre das vielleicht ein gutes
-Buch, das auch eine Brücke schlägt von Modellierung
+noch zu hören, wäre das vielleicht ein gutes Buch,
+das auch eine Brücke schlägt von Modellierung
 
 00:02:36,430 --> 00:02:40,870
 zu der Lehrveranstaltung Fortgeschrittene
@@ -191,12 +191,12 @@ O.k., ein weiteres Buch zu UML.
 
 5 # slide
 00:03:53,495 --> 00:03:57,290
-Obwohl UML nicht die gesamte Vorlesung
-ausmacht (wir werden gleich andere Bücher sehen),
+Obwohl UML nicht die gesamte Vorlesung ausmacht
+(wir werden gleich andere Bücher sehen),
 
 00:03:57,290 --> 00:04:01,460
-hier noch ein weiteres Buch zu UML.
-Sehr umfangreich,
+hier noch ein weiteres Buch
+zu UML. Sehr umfangreich,
 
 00:04:01,460 --> 00:04:07,070
 nur ausschnittsweise für uns relevant.
@@ -286,8 +286,8 @@ wenn Sie über den Uni-Account gehen.
 Okay, hierzu auch noch mal was Englisches.
 
 00:05:58,440 --> 00:06:01,560
-Die beiden Bücher eben waren ja deutsche Bücher.
-Für die englischsprachigen Studierenden,
+Die beiden Bücher eben waren ja deutsche
+Bücher. Für die englischsprachigen Studierenden,
 
 00:06:01,560 --> 00:06:05,520
 aber auch für andere, wäre eventuell
@@ -302,8 +302,8 @@ Ja, die Bücher sind Lehrbücher, dies ist
 ein Übersichtsartikel, der ja auch schon
 
 00:06:13,920 --> 00:06:21,360
-vor einer ganzen Weile verfasst wurde.
-Er enthält auch gute Motivation, Beispiele,
+vor einer ganzen Weile verfasst wurde. Er
+enthält auch gute Motivation, Beispiele,
 
 00:06:21,360 --> 00:06:27,210
 und bespricht auch einige der formalen
@@ -359,8 +359,8 @@ wahrgenommene Teil der Vorlesung.
 UML-Zustandsdiagramme werden auch
 
 00:07:39,840 --> 00:07:44,010
-in UML-Büchern zum Teil erklärt.
-Aber auf eine sehr schöne und intuitive
+in UML-Büchern zum Teil erklärt. Aber
+auf eine sehr schöne und intuitive
 
 00:07:44,010 --> 00:07:49,830
 Art und Weise sind sie meines Erachtens eben in
@@ -388,16 +388,16 @@ Meines Wissens nicht elektronisch,
 aber als Handexemplar.
 
 00:08:22,510 --> 00:08:30,640
-Wieder ein sehr umfangreiches
-Buch, das sehr viel zu UML abdeckt.
+Wieder ein sehr umfangreiches Buch,
+das sehr viel zu UML abdeckt.
 
 00:08:30,640 --> 00:08:35,350
 Insbesondere, deswegen habe ich es hier noch
 aufgenommen, deckt es auch die dynamischen
 
 00:08:35,350 --> 00:08:40,960
-Aspekte, dynamische Modellierung mit UML, ab.
-Was nicht unbedingt in allen der vorher genannten
+Aspekte, dynamische Modellierung mit UML, ab. Was
+nicht unbedingt in allen der vorher genannten
 
 00:08:40,960 --> 00:08:46,720
 UML-Referenzen in gleichem Maße passiert.
@@ -420,12 +420,12 @@ gehören, die sicherlich schwieriger sind und nicht
 überall in gleicher Weise abgehandelt werden,
 
 00:09:05,560 --> 00:09:12,100
-aber unter anderem in diesem Buch eben.
-O.k., nochmal zur Wiederholung:
+aber unter anderem in diesem Buch
+eben. O.k., nochmal zur Wiederholung:
 
 00:09:12,100 --> 00:09:15,220
-Sie müssen keines dieser Bücher lesen.
-Sie müssen auch keines dieser Bücher überhaupt
+Sie müssen keines dieser Bücher lesen. Sie
+müssen auch keines dieser Bücher überhaupt
 
 00:09:15,220 --> 00:09:21,340
 zur Hand nehmen, wenn Sie das nicht mögen.

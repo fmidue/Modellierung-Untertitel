@@ -1,6 +1,6 @@
 0:00:02.620,0:00:12.580
-This exercise task is about properties of
-Petri nets, and we have been given two reachability
+This exercise task is about properties of Petri
+nets, and we have been given two reachability
 
 0:00:12.580,0:00:19.820
 graphs for Petri nets so we do not have the
@@ -10,8 +10,8 @@ actual Petri nets in one and two but only
 their reachability graphs.
 
 0:00:21.880,0:00:30.619
-But nevertheless, we are able to decide on
-whether some properties are valid
+But nevertheless, we are able to decide
+on whether some properties are valid
 
 0:00:30.619,0:00:32.360
 for the Petri nets.
@@ -38,15 +38,15 @@ For the actual task, you have to fill in the
 properties below, so whether they're valid
 
 0:01:08.530,0:01:18.619
-or not, but also indicate the reasons why
-these properties hold or do not hold.
+or not, but also indicate the reasons
+why these properties hold or do not hold.
 
 0:01:18.619,0:01:23.520
 I will not write down the actual properties.
 
 0:01:23.520,0:01:30.560
-I would just indicate the properties within
-this table here.
+I would just indicate the
+properties within this table here.
 
 0:01:30.560,0:01:40.880
 But I will talk about the reasons why
@@ -64,8 +64,8 @@ states within the reachability graph, and
 so this Petri net or the Petri net belonging to
 
 0:02:10.810,0:02:16.170
-this reachability graph is probably strongly
-live.
+this reachability graph
+is probably strongly live.
 
 0:02:16.170,0:02:23.730
 And we can check if, first of all, that we
@@ -83,12 +83,12 @@ And the second part which we have to check
 is that all the transitions are within the
 
 0:02:45.510,0:02:52.120
-reachability graph, because then we can fire
-all the transitions as well.
+reachability graph, because then we
+can fire all the transitions as well.
 
 0:02:52.120,0:02:55.670
-We just choose one state in the reachability
-graph.
+We just choose one state
+in the reachability graph.
 
 0:02:55.670,0:02:57.480
 Let's choose (0,1,1).
@@ -97,8 +97,8 @@ Let's choose (0,1,1).
 So the starting state.
 
 0:03:00.010,0:03:06.940
-So, when we choose this marking, then we know,
-when we have this marking in the Petri
+So, when we choose this marking, then we
+know, when we have this marking in the Petri
 
 0:03:06.940,0:03:07.940
 net.
@@ -114,8 +114,8 @@ also fire t2 when we start from this marking.
 And yes, we can.
 
 0:03:20.370,0:03:25.820
-When we start from this marking, we can fire
-t3 and then we can fire t2.
+When we start from this marking, we
+can fire t3 and then we can fire t2.
 
 0:03:25.820,0:03:29.790
 And then we fire these transitions.
@@ -145,15 +145,15 @@ as it was mentioned in the task, and now is
 this strongly live.
 
 0:04:02.549,0:04:10.700
-Well, as we have such a node here where it
-seems that it is not strongly live.
+Well, as we have such a node here where
+it seems that it is not strongly live.
 
 0:04:10.700,0:04:12.840
 Well, what do we have to check?
 
 0:04:12.840,0:04:26.440
-Well, we have to check that we can reach another
-node from this one and, well, we cannot.
+Well, we have to check that we can reach
+another node from this one and, well, we cannot.
 
 0:04:26.440,0:04:33.259
 We cannot reach all the nodes from each other,
@@ -163,31 +163,31 @@ that's why this one is not strongly live.
 Not strongly live for the second one.
 
 0:04:37.000,0:04:45.320
-Let's check if this one maybe is weakly live,
-although it is not strongly live.
+Let's check if this one maybe is weakly
+live, although it is not strongly live.
 
 0:04:45.320,0:05:03.660
-And for this property, we check if
-the reachability graph contains all the transitions.
+And for this property, we check if the
+reachability graph contains all the transitions.
 
 0:05:03.660,0:05:08.240
 We have t1 in the reachability graph.
 
 0:05:08.240,0:05:12.290
-We check the reachability graph to see if it contains
-all the transitions.
+We check the reachability graph to see
+if it contains all the transitions.
 
 0:05:12.290,0:05:21.300
-And we have t1, t2, t3, and t4 within the reachability
-graph.
+And we have t1, t2, t3, and t4
+within the reachability graph.
 
 0:05:21.300,0:05:30.139
-The underlying Petri net would be weakly live
-as we can fire all the transitions.
+The underlying Petri net would be weakly
+live as we can fire all the transitions.
 
 0:05:30.139,0:05:36.100
-And the other Petri net for this one holds
-the same.
+And the other Petri net for
+this one holds the same.
 
 0:05:36.100,0:05:46.670
 We can also check here for all the transitions
@@ -235,16 +235,16 @@ For this node, we have this outgoing edge.
 And for this node, we have this outgoing edge.
 
 0:06:41.430,0:06:47.840
-Of course, there are more outgoing edges,
-but these are just the examples.
+Of course, there are more outgoing
+edges, but these are just the examples.
 
 0:06:47.840,0:06:54.120
-For each node, we found an outgoing edge, so
-we know this one is deadlock free.
+For each node, we found an outgoing edge,
+so we know this one is deadlock free.
 
 0:06:54.120,0:07:00.940
-Now we check the second net and there we find
-a node which has no outgoing edge, so
+Now we check the second net and there we
+find a node which has no outgoing edge, so
 
 0:07:00.940,0:07:03.590
 (0,2,0,0) has no outgoing edge.
@@ -268,8 +268,8 @@ Is this net safe?
 When is it safe?
 
 0:07:28.449,0:07:34.950
-It is if there is at most one token for every
-place.
+It is if there is at most
+one token for every place.
 
 0:07:34.950,0:07:43.000
 When we find any node in the reachability
@@ -279,8 +279,8 @@ graph where there's more than one token for
 a place, it is not safe.
 
 0:07:45.440,0:07:52.340
-And in this case, we have, for example, this
-node here (0,2,0,0) which contains more
+And in this case, we have, for example,
+this node here (0,2,0,0) which contains more
 
 0:07:52.340,0:07:59.290
 than one token for the second place, so
@@ -304,12 +304,12 @@ this Petri net and we see that this one has
 the same properties.
 
 0:08:32.390,0:08:41.990
-For instance, this node here contains two
-tokens in the first place.
+For instance, this node here contains
+two tokens in the first place.
 
 0:08:41.990,0:08:48.650
-So (2,0,0) contains more than one token for the
-first place here.
+So (2,0,0) contains more than one
+token for the first place here.
 
 0:08:48.650,0:09:04.580
 In this case, this is not safe as well.
@@ -322,8 +322,8 @@ Well, we can find a constant C for each of
 the tokens of the places where no node has
 
 0:09:26.630,0:09:34.250
-more tokens than this constant for these cases.
-If we can, then it is bounded.
+more tokens than this constant for these
+cases. If we can, then it is bounded.
 
 0:09:34.250,0:09:40.650
 If we choose two, for instance, or even
@@ -334,32 +334,32 @@ if we choose C equals two, then we find no
 node which contains more tokens than two.
 
 0:09:47.260,0:09:56.589
-And because when we check all these numbers
-here, we have only 0s, 1s, and 2s
+And because when we check all these
+numbers here, we have only 0s, 1s, and 2s
 
 0:09:56.589,0:10:08.510
-for all these nodes in the reachability graph,
-so in fact, this is bounded.
+for all these nodes in the reachability
+graph, so in fact, this is bounded.
 
 0:10:08.510,0:10:18.270
 And then we check the second net, and here
 again, we can choose a constant C equal to two,
 
 0:10:18.270,0:10:24.500
-it can be the same as in this case because there
-two is the highest number of tokens for a
+it can be the same as in this case because
+there two is the highest number of tokens for a
 
 0:10:24.500,0:10:30.120
-place here for this Petri net, so in the reachability
-graph
+place here for this Petri net,
+so in the reachability graph
 
 0:10:30.120,0:10:38.459
-there is no number higher than two ever occurring
-for any tokens in any place.
+there is no number higher than two ever
+occurring for any tokens in any place.
 
 0:10:38.459,0:10:48.760
 And that's why this one is bounded as well.
 
 0:10:48.760,0:10:58.760
-And then we are done with the task and have
-decided all the properties.
+And then we are done with the task
+and have decided all the properties.

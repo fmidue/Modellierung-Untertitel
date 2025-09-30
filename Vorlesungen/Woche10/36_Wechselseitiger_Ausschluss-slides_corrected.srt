@@ -36,8 +36,8 @@ In particular, this short video is
 going to be about mutual exclusion.
 
 00:00:39,810 --> 00:00:45,990
-And you've basically already seen that in the water gate example
-in the practice exercises (actually, this will happen on the ninth sheet).
+And you've basically already seen that in the water gate example in
+the practice exercises (actually, this will happen on the ninth sheet).
 
 00:00:45,990 --> 00:00:51,690
 There were also some modeling
@@ -48,8 +48,8 @@ What I had discussed in the lecture and had
 developed in the pipe tool as a Petri net.
 
 00:00:58,050 --> 00:01:00,930
-For example, sources and
-sinks were used: transitions that
+For example, sources and sinks
+were used: transitions that
 
 00:01:00,930 --> 00:01:05,430
 have no pre- or post-weight places.
@@ -65,8 +65,8 @@ certain places or transitions.
 So, guard places, with which you can make
 
 00:01:20,130 --> 00:01:24,600
-sure that certain transitions are
-only fireable under certain conditions.
+sure that certain transitions are only
+fireable under certain conditions.
 
 00:01:24,600 --> 00:01:26,280
 You could just look back at that example.
@@ -84,16 +84,16 @@ Not because the Petri net
 is bounded as a formal
 
 00:01:42,090 --> 00:01:44,790
-property, but because it is
-already brought in during modeling that
+property, but because it is already
+brought in during modeling that
 
 00:01:44,790 --> 00:01:48,210
 certain places must not contain more
 than a certain number of tokens.
 
 00:01:48,210 --> 00:01:54,060
-This is per se not given
-when creating the Petri net, such restrictions.
+This is per se not given when creating
+the Petri net, such restrictions.
 
 00:01:54,060 --> 00:01:58,710
 This last aspect, constraining
@@ -107,28 +107,28 @@ to look at in this video.
 This will be about mutual exclusion.
 
 00:02:05,340 --> 00:02:08,940
-In that sense, this is the second
-to last video of the Petri net chapter.
+In that sense, this is the second to
+last video of the Petri net chapter.
 
 00:02:08,940 --> 00:02:15,160
-The other will then be the
-last video of the Petri net chapter.
+The other will then be the last
+video of the Petri net chapter.
 
 00:02:15,160 --> 00:02:19,270
 Let's first deal with the
 concept of mutual exclusion, in
 
 00:02:19,270 --> 00:02:25,480
-English "mutual exclusion", therefore called mutex
-(the place we use for it).
+English "mutual exclusion", therefore
+called mutex (the place we use for it).
 
 00:02:25,480 --> 00:02:28,690
 The scenario here is
 as follows, and this could
 
 00:02:28,690 --> 00:02:31,750
-be very generally
-applicable in various situations.
+be very generally applicable
+in various situations.
 
 00:02:31,750 --> 00:02:35,470
 We somehow consider at least two
@@ -149,12 +149,12 @@ In this sense, it is
 "critical" because
 
 00:02:49,300 --> 00:02:51,490
-not both actors should be in
-the critical region at the same time.
+not both actors should be in the
+critical region at the same time.
 
 00:02:51,490 --> 00:02:58,540
-So it must be prevented that the actors
-enter their respective regions at the same time.
+So it must be prevented that the actors enter
+their respective regions at the same time.
 
 00:02:59,290 --> 00:03:02,080
 Because they could obstruct
@@ -173,8 +173,8 @@ The critical region could be writing to
 a certain file, and we don't want both
 
 00:03:13,300 --> 00:03:17,050
-actors to try to write to
-the same file at the same time.
+actors to try to write to the
+same file at the same time.
 
 00:03:17,050 --> 00:03:21,310
 Therefore, there should always be at
@@ -192,8 +192,8 @@ for one actor and for the other.
 I have stylized the system quite simply:
 
 00:03:34,570 --> 00:03:39,790
-We simply imagine one
-actor represented by this Petri
+We simply imagine one actor
+represented by this Petri
 
 00:03:39,790 --> 00:03:42,970
 net and the second actor
@@ -235,8 +235,8 @@ So that's the non-critical region 1
 and non-critical region 2 for the two actors.
 
 00:04:11,770 --> 00:04:16,060
-And then there's also a
-critical region for each actor, and
+And then there's also a critical
+region for each actor, and
 
 00:04:16,990 --> 00:04:18,580
 let that be K1, K2 for those two actors.
@@ -267,16 +267,16 @@ region", "actor 2 enters its
 critical region", and analogously for
 
 00:04:41,980 --> 00:04:45,670
-leaving the critical region and
-entering the non-critical region, then certain
+leaving the critical region and entering
+the non-critical region, then certain
 
 00:04:45,670 --> 00:04:51,130
 sequences of actions should not be
 possible for the common overall system.
 
 00:04:51,130 --> 00:04:57,370
-So it should not be possible: k1, k2,
-i.e. actor 1 enters the critical region, and before
+So it should not be possible: k1, k2, i.e.
+actor 1 enters the critical region, and before
 
 00:04:57,370 --> 00:05:01,600
 actor 1 has left the critical region,
@@ -295,8 +295,8 @@ And of course the water gate example
 from the exercise is quite similar.
 
 00:05:12,010 --> 00:05:16,540
-That is about ships that are not supposed to be
-in a certain part of the water gate at the same time.
+That is about ships that are not supposed to be in
+a certain part of the water gate at the same time.
 
 00:05:16,540 --> 00:05:18,490
 That ultimately has to do
@@ -328,12 +328,12 @@ But it ensures that certain
 undesired behavior does not occur.
 
 00:05:46,570 --> 00:05:51,940
-It is possible to synchronize via an
-extra place, which is called a mutex place.
+It is possible to synchronize via an extra
+place, which is called a mutex place.
 
 00:05:51,940 --> 00:05:55,750
-This is an auxiliary place, which is
-often called mutex because of "mutual exclusion".
+This is an auxiliary place, which is often
+called mutex because of "mutual exclusion".
 
 00:05:55,750 --> 00:05:59,050
 And what is the procedure here?
@@ -346,12 +346,12 @@ a token at the beginning.
 And this token is always needed
 
 00:06:03,460 --> 00:06:06,100
-when one of the two
-actors enters its critical region.
+when one of the two actors
+enters its critical region.
 
 00:06:06,100 --> 00:06:09,640
-So, for example, if actor 1
-wants to enter his critical region, then,
+So, for example, if actor 1 wants
+to enter his critical region, then,
 
 00:06:09,640 --> 00:06:12,520
 of course, somehow the
@@ -362,20 +362,20 @@ left, but in addition, this mutex
 place has to be occupied with a
 
 00:06:19,210 --> 00:06:23,650
-token, which actor 1 then consumes
-in order to enter his critical region.
+token, which actor 1 then consumes in
+order to enter his critical region.
 
 00:06:23,650 --> 00:06:26,260
-That is, to enter the
-critical region (i.e., to bring the
+That is, to enter the critical
+region (i.e., to bring the
 
 00:06:26,260 --> 00:06:29,290
-token from here to here),
-this token must additionally be consumed.
+token from here to here), this
+token must additionally be consumed.
 
 00:06:29,290 --> 00:06:33,730
-Which also means that then, for
-example, directly afterwards the second actor
+Which also means that then, for example,
+directly afterwards the second actor
 
 00:06:33,730 --> 00:06:35,800
 cannot enter its critical region.
@@ -388,20 +388,20 @@ that also depends on this mutex place.
 Let's assume that k1 fires.
 
 00:06:43,150 --> 00:06:45,370
-Then this and this token
-would disappear, here would be a
+Then this and this token would
+disappear, here would be a
 
 00:06:45,370 --> 00:06:51,670
-token, actor 1 would work
-through his critical region and would
+token, actor 1 would work through
+his critical region and would
 
 00:06:51,670 --> 00:06:55,720
-not release the token for the
-mutex until the critical region is left.
+not release the token for the mutex
+until the critical region is left.
 
 00:06:55,720 --> 00:07:00,070
-So when actor 1 crosses
-back over into the non-critical region,
+So when actor 1 crosses back over
+into the non-critical region,
 
 00:07:00,070 --> 00:07:01,150
 that is, leaves its critical region.
@@ -413,36 +413,36 @@ Then this token would be returned and
 could be reused by k1 or by k2.
 
 00:07:10,660 --> 00:07:14,740
-Intuitively, this synchronization across this
-common place ensures that both
+Intuitively, this synchronization across
+this common place ensures that both
 
 00:07:14,740 --> 00:07:18,070
-actors cannot be in the
-critical region at the same time.
+actors cannot be in the critical
+region at the same time.
 
 00:07:18,070 --> 00:07:21,550
-This is, of course, based on
-the fact that there is a conflict.
+This is, of course, based on the
+fact that there is a conflict.
 
 00:07:24,070 --> 00:07:29,230
 The respective transitions k1 and
 k2 here are both activated in
 
 00:07:29,230 --> 00:07:33,580
-the situation shown, but
-just not activated concurrently.
+the situation shown, but just
+not activated concurrently.
 
 00:07:33,580 --> 00:07:36,730
 But we have a conflict
 exactly over this place here.
 
 00:07:36,730 --> 00:07:41,860
-This prevents them both
-from entering their critical region.
+This prevents them both from
+entering their critical region.
 
 00:07:41,860 --> 00:07:46,960
-That would be the
-informal and intuitive reasoning.
+That would be the informal
+and intuitive reasoning.
 
 00:07:46,960 --> 00:07:50,020
 Of course, you can look
@@ -470,8 +470,8 @@ So we see here, if
 we take the place order NK1,
 
 00:08:16,080 --> 00:08:25,380
-K1, K2, NK2 (so basically the way the
-places were plotted here from left to right),
+K1, K2, NK2 (so basically the way the places
+were plotted here from left to right),
 
 00:08:25,380 --> 00:08:28,680
 then we know
@@ -484,8 +484,8 @@ We can see that here.
 And then, in each case, it is
 
 00:08:34,200 --> 00:08:39,750
-drawn which transitions are executable and what
-the markings reached by them look like.
+drawn which transitions are executable and
+what the markings reached by them look like.
 
 00:08:40,590 --> 00:08:45,660
 We can actually see here, for one thing, that
@@ -510,8 +510,8 @@ there is none where both
 K1 and K2 contain a 1.
 
 00:09:05,040 --> 00:09:07,740
-Here, respectively, the two interesting places
-K1, K2 are marked in bold.
+Here, respectively, the two interesting
+places K1, K2 are marked in bold.
 
 00:09:07,740 --> 00:09:13,260
 And there is simply no reachable marking where
@@ -522,12 +522,12 @@ The mutex place has
 successfully achieved that here.
 
 00:09:21,090 --> 00:09:23,490
-That would be the
-simplest example for mutual exclusion.
+That would be the simplest
+example for mutual exclusion.
 
 00:09:23,490 --> 00:09:29,168
-And as I said, it shows up
-in many examples and applications of Petri nets.
+And as I said, it shows up in many
+examples and applications of Petri nets.
 
 00:09:29,168 --> 00:09:29,520
 One might also ask:
@@ -548,16 +548,16 @@ use of mutual exclusion.
 At least one can see this very
 
 00:09:43,440 --> 00:09:46,650
-easily if one simplifies the
-problem and considers only two philosophers.
+easily if one simplifies the problem
+and considers only two philosophers.
 
 00:09:47,550 --> 00:09:52,920
-In general, one could also
-look for solutions for larger constellations
+In general, one could also look for
+solutions for larger constellations
 
 00:09:52,920 --> 00:09:57,690
-of dining philosophers,
-following such synchronization ideas.
+of dining philosophers, following
+such synchronization ideas.
 
 00:09:58,650 --> 00:10:01,020
 I discuss this now
@@ -567,8 +567,8 @@ only for the simplest case.
 We look at the Dining Philosophers.
 
 00:10:03,210 --> 00:10:06,390
-We just did that recently, so
-I don't need to discuss that further.
+We just did that recently, so I
+don't need to discuss that further.
 
 00:10:06,990 --> 00:10:08,820
 We'll look at the simplification
@@ -593,12 +593,12 @@ fork (otherwise the problem
 wouldn't be as interesting).
 
 00:10:19,910 --> 00:10:24,860
-But we now have P1,
-P2 and the intervening F1, F2.
+But we now have P1, P2 and
+the intervening F1, F2.
 
 00:10:24,860 --> 00:10:29,120
-Now you could have them sit down
-a little differently, facing each other, etc.
+Now you could have them sit down a little
+differently, facing each other, etc.
 
 00:10:29,120 --> 00:10:32,420
 But that doesn't change the problem.
@@ -626,8 +626,8 @@ being able to put the forks back because
 they have to grab the left fork first.
 
 00:10:54,710 --> 00:11:02,990
-Also here in this Petri
-net a deadlock is still possible.
+Also here in this Petri net
+a deadlock is still possible.
 
 00:11:05,120 --> 00:11:08,300
 So maybe synchronization
@@ -657,12 +657,12 @@ Namely if one makes
 the mental leap to say:
 
 00:11:34,580 --> 00:11:38,120
-How would it be, then, if
-the two philosophers changed their behavior slightly?
+How would it be, then, if the two
+philosophers changed their behavior slightly?
 
 00:11:38,120 --> 00:11:43,280
-Namely, one could make one of
-them a left-handed person, that is,
+Namely, one could make one of them
+a left-handed person, that is,
 
 00:11:43,280 --> 00:11:46,160
 prescribe a change of handedness.
@@ -686,12 +686,12 @@ But to grab the left fork first
 and then wait for the right one.
 
 00:12:01,940 --> 00:12:06,350
-This is expressed here in the
-Petri net by simply bending two arrows.
+This is expressed here in the Petri
+net by simply bending two arrows.
 
 00:12:06,350 --> 00:12:13,280
-In each case the arrows, where philosopher
-1 accesses the forks 1 and 2.
+In each case the arrows, where
+philosopher 1 accesses the forks 1 and 2.
 
 00:12:13,280 --> 00:12:16,850
 They were bent exactly in such a
@@ -712,19 +712,19 @@ Now I claim that this solves the problem.
 Why?
 
 00:12:31,690 --> 00:12:36,460
-This leads to the fact that now
-not both reach first for the right fork,
+This leads to the fact that now not
+both reach first for the right fork,
 
 00:12:36,460 --> 00:12:39,340
 but P1 for the left and P2 for the right.
 
 00:12:39,340 --> 00:12:44,140
-That is, this fork F1 would now be
-the one grabbed first for both of them.
+That is, this fork F1 would now be the
+one grabbed first for both of them.
 
 00:12:44,140 --> 00:12:47,860
-And that ultimately makes it
-a synchronization point or mutex place.
+And that ultimately makes it a
+synchronization point or mutex place.
 
 00:12:47,860 --> 00:12:50,740
 How can we convince ourselves of this?
@@ -750,8 +750,8 @@ Now, you'll either have to believe me or
 compare it on the slides side by side,
 
 00:13:18,940 --> 00:13:22,210
-that this is the same Petri
-net as this one (just painted differently).
+that this is the same Petri net as
+this one (just painted differently).
 
 00:13:22,210 --> 00:13:23,710
 So exactly the same connections.
@@ -761,26 +761,26 @@ And here it becomes now more obvious
 that the F1-place acts like a mutex.
 
 00:13:35,080 --> 00:13:38,110
-This Petri net, as it is
-shown here, is free of deadlock.
+This Petri net, as it is shown
+here, is free of deadlock.
 
 00:13:38,110 --> 00:13:44,560
-You can take my word for that, or
-play it out, or plot the reachability graph.
+You can take my word for that, or play
+it out, or plot the reachability graph.
 
 00:13:45,070 --> 00:13:49,510
 The point is that here both P1 and P2,
 
 00:13:49,510 --> 00:13:54,220
-to be filled, must each
-fire this or that transition.
+to be filled, must each fire
+this or that transition.
 
 00:13:54,220 --> 00:13:56,470
 And they both access F1.
 
 00:13:56,470 --> 00:14:01,630
-That is, if, for example, philosopher 1
-reaches for his left fork (for F1),
+That is, if, for example, philosopher
+1 reaches for his left fork (for F1),
 
 00:14:01,630 --> 00:14:05,650
 then this very token
@@ -802,8 +802,8 @@ That is, these two transitions are in
 conflict with respect to the fork F1.
 
 00:14:25,720 --> 00:14:29,080
-This was just not the
-case in the original philosopher problem.
+This was just not the case in
+the original philosopher problem.
 
 00:14:29,080 --> 00:14:32,620
 There, at the beginning, the actions
@@ -817,8 +817,8 @@ Which sounds nice at
 first, since it is parallel.
 
 00:14:35,650 --> 00:14:39,940
-But that led to a deadlock,
-while here, by this introduction of the
+But that led to a deadlock, while
+here, by this introduction of the
 
 00:14:39,940 --> 00:14:43,780
 conflict, the mutual exclusion,
@@ -829,20 +829,20 @@ ensured that not simply both philosophers
 reach wildly for the first fork.
 
 00:14:48,040 --> 00:14:55,990
-But only one of them can do that,
-and afterwards the other one cannot do anything immediately.
+But only one of them can do that, and afterwards
+the other one cannot do anything immediately.
 
 00:14:55,990 --> 00:15:00,910
 But when philosopher 1 has finished eating,
 philosopher 2 can take his turn again.
 
 00:15:00,910 --> 00:15:04,690
-That is, here we
-prevent deadlock by synchronization, by
+That is, here we prevent
+deadlock by synchronization, by
 
 00:15:04,690 --> 00:15:08,380
 using this mutex place ultimately.
 
 00:15:08,380 --> 00:15:16,630
-This is a very typical
-modeling pattern in various applications.
+This is a very typical modeling
+pattern in various applications.

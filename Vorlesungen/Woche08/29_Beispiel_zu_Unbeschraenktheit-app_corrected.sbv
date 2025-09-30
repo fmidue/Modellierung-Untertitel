@@ -10,15 +10,15 @@ not yet an unbounded Petri net.
 This is a bounded Petri net.
 
 0:00:11.310,0:00:17.700
-We know that because we
-had already drawn a reachability graph
+We know that because we had
+already drawn a reachability graph
 
 0:00:17.700,0:00:19.530
 for it on the slides, and it was finite.
 
 0:00:19.530,0:00:21.990
-And that means per se
-that the Petri net is bounded.
+And that means per se that
+the Petri net is bounded.
 
 0:00:21.990,0:00:22.860
 Let me remind you again:
@@ -31,8 +31,8 @@ So, in the initial situation (the reachability graph
 also specified this), exactly only t1 was fireable
 
 0:00:30.360,0:00:38.040
-and would then lead to the fact
-that we ultimately have two tokens down here.
+and would then lead to the fact that we
+ultimately have two tokens down here.
 
 0:00:38.040,0:00:41.220
 Because of this 2 here.
@@ -49,8 +49,8 @@ We could also fire t2 and fire
 t2, or fire t3 and fire t3.
 
 0:00:50.400,0:00:53.730
-Then in some of these
-constellations, we reached a dead end.
+Then in some of these constellations,
+we reached a dead end.
 
 0:00:53.730,0:00:56.490
 So the Petri net was not deadlock-free.
@@ -70,16 +70,16 @@ So that would be executing t2,
 t3 or t3, t2 in any order.
 
 0:01:10.620,0:01:13.238
-And the Petri net is bounded, that can
-be intuitively explained here (beyond the fact that
+And the Petri net is bounded, that can be
+intuitively explained here (beyond the fact that
 
 0:01:13.238,0:01:21.270
 you can just set up the
 reachability graph) by the fact that
 
 0:01:21.270,0:01:26.370
-at each transition, there are
-as many tokens consumed as generated.
+at each transition, there are as
+many tokens consumed as generated.
 
 0:01:26.370,0:01:31.560
 Yes, we see that both
@@ -90,8 +90,8 @@ So there are two tokens going
 in and two tokens coming out.
 
 0:01:35.460,0:01:39.990
-But that's also true for the
-other transitions in this particular Petri net.
+But that's also true for the other
+transitions in this particular Petri net.
 
 0:01:39.990,0:01:44.700
 And therefore, a simple way to
@@ -102,12 +102,12 @@ that we replace, for example,
 this 2 with a 3.
 
 0:01:51.820,0:02:01.120
-Yes, this is still a Petri net,
-but a different one with different weights.
+Yes, this is still a Petri net, but a
+different one with different weights.
 
 0:02:01.120,0:02:05.110
-A different mathematical formulation
-would also have that.
+A different mathematical
+formulation would also have that.
 
 0:02:05.110,0:02:06.910
 And then we can look:
@@ -120,8 +120,8 @@ And, well, I have just made
 sure that the number of tokens
 
 0:02:11.530,0:02:15.070
-in the system can increase, and
-can increase constantly, again and again.
+in the system can increase, and can
+increase constantly, again and again.
 
 0:02:15.070,0:02:18.580
 Just increasing the number of tokens
@@ -132,16 +132,16 @@ But here we have now that, for example, when
 firing t1, one token is consumed from the left,
 
 0:02:31.240,0:02:36.520
-one token is consumed from the right,
-and three tokens are deposited at the bottom.
+one token is consumed from the right, and
+three tokens are deposited at the bottom.
 
 0:02:43.640,0:02:44.780
 Then the next constellation
 would look like this.
 
 0:02:44.780,0:02:49.880
-And that's one that didn't show
-up yet in the earlier reachability graph,
+And that's one that didn't show up
+yet in the earlier reachability graph,
 
 0:02:49.880,0:02:51.380
 because the Petri net
@@ -167,8 +167,8 @@ Then again a token would
 disappear from here, a token
 
 0:03:10.610,0:03:14.990
-would disappear from here, and three tokens
-would be put down at the bottom.
+would disappear from here, and three
+tokens would be put down at the bottom.
 
 0:03:14.990,0:03:18.260
 Because of this 3, which is
@@ -193,24 +193,24 @@ We can also move them all
 up to s2 or to s1.
 
 0:03:32.300,0:03:35.900
-Here it is even true that for each
-place in this Petri net and each constant
+Here it is even true that for each place
+in this Petri net and each constant
 
 0:03:35.900,0:03:39.830
 c that we choose, for example
 15, we can still have 16 tokens
 
 0:03:39.830,0:03:43.820
-lying on a position, for example,
-after a sufficient number of firing operations.
+lying on a position, for example, after
+a sufficient number of firing operations.
 
 0:03:43.820,0:03:47.810
-That is, the constant c = 15 does
-not bound the behavior of this Petri net.
+That is, the constant c = 15 does not
+bound the behavior of this Petri net.
 
 0:03:47.810,0:03:51.470
-And even if we choose some
-higher constant c, for example 37,
+And even if we choose some higher
+constant c, for example 37,
 
 0:03:51.470,0:03:53.900
 then there are also firing
@@ -231,12 +231,12 @@ that that can happen.
 So for example, I could now fire up here.
 
 0:04:06.980,0:04:12.830
-And now I could fire t1 here
-again with these two tokens, and then
+And now I could fire t1 here again
+with these two tokens, and then
 
 0:04:12.830,0:04:19.250
-I would already have six tokens lying
-at the bottom on the s3 place afterwards.
+I would already have six tokens lying at
+the bottom on the s3 place afterwards.
 
 0:04:28.400,0:04:31.292
 And that is not bounded.
@@ -246,8 +246,8 @@ Yes, so 6 would still be bounded, but
 7, 8, 9, 10, etc. are also possible.
 
 0:04:32.600,0:04:37.700
-That means, in the end, you can accumulate
-as many tokens as you like on individual places.
+That means, in the end, you can accumulate as
+many tokens as you like on individual places.
 
 0:04:37.700,0:04:40.910
 And thus, by definition, the
@@ -257,12 +257,12 @@ Petri net is not bounded.
 Of course it is not 1-safe.
 
 0:04:42.530,0:04:44.330
-It is not anyway, already because
-of the 2 that was there.
+It is not anyway, already
+because of the 2 that was there.
 
 0:04:44.330,0:04:48.380
-But it is also not bounded
-for any other arbitrarily high constant.
+But it is also not bounded for any
+other arbitrarily high constant.
 
 0:04:48.380,0:04:54.830
 It is interesting that such unboundedness does
@@ -276,8 +276,8 @@ such weights greater than 1.
 So there are also Petri nets, which
 
 0:05:02.420,0:05:07.550
-fulfill, so to speak, the first
-condition of 1-safety (namely, each weight is
+fulfill, so to speak, the first condition
+of 1-safety (namely, each weight is
 
 0:05:07.550,0:05:12.560
 at most 1 and even in the start
@@ -291,12 +291,12 @@ a Petri net can be unbounded then.
 You might think about this on your own.
 
 0:05:18.170,0:05:21.260
-Think about a Petri net which
-looks syntactically good at first (no
+Think about a Petri net which looks
+syntactically good at first (no
 
 0:05:21.260,0:05:28.310
-weights greater than 1, no places of
-the start marking with more than one token),
+weights greater than 1, no places of the
+start marking with more than one token),
 
 0:05:28.310,0:05:30.620
 and yet the Petri net is not bounded.

@@ -27,7 +27,8 @@ Nutzungsbeziehungen, Generizität,
 Parametrisierung.
 
 00:00:37,710 --> 00:00:41,040
-Aber das sind die drei, die wir betrachten werden.
+Aber das sind die drei,
+die wir betrachten werden.
 
 00:00:41,040 --> 00:00:46,890
 Während Vererbung explizit nur in
@@ -61,8 +62,8 @@ Sinne eine spezielle Assoziation.
 Und Komposition als hier stärkste Art der
 
 00:01:28,290 --> 00:01:32,580
-Beziehung ist noch einmal eine
-speziellere Aggregation.
+Beziehung ist noch einmal
+eine speziellere Aggregation.
 
 00:01:32,580 --> 00:01:38,970
 Deswegen ist es sinnvoll, dass wir uns diese drei
@@ -347,8 +348,8 @@ der Ebene konkreter Objekte verschiedene
 Ausprägungen dieser Beziehung denkbar.
 
 00:07:22,550 --> 00:07:27,740
-Also es könnte durchaus sein, dass es genau drei
-Personen und drei Autos gibt und etwa genau
+Also es könnte durchaus sein, dass es genau
+drei Personen und drei Autos gibt und etwa genau
 
 00:07:27,740 --> 00:07:31,670
 Person 1 mit Auto 1 in Beziehung steht,
@@ -494,8 +495,8 @@ Das ist natürlich Zufall.
 Ich hätte auch zufälligerweise die beiden Klassen
 
 00:10:11,920 --> 00:10:15,910
-genau vertauscht aufzeichnen
-können in meinem Graph / in meiner Grafik.
+genau vertauscht aufzeichnen können
+in meinem Graph / in meiner Grafik.
 
 00:10:15,910 --> 00:10:17,380
 Deswegen kann es wichtig sein,
@@ -526,7 +527,8 @@ aber würde eben diesen Dreieckspfeil hierhin
 (in Richtung der Person) zeigen lassen.
 
 00:10:56,200 --> 00:10:58,630
-Das ist einfach eine Leserichtung der Assoziation.
+Das ist einfach eine
+Leserichtung der Assoziation.
 
 00:10:59,530 --> 00:11:02,980
 Daneben gibt es noch die
@@ -547,8 +549,8 @@ Dadurch wird die Navigationsrichtung ausgedrückt.
 Und diese beschreibt, Objekte welcher Klasse
 
 00:11:27,160 --> 00:11:33,940
-ihre Assoziationspartner kennen müssen und
-daher deren Methoden aufrufen können.
+ihre Assoziationspartner kennen müssen
+und daher deren Methoden aufrufen können.
 
 00:11:33,940 --> 00:11:38,110
 Damit ist zum Beispiel gemeint:
@@ -636,8 +638,8 @@ Zum Beispiel könnte es sein, dass für Person 1
 die Menge \{ Auto 1, Auto 2\} abgespeichert ist,
 
 00:13:23,730 --> 00:13:27,420
-für Person 2 die leere Menge und
-für Person 3 die Menge \{ Auto 3 \}.
+für Person 2 die leere Menge und für
+Person 3 die Menge \{ Auto 3 \}.
 
 00:13:27,420 --> 00:13:35,310
 Das würde dann dieser zweiten
@@ -869,8 +871,8 @@ Kollektion, aber in die Richtung schon.
 Jetzt könnte man ein bisschen herumspielen.
 
 00:18:30,880 --> 00:18:34,660
-Man könnte zum Beispiel aus einer 1 eine
-2 machen.
+Man könnte zum Beispiel
+aus einer 1 eine 2 machen.
 
 00:18:34,660 --> 00:18:35,680
 Was heißt das dann hier?
@@ -1035,7 +1037,8 @@ Umgekehrt, wenn man hätte sagen wollen,
 "höchstens zwei", hätte man geschrieben: "0..2".
 
 00:21:59,840 --> 00:22:02,780
-Die untere Schranke ist natürlich null und für die
+Die untere Schranke ist
+natürlich null und für die
 
 00:22:02,780 --> 00:22:07,100
 obere Schranke fügt man einen Stern

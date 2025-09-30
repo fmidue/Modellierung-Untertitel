@@ -253,8 +253,8 @@ dem System entzogen haben,
 ist das System nicht notwendigerweise tot.
 
 0:04:29.320,0:04:32.860
-Weil es zum Beispiel jetzt mit der
-oben vorhandenen Marke
+Weil es zum Beispiel jetzt
+mit der oben vorhandenen Marke
 
 0:04:32.860,0:04:37.120
 weiter entsprechend arbeiten und schalten könnte.
@@ -275,7 +275,8 @@ dann wäre das System wieder
 tot über kurz oder lang.
 
 0:04:52.270,0:04:57.010
-Weil dann höchstens noch diese Wege möglich wären,
+Weil dann höchstens noch
+diese Wege möglich wären,
 
 0:04:57.010,0:05:00.250
 und dann eben doch wieder diese
@@ -318,7 +319,8 @@ Ausgangssituation wie ganz am Anfang habe, aber
 zum Beispiel stünde an diesem Pfeil hier eine 2.
 
 0:05:50.650,0:05:55.060
-Damit ist dann gemeint, dass wenn diese Transition
+Damit ist dann gemeint,
+dass wenn diese Transition
 
 0:05:55.060,0:06:01.030
 schaltet und sie entsprechende Marken aus
@@ -397,14 +399,16 @@ Dann wird tatsächlich in dem Fall die
 Anzahl der Marken im System bei jedem
 
 0:07:29.930,0:07:32.210
-Schalten dieser Transition sich insgesamt erhöhen.
+Schalten dieser Transition
+sich insgesamt erhöhen.
 
 0:07:32.780,0:07:37.550
 Jetzt würden wir wieder eine Marke von hier
 konsumieren, eine Marke von hier konsumieren,
 
 0:07:37.550,0:07:44.060
-eine Marke hier ablegen, zwei Marken hier ablegen.
+eine Marke hier ablegen,
+zwei Marken hier ablegen.
 
 0:07:44.060,0:07:50.570
 Dann hätten wir eine unbegrenzte
@@ -452,8 +456,8 @@ Und was würde jetzt passieren?
 Jetzt könnte diese Transition feuern.
 
 0:08:41.900,0:08:46.320
-Sie könnte auch feuern, zum Beispiel, nachdem
-wir erst noch diese Marke hier hoch bewegt haben.
+Sie könnte auch feuern, zum Beispiel, nachdem wir
+erst noch diese Marke hier hoch bewegt haben.
 
 0:08:46.320,0:08:54.930
 Und Feuern hieße jetzt, eine Marke von
@@ -538,7 +542,8 @@ Also könnten wir hier noch einmal
 schalten, hier noch einmal schalten.
 
 0:10:36.090,0:10:38.760
-Dann könnten wir wieder diese Transition schalten.
+Dann könnten wir wieder
+diese Transition schalten.
 
 0:10:38.760,0:10:44.580
 Das würde dazu führen, dass diese
@@ -567,7 +572,8 @@ weil diese Transition nie mehr feuern könnte.
 Weil sie nie zwei Marken links finden würde.
 
 0:11:12.540,0:11:14.490
-Dass hier rechts zwei Marken liegen, hilft nichts.
+Dass hier rechts zwei
+Marken liegen, hilft nichts.
 
 0:11:14.490,0:11:19.320
 Weil die 2 an diesem linken

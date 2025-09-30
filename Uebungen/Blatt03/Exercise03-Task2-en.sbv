@@ -1,6 +1,6 @@
 0:00:02.210,0:00:08.820
-Welcome to this video about this task about
-classes and objects.
+Welcome to this video about this
+task about classes and objects.
 
 0:00:08.820,0:00:21.520
 We have been given a class diagram which contains
@@ -17,12 +17,12 @@ class.
 So, we have to define for each one of those.
 
 0:00:36.530,0:00:44.120
-Now, I move this task aside here and open a
-blank page.
+Now, I move this task aside
+here and open a blank page.
 
 0:00:44.120,0:00:52.840
-So, now we have to consider each of these
-mentioned classes.
+So, now we have to consider
+each of these mentioned classes.
 
 0:00:52.840,0:00:57.800
 And yeah, we start on the top one,
@@ -31,15 +31,15 @@ And yeah, we start on the top one,
 with RentableVehicle.
 
 0:01:01.780,0:01:09.640
-So, let’s say we have a scooter which we
-want to represent.
+So, let’s say we have a scooter
+which we want to represent.
 
 0:01:09.640,0:01:14.009
 And this is a RentableVehicle.
 
 0:01:14.009,0:01:22.910
-We are using the syntax that was introduced
-in the lecture as well.
+We are using the syntax that was
+introduced in the lecture as well.
 
 0:01:22.910,0:01:28.329
 For drawing those objects.
@@ -58,35 +58,35 @@ and which class it belongs to.
 So, the text is underlined.
 
 0:01:47.479,0:01:53.110
-This is important for the objects in the object
-diagram.
+This is important for the
+objects in the object diagram.
 
 0:01:53.110,0:01:57.740
 So, this is the syntax that we use here.
 
 0:01:57.740,0:02:07.659
-And then, we have to define all the parameters
-that are required for this class.
+And then, we have to define all the
+parameters that are required for this class.
 
 0:02:07.659,0:02:15.480
-And these are given here, in this case
-it’s just a model.
+And these are given here, in
+this case it’s just a model.
 
 0:02:15.480,0:02:23.140
 We can ignore the methods that are given,
 we just have to look at the attributes.
 
 0:02:23.140,0:02:27.879
-And we only have to consider giving the attributes
-here.
+And we only have to consider
+giving the attributes here.
 
 0:02:27.879,0:02:37.750
-So, we can say the model is something and
-we can define any String here.
+So, we can say the model is something
+and we can define any String here.
 
 0:02:37.750,0:02:47.730
-So, we can say for instance that our scooter
-is the “Commuter deluxe”.
+So, we can say for instance that our
+scooter is the “Commuter deluxe”.
 
 0:02:47.730,0:02:53.080
 And that’s the model’s name.
@@ -95,8 +95,8 @@ And that’s the model’s name.
 Now we are done.
 
 0:02:54.080,0:02:57.879
-We have a RentableVehicle, and we can continue
-with the other classes.
+We have a RentableVehicle, and we
+can continue with the other classes.
 
 0:02:57.879,0:03:01.380
 So, we need another one for the bicycle class.
@@ -111,8 +111,8 @@ This one, let’s just call it b for bicycle.
 How we call it depends on ourselves.
 
 0:03:19.140,0:03:29.170
-So, there’s no name given in the task, so
-we can choose the name ourselves.
+So, there’s no name given in the task,
+so we can choose the name ourselves.
 
 0:03:29.170,0:03:31.890
 The bicycle is a RentableVehicle.
@@ -125,20 +125,20 @@ those of RentableVehicle and those of Bicycle
 because of the inheritance.
 
 0:03:41.040,0:03:45.500
-That’s why we have to give a model name
-here as well.
+That’s why we have to give
+a model name here as well.
 
 0:03:45.500,0:04:00.180
 And we can say this is also some special
 bike, let’s say it’s the “Ubari Deluxe”.
 
 0:04:00.180,0:04:04.530
-And we require further attributes here
-for the bicycle.
+And we require further
+attributes here for the bicycle.
 
 0:04:04.530,0:04:12.959
-Because the bicycle has also lights or may
-have lights, and the size is relevant.
+Because the bicycle has also lights or
+may have lights, and the size is relevant.
 
 0:04:12.959,0:04:28.470
 So, let’s say for hasLights we say it’s
@@ -155,8 +155,8 @@ So, just as a reminder.
 We have to give a size here just as an “Int”.
 
 0:04:45.600,0:04:50.530
-Because it’s stated so here, we cannot write
-something like 28 inches.
+Because it’s stated so here, we
+cannot write something like 28 inches.
 
 0:04:50.530,0:04:56.850
 So, we have the currency we use.
@@ -171,8 +171,8 @@ We have to use an Int value.
 And we could use any measurement here.
 
 0:05:07.479,0:05:18.150
-So, that’s up to ourselves in this case,
-so, just 28 for instance.
+So, that’s up to ourselves in this
+case, so, just 28 for instance.
 
 0:05:18.150,0:05:20.510
 Now we continue with the other classes.
@@ -192,26 +192,26 @@ an “escooter” that we want
 to construct here,
 
 0:05:49.259,0:06:04.470
-and this is a MotorizedVehicle, and increase
-the size a bit.
+and this is a MotorizedVehicle,
+and increase the size a bit.
 
 0:06:04.470,0:06:06.530
 We can give any model name here.
 
 0:06:06.530,0:06:14.140
-So, it doesn’t matter if it’s an actually
-existing model or not.
+So, it doesn’t matter if it’s an
+actually existing model or not.
 
 0:06:14.140,0:06:23.120
-But we can use a model name which is “Pure
-Air” here for instance.
+But we can use a model name which
+is “Pure Air” here for instance.
 
 0:06:23.120,0:06:25.850
 We require the model’s name here as well.
 
 0:06:25.850,0:06:31.229
-Because our MotorizedVehicle is also
-a RentableVehicle.
+Because our MotorizedVehicle
+is also a RentableVehicle.
 
 0:06:31.229,0:06:36.820
 And we also require a license plate.
@@ -220,8 +220,8 @@ And we also require a license plate.
 Please note that
 
 0:06:37.820,0:06:44.810
-we do not require the attributes of the bicycle class,
-of course, just the attributes where
+we do not require the attributes of the bicycle
+class, of course, just the attributes where
 
 0:06:44.810,0:06:52.160
 MotorizedVehicle is.
@@ -250,11 +250,12 @@ value that is a String, for instance we could
 say our license plate
 
 0:07:25.500,0:07:34.730
-could look something like this; it contains numbers
-and letters.
+could look something like this;
+it contains numbers and letters.
 
 0:07:34.730,0:07:39.160
-Maybe this is also a valid license plate, but yeah.
+Maybe this is also a valid
+license plate, but yeah.
 
 0:07:39.160,0:07:49.430
 The important thing is that we fulfill the requirements
@@ -289,24 +290,24 @@ for instance the “Honda CBX550F” or any
 other model you like.
 
 0:08:29.440,0:08:35.510
-And because it’s a motorized vehicle, it
-also has a license plate.
+And because it’s a motorized vehicle,
+it also has a license plate.
 
 0:08:35.510,0:08:42.850
-Now, because of the task we cannot use the
-same license plate as we had before.
+Now, because of the task we cannot use
+the same license plate as we had before.
 
 0:08:42.850,0:08:47.040
-Because the task says that we have to choose
-a different value.
+Because the task says that we
+have to choose a different value.
 
 0:08:47.040,0:09:02.630
 So, we could say, for instance, our
 motorcycle has the license plate "DU-AB14".
 
 0:09:02.630,0:09:08.550
-And the maximum speed needs to be defined
-for the motorcycle.
+And the maximum speed needs to
+be defined for the motorcycle.
 
 0:09:08.550,0:09:12.530
 And let’s just say it’s 205.
@@ -324,15 +325,15 @@ That’s why we have to choose an Int value.
 And it’s up to ourselves again,
 
 0:09:24.600,0:09:34.899
-which value we want to give and if we think
-about it as kilometers per hour or miles per hour,
+which value we want to give and if we think about
+it as kilometers per hour or miles per hour,
 
 0:09:34.899,0:09:42.769
 it doesn’t matter in this regard for this task.
 
 0:09:42.769,0:09:48.019
-Now we define a car; I copied the motorcycle
-just as a template.
+Now we define a car; I copied the
+motorcycle just as a template.
 
 0:09:48.019,0:09:53.460
 So, we have a car here.
@@ -341,8 +342,8 @@ So, we have a car here.
 We require the model, the license plate.
 
 0:09:57.800,0:10:05.250
-And another value which is new here, which
-is the weight.
+And another value which is
+new here, which is the weight.
 
 0:10:05.250,0:10:12.830
 Again, we have to choose different values.
@@ -351,8 +352,8 @@ Again, we have to choose different values.
 So, let’s give our car a name.
 
 0:10:27.029,0:10:39.470
-So, it’s just "aCar"; that’s the name and
-the model.
+So, it’s just "aCar"; that’s
+the name and the model.
 
 0:10:39.470,0:10:49.230
 Let’s say it’s just “AnyCar”.
@@ -361,27 +362,27 @@ Let’s say it’s just “AnyCar”.
 And the license plate is “E-DU1424”.
 
 0:10:54.280,0:10:59.810
-These values don’t matter as long as we
-have the “Strings”.
+These values don’t matter as
+long as we have the “Strings”.
 
 0:10:59.810,0:11:07.960
-And the weight can be defined as any valid
-Float value in this case.
+And the weight can be defined as
+any valid Float value in this case.
 
 0:11:07.960,0:11:17.560
-So, as was introduced in the lecture, like this
-could say the value is like this or we actually state
+So, as was introduced in the lecture, like this could
+say the value is like this or we actually state
 
 0:11:17.560,0:11:20.720
 that this is a Float by adding a dot here.
 
 0:11:20.720,0:11:32.339
-And saying it’s 2500.0, so that’s clearer,
-that we are having Floats here.
+And saying it’s 2500.0, so that’s
+clearer, that we are having Floats here.
 
 0:11:32.339,0:11:37.760
-And as the last class, we are missing the
-transporter.
+And as the last class, we
+are missing the transporter.
 
 0:11:37.760,0:11:48.560
 So, this is the last one.
@@ -406,15 +407,15 @@ and we can have a weight and height.
 Please note.
 
 0:12:16.910,0:12:22.060
-We have a weight for the transporter as well,
-although we do not inherit from the
+We have a weight for the transporter as
+well, although we do not inherit from the
 
 0:12:22.060,0:12:23.970
 MotorizedVehicle.
 
 0:12:23.970,0:12:31.540
-This is because the transporter has its own
-weight defined, luckily.
+This is because the transporter has
+its own weight defined, luckily.
 
 0:12:31.540,0:12:35.080
 So, we have weight for Transporter and Car.
@@ -423,15 +424,15 @@ So, we have weight for Transporter and Car.
 But not in general for MotorizedVehicles.
 
 0:12:38.160,0:12:46.750
-For instance, the motorcycle has no weight
-as a required parameter here.
+For instance, the motorcycle has no
+weight as a required parameter here.
 
 0:12:46.750,0:12:51.070
 So, we require height here.
 
 0:12:51.070,0:13:02.139
-Let’s say that’s also some random value
-here that we choose.
+Let’s say that’s also some
+random value here that we choose.
 
 0:13:02.139,0:13:06.840
 And well, we can choose a model.
@@ -443,30 +444,30 @@ Let’s say this is the “T5”.
 And we call it "vw".
 
 0:13:16.180,0:13:28.290
-So, now we have got 6 classes, 6 objects for
-our 6 classes.
+So, now we have got 6 classes,
+6 objects for our 6 classes.
 
 0:13:28.290,0:13:36.980
-And it’s important to note that when we
-inherit from another class,
+And it’s important to note that
+when we inherit from another class,
 
 0:13:36.980,0:13:40.420
 we have to fill all its attributes.
 
 0:13:40.420,0:13:47.230
-We can completely ignore the methods that
-are defined.
+We can completely ignore the
+methods that are defined.
 
 0:13:47.230,0:13:53.000
-And of course, we have to acknowledge also the attributes
-that are defined for the class that we are
+And of course, we have to acknowledge also the
+attributes that are defined for the class that we are
 
 0:13:53.000,0:13:54.000
 actually having.
 
 0:13:54.000,0:14:00.070
-So, for instance, for a car, we have to give
-the weight.
+So, for instance, for a car,
+we have to give the weight.
 
 0:14:00.070,0:14:04.680
 That’s simply what we have to do for this

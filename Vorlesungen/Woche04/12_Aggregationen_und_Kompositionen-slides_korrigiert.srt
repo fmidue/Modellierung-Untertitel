@@ -67,7 +67,8 @@ irgendwie verboten, dass ein Teil zu mehreren
 oder vielleicht auch zu keinem Ganzen gehört.
 
 00:01:18,540 --> 00:01:21,510
-Ein mögliches Beispiel wären Songs und Playlisten.
+Ein mögliches Beispiel
+wären Songs und Playlisten.
 
 00:01:21,510 --> 00:01:28,740
 Also sagen wir, A wäre eine Klasse von
@@ -104,8 +105,8 @@ für eine Aggregation vergeben und
 in das Klassendiagramm einzeichnen.
 
 00:02:09,450 --> 00:02:14,620
-Oftmals ist das nicht nötig, da
-aus der Tatsache, dass es eine Aggregation ist,
+Oftmals ist das nicht nötig, da aus der
+Tatsache, dass es eine Aggregation ist,
 
 00:02:14,620 --> 00:02:16,240
 bereits die Natur der Beziehung folgt.
@@ -292,8 +293,8 @@ Dann kann ein Auto natürlich in einer
 Fahrzeugflotte enthalten sein oder in
 
 00:05:29,180 --> 00:05:32,390
-einem Autohändler-Katalog
-und durchaus auch in mehreren.
+einem Autohändler-Katalog und
+durchaus auch in mehreren.
 
 00:05:32,390 --> 00:05:38,480
 Also eine Aggregation verlangt eben

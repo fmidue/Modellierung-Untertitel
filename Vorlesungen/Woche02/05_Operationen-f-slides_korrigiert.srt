@@ -20,7 +20,8 @@ tatsächlich (insbesondere als Vorbereitung für
 UML) noch eine weitere Zutat, die textuell ist.
 
 00:00:34,620 --> 00:00:36,750
-Nämlich das statische Modellieren von Operationen.
+Nämlich das statische
+Modellieren von Operationen.
 
 00:00:37,800 --> 00:00:40,890
 Und darum soll es in diesem Video gehen.
@@ -44,12 +45,12 @@ und auch von UML losgelöst.
 Tatsächlich spielen Operationen natürlich sowohl
 
 00:01:01,140 --> 00:01:04,770
-in der Mathematik als auch in der
-Informatik eine Rolle, unabhängig von Objektorientierung.
+in der Mathematik als auch in der Informatik
+eine Rolle, unabhängig von Objektorientierung.
 
 00:01:05,520 --> 00:01:10,650
-Worum geht es da jetzt spezifisch,
-im Informatikkontext?
+Worum geht es da jetzt
+spezifisch, im Informatikkontext?
 
 00:01:10,650 --> 00:01:13,050
 Angenommen, wir wollen ein System
@@ -70,7 +71,8 @@ Und mindestens genauso wichtig, neben
 einfach den Namen der Operationen,
 
 00:01:24,810 --> 00:01:28,080
-auch auf welche Daten sie angewendet werden sollen.
+auch auf welche Daten sie
+angewendet werden sollen.
 
 00:01:28,080 --> 00:01:31,950
 Da geht es um statische Modellierung.
@@ -87,8 +89,8 @@ Also geht es nicht darum, was
 die Operationen genau tun werden,
 
 00:01:42,150 --> 00:01:46,470
-sondern erst mal zum Beispiel, welche Aufrufe /
-Verwendungen syntaktisch erlaubt sein sollen.
+sondern erst mal zum Beispiel, welche Aufrufe
+/ Verwendungen syntaktisch erlaubt sein sollen.
 
 00:01:46,470 --> 00:01:50,700
 Was überhaupt sinnvolle
@@ -135,7 +137,8 @@ schon bevor man testet oder
 irgendetwas zu beweisen versucht.
 
 00:02:36,720 --> 00:02:40,110
-Einfach dadurch, dass man vorher festgehalten hat,
+Einfach dadurch, dass man
+vorher festgehalten hat,
 
 00:02:40,110 --> 00:02:43,950
 wie die Operationen heißen (die Namen
@@ -168,11 +171,12 @@ Operationen beziehen sich immer auf
 einen speziellen Anwendungsbereich.
 
 00:03:10,680 --> 00:03:12,930
-Und der Anwendungsbereich,
-den Sie aus der Schule kennen,
+Und der Anwendungsbereich, den
+Sie aus der Schule kennen,
 
 00:03:12,930 --> 00:03:16,650
-wo Ihnen Operationen begegnet sind, ist einfach Arithmetik.
+wo Ihnen Operationen begegnet
+sind, ist einfach Arithmetik.
 
 00:03:16,650 --> 00:03:20,250
 Also die arithmetischen Operationen, die
@@ -193,8 +197,8 @@ mehr zu tun als nur mit Zahlen.
 Aber Zahlen werden wahrscheinlich auch immer
 
 00:03:29,790 --> 00:03:32,250
-irgendwie in irgendeiner Form
-in einem Programm im Spiel sein.
+irgendwie in irgendeiner Form in
+einem Programm im Spiel sein.
 
 00:03:32,250 --> 00:03:34,620
 Also stellen wir uns vor, ganz naiv:
@@ -296,8 +300,8 @@ die gleiche Information
 Und, sagen wir mal, vielleicht noch die Division.
 
 00:05:04,910 --> 00:05:08,978
-Subtraktion könnte man sich auch vorstellen,
-aber schon bei der Division stellt sich die Frage:
+Subtraktion könnte man sich auch vorstellen, aber
+schon bei der Division stellt sich die Frage:
 
 00:05:08,978 --> 00:05:14,090
 Von welcher Art soll denn hier
@@ -404,8 +408,8 @@ weil drei eine positive natürliche Zahl
 ist), was soll dann das Ergebnis sein?
 
 00:06:47,990 --> 00:06:52,670
-Soll das 1,666 sein oder
-vielleicht einfach nur 1 abgerundet?
+Soll das 1,666 sein oder vielleicht
+einfach nur 1 abgerundet?
 
 00:06:52,670 --> 00:06:57,380
 Macht man ganzzahlige Division oder
@@ -437,7 +441,8 @@ dividieren und den Rest verwerfen).
 Oder möchte ich rationale Zahlen unterstützen?
 
 00:07:19,760 --> 00:07:22,400
-Dann müsste ich schon hier beim statischen Entwurf
+Dann müsste ich schon hier
+beim statischen Entwurf
 
 00:07:22,400 --> 00:07:25,850
 der Operation vorsehen, dass dort
@@ -530,8 +535,8 @@ Wenn ich mich hier für die rationalen Zahlen
 entscheide, müsste ich auch damit umgehen,
 
 00:08:50,250 --> 00:08:54,900
-dass ich dann negative Zahlen dabei hätte
-(wenn ich mich hier nicht auf nur
+dass ich dann negative Zahlen dabei
+hätte (wenn ich mich hier nicht auf nur
 
 00:08:54,900 --> 00:08:57,600
 positive und nicht-negative
@@ -729,8 +734,8 @@ würde man auf Division durch null stoßen.
 Aber der Punkt ist:
 
 00:12:12,630 --> 00:12:16,410
-Mit den statischen Informationen, die
-auf den vorherigen Folien stehen, kann man
+Mit den statischen Informationen, die auf
+den vorherigen Folien stehen, kann man
 
 00:12:16,410 --> 00:12:19,890
 auch schon ohne Ausrechnen feststellen,
@@ -861,8 +866,8 @@ Wenn man das genau modelliert, dann hat man
 über die jeweilige Anwendungsdomäne bereits
 
 00:14:40,450 --> 00:14:48,250
-bestimmte Informationen festgehalten, bevor
-man irgendwie anfängt, etwas zu implementieren.
+bestimmte Informationen festgehalten, bevor man
+irgendwie anfängt, etwas zu implementieren.
 
 00:14:48,250 --> 00:14:56,200
 Das sollte hier das Ziel bei der
@@ -911,7 +916,8 @@ GPT-Vorlesung (je nach Studiengang)
 die Programmiersprache Python kennen.
 
 00:15:49,750 --> 00:15:55,000
-Auch da gibt es spezielle Datentypen, zum Beispiel
+Auch da gibt es spezielle
+Datentypen, zum Beispiel
 
 00:15:55,000 --> 00:16:01,840
 eben die Zahltypen für ganze Zahlen und
@@ -948,8 +954,8 @@ Was könnten wir als Operation
 haben, die ein Bild erzeugt?
 
 00:16:34,000 --> 00:16:38,140
-Vielleicht möchten wir gerne
-einen Kreis als Bild malen können.
+Vielleicht möchten wir gerne einen
+Kreis als Bild malen können.
 
 00:16:38,140 --> 00:16:39,490
 Und dann müssen wir uns überlegen:
@@ -967,8 +973,8 @@ Wir könnten auch sagen, vielleicht eine Farbe.
 Aber man könnte auch sagen:
 
 00:16:45,310 --> 00:16:49,690
-Erst mal ist ein Kreis an sich einfach dadurch spezifiziert,
-dass es einen Radius gibt.
+Erst mal ist ein Kreis an sich einfach dadurch
+spezifiziert, dass es einen Radius gibt.
 
 00:16:49,690 --> 00:16:51,670
 Und das könnte auch eine Kommazahl sein.
@@ -1036,8 +1042,8 @@ Hier kurz festzuhalten wäre, dass 3 natürlich
 eine ganze Zahl ist und keine Kommazahl.
 
 00:18:02,430 --> 00:18:06,030
-Aber dennoch kann sie hier auch verwendet werden,
-da hier ja Kommazahlen erlaubt sind.
+Aber dennoch kann sie hier auch verwendet
+werden, da hier ja Kommazahlen erlaubt sind.
 
 00:18:06,030 --> 00:18:11,220
 Weil letztlich die Menge der Kommazahlen eine
@@ -1073,15 +1079,16 @@ Dabei wollen wir es natürlich nicht
 bewenden lassen, sondern beim Entwurf
 
 00:18:40,290 --> 00:18:44,340
-unserer Vektorgrafik-App irgendwie
-ein paar weitere Operationen vorsehen.
+unserer Vektorgrafik-App irgendwie ein
+paar weitere Operationen vorsehen.
 
 00:18:44,340 --> 00:18:48,600
 Und zum Beispiel könnte man beginnen, einfach
 verschiedene geometrische Formen zuzulassen.
 
 00:18:48,600 --> 00:18:51,810
-Etwa möchte man auch ein Rechteck zeichnen können.
+Etwa möchte man auch ein
+Rechteck zeichnen können.
 
 00:18:51,810 --> 00:18:52,770
 Da müsste man sich überlegen:
@@ -1147,7 +1154,8 @@ Dem hätte man begegnen können, indem
 man eben absichtlich noch eine Menge
 
 00:19:57,990 --> 00:20:02,610
-einführt mit nur nicht-negativen Fließkommazahlen.
+einführt mit nur nicht-negativen
+Fließkommazahlen.
 
 00:20:03,240 --> 00:20:06,420
 Oder man würde bei der Implementierung
@@ -1196,8 +1204,8 @@ Braucht man vielleicht nicht, weil man
 ein Quadrat als Rechteck darstellen kann.
 
 00:20:46,020 --> 00:20:49,290
-Aber es werden vielleicht noch
-andere allgemeine Operationen benötigt.
+Aber es werden vielleicht noch andere
+allgemeine Operationen benötigt.
 
 00:20:49,290 --> 00:20:54,420
 Zum Beispiel möchte man vielleicht allgemeine
@@ -1276,7 +1284,8 @@ haben, die Text in ein Bild umsetzt.
 Und das könnte zum Beispiel einfach so sein:
 
 00:22:11,470 --> 00:22:13,540
-Der Name "print" ist vielleicht recht naheliegend.
+Der Name "print" ist
+vielleicht recht naheliegend.
 
 00:22:13,540 --> 00:22:17,020
 Und das Argument für diese
@@ -1407,8 +1416,8 @@ Sie bekommt ein Bild, erhält zwei Zahlen,
 die als Skalierung zu interpretieren sind.
 
 00:24:35,440 --> 00:24:38,522
-Vergrößerung oder Verkleinerung, je
-nachdem, ob größer als 1 oder kleiner als 1.
+Vergrößerung oder Verkleinerung, je nachdem,
+ob größer als 1 oder kleiner als 1.
 
 00:24:38,522 --> 00:24:42,370
 Also, je ein Faktor soll das
@@ -1486,7 +1495,8 @@ dann sollten wir die große
 Zeichenkette in Rot erhalten.
 
 00:25:47,990 --> 00:25:50,300
-Die Idee ist dann, dass hier ein Bild herauskommt,
+Die Idee ist dann, dass
+hier ein Bild herauskommt,
 
 00:25:50,300 --> 00:25:52,370
 das man wieder als Argument
@@ -1505,8 +1515,8 @@ Und immer größere Ausdrücke bekommen, die
 komplizierter sind, aber mit den Definitionen der
 
 00:26:06,410 --> 00:26:10,850
-einzelnen Operationen ausgerechnet werden können,
-indem wir mehrere Rechenschritte tun.
+einzelnen Operationen ausgerechnet werden
+können, indem wir mehrere Rechenschritte tun.
 
 00:26:13,130 --> 00:26:13,910
 Was können wir noch wollen?
@@ -1568,15 +1578,15 @@ wir ein bisschen verändern können.
 Sie sind aber immer um den Ursprung zentriert.
 
 00:27:11,900 --> 00:27:15,440
-Das heißt zum Beispiel auch, dass es
-keinen Sinn ergibt, einen Kreis zu rotieren.
+Das heißt zum Beispiel auch, dass es keinen
+Sinn ergibt, einen Kreis zu rotieren.
 
 00:27:15,440 --> 00:27:21,320
 Weil der Kreis um den Ursprung gebildet wurde.
 
 00:27:21,320 --> 00:27:24,650
-Wenn wir ihn jetzt rotieren und
-dies immer um den Ursprung geschieht,
+Wenn wir ihn jetzt rotieren und dies
+immer um den Ursprung geschieht,
 
 00:27:25,190 --> 00:27:28,940
 könnte man mit dem Kreis nichts anderes
@@ -1587,7 +1597,8 @@ Man könnte ihn noch skalieren und
 daraus eine Ellipse machen, indem
 
 00:27:33,920 --> 00:27:35,630
-man in x- und y-Richtung unterschiedlich skaliert.
+man in x- und y-Richtung
+unterschiedlich skaliert.
 
 00:27:35,630 --> 00:27:38,750
 Aber man kann ihn zum Beispiel
@@ -1666,7 +1677,8 @@ Dann könnten wir einzelne Formen
 unserer Wahl, unserer Größe,
 
 00:29:01,720 --> 00:29:06,760
-unserer Farbe, unserer Wahl der Position zeichnen.
+unserer Farbe, unserer
+Wahl der Position zeichnen.
 
 00:29:06,760 --> 00:29:08,770
 Wir könnten allerdings nichts davon kombinieren.
@@ -1948,7 +1960,8 @@ Aber für den äußeren Aufruf ist das
 Argument eben keine Zahl, sondern ein Bild.
 
 00:33:56,050 --> 00:34:00,040
-Weil 3 eine Zahl ist, "circle-von-3" dann ein Bild
+Weil 3 eine Zahl ist,
+"circle-von-3" dann ein Bild
 
 00:34:00,040 --> 00:34:03,550
 ist, und ich ein Bild nicht als
@@ -2008,8 +2021,8 @@ einen String wie einen Text, der
 dann in ein Bild umgewandelt wird.
 
 00:34:58,950 --> 00:35:02,010
-Ich kann "print" kein
-schon fertiges Bild übergeben.
+Ich kann "print" kein schon
+fertiges Bild übergeben.
 
 00:35:02,010 --> 00:35:03,930
 Dann wüsste "print" nicht, was es drucken soll.
@@ -2039,8 +2052,8 @@ und nicht einen anderen Ausdruck, der
 als ein Bild zu interpretieren ist.
 
 00:35:27,780 --> 00:35:31,530
-Aus denselben Gründen wäre so etwas
-wie "print-von-3" nicht okay,
+Aus denselben Gründen wäre so
+etwas wie "print-von-3" nicht okay,
 
 00:35:31,530 --> 00:35:32,880
 zumindest in meiner Interpretation.
@@ -2323,8 +2336,8 @@ eine andere Syntax dafür.
 Also da wird das nicht so mathematisch angegeben.
 
 00:40:35,020 --> 00:40:39,400
-Deswegen eine kleine Folie, auf der einfach
-diese Verbindung hergestellt wird,
+Deswegen eine kleine Folie, auf der
+einfach diese Verbindung hergestellt wird,
 
 00:40:39,400 --> 00:40:42,340
 wie das einander entspricht.

@@ -53,7 +53,8 @@ Weil die in einem Objekt
 nichts zu suchen haben (bei
 
 00:01:02,700 --> 00:01:04,110
-dieser Art der Modellierung, die wir hier machen).
+dieser Art der Modellierung,
+die wir hier machen).
 
 00:01:06,120 --> 00:01:07,740
 Das wäre ein Objekt.
@@ -113,8 +114,8 @@ Ein Objektdiagramm muss dann
 eine konkrete Ausprägung davon
 
 00:02:05,880 --> 00:02:09,720
-sein (die sich natürlich an alles hält, was im
-Klassendiagramm modelliert wurde).
+sein (die sich natürlich an alles hält,
+was im Klassendiagramm modelliert wurde).
 
 00:02:11,970 --> 00:02:15,420
 Der Sinn ist, dass wir dann eine übersichtliche
@@ -322,7 +323,8 @@ Wenn wir uns an die "Points" und an
 die "ColouredPoints" erinnern, dann
 
 00:06:08,450 --> 00:06:10,550
-könnten wir einen konkreten "ColouredPoint" haben.
+könnten wir einen konkreten
+"ColouredPoint" haben.
 
 00:06:10,550 --> 00:06:12,680
 Also ein konkretes Objekt
@@ -355,7 +357,8 @@ Mittels des Begriffs des "Links", was
 einfach auch eine Verknüpfung ist,
 
 00:06:47,150 --> 00:06:50,480
-aber jetzt irgendeine Beziehung zwischen Objekten.
+aber jetzt irgendeine
+Beziehung zwischen Objekten.
 
 00:06:52,400 --> 00:06:56,450
 Wenn wir auf Klassenebene eine Assoziation haben,
@@ -423,7 +426,8 @@ dann muss es natürlich die Multiplizitäten
 aus dem Klassendiagramm erfüllen.
 
 00:08:11,250 --> 00:08:13,140
-Ist also im Klassendiagramm vorgegeben: "Es stehen
+Ist also im Klassendiagramm
+vorgegeben: "Es stehen
 
 00:08:13,140 --> 00:08:18,780
 Objekte der Klasse A mit maximal zwei
@@ -632,7 +636,8 @@ die hier jeweils im zweiten Kasten genannt
 sind, auch hier noch Belegungen kommen.
 
 00:12:05,690 --> 00:12:07,760
-Das werden wir auch in den Übungen manchmal haben,
+Das werden wir auch in den
+Übungen manchmal haben,
 
 00:12:07,760 --> 00:12:14,330
 dass wir die Objekte und teils auch die Klassen
@@ -919,7 +924,8 @@ Nehmen wir an, wir haben eine Klasse
 Konto und davon zwei Unterklassen,
 
 00:18:03,560 --> 00:18:06,530
-und wir haben eine Beziehung von Kunden zu Konten.
+und wir haben eine Beziehung
+von Kunden zu Konten.
 
 00:18:07,370 --> 00:18:11,960
 Jedes Konto muss insbesondere genau einen

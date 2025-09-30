@@ -6,18 +6,19 @@ net.
 The start node becomes a place with one token.
 
 0:00:14.410,0:00:20.460
-And this action, the action A becomes a transition.
+And this action, the action
+A becomes a transition.
 
 0:00:20.460,0:00:28.900
-And because this is a Petri net, then this
-transition can only lead to a place.
+And because this is a Petri net, then
+this transition can only lead to a place.
 
 0:00:28.900,0:00:29.900
 It doesn't have to.
 
 0:00:29.900,0:00:32.520
-But if it leads to something, then it has
-to be a place.
+But if it leads to something,
+then it has to be a place.
 
 0:00:32.520,0:00:36.120
 So, we add a place.
@@ -27,33 +28,33 @@ And we can say now that this place represents
 this object node B. Again, we have an action,
 
 0:00:45.760,0:00:52.500
-the action becomes transition C with the same
-label.
+the action becomes transition
+C with the same label.
 
 0:00:52.500,0:00:54.329
 And again, this is a transition.
 
 0:00:54.329,0:00:58.660
-So, if it's going to lead to something, then
-it has to be a place.
+So, if it's going to lead to
+something, then it has to be a place.
 
 0:00:58.660,0:01:01.090
 So, we add a place.
 
 0:01:01.090,0:01:07.650
-Now, because this place does not correspond
-to anything here, we say that it is an auxiliary
+Now, because this place does not correspond to
+anything here, we say that it is an auxiliary
 
 0:01:07.650,0:01:10.830
 place.
 
 0:01:10.830,0:01:15.900
-And now, to represent this fork node, we add
-a transition.
+And now, to represent this
+fork node, we add a transition.
 
 0:01:15.900,0:01:21.980
-And this transition is going to give tokens
-to three different places.
+And this transition is going to give
+tokens to three different places.
 
 0:01:21.980,0:01:24.870
 Because here we have three branches.
@@ -62,8 +63,8 @@ Because here we have three branches.
 Okay, so here we go, 1, 2, 3.
 
 0:01:30.509,0:01:37.290
-And this one here in the middle is the same
-case as here; it does not correspond to anything.
+And this one here in the middle is the same case
+as here; it does not correspond to anything.
 
 0:01:37.290,0:01:40.770
 Because this here, this F is an action.
@@ -90,8 +91,8 @@ place.
 So, let's add a place for now.
 
 0:02:06.110,0:02:09.380
-And let's see what this place is going to
-correspond to.
+And let's see what this place
+is going to correspond to.
 
 0:02:09.380,0:02:16.569
 So, it's going to correspond to this end node
@@ -102,8 +103,8 @@ is not necessary; this is optional, you can
 remove it, and you can just say: “Okay,
 
 0:02:23.770,0:02:30.250
-this transition, F, just consumes the token
-from this place.”
+this transition, F, just consumes
+the token from this place.”
 
 0:02:30.250,0:02:31.250
 And that's it.
@@ -142,16 +143,16 @@ to this node and this node is a merge node.
 And from a place we can go only to a transition.
 
 0:03:12.610,0:03:19.310
-And this transition is probably going to represent
-this join node.
+And this transition is probably
+going to represent this join node.
 
 0:03:19.310,0:03:24.670
-So, now I'm going to add a place after this
-transition.
+So, now I'm going to add a
+place after this transition.
 
 0:03:24.670,0:03:31.440
-And this place is going to represent the end
-node.
+And this place is going
+to represent the end node.
 
 0:03:31.440,0:03:33.520
 Now let's do the right branch.
@@ -168,19 +169,19 @@ place somehow to represent this arrow here.
 And this is not going to work.
 
 0:03:53.780,0:03:58.250
-If I just do an arrow here, because this is
-a place and this is a place, we need a transition
+If I just do an arrow here, because this is a
+place and this is a place, we need a transition
 
 0:03:58.250,0:03:59.660
 in between.
 
 0:03:59.660,0:04:05.879
-So, we simply add a transition and we call
-it an auxiliary transition.
+So, we simply add a transition and
+we call it an auxiliary transition.
 
 0:04:05.879,0:04:09.209
-And now, I can go from this place to this
-transition.
+And now, I can go from this
+place to this transition.
 
 0:04:09.209,0:04:18.380
 And this will show you that this transition
@@ -190,9 +191,9 @@ is really representing this joining node.
 And now, we are done.
 
 0:04:20.670,0:04:28.320
-But as I said before, this place represents
-this node and it's optional.
+But as I said before, this place
+represents this node and it's optional.
 
 0:04:28.320,0:04:33.379
-This two represents this end node, and it's
-also optional.
+This two represents this end
+node, and it's also optional.

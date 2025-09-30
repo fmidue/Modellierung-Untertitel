@@ -10,16 +10,16 @@ Petri Nets, and we shall find all the reasons
 why these Petri Nets are not correct.
 
 0:00:18.430,0:00:23.720
-We already know that these Petri Nets are
-not correct.
+We already know that these
+Petri Nets are not correct.
 
 0:00:23.720,0:00:34.100
-And therefore, we have to check each one of them
-for reasons that make them invalid.
+And therefore, we have to check each one
+of them for reasons that make them invalid.
 
 0:00:34.100,0:00:42.510
-And within the first Petri Net, we can see
-for instance that here, a transition is followed
+And within the first Petri Net, we can see for
+instance that here, a transition is followed
 
 0:00:42.510,0:00:44.440
 by another transition.
@@ -28,8 +28,8 @@ by another transition.
 So, t1 leads to t4.
 
 0:00:48.150,0:00:58.289
-And this is not valid because we have to switch
-always between places and transitions.
+And this is not valid because we have to
+switch always between places and transitions.
 
 0:00:58.289,0:01:04.400
 As we don't do this here, we have one reason
@@ -46,12 +46,12 @@ is another such reason for this Petri Net
 to be invalid.
 
 0:01:15.220,0:01:29.439
-In this case, there is an edge between t4
-and t1, and as there are no connections allowed
+In this case, there is an edge between t4 and
+t1, and as there are no connections allowed
 
 0:01:29.439,0:01:39.450
-between transitions themselves, this is a violation
-and makes the Petri Net invalid.
+between transitions themselves, this is a
+violation and makes the Petri Net invalid.
 
 0:01:39.450,0:01:52.070
 We can check this Petri Net further and see
@@ -61,8 +61,8 @@ that now, there is always a place followed
 by a transition by connecting these edges.
 
 0:01:56.799,0:02:04.270
-And that is why if these actions are removed,
-it would be a valid Petri Net.
+And that is why if these actions are
+removed, it would be a valid Petri Net.
 
 0:02:04.270,0:02:07.759
 Now, we can check the second Petri Net.
@@ -75,39 +75,39 @@ followed by a transition and a place when we check
 this Petri Net.
 
 0:02:18.730,0:02:25.340
-So, there are no connections between transitions
-or places themselves.
+So, there are no connections between
+transitions or places themselves.
 
 0:02:25.340,0:02:37.170
 But there is another issue, and this concerns
 the weight which is given here because
 
 0:02:37.170,0:02:43.920
-negative weights are not allowed at these
-edges between places to transitions or transitions
+negative weights are not allowed at these edges
+between places to transitions or transitions
 
 0:02:43.920,0:02:45.569
 to places.
 
 0:02:45.569,0:02:52.590
-And that is why this is not valid, the second
-Petri Net.
+And that is why this is not
+valid, the second Petri Net.
 
 0:02:52.590,0:03:03.140
 And when we see the third Petri Net and look
 what's wrong here, then we see a claim that
 
 0:03:03.140,0:03:09.790
-we had here edges between transitions and
-another transition.
+we had here edges between
+transitions and another transition.
 
 0:03:09.790,0:03:13.700
-Now, we have an edge between a place and another
-place.
+Now, we have an edge between
+a place and another place.
 
 0:03:13.700,0:03:21.340
-This edge here is violating this Petri Net
-from being correct.
+This edge here is violating this
+Petri Net from being correct.
 
 0:03:21.340,0:03:30.980
 And there is another problem within this Petri
@@ -117,8 +117,8 @@ Net, and this concerns the transition or the
 edges between place one and transition one.
 
 0:03:37.560,0:03:46.420
-When we look into this Petri Net, we see that
-both edges are going from s1 to t1.
+When we look into this Petri Net, we see
+that both edges are going from s1 to t1.
 
 0:03:46.420,0:03:56.530
 And this is a problem because it just simply
@@ -136,13 +136,13 @@ So, if there were an edge with the weight
 of three, everything would be alright, but
 
 0:04:11.000,0:04:23.320
-having two separate edges does not make any
-sense between s1 and t1.
+having two separate edges does not
+make any sense between s1 and t1.
 
 0:04:23.320,0:04:29.880
-And this should be all reasons that can be
-found within these Petri Nets.
+And this should be all reasons that
+can be found within these Petri Nets.
 
 0:04:29.880,0:04:36.050
-So, we're basically done with this task when
-you write all these reasons down.
+So, we're basically done with this task
+when you write all these reasons down.

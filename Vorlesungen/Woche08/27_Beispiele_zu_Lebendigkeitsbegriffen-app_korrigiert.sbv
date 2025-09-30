@@ -214,8 +214,8 @@ Denn dafür muss einfach nur jede Transition
 irgendwo im Erreichbarkeitsgraph vorkommen.
 
 0:04:05.150,0:04:05.930
-Das ist hier offenbar sowohl
-für t1 als auch für t2 der Fall.
+Das ist hier offenbar sowohl für
+t1 als auch für t2 der Fall.
 
 0:04:07.130,0:04:12.740
 Wir können aus diesem endlichen
@@ -289,8 +289,8 @@ Denn wenn es die hätte, hätte
 es auch die anderen beiden.
 
 0:05:34.490,0:05:38.600
-Dann würde es nicht stimmen, dass
-nicht alle drei Eigenschaften vorliegen.
+Dann würde es nicht stimmen, dass nicht
+alle drei Eigenschaften vorliegen.
 
 0:05:38.600,0:05:42.860
 Also, wie kann sich dieses Petrinetz verhalten?
@@ -409,8 +409,8 @@ Weil jede Transition im
 Erreichbarkeitsgraphen vorkommt.
 
 0:08:14.730,0:08:18.780
-Es gibt keine Transition,
-die nie geschaltet werden kann.
+Es gibt keine Transition, die
+nie geschaltet werden kann.
 
 0:08:18.780,0:08:22.200
 Von der Startmarkierung aus ist
@@ -469,7 +469,8 @@ für welches t diese Aussage nicht stimmt.
 Da ist die Antwort zweierlei möglich.
 
 0:09:27.530,0:09:30.380
-Die Aussage gilt nämlich weder für t1 noch für t2.
+Die Aussage gilt nämlich
+weder für t1 noch für t2.
 
 0:09:32.690,0:09:34.550
 Es reicht aber, ein t anzugeben.
@@ -479,8 +480,8 @@ Wir können uns erst mal
 einfach auf das t1 beschränken.
 
 0:09:38.532,0:09:39.710
-Nochmal an die Definition anknüpfend:
-Was haben wir hier?
+Nochmal an die Definition
+anknüpfend: Was haben wir hier?
 
 0:09:42.470,0:09:46.550
 Das ist ja unser m0, und wir betrachten t1.
@@ -558,8 +559,8 @@ auch von hier eine Marke brauchen.
 Das heißt tatsächlich:
 
 0:11:26.970,0:11:36.570
-Wenn wir hier den Erreichbarkeitsgraphen
-malen, dann ist er sehr einfach und sehr klein.
+Wenn wir hier den Erreichbarkeitsgraphen malen,
+dann ist er sehr einfach und sehr klein.
 
 0:11:36.570,0:11:42.840
 Es gibt nämlich tatsächlich nur diese
@@ -572,7 +573,8 @@ Nämlich eine Marke auf s1 und keine auf s2.
 Das ist die Startmarkierung.
 
 0:11:50.250,0:11:56.520
-Und die ist dergestalt, dass man t1 schalten kann,
+Und die ist dergestalt,
+dass man t1 schalten kann,
 
 0:11:58.260,0:12:01.830
 dann aber auch wieder nur bei
@@ -593,7 +595,8 @@ wie es um die Eigenschaften steht.
 Ist dieses Petrinetz schwach lebendig?
 
 0:12:14.760,0:12:18.000
-Nein, ist es nicht, weil man t2 nie schalten kann.
+Nein, ist es nicht, weil
+man t2 nie schalten kann.
 
 0:12:18.000,0:12:23.670
 Weil es im gesamten Erreichbarkeitsgraphen

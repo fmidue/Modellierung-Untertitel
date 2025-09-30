@@ -3,12 +3,12 @@ This task is about the reachability graph of
 a Petri net, and we have been given a Petri
 
 0:00:10.130,0:00:15.540
-net, and we shall create the reachability graph
-for it.
+net, and we shall create the
+reachability graph for it.
 
 0:00:15.540,0:00:25.060
-So, this leads us to our first task, which
-is determining the initial marking.
+So, this leads us to our first task,
+which is determining the initial marking.
 
 0:00:25.060,0:00:34.899
 So, first of all, we look at all the places
@@ -30,12 +30,12 @@ s1, the second position being place s2, and
 the third position being s3 has zero tokens,
 
 0:01:12.290,0:01:19.830
-and the fourth position being place four having
-zero tokens.
+and the fourth position being
+place four having zero tokens.
 
 0:01:19.830,0:01:30.420
-And we keep this sequence for the complete
-reachability graph.
+And we keep this sequence for
+the complete reachability graph.
 
 0:01:30.420,0:01:39.140
 And because this is the initial state, we’ll
@@ -45,16 +45,16 @@ require an arrow going to the initial state,
 so, like this.
 
 0:01:44.770,0:01:50.040
-And this marks it as the initial set having
-an arrow going there.
+And this marks it as the initial
+set having an arrow going there.
 
 0:01:50.040,0:01:55.469
-This is important to have, so, this is the
-initial marking.
+This is important to have, so,
+this is the initial marking.
 
 0:01:55.469,0:02:04.570
-And now, we can think of how to get to the
-next state.
+And now, we can think of how
+to get to the next state.
 
 0:02:04.570,0:02:17.269
 And this is considering the graph here, the
@@ -68,32 +68,32 @@ And t4 is not active because there are no
 tokens in s4; t3 is not active because there
 
 0:02:28.019,0:02:33.160
-are no tokens in s3; s2 is not active because
-there are no tokens in s2.
+are no tokens in s3; s2 is not active
+because there are no tokens in s2.
 
 0:02:33.160,0:02:39.160
-So it's only t1 that we can fire because there
-are tokens in s1.
+So it's only t1 that we can fire
+because there are tokens in s1.
 
 0:02:39.160,0:02:49.630
-So we can fire t1, and this would lead to a
-new state.
+So we can fire t1, and this
+would lead to a new state.
 
 0:02:49.630,0:03:06.459
-So this is the new marking we get, and we can
-name this marking here.
+So this is the new marking we get,
+and we can name this marking here.
 
 0:03:06.459,0:03:12.549
-So, first of all, we can check that we have
-this marking not named yet.
+So, first of all, we can check that
+we have this marking not named yet.
 
 0:03:12.549,0:03:19.550
-But there's one token in s1, and we have
-no state referring to that marking.
+But there's one token in s1, and we
+have no state referring to that marking.
 
 0:03:19.550,0:03:28.950
-So that's why we create a new state: one token
-for s2, and s3 and s4 have zero tokens.
+So that's why we create a new state: one
+token for s2, and s3 and s4 have zero tokens.
 
 0:03:28.950,0:03:32.080
 So this is our new state.
@@ -109,20 +109,20 @@ t1.
 So okay, then we continue with this state.
 
 0:04:04.090,0:04:11.750
-So now we have two options; we can either
-fire t1 again.
+So now we have two options;
+we can either fire t1 again.
 
 0:04:11.750,0:04:27.190
-So if we do this,
-then we get another token in s2, so we again,
+So if we do this, then we get
+another token in s2, so we again,
 
 0:04:27.190,0:04:34.470
-check: have we got this state already in our
-reachability graph?
+check: have we got this state
+already in our reachability graph?
 
 0:04:34.470,0:04:43.990
-And we see zero tokens in s1; we don't have
-this yet, so we create a new state.
+And we see zero tokens in s1; we don't
+have this yet, so we create a new state.
 
 0:04:43.990,0:04:54.220
 And we have zero tokens in s1, two tokens
@@ -133,8 +133,8 @@ reach this state by firing
 t1.
 
 0:05:08.160,0:05:15.530
-So this is the sequence that leads us into
-this state.
+So this is the sequence that
+leads us into this state.
 
 0:05:15.530,0:05:25.130
 And when we consider this state now, then
@@ -148,12 +148,12 @@ t4 and t3 require a token in s4 or s3 respectively,
 and transition t1 requires a token in s1, and
 
 0:05:42.971,0:05:53.310
-t2 requires not only a token in s2, but also
-a token in s1.
+t2 requires not only a token
+in s2, but also a token in s1.
 
 0:05:53.310,0:06:03.720
-So, we have to get back to this state here; so,
-let's go back.
+So, we have to get back to this
+state here; so, let's go back.
 
 0:06:03.720,0:06:16.130
 And when we are in this state, then we have
@@ -183,12 +183,12 @@ have yet a state with that label, which means
 we can create a new state.
 
 0:06:57.610,0:07:12.129
-And it's zero tokens in s1, zero tokens in
-s2, and one token in s3.
+And it's zero tokens in s1, zero
+tokens in s2, and one token in s3.
 
 0:07:12.129,0:07:27.139
-And this was using this transition here
-by using transition t2.
+And this was using this transition
+here by using transition t2.
 
 0:07:27.139,0:07:41.050
 Now that we've reached this state here, we
@@ -199,12 +199,12 @@ We cannot fire t2, we cannot fire t1, and we
 cannot fire t4 because there are no tokens
 
 0:07:50.180,0:07:59.930
-in the required places, but we can fire t3,
-and this will lead to a new state.
+in the required places, but we can fire
+t3, and this will lead to a new state.
 
 0:07:59.930,0:08:08.350
-We remove the token from s3, and we get one token
-in s4.
+We remove the token from s3,
+and we get one token in s4.
 
 0:08:08.350,0:08:13.389
 And we get one token back in s1.
@@ -217,8 +217,8 @@ yet where there is a token in s4; that's why
 we create a new state.
 
 0:08:27.639,0:08:37.680
-And there are zero tokens in s3, there is
-one token in s4, and there's one token
+And there are zero tokens in s3, there
+is one token in s4, and there's one token
 
 0:08:37.680,0:08:45.050
 in s1, and zero tokens there in s2.
@@ -227,7 +227,8 @@ in s1, and zero tokens there in s2.
 And we reached this state by firing t3.
 
 0:08:55.470,0:09:07.360
-Now that we've reached this marking, we have got two
+Now that we've reached this
+marking, we have got two
 
 0:09:07.360,0:09:08.890
 options.
@@ -246,32 +247,32 @@ But we can fire either t4 or we can fire t1.
 So let's first of all fire t4.
 
 0:09:33.160,0:09:45.690
-So if we do that, then we remove one token from
-s4 and get one token in s1.
+So if we do that, then we remove one
+token from s4 and get one token in s1.
 
 0:09:45.690,0:09:51.510
 And now we have to check if this is a state
 that we've covered already, but as we can see
 
 0:09:51.510,0:09:58.279
-the graph is now original, we now
-have two tokens in s1, we have zero tokens
+the graph is now original, we now have
+two tokens in s1, we have zero tokens
 
 0:09:58.279,0:10:03.380
 in s2, zero tokens in s3, and zero tokens
 in s4.
 
 0:10:03.380,0:10:13.330
-So we create no new state, but
-we add in a transition, which goes from this
+So we create no new state, but we add
+in a transition, which goes from this
 
 0:10:13.330,0:10:23.500
-state to the state that we just reached by
-firing t4.
+state to the state that we
+just reached by firing t4.
 
 0:10:23.500,0:10:32.279
-And as we haven't covered all the states that
-we can reach from this marking,
+And as we haven't covered all the states
+that we can reach from this marking,
 
 0:10:32.279,0:10:35.660
 we go back to the marking.
@@ -298,19 +299,19 @@ in s1 and add a token in s2, and this is a
 new state.
 
 0:11:24.910,0:11:46.649
-So now we have one token
-in s2, we have zero tokens in s1, we have
+So now we have one token in s2,
+we have zero tokens in s1, we have
 
 0:11:46.649,0:12:08.540
-one token in s2, and we have one token in
-s4, and we got there by firing t1.
+one token in s2, and we have one token
+in s4, and we got there by firing t1.
 
 0:12:08.540,0:12:13.040
 So that's the label of the edge.
 
 0:12:13.040,0:12:23.000
-And now that we are in this state, we can
-fire t4 once more.
+And now that we are in this
+state, we can fire t4 once more.
 
 0:12:23.000,0:12:30.681
 We can't fire any other transition because
@@ -320,15 +321,15 @@ there are no tokens in s1 and because there
 are no tokens in s3.
 
 0:12:32.940,0:12:38.900
-So that's why we can't fire t2 and we can't
-fire t3, and we can't fire t1.
+So that's why we can't fire t2 and we
+can't fire t3, and we can't fire t1.
 
 0:12:38.900,0:12:42.500
 So we can only fire t4.
 
 0:12:42.500,0:13:00.160
-And when we do that, we remove one token from
-s4 and add a token in s1.
+And when we do that, we remove one
+token from s4 and add a token in s1.
 
 0:13:00.160,0:13:18.649
 And now we have got a marking where there
@@ -355,20 +356,20 @@ This was reached by actually firing t4.
 So we fire t4 and get back to this state.
 
 0:13:57.780,0:14:01.970
-And from there, we can continue as mentioned
-before.
+And from there, we can
+continue as mentioned before.
 
 0:14:01.970,0:14:09.661
 Now, as we have considered all the states
 already with all the transitions, we have
 
 0:14:09.661,0:14:16.610
-finally reached a state where we have got
-the complete reachability graph.
+finally reached a state where we have
+got the complete reachability graph.
 
 0:14:16.610,0:14:27.260
-And so we have covered every connection and
-every state.
+And so we have covered every
+connection and every state.
 
 0:14:27.260,0:14:38.279
 And so the take away for creating the reachability
@@ -378,8 +379,8 @@ graph, it's really important to consider every
 state and consider every transition.
 
 0:14:42.660,0:14:49.160
-And when you add a new state, check before
-if the state already exists.
+And when you add a new state, check
+before if the state already exists.
 
 0:14:49.160,0:14:56.540
 And if it exists, add an edge going to the

@@ -3,11 +3,12 @@ In dieser Aufgabe beschäftigen wir uns mit
 Klassen und Objekten und ganz spezifisch mit
 
 0:00:07.130,0:00:10.820
-dem Anfang von UML, hier in Form eines UML-Klassendiagramms.
+dem Anfang von UML, hier in
+Form eines UML-Klassendiagramms.
 
 0:00:10.820,0:00:14.650
-Wir haben hier dieses UML-Klassendiagramm
-schon vorgegeben.
+Wir haben hier dieses
+UML-Klassendiagramm schon vorgegeben.
 
 0:00:14.650,0:00:20.269
 Wir haben verschiedene Klassen: RentableVehicle,
@@ -24,8 +25,8 @@ wichtig, auf die Richtung dieser Vererbungspfeile
 zu achten.
 
 0:00:29.689,0:00:34.239
-Denn die Vererbung geht praktisch immer in
-die entgegengesetzte Richtung.
+Denn die Vererbung geht praktisch
+immer in die entgegengesetzte Richtung.
 
 0:00:34.239,0:00:40.030
 Also, es heißt, MotorizedVehicle vererbt
@@ -55,12 +56,12 @@ Ganz konkret heißt das, wenn wir hier mal
 einfach mit Transporter anfangen, unten auf
 
 0:01:20.830,0:01:26.470
-der Seite, müssen wir erst mal einen neuen
-Kasten malen.
+der Seite, müssen wir erst
+mal einen neuen Kasten malen.
 
 0:01:26.470,0:01:30.470
-Die Syntax mit diesem Kasten ist sehr wichtig
-bei diesen Diagrammen.
+Die Syntax mit diesem Kasten ist
+sehr wichtig bei diesen Diagrammen.
 
 0:01:30.470,0:01:37.630
 Bei diesen Klassendiagrammen haben wir immer
@@ -71,8 +72,8 @@ eins mit den diversen Attributen und eins,
 das jetzt in diesem Fall leer ist, aber auch
 
 0:01:43.050,0:01:45.850
-immer da sein muss, der mögliche Methoden
-enthält.
+immer da sein muss, der
+mögliche Methoden enthält.
 
 0:01:45.850,0:01:49.500
 Hier oben haben wir zum Beispiel refill drin
@@ -100,8 +101,8 @@ Wenn ich jetzt hier an der Seite mal runterscrolle
 im Untermenü UML, dann sehen wir hier diverse
 
 0:02:10.560,0:02:15.750
-Kästchen mit vorgefertigten Objekten, die
-wir benutzen können.
+Kästchen mit vorgefertigten
+Objekten, die wir benutzen können.
 
 0:02:15.750,0:02:22.620
 Objekt, Interface, Klasse, das sieht ein bisschen
@@ -111,8 +112,8 @@ aus wie das hier, oder das, was wir in diesem
 Fall wollen, einfach nur Instanzen.
 
 0:02:25.260,0:02:31.270
-Die sehen sehr ähnlich aus, nur fehlt der
-Kasten für die Methoden.
+Die sehen sehr ähnlich aus, nur
+fehlt der Kasten für die Methoden.
 
 0:02:31.270,0:02:38.620
 Bei Instanzen werden die Methoden nicht mit
@@ -125,8 +126,8 @@ von der geerbt wird, und die Attribute.
 Wir können uns jetzt einfach etwas ausdenken.
 
 0:02:46.340,0:02:51.330
-Eine Instanz hat normalerweise immer einen
-Namen, das heißt, wir geben erstmal den kleingeschriebenen
+Eine Instanz hat normalerweise immer einen Namen,
+das heißt, wir geben erstmal den kleingeschriebenen
 
 0:02:51.330,0:02:59.569
 Namen an, mytransporter zum Beispiel, machen
@@ -140,7 +141,8 @@ Hier haben wir im obersten Kasten gesagt,
 dass diese Instanz mytransporter heißt und
 
 0:03:08.540,0:03:11.770
-die Klasse, die instanziiert wird, ist Transporter.
+die Klasse, die instanziiert
+wird, ist Transporter.
 
 0:03:11.770,0:03:21.430
 Das machen wir noch fett und mit Unterstrich
@@ -153,19 +155,19 @@ uns die Attribute auszusuchen.
 Wir haben hier schon ein paar Attribute drin.
 
 0:03:25.600,0:03:33.400
-Dieses + sind Access-Modiefier, ob das public,
-private oder sonst was ist.
+Dieses + sind Access-Modiefier, ob das
+public, private oder sonst was ist.
 
 0:03:33.400,0:03:37.060
 Das können wir hier erst mal komplett ignorieren.
 
 0:03:37.060,0:03:41.030
-Das macht das Diagramm, das wir hier angegeben
-haben, ja auch.
+Das macht das Diagramm, das wir
+hier angegeben haben, ja auch.
 
 0:03:41.030,0:03:44.349
-Wir wissen nicht, ob das public, private oder
-sonst was ist.
+Wir wissen nicht, ob das public,
+private oder sonst was ist.
 
 0:03:44.349,0:03:46.620
 Also nehmen wir dieses + davor weg.
@@ -187,12 +189,12 @@ Also machen wir ein Gleichheitszeichen und
 denken uns einfach etwas aus in dem Fall.
 
 0:04:05.209,0:04:09.580
-Wir können sagen, dieser Transporter ist
-4,5 Meter hoch.
+Wir können sagen, dieser
+Transporter ist 4,5 Meter hoch.
 
 0:04:09.580,0:04:16.910
-Hier ist es natürlich wichtig, auf die Typen
-zu achten, deswegen habe ich einen Punkt gemacht,
+Hier ist es natürlich wichtig, auf die Typen zu
+achten, deswegen habe ich einen Punkt gemacht,
 
 0:04:16.910,0:04:21.180
 weil das halt ein Float sein soll.
@@ -202,8 +204,8 @@ Für das nächste Attribut haben wir weight;
 da können wir uns wieder etwas ausdenken.
 
 0:04:25.139,0:04:29.749
-Sagen wir mal, der Transporter ist nicht ganz
-so schwer, wiegt nur 4000 Kilogramm.
+Sagen wir mal, der Transporter ist nicht
+ganz so schwer, wiegt nur 4000 Kilogramm.
 
 0:04:29.749,0:04:40.229
 Hier müssen wir darauf achten, dass wir noch
@@ -220,20 +222,20 @@ das Attribut licenseplate, was in dem Fall
 ein String ist.
 
 0:04:50.389,0:04:55.210
-Das heißt, da können wir uns auch etwas
-aussuchen.
+Das heißt, da können wir
+uns auch etwas aussuchen.
 
 0:04:55.210,0:04:58.110
-Das kann ganz beliebig sein, das muss kein
-echtes Nummernschild sein.
+Das kann ganz beliebig sein, das
+muss kein echtes Nummernschild sein.
 
 0:04:58.110,0:05:02.360
-Hier ist ja nur String angegeben und sonst
-nichts.
+Hier ist ja nur String
+angegeben und sonst nichts.
 
 0:05:02.360,0:05:07.280
-Wir denken uns etwas aus, sagen wir, das ist
-jetzt DU-101.
+Wir denken uns etwas aus, sagen
+wir, das ist jetzt DU-101.
 
 0:05:07.280,0:05:16.659
 Jetzt haben wir ja das MotorizedVehicle, wovon
@@ -243,8 +245,8 @@ der Transporter direkt erbt, aber MotorizedVehicle
 erbt auch nochmal von RentableVehicle.
 
 0:05:18.139,0:05:22.580
-Das heißt, wir müssen auch noch das Attribut
-model mit reinnehmen.
+Das heißt, wir müssen auch noch
+das Attribut model mit reinnehmen.
 
 0:05:22.580,0:05:30.550
 In drawio geht das ganz einfach. Wir können
@@ -254,31 +256,31 @@ uns von der Seite hier dieses Extra-Attribut
 in diesen Kasten reinziehen.
 
 0:05:31.550,0:05:35.150
-Sobald das blau leuchtet, erweitert sich dieser
-Kasten automatisch.
+Sobald das blau leuchtet, erweitert
+sich dieser Kasten automatisch.
 
 0:05:35.150,0:05:39.090
-Das macht es sehr einfach, diesen Kasten beliebig
-zu erweitern.
+Das macht es sehr einfach, diesen
+Kasten beliebig zu erweitern.
 
 0:05:39.090,0:05:45.970
-Also haben wir noch model, und da denken wir
-uns auch einfach nur etwas aus.
+Also haben wir noch model, und da denken
+wir uns auch einfach nur etwas aus.
 
 0:05:45.970,0:05:48.190
 Das ist der Hersteller, wie auch immer.
 
 0:05:48.190,0:05:54.310
-Es muss nur ein String sein. Ansonsten ist
-es komplett egal, was wir machen.
+Es muss nur ein String sein. Ansonsten
+ist es komplett egal, was wir machen.
 
 0:05:54.310,0:05:55.800
-Damit hätten wir dann unsere erste Instanz
-fertig.
+Damit hätten wir dann
+unsere erste Instanz fertig.
 
 0:05:55.800,0:06:03.020
-Das ist der Transporter, und wir können mit
-dem nächsten beliebig weitermachen.
+Das ist der Transporter, und wir können
+mit dem nächsten beliebig weitermachen.
 
 0:06:03.020,0:06:06.780
 Wir können jetzt hier zum Beispiel mit dem
@@ -289,16 +291,16 @@ Wir gucken erst mal hier rein. Das Attribut
 ist einmal weight, was ein Float ist.
 
 0:06:11.490,0:06:14.889
-Es erbt von MotorizedVehicle, kriegt also
-auch ein licenseplate.
+Es erbt von MotorizedVehicle,
+kriegt also auch ein licenseplate.
 
 0:06:14.889,0:06:19.029
-Und MotorizedVehicle erbt wieder von RentableVehicle,
-kriegt also auch ein model.
+Und MotorizedVehicle erbt wieder von
+RentableVehicle, kriegt also auch ein model.
 
 0:06:19.029,0:06:23.460
-Also können wir zum Beispiel eine Instanz
-nehmen, mycar.
+Also können wir zum Beispiel
+eine Instanz nehmen, mycar.
 
 0:06:23.460,0:06:29.360
 Die Klasse, die damit instanziiert wird, ist
@@ -315,8 +317,8 @@ ist es in der Reihenfolge des erstgeerbten
 Attributes angegeben.
 
 0:06:40.819,0:06:45.210
-Aber die Reihenfolge der Attribute ist hier
-nicht unbedingt so wichtig.
+Aber die Reihenfolge der Attribute
+ist hier nicht unbedingt so wichtig.
 
 0:06:45.210,0:06:48.629
 Und das machen wir jetzt für alle anderen.
@@ -326,20 +328,20 @@ Motorcycle funktioniert im Endeffekt genauso,
 denn Motorcycle erbt auch von MotorizedVehicle
 
 0:06:55.569,0:06:59.120
-und von RentableVehicle, also ändert sich
-da nicht wirklich etwas.
+und von RentableVehicle, also ändert
+sich da nicht wirklich etwas.
 
 0:06:59.120,0:07:03.009
-Außer natürlich das Attribut, was spezifisch
-von Motorcycle ist.
+Außer natürlich das Attribut, was
+spezifisch von Motorcycle ist.
 
 0:07:03.009,0:07:09.399
-Was ja in dem Fall weder weight noch height
-hat, sondern maxSpeed als Int.
+Was ja in dem Fall weder weight noch
+height hat, sondern maxSpeed als Int.
 
 0:07:09.399,0:07:13.509
-Also haben wir hier unten maxSpeed als Int,
-kein Float aus Versehen.
+Also haben wir hier unten maxSpeed
+als Int, kein Float aus Versehen.
 
 0:07:13.509,0:07:15.800
 Also 220 haben wir hier angegeben.
@@ -360,8 +362,8 @@ das kriegt dann model. Das heißt, für MotorizedVehicle
 haben wir zum Beispiel so etwas hier unten.
 
 0:07:34.949,0:07:40.979
-Das ist ein mv : MotorizedVehicle, model = BMW,
-licenseplate = DU-D1.
+Das ist ein mv : MotorizedVehicle,
+model = BMW, licenseplate = DU-D1.
 
 0:07:40.979,0:07:47.229
 Für RentableVehicle ist es nochmal einfacher.
@@ -375,8 +377,8 @@ nichts und kriegt keine weiteren Attribute
 von irgendwo anders her.
 
 0:07:56.839,0:08:01.150
-Zuletzt haben wir dann noch das Bicycle, was
-ein bisschen heraussticht.
+Zuletzt haben wir dann noch das
+Bicycle, was ein bisschen heraussticht.
 
 0:08:01.150,0:08:06.559
 Das erbt nur von RentableVehicle und hat mit
@@ -386,8 +388,8 @@ MotorizedVehicle und nichts anderem etwas
 zu tun.
 
 0:08:07.559,0:08:10.710
-Das heißt, hier brauchen wir nur hasLights
-und das model.
+Das heißt, hier brauchen wir
+nur hasLights und das model.
 
 0:08:10.710,0:08:18.490
 Also zum Beispiel sowas hier, model = HotWheels,
@@ -400,8 +402,8 @@ und size = 11 als Int.
 Und damit haben wir dann diese Aufgabe erfüllt.
 
 0:08:24.990,0:08:31.580
-Denn in diesem Klassendiagramm ist sonst keinerlei
-Verbindung außer Vererbung angegeben.
+Denn in diesem Klassendiagramm ist sonst
+keinerlei Verbindung außer Vererbung angegeben.
 
 0:08:31.580,0:08:35.289
 Das heißt, wir müssen auch hier in unserem

@@ -7,8 +7,8 @@ We would like to implement
 this in a state diagram.
 
 00:00:07,770 --> 00:00:15,720
-And using this example, I will then
-explain the individual basic elements of statecharts.
+And using this example, I will then explain
+the individual basic elements of statecharts.
 
 00:00:15,720 --> 00:00:21,330
 We'll start by
@@ -31,8 +31,8 @@ to develop individual components of
 the overall state space step by step.
 
 00:00:37,680 --> 00:00:43,020
-And we start with the minute
-display or actually the minute counter.
+And we start with the minute display
+or actually the minute counter.
 
 00:00:45,300 --> 00:00:49,410
 There are 60 minute states: from 0-59.
@@ -46,15 +46,15 @@ still a little bit
 like a flat state diagram.
 
 00:00:57,990 --> 00:01:02,910
-But later it will appear
-nested in a larger state diagram,
+But later it will appear nested
+in a larger state diagram,
 
 00:01:02,910 --> 00:01:03,840
 and then it won't be flat anymore.
 
 00:01:03,840 --> 00:01:08,160
-So first of all, just
-intuitively, what's the syntax here?
+So first of all, just intuitively,
+what's the syntax here?
 
 00:01:08,160 --> 00:01:10,290
 One difference to flat statecharts is
@@ -67,8 +67,8 @@ ways to represent the states.
 Here there are these states.
 
 00:01:15,780 --> 00:01:21,090
-These would be these
-rectangles with rounded corners here.
+These would be these rectangles
+with rounded corners here.
 
 00:01:21,090 --> 00:01:24,080
 These would be the simplest
@@ -208,8 +208,8 @@ diagram, while there can
 be only one start state.
 
 00:03:42,540 --> 00:03:47,610
-Or later only one
-per level or subdivided substate.
+Or later only one per level
+or subdivided substate.
 
 00:03:47,610 --> 00:03:52,950
 And in fact, this
@@ -224,8 +224,8 @@ It can also be, as in our example,
 that there are no final states at all.
 
 00:04:00,720 --> 00:04:03,150
-This is the case when we
-want to model a system that is
+This is the case when we want
+to model a system that is
 
 00:04:03,150 --> 00:04:04,470
 not supposed to terminate at all.
@@ -239,8 +239,8 @@ That is why there
 is no final state there.
 
 00:04:11,010 --> 00:04:12,510
-Then there is the
-notation for these transitions/arrows.
+Then there is the notation
+for these transitions/arrows.
 
 00:04:13,920 --> 00:04:17,310
 In the simplest case simply
@@ -253,8 +253,8 @@ These are also called transitions.
 On the one hand this is a
 
 00:04:22,620 --> 00:04:25,890
-bit awkward, because in Petri
-nets transitions already have a meaning.
+bit awkward, because in Petri nets
+transitions already have a meaning.
 
 00:04:25,890 --> 00:04:28,710
 But it is the case
@@ -268,12 +268,12 @@ completely different from the concept
 of transitions in Petri nets.
 
 00:04:37,530 --> 00:04:42,510
-It is also about creating
-a connection between two states.
+It is also about creating a
+connection between two states.
 
 00:04:42,510 --> 00:04:48,810
-In the Petri net between two places,
-or the transport of marks between places.
+In the Petri net between two places, or
+the transport of marks between places.
 
 00:04:49,470 --> 00:04:51,480
 But a transition is simply this arrow.
@@ -290,8 +290,8 @@ a label on this arrow.
 That's where the trigger can be.
 
 00:05:00,270 --> 00:05:03,630
-We have already seen
-that, such a triggering event.
+We have already seen that,
+such a triggering event.
 
 00:05:03,630 --> 00:05:06,240
 Or simply a label.
@@ -303,15 +303,15 @@ There can also be conditions.
 These can be logical statements.
 
 00:05:10,830 --> 00:05:13,320
-A bit like in activity
-diagrams with the branching nodes.
+A bit like in activity diagrams
+with the branching nodes.
 
 00:05:13,320 --> 00:05:14,970
 And there can be an effect.
 
 00:05:14,970 --> 00:05:18,060
-We'll see what's involved there in a
-moment, and how we can use that.
+We'll see what's involved there in
+a moment, and how we can use that.
 
 00:05:18,060 --> 00:05:19,920
 These two parts are optional, though.
@@ -323,8 +323,8 @@ We just had triggers in the example.
 There was this statement:
 
 00:05:23,310 --> 00:05:25,380
-"After 1 minute each, a transition should
-take place."
+"After 1 minute each, a
+transition should take place."
 
 00:05:26,220 --> 00:05:29,340
 The trigger would be something
@@ -341,12 +341,12 @@ thereby causing that transition.
 In this case, the passing of 1 minute.
 
 00:05:35,880 --> 00:05:43,110
-The condition can
-be something supervisory, a guard.
+The condition can be something
+supervisory, a guard.
 
 00:05:43,110 --> 00:05:52,780
-And what may occur there can depend on different properties
-of the system.
+And what may occur there can depend
+on different properties of the system.
 
 00:05:52,780 --> 00:05:55,750
 We will be using guards less often.
@@ -359,19 +359,19 @@ That is generally something
 that triggers this transition.
 
 00:06:03,070 --> 00:06:06,670
-We will see later that this
-can then trigger transitions in other parts
+We will see later that this can then
+trigger transitions in other parts
 
 00:06:06,670 --> 00:06:09,100
 of the state diagram, for example.
 
 00:06:09,100 --> 00:06:13,870
-In the example so far, the
-minutes display, there is only the trigger.
+In the example so far, the minutes
+display, there is only the trigger.
 
 00:06:13,870 --> 00:06:18,490
-Simply this specification of a period of
-time after which the transition has to trigger.
+Simply this specification of a period of time
+after which the transition has to trigger.
 
 00:06:18,490 --> 00:06:26,590
 Later, this trigger can also be
@@ -382,16 +382,16 @@ effect in another part
 of the state diagram.
 
 00:06:30,550 --> 00:06:39,340
-We will see this after
-a few more observations and slides.
+We will see this after a few
+more observations and slides.
 
 00:06:39,340 --> 00:06:44,200
 There will rather be no label
 at the arrow from the start
 
 00:06:44,200 --> 00:06:47,860
-state, but really only at
-the transitions between normal states.
+state, but really only at the
+transitions between normal states.
 
 00:06:47,860 --> 00:06:48,970
 Not at the start state.
@@ -401,8 +401,8 @@ At arrows to the final state
 there could well be such labeling.
 
 00:06:53,320 --> 00:06:59,320
-But primarily we will have that
-at the transition between normal simple states.
+But primarily we will have that at the
+transition between normal simple states.
 
 00:07:06,310 --> 00:07:13,130
 Then there are actions
@@ -413,37 +413,37 @@ Not at the transition between
 states, but in the states themselves.
 
 00:07:18,860 --> 00:07:25,910
-Until now, a state was simply
-a box with no other internal structure.
+Until now, a state was simply a box
+with no other internal structure.
 
 00:07:25,910 --> 00:07:29,480
 In fact, in the UML state diagram,
 
 00:07:29,480 --> 00:07:32,720
-actions can be triggered
-in the simple states themselves.
+actions can be triggered in
+the simple states themselves.
 
 00:07:32,720 --> 00:07:36,560
 Or activities can be annotated.
 
 00:07:36,560 --> 00:07:39,830
-Which should be triggered
-respectively when entering, when staying
+Which should be triggered respectively
+when entering, when staying
 
 00:07:39,830 --> 00:07:41,540
 in the state, or when leaving.
 
 00:07:41,540 --> 00:07:44,300
-We will use this in a moment
-for the beeping in our state diagram.
+We will use this in a moment for
+the beeping in our state diagram.
 
 00:07:44,300 --> 00:07:51,590
 In principle, the structure of these is
 the same as the labeling of transitions.
 
 00:07:51,590 --> 00:07:54,950
-There can be a trigger, there can
-be conditions, there can be an effect.
+There can be a trigger, there can be
+conditions, there can be an effect.
 
 00:07:54,950 --> 00:07:58,820
 The trigger here
@@ -453,16 +453,16 @@ is something that describes
 at what time this effect should occur.
 
 00:08:03,260 --> 00:08:07,899
-Namely exactly this: when
-entering, while staying, when leaving.
+Namely exactly this: when entering,
+while staying, when leaving.
 
 00:08:07,899 --> 00:08:12,080
-That means the trigger
-can take these three forms.
+That means the trigger can
+take these three forms.
 
 00:08:12,080 --> 00:08:15,260
-So the effect, which is written
-here, is triggered when entering the state.
+So the effect, which is written here,
+is triggered when entering the state.
 
 00:08:15,260 --> 00:08:21,740
 An activity should take place while
@@ -473,8 +473,8 @@ Or something should happen when
 the system leaves the state.
 
 00:08:28,520 --> 00:08:32,150
-Activity is to be understood here
-quite in the sense of activity diagrams.
+Activity is to be understood here quite
+in the sense of activity diagrams.
 
 00:08:32,150 --> 00:08:33,140
 This could be, for example, that
@@ -484,8 +484,8 @@ an activity diagram is embedded
 in such a state diagram.
 
 00:08:37,520 --> 00:08:43,460
-That is supposed to run while
-the overall system is in said state.
+That is supposed to run while the
+overall system is in said state.
 
 00:08:43,460 --> 00:08:47,330
 We will not do that.
@@ -517,8 +517,8 @@ this activity called "beep".
 That's not specified further.
 
 00:09:09,800 --> 00:09:15,050
-This is simply an activity
-that is perhaps described separately.
+This is simply an activity that
+is perhaps described separately.
 
 00:09:15,050 --> 00:09:17,270
 We don't give any further structure here.
@@ -528,8 +528,8 @@ And it should be triggered
 whenever the state zero is entered.
 
 00:09:21,610 --> 00:09:24,400
-What before was just
-this very simple state, rectangle
+What before was just this
+very simple state, rectangle
 
 00:09:24,400 --> 00:09:27,130
 with rounded corners, where 0 was inside.
@@ -538,12 +538,12 @@ with rounded corners, where 0 was inside.
 Now it gets an inner structure.
 
 00:09:28,300 --> 00:09:31,720
-This is noted in such a way
-that there is still the label zero.
+This is noted in such a way that
+there is still the label zero.
 
 00:09:31,720 --> 00:09:35,050
-And also the outer form is
-still this rectangle with rounded corners.
+And also the outer form is still
+this rectangle with rounded corners.
 
 00:09:35,050 --> 00:09:38,080
 But inside the state
@@ -557,8 +557,8 @@ effect/activity sound signal should be triggered.
 I.e., we need a syntax for these states.
 
 00:09:49,840 --> 00:09:53,650
-Unlike flat state diagrams, where states
-were simply nodes with a name.
+Unlike flat state diagrams, where
+states were simply nodes with a name.
 
 00:09:53,650 --> 00:09:55,870
 And nothing else could happen in there.
@@ -567,8 +567,8 @@ And nothing else could happen in there.
 That would be the minute display.
 
 00:10:03,040 --> 00:10:09,790
-Along with the beeping whenever the
-zero-minute state is entered.
+Along with the beeping whenever
+the zero-minute state is entered.
 
 00:10:09,790 --> 00:10:11,890
 What about the hour display?
@@ -598,20 +598,20 @@ From the set of all minutes 0-59
 and the set of all hours 0-24.
 
 00:10:37,510 --> 00:10:41,680
-Then each state would be a
-pair of one minute and one hour.
+Then each state would be a pair
+of one minute and one hour.
 
 00:10:41,680 --> 00:10:46,420
 This is exactly what is also
 visible here in such a display.
 
 00:10:46,420 --> 00:10:50,320
-Here is ultimately a pair of a
-number of hours and a number of minutes.
+Here is ultimately a pair of a number
+of hours and a number of minutes.
 
 00:10:50,320 --> 00:10:55,090
-But 24 × 60, that would be already
-very many such pairs which one can form.
+But 24 × 60, that would be already very
+many such pairs which one can form.
 
 00:10:55,090 --> 00:10:55,840
 We do not want that.
@@ -658,8 +658,8 @@ into at least two (possibly more)
 areas that run parallel to each other.
 
 00:11:36,000 --> 00:11:40,470
-So that the system is then in
-a sub-state in each of these regions.
+So that the system is then in a
+sub-state in each of these regions.
 
 00:11:42,120 --> 00:11:43,740
 Our example will just allow this
@@ -680,8 +680,8 @@ Which would result in over
 1000 states by cross product.
 
 00:12:01,920 --> 00:12:05,460
-Which is why these
-regions are also semantically much
+Which is why these regions
+are also semantically much
 
 00:12:06,450 --> 00:12:09,030
 more effective than areas
@@ -692,16 +692,16 @@ Where I had said, we draw those
 in to get a grouping of actions.
 
 00:12:15,870 --> 00:12:17,760
-But beyond that, they
-don't have any particular meaning.
+But beyond that, they don't
+have any particular meaning.
 
 00:12:17,760 --> 00:12:23,640
-With regions in state diagrams, what
-they do is very significant.
+With regions in state diagrams,
+what they do is very significant.
 
 00:12:23,640 --> 00:12:27,840
-Namely, that the state diagram is
-actually always, in this specific case, in two
+Namely, that the state diagram is actually
+always, in this specific case, in two
 
 00:12:27,840 --> 00:12:29,370
 states at the same time.
@@ -710,12 +710,12 @@ states at the same time.
 In each region in one.
 
 00:12:31,980 --> 00:12:37,320
-Because it corresponds to parallelism, it
-has rather a bit of the
+Because it corresponds to parallelism,
+it has rather a bit of the
 
 00:12:37,320 --> 00:12:42,210
-character that you get
-with activity diagrams by forking.
+character that you get with
+activity diagrams by forking.
 
 00:12:47,160 --> 00:12:53,010
 These regions are parallel in the sense
@@ -726,8 +726,8 @@ If two regions are parallel,
 there can be no transitions
 
 00:12:55,890 --> 00:13:01,050
-that move from a state of one
-region to a state of the other region.
+that move from a state of one region
+to a state of the other region.
 
 00:13:01,050 --> 00:13:04,890
 I cannot go from a minute state
@@ -736,31 +736,31 @@ I cannot go from a minute state
 by some trigger into an hour state.
 
 00:13:07,710 --> 00:13:11,880
-What can happen, on the other
-hand, is that the minute and hour counters
+What can happen, on the other hand,
+is that the minute and hour counters
 
 00:13:11,880 --> 00:13:15,300
 progress in parallel at the same time.
 
 00:13:15,300 --> 00:13:19,530
-So if a trigger occurs in
-both regions, it can also cause state
+So if a trigger occurs in both
+regions, it can also cause state
 
 00:13:19,530 --> 00:13:25,350
 changes in both regions in
 one step at the same time.
 
 00:13:29,160 --> 00:13:32,610
-But there is no
-transition between two parallel regions.
+But there is no transition
+between two parallel regions.
 
 00:13:32,610 --> 00:13:38,130
 There can be a transition from one
 region to a region not parallel to it.
 
 00:13:38,130 --> 00:13:42,390
-That is, a region shown
-somewhere completely else in the state diagram.
+That is, a region shown somewhere
+completely else in the state diagram.
 
 00:13:42,390 --> 00:13:45,734
 But not between two
@@ -777,8 +777,8 @@ How are these regions plotted?
 As follows.
 
 00:13:59,820 --> 00:14:04,980
-What we have now is that we
-decompose the overall system into two regions.
+What we have now is that we decompose
+the overall system into two regions.
 
 00:14:04,980 --> 00:14:10,440
 That's expressed by this dividing line.
@@ -799,8 +799,8 @@ What was previously our
 entire state diagram,
 
 00:14:24,960 --> 00:14:28,470
-for the minute counter, is now
-simply one of the two parallel regions.
+for the minute counter, is now simply
+one of the two parallel regions.
 
 00:14:28,470 --> 00:14:31,170
 And the other region
@@ -844,12 +844,12 @@ It's just within a region that a name
 is not allowed to appear more than once.
 
 00:15:01,020 --> 00:15:05,820
-And what you also see is that
-here, of course, other triggers are assigned.
+And what you also see is that here, of
+course, other triggers are assigned.
 
 00:15:05,820 --> 00:15:09,330
-We don't want to change the
-hour state after 1 minute as well.
+We don't want to change the hour
+state after 1 minute as well.
 
 00:15:09,330 --> 00:15:14,130
 Instead, we want an hour transition
@@ -866,27 +866,27 @@ It will be triggered whenever one
 hour is full in the minutes region.
 
 00:15:22,440 --> 00:15:27,930
-So at the transition from 59 minutes to
-0 minutes again, there is an hour transition.
+So at the transition from 59 minutes to 0
+minutes again, there is an hour transition.
 
 00:15:27,930 --> 00:15:35,010
-Which then simultaneously causes a
-progression in the hour count.
+Which then simultaneously causes
+a progression in the hour count.
 
 00:15:35,010 --> 00:15:40,380
 This is a
 communication between two regions.
 
 00:15:40,380 --> 00:15:45,390
-But not by transitions, so not an
-arrow that would cross this region border.
+But not by transitions, so not an arrow
+that would cross this region border.
 
 00:15:45,390 --> 00:15:47,880
 But by this "remote triggering"
 
 00:15:47,880 --> 00:15:52,920
-of an effect, which corresponds to
-a trigger in the other region.
+of an effect, which corresponds
+to a trigger in the other region.
 
 00:15:59,880 --> 00:16:01,620
 A few more remarks.
@@ -915,8 +915,8 @@ state would be 0 hours, 0 minutes.
 Time 00:00.
 
 00:16:20,640 --> 00:16:24,090
-And hour and minute
-indicators do not work independently.
+And hour and minute indicators
+do not work independently.
 
 00:16:24,090 --> 00:16:25,500
 Parallel, but not completely independent.
@@ -936,8 +936,8 @@ This is supposed to stand
 for "hour".
 
 00:16:40,500 --> 00:16:45,840
-This effect h ensures, as
-a trigger in the parallel region,
+This effect h ensures, as a
+trigger in the parallel region,
 
 00:16:45,840 --> 00:16:48,120
 that the hours are counted up.
@@ -969,8 +969,8 @@ Then there's this
 aspect of alarm setting.
 
 00:17:35,950 --> 00:17:38,440
-We would like to add to
-our state diagram the ability to
+We would like to add to our
+state diagram the ability to
 
 00:17:40,030 --> 00:17:43,240
 turn off and on that hourly alarm signal.
@@ -998,8 +998,8 @@ of the state diagram
 that deals with time.
 
 00:18:05,860 --> 00:18:12,160
-By also bringing in
-this alarm on/off property here.
+By also bringing in this
+alarm on/off property here.
 
 00:18:12,160 --> 00:18:13,780
 We would like to be modular.
@@ -1009,8 +1009,8 @@ What we have so
 far should still be usable.
 
 00:18:17,020 --> 00:18:25,120
-And separately there should
-be this alarm on/off possibility.
+And separately there should be
+this alarm on/off possibility.
 
 00:18:27,400 --> 00:18:31,630
 So we can imagine we have
@@ -1024,20 +1024,20 @@ By pressing button
 'a', you should get there.
 
 00:18:39,160 --> 00:18:43,420
-And we should be able to switch between these
-two states, alarm on or alarm off, by pressing 'b'.
+And we should be able to switch between these two
+states, alarm on or alarm off, by pressing 'b'.
 
 00:18:46,000 --> 00:18:54,580
 If we look at our stylized
 picture of the clock, we see that
 
 00:18:54,580 --> 00:18:59,230
-we would then need quite a
-lot of transitions labeled with 'a'.
+we would then need quite a lot
+of transitions labeled with 'a'.
 
 00:18:59,230 --> 00:19:03,610
-Which would have to go out
-from all possible hour and minute states.
+Which would have to go out from all
+possible hour and minute states.
 
 00:19:03,610 --> 00:19:06,340
 If we have 00:00, then it
@@ -1047,16 +1047,16 @@ must be possible to press 'a'
 to get into the alarm display.
 
 00:19:08,530 --> 00:19:10,540
-If we have 00:01, it
-would also have to be possible.
+If we have 00:01, it would
+also have to be possible.
 
 00:19:10,540 --> 00:19:14,050
 In fact, for every combination
 of hour and minute we
 
 00:19:14,050 --> 00:19:19,390
-would have to have an 'a'-
-transition to go into the alarm state.
+would have to have an 'a'- transition
+to go into the alarm state.
 
 00:19:20,950 --> 00:19:22,090
 That would not be very modular.
@@ -1073,8 +1073,8 @@ to bring in this alarm aspect.
 What can we do instead?
 
 00:19:37,390 --> 00:19:42,070
-There is a solution for that in
-UML state diagrams in the form of composite states.
+There is a solution for that in UML state
+diagrams in the form of composite states.
 
 00:19:43,390 --> 00:19:50,920
 Hierarchies of states where incoming and
@@ -1085,8 +1085,8 @@ Instead of having to add a lot of transitions,
 because each combination of states in
 
 00:20:02,980 --> 00:20:09,040
-one composite state needs to
-have a separate transition into another component.
+one composite state needs to have a
+separate transition into another component.
 
 00:20:10,030 --> 00:20:11,020
 It's very abstract now.
@@ -1104,8 +1104,8 @@ We can take what we have so far as our
 time count and treat it as one composite state.
 
 00:20:25,660 --> 00:20:34,090
-And capture the alarm
-aspect in another composite state.
+And capture the alarm aspect
+in another composite state.
 
 00:20:34,090 --> 00:20:35,830
 There is the time display here.
@@ -1114,8 +1114,8 @@ There is the time display here.
 And that's modeled this way.
 
 00:20:39,130 --> 00:20:41,980
-And there's the alarm
-display, it's modeled like this.
+And there's the alarm display,
+it's modeled like this.
 
 00:20:41,980 --> 00:20:43,390
 There is on and off.
@@ -1129,12 +1129,12 @@ And there is button 'a', which switches
 between the alarm display and the time display.
 
 00:20:54,280 --> 00:20:59,410
-That then corresponds to being able to
-switch between the time and the alarm display.
+That then corresponds to being able to switch
+between the time and the alarm display.
 
 00:20:59,410 --> 00:21:04,210
-And 'b' is to switch between
-on and off in the alarm display.
+And 'b' is to switch between on
+and off in the alarm display.
 
 00:21:05,770 --> 00:21:11,080
 The advantage here is, we can just
@@ -1145,8 +1145,8 @@ and describe this alarm component
 as a separate component.
 
 00:21:20,970 --> 00:21:22,890
-The one on the right,
-what was previously our entire
+The one on the right, what
+was previously our entire
 
 00:21:22,890 --> 00:21:25,350
 state chart, is now
@@ -1165,8 +1165,8 @@ There's a start state
 for each component here.
 
 00:21:34,590 --> 00:21:37,950
-And there is also a start
-state for the whole state diagram.
+And there is also a start state
+for the whole state diagram.
 
 00:21:37,950 --> 00:21:43,410
 Initially, the time display and not
@@ -1180,8 +1180,8 @@ not start from sub-states,
 but from the whole composite state here.
 
 00:21:56,190 --> 00:22:04,290
-This saves us the
-otherwise necessary many 'a'-labeled transitions,
+This saves us the otherwise necessary
+many 'a'-labeled transitions,
 
 00:22:04,290 --> 00:22:06,390
 which we would potentially
@@ -1195,8 +1195,8 @@ First, the states with regions
 are of course also composite.
 
 00:22:15,720 --> 00:22:19,050
-And this is in the sense
-that they are composed of regions,
+And this is in the sense that
+they are composed of regions,
 
 00:22:19,050 --> 00:22:21,210
 rather than
@@ -1206,12 +1206,12 @@ being hierarchically composed.
 A regions state is also composite,
 
 00:22:27,090 --> 00:22:31,290
-but in a different way than
-this state which is hierarchically composed.
+but in a different way than this state
+which is hierarchically composed.
 
 00:22:31,290 --> 00:22:35,250
-Not by regions, but
-simply by having multiple sub-states.
+Not by regions, but simply by
+having multiple sub-states.
 
 00:22:35,250 --> 00:22:44,520
 And to distinguish this more clearly,
@@ -1221,12 +1221,12 @@ in the following I will generally not
 speak of composite states in general.
 
 00:22:47,700 --> 00:22:52,650
-Instead, I will speak of hierarchical states on the
-one hand and regions states on the other.
+Instead, I will speak of hierarchical states on
+the one hand and regions states on the other.
 
 00:22:52,650 --> 00:22:56,970
-Hierarchical states will be something like
-what you see here on the left.
+Hierarchical states will be something
+like what you see here on the left.
 
 00:22:56,970 --> 00:23:01,320
 Just any nested states.
@@ -1236,8 +1236,8 @@ This can also have
 multiple levels of nesting.
 
 00:23:04,110 --> 00:23:08,280
-Region states will be those
-that consist of multiple regions.
+Region states will be those that
+consist of multiple regions.
 
 00:23:08,280 --> 00:23:14,040
 So indicated with such a dashed line.

@@ -12,8 +12,8 @@ möchte ich in diesem Video zunächst einige
 mathematische Hilfsmittel/Begriffe einführen,
 
 00:00:23,370 --> 00:00:25,020
-bzw. ich hoffe, für die
-meisten von Ihnen zu wiederholen.
+bzw. ich hoffe, für die meisten
+von Ihnen zu wiederholen.
 
 00:00:25,020 --> 00:00:27,960
 Also das wären einfache
@@ -38,15 +38,15 @@ Vorlesung Mathematische Strukturen sind.
 Ich denke, auch für die Informatik-Studierenden
 
 00:00:49,470 --> 00:00:55,860
-dürfte einiges recht ähnlich
-schon dran gewesen sein (etwa in der Logik-Vorlesung).
+dürfte einiges recht ähnlich schon dran
+gewesen sein (etwa in der Logik-Vorlesung).
 
 00:00:55,860 --> 00:00:58,650
 Und auch für die ISE-Studierenden sollten
 
 00:00:58,650 --> 00:01:02,040
-diese Begriffe zum Beispiel aus der Diskreten Mathematik
-bekannt sein.
+diese Begriffe zum Beispiel aus der
+Diskreten Mathematik bekannt sein.
 
 00:01:02,040 --> 00:01:07,500
 Ich wiederhole dennoch, einfach damit
@@ -56,7 +56,8 @@ Sie auch die Notation genau so sehen,
 wie ich sie in den weiteren Folien haben werde.
 
 00:01:09,660 --> 00:01:14,340
-Falls Sie merken, dass Sie das schon alles wissen,
+Falls Sie merken, dass Sie
+das schon alles wissen,
 
 00:01:14,340 --> 00:01:18,090
 dürfen Sie dieses Video
@@ -66,8 +67,8 @@ natürlich auch überspringen.
 Wir werden es mit Mengen zu tun haben.
 
 00:01:25,895 --> 00:01:29,450
-Also Mengen werden in
-der Formalisierung von Petrinetzen vorkommen.
+Also Mengen werden in der Formalisierung
+von Petrinetzen vorkommen.
 
 00:01:29,450 --> 00:01:34,940
 Und Mengen kennen Sie mindestens aus der Schule
@@ -177,8 +178,8 @@ Dies einfach als Möglichkeiten,
 Mengen aufzuschreiben.
 
 00:03:21,790 --> 00:03:36,580
-Wichtig für die Betrachtung von Mengen ist,
-dass Mengen ungeordnet sind, und auch
+Wichtig für die Betrachtung von Mengen
+ist, dass Mengen ungeordnet sind, und auch
 
 00:03:36,580 --> 00:03:43,780
 die Anzahl der Elemente, also das Auftreten
@@ -252,8 +253,8 @@ Also ein Element a ist in der
 Menge, wenn es eben darin vorkommt.
 
 00:04:53,770 --> 00:04:57,790
-Und dieses Elementzeichen
-ist eben die Abkürzung dafür.
+Und dieses Elementzeichen ist
+eben die Abkürzung dafür.
 
 00:04:57,790 --> 00:05:05,950
 Dann brauchen wir manchmal zum Zählen
@@ -358,8 +359,8 @@ Bei der Vereinigung geht es
 darum, Mengen zusammenzuwerfen.
 
 00:06:54,530 --> 00:06:59,810
-Also die Ergebnismenge hier ist die Menge aller
-Elemente, die in A oder in B vorkommen.
+Also die Ergebnismenge hier ist die Menge
+aller Elemente, die in A oder in B vorkommen.
 
 00:07:01,880 --> 00:07:07,400
 Die Ergebnismenge kann nicht kleiner
@@ -467,8 +468,8 @@ und B als das Produkt der Anzahlen der
 Elemente dieser beiden Einzelmengen.
 
 00:09:29,140 --> 00:09:32,680
-Weil wir jedes Element aus dieser Menge mit
-jedem Element aus dieser paaren können.
+Weil wir jedes Element aus dieser Menge
+mit jedem Element aus dieser paaren können.
 
 00:09:32,680 --> 00:09:37,540
 Da gibt es genau diese sechs Paare in dem Fall.
@@ -590,7 +591,8 @@ n = 4, n = 5 gibt es noch
 spezielle Bezeichnungen dafür.
 
 00:11:58,050 --> 00:12:03,180
-Natürlich sind Tupel nicht das Gleiche wie Mengen.
+Natürlich sind Tupel nicht
+das Gleiche wie Mengen.
 
 00:12:03,180 --> 00:12:04,050
 Also wirklich wichtig:
@@ -859,8 +861,8 @@ Die können unabhängig voneinander leuchten:
 Es kann keine der beiden leuchten,
 
 00:17:20,490 --> 00:17:24,240
-oder dass die gelbe an ist oder dass
-die rote an ist, oder dass beide an sind.
+oder dass die gelbe an ist oder dass die
+rote an ist, oder dass beide an sind.
 
 00:17:25,770 --> 00:17:28,830
 Was wäre die Menge aller möglichen
@@ -937,7 +939,8 @@ könnte man ansehen als das kartesische
 Produkt aus der Potenzmenge der Menge \{gelb,
 
 00:18:40,110 --> 00:18:42,720
-rot\} (das ist eine Menge von zwei Farben einfach)
+rot\} (das ist eine Menge
+von zwei Farben einfach)
 
 00:18:42,720 --> 00:18:46,880
 und in den beiden anderen Komponenten
@@ -999,16 +1002,16 @@ Da würde man wegen des Kreuzprodukts die
 Multiplikation der Anzahl dieser Elemente,
 
 00:20:05,390 --> 00:20:08,510
-der Anzahl dieser Elemente und
-der Anzahl dieser Elemente kriegen.
+der Anzahl dieser Elemente und der
+Anzahl dieser Elemente kriegen.
 
 00:20:08,510 --> 00:20:12,650
 Und durch die Potenzmenge hier haben wir 2
 hoch Anzahl der Elemente in der inneren Menge.
 
 00:20:12,650 --> 00:20:16,460
-Und dann käme man insgesamt
-auf etwas in der Nähe von 4000:
+Und dann käme man insgesamt auf
+etwas in der Nähe von 4000:
 
 00:20:16,460 --> 00:20:19,880
 4 mal "mehr als 30" mal "mehr als 30".
@@ -1059,7 +1062,8 @@ Bei der Kurvendiskussion
 macht man was mit Funktionen.
 
 00:21:11,540 --> 00:21:15,050
-Aber es gibt auch den allgemeinen Funktionsbegriff
+Aber es gibt auch den
+allgemeinen Funktionsbegriff
 
 00:21:15,050 --> 00:21:17,450
 für beliebige Mengen und nicht
@@ -1271,7 +1275,8 @@ Begriffen für Knoten und Kanten.
 Diese Mengen dürften unendlich sein.
 
 00:25:25,420 --> 00:25:27,370
-Wir werden oft mit endlichen Graphen zu tun haben.
+Wir werden oft mit endlichen
+Graphen zu tun haben.
 
 00:25:27,370 --> 00:25:32,950
 Aber mengentheoretisch gesehen können insbesondere
@@ -1345,8 +1350,8 @@ Menge Kreuzprodukt mit der leeren
 Menge immer die leere Menge ist.
 
 00:26:53,900 --> 00:27:02,660
-Also die normalen Fälle sind schon, dass
-wir es mit nicht leeren Mengen zu tun haben.
+Also die normalen Fälle sind schon, dass wir
+es mit nicht leeren Mengen zu tun haben.
 
 00:27:02,660 --> 00:27:03,160
 Noch ein Beispiel:
@@ -1376,8 +1381,8 @@ Das ist eine Menge von Tripeln, wobei
 jeweils die erste Komponente aus V kommt,
 
 00:27:43,250 --> 00:27:47,060
-die zweite Komponente aus L
-und die dritte Komponente aus V.
+die zweite Komponente aus L und
+die dritte Komponente aus V.
 
 00:27:47,060 --> 00:27:53,210
 Und das können wir natürlich dann auch
@@ -1408,7 +1413,8 @@ Aber wichtig ist:
 Das hier oben ist ein Graph.
 
 00:28:26,520 --> 00:28:30,210
-Das hier unten ist als Bild irgendwie dargestellt.
+Das hier unten ist als
+Bild irgendwie dargestellt.
 
 00:28:30,210 --> 00:28:33,450
 Aber mathematisch gesehen ist das,
@@ -1426,8 +1432,8 @@ ist einfach so ein Paar aus
 Knoten- und Kantenmenge mit diesem Zusammenhang.
 
 00:28:48,300 --> 00:28:57,330
-Also genau genommen sind diese drei
-Mengen zusammen der Graph.
+Also genau genommen sind diese
+drei Mengen zusammen der Graph.
 
 00:28:57,330 --> 00:29:01,110
 Und das hier unten ist

@@ -1,6 +1,6 @@
 0:00:00.140,0:00:05.509
-In dieser Aufgabe geht es um die Kausalitäten
-von Petrinetzen.
+In dieser Aufgabe geht es um die
+Kausalitäten von Petrinetzen.
 
 0:00:05.509,0:00:13.310
 Dafür soll man sich die Petrinetze N1
@@ -14,12 +14,12 @@ im Sinne der Definition der Kausalität auf
 Folie 173 der Vorlesung angeben.
 
 0:00:21.060,0:00:24.619
-Also gucken wir uns einmal die Folie zur Vorlesung
-an.
+Also gucken wir uns einmal
+die Folie zur Vorlesung an.
 
 0:00:24.619,0:00:33.450
-Hier auf der Folie sehen wir die Definition
-von Kausalität.
+Hier auf der Folie sehen wir
+die Definition von Kausalität.
 
 0:00:33.450,0:00:38.170
 Diese lautet: In einem Petrinetz nennt man
@@ -30,8 +30,8 @@ für das Schalten der Transition t2 genau
 dann, wenn für alle Schaltfolgen von t gilt:
 
 0:00:44.809,0:00:53.370
-falls von der Startmarkierung aus ein t geschaltet
-werden muss, um t2 schalten zu können,
+falls von der Startmarkierung aus ein t
+geschaltet werden muss, um t2 schalten zu können,
 
 0:00:53.370,0:00:59.429
 um zu einer Markierung zu kommen für die
@@ -41,8 +41,8 @@ eine Markierung m, dann enthält t definitiv
 die Transition t1.
 
 0:01:01.370,0:01:07.460
-Das bedeutet, wir sollen das in dieser Aufgabe
-für alle Transitionen angeben.
+Das bedeutet, wir sollen das in dieser
+Aufgabe für alle Transitionen angeben.
 
 0:01:07.460,0:01:08.600
 Das ist ganz wichtig.
@@ -52,8 +52,8 @@ Das bedeutet, falls so eine Aufgabe in der
 Klausur drankommt, dass ihr das am besten
 
 0:01:14.500,0:01:16.799
-genauso aufschreibt, wie ich das jetzt gleich
-tue.
+genauso aufschreibt, wie
+ich das jetzt gleich tue.
 
 0:01:16.799,0:01:20.979
 Wir haben erstmal N1.
@@ -68,8 +68,8 @@ Jetzt habe ich Transitionen falsch geschrieben.
 Ich mache es nochmal.
 
 0:01:30.369,0:01:39.689
-Wir haben alle Transitionen, die
-wir durchgehen müssen.
+Wir haben alle Transitionen,
+die wir durchgehen müssen.
 
 0:01:39.689,0:01:43.539
 Und dann haben wir noch die notwendige Bedingung.
@@ -82,8 +82,8 @@ Und das legen wir jetzt nämlich als Tabelle
 an.
 
 0:01:56.049,0:02:02.450
-Und wir haben hier in diesem Petrinetz t1,
-t2, t3 und t4.
+Und wir haben hier in diesem
+Petrinetz t1, t2, t3 und t4.
 
 0:02:02.450,0:02:04.110
 Also das sind alle unsere Transitionen.
@@ -93,23 +93,23 @@ Also schreiben wir hier mal auf t1, t2, t3,
 t4.
 
 0:02:08.340,0:02:19.980
-Dann gucken wir uns jetzt an, ob es für t1
-eine Transition gibt, die von der Startmarkierung
+Dann gucken wir uns jetzt an, ob es für t1 eine
+Transition gibt, die von der Startmarkierung
 
 0:02:19.980,0:02:22.890
 aus schalten muss, damit t1 schalten kann.
 
 0:02:22.890,0:02:26.870
-Also gucken wir uns bei t1 an, ob t1 gerade
-schalten kann.
+Also gucken wir uns bei t1 an,
+ob t1 gerade schalten kann.
 
 0:02:26.870,0:02:30.580
-Die Vorbedingung ist, dass eine Marke aus
-s1 und eine aus s2 kommt.
+Die Vorbedingung ist, dass eine
+Marke aus s1 und eine aus s2 kommt.
 
 0:02:30.580,0:02:34.030
-Und wie man hier sieht, ist das von der Startmarkierung
-aus gegeben.
+Und wie man hier sieht, ist das von
+der Startmarkierung aus gegeben.
 
 0:02:34.030,0:02:38.849
 Das bedeutet, t1 kriegt eine Marke von s1 und
@@ -136,8 +136,8 @@ muss.
 Dann gucken wir uns t2 an.
 
 0:02:57.200,0:03:00.860
-t2 hat als Vorbedingung nur, dass eine Marke
-aus s1 kommt.
+t2 hat als Vorbedingung nur,
+dass eine Marke aus s1 kommt.
 
 0:03:00.860,0:03:03.400
 In der Startmarkierung gibt es eine Marke in s1.
@@ -159,20 +159,20 @@ Dann gucken wir uns t3 an.
 t3 ist hier.
 
 0:03:16.909,0:03:20.489
-t3 braucht zwei Marken aus s2, um schalten
-zu können.
+t3 braucht zwei Marken aus
+s2, um schalten zu können.
 
 0:03:20.489,0:03:23.530
-Jetzt sehen wir hier, dass in der Startmarkierung
-nur eine Marke ist.
+Jetzt sehen wir hier, dass in der
+Startmarkierung nur eine Marke ist.
 
 0:03:23.530,0:03:26.349
-Das bedeutet: Wie kriegen wir hier noch eine
-zweite Marke rein?
+Das bedeutet: Wie kriegen wir
+hier noch eine zweite Marke rein?
 
 0:03:26.349,0:03:31.720
-Wenn wir uns das genau angucken, dann kann
-zum Beispiel t2 hier schalten.
+Wenn wir uns das genau angucken, dann
+kann zum Beispiel t2 hier schalten.
 
 0:03:31.720,0:03:36.099
 Wenn t2 schaltet, dann wandert diese Marke
@@ -182,8 +182,8 @@ hier rüber und wir haben hier zwei Marken.
 Und dann kann t3 schalten.
 
 0:03:38.330,0:03:44.269
-Das bedeutet, von der Startmarkierung aus
-muss erst t2 geschaltet haben, damit t3 schalten
+Das bedeutet, von der Startmarkierung aus muss
+erst t2 geschaltet haben, damit t3 schalten
 
 0:03:44.269,0:03:45.269
 kann.
@@ -193,12 +193,12 @@ Das bedeutet in der notwendigen Bedingung
 für t3 haben wir als Menge t2 stehen.
 
 0:03:55.470,0:03:59.120
-Und dann gucken wir uns zu guter Letzt noch
-t4 an.
+Und dann gucken wir uns
+zu guter Letzt noch t4 an.
 
 0:03:59.120,0:04:04.659
-t4 braucht von der Startmarkierung aus als
-Vorbedingung eine Marke aus s3.
+t4 braucht von der Startmarkierung aus
+als Vorbedingung eine Marke aus s3.
 
 0:04:04.659,0:04:06.640
 Hier liegt eine Marke in s3 drin.
@@ -207,42 +207,42 @@ Hier liegt eine Marke in s3 drin.
 Also ist die notwendige Bedingung erfüllt.
 
 0:04:09.610,0:04:15.580
-Jetzt gucken wir uns das Gleiche noch einmal
-für N2 an.
+Jetzt gucken wir uns das
+Gleiche noch einmal für N2 an.
 
 0:04:15.580,0:04:22.790
-Ich gucke mal, ob ich das hier neben bekomme,
-damit man die noch sieht.
+Ich gucke mal, ob ich das hier neben
+bekomme, damit man die noch sieht.
 
 0:04:22.790,0:04:32.280
-Ich schreibe hier jetzt nur T für Transition
-und notwendige Bedingung (n.B.).
+Ich schreibe hier jetzt nur T für
+Transition und notwendige Bedingung (n.B.).
 
 0:04:32.280,0:04:42.200
-Wir haben hier wieder t1, t2, t3, t4 und sogar
-t5.
+Wir haben hier wieder t1,
+t2, t3, t4 und sogar t5.
 
 0:04:42.200,0:04:52.360
-Wir schreiben hier wieder die Transitionen
-hin: t1, t2, t3, t4 und t5.
+Wir schreiben hier wieder die
+Transitionen hin: t1, t2, t3, t4 und t5.
 
 0:04:52.360,0:04:57.460
 Ich ziehe das hier noch so ein bisschen runter.
 
 0:04:57.460,0:05:00.380
-Und jetzt gucken wir uns wieder die einzelnen
-Transitionen an.
+Und jetzt gucken wir uns wieder
+die einzelnen Transitionen an.
 
 0:05:00.380,0:05:02.750
 Das bedeutet, wir gucken uns t1 an.
 
 0:05:02.750,0:05:07.060
-t1 hat von der Startmarkierung die Vorbedingungen,
-dass eine Marke von s1 kommt.
+t1 hat von der Startmarkierung die
+Vorbedingungen, dass eine Marke von s1 kommt.
 
 0:05:07.060,0:05:10.540
-Hier in der Startmarkierung liegt eine Marke
-in s1 drin.
+Hier in der Startmarkierung
+liegt eine Marke in s1 drin.
 
 0:05:10.540,0:05:11.820
 Also kann t1 schalten.
@@ -254,12 +254,12 @@ Hier haben wir also wieder eine leere Menge.
 Für t2 gucken wir uns das an.
 
 0:05:17.830,0:05:20.600
-t2 hat als Vorbedingung, dass eine Marke aus
-s2 kommt.
+t2 hat als Vorbedingung, dass
+eine Marke aus s2 kommt.
 
 0:05:20.600,0:05:25.090
-Hier liegt eine Marke in der Startmarkierung
-drin. t2 kann also schalten.
+Hier liegt eine Marke in der
+Startmarkierung drin. t2 kann also schalten.
 
 0:05:25.090,0:05:27.420
 Also haben wir hier auch die leere Menge.
@@ -268,20 +268,20 @@ Also haben wir hier auch die leere Menge.
 Gucken wir uns t3 an.
 
 0:05:29.100,0:05:32.270
-t3 hat als Vorbedingung, dass eine Marke aus
-s3 kommt.
+t3 hat als Vorbedingung, dass
+eine Marke aus s3 kommt.
 
 0:05:32.270,0:05:35.050
-Allerdings liegt hier in der Startmarkierung
-keine drin.
+Allerdings liegt hier in der
+Startmarkierung keine drin.
 
 0:05:35.050,0:05:37.350
-Also müssen wir gucken, wie wir dort eine
-reinkriegen.
+Also müssen wir gucken, wie
+wir dort eine reinkriegen.
 
 0:05:37.350,0:05:42.100
-Eine kommt von t1, wenn t1 schaltet. t1 konnte
-ja schalten.
+Eine kommt von t1, wenn t1
+schaltet. t1 konnte ja schalten.
 
 0:05:42.100,0:05:43.740
 Das hatten wir hier schon aufgeschrieben.
@@ -297,8 +297,8 @@ und hier eine rausgehen.
 Und dann könnte t3 schalten.
 
 0:05:53.680,0:06:04.270
-Das bedeutet, t3 hat als Vorbedingung t1.
-Gucken wir uns t4 an.
+Das bedeutet, t3 hat als Vorbedingung
+t1. Gucken wir uns t4 an.
 
 0:06:04.270,0:06:06.950
 t4 ist hier unten.
@@ -331,12 +331,12 @@ Und dann könnte noch eine Marke hierhin.
 Und dann müsste noch t2 schalten.
 
 0:06:35.330,0:06:40.990
-Aber dann hätten wir t1, t2 und t3 geschaltet
-und hätten dann zwei Marken hier.
+Aber dann hätten wir t1, t2 und t3
+geschaltet und hätten dann zwei Marken hier.
 
 0:06:40.990,0:06:46.910
-Es gibt aber noch einen einfacheren Weg, nämlich
-den über t2. Transition t2 kann schon mal schalten, was
+Es gibt aber noch einen einfacheren Weg, nämlich den
+über t2. Transition t2 kann schon mal schalten, was
 
 0:06:46.910,0:06:48.330
 bedeutet, dass eine Marke hierüber wandert.
@@ -349,15 +349,16 @@ Und wenn wir dann vorher noch t1 schalten
 und hier eine Marke haben und dann nochmal
 
 0:06:56.330,0:06:59.300
-t2 schalten, dann haben wir hier auch zwei
-Marken.
+t2 schalten, dann haben
+wir hier auch zwei Marken.
 
 0:06:59.300,0:07:05.850
 Das bedeutet, man muss nicht unbedingt t3
 schalten, um hier zwei Marken hinzubekommen.
 
 0:07:05.850,0:07:09.580
-Man muss aber hundertprozentig t1 und t2 schalten.
+Man muss aber hundertprozentig
+t1 und t2 schalten.
 
 0:07:09.580,0:07:11.840
 Ich hoffe, das ist jetzt klar geworden.
@@ -381,8 +382,8 @@ notwendige Bedingung, weil es nicht notwendig
 ist, um hier zwei Marken reinzubekommen.
 
 0:07:33.460,0:07:37.270
-Und sobald wir hier zwei Marken haben, können
-wir dann t4 schalten.
+Und sobald wir hier zwei Marken
+haben, können wir dann t4 schalten.
 
 0:07:37.270,0:07:48.610
 Das bedeutet, t4 hat als Vorbedingung t1 und
@@ -392,16 +393,16 @@ t2, weil die wirklich beide notwendig sind,
 um das zu schalten.
 
 0:07:49.610,0:07:54.170
-Man kann auch nicht t2 umgehen, weil man dann
-t1 schalten müsste.
+Man kann auch nicht t2 umgehen,
+weil man dann t1 schalten müsste.
 
 0:07:54.170,0:07:56.560
 Dann würde hier eine Marke liegen und hier
 zwei.
 
 0:07:56.560,0:07:59.430
-Und wenn man dann t3 schaltet, würde hier
-eine liegen.
+Und wenn man dann t3 schaltet,
+würde hier eine liegen.
 
 0:07:59.430,0:08:01.160
 Aber t3 kann ja nicht nochmal schalten.
@@ -417,8 +418,8 @@ sein.
 Und dann gucken wir uns zuletzt noch t5 an.
 
 0:08:11.100,0:08:14.720
-t5 hat als Vorbedingung, dass eine Marke aus
-s1 kommt.
+t5 hat als Vorbedingung, dass
+eine Marke aus s1 kommt.
 
 0:08:14.720,0:08:16.870
 Wir haben eine Marke in s1 liegen.
@@ -427,8 +428,8 @@ Wir haben eine Marke in s1 liegen.
 Also ist das überhaupt kein Problem.
 
 0:08:18.610,0:08:23.430
-Mit anderen Worten hat t5 als notwendige Bedingung
-auch die leere Menge.
+Mit anderen Worten hat t5 als notwendige
+Bedingung auch die leere Menge.
 
 0:08:23.430,0:08:27.970
 Und das ist schon die Lösung dieser Aufgabe.

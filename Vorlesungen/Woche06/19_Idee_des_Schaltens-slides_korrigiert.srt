@@ -89,8 +89,8 @@ und dann diese klein ausgefüllten
 Kreise sind konkrete Ressourcen.
 
 00:01:35,820 --> 00:01:39,690
-Und davon könnten auch mehrere auf
-einem Platz liegen oder keine.
+Und davon könnten auch mehrere
+auf einem Platz liegen oder keine.
 
 00:01:39,690 --> 00:01:42,840
 Hier liegt jetzt jeweils eine
@@ -150,7 +150,8 @@ von Knoten in diesem Petrinetz-Graphen.
 Das sind die Rechtecke hier.
 
 00:02:36,640 --> 00:02:38,470
-Manchmal werde ich die auch als Quadrate zeichnen.
+Manchmal werde ich die
+auch als Quadrate zeichnen.
 
 00:02:39,310 --> 00:02:43,000
 Jedenfalls eben eckig und nicht als Kreise.
@@ -261,7 +262,8 @@ Aber der Punkt ist, diejenigen Stellen, die
 einen eingehenden Pfeil in eine Transition haben,
 
 00:04:30,630 --> 00:04:32,970
-werden zusammen die Vorbedingung dieser Transition genannt.
+werden zusammen die Vorbedingung
+dieser Transition genannt.
 
 00:04:32,970 --> 00:04:40,080
 Das sind also Plätze, wo Marken liegen sollen,
@@ -275,7 +277,8 @@ Und alle Stellen/Plätze, die nach
 einer konkreten Transition liegen,
 
 00:04:48,270 --> 00:04:50,490
-werden zusammen die Nachbedingung dieser Transition genannt.
+werden zusammen die Nachbedingung
+dieser Transition genannt.
 
 00:04:50,490 --> 00:04:55,080
 Das sind also Stellen/Plätze, in die
@@ -540,8 +543,8 @@ Und dann könnten wir uns wieder fragen:
 Was ist denn jetzt möglich?
 
 00:09:18,030 --> 00:09:21,570
-Also offensichtlich diese Transition
-kann jetzt nicht direkt nochmal schalten.
+Also offensichtlich diese Transition kann
+jetzt nicht direkt nochmal schalten.
 
 00:09:21,570 --> 00:09:24,750
 Denn sie hat jetzt keine Marken

@@ -132,8 +132,8 @@ wenn wir zur Zeitanzeige und zurück wechseln.
 Woran wird das deutlich?
 
 00:02:32,770 --> 00:02:39,370
-Angenommen, wir haben eine Uhrzeit, wir wechseln mit 'a' zur
-Alarmeinstellung, dann ist das erst mal On,
+Angenommen, wir haben eine Uhrzeit, wir wechseln mit
+'a' zur Alarmeinstellung, dann ist das erst mal On,
 
 00:02:39,370 --> 00:02:47,710
 dann drücken wir 'b', sind Off, dann drücken
@@ -158,8 +158,8 @@ dass wir wieder beim Startzustand von
 diesem hierarchischen Zustand beginnen.
 
 00:03:04,990 --> 00:03:08,830
-Also sind wir wieder bei On, obwohl wir das letzte
-Mal, als wir
+Also sind wir wieder bei On,
+obwohl wir das letzte Mal, als wir
 
 00:03:08,830 --> 00:03:12,340
 in diesem linken Zustand waren,
@@ -278,7 +278,8 @@ in den beiden Regionen eintretend.
 Und das sieht dann so aus.
 
 00:05:38,460 --> 00:05:40,710
-In den Unterzuständen hat sich nicht viel geändert,
+In den Unterzuständen hat
+sich nicht viel geändert,
 
 00:05:41,880 --> 00:05:44,520
 zum Beispiel diese Region
@@ -299,8 +300,8 @@ Historienknoten verweist, und von rechts nach
 links gehen wir auch über einen Historienknoten.
 
 00:05:59,430 --> 00:06:06,150
-Wenn wir dieses Bild mit
-diesem Diagramm vergleichen, sehen wir genau,
+Wenn wir dieses Bild mit diesem
+Diagramm vergleichen, sehen wir genau,
 
 00:06:06,150 --> 00:06:10,170
 wo die Unterschiede sind. Also die beiden
@@ -371,8 +372,8 @@ Das heißt, diese beiden hier genannten
 Probleme würden genau dadurch gelöst.
 
 00:07:35,850 --> 00:07:40,560
-Wie gesagt, hier hätten wir einerseits jeweils
-auch tiefe Historie verwenden können,
+Wie gesagt, hier hätten wir einerseits
+jeweils auch tiefe Historie verwenden können,
 
 00:07:40,560 --> 00:07:44,610
 weil es gar keine tiefergehenden
@@ -415,8 +416,8 @@ würde das Weglassen dieser drei
 Pfeile keinen Unterschied machen.
 
 00:08:32,670 --> 00:08:38,820
-Solche Pfeile brauchen wir vor allem dann, wenn wir beim erstmaligen
-Eintritt in einen Zustand per Historienknoten
+Solche Pfeile brauchen wir vor allem dann, wenn wir beim
+erstmaligen Eintritt in einen Zustand per Historienknoten
 
 00:08:38,820 --> 00:08:45,270
 einen anderen Zustand ansteuern wollen
@@ -449,8 +450,8 @@ Nun, was bisher noch gar nicht realisiert ist,
 ist, dass diese Alarmeinstellung wirklich etwas
 
 00:09:20,280 --> 00:09:24,090
-damit zu tun hat, ob denn nun gepiept wird
-oder nicht, beim Übergang zu einer vollen Stunde.
+damit zu tun hat, ob denn nun gepiept wird oder
+nicht, beim Übergang zu einer vollen Stunde.
 
 00:09:24,630 --> 00:09:28,920
 Hier gibt es diesen Effekt: wenn
@@ -504,16 +505,16 @@ dieses Piepens berücksichtigen sollten,
 ob denn der Alarm an ist oder nicht,
 
 00:10:28,020 --> 00:10:34,140
-also dieses Flag dabei prüfen sollten,
-ob es an oder aus ist.
+also dieses Flag dabei prüfen
+sollten, ob es an oder aus ist.
 
 00:10:34,140 --> 00:10:37,200
 Andererseits müssen wir natürlich dafür
 sorgen, dass es irgendwann auch mal auf
 
 00:10:37,200 --> 00:10:42,450
-An und Aus gesetzt wird, das heißt, bei
-diesen Übergängen zwischen diesen
+An und Aus gesetzt wird, das heißt,
+bei diesen Übergängen zwischen diesen
 
 00:10:42,450 --> 00:10:47,250
 Zuständen hier in der Alarmeinstellung sollten
@@ -528,8 +529,8 @@ die Grundidee ist: wir setzen dieses Alarmflag
 ein, nutzen das beim Auslösen des Signaltons,
 
 00:11:04,200 --> 00:11:08,850
-um zu überprüfen, ob dies passieren soll, und
-manipulieren es beim An- und Ausschalten.
+um zu überprüfen, ob dies passieren soll,
+und manipulieren es beim An- und Ausschalten.
 
 00:11:11,280 --> 00:11:19,830
 Des Weiteren werden wir tatsächlich mittels dieses
@@ -548,8 +549,8 @@ brauchen wir diesen Historienknoten gar nicht,
 weil wir genauso gut auch beim Eintritt hier
 
 00:11:37,290 --> 00:11:42,900
-einfach nur diesem Flag ablesen können,
-ob wir in diesen oder in diesen Zustand wollen.
+einfach nur diesem Flag ablesen können, ob
+wir in diesen oder in diesen Zustand wollen.
 
 00:11:49,560 --> 00:11:52,260
 Wie sieht das dann aus?
@@ -558,8 +559,8 @@ Wie sieht das dann aus?
 Damit gehen wir zu diesem Diagramm über.
 
 00:11:57,210 --> 00:11:59,880
-Das können wir wieder
-mit dem vergleichen, was wir bisher haben.
+Das können wir wieder mit dem
+vergleichen, was wir bisher haben.
 
 00:11:59,880 --> 00:12:01,110
 Was ändert sich da?
@@ -573,12 +574,12 @@ Struktur dieses linken hierarchischen
 Zustandes, aber insbesondere hier bei
 
 00:12:13,890 --> 00:12:22,890
-den Übergängen tun wir etwas, indem wir nämlich
-hier, statt von rechts
+den Übergängen tun wir etwas, indem
+wir nämlich hier, statt von rechts
 
 00:12:22,890 --> 00:12:28,500
-nach links die Historie zu verwenden, es einfach von diesem Flag abhängig
-machen, ob wir zum An- oder zum Aus-Zustand gehen.
+nach links die Historie zu verwenden, es einfach von diesem
+Flag abhängig machen, ob wir zum An- oder zum Aus-Zustand gehen.
 
 00:12:28,500 --> 00:12:30,960
 Das dürfen wir, indem wir an diesen
@@ -608,8 +609,8 @@ So ein Effekt kann sein,
 dieses Alarmflag zu wechseln.
 
 00:12:51,720 --> 00:12:55,260
-Also wenn wir mit dem
-Knopf 'b' nach Off wechseln, setzen wir Alarm auf null und
+Also wenn wir mit dem Knopf 'b' nach Off
+wechseln, setzen wir Alarm auf null und
 
 00:12:55,260 --> 00:12:57,540
 wenn wir auf On wechseln,
@@ -620,8 +621,8 @@ Das nutzen wir aus, wenn wir diesen linken
 Einstellungszustand betreten, indem wir es
 
 00:13:02,640 --> 00:13:07,560
-vom Alarmflag abhängig machen, ob wir hier
-oder hier lang wollen. Und ganz wichtig natürlich:
+vom Alarmflag abhängig machen, ob wir hier oder
+hier lang wollen. Und ganz wichtig natürlich:
 
 00:13:08,380 --> 00:13:13,660
 Wir verwenden das Alarmflag auch hier, um
@@ -665,8 +666,8 @@ Das werden wir gleich tun und im Zuge
 dessen werden wir auch gleich noch
 
 00:14:13,090 --> 00:14:18,790
-den dritten Aspekt modellieren,
-nämlich dass die Uhr eine Batterie hat,
+den dritten Aspekt modellieren, nämlich
+dass die Uhr eine Batterie hat,
 
 00:14:18,790 --> 00:14:26,980
 die leer werden kann. Und wenn die Batterie
@@ -684,16 +685,16 @@ null zu laufen und das Alarmflag,
 also der Alarm, soll am Anfang immer an sein.
 
 00:14:34,712 --> 00:14:40,390
-Das ist die Stelle, wo wir auch einstellen, ob
-der Alarm ursprünglich an ist oder nicht.
+Das ist die Stelle, wo wir auch einstellen,
+ob der Alarm ursprünglich an ist oder nicht.
 
 00:14:40,390 --> 00:14:46,600
 Also wir modellieren, dass die Uhr eine
 Batterie hat, die leer werden kann,
 
 00:14:46,600 --> 00:14:52,330
-gewechselt werden muss und sich in dem
-Fall etwas am Zustand tut.
+gewechselt werden muss und sich
+in dem Fall etwas am Zustand tut.
 
 00:14:52,330 --> 00:14:58,720
 Nämlich wir wollen, wenn die Batterie
@@ -718,8 +719,8 @@ einfach, ist der Alarmzustand immer eins.
 Und das könnte man so erreichen:
 
 00:15:32,590 --> 00:15:37,720
-Wir packen alles, was wir
-bisher an Zustandsdiagramm haben,
+Wir packen alles, was wir bisher
+an Zustandsdiagramm haben,
 
 00:15:37,720 --> 00:15:43,270
 das war dieser Teil, den packen wir noch
@@ -766,8 +767,8 @@ also die Zeit schreitet fort, wir
 können die Alarmeinstellung wechseln,
 
 00:16:37,030 --> 00:16:41,020
-können dabei ein- und ausschalten, so dass
-es nur genau dann piept, wenn der Alarm an ist.
+können dabei ein- und ausschalten, so dass es
+nur genau dann piept, wenn der Alarm an ist.
 
 00:16:41,020 --> 00:16:44,170
 Wenn wir wieder in Alarmeinstellung
@@ -778,11 +779,12 @@ Flags überprüft, ob denn der
 Alarm an ist oder nicht, etc.
 
 00:16:47,095 --> 00:16:49,780
-Dann kann irgendwann natürlich die Batterie leer werden.
+Dann kann irgendwann natürlich
+die Batterie leer werden.
 
 00:16:49,780 --> 00:16:53,650
-Das führt dazu, dass wir wieder in
-diesem Zustand landen:
+Das führt dazu, dass wir wieder
+in diesem Zustand landen:
 
 00:16:53,650 --> 00:16:55,060
 Batterie ist leer.
@@ -822,7 +824,8 @@ Und das soll jetzt unsere finale
 Modellierung für diese Armbanduhr sein.
 
 00:17:41,380 --> 00:17:46,450
-Und da kommen die meisten der Elemente vor, die wir
+Und da kommen die meisten
+der Elemente vor, die wir
 
 00:17:46,450 --> 00:17:48,670
 zuvor für UML-Zustandsdiagramme

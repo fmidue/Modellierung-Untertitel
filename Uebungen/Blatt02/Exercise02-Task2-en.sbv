@@ -10,24 +10,24 @@ correct according to the operation declared
 for the vector graphics domain in the lecture.
 
 0:00:12.460,0:00:17.680
-I don't really have the space here to put
-the definitions next to this task.
+I don't really have the space here to
+put the definitions next to this task.
 
 0:00:17.680,0:00:21.980
 Because either way the definitions or the
 task would be too small for you to read.
 
 0:00:21.980,0:00:25.340
-So, I am just going to assume you have the
-definition opened on the side.
+So, I am just going to assume you have
+the definition opened on the side.
 
 0:00:25.340,0:00:30.199
-Or that you thoroughly studied them ahead
-of time.
+Or that you thoroughly
+studied them ahead of time.
 
 0:00:30.199,0:00:33.960
-For each incorrect term, I am going to explain
-what the problem is.
+For each incorrect term, I am going
+to explain what the problem is.
 
 0:00:33.960,0:00:36.090
 And mark the problematic area.
@@ -36,8 +36,8 @@ And mark the problematic area.
 Which is also what you should do.
 
 0:00:38.150,0:00:41.850
-And for the parts that are correct, we don’t
-need to do anything.
+And for the parts that are correct,
+we don’t need to do anything.
 
 0:00:41.850,0:00:43.120
 Except that they are correct.
@@ -57,8 +57,8 @@ we know that print expects something of type
 string, which print does not provide.
 
 0:01:01.649,0:01:08.370
-So, this print in here is an incorrect argument
-for the outer print.
+So, this print in here is an incorrect
+argument for the outer print.
 
 0:01:08.370,0:01:12.700
 Because the type does not match.
@@ -71,15 +71,15 @@ of type Picture and 2 more parameters,
 determining by how much it is moved.
 
 0:01:24.340,0:01:31.200
-And here we have a print("no") composited
-with “circle” which returns
+And here we have a print("no")
+composited with “circle” which returns
 
 0:01:31.200,0:01:32.200
 something of type Picture.
 
 0:01:32.200,0:01:37.869
-So, the first argument here is correct and
-the second and third arguments are -2
+So, the first argument here is correct
+and the second and third arguments are -2
 
 0:01:37.869,0:01:40.820
 and 5 which are also correct and acceptable
@@ -94,16 +94,16 @@ and move on to C. In C we have “scale”
 and the obvious thing to always check for
 
 0:01:57.600,0:02:03.840
-these here is the type and number of arguments
-that we have here.
+these here is the type and number
+of arguments that we have here.
 
 0:02:03.840,0:02:08.770
 And here we have the first argument which
 is long rotate here which returns something
 
 0:02:08.770,0:02:11.060
-of type Picture, which is correct for the
-first argument.
+of type Picture, which is
+correct for the first argument.
 
 0:02:11.060,0:02:15.890
 Then we have a 3.2 which is correct for the
@@ -113,8 +113,8 @@ second argument, a 6 which is correct for
 the third argument.
 
 0:02:16.890,0:02:22.340
-But here, we have a fourth argument and
-scale only expects 3 arguments.
+But here, we have a fourth argument
+and scale only expects 3 arguments.
 
 0:02:22.340,0:02:27.730
 So, this extra argument here is incorrect.
@@ -136,8 +136,8 @@ This is all of the type Picture.
 So, this is correct for the first argument.
 
 0:02:42.620,0:02:46.260
-And we have 2 more arguments, no superfluous
-arguments here.
+And we have 2 more arguments,
+no superfluous arguments here.
 
 0:02:46.260,0:02:50.069
 So, this outer scale at least is correct.
@@ -181,8 +181,8 @@ provides the “picture” and blue provides
 the color.
 
 0:03:22.770,0:03:31.629
-So, these are just the wrong way around which
-makes this term incorrect.
+So, these are just the wrong way
+around which makes this term incorrect.
 
 0:03:31.629,0:03:38.700
 Moving on to E we have a “rectangle” with
@@ -217,8 +217,8 @@ expects something of type Picture at first
 which this first composition operator provides.
 
 0:04:06.269,0:04:09.370
-And another “picture” which this “circle”
-provides as well.
+And another “picture” which
+this “circle” provides as well.
 
 0:04:09.370,0:04:10.829
 So, E is correct.
@@ -230,12 +230,12 @@ It is not what I wanted to do.
 This is correct.
 
 0:04:17.760,0:04:25.270
-And we can move on to F. F gives us a “rotate”
-with a “rectangle” being rotated.
+And we can move on to F. F gives us a
+“rotate” with a “rectangle” being rotated.
 
 0:04:25.270,0:04:28.870
-Here we have to watch out for the parentheses,
-where they are.
+Here we have to watch out for
+the parentheses, where they are.
 
 0:04:28.870,0:04:33.300
 So, this is the first argument here, this
@@ -248,20 +248,20 @@ For this composition operator.
 So, this is something of type Picture.
 
 0:04:38.090,0:04:42.530
-But there is something of type Picture inside
-and the correct arguments here.
+But there is something of type Picture
+inside and the correct arguments here.
 
 0:04:42.530,0:04:46.789
-And back here we have “move” this goes
-all the way till the end.
+And back here we have “move” this
+goes all the way till the end.
 
 0:04:46.789,0:04:52.610
 This is our second argument for this composition
 operator also of type Picture, “scale”
 
 0:04:52.610,0:04:56.320
-provides the first argument of type Picture
-which is correct for “move”.
+provides the first argument of type
+Picture which is correct for “move”.
 
 0:04:56.320,0:05:02.050
 And 2 more arguments that are of type Float,
@@ -304,12 +304,12 @@ For G, once again have “rotate” at the
 start.
 
 0:05:41.729,0:05:46.039
-And here we have to pay attention to the parenthesis
-again.
+And here we have to pay attention
+to the parenthesis again.
 
 0:05:46.039,0:05:49.360
-Because this composition is inside of this
-“rotate”.
+Because this composition is
+inside of this “rotate”.
 
 0:05:49.360,0:05:56.150
 So, this “move” here crossing the composition
@@ -319,15 +319,15 @@ operator, all of this is the first argument,
 up to the last comma back here.
 
 0:05:57.830,0:06:01.790
-So, this is the first argument providing something
-of type Picture.
+So, this is the first argument
+providing something of type Picture.
 
 0:06:01.790,0:06:05.780
 Because we have a “move” here.
 
 0:06:05.780,0:06:11.550
-And then, we have a Float back here
-that 64 which provides by how much it is rotated
+And then, we have a Float back here that
+64 which provides by how much it is rotated
 
 0:06:11.550,0:06:12.550
 by.
@@ -337,20 +337,20 @@ So, the outer “rotate” has the correct
 arguments.
 
 0:06:14.770,0:06:21.380
-Now, we can step further inside; we can look
-at “move” which gets something of type
+Now, we can step further inside; we can
+look at “move” which gets something of type
 
 0:06:21.380,0:06:26.330
-Picture provided by this composition operator
-and this “scale” here.
+Picture provided by this composition
+operator and this “scale” here.
 
 0:06:26.330,0:06:32.900
-This whole thing here from “circle” till
-the end of here is the first argument of “move”.
+This whole thing here from “circle” till the
+end of here is the first argument of “move”.
 
 0:06:32.900,0:06:38.780
-And we have 2 more parameters telling us—oh
-sorry, all the way up to here even.
+And we have 2 more parameters telling
+us—oh sorry, all the way up to here even.
 
 0:06:38.780,0:06:41.870
 All the way up to this parenthesis here.
@@ -370,8 +370,8 @@ much it is moved by, which are the correct
 type.
 
 0:06:55.050,0:06:58.060
-So, this “move” is correct and we can
-step further inside.
+So, this “move” is correct and
+we can step further inside.
 
 0:06:58.060,0:06:59.560
 This “circle” is pretty easy.
@@ -380,12 +380,12 @@ This “circle” is pretty easy.
 This is correct.
 
 0:07:00.810,0:07:04.569
-This creates something of type Picture for
-the composition operator.
+This creates something of type
+Picture for the composition operator.
 
 0:07:04.569,0:07:10.150
-And the second argument here is “scale”
-up to the closing parenthesis, which is something
+And the second argument here is “scale” up to
+the closing parenthesis, which is something
 
 0:07:10.150,0:07:12.600
 of type Picture and has the correct arguments.
@@ -405,12 +405,12 @@ This “rotate” needs something of type
 Picture which the circle(5) provides
 
 0:07:27.639,0:07:31.060
-and by how much it is rotated by, so this is
-correct as well.
+and by how much it is rotated
+by, so this is correct as well.
 
 0:07:31.060,0:07:35.740
-Now, we step this far deep inside here as we
-could; everything is correct.
+Now, we step this far deep inside here
+as we could; everything is correct.
 
 0:07:35.740,0:07:40.580
 So, term G is correct as
@@ -431,8 +431,8 @@ this “scale” here, up to this last comma
 back here.
 
 0:08:03.940,0:08:07.819
-This is the entire first argument, something
-of type Picture which is correct.
+This is the entire first argument,
+something of type Picture which is correct.
 
 0:08:07.819,0:08:10.600
 And the second argument is correct as well.
@@ -441,24 +441,24 @@ And the second argument is correct as well.
 Telling us how much it is rotated by.
 
 0:08:12.340,0:08:17.199
-So, this outer “rotate” is correct and
-we can step further inside.
+So, this outer “rotate” is correct
+and we can step further inside.
 
 0:08:17.199,0:08:22.180
-This first argument, like I said, it goes
-from here to back over here.
+This first argument, like I said, it
+goes from here to back over here.
 
 0:08:22.180,0:08:27.909
 This is one long “scale”; inside of “scale”
 there is something of type Picture, this “move”,
 
 0:08:27.909,0:08:32.849
-together with the composition operator and
-something else is being scaled.
+together with the composition operator
+and something else is being scaled.
 
 0:08:32.849,0:08:36.729
-And the second argument telling us the X axis
-of the scaling.
+And the second argument telling
+us the X axis of the scaling.
 
 0:08:36.729,0:08:43.640
 But we are missing a third argument for the
@@ -474,12 +474,12 @@ I cannot really mark this here correctly.
 I am just drawing in here a little bit.
 
 0:09:00.340,0:09:04.580
-So, basically, we do not need to look any
-further inside.
+So, basically, we do not need
+to look any further inside.
 
 0:09:04.580,0:09:08.810
-Because this already tells us this term is
-incorrect because this “scale” here is
+Because this already tells us this term
+is incorrect because this “scale” here is
 
 0:09:08.810,0:09:10.420
 incorrect.

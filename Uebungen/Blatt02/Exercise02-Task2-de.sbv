@@ -35,8 +35,8 @@ soweit also korrekt. Allerdings kann das
 äußere print nicht so aufgerufen werden,
 
 0:01:28.140,0:01:36.480
-denn dieses print erzeugt ein Picture
-und print nimmt einen String. Deshalb ist das
+denn dieses print erzeugt ein Picture und
+print nimmt einen String. Deshalb ist das
 
 0:01:46.020,0:01:53.340
 falsch. Und der Grund ist, dass dieses innere
@@ -99,8 +99,8 @@ das Ganze zu betrachten. Circle von 4 ist ein
 korrekter Term, das erzeugt ein Picture. Der
 
 0:04:28.260,0:04:33.780
-Float-Wert 4 wird hier an circle übergeben, es wird
-ein Picture daraus entstehen, dann wird hier
+Float-Wert 4 wird hier an circle übergeben, es
+wird ein Picture daraus entstehen, dann wird hier
 
 0:04:33.780,0:04:43.740
 rotate auf circle(4) und 37 angewendet. Auch das
@@ -130,8 +130,8 @@ Diese beiden Teile müssten genau andersherum sein.
 Wenn das der Fall wäre, wenn
 
 0:05:55.920,0:06:04.500
-die beiden ausgetauscht wären, dann können wir
-ja mal weiterschauen, was dann mit dem Term wäre.
+die beiden ausgetauscht wären, dann können wir ja
+mal weiterschauen, was dann mit dem Term wäre.
 
 0:06:04.500,0:06:16.200
 Dann würde hier ein Picture entstehen und dann
@@ -224,8 +224,8 @@ Schauen wir noch weiter, ob es noch mehr Fehler
 gibt. Also print auf den String würde uns ein
 
 0:09:36.840,0:09:47.880
-Picture erzeugen, scale mit dem Picture, das
-durch print erzeugt wurde, und den Werten 2 und 2,
+Picture erzeugen, scale mit dem Picture, das durch
+print erzeugt wurde, und den Werten 2 und 2,
 
 0:09:47.880,0:09:54.960
 die hier als Float übergeben werden, würde uns
@@ -244,8 +244,8 @@ zwei Picture zu verbinden. Schauen wir uns das
 erste an. Hier ist circle(0.5) das erste Bild
 
 0:10:26.220,0:10:37.440
-und scale ist das zweite Bild. Diesen Teil mit
-scale betrachten wir auch wieder von innen
+und scale ist das zweite Bild. Diesen Teil
+mit scale betrachten wir auch wieder von innen
 
 0:10:37.440,0:10:47.520
 heraus. Das heißt, circle 5 steht als erstes
@@ -324,8 +324,8 @@ zweiten die 2. Allerdings fehlt hier der
 dritte Parameter für das scale. Hier müsste
 
 0:14:09.060,0:14:16.440
-noch ein weiterer Float-Wert rein. Also,
-wenn hier zum Beispiel noch 0.3 stehen würde,
+noch ein weiterer Float-Wert rein. Also, wenn
+hier zum Beispiel noch 0.3 stehen würde,
 
 0:14:16.440,0:14:24.840
 dann wäre auch das ein gültiger Ausdruck und bei
@@ -336,8 +336,8 @@ wenn hier noch zum Beispiel 0.3 stehen
 würde, dann wäre das ein korrekter
 
 0:14:30.000,0:14:37.800
-Ausdruck. So ist es allerdings ein
-falscher und damit haben wir für alle Terme der
+Ausdruck. So ist es allerdings ein falscher
+und damit haben wir für alle Terme der
 
 0:14:37.800,0:14:48.060
 Aufgabe entschieden, ob sie gültig sind und

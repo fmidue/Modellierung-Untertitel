@@ -1,5 +1,6 @@
 0:00:03.959,0:00:08.389
-Diese Aufgabe beschäftigt sich mit dem UML-Zustandsdiagramm.
+Diese Aufgabe beschäftigt sich
+mit dem UML-Zustandsdiagramm.
 
 0:00:08.389,0:00:20.500
 In dieser Aufgabe sollen die Fragen zum abgebildeten
@@ -10,8 +11,8 @@ Dabei sollen immer nicht zusammengesetzte
 Zustände angegeben werden.
 
 0:00:28.609,0:00:38.420
-In diesem Diagramm werden die Zustandsnummern
-durch die Zahlen angegeben.
+In diesem Diagramm werden die
+Zustandsnummern durch die Zahlen angegeben.
 
 0:00:38.420,0:00:46.501
 Es ist zu beachten, dass mitunter mehrere
@@ -35,35 +36,35 @@ anschauen. Er zeigt an, wie das UML-Diagramm
 startet.
 
 0:01:17.170,0:01:26.299
-Der Eintritt erfolgt an dieser Stelle in einer
-swim-lane.
+Der Eintritt erfolgt an dieser
+Stelle in einer swim-lane.
 
 0:01:26.299,0:01:41.420
-Hier gibt es einen Verweis auf Zustand 3 und
-6, also diese beiden.
+Hier gibt es einen Verweis auf
+Zustand 3 und 6, also diese beiden.
 
 0:01:41.420,0:01:54.130
-Das sind auch die beiden anzugebenden Zustände,
-um die Aufgabe zu beantworten.
+Das sind auch die beiden anzugebenden
+Zustände, um die Aufgabe zu beantworten.
 
 0:01:54.130,0:02:08.179
 Wir könnten also bei a hinschreiben: 3 und
 6. Kommen wir zu b: „Unter welchen Zuständen
 
 0:02:08.179,0:02:14.110
-oder Kombinationen von Zuständen ist ein
-Verlassen von C möglich?“.
+oder Kombinationen von Zuständen
+ist ein Verlassen von C möglich?“.
 
 0:02:14.110,0:02:18.489
 Dabei sollen alle Möglichkeiten genannt werden.
 
 0:02:18.489,0:02:23.330
-Schauen wir uns Zustand C an, das ist dieser
-hier.
+Schauen wir uns Zustand C
+an, das ist dieser hier.
 
 0:02:23.330,0:02:29.190
-Diesen können wir über ausgehende Kanten
-verlassen.
+Diesen können wir über
+ausgehende Kanten verlassen.
 
 0:02:29.190,0:02:39.180
 Das sehen wir hier über diese zusammengeführten
@@ -103,8 +104,8 @@ nämlich 3, 4 beziehungsweise 5 und wir hier
 direkt aus 6 hinausgehen, können wir hier
 
 0:03:47.170,0:04:02.959
-sagen, dass 6 und 3 valide sind, aber auch
-6 und 4, oder 6 und 5.
+sagen, dass 6 und 3 valide sind,
+aber auch 6 und 4, oder 6 und 5.
 
 0:04:02.959,0:04:13.299
 Das ist auch valide, denn einer der Zustände
@@ -114,8 +115,8 @@ hier oben kann gleichzeitig mit Zustand 6
 aktiv sein.
 
 0:04:16.090,0:04:25.040
-Da wir keine weitere ausgehende Kante aus
-dem Zustand C haben, sind das alle Möglichkeiten,
+Da wir keine weitere ausgehende Kante aus dem
+Zustand C haben, sind das alle Möglichkeiten,
 
 0:04:25.040,0:04:42.280
 über die der Zustand verlassen werden kann:
@@ -125,12 +126,12 @@ mit 4 und 7 über die Kante d oder mit 6 und
 3, 4 oder 5 über die Kante e.
 
 0:04:50.340,0:04:57.310
-Kommen wir zum nächsten Teil: „Welcher
-Zustand oder welche Zustände werden angesprungen,
+Kommen wir zum nächsten Teil: „Welcher Zustand
+oder welche Zustände werden angesprungen,
 
 0:04:57.310,0:05:06.940
-wenn C von 7 und 4 aus verlassen wird, und
-D zuletzt von 8 aus verlassen wurde?“.
+wenn C von 7 und 4 aus verlassen wird,
+und D zuletzt von 8 aus verlassen wurde?“.
 
 0:05:06.940,0:05:23.789
 Wir verlassen C von 7 und 4 aus, das heißt
@@ -144,27 +145,27 @@ Kanten von 4 und 7 sind, geht das nur
 wurde, also von diesem hier.
 
 0:05:41.039,0:05:53.561
-Für diesen Zustand hat es keine Relevanz,
-wie D zuvor verlassen wurde, weil kein Historienknoten
+Für diesen Zustand hat es keine Relevanz, wie D
+zuvor verlassen wurde, weil kein Historienknoten
 
 0:05:53.561,0:05:57.710
 an die Kante d verweist.
 
 0:05:57.710,0:06:05.120
-Also ist es kein Historienknoten, daher müssen
-wir den Startzustand 10 betrachten.
+Also ist es kein Historienknoten, daher
+müssen wir den Startzustand 10 betrachten.
 
 0:06:05.120,0:06:14.910
-Also wäre in diesem Fall die Antwort 10 für
-den Aufgabenteil c.
+Also wäre in diesem Fall die
+Antwort 10 für den Aufgabenteil c.
 
 0:06:14.910,0:06:22.620
 Kommen wir zum nächsten Aufgabenteil d: „Welcher
 Zustand oder welche Zustände werden angesprochen,
 
 0:06:22.620,0:06:32.539
-wenn D von 8 aus verlassen wird?“, also
-geht es jetzt um diesen D-Zustand.
+wenn D von 8 aus verlassen wird?“,
+also geht es jetzt um diesen D-Zustand.
 
 0:06:32.539,0:06:43.960
 Wir verlassen von 8 aus, da gibt es die Möglichkeit
@@ -188,12 +189,12 @@ also i verweist auf einen Historienknoten.
 Für unser Beispiel ist das aber irrelevant.
 
 0:07:15.220,0:07:24.650
-Weil die flache Historie gewählt ist, wird
-dieser Startzustand gewählt.
+Weil die flache Historie gewählt ist,
+wird dieser Startzustand gewählt.
 
 0:07:24.650,0:07:36.500
-Wir haben einen Verweis auf diesen Teil von
-B, nämlich E.
+Wir haben einen Verweis auf
+diesen Teil von B, nämlich E.
 
 0:07:36.500,0:07:47.409
 Es wird aber die flache Historie verwendet,
@@ -206,15 +207,15 @@ E zuletzt aktiv war, wird auch wieder E aktiv.
 Durch den Startzustand hier wird aber 1 aktiv.
 
 0:07:55.569,0:08:04.380
-Kurz gesagt, wenn wir 8 über i verlassen,
-wird in diesem Fall 1 aktiv.
+Kurz gesagt, wenn wir 8 über i
+verlassen, wird in diesem Fall 1 aktiv.
 
 0:08:04.380,0:08:10.659
 Die nächste Frage bezieht sich auch hierauf.
 
 0:08:10.659,0:08:19.870
-Ändert sich
-die Antwort der vorhergehenden Frage? Vielleicht
+Ändert sich die Antwort der
+vorhergehenden Frage? Vielleicht
 
 0:08:19.870,0:08:30.500
 lasse ich die Frage zumindest noch teilweise
@@ -235,12 +236,12 @@ Die Antwort ist ja, denn wenn wir eine tiefe
 Historie haben, wird nicht nur gespeichert,
 
 0:08:53.829,0:08:58.510
-welcher Zustand auf diesem Level erfolgt ist,
-sondern auch tiefer.
+welcher Zustand auf diesem Level
+erfolgt ist, sondern auch tiefer.
 
 0:08:58.510,0:09:03.589
-Dann würde auch gemerkt werden, dass diese
-2 aktiv war.
+Dann würde auch gemerkt werden,
+dass diese 2 aktiv war.
 
 0:09:03.589,0:09:09.350
 Bei diesem Zustand, also wenn wir hier die
@@ -260,27 +261,27 @@ Verlassen von D, in den Zustand 6 überzugehen?
 Wir sind sozusagen irgendwo in diesem Bereich.
 
 0:09:47.040,0:09:53.760
-Welche Möglichkeiten würden bestehen, in
-diesen Zustand zu springen?
+Welche Möglichkeiten würden bestehen,
+in diesen Zustand zu springen?
 
 0:09:53.760,0:10:03.950
-Dafür müssen wir
-die Ausgangsmöglichkeiten aus D betrachten.
+Dafür müssen wir die
+Ausgangsmöglichkeiten aus D betrachten.
 
 0:10:03.950,0:10:08.720
 Da kommen f und i in Frage.
 
 0:10:08.720,0:10:20.220
-Betrachten wir zunächst f:
-f erreichen wir, wenn wir direkt auf 3 springen.
+Betrachten wir zunächst f: f erreichen
+wir, wenn wir direkt auf 3 springen.
 
 0:10:20.220,0:10:35.220
 Weil das in einer Swim-Lane ist und ein Startknoten
 in der anderen Lane ist und auf 6 verweist,
 
 0:10:35.220,0:10:47.829
-könnten wir das Verlassen von Zustand D zu
-Zustand 6 durchführen, indem wir über f
+könnten wir das Verlassen von Zustand D
+zu Zustand 6 durchführen, indem wir über f
 
 0:10:47.829,0:10:48.829
 gehen.
@@ -299,15 +300,15 @@ Wenn wir über i gehen, haben wir als nächstes
 einen Historienknoten, der auf E verweist.
 
 0:11:28.889,0:11:32.470
-Dementsprechend wird innerhalb von B die Historie
-gespeichert.
+Dementsprechend wird innerhalb
+von B die Historie gespeichert.
 
 0:11:32.470,0:11:35.560
 Wir haben hier eine flache Historie.
 
 0:11:35.560,0:11:43.680
-Wenn wir zuvor in C waren und zum Beispiel
-über e hinausgegangen sind, ist es also möglich,
+Wenn wir zuvor in C waren und zum Beispiel über
+e hinausgegangen sind, ist es also möglich,
 
 0:11:43.680,0:11:57.710
 dass wir zuvor in Zustand 6 waren.
@@ -320,8 +321,8 @@ C in der flachen Historie gespeichert worden
 sein.
 
 0:12:16.670,0:12:26.420
-Wenn wir über i gehen, können wir im Zustand
-5 und 6 landen.
+Wenn wir über i gehen, können
+wir im Zustand 5 und 6 landen.
 
 0:12:26.420,0:12:43.540
 Weil hier wieder die Startknoten existieren
@@ -332,16 +333,16 @@ verlassen haben, uns wieder nach C hineinschickt
 und dadurch wieder die Startknoten aktiv werden.
 
 0:12:51.280,0:12:55.290
-Das wären die Möglichkeiten für den letzten
-Aufgabenteil.
+Das wären die Möglichkeiten
+für den letzten Aufgabenteil.
 
 0:12:55.290,0:13:02.140
-In dem Video habe ich die Begründungen nicht
-aufgeschrieben, sondern nur erzählt.
+In dem Video habe ich die Begründungen
+nicht aufgeschrieben, sondern nur erzählt.
 
 0:13:02.140,0:13:12.720
-Wenn Sie die Aufgabe lösen, sollten die Begründungen
-natürlich niedergeschrieben werden.
+Wenn Sie die Aufgabe lösen, sollten die
+Begründungen natürlich niedergeschrieben werden.
 
 0:13:12.720,0:13:17.800
 Soviel zu dieser Aufgabe, damit ist sie gelöst.

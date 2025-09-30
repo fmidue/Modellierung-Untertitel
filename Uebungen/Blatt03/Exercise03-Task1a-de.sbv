@@ -3,24 +3,24 @@ In dieser Aufgabe, in der wir uns noch einmal
 mit der statischen Modellierung von Operationen
 
 0:00:04.670,0:00:08.930
-durch Signaturen beschäftigen, sollen wir
-die Vektorgraphik-Operationen, die wir bereits
+durch Signaturen beschäftigen, sollen wir die
+Vektorgraphik-Operationen, die wir bereits
 
 0:00:08.930,0:00:12.900
 aus der Vorlesung kennen, um eine weitere
 Operation erweitern, die ein solches, wie
 
 0:00:12.900,0:00:15.879
-hier unten dargestelltes, regelmäßiges Vieleck
-zeichnen kann.
+hier unten dargestelltes,
+regelmäßiges Vieleck zeichnen kann.
 
 0:00:15.879,0:00:23.029
 Wir sollen uns dafür nicht mit der eigentlichen
 Implementierung beschäftigen, das macht die
 
 0:00:23.029,0:00:27.010
-Vektorgraphik-Operationen-Sammlung aus der Vorlesung
-ja auch nicht, sondern wir sollen einfach
+Vektorgraphik-Operationen-Sammlung aus der
+Vorlesung ja auch nicht, sondern wir sollen einfach
 
 0:00:27.010,0:00:35.070
 nur eine sinnvolle Typung angeben, die angibt,
@@ -30,8 +30,8 @@ welche Typen die Parameter der Funktion kriegen
 müssen und was am Ende der Ausgabetyp ist.
 
 0:00:38.980,0:00:43.560
-Wir haben hier oben schon den Anfang der Deklaration
-angegeben.
+Wir haben hier oben schon den
+Anfang der Deklaration angegeben.
 
 0:00:43.560,0:00:44.870
 Das Ding soll Vieleck heißen.
@@ -44,12 +44,12 @@ uns erst mal, welche Eigenschaften bestimmen
 denn so ein regelmäßiges Vieleck?
 
 0:00:54.330,0:01:03.239
-Zum einen haben wir vielleicht irgendeine
-Form von Radius, das heißt, das ist der Mittelpunkt
+Zum einen haben wir vielleicht irgendeine Form
+von Radius, das heißt, das ist der Mittelpunkt
 
 0:01:03.239,0:01:06.900
-hier in der Mitte, dieses Koordinatensystem
-ist auf 0,0.
+hier in der Mitte, dieses
+Koordinatensystem ist auf 0,0.
 
 0:01:06.900,0:01:12.210
 Und dann gehen wir zu einem Ende raus, entweder
@@ -66,8 +66,8 @@ Andererseits brauchen wir auf jeden Fall auch
 die Anzahl entweder der Ecken oder der Kanten.
 
 0:01:23.710,0:01:29.180
-Denn das bestimmt im Endeffekt, wie viele
-Seiten unser Vieleck hat.
+Denn das bestimmt im Endeffekt,
+wie viele Seiten unser Vieleck hat.
 
 0:01:29.180,0:01:36.140
 So oder so, der Seiten-Parameter, beziehungsweise
@@ -81,8 +81,8 @@ Das heißt, so etwas wie Float macht hier wahrscheinlich
 nicht so viel Sinn, denn wir haben ja nie
 
 0:01:41.960,0:01:46.180
-eine halbe Kante oder eine halbe Ecke, sondern
-immer eine ganze.
+eine halbe Kante oder eine halbe
+Ecke, sondern immer eine ganze.
 
 0:01:46.180,0:01:54.060
 Das heißt, für die ersten Parameter geben
@@ -100,19 +100,19 @@ natürlich die simplere Alternative ist, denn
 dann können wir einfach sagen, wir bestimmen
 
 0:02:05.020,0:02:09.000
-jetzt, dass diese Spitze hier ganz rechts,
-der Punkt ist, wo unser Radius hingeht, einfach
+jetzt, dass diese Spitze hier ganz rechts, der
+Punkt ist, wo unser Radius hingeht, einfach
 
 0:02:09.000,0:02:10.639
 entlang der X-Achse immer.
 
 0:02:10.639,0:02:14.989
-Und dann wäre hier zum Beispiel für das
-Abgebildete der Radius ungefähr 2.
+Und dann wäre hier zum Beispiel für
+das Abgebildete der Radius ungefähr 2.
 
 0:02:14.989,0:02:23.830
-Also von hier 0,0 zu 2 hier drüben auf der
-X-Achse.
+Also von hier 0,0 zu 2 hier
+drüben auf der X-Achse.
 
 0:02:23.830,0:02:27.650
 Andererseits können wir natürlich auch überlegen,
@@ -122,23 +122,23 @@ was natürlich auch erlaubt ist, es muss nicht
 unbedingt der Radius sein hier.
 
 0:02:29.599,0:02:34.091
-Man könnte auch sagen, unser zweiter Parameter
-wäre die Länge einer Seite.
+Man könnte auch sagen, unser zweiter
+Parameter wäre die Länge einer Seite.
 
 0:02:34.091,0:02:38.340
-Da es ja ein regelmäßiges Vieleck ist, haben
-alle Seiten dieselbe Länge.
+Da es ja ein regelmäßiges Vieleck
+ist, haben alle Seiten dieselbe Länge.
 
 0:02:38.340,0:02:42.969
-Also, warum geben wir nicht einfach als Parameter
-zum Beispiel die Länge dieser Seite an?
+Also, warum geben wir nicht einfach als
+Parameter zum Beispiel die Länge dieser Seite an?
 
 0:02:42.969,0:02:45.849
 Das wäre auch vollkommen möglich.
 
 0:02:45.849,0:02:48.279
-Wir müssen uns ja nicht wirklich hier mit
-der Implementierung beschäftigen.
+Wir müssen uns ja nicht wirklich hier
+mit der Implementierung beschäftigen.
 
 0:02:48.279,0:02:53.709
 Andererseits ist es natürlich, wenn wir schon
@@ -167,16 +167,16 @@ Dann können wir für das hier unten sagen,
 das ist der Radius 2, denn da sehen wir ganz
 
 0:03:14.469,0:03:18.099
-eindeutig, dass diese Spitze ungefähr auf
-der 2 landet.
+eindeutig, dass diese Spitze
+ungefähr auf der 2 landet.
 
 0:03:18.099,0:03:22.749
-Und diese Spitze hier über dem obersten ungefähr
-auf der 1 von der X-Achse.
+Und diese Spitze hier über dem obersten
+ungefähr auf der 1 von der X-Achse.
 
 0:03:22.749,0:03:24.950
-Das ist natürlich dann für uns ein bisschen
-einfacher.
+Das ist natürlich dann für
+uns ein bisschen einfacher.
 
 0:03:24.950,0:03:29.989
 So oder so, dieser Wert wird wahrscheinlich
@@ -201,12 +201,12 @@ Das heißt, wir müssen uns jetzt nur noch
 damit beschäftigen, was der Ausgabewert ist.
 
 0:03:45.319,0:03:49.279
-Und das kennen wir von den anderen Vektorgraphik-Operationen
-der Vorlesung schon.
+Und das kennen wir von den anderen
+Vektorgraphik-Operationen der Vorlesung schon.
 
 0:03:49.279,0:03:51.000
 Das wäre ein Picture.
 
 0:03:51.000,0:03:57.000
-Und damit hätten wir schon die erste Teilaufgabe
-erledigt.
+Und damit hätten wir schon die
+erste Teilaufgabe erledigt.

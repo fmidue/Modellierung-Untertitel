@@ -23,7 +23,8 @@ Marken greifen und gleichzeitig
 durch t2 und t3 bewegen könnte.
 
 00:00:28,770 --> 00:00:32,220
-Das war die Intuition für diese Art der Parallelität.
+Das war die Intuition für
+diese Art der Parallelität.
 
 00:00:32,220 --> 00:00:38,550
 Genau genommen definiert ist der Begriff aber
@@ -159,8 +160,8 @@ Aber durch den zusätzlichen Pfeil von
 s3 zu t2 ändert sich etwas für t2.
 
 00:03:11,400 --> 00:03:19,020
-Und zwar wird durch diesen
-zusätzlichen Pfeil aus dieser 0 eine 1.
+Und zwar wird durch diesen zusätzlichen
+Pfeil aus dieser 0 eine 1.
 
 00:03:19,020 --> 00:03:26,820
 Denn der Pfeil muss in der Vorgewichtsfunktion
@@ -229,8 +230,8 @@ Also da deckt sich das, was
 ich intuitiv versucht habe,
 
 00:04:35,440 --> 00:04:42,400
-einfach grafisch an dem Petrinetz selbst
-zu beobachten, bezüglich t2 und t3 mit dem,
+einfach grafisch an dem Petrinetz selbst zu
+beobachten, bezüglich t2 und t3 mit dem,
 
 00:04:42,400 --> 00:04:49,394
 was die mathematische Definition (die wir hier
@@ -265,8 +266,8 @@ Wenn diese Bedingung hier erfüllt ist.
 Ist sie das hier?
 
 00:05:26,410 --> 00:05:29,980
-Also, lässt sich diese Behauptung aus dem
-vorherigen Video, dass t1, t2,
+Also, lässt sich diese Behauptung aus
+dem vorherigen Video, dass t1, t2,
 
 00:05:29,980 --> 00:05:33,940
 t3 nebenläufig aktiviert sind,
@@ -276,8 +277,8 @@ auch durch das Rechnen nachprüfen?
 Nun, das ist sehr leicht, sehr direkt.
 
 00:05:38,770 --> 00:05:45,370
-Alle drei Vorgewichtsfunktionen für t1, t2, t3
-sind jeweils genau die Funktion, die sagt,
+Alle drei Vorgewichtsfunktionen für t1, t2,
+t3 sind jeweils genau die Funktion, die sagt,
 
 00:05:45,370 --> 00:05:48,520
 dass aus s1 eine Marke entnommen
@@ -444,8 +445,8 @@ obwohl man das natürlich auch könnte.
 In dem Beispiel hatten wir diskutiert,
 
 00:08:40,630 --> 00:08:47,740
-dass jeweils eine der beiden Transitionen
-mit t3 nebenläufig ist, aber t1 und t2 nicht.
+dass jeweils eine der beiden Transitionen mit
+t3 nebenläufig ist, aber t1 und t2 nicht.
 
 00:08:47,740 --> 00:08:50,050
 Es sei denn, man fügte noch eine Marke hinzu.
@@ -793,16 +794,16 @@ bestimmten Menge von der gleichen Markierung
 aus in beliebiger Reihenfolge schaltbar sind.
 
 00:15:44,310 --> 00:15:50,130
-Also wenn wir eine Markierung m
-haben und eine Menge T', so dass jede
+Also wenn wir eine Markierung m haben
+und eine Menge T', so dass jede
 
 00:15:50,130 --> 00:15:54,870
 Anordnung dieser Transitionen eine gültige
 Schaltfolge darstellt, ist es dann auch so,
 
 00:15:54,870 --> 00:15:59,070
-dass mit Sicherheit die Transitionen
-aus T' für m nebenläufig aktiviert sind?
+dass mit Sicherheit die Transitionen aus
+T' für m nebenläufig aktiviert sind?
 
 00:15:59,070 --> 00:16:02,070
 Das ist die Umkehrung der Beobachtungen,
@@ -871,7 +872,8 @@ Also hier sind t1, t2 nicht nebenläufig
 aktiviert und dennoch ist es der Fall,
 
 00:17:09,000 --> 00:17:11,190
-dass sie in beliebiger Reihenfolge schaltbar sind.
+dass sie in beliebiger
+Reihenfolge schaltbar sind.
 
 00:17:16,010 --> 00:17:20,120
 Das liegt letztlich an dieser
@@ -886,8 +888,8 @@ da es diese Schlinge bzw.
 zwei solcher Schlingen hat.
 
 00:17:29,510 --> 00:17:38,690
-Mit Schlinge (oder Schleife) meinen wir,
-wenn es eine Transition gibt und eine Stelle,
+Mit Schlinge (oder Schleife) meinen wir, wenn
+es eine Transition gibt und eine Stelle,
 
 00:17:38,690 --> 00:17:44,300
 so dass diese Transition aus dieser

@@ -194,7 +194,8 @@ diesem Sinne ein Gegensatzpaar, ein Kontrastpaar.
 Anders als Privatauto und Dieselauto.
 
 00:04:03,000 --> 00:04:06,060
-Und das Gleiche gilt für Dieselauto und Solarauto.
+Und das Gleiche gilt für
+Dieselauto und Solarauto.
 
 00:04:06,060 --> 00:04:10,290
 Auch die sind verschiedene Arten von
@@ -298,8 +299,8 @@ Und Dieselauto/Solarauto sind auch
 beides Unterklassen von "Auto",
 
 00:06:08,630 --> 00:06:13,490
-aber sie sind hier so zusammengefasst,
-dass man erkennen kann, dass sie nach einem
+aber sie sind hier so zusammengefasst, dass
+man erkennen kann, dass sie nach einem
 
 00:06:13,490 --> 00:06:16,580
 speziellen Kriterium spezialisiert sind,
@@ -432,7 +433,8 @@ und ein Gegensatzpaar hinsichtlich der Frage, ob
 jede Instanz eindeutig zugeordnet werden kann.
 
 00:09:27,350 --> 00:09:30,680
-Das nennt man dann "complete" versus "incomplete".
+Das nennt man dann "complete"
+versus "incomplete".
 
 00:09:30,680 --> 00:09:37,580
 Also hier die erste Eigenschaft wäre, dass
@@ -617,7 +619,8 @@ sondern unvollständig, "incomplete",
 weil es eben zum Beispiel noch Benziner gibt.
 
 00:13:34,340 --> 00:13:40,080
-Das ist eine andere Kombination von Eigenschaften.
+Das ist eine andere
+Kombination von Eigenschaften.
 
 00:13:43,020 --> 00:13:47,340
 Dann fehlt noch "complete" und "overlapping".
@@ -714,7 +717,8 @@ wenn wir einfach aus diesem
 Diagramm eine Unterklasse weglassen.
 
 00:15:26,400 --> 00:15:28,470
-Also vergessen, dass es auch fliegende Tiere gibt.
+Also vergessen, dass es
+auch fliegende Tiere gibt.
 
 00:15:28,470 --> 00:15:30,690
 Dann wären wir bei diesem Bild.

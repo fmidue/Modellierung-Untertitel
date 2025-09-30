@@ -3,8 +3,8 @@ In dieser Aufgabe haben wir dieses Klassendiagramm
 gegeben, das die Vektorgrafik-Funktionen und
 
 0:00:07.490,0:00:09.960
-Objekte, die wir in der Vorlesung kennengelernt
-haben, teilweise darstellt.
+Objekte, die wir in der Vorlesung
+kennengelernt haben, teilweise darstellt.
 
 0:00:09.960,0:00:16.560
 Und unsere erste Teilaufgabe dafür ist, einfach
@@ -28,31 +28,31 @@ Objekte instanziieren würden, welche Objekte
 könnten dann diese Funktionen hier aufrufen?
 
 0:00:34.710,0:00:38.570
-Dafür gehen wir einfach mal alle diese Klassen
-durch und gucken uns das an.
+Dafür gehen wir einfach mal alle diese
+Klassen durch und gucken uns das an.
 
 0:00:38.570,0:00:43.800
 Zum Anfang wäre natürlich Picture sehr verlockend,
 denn Picture hat die ganzen Funktionen drinstehen.
 
 0:00:43.800,0:00:47.870
-Also müssten Objekte vom Typ Picture auch
-die Funktion aufrufen können.
+Also müssten Objekte vom Typ Picture
+auch die Funktion aufrufen können.
 
 0:00:47.870,0:00:51.760
 Hier müssen wir aber aufpassen, denn hier
 oben steht, Picture ist eine abstrakte Klasse.
 
 0:00:51.760,0:00:57.150
-Das heißt, von der Klasse Picture kann es
-keine direkten Instanzen geben.
+Das heißt, von der Klasse Picture kann
+es keine direkten Instanzen geben.
 
 0:00:57.150,0:01:01.240
 Das ist die Definition einer Abstract-Klasse.
 
 0:01:01.240,0:01:07.439
-Also müssen wir weiter gucken, welche Klassen
-könnten denn diese Funktionen erben?
+Also müssen wir weiter gucken, welche
+Klassen könnten denn diese Funktionen erben?
 
 0:01:07.439,0:01:09.790
 Also hier haben wir einen Vererbungsfall.
@@ -66,8 +66,8 @@ diese Funktion aufrufen, denn im Endeffekt
 haben sie diese Funktion von Picture bekommen.
 
 0:01:20.270,0:01:23.710
-Das heißt, Circle kann auf jeden Fall diese
-Funktion aufrufen.
+Das heißt, Circle kann auf jeden
+Fall diese Funktion aufrufen.
 
 0:01:23.710,0:01:28.530
 Rectangle kann diese Funktion aufrufen und
@@ -81,32 +81,32 @@ Nun müssen wir uns noch die letzte hier unten
 angucken, Point.
 
 0:01:34.749,0:01:38.840
-Point ist auch mit Path verbunden und Path
-erbt diese Funktion.
+Point ist auch mit Path verbunden
+und Path erbt diese Funktion.
 
 0:01:38.840,0:01:42.810
 Allerdings ist das hier keine Vererbung, sondern
 einfach nur eine Aggregation und über eine
 
 0:01:42.810,0:01:47.590
-Aggregation werden keinerlei Attribute oder
-Methoden weitergegeben.
+Aggregation werden keinerlei
+Attribute oder Methoden weitergegeben.
 
 0:01:47.590,0:01:55.359
 Das heißt, Point ist einfach nur irgendwie
 mit Path verbunden, semantisch, aber es erbt
 
 0:01:55.359,0:01:57.880
-nicht diese Funktion, was bedeutet, dass Point
-nicht dazugehört.
+nicht diese Funktion, was bedeutet,
+dass Point nicht dazugehört.
 
 0:01:57.880,0:02:03.030
 Also wäre die Antwort zur Teilaufgabe A einfach
 nur, Instanzen der Klasse Circle, Rectangle
 
 0:02:03.030,0:02:06.270
-und Path können diese fünf Funktionen alle
-aufrufen.
+und Path können diese fünf
+Funktionen alle aufrufen.
 
 0:02:06.270,0:02:15.599
 Und in Teilaufgabe zwei sollen wir nun die
@@ -117,19 +117,20 @@ Wir sehen, dass bei den Funktionen hier nur
 die Namen angegeben sind und die Angabe der
 
 0:02:21.870,0:02:25.140
-Argumente, und welche Typen die Argumente haben,
-fehlt.
+Argumente, und welche Typen
+die Argumente haben, fehlt.
 
 0:02:25.140,0:02:29.599
 Das sollen wir ändern, und zwar so, dass
 die Methoden-Typen der objektorientierten
 
 0:02:29.599,0:02:32.489
-Sicht auf die Vektorgrafik-Operationen entsprechen.
+Sicht auf die
+Vektorgrafik-Operationen entsprechen.
 
 0:02:32.489,0:02:35.079
-Diese Funktionen kennen wir schon aus der
-Vorlesung.
+Diese Funktionen kennen wir
+schon aus der Vorlesung.
 
 0:02:35.079,0:02:36.599
 Ich hole die mal hier dazu.
@@ -149,8 +150,8 @@ angegeben, die uns sagen, das erste Element
 ist vom Typ Picture.
 
 0:02:50.660,0:02:52.990
-Dann kriegen wir einen Float, dann noch einen
-Float.
+Dann kriegen wir einen
+Float, dann noch einen Float.
 
 0:02:52.990,0:02:56.570
 Der Ausgabewert ist vom Typ Picture wieder.
@@ -171,12 +172,12 @@ wir das erste Argument und den Ausgangswert
 nicht, denn diese Funktionen sind einfach
 
 0:03:18.390,0:03:23.349
-nur Funktionen, die direkt auf Instanzen dieser
-Klasse agieren.
+nur Funktionen, die direkt auf
+Instanzen dieser Klasse agieren.
 
 0:03:23.349,0:03:27.640
-Sozusagen in Place, diese verändern und nicht
-am Ende ein neues Picture herausgeben.
+Sozusagen in Place, diese verändern und
+nicht am Ende ein neues Picture herausgeben.
 
 0:03:27.640,0:03:33.099
 Also wenn wir jetzt zum Beispiel eine Instanz
@@ -187,42 +188,42 @@ aufrufen, dann würde das sich einfach nur
 die internen Attribute von Circle angucken,
 
 0:03:38.819,0:03:44.129
-die verändern, entsprechend von Scale und
-dann wäre es fertig.
+die verändern, entsprechend von
+Scale und dann wäre es fertig.
 
 0:03:44.129,0:03:46.849
 Es würde keinen neuen Circle zurückgeben.
 
 0:03:46.849,0:03:50.550
-Und das ist hier im Endeffekt einfach nur
-der Effekt von dieser objektorientierten Sicht
+Und das ist hier im Endeffekt einfach nur der
+Effekt von dieser objektorientierten Sicht
 
 0:03:50.550,0:03:54.239
-und dass diese Funktion direkt in der Klasse
-Picture drin ist.
+und dass diese Funktion direkt
+in der Klasse Picture drin ist.
 
 0:03:54.239,0:03:57.439
-Das heißt, wir können uns diese Typ-Signaturen
-hier anschauen.
+Das heißt, wir können uns diese
+Typ-Signaturen hier anschauen.
 
 0:03:57.439,0:04:06.629
-Ich verschiebe das mal ein bisschen, damit
-das auch sichtbar bleibt.
+Ich verschiebe das mal ein bisschen,
+damit das auch sichtbar bleibt.
 
 0:04:06.629,0:04:09.810
 Das dann nach und nach übersetzen.
 
 0:04:09.810,0:04:12.879
-Das heißt, für Scale haben wir das erste
-Diagramm in Picture.
+Das heißt, für Scale haben wir
+das erste Diagramm in Picture.
 
 0:04:12.879,0:04:16.109
-Das ist die Klasse selber, die brauchen wir
-nicht mit anzugeben als Argument.
+Das ist die Klasse selber, die brauchen
+wir nicht mit anzugeben als Argument.
 
 0:04:16.109,0:04:20.060
-Und dann haben wir zwei Floats und den Ausgabewert
-Picture.
+Und dann haben wir zwei Floats
+und den Ausgabewert Picture.
 
 0:04:20.060,0:04:23.840
 Das brauchen wir auch wieder nicht anzugeben,
@@ -236,8 +237,8 @@ Das heißt, für Scale konkret sind die Argumente
 einfach nur: wir haben ein x-Argument, das
 
 0:04:34.310,0:04:37.160
-das Scaling auf der x-Achse angibt, und das
-ist vom Typ Float;
+das Scaling auf der x-Achse
+angibt, und das ist vom Typ Float;
 
 0:04:37.160,0:04:42.470
 und ein y-Argument, das das Scaling auf der
@@ -250,12 +251,12 @@ Und damit ist Scale vervollständigt.
 Für Color machen wir dasselbe.
 
 0:04:47.420,0:04:53.580
-Color bekommt einfach nur einen Color-Wert
-und sonst gar nichts, denn hier ist auch wieder
+Color bekommt einfach nur einen Color-Wert und
+sonst gar nichts, denn hier ist auch wieder
 
 0:04:53.580,0:04:58.090
-das erste Argument die Klasse selbst und der
-Ausgabewert die Klasse selbst.
+das erste Argument die Klasse selbst
+und der Ausgabewert die Klasse selbst.
 
 0:04:58.090,0:05:08.919
 Bei Rotate sieht das genauso aus, nur mit
@@ -268,8 +269,8 @@ Für Move haben wir wieder zwei Floats.
 Da bewegen wir uns wieder auf der x- und y-Achse.
 
 0:05:16.190,0:05:22.090
-Und am Ende noch für Extent. Extent ist ein
-bisschen anders.
+Und am Ende noch für Extent.
+Extent ist ein bisschen anders.
 
 0:05:22.090,0:05:24.599
 Ich scrolle mal herunter zu Extent.
@@ -278,8 +279,8 @@ Ich scrolle mal herunter zu Extent.
 Genau, hier unten ist Extent.
 
 0:05:29.800,0:05:33.960
-Extent hat einfach nur das erste Element,
-das vom Typ Picture ist, und gibt einen Float
+Extent hat einfach nur das erste Element, das
+vom Typ Picture ist, und gibt einen Float
 
 0:05:33.960,0:05:34.960
 zurück.
@@ -296,8 +297,8 @@ Das heißt, hier geben wir nur eine leere
 Klammer an, da keine Argumente nötig sind, und
 
 0:05:47.420,0:05:52.030
-der Ausgabewert ist etwas vom Typ Float, denn hier
-kommt jetzt wirklich etwas zurück. Denn das
+der Ausgabewert ist etwas vom Typ Float, denn
+hier kommt jetzt wirklich etwas zurück. Denn das
 
 0:05:52.030,0:05:58.379
 sind nicht Objekte der Klasse selbst, die manipuliert

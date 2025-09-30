@@ -59,8 +59,8 @@ Petrinetze sind ein einfacherer Mechanismus,
 der in Richtung UML-Aktivitätsdiagramme geht.
 
 00:01:10,920 --> 00:01:16,530
-Der aktuelle Vorlesungsstoff der nächsten
-zwei, drei Wochen werden diese Petrinetze sein.
+Der aktuelle Vorlesungsstoff der nächsten zwei,
+drei Wochen werden diese Petrinetze sein.
 
 00:01:18,420 --> 00:01:20,730
 Die kann man (so wie
@@ -238,8 +238,8 @@ die wir in der Vorlesung behandeln,
 besitzen sie eine sehr formale Semantik.
 
 00:04:33,410 --> 00:04:35,105
-Also, sie sind wirklich exakt
-mathematisch definiert.
+Also, sie sind wirklich
+exakt mathematisch definiert.
 
 00:04:35,105 --> 00:04:37,190
 Und auch die Fragestellungen zu Petrinetzen kann
@@ -380,8 +380,8 @@ Ressourcen tatsächlich auch
 materielle Ressourcen sein.
 
 00:07:12,000 --> 00:07:17,100
-Wie in dem Snackautomaten-Beispiel, von dem
-ich in der letzten Woche kurz gesprochen hatte.
+Wie in dem Snackautomaten-Beispiel, von dem ich
+in der letzten Woche kurz gesprochen hatte.
 
 00:07:17,100 --> 00:07:21,420
 Da könnten das eben die Snacks
@@ -491,8 +491,8 @@ mengentheoretischen Darstellung
 auf jeden Fall schlagen.
 
 00:09:12,260 --> 00:09:16,960
-Zur Praxis hatte ich schon einige
-Anwendungsgebiete genannt.
+Zur Praxis hatte ich schon
+einige Anwendungsgebiete genannt.
 
 00:09:16,960 --> 00:09:18,860
 Zumindest genannt, wo Ihnen
@@ -503,7 +503,8 @@ Eben bei verteilten Systemen, bei
 der Modellierung verteilter Systeme,
 
 00:09:21,920 --> 00:09:24,110
-oder bei der Analyse von verteilten Systemen auch.
+oder bei der Analyse von
+verteilten Systemen auch.
 
 00:09:24,110 --> 00:09:30,020
 Und genannt hatte ich auch schon, dass in
@@ -713,8 +714,8 @@ Nebenläufigkeit dieser beiden Prozesse,
 des Rechnens und der Darstellung.
 
 00:13:09,970 --> 00:13:12,610
-Und natürlich finden Sie
-auch viele andere Beispiele von Nebenläufigkeit,
+Und natürlich finden Sie auch viele
+andere Beispiele von Nebenläufigkeit,
 
 00:13:12,610 --> 00:13:14,620
 auch in der Alltagswelt.
@@ -739,7 +740,8 @@ realisiert sein, dass diese Aktionen
 nebenläufig umgesetzt werden können.
 
 00:13:38,920 --> 00:13:43,750
-So dass die Bank Kontrolle darüber hat, dass nicht
+So dass die Bank Kontrolle
+darüber hat, dass nicht
 
 00:13:43,750 --> 00:13:49,660
 durch das Ausführen dieser beiden Aktionen
@@ -762,7 +764,8 @@ Wahrscheinlich wird es in dem konkreten Fall
 noch ein komplizierteres Modellierungsmittel
 
 00:14:13,750 --> 00:14:16,840
-als nur Petrinetze sein, das im Hintergrund steht.
+als nur Petrinetze sein,
+das im Hintergrund steht.
 
 00:14:17,860 --> 00:14:22,120
 Aber die Fragen kann man auch
@@ -812,8 +815,8 @@ die um einen runden Tisch sitzen und
 die offensichtlich speisen wollen.
 
 00:15:06,835 --> 00:15:11,500
-Das sind die Speisenden Philosophen, das
-heißt, die haben Hunger und möchten gern essen.
+Das sind die Speisenden Philosophen, das heißt,
+die haben Hunger und möchten gern essen.
 
 00:15:11,500 --> 00:15:15,430
 Es herrscht auch keine Knappheit an Essen.
@@ -845,7 +848,8 @@ Und die liegen genau zwischen den Philosophen.
 Soweit, so gut.
 
 00:15:40,660 --> 00:15:43,810
-Das Problem ist, dass, wenn die Philosophen hungrig
+Das Problem ist, dass, wenn
+die Philosophen hungrig
 
 00:15:43,810 --> 00:15:47,110
 sind und essen wollen, sie dann
@@ -896,7 +900,8 @@ Die haben sich da vielleicht vorher festgelegt
 und sind unflexibel in ihren Handlungen.
 
 00:16:26,450 --> 00:16:29,390
-Jedenfalls müssen sie sich immer gleich verhalten.
+Jedenfalls müssen sie sich
+immer gleich verhalten.
 
 00:16:29,390 --> 00:16:33,680
 Und zwar braucht ein Philosoph
@@ -953,7 +958,8 @@ Das kann man untersuchen, wenn man
 das System genauer beschrieben hat.
 
 00:17:35,060 --> 00:17:39,290
-Wenn man diese verbalen Regeln fester gefasst hat.
+Wenn man diese verbalen
+Regeln fester gefasst hat.
 
 00:17:39,290 --> 00:17:39,886
 Das werden wir später tun.

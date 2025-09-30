@@ -3,8 +3,8 @@ In dieser Aufgabe haben wir ein Aktivitätsdiagramm
 gegeben, und wir sollen bestimmte Aktionsfolgen
 
 0:00:08.130,0:00:12.530
-angeben, die gewisse Eigenschaften erfüllen.
-Diese Eigenschaften sind hier in diesen Unteraufgaben
+angeben, die gewisse Eigenschaften erfüllen. Diese
+Eigenschaften sind hier in diesen Unteraufgaben
 
 0:00:12.530,0:00:17.252
 gegeben. Aber bevor wir anfangen, noch einmal
@@ -23,16 +23,16 @@ zum Beispiel eine mögliche Aktionsfolge A
 hier, schalten C, schalten D, müssen uns
 
 0:00:36.109,0:00:42.230
-hier entscheiden, entweder E oder F. Wir wählen
-F, gehen über die Vereinigung wieder aus
+hier entscheiden, entweder E oder F. Wir
+wählen F, gehen über die Vereinigung wieder aus
 
 0:00:42.230,0:00:51.629
 diesem parallelen Bereich heraus, entscheiden
 uns hier, Z zu aktivieren, und schalten G,
 
 0:00:51.629,0:00:57.949
-und haben damit die Aktionsfolge A – B – C
-– D – F – G, sind am Aktivitätsende,
+und haben damit die Aktionsfolge A – B –
+C – D – F – G, sind am Aktivitätsende,
 
 0:00:57.949,0:01:05.360
 und das wäre dann eine mögliche Aktionsfolge.
@@ -55,8 +55,8 @@ sollen niemals gelten. Das heißt, wir dürfen
 uns hier oben niemals entscheiden, dass wir
 
 0:01:32.590,0:01:36.500
-das F schalten, und hier unten dürfen wir
-uns niemals entscheiden, dass wir zurückgehen,
+das F schalten, und hier unten dürfen wir uns
+niemals entscheiden, dass wir zurückgehen,
 
 0:01:36.500,0:01:40.090
 um dann hier oben noch einmal B zu schalten,
@@ -95,12 +95,12 @@ Dann das D optional, das können wir in Klammern
 dazuschreiben. Und hier müssen wir uns entscheiden:
 
 0:02:25.030,0:02:33.510
-Entweder E oder F. Bei F würde aber Y gelten,
-das heißt, für F dürfen wir uns nicht entscheiden,
+Entweder E oder F. Bei F würde aber Y gelten, das
+heißt, für F dürfen wir uns nicht entscheiden,
 
 0:02:33.510,0:02:39.310
-sondern müssen E wählen. Und damit sind
-wir an der Vereinigung und aus diesem Bereich
+sondern müssen E wählen. Und damit sind wir
+an der Vereinigung und aus diesem Bereich
 
 0:02:39.310,0:02:42.840
 heraus. Um jetzt zu zeigen, dass wir die in
@@ -111,8 +111,8 @@ Beispiel: Wir entscheiden uns zuerst für
 E, dann schalten wir D, dann schalten wir
 
 0:02:47.069,0:02:54.280
-C, oder erst C, dann D, oder D lassen wir
-weg und machen zuerst E und dann nur C), können
+C, oder erst C, dann D, oder D lassen wir weg
+und machen zuerst E und dann nur C), können
 
 0:02:54.280,0:02:59.570
 wir einfach unter diese drei einen Strich
@@ -163,8 +163,8 @@ entscheiden und F schalten. Die Reihenfolge
 ist immer noch egal, das heißt, wir machen
 
 0:04:00.620,0:04:06.150
-immer noch unseren Strich darunter, gehen
-über die Vereinigung wieder heraus und entscheiden
+immer noch unseren Strich darunter, gehen über
+die Vereinigung wieder heraus und entscheiden
 
 0:04:06.150,0:04:11.240
 uns jetzt für G, denn wir wollen eine möglichst
@@ -183,8 +183,8 @@ Z-Pfad und schalten G und haben damit auch
 eine Aktionsfolge für die zweite Teilaufgabe.
 
 0:04:27.320,0:04:33.630
-Bei der dritten Teilaufgabe (c) sollen wir jetzt
-eine Aktionsfolge mit Länge größer/gleich
+Bei der dritten Teilaufgabe (c) sollen wir
+jetzt eine Aktionsfolge mit Länge größer/gleich
 
 0:04:33.630,0:04:37.980
 neun angeben. Das ist ein wenig komplizierter,
@@ -199,8 +199,8 @@ Y solange gelten, bis D ausgeführt wurde.
 Das heißt einfach nur, dass wir uns jedes
 
 0:04:52.690,0:04:58.100
-Mal, wenn wir eine Entscheidung haben, bei
-der das Y dabei ist, immer für das Y entscheiden
+Mal, wenn wir eine Entscheidung haben, bei der
+das Y dabei ist, immer für das Y entscheiden
 
 0:04:58.100,0:05:02.340
 und dann dementsprechend die Aktion dahinter
@@ -211,8 +211,8 @@ haben. Und danach dürfen wir auch den Y-Pfad
 nicht mehr nehmen. Also fangen wir jetzt hier
 
 0:05:08.090,0:05:15.560
-einmal an: Auch wieder A und B, da wir da
-keine Wahl haben. C muss auf jeden Fall geschaltet
+einmal an: Auch wieder A und B, da wir da keine
+Wahl haben. C muss auf jeden Fall geschaltet
 
 0:05:15.560,0:05:20.560
 werden. D dürfen wir jetzt nicht machen,
@@ -251,8 +251,8 @@ in diesen parallelen Bereich herein, schalten
 auf jeden Fall auch wieder C. Jetzt müssen
 
 0:05:57.250,0:06:03.400
-wir gucken: Haben wir schon wieder genug,
-um unsere Mindestlänge von neun zu erreichen?
+wir gucken: Haben wir schon wieder genug, um
+unsere Mindestlänge von neun zu erreichen?
 
 0:06:03.400,0:06:08.860
 Wenn wir jetzt D schalten, müssen wir uns
@@ -275,8 +275,8 @@ erfüllt. Wir müssen hier aber noch nicht
 unbedingt diesen Pfad nehmen, wenn wir D – E
 
 0:06:33.330,0:06:38.600
-– G und dann herausgehen, denn die Länge
-ist nicht begrenzt. Es ist auch nicht angegeben,
+– G und dann herausgehen, denn die Länge ist
+nicht begrenzt. Es ist auch nicht angegeben,
 
 0:06:38.600,0:06:41.800
 dass es möglichst kurz sein soll, das heißt,
@@ -299,8 +299,8 @@ Das C hatten wir schon. Das heißt, wir entscheiden
 uns für den Y-Pfad, machen das F, entscheiden
 
 0:07:11.660,0:07:17.630
-uns hier auch wieder für Y, gehen wieder
-hoch, machen wieder das B, das C, das F, wieder
+uns hier auch wieder für Y, gehen wieder hoch,
+machen wieder das B, das C, das F, wieder
 
 0:07:17.630,0:07:23.470
 das B – C – F, das könnten wir so lange

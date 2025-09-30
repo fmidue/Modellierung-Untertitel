@@ -93,8 +93,8 @@ sondern "starke Lebendigkeit".
 Hier ist zunächst die Definition angegeben.
 
 00:01:49,290 --> 00:01:55,890
-Also ein Petrinetz heißt "stark lebendig",
-wenn ... und dann gibt es hier eine Definition.
+Also ein Petrinetz heißt "stark lebendig", wenn
+... und dann gibt es hier eine Definition.
 
 00:01:55,890 --> 00:02:00,240
 Also es muss gelten, dass für jede einzelne
@@ -426,7 +426,8 @@ Für jede von m0 aus erreichbare
 Markierung m muss es möglich sein,
 
 00:07:59,290 --> 00:08:01,570
-die Markierung m' zu erreichen, für die t aktiviert ist.
+die Markierung m' zu erreichen,
+für die t aktiviert ist.
 
 00:08:01,570 --> 00:08:07,090
 Also das ist eine schwächere Forderung, weil man
@@ -599,8 +600,8 @@ Erreichbarkeitsgraphen natürlich schwierig.
 Das wären "starke und schwache Lebendigkeit".
 
 00:11:24,000 --> 00:11:29,490
-Was wir hier gesehen haben, ist, dass ein
-Petrinetz schwach lebendig sein kann,
+Was wir hier gesehen haben, ist, dass
+ein Petrinetz schwach lebendig sein kann,
 
 00:11:29,490 --> 00:11:34,800
 obwohl es einen Deadlock enthält,
@@ -623,8 +624,8 @@ die hat natürlich auch eine Definition.
 Auch wenn wir schon intuitiv gesehen haben,
 
 00:11:48,510 --> 00:11:51,600
-was das bedeutet, und wir vielleicht gar
-keine formale Definition brauchen.
+was das bedeutet, und wir vielleicht
+gar keine formale Definition brauchen.
 
 00:11:51,600 --> 00:11:53,280
 Dennoch hier einmal aufgeschrieben:

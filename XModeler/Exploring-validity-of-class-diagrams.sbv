@@ -1,6 +1,6 @@
 0:00:00.780,0:00:06.810
-Auto tool task number one, we have four class
-diagram candidates.
+Auto tool task number one, we have
+four class diagram candidates.
 
 0:00:06.810,0:00:12.420
 And it says: “Which of these class diagram
@@ -18,8 +18,8 @@ if we manage to create it, and it's exactly
 the same, then it is a valid class diagram.
 
 0:00:29.109,0:00:35.800
-If XModeler interrupts and says there is
-a problem, and it rejects it does not allow
+If XModeler interrupts and says there is a
+problem, and it rejects it does not allow
 
 0:00:35.800,0:00:41.470
 us to create this class diagram and you have
@@ -33,8 +33,8 @@ They have A, B, C, D, let's just
 do them first and then we connect.
 
 0:01:03.230,0:01:14.680
-A is here, C is here and then B is
-down here, D to the left.
+A is here, C is here and then
+B is down here, D to the left.
 
 0:01:14.680,0:01:16.720
 Let's try to connect them.
@@ -46,8 +46,8 @@ So, they are connected now with inheritance.
 No associations involved.
 
 0:01:22.090,0:01:30.290
-So, right click this, change parent to C.
-So far, no problems.
+So, right click this, change
+parent to C. So far, no problems.
 
 0:01:30.290,0:01:33.820
 Let me fix this.
@@ -98,12 +98,12 @@ D. So, let me just add the class again.
 Let me remove this.
 
 0:02:50.420,0:02:52.330
-It's not possible to remove this, I don't
-think it's possible.
+It's not possible to remove this,
+I don't think it's possible.
 
 0:02:52.330,0:02:59.890
-So, what I'm going to do is actually remove
-them, yes.
+So, what I'm going to do is
+actually remove them, yes.
 
 0:02:59.890,0:03:14.110
 And add B, add C. So, we have B here, we have
@@ -117,12 +117,12 @@ Change parent to B. Change parent to B change
 parent to B. So, let me fix this mess.
 
 0:03:37.440,0:03:51.629
-And this looks exactly like the class
-diagram here.
+And this looks exactly like
+the class diagram here.
 
 0:03:51.629,0:03:56.360
-This means class diagram number 2 or candidate
-number 2 is a valid class diagram.
+This means class diagram number 2 or
+candidate number 2 is a valid class diagram.
 
 0:03:56.360,0:04:03.890
 Now let's do number 3.
@@ -135,15 +135,15 @@ Change parent of B to D.
 And change parent of D to A.
 
 0:04:47.169,0:04:57.750
-And change parent of A to B.
-And again B is already a descendant of A,
+And change parent of A to B. And
+again B is already a descendant of A,
 
 0:04:57.750,0:05:00.090
 circular inheritance is not allowed.
 
 0:05:00.090,0:05:03.900
-So, this means number three is also not a
-class diagram.
+So, this means number three
+is also not a class diagram.
 
 0:05:03.900,0:05:06.080
 This is invalid.
@@ -152,8 +152,8 @@ This is invalid.
 Let's do number four.
 
 0:05:10.850,0:05:59.509
-Change parent to C. Change parent to B, change parent
-to D. This should fix it.
+Change parent to C. Change parent to B,
+change parent to D. This should fix it.
 
 0:05:59.509,0:06:01.710
 And it looks exactly like this one.

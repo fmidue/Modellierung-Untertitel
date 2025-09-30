@@ -1,19 +1,19 @@
 123 # slide
 00:00:00,000 --> 00:00:08,400
-Before we move away from
-static modeling with UML next week
+Before we move away from static
+modeling with UML next week
 
 00:00:08,400 --> 00:00:14,460
-and move into Petri nets
-and thus dynamic modeling, I would
+and move into Petri nets and
+thus dynamic modeling, I would
 
 00:00:14,460 --> 00:00:23,370
 like to first introduce,
 or I hope repeat for
 
 00:00:23,370 --> 00:00:25,020
-most of you, some
-mathematical tools/terms in this video.
+most of you, some mathematical
+tools/terms in this video.
 
 00:00:25,020 --> 00:00:27,960
 So that would be simple set theory
@@ -23,30 +23,30 @@ terms, specifically sets,
 functions, and graphs.
 
 00:00:30,120 --> 00:00:35,550
-Hopefully this will really just be
-a review for many of you, in
+Hopefully this will really just
+be a review for many of you, in
 
 00:00:35,550 --> 00:00:43,350
 particular the Komedia students
 will recognize the slides
 
 00:00:43,350 --> 00:00:46,800
-as they are quite similar to
-my Mathematical Structures lecture after all.
+as they are quite similar to my
+Mathematical Structures lecture after all.
 
 00:00:47,370 --> 00:00:49,470
 I think also for the computer science
 
 00:00:49,470 --> 00:00:55,860
-students some of the slides will
-be quite similar to the logic lecture.
+students some of the slides will be
+quite similar to the logic lecture.
 
 00:00:55,860 --> 00:00:58,650
 And also for the ISE students
 
 00:00:58,650 --> 00:01:02,040
-these terms should be known,
-for example from Discrete Mathematics.
+these terms should be known, for
+example from Discrete Mathematics.
 
 00:01:02,040 --> 00:01:07,500
 Nevertheless, I repeat, simply so that
@@ -66,12 +66,12 @@ of this, you may skip this video.
 We're going to be dealing with sets.
 
 00:01:25,895 --> 00:01:29,450
-So sets will occur in
-the formalization of Petri nets.
+So sets will occur in the
+formalization of Petri nets.
 
 00:01:29,450 --> 00:01:34,940
-And sets you know at least
-from school as simply such collections of
+And sets you know at least from
+school as simply such collections of
 
 00:01:34,940 --> 00:01:37,100
 elements, written with braces.
@@ -91,8 +91,8 @@ if it's an infinite set
 that can be continued in a natural way.
 
 00:01:49,460 --> 00:01:52,790
-Of course, there are also quantities that
-cannot be written down in this way.
+Of course, there are also quantities
+that cannot be written down in this way.
 
 00:01:52,790 --> 00:01:57,590
 For example, you can't write down
@@ -110,8 +110,8 @@ So, for example, the
 set of all natural numbers
 
 00:02:07,670 --> 00:02:13,280
-that are even, one likes to
-write in this so-called comprehension notation.
+that are even, one likes to write in
+this so-called comprehension notation.
 
 00:02:13,280 --> 00:02:15,410
 So the set of all n, "so that".
@@ -120,8 +120,8 @@ So the set of all n, "so that".
 Then in this case there is a condition.
 
 00:02:17,630 --> 00:02:21,860
-Let the n come from
-the natural numbers and be even.
+Let the n come from the
+natural numbers and be even.
 
 00:02:21,860 --> 00:02:26,270
 With N written in this way, we denote
@@ -135,20 +135,20 @@ In our specification of the vector operations,
 or even before the vector operations in
 
 00:02:37,190 --> 00:02:40,700
-the arithmetic operations, I had also
-used this as a set briefly.
+the arithmetic operations, I had
+also used this as a set briefly.
 
 00:02:43,430 --> 00:02:50,200
 That would be again the representation for
 some general property that depends on an x.
 
 00:02:50,200 --> 00:02:55,060
-And if there is a basic set,
-as it was the case here above, one
+And if there is a basic set, as
+it was the case here above, one
 
 00:02:55,060 --> 00:02:59,410
-writes it gladly also in such a way
-that one says already before the vertical line,
+writes it gladly also in such a way that
+one says already before the vertical line,
 
 00:02:59,410 --> 00:03:04,300
 from which basic set the elements come,
@@ -176,12 +176,12 @@ This simply as possibilities
 to write down sets.
 
 00:03:21,790 --> 00:03:36,580
-Important for consideration of sets is,
-that sets are unordered, and also
+Important for consideration of sets
+is, that sets are unordered, and also
 
 00:03:36,580 --> 00:03:43,780
-the number of elements, thus the
-occurrence of an element, cannot be multiple.
+the number of elements, thus the occurrence
+of an element, cannot be multiple.
 
 00:03:43,780 --> 00:03:46,450
 First of all, sets are disordered,
@@ -199,12 +199,12 @@ Secondly, elements do not
 appear more than once.
 
 00:03:58,150 --> 00:04:00,610
-Or, if you would write them
-down several times, it makes no difference.
+Or, if you would write them down
+several times, it makes no difference.
 
 00:04:01,150 --> 00:04:04,390
-The set \{1,2,3,4,4\} is
-still just the set \{1,2,3,4\},
+The set \{1,2,3,4,4\} is still
+just the set \{1,2,3,4\},
 
 00:04:05,350 --> 00:04:07,660
 because it only matters if
@@ -224,8 +224,8 @@ but of course different from \{1,2,3\}
 and also from the set \{1,2,3,4,5\}.
 
 00:04:19,780 --> 00:04:24,490
-Because there is actually one element too
-much or too little in each case.
+Because there is actually one element
+too much or too little in each case.
 
 00:04:24,490 --> 00:04:30,100
 While this "double occurrence" of 4 is
@@ -249,8 +249,8 @@ On the one hand relations.
 On the one hand being contained.
 
 00:04:48,880 --> 00:04:53,770
-So an element a is in
-the set, if it occurs in it.
+So an element a is in the
+set, if it occurs in it.
 
 00:04:53,770 --> 00:04:57,790
 And this element sign
@@ -265,19 +265,19 @@ Of course, this is only
 possible if the set is finite.
 
 00:05:08,830 --> 00:05:11,800
-Generally, sets can be
-infinite, like the natural numbers.
+Generally, sets can be infinite,
+like the natural numbers.
 
 00:05:11,800 --> 00:05:14,860
 But if this is a finite set,
 
 00:05:14,860 --> 00:05:20,260
-we use this notation here
-to denote that finite number.
+we use this notation here to
+denote that finite number.
 
 00:05:20,260 --> 00:05:26,500
-Then there is the notion of
-a subset and a corresponding symbol for it.
+Then there is the notion of a subset
+and a corresponding symbol for it.
 
 00:05:27,490 --> 00:05:30,430
 That is, A is a subset of B.
@@ -302,16 +302,16 @@ are a subset of all integer numbers.
 That is, it works for infinite sets too.
 
 00:05:52,030 --> 00:05:54,730
-And it's not the same as
-saying that the subset relation says
+And it's not the same as saying
+that the subset relation says
 
 00:05:54,730 --> 00:05:58,090
-the sets are smaller in
-the sense of "contain fewer elements".
+the sets are smaller in the sense
+of "contain fewer elements".
 
 00:05:58,090 --> 00:06:03,670
-It's really a matter of whether all the elements in A
-are also in B, no matter how many there may be.
+It's really a matter of whether all the elements in
+A are also in B, no matter how many there may be.
 
 00:06:03,670 --> 00:06:08,650
 Then there is this particular set.
@@ -328,8 +328,8 @@ it with some kind of zero,
 but as a set zero with this crossbar.
 
 00:06:17,260 --> 00:06:20,530
-Or just the curly
-braces without anything in between.
+Or just the curly braces
+without anything in between.
 
 00:06:20,530 --> 00:06:23,410
 So this is the
@@ -340,16 +340,16 @@ It is automatically a subset, even
 a proper subset, of any other set.
 
 00:06:27,580 --> 00:06:32,590
-Proper subset in the sense that it is
-not equal to any non-empty set, of course.
+Proper subset in the sense that it is not
+equal to any non-empty set, of course.
 
 00:06:32,590 --> 00:06:40,970
 Then there are operations
 which link several sets.
 
 00:06:40,970 --> 00:06:46,985
-On the one hand, there is
-the set union, written with this symbol.
+On the one hand, there is the set
+union, written with this symbol.
 
 00:06:46,985 --> 00:06:50,600
 We will see the reverse symbol
@@ -360,8 +360,8 @@ The union is
 about throwing quantities together.
 
 00:06:54,530 --> 00:06:59,810
-So the result set here is the set of all elements that occur
-in A or in B.
+So the result set here is the set of
+all elements that occur in A or in B.
 
 00:07:01,880 --> 00:07:07,400
 The result set cannot be smaller
@@ -372,27 +372,27 @@ And, of course, both A and B are
 subsets of the union of A and B.
 
 00:07:17,930 --> 00:07:26,540
-Then there is, so to speak, dual
-to it, with the reverse symbol, the intersection.
+Then there is, so to speak, dual to it,
+with the reverse symbol, the intersection.
 
 00:07:26,540 --> 00:07:31,580
 That would be the set of all
 elements that occur in A and in B.
 
 00:07:31,580 --> 00:07:36,290
-So only the "or" in this
-conditional has been replaced by "and".
+So only the "or" in this conditional
+has been replaced by "and".
 
 00:07:36,290 --> 00:07:37,730
 But this makes a big difference.
 
 00:07:37,730 --> 00:07:44,480
-In particular, the intersection usually makes
-sets smaller, at least not larger.
+In particular, the intersection usually
+makes sets smaller, at least not larger.
 
 00:07:44,480 --> 00:07:50,870
-So the intersection of A and B is
-in any case a subset of both A and B.
+So the intersection of A and B is in
+any case a subset of both A and B.
 
 00:07:50,870 --> 00:07:52,610
 While here the reverse was true:
@@ -420,24 +420,24 @@ There, the structure
 of the elements changes.
 
 00:08:20,990 --> 00:08:25,025
-So in the result set are other
-kinds of elements than in the original set.
+So in the result set are other kinds
+of elements than in the original set.
 
 00:08:25,025 --> 00:08:30,341
-Namely not simply the elements from A
-and/or from B, but pairs of them.
+Namely not simply the elements from
+A and/or from B, but pairs of them.
 
 00:08:30,341 --> 00:08:36,140
-So we have given two sets A and
-B, and we get the set of all pairs.
+So we have given two sets A and B,
+and we get the set of all pairs.
 
 00:08:36,140 --> 00:08:42,050
-And ordered pairs in such a way
-that the first element (the left element
+And ordered pairs in such a way that
+the first element (the left element
 
 00:08:42,050 --> 00:08:47,090
-of the pair) always comes from the set A,
-and the right element always comes from the set B.
+of the pair) always comes from the set A, and
+the right element always comes from the set B.
 
 00:08:47,090 --> 00:08:50,320
 Of course, the sets may
@@ -463,12 +463,12 @@ would be as follows:
 That has six elements.
 
 00:09:18,190 --> 00:09:23,650
-The number of elements of
-a cross product with finite sets A and B
+The number of elements of a cross
+product with finite sets A and B
 
 00:09:23,650 --> 00:09:29,140
-results exactly as the product of the numbers of
-the elements of these two single sets.
+results exactly as the product of the numbers
+of the elements of these two single sets.
 
 00:09:29,140 --> 00:09:32,680
 Because we can pair every element from
@@ -479,8 +479,8 @@ There are exactly these
 six pairs in this case.
 
 00:09:37,540 --> 00:09:41,770
-Of course, the order in which we
-write down the elements here doesn't matter.
+Of course, the order in which we write
+down the elements here doesn't matter.
 
 00:09:41,770 --> 00:09:44,890
 So it is only about the fact that
@@ -506,8 +506,8 @@ the second element, the
 second component of the
 
 00:10:02,290 --> 00:10:05,830
-pair, is to come from this
-empty set (in which there is nothing).
+pair, is to come from this empty
+set (in which there is nothing).
 
 00:10:05,830 --> 00:10:13,320
 This is what I had just said:
@@ -517,8 +517,8 @@ For finite sets, the number of elements of
 the cross product is equal to the number
 
 00:10:18,120 --> 00:10:20,940
-product of the numbers
-of the individual elements.
+product of the numbers of
+the individual elements.
 
 00:10:20,940 --> 00:10:28,050
 And you can also
@@ -528,20 +528,20 @@ think about certain relations
 between the relations we have seen.
 
 00:10:30,750 --> 00:10:37,740
-For example, in the case of the subset relation and the cross product, if
-A is a subset of B, then the same kind of relation holds
+For example, in the case of the subset relation and the cross
+product, if A is a subset of B, then the same kind of relation holds
 
 00:10:37,740 --> 00:10:43,680
-even after cross-producting with some set C. And it
-doesn't matter if I have the set C or not.
+even after cross-producting with some set C. And
+it doesn't matter if I have the set C or not.
 
 00:10:43,680 --> 00:10:49,740
 And it doesn't matter whether I multiply the set C by it from the right
 when I do the cross product, or whether I multiply it by it from the left.
 
 00:10:54,660 --> 00:10:57,600
-These are simply compatibility properties of the
-cross product, in that case with the subset
+These are simply compatibility properties of
+the cross product, in that case with the subset
 
 00:10:57,600 --> 00:10:58,590
 relation.
@@ -554,23 +554,23 @@ the reverse is not true.
 Just because this subset relation holds
 
 00:11:07,260 --> 00:11:13,890
-doesn't necessarily make this subset relation hold,
-especially if C is the empty set.
+doesn't necessarily make this subset relation
+hold, especially if C is the empty set.
 
 00:11:18,210 --> 00:11:20,910
 That was about forming pairs.
 
 00:11:20,910 --> 00:11:25,470
-And just as you can form pairs
-and form a cross product between two sets,
+And just as you can form pairs and
+form a cross product between two sets,
 
 00:11:25,470 --> 00:11:28,380
 you can extend that
 for more than two sets.
 
 00:11:28,380 --> 00:11:31,290
-Then you get
-triples, quadruples, quintuples, etc.
+Then you get triples,
+quadruples, quintuples, etc.
 
 00:11:31,290 --> 00:11:34,140
 So we'll have tuples at times in
@@ -584,8 +584,8 @@ And then the notation
 is just quite analogous.
 
 00:11:40,830 --> 00:11:45,210
-Then we write more than
-two elements in such round brackets,
+Then we write more than two
+elements in such round brackets,
 
 00:11:45,210 --> 00:11:47,820
 separated with commas, the components.
@@ -595,8 +595,8 @@ From n components we form
 n-tuples and for n = 3,
 
 00:11:55,170 --> 00:11:58,050
-n = 4, n = 5
-there are still special notations for them.
+n = 4, n = 5 there are still
+special notations for them.
 
 00:11:58,050 --> 00:12:03,180
 Of course, tuples are
@@ -618,16 +618,16 @@ So while the set \{1,2,3\} written
 down and the set \{1,3,2\} written
 
 00:12:16,800 --> 00:12:19,680
-down, each written in
-curly brackets, were the same
+down, each written in curly
+brackets, were the same
 
 00:12:19,680 --> 00:12:23,790
-thing (this showed up a few
-slides ago), it's just different for triples.
+thing (this showed up a few slides
+ago), it's just different for triples.
 
 00:12:23,790 --> 00:12:27,240
-So the triple (1,2,3) is
-really different from the triple (1,3,2),
+So the triple (1,2,3) is really
+different from the triple (1,3,2),
 
 00:12:27,240 --> 00:12:30,030
 although the same elements appear.
@@ -636,32 +636,32 @@ although the same elements appear.
 But they appear in a different order.
 
 00:12:32,610 --> 00:12:37,500
-So as elements of this
-triple cross product (cross product
+So as elements of this triple
+cross product (cross product
 
 00:12:37,500 --> 00:12:42,720
 between three sets) these are different
 values, and this is very important here.
 
 00:12:49,990 --> 00:12:54,430
-It is also true that an element
-can appear several times in the tuple.
+It is also true that an element can
+appear several times in the tuple.
 
 00:12:54,430 --> 00:12:57,730
-This is also different
-from the situation with sets.
+This is also different from
+the situation with sets.
 
 00:12:57,730 --> 00:13:01,210
 It's not that it doesn't matter
 that the 4 is here twice.
 
 00:13:01,210 --> 00:13:03,010
-These are really
-different tuples, especially since
+These are really different
+tuples, especially since
 
 00:13:03,010 --> 00:13:08,530
-the one on the left is a quadruple
-and the one on the right is a quintuple.
+the one on the left is a quadruple and
+the one on the right is a quintuple.
 
 00:13:08,530 --> 00:13:10,000
 But also independent of that.
@@ -685,42 +685,42 @@ construction on sets that
 we'll need, called the power set.
 
 00:13:30,850 --> 00:13:37,330
-This starts from a single set, that is, not
-two sets A and B,
+This starts from a single set,
+that is, not two sets A and B,
 
 00:13:37,330 --> 00:13:39,340
 but a single set M.
 
 00:13:39,340 --> 00:13:44,380
-And the power set is the
-set that contains all subsets of M.
+And the power set is the set
+that contains all subsets of M.
 
 00:13:44,380 --> 00:13:48,310
 This is written with this calligraphic P.
 
 00:13:48,310 --> 00:13:53,950
-So the power set of M
-is a set consisting of sets,
+So the power set of M is
+a set consisting of sets,
 
 00:13:53,950 --> 00:13:59,380
-and each contained set is
-a subset from the original M.
+and each contained set is a
+subset from the original M.
 
 00:13:59,380 --> 00:14:05,830
-It is called a power set
-because the number of elements increases exponentially.
+It is called a power set because the
+number of elements increases exponentially.
 
 00:14:05,830 --> 00:14:13,660
-So, for example, the power set of
-the set \{1,2,3\} is this eight-element set.
+So, for example, the power set of the
+set \{1,2,3\} is this eight-element set.
 
 00:14:13,660 --> 00:14:16,990
 The set that consists of eight
 elements, each of which is a set.
 
 00:14:16,990 --> 00:14:21,220
-That is exactly all subsets
-that exist of \{1,2,3\}, including the
+That is exactly all subsets that
+exist of \{1,2,3\}, including the
 
 00:14:21,220 --> 00:14:25,570
 empty subset and the entire
@@ -739,20 +739,20 @@ set, but a one-element set
 containing exactly the empty set.
 
 00:14:40,190 --> 00:14:44,510
-This is unlikely to cause us problems
-here in the lecture,
+This is unlikely to cause us
+problems here in the lecture,
 
 00:14:44,510 --> 00:14:47,090
-because we will not
-necessarily start from empty sets.
+because we will not necessarily
+start from empty sets.
 
 00:14:47,090 --> 00:14:51,770
-But it is important for
-understanding ultimately also this power set
+But it is important for understanding
+ultimately also this power set
 
 00:14:51,770 --> 00:14:56,501
-notion that it makes a difference whether I have the
-empty set or the power set of the empty set.
+notion that it makes a difference whether I have
+the empty set or the power set of the empty set.
 
 00:14:56,501 --> 00:15:02,150
 You can iterate that, and then
@@ -766,12 +766,12 @@ They simply follow from the
 definition of the power set notion.
 
 00:15:07,880 --> 00:15:16,310
-For finite sets, which is what they are
-now in all three cases, this relation holds:
+For finite sets, which is what they are now
+in all three cases, this relation holds:
 
 00:15:16,310 --> 00:15:22,190
-The number of elements of the power set is 2 to
-the power of the number of elements of the basic set.
+The number of elements of the power set is 2 to the
+power of the number of elements of the basic set.
 
 00:15:22,940 --> 00:15:28,070
 This is where the name power set comes
@@ -786,24 +786,24 @@ power sets, for example in modeling
 to capture states of a system,
 
 00:15:38,420 --> 00:15:42,950
-there are then just
-very quickly very many states.
+there are then just very
+quickly very many states.
 
 00:15:42,950 --> 00:15:48,860
-That is one thing that one
-would like to avoid in modeling ultimately.
+That is one thing that one would
+like to avoid in modeling ultimately.
 
 00:15:48,860 --> 00:16:00,680
-To repeat this notation, or just
-to see it in action in
+To repeat this notation, or
+just to see it in action in
 
 00:16:00,680 --> 00:16:04,490
-an example, let's take a look at
-what such a state modeling might look like.
+an example, let's take a look at what
+such a state modeling might look like.
 
 00:16:04,490 --> 00:16:08,780
-This is not yet an example of what I
-would actually like to model dynamically directly as well.
+This is not yet an example of what I would actually
+like to model dynamically directly as well.
 
 00:16:08,780 --> 00:16:12,500
 For now, I just want
@@ -825,8 +825,8 @@ That contains two kinds of snacks,
 namely bars and chips, and of
 
 00:16:26,270 --> 00:16:32,300
-course it can store a supply of
-each of those two kinds to begin with.
+course it can store a supply of each
+of those two kinds to begin with.
 
 00:16:32,900 --> 00:16:35,330
 In fact, in our vending machine, it can
@@ -859,8 +859,8 @@ independently of each other.
 One could also consider
 
 00:17:05,610 --> 00:17:14,910
-that there could be a
-logical connection between these two conditions.
+that there could be a logical
+connection between these two conditions.
 
 00:17:14,910 --> 00:17:18,090
 But this should not be
@@ -878,19 +878,19 @@ that the yellow one is on, or that the
 red one is on, or that both are on.
 
 00:17:25,770 --> 00:17:28,830
-What would be the set of
-all possible states of this automaton?
+What would be the set of all
+possible states of this automaton?
 
 00:17:28,830 --> 00:17:30,750
 What would you have to remember in
 
 00:17:30,750 --> 00:17:34,230
-each case, what could be all the
-possible manifestations in which the automaton can be?
+each case, what could be all the possible
+manifestations in which the automaton can be?
 
 00:17:34,230 --> 00:17:39,120
-One can distinguish the states according to
-which lamps are on or not on.
+One can distinguish the states according
+to which lamps are on or not on.
 
 00:17:39,120 --> 00:17:45,060
 You can distinguish how many bars are
@@ -919,12 +919,12 @@ how many chips are present.
 That would be a triple cross product.
 
 00:17:58,530 --> 00:18:06,090
-For these stock level indicators, you just
-take a number between zero and 30.
+For these stock level indicators, you
+just take a number between zero and 30.
 
 00:18:06,090 --> 00:18:11,310
-Because those are the possible values, that you
-have zero bars, two bars, up to 30 bars.
+Because those are the possible values, that
+you have zero bars, two bars, up to 30 bars.
 
 00:18:11,310 --> 00:18:16,290
 And what is the expression
@@ -942,12 +942,12 @@ That is, in the
 first component of our state
 
 00:18:23,730 --> 00:18:28,860
-triples we would want to store
-a subset of the set \{yellow, red\}.
+triples we would want to store a
+subset of the set \{yellow, red\}.
 
 00:18:28,860 --> 00:18:34,290
-So our state space, the
-set of all possible states of
+So our state space, the set
+of all possible states of
 
 00:18:34,290 --> 00:18:40,110
 this automaton, could be viewed as the
@@ -958,19 +958,19 @@ set \{yellow, red\} (which is
 simply a set of two colors)
 
 00:18:42,720 --> 00:18:46,880
-and in each of the other
-two components a number between zero and 30.
+and in each of the other two components
+a number between zero and 30.
 
 00:18:46,880 --> 00:18:51,230
 So, for example, the element (empty set, 20,
 
 00:18:51,230 --> 00:19:00,260
-10), which is undoubtedly an element of
-this power set, would be interpreted like this:
+10), which is undoubtedly an element of this
+power set, would be interpreted like this:
 
 00:19:00,260 --> 00:19:04,490
-This is the state in
-which both warning lights are off
+This is the state in which
+both warning lights are off
 
 00:19:04,490 --> 00:19:11,180
 (because this is where the empty set is), and
@@ -981,8 +981,8 @@ If one had seen both lights switched
 on at the same stock level, then
 
 00:19:23,960 --> 00:19:28,803
-one would simply have the full set \{yellow, red\}
-in the first component instead of the empty set, which
+one would simply have the full set \{yellow, red\} in
+the first component instead of the empty set, which
 
 00:19:28,803 --> 00:19:36,950
 is also a subset of this set, and
@@ -1001,32 +1001,32 @@ Here are two.
 How many are there altogether?
 
 00:19:46,490 --> 00:19:50,090
-And there already the
-state explosion would strike.
+And there already the state
+explosion would strike.
 
 00:19:50,090 --> 00:19:54,260
-If one calculates by means of the
-rules, which were further in front on the
+If one calculates by means of the rules,
+which were further in front on the
 
 00:19:54,260 --> 00:19:59,990
 slides, how one calculates the number
 of elements of such a constructed set.
 
 00:19:59,990 --> 00:20:05,390
-Because of the cross product, you would
-get the multiplication of the number of these
+Because of the cross product, you would get
+the multiplication of the number of these
 
 00:20:05,390 --> 00:20:08,510
 elements, the number of these elements,
 and the number of these elements.
 
 00:20:08,510 --> 00:20:12,650
-And by the power set here, we have 2 to
-the power of the number of elements in the inner set.
+And by the power set here, we have 2 to the
+power of the number of elements in the inner set.
 
 00:20:12,650 --> 00:20:16,460
-And then you would get a total
-of something in the neighborhood of 4000:
+And then you would get a total of
+something in the neighborhood of 4000:
 
 00:20:16,460 --> 00:20:19,880
 4 times "more than
@@ -1052,8 +1052,8 @@ That's where the high number
 of possible triples comes from.
 
 00:20:40,250 --> 00:20:45,680
-We will deal with that
-later, how to model such things.
+We will deal with that later,
+how to model such things.
 
 00:20:45,680 --> 00:20:48,230
 This means not only to specify
@@ -1063,8 +1063,8 @@ the set, but also to express
 state transitions in a compact way.
 
 00:20:56,060 --> 00:20:59,750
-What we still need is
-the notion of function or mapping.
+What we still need is the
+notion of function or mapping.
 
 00:20:59,750 --> 00:21:02,780
 Functions are known from school.
@@ -1074,8 +1074,8 @@ So typical representatives, which one
 uses in the analysis, for example.
 
 00:21:09,680 --> 00:21:11,540
-In the discussion of curves
-we do something with functions.
+In the discussion of curves we
+do something with functions.
 
 00:21:11,540 --> 00:21:15,050
 But there is also the general notion of
@@ -1095,8 +1095,8 @@ from a domain to a codomain.
 And these are just arbitrary sets:
 
 00:21:29,990 --> 00:21:33,500
-Sets of numbers perhaps,
-but conceivably also other sets.
+Sets of numbers perhaps, but
+conceivably also other sets.
 
 00:21:33,500 --> 00:21:35,030
 For example, sets
@@ -1113,8 +1113,8 @@ say, if we apply f to a,
 b comes out, so b is f(a).
 
 00:21:50,186 --> 00:21:55,170
-You know this from school, y
-is f(x) for respective corresponding elements
+You know this from school, y is f(x)
+for respective corresponding elements
 
 00:21:55,170 --> 00:21:57,600
 from domain and codomain.
@@ -1139,16 +1139,16 @@ This would describe
 the function completely.
 
 00:22:19,440 --> 00:22:26,250
-Of course, that doesn't work for functions like
-the sine function, where we have the set
+Of course, that doesn't work for functions
+like the sine function, where we have the set
 
 00:22:26,250 --> 00:22:28,980
-of all real numbers
-here, which cannot be written down finitely.
+of all real numbers here, which
+cannot be written down finitely.
 
 00:22:28,980 --> 00:22:34,710
-But for many cases, especially when A
-is finite, we can also describe a
+But for many cases, especially when
+A is finite, we can also describe a
 
 00:22:34,710 --> 00:22:39,060
 function by finitely many such mappings.
@@ -1157,8 +1157,8 @@ function by finitely many such mappings.
 We can also use the same kind of
 
 00:22:42,870 --> 00:22:48,270
-notation when we specify a general mapping
-rule, i.e., how a maps to f(a).
+notation when we specify a general
+mapping rule, i.e., how a maps to f(a).
 
 00:22:48,900 --> 00:22:55,530
 For example, "a squared" could also be specified
@@ -1172,8 +1172,8 @@ The square function on the
 set of integers, we would say
 
 00:23:02,700 --> 00:23:05,940
-that is a mapping from
-the integers to the natural numbers.
+that is a mapping from the
+integers to the natural numbers.
 
 00:23:05,940 --> 00:23:09,210
 When we square, negative
@@ -1184,12 +1184,12 @@ So even though you
 can put negative numbers in
 
 00:23:12,420 --> 00:23:17,040
-here, because of the set Z of
-integers, a natural number always comes out.
+here, because of the set Z of integers,
+a natural number always comes out.
 
 00:23:17,040 --> 00:23:23,370
-One way to write down
-the assignment rule is this equation:
+One way to write down the
+assignment rule is this equation:
 
 00:23:23,370 --> 00:23:24,660
 f(z) is z squared.
@@ -1203,12 +1203,12 @@ symbol, this information
 represented in this way.
 
 00:23:34,590 --> 00:23:41,530
-A few concrete pairs here would be just such
-mappings as -3 to 9, -2 to four, etc.
+A few concrete pairs here would be just
+such mappings as -3 to 9, -2 to four, etc.
 
 00:23:41,530 --> 00:23:46,090
-In the concrete case, of course,
-this cannot be written down finitely by
+In the concrete case, of course, this
+cannot be written down finitely by
 
 00:23:46,090 --> 00:23:51,700
 enumeration, because there are still infinitely many
@@ -1219,8 +1219,8 @@ But if the domain were finite,
 one could give a section here
 
 00:23:56,440 --> 00:23:59,740
-and take that as a whole
-as a description of the function.
+and take that as a whole as a
+description of the function.
 
 00:24:03,550 --> 00:24:06,100
 That was the notion of function.
@@ -1229,22 +1229,22 @@ That was the notion of function.
 And finally, we're going to use graphs.
 
 00:24:08,980 --> 00:24:12,250
-Of course, intuitively, we've done
-that up to this point.
+Of course, intuitively, we've
+done that up to this point.
 
 00:24:12,250 --> 00:24:15,040
 We've already had graphs written down.
 
 00:24:15,040 --> 00:24:20,620
-Formally, a graph is
-also simply a set-theoretic construct.
+Formally, a graph is also simply
+a set-theoretic construct.
 
 00:24:20,620 --> 00:24:24,550
 So you have a set of labels.
 
 00:24:24,550 --> 00:24:32,170
-Then a directed and edge-labeled graph (these
-will be the graphs we will be primarily interested
+Then a directed and edge-labeled graph (these will
+be the graphs we will be primarily interested
 
 00:24:32,170 --> 00:24:38,530
 in) is given by a
@@ -1258,12 +1258,12 @@ cross product of the node set with
 the label set and with the node set.
 
 00:24:47,260 --> 00:24:53,500
-That is, the edges will be triples in which
-the first component is a node, the second component is
+That is, the edges will be triples in which the
+first component is a node, the second component is
 
 00:24:53,500 --> 00:24:58,060
-an element of the label set,
-and the third component is another node.
+an element of the label set, and
+the third component is another node.
 
 00:24:58,060 --> 00:25:01,060
 With the interpretation that
@@ -1274,8 +1274,8 @@ with that label from
 the node to the node.
 
 00:25:04,240 --> 00:25:07,990
-So now here are the sets, but
-in the triple, these are concrete representatives:
+So now here are the sets, but in the
+triple, these are concrete representatives:
 
 00:25:09,820 --> 00:25:11,530
 a node, a label, a node.
@@ -1295,19 +1295,19 @@ These sets are likely to be infinite.
 We will often deal with finite graphs.
 
 00:25:27,370 --> 00:25:32,950
-But from the point of view of set theory, the
-vertex and edge sets in particular can also be infinite.
+But from the point of view of set theory, the vertex
+and edge sets in particular can also be infinite.
 
 00:25:32,950 --> 00:25:35,050
-The label set is then
-usually a finite set after all.
+The label set is then usually
+a finite set after all.
 
 00:25:35,050 --> 00:25:37,000
 It can also be very small.
 
 00:25:37,000 --> 00:25:40,120
-We can also have a
-label set with only one element.
+We can also have a label
+set with only one element.
 
 00:25:40,120 --> 00:25:42,430
 Then there is no real information in it.
@@ -1325,12 +1325,12 @@ The being directed comes from the fact
 that we have triples here and not sets.
 
 00:25:58,390 --> 00:26:00,580
-So there's a first
-component and a last component.
+So there's a first component
+and a last component.
 
 00:26:00,580 --> 00:26:04,480
-You can interpret that as
-a directed connection from this
+You can interpret that as a
+directed connection from this
 
 00:26:05,230 --> 00:26:09,850
 node standing in the first component to
@@ -1355,8 +1355,8 @@ What cannot be is that the node set
 is empty but the edge set is not.
 
 00:26:37,520 --> 00:26:48,560
-If L is empty, there can be no
-edges, because that set would necessarily be empty too.
+If L is empty, there can be no edges, because
+that set would necessarily be empty too.
 
 00:26:48,560 --> 00:26:51,350
 We had the observation that some
@@ -1366,42 +1366,42 @@ set cross product with the empty
 set is always the empty set.
 
 00:26:53,900 --> 00:27:02,660
-So the normal cases are already
-that we are dealing with non-empty sets.
+So the normal cases are already that
+we are dealing with non-empty sets.
 
 00:27:02,660 --> 00:27:03,160
 Another example:
 
 00:27:07,130 --> 00:27:15,440
-Let's just take as a set of nodes
-the representatives for farmer, wolf, goat, cabbage head.
+Let's just take as a set of nodes the
+representatives for farmer, wolf, goat, cabbage head.
 
 00:27:15,440 --> 00:27:19,160
 Following up on our example
 very early in the lecture.
 
 00:27:19,160 --> 00:27:26,930
-And as the set of labels, we use
-the relationships that came up in the example.
+And as the set of labels, we use the
+relationships that came up in the example.
 
 00:27:26,930 --> 00:27:32,420
-We had briefly done static modeling, and there
-we had talked about possession and feeding relationships.
+We had briefly done static modeling, and there we had
+talked about possession and feeding relationships.
 
 00:27:32,420 --> 00:27:38,870
-And for this node set, this label
-set, that would be a conceivable edge set.
+And for this node set, this label set,
+that would be a conceivable edge set.
 
 00:27:38,870 --> 00:27:43,250
-That's a set of triples, where in each case the
-first component comes from V, the second component comes from
+That's a set of triples, where in each case the first
+component comes from V, the second component comes from
 
 00:27:43,250 --> 00:27:47,060
 L, and the third component comes from V.
 
 00:27:47,060 --> 00:27:53,210
-And of course, we can
-also represent this pictorially as this
+And of course, we can also
+represent this pictorially as this
 
 00:27:53,210 --> 00:27:56,990
 graph, which we had already
@@ -1411,15 +1411,15 @@ seen earlier in the lecture.
 There were not these letters F, W, Z, K,
 
 00:28:01,850 --> 00:28:08,990
-but here the respective pictures for
-farmer, wolf, goat, cabbage head were inserted.
+but here the respective pictures for farmer,
+wolf, goat, cabbage head were inserted.
 
 00:28:11,910 --> 00:28:14,880
 We would then really have pictures,
 
 00:28:14,880 --> 00:28:22,170
-be it with photos in there or these
-nodes with the respective labels from the set V.
+be it with photos in there or these nodes
+with the respective labels from the set V.
 
 00:28:22,170 --> 00:28:23,940
 But importantly:
@@ -1428,12 +1428,12 @@ But importantly:
 This one up here is a graph.
 
 00:28:26,520 --> 00:28:30,210
-This one below is
-represented as an image somehow.
+This one below is represented
+as an image somehow.
 
 00:28:30,210 --> 00:28:33,450
-But mathematically, what's up
-here is already a graph.
+But mathematically, what's
+up here is already a graph.
 
 00:28:33,450 --> 00:28:38,250
 We don't have to translate this into
@@ -1459,8 +1459,8 @@ That's going to be relevant because we're just
 going to represent Petri nets as graphs as well.
 
 00:29:06,510 --> 00:29:12,570
-And then mathematically, it's not necessary to
-paint that as a picture as well.
+And then mathematically, it's not necessary
+to paint that as a picture as well.
 
 00:29:12,570 --> 00:29:18,180
 Instead, this mathematical representation

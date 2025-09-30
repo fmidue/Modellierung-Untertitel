@@ -1,6 +1,7 @@
 109 # slide
 00:00:01,470 --> 00:00:04,410
-Ich hatte jetzt bereits mehrfach von gültigen oder
+Ich hatte jetzt bereits
+mehrfach von gültigen oder
 
 00:00:04,410 --> 00:00:07,530
 ungültigen Konstellationen in

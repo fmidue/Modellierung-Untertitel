@@ -1,15 +1,15 @@
 173 # slide
 00:00:00,000 --> 00:00:04,170
-We have now learned
-about properties of Petri nets:
+We have now learned about
+properties of Petri nets:
 
 00:00:04,170 --> 00:00:09,600
 the liveness properties
 including the question of
 
 00:00:09,600 --> 00:00:18,240
-freedom from deadlock, and resource
-constraint properties, i.e., 1-safety and boundedness.
+freedom from deadlock, and resource constraint
+properties, i.e., 1-safety and boundedness.
 
 00:00:18,240 --> 00:00:21,420
 Other important notions we will look at
@@ -32,20 +32,20 @@ until next week, or
 we'll deal with them then.
 
 00:00:37,590 --> 00:00:43,680
-Then we will have formally defined almost
-all the properties that were discussed informally before.
+Then we will have formally defined almost all the
+properties that were discussed informally before.
 
 00:00:43,680 --> 00:00:47,760
 Questions about general fairness
 would then still be open.
 
 00:00:47,760 --> 00:00:52,080
-But we will not discuss these
-in the lecture related to Petri nets.
+But we will not discuss these in
+the lecture related to Petri nets.
 
 00:00:52,080 --> 00:00:57,840
-One difference of these three properties from
-the ones we have seen so far
+One difference of these three properties
+from the ones we have seen so far
 
 00:00:57,840 --> 00:01:04,110
 is that these are properties concerning
@@ -82,16 +82,16 @@ These are properties *in* Petri nets, not
 properties *of* Petri nets as a whole.
 
 00:01:35,130 --> 00:01:41,460
-Let us first consider again the
-definition for the first property: causality.
+Let us first consider again the definition
+for the first property: causality.
 
 00:01:41,460 --> 00:01:46,770
-This is defined with reference
-to the notion of firing sequences,
+This is defined with reference to
+the notion of firing sequences,
 
 00:01:46,770 --> 00:01:51,600
-which we have already
-considered in a previous lecture.
+which we have already considered
+in a previous lecture.
 
 00:01:51,600 --> 00:01:54,660
 And first defined formally here it says:
@@ -109,24 +109,24 @@ One says, a transition t1
 in a given Petri net is a
 
 00:02:12,910 --> 00:02:16,930
-necessary condition for the firing of
-the transition t2, if it is
+necessary condition for the firing
+of the transition t2, if it is
 
 00:02:16,930 --> 00:02:21,880
-so that t2 cannot be fired
-without t1 having been fired somehow before.
+so that t2 cannot be fired without
+t1 having been fired somehow before.
 
 00:02:21,880 --> 00:02:32,200
-So if for every firing sequence (using
-this notation t-tilde) that somehow leads from the
+So if for every firing sequence (using this
+notation t-tilde) that somehow leads from the
 
 00:02:32,200 --> 00:02:51,880
-original initial marking to the firing of
-t2, it is the case that this t-tilde
+original initial marking to the firing
+of t2, it is the case that this t-tilde
 
 00:02:51,880 --> 00:02:55,990
-must in any case contain transition t1, because
-otherwise it could not be true at all.
+must in any case contain transition t1,
+because otherwise it could not be true at all.
 
 00:02:55,990 --> 00:02:57,730
 Because we can't find any other
@@ -139,8 +139,8 @@ and t1 wasn't fired before.
 So if in such a constellation
 
 00:03:04,600 --> 00:03:08,710
-in any case t1 must
-occur in this firing sequence.
+in any case t1 must occur
+in this firing sequence.
 
 00:03:08,710 --> 00:03:11,410
 Then t1 is called a
@@ -159,23 +159,23 @@ Of course, this is only interesting
 if t2 is a transition that is
 
 00:03:21,610 --> 00:03:26,110
-reachable at all, that is,
-it occurs in the reachability graph.
+reachable at all, that is, it
+occurs in the reachability graph.
 
 00:03:26,110 --> 00:03:32,035
-This would already be the case for
-every transition in weakly live Petri nets.
+This would already be the case for every
+transition in weakly live Petri nets.
 
 00:03:32,035 --> 00:03:37,210
-Furthermore, the definition is not interesting
-if t1 and t2 are equal.
+Furthermore, the definition is not
+interesting if t1 and t2 are equal.
 
 00:03:38,260 --> 00:03:40,000
 Sometime, when t1 is
 
 00:03:41,950 --> 00:03:42,970
-fireable or t2, sometime is
-the first firing for each transition.
+fireable or t2, sometime is the
+first firing for each transition.
 
 00:03:42,970 --> 00:03:44,410
 It can't have been fired before that.
@@ -189,8 +189,8 @@ least Petri nets where t2
 can be fired at all.
 
 00:03:51,160 --> 00:03:53,860
-As well as only for the
-case that t1 and t2 are different.
+As well as only for the case
+that t1 and t2 are different.
 
 00:03:57,520 --> 00:03:58,670
 So this is the formal definition.
@@ -202,8 +202,8 @@ Again, you can look at the reachability
 graph, especially if it's finite.
 
 00:04:03,110 --> 00:04:06,740
-So, if we look at
-the reachability graph and ask ourselves:
+So, if we look at the reachability
+graph and ask ourselves:
 
 00:04:06,740 --> 00:04:08,810
 Is t1 a necessary condition for t2?
@@ -216,20 +216,20 @@ from which t2 is fireable (that is,
 every node from which there is a
 
 00:04:16,490 --> 00:04:21,770
-transition labeled t2) are reachable only
-by paths in which t1 occurs.
+transition labeled t2) are reachable
+only by paths in which t1 occurs.
 
 00:04:21,770 --> 00:04:26,360
 That is, to be able to
 fire t2 in any way, one
 
 00:04:26,360 --> 00:04:30,860
-must have fired t1 at
-least once beforehand, starting from m0.
+must have fired t1 at least once
+beforehand, starting from m0.
 
 00:04:30,860 --> 00:04:35,600
-To be able to check this in the
-reachability graph, it would have to be finite.
+To be able to check this in the reachability
+graph, it would have to be finite.
 
 00:04:35,600 --> 00:04:37,520
 Then you can just look at it.
@@ -239,23 +239,23 @@ Look at every point where t2
 occurs and ask whether the node
 
 00:04:41,660 --> 00:04:46,550
-from which t2 is fired can also be
-reached via paths in which t1 does not occur.
+from which t2 is fired can also be reached
+via paths in which t1 does not occur.
 
 00:04:46,550 --> 00:04:48,740
 Then t1 would not
 be a necessary condition.
 
 00:04:48,740 --> 00:04:51,890
-Otherwise, t1 would be
-a necessary condition for t2.
+Otherwise, t1 would be a
+necessary condition for t2.
 
 00:04:54,230 --> 00:04:56,420
 Let's look at this with an example.
 
 00:04:56,420 --> 00:05:02,990
-Here we have a simple Petri
-net with four places and four transitions.
+Here we have a simple Petri net with
+four places and four transitions.
 
 00:05:02,990 --> 00:05:05,570
 And we can ask whether any transitions
@@ -274,8 +274,8 @@ First of all, t1 must
 be fired in this Petri net.
 
 00:05:15,260 --> 00:05:18,530
-And from this it already follows that
-t1 is a necessary condition for the others.
+And from this it already follows that t1
+is a necessary condition for the others.
 
 00:05:18,530 --> 00:05:21,140
 Every execution which would be
@@ -316,15 +316,15 @@ t1, t2, t3, t4; t1, t3, t4; t1, t3, t2, t4;
 t1, t3, t2, t4, t4 and t1, t2, t3, t4, t4.
 
 00:05:59,120 --> 00:06:01,700
-That would be all the
-firing sequences that are possible.
+That would be all the firing
+sequences that are possible.
 
 00:06:01,700 --> 00:06:02,480
 And we see:
 
 00:06:02,480 --> 00:06:07,500
-In these firing sequences, for example,
-t2 never appears without t1 appearing first.
+In these firing sequences, for example, t2
+never appears without t1 appearing first.
 
 00:06:07,500 --> 00:06:11,490
 However, t2 does appear
@@ -339,38 +339,38 @@ but neither t3 is a necessary
 condition for t2 nor vice versa.
 
 00:06:18,060 --> 00:06:22,770
-The t2 and t3 do not depend on
-each other, but they do depend on t1.
+The t2 and t3 do not depend on each
+other, but they do depend on t1.
 
 00:06:22,770 --> 00:06:32,280
-And of course also t4 as
-the last firing transition depends on t1.
+And of course also t4 as the last
+firing transition depends on t1.
 
 00:06:32,280 --> 00:06:35,490
-So for example you could find
-it also for t2 and t3,
+So for example you could
+find it also for t2 and t3,
 
 00:06:35,490 --> 00:06:39,570
-but I wrote down here:
-t1 is a necessary condition for t4.
+but I wrote down here: t1 is
+a necessary condition for t4.
 
 00:06:39,570 --> 00:06:46,890
-Let's actually look at this
-in the associated reachability graph.
+Let's actually look at this in
+the associated reachability graph.
 
 00:06:46,890 --> 00:06:48,075
 It looks like this.
 
 00:06:48,075 --> 00:06:53,400
-You have to believe me that
-I have drawn it completely correctly.
+You have to believe me that I have
+drawn it completely correctly.
 
 00:06:53,400 --> 00:06:54,960
 And there we see, for example:
 
 00:06:54,960 --> 00:06:58,875
-If we look for t4,
-t4 occurs in several places, namely
+If we look for t4, t4 occurs
+in several places, namely
 
 00:06:58,875 --> 00:07:01,350
 here, here, here and here.
@@ -388,23 +388,23 @@ this one), then they can only be
 reached via paths in which t1 occurs.
 
 00:07:15,030 --> 00:07:17,730
-Because t1 is the
-bottleneck that must be fired first.
+Because t1 is the bottleneck
+that must be fired first.
 
 00:07:17,730 --> 00:07:22,950
 On the other hand, it
 is not true, for example,
 
 00:07:22,950 --> 00:07:27,990
-that every node from which t4 is fireable
-is only reachable by paths in which t2 occurs.
+that every node from which t4 is fireable is
+only reachable by paths in which t2 occurs.
 
 00:07:27,990 --> 00:07:29,640
 So for this node, for example, it's true.
 
 00:07:29,640 --> 00:07:33,480
-Here I can fire t4, and before that
-I have fired both t1 and t2.
+Here I can fire t4, and before
+that I have fired both t1 and t2.
 
 00:07:33,480 --> 00:07:36,570
 However, there are also
@@ -431,12 +431,12 @@ I had just shown
 this in the reachability graph.
 
 00:07:59,955 --> 00:08:03,930
-There was a firing sequence (namely t1, t3)
-that was used to reach a node from
+There was a firing sequence (namely t1,
+t3) that was used to reach a node from
 
 00:08:03,930 --> 00:08:07,830
-which t4 could be fired,
-and t2 had not appeared before.
+which t4 could be fired, and
+t2 had not appeared before.
 
 00:08:07,830 --> 00:08:14,340
 So according to this definition then t2
@@ -454,26 +454,26 @@ Because there are
 firing sequences (namely
 
 00:08:28,900 --> 00:08:32,260
-t1, t2) after which t4 is
-fireable without t3 having occurred before.
+t1, t2) after which t4 is fireable
+without t3 having occurred before.
 
 00:08:38,460 --> 00:08:38,760
 Here is the reachability graph again.
 
 00:08:38,760 --> 00:08:43,200
-You could use it to
-check for the other cases discussed
+You could use it to check
+for the other cases discussed
 
 00:08:43,200 --> 00:08:46,530
 and for all combinations of transitions:
 
 00:08:46,530 --> 00:08:51,030
-Is this transition a
-necessary condition for that transition?
+Is this transition a necessary
+condition for that transition?
 
 00:08:53,490 --> 00:08:55,740
-Of course, this will also
-be practiced on other examples.
+Of course, this will also be
+practiced on other examples.
 
 00:08:55,740 --> 00:09:01,890
 And finally, a
@@ -484,23 +484,24 @@ is relevant because this
 is an observation that
 
 00:09:04,590 --> 00:09:08,640
-we will also consider for other
-properties such as concurrency and conflict.
+we will also consider for other properties
+such as concurrency and conflict.
 
 00:09:10,740 --> 00:09:15,570
-Causality is transitive in the sense
-that, for example, order relations are transitive.
+Causality is transitive in the sense that,
+for example, order relations are transitive.
 
 00:09:15,570 --> 00:09:20,340
-This should be a familiar concept at least for the
+This should be a familiar
+concept at least for the
 
 00:09:20,340 --> 00:09:21,990
-Komedia students from
-the lecture Mathematical Structures.
+Komedia students from the
+lecture Mathematical Structures.
 
 00:09:21,990 --> 00:09:25,950
-But probably also to the
-other students from other mathematics lectures.
+But probably also to the other students
+from other mathematics lectures.
 
 00:09:25,950 --> 00:09:32,700
 So it's quite obviously true, or
@@ -518,20 +519,20 @@ is also a necessary condition for t3.
 So that continues.
 
 00:09:43,650 --> 00:09:48,090
-If something is necessary, and
-what is achieved by it
+If something is necessary,
+and what is achieved by it
 
 00:09:48,090 --> 00:09:52,830
-is necessary for something else, then also
-in that case t1 is necessary for t3.
+is necessary for something else, then
+also in that case t1 is necessary for t3.
 
 00:09:52,830 --> 00:09:57,270
-So to speak, the other
-way around is not necessarily true.
+So to speak, the other way
+around is not necessarily true.
 
 00:09:57,270 --> 00:10:04,290
-So just because t1 is necessary for
-t3 and for example t1 is also
+So just because t1 is necessary
+for t3 and for example t1 is also
 
 00:10:05,160 --> 00:10:07,890
 necessary for t2, this does not mean that
@@ -550,5 +551,5 @@ and also t1 necessary for t4, but
 neither t2 nor t3 were necessary for t4.
 
 00:10:22,170 --> 00:10:28,230
-So this is only valid in this
-if-then direction, not in the opposite direction.
+So this is only valid in this if-then
+direction, not in the opposite direction.

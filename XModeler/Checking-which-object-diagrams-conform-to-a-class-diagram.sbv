@@ -3,8 +3,8 @@ Sample exam the second file, task number six.
 Let's create this class diagram first. This
 
 0:00:12.620,0:00:32.279
-is the class diagram. And now let's do the
-object diagrams. Instance of A. And
+is the class diagram. And now let's do
+the object diagrams. Instance of A. And
 
 0:00:32.279,0:00:37.910
 it requires a link to an instance of C. We
@@ -51,8 +51,8 @@ A requires the existence of at least two Bs,
 and they get connected with this A with z.
 
 0:02:06.500,0:02:11.379
-This is why we have these two zs here.
-And now the last one here that we have this
+This is why we have these two zs here. And
+now the last one here that we have this
 
 0:02:11.379,0:02:17.790
 x. Let's just try to do it. Let's connect
@@ -107,8 +107,8 @@ prevent us from doing that. So, an instance
 of A whatever, call it a1, ignore everything,
 
 0:04:08.769,0:04:21.680
-just throw it here and link from this B to
-this A. Yes, and then these two zs. The multiplicity
+just throw it here and link from this B to this
+A. Yes, and then these two zs. The multiplicity
 
 0:04:21.680,0:04:27.370
 does not allow a new link. So, this is exactly
@@ -151,16 +151,16 @@ object requires a link to an instance of B
 now. So A, something of type A, or this A
 
 0:05:49.190,0:05:56.620
-that we just created, requires a B. Do we
-have a B? Okay, let's connect it. It's complaining
+that we just created, requires a B. Do we have
+a B? Okay, let's connect it. It's complaining
 
 0:05:56.620,0:06:08.130
 again. Why? Because the link already exists.
 So, this means-. How do I close this? So,
 
 0:06:08.130,0:06:36.190
-we still have an issue, this means we need
-to create another B. Come on.
+we still have an issue, this means
+we need to create another B. Come on.
 
 0:06:36.190,0:06:53.410
 So, now XModeler is not complaining
@@ -191,8 +191,8 @@ the way; we still don't have it. We need an
 x between V and A. There's no need for that.
 
 0:07:47.750,0:07:54.449
-We are already-, these object diagrams are not
-conforming to the class diagram. Let's
+We are already-, these object diagrams are
+not conforming to the class diagram. Let's
 
 0:07:54.449,0:08:02.129
 do the third one. Let me remove this one.
@@ -207,8 +207,8 @@ Do another instance of B. Call it b1, put
 it here. And now let's do an instance of A.
 
 0:08:27.389,0:08:33.880
-Call it "a". Small "a", of course, and put it here.
-And now a requires a link of something of
+Call it "a". Small "a", of course, and put it
+here. And now a requires a link of something of
 
 0:08:33.880,0:08:42.779
 type C. So, you might think, okay, let's link
@@ -231,16 +231,16 @@ to link it with something of type C, which
 is what, I mean, something of type B, which
 
 0:09:11.550,0:09:18.410
-is (in turn) a C. But for some reason, the software,
-the XModeler, does not allow us to
+is (in turn) a C. But for some reason, the
+software, the XModeler, does not allow us to
 
 0:09:18.410,0:09:25.000
-choose one of the Bs that we already have
-and are covered by this window. It just allows
+choose one of the Bs that we already have and
+are covered by this window. It just allows
 
 0:09:25.000,0:09:33.190
-us to pick this c. So, what I'm going
-to do is I'm going to ignore this issue for
+us to pick this c. So, what I'm going to
+do is I'm going to ignore this issue for
 
 0:09:33.190,0:09:41.519
 a while. It's fine. And I'm going to do a
@@ -267,16 +267,16 @@ about anything. So, seems like it just does
 not allow you to choose to link with something
 
 0:10:25.670,0:10:34.960
-of type C that is not explicitly C. So, it
-did not show us Bs, these two Bs here,
+of type C that is not explicitly C. So,
+it did not show us Bs, these two Bs here,
 
 0:10:34.960,0:10:41.580
 in spite of them being also C. But when you
 do link them, it accepts it, has no problem
 
 0:10:41.580,0:10:50.399
-with that, it recognizes, well, okay, here we
-have an A and this A requires two Bs, at
+with that, it recognizes, well, okay, here
+we have an A and this A requires two Bs, at
 
 0:10:50.399,0:10:55.760
 least. Sorry, we were talking about, yeah, we
@@ -291,8 +291,8 @@ of type C, and this is the x, everything is
 fine. Now, let me fix this mess. Okay, this
 
 0:11:12.889,0:11:19.070
-is good. Now it looks very similar to this
-one here. We can see that the only thing missing
+is good. Now it looks very similar to this one
+here. We can see that the only thing missing
 
 0:11:19.070,0:11:28.220
 here is a link from B to A with an x. So,
@@ -311,20 +311,20 @@ say the third object diagram conforms to the
 first class diagram. Now let's do the second
 
 0:11:51.450,0:11:59.839
-class diagram. Actually, not yet, because
-I forgot, we still have two object diagrams
+class diagram. Actually, not yet, because I
+forgot, we still have two object diagrams
 
 0:11:59.839,0:12:09.550
-here, d and e. So, now let's do e. Sorry, d,
-the fourth one, an instance of B, call it
+here, d and e. So, now let's do e. Sorry,
+d, the fourth one, an instance of B, call it
 
 0:12:09.550,0:12:19.320
 b. Put it here, another instance of B, call
 it b1, put it here. And an instance of A,
 
 0:12:19.320,0:12:24.660
-call it "a", put it in the middle. And now it
-complains it needs to connect to something
+call it "a", put it in the middle. And now
+it complains it needs to connect to something
 
 0:12:24.660,0:12:32.120
 of type B. Why? It is because of this multiplicity
@@ -343,8 +343,8 @@ you have an A, and you have, then you have
 to have one or two Cs, exactly one or two.
 
 0:13:00.260,0:13:06.670
-And we know that every B is a C because of
-this inheritance. But for some reason, the XModeler
+And we know that every B is a C because of this
+inheritance. But for some reason, the XModeler
 
 0:13:06.670,0:13:14.040
 does not just show it here. So, you know
@@ -359,8 +359,8 @@ Let's refresh. So, this is fine. But what
 is not fine is that this one does not even
 
 0:13:29.600,0:13:36.750
-look like an object diagram. This is a big problem
-here. Let me fix the mess first. Okay, so
+look like an object diagram. This is a big
+problem here. Let me fix the mess first. Okay, so
 
 0:13:36.750,0:13:43.080
 this is how it looks like. This link here,
@@ -427,28 +427,28 @@ second class diagram. Okay, so this is the
 class diagram. This is exactly this one here.
 
 0:15:55.600,0:16:08.040
-Now let's do the object diagrams. And again,
-let's do the first one. Call it "a",
+Now let's do the object diagrams. And
+again, let's do the first one. Call it "a",
 
 0:16:08.040,0:16:18.170
 put it here. It requires a C. Why? Because
 of this multiplicity here, so it requires
 
 0:16:18.170,0:16:23.610
-at least one C, and that's most two Cs.
-Do we have a C already? No. But do we have
+at least one C, and that's most two Cs. Do
+we have a C already? No. But do we have
 
 0:16:23.610,0:16:32.470
 a C here in the object diagram? Yes. So, let's
 create a C, call it c, and put it here. And
 
 0:16:32.470,0:16:43.420
-pick it here and click OK. So, now it's linked.
-And it's linked, of course, with an x.
+pick it here and click OK. So, now it's
+linked. And it's linked, of course, with an x.
 
 0:16:43.420,0:16:53.350
-Let's do an instance of B, call it b, put
-it here, no complaints, nothing is happening.
+Let's do an instance of B, call it b, put it
+here, no complaints, nothing is happening.
 
 0:16:53.350,0:17:00.870
 Do another B, add an instance of B, call it
@@ -547,24 +547,24 @@ Now, let's try to connect these new links.
 A link from D to B. And it recognizes that
 
 0:20:40.090,0:20:50.200
-it is a y again, there is not much option here.
-Let's link B and A. And it says: “It does
+it is a y again, there is not much option
+here. Let's link B and A. And it says: “It does
 
 0:20:50.200,0:20:57.780
-not fit any association definition.” So,
-it's similar to the previous case here. Again,
+not fit any association definition.” So, it's
+similar to the previous case here. Again,
 
 0:20:57.780,0:21:10.890
-we have a generic B, that's not A and not
-C, it's just a general B here. And we're trying
+we have a generic B, that's not A and not C,
+it's just a general B here. And we're trying
 
 0:21:10.890,0:21:18.770
 to connect it with a specific B which is
 an A, and there is no such link. Bs are
 
 0:21:18.770,0:21:29.520
-not connected to Cs or As. So, there
-is no association that fits. This means this
+not connected to Cs or As. So, there is
+no association that fits. This means this
 
 0:21:29.520,0:21:37.030
 class diagram does not fit, does not conform
@@ -575,8 +575,8 @@ diagram, this one here, does not fit this
 one here. Let's do the fourth object diagram,
 
 0:21:46.710,0:21:58.029
-which is this one. And instead of an instance of
-B, call it b1. Put it here. An instance
+which is this one. And instead of an instance
+of B, call it b1. Put it here. An instance
 
 0:21:58.029,0:22:13.679
 of B, just call it b, put it here. An instance
@@ -587,11 +587,12 @@ a link to something of type C. Why? Because
 of this multiplicity here. So, an A requires
 
 0:22:23.970,0:22:32.460
-at least one C. So, we can already say that
-we failed, this object diagram does not conform
+at least one C. So, we can already say that we
+failed, this object diagram does not conform
 
 0:22:32.460,0:22:46.691
-to this ground. So, let's do the next one. An instance of A, call it "a", put
+to this ground. So, let's do the next
+one. An instance of A, call it "a", put
 
 0:22:46.691,0:22:51.080
 it here. It requires something of type C,
@@ -614,5 +615,5 @@ have that many associations. So, now let's
 just create a B. An instance of B. Put it
 
 0:23:23.620,0:23:31.139
-here. And that's it. Everything is fine. So,
-it conforms to the second class diagram.
+here. And that's it. Everything is fine.
+So, it conforms to the second class diagram.

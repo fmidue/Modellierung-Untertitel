@@ -15,8 +15,8 @@ For example, that it is quite possible that
 there is more than one token in one place.
 
 0:00:24.870,0:00:28.200
-And then one can also ask oneself
-what happens, for example, during firing.
+And then one can also ask oneself what
+happens, for example, during firing.
 
 0:00:28.200,0:00:30.810
 Let's take a look at this situation.
@@ -33,20 +33,20 @@ would have two tokens here on the left place.
 What is the case then in terms of firing?
 
 0:00:45.900,0:00:50.550
-It is still the case that these
-three transitions cannot fire at the beginning.
+It is still the case that these three
+transitions cannot fire at the beginning.
 
 0:00:51.090,0:00:55.590
 This transition is still allowed to
 fire, because the requirement is that
 
 0:00:55.590,0:00:59.760
-it must have at least one
-token on each of its incoming arrows.
+it must have at least one token
+on each of its incoming arrows.
 
 0:00:59.760,0:01:02.280
-So the fact that there are
-two tokens here doesn't detract from that.
+So the fact that there are two tokens
+here doesn't detract from that.
 
 0:01:02.280,0:01:04.320
 The transition can still fire.
@@ -78,12 +78,12 @@ So the firing of the transition
 doesn't have to empty one place.
 
 0:01:33.690,0:01:39.090
-Simply as many tokens are
-consumed as the input arrows require.
+Simply as many tokens are consumed
+as the input arrows require.
 
 0:01:39.960,0:01:45.840
-Therefore in this case
-the postcondition would be fulfilled.
+Therefore in this case the
+postcondition would be fulfilled.
 
 0:01:45.840,0:01:50.430
 We would now have put down these two
@@ -93,8 +93,8 @@ tokens, and that would be the new condition.
 How could we continue then?
 
 0:01:53.010,0:01:58.260
-Then, for example, each of
-these three transitions could fire next.
+Then, for example, each of these
+three transitions could fire next.
 
 0:01:58.260,0:02:01.890
 For example, we could fire this
@@ -105,27 +105,27 @@ Then we would get into the situation
 that there are two tokens up here.
 
 0:02:07.680,0:02:11.040
-And if, for example, we were
-to fire this transition again afterwards, we
+And if, for example, we were to fire
+this transition again afterwards, we
 
 0:02:11.040,0:02:12.990
 would be back in the starting situation.
 
 0:02:15.660,0:02:24.540
-It is just as conceivable that, for
-example, tokens already lie on the post-condition places.
+It is just as conceivable that, for example,
+tokens already lie on the post-condition places.
 
 0:02:25.440,0:02:27.690
 This could also have
 been our initial assignment.
 
 0:02:27.690,0:02:30.420
-And also then we are
-allowed to fire this transition.
+And also then we are allowed
+to fire this transition.
 
 0:02:30.420,0:02:35.400
-So that says, it must
-be consumed along the input arrows
+So that says, it must be
+consumed along the input arrows
 
 0:02:35.400,0:02:38.010
 and generated along the output arrows.
@@ -138,24 +138,24 @@ fact that there's already a token here.
 It is not the case that
 
 0:02:42.120,0:02:44.700
-the space here is occupied and
-therefore the transition should not be fired.
+the space here is occupied and therefore
+the transition should not be fired.
 
 0:02:44.700,0:02:47.430
-The fact that there is
-already a token is not detrimental.
+The fact that there is already
+a token is not detrimental.
 
 0:02:47.430,0:02:52.140
-In the situation as it is
-shown here now, these transitions could fire.
+In the situation as it is shown here
+now, these transitions could fire.
 
 0:02:52.140,0:02:54.780
 Of course, these two transitions could
 also fire, because of this token.
 
 0:02:54.780,0:03:01.050
-But let's assume that
-we fire this middle transition.
+But let's assume that we
+fire this middle transition.
 
 0:03:01.050,0:03:02.520
 Then this would mean, of course:
@@ -194,12 +194,12 @@ They may be already occupied.
 Then they will be even fuller afterwards.
 
 0:03:36.780,0:03:39.900
-Then we would have an
-interesting situation here in this case,
+Then we would have an interesting
+situation here in this case,
 
 0:03:39.900,0:03:43.560
-insofar as now these
-two transitions are both activated.
+insofar as now these two
+transitions are both activated.
 
 0:03:43.560,0:03:46.320
 We had said earlier (in
@@ -221,8 +221,8 @@ And then the system was dead because the token
 had been removed from the system and was no longer
 
 0:03:57.180,0:03:59.640
-available to fire this
-transition again later, for example.
+available to fire this transition
+again later, for example.
 
 0:03:59.640,0:04:01.200
 Now it would be like this:
@@ -231,8 +231,8 @@ Now it would be like this:
 If there are two tokens on the spot,
 
 0:04:03.060,0:04:09.960
-then there is no more
-problem between these two transitions.
+then there is no more problem
+between these two transitions.
 
 0:04:09.960,0:04:18.240
 Now, for example, the lower transition
@@ -255,8 +255,8 @@ system, the system
 is not necessarily dead.
 
 0:04:29.320,0:04:32.860
-Because, for example, it could
-continue to operate and fire accordingly
+Because, for example, it could continue
+to operate and fire accordingly
 
 0:04:32.860,0:04:37.120
 now with the upper token present.
@@ -325,16 +325,16 @@ This then means that
 when this transition fires,
 
 0:05:55.060,0:06:01.030
-and it has taken appropriate
-tokens from the precondition places, it
+and it has taken appropriate tokens
+from the precondition places, it
 
 0:06:01.030,0:06:06.070
 will of course still deposit
 tokens in its postcondition places.
 
 0:06:06.070,0:06:14.320
-But because of the 2 here, firing
-this transition would always deposit two tokens.
+But because of the 2 here, firing this
+transition would always deposit two tokens.
 
 0:06:14.320,0:06:16.600
 So firing here would mean:
@@ -352,16 +352,16 @@ were up here before somehow being
 preserved and moving through the system.
 
 0:06:37.400,0:06:41.750
-It may look like that if there were two
-tokens before and afterwards there are two tokens again.
+It may look like that if there were two tokens
+before and afterwards there are two tokens again.
 
 0:06:41.750,0:06:46.880
-But for example, in the case where we had
-one token on each upper place before and afterwards, because of
+But for example, in the case where we had one token
+on each upper place before and afterwards, because of
 
 0:06:46.880,0:06:50.840
-these 2 here at the bottom left, there are now two tokens, then
-it looks as if a new token has been created.
+these 2 here at the bottom left, there are now two
+tokens, then it looks as if a new token has been created.
 
 0:06:51.350,0:06:52.400
 But in reality it is always like that:
@@ -374,8 +374,8 @@ and tokens are always created.
 One must not assume that the number of
 
 0:06:56.600,0:06:59.840
-tokens in the system
-must somehow always remain constant.
+tokens in the system must
+somehow always remain constant.
 
 0:06:59.840,0:07:02.510
 That's more by chance when
@@ -389,16 +389,16 @@ never an annotation like this anywhere here.
 Then it is so.
 
 0:07:08.930,0:07:16.910
-It is also so if there were three incoming
-arrows here and two outgoing arrows, whose sum is 3.
+It is also so if there were three incoming arrows
+here and two outgoing arrows, whose sum is 3.
 
 0:07:19.820,0:07:24.410
-In the case with the 2
-here the following processes are possible:
+In the case with the 2 here the
+following processes are possible:
 
 0:07:24.410,0:07:29.930
-Then actually in the case the number
-of tokens in the system will increase in
+Then actually in the case the number of
+tokens in the system will increase in
 
 0:07:29.930,0:07:32.210
 total with each
@@ -413,28 +413,28 @@ put down one token here,
 put down two tokens here.
 
 0:07:44.060,0:07:50.570
-Then we would have
-unlimited resource creation because
+Then we would have unlimited
+resource creation because
 
 0:07:50.570,0:07:55.610
-every time this transition fires, a
-token is put into the system.
+every time this transition fires,
+a token is put into the system.
 
 0:07:55.610,0:08:04.670
-It would be different, for example, if
-there was a 2 here as well.
+It would be different, for example,
+if there was a 2 here as well.
 
 0:08:04.670,0:08:08.060
-Because then that means
-that every time this transition
+Because then that means that
+every time this transition
 
 0:08:08.060,0:08:12.080
-fires, two tokens have to
-be taken from the left place.
+fires, two tokens have to be
+taken from the left place.
 
 0:08:12.080,0:08:17.600
-So then it could go on like
-this, starting from the situation (assuming we
+So then it could go on like this,
+starting from the situation (assuming we
 
 0:08:17.600,0:08:23.690
 had reached that somehow), that, for example,
@@ -445,12 +445,12 @@ not fire (because it finds one token here,
 but there would be no two tokens here).
 
 0:08:28.040,0:08:33.500
-Then it would be necessary to
-add another token to the upper left.
+Then it would be necessary to add
+another token to the upper left.
 
 0:08:33.500,0:08:36.890
-This could be for example this
-one after firing the leftmost transition.
+This could be for example this one
+after firing the leftmost transition.
 
 0:08:36.890,0:08:38.540
 And what would happen now?
@@ -463,12 +463,12 @@ It could also fire, for example, after
 we have moved this token up here.
 
 0:08:46.320,0:08:54.930
-And firing now would mean taking one token
-from the right, taking two tokens from the left,
+And firing now would mean taking one token from
+the right, taking two tokens from the left,
 
 0:08:54.930,0:08:58.620
-giving one token to the right
-and giving two tokens to the left.
+giving one token to the right and
+giving two tokens to the left.
 
 0:08:58.620,0:09:00.840
 So firing here now would mean:
@@ -482,16 +482,16 @@ we have to put one token
 here and put two tokens here.
 
 0:09:15.390,0:09:21.120
-And then, of course, we can get
-into a situation where actually the system
+And then, of course, we can get into
+a situation where actually the system
 
 0:09:21.120,0:09:28.320
 becomes dead-locked because of that, because
 we take tokens away from the system.
 
 0:09:28.320,0:09:35.100
-Let's say we have this 2
-up here, but no 2 down here,
+Let's say we have this 2 up
+here, but no 2 down here,
 
 0:09:35.100,0:09:39.150
 but just a normal simple
@@ -505,8 +505,8 @@ Then, for example, such transitions
 would still be possible here.
 
 0:09:47.640,0:09:55.290
-Then now, to fire this transition, one
-token would have to be taken from
+Then now, to fire this transition,
+one token would have to be taken from
 
 0:09:55.290,0:09:57.030
 the right, two tokens from the left.
@@ -536,12 +536,12 @@ And then we have seen
 that in that step the total
 
 0:10:24.270,0:10:26.790
-number of tokens in
-the system has just decreased.
+number of tokens in the
+system has just decreased.
 
 0:10:26.790,0:10:32.520
-And then sooner or later that would lead to
-the fact that we don't have enough tokens anymore.
+And then sooner or later that would lead to the
+fact that we don't have enough tokens anymore.
 
 0:10:32.520,0:10:36.090
 So we could fire
@@ -551,46 +551,46 @@ again here, fire again here.
 Then we could fire this transition again.
 
 0:10:38.760,0:10:44.580
-That would result in
-these three tokens disappearing,
+That would result in these
+three tokens disappearing,
 
 0:10:44.580,0:10:48.570
-and one token would appear
-in each post-condition location.
+and one token would appear in
+each post-condition location.
 
 0:10:48.570,0:10:49.890
 So then we would be here.
 
 0:10:54.450,0:10:58.230
-But in total, there would only
-be three tokens left in the system.
+But in total, there would only be
+three tokens left in the system.
 
 0:10:58.230,0:11:04.650
-And then we could still fire
-here, fire here, fire here for example.
+And then we could still fire here,
+fire here, fire here for example.
 
 0:11:04.650,0:11:10.110
-And then we wouldn't be able to continue
-because this transition would never be able to fire.
+And then we wouldn't be able to continue because
+this transition would never be able to fire.
 
 0:11:10.110,0:11:12.540
 Because it would never find
 two tokens on the left.
 
 0:11:12.540,0:11:14.490
-The fact that there are two
-tokens here on the right doesn't help.
+The fact that there are two tokens
+here on the right doesn't help.
 
 0:11:14.490,0:11:19.320
-Because the 2 is at
-this left entrance of the transition.
+Because the 2 is at this left
+entrance of the transition.
 
 0:11:23.040,0:11:24.750
 There are many different options, but
 
 0:11:24.750,0:11:28.290
-they are all based on
-this simple concept of firing.
+they are all based on this
+simple concept of firing.
 
 0:11:28.290,0:11:31.770
 A transition must find enough
@@ -604,12 +604,12 @@ token per position, unless there
 are such numerical labels on them.
 
 0:11:37.920,0:11:40.530
-Then there must be at
-least a corresponding number of tokens.
+Then there must be at least a
+corresponding number of tokens.
 
 0:11:40.530,0:11:43.590
-If there are more, then only
-as many are consumed as are needed.
+If there are more, then only as
+many are consumed as are needed.
 
 0:11:43.590,0:11:45.990
 If the transition can fire, afterwards
@@ -622,8 +622,8 @@ accordingly many tokens are put.
 At least one per arrow.
 
 0:11:51.480,0:11:54.600
-If there are any numbers on
-them, there will be more than one.
+If there are any numbers on them,
+there will be more than one.
 
 0:11:54.600,0:11:57.390
 And if there were already tokens on the
@@ -633,5 +633,5 @@ positions, the positions were not
 empty, then something is added.
 
 0:11:59.310,0:12:02.100
-These are all cases
-that we have already discussed.
+These are all cases that
+we have already discussed.

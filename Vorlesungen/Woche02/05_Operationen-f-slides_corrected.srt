@@ -4,20 +4,20 @@ Having dealt with graphs in
 the last video, and having done
 
 00:00:07,410 --> 00:00:15,870
-so using this little puzzle, this video will
-on one hand be about something much
+so using this little puzzle, this video
+will on one hand be about something much
 
 00:00:15,870 --> 00:00:23,880
 more specific to computer science, and on the
 other hand, it won't be about graphs either.
 
 00:00:23,880 --> 00:00:28,380
-I had said that we would be
-doing a lot of modeling with graphs, but
+I had said that we would be doing
+a lot of modeling with graphs, but
 
 00:00:28,380 --> 00:00:34,620
-we actually need (especially in preparation for
-UML) one more ingredient that is textual.
+we actually need (especially in preparation
+for UML) one more ingredient that is textual.
 
 00:00:34,620 --> 00:00:36,750
 Namely, static modeling of operations.
@@ -27,8 +27,8 @@ And that's what this video
 is going to be about.
 
 00:00:40,890 --> 00:00:47,430
-Because it's a prerequisite
-and preparation for object-oriented class
+Because it's a prerequisite and
+preparation for object-oriented class
 
 00:00:47,430 --> 00:00:52,620
 design, or modeling classes
@@ -45,8 +45,8 @@ and also detached from UML.
 In fact, operations play a
 
 00:01:01,140 --> 00:01:04,770
-role in mathematics as well as
-in computer science, independent of object-orientation.
+role in mathematics as well as in computer
+science, independent of object-orientation.
 
 00:01:05,520 --> 00:01:10,650
 What are we talking about specifically,
@@ -63,12 +63,12 @@ science, be it a program or a database.
 Then, often the first question is
 
 00:01:17,850 --> 00:01:20,460
-which operations should
-be offered and implemented.
+which operations should be
+offered and implemented.
 
 00:01:20,460 --> 00:01:24,810
-And at least as importantly,
-besides simply the names of operations,
+And at least as importantly, besides
+simply the names of operations,
 
 00:01:24,810 --> 00:01:28,080
 also on which data they are to work.
@@ -85,8 +85,8 @@ or the functionalities and
 services offered by the system.
 
 00:01:36,750 --> 00:01:42,150
-So it is not about
-what exactly the operations will do,
+So it is not about what
+exactly the operations will do,
 
 00:01:42,150 --> 00:01:46,470
 but first of all, for example, which
@@ -101,35 +101,35 @@ be, and also how
 operations can be combined.
 
 00:01:53,670 --> 00:01:56,250
-Usually a system will
-consist of many functionalities, which
+Usually a system will consist
+of many functionalities, which
 
 00:01:56,250 --> 00:02:01,110
 may have to be used in combination.
 
 00:02:03,060 --> 00:02:05,220
-And at least that
-would be important for documentation.
+And at least that would be
+important for documentation.
 
 00:02:06,090 --> 00:02:13,950
-So we can learn about
-the system simply by capturing
+So we can learn about the
+system simply by capturing
 
 00:02:13,950 --> 00:02:17,190
 this static information, even without
 having to look at the implementation.
 
 00:02:17,190 --> 00:02:21,390
-And ideally it would also
-help with the implementation, for
+And ideally it would also help
+with the implementation, for
 
 00:02:22,200 --> 00:02:27,780
-example, by precisely recording which cases of
-input have to be handled at all.
+example, by precisely recording which
+cases of input have to be handled at all.
 
 00:02:27,780 --> 00:02:33,540
-Or, by using consistency
-checks to possibly avoid certain
+Or, by using consistency checks
+to possibly avoid certain
 
 00:02:33,540 --> 00:02:36,720
 errors, even before testing
@@ -144,12 +144,12 @@ operations are called (the names are
 also important) but also on which
 
 00:02:43,950 --> 00:02:50,010
-types of data they operate and
-which combinations of operations should be allowed.
+types of data they operate and which
+combinations of operations should be allowed.
 
 00:02:51,630 --> 00:02:55,440
-Then, during programming, during implementation,
-errors can be uncovered that
+Then, during programming, during
+implementation, errors can be uncovered that
 
 00:02:55,440 --> 00:02:59,130
 might otherwise only be noticed during
@@ -178,8 +178,8 @@ where you have encountered
 operations, is simply arithmetic.
 
 00:03:16,650 --> 00:03:20,250
-So the arithmetic operations
-are called: "plus", "minus", "times", etc.
+So the arithmetic operations are
+called: "plus", "minus", "times", etc.
 
 00:03:20,250 --> 00:03:22,350
 These are, of course,
@@ -216,19 +216,19 @@ least the usual arithmetic operations.
 And maybe we've decided that
 
 00:03:46,830 --> 00:03:50,325
-we want to take the
-set of natural numbers, including zero.
+we want to take the set of
+natural numbers, including zero.
 
 00:03:50,325 --> 00:03:54,900
-So we don't do fractional
-numbers or floating point numbers first.
+So we don't do fractional numbers
+or floating point numbers first.
 
 00:03:54,900 --> 00:03:57,210
 Then we could say:
 
 00:03:57,210 --> 00:04:01,710
-Well, then addition is a binary
-operation (because it takes two arguments,
+Well, then addition is a binary operation
+(because it takes two arguments,
 
 00:04:01,710 --> 00:04:07,110
 namely a natural number twice
@@ -245,16 +245,16 @@ values and its range of images.
 The Komedia students should know this
 
 00:04:19,070 --> 00:04:22,970
-as notation from the
-second semester math lecture.
+as notation from the second
+semester math lecture.
 
 00:04:22,970 --> 00:04:24,530
 The computer science students
 and the ISE students from
 
 00:04:24,530 --> 00:04:28,010
-their respective courses where
-set theory is taught.
+their respective courses
+where set theory is taught.
 
 00:04:28,010 --> 00:04:30,290
 Probably, for example, Discrete
@@ -264,12 +264,12 @@ Mathematics for the Applied Computer
 Science students.
 
 00:04:32,060 --> 00:04:38,090
-I assume that's where it comes in
-as notation, very early in the semester.
+I assume that's where it comes in as
+notation, very early in the semester.
 
 00:04:38,090 --> 00:04:44,210
-Otherwise, at this moment, simply
-an operation name "plus", two arguments,
+Otherwise, at this moment, simply an
+operation name "plus", two arguments,
 
 00:04:44,210 --> 00:04:45,980
 each natural numbers
@@ -282,8 +282,8 @@ The result is also a natural number.
 And of course:
 
 00:04:49,040 --> 00:04:52,220
-If we have several operations
-(one wants to have multiplication too,
+If we have several operations (one
+wants to have multiplication too,
 
 00:04:52,220 --> 00:04:55,310
 for instance), then they have different
@@ -301,8 +301,8 @@ Subtraction could also be considered, but
 already with division the question arises:
 
 00:05:08,978 --> 00:05:14,090
-What type should the
-output value be here, anyway?
+What type should the output
+value be here, anyway?
 
 00:05:14,090 --> 00:05:17,150
 And we could say:
@@ -322,8 +322,8 @@ So here also, if
 we know "plus" as addition,
 
 00:05:27,050 --> 00:05:29,600
-it is not yet
-recorded what operations actually do.
+it is not yet recorded what
+operations actually do.
 
 00:05:29,600 --> 00:05:35,960
 Right now, we're trying to figure out
@@ -334,19 +334,19 @@ And probably here, for example,
 you would want to prohibit at
 
 00:05:40,670 --> 00:05:44,660
-least division by zero, so that it
-just can't be called with five and zero.
+least division by zero, so that it just
+can't be called with five and zero.
 
 00:05:44,660 --> 00:05:45,530
 Because it says up here:
 
 00:05:45,530 --> 00:05:48,110
-Let N be the set
-of natural numbers including zero.
+Let N be the set of natural
+numbers including zero.
 
 00:05:48,110 --> 00:05:54,920
-So you could decide here to say,
-first (before deciding what the output range
+So you could decide here to say, first
+(before deciding what the output range
 
 00:05:54,920 --> 00:06:00,230
 will be) refine the
@@ -356,28 +356,28 @@ second input range a bit.
 Restrict it a bit by saying:
 
 00:06:02,660 --> 00:06:08,630
-We take there the set N+
-as notation for only positive natural numbers.
+We take there the set N+ as notation
+for only positive natural numbers.
 
 00:06:08,630 --> 00:06:12,830
-Then, for example, one
-would statically define the operation
+Then, for example, one would
+statically define the operation
 
 00:06:12,830 --> 00:06:15,410
 to simply forbid the
 second argument to be zero.
 
 00:06:15,410 --> 00:06:20,300
-Then, of course, you can
-use that in fewer situations.
+Then, of course, you can use
+that in fewer situations.
 
 00:06:20,300 --> 00:06:24,200
 You can still use
 this for natural numbers that
 
 00:06:24,200 --> 00:06:27,740
-are positive, but just not for
-zero itself as a second argument anymore.
+are positive, but just not for zero
+itself as a second argument anymore.
 
 00:06:27,740 --> 00:06:30,290
 In the first position, you would
@@ -387,8 +387,8 @@ still be allowed to have zero.
 So zero by five would go on.
 
 00:06:33,620 --> 00:06:38,060
-Then you would have to somehow
-think about the output range as well.
+Then you would have to somehow think
+about the output range as well.
 
 00:06:38,060 --> 00:06:38,990
 Above all:
@@ -397,8 +397,8 @@ Above all:
 What does one want here?
 
 00:06:39,740 --> 00:06:43,880
-So if you have five and
-three as arguments (which would each fit,
+So if you have five and three as
+arguments (which would each fit,
 
 00:06:43,880 --> 00:06:47,990
 because three is a positive natural
@@ -409,8 +409,8 @@ Should it be 1.666, or
 maybe just 1 rounded down?
 
 00:06:52,670 --> 00:06:57,380
-Does one do integer division, or
-does one want to support rational numbers?
+Does one do integer division, or does
+one want to support rational numbers?
 
 00:06:57,380 --> 00:07:00,950
 That is exactly the decision one
@@ -427,12 +427,12 @@ That would be the decision between:
 I only allow natural numbers here.
 
 00:07:09,200 --> 00:07:14,720
-Then I also have to allow zero because 0 /
-5 = 0, and for five divided by three, I would want to
+Then I also have to allow zero because 0 / 5 =
+0, and for five divided by three, I would want to
 
 00:07:14,720 --> 00:07:17,690
-return 1 (so divide by
-an integer and discard the remainder).
+return 1 (so divide by an integer
+and discard the remainder).
 
 00:07:17,690 --> 00:07:19,760
 Or do I want to support rational numbers?
@@ -448,8 +448,8 @@ that rational numbers may be there.
 Which of course contain the
 
 00:07:28,010 --> 00:07:31,970
-natural numbers, but also
-provide other candidates as outputs.
+natural numbers, but also provide
+other candidates as outputs.
 
 00:07:31,970 --> 00:07:34,520
 And perhaps one would even want both.
@@ -459,8 +459,8 @@ So the mathematicians like
 to do that, of course.
 
 00:07:36,665 --> 00:07:40,460
-They always use the same
-symbol, overloaded in a certain sense,
+They always use the same symbol,
+overloaded in a certain sense,
 
 00:07:40,460 --> 00:07:43,100
 so that it can depend, for example, on
@@ -484,15 +484,15 @@ purpose of the application.
 So you can't say:
 
 00:07:56,030 --> 00:07:59,120
-This is the right choice
-and this is the wrong choice.
+This is the right choice and
+this is the wrong choice.
 
 00:07:59,120 --> 00:08:00,080
 That would be nonsense.
 
 00:08:00,080 --> 00:08:04,550
-Ultimately, it is precisely a part
-of modeling to work out:
+Ultimately, it is precisely a
+part of modeling to work out:
 
 00:08:04,550 --> 00:08:08,270
 In the current application
@@ -502,16 +502,16 @@ context, what actually is
 the desired area that should be here?
 
 00:08:16,610 --> 00:08:20,870
-This could go as far as perhaps supporting
-both and then providing suitable mechanisms in the
+This could go as far as perhaps supporting both
+and then providing suitable mechanisms in the
 
 00:08:20,870 --> 00:08:27,575
-system so that this can be decided
-in each case depending on the current situation.
+system so that this can be decided in each
+case depending on the current situation.
 
 00:08:27,575 --> 00:08:29,960
-Or at least one would have
-to record which variants are available.
+Or at least one would have to
+record which variants are available.
 
 00:08:32,370 --> 00:08:35,880
 Of course, you also have to be careful
@@ -522,20 +522,20 @@ example, you suddenly bring
 a lot more into play.
 
 00:08:37,980 --> 00:08:41,910
-Not only the rational numbers, i.e.
-the fractional numbers, but also negative numbers.
+Not only the rational numbers, i.e. the
+fractional numbers, but also negative numbers.
 
 00:08:41,910 --> 00:08:45,660
 Because the natural numbers, whether with or
 without zero, were at least not negative.
 
 00:08:45,660 --> 00:08:50,250
-If I choose the rational numbers here, I
-would also have to deal with the fact
+If I choose the rational numbers here,
+I would also have to deal with the fact
 
 00:08:50,250 --> 00:08:54,900
-that I would then have negative numbers with
-them (if I don't limit myself here to
+that I would then have negative numbers
+with them (if I don't limit myself here to
 
 00:08:54,900 --> 00:08:57,600
 only positive
@@ -550,20 +550,20 @@ And of course, once I've done that,
 once I've introduced N+ or Q instead of
 
 00:09:07,500 --> 00:09:10,350
-N, there's also the question
-of what about the other operations.
+N, there's also the question of
+what about the other operations.
 
 00:09:10,350 --> 00:09:14,970
-So "plus" and so on, which before
-was only in play for the natural numbers.
+So "plus" and so on, which before was
+only in play for the natural numbers.
 
 00:09:14,970 --> 00:09:19,020
-As soon as I have now
-introduced, for example, this extra set,
+As soon as I have now introduced,
+for example, this extra set,
 
 00:09:19,020 --> 00:09:23,670
-in order to be able to deal with the
-division by zero (by forbidding it), one also asks:
+in order to be able to deal with the division
+by zero (by forbidding it), one also asks:
 
 00:09:23,670 --> 00:09:28,560
 What about the operation
@@ -580,16 +580,16 @@ two argument sets is replaced by N+?
 So the next question would be:
 
 00:09:36,870 --> 00:09:44,520
-What would happen now that we
-have several different set ranges in play?
+What would happen now that we have
+several different set ranges in play?
 
 00:09:44,520 --> 00:09:48,960
-What does that mean for the
-static information about the other operations?
+What does that mean for the static
+information about the other operations?
 
 00:09:48,960 --> 00:09:52,320
-Can we perhaps make those more precise as well,
-or do we need to make any changes there?
+Can we perhaps make those more precise as
+well, or do we need to make any changes there?
 
 00:09:53,250 --> 00:09:55,470
 In fact, in the specific case,
@@ -613,8 +613,8 @@ Before, it said: N and N goes to N.
 Now we can additionally state:
 
 00:10:07,440 --> 00:10:15,060
-If one of the two parameters, for example
-the first one, is a positive number with certainty,
+If one of the two parameters, for example the
+first one, is a positive number with certainty,
 
 00:10:15,060 --> 00:10:17,340
 then after the addition, the
@@ -632,28 +632,28 @@ That would also have allowed
 zero to come out there.
 
 00:10:26,850 --> 00:10:30,540
-This will not happen if at least one
-of the two arguments certainly is not zero.
+This will not happen if at least one of
+the two arguments certainly is not zero.
 
 00:10:32,220 --> 00:10:36,360
 Of course, this could be done in
 the same way for the other position.
 
 00:10:36,360 --> 00:10:39,960
-And one could also hold,
-for the multiplication for example,
+And one could also hold, for
+the multiplication for example,
 
 00:10:39,960 --> 00:10:43,860
-that if both arguments are
-positive, the result is also positive.
+that if both arguments are positive,
+the result is also positive.
 
 00:10:44,490 --> 00:10:50,760
-But of course, not this
-information, because it would be wrong.
+But of course, not this information,
+because it would be wrong.
 
 00:10:50,760 --> 00:10:57,660
-It is not true that a positive number
-multiplied by a natural number is always a positive number.
+It is not true that a positive number multiplied
+by a natural number is always a positive number.
 
 00:10:57,660 --> 00:11:01,740
 So here there is
@@ -664,20 +664,20 @@ between the operations, which can and
 should be held on this operation.
 
 00:11:06,390 --> 00:11:09,510
-So then we haven't quite
-defined exactly what multiplication does.
+So then we haven't quite defined
+exactly what multiplication does.
 
 00:11:09,510 --> 00:11:15,090
-But this restriction, that unlike for addition, not
-simply the fact that one of the
+But this restriction, that unlike for
+addition, not simply the fact that one of the
 
 00:11:15,090 --> 00:11:19,680
 arguments is positive is enough for the
 result to be positive as well, that
 
 00:11:19,680 --> 00:11:27,540
-can already be held here as
-a distinction between these two operations.
+can already be held here as a
+distinction between these two operations.
 
 00:11:27,540 --> 00:11:28,680
 Why all this?
@@ -687,16 +687,16 @@ Because on the basis
 of this static information,
 
 00:11:31,500 --> 00:11:35,730
-i.e., without having an implementation of
-the operation (without really calculating anything),
+i.e., without having an implementation of the
+operation (without really calculating anything),
 
 00:11:35,730 --> 00:11:40,860
-we can already determine
-whether certain expressions, certain terms,
+we can already determine whether
+certain expressions, certain terms,
 
 00:11:40,860 --> 00:11:45,330
-certain formulas, which can be written
-down, are okay or not okay.
+certain formulas, which can be
+written down, are okay or not okay.
 
 00:11:45,330 --> 00:11:49,230
 We have two formulas here that simply
@@ -725,8 +725,8 @@ Whether dividing by an integer or
 not, at least a result is returned.
 
 00:12:05,910 --> 00:12:08,940
-Whereas with this expression, if
-you wanted to work it
+Whereas with this expression,
+if you wanted to work it
 
 00:12:08,940 --> 00:12:11,520
 out, you would run into division by zero.
@@ -739,8 +739,8 @@ With the static information that was
 on the slides before, you can tell
 
 00:12:16,410 --> 00:12:19,890
-that this expression is not
-safe even without calculating it out.
+that this expression is not safe
+even without calculating it out.
 
 00:12:22,920 --> 00:12:28,440
 Because you don't have a value from N+
@@ -771,8 +771,8 @@ And then you also know that at runtime,
 at the time when the system is supposed
 
 00:12:51,150 --> 00:12:56,860
-to operate dynamically, there is
-no division-by-zero error, for example.
+to operate dynamically, there is no
+division-by-zero error, for example.
 
 00:13:00,550 --> 00:13:01,870
 And the point here is, of course:
@@ -804,33 +804,33 @@ about operations and about the
 variables, we can make such a distinction
 
 00:13:23,350 --> 00:13:27,700
-even if we have unknowns
-there and therefore cannot calculate concretely.
+even if we have unknowns there and
+therefore cannot calculate concretely.
 
 00:13:28,210 --> 00:13:32,230
-That is the purpose of this
-kind of static information for operations.
+That is the purpose of this kind of
+static information for operations.
 
 00:13:36,880 --> 00:13:40,090
 Now it is like this:
 
 00:13:40,090 --> 00:13:44,740
-For these arithmetic operations, you might
-think, "Yes, what do we gain here?"
+For these arithmetic operations, you
+might think, "Yes, what do we gain here?"
 
 00:13:44,740 --> 00:13:45,550
 That's just school arithmetic.
 
 00:13:45,550 --> 00:13:51,430
-We know what it means to
-have a zero in division, for example.
+We know what it means to have a
+zero in division, for example.
 
 00:13:51,430 --> 00:13:52,240
 That this is a problem.
 
 00:13:52,240 --> 00:13:56,290
-But the point is, this
-handling of such arithmetic expressions,
+But the point is, this handling
+of such arithmetic expressions,
 
 00:13:56,290 --> 00:13:58,060
 or terms as they
@@ -841,20 +841,20 @@ While you may know this from school, having also worked
 with such terms and transformed them, it is interesting
 
 00:14:05,170 --> 00:14:10,278
-from a modeling point of view that
-such an algebraic approach (i.e., describing
+from a modeling point of view that such
+an algebraic approach (i.e., describing
 
 00:14:10,278 --> 00:14:19,060
 the operations through their signatures, input and
 output formats and the rules according to which terms
 
 00:14:19,060 --> 00:14:23,860
-are set up) is not
-only possible for arithmetic operations on numbers.
+are set up) is not only possible for
+arithmetic operations on numbers.
 
 00:14:23,860 --> 00:14:27,760
-But in general, for operations
-in practically any other application
+But in general, for operations in
+practically any other application
 
 00:14:27,760 --> 00:14:33,070
 domains, one has to deal with other sets,
@@ -865,28 +865,28 @@ about which combinations
 should be allowed.
 
 00:14:35,410 --> 00:14:40,450
-If you model this precisely, then you
-have already recorded certain information about the
+If you model this precisely, then you have
+already recorded certain information about the
 
 00:14:40,450 --> 00:14:48,250
-respective application domain before you
-start to implement something.
+respective application domain before
+you start to implement something.
 
 00:14:48,250 --> 00:14:56,200
-That should be the goal
-here when specifying such operations.
+That should be the goal here
+when specifying such operations.
 
 00:14:56,200 --> 00:14:59,320
-Now I'll provide an example, and
-a different example than the arithmetic operations.
+Now I'll provide an example, and a different
+example than the arithmetic operations.
 
 00:14:59,320 --> 00:15:06,340
 So let's imagine, as another domain,
 that we want to do vector graphics.
 
 00:15:06,340 --> 00:15:09,490
-So maybe we would like
-to develop a graphics program or
+So maybe we would like to
+develop a graphics program or
 
 00:15:10,390 --> 00:15:16,330
 somehow an app that should have
@@ -904,60 +904,60 @@ we're now not *just* dealing with mathematical
 number domains like we just did, but
 
 00:15:25,990 --> 00:15:30,750
-we have to work with
-other domain-specific types as well.
+we have to work with other
+domain-specific types as well.
 
 00:15:30,750 --> 00:15:36,550
-So for number domains, we could now
-take mathematical notation like we just did.
+So for number domains, we could now take
+mathematical notation like we just did.
 
 00:15:42,640 --> 00:15:44,230
 Maybe you learn in parallel,
 in the GPT lecture
 
 00:15:44,230 --> 00:15:49,750
-(depending on your course of
-studies), the programming language Python.
+(depending on your course of studies),
+the programming language Python.
 
 00:15:49,750 --> 00:15:55,000
-There are also special
-data types, for example, the
+There are also special data
+types, for example, the
 
 00:15:55,000 --> 00:16:01,840
-number types for integers and for
-floating point numbers, i.e., decimal numbers.
+number types for integers and for floating
+point numbers, i.e., decimal numbers.
 
 00:16:01,840 --> 00:16:06,220
 Maybe also strings, because you want
 to have the output in text form.
 
 00:16:06,220 --> 00:16:10,630
-And now, here we would want
-to introduce more domain-specific types
+And now, here we would want to
+introduce more domain-specific types
 
 00:16:10,630 --> 00:16:13,090
-that are not necessarily
-in the programming language,
+that are not necessarily in
+the programming language,
 
 00:16:13,090 --> 00:16:17,350
-but that we need to
-support our vector graphics domain.
+but that we need to support
+our vector graphics domain.
 
 00:16:17,350 --> 00:16:19,330
 So, what do we
 need in the graphics domain?
 
 00:16:19,330 --> 00:16:24,190
-Perhaps colors, points, coordinates,
-or even whole images.
+Perhaps colors, points,
+coordinates, or even whole images.
 
 00:16:27,520 --> 00:16:30,040
 So, let's think
 about an initial operation.
 
 00:16:30,040 --> 00:16:34,000
-What might we have as
-an operation that creates an image?
+What might we have as an
+operation that creates an image?
 
 00:16:34,000 --> 00:16:38,140
 Maybe we would like to be able
@@ -986,32 +986,32 @@ specified by the fact that there is a radius.
 And that could also be a decimal number.
 
 00:16:51,670 --> 00:16:55,870
-That's why we introduce an operation
-called "circle" which takes a number, interprets
+That's why we introduce an operation called
+"circle" which takes a number, interprets
 
 00:16:55,870 --> 00:16:59,080
 that number as a
 radius, and returns an image.
 
 00:17:01,150 --> 00:17:04,930
-We could imagine that if we
-call "circle" as an operation with the
+We could imagine that if we call
+"circle" as an operation with the
 
 00:17:04,930 --> 00:17:07,840
 argument 3, then this
 picture should be created.
 
 00:17:07,840 --> 00:17:11,590
-I will now always show
-such pictures here on the right,
+I will now always show such
+pictures here on the right,
 
 00:17:11,590 --> 00:17:16,440
 as an idea of
 what the operations should do.
 
 00:17:16,440 --> 00:17:22,410
-But the modeling itself
-does not contain this information.
+But the modeling itself does
+not contain this information.
 
 00:17:22,410 --> 00:17:22,830
 Here, it is only about this:
@@ -1059,12 +1059,12 @@ So, every integer is, of
 course, also a "decimal number".
 
 00:18:13,740 --> 00:18:18,690
-So you don't have to write
-3.0 here, you can take 3 directly.
+So you don't have to write 3.0
+here, you can take 3 directly.
 
 00:18:18,690 --> 00:18:22,500
-At least that's how I write
-it down now in my example domain.
+At least that's how I write it
+down now in my example domain.
 
 00:18:29,280 --> 00:18:30,240
 That would be a first operation.
@@ -1084,16 +1084,16 @@ Of course, we don't want to leave it
 at that, we want to somehow provide for
 
 00:18:40,290 --> 00:18:44,340
-a few more operations when
-we design our vector graphics app.
+a few more operations when we
+design our vector graphics app.
 
 00:18:44,340 --> 00:18:48,600
-And for example, we could start
-to simply allow different geometric shapes.
+And for example, we could start to
+simply allow different geometric shapes.
 
 00:18:48,600 --> 00:18:51,810
-For example, you want to
-be able to draw a rectangle.
+For example, you want to be
+able to draw a rectangle.
 
 00:18:51,810 --> 00:18:52,770
 You'd have to think about:
@@ -1112,19 +1112,19 @@ perhaps a width and a height.
 And the result is again a picture.
 
 00:19:00,360 --> 00:19:06,450
-The interpretation would be that if I,
-for example, call "rectangle" with 7 and 5,
+The interpretation would be that if I, for
+example, call "rectangle" with 7 and 5,
 
 00:19:06,450 --> 00:19:08,130
 I get such a rectangle.
 
 00:19:08,130 --> 00:19:14,280
-There is already an interpretation in there,
-namely, that the first argument should be interpreted
+There is already an interpretation in there, namely,
+that the first argument should be interpreted
 
 00:19:14,280 --> 00:19:18,090
-as the width, and the
-second argument as the height.
+as the width, and the second
+argument as the height.
 
 00:19:18,090 --> 00:19:21,270
 That is not in this specification here.
@@ -1140,8 +1140,8 @@ And not how they exactly contribute
 to the picture in the end.
 
 00:19:29,820 --> 00:19:40,320
-What one could also ask here, in
-the sense of the arithmetic example domain before:
+What one could also ask here, in the sense
+of the arithmetic example domain before:
 
 00:19:40,320 --> 00:19:42,630
 What happens if one
@@ -1152,19 +1152,19 @@ Even with the
 circle, one might ask:
 
 00:19:44,640 --> 00:19:51,810
-What if the circle is called with
-the argument zero or even with negative radii?
+What if the circle is called with the
+argument zero or even with negative radii?
 
 00:19:51,810 --> 00:19:57,990
-This could have been countered
-by deliberately introducing another set with
+This could have been countered by
+deliberately introducing another set with
 
 00:19:57,990 --> 00:20:02,610
 only non-negative floating-point numbers.
 
 00:20:03,240 --> 00:20:06,420
-Or one could then make
-decisions in the implementation on how
+Or one could then make decisions
+in the implementation on how
 
 00:20:06,420 --> 00:20:08,460
 to deal with such edge cases.
@@ -1177,12 +1177,12 @@ A "circle" of size zero
 would simply be a point.
 
 00:20:12,240 --> 00:20:18,660
-A rectangle of height zero
-would simply be a horizontal line.
+A rectangle of height zero would
+simply be a horizontal line.
 
 00:20:18,660 --> 00:20:22,290
-And for example, for
-negative arguments, either always say
+And for example, for negative
+arguments, either always say
 
 00:20:22,290 --> 00:20:24,990
 they are not accepted, or
@@ -1213,8 +1213,8 @@ But it might
 become other general operations.
 
 00:20:49,290 --> 00:20:54,420
-For example, you might want to
-draw general paths, that is, any sequences
+For example, you might want to draw
+general paths, that is, any sequences
 
 00:20:54,420 --> 00:20:59,040
 of strokes that don't exactly
@@ -1234,8 +1234,8 @@ of x and y values.
 And for a path, you need several points.
 
 00:21:10,200 --> 00:21:14,400
-So maybe a list like that, a
-listing of several pairs of coordinates like that.
+So maybe a list like that, a listing of
+several pairs of coordinates like that.
 
 00:21:14,400 --> 00:21:16,470
 You could say:
@@ -1244,12 +1244,12 @@ You could say:
 A path has a list as an argument.
 
 00:21:21,270 --> 00:21:25,230
-This is now to be
-indicated here by these square brackets.
+This is now to be indicated
+here by these square brackets.
 
 00:21:25,230 --> 00:21:28,770
-And in this list,
-coordinate pairs can be present.
+And in this list, coordinate
+pairs can be present.
 
 00:21:28,770 --> 00:21:35,350
 So (-1,0) would be the first point here, x-axis
@@ -1259,16 +1259,16 @@ So (-1,0) would be the first point here, x-axis
 So behind the dot, dot, dot,
 
 00:21:36,940 --> 00:21:41,140
-there would be other
-such pairs, for example (1,2).
+there would be other such
+pairs, for example (1,2).
 
 00:21:42,160 --> 00:21:46,060
 Here, there seems to be
 (3,0) and then here, (6,4).
 
 00:21:46,060 --> 00:21:51,880
-So, I call the path operation
-with such a list of coordinate pairs,
+So, I call the path operation with
+such a list of coordinate pairs,
 
 00:21:51,880 --> 00:21:53,290
 and then an image comes out.
@@ -1280,12 +1280,12 @@ In that case, just this zigzag curve.
 And maybe also as another operation:
 
 00:22:01,240 --> 00:22:05,560
-Suppose we also want to allow
-labels in our images, somehow with text.
+Suppose we also want to allow labels
+in our images, somehow with text.
 
 00:22:05,560 --> 00:22:08,860
-Then we have to have an
-operation that converts text into an image.
+Then we have to have an operation
+that converts text into an image.
 
 00:22:08,860 --> 00:22:11,470
 And that could be,
@@ -1299,8 +1299,8 @@ And the argument to that operation
 would be a string, a text.
 
 00:22:17,020 --> 00:22:21,160
-And the result would be
-a picture representing that text.
+And the result would be a
+picture representing that text.
 
 00:22:21,160 --> 00:22:23,530
 So, for example, print("ABC").
@@ -1310,20 +1310,20 @@ You probably know these quotation marks
 as well, as delimiters for strings
 
 00:22:28,930 --> 00:22:33,550
-in many programming languages (or in
-the programming language you currently learn).
+in many programming languages (or in the
+programming language you currently learn).
 
 00:22:33,550 --> 00:22:38,530
-And then the result here will be
-a picture that contains exactly the text ABC.
+And then the result here will be a picture
+that contains exactly the text ABC.
 
 00:22:41,800 --> 00:22:44,110
 So, we could do a
 few things with that now.
 
 00:22:44,110 --> 00:22:48,940
-Strictly speaking, we could either draw
-a circle or draw a rectangle,
+Strictly speaking, we could either
+draw a circle or draw a rectangle,
 
 00:22:48,940 --> 00:22:55,930
 or draw any sequence of strokes
@@ -1381,20 +1381,20 @@ that, which can enlarge any image.
 Also including images created using "print".
 
 00:23:46,030 --> 00:23:52,480
-If we decide this way, it
-would mean that we would introduce an
+If we decide this way, it would
+mean that we would introduce an
 
 00:23:52,480 --> 00:23:56,140
-operation (and even several
-operations) to manipulate existing figures.
+operation (and even several operations)
+to manipulate existing figures.
 
 00:23:56,140 --> 00:24:01,990
-In the operations we have seen so
-far, Picture only ever appeared as a result.
+In the operations we have seen so far,
+Picture only ever appeared as a result.
 
 00:24:01,990 --> 00:24:04,210
-We put a number in, get a picture.
-We plug in two numbers, get a picture.
+We put a number in, get a picture. We
+plug in two numbers, get a picture.
 
 00:24:06,850 --> 00:24:10,120
 We plug in a list
@@ -1407,46 +1407,46 @@ We put in a string, we get a picture.
 If we want to go beyond
 
 00:24:15,220 --> 00:24:18,580
-that, we could provide operations that
-have images as inputs as well.
+that, we could provide operations
+that have images as inputs as well.
 
 00:24:18,580 --> 00:24:23,410
-And for example, for this
-scaling, for resizing, we could say:
+And for example, for this scaling,
+for resizing, we could say:
 
 00:24:23,410 --> 00:24:27,670
 We'd like to have
 an operation called scale.
 
 00:24:27,670 --> 00:24:35,440
-It gets an image, gets two
-numbers to be interpreted as scale.
+It gets an image, gets two numbers
+to be interpreted as scale.
 
 00:24:35,440 --> 00:24:38,522
-Enlargement or reduction, depending on whether it
-is greater than 1 or less than 1.
+Enlargement or reduction, depending on
+whether it is greater than 1 or less than 1.
 
 00:24:38,522 --> 00:24:42,370
-So there should be one
-factor each, in x- and y-direction.
+So there should be one factor
+each, in x- and y-direction.
 
 00:24:42,370 --> 00:24:42,790
 Then we could say:
 
 00:24:42,790 --> 00:24:46,870
-Well, if we take the picture, which
-results from print("ABC") (that would be this
+Well, if we take the picture, which results
+from print("ABC") (that would be this
 
 00:24:46,870 --> 00:24:52,600
-small picture here), and we scale that by the
-factor 3 in both x and y direction, then
+small picture here), and we scale that by
+the factor 3 in both x and y direction, then
 
 00:24:52,600 --> 00:24:56,710
 we get exactly this larger ABC typeface.
 
 00:25:00,010 --> 00:25:02,800
-That would be one
-way of manipulating existing figures.
+That would be one way of
+manipulating existing figures.
 
 00:25:02,800 --> 00:25:03,811
 We can think of others.
@@ -1468,8 +1468,8 @@ So there has to be
 a supply of colors somehow.
 
 00:25:20,770 --> 00:25:23,530
-That's just a new set
-that would be defined somewhere.
+That's just a new set that
+would be defined somewhere.
 
 00:25:23,530 --> 00:25:26,380
 And the result would be a picture again.
@@ -1478,8 +1478,8 @@ And the result would be a picture again.
 And then we could say, for example:
 
 00:25:28,240 --> 00:25:31,750
-Take the image from just
-now (even before scaling, that
+Take the image from just now
+(even before scaling, that
 
 00:25:31,750 --> 00:25:34,690
 is, the little string
@@ -1492,8 +1492,8 @@ Then you get this result.
 And wanted would be, of course, if we
 
 00:25:40,000 --> 00:25:44,200
-combine this, call both "scale"
-and "color" (use nested operations),
+combine this, call both "scale" and
+"color" (use nested operations),
 
 00:25:44,200 --> 00:25:47,990
 then we should get the big string in red.
@@ -1519,8 +1519,8 @@ And get bigger and bigger expressions, which
 are more complicated, but can be evaluated
 
 00:26:06,410 --> 00:26:10,850
-with the definitions of the single
-operations, by doing several calculation steps.
+with the definitions of the single operations,
+by doing several calculation steps.
 
 00:26:13,130 --> 00:26:13,910
 What else can we want?
@@ -1540,15 +1540,15 @@ Maybe we want to
 have rectangles that are skewed.
 
 00:26:24,170 --> 00:26:27,770
-Then we would need
-the ability to rotate an image.
+Then we would need the
+ability to rotate an image.
 
 00:26:27,770 --> 00:26:29,330
 So we could say:
 
 00:26:29,330 --> 00:26:31,910
-Our rectangle from before, that
-would be the expression "rectangle(7,5)".
+Our rectangle from before, that would
+be the expression "rectangle(7,5)".
 
 00:26:32,780 --> 00:26:34,580
 We'd like to rotate that by an angle.
@@ -1564,8 +1564,8 @@ Let's assume we measure angles simply
 in degrees and not somehow in radians.
 
 00:26:45,530 --> 00:26:52,910
-Then 30 just corresponds to a
-rectangle tilted about this angle here, with
+Then 30 just corresponds to a rectangle
+tilted about this angle here, with
 
 00:26:52,910 --> 00:26:56,000
 the rotation always taking
@@ -1583,16 +1583,16 @@ But they're always
 centered around the origin.
 
 00:27:11,900 --> 00:27:15,440
-Which also means, for example, that rotating
-a circle makes no sense at all.
+Which also means, for example, that
+rotating a circle makes no sense at all.
 
 00:27:15,440 --> 00:27:21,320
 Because the circle was
 formed around the origin.
 
 00:27:21,320 --> 00:27:24,650
-If we rotate it now, and
-this always happens around the origin,
+If we rotate it now, and this
+always happens around the origin,
 
 00:27:25,190 --> 00:27:28,940
 one can do nothing else with the
@@ -1603,12 +1603,12 @@ You could scale it and
 make it an ellipse by
 
 00:27:33,920 --> 00:27:35,630
-scaling it differently
-in the x- and y-directions.
+scaling it differently in
+the x- and y-directions.
 
 00:27:35,630 --> 00:27:38,750
-But you can't, for example, draw
-it in any place other than
+But you can't, for example,
+draw it in any place other than
 
 00:27:38,750 --> 00:27:41,180
 the origin of the coordinate system.
@@ -1618,16 +1618,16 @@ This is certainly unattractive
 for a general graphics app.
 
 00:27:46,070 --> 00:27:50,180
-So, we should have at least
-one more operation that allows us
+So, we should have at least one
+more operation that allows us
 
 00:27:50,180 --> 00:27:55,580
 to draw objects at some
 place other than the origin.
 
 00:27:55,580 --> 00:28:01,040
-And if we would also let all
-strings we want to print always overlap at
+And if we would also let all strings
+we want to print always overlap at
 
 00:28:01,040 --> 00:28:03,230
 the origin, we wouldn't be
@@ -1643,8 +1643,8 @@ Another operation to move an image.
 What does it need as arguments?
 
 00:28:10,850 --> 00:28:14,690
-First, the image to be moved,
-and then probably two parameters again.
+First, the image to be moved, and
+then probably two parameters again.
 
 00:28:14,690 --> 00:28:19,040
 Like here for the x- and y-directions,
@@ -1661,24 +1661,24 @@ be an image, of course.
 So the idea is:
 
 00:28:27,080 --> 00:28:31,850
-If we take a circle with
-a radius of 3 and shift it in
+If we take a circle with a
+radius of 3 and shift it in
 
 00:28:31,850 --> 00:28:36,080
-the x-direction by 2 and in the y-direction
-by 1, we get the same shape,
+the x-direction by 2 and in the
+y-direction by 1, we get the same shape,
 
 00:28:36,080 --> 00:28:39,650
-the same circle, but it
-is now in a different position.
+the same circle, but it is
+now in a different position.
 
 00:28:42,020 --> 00:28:43,400
 And the circle
 is then completely shifted,
 
 00:28:43,400 --> 00:28:48,410
-which is why the centre would
-now be at this new position (2,1).
+which is why the centre would now
+be at this new position (2,1).
 
 00:28:52,160 --> 00:29:01,720
 Then we could draw individual
@@ -1692,15 +1692,15 @@ However, we could not
 combine any of these.
 
 00:29:08,770 --> 00:29:13,330
-For example, we could not yet
-draw an image containing both a circle
+For example, we could not yet draw
+an image containing both a circle
 
 00:29:13,330 --> 00:29:15,610
 and a rectangle in this way.
 
 00:29:15,610 --> 00:29:19,960
-With the operations we have so far,
-we would only ever be able to
+With the operations we have so
+far, we would only ever be able to
 
 00:29:19,960 --> 00:29:25,780
 paint single geometric shapes
@@ -1710,12 +1710,12 @@ and position them somewhere.
 So, what else would we need?
 
 00:29:27,580 --> 00:29:30,370
-What else would be conceivable
-or desirable as a meaningful operation?
+What else would be conceivable or
+desirable as a meaningful operation?
 
 00:29:30,370 --> 00:29:33,190
-Anything that would allow
-us to combine multiple images.
+Anything that would allow us
+to combine multiple images.
 
 00:29:33,190 --> 00:29:37,810
 And the easiest choice would
@@ -1729,8 +1729,8 @@ takes two numbers and returns one number).
 We've only ever had operations until now
 
 00:29:43,690 --> 00:29:46,360
-that took at most one
-image and returned one image.
+that took at most one image
+and returned one image.
 
 00:29:46,360 --> 00:29:49,540
 If we want to
@@ -1741,8 +1741,8 @@ them, we need an operation that
 composes an image from partial images.
 
 00:29:54,790 --> 00:29:57,400
-This could be a
-binary operation with two arguments,
+This could be a binary
+operation with two arguments,
 
 00:29:57,400 --> 00:30:00,640
 each a Picture, and it
@@ -1752,8 +1752,8 @@ should return a Picture.
 What would be a reasonable use for it?
 
 00:30:06,190 --> 00:30:10,630
-For example, we could
-form the following expression:
+For example, we could form
+the following expression:
 
 00:30:10,630 --> 00:30:14,320
 So somehow a path,
@@ -1785,19 +1785,19 @@ image that corresponds to
 this cleverly positioned text.
 
 00:30:39,520 --> 00:30:44,680
-And if we combine that with this
-new operation, then we get an image that
+And if we combine that with this new
+operation, then we get an image that
 
 00:30:44,680 --> 00:30:45,640
 has both in it.
 
 00:30:45,640 --> 00:30:49,870
-And now, with these ingredients and
-the arbitrary nesting of operations (as we're
+And now, with these ingredients and the
+arbitrary nesting of operations (as we're
 
 00:30:49,870 --> 00:30:56,830
-already seeing here), we can already
-create quite complex and interesting images.
+already seeing here), we can already create
+quite complex and interesting images.
 
 00:31:00,540 --> 00:31:02,910
 One thing to note is that
@@ -1811,8 +1811,8 @@ That is, unlike "move"
 and "color" etc., it is
 
 00:31:09,390 --> 00:31:12,000
-no longer used with
-parentheses around its arguments.
+no longer used with parentheses
+around its arguments.
 
 00:31:12,000 --> 00:31:14,430
 Instead, you simply write
@@ -1827,23 +1827,23 @@ from arithmetic, that the "plus" is
 simply infixed between two numbers.
 
 00:31:20,209 --> 00:31:24,150
-So infix in the sense of
-"between the operands", between the arguments.
+So infix in the sense of "between
+the operands", between the arguments.
 
 00:31:24,150 --> 00:31:27,990
 Instead of as in "move", "rotate", etc.,
 that you write the arguments in parentheses.
 
 00:31:27,990 --> 00:31:33,330
-This is a common usage,
-especially of such symbol operations.
+This is a common usage, especially
+of such symbol operations.
 
 00:31:33,330 --> 00:31:35,580
 In doing so, one can also ask oneself:
 
 00:31:35,580 --> 00:31:38,880
-For example, can I apply
-the operation to three images?
+For example, can I apply the
+operation to three images?
 
 00:31:38,880 --> 00:31:41,940
 Probably not directly, because here
@@ -1858,8 +1858,8 @@ Then I have added three numbers,
 although "plus" is a binary operation.
 
 00:31:49,260 --> 00:31:51,720
-But again, could I combine more
-than two pictures by simply writing: this
+But again, could I combine more than
+two pictures by simply writing: this
 
 00:31:51,720 --> 00:32:01,890
 picture, operation symbol, next picture,
@@ -1874,12 +1874,12 @@ the Mathematical Structures
 lecture, where we
 
 00:32:09,120 --> 00:32:11,280
-considered monoids; that was
-about associative operations in algebra.
+considered monoids; that was about
+associative operations in algebra.
 
 00:32:11,280 --> 00:32:14,970
-Here, you would expect that
-to be such an associative operation.
+Here, you would expect that to
+be such an associative operation.
 
 00:32:14,970 --> 00:32:17,910
 The other students certainly know
@@ -1889,24 +1889,24 @@ associativity at least as a
 property of "plus" or "times".
 
 00:32:20,640 --> 00:32:25,980
-So then, it's okay to use
-this operation symbol even if we
+So then, it's okay to use this
+operation symbol even if we
 
 00:32:25,980 --> 00:32:29,670
 want to combine more than
 two pictures in a row.
 
 00:32:29,670 --> 00:32:40,060
-So, now, I just designed
-some operations and showed some examples.
+So, now, I just designed some
+operations and showed some examples.
 
 00:32:40,060 --> 00:32:45,070
 Of course, I won't do an implementation of
 them now, that's not what this is about.
 
 00:32:45,070 --> 00:32:50,470
-But what is interesting and important here,
-and why we introduced this, is that
+But what is interesting and important
+here, and why we introduced this, is that
 
 00:32:50,470 --> 00:32:55,930
 we can recognize certain calls/combinations
@@ -1923,12 +1923,12 @@ That's the aspect I mentioned before.
 That such static information can serve to
 
 00:33:02,350 --> 00:33:08,080
-exclude certain potential errors, ultimately,
-already in the modeling, so
+exclude certain potential errors,
+ultimately, already in the modeling, so
 
 00:33:08,080 --> 00:33:10,240
-that they can no
-longer occur in the implementation.
+that they can no longer
+occur in the implementation.
 
 00:33:11,170 --> 00:33:14,650
 Typical examples would be the following:
@@ -1937,27 +1937,27 @@ Typical examples would be the following:
 For example, it makes no sense for the
 
 00:33:17,830 --> 00:33:22,900
-operation introduced by me to
-write something like "circle(circle(3))" here.
+operation introduced by me to write
+something like "circle(circle(3))" here.
 
 00:33:22,900 --> 00:33:25,330
 So, "circle(3)" is
 a meaningful expression.
 
 00:33:25,330 --> 00:33:30,700
-We even saw earlier the
-picture that emerges when I interpret that.
+We even saw earlier the picture
+that emerges when I interpret that.
 
 00:33:30,700 --> 00:33:35,530
-But it doesn't make sense to
-write "circle" again because of that.
+But it doesn't make sense to write
+"circle" again because of that.
 
 00:33:36,190 --> 00:33:36,970
 Why not?
 
 00:33:36,970 --> 00:33:45,190
-Because "circle", according to the signature I had at the
-front of the slide, expects a number as an argument.
+Because "circle", according to the signature I had at
+the front of the slide, expects a number as an argument.
 
 00:33:45,190 --> 00:33:49,390
 Which is true here for this expression.
@@ -1971,20 +1971,20 @@ Because 3 is a
 number, "circle(3)" is then a
 
 00:34:00,040 --> 00:34:03,550
-picture, and I can't put a
-picture as an argument into "circle".
+picture, and I can't put a picture
+as an argument into "circle".
 
 00:34:04,420 --> 00:34:07,420
-That would be the argument here
-why this expression would not be okay.
+That would be the argument here why
+this expression would not be okay.
 
 00:34:07,420 --> 00:34:11,020
-Why that's rejected, just
-based on the static information.
+Why that's rejected, just based
+on the static information.
 
 00:34:11,020 --> 00:34:15,580
-In the implementation, if we use
-a programming language that takes into
+In the implementation, if we use a
+programming language that takes into
 
 00:34:15,580 --> 00:34:20,440
 account such signatures of operations, we would
@@ -1998,8 +1998,8 @@ This expression makes no
 sense, I refuse to
 
 00:34:23,260 --> 00:34:27,520
-even create a program for
-it, which would then be executable.
+even create a program for it,
+which would then be executable.
 
 00:34:27,520 --> 00:34:37,860
 And you can think of various other cases
@@ -2010,8 +2010,8 @@ On the slide, I've listed a
 few cases that are not okay.
 
 00:34:41,520 --> 00:34:46,620
-Each with a short intuitive explanation
-as to why this expression would not be okay.
+Each with a short intuitive explanation as
+to why this expression would not be okay.
 
 00:34:46,620 --> 00:34:48,000
 This expression would not be okay
@@ -2024,8 +2024,8 @@ and that itself is not printable text.
 So "print" expects a string,
 
 00:34:55,710 --> 00:34:58,950
-a string like text, which
-is then converted to an image.
+a string like text, which is
+then converted to an image.
 
 00:34:58,950 --> 00:35:02,010
 I can't pass a completed picture
@@ -2039,12 +2039,12 @@ know what to print.
 It would not, as the operations are
 
 00:35:07,410 --> 00:35:10,320
-interpreted here, print
-the text "circle(3)" somehow.
+interpreted here, print the
+text "circle(3)" somehow.
 
 00:35:10,320 --> 00:35:12,540
-For that, it would have
-to be enclosed in quotation marks.
+For that, it would have to be
+enclosed in quotation marks.
 
 00:35:12,540 --> 00:35:16,530
 Yes, "print" can print any text, but
@@ -2066,8 +2066,8 @@ like "print(3)" would not be okay,
 at least in my interpretation.
 
 00:35:33,480 --> 00:35:38,970
-There are programming languages where, if
-there is a 3, it would just
+There are programming languages
+where, if there is a 3, it would just
 
 00:35:38,970 --> 00:35:42,540
 be silently implemented
@@ -2085,16 +2085,16 @@ things, respectively
 named them differently.
 
 00:35:55,320 --> 00:36:01,050
-That is, "print(3)" would not be a
-valid expression here in my example domain
+That is, "print(3)" would not be a valid
+expression here in my example domain
 
 00:36:01,050 --> 00:36:05,280
 now, because it is not true that
 the 3 is a string by itself.
 
 00:36:05,280 --> 00:36:08,040
-For that, it would have
-to be enclosed in quotation marks.
+For that, it would have to be
+enclosed in quotation marks.
 
 00:36:09,870 --> 00:36:13,560
 And for none of these observations
@@ -2105,8 +2105,8 @@ the program and paint the
 things, that is, create images.
 
 00:36:16,230 --> 00:36:19,170
-I can already determine all
-that from the static information.
+I can already determine all that
+from the static information.
 
 00:36:19,170 --> 00:36:22,530
 Here's another mistake.
@@ -2130,8 +2130,8 @@ wrong number of arguments.
 I introduced up front:
 
 00:36:33,450 --> 00:36:36,870
-"scale" always takes two arguments in addition
-to the image, i.e., two numbers, to
+"scale" always takes two arguments in
+addition to the image, i.e., two numbers, to
 
 00:36:36,870 --> 00:36:39,240
 be able to scale in x and y directions.
@@ -2140,12 +2140,12 @@ be able to scale in x and y directions.
 If I forget one of
 
 00:36:40,800 --> 00:36:44,250
-them, I would expect that
-to be a non-valid expression here.
+them, I would expect that to
+be a non-valid expression here.
 
 00:36:44,250 --> 00:36:48,490
-So even if you only want
-one factor to scale, you have to
+So even if you only want one
+factor to scale, you have to
 
 00:36:48,490 --> 00:36:52,540
 specify it twice to use it
@@ -2163,8 +2163,8 @@ You specify the image
 first and then the color.
 
 00:37:03,490 --> 00:37:07,360
-And if I do that the wrong way around,
-I would expect that to be rejected here as well.
+And if I do that the wrong way around, I
+would expect that to be rejected here as well.
 
 00:37:14,620 --> 00:37:18,970
 Again, more of an
@@ -2183,12 +2183,12 @@ Here in front, there should be an image,
 and the number 30 itself is not an image.
 
 00:37:33,670 --> 00:37:38,890
-You can print 30 with "print("30")", and then you
-would have an image that you could rotate.
+You can print 30 with "print("30")", and then
+you would have an image that you could rotate.
 
 00:37:38,890 --> 00:37:45,520
-But the number 30 itself is not
-an image and therefore cannot be rotated.
+But the number 30 itself is not an
+image and therefore cannot be rotated.
 
 00:37:45,520 --> 00:37:48,610
 Our combination operator was
@@ -2202,20 +2202,20 @@ for a Picture and also a Picture, and
 the result would be a Picture.
 
 00:37:55,660 --> 00:38:00,430
-For "ABC" and "DEF", you could imagine
-that you want to pack them together somehow.
+For "ABC" and "DEF", you could imagine that
+you want to pack them together somehow.
 
 00:38:00,430 --> 00:38:03,760
 Maybe you want to
 get the string "ABCDEF".
 
 00:38:03,760 --> 00:38:06,040
-For this, one would have
-to introduce another operation, however.
+For this, one would have to
+introduce another operation, however.
 
 00:38:06,040 --> 00:38:12,340
-The operation "and" with this symbol
-was introduced as an operation between pictures.
+The operation "and" with this symbol was
+introduced as an operation between pictures.
 
 00:38:12,340 --> 00:38:17,935
 And "ABC" as well as
@@ -2225,16 +2225,16 @@ And "ABC" as well as
 So we have a whole set of errors,
 
 00:38:19,120 --> 00:38:25,660
-which one could exclude, simply
-by adhering to the operation signatures.
+which one could exclude, simply by
+adhering to the operation signatures.
 
 00:38:25,660 --> 00:38:29,770
-Conversely, of course, this does not mean
-that all programming errors are automatically detectable.
+Conversely, of course, this does not mean that all
+programming errors are automatically detectable.
 
 00:38:29,770 --> 00:38:34,480
-So, for instance, with the
-rectangle operation, the requirement was:
+So, for instance, with the rectangle
+operation, the requirement was:
 
 00:38:34,480 --> 00:38:35,680
 You have to specify two numbers.
@@ -2247,8 +2247,8 @@ as width and the second as height.
 But of course, this is not in
 
 00:38:43,270 --> 00:38:49,420
-the signature, in this
-specification on the corresponding slide.
+the signature, in this specification
+on the corresponding slide.
 
 00:38:49,420 --> 00:38:52,090
 Here, from this, you can't tell what
@@ -2258,38 +2258,38 @@ the height is and what the width is.
 That is:
 
 00:38:52,510 --> 00:39:00,820
-Even if I actually want to
-draw a rectangle that is wider than it is high,
+Even if I actually want to draw a
+rectangle that is wider than it is high,
 
 00:39:00,820 --> 00:39:05,440
-like this, but accidentally
-write "rectangle(5,7)" instead of "rectangle(7,5)",
+like this, but accidentally write
+"rectangle(5,7)" instead of "rectangle(7,5)",
 
 00:39:05,440 --> 00:39:10,930
-that would be an error
-that cannot be detected statically.
+that would be an error that
+cannot be detected statically.
 
 00:39:11,500 --> 00:39:14,050
 Because the role of these two
 
 00:39:14,620 --> 00:39:19,570
-arguments isn't fixed by
-the static information from the previous slides.
+arguments isn't fixed by the static
+information from the previous slides.
 
 00:39:19,570 --> 00:39:20,260
 That is:
 
 00:39:20,260 --> 00:39:24,010
-An error that I make there is simply
-an error that I would notice only dynamically at
+An error that I make there is simply an
+error that I would notice only dynamically at
 
 00:39:24,010 --> 00:39:27,580
 runtime, at execution time
 of my app / program.
 
 00:39:27,580 --> 00:39:32,200
-But a whole series of
-possible errors is already caught statically.
+But a whole series of possible
+errors is already caught statically.
 
 00:39:32,200 --> 00:39:37,840
 And, depending on the programming language, more
@@ -2322,28 +2322,28 @@ One little comment, one little
 note, I would like to make.
 
 00:40:05,200 --> 00:40:11,770
-And that is for those of you
-who know programming languages like C or Java.
+And that is for those of you who know
+programming languages like C or Java.
 
 00:40:11,770 --> 00:40:16,240
-That's not necessarily the case for all of
-you, because, for example, the programming introduction at our
+That's not necessarily the case for all of you, because,
+for example, the programming introduction at our
 
 00:40:16,240 --> 00:40:20,650
-school is now with Python,
-for Komedia and Applied Computer Science.
+school is now with Python, for
+Komedia and Applied Computer Science.
 
 00:40:20,650 --> 00:40:24,340
-But if you know C or
-Java from school, for example, then on
+But if you know C or Java from
+school, for example, then on
 
 00:40:24,340 --> 00:40:30,190
-the one hand, you understand the concept
-of such operations, such specifications of signatures.
+the one hand, you understand the concept of such
+operations, such specifications of signatures.
 
 00:40:30,190 --> 00:40:32,380
-On the other hand, you
-know a different syntax for it.
+On the other hand, you know
+a different syntax for it.
 
 00:40:32,380 --> 00:40:35,020
 So there it is
@@ -2365,15 +2365,15 @@ have defined or declared, is passed
 two numbers and returns an image.
 
 00:40:54,760 --> 00:40:59,920
-In C or Java, and many
-other mostly object-oriented or simply imperative programming
+In C or Java, and many other mostly
+object-oriented or simply imperative programming
 
 00:40:59,920 --> 00:41:01,900
 languages, it would correspond to
 
 00:41:02,480 --> 00:41:06,260
-a declaration of the following kind
-(if they are typed programming languages):
+a declaration of the following kind (if
+they are typed programming languages):
 
 00:41:06,800 --> 00:41:11,630
 The name "rectangle" would be used
@@ -2395,8 +2395,8 @@ gets the arguments passed to it,
 which are here to the left of the arrow.
 
 00:41:32,570 --> 00:41:38,600
-So, here we see that
-two floating point numbers are passed.
+So, here we see that two floating
+point numbers are passed.
 
 00:41:38,600 --> 00:41:40,490
 And often a name for the
@@ -2410,15 +2410,15 @@ This provides a little bit
 more information, if x and
 
 00:41:47,780 --> 00:41:51,290
-y are interpreted geometrically as
-the x and y coordinates.
+y are interpreted geometrically
+as the x and y coordinates.
 
 00:41:51,290 --> 00:41:53,090
 There could be arbitrary names for
 
 00:41:53,090 --> 00:41:56,750
-it, but of course, names
-are gladly assigned which already say something
+it, but of course, names are gladly
+assigned which already say something
 
 00:41:56,750 --> 00:42:01,640
 about the intention of the operation
@@ -2432,13 +2432,13 @@ many of you may
 know this kind of notation.
 
 00:42:11,570 --> 00:42:16,700
-And then, you should just be able to match it
-very directly to how I just declared the operations here
+And then, you should just be able to match it very
+directly to how I just declared the operations here
 
 00:42:16,700 --> 00:42:23,465
-now in the slides, and how it's going
-to happen in the corresponding exercise as well.
+now in the slides, and how it's going to
+happen in the corresponding exercise as well.
 
 00:42:23,465 --> 00:42:26,840
-So, that's almost the same
-information, just written down differently.
+So, that's almost the same information,
+just written down differently.

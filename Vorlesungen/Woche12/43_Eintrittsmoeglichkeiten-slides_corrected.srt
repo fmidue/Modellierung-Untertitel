@@ -1,7 +1,7 @@
 247 # slide
 00:00:02,780 --> 00:00:11,030
-So now, as an intermediate step, we have this
-state diagram for our
+So now, as an intermediate step,
+we have this state diagram for our
 
 00:00:11,030 --> 00:00:15,350
 clock and have now seen in particular
@@ -14,24 +14,24 @@ hierarchically or otherwise composite states.
 We will first deal with what
 
 00:00:23,270 --> 00:00:26,600
-this means in each case,
-and also what different possibilities
+this means in each case, and
+also what different possibilities
 
 00:00:26,600 --> 00:00:30,680
 of such transitions there
 are between composite states.
 
 00:00:30,680 --> 00:00:35,150
-And for this we first look at
-what the entry possibilities are into a
+And for this we first look at what
+the entry possibilities are into a
 
 00:00:35,150 --> 00:00:41,600
-hierarchical state of this kind, for now without
-regions and at first only the entry.
+hierarchical state of this kind, for now
+without regions and at first only the entry.
 
 00:00:41,600 --> 00:00:44,720
-Every transition consists potentially of
-an exit and an entrance.
+Every transition consists potentially
+of an exit and an entrance.
 
 00:00:46,700 --> 00:00:51,920
 Let's have a look at
@@ -41,8 +41,8 @@ the very flexible ways to
 realize the entry in composite states.
 
 00:00:58,340 --> 00:01:02,240
-We look at a hierarchical
-state, actually quite deeply nested.
+We look at a hierarchical state,
+actually quite deeply nested.
 
 00:01:02,240 --> 00:01:04,160
 There is this outer nesting level A.
@@ -56,24 +56,24 @@ which itself is also composed of D
 and E and then other elements appear.
 
 00:01:15,290 --> 00:01:21,350
-So we will have four
-different possibilities to enter here.
+So we will have four different
+possibilities to enter here.
 
 00:01:21,350 --> 00:01:27,500
 The default entry, that would be the one that
 just appeared on the slide for the a-transitions.
 
 00:01:27,500 --> 00:01:32,150
-Then there's explicit entry, where you
-don't enter the hierarchical state
+Then there's explicit entry, where
+you don't enter the hierarchical state
 
 00:01:32,150 --> 00:01:37,250
-as a whole, like
-this outer arrow suggests here, but
+as a whole, like this outer
+arrow suggests here, but
 
 00:01:37,250 --> 00:01:43,970
-you explicitly select a sub-state, and
-then there are entries via so-called shallow
+you explicitly select a sub-state, and then
+there are entries via so-called shallow
 
 00:01:43,970 --> 00:01:51,980
 and deep history, for which somehow
@@ -87,23 +87,23 @@ I don't have triggers on
 these entry arrows in each
 
 00:01:59,450 --> 00:02:03,410
-case; in general, of course, and it
-will be the same for the following slides,
+case; in general, of course, and it will
+be the same for the following slides,
 
 00:02:03,410 --> 00:02:08,240
-in general, it would be
-possible to specify a trigger here,
+in general, it would be possible
+to specify a trigger here,
 
 00:02:08,240 --> 00:02:10,790
 like 'a' in the example here.
 
 00:02:10,790 --> 00:02:15,890
-In that case, it is an entry and
-the arrow is labeled 'a' as a trigger.
+In that case, it is an entry and the
+arrow is labeled 'a' as a trigger.
 
 00:02:15,890 --> 00:02:19,430
-You could also imagine
-this with these arrows here,
+You could also imagine this
+with these arrows here,
 
 00:02:19,430 --> 00:02:21,050
 I just didn't draw it here.
@@ -113,8 +113,8 @@ We will come to the
 history nodes in a moment.
 
 00:02:25,520 --> 00:02:29,360
-It is important to note
-and also to take into account,
+It is important to note and
+also to take into account,
 
 00:02:29,870 --> 00:02:33,560
 if you create state diagrams yourself,
@@ -124,20 +124,20 @@ that there may be only one outgoing
 arrow from each of these H- or H*-nodes.
 
 00:02:43,040 --> 00:02:46,280
-This is otherwise not the
-case for the individual sub-states.
+This is otherwise not the case
+for the individual sub-states.
 
 00:02:47,960 --> 00:02:51,500
-And there are no triggers
-on this arrow. Only on the entry
+And there are no triggers on
+this arrow. Only on the entry
 
 00:02:51,500 --> 00:02:55,880
-arrows or, if necessary, also
-on the arrows here could there be
+arrows or, if necessary, also on
+the arrows here could there be
 
 00:02:55,880 --> 00:02:59,390
-triggers; I have omitted
-them in this stylized example.
+triggers; I have omitted them
+in this stylized example.
 
 00:03:01,490 --> 00:03:05,060
 So let's have a
@@ -150,59 +150,59 @@ We do it one after the other:
 We start with the default entry.
 
 00:03:10,700 --> 00:03:17,150
-The default entry simply ensures that in
-each hierarchy level that we have in
+The default entry simply ensures that
+in each hierarchy level that we have in
 
 00:03:17,150 --> 00:03:21,290
-the composite state, the
-respective start state is activated, or
+the composite state, the respective
+start state is activated, or
 
 00:03:22,280 --> 00:03:27,020
 since there are no parallel regions, simply
 the start state of the top hierarchy level.
 
 00:03:29,420 --> 00:03:32,510
-So in our example, if
-we enter this hierarchical state here
+So in our example, if we enter
+this hierarchical state here
 
 00:03:32,510 --> 00:03:35,990
 via this default entry,
 then what does that mean?
 
 00:03:35,990 --> 00:03:41,390
-Then the start state of the outermost level would
-be chosen, which would be this one.
+Then the start state of the outermost level
+would be chosen, which would be this one.
 
 00:03:42,770 --> 00:03:43,850
 What does this one do?
 
 00:03:43,850 --> 00:03:50,960
-It has a transition, a default
-entry, into this composite sub-state B,
+It has a transition, a default entry,
+into this composite sub-state B,
 
 00:03:50,960 --> 00:03:59,060
-because this is also a default entry via
-the start state; the start state present here
+because this is also a default entry via the
+start state; the start state present here
 
 00:04:01,070 --> 00:04:04,430
 would be selected
 for this hierarchical level.
 
 00:04:04,430 --> 00:04:08,690
-That in turn points to D, i.e.,
-the default entry here would ensure that
+That in turn points to D, i.e., the
+default entry here would ensure that
 
 00:04:08,690 --> 00:04:14,300
-ultimately the sub-state D becomes active,
-because the start state of the
+ultimately the sub-state D becomes
+active, because the start state of the
 
 00:04:14,300 --> 00:04:17,750
 outer hierarchy level is selected,
 which has a default entry into
 
 00:04:17,750 --> 00:04:24,740
-this sub-state, and there, in turn,
-the start state points to D.
+this sub-state, and there, in
+turn, the start state points to D.
 
 00:04:24,740 --> 00:04:31,250
 So, continuation with entry into
@@ -216,8 +216,8 @@ This simply ensures that the continuation takes place
 at exactly the explicitly specified sub-state, i.e., in
 
 00:04:44,450 --> 00:04:50,780
-our example it simply leads to
-a continuation at C, because this
+our example it simply leads to a
+continuation at C, because this
 
 00:04:52,940 --> 00:04:57,785
 explicit entry points exactly to C.
@@ -226,16 +226,16 @@ explicit entry points exactly to C.
 It could also have pointed to D or E.
 
 00:04:59,270 --> 00:05:04,070
-Then these would have
-been the relevant next states.
+Then these would have been
+the relevant next states.
 
 00:05:07,790 --> 00:05:11,630
-This possibility of the explicit entry also
-means that we don't always need a
+This possibility of the explicit entry
+also means that we don't always need a
 
 00:05:11,630 --> 00:05:18,050
-start state on every level; if we
-always proceed by explicit entry, we wouldn't
+start state on every level; if we always
+proceed by explicit entry, we wouldn't
 
 00:05:18,050 --> 00:05:24,650
 have to have start states
@@ -257,8 +257,8 @@ In which sense is
 this historical, so to speak?
 
 00:05:42,680 --> 00:05:50,270
-The point is that we
-can visit a sub-state and thus also a
+The point is that we can visit
+a sub-state and thus also a
 
 00:05:50,270 --> 00:05:53,420
 composite state several times
@@ -269,8 +269,8 @@ So let's assume, in our example,
 that we have already been in one
 
 00:06:00,680 --> 00:06:05,900
-of these states C,D,E, in
-one of these innermost sub-states.
+of these states C,D,E, in one
+of these innermost sub-states.
 
 00:06:05,900 --> 00:06:09,110
 Then we have been somewhere else,
@@ -296,8 +296,8 @@ sub-state of the innermost
 level, of a respective
 
 00:06:31,610 --> 00:06:39,140
-deepest level, is entered, from which we
-last left the overall state A.
+deepest level, is entered, from which
+we last left the overall state A.
 
 00:06:41,270 --> 00:06:42,080
 This is what it says here.
@@ -311,8 +311,8 @@ the last active sub-state at the deepest
 possible hierarchy level is entered.
 
 00:06:57,050 --> 00:07:07,430
-If we last left from D, then
-we would now also continue again at D.
+If we last left from D, then we
+would now also continue again at D.
 
 00:07:08,180 --> 00:07:11,750
 If we last left from C,
@@ -323,28 +323,28 @@ Deepest here means C is already a
 non-hierarchical state, so C would also be
 
 00:07:15,650 --> 00:07:19,010
-its deepest level because there
-are no further nested sublevels, while
+its deepest level because there are
+no further nested sublevels, while
 
 00:07:19,010 --> 00:07:24,110
 B, for example, is not a deepest-level state
 because there are still D and E inside there.
 
 00:07:31,880 --> 00:07:35,330
-It can also be that we
-have to do this per region, so to speak.
+It can also be that we have to
+do this per region, so to speak.
 
 00:07:35,330 --> 00:07:38,060
-Not yet in the example just
-now, where we have no regions, but
+Not yet in the example just now,
+where we have no regions, but
 
 00:07:38,060 --> 00:07:43,880
 if we have a hierarchical state with
 subregions, then it may also be that we
 
 00:07:43,880 --> 00:07:49,160
-have to go to the last
-active substate in each case per region.
+have to go to the last active
+substate in each case per region.
 
 00:07:51,860 --> 00:07:57,650
 If we have never been to the hierarchical
@@ -361,42 +361,42 @@ this deep history node, then we wouldn't
 know, should we continue at C,D or E,
 
 00:08:12,020 --> 00:08:15,050
-because we have never been here
-anywhere and we haven't remembered anything, then
+because we have never been here anywhere
+and we haven't remembered anything, then
 
 00:08:15,050 --> 00:08:21,920
-the arrow that starts from this H*
-is simply followed.
+the arrow that starts from
+this H* is simply followed.
 
 00:08:21,920 --> 00:08:24,230
 That is the role of this arrow here.
 
 00:08:25,430 --> 00:08:31,310
-It doesn't mean that we always go to
-E, but only if we come into this
+It doesn't mean that we always go
+to E, but only if we come into this
 
 00:08:32,840 --> 00:08:38,180
-A via this entry here and we've never
-been to A before, then this arrow tells us:
+A via this entry here and we've never been
+to A before, then this arrow tells us:
 
 00:08:38,900 --> 00:08:40,100
 Then we continue at E.
 
 00:08:40,100 --> 00:08:45,110
-If, on the other hand, we have already
-been in C, D or E before we
+If, on the other hand, we have
+already been in C, D or E before we
 
 00:08:45,110 --> 00:08:47,690
 return here, then we also
 continue at the respective place.
 
 00:08:54,170 --> 00:08:58,820
-This describes the deep history
-and similarly, but subtly different,
+This describes the deep history and
+similarly, but subtly different,
 
 00:08:58,820 --> 00:09:06,200
-the shallow history behaves, because there
-we also return, if we have already
+the shallow history behaves, because
+there we also return, if we have already
 
 00:09:06,200 --> 00:09:11,000
 been in this composite
@@ -407,8 +407,8 @@ where we were before we last left.
 However, not to the lowest level, but to
 
 00:09:20,690 --> 00:09:26,210
-the last overall state of the highest
-hierarchy level.
+the last overall state of
+the highest hierarchy level.
 
 00:09:30,470 --> 00:09:33,830
 So let's imagine in our
@@ -422,31 +422,31 @@ then came through the deep history
 we would continue at E, not because
 
 00:09:47,900 --> 00:09:54,620
-of this arrow but because E
-was the last sub-state visited here.
+of this arrow but because E was
+the last sub-state visited here.
 
 00:09:54,620 --> 00:09:58,760
-If, on the other hand, we come
-across the shallow history, then we look:
+If, on the other hand, we come across
+the shallow history, then we look:
 
 00:09:58,760 --> 00:10:05,660
-We were last in E, but E is
-part of B, so in this outermost level, if
+We were last in E, but E is part of
+B, so in this outermost level, if
 
 00:10:05,660 --> 00:10:08,150
 we look: what is the next lower level of
 
 00:10:08,150 --> 00:10:09,290
-nesting, we were last in
-B because we were inside E.
+nesting, we were last in B
+because we were inside E.
 
 00:10:09,290 --> 00:10:16,250
 I.e., if we come over the shallow history,
 then we would say we continue at B.
 
 00:10:16,250 --> 00:10:21,500
-But to continue at B then means to
-take the starting state of B, that is D.
+But to continue at B then means to take
+the starting state of B, that is D.
 
 00:10:22,580 --> 00:10:23,900
 What it says here:
@@ -456,16 +456,16 @@ If the composite state A was last
 left from E, then we now continue
 
 00:10:27,410 --> 00:10:32,780
-at B, because B is the top
-nesting level, so to speak, in which E
+at B, because B is the top nesting
+level, so to speak, in which E
 
 00:10:32,780 --> 00:10:39,740
 occurs, and to continue at B means to continue at
 D, however, because D is the starting state of B.
 
 00:10:44,570 --> 00:10:48,650
-If one has never been at
-all in this composite state, then
+If one has never been at all
+in this composite state, then
 
 00:10:48,650 --> 00:10:51,440
 one proceeds analogously as
@@ -476,8 +476,8 @@ if we have never been at all
 inside A and we enter via the
 
 00:10:57,260 --> 00:11:03,620
-shallow history, then exactly as with the deep history,
-one simply continues where this arrow
+shallow history, then exactly as with the deep
+history, one simply continues where this arrow
 
 00:11:03,620 --> 00:11:09,560
 from the H-element points, and in
@@ -499,12 +499,12 @@ arrow here were to point to C, for
 example, then we would indeed go to C if
 
 00:11:35,780 --> 00:11:42,830
-we have never been inside A, but if
-we have been inside A, for example, in E,
+we have never been inside A, but if we
+have been inside A, for example, in E,
 
 00:11:42,830 --> 00:11:47,990
-then we would actually continue regardless of
-where this arrow points, the next time
+then we would actually continue regardless
+of where this arrow points, the next time
 
 00:11:47,990 --> 00:11:51,860
 we enter via the shallow
@@ -515,12 +515,12 @@ we would see: we have already been
 here in E. The outermost state in
 
 00:11:57,800 --> 00:12:03,200
-which E occurs, in which we have already been,
-is B, and the starting state of B is D.
+which E occurs, in which we have already
+been, is B, and the starting state of B is D.
 
 00:12:03,200 --> 00:12:09,710
-One must simply read through these rules very
-carefully and follow them very carefully and understand them using the example,
+One must simply read through these rules very carefully and
+follow them very carefully and understand them using the example,
 
 00:12:09,710 --> 00:12:16,760
 then it becomes clear what the meaning
@@ -548,36 +548,36 @@ the UML state diagrams
 that we won't look at in this lecture.
 
 00:12:36,590 --> 00:12:41,570
-That was the discussion of
-the possibilities that we see here.
+That was the discussion of the
+possibilities that we see here.
 
 00:12:41,570 --> 00:12:45,470
 That was a hierarchical
 state without regions.
 
 00:12:45,470 --> 00:12:50,600
-Now we still need to look at
-what happens if we have a state with regions.
+Now we still need to look at what
+happens if we have a state with regions.
 
 00:12:52,460 --> 00:12:55,460
 Then there are
 potentially other possibilities.
 
 00:12:56,660 --> 00:13:01,190
-I'll leave out the history entries for now,
-so as not to complicate the picture unnecessarily.
+I'll leave out the history entries for now, so
+as not to complicate the picture unnecessarily.
 
 00:13:01,190 --> 00:13:11,180
-However, in the wristwatch example, there
-will also be such an entry with
+However, in the wristwatch example,
+there will also be such an entry with
 
 00:13:11,180 --> 00:13:15,936
 regions, where we also
 have history in play.
 
 00:13:15,936 --> 00:13:18,980
-So in a state with regions, there
-is still the possibility of default entry,
+So in a state with regions, there is
+still the possibility of default entry,
 
 00:13:18,980 --> 00:13:23,270
 still the possibility of explicit
@@ -592,8 +592,8 @@ there is the possibility of entry via
 a fork, and this is of course the
 
 00:13:33,680 --> 00:13:38,270
-same kind of fork node
-as occurs in activity diagrams.
+same kind of fork node as
+occurs in activity diagrams.
 
 00:13:38,270 --> 00:13:41,720
 That's used here to sort of
@@ -603,8 +603,8 @@ target multiple sub-states
 in the individual regions.
 
 00:13:50,960 --> 00:13:55,550
-Here it is obvious that we
-are actually jumping to a state in
+Here it is obvious that we are
+actually jumping to a state in
 
 00:13:55,550 --> 00:13:58,190
 each region, but this must also
@@ -618,8 +618,8 @@ always in a substate in both regions.
 I.e., although this default entry looks
 
 00:14:05,060 --> 00:14:09,800
-like it points to only one region, it
-actually points to the entire state with regions, and
+like it points to only one region, it actually
+points to the entire state with regions, and
 
 00:14:09,800 --> 00:14:14,378
 we must also select a substate in
@@ -647,24 +647,24 @@ Namely, what are the rules here?
 The default entry is very simple.
 
 00:14:45,860 --> 00:14:50,810
-Just like we just took the
-starting state of the outermost level
+Just like we just took the starting
+state of the outermost level
 
 00:14:50,810 --> 00:14:55,550
 of the hierarchy in the default entry
 into a hierarchical state, now we just
 
 00:14:55,550 --> 00:15:03,470
-take the starting state per region, so if
-we get to this state with regions via this entry
+take the starting state per region, so if we
+get to this state with regions via this entry
 
 00:15:03,470 --> 00:15:06,350
-here, then we're just going
-to choose the starting state in
+here, then we're just going to
+choose the starting state in
 
 00:15:06,350 --> 00:15:16,565
-each region, so in that case we would be in A
-in the first region and in C in the second region.
+each region, so in that case we would be in A in
+the first region and in C in the second region.
 
 00:15:16,565 --> 00:15:17,023
 How about the explicit entry?
@@ -674,8 +674,8 @@ It is also clear there: we obviously want to
 be in sub-state B in the first region, but at
 
 00:15:21,860 --> 00:15:25,130
-the same time we have to
-do something in the second region.
+the same time we have to do
+something in the second region.
 
 00:15:25,130 --> 00:15:26,120
 What do we do there?
@@ -696,12 +696,12 @@ and in the regions parallel to it, we
 each begin with the start state.
 
 00:15:44,360 --> 00:15:50,330
-In our example, via this arrow, we enter
-B in the first region and C in the second region, implicitly.
+In our example, via this arrow, we enter B in the
+first region and C in the second region, implicitly.
 
 00:15:53,810 --> 00:16:04,010
-Then there is the case of the fork, and
-this is also very obvious, because via the fork we
+Then there is the case of the fork, and this
+is also very obvious, because via the fork we
 
 00:16:04,010 --> 00:16:12,530
 address a special state in each region,
@@ -716,8 +716,8 @@ the substate in the second region, because that
 is exactly what this representation here gives us.
 
 00:16:32,810 --> 00:16:39,800
-These are all cases except for the fact
-that we would also still have the possibility
+These are all cases except for the fact that
+we would also still have the possibility
 
 00:16:39,800 --> 00:16:41,960
 to link regions and history.

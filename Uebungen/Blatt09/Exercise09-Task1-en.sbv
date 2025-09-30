@@ -2,8 +2,8 @@
 This task is about causality in Petri nets.
 
 0:00:08.250,0:00:18.869
-And we have been given two Petri nets and
-we shall indicate the conditions of all transitions
+And we have been given two Petri nets and we
+shall indicate the conditions of all transitions
 
 0:00:18.869,0:00:23.090
 according to the definition of causality.
@@ -13,24 +13,24 @@ And therefore, I just create a little table
 where we have all the transitions and so on
 
 0:00:36.590,0:00:44.950
-in the first case, these are four transitions
-for Petri net N1.
+in the first case, these are four
+transitions for Petri net N1.
 
 0:00:44.950,0:01:03.700
 This is for Petri net N1, and then we have
 the causalities on the right-hand side.
 
 0:01:03.700,0:01:14.299
-On the left are the transitions and on the
-right are the causalities.
+On the left are the transitions and
+on the right are the causalities.
 
 0:01:14.299,0:01:22.840
-I do not have enough space for the heading
-now because I drew it up here, but so on the left
+I do not have enough space for the heading now
+because I drew it up here, but so on the left
 
 0:01:22.840,0:01:29.830
-are the transitions and on the right side,
-there shall be the causalities.
+are the transitions and on the right
+side, there shall be the causalities.
 
 0:01:29.830,0:01:38.840
 And when we start with the first transition,
@@ -41,16 +41,16 @@ We require a token in s1 and we require a token
 in s2, and therefore we do not need to fire
 
 0:01:48.540,0:01:52.939
-any other transition, so we can fire t1 right
-away.
+any other transition, so
+we can fire t1 right away.
 
 0:01:52.939,0:01:58.000
-That's why we can have just the empty set
-here for t1.
+That's why we can have just
+the empty set here for t1.
 
 0:01:58.000,0:02:08.560
-For t2, we require one token in s1, which
-we have, that's why t2 has also no causalities
+For t2, we require one token in s1, which we
+have, that's why t2 has also no causalities
 
 0:02:08.560,0:02:12.360
 on the empty set for the-.
@@ -63,8 +63,8 @@ is only one token, and the only way of getting
 a token into s2 is by firing t2.
 
 0:02:31.780,0:02:39.140
-And we can fire t2 because there is a token
-in t2.
+And we can fire t2 because
+there is a token in t2.
 
 0:02:39.140,0:02:48.900
 That means, at any point in time, we have
@@ -75,8 +75,8 @@ not need to fire anything else, so we have
 just this set of t2, which is the precondition,
 
 0:03:03.780,0:03:12.730
-the necessary condition, which we add here
-for t3.
+the necessary condition,
+which we add here for t3.
 
 0:03:12.730,0:03:24.080
 And then to find out the necessary conditions
@@ -135,16 +135,16 @@ fire t1.
 Our necessary condition is the empty set.
 
 0:05:00.850,0:05:10.580
-And for the second transition, can we fire
-t2 right away?
+And for the second transition,
+can we fire t2 right away?
 
 0:05:10.580,0:05:17.330
-Yes, we can because we require one token in
-s2 and we have got one.
+Yes, we can because we require one
+token in s2 and we have got one.
 
 0:05:17.330,0:05:23.979
-In this case as well, we've got the empty
-set as the necessary condition.
+In this case as well, we've got the
+empty set as the necessary condition.
 
 0:05:23.979,0:05:33.699
 Then we have t3, which requires a token in
@@ -154,8 +154,8 @@ s3, which we don't have, so in order to fire
 t3, we require a token in s3.
 
 0:05:37.550,0:05:44.580
-And the only way of getting a token into s3
-would be by firing t1.
+And the only way of getting a token
+into s3 would be by firing t1.
 
 0:05:44.580,0:05:50.060
 And we can fire t1.
@@ -164,8 +164,8 @@ And we can fire t1.
 So t1 is already part of our necessary condition.
 
 0:05:55.630,0:06:02.750
-And we can fire t1 right away because there's
-a token in s1 and that's the only thing required
+And we can fire t1 right away because there's a
+token in s1 and that's the only thing required
 
 0:06:02.750,0:06:07.540
 for s1.
@@ -187,32 +187,32 @@ there are two options.
 We can fire t2 or we can fire t3.
 
 0:06:37.130,0:06:44.039
-As a matter of fact, it doesn't matter which
-one we fire.
+As a matter of fact, it doesn't
+matter which one we fire.
 
 0:06:44.039,0:06:58.099
 But we
 require two tokens.
 
 0:06:58.099,0:07:07.050
-And the only way of getting two tokens is
-by firing t1 as well.
+And the only way of getting two
+tokens is by firing t1 as well.
 
 0:07:07.050,0:07:14.050
-Because when we fire t2, we only get one token
-and there's no token in t3.
+Because when we fire t2, we only get
+one token and there's no token in t3.
 
 0:07:14.050,0:07:22.370
-That means we have to fire t1 in order to
-get two tokens into s4.
+That means we have to fire t1 in
+order to get two tokens into s4.
 
 0:07:22.370,0:07:29.800
 And when we fire t1, we get two tokens in
 s2.
 
 0:07:29.800,0:07:39.580
-In this case, we then can fire t2, which will
-give us two tokens in s4.
+In this case, we then can fire t2,
+which will give us two tokens in s4.
 
 0:07:39.580,0:07:45.690
 And it is required to fire t2 at least once,
@@ -223,20 +223,20 @@ token in t3, but it is not enough to satisfy
 this two here, so we could either fire t1,
 
 0:07:56.410,0:08:04.310
-t2, and t3, or t1 and t2 in order to fire
-t4 afterwards.
+t2, and t3, or t1 and t2 in
+order to fire t4 afterwards.
 
 0:08:04.310,0:08:19.729
-And this means that our necessary condition
-is having t1 and t2 in the sequence of transitions
+And this means that our necessary condition is
+having t1 and t2 in the sequence of transitions
 
 0:08:19.729,0:08:30.630
-to fire before we can fire t4, because as
-I said, t3 can be fired, but it is not necessarily
+to fire before we can fire t4, because as I
+said, t3 can be fired, but it is not necessarily
 
 0:08:30.630,0:08:36.390
-required because we can also fire t1 and t2
-two times.
+required because we can also
+fire t1 and t2 two times.
 
 0:08:36.390,0:08:44.380
 We could also start with t2, of course, so
@@ -253,8 +253,8 @@ is t5 and t5 can be fired right away because
 there's a token in s1.
 
 0:09:02.260,0:09:08.200
-And in order to fire t5, we require one token
-in s1.
+And in order to fire t5,
+we require one token in s1.
 
 0:09:08.200,0:09:14.430
 Once more, the empty set for t5 here.
@@ -271,5 +271,5 @@ Of course, these are the transitions here,
 and these are the necessary conditions, and
 
 0:09:32.430,0:09:40.699
-we've answered this part for both Petri nets
-and are done with our task.
+we've answered this part for both
+Petri nets and are done with our task.

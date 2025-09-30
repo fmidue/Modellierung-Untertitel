@@ -4,14 +4,16 @@ Nach den informellen Beispielen
 lassen Sie uns diese Woche noch
 
 00:00:05,430 --> 00:00:08,190
-die formale Definition von Petrinetzen besprechen.
+die formale Definition von
+Petrinetzen besprechen.
 
 00:00:08,190 --> 00:00:13,560
 Das hier sieht jetzt erst mal wie
 eine komplizierte Definition aus.
 
 00:00:13,560 --> 00:00:17,010
-Aber da werden einfach mengentheoretische Begriffe
+Aber da werden einfach
+mengentheoretische Begriffe
 
 00:00:17,010 --> 00:00:21,000
 verwendet, die ich in der vergangenen
@@ -199,7 +201,8 @@ Stellen in die natürlichen Zahlen.
 Und das ist die Anfangsmarkierung.
 
 00:03:36,990 --> 00:03:39,090
-Das hat per se nichts mit den Transitionen zu tun,
+Das hat per se nichts mit
+den Transitionen zu tun,
 
 00:03:39,090 --> 00:03:45,360
 sondern beschreibt, wie in der Ursprungssituation
@@ -429,7 +432,8 @@ Darstellung interpretieren.
 Das mache ich jetzt direkt an einem Beispiel.
 
 00:08:16,240 --> 00:08:20,050
-Nehmen wir dieses grafisch dargestellte Petrinetz.
+Nehmen wir dieses grafisch
+dargestellte Petrinetz.
 
 00:08:20,050 --> 00:08:23,620
 Das hat offenkundig drei
@@ -480,7 +484,8 @@ Was wissen wir über diese Transition
 aus der grafischen Darstellung?
 
 00:09:20,860 --> 00:09:24,100
-Wir wissen, dass sie eine Marke aus s1 konsumiert,
+Wir wissen, dass sie eine
+Marke aus s1 konsumiert,
 
 00:09:24,100 --> 00:09:31,690
 eine Marke aus s2 konsumiert und zwei Marken
@@ -546,7 +551,8 @@ zwei Marken zu liegen und s3
 habe zu Beginn leer zu sein.
 
 00:10:40,030 --> 00:10:42,340
-Wenn wir uns auf eine Stellenreihenfolge festlegen
+Wenn wir uns auf eine
+Stellenreihenfolge festlegen
 
 00:10:42,340 --> 00:10:47,200
 (s1, s2, s3 zum Beispiel), dann können wir

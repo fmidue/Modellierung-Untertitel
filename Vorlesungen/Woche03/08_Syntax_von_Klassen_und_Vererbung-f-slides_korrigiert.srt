@@ -3,8 +3,8 @@
 Also Syntax von Klassen:
 
 00:00:03,080 --> 00:00:06,950
-Wie stellen wir später in einem Klassendiagramm
-die Klassen dar?
+Wie stellen wir später in einem
+Klassendiagramm die Klassen dar?
 
 00:00:06,950 --> 00:00:12,950
 Ich mache das hier für ein Beispiel, das
@@ -20,8 +20,8 @@ Und zwar soll das Beispiel sein:
 Eine Klasse von Punkten soll angelegt werden.
 
 00:00:19,840 --> 00:00:22,520
-Also wollen wir Punkte des zweidimensionalen
-Raums abspeichern.
+Also wollen wir Punkte des
+zweidimensionalen Raums abspeichern.
 
 00:00:22,520 --> 00:00:26,960
 Also werden wir jeweils x- und y-Koordinaten
@@ -45,8 +45,8 @@ Dann wird es am Ende einen Graphen geben,
 und in dem Graphen wird es einzelne Knoten
 
 00:00:41,840 --> 00:00:47,030
-geben, die jeweils solche Kästen sind (also
-eine kleine Grafik).
+geben, die jeweils solche Kästen
+sind (also eine kleine Grafik).
 
 00:00:47,030 --> 00:00:49,579
 Und was tritt darin auf?
@@ -60,8 +60,8 @@ Und da gibt es erst mal einen Klassennamen,
 also die Identifizierung der Klasse selbst.
 
 00:00:58,899 --> 00:01:03,260
-Dann gibt es einen Bereich, in dem Attribute
-eingetragen werden können.
+Dann gibt es einen Bereich, in dem
+Attribute eingetragen werden können.
 
 00:01:03,260 --> 00:01:08,149
 Das sind in dem Fall die abzuspeichernden
@@ -74,12 +74,12 @@ Das ist jeweils eine Zahl.
 Das wird hier als Typ angegeben.
 
 00:01:12,630 --> 00:01:15,509
-Nicht immer wird das schon so früh so detailliert
-gemacht.
+Nicht immer wird das schon so
+früh so detailliert gemacht.
 
 00:01:15,509 --> 00:01:18,560
-Also, wir haben vorhin Beispiele gesehen, wo
-die Typangaben fehlten.
+Also, wir haben vorhin Beispiele
+gesehen, wo die Typangaben fehlten.
 
 00:01:18,560 --> 00:01:22,119
 In der Regel werden wir in den Übungen (und
@@ -89,12 +89,12 @@ später auch in der Klausur) von Ihnen erwarten,
 dass Sie da sinnvolle Typangaben dranschreiben.
 
 00:01:24,899 --> 00:01:28,090
-Und dann gibt es diesen dritten Bereich, in
-dem Operationen bzw.
+Und dann gibt es diesen dritten
+Bereich, in dem Operationen bzw.
 
 00:01:28,090 --> 00:01:33,219
-Methoden festgehalten werden können (auch
-mit ihren Typen).
+Methoden festgehalten werden
+können (auch mit ihren Typen).
 
 00:01:33,219 --> 00:01:37,939
 Das ist natürlich irgendwie die Brücke zur
@@ -104,8 +104,8 @@ dynamischen Modellierung, wo man dann ausdrücken
 würde, was diese Methoden tun sollen.
 
 00:01:40,340 --> 00:01:46,349
-Während hier einfach nur statisch angegeben
-wird, was ihre Typen sind.
+Während hier einfach nur statisch
+angegeben wird, was ihre Typen sind.
 
 00:01:46,349 --> 00:01:47,749
 Als Bemerkung:
@@ -118,8 +118,8 @@ Etwa, man möge einen Punkt in x- und y-Richtung
 bewegen, um irgendwelche Zahlendifferenzen.
 
 00:01:57,810 --> 00:02:00,219
-Dennoch ist das, was hier steht, noch statische
-Modellierung.
+Dennoch ist das, was hier steht,
+noch statische Modellierung.
 
 00:02:00,219 --> 00:02:05,070
 Weil eben kein Code oder eine Beschreibung
@@ -143,15 +143,15 @@ muss man sagen, worum man ihn bewegen möchte,
 um welche Differenzen.
 
 00:02:20,470 --> 00:02:24,810
-Und dann gibt es für diese Operation keinen
-Rückgabewert.
+Und dann gibt es für diese
+Operation keinen Rückgabewert.
 
 00:02:24,810 --> 00:02:25,810
 Warum nicht?
 
 00:02:25,810 --> 00:02:29,900
-Weil dieses Bewegen direkt auf den Punkt selbst
-wirkt.
+Weil dieses Bewegen direkt
+auf den Punkt selbst wirkt.
 
 00:02:29,900 --> 00:02:34,530
 Und da hatten wir bei der Einführung der
@@ -173,8 +173,8 @@ dann wäre das keine Veränderung des Punktes,
 sondern wir wollen irgendwas berechnen.
 
 00:02:52,409 --> 00:02:57,180
-Wir brauchen keine Argumente, weil wir auf
-dem Punkt selbst arbeiten und nicht noch weitere
+Wir brauchen keine Argumente, weil wir auf dem
+Punkt selbst arbeiten und nicht noch weitere
 
 00:02:57,180 --> 00:02:58,180
 Informationen brauchen.
@@ -184,14 +184,15 @@ Aber wir wollen eine Zahl zurückkriegen,
 statt den Punkt zu verändern.
 
 00:03:01,689 --> 00:03:04,340
-Dann würden wir hier einfach sagen, was herauskommt.
+Dann würden wir hier einfach
+sagen, was herauskommt.
 
 00:03:04,340 --> 00:03:05,769
 Und dann ist das hier das Ergebnis.
 
 00:03:05,769 --> 00:03:15,019
-Also die Vektorlänge liefert eine Zahl, deswegen
-steht hier das als Ergebnistyp da.
+Also die Vektorlänge liefert eine Zahl,
+deswegen steht hier das als Ergebnistyp da.
 
 00:03:15,019 --> 00:03:19,209
 Ein paar weitere Bemerkungen.
@@ -204,12 +205,12 @@ stehen, das sind nicht Attribute der Klasse
 per se.
 
 00:03:23,739 --> 00:03:27,800
-Also natürlich stehen sie im Klassendiagramm
-als Attribute an der Klasse.
+Also natürlich stehen sie im
+Klassendiagramm als Attribute an der Klasse.
 
 00:03:27,800 --> 00:03:31,190
-Aber es ist nicht so, dass die Klasse insgesamt
-eine x- und y-Koordinate hat.
+Aber es ist nicht so, dass die Klasse
+insgesamt eine x- und y-Koordinate hat.
 
 00:03:31,190 --> 00:03:35,879
 Sondern die Klasse ist eine Sammlung von Objekten,
@@ -225,8 +226,8 @@ Also es ist wichtig:
 Das sind sogenannte Instanz-Attribute.
 
 00:03:40,819 --> 00:03:43,480
-Die gehören letztlich zu den Instanzen der
-Klasse.
+Die gehören letztlich zu
+den Instanzen der Klasse.
 
 00:03:43,480 --> 00:03:48,489
 Also zu den Objekten, die wir später bilden
@@ -237,12 +238,12 @@ Aber sie werden in der Klasse festgehalten,
 weil alle Objekte der Klasse jeweils einen
 
 00:03:51,870 --> 00:03:55,379
-x- und y-Wert haben sollen (aber verschiedene
-Werte für verschiedene Objekte).
+x- und y-Wert haben sollen (aber
+verschiedene Werte für verschiedene Objekte).
 
 00:03:55,379 --> 00:04:00,959
-Hier steht einfach die Information, dass diese
-beiden Werte immer vorliegen sollen.
+Hier steht einfach die Information, dass
+diese beiden Werte immer vorliegen sollen.
 
 00:04:00,959 --> 00:04:05,639
 Dann ein Detail, das Sie vielleicht kennen,
@@ -260,34 +261,34 @@ Da gibt es manchmal, dass an den Attributen
 oder an den Methoden noch irgendwelche "funny
 
 00:04:15,999 --> 00:04:19,280
-symbols" stehen, also irgendwelche Spezialsymbole:
-Plus, Minus.
+symbols" stehen, also irgendwelche
+Spezialsymbole: Plus, Minus.
 
 00:04:19,280 --> 00:04:22,760
-Das können manchmal auch Bezeichnungen sein,
-also Zeichenketten.
+Das können manchmal auch Bezeichnungen
+sein, also Zeichenketten.
 
 00:04:22,760 --> 00:04:24,420
 Manchmal aber eben auch nur diese kurzen Symbole.
 
 00:04:24,420 --> 00:04:30,510
-Das sind sogenannte Sichtbarkeits-Annotationen
-an den Attributen.
+Das sind sogenannte
+Sichtbarkeits-Annotationen an den Attributen.
 
 00:04:30,510 --> 00:04:38,780
 Die sagen etwas darüber aus, später in der
 Implementierung, von welchen anderen Objekten
 
 00:04:38,780 --> 00:04:42,510
-auf Instanz-Attribute und Methoden zugegriffen
-werden darf.
+auf Instanz-Attribute und
+Methoden zugegriffen werden darf.
 
 00:04:42,510 --> 00:04:44,390
 Das werden wir vollständig ignorieren.
 
 00:04:44,390 --> 00:04:51,070
-Also das spielt für uns in der Modellierung
-keine Rolle.
+Also das spielt für uns in
+der Modellierung keine Rolle.
 
 00:04:51,070 --> 00:04:56,210
 Wenn Sie in einem Beispiel so etwas sehen
@@ -319,15 +320,15 @@ Wo die Idee dann ist, dass wenn in einzelnen
 Objekten zum Beispiel die x-Koordinate nicht
 
 00:05:28,470 --> 00:05:35,920
-explizit belegt wird, dann einfach der Vorgabewert
-aus der Klassenangabe gelten würde.
+explizit belegt wird, dann einfach der
+Vorgabewert aus der Klassenangabe gelten würde.
 
 00:05:35,920 --> 00:05:38,430
 Dann würde man das so schreiben:
 
 00:05:38,430 --> 00:05:41,000
-Also x muss eine ganze Zahl sein, und der
-Default ist null.
+Also x muss eine ganze Zahl
+sein, und der Default ist null.
 
 00:05:41,000 --> 00:05:46,880
 Das hieße dann, dass wenn in einem Objekt
@@ -337,31 +338,31 @@ dieser Klasse zu dem x nichts gesagt wird,
 es einfach schon direkt den Wert null hätte.
 
 00:05:53,420 --> 00:05:57,880
-Nun sind die Klassen natürlich da, um Objekte
-zu beschreiben.
+Nun sind die Klassen natürlich
+da, um Objekte zu beschreiben.
 
 00:05:57,880 --> 00:06:02,410
-Also das Ziel ist, mit einer Klasse den Aufbau
-bestimmter Objekte zu beschreiben.
+Also das Ziel ist, mit einer Klasse den
+Aufbau bestimmter Objekte zu beschreiben.
 
 00:06:02,410 --> 00:06:09,060
-Und dabei ist es dann natürlich so, dass
-eine Instanz einer Klasse ein konkretes Objekt
+Und dabei ist es dann natürlich so, dass eine
+Instanz einer Klasse ein konkretes Objekt
 
 00:06:09,060 --> 00:06:10,060
 darstellt.
 
 00:06:10,060 --> 00:06:15,510
-Also unsere Point-Klasse kann ganz viele Objekte
-haben, die deren Ausprägung sind.
+Also unsere Point-Klasse kann ganz viele
+Objekte haben, die deren Ausprägung sind.
 
 00:06:15,510 --> 00:06:22,090
 Und ein konkreter, zum Beispiel mein konkreter
 Punkt von der Klasse "Point", wäre dann angegeben,
 
 00:06:22,090 --> 00:06:27,470
-indem die Instanz-Attribute mit konkreten
-Zahlen belegt sind.
+indem die Instanz-Attribute mit
+konkreten Zahlen belegt sind.
 
 00:06:27,470 --> 00:06:29,940
 Das würde man dann so notieren.
@@ -380,20 +381,20 @@ Das ist eine Instanz dieser Klasse.
 Und dann gibt es hier nur zwei Abschnitte.
 
 00:06:43,500 --> 00:06:50,010
-Den Namen des Objektes und die Angabe, dass
-er Objekt dieser Klasse ist.
+Den Namen des Objektes und die Angabe,
+dass er Objekt dieser Klasse ist.
 
 00:06:50,010 --> 00:06:56,500
 Dann gibt es noch diese Syntax-Unterstreichung,
 letztlich um Klassen und Objekte zu unterscheiden.
 
 00:06:56,500 --> 00:07:01,500
-Aber vor allem gibt es in den Objekten keinen
-Methodenkasten.
+Aber vor allem gibt es in den
+Objekten keinen Methodenkasten.
 
 00:07:01,500 --> 00:07:05,890
-Also diesen Teil hier unten gibt es bei den
-einzelnen Objekten nicht.
+Also diesen Teil hier unten gibt es
+bei den einzelnen Objekten nicht.
 
 00:07:05,890 --> 00:07:06,890
 Warum nicht?
@@ -414,8 +415,8 @@ nichts, was für einzelne Punkte verschieden
 ist.
 
 00:07:22,630 --> 00:07:26,000
-Also die Funktionalität ist für alle Punkte
-gleich.
+Also die Funktionalität ist
+für alle Punkte gleich.
 
 00:07:26,000 --> 00:07:32,360
 Deswegen sind die Methoden/Operationen bei
@@ -435,8 +436,8 @@ dass auch bei Objekten Methoden angegeben
 werden.
 
 00:07:43,960 --> 00:07:48,750
-Das soll nicht sein und kann dann auch zu
-Punktabzug führen.
+Das soll nicht sein und kann
+dann auch zu Punktabzug führen.
 
 00:07:48,750 --> 00:07:56,460
 Also wenn man für verschiedene Objekte verschiedenes
@@ -459,8 +460,8 @@ eine Klasse für arithmetische Brüche.
 Da braucht man auch zwei Zahlen.
 
 00:08:07,960 --> 00:08:12,220
-Das wäre dann aber keine Punkt-Klasse, weil
-sie ganz andere Operationen hätte.
+Das wäre dann aber keine Punkt-Klasse,
+weil sie ganz andere Operationen hätte.
 
 00:08:12,220 --> 00:08:14,240
 Dann hätte man eine zweite Klasse für Brüche.
@@ -469,8 +470,8 @@ Dann hätte man eine zweite Klasse für Brüche.
 Davon gäbe es auch Objekte.
 
 00:08:16,400 --> 00:08:20,470
-Die würden auch jeweils zwei ganze Zahlen
-speichern.
+Die würden auch jeweils
+zwei ganze Zahlen speichern.
 
 00:08:20,470 --> 00:08:25,870
 Aber in den verschiedenen Klassen für Punkte
@@ -513,16 +514,16 @@ ist), dass Sie einfach nur solche Objekte
 angeben.
 
 00:09:09,040 --> 00:09:16,380
-Das wäre die Beziehung zwischen Klassen und
-Objekten.
+Das wäre die Beziehung
+zwischen Klassen und Objekten.
 
 00:09:16,380 --> 00:09:20,680
-Es gibt auch Beziehungen zwischen Klassen
-im Klassendiagramm.
+Es gibt auch Beziehungen zwischen
+Klassen im Klassendiagramm.
 
 00:09:20,680 --> 00:09:24,420
-Eine erste solche Beziehung ist die sogenannte
-Vererbung.
+Eine erste solche Beziehung
+ist die sogenannte Vererbung.
 
 00:09:24,420 --> 00:09:31,649
 Da geht es also darum, dass Klassen sich ähneln
@@ -543,8 +544,8 @@ Informationen und bieten bestimmte Methoden
 an.
 
 00:09:46,670 --> 00:09:52,900
-Und dann kann es eben sein, dass wir ein weiteres
-Konzept haben, das der gefärbten Punkte.
+Und dann kann es eben sein, dass wir ein
+weiteres Konzept haben, das der gefärbten Punkte.
 
 00:09:52,900 --> 00:09:54,700
 Was ist ein gefärbter Punkt?
@@ -554,8 +555,8 @@ Ein gefärbter Punkt ist immer noch ein Punkt,
 muss also auch Koordinaten x, y haben, soll
 
 00:09:59,580 --> 00:10:03,930
-zusätzlich aber noch eine Farbe haben (und
-vielleicht auch weitere Operationen).
+zusätzlich aber noch eine Farbe haben
+(und vielleicht auch weitere Operationen).
 
 00:10:03,930 --> 00:10:06,540
 Also, wir müssten eine Farbe speichern.
@@ -576,19 +577,19 @@ Genauso, wie die Farbe natürlich genau das
 Unterscheidungsmerkmal der gefärbten Punkte
 
 00:10:24,450 --> 00:10:27,420
-von normalen Punkten ist und deswegen hier
-angegeben wird.
+von normalen Punkten ist und
+deswegen hier angegeben wird.
 
 00:10:27,420 --> 00:10:30,670
-Was hier rechts steht, sind keine Ersetzungen
-für die Sachen, die hier stehen.
+Was hier rechts steht, sind keine
+Ersetzungen für die Sachen, die hier stehen.
 
 00:10:30,670 --> 00:10:34,000
 Das sind immer Zusatzinformationen/Zusatzaspekte.
 
 00:10:34,000 --> 00:10:37,760
-Also, auch der ColoredPoint hat eine x- und
-eine y-Koordinate.
+Also, auch der ColoredPoint hat
+eine x- und eine y-Koordinate.
 
 00:10:37,760 --> 00:10:41,500
 Die müssen nur hier nicht mehr angegeben
@@ -605,12 +606,12 @@ ausdrückt.
 Also, ColoredPoint erbt von Point.
 
 00:10:50,230 --> 00:10:53,890
-Das heißt, Attribute von Point sind auch
-Attribute von ColoredPoint.
+Das heißt, Attribute von Point sind
+auch Attribute von ColoredPoint.
 
 00:10:53,890 --> 00:10:58,660
-Und hier können noch weitere Informationen
-stehen, weitere Attribute.
+Und hier können noch weitere
+Informationen stehen, weitere Attribute.
 
 00:10:58,660 --> 00:11:02,710
 Methoden von Point sind auch Methoden von
@@ -626,8 +627,8 @@ Man spricht dann von Superklasse oder Oberklasse.
 Das wäre hier:
 
 00:11:12,770 --> 00:11:15,690
-Die allgemeinere Klasse wäre die Oberklasse
-oder Superklasse.
+Die allgemeinere Klasse wäre
+die Oberklasse oder Superklasse.
 
 00:11:15,690 --> 00:11:20,640
 Und das spezialisierte Konzept des gefärbten
@@ -646,8 +647,8 @@ Gibt es auch Mehrfachvererbung?
 Kann man auch von mehreren Sachen erben?
 
 00:11:33,090 --> 00:11:35,580
-Also, könnte ColoredPoint auch von zwei verschiedenen
-Klassen erben?
+Also, könnte ColoredPoint auch von
+zwei verschiedenen Klassen erben?
 
 00:11:35,580 --> 00:11:36,600
 Wie ist das mit diesen Pfeilen?
@@ -662,35 +663,35 @@ Dürfen verschiedene Klassen von Point erben?
 Darüber werden wir gleich sprechen.
 
 00:11:43,230 --> 00:11:49,340
-Auch an unserem Bibliotheks-Beispiel könnte
-man sich noch fragen:
+Auch an unserem Bibliotheks-Beispiel
+könnte man sich noch fragen:
 
 00:11:49,340 --> 00:11:51,990
-Ist da auch irgendwie sinnvolle Vererbung
-denkbar?
+Ist da auch irgendwie
+sinnvolle Vererbung denkbar?
 
 00:11:51,990 --> 00:11:53,480
 Man muss immer überlegen:
 
 00:11:53,480 --> 00:11:55,810
-Gibt es dort Aspekte, die verallgemeinert
-werden könnten?
+Gibt es dort Aspekte, die
+verallgemeinert werden könnten?
 
 00:11:55,810 --> 00:11:58,990
-Wo zum Beispiel verschiedene Klassen etwas
-gemeinsam haben?
+Wo zum Beispiel verschiedene
+Klassen etwas gemeinsam haben?
 
 00:11:58,990 --> 00:12:03,080
-Also, nehmen wir an, es gäbe in der Bibliothek
-auch noch andere Medien als Bücher.
+Also, nehmen wir an, es gäbe in der
+Bibliothek auch noch andere Medien als Bücher.
 
 00:12:03,080 --> 00:12:04,370
-Dann könnten wir noch CDs einführen, Videos,
-Zeitschriften.
+Dann könnten wir noch CDs
+einführen, Videos, Zeitschriften.
 
 00:12:04,370 --> 00:12:09,510
-Und wir könnten uns jeweils eine neue Klasse
-dafür ausdenken.
+Und wir könnten uns jeweils eine
+neue Klasse dafür ausdenken.
 
 00:12:09,510 --> 00:12:13,020
 Und irgendwann würden wir dann vielleicht
@@ -704,20 +705,20 @@ Also zwar hat nur die Zeitschrift Zeitschriftennummern
 und vielleicht nur die Videos haben eine Spieldauer,
 
 00:12:23,860 --> 00:12:27,290
-aber einen Autor und einen Titel haben alle
-diese Medien.
+aber einen Autor und einen
+Titel haben alle diese Medien.
 
 00:12:27,290 --> 00:12:31,320
 Also vielleicht würde es Sinn ergeben, eine
 Klasse für Medien allgemein einzuführen.
 
 00:12:31,320 --> 00:12:35,280
-Und dann erben spezialisierte Klassen für
-Bücher, CDs, etc.
+Und dann erben spezialisierte
+Klassen für Bücher, CDs, etc.
 
 00:12:35,280 --> 00:12:42,920
-Das ist dann Teil des Designs, auch sinnvolle
-solche Beziehungen zu finden.
+Das ist dann Teil des Designs, auch
+sinnvolle solche Beziehungen zu finden.
 
 00:12:42,920 --> 00:12:48,760
 Das hatte ich schon gesagt:
@@ -727,23 +728,23 @@ Die Subklasse erbt Attribute und Methoden
 (später auch weitere Beziehungen, die wir
 
 00:12:51,330 --> 00:12:55,140
-noch diskutieren werden) der Superklasse
-und kann weitere hinzufügen.
+noch diskutieren werden) der
+Superklasse und kann weitere hinzufügen.
 
 00:12:55,140 --> 00:13:01,160
 Ein Aspekt für die Implementierung, der jetzt
 für die statische Modellierung nicht so wichtig
 
 00:13:01,160 --> 00:13:07,360
-ist, ist, dass Methoden der Oberklasse überschrieben
-werden können.
+ist, ist, dass Methoden der Oberklasse
+überschrieben werden können.
 
 00:13:07,360 --> 00:13:08,720
 Das hatte ich hier gesagt:
 
 00:13:08,720 --> 00:13:12,870
-Alle Methoden, die es für Point gibt, gibt
-es auch für ColoredPoint.
+Alle Methoden, die es für Point
+gibt, gibt es auch für ColoredPoint.
 
 00:13:12,870 --> 00:13:17,180
 Es könnte aber sein, dass das Verhalten einzelner
@@ -799,12 +800,12 @@ ein Punkt zu sehen, aber mit zusätzlichen
 Informationen hinzu.
 
 00:14:12,460 --> 00:14:16,540
-Alles, was mit Punkten geht, muss mit gefärbten
-Punkten auch gehen.
+Alles, was mit Punkten geht, muss
+mit gefärbten Punkten auch gehen.
 
 00:14:16,540 --> 00:14:19,810
-Sonst wäre es falsch, hier eine Vererbung
-zu haben.
+Sonst wäre es falsch, hier
+eine Vererbung zu haben.
 
 00:14:19,810 --> 00:14:24,710
 Man sollte also nicht einfach beliebige Konzepte
@@ -824,22 +825,23 @@ sein zwischen den beiden Klassen.
 Dann ist das nämlich sinnvoll einsetzbar.
 
 00:14:38,720 --> 00:14:49,490
-Und wenn
-wir schon bei Vererbung sind, gibt es noch
+Und wenn wir schon bei
+Vererbung sind, gibt es noch
 
 00:14:49,490 --> 00:14:52,990
 ein paar strukturelle Dinge zu beachten.
 
 00:14:52,990 --> 00:14:55,680
-Also bald wollen wir nicht nur zwei Klassen
-haben.
+Also bald wollen wir nicht
+nur zwei Klassen haben.
 
 00:14:55,680 --> 00:15:00,940
-Wir werden das ja verallgemeinern bzw. anreichern.
+Wir werden das ja
+verallgemeinern bzw. anreichern.
 
 00:15:00,940 --> 00:15:04,680
-Dass wir nicht nur zwei Klassen und deren
-Beziehung haben, sondern dann ein ganzes Klassendiagramm
+Dass wir nicht nur zwei Klassen und deren Beziehung
+haben, sondern dann ein ganzes Klassendiagramm
 
 00:15:04,680 --> 00:15:07,730
 mit mehreren Klassen und ihren Beziehungen.
@@ -855,8 +857,8 @@ ergeben.
 Da muss man einige Dinge beachten.
 
 00:15:17,680 --> 00:15:22,810
-Insbesondere für den Moment ist es einfach
-das, was hier festgehalten ist.
+Insbesondere für den Moment ist es
+einfach das, was hier festgehalten ist.
 
 00:15:22,810 --> 00:15:24,790
 Also hier steht:
@@ -865,27 +867,27 @@ Also hier steht:
 „Konstellationen, die verboten sind“.
 
 00:15:26,640 --> 00:15:31,290
-Was verboten ist, wären erst mal irgendwelche
-Zirkularitäten.
+Was verboten ist, wären erst
+mal irgendwelche Zirkularitäten.
 
 00:15:31,290 --> 00:15:34,120
 Also man kann nicht im Kreis vererben.
 
 00:15:34,120 --> 00:15:38,779
-Es kann nicht sein, dass B von A erbt, C von
-B erbt und A von C.
+Es kann nicht sein, dass B von A
+erbt, C von B erbt und A von C.
 
 00:15:38,779 --> 00:15:41,980
-Es könnte schon sein, dass B von A erbt und
-C von B erbt.
+Es könnte schon sein, dass B
+von A erbt und C von B erbt.
 
 00:15:41,980 --> 00:15:48,940
-Also, wenn dieser Pfeil hier weg wäre, wäre
-die Situation okay.
+Also, wenn dieser Pfeil hier weg
+wäre, wäre die Situation okay.
 
 00:15:48,940 --> 00:15:54,640
-Aber mit allen drei Pfeilen hier hätten wir
-eine nicht sinnvolle Situation.
+Aber mit allen drei Pfeilen hier hätten
+wir eine nicht sinnvolle Situation.
 
 00:15:54,640 --> 00:15:58,589
 Es würde also einfach gar nicht erlaubt sein,
@@ -899,27 +901,27 @@ Letztlich aus ähnlichen Gründen ist auch
 eine Selbstvererbung nicht sinnvoll.
 
 00:16:07,910 --> 00:16:10,970
-Also eine Klasse kann nicht von sich selbst
-erben.
+Also eine Klasse kann nicht
+von sich selbst erben.
 
 00:16:10,970 --> 00:16:16,980
 Und eine Klasse kann auch nicht sozusagen
 doppelt von einer anderen Klasse erben.
 
 00:16:16,980 --> 00:16:19,839
-In all diesen Fällen ist natürlich die Richtung
-der Pfeile relevant.
+In all diesen Fällen ist natürlich
+die Richtung der Pfeile relevant.
 
 00:16:19,839 --> 00:16:21,339
 Hier nicht, also hier wäre es egal.
 
 00:16:21,339 --> 00:16:23,529
-Wenn der Pfeil andersherum wäre, wäre es
-auch noch verboten.
+Wenn der Pfeil andersherum wäre,
+wäre es auch noch verboten.
 
 00:16:23,529 --> 00:16:27,690
-Bei den anderen Situationen könnte sich das
-Bild ja jeweils ändern.
+Bei den anderen Situationen könnte
+sich das Bild ja jeweils ändern.
 
 00:16:27,690 --> 00:16:33,040
 Während hier, wenn man den Pfeil umdrehen
@@ -930,12 +932,12 @@ Wäre sozusagen aus einem anderen Grund verboten
 und nicht wegen dieser Doppelvererbung.
 
 00:16:36,920 --> 00:16:43,490
-Und wenn man hier einen Pfeil umdrehen würde,
-hätte man keine Zirkularität mehr.
+Und wenn man hier einen Pfeil umdrehen
+würde, hätte man keine Zirkularität mehr.
 
 00:16:43,490 --> 00:16:48,580
-Also Zirkularität heißt wirklich: in Richtung
-der Pfeile ein Kreis.
+Also Zirkularität heißt wirklich:
+in Richtung der Pfeile ein Kreis.
 
 00:16:48,580 --> 00:16:52,592
 Wenn man hier den Pfeil umdrehen würde, hätte
@@ -955,5 +957,5 @@ Das ist prinzipiell in UML erlaubt, aber nicht
 alle Programmiersprachen unterstützen das.
 
 00:17:04,880 --> 00:17:10,250
-Wir werden da gesondert darauf achten, ob das
-jeweils erlaubt sein soll oder nicht.
+Wir werden da gesondert darauf achten, ob
+das jeweils erlaubt sein soll oder nicht.

@@ -7,8 +7,8 @@ Kapazitäten an jeder Stelle gegeben, aus
 dem wir ein herkömmliches Petrinetz machen
 
 0:00:11.179,0:00:18.160
-sollen, das ohne Kapazitäten auskommt, aber
-im Endeffekt immer noch dieselbe Verhaltensweise
+sollen, das ohne Kapazitäten auskommt, aber im
+Endeffekt immer noch dieselbe Verhaltensweise
 
 0:00:18.160,0:00:19.900
 zeigt wie dieses hier mit Kapazitäten.
@@ -33,8 +33,8 @@ dürfen, egal an welcher Stelle im Durchlauf
 unseres Petrinetzes wir uns befinden.
 
 0:00:39.879,0:00:43.123
-Dasselbe gilt für s3 und s4, nur sind hier
-andere Kapazitäten.
+Dasselbe gilt für s3 und s4, nur
+sind hier andere Kapazitäten.
 
 0:00:43.123,0:00:48.110
 In s3 darf nur maximal ein Token darin sein
@@ -52,20 +52,20 @@ nichts verändern, um es in ein herkömmliches
 Petrinetz umzuwandeln, dann hätten wir sofort
 
 0:00:59.750,0:01:04.220
-an s3 die Kapazität gebrochen, indem wir
-zum Beispiel zweimal t1 ausführen.
+an s3 die Kapazität gebrochen, indem
+wir zum Beispiel zweimal t1 ausführen.
 
 0:01:04.220,0:01:09.270
 Denn t1 erwartet nur ein Token in s1, und
 da sind zwei drin, also können wir t1 direkt
 
 0:01:09.270,0:01:14.220
-zweimal ausführen, hätten nur zwei Tokens
-in s3 gelegt und diese Kapazität 1 gebrochen.
+zweimal ausführen, hätten nur zwei Tokens in
+s3 gelegt und diese Kapazität 1 gebrochen.
 
 0:01:14.220,0:01:19.140
-Das heißt, wir müssen noch ein wenig mehr
-machen als einfach nur die Kapazitäten wegstreichen,
+Das heißt, wir müssen noch ein wenig mehr machen
+als einfach nur die Kapazitäten wegstreichen,
 
 0:01:19.140,0:01:21.799
 damit das Petrinetz immer noch funktioniert.
@@ -74,16 +74,16 @@ damit das Petrinetz immer noch funktioniert.
 Das sollte ja eigentlich klar sein.
 
 0:01:22.840,0:01:25.600
-Dafür verwenden wir das Verfahren aus der
-Vorlesung.
+Dafür verwenden wir das
+Verfahren aus der Vorlesung.
 
 0:01:25.600,0:01:30.189
 Das Verfahren aus der Vorlesung ist einfach
 nur, dass zu jeder Stelle mit Kapazitäten
 
 0:01:30.189,0:01:39.790
-eine Komplementärstelle hinzugefügt wird,
-welche die Tokens hält, die maximal da sein dürfen.
+eine Komplementärstelle hinzugefügt wird, welche
+die Tokens hält, die maximal da sein dürfen.
 
 0:01:39.790,0:01:45.400
 Das heißt, insgesamt wird dann jede Stelle
@@ -94,19 +94,19 @@ und diese beiden Stellen zusammen haben dann
 genauso viele Tokens, wie die Kapazität ist.
 
 0:01:51.520,0:01:55.340
-Und wie das im Endeffekt aussieht, schauen
-wir uns jetzt nach und nach an.
+Und wie das im Endeffekt aussieht,
+schauen wir uns jetzt nach und nach an.
 
 0:01:55.340,0:01:57.810
 Wir fangen einmal mit der Stelle s1 an.
 
 0:01:57.810,0:02:01.469
-Die Stelle s1 hat immer noch als Start zwei
-Tokens.
+Die Stelle s1 hat immer
+noch als Start zwei Tokens.
 
 0:02:01.469,0:02:09.410
-Das heißt, unsere Komplementärstelle, die
-wir dazuschreiben, hat keine Tokens.
+Das heißt, unsere Komplementärstelle,
+die wir dazuschreiben, hat keine Tokens.
 
 0:02:09.410,0:02:14.260
 Denn, wie ich eben schon gesagt habe, die
@@ -129,8 +129,8 @@ t1 und t4 verbunden, und unsere Komplementärstelle
 soll jetzt so agieren, dass, sobald ein Token
 
 0:02:43.080,0:02:47.720
-aus s1 herausgenommen wird, einer in die Komplementärstelle
-hineingegeben wird.
+aus s1 herausgenommen wird, einer in die
+Komplementärstelle hineingegeben wird.
 
 0:02:47.720,0:02:54.720
 Ich mache es einmal in einer anderen Farbe,
@@ -152,8 +152,8 @@ Token von unserer Komplementärstelle holen,
 denn ansonsten ist nicht unbedingt garantiert,
 
 0:03:26.560,0:03:31.130
-dass t4 nicht auch feuern kann, wenn nicht
-genug Tokens in s4 drin sind.
+dass t4 nicht auch feuern kann, wenn
+nicht genug Tokens in s4 drin sind.
 
 0:03:31.130,0:03:37.830
 So muss bei t4 immer auch mindestens ein Token
@@ -196,28 +196,28 @@ sich einen Token aus s2-Komplementär herausholen,
 um jeweils einen Token entweder in s2 hineinzugeben
 
 0:04:41.380,0:04:49.980
-oder es aus s2 herauszuholen. t1 und t2 sind
-jetzt mit s3 verbunden.
+oder es aus s2 herauszuholen. t1
+und t2 sind jetzt mit s3 verbunden.
 
 0:04:49.980,0:04:56.710
-s3 hat eine Kapazität von eins und keinerlei
-Tokens darin.
+s3 hat eine Kapazität von eins
+und keinerlei Tokens darin.
 
 0:04:56.710,0:05:04.000
 Das heißt, die Komplementärstelle hier hat
 einen Token darin, damit sie zusammengerechnet
 
 0:05:04.000,0:05:08.630
-die Anzahl der Tokens haben, die die Kapazität
-angibt.
+die Anzahl der Tokens haben,
+die die Kapazität angibt.
 
 0:05:08.630,0:05:18.590
-Und hier muss sich t2 auch einen Token aus
-s3-Komplementär holen.
+Und hier muss sich t2 auch einen
+Token aus s3-Komplementär holen.
 
 0:05:18.590,0:05:29.190
-Und t1 muss sich auch einen Token aus s3-Komplementär
-holen, wenn eins davon schalten soll.
+Und t1 muss sich auch einen Token aus
+s3-Komplementär holen, wenn eins davon schalten soll.
 
 0:05:29.190,0:05:34.970
 Weiterhin ist die Transition t3 verbunden.
@@ -226,19 +226,19 @@ Weiterhin ist die Transition t3 verbunden.
 t3 holt sich einen Token aus s3 heraus.
 
 0:05:37.830,0:05:45.560
-Das heißt, t3 muss dann stattdessen einen
-Token in s3-Komplementär abgeben.
+Das heißt, t3 muss dann stattdessen
+einen Token in s3-Komplementär abgeben.
 
 0:05:45.560,0:05:56.710
-Und zuletzt haben wir noch die Stelle s4.
-s4 hat eine Kapazität von drei, aber keinerlei
+Und zuletzt haben wir noch die Stelle s4. s4
+hat eine Kapazität von drei, aber keinerlei
 
 0:05:56.710,0:05:57.710
 Token darin.
 
 0:05:57.710,0:06:05.139
-Das heißt, s4 bekommt eine Komplementärstelle
-mit drei Token.
+Das heißt, s4 bekommt eine
+Komplementärstelle mit drei Token.
 
 0:06:05.139,0:06:28.530
 Und s4 ist verbunden mit t4 und mit t5 und
@@ -259,13 +259,13 @@ herausholen will.
 Dasselbe gilt für t5.
 
 0:06:47.980,0:06:57.580
-Und t3 muss sich einen Token aus s4-Komplementär
-herausholen.
+Und t3 muss sich einen Token
+aus s4-Komplementär herausholen.
 
 0:06:57.580,0:07:03.370
 Das sieht jetzt ein wenig durcheinander aus,
 weil ich nicht so gut malen kann, aber das
 
 0:07:03.370,0:07:13.449
-ist jetzt unser fertiges Petrinetz mit Komplementärstellen,
-die die Kapazitätsfunktion ersetzen.
+ist jetzt unser fertiges Petrinetz mit
+Komplementärstellen, die die Kapazitätsfunktion ersetzen.

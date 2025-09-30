@@ -9,20 +9,20 @@ in which non-composite state does every flow
 of this diagram start?
 
 0:00:18.199,0:00:23.550
-To answer this question, we start looking
-from the outside.
+To answer this question, we
+start looking from the outside.
 
 0:00:23.550,0:00:29.910
 And on the outside, you see the only entrance
 to this diagram is this starting state.
 
 0:00:29.910,0:00:35.500
-And this starting state is pointing to this
-composite state, which has no name.
+And this starting state is pointing to
+this composite state, which has no name.
 
 0:00:35.500,0:00:41.879
-So this means now this state is going to
-be activated.
+So this means now this state
+is going to be activated.
 
 0:00:41.879,0:00:48.720
 And since the arrow is not pointing explicitly
@@ -39,16 +39,16 @@ outside, and we see the only entrance is this
 starting state.
 
 0:01:02.609,0:01:10.040
-And it's pointing to this non-composite state
-F. So the answer is F.
+And it's pointing to this non-composite
+state F. So the answer is F.
 
 0:01:10.040,0:01:15.400
 This means every time we're going to use this
 diagram, every time is going to be activated,
 
 0:01:15.400,0:01:23.979
-the first non-composite state to be active
-is F. Now for the second part of the question
+the first non-composite state to be active is
+F. Now for the second part of the question
 
 0:01:23.979,0:01:29.630
 of the task, it says give for each of the
@@ -58,8 +58,8 @@ following successions of triggers the sequence
 of states as they are visited one after another.
 
 0:01:35.040,0:01:40.829
-And now, as I said, F is the starting state,
-is the first state to be visited.
+And now, as I said, F is the starting
+state, is the first state to be visited.
 
 0:01:40.829,0:01:46.810
 This means it's going to be the first state
@@ -70,8 +70,8 @@ And now for the first sequence, it starts
 with A, and only A going out from our active
 
 0:01:55.090,0:02:02.210
-states is this one here; there is no other
-A going out from this composite state, there's
+states is this one here; there is no other A
+going out from this composite state, there's
 
 0:02:02.210,0:02:06.060
 only this one going out from F.
@@ -101,8 +101,8 @@ And this arrow of K is not pointing explicitly,
 directly to any of these non-composite states.
 
 0:02:51.250,0:02:56.010
-But rather, it's pointing to this composite
-state, the big one.
+But rather, it's pointing to this
+composite state, the big one.
 
 0:02:56.010,0:03:03.970
 And this means we go the standard way, which
@@ -126,12 +126,12 @@ us from F to G.
 This is the solution for this sequence.
 
 0:03:28.280,0:03:34.290
-Now for the next sequence, again, we have
-F at the start.
+Now for the next sequence,
+again, we have F at the start.
 
 0:03:34.290,0:03:44.120
-And the sequence starts with A; A takes us
-to G and then we have H, H takes us to E once
+And the sequence starts with A; A takes us to
+G and then we have H, H takes us to E once
 
 0:03:44.120,0:03:47.700
 again.
@@ -151,8 +151,8 @@ it's visited.
 It's going to be visited no matter what happens.
 
 0:04:08.849,0:04:16.410
-But at the same time, as I said, this big composite
-state is also active and it has regions.
+But at the same time, as I said, this big
+composite state is also active and it has regions.
 
 0:04:16.410,0:04:25.380
 So this means in addition to D, in this part
@@ -167,12 +167,12 @@ A and now this means we have two non-composite
 states A and D being visited at the same time.
 
 0:04:42.080,0:04:46.570
-And this is how we express it; this is how
-we write it.
+And this is how we express
+it; this is how we write it.
 
 0:04:46.570,0:04:52.050
-And the last element of the sequence is B;
-there are no Bs here.
+And the last element of the sequence
+is B; there are no Bs here.
 
 0:04:52.050,0:05:04.169
 So this means we stay in A. But for D, if you
@@ -188,12 +188,12 @@ This is the final solution.
 And now we do this sequence.
 
 0:05:14.539,0:05:22.620
-Again, we start with F, and then we have A;
-A takes us to G, and we have H; H takes
+Again, we start with F, and then we have
+A; A takes us to G, and we have H; H takes
 
 0:05:22.620,0:05:32.250
-us to E. And then we have H again. H takes us to
-this composite state; the same thing happens.
+us to E. And then we have H again. H takes us
+to this composite state; the same thing happens.
 
 0:05:32.250,0:05:36.070
 And we are in A and D at the same time.
@@ -206,49 +206,49 @@ D; we stay in D, but it takes us from A to
 B.
 
 0:05:44.889,0:05:49.660
-This means now we are in B and D at the same
-time.
+This means now we are in
+B and D at the same time.
 
 0:05:49.660,0:05:56.440
-And then we have B. B takes us from D to C
-and it keeps us in B; it doesn't change anything
+And then we have B. B takes us from D to C and
+it keeps us in B; it doesn't change anything
 
 0:05:56.440,0:05:58.250
 here.
 
 0:05:58.250,0:06:03.850
-And this means we are now visiting B and C
-at the same time.
+And this means we are now visiting
+B and C at the same time.
 
 0:06:03.850,0:06:07.060
 And the last element of the sequence is K.
 
 0:06:07.060,0:06:12.389
-But you might wonder how can we do K while
-we are in B and C?
+But you might wonder how can we
+do K while we are in B and C?
 
 0:06:12.389,0:06:20.050
 Well, this is possible because, as I said before,
 it's not just B and C that are being visited.
 
 0:06:20.050,0:06:25.690
-Actually, we are visiting also this composite
-state which contains them.
+Actually, we are visiting also this
+composite state which contains them.
 
 0:06:25.690,0:06:30.620
-And from this composite state, this big one
-here, we have an arrow with K.
+And from this composite state, this
+big one here, we have an arrow with K.
 
 0:06:30.620,0:06:34.970
 So it is possible to use K and go here.
 
 0:06:34.970,0:06:40.930
-Now we have this composite state active and
-the arrow is not pointing directly.
+Now we have this composite state active
+and the arrow is not pointing directly.
 
 0:06:40.930,0:06:47.330
-It's not pointing explicitly at any of the
-non-composite states F and G.
+It's not pointing explicitly at any
+of the non-composite states F and G.
 
 0:06:47.330,0:06:53.610
 We go the standard way, which is starting with

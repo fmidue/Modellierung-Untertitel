@@ -18,16 +18,16 @@ sehr vielen Zuständen angeben zu müssen.
 Diese Kompaktheit hat auch ein Gegenstück.
 
 00:00:25,860 --> 00:00:30,090
-Man kann nämlich auch umgekehrt aus einem solchen
-kompakten UML-Zustandsdiagramm wieder
+Man kann nämlich auch umgekehrt aus einem
+solchen kompakten UML-Zustandsdiagramm wieder
 
 00:00:30,090 --> 00:00:32,550
-ein flaches Zustandsdiagramm
-machen, durch sogenanntes Flachklopfen.
+ein flaches Zustandsdiagramm machen,
+durch sogenanntes Flachklopfen.
 
 00:00:33,570 --> 00:00:38,880
-Das will ich hier abschließend noch
-in drei Videos mit Beispielen betrachten.
+Das will ich hier abschließend noch in
+drei Videos mit Beispielen betrachten.
 
 00:00:41,280 --> 00:00:44,580
 Man kann ein UML-Zustandsdiagramm
@@ -91,12 +91,12 @@ Wir werden uns einfach drei Beispiele ansehen
 und an diesen die Strategien erläutern,
 
 00:01:51,850 --> 00:01:56,410
-die Sie dann auch auf andere Beispiele
-mit den gleichen Features anwenden können sollen.
+die Sie dann auch auf andere Beispiele mit
+den gleichen Features anwenden können sollen.
 
 00:01:56,410 --> 00:01:59,500
-Wir werden dabei nicht alle Features von
-UML-Zustandsdiagrammen betrachten,
+Wir werden dabei nicht alle Features
+von UML-Zustandsdiagrammen betrachten,
 
 00:01:59,500 --> 00:02:02,530
 auch nicht alle von uns gesehenen
@@ -110,8 +110,8 @@ Natürlich müssen Sie dann auch für
 Übungen und später für die Klausur nur
 
 00:02:09,010 --> 00:02:14,320
-das selbst anwenden können, was auch hier
-in den Beispielen auftritt.
+das selbst anwenden können, was auch
+hier in den Beispielen auftritt.
 
 00:02:17,590 --> 00:02:18,880
 Machen wir das konkret für ein Beispiel.
@@ -121,7 +121,8 @@ Hier ist ein UML-Zustandsdiagramm. Es ist
 offenkundig kein flaches Zustandsdiagramm,
 
 00:02:22,720 --> 00:02:25,900
-weil es so einen hierarchischen Zustand verwendet.
+weil es so einen hierarchischen
+Zustand verwendet.
 
 00:02:25,900 --> 00:02:31,270
 Was dieses Beispiel auszeichnet, was hier
@@ -140,7 +141,8 @@ Und es wird in diesem Beispiel
 auch keine Historie verwendet.
 
 00:02:43,990 --> 00:02:45,460
-In anderen Beispielen wird das gleich anders sein.
+In anderen Beispielen wird
+das gleich anders sein.
 
 00:02:47,590 --> 00:02:49,150
 Wie wäre hier die Strategie?
@@ -158,8 +160,8 @@ Wir könnten sagen: wir behalten einfach
 die simplen Zustände A, B, C, D.
 
 00:02:58,360 --> 00:03:02,020
-Das kann es aber natürlich noch nicht
-sein, denn dann würden wir insbesondere diese
+Das kann es aber natürlich noch nicht sein,
+denn dann würden wir insbesondere diese
 
 00:03:02,020 --> 00:03:08,140
 Ein- und Austritte zu so einem hierarchischen
@@ -170,8 +172,8 @@ Die Grundidee wird sein, zwar die einfachen
 Zustände zu behalten (A, B, C, D werden in
 
 00:03:13,630 --> 00:03:18,850
-dem flachen Zustandsraum einfach nach wie
-vor auftauchen), aber diese Ein- und Austritte
+dem flachen Zustandsraum einfach nach wie vor
+auftauchen), aber diese Ein- und Austritte
 
 00:03:18,850 --> 00:03:21,580
 an dem Rand von so einem hierarchischen
@@ -182,20 +184,20 @@ Also, wir müssen einfach
 wissen, was es denn bedeutet,
 
 00:03:24,040 --> 00:03:27,876
-aus so einem Gesamtzustand
-mit dem Trigger 'e' auszutreten.
+aus so einem Gesamtzustand mit
+dem Trigger 'e' auszutreten.
 
 00:03:27,876 --> 00:03:30,850
-Das bedeutet (das wissen wir, wenn wir
-zurückgehen auf die entsprechenden
+Das bedeutet (das wissen wir, wenn
+wir zurückgehen auf die entsprechenden
 
 00:03:30,850 --> 00:03:36,280
-Folien), dass wir mit 'e' sowohl aus C als
-auch aus D zu A kommen könnten.
+Folien), dass wir mit 'e' sowohl aus
+C als auch aus D zu A kommen könnten.
 
 00:03:36,280 --> 00:03:43,630
-Das heißt, aus diesem einen Übergang hier (in
-dem UML-Zustandsdiagramm) müssen in dem
+Das heißt, aus diesem einen Übergang hier
+(in dem UML-Zustandsdiagramm) müssen in dem
 
 00:03:43,630 --> 00:03:45,640
 flachen Zustandsdiagramm
@@ -232,7 +234,8 @@ und Austritte am Rand solch eines
 hierarchischen Zustands bedeuten.
 
 00:04:15,380 --> 00:04:18,110
-Übergänge, die gar nichts mit dieser Hierarchie zu
+Übergänge, die gar nichts
+mit dieser Hierarchie zu
 
 00:04:18,110 --> 00:04:21,260
 tun haben und die schlicht zwischen einfachen
@@ -246,16 +249,16 @@ Das ist in dem UML-Zustandsdiagramm so, und
 da sind nicht irgendwie Hierarchien im Spiel.
 
 00:04:28,640 --> 00:04:34,340
-Das heißt, da wir diese einfachen Zustände A, B, C, D
-behalten haben, können wir auch solche Übergänge,
+Das heißt, da wir diese einfachen Zustände A, B, C,
+D behalten haben, können wir auch solche Übergänge,
 
 00:04:34,340 --> 00:04:41,570
 die nicht irgendwie den Rand eines hierarchischen
 Zustands betreffen, einfach behalten.
 
 00:04:43,670 --> 00:04:48,530
-Dann hätten wir bis auf den Umgang
-mit Startzuständen alles abgefrühstückt.
+Dann hätten wir bis auf den Umgang mit
+Startzuständen alles abgefrühstückt.
 
 00:04:49,490 --> 00:04:53,600
 Was wird der Startzustand eines
@@ -418,8 +421,8 @@ Das ist ein ganz normales
 flaches Zustandsdiagramm.
 
 00:07:46,870 --> 00:07:57,250
-Und der Hauptschritt war in dem
-konkreten Fall hier eben, diese eine Transition,
+Und der Hauptschritt war in dem konkreten
+Fall hier eben, diese eine Transition,
 
 00:07:57,250 --> 00:07:59,650
 die von dem hierarchischen Zustand weg führte,

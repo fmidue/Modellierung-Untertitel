@@ -1,6 +1,6 @@
 0:00:02.669,0:00:11.879
-This task is again about Petri Nets and this
-time we have to model a Petri Net.
+This task is again about Petri Nets and
+this time we have to model a Petri Net.
 
 0:00:11.879,0:00:22.689
 And the Petri Net is already partially given
@@ -10,16 +10,16 @@ below here, and the description says what
 we shall model here in this Petri Net.
 
 0:00:27.800,0:00:31.200
-And it is a checkout with a cashier and a
-customer.
+And it is a checkout with
+a cashier and a customer.
 
 0:00:31.200,0:00:40.149
 So, a queue of customers and the conveyor
 belt has space for the goods of two customers,
 
 0:00:40.149,0:00:44.980
-but at each time only one customer is explicitly
-modeled.
+but at each time only one
+customer is explicitly modeled.
 
 0:00:44.980,0:00:54.120
 So, we have just one customer modeled here
@@ -29,16 +29,16 @@ and one cashier, so, the checkout has two
 places.
 
 0:00:56.219,0:01:01.710
-When a customer places goods on the conveyor
-belt, they first occupy place one.
+When a customer places goods on the
+conveyor belt, they first occupy place one.
 
 0:01:01.710,0:01:05.510
 Goods in place one will be shifted to place
 two.
 
 0:01:05.510,0:01:12.290
-And finally, the cashier processes the goods
-which are in place two.
+And finally, the cashier processes
+the goods which are in place two.
 
 0:01:12.290,0:01:20.690
 And the customer and also the cashier can
@@ -53,8 +53,8 @@ And after successfully placing the goods or
 processing them, the customer or cashier changes
 
 0:01:37.329,0:01:53.570
-to the state busy, after which they become
-waiting again shortly.
+to the state busy, after which
+they become waiting again shortly.
 
 0:01:53.570,0:02:06.079
 And after the customer was busy, the new customer
@@ -88,40 +88,40 @@ and cashier.
 So, one for the customer and one for the cashier.
 
 0:02:48.000,0:02:52.580
-And for the spaces, we have two states as
-well, for both states.
+And for the spaces, we have two
+states as well, for both states.
 
 0:02:52.580,0:02:57.019
-For space one and space two it can be either
-empty or full.
+For space one and space two it
+can be either empty or full.
 
 0:02:57.019,0:03:06.150
-So, in this case, space two would be empty
-and space one would be full.
+So, in this case, space two would be
+empty and space one would be full.
 
 0:03:06.150,0:03:13.920
-So that we have both states for space one
-and for space two.
+So that we have both states for
+space one and for space two.
 
 0:03:13.920,0:03:28.280
-And these places represent states, where
-one of them has to be selected at all times,
+And these places represent states, where one
+of them has to be selected at all times,
 
 0:03:28.280,0:03:34.420
-because a space is either empty or full and
-there's no in-between.
+because a space is either empty
+or full and there's no in-between.
 
 0:03:34.420,0:03:41.290
-And also a cashier’s either waiting or busy,
-and also the same for the customer in space one.
+And also a cashier’s either waiting or busy, and
+also the same for the customer in space one.
 
 0:03:41.290,0:03:52.560
-So, that means when the customer for this
-place, when the customer is waiting,
+So, that means when the customer for
+this place, when the customer is waiting,
 
 0:03:52.560,0:03:59.950
-it has to become either again waiting or busy,
-after whatever is happening here.
+it has to become either again waiting or
+busy, after whatever is happening here.
 
 0:03:59.950,0:04:09.030
 So, we have to keep that in mind.
@@ -145,8 +145,8 @@ And also for the customer, who is waiting
 before.
 
 0:04:44.220,0:04:54.970
-Well, when putting things onto the space,
-expect him to be busy.
+Well, when putting things onto
+the space, expect him to be busy.
 
 0:04:54.970,0:05:00.820
 And then they can become waiting at any time.
@@ -160,8 +160,8 @@ So, when the customer was busy or is busy,
 then he can become waiting again, which means,
 
 0:05:13.320,0:05:18.090
-in fact, that a new customer is coming for
-the customer case.
+in fact, that a new customer is
+coming for the customer case.
 
 0:05:18.090,0:05:26.360
 So when the customer is busy and the space
@@ -172,8 +172,8 @@ aside, and
 then there is space again.
 
 0:05:40.259,0:05:45.710
-We can think about how the second space becomes
-full.
+We can think about how the
+second space becomes full.
 
 0:05:45.710,0:05:54.110
 So the second space basically becomes full
@@ -183,16 +183,16 @@ when goods will be shifted from place one
 to place two.
 
 0:05:55.770,0:06:01.420
-So, this transition should probably represent
-a state.
+So, this transition should
+probably represent a state.
 
 0:06:01.420,0:06:13.710
-This means we have goods in space one, but
-we don't have goods in space two.
+This means we have goods in space one,
+but we don't have goods in space two.
 
 0:06:13.710,0:06:24.050
-because they can only be shifted if the first
-space is empty.
+because they can only be shifted
+if the first space is empty.
 
 0:06:24.050,0:06:29.620
 because if there are goods in space two, then
@@ -210,8 +210,8 @@ That means space one should be empty afterwards,
 and space two should be full afterwards.
 
 0:07:01.620,0:07:09.879
-And then again, we can think about the process
-of how space two becomes empty.
+And then again, we can think about the
+process of how space two becomes empty.
 
 0:07:09.879,0:07:18.970
 So, we have a representation for getting it
@@ -224,8 +224,8 @@ it empty again.
 And therefore, we need the cashier.
 
 0:07:28.150,0:07:36.009
-The cashier can only process goods if he is
-waiting, and place two of the conveyor
+The cashier can only process goods if he
+is waiting, and place two of the conveyor
 
 0:07:36.009,0:07:38.470
 belt is not empty.
@@ -263,8 +263,8 @@ And after a short waiting time, again, as
 it was for the customer, the busy cashier
 
 0:08:45.170,0:08:54.620
-will also become waiting again, and therefore
-we have this transition here.
+will also become waiting again, and
+therefore we have this transition here.
 
 0:08:54.620,0:08:58.990
 And now we are done with our Petri net.
@@ -314,8 +314,8 @@ And this transition can only be active if
 there is something within this place here.
 
 0:10:30.589,0:10:41.870
-So as it is required that we have a token
-in this place here, and a token in here because
+So as it is required that we have a token in
+this place here, and a token in here because
 
 0:10:41.870,0:10:44.340
 of these connections here.
@@ -325,8 +325,8 @@ So this means it could now process this by
 activating this or firing this transition,
 
 0:10:54.650,0:11:02.589
-which would take those two tokens, move one
-here and move one here.
+which would take those two tokens,
+move one here and move one here.
 
 0:11:02.589,0:11:12.430
 And again, after doing that, he could again
@@ -343,8 +343,8 @@ So this is what still persists also here.
 So we have just one token here and only one.
 
 0:11:27.280,0:11:40.800
-So there's not zero tokens, it's exactly
-one token in each column here.
+So there's not zero tokens, it's
+exactly one token in each column here.
 
 0:11:40.800,0:11:51.640
 And then finally this transition can only
@@ -355,16 +355,16 @@ And when we fire this transition, then we
 remove these tokens and place them here, as
 
 0:12:03.079,0:12:11.050
-the arrows indicate, and then the space becomes
-empty, but the cashier becomes busy.
+the arrows indicate, and then the space
+becomes empty, but the cashier becomes busy.
 
 0:12:11.050,0:12:18.080
 So still, it's the same picture, we only have
 four tokens within our graph, and we have
 
 0:12:18.080,0:12:25.060
-exactly four tokens within our graph, so they
-just shift.
+exactly four tokens within our
+graph, so they just shift.
 
 0:12:25.060,0:12:30.690
 And then again, this transition does also
@@ -378,8 +378,8 @@ So we have checked also that our graph is
 working as expected, in the sense that no
 
 0:12:47.550,0:13:02.440
-token is additionally added in while executing
-the graph, or that a token
+token is additionally added in while
+executing the graph, or that a token
 
 0:13:02.440,0:13:03.790
 gets completely removed.
@@ -389,5 +389,5 @@ We could check further interactions between
 those, but I think you get the picture of what's
 
 0:13:13.050,0:13:19.220
-going on and how you can check that your Petri
-Net is correct.
+going on and how you can check
+that your Petri Net is correct.
