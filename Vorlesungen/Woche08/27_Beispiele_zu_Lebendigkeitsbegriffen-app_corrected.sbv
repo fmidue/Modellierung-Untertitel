@@ -1,14 +1,14 @@
 0:00:02.310,0:00:07.740
-I would like to discuss with
-you, using some small artificial examples,
+I would like to discuss with you,
+using some small artificial examples,
 
 0:00:07.740,0:00:11.160
 the different properties that
 we have seen in
 
 0:00:11.160,0:00:17.280
-the context of liveness, and
-in particular look at combinations.
+the context of liveness, and in
+particular look at combinations.
 
 0:00:17.280,0:00:21.810
 So when can this property and that
@@ -21,8 +21,8 @@ First, let's look at this simple example.
 What do we have there?
 
 0:00:29.640,0:00:34.170
-Simply a small Petri net
-with two places and two transitions.
+Simply a small Petri net with
+two places and two transitions.
 
 0:00:35.100,0:00:38.250
 We can just fire this
@@ -48,8 +48,8 @@ That would move the token up here.
 These are all possibilities.
 
 0:00:55.950,0:01:00.780
-Of course, this can go on and on, but
-other processes than these are not possible at all.
+Of course, this can go on and on, but other
+processes than these are not possible at all.
 
 0:01:02.580,0:01:04.560
 What does this say about this Petri net?
@@ -62,8 +62,8 @@ There was the criterion
 that every transition that
 
 0:01:10.080,0:01:15.630
-occurs in the Petri net (in the case
-t1 and t2) can actually fire at some point.
+occurs in the Petri net (in the case t1
+and t2) can actually fire at some point.
 
 0:01:15.630,0:01:18.990
 That is, from the start
@@ -77,8 +77,8 @@ We have just seen that we can
 fire t1 and t2 in any case, and
 
 0:01:23.910,0:01:27.210
-relatively quickly: t1 in the first
-step, t2 in the second step.
+relatively quickly: t1 in the
+first step, t2 in the second step.
 
 0:01:27.210,0:01:28.830
 There are no other transitions at all.
@@ -98,8 +98,8 @@ case again to be checked separately
 for t1 and t2), and no matter
 
 0:01:43.350,0:01:48.840
-how long the Petri net has
-been executed (and evolved into some
+how long the Petri net has been
+executed (and evolved into some
 
 0:01:48.840,0:01:53.400
 marking), it is still possible from there
@@ -120,8 +120,8 @@ And there is also no development
 of the Petri net into a
 
 0:02:04.860,0:02:11.166
-situation, from which afterwards never
-again t1 or t2 is fireable.
+situation, from which afterwards
+never again t1 or t2 is fireable.
 
 0:02:11.166,0:02:12.170
 So this will also be true.
@@ -139,16 +139,16 @@ There is no situation that is reachable
 from which no single transition is fireable.
 
 0:02:23.360,0:02:28.850
-So here we would expect all
-three interesting properties we have seen
+So here we would expect all three
+interesting properties we have seen
 
 0:02:28.850,0:02:32.180
-to apply: weakly alive,
-strongly alive, and deadlock-free.
+to apply: weakly alive, strongly
+alive, and deadlock-free.
 
 0:02:32.180,0:02:38.180
-Can we also verify
-this on the reachability graph?
+Can we also verify this
+on the reachability graph?
 
 0:02:38.180,0:02:42.260
 We might want to draw that for a moment.
@@ -185,15 +185,15 @@ is how I take them when
 I use the tuple notation.
 
 0:03:09.980,0:03:17.930
-Therefore I can write here (1,0)
-as the marking, which is currently seen.
+Therefore I can write here (1,0) as
+the marking, which is currently seen.
 
 0:03:17.930,0:03:20.990
 If I were to take this one
 
 0:03:20.990,0:03:29.900
-step here, down here, that's a t1
-step down here, and there's the marking (0,1).
+step here, down here, that's a t1 step
+down here, and there's the marking (0,1).
 
 0:03:30.740,0:03:42.110
 Of course, I'll come back with
@@ -208,8 +208,8 @@ So what we see
 here is the reachability graph.
 
 0:03:52.040,0:03:57.890
-We can see from this, too,
-that the Petri net is weakly lively.
+We can see from this, too, that
+the Petri net is weakly lively.
 
 0:03:57.890,0:04:05.150
 Because for that to happen, every transition just
@@ -220,15 +220,15 @@ This is obviously the case
 here for both t1 and t2.
 
 0:04:07.130,0:04:12.740
-We can also read
-from this finite reachability graph
+We can also read from this
+finite reachability graph
 
 0:04:12.740,0:04:17.240
 that the Petri net is strongly alive.
 
 0:04:17.240,0:04:27.650
-For no matter where we are (whether here or
-here), it is always possible to execute t1 after possibly
+For no matter where we are (whether here or here),
+it is always possible to execute t1 after possibly
 
 0:04:27.650,0:04:32.137
 further steps, as well as to
@@ -258,15 +258,15 @@ Because of one of the
 statements on a slide, that a
 
 0:04:55.640,0:04:59.000
-Petri net, which is strongly alive,
-is always also weakly alive and deadlock-free.
+Petri net, which is strongly alive, is
+always also weakly alive and deadlock-free.
 
 0:05:01.700,0:05:04.130
 That would be our first example.
 
 0:05:04.130,0:05:11.150
-Let's look at another example that just
-doesn't exactly satisfy all of those three properties.
+Let's look at another example that just doesn't
+exactly satisfy all of those three properties.
 
 0:05:11.930,0:05:16.670
 We will now see examples that each
@@ -276,8 +276,8 @@ have at most some of these properties.
 What about this Petri net?
 
 0:05:21.950,0:05:25.010
-It doesn't have all three
-of the properties we just saw.
+It doesn't have all three of
+the properties we just saw.
 
 0:05:25.010,0:05:26.660
 Which one does it not have?
@@ -291,8 +291,8 @@ Because if it had that, it
 would also have the other two.
 
 0:05:34.490,0:05:38.600
-Then it would not be true that
-it does not have all three properties.
+Then it would not be true that it
+does not have all three properties.
 
 0:05:38.600,0:05:42.860
 So, how can this Petri net behave?
@@ -316,8 +316,8 @@ Then it would still be possible
 to execute t3 any number of times.
 
 0:06:03.560,0:06:07.925
-In particular, this Petri
-net is obviously deadlock-free.
+In particular, this Petri net
+is obviously deadlock-free.
 
 0:06:07.925,0:06:12.521
 Even back here, we can still
@@ -328,8 +328,8 @@ So we can already
 state that it is deadlock-free.
 
 0:06:18.110,0:06:23.630
-Of course, we can again convince
-ourselves of this by the reachability graph.
+Of course, we can again convince ourselves
+of this by the reachability graph.
 
 0:06:23.630,0:06:26.120
 So let's set it up.
@@ -362,8 +362,8 @@ What are the transitions?
 First of all, this is the start marking.
 
 0:07:13.230,0:07:19.470
-There is the t1 transition
-from the start marking to itself.
+There is the t1 transition from
+the start marking to itself.
 
 0:07:19.470,0:07:25.110
 There is the t2 transition from
@@ -398,8 +398,8 @@ which it can't continue.
 That's true.
 
 0:07:57.690,0:08:01.890
-What's also true, that's
-the interesting observation here:
+What's also true, that's the
+interesting observation here:
 
 0:08:01.890,0:08:06.120
 This Petri net is weakly alive.
@@ -427,8 +427,8 @@ which this transition is fireable.
 But this Petri net is not strongly alive.
 
 0:08:29.580,0:08:38.640
-What this example also gives us
-is that while strong liveness implies weak liveness
+What this example also gives us is that
+while strong liveness implies weak liveness
 
 0:08:38.640,0:08:40.230
 and deadlock freedom, not
@@ -454,16 +454,16 @@ Let's think back to the definition.
 Strong liveness would mean:
 
 0:08:59.120,0:09:05.960
-For every transition t and every
-marking m reachable from the start marking m0,
+For every transition t and every marking
+m reachable from the start marking m0,
 
 0:09:05.960,0:09:11.870
 there must be a marking m' reachable
 from m in which t is activated.
 
 0:09:11.870,0:09:16.970
-If we say that this Petri net
-is not strongly alive, then we must ask
+If we say that this Petri net is
+not strongly alive, then we must ask
 
 0:09:16.970,0:09:19.580
 for which t this statement is not true.
@@ -490,8 +490,8 @@ What do we have here?
 This is our m0, and we consider t1.
 
 0:09:46.550,0:09:54.530
-Then for strong liveness, it would have to
-be true that for every marking m reachable from
+Then for strong liveness, it would have to be
+true that for every marking m reachable from
 
 0:09:54.530,0:10:03.170
 m0 (for example, for this one), it
@@ -502,28 +502,28 @@ marking (or the current marking itself),
 so that t1 is fireable from there.
 
 0:10:08.270,0:10:13.970
-But in fact, t1 is
-never fireable again from here.
+But in fact, t1 is never
+fireable again from here.
 
 0:10:13.970,0:10:19.970
 Thus, by definition, this Petri
 net is just not strongly alive.
 
 0:10:19.970,0:10:25.340
-Because there is a node
-in the reachability graph (namely
+Because there is a node in
+the reachability graph (namely
 
 0:10:25.340,0:10:30.410
 this one) from which, no matter how hard
 we try, we will never fire t1 again.
 
 0:10:32.660,0:10:39.440
-The same explanation would have
-been true for t2 as well.
+The same explanation would
+have been true for t2 as well.
 
 0:10:40.920,0:10:44.220
-So deadlock-free, weakly alive,
-but not strongly alive.
+So deadlock-free, weakly
+alive, but not strongly alive.
 
 0:10:49.200,0:10:53.610
 Let's look at one more example, this one.
@@ -535,8 +535,8 @@ What can happen here?
 We have this token up here.
 
 0:10:59.220,0:11:04.770
-On the one hand, it can constantly move
-here by means of t1, so to speak.
+On the one hand, it can constantly
+move here by means of t1, so to speak.
 
 0:11:04.770,0:11:07.410
 So actually, the marking
@@ -550,8 +550,8 @@ to exactly the same marking.
 Or we can try to fire t2.
 
 0:11:16.560,0:11:22.260
-However, that won't work, because t2
-would need a token from here
+However, that won't work, because
+t2 would need a token from here
 
 0:11:22.260,0:11:25.830
 (which is present) as well
@@ -565,8 +565,8 @@ If we draw the reachability graph here,
 it is very simple and very small.
 
 0:11:36.570,0:11:42.840
-In fact, there is only this
-one marking here, the start marking.
+In fact, there is only this one
+marking here, the start marking.
 
 0:11:42.840,0:11:46.770
 Namely, one token on s1 and none on s2.
@@ -585,8 +585,8 @@ only at this start marking.
 That is:
 
 0:12:02.550,0:12:05.970
-What you can see here on
-the right is the entire reachability graph.
+What you can see here on the right
+is the entire reachability graph.
 
 0:12:05.970,0:12:11.970
 You can then also
@@ -600,31 +600,31 @@ No, it is not, because
 you can never fire t2.
 
 0:12:18.000,0:12:23.670
-Because there is no edge with
-t2 label in the whole reachability graph.
+Because there is no edge with t2
+label in the whole reachability graph.
 
 0:12:23.670,0:12:29.670
 So in fact it is not weakly lively.
 
 0:12:29.670,0:12:34.080
-It can therefore also not be
-strongly live, of course.
+It can therefore also not
+be strongly live, of course.
 
 0:12:34.080,0:12:43.380
 We already know that, because any strongly
 alive Petri net would be weakly alive.
 
 0:12:43.380,0:12:50.970
-So not weakly alive,
-not strongly alive, but deadlock-free.
+So not weakly alive, not strongly
+alive, but deadlock-free.
 
 0:12:52.570,0:12:59.770
-The fact that s2 prevents us from t2, so
-to speak, and therefore t2 can never be executed,
+The fact that s2 prevents us from t2, so to
+speak, and therefore t2 can never be executed,
 
 0:12:59.770,0:13:03.400
-does not mean that the
-Petri net would have a deadlock.
+does not mean that the Petri
+net would have a deadlock.
 
 0:13:03.400,0:13:08.260
 After all, we can
@@ -637,15 +637,15 @@ Or to put it another way:
 In the reachability graph we see
 
 0:13:11.200,0:13:14.020
-here, there is no node
-from which it cannot continue.
+here, there is no node from
+which it cannot continue.
 
 0:13:14.020,0:13:15.370
 There is only one node anyway.
 
 0:13:15.370,0:13:18.100
-And from that one it goes
-on, even if always only to itself.
+And from that one it goes on,
+even if always only to itself.
 
 0:13:21.940,0:13:25.420
 That captures this combination.
@@ -677,19 +677,19 @@ So this is already
 not going to be deadlock-free.
 
 0:13:58.390,0:14:01.030
-Because we have a
-clearly recognizable situation here,
+Because we have a clearly
+recognizable situation here,
 
 0:14:01.030,0:14:02.890
 where no transition can be fired anymore.
 
 0:14:02.890,0:14:10.540
-So we can already state that
-this Petri net contains a deadlock.
+So we can already state that this
+Petri net contains a deadlock.
 
 0:14:10.540,0:14:16.630
-Although not in the start
-situation, but a deadlock is attainable.
+Although not in the start situation,
+but a deadlock is attainable.
 
 0:14:16.630,0:14:20.380
 Then we also know:
@@ -706,8 +706,8 @@ Now the question would be whether
 it is at least weakly alive.
 
 0:14:37.570,0:14:42.550
-We have just seen that
-yes, every transition can be executed
+We have just seen that yes,
+every transition can be executed
 
 0:14:42.550,0:14:47.500
 at least once, in
@@ -718,15 +718,15 @@ If we again refer
 to the reachability graph
 
 0:14:53.080,0:14:58.420
-and want to use that, then we
-know here that there are two nodes.
+and want to use that, then we know
+here that there are two nodes.
 
 0:14:58.420,0:15:03.490
 There is again the start marking (1,0).
 
 0:15:03.490,0:15:17.740
-From there, we can get back
-to the same marking with t1, or
+From there, we can get back to
+the same marking with t1, or
 
 0:15:17.740,0:15:23.590
 to the other marking with t2.
@@ -746,20 +746,20 @@ Because every transition
 drawn in the Petri
 
 0:15:39.310,0:15:43.840
-net, both t1 and t2,
-occurs in the reachability graph.
+net, both t1 and t2, occurs
+in the reachability graph.
 
 0:15:47.590,0:15:55.810
-If you have now followed
-the combinations, and given that strong
+If you have now followed the
+combinations, and given that strong
 
 0:15:55.810,0:15:59.530
 liveness implies weak liveness
 and deadlock-freedom (and
 
 0:15:59.530,0:16:05.440
-so we cannot present
-all eight combinations that would
+so we cannot present all
+eight combinations that would
 
 0:16:11.440,0:16:15.730
 respectively result from alternations of
@@ -805,8 +805,8 @@ What can happen here?
 We can execute t1 exactly once.
 
 0:16:52.090,0:16:56.950
-Then we have reached a
-new marking where nothing can happen.
+Then we have reached a new
+marking where nothing can happen.
 
 0:17:00.190,0:17:04.720
 So what does the
@@ -820,16 +820,16 @@ finite again and very small.
 It has two markings.
 
 0:17:09.670,0:17:14.140
-Each marking consists now of a triple, because
-we have the three places s1, s2, s3.
+Each marking consists now of a triple,
+because we have the three places s1, s2, s3.
 
 0:17:14.140,0:17:19.560
 That means, the start marking,
 which we draw here on
 
 0:17:19.560,0:17:26.010
-the left, has this form: one token on
-s1 and no tokens on s2 and s3.
+the left, has this form: one token
+on s1 and no tokens on s2 and s3.
 
 0:17:26.010,0:17:29.850
 Then we can fire t1.
@@ -845,8 +845,8 @@ s1, one token on s2 and nothing on s3.
 And that's it.
 
 0:17:42.300,0:17:44.760
-From this marking, we had
-just seen, you can't do anything.
+From this marking, we had just
+seen, you can't do anything.
 
 0:17:44.760,0:17:46.320
 Neither fire t1 nor fire t2.
@@ -875,8 +875,8 @@ Therefore: not weakly alive.
 Logically, not strongly alive either.
 
 0:18:11.880,0:18:16.860
-This follows, among other things, from the
-fact that it is not weakly alive.
+This follows, among other things, from
+the fact that it is not weakly alive.
 
 0:18:16.860,0:18:19.590
 And what about deadlocks?
@@ -892,16 +892,16 @@ seen, we have reached a deadlock.
 It contains a deadlock.
 
 0:18:27.630,0:18:34.170
-So that's still the last property (of
-the three properties we're looking at) that's here.
+So that's still the last property (of the
+three properties we're looking at) that's here.
 
 0:18:40.560,0:18:44.310
 This is exactly the combination that we
 didn't have before in the other examples.
 
 0:18:50.080,0:18:54.130
-So now we have seen five
-examples here and we can classify them.
+So now we have seen five examples
+here and we can classify them.
 
 0:18:54.130,0:19:00.100
 For the three considered
@@ -929,8 +929,8 @@ There are weakly alive nets,
 deadlock-free nets, strongly alive nets.
 
 0:19:23.140,0:19:26.860
-These are all strict subsets of
-the set of all Petri nets.
+These are all strict subsets
+of the set of all Petri nets.
 
 0:19:30.160,0:19:33.040
 Because there are also Petri nets that
@@ -940,8 +940,8 @@ don't have any of those three properties.
 If we go back to this last Petri net:
 
 0:19:39.670,0:19:43.030
-This is not weakly alive,
-not strongly alive, and not deadlock-free.
+This is not weakly alive, not
+strongly alive, and not deadlock-free.
 
 0:19:43.030,0:19:48.760
 That is, that would live
@@ -959,24 +959,24 @@ or desirable properties.
 Also, we know that it is true,
 
 0:20:00.910,0:20:04.810
-that any net that is strongly
-live is also deadlock-free and weakly live.
+that any net that is strongly live is
+also deadlock-free and weakly live.
 
 0:20:04.810,0:20:11.170
-This is represented by the fact
-that this is a (strict) subset of the
+This is represented by the fact that
+this is a (strict) subset of the
 
 0:20:12.640,0:20:17.080
 intersection of deadlock-free
 and weakly live nets.
 
 0:20:17.080,0:20:23.980
-You can tell that this is a strict
-subset by the fact that there are also Petri
+You can tell that this is a strict subset
+by the fact that there are also Petri
 
 0:20:23.980,0:20:29.140
-nets that reside here, that is, they are deadlock-free
-and weakly live, but not strongly live.
+nets that reside here, that is, they are
+deadlock-free and weakly live, but not strongly live.
 
 0:20:29.140,0:20:32.020
 And we saw an example of that as well.
@@ -995,24 +995,24 @@ that is deadlock-free and weakly
 live, but not strongly live.
 
 0:20:52.250,0:21:02.300
-This example would live at
-this point in this Venn diagram.
+This example would live at this
+point in this Venn diagram.
 
 0:21:03.110,0:21:05.510
-Also for all other
-somehow interesting positions here we
+Also for all other somehow
+interesting positions here we
 
 0:21:05.510,0:21:11.450
 find an example in each case
 among the Petri nets just seen.
 
 0:21:11.450,0:21:17.120
-So for example a net, which is free
-of deadlock, but is neither strongly, nor weakly alive.
+So for example a net, which is free of deadlock,
+but is neither strongly, nor weakly alive.
 
 0:21:17.120,0:21:22.670
-Or a net which is weakly
-alive, but neither strongly alive, nor deadlock-free.
+Or a net which is weakly alive, but
+neither strongly alive, nor deadlock-free.
 
 0:21:25.100,0:21:27.890
 This justifies that this set

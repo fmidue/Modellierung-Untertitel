@@ -10,8 +10,8 @@ Sie die neu deklarierte Operation zusammen
 mit welchen aus der Vorlesung, um einen Term
 
 0:00:14.879,0:00:19.230
-anzugeben, der in etwa das folgende Bild
-beschreibt.
+anzugeben, der in etwa das
+folgende Bild beschreibt.
 
 0:00:19.230,0:00:21.770
 Erklären Sie kurz, warum dies der Fall ist.
@@ -20,16 +20,16 @@ Erklären Sie kurz, warum dies der Fall ist.
 Die genauen Zahlenwerte sind nicht so wichtig.
 
 0:00:24.250,0:00:28.570
-Die eingezeichneten Koordinaten dienen lediglich
-als Anhaltspunkte.“
+Die eingezeichneten Koordinaten
+dienen lediglich als Anhaltspunkte.“
 
 0:00:28.570,0:00:35.290
-In Teilaufgabe (a) wurde schon ein Vieleck
-deklariert.
+In Teilaufgabe (a) wurde
+schon ein Vieleck deklariert.
 
 0:00:35.290,0:00:42.090
-Int steht hier für die Anzahl der Kanten, in
-diesem Fall sind es sieben.
+Int steht hier für die Anzahl der
+Kanten, in diesem Fall sind es sieben.
 
 0:00:42.090,0:00:45.320
 Float steht für den Radius, in diesem Fall 2.
@@ -38,7 +38,8 @@ Float steht für den Radius, in diesem Fall 2.
 Am Ende bekommen wir daraus ein Picture.
 
 0:00:48.130,0:00:51.560
-Jetzt sollen wir das Ganze in die Praxis umsetzen.
+Jetzt sollen wir das Ganze
+in die Praxis umsetzen.
 
 0:00:51.560,0:00:57.020
 Dafür werden wir die "CodeWorld"-Webseite benutzen
@@ -73,8 +74,8 @@ Dann machen wir weiter.
 Dann brauchen wir auch dieses Teil.
 
 0:01:39.549,0:01:45.460
-Das ist ein Siebeneck und der Radius beträgt
-eine Einheit.
+Das ist ein Siebeneck und der
+Radius beträgt eine Einheit.
 
 0:01:45.460,0:01:48.380
 Deswegen schreiben wir das auf.
@@ -84,8 +85,8 @@ Deswegen müssen wir diesen Operator benutzen,
 den ihr ja schon in der Vorlesung kennengelernt
 
 0:02:00.509,0:02:01.719
-habt. Der Operator verbindet zwei
-Objekte vom Typ Picture.
+habt. Der Operator verbindet
+zwei Objekte vom Typ Picture.
 
 0:02:01.719,0:02:10.720
 & vieleck (7,1).
@@ -98,8 +99,8 @@ Zwei Figuren sind schon richtig, aber was
 wir noch verändern müssen, ist, dass dieses
 
 0:02:24.150,0:02:28.650
-kleine Vieleck noch nach oben geschoben werden
-soll.
+kleine Vieleck noch nach
+oben geschoben werden soll.
 
 0:02:28.650,0:02:33.040
 Dazu brauchen wir eine Operation, die auch
@@ -129,8 +130,8 @@ Wie wir das hier sehen.
 Das Picture war hier in der Mitte.
 
 0:03:11.269,0:03:14.400
-Dann müssen wir das drei Einheiten nach oben
-schieben.
+Dann müssen wir das drei
+Einheiten nach oben schieben.
 
 0:03:14.400,0:03:25.700
 Also: move( vieleck (7,1), 0, 3).

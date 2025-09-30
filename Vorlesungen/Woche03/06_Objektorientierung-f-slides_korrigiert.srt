@@ -34,7 +34,8 @@ Eventuell aus der Schule bekannt,
 wenn Sie da Informatikunterricht
 
 00:00:44,490 --> 00:00:48,930
-hatten und dort objektorientiert gearbeitet wurde.
+hatten und dort objektorientiert
+gearbeitet wurde.
 
 00:00:48,930 --> 00:00:51,840
 Eventuell könnten Sie auch
@@ -176,7 +177,8 @@ Spezifikation von Softwaresystemen benutzt,
 insbesondere objektorientierten Softwaresystemen.
 
 00:03:35,850 --> 00:03:40,410
-In Hinsicht auf sozusagen die Durchsichtigkeit der
+In Hinsicht auf sozusagen
+die Durchsichtigkeit der
 
 00:03:40,410 --> 00:03:45,930
 Modelle gibt es sowohl Whitebox-
@@ -202,7 +204,8 @@ Also das ist keine mathematische
 Modellierung und nicht sehr formal.
 
 00:04:00,270 --> 00:04:04,500
-Die Syntax ist noch einigermaßen formal definiert.
+Die Syntax ist noch
+einigermaßen formal definiert.
 
 00:04:04,500 --> 00:04:06,030
 Also es ist irgendwo festgehalten,
@@ -407,7 +410,8 @@ Aber es gibt noch die Unterscheidungen
 qualitativ/quantitativ, Blackbox/Whitebox, etc.
 
 00:07:56,770 --> 00:07:58,840
-Und von allen taucht hier irgendwo auch etwas auf.
+Und von allen taucht hier
+irgendwo auch etwas auf.
 
 00:07:58,840 --> 00:08:03,160
 Also es gibt hier Diagramme, die eher
@@ -554,14 +558,16 @@ Das klingt erst mal weniger spannend
 als die Modellierung des Verhaltens.
 
 00:10:11,370 --> 00:10:13,290
-Dynamische Modellierung ist immer anspruchsvoller.
+Dynamische Modellierung
+ist immer anspruchsvoller.
 
 00:10:13,290 --> 00:10:15,000
 Deswegen beginnen wir auch
 mit statischer Modellierung.
 
 00:10:15,000 --> 00:10:17,070
-Aber, wie auch in der letzten Woche schon gesehen,
+Aber, wie auch in der
+letzten Woche schon gesehen,
 
 00:10:17,070 --> 00:10:20,910
 kann man das überhaupt erst
@@ -624,7 +630,8 @@ Vererbung zum Beispiel ist Ihnen
 eventuell ein Begriff, wenn Sie in
 
 00:11:18,000 --> 00:11:21,300
-der Schule zum Beispiel mit Java gearbeitet haben.
+der Schule zum Beispiel
+mit Java gearbeitet haben.
 
 00:11:21,300 --> 00:11:24,060
 Und Vererbung ist erst mal ganz nett,
@@ -638,7 +645,8 @@ Einfach weil es in der
 Programmiersprache vorhanden ist,
 
 00:11:32,550 --> 00:11:34,020
-heißt das nicht, dass man es überall benutzen muss.
+heißt das nicht, dass man
+es überall benutzen muss.
 
 00:11:34,020 --> 00:11:40,140
 Und ein klares Design, eine klare Modellierung
@@ -794,7 +802,8 @@ Aber es war nicht so, dass die Methoden
 direkt an die Bilder gekoppelt waren.
 
 00:14:31,730 --> 00:14:34,850
-Das werden wir gleich noch einmal im Kontrast sehen.
+Das werden wir gleich noch
+einmal im Kontrast sehen.
 
 00:14:38,450 --> 00:14:40,610
 Und wichtig:
@@ -842,8 +851,8 @@ noch einmal in Erinnerung gerufenen
 Beispieldomäne, der Vektorgrafik.
 
 00:15:30,040 --> 00:15:36,730
-Und wir stellen uns einmal vor, dass wir
-ein kleines Bild beschreiben wollen,
+Und wir stellen uns einmal vor, dass
+wir ein kleines Bild beschreiben wollen,
 
 00:15:36,730 --> 00:15:41,710
 das irgendwie schrittweise aus
@@ -873,7 +882,8 @@ Also jetzt ein rotes Rechteck mit diesen Maßen.
 Dann rotieren wir das noch.
 
 00:16:00,130 --> 00:16:03,340
-Kriegen ein neues Bild p3 und bewegen dieses Bild p3
+Kriegen ein neues Bild p3
+und bewegen dieses Bild p3
 
 00:16:03,340 --> 00:16:10,240
 um irgendwelche x/y-Koordinaten und
@@ -985,7 +995,8 @@ Sondern man arbeitet auf einem Bild,
 das automatisch weitergereicht wird.
 
 00:18:03,100 --> 00:18:05,740
-Das ist einerseits etwas kürzer, könnte man sagen.
+Das ist einerseits etwas
+kürzer, könnte man sagen.
 
 00:18:05,740 --> 00:18:09,130
 Hat aber natürlich durchaus auch Nachteile.
@@ -1161,7 +1172,8 @@ Aber dieser Natur werden unsere Methoden/Angaben
 sein und nicht dieser eher mathematischen Natur.
 
 00:21:29,220 --> 00:21:37,030
-Das ist auch nicht exakt zum Beispiel Java-Syntax.
+Das ist auch nicht exakt
+zum Beispiel Java-Syntax.
 
 00:21:37,030 --> 00:21:38,770
 Da würden noch ein paar Annotationen fehlen,
@@ -1394,7 +1406,8 @@ in so einem Multitasking-
 oder nebenläufigen Umfeld.
 
 00:25:57,920 --> 00:26:02,030
-Deswegen, unter anderem, wird das gern eingesetzt.
+Deswegen, unter anderem,
+wird das gern eingesetzt.
 
 00:26:05,930 --> 00:26:08,837
 Und natürlich auch die Ursprungsmotivation:
@@ -1480,7 +1493,8 @@ das man dann eben durch objektorientierte
 Modellierung auch in UML nachbilden möchte.
 
 00:27:37,610 --> 00:27:43,100
-Als Konzepte werden dann zwei Begriffe auftauchen:
+Als Konzepte werden dann
+zwei Begriffe auftauchen:
 
 00:27:43,100 --> 00:27:43,430
 Objekt.

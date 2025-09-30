@@ -70,8 +70,8 @@ has the attributes director and main actor in
 our class diagram. So, we need those as well.
 
 0:02:16.440,0:02:22.140
-They are given in the text as well. The director
-of that film is Volkert Mort. So, we have 'director'.
+They are given in the text as well. The director of
+that film is Volkert Mort. So, we have 'director'.
 
 0:02:28.080,0:02:30.000
 The main actor is Harry Topper.
@@ -197,8 +197,8 @@ and underline it. And seats have numbers. So, put
 seat number one for the attributes. And another
 
 0:06:44.400,0:06:54.840
-one, which is going to be seat number two, which
-is going to be our two booked seats. Both of those are
+one, which is going to be seat number two, which is
+going to be our two booked seats. Both of those are
 
 0:06:54.840,0:07:07.920
 connected to booking via an aggregation,
@@ -280,8 +280,8 @@ here. So, you can pull a normal line to the room.
 And once again, copy this label here, which tells
 
 0:09:50.460,0:09:56.760
-us that on this date there is something
-happening in that room.
+us that on this date there is
+something happening in that room.
 
 0:09:57.900,0:10:04.320
 And looking at our task description again. See

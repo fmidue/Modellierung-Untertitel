@@ -154,7 +154,8 @@ Und dann muss es wegen dieser
 Angabe auch ein A-Objekt geben,
 
 0:03:50.560,0:03:55.330
-das mit dem gegebenen C-Objekt in Beziehung steht.
+das mit dem gegebenen
+C-Objekt in Beziehung steht.
 
 0:03:55.330,0:03:57.670
 Es muss dann hier so eine Verbindung geben.
@@ -294,7 +295,8 @@ Da hätte ich dann angenommen, dass da "0..*"
 steht, also beliebig viele Teile erlaubt.
 
 0:06:33.660,0:06:35.730
-Was wäre jetzt die andere Alternative für ein Rad?
+Was wäre jetzt die andere
+Alternative für ein Rad?
 
 0:06:35.730,0:06:38.190
 Sagen wir, ein Rad ist zwar meistens,

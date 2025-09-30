@@ -177,7 +177,8 @@ ist oder t2, irgendwann ist für
 jede Transition das erste Schalten.
 
 00:03:42,970 --> 00:03:44,410
-Davor kann sie nicht schon geschaltet worden sein.
+Davor kann sie nicht schon
+geschaltet worden sein.
 
 00:03:44,410 --> 00:03:48,250
 Also interessant ist das hier für
@@ -246,7 +247,8 @@ erreichbar ist, in denen t1 nicht vorkommt.
 Dann wäre t1 keine notwendige Bedingung.
 
 00:04:48,740 --> 00:04:51,890
-Anderenfalls wäre t1 eine notwendige Bedingung für t2.
+Anderenfalls wäre t1 eine
+notwendige Bedingung für t2.
 
 00:04:54,230 --> 00:04:56,420
 Schauen wir uns das an einem Beispiel an.
@@ -273,8 +275,8 @@ Zunächst muss in diesem
 Petrinetz t1 geschaltet werden.
 
 00:05:15,260 --> 00:05:18,530
-Und daraus folgt schon, dass t1
-eine notwendige Bedingung für die anderen ist.
+Und daraus folgt schon, dass t1 eine
+notwendige Bedingung für die anderen ist.
 
 00:05:18,530 --> 00:05:21,140
 Jeder Ablauf, der möglich wäre, wäre derart:
@@ -325,7 +327,8 @@ Es taucht jedoch durchaus t2 auf,
 ohne dass vorher t3 auftaucht.
 
 00:06:11,490 --> 00:06:14,100
-Das heißt, t1 ist eine notwendige Bedingung für t2,
+Das heißt, t1 ist eine
+notwendige Bedingung für t2,
 
 00:06:14,100 --> 00:06:18,060
 aber weder t3 ist eine notwendige
@@ -344,8 +347,8 @@ Also zum Beispiel könnte man es
 auch für t2 und t3 feststellen,
 
 00:06:35,490 --> 00:06:39,570
-aber ich habe hier aufgeschrieben:
-t1 ist eine notwendige Bedingung für t4.
+aber ich habe hier aufgeschrieben: t1
+ist eine notwendige Bedingung für t4.
 
 00:06:39,570 --> 00:06:46,890
 Schauen wir uns das auch tatsächlich im
@@ -460,8 +463,8 @@ und für alle Kombinationen
 von Transitionen nachprüfen:
 
 00:08:46,530 --> 00:08:51,030
-Ist denn diese Transition eine notwendige
-Bedingung für jene Transition?
+Ist denn diese Transition eine
+notwendige Bedingung für jene Transition?
 
 00:08:53,490 --> 00:08:55,740
 Das wird natürlich auch geübt
@@ -513,8 +516,8 @@ Wenn etwas notwendig ist, und
 das, was damit erreicht wird,
 
 00:09:48,090 --> 00:09:52,830
-ist notwendig für etwas anderes, dann
-ist auch in dem Fall t1 notwendig für t3.
+ist notwendig für etwas anderes, dann ist
+auch in dem Fall t1 notwendig für t3.
 
 00:09:52,830 --> 00:09:57,270
 Sozusagen umgekehrt gilt das nicht unbedingt.
@@ -540,5 +543,5 @@ und auch t1 notwendig für t4, aber
 weder t2 noch t3 waren notwendig für t4.
 
 00:10:22,170 --> 00:10:28,230
-Also, das gilt nur in dieser Wenn-Dann-Richtung,
-nicht in der Gegenrichtung.
+Also, das gilt nur in dieser
+Wenn-Dann-Richtung, nicht in der Gegenrichtung.

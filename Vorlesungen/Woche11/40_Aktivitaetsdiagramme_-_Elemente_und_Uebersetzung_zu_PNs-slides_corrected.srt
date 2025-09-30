@@ -3,32 +3,32 @@
 So, we have just seen this example.
 
 00:00:03,390 --> 00:00:08,550
-And I had already made a few
-hints in the direction of Petri nets.
+And I had already made a few hints
+in the direction of Petri nets.
 
 00:00:08,550 --> 00:00:14,520
-And in fact, in what follows, we're
-going to compare the individual elements of
+And in fact, in what follows, we're going
+to compare the individual elements of
 
 00:00:14,520 --> 00:00:19,170
 activity diagrams, their constituents, to
 Petri net constituents, borrowing from
 
 00:00:19,170 --> 00:00:24,870
-a semantics found in the literature
-for at least parts of activity diagrams.
+a semantics found in the literature for
+at least parts of activity diagrams.
 
 00:00:24,870 --> 00:00:29,760
-We're not going to use that in the
-sense of really examining that semantically, but we're
+We're not going to use that in the sense of
+really examining that semantically, but we're
 
 00:00:29,760 --> 00:00:35,550
 going to use that correspondence to explain
 the activity diagram elements in the process.
 
 00:00:35,550 --> 00:00:39,690
-And we'll always do that
-for the individual elements in general,
+And we'll always do that for the
+individual elements in general,
 
 00:00:39,690 --> 00:00:42,510
 but also related to this example.
@@ -54,8 +54,8 @@ diagrams, because we know for Petri
 nets what the respective meaning is.
 
 00:01:06,180 --> 00:01:12,150
-Okay, so what are the first
-kind of nodes in activity diagrams?
+Okay, so what are the first kind
+of nodes in activity diagrams?
 
 00:01:12,150 --> 00:01:15,120
 Those were these action
@@ -78,31 +78,31 @@ O.k. and that corresponds very directly
 in Petri nets simply to transitions.
 
 00:01:36,660 --> 00:01:39,480
-In Petri nets, transitions looked like
-this and could have a name.
+In Petri nets, transitions looked
+like this and could have a name.
 
 00:01:39,480 --> 00:01:42,900
-So an action from
-an activity diagram would just be
+So an action from an activity
+diagram would just be
 
 00:01:42,900 --> 00:01:45,990
-a transition with the appropriate
-name in a Petri net.
+a transition with the
+appropriate name in a Petri net.
 
 00:01:45,990 --> 00:01:49,830
 And because it's about action, you
 could take as such an indication
 
 00:01:49,830 --> 00:01:54,750
-that you usually then have names there
-that somehow correspond to activities or verbs.
+that you usually then have names there that
+somehow correspond to activities or verbs.
 
 00:01:54,750 --> 00:01:56,610
 Yes, like here "creating".
 
 00:01:56,610 --> 00:02:04,410
-Okay, the intuition is
-that actions stand for activities.
+Okay, the intuition is that
+actions stand for activities.
 
 00:02:04,410 --> 00:02:06,315
 Something that takes time.
@@ -111,8 +111,8 @@ Something that takes time.
 Yes, we think again of workflow,
 
 00:02:07,530 --> 00:02:13,320
-so to speak, the
-description of successive individual steps.
+so to speak, the description
+of successive individual steps.
 
 00:02:13,320 --> 00:02:16,650
 Then each individual step is
@@ -123,8 +123,8 @@ Which perhaps takes a while, which represents
 an action, like the transitions in Petri nets.
 
 00:02:25,500 --> 00:02:27,240
-So, that would just be
-a different representation, so to speak.
+So, that would just be a different
+representation, so to speak.
 
 00:02:27,240 --> 00:02:28,350
 So that's still quite simple.
@@ -133,20 +133,20 @@ So that's still quite simple.
 Actions are transitions.
 
 00:02:30,450 --> 00:02:36,750
-Okay, then there were
-the connections between actions.
+Okay, then there were the
+connections between actions.
 
 00:02:36,750 --> 00:02:38,280
 Those were these arrows.
 
 215 # slide
 00:02:38,280 --> 00:02:42,900
-That would be the control flow
-or at some point then object flow.
+That would be the control flow or
+at some point then object flow.
 
 00:02:42,900 --> 00:02:47,640
-If we have object nodes, we will take
-the tokens then not only simply as markers.
+If we have object nodes, we will take the
+tokens then not only simply as markers.
 
 00:02:47,640 --> 00:02:53,010
 As markers where the focus
@@ -169,8 +169,8 @@ Then we're talking more about the
 object flow.
 
 00:03:04,830 --> 00:03:08,130
-But the point is: There is this flow,
-primarily between actions.
+But the point is: There is this
+flow, primarily between actions.
 
 00:03:08,130 --> 00:03:11,760
 How can we represent that in a Petri net?
@@ -180,12 +180,12 @@ Well, in the Petri
 net, after all, there can
 
 00:03:14,310 --> 00:03:17,580
-be no connection, no linkage
-from a transition to a transition.
+be no connection, no linkage from
+a transition to a transition.
 
 00:03:17,580 --> 00:03:21,120
-Yes, if we translate action as
-transitions, then "Choose building site" would
+Yes, if we translate action as transitions,
+then "Choose building site" would
 
 00:03:21,120 --> 00:03:25,950
 be a transition, "Find architect"
@@ -200,8 +200,8 @@ diagram, because in Petri nets transitions
 and places must always occur alternately.
 
 00:03:33,390 --> 00:03:39,390
-Therefore there will be
-a so-called auxiliary place here (elsewhere later also auxiliary transitions).
+Therefore there will be a so-called auxiliary place
+here (elsewhere later also auxiliary transitions).
 
 00:03:39,390 --> 00:03:42,420
 So on the Petri net side there
@@ -212,12 +212,12 @@ a name, which is not directly motivated by
 anything that occurs here in the activity diagram.
 
 00:03:46,140 --> 00:03:49,470
-It is simply there to establish
-the connection between these two actions or
+It is simply there to establish the
+connection between these two actions or
 
 00:03:49,470 --> 00:03:54,840
-on the Petri net
-side between these two transitions.
+on the Petri net side between
+these two transitions.
 
 00:03:54,840 --> 00:03:59,610
 Because such a process could be, if
@@ -231,12 +231,12 @@ And then this transition could
 fire and pass this token.
 
 00:04:04,620 --> 00:04:09,600
-And then could fire "create plan"
-and again somehow still have an output.
+And then could fire "create plan" and
+again somehow still have an output.
 
 00:04:09,600 --> 00:04:15,550
-So then this sequence of individual
-steps in the activity diagram would correspond
+So then this sequence of individual steps
+in the activity diagram would correspond
 
 00:04:15,550 --> 00:04:19,150
 to the sequential
@@ -247,12 +247,12 @@ And for this they
 should be linked meaningfully,
 
 00:04:21,550 --> 00:04:25,150
-and this is easily done
-here by such mediating auxiliary places.
+and this is easily done here by
+such mediating auxiliary places.
 
 00:04:25,150 --> 00:04:32,980
-Yes, so of course these
-edges/these arrows then correspond to
+Yes, so of course these edges/these
+arrows then correspond to
 
 00:04:32,980 --> 00:04:37,870
 the temporal logical sequence of
@@ -269,8 +269,8 @@ this legality of the Petri net.
 They also do not have their own name.
 
 00:04:50,680 --> 00:04:53,620
-We had that already several times that
-we could not necessarily give a meaningful
+We had that already several times that we
+could not necessarily give a meaningful
 
 00:04:53,620 --> 00:04:55,660
 name to all elements in the Petri net.
@@ -280,12 +280,12 @@ These three transitions would have a
 meaningful name here because they correspond to
 
 00:04:58,900 --> 00:05:03,880
-these actions, and these are auxiliary places, because
-they are simply there to get the flow correct
+these actions, and these are auxiliary places,
+because they are simply there to get the flow correct
 
 00:05:03,880 --> 00:05:07,990
-and not because they correspond to
-anything directly from the activity diagram.
+and not because they correspond to anything
+directly from the activity diagram.
 
 00:05:09,670 --> 00:05:12,850
 They don't deserve their own name,
@@ -306,8 +306,8 @@ exactly to an action from the activity diagram.
 Ok, so actions become transitions.
 
 00:05:29,080 --> 00:05:38,350
-Control flow can be realized by
-inserted places and the respective connections.
+Control flow can be realized by inserted
+places and the respective connections.
 
 216 # slide
 00:05:38,350 --> 00:05:41,860
@@ -334,12 +334,12 @@ Intuitively, from the point of view of
 understanding, these stand, so to speak, for
 
 00:05:57,790 --> 00:06:00,490
-a storage location, for a
-storage for objects, concrete objects.
+a storage location, for a storage
+for objects, concrete objects.
 
 00:06:00,490 --> 00:06:04,810
-Quite understandable in the
-sense of object-oriented modeling.
+Quite understandable in the sense
+of object-oriented modeling.
 
 00:06:04,810 --> 00:06:07,150
 So, if we imagine that we might use an
@@ -353,16 +353,16 @@ Modeling an aspect of it, then
 there might actually be a class name
 
 00:06:14,260 --> 00:06:18,340
-here, from a class
-diagram, which we developed earlier.
+here, from a class diagram,
+which we developed earlier.
 
 00:06:18,340 --> 00:06:22,840
-And the idea would then be that the
-objects that are here, that the marking/tokens then stand
+And the idea would then be that the objects that
+are here, that the marking/tokens then stand
 
 00:06:22,840 --> 00:06:26,730
-for, that they should actually
-be instances of the particular class.
+for, that they should actually be
+instances of the particular class.
 
 00:06:26,730 --> 00:06:31,260
 That doesn't show up in the example now
@@ -381,12 +381,12 @@ And these just correspond to
 normal places in the Petri net.
 
 00:06:43,800 --> 00:06:47,460
-In the Petri net, if we wanted to
-store resources somehow, we use places for that.
+In the Petri net, if we wanted to store
+resources somehow, we use places for that.
 
 00:06:47,460 --> 00:06:53,640
-So this object node would become a place in
-the Petri net and it would have a name.
+So this object node would become a place
+in the Petri net and it would have a name.
 
 00:06:53,640 --> 00:06:57,360
 So it's not just an auxiliary
@@ -397,15 +397,15 @@ Logically, it gets the same
 name as this object node.
 
 00:06:59,910 --> 00:07:03,090
-And if there would be,
-for example, here now several possibilities,
+And if there would be, for example,
+here now several possibilities,
 
 00:07:03,090 --> 00:07:05,400
 from which somehow a plan can result.
 
 00:07:05,400 --> 00:07:08,160
-Then this would correspond to the
-fact that there are several transitions, several
+Then this would correspond to the fact
+that there are several transitions, several
 
 00:07:08,160 --> 00:07:12,360
 actions from the activity diagram translated
@@ -419,20 +419,20 @@ deposit tokens on this place.
 So somehow a management of resources and
 
 00:07:23,490 --> 00:07:29,010
-for that we had stored
-tokens on places in Petri nets.
+for that we had stored tokens
+on places in Petri nets.
 
 00:07:29,700 --> 00:07:35,130
-From this part of the activity diagram, then
-this part of a Petri net with these
+From this part of the activity diagram,
+then this part of a Petri net with these
 
 00:07:35,130 --> 00:07:43,620
 two actions becoming transitions and this
 object node realized by a named place.
 
 00:07:43,620 --> 00:07:51,120
-The names of such places or of
-object nodes are usually nouns and not verbs.
+The names of such places or of object
+nodes are usually nouns and not verbs.
 
 00:07:51,120 --> 00:07:53,880
 Yes, because it is just about
@@ -458,12 +458,12 @@ that makes the connection between the
 static modeling and the dynamic modeling.
 
 00:08:11,361 --> 00:08:12,330
-The static modeling, which describes
-the classes and objects, and the dynamic
+The static modeling, which describes the
+classes and objects, and the dynamic
 
 00:08:12,330 --> 00:08:22,320
-modeling, which then describes sequences
-of actions and can use
+modeling, which then describes
+sequences of actions and can use
 
 00:08:23,610 --> 00:08:28,290
 that there are these object
@@ -482,23 +482,23 @@ Because this node should
 not be an object,
 
 00:08:41,880 --> 00:08:44,512
-but this should be
-a storage for different objects.
+but this should be a storage
+for different objects.
 
 00:08:44,512 --> 00:08:52,080
-So it would make no sense to
-structure this node somehow and to write
+So it would make no sense to structure
+this node somehow and to write
 
 00:08:52,080 --> 00:08:54,450
 attribute values into it, for example.
 
 00:08:54,450 --> 00:08:58,290
-Because it is only a storage
-for concrete objects and not an object.
+Because it is only a storage for
+concrete objects and not an object.
 
 00:08:58,290 --> 00:09:05,940
-O.k., what else did we
-have in our example activity diagram?
+O.k., what else did we have in
+our example activity diagram?
 
 217 # slide
 00:09:05,940 --> 00:09:09,210
@@ -509,26 +509,26 @@ I hadn't given them a name yet,
 they are called "decision nodes".
 
 00:09:14,670 --> 00:09:16,890
-In the example, we had made
-a decision like that there as well.
+In the example, we had made a
+decision like that there as well.
 
 00:09:16,890 --> 00:09:19,230
 That was after "creating a plan".
 
 00:09:19,230 --> 00:09:23,850
-There, we wanted to submit it
-and there should then be the possibility
+There, we wanted to submit it and
+there should then be the possibility
 
 00:09:23,850 --> 00:09:26,640
 that either the plan is accepted or not.
 
 00:09:26,640 --> 00:09:31,350
-And that led to
-various further processes, ultimately
+And that led to various
+further processes, ultimately
 
 00:09:31,350 --> 00:09:34,230
-a branching in the flow,
-in the control or object flow.
+a branching in the flow, in
+the control or object flow.
 
 00:09:34,230 --> 00:09:38,970
 Where out of alternative paths,
@@ -561,47 +561,47 @@ Well, if we want to
 somehow branch a path in
 
 00:10:08,730 --> 00:10:13,140
-the Petri net, we can do that by
-branching from a place where a token could be.
+the Petri net, we can do that by branching
+from a place where a token could be.
 
 00:10:13,140 --> 00:10:17,610
-Like for example here, the
-submitted plan, have several possible exits,
+Like for example here, the submitted
+plan, have several possible exits,
 
 00:10:17,610 --> 00:10:22,860
-so have several possible transitions, each
-having this place as a precondition.
+so have several possible transitions,
+each having this place as a precondition.
 
 00:10:25,680 --> 00:10:31,680
-In that case, if this is the
-transition to this action node and then we
+In that case, if this is the transition
+to this action node and then we
 
 00:10:31,680 --> 00:10:33,750
 want to have further flow here and here,
 
 00:10:33,750 --> 00:10:37,650
-then we couldn't have two exit
-arrows directly from the transition somehow.
+then we couldn't have two exit arrows
+directly from the transition somehow.
 
 00:10:37,650 --> 00:10:41,370
 Because that would mean that we're splitting
 something up, so we're outputting two tokens.
 
 00:10:41,370 --> 00:10:45,900
-No, there is a place (that does NOT count as an auxiliary place) where
-this action, this transition puts a token.
+No, there is a place (that does NOT count as an auxiliary
+place) where this action, this transition puts a token.
 
 00:10:45,900 --> 00:10:51,150
 And then there could also be different transitions
 here and here, each of which can consume
 
 00:10:51,150 --> 00:10:56,269
-this token and then have some
-flow in this direction or that direction.
+this token and then have some flow
+in this direction or that direction.
 
 00:10:56,269 --> 00:10:59,970
-So, if here below an activity
-diagram is translated into further transitions,
+So, if here below an activity diagram
+is translated into further transitions,
 
 00:10:59,970 --> 00:11:02,820
 then the first of them
@@ -631,8 +631,8 @@ then we couldn't just say
 we'll replace it again with
 
 00:11:30,780 --> 00:11:33,390
-a place like this node
-and have a direct connection.
+a place like this node and
+have a direct connection.
 
 00:11:33,390 --> 00:11:34,110
 That is not possible.
@@ -642,24 +642,24 @@ Because of the rules of
 Petri nets again, that there
 
 00:11:37,020 --> 00:11:40,800
-can only be connections from places
-to transitions and from transitions to places,
+can only be connections from places to
+transitions and from transitions to places,
 
 00:11:40,800 --> 00:11:43,500
 then we must introduce an
 auxiliary transition at this point.
 
 00:11:43,500 --> 00:11:46,680
-It doesn't get a name either, it
-is only there to make this further transport
+It doesn't get a name either, it is only
+there to make this further transport
 
 00:11:46,680 --> 00:11:51,690
-of a token from here to here in
-a way that is legal for a Petri net.
+of a token from here to here in a
+way that is legal for a Petri net.
 
 00:11:51,690 --> 00:11:54,270
-And not just have a
-connection from place to place.
+And not just have a connection
+from place to place.
 
 00:11:54,270 --> 00:11:55,830
 Which would not be a valid Petri net.
@@ -677,12 +677,12 @@ object node, which would also be
 realized by a Petri net place.
 
 00:12:07,830 --> 00:12:11,580
-In the same way, this can
-also be with the reverse order.
+In the same way, this can also
+be with the reverse order.
 
 00:12:11,580 --> 00:12:16,050
-So not only with following but
-also with preceding decision or object nodes.
+So not only with following but also
+with preceding decision or object nodes.
 
 00:12:16,050 --> 00:12:20,310
 And also the merge nodes
@@ -693,8 +693,8 @@ Strictly speaking, this is
 not a branching node
 
 00:12:23,430 --> 00:12:27,810
-but a merge node
-in the concrete activity diagram.
+but a merge node in the
+concrete activity diagram.
 
 00:12:30,234 --> 00:12:31,740
 That's what this one was.
@@ -707,16 +707,16 @@ path from here to here.
 So from this element to this element.
 
 00:12:38,940 --> 00:12:43,530
-This is a branching node,
-because one input, two outputs, and
+This is a branching node, because
+one input, two outputs, and
 
 00:12:43,530 --> 00:12:48,480
-this is a merge node,
-because two inputs and one output.
+this is a merge node, because
+two inputs and one output.
 
 00:12:48,480 --> 00:12:52,830
-And there it just can't be from
-this place, which we had already seen, which
+And there it just can't be from this
+place, which we had already seen, which
 
 00:12:52,830 --> 00:12:57,540
 we had already described on a
@@ -737,12 +737,12 @@ In between, there must
 be an auxiliary transition
 
 00:13:11,250 --> 00:13:14,910
-in the Petri net, so
-to speak, drawn somewhere here.
+in the Petri net, so to
+speak, drawn somewhere here.
 
 00:13:14,910 --> 00:13:19,620
-And it would be just
-this one in the concrete example.
+And it would be just this
+one in the concrete example.
 
 00:13:19,620 --> 00:13:32,400
 O.k., then we have what else?
@@ -756,12 +756,12 @@ a few remarks at this point.
 I have already said this several times.
 
 00:13:41,070 --> 00:13:46,230
-Namely, this reason, essential reason, for
-this introduction of auxiliary places and auxiliary
+Namely, this reason, essential reason, for this
+introduction of auxiliary places and auxiliary
 
 00:13:46,230 --> 00:13:51,540
-transitions is simply that in the end
-a structurally correct Petri net should come out.
+transitions is simply that in the end a
+structurally correct Petri net should come out.
 
 00:13:51,540 --> 00:13:55,410
 In which places and transitions occur
@@ -771,15 +771,15 @@ alternately and for this one must
 add further elements if necessary, which
 
 00:13:58,230 --> 00:14:03,960
-were not visible at all in the
-activity diagram, because other elements occur in it.
+were not visible at all in the activity
+diagram, because other elements occur in it.
 
 00:14:03,960 --> 00:14:08,760
 O.k. I had also just indicated that.
 
 00:14:08,760 --> 00:14:12,990
-So what was just in
-those square brackets: "accepted", "not accepted".
+So what was just in those square
+brackets: "accepted", "not accepted".
 
 00:14:12,990 --> 00:14:18,630
 So finally the control
@@ -793,19 +793,19 @@ object flow should go.
 The so-called "guards",
 
 00:14:22,500 --> 00:14:29,670
-of course, somehow refer to
-knowledge from the application domain.
+of course, somehow refer to knowledge
+from the application domain.
 
 00:14:29,670 --> 00:14:35,070
-They are not described in
-more detail in the activity diagram.
+They are not described in more
+detail in the activity diagram.
 
 00:14:35,070 --> 00:14:36,510
 So, they should not logically overlap.
 
 00:14:36,510 --> 00:14:38,640
-So it makes sense to
-have something like "accepted", "not accepted".
+So it makes sense to have something
+like "accepted", "not accepted".
 
 00:14:38,640 --> 00:14:41,760
 Because these are
@@ -820,28 +820,28 @@ Of course, at such
 a node it should always
 
 00:14:48,180 --> 00:14:52,440
-be clearly possible to
-choose the next/appropriate exit.
+be clearly possible to choose
+the next/appropriate exit.
 
 00:14:54,810 --> 00:14:59,070
 But that is no
 longer part of the activity
 
 00:14:59,070 --> 00:15:04,920
-diagram, to elaborate on
-how that is somehow determined.
+diagram, to elaborate on how
+that is somehow determined.
 
 00:15:04,920 --> 00:15:10,200
-For example, if there are
-objects moving through the activity diagram.
+For example, if there are objects
+moving through the activity diagram.
 
 00:15:10,200 --> 00:15:12,930
-Object flow, you could
-imagine that those are conditions
+Object flow, you could imagine
+that those are conditions
 
 00:15:12,930 --> 00:15:17,250
-that then actually refer
-to attributes of those objects.
+that then actually refer to
+attributes of those objects.
 
 00:15:17,250 --> 00:15:18,750
 Maybe checking some Boolean conditions.
@@ -851,16 +851,16 @@ But we won't do
 that in such detail, because
 
 00:15:20,880 --> 00:15:25,470
-we are more concerned with
-the structural properties of activity diagrams
+we are more concerned with the structural
+properties of activity diagrams
 
 00:15:25,470 --> 00:15:28,560
-and not with now a
-concrete binding to a software system.
+and not with now a concrete
+binding to a software system.
 
 00:15:28,560 --> 00:15:35,190
-In normal Petri nets we do
-not specify such conditions, because that
+In normal Petri nets we do not
+specify such conditions, because that
 
 00:15:35,190 --> 00:15:38,220
 would be outside the
@@ -875,8 +875,8 @@ such outflow processes
 quantitatively, such control flows.
 
 00:15:52,170 --> 00:15:54,690
-So the actions, I had
-said, these are activities that
+So the actions, I had said,
+these are activities that
 
 00:15:54,690 --> 00:15:57,690
 cost time.
@@ -887,8 +887,8 @@ so either the distribution nodes
 or others we will see shortly,
 
 00:16:00,150 --> 00:16:03,240
-of these one assumes
-that they simply happen immediately.
+of these one assumes that they
+simply happen immediately.
 
 00:16:03,240 --> 00:16:06,060
 They are just there to somehow
@@ -909,8 +909,8 @@ That would be relevant if
 one wanted to use such
 
 00:16:22,140 --> 00:16:24,690
-an activity diagram
-to make quantitative statements.
+an activity diagram to make
+quantitative statements.
 
 00:16:24,690 --> 00:16:26,520
 But we will not do that either.
@@ -928,8 +928,8 @@ They were also represented
 like this, with this diamond.
 
 00:16:38,190 --> 00:16:43,380
-But in contrast to the "decision nodes",
-these are nodes where
+But in contrast to the "decision
+nodes", these are nodes where
 
 00:16:43,380 --> 00:16:47,370
 different flows come together.
@@ -943,8 +943,8 @@ They bring together alternative
 control or object flows.
 
 00:16:53,760 --> 00:16:57,150
-In the Petri net these
-would again simply be places (that do NOT count as auxiliary places).
+In the Petri net these would again simply be
+places (that do NOT count as auxiliary places).
 
 00:16:57,150 --> 00:17:03,780
 Here it is also the case that if I
@@ -962,36 +962,36 @@ left or a token comes from the right.
 In both cases there would be a token here
 
 00:17:12,840 --> 00:17:18,450
-afterwards which could be passed on
-to the following transitions standing here.
+afterwards which could be passed on to
+the following transitions standing here.
 
 00:17:18,450 --> 00:17:23,760
 So this would serve to merge such
 a flow, from here or from here,
 
 00:17:23,760 --> 00:17:33,630
-for continuation then in this
-part of the Petri net.
+for continuation then in
+this part of the Petri net.
 
 00:17:33,630 --> 00:17:40,870
-O.k. of course in
-the postcondition of different transitions,
+O.k. of course in the postcondition
+of different transitions,
 
 00:17:41,410 --> 00:17:44,470
-if necessary, auxiliary transitions can be placed
-on the left and on the right.
+if necessary, auxiliary transitions can
+be placed on the left and on the right.
 
 00:17:44,470 --> 00:17:49,900
-Depending on what happened here in
-the activity diagram at these two arrow
+Depending on what happened here in the
+activity diagram at these two arrow
 
 00:17:49,900 --> 00:17:57,820
 ends or places/positions from which these
 arrows go out in the activity diagram.
 
 00:17:57,820 --> 00:18:05,590
-O.k. there are not only
-exactly branching or merge nodes.
+O.k. there are not only exactly
+branching or merge nodes.
 
 00:18:05,590 --> 00:18:09,520
 There is also, so to speak, the common
@@ -1012,12 +1012,12 @@ And also this is translated
 simply by a place, which
 
 00:18:18,670 --> 00:18:22,480
-then has (perhaps
-in the postcondition) several transitions,
+then has (perhaps in the
+postcondition) several transitions,
 
 00:18:22,480 --> 00:18:26,290
-and at the same time
-also in the precondition several transitions.
+and at the same time also in the
+precondition several transitions.
 
 00:18:27,160 --> 00:18:31,960
 So, for example, a place where there are arrows
@@ -1032,16 +1032,16 @@ So, that also fits with the
 elements that exist in Petri nets.
 
 00:18:39,610 --> 00:18:47,440
-Okay, what else did we
-have in the activity diagram?
+Okay, what else did we have
+in the activity diagram?
 
 00:18:47,440 --> 00:18:54,370
-Well we still had these two graphical
-elements that I haven't said anything about yet.
+Well we still had these two graphical elements
+that I haven't said anything about yet.
 
 00:18:54,370 --> 00:18:57,010
-Yes everything else that we see
-here, we have now already worked through.
+Yes everything else that we see here,
+we have now already worked through.
 
 00:18:57,010 --> 00:18:59,950
 Yes well, except for the
@@ -1053,8 +1053,8 @@ we still have to describe.
 
 220 # slide
 00:19:01,960 --> 00:19:09,910
-O.k. first of these comes
-the fork or also parallelization node.
+O.k. first of these comes the
+fork or also parallelization node.
 
 00:19:09,910 --> 00:19:16,810
 That was exactly the moment/the place/the
@@ -1065,8 +1065,8 @@ a flow split, in the example,
 that I had carried out live.
 
 00:19:21,970 --> 00:19:24,430
-Where I had let the
-tokens wander through the network.
+Where I had let the tokens
+wander through the network.
 
 00:19:24,430 --> 00:19:30,280
 So that's a place where a control
@@ -1112,8 +1112,8 @@ both here and here there is a token.
 So forkings in the activity diagram
 
 00:20:13,950 --> 00:20:19,290
-become transitions in the Petri net
-with multiple places in the postcondition.
+become transitions in the Petri net with
+multiple places in the postcondition.
 
 00:20:19,290 --> 00:20:20,790
 Of course, these can
@@ -1128,12 +1128,12 @@ Maybe there is an action node directly
 here, then this would be a transition.
 
 00:20:29,550 --> 00:20:32,070
-But we can't fire from
-a transition directly to a transition, so then we
+But we can't fire from a transition
+directly to a transition, so then we
 
 00:20:32,070 --> 00:20:35,430
-have an auxiliary place here and
-only after that comes the transition, which
+have an auxiliary place here and only
+after that comes the transition, which
 
 00:20:35,430 --> 00:20:39,495
 corresponds to the action node, which
@@ -1148,12 +1148,12 @@ Ok, these are again such unnamed
 transitions, they don't get a name.
 
 00:20:48,810 --> 00:20:54,105
-We can put a fork here, but in
-the activity diagram they don't have a name either.
+We can put a fork here, but in the activity
+diagram they don't have a name either.
 
 00:20:54,105 --> 00:20:58,320
-There the actions have names,
-which then become named transitions.
+There the actions have names, which
+then become named transitions.
 
 00:20:58,320 --> 00:21:07,470
 Okay, and now, as
@@ -1164,17 +1164,17 @@ nodes/branch and join nodes, there is a
 counterpart to this element, so to speak.
 
 00:21:12,420 --> 00:21:19,350
-So to the forking belongs dually the
-merge or synchronization node, where just such
+So to the forking belongs dually the merge
+or synchronization node, where just such
 
 00:21:19,350 --> 00:21:21,870
-two flows that have been
-created here are brought together again.
+two flows that have been created
+here are brought together again.
 
 221 # slide
 00:21:21,870 --> 00:21:31,470
-So merges or "join node" that would
-be where several parallel flows are brought together.
+So merges or "join node" that would be where
+several parallel flows are brought together.
 
 00:21:31,470 --> 00:21:33,240
 What does that mean in the Petri net?
@@ -1184,39 +1184,39 @@ And in the Petri net, it
 means that we have to merge
 
 00:21:35,640 --> 00:21:41,280
-again such two tokens that
-were created in such a situation.
+again such two tokens that were
+created in such a situation.
 
 00:21:41,280 --> 00:21:42,060
 And how can we do that?
 
 00:21:42,060 --> 00:21:47,040
-Yes with a transition that has two places
-in the precondition instead of in the postcondition.
+Yes with a transition that has two places in the
+precondition instead of in the postcondition.
 
 00:21:47,040 --> 00:21:55,830
 So this kind of representation in the activity diagram
 would correspond to such a situation in a Petri net.
 
 00:21:55,830 --> 00:22:04,290
-A transition that consumes and
-merges tokens from two separate flows.
+A transition that consumes and merges
+tokens from two separate flows.
 
 00:22:04,290 --> 00:22:06,480
 In the sense that
 it outputs only one token.
 
 00:22:06,480 --> 00:22:12,330
-And here again it can be that these
-are not necessarily for example object node places.
+And here again it can be that these are not
+necessarily for example object node places.
 
 00:22:12,330 --> 00:22:16,560
-But simply auxiliary places, which are perhaps necessary,
-because over here directly an action node in
+But simply auxiliary places, which are perhaps
+necessary, because over here directly an action node in
 
 00:22:16,560 --> 00:22:24,810
-the activity diagram stands, which corresponds
-to a transition in the Petri net.
+the activity diagram stands, which
+corresponds to a transition in the Petri net.
 
 00:22:24,810 --> 00:22:26,190
 And then there is an auxiliary place that
@@ -1247,24 +1247,24 @@ in activity diagrams.
 Then there must be an auxiliary place in between.
 
 00:22:52,650 --> 00:23:00,660
-O.k., and as with the merge
-and decision nodes, it can also be
+O.k., and as with the merge and
+decision nodes, it can also be
 
 00:23:00,660 --> 00:23:03,000
 the case with the merges
 and forks that, for example,
 
 00:23:03,000 --> 00:23:06,300
-they have both characteristics at
-the same time, so to speak.
+they have both characteristics
+at the same time, so to speak.
 
 00:23:06,300 --> 00:23:10,230
-So a bar doesn't necessarily have to
-have one input, multiple outputs, or vice versa.
+So a bar doesn't necessarily have to have
+one input, multiple outputs, or vice versa.
 
 00:23:10,770 --> 00:23:16,170
-It could also have multiple inputs
-at the top and multiple outputs at the bottom.
+It could also have multiple inputs at the
+top and multiple outputs at the bottom.
 
 00:23:16,170 --> 00:23:18,210
 That would then also
@@ -1285,15 +1285,15 @@ of course a
 certain discipline is useful.
 
 00:23:36,600 --> 00:23:41,520
-So often it will be
-the case that a merge occurs when
+So often it will be the case
+that a merge occurs when
 
 00:23:41,520 --> 00:23:43,440
 there were also fork nodes before.
 
 00:23:43,440 --> 00:23:48,030
-So, in this example, it is
-no coincidence that this and this
+So, in this example, it is no
+coincidence that this and this
 
 00:23:48,030 --> 00:23:50,730
 bar somehow belong together.
@@ -1314,20 +1314,20 @@ afterwards also again
 a merging takes place.
 
 00:24:05,280 --> 00:24:10,530
-The activity diagrams don't specify that per
-se, that it always has to be.
+The activity diagrams don't specify
+that per se, that it always has to be.
 
 00:24:10,530 --> 00:24:16,860
-But in the example, that will often be the
-case, that there is such a correspondence of these nodes.
+But in the example, that will often be the case,
+that there is such a correspondence of these nodes.
 
 00:24:16,860 --> 00:24:25,650
-O.k., and then from the
-example activity diagram the special
+O.k., and then from the example
+activity diagram the special
 
 00:24:25,650 --> 00:24:29,940
-nodes for the start and for the
-end of the processing are still missing.
+nodes for the start and for the end
+of the processing are still missing.
 
 222 # slide
 00:24:29,940 --> 00:24:31,410
@@ -1341,8 +1341,8 @@ that had no incoming edge.
 It wasn't allowed that either.
 
 00:24:38,580 --> 00:24:43,470
-So this start node is not allowed to have any
-incoming edges, but it's allowed to have several outgoing edges.
+So this start node is not allowed to have any incoming
+edges, but it's allowed to have several outgoing edges.
 
 00:24:43,470 --> 00:24:46,890
 And what corresponds to
@@ -1353,8 +1353,8 @@ Well simply a place,
 which is initially marked.
 
 00:24:51,420 --> 00:24:54,060
-So a place where a token
-lies at the beginning, so that
+So a place where a token lies
+at the beginning, so that
 
 00:24:54,060 --> 00:24:57,810
 a control flow/flow can
@@ -1367,24 +1367,24 @@ How many tokens are there?
 How many tokens are there?
 
 00:25:04,440 --> 00:25:07,470
-As many as there are
-outgoing edges from the start node.
+As many as there are outgoing
+edges from the start node.
 
 00:25:07,470 --> 00:25:11,445
-So it could be that from a
-start node in the activity diagram two edges go out.
+So it could be that from a start node in
+the activity diagram two edges go out.
 
 00:25:11,445 --> 00:25:16,080
 For example one to the right and one
 downwards, then there should be two tokens in
 
 00:25:16,080 --> 00:25:20,430
-the translated Petri net
-on this corresponding start place.
+the translated Petri net on
+this corresponding start place.
 
 00:25:20,430 --> 00:25:23,250
-So that one can start the
-flow to the right, so to speak.
+So that one can start the flow
+to the right, so to speak.
 
 00:25:23,250 --> 00:25:25,980
 So a transition can fire, which
@@ -1395,8 +1395,8 @@ accordingly any action nodes,
 which are located here.
 
 00:25:29,010 --> 00:25:32,370
-If there is still a second exit
-with further actions here below perhaps, then there
+If there is still a second exit with further
+actions here below perhaps, then there
 
 00:25:32,370 --> 00:25:34,740
 would have to be just
@@ -1407,8 +1407,8 @@ that also the transitions which are
 translated and drawn in here below can fire.
 
 00:25:40,590 --> 00:25:46,230
-So a place with as many tokens
-as arrows going out from the start
+So a place with as many tokens as
+arrows going out from the start
 
 00:25:46,230 --> 00:25:49,080
 node of the activity diagram.
@@ -1418,27 +1418,27 @@ O.k., then there is such a rule that
 these edges do not lead to object nodes.
 
 00:25:59,100 --> 00:26:05,700
-So the intuition is that object nodes
-are supposed to, yes, hold some concrete artifacts,
+So the intuition is that object nodes are
+supposed to, yes, hold some concrete artifacts,
 
 00:26:05,700 --> 00:26:09,270
-like the plan earlier, and that
-must always be preceded by an action.
+like the plan earlier, and that must
+always be preceded by an action.
 
 00:26:09,270 --> 00:26:14,220
 So objects don't just come
 into existence out of thin air.
 
 00:26:14,220 --> 00:26:18,300
-The idea would be, if we want to have
-an object, like in the activity diagram for building a
+The idea would be, if we want to have an object,
+like in the activity diagram for building a
 
 00:26:18,300 --> 00:26:19,440
 house, then we would have a start node.
 
 00:26:19,440 --> 00:26:27,360
-That sort of sets an action in motion, and
-then from that action, an object can come into being,
+That sort of sets an action in motion, and then
+from that action, an object can come into being,
 
 00:26:27,360 --> 00:26:29,580
 which is put on an object node.
@@ -1448,16 +1448,16 @@ But direct transitions
 from these start nodes
 
 00:26:31,620 --> 00:26:34,890
-to object nodes do not
-exist according to activity diagrams.
+to object nodes do not exist
+according to activity diagrams.
 
 00:26:37,560 --> 00:26:41,550
-What is allowed is that there are
-several start nodes in an activity diagram.
+What is allowed is that there are several
+start nodes in an activity diagram.
 
 00:26:42,750 --> 00:26:47,880
-Unlike in the flat state diagram, where
-there was always one designated start node, in
+Unlike in the flat state diagram, where there
+was always one designated start node, in
 
 00:26:47,880 --> 00:26:54,150
 the activity diagram there may be
@@ -1467,19 +1467,19 @@ several start nodes represented this way.
 And that fits, because in Petri nets
 
 00:26:56,970 --> 00:27:01,140
-we can have multiple places
-at the beginning that have tokens.
+we can have multiple places at
+the beginning that have tokens.
 
 00:27:01,140 --> 00:27:02,520
 And that's what would happen here.
 
 00:27:02,520 --> 00:27:06,870
-If we have two start
-nodes in the activity diagram, the
+If we have two start nodes
+in the activity diagram, the
 
 00:27:06,870 --> 00:27:11,550
-translated Petri net would also have two places, in
-which at least one token lies at the beginning.
+translated Petri net would also have two places,
+in which at least one token lies at the beginning.
 
 00:27:11,550 --> 00:27:16,470
 And then actions/transitions can fire at the
@@ -1493,8 +1493,8 @@ be something for the end.
 With a start comes an end.
 
 00:27:24,540 --> 00:27:29,430
-In fact, there are two
-different forms in the activity diagram.
+In fact, there are two different
+forms in the activity diagram.
 
 00:27:29,430 --> 00:27:30,750
 Only one of them we had seen so far.
@@ -1511,12 +1511,12 @@ That's actually supposed
 to, if it's reached,
 
 00:27:38,340 --> 00:27:43,860
-by a flow, so to
-speak, end the activity completely.
+by a flow, so to speak, end
+the activity completely.
 
 00:27:43,860 --> 00:27:49,380
-So all the control and object flows that are
-still going on in the activity diagram, so to speak,
+So all the control and object flows that are still
+going on in the activity diagram, so to speak,
 
 00:27:50,280 --> 00:27:55,530
 would be terminated immediately when one
@@ -1531,8 +1531,8 @@ In Petri nets, you can't describe
 somewhere "when that place is reached, then
 
 00:28:01,710 --> 00:28:06,690
-all of a sudden all tokens
-in the entire Petri net disappear".
+all of a sudden all tokens in
+the entire Petri net disappear".
 
 00:28:12,420 --> 00:28:12,821
 In Petri nets everything is always local.
@@ -1542,20 +1542,20 @@ What rather happens in Petri nets is what
 corresponds to the end of flow in activity diagrams.
 
 00:28:19,050 --> 00:28:23,970
-Namely, that eats, so to speak,
-only the control flow running into it.
+Namely, that eats, so to speak, only
+the control flow running into it.
 
 00:28:23,970 --> 00:28:30,900
-That would correspond to a transition
-that only has incoming but no outgoing edges.
+That would correspond to a transition that
+only has incoming but no outgoing edges.
 
 00:28:30,900 --> 00:28:34,710
-So it eats tokens running into
-it and does not output anything else.
+So it eats tokens running into it
+and does not output anything else.
 
 00:28:34,710 --> 00:28:38,760
-So, it eats only locally the
-tokens at this place and not somehow
+So, it eats only locally the tokens
+at this place and not somehow
 
 00:28:38,760 --> 00:28:44,760
 all tokens, which are on the way
@@ -1573,8 +1573,8 @@ if there is a difference
 between these two possible ends.
 
 00:28:54,960 --> 00:29:00,570
-So in the example what I had here,
-I had used though this activity end as a symbol.
+So in the example what I had here, I had
+used though this activity end as a symbol.
 
 00:29:00,570 --> 00:29:02,430
 I could also have taken the flow end,
@@ -1584,12 +1584,12 @@ because here in the example it is anyway
 so that only one token is on the way.
 
 00:29:08,460 --> 00:29:10,440
-So it is split here
-times, but linked again before.
+So it is split here times,
+but linked again before.
 
 00:29:10,440 --> 00:29:18,420
-That means, if somehow a token arrives here at the
-bottom, then in the whole remaining Petri net, activity diagram/Petri
+That means, if somehow a token arrives here at the bottom,
+then in the whole remaining Petri net, activity diagram/Petri
 
 00:29:18,420 --> 00:29:22,230
 net, there can't be another
@@ -1645,20 +1645,20 @@ somehow go a little bit further.
 O.k., how we implement this,
 
 00:30:20,940 --> 00:30:25,830
-we can see directly in the example
-Petri net, for the house building example.
+we can see directly in the example Petri
+net, for the house building example.
 
 00:30:25,830 --> 00:30:32,310
 So that was our
 house building activity diagram.
 
 00:30:32,310 --> 00:30:36,450
-And we have now actually seen
-in principle for all elements occurring in
+And we have now actually seen in
+principle for all elements occurring in
 
 00:30:36,450 --> 00:30:42,690
-it, how they can be translated into Petri
-net components, except for this somewhat spongy end.
+it, how they can be translated into Petri net
+components, except for this somewhat spongy end.
 
 00:30:42,690 --> 00:30:46,380
 There I had only indicated grade,
@@ -1669,12 +1669,12 @@ Either a place, where a token lands,
 but then it doesn't go on from there.
 
 00:30:50,400 --> 00:30:53,910
-Or a transition that eats
-a token and doesn't output anything.
+Or a transition that eats a token
+and doesn't output anything.
 
 00:30:53,910 --> 00:30:59,040
-And actually we can do what
-I had done on the intermediate slides
+And actually we can do what I had
+done on the intermediate slides
 
 00:30:59,040 --> 00:31:03,390
 now for individual excerpts/individual
@@ -1693,8 +1693,8 @@ That would essentially just
 be tinkering together the
 
 00:31:19,230 --> 00:31:23,430
-components that we've seen now
-for individual excerpts throughout the slides.
+components that we've seen now for
+individual excerpts throughout the slides.
 
 224 # slide
 00:31:23,430 --> 00:31:29,100
@@ -1702,12 +1702,12 @@ And when we do that,
 it creates this Petri net.
 
 00:31:30,360 --> 00:31:34,680
-That already has a very
-similar shape to the activity diagram.
+That already has a very similar
+shape to the activity diagram.
 
 00:31:34,680 --> 00:31:37,710
-And in fact, you can
-now assign here the individual components
+And in fact, you can now assign
+here the individual components
 
 00:31:38,400 --> 00:31:45,210
 of the activity diagram each corresponding
@@ -1718,40 +1718,40 @@ Yes, this is here the beginning of
 the start nodes: a place with a token.
 
 00:31:48,180 --> 00:31:55,110
-Then we see here the individual
-transitions, which correspond to the actions here.
+Then we see here the individual transitions,
+which correspond to the actions here.
 
 00:31:55,110 --> 00:31:58,920
-We see, about the place we had
-also motivated that we need an auxiliary
+We see, about the place we had also
+motivated that we need an auxiliary
 
 00:31:58,920 --> 00:32:03,510
-place in between because we can't go
-directly from action to action/transition to transition.
+place in between because we can't go directly
+from action to action/transition to transition.
 
 00:32:03,510 --> 00:32:08,890
-So that then corresponds to that auxiliary place
-and also the other parts here are all
+So that then corresponds to that auxiliary
+place and also the other parts here are all
 
 00:32:08,890 --> 00:32:15,640
-motivated by how we wanted
-to translate individual activity diagram elements.
+motivated by how we wanted to translate
+individual activity diagram elements.
 
 00:32:15,640 --> 00:32:17,950
 So this became a
 place, this became a place,
 
 00:32:19,480 --> 00:32:24,700
-this became a transition with
-two outgoing arrows to action nodes.
+this became a transition with two
+outgoing arrows to action nodes.
 
 00:32:24,700 --> 00:32:27,610
 Since these are transitions, there
 can't be a direct connection there.
 
 00:32:27,610 --> 00:32:32,710
-Instead, there has to be an auxiliary
-place introduced and that's what we're seeing here.
+Instead, there has to be an auxiliary place
+introduced and that's what we're seeing here.
 
 00:32:32,710 --> 00:32:34,630
 So that would correspond
@@ -1770,15 +1770,15 @@ And then in between there has
 to be just an auxiliary place.
 
 00:32:43,060 --> 00:32:47,620
-And so there's a clear
-way to get from the activity
+And so there's a clear way
+to get from the activity
 
 00:32:47,620 --> 00:32:50,740
 diagram that we've seen to a Petri net.
 
 00:32:50,740 --> 00:32:55,030
-And we see also the end I have
-implemented here, in which simply the last action,
+And we see also the end I have implemented
+here, in which simply the last action,
 
 00:32:55,030 --> 00:33:00,220
 this transition, is
@@ -1789,8 +1789,8 @@ which corresponds to the fact that after
 finishing the house, nothing more happens.
 
 00:33:10,760 --> 00:33:13,610
-This end of flow here, this
-end of activity, I have simply implemented
+This end of flow here, this end of
+activity, I have simply implemented
 
 00:33:13,610 --> 00:33:19,520
 by the fact that the transition, which I have
@@ -1800,8 +1800,8 @@ introduced for this, has no more output for this action.
 This is then just shown here.
 
 00:33:24,650 --> 00:33:31,606
-O.k., most of the places
-here are really auxiliary places.
+O.k., most of the places here
+are really auxiliary places.
 
 00:33:31,606 --> 00:33:33,500
 You see here the
@@ -1818,8 +1818,8 @@ corresponds to an object node.
 Most of the other places are
 
 00:33:40,550 --> 00:33:43,850
-auxiliary places introduced to make
-this a legal Petri net.
+auxiliary places introduced to
+make this a legal Petri net.
 
 00:33:43,850 --> 00:33:48,050
 There is only one auxiliary
@@ -1838,16 +1838,16 @@ to these two elements, where
 there is nothing else in between.
 
 00:34:02,840 --> 00:34:06,380
-But I am not allowed to go from
-place to place directly in the Petri net.
+But I am not allowed to go from place
+to place directly in the Petri net.
 
 00:34:06,380 --> 00:34:15,820
-O.k., and actually all that
-we intuitively saw in the activity
+O.k., and actually all that we
+intuitively saw in the activity
 
 00:34:15,820 --> 00:34:23,020
-diagram at possible step sequences, that
-would be exactly all valid transition sequences,
+diagram at possible step sequences, that would
+be exactly all valid transition sequences,
 
 00:34:23,020 --> 00:34:26,800
 which represent valid firing
@@ -1862,16 +1862,16 @@ as the activity
 diagram we originally saw.
 
 00:34:32,350 --> 00:34:36,760
-And this is a general recipe of how
-to get Petri nets from activity diagrams.
+And this is a general recipe of how to
+get Petri nets from activity diagrams.
 
 00:34:36,760 --> 00:34:41,410
-As long as only elements
-we discussed occur, of course.
+As long as only elements we
+discussed occur, of course.
 
 00:34:41,410 --> 00:34:47,350
-O.k., in fact there are
-many more representation possibilities in activity
+O.k., in fact there are many more
+representation possibilities in activity
 
 00:34:47,350 --> 00:34:50,710
 diagrams, and we won't
@@ -1881,8 +1881,8 @@ introduce all of them.
 I'll touch on and mention a few now.
 
 00:34:52,900 --> 00:35:00,220
-But for those, I will not always
-give a full translation in Petri nets.
+But for those, I will not always give
+a full translation in Petri nets.
 
 00:35:00,220 --> 00:35:05,920
 Of course, in exercises or exams
@@ -1902,12 +1902,12 @@ be some additional expressions?
 
 225 # slide
 00:35:16,150 --> 00:35:21,730
-Well, in activity diagrams in UML, on the
-one hand, there are further borrowings from Petri nets,
+Well, in activity diagrams in UML, on the one
+hand, there are further borrowings from Petri nets,
 
 00:35:21,730 --> 00:35:25,570
-and on the other hand, there
-are simply own syntax/own representation options.
+and on the other hand, there are simply
+own syntax/own representation options.
 
 00:35:25,570 --> 00:35:31,360
 For example, at object nodes, you can specify the
@@ -1918,8 +1918,8 @@ And this is of course something that
 corresponds to the capacity in Petri nets.
 
 00:35:35,020 --> 00:35:40,510
-Yes, this notation 6 here in
-a Petri net with capacity also corresponds
+Yes, this notation 6 here in a Petri
+net with capacity also corresponds
 
 00:35:40,510 --> 00:35:44,170
 to the information that there can
@@ -1930,8 +1930,8 @@ And this would be
 represented in the activity
 
 00:35:45,880 --> 00:35:49,360
-diagram in such a way that
-one indicates an upper bound here.
+diagram in such a way that one
+indicates an upper bound here.
 
 00:35:49,360 --> 00:35:53,770
 O.k., so a quantitative
@@ -1950,12 +1950,12 @@ Yes, so "upperBound" would
 say here, there can
 
 00:36:08,380 --> 00:36:14,020
-be a maximum of six dishes at
-the same time here as a reservoir.
+be a maximum of six dishes at the
+same time here as a reservoir.
 
 00:36:14,020 --> 00:36:18,400
-And the weight would say there are
-always two dishes served at the same time.
+And the weight would say there are always
+two dishes served at the same time.
 
 00:36:18,400 --> 00:36:20,470
 In the Petri net:
@@ -1980,15 +1980,15 @@ Especially if we consider
 Petri nets with capacity.
 
 00:36:40,570 --> 00:36:48,250
-O.k., what activity diagrams allow, which
-we didn't have in Petri nets.
+O.k., what activity diagrams allow,
+which we didn't have in Petri nets.
 
 00:36:48,250 --> 00:36:51,340
 Was that even in such situations, where
 
 00:36:51,340 --> 00:36:56,140
-here, for example, several tokens are deposited
-and then taken out one by one, yes,
+here, for example, several tokens are
+deposited and then taken out one by one, yes,
 
 00:36:56,140 --> 00:37:00,250
 you can describe in what
@@ -2005,12 +2005,12 @@ here, then I don't care which of
 the six tokens will be served next.
 
 00:37:08,740 --> 00:37:14,770
-On the other hand, in a
-restaurant application, where six dishes are put
+On the other hand, in a restaurant
+application, where six dishes are put
 
 00:37:14,770 --> 00:37:17,470
-here one after the other
-and are also finished, it might
+here one after the other and
+are also finished, it might
 
 00:37:17,470 --> 00:37:19,660
 be important which of these
@@ -2031,20 +2031,20 @@ But we won't look at that any further.
 You should just know that it's possible.
 
 00:37:32,020 --> 00:37:37,420
-And I found that to know that it's
-possible, but we're not going to consider that further.
+And I found that to know that it's possible,
+but we're not going to consider that further.
 
 00:37:37,420 --> 00:37:41,110
-Because we didn't do it at all
-on the Petri net side either, and it
+Because we didn't do it at all on
+the Petri net side either, and it
 
 00:37:41,110 --> 00:37:44,710
 wouldn't make much sense there because, after all,
 the individual tokens are not distinguishable at all.
 
 00:37:44,710 --> 00:37:50,740
-Unlike concrete objects in a
-concrete software modeling context, perhaps.
+Unlike concrete objects in a concrete
+software modeling context, perhaps.
 
 226 # slide
 00:37:50,740 --> 00:37:53,890
@@ -2057,8 +2057,8 @@ This correspondence, it's
 not completely exact.
 
 00:37:56,500 --> 00:38:00,250
-Yes, not for all concepts from
-activity diagrams is there a direct translation.
+Yes, not for all concepts from activity
+diagrams is there a direct translation.
 
 00:38:00,250 --> 00:38:01,600
 And of course, it's also because
@@ -2068,12 +2068,12 @@ activity diagrams are
 so semi-formal anyway.
 
 00:38:04,210 --> 00:38:07,780
-So not all aspects are
-fully specified in it at all.
+So not all aspects are fully
+specified in it at all.
 
 00:38:07,780 --> 00:38:14,995
-In the same sense as
-Petri nets were completely mathematically modeled.
+In the same sense as Petri nets were
+completely mathematically modeled.
 
 00:38:14,995 --> 00:38:19,990
 But for large parts of activity diagrams
@@ -2095,15 +2095,15 @@ These are simply a representation, so to speak,
 which does not occur in Petri nets either.
 
 00:38:41,630 --> 00:38:45,710
-In Petri nets, there are simply
-places, transitions, and connections in between.
+In Petri nets, there are simply places,
+transitions, and connections in between.
 
 00:38:45,710 --> 00:38:47,780
 In activity diagrams, one
 
 00:38:47,780 --> 00:38:51,620
-structures the diagrams even further,
-under certain circumstances.
+structures the diagrams even
+further, under certain circumstances.
 
 00:38:51,620 --> 00:38:53,000
 One groups elements.
@@ -2125,31 +2125,31 @@ And then, for example, there
 are actions here that are
 
 00:39:04,730 --> 00:39:07,880
-just carried out by the guest and
-actions that are carried out by the waiter.
+just carried out by the guest and actions
+that are carried out by the waiter.
 
 00:39:07,880 --> 00:39:13,130
 And then one can use this representation with
 such a decomposition of the plane into several
 
 00:39:13,130 --> 00:39:18,380
-areas, to which then
-these elements are assigned to express these responsibilities.
+areas, to which then these elements are
+assigned to express these responsibilities.
 
 00:39:18,380 --> 00:39:22,220
-So the actions that take
-place here are exactly "order dish",
+So the actions that take place
+here are exactly "order dish",
 
 00:39:22,220 --> 00:39:25,100
 "take order", "serve dish", "eat dish".
 
 00:39:25,100 --> 00:39:29,810
-This representation does not change anything,
-but it makes it clearer for the
+This representation does not change
+anything, but it makes it clearer for the
 
 00:39:29,810 --> 00:39:34,730
-reader of this diagram, which
-action is conceptually carried out by whom.
+reader of this diagram, which action
+is conceptually carried out by whom.
 
 00:39:36,920 --> 00:39:39,080
 And there are several
@@ -2174,20 +2174,20 @@ But this does not appear
 in the example here, and
 
 00:39:54,830 --> 00:39:57,860
-it certainly does not appear
-in our house construction example.
+it certainly does not appear in
+our house construction example.
 
 00:39:57,860 --> 00:40:00,107
 We didn't have that
 kind of structuring there.
 
 00:40:00,107 --> 00:40:07,790
-So it's more of a documentation
-of who is responsible for what action.
+So it's more of a documentation of
+who is responsible for what action.
 
 00:40:07,790 --> 00:40:11,750
-It doesn't change the order
-of firing or what firing actions
+It doesn't change the order of
+firing or what firing actions
 
 00:40:11,750 --> 00:40:13,970
 are possible, what sequences
@@ -2226,13 +2226,13 @@ that did not and will
 not appear in our examples.
 
 00:40:49,910 --> 00:40:56,660
-That's just as a bullet point again,
-that you realize that UML activity diagrams have
+That's just as a bullet point again, that
+you realize that UML activity diagrams have
 
 00:40:56,660 --> 00:41:01,460
 even more richness of variation
 than we've already seen here.
 
 00:41:01,460 --> 00:41:06,020
-And in any case, more than Petri
-nets, where there were only places and transitions.
+And in any case, more than Petri nets, where
+there were only places and transitions.

@@ -5,16 +5,16 @@ Task number nine in auto tool.
 It has a class diagram and an object diagram.
 
 0:00:07.919,0:00:15.580
-And we have to do the mapping; we have to
-find out x, y, and z, which one of these corresponds
+And we have to do the mapping; we have to find
+out x, y, and z, which one of these corresponds
 
 0:00:15.580,0:00:26.910
-to which one of these a, b, and c. So, first
-I'm going to create a class diagram.
+to which one of these a, b, and c. So,
+first I'm going to create a class diagram.
 
 0:00:26.910,0:00:42.540
-Now I'm going to create the object
-diagram, and it should give us the solution,
+Now I'm going to create the object diagram,
+and it should give us the solution,
 
 0:00:42.540,0:00:51.000
 we should find out what corresponds to what
@@ -32,8 +32,8 @@ It's because of this multiplicity, so the
 composition here has the multiplicity one.
 
 0:01:11.110,0:01:17.430
-So, every B has to connect with an A. But
-I'm going to ignore this.
+So, every B has to connect with an
+A. But I'm going to ignore this.
 
 0:01:17.430,0:01:18.430
 Why?
@@ -46,13 +46,12 @@ not allow me, unfortunately, to create a C.
 So, this c here can be satisfied.
 
 0:01:32.790,0:01:40.950
-If I link a B with
-a D or a C, not just an explicit A, but I should be able to
-use a D or a C instead.
+If I link a B with a D or a C, not just an explicit
+A, but I should be able to use a D or a C instead.
 
 0:01:40.950,0:01:47.400
-just a general A, but I should be able to
-use a D or a C instead.
+just a general A, but I should be
+able to use a D or a C instead.
 
 0:01:47.400,0:01:52.630
 But in this software, it's going to give me
@@ -71,12 +70,12 @@ I'm going to do two more instances here.
 And also ignore the issue.
 
 0:02:09.020,0:02:20.840
-Now we're going to create this C. So, add
-an instance of C. Put it here.
+Now we're going to create this C. So,
+add an instance of C. Put it here.
 
 0:02:20.840,0:02:24.599
-And C requires the link to an instance of
-B at level zero.
+And C requires the link to an
+instance of B at level zero.
 
 0:02:24.599,0:02:28.050
 So, it needs to connect to a B.
@@ -85,16 +84,16 @@ So, it needs to connect to a B.
 We have three Bs here.
 
 0:02:31.260,0:02:39.379
-So, if I choose one of them, let's say B one,
-I click OK.
+So, if I choose one of them,
+let's say B one, I click OK.
 
 0:02:39.379,0:02:47.580
-It linked using a b. So, it tried to fulfill
-this one here.
+It linked using a b. So, it
+tried to fulfill this one here.
 
 0:02:47.580,0:02:52.850
-And now it says C requires a B; let's choose
-B one.
+And now it says C requires
+a B; let's choose B one.
 
 0:02:52.850,0:02:56.200
 Again, let's click OK; it got linked again.
@@ -119,12 +118,12 @@ So, why? Because it says the link already exists.
 There's not much more to do here.
 
 0:03:18.820,0:03:28.790
-So, I'm going to continue with the requirements
-of C; let's do b and click OK.
+So, I'm going to continue with the
+requirements of C; let's do b and click OK.
 
 0:03:28.790,0:03:36.540
-And it links with an a. Let's do, this is
-the old request here.
+And it links with an a. Let's
+do, this is the old request here.
 
 0:03:36.540,0:03:38.549
 So, I'm going to ignore it.
@@ -136,8 +135,8 @@ And C is fine now.
 So, C does not need anything anymore.
 
 0:03:44.080,0:03:49.810
-I'm going to continue trying to satisfy this
-request here.
+I'm going to continue trying
+to satisfy this request here.
 
 0:03:49.810,0:03:53.439
 By connecting manually, not double-clicking
@@ -165,16 +164,16 @@ So, a C is a D, and every D can connect or
 has to connect with exactly one B through
 
 0:04:28.830,0:04:34.250
-this association or this aggregation b, and
-it is already here.
+this association or this aggregation
+b, and it is already here.
 
 0:04:34.250,0:04:43.470
 So, if you try to connect using another aggregation
 be like you try to do b connection here.
 
 0:04:43.470,0:04:47.650
-It's not going to work because this contradicts
-with the multiplicity.
+It's not going to work because this
+contradicts with the multiplicity.
 
 0:04:47.650,0:04:51.130
 So, let's do again.
@@ -199,8 +198,8 @@ And here we have a, a, a.
 We have one B here.
 
 0:05:13.400,0:05:18.650
-And as you saw a few seconds ago, we could
-not add any more Bs.
+And as you saw a few seconds ago,
+we could not add any more Bs.
 
 0:05:18.650,0:05:26.160
 So, this means we already know a big part of
@@ -217,20 +216,20 @@ Let's connect C to itself.
 It gets recognized; it accepts.
 
 0:05:48.520,0:05:52.790
-So, the XModeler software allows me to connect
-C to itself.
+So, the XModeler software allows
+me to connect C to itself.
 
 0:05:52.790,0:05:57.520
-And I suspect it gets recognized exactly what
-it is.
+And I suspect it gets
+recognized exactly what it is.
 
 0:05:57.520,0:06:03.030
-So it says it has the label of the association
-here.
+So it says it has the label
+of the association here.
 
 0:06:03.030,0:06:08.310
-But I could not, I just could not find a
-way to show it.
+But I could not, I just could
+not find a way to show it.
 
 0:06:08.310,0:06:11.430
 It's going to stay hidden behind this.
@@ -265,12 +264,12 @@ So, it recognizes this link as c. How do we
 check that the first one was already c and
 
 0:07:02.379,0:07:06.490
-that now we have two times c, we have two
-Cs; how do you check?
+that now we have two times c, we
+have two Cs; how do you check?
 
 0:07:06.490,0:07:13.220
-Well, the connection, the association c here
-has the maximum of two.
+Well, the connection, the association
+c here has the maximum of two.
 
 0:07:13.220,0:07:18.940
 This means if you try to connect this instance
@@ -280,12 +279,12 @@ of C with another— with a third C, it should
 not work.
 
 0:07:21.000,0:07:33.430
-Let me create another instance, let's call
-it C temp2 or type C, let's put it here, ignore
+Let me create another instance, let's call it
+C temp2 or type C, let's put it here, ignore
 
 0:07:33.430,0:07:39.340
-this and then connect it, link it manually
-like this.
+this and then connect it,
+link it manually like this.
 
 0:07:39.340,0:07:43.760
 Ignore the rest of the issues.
@@ -305,16 +304,16 @@ One arrow going to C itself and one arrow
 going to temporarily C number one, let's
 
 0:08:07.910,0:08:14.460
-do a third arrow, third link going from C
-to C temporary.
+do a third arrow, third link
+going from C to C temporary.
 
 0:08:14.460,0:08:19.150
-Number two, and it says the multiplicity does
-not allow a new link.
+Number two, and it says the
+multiplicity does not allow a new link.
 
 0:08:19.150,0:08:29.260
-So, that is a proof that this one is a c; it
-gets recognized as a c. And what happened
+So, that is a proof that this one is a c;
+it gets recognized as a c. And what happened
 
 0:08:29.260,0:08:38.560
 a few seconds ago that I somehow could link
@@ -327,26 +326,27 @@ the direction of the association.
 So, let's do this again.
 
 0:08:44.080,0:08:51.589
-So, if I do from C to C temp, that would be
-a third outgoing arrow.
+So, if I do from C to C temp, that
+would be a third outgoing arrow.
 
 0:08:51.589,0:08:53.140
 And that's not good.
 
 0:08:53.140,0:08:56.140
-That's not acceptable because of the multiplicity.
+That's not acceptable
+because of the multiplicity.
 
 0:08:56.140,0:09:07.410
-And if I do the other way around from temporary
-to C it works because now C temp2 is
+And if I do the other way around from
+temporary to C it works because now C temp2 is
 
 0:09:07.410,0:09:19.709
 fine; like it still has less than two, it
 has two outgoing arrows from it going to
 
 0:09:19.709,0:09:27.630
-something of type A. Now we can safely remove
-these.
+something of type A. Now
+we can safely remove these.
 
 0:09:27.630,0:09:30.830
 We don't need them anymore.

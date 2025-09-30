@@ -20,19 +20,19 @@ Namely, the example is to be:
 A class of points is to be created.
 
 00:00:19,840 --> 00:00:22,520
-So we want to store
-points of the two-dimensional space.
+So we want to store points
+of the two-dimensional space.
 
 00:00:22,520 --> 00:00:26,960
-So we will have x and
-y coordinates, and some operations on these
+So we will have x and y coordinates,
+and some operations on these
 
 00:00:26,960 --> 00:00:27,960
 points.
 
 00:00:27,960 --> 00:00:32,930
-So maybe this is supposed to be a vector
-graphics domain again somehow, which we want to specify in
+So maybe this is supposed to be a vector graphics
+domain again somehow, which we want to specify in
 
 00:00:32,930 --> 00:00:35,120
 an object-oriented way this time.
@@ -41,8 +41,8 @@ an object-oriented way this time.
 You could imagine that.
 
 00:00:36,780 --> 00:00:41,840
-Then there will be a graph at the
-end, and in the graph there will be individual
+Then there will be a graph at the end,
+and in the graph there will be individual
 
 00:00:41,840 --> 00:00:47,030
 nodes, each of which is such
@@ -56,12 +56,12 @@ That will be a
 three-part box in each case.
 
 00:00:52,489 --> 00:00:58,899
-And there's first of all a class
-name, so the identification of the class itself.
+And there's first of all a class name, so
+the identification of the class itself.
 
 00:00:58,899 --> 00:01:03,260
-Then there is an area
-where attributes can be entered.
+Then there is an area where
+attributes can be entered.
 
 00:01:03,260 --> 00:01:08,149
 In this case, these are the information to
@@ -74,31 +74,31 @@ This is a number in each case.
 This is specified here as type.
 
 00:01:12,630 --> 00:01:15,509
-This is not always done
-in such detail so early on.
+This is not always done in
+such detail so early on.
 
 00:01:15,509 --> 00:01:18,560
-So we saw examples earlier
-where the type information was missing.
+So we saw examples earlier where
+the type information was missing.
 
 00:01:18,560 --> 00:01:22,119
-Usually, in the exercises (and later on in
-the exam), we will expect you to put
+Usually, in the exercises (and later on
+in the exam), we will expect you to put
 
 00:01:22,119 --> 00:01:24,899
 meaningful type information on there.
 
 00:01:24,899 --> 00:01:28,090
-And then there is this
-third area, where operations or
+And then there is this third
+area, where operations or
 
 00:01:28,090 --> 00:01:33,219
 methods can be recorded
 (also with their types).
 
 00:01:33,219 --> 00:01:37,939
-This is of course somehow the bridge
-to dynamic modeling, where you would then express
+This is of course somehow the bridge to
+dynamic modeling, where you would then express
 
 00:01:37,939 --> 00:01:40,340
 what these methods are supposed to do.
@@ -115,8 +115,8 @@ Of course, there
 are already activities here.
 
 00:01:50,009 --> 00:01:57,810
-For example, one may move a point
-in x- and y-direction by certain numerical differences.
+For example, one may move a point in x- and
+y-direction by certain numerical differences.
 
 00:01:57,810 --> 00:02:00,219
 Nevertheless, what is written
@@ -130,8 +130,8 @@ description of what the operations trigger.
 There is only the name and the types.
 
 00:02:09,620 --> 00:02:13,569
-On the one hand the
-argument types are interesting, which are
+On the one hand the argument
+types are interesting, which are
 
 00:02:13,569 --> 00:02:14,569
 in brackets.
@@ -144,8 +144,8 @@ have to say by what you want to move it,
 by what differences.
 
 00:02:20,470 --> 00:02:24,810
-And then there is no
-return value for this operation.
+And then there is no return
+value for this operation.
 
 00:02:24,810 --> 00:02:25,810
 Why not?
@@ -159,16 +159,16 @@ And there, when we introduced object
 orientation, we had said that then no
 
 00:02:34,530 --> 00:02:41,620
-explicit specification is needed, because implicitly
-it operates on the concrete point.
+explicit specification is needed, because
+implicitly it operates on the concrete point.
 
 00:02:41,620 --> 00:02:47,120
 On the other hand, if we wanted to determine, for
 example, the vector length, that is, the length of the
 
 00:02:47,120 --> 00:02:51,000
-vector from the coordinate origin to the current point,
-then this would not be a change of the
+vector from the coordinate origin to the current
+point, then this would not be a change of the
 
 00:02:51,000 --> 00:02:52,409
 point, but we
@@ -182,8 +182,8 @@ on the point itself and don't need any
 other information.
 
 00:02:58,180 --> 00:03:01,689
-But we want to get a
-number back instead of changing the point.
+But we want to get a number back
+instead of changing the point.
 
 00:03:01,689 --> 00:03:04,340
 Then we would just
@@ -207,16 +207,16 @@ here, these are not attributes of the class
 per se.
 
 00:03:23,739 --> 00:03:27,800
-So of course they are in the
-class diagram as attributes on the class.
+So of course they are in the class
+diagram as attributes on the class.
 
 00:03:27,800 --> 00:03:31,190
-But it's not that the class as
-a whole has an x and y coordinate.
+But it's not that the class as a
+whole has an x and y coordinate.
 
 00:03:31,190 --> 00:03:35,879
-Rather, the class is a collection of
-objects, namely individual points, and each instance has
+Rather, the class is a collection of objects,
+namely individual points, and each instance has
 
 00:03:35,879 --> 00:03:38,180
 attributes for these x and y values.
@@ -237,39 +237,39 @@ So to the objects that we'll form
 later, and not to the class itself.
 
 00:03:48,489 --> 00:03:51,870
-But they are kept in the class
-because all objects of the class should have
+But they are kept in the class because
+all objects of the class should have
 
 00:03:51,870 --> 00:03:55,379
-an x and y value each
-(but different values for different objects).
+an x and y value each (but different
+values for different objects).
 
 00:03:55,379 --> 00:04:00,959
-Here is simply the information that
-these two values should always be present.
+Here is simply the information that these
+two values should always be present.
 
 00:04:00,959 --> 00:04:05,639
-Then a detail you may know
-if you have done object-oriented programming
+Then a detail you may know if you
+have done object-oriented programming
 
 00:04:05,639 --> 00:04:06,639
 before.
 
 00:04:06,639 --> 00:04:10,249
-Or what you may also encounter
-when you look at examples from books.
+Or what you may also encounter when
+you look at examples from books.
 
 00:04:10,249 --> 00:04:15,999
-Sometimes there are some "funny symbols"
-at the attributes or at the
+Sometimes there are some "funny
+symbols" at the attributes or at the
 
 00:04:15,999 --> 00:04:19,280
 methods, some special
 symbols: Plus, minus.
 
 00:04:19,280 --> 00:04:22,760
-Sometimes these can also
-be designations, i.e., character strings.
+Sometimes these can also be
+designations, i.e., character strings.
 
 00:04:22,760 --> 00:04:24,420
 But sometimes they are
@@ -280,8 +280,8 @@ These are so-called visibility
 annotations on the attributes.
 
 00:04:30,510 --> 00:04:38,780
-They say something about, later in
-the implementation, from which other objects
+They say something about, later in the
+implementation, from which other objects
 
 00:04:38,780 --> 00:04:42,510
 instance attributes and
@@ -295,8 +295,8 @@ So that doesn't matter
 to us in the modeling.
 
 00:04:51,070 --> 00:04:56,210
-If you see something like that in
-an example (it won't occur in our lecture
+If you see something like that in an
+example (it won't occur in our lecture
 
 00:04:56,210 --> 00:05:02,160
 and exercise), if you see examples from
@@ -306,12 +306,12 @@ elsewhere, you can ignore those modifiers for
 the purpose of this lecture.
 
 00:05:06,660 --> 00:05:13,020
-And then another way to pack
-even more information into the class.
+And then another way to pack even
+more information into the class.
 
 00:05:13,020 --> 00:05:19,500
-Even in giving this representation, what
-we had done now was we gave
+Even in giving this representation,
+what we had done now was we gave
 
 00:05:19,500 --> 00:05:20,500
 the attributes types.
@@ -320,8 +320,8 @@ the attributes types.
 Sometimes you give them default values.
 
 00:05:22,280 --> 00:05:28,470
-Where the idea then is that if in
-individual objects, for example, the x coordinate is not
+Where the idea then is that if in individual
+objects, for example, the x coordinate is not
 
 00:05:28,470 --> 00:05:35,920
 explicitly assigned, then the default value
@@ -339,16 +339,16 @@ That would mean then that if in an object
 of this class nothing is specified for x,
 
 00:05:46,880 --> 00:05:53,420
-it would simply
-already directly have the value zero.
+it would simply already
+directly have the value zero.
 
 00:05:53,420 --> 00:05:57,880
-Now, of course, classes
-are there to describe objects.
+Now, of course, classes are
+there to describe objects.
 
 00:05:57,880 --> 00:06:02,410
-So the goal is to describe with
-a class the structure of certain objects.
+So the goal is to describe with a
+class the structure of certain objects.
 
 00:06:02,410 --> 00:06:09,060
 And then, of course, an instance
@@ -358,8 +358,8 @@ of a class represents a concrete
 object.
 
 00:06:10,060 --> 00:06:15,510
-So our Point class can have
-many objects, which are its manifestation.
+So our Point class can have many
+objects, which are its manifestation.
 
 00:06:15,510 --> 00:06:22,090
 And a concrete point, for example, my concrete
@@ -399,8 +399,8 @@ But most importantly, there is
 no method box in the objects.
 
 00:07:01,500 --> 00:07:05,890
-So this part down here
-doesn't exist in the individual objects.
+So this part down here doesn't
+exist in the individual objects.
 
 00:07:05,890 --> 00:07:06,890
 Why not?
@@ -409,24 +409,24 @@ Why not?
 Because this code is reused.
 
 00:07:08,620 --> 00:07:14,560
-So while each object in the class may
-have its own x and y values, the
+So while each object in the class
+may have its own x and y values, the
 
 00:07:14,560 --> 00:07:19,990
-functionality (moving a point, determining the
-vector length of a point, etc.) is
+functionality (moving a point, determining
+the vector length of a point, etc.) is
 
 00:07:19,990 --> 00:07:22,630
-not something that is
-different for individual points.
+not something that is different
+for individual points.
 
 00:07:22,630 --> 00:07:26,000
 So the functionality is
 the same for all points.
 
 00:07:26,000 --> 00:07:32,360
-That's why the methods/operations are native to
-the class and not to individual instances
+That's why the methods/operations are native
+to the class and not to individual instances
 
 00:07:32,360 --> 00:07:34,350
 of the class.
@@ -436,19 +436,19 @@ That's why there are
 no methods on the right.
 
 00:07:37,530 --> 00:07:42,960
-This is a typical mistake in
-exercises/exams, that methods are also specified for
+This is a typical mistake in exercises/exams,
+that methods are also specified for
 
 00:07:42,960 --> 00:07:43,960
 objects.
 
 00:07:43,960 --> 00:07:48,750
-This should not be the case
-and can lead to a point deduction.
+This should not be the case and
+can lead to a point deduction.
 
 00:07:48,750 --> 00:07:56,460
-So if you want to have different behavior
-for different objects, then they would simply not
+So if you want to have different behavior for
+different objects, then they would simply not
 
 00:07:56,460 --> 00:07:57,770
 be objects of the same class.
@@ -458,8 +458,8 @@ Then you would
 have two different classes.
 
 00:07:59,690 --> 00:08:04,110
-So there can still be classes
-that also store two integers, for example,
+So there can still be classes that
+also store two integers, for example,
 
 00:08:04,110 --> 00:08:06,860
 a class for arithmetic fractions.
@@ -468,8 +468,8 @@ a class for arithmetic fractions.
 There you also need two numbers.
 
 00:08:07,960 --> 00:08:12,220
-But that would not be a point
-class, because it would have completely different operations.
+But that would not be a point class, because
+it would have completely different operations.
 
 00:08:12,220 --> 00:08:14,240
 Then you would have
@@ -482,16 +482,16 @@ Of it there would be also objects.
 They would also store two integers each.
 
 00:08:20,470 --> 00:08:25,870
-But in the different classes for points
-and for fractions there would be different operations.
+But in the different classes for points and for
+fractions there would be different operations.
 
 00:08:25,870 --> 00:08:31,500
-And the objects then don't have to
-store any operations, because they each belong to
+And the objects then don't have to store
+any operations, because they each belong to
 
 00:08:31,500 --> 00:08:40,570
-one class and that determines
-which functionality is available for them.
+one class and that determines which
+functionality is available for them.
 
 00:08:40,570 --> 00:08:43,000
 Another hint for the exercise:
@@ -504,34 +504,34 @@ that you should specify objects to classes or a
 class.
 
 00:08:49,220 --> 00:08:54,460
-Then you don't have to do that,
-unless it is explicitly required, by copying
+Then you don't have to do that, unless
+it is explicitly required, by copying
 
 00:08:54,460 --> 00:09:00,420
-the class again and specifying the
-objects and always making these instantiation
+the class again and specifying the objects
+and always making these instantiation
 
 00:09:00,420 --> 00:09:01,420
 arrows.
 
 00:09:01,420 --> 00:09:06,690
-It is then also sufficient (if the
-class is clear) that you simply specify such
+It is then also sufficient (if the class
+is clear) that you simply specify such
 
 00:09:06,690 --> 00:09:09,040
 objects.
 
 00:09:09,040 --> 00:09:16,380
-That would be the
-relationship between classes and objects.
+That would be the relationship
+between classes and objects.
 
 00:09:16,380 --> 00:09:20,680
 There are also relationships between
 classes in the class diagram.
 
 00:09:20,680 --> 00:09:24,420
-A first such relationship
-is the so-called inheritance.
+A first such relationship is
+the so-called inheritance.
 
 00:09:24,420 --> 00:09:31,649
 This is about the fact that classes can be
@@ -546,68 +546,68 @@ An example for our
 graphics domain would be:
 
 00:09:38,450 --> 00:09:45,670
-We have points that store
-certain information and offer certain
+We have points that store certain
+information and offer certain
 
 00:09:45,670 --> 00:09:46,670
 methods.
 
 00:09:46,670 --> 00:09:52,900
-And then it may just be that
-we have another concept, that of colored points.
+And then it may just be that we have
+another concept, that of colored points.
 
 00:09:52,900 --> 00:09:54,700
 What is a colored point?
 
 00:09:54,700 --> 00:09:59,580
-A colored point is still a point,
-so it must also have coordinates x, y,
+A colored point is still a point, so
+it must also have coordinates x, y,
 
 00:09:59,580 --> 00:10:03,930
-but should also have a
-color (and perhaps other operations).
+but should also have a color
+(and perhaps other operations).
 
 00:10:03,930 --> 00:10:06,540
 So we would have to store a color.
 
 00:10:06,540 --> 00:10:12,340
-And maybe there is an operation
-that translates a colored point to grayscale.
+And maybe there is an operation that
+translates a colored point to grayscale.
 
 00:10:12,340 --> 00:10:17,230
-This is an operation that makes no sense
-on points in general, only on colored points.
+This is an operation that makes no sense on
+points in general, only on colored points.
 
 00:10:17,230 --> 00:10:19,330
 That's why it would be native here.
 
 00:10:19,330 --> 00:10:24,450
-Just as color, of course, is
-precisely the distinguishing feature of colored
+Just as color, of course, is precisely
+the distinguishing feature of colored
 
 00:10:24,450 --> 00:10:27,420
 points from normal points, and
 that's why it's specified here.
 
 00:10:27,420 --> 00:10:30,670
-What is written here on the right are
-not substitutions for the things that are written here.
+What is written here on the right are not
+substitutions for the things that are written here.
 
 00:10:30,670 --> 00:10:34,000
-These are always
-additional information/additional aspects.
+These are always additional
+information/additional aspects.
 
 00:10:34,000 --> 00:10:37,760
 So also the ColoredPoint
 has an x- and y-coordinate.
 
 00:10:37,760 --> 00:10:41,500
-They just don't have to be
-specified here anymore because they are inherited.
+They just don't have to be specified
+here anymore because they are inherited.
 
 00:10:41,500 --> 00:10:47,420
-This is exactly what this arrow
-expresses, especially with this special kind of
+This is exactly what this arrow expresses,
+especially with this special kind of
 
 00:10:47,420 --> 00:10:48,420
 arrowhead.
@@ -616,16 +616,16 @@ arrowhead.
 So ColoredPoint inherits from Point.
 
 00:10:50,230 --> 00:10:53,890
-That is, attributes of Point
-are also attributes of ColoredPoint.
+That is, attributes of Point are
+also attributes of ColoredPoint.
 
 00:10:53,890 --> 00:10:58,660
-And there can be
-more information here, more attributes.
+And there can be more information
+here, more attributes.
 
 00:10:58,660 --> 00:11:02,710
-Methods of Point are also methods
-of ColoredPoint, but ColoredPoint can provide
+Methods of Point are also methods of
+ColoredPoint, but ColoredPoint can provide
 
 00:11:02,710 --> 00:11:05,530
 even more functionality.
@@ -637,12 +637,12 @@ This is called superclass or superclass.
 That would be here:
 
 00:11:12,770 --> 00:11:15,690
-The more general class would
-be the superclass or superclass.
+The more general class would be
+the superclass or superclass.
 
 00:11:15,690 --> 00:11:20,640
-And the specialized concept of
-ColoredPoint here, that's called subclass or
+And the specialized concept of ColoredPoint
+here, that's called subclass or
 
 00:11:20,640 --> 00:11:21,640
 subclass.
@@ -657,8 +657,8 @@ Is there also multiple inheritance?
 Can you inherit from multiple things?
 
 00:11:33,090 --> 00:11:35,580
-So could ColoredPoint also
-inherit from two different classes?
+So could ColoredPoint also inherit
+from two different classes?
 
 00:11:35,580 --> 00:11:36,600
 How is it with these arrows?
@@ -678,8 +678,8 @@ We could also ask
 about our library example:
 
 00:11:49,340 --> 00:11:51,990
-Is there also
-somehow meaningful inheritance conceivable?
+Is there also somehow meaningful
+inheritance conceivable?
 
 00:11:51,990 --> 00:11:53,480
 One must always consider:
@@ -693,8 +693,8 @@ For example, where different
 classes have something in common?
 
 00:11:58,990 --> 00:12:03,080
-So let's assume that there are
-other media than books in the library.
+So let's assume that there are other
+media than books in the library.
 
 00:12:03,080 --> 00:12:04,370
 Then we could
@@ -720,16 +720,16 @@ one author and one title is
 what all of these media have.
 
 00:12:27,290 --> 00:12:31,320
-So maybe it would make sense
-to introduce a class for media in
+So maybe it would make sense to
+introduce a class for media in
 
 00:12:31,320 --> 00:12:35,280
 general and then inherit specialized
 classes for books, CDs, etc.
 
 00:12:35,280 --> 00:12:42,920
-That's then part of the
-design, also finding meaningful such relationships.
+That's then part of the design, also
+finding meaningful such relationships.
 
 00:12:42,920 --> 00:12:48,760
 I had already said that:
@@ -747,19 +747,19 @@ One aspect for implementation that is
 not so important now for static modeling
 
 00:13:01,160 --> 00:13:07,360
-is that methods of
-the superclass can be overridden.
+is that methods of the
+superclass can be overridden.
 
 00:13:07,360 --> 00:13:08,720
 I had said that here:
 
 00:13:08,720 --> 00:13:12,870
-All methods that exist for
-Point also exist for ColoredPoint.
+All methods that exist for Point
+also exist for ColoredPoint.
 
 00:13:12,870 --> 00:13:17,180
-But it could be that the behavior of
-some of these methods must be slightly different
+But it could be that the behavior of some
+of these methods must be slightly different
 
 00:13:17,180 --> 00:13:18,180
 for ColoredPoints.
@@ -769,20 +769,20 @@ So then you would not change that
 the methods exist, but what they do.
 
 00:13:21,910 --> 00:13:26,800
-And for the new methods, of course, you have
-to say what they do anyway, because the Point itself
+And for the new methods, of course, you have to
+say what they do anyway, because the Point itself
 
 00:13:26,800 --> 00:13:35,820
 doesn't know anything
 about gray coloring.
 
 00:13:35,820 --> 00:13:48,200
-And another important point of this kind of
-relationship, inheritance, is that this is to be understood
+And another important point of this kind of relationship,
+inheritance, is that this is to be understood
 
 00:13:48,200 --> 00:13:53,630
-in such a way that any object of the
-subclass can also be considered an object of the
+in such a way that any object of the subclass
+can also be considered an object of the
 
 00:13:53,630 --> 00:13:54,630
 superclass.
@@ -799,15 +799,15 @@ do with Points, you can still do
 with ColoredPoint.
 
 00:14:02,810 --> 00:14:07,451
-So ColoredPoints is not just some other thing
-that happens to also have an x and
+So ColoredPoints is not just some other
+thing that happens to also have an x and
 
 00:14:07,451 --> 00:14:08,451
 y coordinate.
 
 00:14:08,451 --> 00:14:11,460
-But ColoredPoint is really to be seen
-as also a point, but still additional information
+But ColoredPoint is really to be seen as also
+a point, but still additional information
 
 00:14:11,460 --> 00:14:12,460
 to it.
@@ -817,8 +817,8 @@ Everything that goes with points
 must also go with colored points.
 
 00:14:16,540 --> 00:14:19,810
-Otherwise it would be
-wrong to have inheritance here.
+Otherwise it would be wrong
+to have inheritance here.
 
 00:14:19,810 --> 00:14:24,710
 So you shouldn't just connect arbitrary concepts
@@ -831,8 +831,8 @@ similar data stores.
 It's really always about that:
 
 00:14:27,420 --> 00:14:36,490
-There has to be a real
-generalization/specialization relationship between the two classes.
+There has to be a real generalization/specialization
+relationship between the two classes.
 
 00:14:36,490 --> 00:14:38,720
 Because then this can be
@@ -854,16 +854,16 @@ We're going to generalize
 or enrich that, after all.
 
 00:15:00,940 --> 00:15:04,680
-That we don't just have two classes and
-their relationship, but then a whole class diagram
+That we don't just have two classes and their
+relationship, but then a whole class diagram
 
 00:15:04,680 --> 00:15:07,730
 with several classes
 and their relationships.
 
 00:15:07,730 --> 00:15:14,010
-And then you can get into
-situations where certain constellations no longer make
+And then you can get into situations where
+certain constellations no longer make
 
 00:15:14,010 --> 00:15:15,010
 sense.
@@ -872,8 +872,8 @@ sense.
 There you have to consider some things.
 
 00:15:17,680 --> 00:15:22,810
-Especially for the moment,
-it's simply what's recorded here.
+Especially for the moment, it's
+simply what's recorded here.
 
 00:15:22,810 --> 00:15:24,790
 So it says here:
@@ -889,24 +889,24 @@ first of all any circularities.
 So you can't inherit in a circle.
 
 00:15:34,120 --> 00:15:38,779
-It can't be that B inherits from A,
-C inherits from B, and A inherits from C.
+It can't be that B inherits from A, C
+inherits from B, and A inherits from C.
 
 00:15:38,779 --> 00:15:41,980
 It could already be that B inherits
 from A and C inherits from B.
 
 00:15:41,980 --> 00:15:48,940
-So, if this arrow was gone
-here, the situation would be okay.
+So, if this arrow was gone here,
+the situation would be okay.
 
 00:15:48,940 --> 00:15:54,640
 But with all three arrows here, we would
 have a situation that would not make sense.
 
 00:15:54,640 --> 00:15:58,589
-So it just wouldn't be allowed at all
-to specify this class diagram with such a circular
+So it just wouldn't be allowed at all to
+specify this class diagram with such a circular
 
 00:15:58,589 --> 00:16:03,370
 inheritance chain.
@@ -923,15 +923,15 @@ Nor can a class inherit twice,
 so to speak, from another class.
 
 00:16:16,980 --> 00:16:19,839
-In all these cases, of course,
-the direction of the arrows is relevant.
+In all these cases, of course, the
+direction of the arrows is relevant.
 
 00:16:19,839 --> 00:16:21,339
 Not here, so here it wouldn't matter.
 
 00:16:21,339 --> 00:16:23,529
-If the arrow were the other
-way around, it would still be forbidden.
+If the arrow were the other way
+around, it would still be forbidden.
 
 00:16:23,529 --> 00:16:27,690
 In the other situations the
@@ -942,20 +942,20 @@ Whereas here, if the arrow were
 turned around, it would be a circular reasoning again.
 
 00:16:33,040 --> 00:16:36,920
-Would be forbidden so to speak for another
-reason and not because of this double inheritance.
+Would be forbidden so to speak for another reason
+and not because of this double inheritance.
 
 00:16:36,920 --> 00:16:43,490
-And if you were to turn an arrow
-around here, you would no longer have circularity.
+And if you were to turn an arrow around
+here, you would no longer have circularity.
 
 00:16:43,490 --> 00:16:48,580
 So circularity really means: in the
 direction of the arrows, a circle.
 
 00:16:48,580 --> 00:16:52,592
-If you were to turn the arrow around here,
-you would no longer have circularity, because you could
+If you were to turn the arrow around here, you
+would no longer have circularity, because you could
 
 00:16:52,592 --> 00:16:54,740
 not go in a circle following the arrows.
@@ -968,8 +968,8 @@ have a double inheritance.
 Then C would inherit from A and from B.
 
 00:16:59,779 --> 00:17:04,880
-This is allowed in principle in UML,
-but not all programming languages support it.
+This is allowed in principle in UML, but
+not all programming languages support it.
 
 00:17:04,880 --> 00:17:10,250
 We will pay special attention to

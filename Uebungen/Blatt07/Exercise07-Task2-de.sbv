@@ -31,12 +31,12 @@ anderen Stellen haben wir gar keine Marken,
 also 0.
 
 0:01:00.489,0:01:05.180
-Und da das hier die Startmarkierung ist, muss
-da noch ein Pfeil drauf zeigen.
+Und da das hier die Startmarkierung ist,
+muss da noch ein Pfeil drauf zeigen.
 
 0:01:05.180,0:01:14.350
-Von der Startmarkierung s1 gehen zwei Pfeile
-aus, da können wir gucken, in welche Transitionen.
+Von der Startmarkierung s1 gehen zwei Pfeile aus,
+da können wir gucken, in welche Transitionen.
 
 0:01:14.350,0:01:16.590
 Einmal hierhin und einmal hierhin.
@@ -49,12 +49,12 @@ dass eine Marke hier rauskommt und dass eine
 Marke von s2 kommt.
 
 0:01:26.000,0:01:31.580
-Da aber s2 keine Marken enthält, kann t2
-in diesem Fall noch gar nicht feuern.
+Da aber s2 keine Marken enthält, kann
+t2 in diesem Fall noch gar nicht feuern.
 
 0:01:31.580,0:01:35.960
-Also die Einzige, die als erstes hier feuern
-kann, ist t1.
+Also die Einzige, die als
+erstes hier feuern kann, ist t1.
 
 0:01:35.960,0:01:42.450
 Wenn t1 jetzt feuert, dann nehmen wir hier
@@ -74,15 +74,15 @@ Marke in s2 und null Marken in s3 und s4.
 t1 kann nochmal feuern, warum nicht?
 
 0:02:06.300,0:02:09.750
-Die Vorbedingung ist eine Marke, eine haben
-wir hier oben noch.
+Die Vorbedingung ist eine Marke,
+eine haben wir hier oben noch.
 
 0:02:09.750,0:02:10.750
 Also kann die raus.
 
 0:02:10.750,0:02:12.760
-Nachbedingung ist, dass eine Marke wieder
-rauskommt.
+Nachbedingung ist, dass
+eine Marke wieder rauskommt.
 
 0:02:12.760,0:02:20.000
 Das können wir auch direkt aufschreiben.
@@ -102,20 +102,20 @@ natürlich an die Übergänge immer dranschreiben,
 welche Transition geschaltet hat.
 
 0:02:42.700,0:02:52.459
-Also hier in dem Fall hat t1 geschaltet und
-hier auch, um dahin zu führen.
+Also hier in dem Fall hat t1 geschaltet
+und hier auch, um dahin zu führen.
 
 0:02:52.459,0:02:59.290
-Von hier aus kann aber t2 nicht schalten,
-weil in s1 keiner mehr liegt und die Vorbedingung
+Von hier aus kann aber t2 nicht schalten, weil
+in s1 keiner mehr liegt und die Vorbedingung
 
 0:02:59.290,0:03:05.040
-ist ja, dass in s1 eine Marke sein muss und
-eine aus s2 kommen muss.
+ist ja, dass in s1 eine Marke sein
+muss und eine aus s2 kommen muss.
 
 0:03:05.040,0:03:07.000
-Das ist nicht der Fall, also kann t2 nicht
-schalten.
+Das ist nicht der Fall,
+also kann t2 nicht schalten.
 
 0:03:07.000,0:03:12.190
 Und aus s2 geht ja kein anderer Pfeil raus,
@@ -129,8 +129,8 @@ Schritt zurück, wo eine Marke in s2 und eine
 Marke in s1 lag.
 
 0:03:19.260,0:03:25.150
-Jetzt können wir nämlich sehen, hier geht
-ein Pfeil raus und hier noch einer.
+Jetzt können wir nämlich sehen, hier
+geht ein Pfeil raus und hier noch einer.
 
 0:03:25.150,0:03:29.030
 Also kann in diesem Fall t2 schalten.
@@ -163,8 +163,8 @@ schreiben dran, welche Transition, nämlich
 t2, geschaltet hat.
 
 0:04:07.380,0:04:11.540
-Jetzt können wir gucken, welche Transition
-von s3 aus schalten kann.
+Jetzt können wir gucken, welche
+Transition von s3 aus schalten kann.
 
 0:04:11.540,0:04:12.870
 Das ist t3.
@@ -177,12 +177,12 @@ rein und dann verteilen sich die nächsten
 zwei Marken.
 
 0:04:19.569,0:04:25.510
-Die hier geht als Vorbedingung rein, also
-lösche ich die.
+Die hier geht als Vorbedingung
+rein, also lösche ich die.
 
 0:04:25.510,0:04:39.789
-Und es kommt als Nachbedingung eine in s4
-und eine in s2 hinein.
+Und es kommt als Nachbedingung
+eine in s4 und eine in s2 hinein.
 
 0:04:39.789,0:04:48.080
 Also sind wir jetzt wieder in dem Zustand,
@@ -206,8 +206,8 @@ weiß, wie das später aufgebaut ist, sodass
 das schon strukturiert ist.
 
 0:05:13.469,0:05:16.580
-Deswegen schreibe ich das hier hin und nicht
-direkt darunter.
+Deswegen schreibe ich das hier
+hin und nicht direkt darunter.
 
 0:05:16.580,0:05:23.830
 Ihr könnt das natürlich auch direkt darunter
@@ -218,8 +218,8 @@ anhand eines bestimmten Musters, damit es
 nicht zu unübersichtlich und chaotisch wird.
 
 0:05:26.779,0:05:32.599
-Wenn ihr das aufbaut, kann das passieren,
-aber solange die Pfeile stimmen und das Richtige
+Wenn ihr das aufbaut, kann das passieren, aber
+solange die Pfeile stimmen und das Richtige
 
 0:05:32.599,0:05:35.210
 dran steht, ist das auch alles kein Problem.
@@ -232,8 +232,8 @@ an.
 Was kann hier schalten?
 
 0:05:41.050,0:05:47.860
-Hier könnte zum Beispiel t4 schalten, weil
-s4 ja eine Vorbedingung ist.
+Hier könnte zum Beispiel t4 schalten,
+weil s4 ja eine Vorbedingung ist.
 
 0:05:47.860,0:05:52.430
 Dann geht die Marke hier raus und da rein.
@@ -249,8 +249,8 @@ sind also eigentlich wieder bei derselben
 Markierung wie ganz am Anfang.
 
 0:05:59.759,0:06:08.080
-Das bedeutet, wir können von hier einen Pfeil
-dahin machen und mit t4 beschriften.
+Das bedeutet, wir können von hier einen
+Pfeil dahin machen und mit t4 beschriften.
 
 0:06:08.080,0:06:13.930
 Von da aus können wir natürlich dieselben
@@ -281,15 +281,15 @@ Also ist es möglich, dass das hier schalten
 kann.
 
 0:06:41.129,0:06:47.520
-Eine Marke geht also rein, eine Marke geht
-raus und wir sind bei diesem Zustand angekommen.
+Eine Marke geht also rein, eine Marke geht raus
+und wir sind bei diesem Zustand angekommen.
 
 0:06:47.520,0:06:49.569
 Den hatten wir ja bisher auch noch nicht.
 
 0:06:49.569,0:06:52.349
-Das bedeutet, den schreiben wir nochmal extra
-auf.
+Das bedeutet, den schreiben
+wir nochmal extra auf.
 
 0:06:52.349,0:07:05.379
 Dann haben wir null Marken in s1, eine Marke
@@ -299,12 +299,12 @@ in s2, null Marken in s3 und eine Marke in
 s4.
 
 0:07:06.379,0:07:10.949
-Wir zeichnen den Pfeil von da nach da, schreiben
-da dran, dass t1 schaltet.
+Wir zeichnen den Pfeil von da nach da,
+schreiben da dran, dass t1 schaltet.
 
 0:07:10.949,0:07:16.189
-Und jetzt gucken wir, kann von dem Zustand
-aus noch irgendwas schalten?
+Und jetzt gucken wir, kann von dem
+Zustand aus noch irgendwas schalten?
 
 0:07:16.189,0:07:23.300
 Genauso, wie vorhin eben, könnte hier jetzt
@@ -318,15 +318,15 @@ geht nämlich hier in t4 rein und einer kommt
 hier raus.
 
 0:07:32.069,0:07:37.559
-Wenn euch das jetzt auffällt, diese Markierung
-hatten wir vorhin auch schon mal.
+Wenn euch das jetzt auffällt, diese
+Markierung hatten wir vorhin auch schon mal.
 
 0:07:37.559,0:07:39.619
 Nämlich hier.
 
 0:07:39.619,0:07:44.429
-Wir haben eine Marke in s1, eine Marke in
-s2 und in den anderen sonst null.
+Wir haben eine Marke in s1, eine Marke
+in s2 und in den anderen sonst null.
 
 0:07:44.429,0:07:49.539
 Das bedeutet, wir machen von diesem Zustand
@@ -336,8 +336,8 @@ noch einen Pfeil dahin und schreiben da t4
 dran, weil t4 geschaltet hat.
 
 0:07:50.860,0:08:00.340
-Von diesem Zustand können wir wieder das
-schalten und das schalten.
+Von diesem Zustand können wir wieder
+das schalten und das schalten.
 
 0:08:00.340,0:08:07.899
 Also haben wir damit alle erreichbaren Zustände

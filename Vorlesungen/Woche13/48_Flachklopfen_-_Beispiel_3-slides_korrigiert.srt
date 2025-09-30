@@ -1,10 +1,11 @@
 269 # slide
 00:00:02,830 --> 00:00:06,850
-Also als finales Beispiel noch
-ein weiteres UML-Zustandsdiagramm, das
+Also als finales Beispiel noch ein
+weiteres UML-Zustandsdiagramm, das
 
 00:00:06,850 --> 00:00:09,910
-in ein flaches Zustandsdiagramm zu übersetzen ist.
+in ein flaches Zustandsdiagramm
+zu übersetzen ist.
 
 00:00:09,910 --> 00:00:12,430
 Was haben wir hier jetzt vor uns?
@@ -14,8 +15,8 @@ Hier haben wir wiederum keine Regionen, also
 ein bisschen ist das wie das Beispiel 1,
 
 00:00:17,920 --> 00:00:23,200
-noch ohne Regionen, aber dafür diesmal
-mit einem Historienknoten (nämlich diesem).
+noch ohne Regionen, aber dafür diesmal mit
+einem Historienknoten (nämlich diesem).
 
 00:00:23,200 --> 00:00:27,760
 Also wie hier keine Regionen,
@@ -62,8 +63,8 @@ mit diesem Beispiel umzugehen?
 Zunächst wieder wie im einfachen Fall,
 
 00:01:14,860 --> 00:01:21,070
-also wie im Beispiel 1 (also das, was
-hier als Strategie stand):
+also wie im Beispiel 1 (also das,
+was hier als Strategie stand):
 
 00:01:21,070 --> 00:01:23,680
 die einfachen Zustände behalten,
@@ -111,8 +112,8 @@ hierher zurückkehren und dies insbesondere
 über ein Historieneintritt tun werden,
 
 00:02:22,960 --> 00:02:28,825
-dann werden wir wissen müssen, wo wir denn
-in diesem hierarchischen Zustand zuletzt gewesen sind.
+dann werden wir wissen müssen, wo wir denn in
+diesem hierarchischen Zustand zuletzt gewesen sind.
 
 00:02:28,825 --> 00:02:33,100
 Also wenn wir über 'e' den Zustand verlassen,
@@ -129,8 +130,8 @@ Wie können wir uns das merken?
 Nur in Zuständen des flachen Zustandsdiagramms.
 
 00:02:44,830 --> 00:02:49,630
-Das heißt, wir müssen, wenn wir
-etwa hier nach A übergehen,
+Das heißt, wir müssen, wenn
+wir etwa hier nach A übergehen,
 
 00:02:49,630 --> 00:02:52,600
 uns nebenbei auch noch merken, ob wir jetzt
@@ -193,7 +194,8 @@ Und zunächst wollen wir im
 einfachen Fall Dinge außerhalb
 
 00:03:55,780 --> 00:03:59,410
-(die einfachen Zustände) im Wesentlichen behalten.
+(die einfachen Zustände)
+im Wesentlichen behalten.
 
 00:03:59,410 --> 00:04:02,365
 Das führt erst mal dazu,
@@ -227,8 +229,8 @@ Das sehen wir hier.
 Wir sehen auch schon, zur Erinnerung:
 
 00:04:21,700 --> 00:04:27,370
-Im einfachen Fall können wir Übergänge
-behalten, die nichts mit dem
+Im einfachen Fall können wir
+Übergänge behalten, die nichts mit dem
 
 00:04:27,370 --> 00:04:30,940
 Eintritt oder Austritt zu/von einem
@@ -253,8 +255,8 @@ eines hierarchischen Zustands berühren.
 Dann sind wir hier.
 
 00:05:05,440 --> 00:05:07,240
-Den äußeren Startzustand, den
-können wir auch einfach weiter nutzen.
+Den äußeren Startzustand, den können
+wir auch einfach weiter nutzen.
 
 00:05:09,220 --> 00:05:12,160
 Und den hier drin brauchen wir nicht.
@@ -283,8 +285,8 @@ per Startzustand, deswegen dieser Übergang.
 Was haben wir noch zu übersetzen?
 
 00:05:54,130 --> 00:05:58,540
-Wir wissen, dass wir von
-hier mit 'e' immer zu A kommen.
+Wir wissen, dass wir von hier
+mit 'e' immer zu A kommen.
 
 00:05:58,540 --> 00:05:59,950
 Das sehen wir hier.
@@ -301,8 +303,8 @@ Allerdings wissen wir, dass wir uns noch merken
 müssen, ob wir aus C oder aus D gekommen sind.
 
 00:06:11,260 --> 00:06:16,150
-Das heißt, es reicht nicht, einfach nur
-diesen Übergang hier zu haben.
+Das heißt, es reicht nicht, einfach
+nur diesen Übergang hier zu haben.
 
 00:06:16,150 --> 00:06:21,970
 Wir müssen uns auch diese Extrainformation merken,
@@ -330,8 +332,8 @@ wollen wir zu C zurückkommen.
 Das wäre genau, was diese Historie leistet.
 
 00:06:40,000 --> 00:06:46,750
-Wenn wir mit 'e' aus D kommen und später mit 'b' über
-Historie zurückkommen, wollen wir bei D landen.
+Wenn wir mit 'e' aus D kommen und später mit 'b'
+über Historie zurückkommen, wollen wir bei D landen.
 
 00:06:46,750 --> 00:06:51,721
 Wenn wir das aus C getan haben,
@@ -357,8 +359,8 @@ Also es ist nicht einfach A, sondern
 jenes A, das wir aus D betreten haben.
 
 00:07:16,120 --> 00:07:19,930
-Also in den äußeren Zuständen, in dem A
-und dem B und genau genommen auch in dem X,
+Also in den äußeren Zuständen, in dem A und
+dem B und genau genommen auch in dem X,
 
 00:07:19,930 --> 00:07:22,690
 merken wir uns durch eine Extra-Annotation,
@@ -375,8 +377,8 @@ wir das auch für C machen müssen.
 Wir legen eben Kopien an.
 
 00:07:36,010 --> 00:07:41,620
-Das, was in den UML-Zustandsdiagrammen
-A und B waren, dafür haben wir zwei Kopien:
+Das, was in den UML-Zustandsdiagrammen A
+und B waren, dafür haben wir zwei Kopien:
 
 00:07:41,620 --> 00:07:44,740
 eine dafür, dass wir aus C gekommen sind und
@@ -397,7 +399,8 @@ Also eine Kopie für: wir waren zuletzt in C hier.
 Eine für: wir waren zuletzt in D hier.
 
 00:07:57,460 --> 00:07:59,620
-Eine für: wir waren noch gar nicht in diesem Teil.
+Eine für: wir waren noch
+gar nicht in diesem Teil.
 
 00:07:59,620 --> 00:08:04,240
 Das habe ich für das X getan,
@@ -416,8 +419,8 @@ In dem konkreten Fall ist
 es zufälligerweise ja so,
 
 00:08:14,650 --> 00:08:18,310
-dass wir niemals wieder in X sind, wenn wir
-vorher schon mal hier gewesen sind.
+dass wir niemals wieder in X sind, wenn
+wir vorher schon mal hier gewesen sind.
 
 00:08:18,310 --> 00:08:21,910
 Deswegen habe ich hier nicht auch noch
@@ -456,8 +459,8 @@ auch die Übergänge dazwischen brauchen.
 Also:
 
 00:08:53,140 --> 00:08:56,080
-Dass wir mit 'a' und 'f' zwischen A und B
-wechseln können,
+Dass wir mit 'a' und 'f'
+zwischen A und B wechseln können,
 
 00:08:56,080 --> 00:09:01,480
 das wird nicht dadurch verändert, ob
@@ -468,8 +471,8 @@ Auch das geht aus der Strategie hier hervor, dass
 wir diese Kopien der äußeren Zustände (in dem
 
 00:09:08,950 --> 00:09:11,822
-Fall von A und B) und ihrer Übergänge anlegen;
-diese beiden 'a'-, 'f'-Übergänge, die wir sowohl hier
+Fall von A und B) und ihrer Übergänge anlegen; diese
+beiden 'a'-, 'f'-Übergänge, die wir sowohl hier
 
 00:09:11,822 --> 00:09:11,919
 als auch hier finden; und dann zur Komplettierung
@@ -493,8 +496,8 @@ Deswegen haben wir diesen Übergang.
 Und die Information, dass wir in C gewesen sind,
 
 00:09:45,820 --> 00:09:51,190
-nutzen wir dann, wenn wir wiederum
-aus B irgendwann mit 'b' nach D wollen.
+nutzen wir dann, wenn wir wiederum aus
+B irgendwann mit 'b' nach D wollen.
 
 00:09:51,190 --> 00:09:54,370
 Wenn wir also irgendwann diesen Übergang nehmen,

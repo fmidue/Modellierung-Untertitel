@@ -108,7 +108,8 @@ bezüglich s mindestens eine Marke verlangt
 als auch die Vorgewichtsfunktion für t'.
 
 00:02:04,580 --> 00:02:10,610
-Wenn dem nicht so ist, und außerdem t und t' beide
+Wenn dem nicht so ist, und
+außerdem t und t' beide
 
 00:02:10,610 --> 00:02:13,340
 einzeln aktiviert sind, dann wären
@@ -141,8 +142,8 @@ gemeinsame Stelle in den Vorbedingungen
 vorliegt, auch ein Konflikt vorliegen muss.
 
 00:02:35,930 --> 00:02:42,230
-Also ist das Vorliegen
-eines Konfliktes immer mit der Definition zu überprüfen.
+Also ist das Vorliegen eines Konfliktes
+immer mit der Definition zu überprüfen.
 
 00:02:42,230 --> 00:02:53,570
 Okay, ein Beispiel: ein Petrinetz
@@ -153,11 +154,12 @@ Nun kann man sich fragen, welche
 Transitionen hier in Konflikt stehen.
 
 00:02:58,790 --> 00:03:02,840
-Und zwar ist das ein Begriff wieder nur für Paare.
+Und zwar ist das ein Begriff
+wieder nur für Paare.
 
 00:03:02,840 --> 00:03:06,050
-Es gibt hier nur die Paare
-(t1, t2), (t2, t3) und (t1, t3),
+Es gibt hier nur die Paare (t1,
+t2), (t2, t3) und (t1, t3),
 
 00:03:06,050 --> 00:03:08,420
 für die es sinnvoll ist, sich das zu fragen.
@@ -211,8 +213,8 @@ das sind die beiden Pfeile hier) ist
 kleiner-gleich als die aktuelle Markierung.
 
 00:03:56,850 --> 00:04:01,890
-Die aktuelle Markierung hat (1, 1, 1, 1)
-auf s1 bis s4 und dann drei Nullen.
+Die aktuelle Markierung hat (1, 1, 1,
+1) auf s1 bis s4 und dann drei Nullen.
 
 00:04:01,890 --> 00:04:04,050
 Und diese Ungleichheit hier gilt,
@@ -383,8 +385,8 @@ Also wenn t1 kausal für t2 ist und t2 kausal
 für t3, dann ist auch t1 kausal für t3.
 
 00:06:56,610 --> 00:07:00,390
-Bei Nebenläufigkeit, so hatten wir
-gesehen, liegt das nicht vor.
+Bei Nebenläufigkeit, so hatten
+wir gesehen, liegt das nicht vor.
 
 00:07:00,390 --> 00:07:02,580
 Und auch bei der Konfliktrelation

@@ -1,25 +1,25 @@
 0:00:00.000,0:00:07.650
-So, in this video I would like to
-develop once with you an example Petri net.
+So, in this video I would like to develop
+once with you an example Petri net.
 
 0:00:07.650,0:00:15.330
 In this program, in this app, which
 is also linked in the Moodle course.
 
 0:00:15.330,0:00:19.830
-On the one hand, I would like to
-do this in order to talk through a somewhat
+On the one hand, I would like to do
+this in order to talk through a somewhat
 
 0:00:19.830,0:00:21.630
 clearer example with you.
 
 0:00:21.630,0:00:27.330
-In the lecture slides, up to now,
-you've only seen completely artificial Petri nets.
+In the lecture slides, up to now, you've
+only seen completely artificial Petri nets.
 
 0:00:27.330,0:00:29.580
-So here it will
-be about really modeling something.
+So here it will be about
+really modeling something.
 
 0:00:29.580,0:00:32.190
 On the other hand, I
@@ -32,12 +32,12 @@ I also want to show you how to use it.
 So that you can see it in action, how
 
 0:00:37.470,0:00:41.340
-you can use it in practice,
-for example, or to explore models.
+you can use it in practice, for
+example, or to explore models.
 
 0:00:41.340,0:00:44.430
-So that you can not only draw the
-things here (which is of course nice, also
+So that you can not only draw the things
+here (which is of course nice, also
 
 0:00:44.430,0:00:48.780
 for your practice tasks maybe), but that
@@ -58,8 +58,8 @@ Then you can play
 around with your Petri nets.
 
 0:01:01.140,0:01:05.190
-So that's all that I want
-to teach you with the example here.
+So that's all that I want to
+teach you with the example here.
 
 0:01:05.190,0:01:13.230
 The example itself is one that I
@@ -73,28 +73,28 @@ Because I couldn't think of anything else at the
 time, but it turned out that this example is
 
 0:01:20.970,0:01:26.220
-quite nice, because it's still small,
-but it models a concrete illustrative situation.
+quite nice, because it's still small, but
+it models a concrete illustrative situation.
 
 0:01:26.220,0:01:30.570
 And above all, there
 are also various features in
 
 0:01:30.570,0:01:33.330
-it that are interesting
-for the exercises, for example.
+it that are interesting for
+the exercises, for example.
 
 0:01:33.330,0:01:36.240
-So here are resources
-used; how to express certain
+So here are resources used;
+how to express certain
 
 0:01:36.240,0:01:39.525
 conditions that you have in your
 head well in a Petri net; etc.
 
 0:01:39.525,0:01:42.750
-Although this is a small example,
-there are some interesting features in it.
+Although this is a small example, there
+are some interesting features in it.
 
 0:01:42.750,0:01:46.680
 Namely, I had thought at
@@ -116,19 +116,19 @@ Whether he just has to
 do a dance class from
 
 0:02:01.590,0:02:03.750
-school, or just does
-his regular sports, or whatever.
+school, or just does his
+regular sports, or whatever.
 
 0:02:03.750,0:02:05.310
 This year, anyway, I'm really only able
 
 0:02:05.310,0:02:08.700
-to model the afternoon from
-last year because right now, with
+to model the afternoon from last
+year because right now, with
 
 0:02:08.700,0:02:15.120
-the pandemic, there are new
-regulations coming up every week anyway.
+the pandemic, there are new regulations
+coming up every week anyway.
 
 0:02:15.120,0:02:19.050
 And for example there is no training at
@@ -138,16 +138,16 @@ all or even school is not taking place.
 But it's just an example.
 
 0:02:21.390,0:02:25.680
-You shouldn't really believe that my
-family are such freaks that we
+You shouldn't really believe that
+my family are such freaks that we
 
 0:02:25.680,0:02:29.220
 organize our everyday
 life with Petri nets.
 
 0:02:29.220,0:02:33.780
-And actually, my son will be of
-full age the year after next and then
+And actually, my son will be of full
+age the year after next and then
 
 0:02:33.780,0:02:37.710
 it would be absurd to
@@ -157,8 +157,8 @@ go on like this anyway. :-)
 Anyway, it's just an example.
 
 0:02:39.150,0:02:46.050
-Let's imagine that I would like to
-model what a typical afternoon looks like.
+Let's imagine that I would like to model
+what a typical afternoon looks like.
 
 0:02:46.830,0:02:51.450
 For this I certainly
@@ -173,30 +173,30 @@ that happen;
 actions that are executed).
 
 0:03:01.410,0:03:08.940
-You can see here that I
-can place things on my workspace.
+You can see here that I can
+place things on my workspace.
 
 0:03:08.940,0:03:11.820
 So places, that's these circles here.
 
 0:03:11.820,0:03:14.940
-And you can also see
-already, there are two types of
+And you can also see already,
+there are two types of
 
 0:03:14.940,0:03:16.770
 transitions: these filled
 and the unfilled.
 
 0:03:16.770,0:03:20.460
-In the slides earlier, I
-mostly drew the transitions just like
+In the slides earlier, I mostly
+drew the transitions just like
 
 0:03:20.460,0:03:23.010
 this: just using unfilled boxes.
 
 0:03:23.010,0:03:26.610
-In this program, though, you would
-have to take these filled-in rectangles.
+In this program, though, you would have
+to take these filled-in rectangles.
 
 0:03:26.610,0:03:31.530
 Because this other kind of transitions
@@ -209,8 +209,8 @@ one we know and need from the lecture.
 So if you work with the program here, you
 
 0:03:36.930,0:03:40.710
-would have to take
-these filled rectangles as transitions.
+would have to take these filled
+rectangles as transitions.
 
 0:03:41.550,0:03:43.620
 Then you can edit the transitions.
@@ -227,8 +227,8 @@ to draw it like this.
 Then I can do it like this.
 
 0:03:58.260,0:04:02.670
-And I can give names
-to the transitions and places.
+And I can give names to
+the transitions and places.
 
 0:04:02.670,0:04:05.880
 So we can also directly
@@ -243,16 +243,16 @@ One is to be the homework
 that my son has to do.
 
 0:04:12.150,0:04:18.180
-And on the other hand, he goes to training, so
-he does sports, and that should also be an action.
+And on the other hand, he goes to training, so he
+does sports, and that should also be an action.
 
 0:04:19.140,0:04:23.160
 Maybe I actually
 name the transitions first.
 
 0:04:23.830,0:04:43.720
-So for example here the "doing homework"
-and this other transition would be the "exercising".
+So for example here the "doing homework" and
+this other transition would be the "exercising".
 
 0:04:47.200,0:04:50.740
 Then we already know, in order
@@ -263,8 +263,8 @@ executed, usually you would
 need resources for it somehow.
 
 0:04:56.020,0:05:01.540
-So it's certainly not a coincidence
-that I've already provided two places here
+So it's certainly not a coincidence that
+I've already provided two places here
 
 0:05:01.540,0:05:03.910
 where I still want
@@ -282,8 +282,8 @@ That can also be several
 a day, the set homework.
 
 0:05:15.130,0:05:18.880
-And then these would probably
-be the completed tasks down here.
+And then these would probably be
+the completed tasks down here.
 
 0:05:18.880,0:05:21.400
 And you could imagine that the action of
@@ -293,16 +293,16 @@ doing homework turns set
 homework into done homework.
 
 0:05:25.240,0:05:35.380
-And that is exactly when
-I create connections in between.
+And that is exactly when I
+create connections in between.
 
 0:05:35.380,0:05:41.110
-As you can see, the tool
-always adds a one to the connections.
+As you can see, the tool always
+adds a one to the connections.
 
 0:05:41.110,0:05:45.070
-This corresponds to the representation that
-I had on the slides, that
+This corresponds to the representation
+that I had on the slides, that
 
 0:05:45.070,0:05:46.530
 there would be nothing
@@ -320,12 +320,12 @@ weighting of such an edge.
 And I had said:
 
 0:05:54.160,0:05:56.260
-If there is nothing on
-it, then we implicitly mean 1.
+If there is nothing on it,
+then we implicitly mean 1.
 
 0:05:56.260,0:05:58.750
-In fact, in the tool,
-the 1 is always written down.
+In fact, in the tool, the
+1 is always written down.
 
 0:05:58.750,0:06:02.200
 And over here you could just ask:
@@ -342,8 +342,8 @@ and for example here the post place might
 be that my son is back from training.
 
 0:06:20.320,0:06:28.910
-Now you can also draw connections here,
-and then you can consider that while there's
+Now you can also draw connections here, and
+then you can consider that while there's
 
 0:06:28.910,0:06:33.110
 probably only training once a day, there
@@ -362,8 +362,8 @@ So maybe there's three homeworks
 a day and one time training.
 
 0:06:46.730,0:06:52.100
-And then this could be my
-first Petri net expressing this fact.
+And then this could be my first
+Petri net expressing this fact.
 
 0:06:53.120,0:06:54.440
 What can I do with
@@ -373,8 +373,8 @@ it now, with this Petri net?
 I can execute it.
 
 0:06:55.400,0:06:58.850
-So, of course, I can look at
-it with our intuition from the lecture
+So, of course, I can look at it
+with our intuition from the lecture
 
 0:06:58.850,0:07:04.160
 and say that I could, for example, execute
@@ -397,8 +397,8 @@ And I can actually do that.
 I can go to animation mode here, and then
 
 0:07:12.290,0:07:16.490
-we'll see an animation history here
-on the left, for one thing.
+we'll see an animation history
+here on the left, for one thing.
 
 0:07:17.810,0:07:19.760
 First of all, the start marking.
@@ -421,12 +421,12 @@ Then I can
 actually execute transitions here.
 
 0:07:30.320,0:07:32.480
-I can say: I click on
-this, I want to execute this.
+I can say: I click on this,
+I want to execute this.
 
 0:07:32.480,0:07:35.720
-Then a) what has happened
-is recorded here on the left,
+Then a) what has happened is
+recorded here on the left,
 
 0:07:35.720,0:07:39.440
 and b) the transition has just been
@@ -436,24 +436,24 @@ executed and a token has moved down here.
 Then I can execute further transitions.
 
 0:07:42.620,0:07:46.880
-And here we also see that
-after I've executed 'training' once,
+And here we also see that after
+I've executed 'training' once,
 
 0:07:47.870,0:07:50.180
-this transition is no
-longer activated, no longer red.
+this transition is no longer
+activated, no longer red.
 
 0:07:50.180,0:07:54.440
 That means I can only continue to fire
 here and then I would have executed the
 
 0:07:54.440,0:07:57.530
-Petri net once completely and
-no further actions would be possible.
+Petri net once completely and no
+further actions would be possible.
 
 0:07:57.530,0:08:01.046
-And here on the left I
-would see what the execution history was:
+And here on the left I would see
+what the execution history was:
 
 0:08:01.046,0:08:02.630
 Do homework, train,
@@ -508,16 +508,16 @@ always consist of: do tasks three times,
 train once, in any order.
 
 0:08:53.550,0:08:57.540
-Because, if we're in the
-language of parallelism and concurrency, these
+Because, if we're in the language of
+parallelism and concurrency, these
 
 0:08:57.540,0:09:00.840
 are completely independent
 blocks of action.
 
 0:09:00.840,0:09:05.670
-So they're not linked
-in any way, therefore concurrent,
+So they're not linked in any
+way, therefore concurrent,
 
 0:09:05.670,0:09:09.030
 and any order would be possible.
@@ -536,20 +536,20 @@ for example, to represent several days as well?
 First of all, one could say:
 
 0:09:22.710,0:09:24.690
-These blocks do not
-have to be completely independent.
+These blocks do not have to
+be completely independent.
 
 0:09:24.690,0:09:28.500
 One could also imagine that there are
 not simply three tokens here at the
 
 0:09:28.500,0:09:32.370
-beginning and one token here, but
-that these places must first be filled.
+beginning and one token here, but that
+these places must first be filled.
 
 0:09:33.180,0:09:36.450
-There is a start of the
-day or the afternoon, and then
+There is a start of the day
+or the afternoon, and then
 
 0:09:36.450,0:09:39.120
 the tasks are set
@@ -570,8 +570,8 @@ For example, you could have
 a source like this here.
 
 0:09:49.680,0:09:53.070
-So a transition, which is
-to be fired at the beginning.
+So a transition, which is to
+be fired at the beginning.
 
 0:10:00.540,0:10:02.670
 What could it be called?
@@ -587,12 +587,12 @@ The action that starts the afternoon.
 My son is coming out of school.
 
 0:10:11.550,0:10:21.450
-And I'm going to take the tokens back
-down from these places and instead make sure that
+And I'm going to take the tokens back down
+from these places and instead make sure that
 
 0:10:21.450,0:10:26.430
-when the action "coming out of school"
-is executed, then these two places are filled.
+when the action "coming out of school" is
+executed, then these two places are filled.
 
 0:10:26.430,0:10:31.440
 And the right place actually with
@@ -603,8 +603,8 @@ the left arrow I'd like
 to have the weight three.
 
 0:10:49.170,0:10:54.570
-So that would be equivalent to what we had
-earlier, which is that three homeworks would be set directly.
+So that would be equivalent to what we had earlier,
+which is that three homeworks would be set directly.
 
 0:10:54.570,0:10:58.140
 Now the model would look like this.
@@ -614,19 +614,19 @@ So at the beginning
 nothing is assigned at
 
 0:11:00.000,0:11:02.396
-all, but there is a
-transition that has no preconditions.
+all, but there is a transition
+that has no preconditions.
 
 0:11:02.396,0:11:04.080
 That is, it can fire directly.
 
 0:11:04.080,0:11:08.610
-And if I fire it, then
-the three tokens would land here,
+And if I fire it, then the
+three tokens would land here,
 
 0:11:08.610,0:11:12.420
-one token would land here, and
-then I could simulate processes like before.
+one token would land here, and then I
+could simulate processes like before.
 
 0:11:16.470,0:11:21.780
 Now we can simulate several days.
@@ -635,27 +635,27 @@ Now we can simulate several days.
 We can say:
 
 0:11:24.450,0:11:28.440
-Come back from school,
-train, homework, homework, homework, come
+Come back from school, train,
+homework, homework, homework, come
 
 0:11:28.440,0:11:34.890
-back from school, do
-more homework, train again, ...
+back from school, do more
+homework, train again, ...
 
 0:11:34.890,0:11:36.360
 Different sequences are possible.
 
 0:11:38.250,0:11:43.800
-Now you can also determine, if I model
-it this way, something is awkward or strange.
+Now you can also determine, if I model it
+this way, something is awkward or strange.
 
 0:11:43.800,0:11:47.700
-Because it would also be possible
-here, since there are no preconditions for
+Because it would also be possible here,
+since there are no preconditions for
 
 0:11:47.700,0:11:51.990
-this transition, that simply coming out
-of school again and again, so
+this transition, that simply coming
+out of school again and again, so
 
 0:11:51.990,0:11:54.360
 to speak, without ever
@@ -666,19 +666,19 @@ That is certainly
 not a sensible sequence.
 
 0:11:57.530,0:12:00.500
-We also see that a
-lot of homework then accumulates
+We also see that a lot of
+homework then accumulates
 
 0:12:00.500,0:12:01.760
 here without ever being done.
 
 0:12:02.840,0:12:07.970
-That's because of my modeling, which
-is a little bit awkward at
+That's because of my modeling,
+which is a little bit awkward at
 
 0:12:07.970,0:12:13.010
-the moment, that I just have this
-transition up here with no precondition at all.
+the moment, that I just have this transition
+up here with no precondition at all.
 
 0:12:13.640,0:12:15.230
 That would have to be fixed.
@@ -690,12 +690,12 @@ Maybe you could say:
 There is one more place.
 
 0:12:29.540,0:12:41.090
-Let it just be called "Start",
-for example, and it contains one token.
+Let it just be called "Start", for
+example, and it contains one token.
 
 0:12:41.090,0:12:49.460
-And this one token is a
-precondition for getting out of school.
+And this one token is a precondition
+for getting out of school.
 
 0:12:50.570,0:12:54.650
 That's how I imagine it.
@@ -705,39 +705,39 @@ That is, once this action "coming out
 of school" would be able to be executed.
 
 0:12:59.390,0:13:03.200
-After that, the homework would be
-occupied and the training would be prepared.
+After that, the homework would be occupied
+and the training would be prepared.
 
 0:13:03.200,0:13:04.790
 So, let's try this out.
 
 0:13:04.790,0:13:12.350
-If I proceed like this, I could
-"come from school" here at the beginning,
+If I proceed like this, I could "come
+from school" here at the beginning,
 
 0:13:12.350,0:13:14.840
 and then do homework and training
 in any order.
 
 0:13:14.840,0:13:17.510
-And it can't happen, like just
-now, coming out of school several times.
+And it can't happen, like just now,
+coming out of school several times.
 
 0:13:17.510,0:13:20.810
 Because it is possible exactly
 once here at the beginning.
 
 0:13:24.290,0:13:30.110
-Then what else could I
-imagine that belongs to an afternoon?
+Then what else could I imagine
+that belongs to an afternoon?
 
 0:13:30.110,0:13:32.840
 Maybe it is mean that
 you can only do homework
 
 0:13:32.840,0:13:39.410
-and have no - besides sports
-- other leisure activities or opportunities.
+and have no - besides sports - other
+leisure activities or opportunities.
 
 0:13:39.410,0:13:42.620
 For example, my
@@ -747,16 +747,16 @@ son would actually naturally
 spend part of the afternoon playing.
 
 0:13:46.790,0:14:10.850
-So there may still be both
-an action and resources for that.
+So there may still be both an
+action and resources for that.
 
 0:14:10.850,0:14:25.940
-The action would be "playing", and
-that would be playing with the Playstation.
+The action would be "playing", and that
+would be playing with the Playstation.
 
 0:14:25.940,0:14:36.170
-Therefore there has to be a token on
-it, so that this action can then be executed.
+Therefore there has to be a token on it,
+so that this action can then be executed.
 
 0:14:36.170,0:14:38.600
 The play action has no postcondition.
@@ -779,24 +779,24 @@ Then you could also imagine
 that it might be quite nice
 
 0:14:51.830,0:14:55.160
-that you can play not
-only once, but that (especially after
+that you can play not only
+once, but that (especially after
 
 0:14:55.160,0:15:00.380
 doing homework) you
 can play several times.
 
 0:15:00.380,0:15:03.230
-Now that would make it so that
-when homework was done, a) the homework
+Now that would make it so that when
+homework was done, a) the homework
 
 0:15:03.230,0:15:09.710
-was done, and b) there would
-be other tokens here on this Playstation
+was done, and b) there would be
+other tokens here on this Playstation
 
 0:15:09.710,0:15:13.850
-site that would allow you to
-play more often than just exactly once.
+site that would allow you to play
+more often than just exactly once.
 
 0:15:16.670,0:15:17.990
 I wanted to introduce that.
@@ -809,8 +809,8 @@ In the execution just now there was a
 start and at some point it was over.
 
 0:15:28.070,0:15:31.370
-But it would certainly also make
-sense to perhaps also explicitly record this
+But it would certainly also make sense
+to perhaps also explicitly record this
 
 0:15:32.750,0:15:37.100
 conclusion of the day/afternoon as an
@@ -834,20 +834,20 @@ So it could be called: "Day's work done".
 And when is the day's work done?
 
 0:15:59.730,0:16:06.750
-Well, when the homework is
-done and the training is finished.
+Well, when the homework is done
+and the training is finished.
 
 0:16:06.750,0:16:12.030
-And the day's work is only really done
-when all three homework tasks have been done,
+And the day's work is only really done when
+all three homework tasks have been done,
 
 0:16:12.030,0:16:17.460
-which have been created up here (you
-can still see the 3 up there).
+which have been created up here
+(you can still see the 3 up there).
 
 0:16:18.420,0:16:23.490
-So we expect these three homeworks to
-be done; then there are three tokens here.
+So we expect these three homeworks to be
+done; then there are three tokens here.
 
 0:16:23.490,0:16:28.140
 And only when that's the
@@ -858,20 +858,20 @@ execute this transition
 that ends the afternoon.
 
 0:16:34.020,0:16:41.820
-Okay, that would be
-my current modeling status now.
+Okay, that would be my
+current modeling status now.
 
 0:16:41.820,0:16:47.340
-And then we can take another look
-at what actions are possible as a result.
+And then we can take another look at
+what actions are possible as a result.
 
 0:16:48.600,0:16:56.640
-Whether we already have a
-model that somehow captures all intentions.
+Whether we already have a model that
+somehow captures all intentions.
 
 0:16:56.640,0:16:59.100
-But we can already see
-directly that there is something strange
+But we can already see directly
+that there is something strange
 
 0:16:59.100,0:17:03.030
 here when we look
@@ -888,20 +888,20 @@ even coming back from school.
 That is certainly awkward.
 
 0:17:14.400,0:17:19.830
-If we ignore that for the moment,
-then otherwise the processes already make sense.
+If we ignore that for the moment, then
+otherwise the processes already make sense.
 
 0:17:19.830,0:17:25.680
 So coming from school, maybe
 doing homework, playing once, even
 
 0:17:25.680,0:17:28.800
-being able to play again
-(because homework has already been
+being able to play again (because
+homework has already been
 
 0:17:28.800,0:17:33.540
-done), then maybe going to
-practice, then after practice unfortunately having
+done), then maybe going to practice,
+then after practice unfortunately having
 
 0:17:33.540,0:17:36.210
 to do more
@@ -911,24 +911,24 @@ homework, and then deciding:
 It is good for today, day's work
 
 0:17:38.430,0:17:44.370
-done; or maybe also still play
-and only maybe then finish the day.
+done; or maybe also still play and
+only maybe then finish the day.
 
 0:17:45.990,0:17:48.210
 So that would
 be already sensible sequences.
 
 0:17:48.210,0:17:56.580
-And even if I do the random
-sequences again, meaningful sequences come out (except
+And even if I do the random sequences
+again, meaningful sequences come out (except
 
 0:17:56.580,0:18:02.220
 for this aspect, that playing could
 happen before coming back from school).
 
 0:18:06.000,0:18:13.850
-How can I deal with
-the problem that here unrealistically the
+How can I deal with the problem
+that here unrealistically the
 
 0:18:13.850,0:18:18.560
 playing (or the afternoon) starts
@@ -967,45 +967,45 @@ namely when the day's work is done.
 After a full run, the next day can begin.
 
 0:18:50.390,0:19:07.200
-If I do it this way, it won't
-help me to remove this one token here.
+If I do it this way, it won't help
+me to remove this one token here.
 
 0:19:09.990,0:19:11.070
 Then it would still be like this:
 
 0:19:11.070,0:19:13.740
-Once out of school, there
-would be three homework assignments
+Once out of school, there would
+be three homework assignments
 
 0:19:13.740,0:19:17.640
-here, and when those are
-done, tokens will accumulate here.
+here, and when those are done,
+tokens will accumulate here.
 
 0:19:17.640,0:19:19.875
 They might not all be used up that day.
 
 0:19:19.875,0:19:24.360
-And then when the day's work is
-done and the next day starts, suddenly I
+And then when the day's work is done
+and the next day starts, suddenly I
 
 0:19:24.360,0:19:27.600
-would be able to play
-again before coming back from school.
+would be able to play again
+before coming back from school.
 
 0:19:27.600,0:19:29.460
 So somehow we would still have to make
 
 0:19:29.460,0:19:32.070
-sure that this play
-action doesn't just always happen.
+sure that this play action
+doesn't just always happen.
 
 0:19:32.070,0:19:36.960
-Rather, it should not only depend on
-the occupancy of this place
+Rather, it should not only depend
+on the occupancy of this place
 
 0:19:36.960,0:19:40.740
-here, but also on whether
-it is afternoon right now or not.
+here, but also on whether it
+is afternoon right now or not.
 
 0:19:40.740,0:19:48.480
 So whether the action "come out of
@@ -1037,16 +1037,16 @@ is a typical modeling trick or
 modeling pattern in Petri nets.
 
 0:20:14.610,0:20:18.630
-If you want to make
-this execution dependent on something,
+If you want to make this
+execution dependent on something,
 
 0:20:18.630,0:20:22.950
-then of course you have to have
-a place from which you consume a token.
+then of course you have to have a
+place from which you consume a token.
 
 0:20:22.950,0:20:26.910
-Because that's the way
-you constrain the execution of
+Because that's the way you
+constrain the execution of
 
 0:20:26.910,0:20:29.820
 a transition: that
@@ -1065,8 +1065,8 @@ This place is
 supposed to somehow express
 
 0:20:40.650,0:20:42.990
-the fact that it's
-afternoon right now, not morning.
+the fact that it's afternoon
+right now, not morning.
 
 0:20:42.990,0:20:49.530
 So I'm going to
@@ -1076,12 +1076,12 @@ name it appropriately for now.
 I call it "afternoon".
 
 0:20:51.210,0:20:57.840
-Of course, it must not
-be occupied at the beginning.
+Of course, it must not be
+occupied at the beginning.
 
 0:20:58.920,0:21:04.860
-Because before this "coming out
-of school" transition has been executed,
+Because before this "coming out of
+school" transition has been executed,
 
 0:21:04.860,0:21:12.540
 it's not yet afternoon (so it's still
@@ -1102,8 +1102,8 @@ And I want to use that
 then to be able to play.
 
 0:21:28.860,0:21:33.330
-So only when it's
-afternoon, it's allowed to play.
+So only when it's afternoon,
+it's allowed to play.
 
 0:21:35.580,0:21:36.960
 Is it already?
@@ -1116,12 +1116,12 @@ Yes, when I come from school,
 then it is in the afternoon,
 
 0:21:43.230,0:21:49.110
-and there is homework to be done, and it
-can be trained; then we could proceed like this,
+and there is homework to be done, and it can
+be trained; then we could proceed like this,
 
 0:21:49.110,0:21:52.350
-then it is also allowed to
-play, because this place is occupied here.
+then it is also allowed to play,
+because this place is occupied here.
 
 0:21:53.250,0:21:56.430
 There is a token consumed from here on the one
@@ -1148,8 +1148,8 @@ you are still not allowed to play again.
 It can't be like that.
 
 0:22:13.080,0:22:20.610
-But what we could do is
-actually let this arrow work both ways.
+But what we could do is actually
+let this arrow work both ways.
 
 0:22:20.610,0:22:24.660
 So to perform the action "play",
@@ -1159,19 +1159,19 @@ it must be in the afternoon.
 So there has to be a token here.
 
 0:22:26.040,0:22:28.380
-Play can only be performed when this token is
-there.
+Play can only be performed
+when this token is there.
 
 0:22:28.380,0:22:30.810
 But we do not want to destroy this token.
 
 0:22:30.810,0:22:35.100
-We can prevent this by
-having an arrow in both directions.
+We can prevent this by having
+an arrow in both directions.
 
 0:22:35.100,0:22:44.760
-Now this looks like a double
-arrow, but in reality, it's two arrows.
+Now this looks like a double arrow,
+but in reality, it's two arrows.
 
 0:22:44.760,0:22:47.010
 One from here to here,
@@ -1186,35 +1186,35 @@ Then this token is used up,
 but it's put right back down.
 
 0:22:58.650,0:23:05.550
-Now I could actually,
-for example, accumulate several tokens
+Now I could actually, for
+example, accumulate several tokens
 
 0:23:05.550,0:23:07.590
 here, earned by doing homework.
 
 0:23:07.590,0:23:10.380
-And then I could play as
-often as there are tokens here.
+And then I could play as often
+as there are tokens here.
 
 0:23:10.380,0:23:12.360
 But also only because
 it is in the afternoon.
 
 0:23:12.360,0:23:18.000
-Now when I perform this action, this
-one token is consumed, but immediately put back.
+Now when I perform this action, this one
+token is consumed, but immediately put back.
 
 0:23:18.000,0:23:21.270
 While these tokens are really
 consumed, but not put back.
 
 0:23:21.270,0:23:27.570
-You see, the transition remains activated as
-long as the one token is here
+You see, the transition remains activated
+as long as the one token is here
 
 0:23:27.570,0:23:32.280
-(but it is also put back) and
-as long as there are tokens here.
+(but it is also put back) and as
+long as there are tokens here.
 
 0:23:32.280,0:23:34.680
 Now it would not
@@ -1225,8 +1225,8 @@ But not because it is not afternoon,
 but because no tokens have been saved
 
 0:23:40.320,0:23:43.350
-here (which could be done
-by doing homework again, for example).
+here (which could be done by doing
+homework again, for example).
 
 0:23:46.230,0:23:47.370
 This looks good.
@@ -1244,8 +1244,8 @@ Then a new afternoon starts.
 This is awkward.
 
 0:23:55.470,0:23:58.890
-We don't really want
-two tokens to accumulate here.
+We don't really want two
+tokens to accumulate here.
 
 0:23:58.890,0:24:01.590
 This afternoon place, it's really
@@ -1259,8 +1259,8 @@ It's not afternoon twice
 at the same time.
 
 0:24:04.590,0:24:07.350
-That's really supposed to be a
-spot where there's always zero tokens or
+That's really supposed to be a spot
+where there's always zero tokens or
 
 0:24:07.350,0:24:11.160
 one token, and it depends on whether it's
@@ -1270,8 +1270,8 @@ afternoon or whether my son is still in school.
 How can we fix this?
 
 0:24:13.950,0:24:19.800
-The obvious thing is
-that this same afternoon information
+The obvious thing is that this
+same afternoon information
 
 0:24:19.800,0:24:20.940
 is consumed when the day ends.
@@ -1291,12 +1291,12 @@ Coming out of
 school, then it's afternoon.
 
 0:24:53.000,0:24:55.430
-That means it can be played
-as long as there are tokens here.
+That means it can be played as
+long as there are tokens here.
 
 0:24:55.430,0:24:59.090
-So it could also be
-played directly, and homework done.
+So it could also be played
+directly, and homework done.
 
 0:24:59.090,0:25:01.700
 This leads to
@@ -1324,15 +1324,16 @@ That is, although there are still tokens
 accumulated here, playing is not possible now.
 
 0:25:18.290,0:25:20.120
-Because the return from school has not happened yet.
+Because the return from
+school has not happened yet.
 
 0:25:20.120,0:25:24.050
 If he returns from school again,
 then it is afternoon. Then he can
 
 0:25:24.050,0:25:31.130
-play, and the saved-up tokens
-from the previous day can even be used up here.
+play, and the saved-up tokens from the
+previous day can even be used up here.
 
 0:25:31.130,0:25:35.210
 So if on the previous day the
@@ -1342,28 +1343,28 @@ Playstation wasn't on so often, this
 can now be used more often the next day.
 
 0:25:42.320,0:25:47.480
-If we simply let this model
-run randomly, i.e. really carry out
+If we simply let this model run
+randomly, i.e. really carry out
 
 0:25:47.480,0:25:54.890
 random executions here, then I
 could perhaps negotiate with my
 
 0:25:54.890,0:26:03.980
-son whether he finds
-the sequences/possibilities listed here acceptable.
+son whether he finds the
+sequences/possibilities listed here acceptable.
 
 0:26:03.980,0:26:07.160
-Or if we have to change
-some parameters, and if he thinks
+Or if we have to change some
+parameters, and if he thinks
 
 0:26:07.160,0:26:10.580
 he can play during school
 hours (because we don't live
 
 0:26:10.580,0:26:13.310
-that far away from the school and
-he could go home during break) or whatever.
+that far away from the school and he
+could go home during break) or whatever.
 
 0:26:13.310,0:26:20.600
 There is *one* idea
@@ -1376,8 +1377,8 @@ One can discuss based on the Petri net.
 One can also look at these dynamics,
 
 0:26:26.420,0:26:32.030
-i.e. the sequences generated, and come
-to an assessment based on those:
+i.e. the sequences generated, and
+come to an assessment based on those:
 
 0:26:32.030,0:26:34.130
 Did one model correctly what one wanted?
@@ -1397,16 +1398,16 @@ I would like to simply
 see a history here on the
 
 0:26:47.360,0:26:51.530
-left, where the system
-has executed about 50 steps.
+left, where the system has
+executed about 50 steps.
 
 0:26:51.530,0:26:56.010
 Then I can still say
 how fast that should go.
 
 0:26:56.010,0:27:03.900
-And then I can watch the system at work,
-so to speak, and see the processing on the left.
+And then I can watch the system at work, so
+to speak, and see the processing on the left.
 
 0:27:09.210,0:27:10.950
 Of course, further
@@ -1417,32 +1418,32 @@ You could think, for example, that maybe
 this saving up of tokens is too much.
 
 0:27:26.029,0:27:31.770
-Maybe I'm a very strict father and
-don't want, even if Monday, Tuesday, Wednesday
+Maybe I'm a very strict father and don't
+want, even if Monday, Tuesday, Wednesday
 
 0:27:31.770,0:27:34.950
 always homework was done diligently,
 that then on Thursday somehow ten
 
 0:27:34.950,0:27:38.610
-times is played in one go,
-because here all the tokens are accumulated.
+times is played in one go, because
+here all the tokens are accumulated.
 
 0:27:38.610,0:27:41.130
-If I wanted to prevent that,
-I could still say, for example:
+If I wanted to prevent that, I
+could still say, for example:
 
 0:27:41.130,0:27:57.060
 There is a weekly budget, and there may
 be five tokens at the beginning of the
 
 0:27:57.060,0:28:02.070
-week, and if I then make
-playing dependent on this, then I
+week, and if I then make playing
+dependent on this, then I
 
 0:28:02.070,0:28:08.550
-could, so to speak, limit the
-total number of executions of this action.
+could, so to speak, limit the total
+number of executions of this action.
 
 0:28:09.150,0:28:11.490
 It would be absolutely
@@ -1461,8 +1462,8 @@ And it would be
 limited independently of the
 
 0:28:22.080,0:28:25.080
-total weekly budget by
-whether homework has been done.
+total weekly budget by whether
+homework has been done.
 
 0:28:25.080,0:28:32.040
 Maybe this is my final decision now,
@@ -1478,28 +1479,28 @@ This is just
 a somewhat tongue-in-cheek example.
 
 0:28:50.340,0:28:55.630
-I'm also uploading this as a file so you
-can play around with it yourself in the tool.
+I'm also uploading this as a file so you can
+play around with it yourself in the tool.
 
 0:28:55.630,0:28:57.400
 But above all, you should
 use the tool to create
 
 0:28:57.400,0:29:02.440
-your own Petri nets or to
-rebuild some, to experiment with them.
+your own Petri nets or to rebuild
+some, to experiment with them.
 
 0:29:02.440,0:29:05.260
 Be it for exercises,
 where you have to model
 
 0:29:05.260,0:29:10.240
-something, or be it also for examples from
-the lecture, from the slides, or from the exercises,
+something, or be it also for examples from the
+lecture, from the slides, or from the exercises,
 
 0:29:10.240,0:29:14.320
-where it is not about such
-everyday modeling, but about artificial examples.
+where it is not about such everyday
+modeling, but about artificial examples.
 
 0:29:14.320,0:29:18.070
 It might be easier for

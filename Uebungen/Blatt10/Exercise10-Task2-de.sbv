@@ -35,8 +35,8 @@ entsprechend der Aktivität im Aktivitätsdiagramm:
 A. Danach folgt im Aktivitätsdiagramm B, das
 
 0:02:04.140,0:02:14.760
-als Stelle bezeichnet werden kann.
-B ist also keine Aktion, sondern ein
+als Stelle bezeichnet werden kann. B
+ist also keine Aktion, sondern ein
 
 0:02:14.760,0:02:24.660
 Zustand im Aktivitätsdiagramm, den wir als Stelle
@@ -83,7 +83,8 @@ Jetzt haben wir hier die Verzweigungen
 in drei unterschiedliche Pfade in
 
 0:04:48.240,0:04:54.960
-unserem Aktivitätsdiagramm, in dem wir die Möglichkeiten haben,
+unserem Aktivitätsdiagramm, in
+dem wir die Möglichkeiten haben,
 
 0:05:00.600,0:05:04.380
 mit weiteren Verzweigungen auf die Pfade
@@ -94,12 +95,12 @@ wir zuerst drei neue Stellen ein, welche die
 unterschiedlichen Pfade darstellen sollen.
 
 0:05:27.120,0:05:40.800
-Von der vorherigen Transition
-geht jeweils ein Pfeil in jeden Pfad,
+Von der vorherigen Transition geht
+jeweils ein Pfeil in jeden Pfad,
 
 0:05:41.880,0:05:47.880
-sodass es möglich ist, jeden dieser
-Pfade beziehungsweise Pfeile zu wählen. Dadurch
+sodass es möglich ist, jeden dieser Pfade
+beziehungsweise Pfeile zu wählen. Dadurch
 
 0:05:50.880,0:06:00.900
 können wir den ersten Pfad mit D und E weiter
@@ -130,7 +131,8 @@ und da wir bereits vorher eine Stelle haben
 und entweder D oder E ausgeführt werden soll,
 
 0:06:59.820,0:07:08.340
-können wir einfach zwei Transitionen einfügen, die
+können wir einfach zwei
+Transitionen einfügen, die
 
 0:07:13.440,0:07:14.040
 genutzt werden,

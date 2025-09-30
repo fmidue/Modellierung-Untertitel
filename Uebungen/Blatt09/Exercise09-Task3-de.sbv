@@ -1,6 +1,6 @@
 0:00:01.709,0:00:06.400
-In dieser Aufgabe geht es um ein Anwendungsbeispiel
-für Petrinetze.
+In dieser Aufgabe geht es um ein
+Anwendungsbeispiel für Petrinetze.
 
 0:00:06.400,0:00:15.220
 In diesem Fall haben wir eine Aufgabe gegeben,
@@ -18,15 +18,15 @@ Dabei sollte die Schleuse so funktionieren,
 dass Schiffe durch Tor eins einfahren können,
 
 0:00:32.450,0:00:39.650
-wenn kein Schiff in der Schleuse ist, und
-durch Tor zwei dann letztendlich wieder ausfahren
+wenn kein Schiff in der Schleuse ist, und durch
+Tor zwei dann letztendlich wieder ausfahren
 
 0:00:39.650,0:00:40.650
 können.
 
 0:00:40.650,0:00:43.090
-Dabei muss die Wasserhöhe natürlich immer
-stimmen.
+Dabei muss die Wasserhöhe
+natürlich immer stimmen.
 
 0:00:43.090,0:00:46.701
 Das heißt, wenn ein Schiff durch Tor eins
@@ -57,8 +57,8 @@ wieder möglich sein, dass ein Schiff wieder
 reinfahren kann, sodass stetig Schiffe fahren
 
 0:01:21.990,0:01:28.360
-können und nicht nach einem Schiff der Betrieb
-eingestellt werden muss.
+können und nicht nach einem Schiff
+der Betrieb eingestellt werden muss.
 
 0:01:28.360,0:01:40.310
 Und ganz wichtig ist auch, dass immer ein
@@ -69,8 +69,8 @@ das Tor entweder offen oder geschlossen ist,
 der Wasserstand in der Schleuse entweder hoch
 
 0:01:47.310,0:01:56.330
-oder niedrig ist und auf dem Warteplatz und
-in der Schleuse ist zu jedem Zeitpunkt entweder
+oder niedrig ist und auf dem Warteplatz und in
+der Schleuse ist zu jedem Zeitpunkt entweder
 
 0:01:56.330,0:01:58.009
 genau ein Schiff oder kein Schiff.
@@ -86,16 +86,16 @@ Und da sind auch das Schiff auf dem Warteplatz
 zu sehen, das Schiff in der Schleuse, Tor
 
 0:02:15.970,0:02:18.970
-zwei, Tor eins und der Wasserspiegel in der
-Schleuse.
+zwei, Tor eins und der
+Wasserspiegel in der Schleuse.
 
 0:02:18.970,0:02:27.890
-Hier sind sie jeweils mit zwei Stellen für
-jede der Eigenschaften dargestellt.
+Hier sind sie jeweils mit zwei Stellen
+für jede der Eigenschaften dargestellt.
 
 0:02:27.890,0:02:38.780
-Also genau eine Stelle sollte von diesen zusammengehörigen
-Stellen immer ein Token enthalten.
+Also genau eine Stelle sollte von diesen
+zusammengehörigen Stellen immer ein Token enthalten.
 
 0:02:38.780,0:02:49.110
 Also von diesen beiden Stellen soll hier genau
@@ -109,8 +109,8 @@ Und das gilt für die anderen entsprechend,
 wenn man übersetzt, was gemeint ist damit,
 
 0:02:56.180,0:03:00.770
-dass entweder das eine oder das andere zu
-jedem Zeitpunkt gelten soll.
+dass entweder das eine oder das
+andere zu jedem Zeitpunkt gelten soll.
 
 0:03:00.770,0:03:06.440
 Und hier sind auch die Übergänge benannt,
@@ -120,8 +120,8 @@ wie zum Beispiel das Öffnen und Schließen
 der Tore.
 
 0:03:09.440,0:03:15.540
-Das sind die entsprechenden Transitionen,
-die hier in diesem Petrinetz mitgegeben sind.
+Das sind die entsprechenden Transitionen, die
+hier in diesem Petrinetz mitgegeben sind.
 
 0:03:15.540,0:03:24.670
 Und wir erfahren hier in der ersten Teilaufgabe,
@@ -134,28 +134,28 @@ ist.
 Das heißt, es können Fehler auftreten.
 
 0:03:26.760,0:03:43.040
-Und die Aufgabe ist es jetzt, die Fehler mit
-Worten zu beschreiben.
+Und die Aufgabe ist es jetzt, die
+Fehler mit Worten zu beschreiben.
 
 0:03:43.040,0:03:48.730
 Darauf kommt man, wenn man prüft, was die
 Bedingungen für die Schaltung sind, die zuvor
 
 0:03:48.730,0:03:56.250
-genannt wurden, wie zum Beispiel, dass exklusiv
-ein Zustand aktiv sein muss.
+genannt wurden, wie zum Beispiel, dass
+exklusiv ein Zustand aktiv sein muss.
 
 0:03:56.250,0:04:07.090
 Das kann durchgespielt werden, indem beliebig
 Transitionen gefeuert werden, bis man zu einem
 
 0:04:07.090,0:04:13.710
-solchen konsistenten Zustand kommt, bei dem
-man feststellt, dass irgendwas nicht funktioniert.
+solchen konsistenten Zustand kommt, bei dem man
+feststellt, dass irgendwas nicht funktioniert.
 
 0:04:13.710,0:04:24.020
-Und dafür können wir zunächst den Anfangszustand
-überprüfen.
+Und dafür können wir zunächst
+den Anfangszustand überprüfen.
 
 0:04:24.020,0:04:28.680
 Und da stellen wir erstmal keinen Fehler fest,
@@ -183,15 +183,15 @@ Nämlich, dass Tor zwei immer nur geöffnet
 sein darf, wenn der Wasserstand niedrig ist.
 
 0:05:06.889,0:05:16.950
-Und diese Bedingung kann verletzt werden,
-wenn wir t8 feuern.
+Und diese Bedingung kann verletzt
+werden, wenn wir t8 feuern.
 
 0:05:16.950,0:05:22.380
 Dann wird das Tor geöffnet.
 
 0:05:22.380,0:05:31.439
-Ich schreibe das hier mal an die Seite, damit
-das auch irgendwo festgehalten ist, was fehlerhafte
+Ich schreibe das hier mal an die Seite, damit das
+auch irgendwo festgehalten ist, was fehlerhafte
 
 0:05:31.439,0:05:32.439
 Zustände sind.
@@ -205,16 +205,16 @@ Aber danach haben wir die Möglichkeit, t5
 zu feuern, was dazu führen würde, dass wir
 
 0:05:50.539,0:05:55.270
-ein Token in offen hätten und gleichzeitig
-in hoch.
+ein Token in offen hätten
+und gleichzeitig in hoch.
 
 0:05:55.270,0:06:10.279
 Und das wäre ein nicht erlaubter Zustand,
 weil das Tor eben nicht geöffnet sein darf,
 
 0:06:10.279,0:06:13.539
-wenn der Wasserspiegel in der Schleuse niedrig
-ist.
+wenn der Wasserspiegel in
+der Schleuse niedrig ist.
 
 0:06:13.539,0:06:15.699
 Und das wäre dann verletzt.
@@ -223,8 +223,8 @@ Und das wäre dann verletzt.
 Also das wäre ein erster Fehlerzustand.
 
 0:06:19.680,0:06:24.900
-Und dasselbe Problem existiert tatsächlich
-auch mit dem anderen Tor.
+Und dasselbe Problem existiert
+tatsächlich auch mit dem anderen Tor.
 
 0:06:24.900,0:06:33.800
 Wenn wir also hier aus dem Anfangszustand
@@ -264,8 +264,8 @@ Also dass das passiert, müsste verhindert
 werden.
 
 0:07:32.129,0:07:40.499
-Das wäre also der zweite invalide Zustand,
-der existieren kann.
+Das wäre also der zweite invalide
+Zustand, der existieren kann.
 
 0:07:40.499,0:07:55.589
 Dann können wir noch feststellen, dass es
@@ -287,8 +287,8 @@ Und dann könnten wir noch t3 feuern und t4.
 Dann könnte ein Schiff fahren.
 
 0:08:18.360,0:08:22.589
-Und was da passiert, schauen wir uns jetzt
-mal genauer an.
+Und was da passiert, schauen
+wir uns jetzt mal genauer an.
 
 0:08:22.589,0:08:26.169
 Also wenn wir t5 feuern, danach t2.
@@ -309,12 +309,12 @@ Das heißt, ein Schiff ist auf dem Warteplatz.
 Und jetzt feuern wir t4.
 
 0:08:39.900,0:08:47.510
-Und wenn wir das tun, dann verschwindet der
-Token aus Tor eins.
+Und wenn wir das tun, dann
+verschwindet der Token aus Tor eins.
 
 0:08:47.510,0:08:52.010
-Das heißt, unser Tor eins ist weder geöffnet
-noch geschlossen.
+Das heißt, unser Tor eins ist
+weder geöffnet noch geschlossen.
 
 0:08:52.010,0:08:58.490
 Und das ist natürlich ein großes Problem,
@@ -328,72 +328,72 @@ nämlich fragen, was passieren würde, wenn
 das Tor geöffnet bliebe.
 
 0:09:35.960,0:09:43.830
-Also angenommen, das Tor bleibt weiter offen
-oder wird danach geschlossen.
+Also angenommen, das Tor bleibt weiter
+offen oder wird danach geschlossen.
 
 0:09:43.830,0:09:47.251
 Genau dieses Problem bestünde dann nicht.
 
 0:09:47.251,0:09:53.540
-Dann könnte es sein, dass wir einfach t3
-und t4 noch einmal feuern.
+Dann könnte es sein, dass wir
+einfach t3 und t4 noch einmal feuern.
 
 0:09:53.540,0:09:57.030
-Also insbesondere, wenn wir annehmen, dass
-das Tor weiterhin geöffnet ist.
+Also insbesondere, wenn wir annehmen,
+dass das Tor weiterhin geöffnet ist.
 
 0:09:57.030,0:09:59.660
 Bei dem anderen müsste man das Tor erst öffnen.
 
 0:09:59.660,0:10:09.570
-Aber nehmen wir mal an, nach Feuern von t4
-wäre das Tor weiterhin geöffnet.
+Aber nehmen wir mal an, nach Feuern
+von t4 wäre das Tor weiterhin geöffnet.
 
 0:10:09.570,0:10:18.690
-Dann könnte t3 gefeuert werden und dann könnte
-t4 erneut gefeuert werden.
+Dann könnte t3 gefeuert werden und
+dann könnte t4 erneut gefeuert werden.
 
 0:10:18.690,0:10:27.000
-Und dann würde dieser Ja-Zustand mehrere
-Token enthalten.
+Und dann würde dieser Ja-Zustand
+mehrere Token enthalten.
 
 0:10:27.000,0:10:31.430
 Und das soll eben nicht erlaubt sein.
 
 0:10:31.430,0:10:36.470
-Es soll entweder ein Schiff in der Schleuse
-sein oder kein Schiff.
+Es soll entweder ein Schiff in der
+Schleuse sein oder kein Schiff.
 
 0:10:36.470,0:10:45.350
-Also das wäre ein weiterer problematischer
-Zustand hier.
+Also das wäre ein weiterer
+problematischer Zustand hier.
 
 0:10:45.350,0:10:54.660
-Das Problem wäre sozusagen mit den Schiffen
-in der Schleuse im weiteren Fall.
+Das Problem wäre sozusagen mit den
+Schiffen in der Schleuse im weiteren Fall.
 
 0:10:54.660,0:11:03.280
 Also das ist ein zusätzliches Problem, das
 man sozusagen über dieselbe Reihenfolge auch
 
 0:11:03.280,0:11:08.790
-bekommt, neben dem Problem, dass Tor eins
-auch offen ist.
+bekommt, neben dem Problem,
+dass Tor eins auch offen ist.
 
 0:11:08.790,0:11:19.200
-Und dann hätten wir noch eine weitere Möglichkeit
-für einen Fehler.
+Und dann hätten wir noch eine
+weitere Möglichkeit für einen Fehler.
 
 0:11:19.200,0:11:27.270
 Und der liegt beim Feuern von t7.
 
 0:11:27.270,0:11:41.960
-Und um t7 zu feuern, müssen zuvor erst ein
-paar andere Übergänge gefeuert werden.
+Und um t7 zu feuern, müssen zuvor erst
+ein paar andere Übergänge gefeuert werden.
 
 0:11:41.960,0:12:02.310
-In dem aktuellen Zustand könnten wir t8 einfach
-feuern, um das Tor zu öffnen.
+In dem aktuellen Zustand könnten wir t8
+einfach feuern, um das Tor zu öffnen.
 
 0:12:02.310,0:12:10.030
 Oder vielleicht starten wir lieber legal,
@@ -413,8 +413,8 @@ Also sagen wir mal, wir feuern lieber t5.
 Also wir feuern t5.
 
 0:12:24.900,0:12:37.910
-Danach feuern wir t2, um danach t4 feuern
-zu können.
+Danach feuern wir t2, um
+danach t4 feuern zu können.
 
 0:12:37.910,0:12:47.330
 Dann hätten wir hier ein Schiff in der Schleuse.
@@ -427,12 +427,12 @@ konsistent halten, schließen, dann den Wasserzustand
 auf niedrig ändern mit t6.
 
 0:13:14.790,0:13:26.350
-Und dann würden wir t8 feuern, um am Ende
-letztlich t7 zu feuern.
+Und dann würden wir t8 feuern, um
+am Ende letztlich t7 zu feuern.
 
 0:13:26.350,0:13:31.930
-Also t7 erfordert, dass wir hier ein Token
-haben und dort.
+Also t7 erfordert, dass wir
+hier ein Token haben und dort.
 
 0:13:31.930,0:13:35.220
 Und den kriegen wir nur durch t8 dorthin.
@@ -445,8 +445,8 @@ damit der Token wieder hier anlandet, der vorher
 in hoch war.
 
 0:13:44.050,0:13:48.010
-Über t5 war der Token dort gelandet und t6
-bringt den wieder zurück.
+Über t5 war der Token dort gelandet
+und t6 bringt den wieder zurück.
 
 0:13:48.010,0:13:49.480
 Und dann können wir t8 feuern.
@@ -459,12 +459,12 @@ Und wenn wir dann t7 feuern, dann stellen
 wir fest, dass kein Token mehr in Tor zwei
 
 0:13:56.720,0:14:05.160
-ist, weil von dieser Stelle aus der Token
-über t7 hier verloren geht.
+ist, weil von dieser Stelle aus der
+Token über t7 hier verloren geht.
 
 0:14:05.160,0:14:09.930
-Und damit ist auch kein Token mehr für Tor
-zwei vorhanden.
+Und damit ist auch kein Token
+mehr für Tor zwei vorhanden.
 
 0:14:09.930,0:14:15.940
 Also nochmal zusammenfassend haben wir ein
@@ -474,12 +474,12 @@ Problem bei Tor eins, nämlich, dass der Token
 verlorengehen kann.
 
 0:14:17.180,0:14:20.910
-Wir haben ein Problem bei Tor zwei, nämlich,
-dass der Token verlorengehen kann.
+Wir haben ein Problem bei Tor zwei,
+nämlich, dass der Token verlorengehen kann.
 
 0:14:20.910,0:14:25.950
-Also bei Tor zwei über t7 und bei Tor eins
-über t4.
+Also bei Tor zwei über t7
+und bei Tor eins über t4.
 
 0:14:25.950,0:14:31.230
 Wir haben das Problem, dass mehrere Schiffe
@@ -504,43 +504,43 @@ Und dabei dürfen nur Pfeile hinzugefügt
 werden.
 
 0:15:08.750,0:15:14.010
-Also wir müssen jetzt die fünf Probleme,
-die wir gefunden haben, beheben, indem Pfeile
+Also wir müssen jetzt die fünf Probleme, die
+wir gefunden haben, beheben, indem Pfeile
 
 0:15:14.010,0:15:21.810
-hinzugefügt werden und keine Transitionen
-oder Stellen.
+hinzugefügt werden und keine
+Transitionen oder Stellen.
 
 0:15:21.810,0:15:25.730
 Also bleibt unser Schaltplan, wie er ist.
 
 0:15:25.730,0:15:30.870
-Wir fügen nur Verbindungen zwischen Stellen
-und Transitionen hinzu.
+Wir fügen nur Verbindungen zwischen
+Stellen und Transitionen hinzu.
 
 0:15:30.870,0:15:42.630
 Und für das Öffnen und Schließen der Tore
 können wir uns überlegen, dass das Problem
 
 0:15:42.630,0:15:50.250
-ja ist, dass wir t5 und t6 zu jeder Zeit feuern
-können.
+ja ist, dass wir t5 und t6
+zu jeder Zeit feuern können.
 
 0:15:50.250,0:15:57.140
-Und dadurch auch bewirken können, dass der
-Wasserstand falsch ist.
+Und dadurch auch bewirken können,
+dass der Wasserstand falsch ist.
 
 0:15:57.140,0:16:09.800
 Wenn wir jetzt aber für t5 und t6 jeweils
 als Bedingungen hinzufügen, dass das Tor
 
 0:16:09.800,0:16:21.330
-jeweils geschlossen sein muss, bei t5 wäre
-das Tor zwei und bei t6 Tor eins.
+jeweils geschlossen sein muss, bei t5
+wäre das Tor zwei und bei t6 Tor eins.
 
 0:16:21.330,0:16:31.200
-Also der Wasserstand soll nur nach oben gehen
-können, wenn Tor zwei geschlossen ist.
+Also der Wasserstand soll nur nach oben
+gehen können, wenn Tor zwei geschlossen ist.
 
 0:16:31.200,0:16:40.110
 Und umgekehrt soll der Wasserstand nur nach
@@ -583,12 +583,12 @@ Vorbedingung für t5 gilt, dass Tor zwei geschlossen
 ist, aber der Token nicht von hier verschwindet.
 
 0:17:47.059,0:17:52.850
-Es bleibt also ein Token in geschlossen, wenn
-t5 gefeuert wird.
+Es bleibt also ein Token in
+geschlossen, wenn t5 gefeuert wird.
 
 0:17:52.850,0:18:02.970
-Und analog geht es ebenso mit dem Wasserstand
-in die andere Richtung.
+Und analog geht es ebenso mit dem
+Wasserstand in die andere Richtung.
 
 0:18:02.970,0:18:14.770
 Das heißt, nur wenn Tor eins geschlossen
@@ -606,23 +606,23 @@ Das Problem vorher ist nämlich gewesen, dass
 der inkonsistente Zustand erreicht werden
 
 0:18:35.860,0:18:41.350
-konnte, wenn zum Beispiel t8 gefeuert wurde
-und danach t5.
+konnte, wenn zum Beispiel t8
+gefeuert wurde und danach t5.
 
 0:18:41.350,0:18:46.610
 Das ist jetzt nicht mehr möglich, denn wenn
 t8 gefeuert wurde, dann muss zunächst t9
 
 0:18:46.610,0:18:51.510
-gefeuert werden, weil sonst kein Token hier
-im Zustand Tor-zwei-geschlossen liegt.
+gefeuert werden, weil sonst kein Token
+hier im Zustand Tor-zwei-geschlossen liegt.
 
 0:18:51.510,0:18:55.309
 Und in der anderen Richtung gilt dasselbe.
 
 0:18:55.309,0:19:08.169
-Also wenn jetzt
-t5 gefeuert wird, liegt der Token hier im
+Also wenn jetzt t5 gefeuert
+wird, liegt der Token hier im
 
 0:19:08.169,0:19:09.169
 Zustand hoch.
@@ -639,19 +639,20 @@ t1 gefeuert werden, weil sonst kein Token
 in dem Zustand Tor-eins-geschlossen liegt.
 
 0:19:30.149,0:19:37.440
-Das behebt schon einmal das Problem mit den
-Toren.
+Das behebt schon einmal
+das Problem mit den Toren.
 
 0:19:37.440,0:19:45.049
-Und dann geht es weiter mit den Schiffen auf
-den Warteplätzen.
+Und dann geht es weiter mit den
+Schiffen auf den Warteplätzen.
 
 0:19:45.049,0:20:04.669
 Da besteht das Problem, dass Tor eins nicht
 mehr geöffnet werden kann, weil der Token
 
 0:20:04.669,0:20:07.640
-durch das Feuern von t4 aus Tor eins verschwindet.
+durch das Feuern von t4
+aus Tor eins verschwindet.
 
 0:20:07.640,0:20:12.330
 Da können wir im Prinzip denselben Trick
@@ -668,8 +669,8 @@ wir, dass der Token endgültig verloren geht
 von den Zuständen geschlossen und offen.
 
 0:20:26.789,0:20:36.590
-Man macht also einfach eine Rückkante zu
-einer der beiden Stellen.
+Man macht also einfach eine Rückkante
+zu einer der beiden Stellen.
 
 0:20:36.590,0:20:43.279
 Es ist in dem Fall tatsächlich egal, weil
@@ -679,16 +680,16 @@ nicht genau beschrieben wird, wie sich das
 hier verhalten soll.
 
 0:20:44.749,0:20:51.170
-Ich mache diesen Rückpfeil jetzt hier einfach
-mal zum Zustand offen.
+Ich mache diesen Rückpfeil jetzt
+hier einfach mal zum Zustand offen.
 
 0:20:51.170,0:21:02.190
 Der bewirkt jetzt, dass eben, wenn t4 gefeuert
 wird, auch wieder ein Token in offen landet.
 
 0:21:02.190,0:21:10.659
-Und dasselbe Problem bestand bei t7 in dem
-letzten beschriebenen Fehlerfall.
+Und dasselbe Problem bestand bei t7 in
+dem letzten beschriebenen Fehlerfall.
 
 0:21:10.659,0:21:13.610
 Das heißt, hier können wir analog vorgehen.
@@ -718,8 +719,8 @@ Tor-zwei-geschlossen existieren.
 Also das wäre eine alternative Möglichkeit.
 
 0:21:56.559,0:22:09.309
-Und dann besteht noch das Problem, dass mehrere
-Schiffe in der Schleuse landen können.
+Und dann besteht noch das Problem, dass
+mehrere Schiffe in der Schleuse landen können.
 
 0:22:09.309,0:22:19.799
 Und das kann verhindert werden, indem t4 nur
@@ -729,24 +730,24 @@ geschaltet werden darf, wenn kein Schiff in
 der Schleuse ist.
 
 0:22:20.999,0:22:26.980
-Und kein Schiff in der Schleuse ist eben genau
-diese Stelle hier.
+Und kein Schiff in der Schleuse
+ist eben genau diese Stelle hier.
 
 0:22:26.980,0:22:34.600
 Das heißt, durch Hinzufügen einer Kante
 von Kein-Schiff-in-der-Schleuse zu t4 wird
 
 0:22:34.600,0:22:38.850
-verhindert, dass mehrere Schiffe in der Schleuse
-landen können.
+verhindert, dass mehrere Schiffe
+in der Schleuse landen können.
 
 0:22:38.850,0:22:43.869
-Also mit dieser Kante wird dann auch dieses
-Problem behoben.
+Also mit dieser Kante wird dann
+auch dieses Problem behoben.
 
 0:22:43.869,0:22:51.059
-Das sind jetzt sieben Kanten, die wir hinzugefügt
-haben.
+Das sind jetzt sieben Kanten,
+die wir hinzugefügt haben.
 
 0:22:51.059,0:22:57.919
 Und wenn wir noch einmal in die Aufgabenstellung

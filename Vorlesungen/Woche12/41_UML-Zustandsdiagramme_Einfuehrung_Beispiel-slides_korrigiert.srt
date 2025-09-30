@@ -28,7 +28,8 @@ die wir gleich kennenlernen werden.
 Zunächst zum Einsatz:
 
 00:00:38,970 --> 00:00:45,630
-Zustandsdiagramme werden verwendet, wenn der Fokus
+Zustandsdiagramme werden
+verwendet, wenn der Fokus
 
 00:00:45,630 --> 00:00:49,890
 bei der Modellierung auf den Zuständen
@@ -143,7 +144,8 @@ in Benutzungsoberflächen,
 für eingebettete Systeme.
 
 00:02:52,230 --> 00:02:56,070
-Da kann man sicherlich die Liste lange fortsetzen,
+Da kann man sicherlich die
+Liste lange fortsetzen,
 
 00:02:56,070 --> 00:03:01,500
 weil Zustände und Übergänge dazwischen
@@ -157,8 +159,8 @@ anderen Domänen, Verhalten zu beschreiben.
 Konkret die Zustandsdiagramme/Statecharts,
 
 00:03:08,760 --> 00:03:14,250
-wie sie später in UML eingegangen sind,
-stammen von Ende der 80er Jahre,
+wie sie später in UML eingegangen
+sind, stammen von Ende der 80er Jahre,
 
 00:03:14,250 --> 00:03:16,605
 von einem Wissenschaftler namens David Harel.
@@ -175,7 +177,8 @@ Zu Beginn der Folien, in der
 ersten oder zweiten Woche,
 
 00:03:29,550 --> 00:03:34,020
-hatte ich einen Artikel von David Harel angegeben.
+hatte ich einen Artikel
+von David Harel angegeben.
 
 00:03:34,020 --> 00:03:38,130
 Das ist die ursprüngliche Arbeit,
@@ -190,7 +193,8 @@ Ein wesentliches Ziel von
 UML-Zustandsdiagrammen / Statecharts ist das,
 
 00:03:50,130 --> 00:03:51,960
-was bei flachen Zustandsdiagrammen passieren kann,
+was bei flachen
+Zustandsdiagrammen passieren kann,
 
 00:03:51,960 --> 00:03:56,032
 in den Griff zu kriegen, nämlich dass
@@ -209,11 +213,12 @@ bei flachen Zustandsdiagrammen schon gab. So gibt
 es zum Beispiel Verfeinerungen von Zuständen.
 
 00:04:08,640 --> 00:04:13,170
-Zustände sind nicht einfach nur Knoten
-ohne innere Struktur.
+Zustände sind nicht einfach nur
+Knoten ohne innere Struktur.
 
 00:04:13,170 --> 00:04:14,850
-Sondern sie können hierarchisch verfeinert werden.
+Sondern sie können
+hierarchisch verfeinert werden.
 
 00:04:14,850 --> 00:04:22,020
 Und das führt auch dazu, eine Zustandsexplosion
@@ -262,7 +267,8 @@ mit diesen beiden Aspekten erleichtert
 oder ermöglicht, sind Historienknoten.
 
 00:05:09,420 --> 00:05:11,689
-Da habe ich im Moment auch noch nicht viel dazu zu sagen.
+Da habe ich im Moment auch
+noch nicht viel dazu zu sagen.
 
 00:05:11,689 --> 00:05:14,010
 Das werden wir sehen, wenn wir im
@@ -327,8 +333,8 @@ Also Ziel ist eine Größenreduktion gegenüber
 der Verwendung eines flachen Zustandsdiagramms.
 
 00:06:26,320 --> 00:06:30,700
-Was hier nicht auftreten wird, ist, dass wir
-zwischen endlich und unendlich wechseln.
+Was hier nicht auftreten wird, ist, dass
+wir zwischen endlich und unendlich wechseln.
 
 00:06:30,700 --> 00:06:34,810
 Flache Zustandsdiagramme nehmen
@@ -407,8 +413,8 @@ Variante von dem Beispiel,
 mit dem Harel seine Statecharts motiviert hat.
 
 00:07:51,580 --> 00:07:58,810
-Das heißt aber eben auch, dass wenn
-Sie mögen, Sie im Artikel nachlesen können.
+Das heißt aber eben auch, dass wenn Sie
+mögen, Sie im Artikel nachlesen können.
 
 00:08:01,060 --> 00:08:02,890
 Es soll um eine Armbanduhr gehen,
@@ -430,8 +436,8 @@ Das hier unten ist noch kein Zustandsdiagramm.
 Ich gebe nur stilisiert an,
 
 00:08:20,230 --> 00:08:23,980
-wie sich die Armbanduhr in bestimmten Situationen
-darstellen kann,
+wie sich die Armbanduhr in bestimmten
+Situationen darstellen kann,
 
 00:08:23,980 --> 00:08:25,600
 und werde Pfeile dazwischen haben.
@@ -446,7 +452,8 @@ Ganz wichtig!
 Also, es gibt diese Uhr.
 
 00:08:29,980 --> 00:08:32,290
-Sie hat zwei Knöpfe, 'a' und 'b', links und rechts.
+Sie hat zwei Knöpfe, 'a'
+und 'b', links und rechts.
 
 00:08:32,290 --> 00:08:33,850
 Und sie hat zwei Modi.
@@ -488,7 +495,8 @@ also wechseln zwischen den
 Zum Wechsel ist dieser Knopf "a" gedacht.
 
 00:09:09,250 --> 00:09:12,130
-Also wenn wir in der Zeitanzeige-Darstellung sind,
+Also wenn wir in der
+Zeitanzeige-Darstellung sind,
 
 00:09:12,130 --> 00:09:15,700
 können wir den Knopf "a" drücken und
@@ -498,10 +506,12 @@ kommen in die Alarmeinstellungsanzeige.
 Das soll hier dargestellt sein.
 
 00:09:18,670 --> 00:09:20,500
-Und natürlich können wir von da auch wieder zurück.
+Und natürlich können wir
+von da auch wieder zurück.
 
 00:09:20,500 --> 00:09:24,400
-Also wenn wir in der Alarmeinstellungsanzeige sind
+Also wenn wir in der
+Alarmeinstellungsanzeige sind
 
 00:09:24,400 --> 00:09:27,310
 und wieder "a" drücken, kommen wir
@@ -561,14 +571,16 @@ und zwar immer, wenn die Zeit
 auf eine volle Stunde wechselt.
 
 00:10:18,640 --> 00:10:20,140
-Den Piep-Ton sehen wir hier jetzt natürlich nicht.
+Den Piep-Ton sehen wir
+hier jetzt natürlich nicht.
 
 00:10:20,140 --> 00:10:22,480
 Das ist nur eine Information,
 die im Zustandsdiagramm
 
 00:10:22,480 --> 00:10:25,300
-an geeigneter Stelle einfach dargestellt sein wird:
+an geeigneter Stelle einfach
+dargestellt sein wird:
 
 00:10:25,300 --> 00:10:28,180
 hier bei diesem Übergang wird gepiept.
@@ -580,8 +592,8 @@ Ist es inzwischen vollständig?
 Nein, ist es nicht.
 
 00:10:34,960 --> 00:10:40,810
-Denn tatsächlich soll nicht gelten,
-dass wenn wir in der Zeitanzeige sind und
+Denn tatsächlich soll nicht gelten, dass
+wenn wir in der Zeitanzeige sind und
 
 00:10:40,810 --> 00:10:43,630
 auf die Alarmdarstellung wechseln,
@@ -595,8 +607,8 @@ Stellen wir uns vor, wir wechseln in die
 Alarmeinstellung, und dann stellen wir den Alarm aus.
 
 00:10:51,160 --> 00:10:54,400
-Dann wollen wir auch in der Lage
-sein, wieder zur Zeitanzeige zu wechseln,
+Dann wollen wir auch in der Lage sein,
+wieder zur Zeitanzeige zu wechseln,
 
 00:10:54,400 --> 00:10:56,620
 und nicht nur, nachdem wir

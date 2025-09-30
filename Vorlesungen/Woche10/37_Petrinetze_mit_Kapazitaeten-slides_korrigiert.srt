@@ -42,8 +42,8 @@ Man möchte zum Beispiel sicherstellen, dass egal
 wie das Petrinetz schaltet, auf den einzelnen
 
 00:01:00,960 --> 00:01:08,190
-Stellen jeweils nie mehr als eine bestimmte
-Zahl von Marken liegen kann, und möchte dabei auch
+Stellen jeweils nie mehr als eine bestimmte Zahl
+von Marken liegen kann, und möchte dabei auch
 
 00:01:08,190 --> 00:01:12,990
 für verschiedene Stellen verschiedene solche
@@ -103,8 +103,8 @@ Während die Frage der
 Beschränktheit/Unbeschränktheit annimmt:
 
 00:02:07,080 --> 00:02:12,000
-Man schaltet entsprechend der Definition
-von Petrinetzen und beobachtet dann, ob sich
+Man schaltet entsprechend der Definition von
+Petrinetzen und beobachtet dann, ob sich
 
 00:02:12,590 --> 00:02:15,020
 viele Marken auf einer Stelle
@@ -178,8 +178,8 @@ Das tun wir kurz.
 Das muss Sie nicht erschrecken,
 
 00:03:26,660 --> 00:03:32,210
-weil es eine sehr einfache Definition
-ist, die auch eine sehr klare Semantik hat.
+weil es eine sehr einfache Definition ist,
+die auch eine sehr klare Semantik hat.
 
 00:03:32,210 --> 00:03:36,650
 Man könnte sagen, man erweitert einfach
@@ -300,7 +300,8 @@ dieser Stelle nie irgendwelche
 Marken liegen haben möchte.
 
 00:05:48,460 --> 00:05:51,850
-Dann braucht man diese Stelle gar nicht einzuführen.
+Dann braucht man diese
+Stelle gar nicht einzuführen.
 
 00:05:51,850 --> 00:05:53,920
 Also es wäre nicht sinnvoll.
@@ -380,7 +381,8 @@ Nämlich genau die Zahlen, die
 der Kapazität entsprechen sollen.
 
 00:07:20,740 --> 00:07:26,290
-Wie könnte das dann aussehen, so ein Beispielnetz?
+Wie könnte das dann aussehen,
+so ein Beispielnetz?
 
 00:07:26,290 --> 00:07:30,400
 Zum Beispiel so: ein ganz normales Petrinetz,
@@ -456,7 +458,8 @@ dass in dieser Ausgangsstation alle
 drei Transitionen aktiviert sind.
 
 00:08:49,250 --> 00:08:49,673
-Denn t1 kann schalten, weil hier eine Marke liegt.
+Denn t1 kann schalten,
+weil hier eine Marke liegt.
 
 00:08:49,673 --> 00:08:55,430
 Und t2 kann schalten, weil hier eine Marke liegt.
@@ -722,8 +725,8 @@ Initialknoten im Erreichbarkeitsgraphen),
 da ist t1 nicht aktiviert.
 
 00:13:37,390 --> 00:13:44,320
-Obwohl t1 durchaus schalten dürfte, wenn wir diese beiden Annotationen hier
-ignorieren würden.
+Obwohl t1 durchaus schalten dürfte, wenn wir
+diese beiden Annotationen hier ignorieren würden.
 
 00:13:44,320 --> 00:13:47,830
 Also t2 kann schalten, t3 kann schalten.
@@ -842,7 +845,8 @@ Stattdessen ein äquivalentes Petrinetz
 zu erzeugen, das mit einfachen Mitteln
 
 00:16:01,880 --> 00:16:05,630
-auskommt (also nicht solche Annotationen benötigt),
+auskommt (also nicht solche
+Annotationen benötigt),
 
 00:16:05,630 --> 00:16:12,050
 aber dennoch das Verhalten erreicht, welches
@@ -919,7 +923,8 @@ viele Marken noch maximal auf die
 ursprüngliche Stelle s gelegt werden dürften.
 
 00:17:41,240 --> 00:17:46,820
-Also in dem Beispiel eben hatten wir zwei Stellen.
+Also in dem Beispiel eben
+hatten wir zwei Stellen.
 
 00:17:46,820 --> 00:17:50,210
 Wir fügen für jede Stelle eine
@@ -1093,7 +1098,8 @@ Wenn wir uns auf eine Transition und eine
 Stelle fokussieren, können wir fragen:
 
 00:21:11,430 --> 00:21:15,000
-Was macht denn diese Transition mit dieser Stelle?
+Was macht denn diese
+Transition mit dieser Stelle?
 
 00:21:15,000 --> 00:21:17,520
 Entnimmt sie daraus Marken?
@@ -1166,8 +1172,8 @@ Das könnte zum Beispiel sein, wenn das
 Nachgewicht null ist und das Vorgewicht drei.
 
 00:22:21,870 --> 00:22:26,910
-Dann heißt das, die Transition nimmt drei
-Marken aus der Stelle und gibt keine dorthin ab.
+Dann heißt das, die Transition nimmt drei Marken
+aus der Stelle und gibt keine dorthin ab.
 
 00:22:26,910 --> 00:22:28,710
 Also insgesamt entnimmt sie drei Marken.
@@ -1297,8 +1303,8 @@ Und das wird genau dann der Fall
 sein (wegen dieser Invariante hier),
 
 00:24:59,440 --> 00:25:07,390
-wenn tatsächlich die Summe
-dann nicht größer als k(s) ist.
+wenn tatsächlich die Summe dann
+nicht größer als k(s) ist.
 
 00:25:07,390 --> 00:25:19,420
 Die Summe der aktuell in s
@@ -1591,8 +1597,8 @@ Das heißt nicht, dass t1 nicht auch
 weiterhin eine Marke in s2 ablegt.
 
 00:30:49,680 --> 00:30:54,870
-Also dieser existierende schwarze
-Ausgang, der t1 verlässt, bleibt bestehen.
+Also dieser existierende schwarze Ausgang,
+der t1 verlässt, bleibt bestehen.
 
 00:30:54,870 --> 00:30:57,390
 Es kommt einfach ein Ausgang hinzu.
@@ -1632,8 +1638,8 @@ s2, legt dort aber etwas ab.
 Also fügt t1 netto s2 eine Marke hinzu.
 
 00:31:40,500 --> 00:31:44,610
-Deswegen muss t1 aus
-s2-quer eine Marke entnehmen.
+Deswegen muss t1 aus s2-quer
+eine Marke entnehmen.
 
 00:31:44,610 --> 00:31:48,960
 Das begründet und erzwingt diesen Pfeil hier.
@@ -1724,8 +1730,8 @@ Wo wir extra darauf achten, wenn wir zum Beispiel
 t1 aus dieser Markierung schalten wollen,
 
 00:33:47,450 --> 00:33:54,170
-dass wir das sein lassen, wenn dadurch
-die Anzahl der Marken in s2 zu groß würde.
+dass wir das sein lassen, wenn dadurch die
+Anzahl der Marken in s2 zu groß würde.
 
 00:33:54,170 --> 00:34:05,750
 Genau das müssen wir hier nicht
@@ -1833,8 +1839,8 @@ dass danach zwei Marken auf s1 liegen
 und keine Marke mehr auf s1-quer.
 
 00:36:11,220 --> 00:36:15,420
-Also wäre ein weiteres Ablegen von einer
-Marke in s1 nicht erlaubt.
+Also wäre ein weiteres Ablegen von
+einer Marke in s1 nicht erlaubt.
 
 00:36:16,260 --> 00:36:21,600
 Das würde hier verhindert (dass

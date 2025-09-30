@@ -42,16 +42,16 @@ der für den Start des Aktivitätsdiagramms steht.
 Dann nutzen wir so ein Token.
 
 0:00:51.960,0:00:57.690
-Wir packen das jetzt nicht, wie bei den Stellen
-und Transitionen im Petrinetz, direkt auf die Kreise,
+Wir packen das jetzt nicht, wie bei den Stellen und
+Transitionen im Petrinetz, direkt auf die Kreise,
 
 0:00:57.690,0:01:03.270
 sondern notieren das hier mal neben diesem
 Aktionsknoten, wie er gleich heißen wird,
 
 0:01:03.840,0:01:09.330
-und würden dann sagen: Ein erster Schritt müsste
-hier sein, einen Bauplatz zu wählen,
+und würden dann sagen: Ein erster Schritt
+müsste hier sein, einen Bauplatz zu wählen,
 
 0:01:09.330,0:01:11.580
 weil wir einfach dem ersten Pfeil gefolgt sind,
@@ -195,7 +195,8 @@ Und nehmen wir mal an, dass der
 konkrete Plan, den wir hier haben,
 
 0:03:51.710,0:03:54.830
-tatsächlich nicht angenommen würde. Dann würden wir eben hier weitergehen,
+tatsächlich nicht angenommen würde.
+Dann würden wir eben hier weitergehen,
 
 0:03:54.830,0:03:58.160
 und damit wieder an diesem Knoten ankommen,
@@ -235,8 +236,8 @@ oder Element in diesem
 Aktivitätsdiagramm auf sich?
 
 0:04:32.120,0:04:38.750
-Nun, das ist eine Stelle, wo nicht nur eine
-Wegkreuzung stattfindet, in dem Sinne,
+Nun, das ist eine Stelle, wo nicht nur
+eine Wegkreuzung stattfindet, in dem Sinne,
 
 0:04:38.750,0:04:42.290
 dass eine Richtung sich ändert, in die ein
@@ -259,8 +260,8 @@ Sondern hier, mit dem Balken, der sogenannten
 Gabelung, ist es tatsächlich so zu verstehen,
 
 0:05:01.930,0:05:07.850
-dass dieses Token jetzt zweigeteilt wird.
-Damit haben wir die Vorstellung,
+dass dieses Token jetzt zweigeteilt
+wird. Damit haben wir die Vorstellung,
 
 0:05:07.850,0:05:11.390
 wie bei Petrinetzen, dass wir eben
@@ -271,8 +272,8 @@ Es reicht also nicht, wie bei einem
 flachen Zustandsdiagramm, einfach auf
 
 0:05:13.730,0:05:15.770
-einen Knoten zu zeigen und
-zu sagen, hier sind wir gerade.
+einen Knoten zu zeigen und zu
+sagen, hier sind wir gerade.
 
 0:05:15.770,0:05:19.790
 Durch diese Aufspaltung von
@@ -307,8 +308,8 @@ Die Reihenfolge ist egal.
 Beides muss geschehen, aber es ist
 
 0:05:46.820,0:05:50.630
-nicht vorgegeben, in welcher Reihenfolge.
-Es könnte sein, dass erst die Arbeit auf der
+nicht vorgegeben, in welcher Reihenfolge. Es
+könnte sein, dass erst die Arbeit auf der
 
 0:05:50.630,0:05:55.730
 Baustelle stattfindet und dann Arbeit im Büro,
@@ -329,7 +330,8 @@ weil es jetzt zwei Eingänge
 und einen Ausgangspfeil gibt.
 
 0:06:14.240,0:06:16.940
-Und tatsächlich ist das der Synchronisationspunkt.
+Und tatsächlich ist das
+der Synchronisationspunkt.
 
 0:06:16.940,0:06:19.910
 Hier würden also diese beiden
@@ -426,7 +428,8 @@ Wir werden nachher sehen, dass man
 hierfür auch ein Petrinetz angeben kann.
 
 0:08:03.760,0:08:05.440
-Da werden wir aber sehen, dass wir da mehr Knoten,
+Da werden wir aber sehen,
+dass wir da mehr Knoten,
 
 0:08:05.440,0:08:08.590
 mehr Stellen und Transitionen

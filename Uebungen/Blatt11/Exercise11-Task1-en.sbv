@@ -10,8 +10,8 @@ this transition G is that we are going directly
 from two to nine.
 
 0:00:23.630,0:00:32.660
-This means, yes, we are activating this composite
-state D, this whole thing here.
+This means, yes, we are activating this
+composite state D, this whole thing here.
 
 0:00:32.660,0:00:39.410
 But we are not going into the start state
@@ -21,8 +21,8 @@ which is ten, but rather we're going directly
 into nine.
 
 0:00:41.380,0:00:52.640
-So, in comparison, this transition is doing
-an explicit entry.
+So, in comparison, this transition
+is doing an explicit entry.
 
 0:00:52.640,0:01:00.140
 While this transition, for example, E is not
@@ -61,12 +61,12 @@ are E and C. And this composite state C is
 divided into two regions by this line.
 
 0:02:04.210,0:02:10.069
-I think now we are ready to start answering
-the questions.
+I think now we are ready to
+start answering the questions.
 
 0:02:10.069,0:02:15.690
-Question A. With which state or states does
-the diagram start?
+Question A. With which state or
+states does the diagram start?
 
 0:02:15.690,0:02:19.580
 The answer is six and three.
@@ -96,12 +96,12 @@ from B, it's going directly into C. And from
 C it's going to this state three.
 
 0:02:59.740,0:03:05.860
-And here it's doing the same and it's going
-into state six.
+And here it's doing the same
+and it's going into state six.
 
 0:03:05.860,0:03:15.330
-Question B. Name all possible states or combinations
-of states from which C can be left.
+Question B. Name all possible states or
+combinations of states from which C can be left.
 
 0:03:15.330,0:03:23.220
 The answer is leaving C is possible in these
@@ -117,8 +117,8 @@ These are four states, four state combinations.
 But actually, they result from two possibilities.
 
 0:03:40.110,0:03:47.900
-The first one is to exit through this state,
-which is a joint state.
+The first one is to exit through
+this state, which is a joint state.
 
 0:03:47.900,0:03:54.530
 The second possibility is to exit with the
@@ -132,15 +132,15 @@ doesn't matter which state you are currently
 in here.
 
 0:04:02.659,0:04:07.819
-This is why you have six with five, six with
-four and six with three.
+This is why you have six with five,
+six with four and six with three.
 
 0:04:07.819,0:04:09.370
 Next question.
 
 0:04:09.370,0:04:14.840
-Which state or states result from leaving
-C from seven?
+Which state or states result
+from leaving C from seven?
 
 0:04:14.840,0:04:17.920
 This is seven and four.
@@ -153,12 +153,12 @@ state in D was eight, which is this one.
 The answer is ten.
 
 0:04:30.540,0:04:36.800
-Since the entry happens via the start state
-of D. But why?
+Since the entry happens via
+the start state of D. But why?
 
 0:04:36.800,0:04:43.979
-This happens because here it says we leave
-C from seven and four.
+This happens because here it says
+we leave C from seven and four.
 
 0:04:43.979,0:04:53.380
 This means we do this transition "d", and this
@@ -175,19 +175,19 @@ we just go where the start state is pointing
 at, which is state ten.
 
 0:05:11.690,0:05:20.319
-Next question says, which state or states
-result from leaving D from eight?
+Next question says, which state or
+states result from leaving D from eight?
 
 0:05:20.319,0:05:22.580
 This is eight.
 
 0:05:22.580,0:05:30.860
-If B was previously last left from two, this
-is B. And this is two.
+If B was previously last left from
+two, this is B. And this is two.
 
 0:05:30.860,0:05:41.759
-The answer is one, because the starting state
-of E is what we jump to.
+The answer is one, because the starting
+state of E is what we jump to.
 
 0:05:41.759,0:05:42.980
 Why do we do that?
@@ -225,15 +225,15 @@ It says that here by telling us that B was
 previously last left from two and two is contained
 
 0:06:38.160,0:06:46.700
-in E. Now, let's go into E. And the starting
-state points at one.
+in E. Now, let's go into E. And
+the starting state points at one.
 
 0:06:46.700,0:06:50.690
 This means we start with one.
 
 0:06:50.690,0:06:57.830
-Next question says, does the answer to (d) change
-if we change that shallow history state to
+Next question says, does the answer to (d)
+change if we change that shallow history state to
 
 0:06:57.830,0:06:59.930
 a deep history state?
@@ -245,8 +245,8 @@ And if so, how?
 The answer is yes.
 
 0:07:05.530,0:07:13.129
-Because as I discussed before, the deep
-history would remember exactly which one of those
+Because as I discussed before, the deep history
+would remember exactly which one of those
 
 0:07:13.129,0:07:18.099
 one or two we were at.
@@ -276,8 +276,8 @@ into three; it doesn't point at six at all.
 So, how does this get us to six?
 
 0:08:02.940,0:08:12.980
-Well, the answer is C, this composite state
-C is divided into two regions.
+Well, the answer is C, this composite
+state C is divided into two regions.
 
 0:08:12.980,0:08:23.759
 And this division into two regions means that
@@ -303,15 +303,15 @@ going into the bathroom.
 So, this means you occupy the bathroom.
 
 0:08:50.190,0:08:53.820
-And we can say that the bathroom is occupied
-by you.
+And we can say that the
+bathroom is occupied by you.
 
 0:08:53.820,0:08:56.950
 So, we say it's active.
 
 0:08:56.950,0:09:01.360
-But does this mean that you are somehow not
-inside the house anymore?
+But does this mean that you are
+somehow not inside the house anymore?
 
 0:09:01.360,0:09:04.670
 No, it means you are still inside the house.
@@ -324,8 +324,8 @@ you.
 And the same goes here.
 
 0:09:11.930,0:09:22.190
-So, when you go into three, the whole C, the
-whole state C is now active.
+So, when you go into three, the whole
+C, the whole state C is now active.
 
 0:09:22.190,0:09:29.519
 And when state C is active, we have rules

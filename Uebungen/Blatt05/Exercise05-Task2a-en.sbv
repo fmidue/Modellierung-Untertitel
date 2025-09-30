@@ -191,8 +191,8 @@ anything for us yet. But an event is either a film
 or a concert. There are underlines. Once again,
 
 0:05:11.760,0:05:18.120
-that tells us that these are classes. So, we have
-the class event. And we have the classes
+that tells us that these are classes. So, we
+have the class event. And we have the classes
 
 0:05:20.520,0:05:30.540
 'Film' and 'Concert'. Each event has a name.
@@ -328,8 +328,8 @@ One for the calendar date. So, just the date,
 and then we can use one of those predefined
 
 0:09:25.440,0:09:34.920
-classes that we were told about in the help
-text, namely the calendar date.
+classes that we were told about in the
+help text, namely the calendar date.
 
 0:09:34.920,0:09:39.780
 It's important here that we make use of
@@ -344,16 +344,16 @@ to define our own. So, this is really helpful that
 these are given to us. We have the time as well.
 
 0:09:55.800,0:10:00.960
-Using the time class that we are given. And we
-have the price for the seats. Which we can
+Using the time class that we are given. And
+we have the price for the seats. Which we can
 
 0:10:00.960,0:10:07.080
 just give as 'price'. And for that, we're using
 the Price class. And that's our three attributes.
 
 0:10:09.780,0:10:13.020
-There's, once again, no indication of
-any methods here. So, we're going
+There's, once again, no indication
+of any methods here. So, we're going
 
 0:10:13.020,0:10:17.940
 to delete this method placeholder.
@@ -468,12 +468,12 @@ Or we can go the other way around and say a
 date is taking place in a specific room. So,
 
 0:13:40.080,0:14:03.660
-taking place. Or just in. And then reading arrow
-in the other direction. There we go.
+taking place. Or just in. And then reading
+arrow in the other direction. There we go.
 
 0:14:03.660,0:14:11.220
-So, some kind of date, some
-kind of event is happening in that specific room.
+So, some kind of date, some kind of
+event is happening in that specific room.
 
 0:14:12.360,0:14:18.120
 Speaking of that specific room, the text says a
@@ -592,8 +592,8 @@ But we can look at this a little more loosely as
 booking just having a relationship to the date.
 
 0:17:23.340,0:17:33.640
-Namely, being a booking for a specific date
-with reading direction from booking to date. Move
+Namely, being a booking for a specific date with
+reading direction from booking to date. Move
 
 0:17:34.800,0:17:40.980
 a little closer. Let's just leave
@@ -623,8 +623,8 @@ the multiplicity on the side of the seat
 is going to be one to however many.
 
 0:18:23.100,0:18:30.240
-And we can remove this multiplicity down here that
-DrawIo added.
+And we can remove this multiplicity
+down here that DrawIo added.
 
 0:18:32.400,0:18:39.660
 Because there's no indication that one seat

@@ -1,5 +1,6 @@
 0:00:02.879,0:00:08.430
-In dieser Aufgabe geht es wieder um Zustandsdiagramme.
+In dieser Aufgabe geht es
+wieder um Zustandsdiagramme.
 
 0:00:08.430,0:00:12.780
 Wir haben dieses Zustandsdiagramm gegeben.
@@ -9,8 +10,8 @@ Die Aufgabe ist nun, dieses Zustandsdiagramm
 in ein flaches Zustandsdiagramm zu überführen,
 
 0:00:21.109,0:00:34.300
-also in eines ohne hierarchische Zustände
-oder Regionen.
+also in eines ohne hierarchische
+Zustände oder Regionen.
 
 0:00:34.300,0:00:46.230
 Die Zustandsnamen dürfen Paare von nicht
@@ -20,12 +21,12 @@ zusammengesetzten Zuständen des ursprünglichen
 Zustandsdiagramms sein.
 
 0:00:47.230,0:00:53.700
-Das ist so, wie es auch in den Folien geschehen
-ist.
+Das ist so, wie es auch in
+den Folien geschehen ist.
 
 0:00:53.700,0:00:57.100
-Nach diesem Schema kann das hier auch angewandt
-werden.
+Nach diesem Schema kann das
+hier auch angewandt werden.
 
 0:00:57.100,0:01:04.640
 Wir betrachten also dieses Zustandsdiagramm.
@@ -45,16 +46,16 @@ tatsächlich einen zusammengesetzten Zustand
 mit einer Region haben.
 
 0:01:33.890,0:01:42.070
-Hier müssen wir beachten, dass alle Kombinationen
-der Zustände hier möglich sind.
+Hier müssen wir beachten, dass alle
+Kombinationen der Zustände hier möglich sind.
 
 0:01:42.070,0:01:46.130
-Wir müssen also das Kreuzprodukt zwischen
-den Regionen bilden.
+Wir müssen also das Kreuzprodukt
+zwischen den Regionen bilden.
 
 0:01:46.130,0:01:53.329
-Das sind dementsprechend auch die Zustände,
-die wir haben können.
+Das sind dementsprechend auch die
+Zustände, die wir haben können.
 
 0:01:53.329,0:02:01.390
 Das heißt, wir haben einerseits Zustand A
@@ -68,8 +69,8 @@ diese.
 Dann haben wir noch B und C und B und D.
 
 0:02:20.610,0:02:25.430
-Das sind die Zustände, die wir hier betrachten
-müssen.
+Das sind die Zustände, die
+wir hier betrachten müssen.
 
 0:02:25.430,0:02:28.180
 Entschuldigung.
@@ -82,8 +83,8 @@ hier einen Zustand, der kein hierarchischer
 Zustand ist, und zwar Zustand E.
 
 0:02:53.739,0:02:59.770
-Den können wir behalten und müssen nichts
-transformieren.
+Den können wir behalten und
+müssen nichts transformieren.
 
 0:02:59.770,0:03:13.480
 Wir haben dann die Zustände F und G, die
@@ -99,23 +100,24 @@ Wir können hier also die Zustandsnamen behalten.
 Es gibt auch keine Namen-Mismatches.
 
 0:03:27.010,0:03:32.450
-Wir können einfach die Zustände F und G übernehmen.
+Wir können einfach die
+Zustände F und G übernehmen.
 
 0:03:32.450,0:03:46.930
 Das sind die Zustände, die wir betrachten
 müssen.
 
 0:03:46.930,0:03:56.140
-Jetzt geht es um das Darstellen der Übergänge
-zwischen diesen Zuständen.
+Jetzt geht es um das Darstellen der
+Übergänge zwischen diesen Zuständen.
 
 0:03:56.140,0:04:03.340
 Dafür müssen wir die Übergänge aus dem
 ursprünglichen Diagramm betrachten.
 
 0:04:03.340,0:04:08.700
-Ich beginne hier wieder mit dem Zustand, der
-die Regionen enthält.
+Ich beginne hier wieder mit dem
+Zustand, der die Regionen enthält.
 
 0:04:08.700,0:04:19.109
 Wir müssen Kanten von A nach B mit Trigger
@@ -135,37 +137,38 @@ Alle Zustände, die ein A enthalten und einen
 der Zustände auf der anderen Seite, und der
 
 0:04:41.560,0:04:45.960
-Zustand, der ein B enthält und denselben
-Zustand auf der anderen Seite, sind die, zwischen
+Zustand, der ein B enthält und denselben Zustand
+auf der anderen Seite, sind die, zwischen
 
 0:04:45.960,0:04:51.509
 denen eine a-Kante hinzugefügt werden muss.
 
 0:04:51.509,0:05:01.310
-Von (A, C) können wir hier nach (B, C) wechseln,
-mittels einer solchen a-Kante.
+Von (A, C) können wir hier nach (B, C)
+wechseln, mittels einer solchen a-Kante.
 
 0:05:01.310,0:05:21.139
-Von (B, C) geht es nach (A, C). Genauso können wir
-von (A, D) nach (B, D) und von (B, D) nach (A, D) wechseln.
+Von (B, C) geht es nach (A, C). Genauso können wir von
+(A, D) nach (B, D) und von (B, D) nach (A, D) wechseln.
 
 0:05:21.139,0:05:24.410
 Das trage ich jetzt hier ein.
 
 0:05:24.410,0:05:34.930
-Wir können also von (A, C) nach (B, C) wechseln und
-umgekehrt.
+Wir können also von (A, C) nach
+(B, C) wechseln und umgekehrt.
 
 0:05:34.930,0:05:53.680
-Von (A, C) nach (B, C) und von (B, C) nach (A, C) geht es.
+Von (A, C) nach (B, C) und von
+(B, C) nach (A, C) geht es.
 
 0:05:53.680,0:06:01.530
-Das ist ein a, was wir jeweils da dran geschrieben
-haben.
+Das ist ein a, was wir jeweils
+da dran geschrieben haben.
 
 0:06:01.530,0:06:07.650
-Dieselben Kanten existieren, wie gesagt, zwischen
-(A, D) und (B, D).
+Dieselben Kanten existieren, wie
+gesagt, zwischen (A, D) und (B, D).
 
 0:06:07.650,0:06:18.280
 Hier haben wir also auch diese Kanten, die
@@ -178,12 +181,12 @@ einem A bezeichnet sind.
 Wir haben die b-Kanten.
 
 0:06:26.140,0:06:33.349
-Das ist der Wechsel zwischen den Zuständen,
-wo sich C und D austauschen.
+Das ist der Wechsel zwischen den
+Zuständen, wo sich C und D austauschen.
 
 0:06:33.349,0:06:37.699
-Der Zustand auf der anderen Seite bleibt aber
-derselbe.
+Der Zustand auf der anderen
+Seite bleibt aber derselbe.
 
 0:06:37.699,0:06:47.449
 Wir können also von Zustand (A, C) in den Zustand
@@ -196,30 +199,30 @@ existiert.
 Genauso können wir von (B, C) in (B, D) wechseln.
 
 0:06:54.460,0:07:13.580
-Wir haben hier also auch diese Kanten von
-(A, C) nach (A, D) und von (B, D) nach (B, C) sowie von (B, C)
+Wir haben hier also auch diese Kanten von (A, C) nach
+(A, D) und von (B, D) nach (B, C) sowie von (B, C)
 
 0:07:13.580,0:07:14.669
 nach (B, D).
 
 0:07:14.669,0:07:23.880
-Dieses Mal sind natürlich alle mit einem
-B statt einem A gelabelt.
+Dieses Mal sind natürlich alle mit
+einem B statt einem A gelabelt.
 
 0:07:23.880,0:07:39.740
 Das sind
 die Kanten hier.
 
 0:07:39.740,0:07:44.240
-Vielleicht markiere ich das doch hier im ursprünglichen
-Diagramm.
+Vielleicht markiere ich das doch
+hier im ursprünglichen Diagramm.
 
 0:07:44.240,0:07:56.620
 Wir haben diese Zustände schon abgearbeitet.
 
 0:07:56.620,0:08:16.230
-Wir hatten die Kombination aus (A, C) und aus
-(A, D) und die Kombination aus (B, C) und aus (B, D).
+Wir hatten die Kombination aus (A, C) und aus (A,
+D) und die Kombination aus (B, C) und aus (B, D).
 
 0:08:16.230,0:08:23.150
 Die haben wir hier als Zustände für den
@@ -236,8 +239,8 @@ schon erledigt, wie auch die b-Kanten.
 Jetzt können wir die anderen Kanten betrachten.
 
 0:08:40.709,0:08:54.110
-Wir können diese Kante hier betrachten, die
-von E nach D geht.
+Wir können diese Kante hier
+betrachten, die von E nach D geht.
 
 0:08:54.110,0:09:02.079
 Wenn wir D betreten, müssen wir gleichzeitig
@@ -247,12 +250,12 @@ einen Zustand auf der anderen Seite betreten,
 was hier über den Startzustand A ist.
 
 0:09:06.170,0:09:16.339
-Diese Kante muss zum zusammengesetzten Zustand
-(A, D) führen.
+Diese Kante muss zum zusammengesetzten
+Zustand (A, D) führen.
 
 0:09:16.339,0:09:27.220
-Wir tragen hier in unserem Diagramm also eine
-Kante
+Wir tragen hier in unserem
+Diagramm also eine Kante
 
 0:09:27.220,0:09:34.100
 von E nach (A, D) ein.
@@ -261,8 +264,8 @@ von E nach (A, D) ein.
 Das ist diese h-Kante.
 
 0:09:39.460,0:09:47.030
-Da gibt es nur diese eine, da dieser konkrete
-Zustand hier benannt ist.
+Da gibt es nur diese eine, da dieser
+konkrete Zustand hier benannt ist.
 
 0:09:47.030,0:09:50.660
 Diese Kante haben wir jetzt also auch erledigt.
@@ -278,18 +281,19 @@ G zum Zustand E geht.
 Das ist auch wieder relativ simpel.
 
 0:10:12.020,0:10:20.950
-Hier ist nichts weiter Kompliziertes zu betrachten.
+Hier ist nichts weiter
+Kompliziertes zu betrachten.
 
 0:10:20.950,0:10:28.320
-Wir gehen direkt von G in E und das bleibt
-in unserem Diagramm auch so.
+Wir gehen direkt von G in E und das
+bleibt in unserem Diagramm auch so.
 
 0:10:28.320,0:10:36.630
 Versehentlich habe ich hier gescrollt.
 
 0:10:36.630,0:10:51.769
-Wir wechseln hier also von G direkt zu E mit
-H. Damit ist auch diese Kante erledigt.
+Wir wechseln hier also von G direkt zu E
+mit H. Damit ist auch diese Kante erledigt.
 
 0:10:51.769,0:10:55.940
 Es ist weiter simpel.
@@ -313,26 +317,27 @@ Es ist nichts weiter zu betrachten, da diese
 das Flachklopfen nichts ändert.
 
 0:11:38.660,0:11:47.550
-Wir haben hier die k-Kante, die wir betrachten
-müssen.
+Wir haben hier die k-Kante,
+die wir betrachten müssen.
 
 0:11:47.550,0:11:55.920
-Die geht von E zu diesem zusammengesetzten
-Zustand.
+Die geht von E zu diesem
+zusammengesetzten Zustand.
 
 0:11:55.920,0:11:59.530
-Dabei muss auch hier ein konkreter Zustand aktiv werden.
+Dabei muss auch hier ein
+konkreter Zustand aktiv werden.
 
 0:11:59.530,0:12:04.530
 Das passiert hier über den Startzustand.
 
 0:12:04.530,0:12:29.300
-Unsere k-Kante geht also von E nach F. So
-tragen wir die hier auch
+Unsere k-Kante geht also von E nach
+F. So tragen wir die hier auch
 
 0:12:29.300,0:12:35.540
-in unserem Zustandsdiagramm, das flachgeklopft
-ist, ein.
+in unserem Zustandsdiagramm,
+das flachgeklopft ist, ein.
 
 0:12:35.540,0:12:39.990
 Das ist die k-Kante.
@@ -342,15 +347,15 @@ Dann haben wir noch diese k-Kante, nachdem
 wir diese k-Kante erledigt haben, übrig.
 
 0:12:54.290,0:13:16.589
-Für diese müssen wir betrachten, dass wir
-aus diesem zusammengesetzten Zustand in diesen
+Für diese müssen wir betrachten, dass wir aus
+diesem zusammengesetzten Zustand in diesen
 
 0:13:16.589,0:13:18.630
 zusammengesetzten Zustand kommen.
 
 0:13:18.630,0:13:24.010
-Hier gilt wieder, dass wir den Startzustand
-betrachten müssen.
+Hier gilt wieder, dass wir den
+Startzustand betrachten müssen.
 
 0:13:24.010,0:13:28.089
 Wir kommen hier also zum Zustand F.
@@ -360,8 +365,8 @@ Wir müssen also von jedem Zustand auf der
 linken Seite eine Kante nach F zeichnen.
 
 0:13:36.410,0:13:54.889
-Es geht von A nach F, von C nach F, von B
-nach F und von D nach F.
+Es geht von A nach F, von C nach
+F, von B nach F und von D nach F.
 
 0:13:54.889,0:14:26.290
 Wir zeichnen hier oben also diese Kanten ein.
@@ -370,12 +375,12 @@ Wir zeichnen hier oben also diese Kanten ein.
 Von (A, D) nach F, dasselbe auch von (A, C).
 
 0:14:40.790,0:14:48.940
-Diese Kante ist doppelt, die habe ich bereits
-eingezeichnet.
+Diese Kante ist doppelt, die
+habe ich bereits eingezeichnet.
 
 0:14:48.940,0:15:00.399
-Es geht also von (A, D) nach F, von (A, C) nach F,
-von (B, D) nach F.
+Es geht also von (A, D) nach F, von
+(A, C) nach F, von (B, D) nach F.
 
 0:15:00.399,0:15:05.980
 Diese führe ich hier außen lang.
@@ -390,8 +395,8 @@ Diese müssen natürlich beschriftet werden.
 Das sind alles k-Kanten.
 
 0:15:40.709,0:15:52.411
-Davon haben wir jetzt, wie gesagt, vier Stück
-von (A, D) nach F, von (A, C) nach F, von (B, D) nach
+Davon haben wir jetzt, wie gesagt, vier Stück von
+(A, D) nach F, von (A, C) nach F, von (B, D) nach
 
 0:15:52.411,0:16:01.779
 F und von (B, C) nach F.
@@ -400,16 +405,16 @@ F und von (B, C) nach F.
 Dann haben wir diese Kante damit erledigt.
 
 0:16:10.089,0:16:17.720
-Hier sind wir aber noch nicht fertig, da noch
-unser Startknoten fehlt.
+Hier sind wir aber noch nicht fertig,
+da noch unser Startknoten fehlt.
 
 0:16:17.720,0:16:23.760
-Der muss noch eingezeichnet werden, da es
-irgendwo losgehen muss.
+Der muss noch eingezeichnet werden,
+da es irgendwo losgehen muss.
 
 0:16:23.760,0:16:32.790
-Dafür müssen wir diesen Startknoten hier
-betrachten sowie wo er hinführt.
+Dafür müssen wir diesen Startknoten
+hier betrachten sowie wo er hinführt.
 
 0:16:32.790,0:16:47.640
 Diesen Startknoten meinte ich.
@@ -418,30 +423,30 @@ Diesen Startknoten meinte ich.
 Den füge ich jetzt noch hier hinzu.
 
 0:16:55.240,0:17:00.790
-Der zeigt hier tatsächlich auf den zusammengesetzten
-Zustand von F und G.
+Der zeigt hier tatsächlich auf den
+zusammengesetzten Zustand von F und G.
 
 0:17:00.790,0:17:07.339
-Hier gilt zu betrachten, dass hier wieder
-ein innerer Startzustand ist.
+Hier gilt zu betrachten, dass hier
+wieder ein innerer Startzustand ist.
 
 0:17:07.339,0:17:08.339
 Das ist F.
 
 0:17:08.339,0:17:13.549
-Unser Startknoten muss hier also auch auf
-F zeigen.
+Unser Startknoten muss hier
+also auch auf F zeigen.
 
 0:17:13.549,0:17:24.850
-Wir haben hier also noch den Startknoten mit
-drin.
+Wir haben hier also noch
+den Startknoten mit drin.
 
 0:17:24.850,0:17:31.010
 Damit ist unser Diagramm fertig.
 
 0:17:31.010,0:17:40.530
-Wir können noch einmal in das originale Zustandsdiagramm
-gucken, das nicht zusammengeklopft ist.
+Wir können noch einmal in das originale
+Zustandsdiagramm gucken, das nicht zusammengeklopft ist.
 
 0:17:40.530,0:17:43.049
 Wir haben diesen Startzustand erledigt.
@@ -483,8 +488,8 @@ Es gab aber eine Kante direkt in einen Zustand.
 Das ist diese hier.
 
 0:18:27.840,0:18:36.730
-Da wir eine Region haben, muss im anderen
-Teil der Region der Startzustand berücksichtigt
+Da wir eine Region haben, muss im anderen Teil
+der Region der Startzustand berücksichtigt
 
 0:18:36.730,0:18:37.730
 werden.
@@ -496,12 +501,12 @@ Das haben wir gemacht.
 Daher mussten wir diesen berücksichtigen.
 
 0:18:40.380,0:18:47.230
-Dieser Startzustand aber wird nie verwendet, da
-wir keinen Zugang in die andere Region hier
+Dieser Startzustand aber wird nie verwendet,
+da wir keinen Zugang in die andere Region hier
 
 0:18:47.230,0:18:54.280
-haben und auch keinen Pfeil auf den äußeren
-Zustand haben.
+haben und auch keinen Pfeil
+auf den äußeren Zustand haben.
 
 0:18:54.280,0:18:57.270
 Das ist also auch betrachtet.

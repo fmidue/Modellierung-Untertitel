@@ -98,7 +98,8 @@ der Markierung, die wir gesehen haben,
 beide ihre Vorbedingung erfüllen konnten,
 
 0:01:51.270,0:01:53.910
-und zwar ohne sich gegenseitig dabei zu behindern.
+und zwar ohne sich gegenseitig
+dabei zu behindern.
 
 0:01:53.910,0:01:58.800
 Und das ist das, was auch die formale
@@ -119,7 +120,8 @@ anders ist oder die Verschaltungen der
 Transitionen anders sind, ganz anders aussehen.
 
 0:02:15.640,0:02:18.820
-Also, wenn wir etwa dieses gleiche Beispiel hätten,
+Also, wenn wir etwa dieses
+gleiche Beispiel hätten,
 
 0:02:18.820,0:02:26.500
 aber einen weiteren Pfeil hätten (also noch
@@ -315,7 +317,8 @@ Wenn wir eine ähnliche Konstellation nehmen,
 aber mit oben nur zwei Marken, dann gilt was?
 
 0:06:44.290,0:06:47.890
-Auch hier sind t1, t2, t3 jede für sich aktiviert.
+Auch hier sind t1, t2, t3
+jede für sich aktiviert.
 
 0:06:47.890,0:06:53.200
 Denn jede fordert nur eine Marke aus
@@ -394,7 +397,8 @@ nicht alle drei nebenläufig aktiviert.
 Aber es gibt hier nebenläufige Aktivierungen.
 
 0:08:20.800,0:08:25.090
-Zum Beispiel sind t1 und t3 nebenläufig aktiviert.
+Zum Beispiel sind t1 und
+t3 nebenläufig aktiviert.
 
 0:08:25.090,0:08:31.870
 Weil wir etwa t1 dadurch zufriedenstellen
@@ -427,8 +431,8 @@ Und analog hätten wir uns auch überlegen können,
 dass t2, t3 hier nebenläufig aktiviert sind.
 
 0:09:05.160,0:09:13.320
-Denn diese beiden Marken würden zu t2
-gehen können und völlig unabhängig
+Denn diese beiden Marken würden zu
+t2 gehen können und völlig unabhängig
 
 0:09:13.320,0:09:18.030
 davon t3 diese Marke konsumieren können, und

@@ -1,5 +1,6 @@
 0:00:00.690,0:00:04.370
-In dieser Aufgabe geht es um diese drei Petrinetze.
+In dieser Aufgabe geht es
+um diese drei Petrinetze.
 
 0:00:04.370,0:00:10.009
 Wir sollen jeweils alle Gründe angeben, warum
@@ -9,12 +10,12 @@ es sich hier nicht um ein korrektes Petrinetz
 handelt.
 
 0:00:11.230,0:00:14.509
-Also starten wir mit dem ersten Petrinetz
-hier: (a).
+Also starten wir mit dem
+ersten Petrinetz hier: (a).
 
 0:00:14.509,0:00:19.340
-Wie wir sehen, haben wir drei verschiedene Stellen
-und vier Transitionen.
+Wie wir sehen, haben wir drei verschiedene
+Stellen und vier Transitionen.
 
 0:00:19.340,0:00:26.660
 Die Beziehung zwischen Stellen und Transitionen
@@ -31,20 +32,20 @@ von einer Transition, und auf die Transition
 folgt wieder eine Stelle.
 
 0:00:32.460,0:00:36.999
-Beziehungsweise muss zwischen zwei Transitionen
-eine Stelle sein.
+Beziehungsweise muss zwischen zwei
+Transitionen eine Stelle sein.
 
 0:00:36.999,0:00:43.010
 Wenn wir uns jetzt aber dieses Petrinetz angucken,
 dann sehen wir hier, dass zwischen t2 und
 
 0:00:43.010,0:00:49.300
-t4 keine Stelle ist. Das bedeutet, die Transition
-t2 führt direkt in die Transition t4.
+t4 keine Stelle ist. Das bedeutet, die
+Transition t2 führt direkt in die Transition t4.
 
 0:00:49.300,0:00:56.109
-Und das ist hier der Fehler an der Stelle,
-das darf nicht so sein.
+Und das ist hier der Fehler an der
+Stelle, das darf nicht so sein.
 
 0:00:56.109,0:01:00.440
 Wenn wir uns jetzt noch weiter das Petrinetz
@@ -54,12 +55,12 @@ angucken, dann fällt uns auf, dass hier auch
 das Gleiche zwischen t4 und t1 der Fall ist.
 
 0:01:06.410,0:01:13.340
-Das bedeutet, das ist der zweite Fehler, warum
-dieses Petrinetz nicht korrekt ist.
+Das bedeutet, das ist der zweite Fehler,
+warum dieses Petrinetz nicht korrekt ist.
 
 0:01:13.340,0:01:20.350
-Wenn wir uns das Petrinetz (b) angucken, dann
-haben wir wieder drei Stellen und vier Transitionen.
+Wenn wir uns das Petrinetz (b) angucken, dann haben
+wir wieder drei Stellen und vier Transitionen.
 
 0:01:20.350,0:01:27.530
 Was hier sehr stark ins Auge sticht, ist,
@@ -77,23 +78,23 @@ Es ergibt auch einfach keinen Sinn, weil die
 Vorbedingung sagt, wie viele Token aus dieser
 
 0:01:40.730,0:01:45.940
-Stelle da reinkommen, damit die Transition
-feuern kann.
+Stelle da reinkommen, damit
+die Transition feuern kann.
 
 0:01:45.940,0:01:52.360
-Und es macht keinen Sinn, dass -1 Token da
-reinmüssen, damit es feuern kann.
+Und es macht keinen Sinn, dass -1 Token
+da reinmüssen, damit es feuern kann.
 
 0:01:52.360,0:02:01.390
-Wenn wir uns das Petrinetz (c) angucken, dann
-sticht hier auch direkt etwas ins Auge.
+Wenn wir uns das Petrinetz (c) angucken,
+dann sticht hier auch direkt etwas ins Auge.
 
 0:02:01.390,0:02:03.520
 Nämlich, dass wir hier zwei Pfeile haben.
 
 0:02:03.520,0:02:10.251
-Das ergibt einfach keinen Sinn, weil, wenn
-da ein Pfeil ist, an dem kein Gewicht dranhängt,
+Das ergibt einfach keinen Sinn, weil, wenn da
+ein Pfeil ist, an dem kein Gewicht dranhängt,
 
 0:02:10.251,0:02:12.250
 dann bedeutet das, das Gewicht ist 1.
@@ -103,8 +104,8 @@ Das heißt, wir haben hier eine Vorbedingung,
 die sagt, dass hier zwei Token rein sollen
 
 0:02:17.840,0:02:20.569
-und eine Vorbedingung, die sagt, dass hier
-ein Token rein soll.
+und eine Vorbedingung, die sagt,
+dass hier ein Token rein soll.
 
 0:02:20.569,0:02:25.700
 In diesem Fall könnte man einfach einen Übergang
@@ -114,8 +115,8 @@ machen, in den man reinschreibt, dass drei
 Token die Vorbedingung sind.
 
 0:02:28.230,0:02:34.420
-Da macht es einfach keinen Sinn, zwei Pfeile
-zu haben, die das gleiche wie ein Pfeil aussagen.
+Da macht es einfach keinen Sinn, zwei Pfeile zu
+haben, die das gleiche wie ein Pfeil aussagen.
 
 0:02:34.420,0:02:42.870
 Außerdem haben wir hier quasi das Gegenteil zu Petrinetz

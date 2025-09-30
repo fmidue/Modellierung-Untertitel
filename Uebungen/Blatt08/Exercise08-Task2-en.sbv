@@ -9,8 +9,8 @@ And there are several tasks for this Petri
 net.
 
 0:00:16.880,0:00:25.550
-And first of all, we should create part of
-the infinite reachability graph.
+And first of all, we should create part
+of the infinite reachability graph.
 
 0:00:25.550,0:00:34.810
 We cannot create the complete reachability
@@ -41,15 +41,15 @@ now.
 This is the Petri net in question still.
 
 0:01:20.820,0:01:30.110
-We start the reachability graph by using the
-initial marking.
+We start the reachability graph
+by using the initial marking.
 
 0:01:30.110,0:01:34.619
 We use the usual sequence of places.
 
 0:01:34.619,0:01:48.549
-s1 is the first; so is the first place of
-our tuple.
+s1 is the first; so is the
+first place of our tuple.
 
 0:01:48.549,0:01:54.000
 Second is s2, which has zero tokens.
@@ -61,12 +61,12 @@ And third is s3, which also has zero tokens.
 The first one has one token at the beginning.
 
 0:02:04.841,0:02:11.830
-This is the starting point of our reachability
-graph.
+This is the starting point
+of our reachability graph.
 
 0:02:11.830,0:02:22.940
-Now we continue by looking for further transitions
-that can happen from there on.
+Now we continue by looking for further
+transitions that can happen from there on.
 
 0:02:22.940,0:02:34.130
 And having in mind that we require all the
@@ -80,20 +80,20 @@ the only transition we can fire is t1 because
 there's a token in s1.
 
 0:02:43.130,0:02:50.360
-But the others require tokens in s2 or s3,
-respectively.
+But the others require tokens
+in s2 or s3, respectively.
 
 0:02:50.360,0:03:05.880
-We start by firing t1, and then we get to our
-next state.
+We start by firing t1, and
+then we get to our next state.
 
 0:03:05.880,0:03:19.420
 Let's say we go from here to the next state,
 which is zero tokens in s1 because there's
 
 0:03:19.420,0:03:28.420
-no arrow from t1 going there, but one arrow
-going from s1 to t1.
+no arrow from t1 going there, but
+one arrow going from s1 to t1.
 
 0:03:28.420,0:03:37.670
 And s2 and s3 will each get one token.
@@ -108,8 +108,8 @@ we have reached this state.
 And now we have two options.
 
 0:03:50.519,0:03:58.230
-There's no token in s1 now, so we cannot fire
-t1 when we reach this
+There's no token in s1 now, so we
+cannot fire t1 when we reach this
 
 0:03:58.230,0:03:59.230
 marking.
@@ -122,23 +122,23 @@ s2 and we can fire t3 as we have got a token in
 s3.
 
 0:04:08.200,0:04:19.670
-Basically, it's easy to see which transition
-we can fire as in this case for this particular
+Basically, it's easy to see which transition we
+can fire as in this case for this particular
 
 0:04:19.670,0:04:21.350
 graph.
 
 0:04:21.350,0:04:26.790
-Because when there is a token in the first
-one, we can fire t1.
+Because when there is a token in
+the first one, we can fire t1.
 
 0:04:26.790,0:04:30.600
-When there is a token in the second one, we
-can fire t2.
+When there is a token in the
+second one, we can fire t2.
 
 0:04:30.600,0:04:37.270
-And when there's a token in the third place,
-we can fire t3.
+And when there's a token in the
+third place, we can fire t3.
 
 0:04:37.270,0:04:40.860
 We can fire t2.
@@ -154,8 +154,8 @@ will be no token in s2 left, as one is required
 for firing t2.
 
 0:05:05.750,0:05:19.580
-And we still have the token in s3, as t2 has
-no connection to place s3.
+And we still have the token in s3,
+as t2 has no connection to place s3.
 
 0:05:19.580,0:05:34.880
 And another option for this particular marking
@@ -196,20 +196,20 @@ be done with firing three transitions, but
 we could go from the other states as well.
 
 0:07:01.010,0:07:12.690
-For instance, we could continue from here
-where we could skip like this.
+For instance, we could continue from
+here where we could skip like this.
 
 0:07:12.690,0:07:19.440
 We can check if there are other options for
 this state, for instance, when we are in the
 
 0:07:19.440,0:07:27.750
-marking where there's one token in s1 and
-one token in s3.
+marking where there's one token
+in s1 and one token in s3.
 
 0:07:27.750,0:07:36.759
-And we have already the connection where t1
-is fired, but t3 can also be fired.
+And we have already the connection where
+t1 is fired, but t3 can also be fired.
 
 0:07:36.759,0:07:46.659
 We would be in a state where there's one more
@@ -225,19 +225,19 @@ We reach the state (1,0,2) by firing t3.
 And now we can
 
 0:08:19.259,0:08:31.159
-continue from this state here because this
-is also reachable by two transitions, by firing
+continue from this state here because this is
+also reachable by two transitions, by firing
 
 0:08:31.159,0:08:33.029
 t1 and t3.
 
 0:08:33.029,0:08:40.580
-Thus, we can think about the transitions that
-we can fire from here.
+Thus, we can think about the
+transitions that we can fire from here.
 
 0:08:40.580,0:08:50.670
-And there are two options; we can fire t2,
-which takes one token from s2.
+And there are two options; we can fire
+t2, which takes one token from s2.
 
 0:08:50.670,0:08:57.160
 And adds a token to s1, which would lead us
@@ -270,8 +270,8 @@ You could furthermore add all the edges
 that go outside of these states.
 
 0:10:07.630,0:10:13.769
-If you have done this, this would be fine
-as well.
+If you have done this,
+this would be fine as well.
 
 0:10:13.769,0:10:17.630
 You could basically just add more edges.
@@ -284,8 +284,8 @@ reached, then you can think about what transitions
 could be fired from there.
 
 0:10:26.810,0:10:33.660
-And then these could be added as well, but
-this is, as I said, optional.
+And then these could be added as well,
+but this is, as I said, optional.
 
 0:10:33.660,0:10:40.160
 When we think, for instance, for this, from
@@ -305,8 +305,8 @@ t3.
 And from the other state,
 
 0:11:16.100,0:11:34.850
-from this one here, we could fire t2 and we could
-fire t3.
+from this one here, we could
+fire t2 and we could fire t3.
 
 0:11:34.850,0:11:41.550
 But as I said, this is optional.
@@ -336,8 +336,8 @@ We can use this reachability graph now.
 Or we shall use it as well.
 
 0:12:29.120,0:12:41.959
-And when we look at it, then we can identify
-some places.
+And when we look at it, then
+we can identify some places.
 
 0:12:41.959,0:12:53.750
 Let me just maybe mark this place here.
@@ -368,16 +368,16 @@ place one, which is one, and the same amount
 of tokens in place two, which is zero.
 
 0:13:35.389,0:13:47.630
-But we could fire the same transitions t1
-and t2 again.
+But we could fire the same
+transitions t1 and t2 again.
 
 0:13:47.630,0:14:04.130
-When doing this, we could basically fire the
-sequence t1, t2 repeatedly.
+When doing this, we could basically
+fire the sequence t1, t2 repeatedly.
 
 0:14:04.130,0:14:23.930
-And we would get a sequence which always adds
-another token to the place s3.
+And we would get a sequence which always
+adds another token to the place s3.
 
 0:14:23.930,0:14:35.630
 For instance, if we consider this place here,
@@ -390,16 +390,16 @@ t2 again, and this would continue.
 We could then fire t1 here again and so on.
 
 0:14:46.480,0:14:53.490
-We could fire t1 and t2 repetitively, and
-would always add another token there.
+We could fire t1 and t2 repetitively,
+and would always add another token there.
 
 0:14:53.490,0:15:00.370
-And these considerations could be made for
-other places as well.
+And these considerations could be
+made for other places as well.
 
 0:15:00.370,0:15:11.040
-We could consider doing the same with maybe
-some other states.
+We could consider doing the same
+with maybe some other states.
 
 0:15:11.040,0:15:22.000
 Well, for these two here, maybe we could, for
@@ -444,12 +444,12 @@ to consider those firing sequences using your
 reachability graph.
 
 0:16:33.060,0:16:40.980
-That is by talking about the actual states
-in the reachability graph, and then the firing
+That is by talking about the actual states in
+the reachability graph, and then the firing
 
 0:16:40.980,0:16:51.380
-sequence, which leads to the sequence that
-creates this infinite graph.
+sequence, which leads to the sequence
+that creates this infinite graph.
 
 0:16:51.380,0:16:57.180
 Let's go back to the task once more.
@@ -471,8 +471,8 @@ And our change should be as small as possible.
 This is the Petri net in question here.
 
 0:17:26.839,0:17:43.309
-And how can we change this Petri net in order
-to make it
+And how can we change this
+Petri net in order to make it
 
 0:17:43.309,0:17:50.799
 bounded but deadlock free?
@@ -489,16 +489,16 @@ When we remove this number and thus change
 that there is only one token added to s3,
 
 0:18:19.080,0:18:29.590
-then we would not be able to generate more
-tokens.
+then we would not be able
+to generate more tokens.
 
 0:18:29.590,0:18:44.970
 Basically, the amount of tokens would not
 increase by firing t3 in place s3, but still
 
 0:18:44.970,0:18:50.110
-it would increase by firing the sequence of
-t1 and t2.
+it would increase by firing
+the sequence of t1 and t2.
 
 0:18:50.110,0:18:58.430
 Because when we fire t1 and then t2 and then
@@ -508,12 +508,12 @@ t1 again, we always, when we fire t1, we add
 a token to s3.
 
 0:19:00.770,0:19:09.289
-And in order to repair this, we can add a
-connection between s3 and t2.
+And in order to repair this, we can
+add a connection between s3 and t2.
 
 0:19:09.289,0:19:27.020
-If s3 will be a requirement for firing t2,
-then this will prevent
+If s3 will be a requirement for
+firing t2, then this will prevent
 
 0:19:27.020,0:19:30.409
 generating more tokens in s3.
@@ -526,12 +526,12 @@ fire t2, there will still be one token in
 s1.
 
 0:19:40.100,0:19:52.640
-Now we've made the reachability graph bounded
-and also deadlock free.
+Now we've made the reachability
+graph bounded and also deadlock free.
 
 0:19:52.640,0:20:04.780
-Because now there will not be a deadlock where
-we can do nothing anymore.
+Because now there will not be a deadlock
+where we can do nothing anymore.
 
 0:20:04.780,0:20:16.580
 Because we can always fire t3
@@ -541,8 +541,8 @@ or t2 when there are
 tokens in s2 or s3.
 
 0:20:25.110,0:20:34.600
-And in fact, there will be tokens in s2 and
-s3 always at the same time.
+And in fact, there will be tokens in
+s2 and s3 always at the same time.
 
 0:20:34.600,0:20:42.280
 If there's a token in s2, it will also be
@@ -552,12 +552,12 @@ in s3 because when we fire t1 one token is
 added to s2 and to s3.
 
 0:20:46.049,0:20:51.610
-And when we fire t3, we change nothing at
-the amount of tokens in s3.
+And when we fire t3, we change
+nothing at the amount of tokens in s3.
 
 0:20:51.610,0:20:57.200
-And when we fire t2, both tokens are removed
-from s2 and s3.
+And when we fire t2, both tokens
+are removed from s2 and s3.
 
 0:20:57.200,0:21:01.840
 And so, we are done with this task as well.

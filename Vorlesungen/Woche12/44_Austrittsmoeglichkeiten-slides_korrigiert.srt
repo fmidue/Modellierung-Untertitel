@@ -40,8 +40,8 @@ dem zusammengesetzten Zustand als Ganzes,
 ohne irgendwie weitere Kennzeichnung,
 
 00:00:44,010 --> 00:00:48,420
-aus welchem Unterzustand man
-den Gesamtzustand denn gerne verlassen möchte.
+aus welchem Unterzustand man den
+Gesamtzustand denn gerne verlassen möchte.
 
 00:00:48,420 --> 00:00:53,910
 Dann gibt es die Möglichkeit, direkt aus
@@ -56,16 +56,16 @@ Und dann gab es beim Eintritt noch die
 beiden Varianten flache und tiefe Historie.
 
 00:01:08,940 --> 00:01:12,120
-Zu denen gibt es beim Austritt nichts
-Entsprechendes.
+Zu denen gibt es beim Austritt
+nichts Entsprechendes.
 
 00:01:12,120 --> 00:01:17,100
 Ja, beim Austritt wird eventuell irgendetwas
 gemerkt, um dann beim Wiedereintritt über Historie
 
 00:01:17,100 --> 00:01:23,220
-auf Information zurückzugreifen, wo wir
-in diesem Zustand insgesamt zuletzt gewesen sind.
+auf Information zurückzugreifen, wo wir in
+diesem Zustand insgesamt zuletzt gewesen sind.
 
 00:01:23,220 --> 00:01:26,430
 Aber bei den Austrittspfeilen selbst
@@ -93,12 +93,12 @@ der Transition assoziierte Trigger
 (ja, hier könnte je ein Trigger dranstehen)
 
 00:01:51,300 --> 00:01:55,470
-stattfindet, wird
-einfach der Gesamtzustand verlassen.
+stattfindet, wird einfach
+der Gesamtzustand verlassen.
 
 00:01:55,470 --> 00:02:00,150
-Egal, in welchem konkreten
-Unterzustand man sich hier gerade befindet,
+Egal, in welchem konkreten Unterzustand
+man sich hier gerade befindet,
 
 00:02:00,150 --> 00:02:02,370
 man verlässt einfach den Gesamtzustand.
@@ -128,8 +128,8 @@ Das heißt, wir können, wenn hier ein Trigger
 dransteht und dieser eintritt, diesen
 
 00:02:32,090 --> 00:02:34,760
-Übergang nur dann wählen,
-wenn wir tatsächlich gerade in E sind.
+Übergang nur dann wählen, wenn
+wir tatsächlich gerade in E sind.
 
 00:02:34,760 --> 00:02:40,790
 Wenn wir gerade in C oder D sind, dann
@@ -162,8 +162,8 @@ und wir haben einen Austritt
 aus dem Gesamtzustand,
 
 00:03:23,590 --> 00:03:28,750
-dann entspricht das
-in dem Fall tatsächlich drei Pfeilen.
+dann entspricht das in dem
+Fall tatsächlich drei Pfeilen.
 
 00:03:28,750 --> 00:03:36,280
 Nämlich dass wir explizit gezielt aus B,
@@ -181,8 +181,8 @@ Weil wir dann nicht sagen müssen, wo
 wir uns im Unterzustand gerade befinden.
 
 00:03:51,400 --> 00:04:02,440
-Und das ist genau die Stelle, wo wir in
-unserem Armbanduhr-Beispiel
+Und das ist genau die Stelle, wo
+wir in unserem Armbanduhr-Beispiel
 
 00:04:02,440 --> 00:04:10,330
 Pfeile sparen, weil wir da eben auch solche Ein- und
@@ -268,8 +268,8 @@ wir können immer diesen
 Austritt aus dem Ganzen wählen.
 
 00:05:38,150 --> 00:05:46,010
-Was ist bei Austritt aus
-einem spezifischen Unterzustand?
+Was ist bei Austritt aus einem
+spezifischen Unterzustand?
 
 00:05:46,010 --> 00:05:56,000
 Also, wenn wir so etwas wie diese Situation
@@ -299,8 +299,8 @@ wenn man sich in der entsprechenden
 Region tatsächlich in
 
 00:06:20,750 --> 00:06:24,410
-demjenigen Unterzustand befindet,
-der durch diesen Pfeil verlassen wird.
+demjenigen Unterzustand befindet, der
+durch diesen Pfeil verlassen wird.
 
 00:06:24,410 --> 00:06:28,730
 In den dazu parallelen Regionen kann man
@@ -328,8 +328,8 @@ uns pro Region befinden sollen.
 Und entsprechend ist dann die Regel auch.
 
 00:06:49,590 --> 00:06:54,210
-Wir können den zusammengesetzten Zustand
-über die Vereinigung genau dann
+Wir können den zusammengesetzten
+Zustand über die Vereinigung genau dann
 
 00:06:54,210 --> 00:07:00,000
 verlassen, wenn wir uns in jeder Region in dem
@@ -340,7 +340,8 @@ Also in dem Beispiel könnten wir nur austreten,
 wenn wir uns tatsächlich in B und in D befinden.
 
 00:07:07,470 --> 00:07:09,420
-Nicht, wenn wir uns in B und in C oder so befinden.
+Nicht, wenn wir uns in B
+und in C oder so befinden.
 
 00:07:09,420 --> 00:07:13,320
 Wenn wir uns in B und in C befinden,

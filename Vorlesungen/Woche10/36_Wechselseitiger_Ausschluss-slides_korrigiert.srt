@@ -450,7 +450,8 @@ Natürlich kann man sich das
 wieder formal anschauen, indem
 
 00:07:50,020 --> 00:07:54,130
-man einfach den Erreichbarkeitsgraphen inspiziert.
+man einfach den
+Erreichbarkeitsgraphen inspiziert.
 
 00:07:54,130 --> 00:08:04,140
 Wir wollen zeigen, dass niemals in den Stellen
@@ -586,7 +587,8 @@ Also sind es nur noch zwei speisende Philosophen.
 Das sehen wir hier unten auch.
 
 00:10:14,870 --> 00:10:17,960
-Also der Philosoph 3 ist weg und es ist eine Gabel
+Also der Philosoph 3 ist
+weg und es ist eine Gabel
 
 00:10:17,960 --> 00:10:19,910
 weniger (sonst wäre das Problem
@@ -758,8 +760,8 @@ dieses hier (nur anders hingemalt).
 Also genau die gleichen Verbindungen.
 
 00:13:23,710 --> 00:13:34,210
-Und hier wird jetzt offenkundiger,
-dass die F1-Stelle wie ein Mutex wirkt.
+Und hier wird jetzt offenkundiger, dass
+die F1-Stelle wie ein Mutex wirkt.
 
 00:13:35,080 --> 00:13:38,110
 Dieses Petrinetz, wie es hier
@@ -833,8 +835,8 @@ Sondern nur einer von beiden kann das tun, und
 danach kann der andere nicht sofort irgendwas tun.
 
 00:14:55,990 --> 00:15:00,910
-Aber wenn Philosoph 1 dann mit dem Essen fertig
-ist, kann Philosoph 2 wieder drankommen.
+Aber wenn Philosoph 1 dann mit dem Essen
+fertig ist, kann Philosoph 2 wieder drankommen.
 
 00:15:00,910 --> 00:15:04,690
 Das heißt, hier verhindern wir die

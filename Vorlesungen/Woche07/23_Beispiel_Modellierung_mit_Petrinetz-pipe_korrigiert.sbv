@@ -142,14 +142,16 @@ Sie sollten nicht wirklich glauben,
 dass meine Familie solche Freaks sind,
 
 0:02:25.680,0:02:29.220
-dass wir unseren Alltag mit Petrinetzen gestalten.
+dass wir unseren Alltag
+mit Petrinetzen gestalten.
 
 0:02:29.220,0:02:33.780
 Und tatsächlich wird mein Sohn im
 übernächsten Jahr volljährig, und dann
 
 0:02:33.780,0:02:37.710
-wäre das sowieso absurd, weiter so vorzugehen. :-)
+wäre das sowieso absurd,
+weiter so vorzugehen. :-)
 
 0:02:37.710,0:02:39.150
 Wie auch immer, es ist nur ein Beispiel.
@@ -213,7 +215,8 @@ Rechtecke nehmen als Transitionen.
 Dann kann man die Transitionen bearbeiten.
 
 0:03:43.620,0:03:47.640
-Also zum Beispiel kann man die Ausrichtung ändern.
+Also zum Beispiel kann man
+die Ausrichtung ändern.
 
 0:03:47.640,0:03:51.600
 Nehmen wir an, ich möchte es gerne so zeichnen.
@@ -261,7 +264,8 @@ Also es ist sicherlich nicht Zufall, dass
 ich hier schon zwei Stellen vorgesehen habe,
 
 0:05:01.540,0:05:03.910
-in die ich nachher noch Marken/Token legen möchte.
+in die ich nachher noch
+Marken/Token legen möchte.
 
 0:05:03.910,0:05:07.180
 Also man könnte sich vorstellen, dass
@@ -305,7 +309,8 @@ Ich hatte gesagt, man kann
 hier Zahlen dranstehen haben.
 
 0:05:49.510,0:05:52.450
-Das entspricht dann der Gewichtung so einer Kante.
+Das entspricht dann der
+Gewichtung so einer Kante.
 
 0:05:53.170,0:05:54.160
 Und ich hatte gesagt:
@@ -411,8 +416,8 @@ Dann kann ich tatsächlich
 hier Transitionen ausführen.
 
 0:07:30.320,0:07:32.480
-Ich kann sagen:
-Ich klicke hier drauf, möchte das ausführen.
+Ich kann sagen: Ich klicke hier
+drauf, möchte das ausführen.
 
 0:07:32.480,0:07:35.720
 Dann wird das a) hier links
@@ -555,7 +560,8 @@ Da liegen schon Marken.
 Wie könnte man das organisieren oder darstellen?
 
 0:09:46.590,0:09:49.680
-Man könnte zum Beispiel hier so eine Quelle haben.
+Man könnte zum Beispiel
+hier so eine Quelle haben.
 
 0:09:49.680,0:09:53.070
 Also eine Transition, die
@@ -771,8 +777,8 @@ Hausaufgaben gemacht hat) man
 auch mehrmals spielen kann.
 
 0:15:00.380,0:15:03.230
-Das würde jetzt dafür sorgen, dass, wenn
-Hausaufgaben gemacht wurden, a) die
+Das würde jetzt dafür sorgen, dass,
+wenn Hausaufgaben gemacht wurden, a) die
 
 0:15:03.230,0:15:09.710
 Hausaufgaben erledigt sind und b) hier auf
@@ -1015,7 +1021,8 @@ Und da gibt es eine Möglichkeit, das
 ist ein typischer Modellierungstrick,
 
 0:20:11.400,0:20:14.610
-bzw. ein typisches Modellierungsmuster bei Petrinetzen.
+bzw. ein typisches
+Modellierungsmuster bei Petrinetzen.
 
 0:20:14.610,0:20:18.630
 Wenn man diese Ausführung von
@@ -1026,11 +1033,12 @@ dann muss man natürlich eine Stelle
 haben, von der man eine Marke konsumiert.
 
 0:20:22.950,0:20:26.910
-Denn das ist die Art, wie man die Ausführung einer
+Denn das ist die Art, wie
+man die Ausführung einer
 
 0:20:26.910,0:20:29.820
-Transition einschränkt: dass
-sie von einer Vorbedingung abhängt.
+Transition einschränkt: dass sie
+von einer Vorbedingung abhängt.
 
 0:20:29.820,0:20:33.330
 Also, wir hätten gern hier eine Stelle, und die

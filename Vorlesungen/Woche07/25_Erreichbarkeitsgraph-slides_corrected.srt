@@ -1,15 +1,15 @@
 157 # slide
 00:00:00,000 --> 00:00:09,480
-In the previous video I had spoken towards
-the end of the non-determinism with Petri nets.
+In the previous video I had spoken towards the
+end of the non-determinism with Petri nets.
 
 00:00:09,480 --> 00:00:17,040
-Especially in the execution, i.e. that
-there can be several activated transitions for
+Especially in the execution, i.e. that there
+can be several activated transitions for
 
 00:00:17,040 --> 00:00:22,860
-a marking, which can then
-also lead to different subsequent markings.
+a marking, which can then also lead
+to different subsequent markings.
 
 00:00:22,860 --> 00:00:28,170
 And I had already mentioned that
@@ -37,24 +37,24 @@ And it will be practiced, of course.
 So, given a Petri net.
 
 00:00:48,600 --> 00:00:53,820
-We know how this is mathematically given by
-these five components: place set, transition set, pre-weight
+We know how this is mathematically given by these
+five components: place set, transition set, pre-weight
 
 00:00:53,820 --> 00:00:58,500
 functions, post-weight
 functions, start marking.
 
 00:00:58,500 --> 00:01:03,120
-And then we assign a flat
-state diagram to this Petri net.
+And then we assign a flat state
+diagram to this Petri net.
 
 00:01:05,040 --> 00:01:07,485
 This always consists
 of certain components
 
 00:01:07,485 --> 00:01:09,930
-as defined mathematically earlier (where
-we looked at graphs in general).
+as defined mathematically earlier
+(where we looked at graphs in general).
 
 00:01:12,810 --> 00:01:15,330
 So there is the node set.
@@ -63,8 +63,8 @@ So there is the node set.
 This is often called V for "vertices".
 
 00:01:18,060 --> 00:01:21,600
-Or we can call it Z
-for states, because of the state diagram.
+Or we can call it Z for states,
+because of the state diagram.
 
 00:01:21,600 --> 00:01:27,000
 And for this, we choose the set of all
@@ -79,8 +79,8 @@ So any marking m that is
 reachable in this way by a
 
 00:01:35,760 --> 00:01:43,320
-finite sequence of transitions from m0
-is packed into this set Z.
+finite sequence of transitions
+from m0 is packed into this set Z.
 
 00:01:43,320 --> 00:01:44,760
 Reminder:
@@ -90,8 +90,8 @@ A Petri net
 configuration, i.e. an assignment
 
 00:01:51,090 --> 00:01:56,670
-of places of the Petri net with
-tokens, corresponds to a state of the system.
+of places of the Petri net with tokens,
+corresponds to a state of the system.
 
 00:01:56,670 --> 00:02:02,250
 Therefore it makes sense to choose exactly
@@ -118,16 +118,16 @@ Okay, then there is
 the set of edge labels.
 
 00:02:23,280 --> 00:02:29,100
-In a flat state diagram, after all,
-we could label the edges between the nodes.
+In a flat state diagram, after all, we
+could label the edges between the nodes.
 
 00:02:29,100 --> 00:02:31,530
-And for that here we
-choose the set of transitions.
+And for that here we choose
+the set of transitions.
 
 00:02:31,530 --> 00:02:36,330
-So on each edge between nodes
-we will write a transition, namely
+So on each edge between nodes we
+will write a transition, namely
 
 00:02:36,330 --> 00:02:38,130
 the transition that
@@ -142,12 +142,12 @@ before the transition, and led
 exactly to the subsequent state.
 
 00:02:47,640 --> 00:02:55,920
-Then we get as edge set, or
-transitions, exactly the triples consisting of marking,
+Then we get as edge set, or transitions,
+exactly the triples consisting of marking,
 
 00:02:57,840 --> 00:03:03,030
-transition, subsequent marking, for
-which this relationship holds.
+transition, subsequent marking,
+for which this relationship holds.
 
 00:03:03,030 --> 00:03:07,800
 So we don't just
@@ -170,8 +170,8 @@ Thus we have all
 nodes, all edges, their labels.
 
 00:03:33,960 --> 00:03:37,140
-As a rule, in a flat
-state diagram, we still designate a
+As a rule, in a flat state
+diagram, we still designate a
 
 00:03:37,140 --> 00:03:40,830
 special state, namely the start state.
@@ -189,8 +189,8 @@ because it is reachable after the
 empty sequence of transitions.
 
 00:03:49,770 --> 00:03:55,200
-So it fits, is an
-element of the relevant state set.
+So it fits, is an element
+of the relevant state set.
 
 00:03:55,200 --> 00:04:03,600
 Okay, so that's our flat state
@@ -213,8 +213,8 @@ edges how a particular
 marking can be reached.
 
 00:04:18,870 --> 00:04:22,900
-So in the end the firing
-sequence can be traced in the graph.
+So in the end the firing sequence
+can be traced in the graph.
 
 00:04:22,900 --> 00:04:27,010
 This can become an infinite graph.
@@ -231,20 +231,20 @@ the reachability graph could
 well be an infinite graph.
 
 00:04:34,625 --> 00:04:38,770
-While every firing sequence is finite, there
-may be an infinite number of them.
+While every firing sequence is finite,
+there may be an infinite number of them.
 
 00:04:38,770 --> 00:04:41,740
 We're not going to consider
 that here at the moment.
 
 00:04:41,740 --> 00:04:48,220
-So here at the moment we will only
-see an example of a finite reachability graph.
+So here at the moment we will only see an
+example of a finite reachability graph.
 
 00:04:48,220 --> 00:04:53,890
-But we'll also come back to
-at least one example of infinity later.
+But we'll also come back to at
+least one example of infinity later.
 
 00:04:53,890 --> 00:04:58,810
 There the definition is unchanged, the
@@ -255,12 +255,12 @@ same, only of course you can't
 paint an infinite graph on a slide
 
 00:05:03,040 --> 00:05:07,750
-in finite time, as I'm about to
-do now here for the example in sequence.
+in finite time, as I'm about to do
+now here for the example in sequence.
 
 00:05:12,190 --> 00:05:16,300
-And that is, let's look at
-exactly the reachability graph for this
+And that is, let's look at exactly
+the reachability graph for this
 
 00:05:16,300 --> 00:05:18,820
 Petri net, which we've
@@ -271,12 +271,12 @@ That was our example Petri net
 on the slides for the connection
 
 00:05:23,200 --> 00:05:25,180
-between graphical
-and mathematical representation.
+between graphical and
+mathematical representation.
 
 00:05:25,180 --> 00:05:31,720
-And it was also the example that
-I had used in an earlier video this
+And it was also the example that I
+had used in an earlier video this
 
 00:05:31,720 --> 00:05:38,230
 week for illustrating the mathematical
@@ -300,16 +300,16 @@ graph look like for this?
 It will be on the next slide.
 
 00:05:56,860 --> 00:05:59,500
-But I would like to
-talk through the first few states,
+But I would like to talk
+through the first few states,
 
 00:05:59,500 --> 00:06:03,100
-so to speak, and then
-just leave the graph to you.
+so to speak, and then just
+leave the graph to you.
 
 00:06:03,100 --> 00:06:07,660
-So that you can look for or check
-the rest of the transitions in there yourself.
+So that you can look for or check the
+rest of the transitions in there yourself.
 
 00:06:07,660 --> 00:06:13,210
 So, by definition, this is a
@@ -320,8 +320,8 @@ markings, especially, of course,
 at least the initial marking.
 
 00:06:16,720 --> 00:06:19,540
-And in fact, when we
-set up such a reachability graph,
+And in fact, when we set up
+such a reachability graph,
 
 00:06:19,540 --> 00:06:21,190
 we start with the
@@ -348,8 +348,8 @@ We like to use
 tuples, in this case triples.
 
 00:06:33,970 --> 00:06:38,770
-For this we have to decide in
-which order we want to use the places.
+For this we have to decide in which
+order we want to use the places.
 
 00:06:38,770 --> 00:06:42,100
 And if they are called s1, s2, s3,
@@ -363,24 +363,24 @@ So, the start marking as
 a triple would be (1,2,0),
 
 00:06:48,520 --> 00:06:53,740
-because these are the tokens on
-the three places in the start state.
+because these are the tokens on the
+three places in the start state.
 
 00:06:53,740 --> 00:06:59,050
 So that would explain this
 part from this solution here.
 
 00:06:59,050 --> 00:07:03,700
-You take (1,2,0) as the
-first marking and also mark it
+You take (1,2,0) as the first
+marking and also mark it
 
 00:07:03,700 --> 00:07:07,360
 with this input
 arrow as the start marking.
 
 00:07:09,100 --> 00:07:14,470
-And then you have to
-find more nodes, all reachable markings.
+And then you have to find more
+nodes, all reachable markings.
 
 00:07:14,470 --> 00:07:15,430
 That means, you have to ask now, starting
@@ -393,12 +393,12 @@ is already in the graph:
 What are the reachable markings?
 
 00:07:20,470 --> 00:07:24,550
-And for this one must
-look, which of the given transitions,
+And for this one must look,
+which of the given transitions,
 
 00:07:24,550 --> 00:07:32,290
-which exist in the Petri net, are
-then fireable in the marking just present?
+which exist in the Petri net, are then
+fireable in the marking just present?
 
 00:07:32,290 --> 00:07:33,220
 At the beginning, this
@@ -421,16 +421,16 @@ what comes out of that.
 For one thing, we can check it.
 
 00:07:43,120 --> 00:07:45,520
-Then there would be
-two tokens down here afterwards.
+Then there would be two
+tokens down here afterwards.
 
 00:07:45,520 --> 00:07:49,330
-So (0,1,2) would be the
-next marking, after firing t1.
+So (0,1,2) would be the next
+marking, after firing t1.
 
 00:07:49,330 --> 00:07:52,450
-But we already know that,
-because we have recalculated it here.
+But we already know that, because
+we have recalculated it here.
 
 00:07:52,450 --> 00:07:53,470
 That was exactly the point:
@@ -448,8 +448,8 @@ And this would be exactly
 the extension to this part.
 
 00:08:10,690 --> 00:08:13,480
-So we would build up
-the graph piece by piece now.
+So we would build up the
+graph piece by piece now.
 
 00:08:13,480 --> 00:08:15,400
 We started with (1,2,0) and we know:
@@ -479,8 +479,8 @@ it, what about this new marking (0,1,2)?
 Are there any transitions from it?
 
 00:08:33,460 --> 00:08:37,870
-For this we would have to
-think of this token here set differently.
+For this we would have to think of
+this token here set differently.
 
 00:08:37,870 --> 00:08:39,130
 Now it's no longer about
@@ -501,31 +501,31 @@ The t1 would not be fireable,
 because of the imaginary zero here.
 
 00:08:52,300 --> 00:08:58,150
-But t2 and t3 would both be
-fireable, because they depend only on tokens in
+But t2 and t3 would both be fireable,
+because they depend only on tokens in
 
 00:08:58,150 --> 00:08:59,500
 s3, where now two would lie.
 
 00:08:59,500 --> 00:09:02,830
-So we would know, next
-t2 and t3 would be fireable.
+So we would know, next t2
+and t3 would be fireable.
 
 00:09:02,830 --> 00:09:06,190
 And of course, we
 also saw exactly that earlier.
 
 00:09:07,210 --> 00:09:11,020
-Namely, in this example we had also
-considered exactly from the marking m1, which is
+Namely, in this example we had also considered
+exactly from the marking m1, which is
 
 00:09:11,020 --> 00:09:16,780
 present after firing t1, and finally
 calculated that t2 and t3 are fireable,
 
 00:09:16,780 --> 00:09:22,450
-and that thereby the two
-markings (1,1,1) and (0,2,1) arise.
+and that thereby the two markings
+(1,1,1) and (0,2,1) arise.
 
 00:09:22,450 --> 00:09:29,200
 We can now plot this
@@ -536,12 +536,12 @@ So we would extend the
 piece we already had now.
 
 00:09:33,040 --> 00:09:37,420
-On the one hand by
-(with transition t2) the node (1,1,1),
+On the one hand by (with
+transition t2) the node (1,1,1),
 
 00:09:38,920 --> 00:09:46,060
-and on the other hand by
-(per transition t3) the subsequent marking (0,2,1).
+and on the other hand by (per transition
+t3) the subsequent marking (0,2,1).
 
 00:09:46,060 --> 00:09:53,770
 So then we would have developed
@@ -558,12 +558,12 @@ So these four states and the initial marking
 arrow, plus these three arrows here.
 
 00:10:04,390 --> 00:10:10,600
-Then we would also know that we're not
-going to have any more transitions from this node.
+Then we would also know that we're not going
+to have any more transitions from this node.
 
 00:10:10,600 --> 00:10:14,650
-Because t2 and t3 are
-activated and that's just about it.
+Because t2 and t3 are activated
+and that's just about it.
 
 00:10:14,650 --> 00:10:19,060
 So next we would look at
@@ -573,24 +573,24 @@ the two new states and think
 about what is fireable from these.
 
 00:10:21,100 --> 00:10:24,700
-But I don't have that
-now already on existing slides.
+But I don't have that now
+already on existing slides.
 
 00:10:24,700 --> 00:10:27,520
-So I didn't have any
-more things calculated through here.
+So I didn't have any more
+things calculated through here.
 
 00:10:27,520 --> 00:10:31,000
-But of course you can do
-the same considerations for the new markings.
+But of course you can do the same
+considerations for the new markings.
 
 00:10:31,000 --> 00:10:39,940
 Or take the Petri
 net, think away these markings,
 
 00:10:39,940 --> 00:10:44,170
-instead for example consider the situation where
-on each place exactly one token lies.
+instead for example consider the situation
+where on each place exactly one token lies.
 
 00:10:44,170 --> 00:10:46,990
 In order to consider how
@@ -622,20 +622,20 @@ So because of the presence of
 a token on each relevant input.
 
 00:11:05,200 --> 00:11:09,700
-That means, from the marking
-(1,1,1) all three transitions are fireable.
+That means, from the marking (1,1,1)
+all three transitions are fireable.
 
 00:11:10,750 --> 00:11:16,960
-This would lead to the fact that we
-must actually have three outgoing arrows from (1,1,1).
+This would lead to the fact that we must
+actually have three outgoing arrows from (1,1,1).
 
 00:11:16,960 --> 00:11:20,260
 And if we then calculate in
 each case what comes out as a
 
 00:11:20,260 --> 00:11:24,670
-subsequent marking, we find out, for example, that
-if we execute t1, we come to (0,0,3).
+subsequent marking, we find out, for example,
+that if we execute t1, we come to (0,0,3).
 
 00:11:24,670 --> 00:11:26,080
 Thus, this state is added.
@@ -647,19 +647,19 @@ But we also notice:
 If we fire t3 from (1,1,1), then
 
 00:11:31,120 --> 00:11:35,230
-we would come to the
-marking (1,2,0), which already exists.
+we would come to the marking
+(1,2,0), which already exists.
 
 00:11:35,230 --> 00:11:42,160
-Of course, we then do not
-make a new node here with (1,2,0).
+Of course, we then do not make
+a new node here with (1,2,0).
 
 00:11:42,160 --> 00:11:43,420
 After all, we have a graph.
 
 00:11:43,420 --> 00:11:50,080
-That is, we simply have a
-back arrow labeled t3 in that case.
+That is, we simply have a back
+arrow labeled t3 in that case.
 
 00:11:50,080 --> 00:11:53,410
 And it turns out that we
@@ -687,16 +687,16 @@ which further transitions are
 possible starting from there.
 
 00:12:13,780 --> 00:12:18,730
-If, on the other hand, we have
-a backward arrow (like the one from
+If, on the other hand, we have a
+backward arrow (like the one from
 
 00:12:18,730 --> 00:12:23,080
-here to here), we don't have to look
-again to see what is possible from this marking.
+here to here), we don't have to look again
+to see what is possible from this marking.
 
 00:12:23,080 --> 00:12:25,690
-We already have this, so
-all transitions starting from here
+We already have this, so all
+transitions starting from here
 
 00:12:25,690 --> 00:12:26,950
 we have already looked at.
@@ -705,16 +705,16 @@ we have already looked at.
 For example, that was just t1.
 
 00:12:28,210 --> 00:12:32,230
-That doesn't change when we have
-the connection between these two nodes.
+That doesn't change when we have the
+connection between these two nodes.
 
 00:12:32,230 --> 00:12:35,170
-Yeah, so it doesn't change
-what would be possible from here.
+Yeah, so it doesn't change what
+would be possible from here.
 
 00:12:35,170 --> 00:12:40,880
-And then we keep doing that until
-at some point no new states are added.
+And then we keep doing that until at
+some point no new states are added.
 
 00:12:40,880 --> 00:12:42,710
 This case does not
@@ -747,8 +747,8 @@ That is, then that
 would be the result graph.
 
 00:13:12,860 --> 00:13:27,200
-So that's then the reachability graph
-for the Petri net given here.
+So that's then the reachability
+graph for the Petri net given here.
 
 00:13:27,200 --> 00:13:29,510
 And this is useful, because
@@ -773,12 +773,12 @@ This can only be read indirectly here.
 You would have to look at all t1
 
 00:13:48,140 --> 00:13:51,230
-arrows to find out under
-which conditions t1 is fireable.
+arrows to find out under which
+conditions t1 is fireable.
 
 00:13:51,230 --> 00:13:56,990
-But properties of the Petri net
-can be examined in this representation.
+But properties of the Petri net can
+be examined in this representation.
 
 00:13:56,990 --> 00:14:00,530
 In the first lecture on Petri
@@ -802,8 +802,8 @@ it is factually obvious.
 We just have to see if there is a
 
 00:14:21,140 --> 00:14:23,960
-node from which there are
-no outgoing arrows, like this one.
+node from which there are no
+outgoing arrows, like this one.
 
 00:14:23,960 --> 00:14:24,920
 And then we know:
@@ -813,12 +813,12 @@ Yes, indeed, this Petri net
 can reach a dead end.
 
 00:14:27,470 --> 00:14:30,050
-The system described by this
-can develop in such a
+The system described by
+this can develop in such a
 
 00:14:30,050 --> 00:14:32,630
-way that at some point
-no further transitions are possible.
+way that at some point no
+further transitions are possible.
 
 00:14:32,630 --> 00:14:36,620
 For example, after t1, t3,
@@ -828,8 +828,8 @@ t3 we come to a situation
 where no further steps are possible.
 
 00:14:38,930 --> 00:14:44,240
-So then we can study properties of
-the Petri net on this reachability graph.
+So then we can study properties of the
+Petri net on this reachability graph.
 
 00:14:44,240 --> 00:14:45,410
 This is true for dead ends.
@@ -839,8 +839,8 @@ This is true
 for certain liveness questions.
 
 00:14:50,440 --> 00:14:52,040
-The question about dead ends
-is ultimately also the question:
+The question about dead ends is
+ultimately also the question:
 
 00:14:52,040 --> 00:14:53,270
 Can the system always live on?
@@ -859,32 +859,32 @@ system always continues to progress?
 Yes.
 
 00:15:00,797 --> 00:15:04,640
-It can reach an impasse, but if
-it behaves favorably, if one makes sensible
+It can reach an impasse, but if it
+behaves favorably, if one makes sensible
 
 00:15:04,640 --> 00:15:10,880
 choices, so to speak, as an
 external agent (the Petri net itself
 
 00:15:10,880 --> 00:15:14,150
-does not specify any
-sequence or deterministic choice of
+does not specify any sequence
+or deterministic choice of
 
 00:15:14,150 --> 00:15:19,130
 transitions), there are sequences of
 this Petri net that are infinite.
 
 00:15:19,130 --> 00:15:24,290
-If one avoids the dead
-ends, the system can live infinitely.
+If one avoids the dead ends,
+the system can live infinitely.
 
 00:15:24,290 --> 00:15:33,360
-And also questions about concurrencies, for example, can
-be considered later on the basis of this structure.
+And also questions about concurrencies, for example,
+can be considered later on the basis of this structure.
 
 00:15:33,360 --> 00:15:36,960
-Up to now, we
-had only considered this informally.
+Up to now, we had only
+considered this informally.
 
 00:15:36,960 --> 00:15:38,940
 Or questions about capacities.
@@ -906,20 +906,20 @@ there are capacity restrictions.
 And that is indeed what we see here.
 
 00:15:50,760 --> 00:15:53,100
-So here we could not
-have said immediately whether the
+So here we could not have
+said immediately whether the
 
 00:15:54,570 --> 00:15:58,200
-total number of tokens in
-the system is somehow limited.
+total number of tokens in the
+system is somehow limited.
 
 00:15:58,200 --> 00:16:00,900
 You would have had to think about
 what the transitions do to the total
 
 00:16:00,900 --> 00:16:04,260
-number of tokens or to the
-number of tokens on individual places.
+number of tokens or to the number
+of tokens on individual places.
 
 00:16:04,260 --> 00:16:06,780
 On the other hand, if we have this
@@ -938,8 +938,8 @@ Petri net there are never more
 than three tokens on any one place.
 
 00:16:16,500 --> 00:16:21,540
-We can look at the graph and see that
-when we've built it completely and, of course, correctly.
+We can look at the graph and see that when we've
+built it completely and, of course, correctly.
 
 00:16:21,540 --> 00:16:26,340
 Okay, and this type of use
@@ -949,5 +949,5 @@ of reachability graphs will
 occupy us in the next lecture,
 not anymore today.
 00:16:30,390 --> 00:16:34,470
-That will be the topic
-of the next video or videos.
+That will be the topic of
+the next video or videos.

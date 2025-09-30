@@ -1,19 +1,19 @@
 189 # slide
 00:00:01,540 --> 00:00:10,580
-We are still in the Properties
-of Petri Nets part of this lecture.
+We are still in the Properties of
+Petri Nets part of this lecture.
 
 00:00:10,580 --> 00:00:15,380
-Overall, however, we are nearing the
-end of the Petri net chapter.
+Overall, however, we are nearing
+the end of the Petri net chapter.
 
 00:00:15,380 --> 00:00:20,930
-In fact, we will not
-be introducing any more properties.
+In fact, we will not be
+introducing any more properties.
 
 00:00:20,930 --> 00:00:26,750
-But in this video I want to
-discuss an example, which was at the beginning
+But in this video I want to discuss
+an example, which was at the beginning
 
 00:00:26,750 --> 00:00:31,640
 of the Petri net chapter, and which I
@@ -27,12 +27,12 @@ That was the
 so-called dining philosophers.
 
 00:00:35,890 --> 00:00:46,440
-At the beginning of this example I
-had also mentioned some properties which one
+At the beginning of this example I had
+also mentioned some properties which one
 
 00:00:46,440 --> 00:00:51,110
-would like to know and
-investigate of such a dynamical system.
+would like to know and investigate
+of such a dynamical system.
 
 00:00:51,110 --> 00:00:56,260
 We have formalized some of them in
@@ -42,53 +42,53 @@ the meantime and can now apply them to
 this example.
 
 00:00:57,260 --> 00:01:02,190
-There were questions about the progress or dead
-ends in which a system can end up.
+There were questions about the progress or
+dead ends in which a system can end up.
 
 00:01:02,190 --> 00:01:08,580
-Or whether individual actions, which we modeled as
-transitions in a Petri net, can always occur
+Or whether individual actions, which we modeled
+as transitions in a Petri net, can always occur
 
 00:01:08,580 --> 00:01:11,900
-at least once or can even
-be executed any number of times.
+at least once or can even be
+executed any number of times.
 
 00:01:11,900 --> 00:01:17,750
-There were questions about fairness, which in
-the case of philosophers was whether two
+There were questions about fairness, which
+in the case of philosophers was whether two
 
 00:01:17,750 --> 00:01:19,680
 philosophers together could
 starve the third.
 
 00:01:19,680 --> 00:01:24,610
-There were questions about causalities, whether certain
-actions are mutually dependent (which can be
+There were questions about causalities, whether
+certain actions are mutually dependent (which can be
 
 00:01:24,610 --> 00:01:27,159
 found again here with the example).
 
 00:01:27,159 --> 00:01:32,700
-And also the last introduced
-notions about concurrency and conflicts can
+And also the last introduced notions
+about concurrency and conflicts can
 
 00:01:32,700 --> 00:01:36,170
 be related to this example.
 
 00:01:36,170 --> 00:01:42,909
-Questions about bounds or
-capacities, i.e., boundedness or 1-safety,
+Questions about bounds or capacities,
+i.e., boundedness or 1-safety,
 
 00:01:42,909 --> 00:01:47,600
-which were also discussed last week,
-have less application specifically to this
+which were also discussed last week, have
+less application specifically to this
 
 00:01:47,600 --> 00:01:48,670
 example.
 
 00:01:48,670 --> 00:01:52,420
-We will look at those
-separately again in a different context.
+We will look at those separately
+again in a different context.
 
 00:01:52,420 --> 00:01:56,700
 But as a reminder,
@@ -102,12 +102,12 @@ There were these three philosophers
 sitting around a round table.
 
 00:02:00,560 --> 00:02:02,760
-And, of course, this is not
-a Petri net that you see here.
+And, of course, this is not a
+Petri net that you see here.
 
 00:02:02,760 --> 00:02:08,800
-This is simply a sketch,
-a representation of the situation.
+This is simply a sketch, a
+representation of the situation.
 
 00:02:08,800 --> 00:02:10,810
 There are these three
@@ -117,15 +117,15 @@ philosophers P1, P2, P3.
 They sit around a round table.
 
 00:02:11,939 --> 00:02:17,209
-And always between two philosophers there is
-a fork (English: Fork, therefore F1, F2,
+And always between two philosophers there
+is a fork (English: Fork, therefore F1, F2,
 
 00:02:17,209 --> 00:02:18,280
 F3).
 
 00:02:18,280 --> 00:02:23,969
-And then the description of the situation
-stated that the philosophers get hungry from time
+And then the description of the situation stated
+that the philosophers get hungry from time
 
 00:02:23,969 --> 00:02:27,590
 to time (we will
@@ -143,8 +143,8 @@ And for that, they need both adjacent
 forks.
 
 00:02:37,310 --> 00:02:43,680
-That is, if philosopher 1 wants to
-eat, he needs forks 3 and 1.
+That is, if philosopher 1 wants
+to eat, he needs forks 3 and 1.
 
 00:02:43,680 --> 00:02:49,709
 And the procedure is that a philosopher
@@ -155,15 +155,15 @@ any time, first the right one and only
 when the right one is in hand, then
 
 00:02:54,769 --> 00:03:00,890
-also the left one if possible
-(if the left fork is still there).
+also the left one if possible (if
+the left fork is still there).
 
 00:03:00,890 --> 00:03:03,359
 Then they eat with both forks.
 
 00:03:03,359 --> 00:03:06,669
-And afterwards the philosopher puts the two
-forks back on the table at the
+And afterwards the philosopher puts
+the two forks back on the table at the
 
 00:03:06,669 --> 00:03:12,059
 same time, so that then maybe someone
@@ -174,16 +174,16 @@ So that was the verbal description
 of the problem, now enriched by these
 
 00:03:18,180 --> 00:03:26,319
-labels (I don't think that showed up
-on the previous slide for this example).
+labels (I don't think that showed up on
+the previous slide for this example).
 
 00:03:26,319 --> 00:03:32,069
-Now we can try to model
-this in principle as a Petri net.
+Now we can try to model this
+in principle as a Petri net.
 
 00:03:32,069 --> 00:03:37,809
-And for that, I'm going to use exactly the
-labels that have already appeared here in the Petri
+And for that, I'm going to use exactly the labels
+that have already appeared here in the Petri
 
 00:03:37,809 --> 00:03:38,809
 net.
@@ -196,8 +196,8 @@ the places in the Petri net.
 The philosophers themselves will not.
 
 00:03:47,129 --> 00:03:52,749
-They will not appear in the Petri
-net themselves, but they are essentially marked
+They will not appear in the Petri net
+themselves, but they are essentially marked
 
 00:03:52,749 --> 00:03:57,069
 by their being hungry and eating.
@@ -209,8 +209,8 @@ How could this Petri net look like?
 I simply give this, on the one hand.
 
 00:04:04,969 --> 00:04:08,650
-On the other hand, I will now
-explain how the philosophers find themselves here.
+On the other hand, I will now explain how
+the philosophers find themselves here.
 
 00:04:08,650 --> 00:04:12,159
 At first glance, one
@@ -229,16 +229,16 @@ Philosopher 1 is hungry
 or is ready to eat.
 
 00:04:27,140 --> 00:04:30,410
-It will be that in
-principle philosophers are always hungry.
+It will be that in principle
+philosophers are always hungry.
 
 00:04:30,410 --> 00:04:33,650
-It will not be modeled extra
-that they have to get hungry first.
+It will not be modeled extra that
+they have to get hungry first.
 
 00:04:33,650 --> 00:04:38,751
-The point is that at any
-moment a philosopher could decide to want
+The point is that at any moment a
+philosopher could decide to want
 
 00:04:38,751 --> 00:04:43,650
 to eat (that is, be ready to eat),
@@ -248,20 +248,20 @@ and then try to reach for the forks
 (to be able to eat).
 
 00:04:45,910 --> 00:04:51,750
-Since we know that there is this moment
-where a philosopher who has already grabbed one fork
+Since we know that there is this moment where
+a philosopher who has already grabbed one fork
 
 00:04:51,750 --> 00:04:58,020
-has to wait for the other fork,
-there are the additional places W1, W2, W3.
+has to wait for the other fork, there
+are the additional places W1, W2, W3.
 
 00:04:58,020 --> 00:05:02,340
 They didn't appear like
 that in the description.
 
 00:05:02,340 --> 00:05:08,320
-This would be the state after the
-right fork has already been picked up and,
+This would be the state after the right
+fork has already been picked up and,
 
 00:05:08,320 --> 00:05:13,110
 if necessary, the left fork must be waited
@@ -275,12 +275,12 @@ will be used at W1 or
 W2 or W3.
 
 00:05:17,290 --> 00:05:20,950
-To express that the corresponding philosopher
-is waiting for the left fork.
+To express that the corresponding
+philosopher is waiting for the left fork.
 
 00:05:20,950 --> 00:05:25,130
-Which also means that he
-has already grabbed the right fork.
+Which also means that he has
+already grabbed the right fork.
 
 00:05:25,130 --> 00:05:29,030
 If a fork is not grasped,
@@ -298,42 +298,42 @@ And for that, a respective token
 will be used on F1, F2, F3.
 
 00:05:39,050 --> 00:05:46,180
-So we'll see that here in
-the three places, so to speak.
+So we'll see that here in the
+three places, so to speak.
 
 00:05:46,180 --> 00:05:53,080
-And then there will be tokens on the
-E1, E2, E3 spots when the corresponding philosopher
+And then there will be tokens on the E1, E2,
+E3 spots when the corresponding philosopher
 
 00:05:53,080 --> 00:05:54,080
 is eating.
 
 00:05:54,080 --> 00:05:57,510
-So, we don't see
-the philosophers explicitly here.
+So, we don't see the
+philosophers explicitly here.
 
 00:05:57,510 --> 00:06:00,380
 But, of course, we can
 still find them in here.
 
 00:06:00,380 --> 00:06:14,570
-And that is, philosopher 1, for example, would ultimately
-be represented here by this part of the Petri
+And that is, philosopher 1, for example, would
+ultimately be represented here by this part of the Petri
 
 00:06:14,570 --> 00:06:16,310
 net.
 
 00:06:16,310 --> 00:06:22,460
-So the three places on being hungry, on
-waiting, and on eating, which relate to philosopher
+So the three places on being hungry, on waiting,
+and on eating, which relate to philosopher
 
 00:06:22,460 --> 00:06:31,990
-1, and ultimately this
-transition before the waiting place.
+1, and ultimately this transition
+before the waiting place.
 
 00:06:31,990 --> 00:06:38,710
-This is also a transition that belongs to
-philosopher 1, because this is where philosopher 1 first
+This is also a transition that belongs to philosopher
+1, because this is where philosopher 1 first
 
 00:06:38,710 --> 00:06:43,090
 becomes active (namely, when he is
@@ -350,8 +350,8 @@ This would start the
 action for philosopher 1.
 
 00:06:54,730 --> 00:07:02,180
-Basically, this is philosopher 1, and accordingly
-philosopher 2 can be found here in
+Basically, this is philosopher 1, and
+accordingly philosopher 2 can be found here in
 
 00:07:02,180 --> 00:07:06,900
 the Petri net,
@@ -372,12 +372,12 @@ also initially assigned a token.
 And there's this transition.
 
 00:07:18,700 --> 00:07:22,220
-We could actually have those
-count towards philosopher 1 as well.
+We could actually have those count
+towards philosopher 1 as well.
 
 00:07:22,220 --> 00:07:29,090
-That would be the transition where philosopher
-1 is done eating and releases the
+That would be the transition where
+philosopher 1 is done eating and releases the
 
 00:07:29,090 --> 00:07:30,090
 forks.
@@ -402,20 +402,20 @@ forks in order to be able to eat then.
 How are all these connections justified?
 
 00:07:54,750 --> 00:07:58,980
-For example, we see here that in
-fact this action, which would result in
+For example, we see here that in fact
+this action, which would result in
 
 00:07:58,980 --> 00:08:04,870
-philosopher 1 waiting for the left
-fork, depends on philosopher 1 actually being
+philosopher 1 waiting for the left fork,
+depends on philosopher 1 actually being
 
 00:08:04,870 --> 00:08:11,870
 hungry before and having already
 taken the right fork from F3.
 
 00:08:11,870 --> 00:08:17,710
-This would justify why these
-are exactly the preconditions for this
+This would justify why these are
+exactly the preconditions for this
 
 00:08:17,710 --> 00:08:21,380
 transition that leads to then
@@ -433,28 +433,28 @@ He must have grabbed
 the right fork beforehand.
 
 00:08:28,810 --> 00:08:33,570
-That is, philosopher 1 must have entered
-this waiting state, and
+That is, philosopher 1 must have
+entered this waiting state, and
 
 00:08:33,570 --> 00:08:38,269
-then he must be able to grasp the
-left fork (which is fork F1 for philosopher 1).
+then he must be able to grasp the left
+fork (which is fork F1 for philosopher 1).
 
 00:08:38,269 --> 00:08:43,459
 So if these and these conditions are met,
 then philosopher 1 can eat.
 
 00:08:43,459 --> 00:08:47,079
-Then there would be a token here
-for philosopher 1, and then philosopher 1, when
+Then there would be a token here for
+philosopher 1, and then philosopher 1, when
 
 00:08:47,079 --> 00:08:49,569
 he's done eating, would be
 able to fire this transition.
 
 00:08:49,569 --> 00:08:52,422
-And that would cause philosopher 1 to
-go back to the state where he's
+And that would cause philosopher 1
+to go back to the state where he's
 
 00:08:52,422 --> 00:08:57,430
 ready to eat, so again waiting for
@@ -468,12 +468,12 @@ and the right fork, would have to be
 returned by philosopher 1.
 
 00:09:01,620 --> 00:09:07,199
-That's why there are these
-two exit arrows from the transition.
+That's why there are these two
+exit arrows from the transition.
 
 00:09:07,199 --> 00:09:11,420
-And for philosopher 2 and philosopher 3,
-that's just symmetrically repeated in each case.
+And for philosopher 2 and philosopher 3, that's
+just symmetrically repeated in each case.
 
 00:09:11,420 --> 00:09:21,870
 So the other parts in this section
@@ -483,8 +483,8 @@ do the same thing for philosopher 3.
 So much for the kind of modeling here.
 
 00:09:23,940 --> 00:09:31,949
-Then we can look at a
-run, looking for properties that we've
+Then we can look at a run,
+looking for properties that we've
 
 00:09:31,949 --> 00:09:33,480
 already seen.
@@ -514,16 +514,16 @@ It would mean P1 has to see that
 he gets the first fork in his hand.
 
 00:09:57,230 --> 00:09:59,550
-Of course, ultimately, philosopher 2 and
-philosopher 3 also want to eat.
+Of course, ultimately, philosopher 2
+and philosopher 3 also want to eat.
 
 00:09:59,550 --> 00:10:06,130
 But let's assume that philosopher 1 will be
 activated first and will also be able to successfully
 
 00:10:06,130 --> 00:10:10,550
-fire this transition, because at the moment there is
-the fork on the table that he needs for this.
+fire this transition, because at the moment there
+is the fork on the table that he needs for this.
 
 00:10:10,550 --> 00:10:15,740
 So the first activated transition could
@@ -544,12 +544,12 @@ or philosopher 3
 could become active here.
 
 00:10:30,500 --> 00:10:39,910
-So here now this, this, and
-this transition would be activated concurrently.
+So here now this, this, and this
+transition would be activated concurrently.
 
 00:10:39,910 --> 00:10:44,759
-There is no conflict in
-the Petri net at the moment.
+There is no conflict in the
+Petri net at the moment.
 
 00:10:44,759 --> 00:10:48,040
 At least not
@@ -573,8 +573,8 @@ and it's also no longer recorded that philosopher
 1 wants to eat.
 
 00:11:08,040 --> 00:11:12,160
-Because he is, so to speak,
-in the process of getting the food.
+Because he is, so to speak, in
+the process of getting the food.
 
 00:11:12,160 --> 00:11:16,329
 At least to have already grabbed the right
@@ -591,8 +591,8 @@ philosopher 3 get in the way somehow, and
 philosopher 1 can continue to act.
 
 00:11:25,970 --> 00:11:30,290
-Then, of course, he could now
-fire this transition, which would ensure that
+Then, of course, he could now fire this
+transition, which would ensure that
 
 00:11:30,290 --> 00:11:33,199
 he also takes the
@@ -615,8 +615,8 @@ Why not?
 Because there was no token here.
 
 00:11:39,779 --> 00:11:48,149
-That is, this is a case of causality
-here, because in fact this transition has to
+That is, this is a case of causality here,
+because in fact this transition has to
 
 00:11:48,149 --> 00:11:50,730
 fire before this
@@ -626,12 +626,12 @@ transition can ever fire.
 That would be a necessary condition.
 
 00:11:52,869 --> 00:11:54,619
-This transition would be
-a necessary condition for this.
+This transition would be a
+necessary condition for this.
 
 00:11:54,619 --> 00:11:57,850
-And we also find this
-analogously in the other philosophers.
+And we also find this analogously
+in the other philosophers.
 
 00:11:57,850 --> 00:12:01,550
 What we also have
@@ -646,8 +646,8 @@ There, the three transitions were actually activated
 concurrently, and there were also no other
 
 00:12:11,680 --> 00:12:15,620
-activated transitions than this one,
-this one, and this one.
+activated transitions than this
+one, this one, and this one.
 
 00:12:15,620 --> 00:12:20,730
 There one can convince oneself that all other
@@ -658,8 +658,8 @@ least one precondition
 place is not occupied.
 
 00:12:23,759 --> 00:12:29,860
-But now after executing the first
-transition and then activating these transitions, it
+But now after executing the first transition
+and then activating these transitions, it
 
 00:12:29,860 --> 00:12:31,670
 turns out that there is a conflict.
@@ -669,55 +669,55 @@ There is another transition, which
 is now also activated or still
 
 00:12:36,690 --> 00:12:43,999
-activated, but now is in
-conflict with another transition here, namely
+activated, but now is in conflict
+with another transition here, namely
 
 00:12:43,999 --> 00:12:46,009
 this transition.
 
 00:12:46,009 --> 00:12:51,069
-This transition is also activated, because
-it finds a token in both of
+This transition is also activated,
+because it finds a token in both of
 
 00:12:51,069 --> 00:12:52,589
 its precondition places.
 
 00:12:52,589 --> 00:12:58,339
-But it overlaps in its preconditions in
-a conflictual way with the now here
+But it overlaps in its preconditions
+in a conflictual way with the now here
 
 00:12:58,339 --> 00:12:59,749
 also activated transition.
 
 00:12:59,749 --> 00:13:05,240
-For both this transition and this
-marked transition would like to consume this
+For both this transition and this marked
+transition would like to consume this
 
 00:13:05,240 --> 00:13:06,240
 token.
 
 00:13:06,240 --> 00:13:10,449
-And since there is only one token there,
-they cannot do that simultaneously, in parallel, concurrently.
+And since there is only one token there, they cannot
+do that simultaneously, in parallel, concurrently.
 
 00:13:10,449 --> 00:13:15,470
-Both, so both this Transition and this
-Transition are activated, but they are not activated
+Both, so both this Transition and this Transition
+are activated, but they are not activated
 
 00:13:15,470 --> 00:13:16,470
 concurrently.
 
 00:13:16,470 --> 00:13:21,369
-So they're in conflict, precisely with respect
-to this fork 1, because that's the
+So they're in conflict, precisely with
+respect to this fork 1, because that's the
 
 00:13:21,369 --> 00:13:26,980
 left fork for philosopher 1 and
 the right fork for philosopher 2.
 
 00:13:26,980 --> 00:13:35,160
-Let's assume that of the
-two conflicting transitions, only the
+Let's assume that of the two
+conflicting transitions, only the
 
 00:13:35,160 --> 00:13:39,470
 one assigned to philosopher 1 fires.
@@ -731,12 +731,12 @@ P1 has now also taken
 the left fork and can eat.
 
 00:13:46,010 --> 00:13:53,069
-F1 is empty, because Fork 1, the left
-fork of philosopher 1, is taken from the table.
+F1 is empty, because Fork 1, the left fork
+of philosopher 1, is taken from the table.
 
 00:13:53,069 --> 00:13:58,220
-And now this place is marked
-here, where philosopher 1 is eating.
+And now this place is marked here,
+where philosopher 1 is eating.
 
 00:13:58,220 --> 00:14:07,110
 And after that, philosopher 1 could
@@ -747,8 +747,8 @@ In parallel, philosopher 3 could have reached
 for the fork here, while philosopher 2
 
 00:14:12,410 --> 00:14:16,600
-could have done nothing at all
-(because this place is not occupied here).
+could have done nothing at all (because
+this place is not occupied here).
 
 00:14:16,600 --> 00:14:21,800
 Now, for example, philosopher 1 would trigger
@@ -793,30 +793,30 @@ We already know intuitively
 that this is the case.
 
 00:15:08,439 --> 00:15:13,569
-Because we had discussed at the beginning
-that actually P1, P2, P3 could behave unfavorably,
+Because we had discussed at the beginning that
+actually P1, P2, P3 could behave unfavorably,
 
 00:15:13,569 --> 00:15:19,029
-and thus the system could ultimately
-end up in a dead state.
+and thus the system could
+ultimately end up in a dead state.
 
 00:15:19,029 --> 00:15:20,379
 How could that happen?
 
 00:15:20,379 --> 00:15:26,410
-For example, if at the beginning, when
-here these three transitions were activated concurrently,
+For example, if at the beginning, when here these
+three transitions were activated concurrently,
 
 00:15:26,410 --> 00:15:30,570
-the philosophers also just
-greedily execute each this transition.
+the philosophers also just greedily
+execute each this transition.
 
 00:15:30,570 --> 00:15:33,489
 So they reach for their right fork.
 
 00:15:33,489 --> 00:15:41,020
-These three concurrently activated transitions could
-fire all three in any
+These three concurrently activated
+transitions could fire all three in any
 
 00:15:41,020 --> 00:15:42,020
 order.
@@ -826,41 +826,41 @@ This is shown here
 as happening in parallel.
 
 00:15:46,739 --> 00:15:50,949
-In reality, it happens in any
-order that this, this and this transition
+In reality, it happens in any order
+that this, this and this transition
 
 00:15:50,949 --> 00:15:51,949
 fire.
 
 00:15:51,949 --> 00:15:56,679
-Then we would be in this situation, where just
-now all three philosophers are waiting for their left
+Then we would be in this situation, where just now
+all three philosophers are waiting for their left
 
 00:15:56,679 --> 00:16:06,869
-fork in each case, but will
-never get the opportunity to actually
+fork in each case, but will never
+get the opportunity to actually
 
 00:16:06,869 --> 00:16:08,350
 be able to progress accordingly.
 
 00:16:08,350 --> 00:16:12,029
-Now all of them have
-taken their respective right fork.
+Now all of them have taken
+their respective right fork.
 
 00:16:12,029 --> 00:16:19,239
 And none of them has the slightest
 chance to reach for the left fork.
 
 00:16:19,239 --> 00:16:24,889
-But it will also never happen that
-one of the three now releases his grabbed
+But it will also never happen that one
+of the three now releases his grabbed
 
 00:16:24,889 --> 00:16:26,110
 right fork.
 
 00:16:26,110 --> 00:16:29,000
-For this, for example, P1
-would have to fire this transition.
+For this, for example, P1 would
+have to fire this transition.
 
 00:16:29,000 --> 00:16:31,899
 For this, this transition would
@@ -875,20 +875,20 @@ And it can't get there either,
 because the same is true for P2.
 
 00:16:38,410 --> 00:16:45,490
-P2 can put back the right fork
-only after the left fork could be grabbed,
+P2 can put back the right fork only
+after the left fork could be grabbed,
 
 00:16:45,490 --> 00:16:49,989
-but it can't do this, because
-this would require this token here, etc.
+but it can't do this, because this
+would require this token here, etc.
 
 00:16:49,989 --> 00:16:54,299
 Then we have indeed
 reached a deadlock here.
 
 00:16:54,299 --> 00:16:59,299
-This also tells us that the
-model is certainly not strongly live.
+This also tells us that the model
+is certainly not strongly live.
 
 00:16:59,299 --> 00:17:00,410
 One might still ask:
@@ -914,8 +914,8 @@ is possible to execute once.
 Not in every pass.
 
 00:17:15,040 --> 00:17:21,820
-But from the initial marking every
-transition is in principle also executable at least once
+But from the initial marking every transition
+is in principle also executable at least once
 
 00:17:21,820 --> 00:17:27,839
 by suitable choices
@@ -925,8 +925,8 @@ of sequences and steps.
 Boundedness is also present here.
 
 00:17:29,420 --> 00:17:33,440
-I didn't try all cases
-(we didn't build a reachability graph
+I didn't try all cases (we
+didn't build a reachability graph
 
 00:17:33,440 --> 00:17:37,900
 and didn't explore all situations),
@@ -940,12 +940,12 @@ Because at the beginning there was at most one
 token per place, there are also no arrows with
 
 00:17:46,810 --> 00:17:51,440
-any weights > 1, so these
-syntactic properties for 1-safety are already fulfilled.
+any weights > 1, so these syntactic
+properties for 1-safety are already fulfilled.
 
 00:17:51,440 --> 00:17:56,390
-And if you run the model, you
-will also find that there is never more
+And if you run the model, you will
+also find that there is never more
 
 00:17:56,390 --> 00:17:57,690
 than one token on any place.

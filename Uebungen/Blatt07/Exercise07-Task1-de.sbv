@@ -1,29 +1,30 @@
 0:00:00.240,0:00:04.450
-In dieser Aufgabe geht es nochmal um die Modellierung
-mit Petrinetzen.
+In dieser Aufgabe geht es nochmal
+um die Modellierung mit Petrinetzen.
 
 0:00:04.450,0:00:09.870
-Hier ist ein Szenario beschrieben, das wir
-modellieren sollen.
+Hier ist ein Szenario beschrieben,
+das wir modellieren sollen.
 
 0:00:09.870,0:00:14.190
-Und das mit Hilfe des hier unten angegebenen
-Diagramms.
+Und das mit Hilfe des hier
+unten angegebenen Diagramms.
 
 0:00:14.190,0:00:21.060
-Das sollen wir vervollständigen auf Basis
-dieses Szenarios hier oben.
+Das sollen wir vervollständigen auf
+Basis dieses Szenarios hier oben.
 
 0:00:21.060,0:00:27.240
 Ich lese das Szenario nochmal vor, damit allen
 klar ist, was da drinsteht, und werde dann
 
 0:00:27.240,0:00:29.730
-Schritt für Schritt dieses Diagramm vervollständigen.
+Schritt für Schritt dieses
+Diagramm vervollständigen.
 
 0:00:29.730,0:00:34.410
-Modellieren Sie eine Supermarktkasse mit Kunde(n)
-und Kassierer.
+Modellieren Sie eine Supermarktkasse
+mit Kunde(n) und Kassierer.
 
 0:00:34.410,0:00:40.020
 Das Band der Kasse hat Platz für die Waren
@@ -36,15 +37,15 @@ Kunde explizit modelliert.
 Die Kasse hat also insgesamt zwei Plätze.
 
 0:00:44.380,0:00:49.760
-Wenn ein Kunde seine Waren aufs Band legt,
-belegen diese zunächst Platz 1.
+Wenn ein Kunde seine Waren aufs Band
+legt, belegen diese zunächst Platz 1.
 
 0:00:49.760,0:00:53.050
 Waren in Platz 1 werden zu Platz 2 verschoben.
 
 0:00:53.050,0:00:57.470
-Der Kassierer kassiert schließlich die Waren,
-die sich in Platz 2 befinden.
+Der Kassierer kassiert schließlich die
+Waren, die sich in Platz 2 befinden.
 
 0:00:57.470,0:01:02.860
 Der Kunde (bzw. Kassierer) kann sich entweder
@@ -77,12 +78,12 @@ Ich habe dafür das Diagramm ein bisschen
 vergrößert, damit ich da reinschreiben kann.
 
 0:01:32.509,0:01:36.060
-Hier sehen wir, dass schon ein paar Sachen
-eingetragen sind.
+Hier sehen wir, dass schon ein
+paar Sachen eingetragen sind.
 
 0:01:36.060,0:01:41.159
-Wir haben einen Kunden, weil explizit nur
-ein Kunde modelliert wird.
+Wir haben einen Kunden, weil explizit
+nur ein Kunde modelliert wird.
 
 0:01:41.159,0:01:49.749
 Wir haben den Kassierer und
@@ -99,8 +100,8 @@ Hier stehen schon Eigenschaften, die noch
 ergänzt werden müssen, da einige noch fehlen.
 
 0:02:09.210,0:02:16.020
-Wir haben beim Kunden die Eigenschaft wartend,
-genauso beim Kassierer.
+Wir haben beim Kunden die Eigenschaft
+wartend, genauso beim Kassierer.
 
 0:02:16.020,0:02:21.330
 Und hier stand ja, der Kunde (bzw. Kassierer)
@@ -110,16 +111,16 @@ kann sich entweder im Zustand „beschäftigt“
 oder „wartend“ befinden.
 
 0:02:22.670,0:02:29.510
-Das bedeutet, wir haben hier schon einmal
-wartend, es fehlt uns also der Zustand „beschäftigt“.
+Das bedeutet, wir haben hier schon einmal wartend,
+es fehlt uns also der Zustand „beschäftigt“.
 
 0:02:29.510,0:02:36.780
 Weil dieser ganze Teil hier mit Kunde wartend
 zusammengehört, schreiben wir hier unten
 
 0:02:36.780,0:02:46.010
-hin, dass der Kunde natürlich auch beschäftigt
-sein kann.
+hin, dass der Kunde natürlich
+auch beschäftigt sein kann.
 
 0:02:46.010,0:02:47.300
 Gleiches gilt für den Kassierer.
@@ -129,19 +130,19 @@ Der Kassierer kann wartend oder beschäftigt
 sein.
 
 0:02:53.940,0:03:02.110
-Dann gucken wir uns jetzt noch die Plätze
-an, Platz 1 und Platz 2.
+Dann gucken wir uns jetzt noch die
+Plätze an, Platz 1 und Platz 2.
 
 0:03:02.110,0:03:04.490
 Da fehlt ja auch jeweils was.
 
 0:03:04.490,0:03:08.150
-Da gibt uns das hier beziehungsweise das hier
-den Hinweis.
+Da gibt uns das hier beziehungsweise
+das hier den Hinweis.
 
 0:03:08.150,0:03:15.040
-Der Platz kann entweder leer sein oder das
-Gegenteil, also voll sein.
+Der Platz kann entweder leer sein
+oder das Gegenteil, also voll sein.
 
 0:03:15.040,0:03:22.010
 Und genau andersherum, hier haben wir den
@@ -151,27 +152,27 @@ Zustand voll schon aufgeschrieben, aber hier
 oben fehlt noch was.
 
 0:03:23.180,0:03:27.550
-Das Gegenteil von voll bedeutet, dass der
-Platz nur leer sein kann.
+Das Gegenteil von voll bedeutet,
+dass der Platz nur leer sein kann.
 
 0:03:27.550,0:03:35.390
-Die fehlenden Namen haben wir damit ergänzt,
-wie in der Aufgabe gefordert.
+Die fehlenden Namen haben wir damit
+ergänzt, wie in der Aufgabe gefordert.
 
 0:03:35.390,0:03:41.420
-Es fehlen jetzt noch die Pfeile, die zu den
-Transitionen führen.
+Es fehlen jetzt noch die Pfeile,
+die zu den Transitionen führen.
 
 0:03:41.420,0:03:44.960
 Da schauen wir uns das mal von vorne an.
 
 0:03:44.960,0:03:49.720
-Wir haben einen Kunden, der wartet, und einen
-Platz 1, der leer ist.
+Wir haben einen Kunden, der wartet,
+und einen Platz 1, der leer ist.
 
 0:03:49.720,0:03:54.560
-Wenn der Platz 1 leer ist, kann der wartende
-Kunde diesen Platz belegen.
+Wenn der Platz 1 leer ist, kann der
+wartende Kunde diesen Platz belegen.
 
 0:03:54.560,0:04:01.970
 Es stand ja auch in der Aufgabe, wenn ein
@@ -196,8 +197,8 @@ während er die Waren ablegt oder sie abgelegt
 hat, zu beschäftigt.
 
 0:04:49.590,0:04:57.100
-Jetzt ist der Kunde beschäftigt und der Platz
-1 ist voll.
+Jetzt ist der Kunde beschäftigt
+und der Platz 1 ist voll.
 
 0:04:57.100,0:05:10.569
 Im Text stand, dass, wenn der Kunde beschäftigt
@@ -211,45 +212,45 @@ Transition feuern lassen, die den oder die
 nächsten Kunden wieder warten lässt.
 
 0:05:21.139,0:05:26.509
-Jetzt ist Platz 1 voll, weil wir ja den Pfeil
-dahin gemacht haben.
+Jetzt ist Platz 1 voll, weil wir
+ja den Pfeil dahin gemacht haben.
 
 0:05:26.509,0:05:30.919
-Und oben stand, Waren in Platz 1 werden zu
-Platz 2 verschoben.
+Und oben stand, Waren in Platz
+1 werden zu Platz 2 verschoben.
 
 0:05:30.919,0:05:33.789
-Das bedeutet, Platz 1 wird leer und Platz
-2 wird voll.
+Das bedeutet, Platz 1 wird
+leer und Platz 2 wird voll.
 
 0:05:33.789,0:05:35.110
 Wie erreichen wir das?
 
 0:05:35.110,0:05:39.580
-Wir führen hier einen Pfeil von voll über
-die Transition.
+Wir führen hier einen Pfeil
+von voll über die Transition.
 
 0:05:39.580,0:05:48.009
-Zuerst machen wir den Platz 2 voll, wir legen
-also das von diesem Platz da rüber.
+Zuerst machen wir den Platz 2 voll, wir
+legen also das von diesem Platz da rüber.
 
 0:05:48.009,0:05:51.419
 Somit wird Platz 2 voll.
 
 0:05:51.419,0:05:57.460
-Jetzt haben wir noch den Zustand, dass Platz
-1 ja dann wieder leer werden muss.
+Jetzt haben wir noch den Zustand, dass
+Platz 1 ja dann wieder leer werden muss.
 
 0:05:57.460,0:06:00.800
 Da ist ja gedanklich noch kein Token drin.
 
 0:06:00.800,0:06:04.979
-Das bedeutet, wir machen da jetzt einen Pfeil
-hin.
+Das bedeutet, wir machen
+da jetzt einen Pfeil hin.
 
 0:06:04.979,0:06:11.009
-Platz 1 wird von voll zu leer und der Platz
-2 wird voll.
+Platz 1 wird von voll zu leer
+und der Platz 2 wird voll.
 
 0:06:11.009,0:06:15.490
 Jetzt ist der Platz 2 aber hier noch leer,
@@ -284,16 +285,16 @@ der Kassierer kann nur kassieren, wenn er
 wartend ist und Platz 2 des Bandes Ware enthält.
 
 0:06:51.400,0:06:57.720
-Der Platz 2 enthält Ware, sodass der Kassierer
-abkassieren kann.
+Der Platz 2 enthält Ware, sodass
+der Kassierer abkassieren kann.
 
 0:06:57.720,0:07:04.710
-Wenn er abkassiert, geht natürlich der Platz
-2 von voll wieder zu leer.
+Wenn er abkassiert, geht natürlich
+der Platz 2 von voll wieder zu leer.
 
 0:07:04.710,0:07:10.020
-Und der Kassierer ist wartend, der wechselt
-aber von wartend zu beschäftigt.
+Und der Kassierer ist wartend, der
+wechselt aber von wartend zu beschäftigt.
 
 0:07:10.020,0:07:21.060
 Während er kassiert und das hier sozusagen

@@ -1,10 +1,10 @@
 0:00:00.110,0:00:04.820
-In dieser Aufgabe geht es um die Eigenschaften
-von Petrinetzen.
+In dieser Aufgabe geht es um die
+Eigenschaften von Petrinetzen.
 
 0:00:04.820,0:00:08.810
-Wir haben hier nämlich zwei Erreichbarkeitsgraphen
-gegeben.
+Wir haben hier nämlich zwei
+Erreichbarkeitsgraphen gegeben.
 
 0:00:08.810,0:00:14.329
 Und die Aufgabe lese ich jetzt einmal vor.
@@ -14,8 +14,8 @@ Wichtig ist noch, dass das der Erreichbarkeitsgraph
 N1 ist und das der Erreichbarkeitsgraph N2.
 
 0:00:20.000,0:00:26.570
-Der Text lautet: Weiterhin ist bekannt, dass
-in N1 und N2 jeweils insgesamt vier Transitionen
+Der Text lautet: Weiterhin ist bekannt, dass in
+N1 und N2 jeweils insgesamt vier Transitionen
 
 0:00:26.570,0:00:27.660
 vorkommen.
@@ -28,15 +28,15 @@ die beiden Petrinetze, indem Sie folgende
 Tabellen ausfüllen.
 
 0:00:33.470,0:00:38.500
-Und geben Sie jeweils Gründe anhand der Erreichbarkeitsgraphen
-an.
+Und geben Sie jeweils Gründe anhand
+der Erreichbarkeitsgraphen an.
 
 0:00:38.500,0:00:41.260
 Antworten ohne Begründung werden ignoriert.
 
 0:00:41.260,0:00:44.600
-Also, ganz wichtig ist bei diesen Aufgaben
-immer, Begründungen anzugeben.
+Also, ganz wichtig ist bei diesen
+Aufgaben immer, Begründungen anzugeben.
 
 0:00:44.600,0:00:48.711
 Wir sollen die Eigenschaften stark lebendig,
@@ -53,8 +53,8 @@ vorbereitet, in der ich das jetzt Schritt
 für Schritt mit euch durchgehen werde.
 
 0:00:55.860,0:01:02.680
-Wir wollen uns zuerst bei N1 die starke Lebendigkeit
-angucken.
+Wir wollen uns zuerst bei N1 die
+starke Lebendigkeit angucken.
 
 0:01:02.680,0:01:08.680
 In den Vorlesungsfolien stand, dass starke
@@ -86,12 +86,12 @@ t1 kommen.
 Über t1 kommen wir zu t2.
 
 0:01:41.650,0:01:45.880
-Wir kommen von dem Knoten aus direkt zu t3
-und über den Knoten direkt zu t4.
+Wir kommen von dem Knoten aus direkt zu
+t3 und über den Knoten direkt zu t4.
 
 0:01:45.880,0:01:50.090
-Also werden alle vier Transitionen von dem
-Knoten aus erreicht.
+Also werden alle vier Transitionen
+von dem Knoten aus erreicht.
 
 0:01:50.090,0:01:52.220
 Jetzt ist das relativ einfach.
@@ -105,8 +105,8 @@ Das bedeutet, weil wir von dem wissen, dass
 da alle Transitionen erreicht werden, werden
 
 0:02:05.049,0:02:10.860
-wir, wenn man von dem aus den erreichen kann, auch
-automatisch alle Transitionen erreichen.
+wir, wenn man von dem aus den erreichen kann,
+auch automatisch alle Transitionen erreichen.
 
 0:02:10.860,0:02:15.030
 Gleiches gilt für den Knoten hier unten.
@@ -115,8 +115,8 @@ Gleiches gilt für den Knoten hier unten.
 Der Knoten ist erreichbar zu dem Knoten.
 
 0:02:17.180,0:02:22.510
-Bei dem Knoten wissen wir jetzt, dass er zu
-dem erreichbar ist und dass er halt alle Transitionen
+Bei dem Knoten wissen wir jetzt, dass er zu dem
+erreichbar ist und dass er halt alle Transitionen
 
 0:02:22.510,0:02:23.510
 erreicht.
@@ -145,8 +145,8 @@ Dieser Knoten ist sogar direkt über eine
 Transition mit diesem Knoten verbunden.
 
 0:02:39.860,0:02:44.520
-Also können auch hier alle Transitionen geschaltet
-werden.
+Also können auch hier alle
+Transitionen geschaltet werden.
 
 0:02:44.520,0:02:46.110
 Und zuletzt schauen wir den Knoten an.
@@ -158,8 +158,8 @@ Der ist mit dem hier verbunden.
 Der ist mit dem hier verbunden.
 
 0:02:48.739,0:02:54.970
-Also sind auch wieder alle Transitionen, nämlich
-t1, t2, t3 und t4 erreichbar.
+Also sind auch wieder alle Transitionen,
+nämlich t1, t2, t3 und t4 erreichbar.
 
 0:02:54.970,0:02:58.940
 Das bedeutet, das Petrinetz ist stark lebendig.
@@ -186,20 +186,20 @@ t3 auch noch t2 schalten kann.
 Damit ist die Aufgabe auch schon begründet.
 
 0:04:14.959,0:04:17.489
-Dann gucken wir uns als Nächstes die Eigenschaft
-schwache Lebendigkeit an.
+Dann gucken wir uns als Nächstes die
+Eigenschaft schwache Lebendigkeit an.
 
 0:04:17.489,0:04:20.479
-Dafür gehe ich auch nochmal auf die Folien
-zurück.
+Dafür gehe ich auch nochmal
+auf die Folien zurück.
 
 0:04:20.479,0:04:26.719
 Hier sehen wir, dass schwache Lebendigkeit
 bezüglich des Erreichbarkeitsgraphen bedeutet,
 
 0:04:26.719,0:04:29.879
-dass es für jede Transition t mindestens
-einen Übergang gibt.
+dass es für jede Transition t
+mindestens einen Übergang gibt.
 
 0:04:29.879,0:04:34.270
 Das bedeutet, dass wir gucken, ob es für
@@ -224,19 +224,19 @@ Es gibt für Transition 4 einen Übergang.
 Sogar hier unten gibt es das.
 
 0:04:45.710,0:04:48.680
-Es gibt also für jede Transition mindestens
-einen Übergang.
+Es gibt also für jede Transition
+mindestens einen Übergang.
 
 0:04:48.680,0:04:51.129
 Mit anderen Worten ist es auch schwach lebendig.
 
 0:04:51.129,0:04:59.309
-Haken wir das ab und schreiben wieder eine
-Begründung dazu.
+Haken wir das ab und schreiben
+wieder eine Begründung dazu.
 
 0:04:59.309,0:05:12.729
-Da alle vier Transitionen t1, t2, t3, t4 im
-Graph vorkommen.
+Da alle vier Transitionen t1,
+t2, t3, t4 im Graph vorkommen.
 
 0:05:12.729,0:05:21.409
 Alternativ hätte man auch damit begründen
@@ -254,8 +254,8 @@ erstens vorhanden sein und zweitens auch richtig
 sein.
 
 0:05:30.809,0:05:33.029
-Also, wenn man es so begründet, ist man auf
-der sicheren Seite.
+Also, wenn man es so begründet,
+ist man auf der sicheren Seite.
 
 0:05:33.029,0:05:36.009
 Das andere ist natürlich auch sicher, wenn
@@ -279,8 +279,8 @@ dies, dass es einen Knoten gibt, von dem aus
 es keinen Übergang gibt.
 
 0:05:51.419,0:05:55.160
-Allerdings gilt das für Verklemmungen und
-nicht für Verklemmungsfreiheit.
+Allerdings gilt das für Verklemmungen
+und nicht für Verklemmungsfreiheit.
 
 0:05:55.160,0:06:01.050
 Das bedeutet, Verklemmungsfreiheit wäre das
@@ -290,8 +290,8 @@ Gegenteil davon, also dass es keinen Knoten
 gibt, von dem es keinen Übergang gibt.
 
 0:06:02.649,0:06:06.449
-Mit anderen Worten sollte es von jedem Knoten
-aus einen Übergang geben.
+Mit anderen Worten sollte es von
+jedem Knoten aus einen Übergang geben.
 
 0:06:06.449,0:06:09.210
 Also gucken wir uns das an.
@@ -318,8 +318,8 @@ Dieser Knoten hat auch einen Übergang.
 Und dieser Knoten hat sogar zwei Übergänge.
 
 0:06:22.710,0:06:25.819
-Mit anderen Worten hat jeder Knoten einen
-Übergang.
+Mit anderen Worten hat
+jeder Knoten einen Übergang.
 
 0:06:25.819,0:06:28.360
 Also ist das verklemmungsfrei.
@@ -328,12 +328,12 @@ Also ist das verklemmungsfrei.
 Wir schreiben wieder die Begründung auf.
 
 0:06:33.699,0:06:52.520
-Da es im Graph keinen Knoten ohne ausgehende
-Kante gibt.
+Da es im Graph keinen Knoten
+ohne ausgehende Kante gibt.
 
 0:06:52.520,0:06:57.741
-Eine Argumentationsweise wäre auch gewesen,
-dass es stark lebendig ist.
+Eine Argumentationsweise wäre auch
+gewesen, dass es stark lebendig ist.
 
 0:06:57.741,0:07:02.520
 Allerdings ist da auch wieder wichtig, dass
@@ -350,8 +350,8 @@ an.
 Dafür gehe ich auch noch einmal in die Folien.
 
 0:07:09.959,0:07:14.899
-Allerdings muss ich da ein bisschen weiter
-nach unten gehen in den Folien, nämlich hierhin.
+Allerdings muss ich da ein bisschen weiter nach
+unten gehen in den Folien, nämlich hierhin.
 
 0:07:14.899,0:07:22.509
 Man nennt ein Petrinetz 1-sicher, wenn für
@@ -402,11 +402,12 @@ Und wenn wir uns das nochmal genauer anschauen,
 dann gehen zum Beispiel hier bei t1 zwei Marken,
 
 0:08:17.240,0:08:28.249
-nämlich eine von s2 und eine von s3 runter
-und kommen in s1 rein.
+nämlich eine von s2 und eine von
+s3 runter und kommen in s1 rein.
 
 0:08:28.249,0:08:38.260
-Das bedeutet, hier ist das Gewicht auch schon größer.
+Das bedeutet, hier ist das
+Gewicht auch schon größer.
 
 0:08:38.260,0:08:42.669
 Das bedeutet, sicher ist das Petrinetz nicht.
@@ -415,12 +416,12 @@ Das bedeutet, sicher ist das Petrinetz nicht.
 Wir schreiben wieder eine Begründung hin.
 
 0:08:48.459,0:09:14.839
-Da zum Beispiel
-Knoten (0,0,2) einen Wert größer eins enthält.
+Da zum Beispiel Knoten (0,0,2)
+einen Wert größer eins enthält.
 
 0:09:14.839,0:09:18.790
-Und zuletzt gucken wir uns noch die Beschränktheit
-an.
+Und zuletzt gucken wir uns
+noch die Beschränktheit an.
 
 0:09:18.790,0:09:23.079
 Die Beschränktheit ist auch auf dieser Folie.
@@ -434,8 +435,8 @@ s gilt, dass die Markierung kleiner gleich
 c ist.
 
 0:09:32.300,0:09:38.759
-Wenn wir uns das jetzt hier mal angucken,
-geben die einzelnen Knoten ja sozusagen einzelne
+Wenn wir uns das jetzt hier mal angucken, geben
+die einzelnen Knoten ja sozusagen einzelne
 
 0:09:38.759,0:09:40.019
 Markierungen an.
@@ -445,12 +446,12 @@ Und da sehen wir, wenn wir genau hingucken,
 dass nirgendwo die Zahl an einer einzelnen
 
 0:09:45.620,0:09:52.220
-Stelle größer ist als zwei und auch nirgendwo
-ins Unendliche geht.
+Stelle größer ist als zwei und
+auch nirgendwo ins Unendliche geht.
 
 0:09:52.220,0:09:59.130
-Das bedeutet, wir können sagen, dieses Petrinetz
-ist beschränkt.
+Das bedeutet, wir können sagen,
+dieses Petrinetz ist beschränkt.
 
 0:09:59.130,0:10:08.269
 Das gleiche wie vorhin.
@@ -470,8 +471,8 @@ endlich ist.
 Jetzt gucken wir uns noch N2 an.
 
 0:10:40.230,0:10:47.680
-Das machen wir jetzt ein bisschen flotter,
-weil wir nicht mehr immer auf die Folien gucken
+Das machen wir jetzt ein bisschen flotter, weil
+wir nicht mehr immer auf die Folien gucken
 
 0:10:47.680,0:10:48.680
 müssen.
@@ -487,8 +488,8 @@ Knoten aus immer alle Transitionen einmal
 erreicht werden können müssen.
 
 0:11:03.209,0:11:07.581
-Jetzt können wir das auch Schritt für Schritt
-hier durchgehen.
+Jetzt können wir das auch Schritt
+für Schritt hier durchgehen.
 
 0:11:07.581,0:11:13.430
 Von dem Startknoten aus wird t1 erreicht,
@@ -498,8 +499,8 @@ t2 erreicht, t3 erreicht und t4 erreicht.
 Es wäre also alles möglich.
 
 0:11:14.740,0:11:18.680
-Wenn man aber genauer hinguckt, sieht man,
-dass hier oben ein Knoten ist, von dem überhaupt
+Wenn man aber genauer hinguckt, sieht man, dass
+hier oben ein Knoten ist, von dem überhaupt
 
 0:11:18.680,0:11:20.120
 kein Übergang weggeht.
@@ -512,8 +513,8 @@ Transition möglich, weder t1, t2, t3 noch
 t4 erreichbar.
 
 0:11:25.310,0:11:29.800
-Das bedeutet, dass das Netz nicht stark lebendig
-ist.
+Das bedeutet, dass das Netz
+nicht stark lebendig ist.
 
 0:11:29.800,0:11:42.741
 Und wir können dazu auch wieder eine Begründung
@@ -534,8 +535,8 @@ nicht verklemmungsfrei ist. Allerdings werden
 wir das ja gleich erst nachweisen.
 
 0:12:28.589,0:12:34.050
-Und da ist auch wieder die Voraussetzung,
-dass erstens die Begründung für die Verklemmungsfreiheit
+Und da ist auch wieder die Voraussetzung, dass
+erstens die Begründung für die Verklemmungsfreiheit
 
 0:12:34.050,0:12:39.819
 da ist und zweitens diese auch begründet
@@ -549,12 +550,12 @@ an, also die Frage, ob alle Transitionen einmal
 in dem Graphen vorkommen.
 
 0:12:47.899,0:12:51.540
-t1 kommt vor, t2 kommt vor, t3 kommt vor und
-t4 kommt vor.
+t1 kommt vor, t2 kommt vor,
+t3 kommt vor und t4 kommt vor.
 
 0:12:51.540,0:12:54.339
-Da es nur vier Transitionen sind, kommen alle
-vor.
+Da es nur vier Transitionen
+sind, kommen alle vor.
 
 0:12:54.339,0:12:58.439
 Also ist das Petrinetz schwach lebendig.
@@ -564,8 +565,8 @@ Wir schreiben wieder eine Begründung dazu
 auf.
 
 0:13:05.769,0:13:23.200
-Da alle vier Transitionen t1, t2, t3, t4 im
-Graph vorkommen.
+Da alle vier Transitionen t1,
+t2, t3, t4 im Graph vorkommen.
 
 0:13:23.200,0:13:25.070
 Gucken wir uns die Verklemmungsfreiheit an.
@@ -585,8 +586,8 @@ Knoten aus ein Übergang erreichbar sein muss.
 Das ist in diesem Fall nicht gegeben.
 
 0:13:41.999,0:13:48.029
-Das bedeutet, von diesem Knoten aus kann
-man keinen Übergang erreichen.
+Das bedeutet, von diesem Knoten aus
+kann man keinen Übergang erreichen.
 
 0:13:48.029,0:13:52.990
 Das bedeutet, an dieser Stelle können wir
@@ -600,8 +601,8 @@ Und wir schreiben wieder eine Begründung
 dazu.
 
 0:13:57.040,0:14:16.540
-Es ist nicht verklemmungsfrei, da von (0,2,0,0)
-keine Kante wegführt.
+Es ist nicht verklemmungsfrei, da
+von (0,2,0,0) keine Kante wegführt.
 
 0:14:16.540,0:14:21.720
 Gucken wir uns die Sicherheit an.
@@ -610,8 +611,8 @@ Gucken wir uns die Sicherheit an.
 Ist das Petrinetz sicher?
 
 0:14:26.379,0:14:30.569
-Da sehen wir auch schon auf den ersten Blick,
-dass dies nicht der Fall ist.
+Da sehen wir auch schon auf den ersten
+Blick, dass dies nicht der Fall ist.
 
 0:14:30.569,0:14:41.759
 Erstens kommen hier Zweien vor und bestimmt
@@ -627,26 +628,27 @@ Hier ist das nicht der Fall.
 Da muss ich einmal gucken.
 
 0:14:51.579,0:14:57.670
-Jedenfalls sieht man schon anhand der Knoten,
-dass sie schon größer als zwei sind.
+Jedenfalls sieht man schon anhand der
+Knoten, dass sie schon größer als zwei sind.
 
 0:14:57.670,0:15:06.069
-Das bedeutet, es ist nicht 1-sicher, weil an
-einigen Stellen zwei Marken liegen.
+Das bedeutet, es ist nicht 1-sicher, weil
+an einigen Stellen zwei Marken liegen.
 
 0:15:06.069,0:15:11.940
 Wir schreiben wieder eine Begründung.
 
 0:15:11.940,0:15:32.240
-Da zum Beispiel der Startknoten einen Wert
-größer als eins enthält.
+Da zum Beispiel der Startknoten
+einen Wert größer als eins enthält.
 
 0:15:32.240,0:15:37.730
-Das können wir uns auch noch einmal genauer angucken.
+Das können wir uns auch noch
+einmal genauer angucken.
 
 0:15:37.730,0:15:41.350
-Der Startknoten ist ja der Knoten, auf den
-ein Pfeil zeigt.
+Der Startknoten ist ja der
+Knoten, auf den ein Pfeil zeigt.
 
 0:15:41.350,0:15:42.510
 Das ist also der hier.
@@ -655,8 +657,8 @@ Das ist also der hier.
 Der ist ja schon größer als zwei.
 
 0:15:43.649,0:15:47.990
-Und dann gucken wir uns zuletzt noch die Beschränktheit
-an.
+Und dann gucken wir uns zuletzt
+noch die Beschränktheit an.
 
 0:15:47.990,0:15:49.350
 Ist der Graph beschränkt?
@@ -673,12 +675,12 @@ beschränkte Anzahl an höchsten Marken an
 einer Stelle.
 
 0:16:05.689,0:16:08.459
-Und das ist hier in diesem Fall auch wieder
-die zwei.
+Und das ist hier in diesem
+Fall auch wieder die zwei.
 
 0:16:08.459,0:16:11.959
-Das bedeutet, wir können sagen, das Petrinetz
-ist auch beschränkt.
+Das bedeutet, wir können sagen,
+das Petrinetz ist auch beschränkt.
 
 0:16:11.959,0:16:17.449
 Und wir geben noch eine Begründung dazu an.

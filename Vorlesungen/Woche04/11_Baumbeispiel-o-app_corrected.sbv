@@ -1,6 +1,6 @@
 0:00:00.000,0:00:09.000
-So, I'd like to go through
-some examples again here in the app.
+So, I'd like to go through some
+examples again here in the app.
 
 0:00:09.510,0:00:17.760
 For simplicity, I'll just use diagrams
@@ -32,8 +32,8 @@ How can we represent the relationship
 between objects, especially since it is
 
 0:00:53.190,0:01:01.350
-a tree structure (where here nodes
-have such successors), by relationships between classes?
+a tree structure (where here nodes have such
+successors), by relationships between classes?
 
 0:01:02.760,0:01:03.690
 You can see a tree here on the left.
@@ -45,16 +45,16 @@ So nodes that have successors.
 It is supposed to be a binary tree.
 
 0:01:09.360,0:01:13.560
-That is, nodes can have at most
-two successors, as is the case here.
+That is, nodes can have at most two
+successors, as is the case here.
 
 0:01:13.560,0:01:18.510
-As usual in computer
-science, the trees grow downwards.
+As usual in computer science,
+the trees grow downwards.
 
 0:01:18.510,0:01:23.430
-And you can see here in each
-case at the connections also the direction.
+And you can see here in each case at
+the connections also the direction.
 
 0:01:23.430,0:01:26.730
 So this should be the direction
@@ -78,8 +78,8 @@ That means every object of this class
 will have a whole number as value.
 
 0:01:46.965,0:01:51.000
-These are then exactly the numbers that can
-be seen on the left in the tree.
+These are then exactly the numbers that
+can be seen on the left in the tree.
 
 0:01:51.000,0:01:57.000
 And the parent-child relationship
@@ -113,12 +113,12 @@ direction, so from where to where we go
 (namely, from parent to child in the tree).
 
 0:02:24.550,0:02:31.600
-And the multiplicities we set according to
-the character on the one hand that
+And the multiplicities we set according
+to the character on the one hand that
 
 0:02:31.600,0:02:37.930
-each node can have at most one predecessor
-node (the three has the two as predecessor node,
+each node can have at most one predecessor node
+(the three has the two as predecessor node,
 
 0:02:37.930,0:02:42.550
 for example), but there are also nodes, namely
@@ -152,12 +152,12 @@ And 1 should also be allowed, because for
 example the three here has only one successor.
 
 0:03:11.200,0:03:16.840
-It is interesting from the structural point of
-view that such a self-association is quite allowed here.
+It is interesting from the structural point of view
+that such a self-association is quite allowed here.
 
 0:03:16.840,0:03:20.290
-When we drew diagrams with
-the inheritance arrows last week,
+When we drew diagrams with the
+inheritance arrows last week,
 
 0:03:20.290,0:03:24.700
 there was exactly such a
@@ -178,8 +178,8 @@ not a contradiction.
 Nodes can be associated with the same class.
 
 0:03:32.470,0:03:41.380
-It doesn't mean that in the
-modeled tree, a node points to itself.
+It doesn't mean that in the modeled
+tree, a node points to itself.
 
 0:03:41.380,0:03:45.820
 So that here is this association
@@ -194,8 +194,8 @@ It means that a node can
 point to one or more nodes.
 
 0:03:52.480,0:03:57.490
-By all means other nodes, that
-is, other instances of the Node class.
+By all means other nodes, that is,
+other instances of the Node class.
 
 0:03:59.530,0:04:02.500
 That would be a first way to model here.
@@ -208,12 +208,12 @@ be designed quite differently.
 Namely, it would be due to the goal
 
 0:04:09.280,0:04:14.890
-that we might actually want to be
-able to genuinely distinguish inner nodes (i.e.,
+that we might actually want to be able to
+genuinely distinguish inner nodes (i.e.,
 
 0:04:14.890,0:04:18.900
-nodes of this type) from such
-leaf nodes that have no successors.
+nodes of this type) from such leaf
+nodes that have no successors.
 
 0:04:18.900,0:04:21.150
 Suppose we don't want
@@ -223,12 +223,12 @@ to have a class "Node"
 that stands for every node in this tree.
 
 0:04:24.720,0:04:29.640
-Rather, we want to model the
-inner nodes and the outer nodes separately.
+Rather, we want to model the inner
+nodes and the outer nodes separately.
 
 0:04:29.640,0:04:34.290
-Perhaps because we want them to
-somehow perform different functionalities in addition.
+Perhaps because we want them to somehow
+perform different functionalities in addition.
 
 0:04:34.290,0:04:37.740
 In addition to the fact
@@ -243,8 +243,8 @@ On the other hand, of course, they have something in
 common, which is the fact that they carry this value.
 
 0:04:48.300,0:04:54.390
-So maybe it makes sense to have
-that as two subclasses of a more general
+So maybe it makes sense to have that
+as two subclasses of a more general
 
 0:04:54.390,0:05:00.900
 class, which is for nodes (independent of
@@ -280,8 +280,8 @@ is that then no instances can
 be created of this class itself.
 
 0:05:31.762,0:05:35.100
-So there will be no
-instances of this abstract class "Node".
+So there will be no instances
+of this abstract class "Node".
 
 0:05:35.100,0:05:39.720
 That's just there to serve
@@ -295,8 +295,8 @@ of inner and leaf nodes.
 And those can be instantiated.
 
 0:05:46.170,0:05:49.860
-So every node that will ever exist
-will be either an inner node or a leaf node.
+So every node that will ever exist will
+be either an inner node or a leaf node.
 
 0:05:49.860,0:05:54.120
 Because you've marked
@@ -307,20 +307,20 @@ and therefore no objects
 can be formed from it.
 
 0:05:57.030,0:06:03.510
-So that's sort of
-the function of this annotation.
+So that's sort of the
+function of this annotation.
 
 0:06:03.510,0:06:08.370
 Then the value attribute is
 located here in this superclass.
 
 0:06:08.370,0:06:12.330
-Therefore it does not have to be
-mentioned again with the leaf and inner nodes.
+Therefore it does not have to be mentioned
+again with the leaf and inner nodes.
 
 0:06:12.330,0:06:16.770
-Because they then inherit
-it via these two connections.
+Because they then inherit it
+via these two connections.
 
 0:06:18.720,0:06:21.930
 And then it is relevant that there is of
@@ -346,8 +346,8 @@ There is no such thing.
 That exists only from the inner nodes.
 
 0:06:41.580,0:06:49.080
-Then here the situation looks
-similar as before, with one difference:
+Then here the situation looks similar
+as before, with one difference:
 
 0:06:49.860,0:06:51.390
 There is no longer 0..2, but 1..2.
@@ -372,16 +372,16 @@ because a node could also be a leaf
 node and then have no successor at all.
 
 0:07:08.400,0:07:17.250
-Now that we say that the leaf nodes
-are explicitly modeled as a class of their
+Now that we say that the leaf nodes are
+explicitly modeled as a class of their
 
 0:07:17.250,0:07:23.250
 own (and that they have no successors, we
 can see from the fact that there is no
 
 0:07:23.250,0:07:27.960
-association), we can say again for the inner
-nodes that they always have at least one successor.
+association), we can say again for the inner nodes
+that they always have at least one successor.
 
 0:07:27.960,0:07:29.160
 That's why there is a 1 at the top.
@@ -394,12 +394,12 @@ has zero to one predecessor.
 Therefore here still stands 0..1.
 
 0:07:40.800,0:07:47.790
-And then it is still interesting
-that this association of inner nodes does
+And then it is still interesting that
+this association of inner nodes does
 
 0:07:47.790,0:07:52.290
-not go back somehow to
-inner nodes (is no self-association).
+not go back somehow to inner
+nodes (is no self-association).
 
 0:07:52.290,0:07:56.040
 But it leads to nodes generally.
@@ -432,8 +432,8 @@ variation (changed in a
 different way) might be as follows.
 
 0:08:40.820,0:08:50.420
-Let's say we'd like to know
-about the nodes and the links, respectively,
+Let's say we'd like to know about the
+nodes and the links, respectively,
 
 0:08:50.420,0:08:54.260
 what the left and right successors are.
@@ -450,12 +450,12 @@ expressed, recorded) what the
 right and left successor are.
 
 0:09:10.640,0:09:15.050
-Then we can't just have one
-association that somehow stands for successor.
+Then we can't just have one association
+that somehow stands for successor.
 
 0:09:15.050,0:09:19.370
-But we must have separate
-associations for left and right successors.
+But we must have separate associations
+for left and right successors.
 
 0:09:20.270,0:09:23.210
 For example, it might look like this.
@@ -464,8 +464,8 @@ For example, it might look like this.
 So we go back to a single Node class.
 
 0:09:26.540,0:09:32.120
-That carries a value as an
-attribute, and then there are two associations:
+That carries a value as an attribute,
+and then there are two associations:
 
 0:09:32.120,0:09:36.800
 one for left successor,
@@ -475,15 +475,15 @@ one for right successor.
 Of course, the value is no longer
 
 0:09:41.600,0:09:46.370
-0..2, but 0..1, because there can be at
-most one left and at most one right successor.
+0..2, but 0..1, because there can be at most
+one left and at most one right successor.
 
 0:09:46.370,0:09:48.860
 Vice versa, here again 0..1 is written,
 
 0:09:49.430,0:09:56.990
-because each node can also have at
-most one predecessor, whose left successor it is.
+because each node can also have at most one
+predecessor, whose left successor it is.
 
 0:09:56.990,0:09:59.960
 We see here also:
@@ -497,8 +497,8 @@ for example, that there are two different
 associations for the same classes "Node" and "Node".
 
 0:10:12.290,0:10:16.790
-Which was not allowed with
-the inheritance arrows like this.
+Which was not allowed with the
+inheritance arrows like this.
 
 0:10:16.790,0:10:17.060
 In fact:
@@ -511,8 +511,8 @@ diagrams we build from them
 have fewer structural constraints.
 
 0:10:21.740,0:10:27.290
-They can have cycles, for
-example, or self-cycles, and multiple
+They can have cycles, for example,
+or self-cycles, and multiple
 
 0:10:27.290,0:10:29.000
 associations between the same partners.
@@ -536,16 +536,16 @@ expressed, but also what each
 left and right successor are.
 
 0:10:56.360,0:11:02.360
-Then there's this formulated question
-of whether there's anything problematic here.
+Then there's this formulated question of
+whether there's anything problematic here.
 
 0:11:02.360,0:11:08.270
 I had discussed that in
 the past here as possibly
 
 0:11:08.270,0:11:12.320
-problematic about this modeling as
-it is now designed here:
+problematic about this modeling
+as it is now designed here:
 
 0:11:13.610,0:11:20.060
 By splitting the child relationship into
@@ -583,8 +583,8 @@ this, as well as with this modeling.
 Here that would have prevented this 0..1.
 
 0:12:13.100,0:12:17.900
-There is at most one
-predecessor and not one predecessor whose
+There is at most one predecessor
+and not one predecessor whose
 
 0:12:17.900,0:12:21.350
 left, and one predecessor
@@ -612,27 +612,27 @@ the left and one on the right.
 You can't express that you can have one
 
 0:12:42.200,0:12:45.620
-on the left or one on the
-right, but overall you could have only one.
+on the left or one on the right,
+but overall you could have only one.
 
 0:12:45.620,0:12:47.930
-Associations simply don't allow
-us to express that.
+Associations simply don't
+allow us to express that.
 
 0:12:47.930,0:12:55.670
 We would need compositions for that because
 they have more constraints on object instances.
 
 0:12:56.450,0:13:01.160
-We'll deal with that in a later
-video, probably right in the next one actually.
+We'll deal with that in a later video,
+probably right in the next one actually.
 
 0:13:01.160,0:13:02.810
 Not on this example.
 
 0:13:02.810,0:13:11.450
-But what is special about
-composition and goes beyond the constraints
+But what is special about composition
+and goes beyond the constraints
 
 0:13:11.450,0:13:14.060
 expressed by multiplicities.

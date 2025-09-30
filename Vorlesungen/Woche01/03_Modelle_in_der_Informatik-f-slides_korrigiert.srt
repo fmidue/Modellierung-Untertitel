@@ -115,8 +115,8 @@ Niedrigere Kosten durch Vermeidung
 von Reparaturen oder Irrwegen,
 
 00:02:15,650 --> 00:02:24,320
-die man dann wiederholen muss, oder Umwege
-durch Neuentwicklung ersetzen muss.
+die man dann wiederholen muss, oder
+Umwege durch Neuentwicklung ersetzen muss.
 
 00:02:24,320 --> 00:02:26,510
 Bessere Dokumentation durch Modelle.
@@ -126,8 +126,8 @@ Im Idealfall auch eine Erhöhung
 der Wiederverwendbarkeit.
 
 00:02:29,870 --> 00:02:34,040
-Das heißt nicht, dass in der Informatik
-immer modelliert wird.
+Das heißt nicht, dass in der
+Informatik immer modelliert wird.
 
 00:02:34,040 --> 00:02:37,190
 Also, es gibt einige Sondersituationen.
@@ -219,8 +219,8 @@ Modelle auch die Rolle haben, als Vorlage
 zum Zweck mehrfacher Realisierung zu dienen.
 
 00:04:23,410 --> 00:04:28,870
-Also, ein Modell wird erstellt, um dann,
-wenn man große Stückzahlen etwa von einem Motor
+Also, ein Modell wird erstellt, um dann, wenn
+man große Stückzahlen etwa von einem Motor
 
 00:04:30,520 --> 00:04:34,360
 herzustellen gedenkt, sich jeweils
@@ -245,7 +245,8 @@ Also, das Modell ist nicht dafür
 da, mehrmals umgesetzt zu werden.
 
 00:04:54,430 --> 00:04:59,410
-Anders als in vielen anderen Bereichen, wo etwa in
+Anders als in vielen anderen
+Bereichen, wo etwa in
 
 00:04:59,410 --> 00:05:03,940
 der Architektur in einem Wolkenkratzer 50
@@ -302,8 +303,8 @@ Das werden Sie, wenn Sie die
 Softwaretechnik-Vorlesung bei
 
 00:05:54,640 --> 00:05:58,900
-Professorin Heisel noch hören werden,
-dort sicherlich vertiefen.
+Professorin Heisel noch hören
+werden, dort sicherlich vertiefen.
 
 00:05:58,900 --> 00:06:02,170
 Zum Beispiel im Wasserfallmodell, das
@@ -399,8 +400,8 @@ Es gibt diverse andere Möglichkeiten,
 Softwareentwicklung zu betreiben.
 
 00:07:40,720 --> 00:07:48,880
-Ein anderes Verfahren ist iterativer, wo
-also die Phasen nicht ein einzelnes Mal wasserfallartig
+Ein anderes Verfahren ist iterativer, wo also die
+Phasen nicht ein einzelnes Mal wasserfallartig
 
 00:07:48,880 --> 00:07:51,910
 durchgeführt werden, sondern immer wieder
@@ -457,7 +458,8 @@ eine vereinfachende Darstellung,
 an der sich orientiert werden kann.
 
 00:08:54,940 --> 00:08:58,840
-Wir werden solche Modelle nicht weiter betrachten,
+Wir werden solche Modelle
+nicht weiter betrachten,
 
 00:08:58,840 --> 00:09:04,000
 denn Vorgehensmodelle sind auch Teil der
@@ -490,8 +492,8 @@ wo oft sehr viele verschiedene
 Teilhaberinnen an einem Projekt arbeiten.
 
 00:09:39,100 --> 00:09:42,640
-Wo es gar nicht irgendwie zentralisiert
-modelliert werden könnte,
+Wo es gar nicht irgendwie
+zentralisiert modelliert werden könnte,
 
 00:09:42,640 --> 00:09:47,140
 sondern ganz andere Effekte ins Spiel kommen.
@@ -520,8 +522,8 @@ für die Softwaretechnik-Vorlesung.
 Für uns ist relevant:
 
 00:10:09,730 --> 00:10:13,300
-Es besteht Bedarf für Modelle in verschiedenen
-Phasen der Softwareentwicklung.
+Es besteht Bedarf für Modelle in
+verschiedenen Phasen der Softwareentwicklung.
 
 00:10:13,300 --> 00:10:20,230
 Und deswegen wird diese Vorlesung sich eben
@@ -621,7 +623,8 @@ Das wird nicht im Vordergrund
 stehen, nicht den Hauptteil
 
 00:11:51,700 --> 00:11:56,230
-der Vorlesung ausmachen, aber es wird aufscheinen.
+der Vorlesung ausmachen,
+aber es wird aufscheinen.
 
 00:11:56,230 --> 00:11:58,960
 Und natürlich in anderem Kontext,
@@ -635,7 +638,8 @@ Stimmt denn das Modell mit der
 späteren Implementierung überein?
 
 00:12:08,980 --> 00:12:10,705
-Auch das wird für uns hier nicht so relevant sein.
+Auch das wird für uns hier
+nicht so relevant sein.
 
 00:12:10,705 --> 00:12:13,090
 Da müsste man eben testen
@@ -729,7 +733,8 @@ Also ein Graph, der die Beziehungen zwischen
 Teilkomponenten eines Systems beschreiben soll,
 
 00:13:55,450 --> 00:13:57,130
-wäre dann für die statische Modellierung relevant.
+wäre dann für die statische
+Modellierung relevant.
 
 00:13:57,130 --> 00:14:02,200
 Oder für dynamische Modellierung, dass
@@ -900,11 +905,12 @@ im letzten Video gesagt,
 ist eher eine semi-formale Modellierungsweise.
 
 00:16:57,580 --> 00:17:07,360
-Natürlich ist auch das, trotz dieses Umfangs,
-keinesfalls umfassend alles,
+Natürlich ist auch das, trotz dieses
+Umfangs, keinesfalls umfassend alles,
 
 00:17:07,360 --> 00:17:09,370
-was man in der Informatik an Modellen machen kann.
+was man in der Informatik
+an Modellen machen kann.
 
 00:17:09,370 --> 00:17:12,490
 Die Lehrveranstaltung ist nur ein Auszug.
@@ -929,7 +935,8 @@ der mathematischen Formelsprache orientieren.
 Das werden wir weniger tun.
 
 00:17:31,660 --> 00:17:35,050
-Ein bisschen bei der Beschreibung von Operationen,
+Ein bisschen bei der
+Beschreibung von Operationen,
 
 00:17:35,050 --> 00:17:41,110
 aber keinesfalls in dem Ausmaß, wie man das
@@ -940,8 +947,8 @@ Zum Abschluss dieses Videos
 noch eine kurze Wortwolke.
 
 00:17:48,370 --> 00:17:53,080
-Sie gibt ein bisschen einen guten
-Überblick über den Inhalt der Lehrveranstaltung.
+Sie gibt ein bisschen einen guten Überblick
+über den Inhalt der Lehrveranstaltung.
 
 00:17:53,080 --> 00:17:59,710
 Das sind einfach etliche Begriffe, die

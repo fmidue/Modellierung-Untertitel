@@ -19,12 +19,12 @@ diagram, we see those methods only within
 the Picture class. So, that is why we could
 
 0:00:50.579,0:01:04.570
-simply say, of course, all objects of class
-Picture could call those methods.
+simply say, of course, all objects of
+class Picture could call those methods.
 
 0:01:04.570,0:01:10.891
-But, as
-the Picture class is an abstract class, there
+But, as the Picture class
+is an abstract class, there
 
 0:01:10.891,0:01:21.509
 are no such objects. That's why we could consider
@@ -75,8 +75,8 @@ here. And this function always takes a Picture
 and then more arguments and returns a Picture.
 
 0:03:06.459,0:03:13.540
-In our case, we've got the object-oriented view
-of this now. And we've got a Picture
+In our case, we've got the object-oriented
+view of this now. And we've got a Picture
 
 0:03:13.540,0:03:24.360
 already. On the specific Picture, we call
@@ -99,8 +99,8 @@ for scale, we, of course, would scale within
 the x and y direction. So, we require an x
 
 0:04:01.159,0:04:10.020
-and a y value. This is the
-type that we've got from here already, which
+and a y value. This is the type that
+we've got from here already, which
 
 0:04:10.020,0:04:18.019
 we require here as a type for our arguments.
@@ -139,8 +139,8 @@ methods here by looking at the functions that
 we had in the vector graphics example that
 
 0:05:27.819,0:05:32.750
-was introduced. And "color" changes the
-color of the Picture and therefore requires a
+was introduced. And "color" changes the color
+of the Picture and therefore requires a
 
 0:05:32.750,0:05:45.430
 color. Let's call it C. And then we've got
@@ -171,8 +171,8 @@ same definition for our method. So, the type
 is the same, and we can also keep the same
 
 0:06:45.819,0:06:53.910
-names for our parameters. Because in this
-case, we have also got an x and
+names for our parameters. Because in
+this case, we have also got an x and
 
 0:06:53.910,0:07:05.370
 a y-direction for moving. Now extent is an
@@ -283,8 +283,8 @@ then multiple Paths can share the same Point.
 So, when you're thinking about composition
 
 0:11:05.910,0:11:15.200
-and aggregation, you can also think about
-what you want to have in your specific problem.
+and aggregation, you can also think about what
+you want to have in your specific problem.
 
 0:11:15.200,0:11:23.500
 Both ways are possible for Path. When we have
@@ -295,5 +295,5 @@ And every Path is on just that single Point.
 When we have aggregation, then Points may
 
 0:11:32.930,0:11:40.270
-be shared between different Paths. That's
-it for this task.
+be shared between different
+Paths. That's it for this task.

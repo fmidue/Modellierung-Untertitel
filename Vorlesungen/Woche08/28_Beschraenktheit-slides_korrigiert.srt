@@ -79,7 +79,8 @@ Und da gibt es zunächst einen Begriff,
 der nennt sich "sicher" oder "1-sicher".
 
 00:01:34,830 --> 00:01:39,210
-Und der ist zunächst hier auf der Folie definiert.
+Und der ist zunächst hier
+auf der Folie definiert.
 
 00:01:39,210 --> 00:01:44,610
 Also ein Petrinetz ist
@@ -102,8 +103,8 @@ hier nehmen wir ja nur natürliche
 Zahlen inklusive der Null an).
 
 00:02:08,750 --> 00:02:11,960
-Also wenn hier steht "kleiner-gleich 1",
-kann das nur heißen: entweder null oder eins.
+Also wenn hier steht "kleiner-gleich 1", kann
+das nur heißen: entweder null oder eins.
 
 00:02:11,960 --> 00:02:18,650
 Entweder es gibt gar keinen Übergang, keinen
@@ -225,10 +226,12 @@ dass da in der Petrinetz-Darstellung niemals
 eine Zahl größer 1 als Gewicht steht,
 
 00:04:25,400 --> 00:04:27,890
-als auch die Eigenschaft, dass jede erreichbare Markierung (also jeder
+als auch die Eigenschaft, dass jede
+erreichbare Markierung (also jeder
 
 00:04:27,890 --> 00:04:32,720
-Knoten im Erreichbarkeitsgraphen) nichts größer als 1 enthält.
+Knoten im Erreichbarkeitsgraphen)
+nichts größer als 1 enthält.
 
 00:04:32,720 --> 00:04:34,940
 Das ist tatsächlich eine
@@ -300,14 +303,16 @@ Die insbesondere nicht schon in dem
 Petrinetz selber die Gewichte beschränken.
 
 00:05:59,660 --> 00:06:03,020
-Sondern die nur beschränken, dass die Markierungen
+Sondern die nur beschränken,
+dass die Markierungen
 
 00:06:03,020 --> 00:06:07,010
 im Erreichbarkeitsgraphen durch eine
 Konstante beschränkt sein müssen.
 
 00:06:07,010 --> 00:06:08,600
-Und das muss nicht unbedingt die Konstante 1 sein.
+Und das muss nicht unbedingt
+die Konstante 1 sein.
 
 00:06:08,600 --> 00:06:11,780
 Also ein Petrinetz heißt "beschränkt",
@@ -358,7 +363,8 @@ den Erreichbarkeitsgraphen und die
 erreichbaren Markierungen Bezug genommen.
 
 00:06:53,020 --> 00:06:54,550
-Und das kann man im Erreichbarkeitsgraphen feststellen.
+Und das kann man im
+Erreichbarkeitsgraphen feststellen.
 
 00:06:57,370 --> 00:06:59,740
 Und dazu gibt es das Gegenteil,
@@ -381,8 +387,8 @@ Also "beschränkt" und "unbeschränkt" sind
 tatsächlich das genaue Gegenteil zueinander.
 
 00:07:25,780 --> 00:07:30,910
-Während "1-sicher" nicht irgendwie das Gegenteil
-einer der beiden Eigenschaften ist.
+Während "1-sicher" nicht irgendwie das
+Gegenteil einer der beiden Eigenschaften ist.
 
 00:07:34,810 --> 00:07:36,250
 Wie könnte man das testen?
@@ -453,7 +459,8 @@ Für die Konstante c = 3 gilt hier, dass nie ein
 Knoten auftritt, der einen Eintrag größer 3 hat.
 
 00:08:41,260 --> 00:08:44,840
-Natürlich wäre das hier auch für c = 15 zutreffend.
+Natürlich wäre das hier
+auch für c = 15 zutreffend.
 
 00:08:44,840 --> 00:08:46,850
 Aber 3 ist die interessante Konstante hier.
@@ -512,8 +519,8 @@ ist das Petrinetz auch nicht 1-sicher.
 Wenn die erste Eigenschaft erfüllt
 
 00:09:42,800 --> 00:09:47,510
-ist, dass man bei den Vor- und Nachgewichten keine
-Zahlen größer 1 findet, dann ist die Frage:
+ist, dass man bei den Vor- und Nachgewichten
+keine Zahlen größer 1 findet, dann ist die Frage:
 
 00:09:47,510 --> 00:09:49,460
 Ist das Petrinetz denn beschränkt?
@@ -548,7 +555,8 @@ Wir haben beschränkte, aber nicht
 Nämlich das, was gerade hier steht.
 
 00:10:25,630 --> 00:10:29,110
-Und wir haben einige 1-sichere Petrinetze gesehen.
+Und wir haben einige
+1-sichere Petrinetze gesehen.
 
 00:10:29,110 --> 00:10:33,910
 Was wir noch nicht gesehen haben, was

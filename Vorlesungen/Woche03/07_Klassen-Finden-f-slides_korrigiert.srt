@@ -220,7 +220,8 @@ Das wäre dann schon eher eine Frage
 für die dynamische Modellierung.
 
 00:03:50,110 --> 00:03:51,310
-In welchen Zuständen können sich Objekte befinden?
+In welchen Zuständen können
+sich Objekte befinden?
 
 00:03:51,310 --> 00:03:53,170
 Das hat sicherlich auch
@@ -353,7 +354,8 @@ ein neues Mitglied in der
 Bibliothek zu registrieren.
 
 00:06:09,790 --> 00:06:12,580
-Und das wurde hier so tabellarisch aufgeschrieben.
+Und das wurde hier so
+tabellarisch aufgeschrieben.
 
 00:06:12,580 --> 00:06:21,230
 Jeweils was sozusagen extern aus
@@ -415,7 +417,8 @@ die eine Rolle spielen, um den
 Zustand des Systems zu beschreiben?
 
 00:07:22,550 --> 00:07:24,320
-Natürlich wäre das nur einer von vielen Use Cases.
+Natürlich wäre das nur
+einer von vielen Use Cases.
 
 00:07:24,320 --> 00:07:28,700
 Es gäbe noch weitere, um neue Bücher hinzuzufügen,
@@ -482,7 +485,8 @@ Und herausfinden, was davon denn
 tatsächlich eine Klasse sein sollte.
 
 00:08:36,340 --> 00:08:38,650
-Was man festhalten muss in seinem Klassendiagramm.
+Was man festhalten muss
+in seinem Klassendiagramm.
 
 00:08:40,630 --> 00:08:43,480
 Und da kann man erst mal
@@ -511,7 +515,8 @@ Der Customer hat einen Namen, eine
 Adresse und eine Telefonnummer.
 
 00:09:10,390 --> 00:09:16,420
-Das sind scheinbar Eigenschaften dieses Customers.
+Das sind scheinbar
+Eigenschaften dieses Customers.
 
 00:09:16,420 --> 00:09:23,350
 Und Customer ist jetzt schon so ein Begriff,
@@ -582,8 +587,8 @@ User, Customer, Member bezieht sich alles
 auf die gleichen Akteure in dem System.
 
 00:10:20,440 --> 00:10:25,060
-Also keine neuen Klassen, sondern Customer
-und User werden auch die Klasse Member später.
+Also keine neuen Klassen, sondern Customer und
+User werden auch die Klasse Member später.
 
 00:10:28,500 --> 00:10:35,370
 Application-Form, das ist eigentlich
@@ -617,7 +622,8 @@ als Klasse eingeführt werden muss.
 Dann gibt es den Request.
 
 00:10:58,110 --> 00:11:04,800
-Das war etwas, was der Angestellte auslösen sollte
+Das war etwas, was der
+Angestellte auslösen sollte
 
 00:11:04,800 --> 00:11:09,150
 (wie durch Auswahl eines Menüs,
@@ -763,7 +769,8 @@ Und Member wäre eine Klasse, von der
 es dann verschiedene Instanzen gibt:
 
 00:14:14,770 --> 00:14:17,140
-die konkreten einzelnen Mitglieder der Bibliothek.
+die konkreten einzelnen
+Mitglieder der Bibliothek.
 
 00:14:17,140 --> 00:14:23,170
 Wie könnte man das darstellen, irgendwie eine
@@ -777,8 +784,8 @@ es nicht abstrakt nur System zu nennen.
 Es geht ja um die Bibliothek.
 
 00:14:29,470 --> 00:14:33,010
-Also, das System könnte eine Klasse
-sein, die Bibliotheksklasse.
+Also, das System könnte eine
+Klasse sein, die Bibliotheksklasse.
 
 00:14:33,010 --> 00:14:35,920
 Und dann gibt es die Klasse Member.
@@ -826,7 +833,8 @@ oder ob es reicht, dafür ein Objekt zu haben.
 Es gibt den Begriff der Singleton Class.
 
 00:15:14,110 --> 00:15:17,410
-Das sind wiederum Pattern, die zum Beispiel in der
+Das sind wiederum Pattern,
+die zum Beispiel in der
 
 00:15:17,410 --> 00:15:21,070
 Fortgeschrittene-Programmiertechniken-Vorlesung
@@ -863,7 +871,8 @@ Das ist eine Zahl, das ist eine Adresse,
 hier vielleicht nur eine Zeichenkette, etc.
 
 00:15:55,135 --> 00:15:58,360
-Das ist auf dieser Ebene des Klassendiagramms noch
+Das ist auf dieser Ebene
+des Klassendiagramms noch
 
 00:15:58,360 --> 00:16:03,730
 nicht genau festgehalten, wäre aber auch
@@ -934,7 +943,8 @@ Das wäre ein nächster Schritt beim
 Entwurf eines Klassendiagramms.
 
 00:17:18,390 --> 00:17:22,350
-Und da kann man noch weitere Verfeinerungen machen.
+Und da kann man noch weitere
+Verfeinerungen machen.
 
 00:17:22,350 --> 00:17:24,510
 Also, diese Beziehungen hier,
@@ -959,7 +969,8 @@ Wo man einerseits hier noch weitere
 Klassen eingeführt hat, nämlich einen
 
 00:17:41,370 --> 00:17:44,550
-expliziten Mitgliedskatalog und einen Buchkatalog.
+expliziten Mitgliedskatalog
+und einen Buchkatalog.
 
 00:17:45,870 --> 00:17:50,820
 Aber vor allem sind hier die Verbindungen
@@ -992,8 +1003,8 @@ Hier sind verschiedene Namen für die Verbindungen
 und auch verschiedene Darstellungsweisen.
 
 00:18:24,480 --> 00:18:28,950
-Hier wurde zum Beispiel entschieden,
-dass das, was hier vorher noch als Klasse
+Hier wurde zum Beispiel entschieden, dass
+das, was hier vorher noch als Klasse
 
 00:18:28,950 --> 00:18:30,930
 für den Ausleihvorgang stand,

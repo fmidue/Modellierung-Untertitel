@@ -56,7 +56,8 @@ Also zunächst erstmal nur ganz
 intuitiv, wie ist hier die Syntax?
 
 00:01:08,160 --> 00:01:10,290
-Ein Unterschied zu flachen Zustandsdiagrammen ist,
+Ein Unterschied zu flachen
+Zustandsdiagrammen ist,
 
 00:01:10,290 --> 00:01:14,610
 dass es ganz spezielle Arten
@@ -111,7 +112,8 @@ haben, ist der Startzustand.
 Der sieht so aus wie in Aktivitätsdiagrammen.
 
 00:01:57,660 --> 00:01:59,160
-Das ist das, was in einem flachen Zustandsdiagramm
+Das ist das, was in einem
+flachen Zustandsdiagramm
 
 00:01:59,160 --> 00:02:02,070
 eben einfach nur der eingehende
@@ -137,8 +139,8 @@ Also, was sind die Elemente hier?
 Zustände: das sind diese Darstellungen.
 
 00:02:22,710 --> 00:02:28,140
-Der Startzustand wird dargestellt durch
-diesen speziellen Startknoten,
+Der Startzustand wird dargestellt
+durch diesen speziellen Startknoten,
 
 00:02:28,140 --> 00:02:31,050
 der so aussieht wie bei Aktivitätsdiagrammen.
@@ -155,8 +157,8 @@ dürfen keine Kanten hineinführen,
 und auch nur genau eine heraus.
 
 00:02:47,040 --> 00:02:48,750
-Das ist schonmal anders
-als bei Aktivitätsdiagrammen,
+Das ist schonmal anders als
+bei Aktivitätsdiagrammen,
 
 00:02:48,750 --> 00:02:54,960
 wo von diesem Element mehrere
@@ -179,8 +181,8 @@ wie in Aktivitätsdiagrammen,
 mit dieser Art Darstellung notiert.
 
 00:03:16,770 --> 00:03:20,460
-Das Flussende in Entsprechung zu
-Aktivitätsdiagrammen gibt es in UML-Zustandsdiagrammen nicht,
+Das Flussende in Entsprechung zu Aktivitätsdiagrammen
+gibt es in UML-Zustandsdiagrammen nicht,
 
 00:03:20,460 --> 00:03:23,850
 aber diese Art, den Endzustand zu bezeichnen.
@@ -226,8 +228,8 @@ ein System modellieren wollen,
 das gar nicht terminieren soll.
 
 00:04:04,470 --> 00:04:06,540
-Die Uhr soll immer weiterlaufen und
-nicht irgendwo stehen bleiben.
+Die Uhr soll immer weiterlaufen
+und nicht irgendwo stehen bleiben.
 
 00:04:06,540 --> 00:04:08,370
 Deswegen gibt es dort auch keinen Endzustand.
@@ -247,8 +249,8 @@ Die nennt man auch Transitionen.
 Das ist zum einen etwas ungünstig,
 
 00:04:22,620 --> 00:04:25,890
-weil in Petrinetzen Transitionen
-ja auch schon eine Bedeutung haben.
+weil in Petrinetzen Transitionen ja
+auch schon eine Bedeutung haben.
 
 00:04:25,890 --> 00:04:28,710
 Aber es ist nun einmal so, dass
@@ -274,8 +276,8 @@ Aber eine Transition ist
 einfach hier dieser Pfeil,
 
 00:04:51,480 --> 00:04:55,050
-und nicht irgendein Extraknoten,
-wie das in Petrinetzen der Fall war.
+und nicht irgendein Extraknoten, wie
+das in Petrinetzen der Fall war.
 
 00:04:55,050 --> 00:04:59,430
 Im Allgemeinen steht auf
@@ -376,8 +378,8 @@ Teil des Zustandsdiagramms
 als Effekt ausgelöst wurde.
 
 00:06:30,550 --> 00:06:39,340
-Das werden wir nach ein paar
-weiteren Betrachtungen und Folien sehen.
+Das werden wir nach ein paar weiteren
+Betrachtungen und Folien sehen.
 
 00:06:39,340 --> 00:06:44,200
 An dem Pfeil vom Startzustand wird
@@ -395,8 +397,8 @@ Bei Pfeilen zum Endzustand könnte es
 durchaus auch solche Beschriftungen geben.
 
 00:06:53,320 --> 00:06:59,320
-Aber in erster Linie werden wir das beim Übergang
-zwischen anderen Zuständen haben.
+Aber in erster Linie werden wir das beim
+Übergang zwischen anderen Zuständen haben.
 
 00:07:06,310 --> 00:07:13,130
 Dann gibt es noch Aktionen oder
@@ -428,8 +430,8 @@ beim Verweilen in dem Zustand,
 oder beim Verlassen ausgelöst werden sollen.
 
 00:07:41,540 --> 00:07:44,300
-Das werden wir gleich für das
-Piepen in unserem Zustandsdiagramm nutzen.
+Das werden wir gleich für das Piepen
+in unserem Zustandsdiagramm nutzen.
 
 00:07:44,300 --> 00:07:51,590
 Prinzipiell ist das im Aufbau so wie
@@ -444,7 +446,8 @@ Der Trigger ist hier jeweils
 etwas, das beschreibt,
 
 00:07:58,820 --> 00:08:03,260
-zu welchem Zeitpunkt dieser Effekt eintreten soll.
+zu welchem Zeitpunkt dieser
+Effekt eintreten soll.
 
 00:08:03,260 --> 00:08:07,899
 Nämlich eben genau dieses: beim Eintritt,
@@ -494,7 +497,8 @@ Aber das wäre prinzipiell möglich.
 Wir werden eher nur einfache Effekte nutzen.
 
 00:08:56,300 --> 00:09:01,250
-Insbesondere in unserem Beispiel haben wir gesagt:
+Insbesondere in unserem
+Beispiel haben wir gesagt:
 
 00:09:01,250 --> 00:09:04,010
 Es soll ein Tonsignal geben, und
@@ -518,8 +522,8 @@ vielleicht separat noch beschrieben ist.
 Da geben wir hier keine weitere Struktur vor.
 
 00:09:17,270 --> 00:09:21,610
-Und diese Aktivität soll immer dann ausgelöst werden,
-wenn der Zustand 0 betreten wird.
+Und diese Aktivität soll immer dann ausgelöst
+werden, wenn der Zustand 0 betreten wird.
 
 00:09:21,610 --> 00:09:24,400
 Was vorher einfach nur dieser
@@ -532,8 +536,8 @@ Rechteck mit abgerundeten Ecken, wo 0 drinstand,
 das kriegt jetzt eine innere Struktur.
 
 00:09:28,300 --> 00:09:31,720
-Das wird eben so notiert, dass es nach
-wie vor die Beschriftung 0 gibt,
+Das wird eben so notiert, dass es
+nach wie vor die Beschriftung 0 gibt,
 
 00:09:31,720 --> 00:09:35,050
 und auch die äußere Form immer noch dieses
@@ -547,7 +551,8 @@ Wann immer der Zustand betreten wird, soll der
 Effekt oder die Aktivität Tonsignal ausgelöst werden.
 
 00:09:45,640 --> 00:09:49,840
-Das heißt, wir brauchen eine Syntax für diese Zustände.
+Das heißt, wir brauchen eine
+Syntax für diese Zustände.
 
 00:09:49,840 --> 00:09:53,650
 Anders als bei flachen Zustandsdiagrammen, wo
@@ -575,8 +580,8 @@ Statt 60 solch einfacher Zustände für die Minuten
 gäbe es dann noch 24 Zustände für die Stunden.
 
 00:10:22,990 --> 00:10:25,510
-Jetzt soll das natürlich allerdings
-parallel stattfinden.
+Jetzt soll das natürlich
+allerdings parallel stattfinden.
 
 00:10:25,510 --> 00:10:29,950
 Wir wollen, dass es zu jedem Zeitpunkt
@@ -595,8 +600,8 @@ Dann wäre jeder Zustand ein Paar
 aus einer Minute und einer Stunde.
 
 00:10:41,680 --> 00:10:46,420
-Das ist genau das, was auch
-in so einer Anzeige hier sichtbar ist.
+Das ist genau das, was auch in so
+einer Anzeige hier sichtbar ist.
 
 00:10:46,420 --> 00:10:50,320
 Hier steht letztlich ein Paar aus einer
@@ -610,12 +615,12 @@ solcher Paare, die man bilden kann.
 Das wollen wir nicht.
 
 00:10:55,840 --> 00:11:02,260
-Stattdessen wollen wir explizit ausdrücken,
-dass Minuten- und Stundenanzeige parallel laufen.
+Stattdessen wollen wir explizit ausdrücken, dass
+Minuten- und Stundenanzeige parallel laufen.
 
 00:11:02,260 --> 00:11:05,530
-Das heißt, die Uhr ist immer in
-zwei solchen Zuständen,
+Das heißt, die Uhr ist immer
+in zwei solchen Zuständen,
 
 00:11:05,530 --> 00:11:08,080
 ohne dass wir tatsächlich
@@ -679,8 +684,8 @@ wirksamer sind als Bereiche
 in Aktivitätsdiagrammen,
 
 00:12:09,030 --> 00:12:15,870
-wo ich gesagt hatte, diese zeichnen wir nur ein, um
-eine Gruppierung der Aktionen zu erreichen,
+wo ich gesagt hatte, diese zeichnen wir nur ein,
+um eine Gruppierung der Aktionen zu erreichen,
 
 00:12:15,870 --> 00:12:17,760
 aber darüber hinaus haben sie
@@ -728,8 +733,8 @@ durch irgendeinen Trigger in
 einen Stundenzustand kommen.
 
 00:13:07,710 --> 00:13:11,880
-Was dagegen passieren kann,
-ist, dass Minuten- und Stundenzähler
+Was dagegen passieren kann, ist,
+dass Minuten- und Stundenzähler
 
 00:13:11,880 --> 00:13:15,300
 parallel gleichzeitig Fortschritt machen.
@@ -814,7 +819,8 @@ eigenen Startzustand geben.
 In beiden Fällen hier eben den Nullzustand,
 
 00:14:46,650 --> 00:14:48,150
-einmal für die Stunden und einmal für die Minuten.
+einmal für die Stunden und
+einmal für die Minuten.
 
 00:14:49,830 --> 00:14:52,200
 Wir sehen auch, dass hier Namen
@@ -825,8 +831,8 @@ Das ist okay, weil sie in
 verschiedenen Regionen sind.
 
 00:14:54,240 --> 00:14:57,150
-Also, diese Null kann man nicht mit
-dieser Null verwechseln, etc.
+Also, diese Null kann man nicht
+mit dieser Null verwechseln, etc.
 
 00:14:57,150 --> 00:15:01,020
 Nur innerhalb einer Region darf
@@ -855,15 +861,16 @@ Er wird immer dann ausgelöst, wenn in
 der Minuten-Region eine Stunde voll ist.
 
 00:15:22,440 --> 00:15:27,930
-Also, beim Übergang von 59 Minuten zu
-wieder 0 Minuten gibt es einen Stundenübergang,
+Also, beim Übergang von 59 Minuten zu wieder
+0 Minuten gibt es einen Stundenübergang,
 
 00:15:27,930 --> 00:15:35,010
 der dann gleichzeitig in der Stundenzählung
 ein Fortschreiten verursacht.
 
 00:15:35,010 --> 00:15:40,380
-Das ist eine Kommunikation zwischen zwei Regionen.
+Das ist eine Kommunikation
+zwischen zwei Regionen.
 
 00:15:40,380 --> 00:15:45,390
 Aber nicht per Transitionen, also einen Pfeil,
@@ -947,8 +954,8 @@ Das deckt einen Teil unserer
 Ziel-Implementierung ab.
 
 00:17:21,340 --> 00:17:28,570
-Das beschreibt letztlich,
-wie sich die Zeit entwickelt.
+Das beschreibt letztlich, wie
+sich die Zeit entwickelt.
 
 00:17:30,730 --> 00:17:33,520
 Dann gibt es noch diesen
@@ -976,7 +983,8 @@ Die wollen wir nicht irgendwie
 in diese Regionen hineinbasteln.
 
 00:18:00,100 --> 00:18:02,920
-Dann würden wir diesen Teil des Zustandsdiagramms,
+Dann würden wir diesen
+Teil des Zustandsdiagramms,
 
 00:18:02,920 --> 00:18:05,860
 der sich mit der Zeit beschäftigt,
@@ -1024,8 +1032,8 @@ die aus allen möglichen Stunden- und
 Minutenzuständen ausgehen müssten.
 
 00:19:03,610 --> 00:19:06,340
-Wenn wir 00:00 Uhr haben, dann
-muss es möglich sein, 'a' zu schalten,
+Wenn wir 00:00 Uhr haben, dann muss
+es möglich sein, 'a' zu schalten,
 
 00:19:06,340 --> 00:19:08,530
 um in die Alarmdarstellung zu kommen.
@@ -1164,8 +1172,8 @@ sondern von dem gesamten
 zusammengesetzten Zustand hier.
 
 00:21:56,190 --> 00:22:04,290
-Das erspart uns die ansonsten notwendigen
-sehr vielen mit 'a' beschrifteten Transitionen,
+Das erspart uns die ansonsten notwendigen sehr
+vielen mit 'a' beschrifteten Transitionen,
 
 00:22:04,290 --> 00:22:06,390
 die wir sonst potenziell bräuchten.

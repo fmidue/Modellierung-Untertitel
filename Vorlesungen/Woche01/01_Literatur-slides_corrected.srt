@@ -1,15 +1,15 @@
 2 # slide
 00:00:00,000 --> 00:00:07,770
-All right, let me say
-a few words about the literature.
+All right, let me say a few
+words about the literature.
 
 00:00:07,770 --> 00:00:11,520
 First of all, the literature
 is only meant as a supplement.
 
 00:00:12,300 --> 00:00:16,500
-In principle, you should be able
-to master the material of the lecture
+In principle, you should be able to
+master the material of the lecture
 
 00:00:16,500 --> 00:00:22,560
 and the exercises without additional books.
@@ -20,20 +20,20 @@ Sometimes the literature presents the material
 from a slightly different perspective than
 
 00:00:28,170 --> 00:00:34,530
-the lecture, and that can
-sometimes provide a nice additional approach.
+the lecture, and that can sometimes
+provide a nice additional approach.
 
 00:00:34,530 --> 00:00:37,830
-O.k., here we first have a book
-that is a very comprehensive book about UML.
+O.k., here we first have a book that
+is a very comprehensive book about UML.
 
 00:00:37,830 --> 00:00:46,320
-Yes, UML is a modeling
-method, a modeling language, which
+Yes, UML is a modeling method,
+a modeling language, which
 
 00:00:46,320 --> 00:00:51,330
-will be maybe about 50 percent
-of the lecture, if I estimate that correctly.
+will be maybe about 50 percent of the
+lecture, if I estimate that correctly.
 
 00:00:51,330 --> 00:00:54,090
 Maybe a little bit more, actually.
@@ -44,12 +44,12 @@ UML concepts and that's why a book
 on UML is not wrong, of course.
 
 00:00:57,390 --> 00:01:02,550
-This is a book from which I
-have taken some examples into the lecture.
+This is a book from which I have
+taken some examples into the lecture.
 
 00:01:02,550 --> 00:01:07,560
-So if you get this book, for
-example, from the library or otherwise, and
+So if you get this book, for example,
+from the library or otherwise, and
 
 00:01:07,560 --> 00:01:09,840
 browse through it, you might
@@ -60,8 +60,8 @@ that I have in the
 lecture. In that respect, it's
 
 00:01:11,220 --> 00:01:14,250
-actually quite suitable, the
-book. Unfortunately, in the description,
+actually quite suitable, the book.
+Unfortunately, in the description,
 
 00:01:14,250 --> 00:01:19,230
 even when it comes to formal things,
@@ -76,25 +76,25 @@ where I tried to
 present things very uniformly.
 
 00:01:28,080 --> 00:01:32,190
-But just as an introduction,
-and especially for examples, this
+But just as an introduction, and
+especially for examples, this
 
 00:01:32,190 --> 00:01:40,410
-book is definitely very good.
-Okay, then there is another English-language
+book is definitely very good. Okay,
+then there is another English-language
 
 3 # slide
 00:01:40,410 --> 00:01:45,420
-book, which is very
-specific to object-oriented design,
+book, which is very specific
+to object-oriented design,
 
 00:01:45,420 --> 00:01:53,850
-which will also be a part of the
-lecture. That's this book here, you can find
+which will also be a part of the lecture.
+That's this book here, you can find
 
 00:01:53,850 --> 00:01:59,040
-that through the library as well.
-That also contains a nice motivation and
+that through the library as well. That
+also contains a nice motivation and
 
 00:01:59,040 --> 00:02:03,270
 examples, some of which also
@@ -105,36 +105,36 @@ But it's not really
 a modeling book otherwise.
 
 00:02:06,930 --> 00:02:09,750
-You can see that in the
-title: it says something about implementation.
+You can see that in the title: it
+says something about implementation.
 
 00:02:09,750 --> 00:02:13,270
-This is a book that
-certainly contains some modeling parts,
+This is a book that certainly
+contains some modeling parts,
 
 00:02:13,270 --> 00:02:18,760
-in view of object-oriented design, but it
-is perhaps a bit more relevant later,
+in view of object-oriented design, but
+it is perhaps a bit more relevant later,
 
 00:02:18,760 --> 00:02:21,700
-especially when you
-attend, for example, the lecture
+especially when you attend,
+for example, the lecture
 
 00:02:21,700 --> 00:02:25,510
-Advanced Programming Techniques. So there,
-to my knowledge, the book is
+Advanced Programming Techniques. So
+there, to my knowledge, the book is
 
 00:02:25,510 --> 00:02:28,600
-not used as a textbook, but
-certain things, the topics that you're going
+not used as a textbook, but certain
+things, the topics that you're going
 
 00:02:28,600 --> 00:02:32,380
 to cover there, also appear in this
 book. So if you plan to listen to
 
 00:02:32,380 --> 00:02:36,430
-that later as well, maybe that would be
-a good book, which bridges from modeling to
+that later as well, maybe that would be a
+good book, which bridges from modeling to
 
 00:02:36,430 --> 00:02:40,870
 the Advanced Programming Techniques
@@ -146,8 +146,8 @@ O.K., another book, very general,
 
 4 # slide
 00:02:50,440 --> 00:02:55,330
-you also see UML in the title.
-Software Engineering, it's about the application of
+you also see UML in the title. Software
+Engineering, it's about the application of
 
 00:02:55,330 --> 00:03:02,800
 UML in the area of modeling software.
@@ -158,8 +158,8 @@ so less formal than I'm sure
 I'll do in lecture, but also not
 
 00:03:06,610 --> 00:03:13,840
-unsuitable as an introduction and overview. What's
-also particularly nice about this book is
+unsuitable as an introduction and overview.
+What's also particularly nice about this book is
 
 00:03:13,840 --> 00:03:18,010
 that you wouldn't have to buy
@@ -170,16 +170,16 @@ You can also read this electronically, and in
 fact, if you're logged into the Uni-Account, so
 
 00:03:22,660 --> 00:03:27,640
-you're logged into the uniaccount, you can
-also read this book electronically through this link
+you're logged into the uniaccount, you can also
+read this book electronically through this link
 
 00:03:27,640 --> 00:03:31,450
 here. That should still work. If
 necessary, if you are not in the
 
 00:03:31,450 --> 00:03:35,350
-University network, you have to access it via
-VPN. Maybe this VPN access has already been explained
+University network, you have to access it via VPN.
+Maybe this VPN access has already been explained
 
 00:03:35,350 --> 00:03:40,180
 to you, or you have already used this
@@ -195,8 +195,8 @@ Although UML doesn't completely make up
 the lecture (we'll see other books in
 
 00:03:57,290 --> 00:04:01,460
-a moment), here's another
-book on UML. It's very comprehensive,
+a moment), here's another book
+on UML. It's very comprehensive,
 
 00:04:01,460 --> 00:04:07,070
 with only excerpts relevant sections for
@@ -207,12 +207,12 @@ you because it is also available in English.
 Here you can see the German book, but
 
 00:04:10,550 --> 00:04:17,180
-for the English-speaking students, this book is also
-available in English and as far as I know,
+for the English-speaking students, this book is
+also available in English and as far as I know,
 
 00:04:17,180 --> 00:04:21,560
-it is also available in our
-library. So at least the original can
+it is also available in our library.
+So at least the original can
 
 00:04:21,560 --> 00:04:28,100
 be borrowed there. Well,
@@ -220,36 +220,36 @@ then I had already
 
 6 # slide
 00:04:28,100 --> 00:04:34,400
-said, the course will not only be
-about UML. Another important modeling tool
+said, the course will not only be about
+UML. Another important modeling tool
 
 00:04:34,400 --> 00:04:36,830
-that we will use in the
-lecture is the so-called Petri nets.
+that we will use in the lecture
+is the so-called Petri nets.
 
 00:04:36,830 --> 00:04:42,770
-While you may already know UML,
-at least class diagrams, from school classes,
+While you may already know UML, at least
+class diagrams, from school classes,
 
 00:04:42,770 --> 00:04:48,830
 Petri nets are probably most familiar
 to you if you have taken the
 
 00:04:48,830 --> 00:04:52,940
-computer science prerequisite course or if you
-have attended other lectures as
+computer science prerequisite course or
+if you have attended other lectures as
 
 00:04:52,940 --> 00:04:57,950
 ISE students where Petri nets were also used.
 There are several books on that as well, again
 
 00:04:57,950 --> 00:05:04,370
-there's a book available online.
-If you're logged into the Uni account,
+there's a book available online. If
+you're logged into the Uni account,
 
 00:05:04,370 --> 00:05:09,080
-here's a paper on Petri
-nets, which is very example driven.
+here's a paper on Petri nets,
+which is very example driven.
 
 00:05:09,080 --> 00:05:18,710
 So it's less formal, but contains many
@@ -273,45 +273,45 @@ We're not going to cover everything that's in this book,
 but some more formal concepts that we're going to explore
 
 00:05:38,780 --> 00:05:45,350
-regarding Petri nets, you might find
-in this book rather than the book shown before.
+regarding Petri nets, you might find in
+this book rather than the book shown before.
 
 00:05:45,350 --> 00:05:48,560
-And also this book should
-be available to you electronically
+And also this book should be
+available to you electronically
 
 8 # slide
 00:05:48,560 --> 00:05:58,440
-if you access it through the Uni account.
-Okay, let's discuss something in English once more.
+if you access it through the Uni account. Okay,
+let's discuss something in English once more.
 
 00:05:58,440 --> 00:06:01,560
-The two books just now were
-German books. For the English-speaking
+The two books just now were German
+books. For the English-speaking
 
 00:06:01,560 --> 00:06:05,520
 students, but also for others,
 this article might be interesting.
 
 00:06:05,520 --> 00:06:09,339
-It is in English and has
-a slightly different style than the books.
+It is in English and has a slightly
+different style than the books.
 
 00:06:09,339 --> 00:06:13,920
 The books are textbooks, but this
 is a review article that was
 
 00:06:13,920 --> 00:06:21,360
-written quite a while ago.
-It also contains good motivation, examples,
+written quite a while ago. It also
+contains good motivation, examples,
 
 00:06:21,360 --> 00:06:27,210
-and also discusses some of the
-formal properties we will be looking at.
+and also discusses some of the formal
+properties we will be looking at.
 
 00:06:27,210 --> 00:06:32,670
-You see this up here, Properties,
-Analysis and Applications, so both examples, applications,
+You see this up here, Properties, Analysis and
+Applications, so both examples, applications,
 
 00:06:32,670 --> 00:06:39,000
 and the properties and analysis of Petri
@@ -327,20 +327,20 @@ possible approach to this part of the lecture.
 
 9 # slide
 00:06:52,560 --> 00:06:58,680
-OK, in a similar vein, also
-as a scholarly article rather than
+OK, in a similar vein, also as
+a scholarly article rather than
 
 00:06:58,680 --> 00:07:07,260
 a textbook, here is an article by Harel.
 That should also be available to you, and
 
 00:07:07,260 --> 00:07:13,200
-even without the restriction of having to
-be logged in from the Uni-account.
+even without the restriction of having
+to be logged in from the Uni account.
 
 00:07:13,200 --> 00:07:18,780
-Why is this article relevant? Because
-it lays the foundation for a
+Why is this article relevant?
+Because it lays the foundation for a
 
 00:07:18,780 --> 00:07:25,080
 part of UML, namely UML state diagrams. This
@@ -363,8 +363,8 @@ explained to some extent in UML books.
 But in a very nice and intuitive way,
 
 00:07:44,010 --> 00:07:49,830
-in my opinion, they are just described in
-the original article that formed the basis for
+in my opinion, they are just described in the
+original article that formed the basis for
 
 00:07:49,830 --> 00:07:54,570
 UML state diagrams later. The
@@ -375,8 +375,8 @@ exactly the same there, but the important concepts
 we will be looking at from statecharts, you
 
 00:07:59,220 --> 00:08:12,400
-will find well explained in English in that article.
-Okay, I think I have one more book ready.
+will find well explained in English in that
+article. Okay, I think I have one more book ready.
 
 10 # slide
 00:08:12,400 --> 00:08:18,820
@@ -388,28 +388,28 @@ To my knowledge not electronically,
 but as a hard copy.
 
 00:08:22,510 --> 00:08:30,640
-Again, a very comprehensive book
-that covers a lot on UML.
+Again, a very comprehensive
+book that covers a lot on UML.
 
 00:08:30,640 --> 00:08:35,350
 In particular, that's why I still
 included it here, it also covers the
 
 00:08:35,350 --> 00:08:40,960
-dynamic aspects, dynamic modeling with UML, which doesn't
-necessarily happen to the same extent in all of
+dynamic aspects, dynamic modeling with UML, which
+doesn't necessarily happen to the same extent in all of
 
 00:08:40,960 --> 00:08:46,720
-the UML references that I mentioned before.
-Yes, we will look
+the UML references that I
+mentioned before. Yes, we will look
 
 00:08:46,720 --> 00:08:51,070
 at static and dynamic modeling.
 Static modeling with UML is explained
 
 00:08:51,070 --> 00:08:56,170
-very well in very many
-places. Also, simply in introductory books
+very well in very many places.
+Also, simply in introductory books
 
 00:08:56,170 --> 00:08:59,530
 on software engineering, the dynamic
@@ -420,21 +420,21 @@ which are certainly more difficult and are
 not covered everywhere in the same way,
 
 00:09:05,560 --> 00:09:12,100
-are articulated in this book
-just so. Okay, again to repeat: You
+are articulated in this book just
+so. Okay, again to repeat: You
 
 00:09:12,100 --> 00:09:15,220
 don't have to read any of these books.
 You don't have to pick up any of
 
 00:09:15,220 --> 00:09:21,340
-these books at all if you don't like
-to do so. But it might be helpful if you need
+these books at all if you don't like to
+do so. But it might be helpful if you need
 
 00:09:21,340 --> 00:09:25,000
 more examples, want to read something
 again in a different way than
 
 00:09:25,000 --> 00:09:30,010
-I explain it in the lecture, or just
-want to have more practice material as well.
+I explain it in the lecture, or just want
+to have more practice material as well.

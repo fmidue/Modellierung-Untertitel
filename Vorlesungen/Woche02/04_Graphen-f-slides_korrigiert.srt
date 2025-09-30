@@ -32,7 +32,8 @@ Es gibt verschiedene Arten von Graphen.
 Hier ist einfach mal ein Beispiel angegeben.
 
 00:00:42,510 --> 00:00:44,400
-Dieser Graph ist zum Beispiel gerichtet, insofern,
+Dieser Graph ist zum
+Beispiel gerichtet, insofern,
 
 00:00:44,400 --> 00:00:48,150
 dass die Kanten jeweils ein Ende haben,
@@ -64,7 +65,8 @@ Das tritt hier jetzt nicht auf.
 Das ist aber mathematisch erlaubt.
 
 00:01:07,170 --> 00:01:09,780
-Wir können Knoten- und Kantenbeschriftungen haben.
+Wir können Knoten- und
+Kantenbeschriftungen haben.
 
 00:01:09,780 --> 00:01:13,410
 Hier haben wir die Knoten mit Zahlen und
@@ -139,8 +141,8 @@ Also beschreibend, zum Beispiel, wie
 das System sich zeitlich entwickelt.
 
 00:02:30,030 --> 00:02:33,600
-Oder unter welchen Bedingungen, die vielleicht
-an diese Kanten geschrieben werden,
+Oder unter welchen Bedingungen, die
+vielleicht an diese Kanten geschrieben werden,
 
 00:02:33,600 --> 00:02:39,480
 das System einen Zustandsübergang von einer
@@ -185,11 +187,12 @@ Ich mache es deswegen hier, weil es mir
 auf sehr naive Art und Weise erlaubt,
 
 00:03:22,080 --> 00:03:24,150
-ein bisschen diesen Abstraktionsprozess zu zeigen.
+ein bisschen diesen
+Abstraktionsprozess zu zeigen.
 
 00:03:24,150 --> 00:03:29,520
-Und eine Notation für ein konkretes
-Problem zu finden und das dann als Graph darzustellen.
+Und eine Notation für ein konkretes Problem
+zu finden und das dann als Graph darzustellen.
 
 00:03:29,520 --> 00:03:33,750
 Also Graphen ins Spiel zu bringen,
@@ -200,8 +203,8 @@ Also Sie können sagen, es hat gar
 nicht so viel Modellierungsanteil.
 
 00:03:36,960 --> 00:03:42,330
-Aber etwa der Übergangsgraph, der
-jetzt hier vorkommen wird,
+Aber etwa der Übergangsgraph,
+der jetzt hier vorkommen wird,
 
 00:03:42,330 --> 00:03:46,080
 der wird schon anklingen an etwas,
@@ -427,8 +430,8 @@ Wolf frisst Ziege.
 Ziege frisst Kohlkopf.
 
 00:07:06,180 --> 00:07:10,620
-Wir wissen zum Glück, dass der
-Wolf den Farmer nicht fressen würde.
+Wir wissen zum Glück, dass der Wolf
+den Farmer nicht fressen würde.
 
 00:07:10,620 --> 00:07:13,140
 Selbst dann nicht, wenn er
@@ -541,7 +544,8 @@ Und wir wissen auch, dass alle
 vier Akteure am Anfang auf der
 
 00:08:58,150 --> 00:09:00,670
-gleichen Seite sind, und zwar da, wo das Boot ist.
+gleichen Seite sind, und
+zwar da, wo das Boot ist.
 
 00:09:01,210 --> 00:09:03,220
 Damit das Rätsel überhaupt sinnvoll lösbar ist.
@@ -579,13 +583,15 @@ aber das Boot auf der linken Seite
 ist, wäre eine Lösung des Problems.
 
 00:09:33,730 --> 00:09:35,710
-Aber mit ein bisschen Nachdenken kommt man darauf:
+Aber mit ein bisschen
+Nachdenken kommt man darauf:
 
 00:09:35,710 --> 00:09:37,090
 Das kann gar nicht passieren.
 
 00:09:37,660 --> 00:09:39,730
-Also, so eine Situation wird nicht erreichbar sein.
+Also, so eine Situation
+wird nicht erreichbar sein.
 
 00:09:39,730 --> 00:09:40,240
 Deswegen können wir mal sagen:
@@ -702,8 +708,8 @@ Nämlich die Ziege frisst den Kohlkopf.
 Dieses Fressen geschieht sofort,
 
 00:11:26,800 --> 00:11:36,350
-ohne dass der Farmer irgendwie durch eine Aktion
-eingreifen könnte.
+ohne dass der Farmer irgendwie
+durch eine Aktion eingreifen könnte.
 
 00:11:36,350 --> 00:11:42,320
 Das kann man aus dem Rätseltext auch
@@ -770,8 +776,8 @@ die wir gesehen haben: die blaue Fläche
 für den Fluss, das Bild der Ziege etc.
 
 00:12:41,360 --> 00:12:47,180
-Und die Semantik wäre, was sich denn hinter diesen
-Diagrammen, Formen, Symbolen verbirgt.
+Und die Semantik wäre, was sich denn hinter
+diesen Diagrammen, Formen, Symbolen verbirgt.
 
 00:12:47,180 --> 00:12:50,450
 Also die blaue Fläche ist tatsächlich der Fluss.
@@ -825,7 +831,8 @@ Andererseits ist das Problem so
 einfach, dass man schon durch
 
 00:13:48,750 --> 00:13:51,030
-Draufschauen eine Idee davon hat, was da passiert.
+Draufschauen eine Idee
+davon hat, was da passiert.
 
 00:13:51,030 --> 00:13:56,430
 Im Allgemeinen würde man das
@@ -870,8 +877,8 @@ Dabei kann eine solche Festlegung natürlich
 genau für ein konkretes Beispiel passieren.
 
 00:14:38,085 --> 00:14:40,350
-Also:
-Wir modellieren dieses Wolf-Ziege-Kohlkopf-Problem
+Also: Wir modellieren dieses
+Wolf-Ziege-Kohlkopf-Problem
 
 00:14:42,480 --> 00:14:44,760
 und halten dafür fest, was die
@@ -963,7 +970,8 @@ Die Kanten sind beschriftet mit den
 Beziehungen zwischen den Knoten,
 
 00:16:17,640 --> 00:16:21,420
-welche mit den Namen der Akteure beschriftet sind.
+welche mit den Namen der
+Akteure beschriftet sind.
 
 00:16:21,420 --> 00:16:31,770
 Das ist einfach das gleiche Bild wie hier, nur
@@ -1006,8 +1014,8 @@ und dieser Pfeil würde von dem
 Zustand zu dem Zustand gehen.
 
 00:17:21,950 --> 00:17:26,120
-Klassische Vertreter davon, also Graphen
-zu benutzen für die dynamische Modellierung,
+Klassische Vertreter davon, also Graphen zu
+benutzen für die dynamische Modellierung,
 
 00:17:26,120 --> 00:17:27,830
 sind sogenannte flache Zustandsdiagramme.
@@ -1150,8 +1158,8 @@ Und hier gibt es einen senkrechten
 Strich, der den Fluss ausdrückt.
 
 00:19:48,175 --> 00:19:50,620
-Also, was dieser erste
-Zustand hier symbolisieren soll:
+Also, was dieser erste Zustand
+hier symbolisieren soll:
 
 00:19:50,620 --> 00:19:54,220
 Farmer, Wolf, Ziege, Kohlkopf
@@ -1241,8 +1249,8 @@ Ja, der Farmer möge mit der
 Ziege den Fluss überqueren.
 
 00:21:34,110 --> 00:21:37,350
-Das ist kein Misserfolgszustand, denn
-der Wolf wird den Kohlkopf nicht fressen.
+Das ist kein Misserfolgszustand, denn der
+Wolf wird den Kohlkopf nicht fressen.
 
 00:21:37,350 --> 00:21:39,360
 Das wäre eine Möglichkeit.
@@ -1367,8 +1375,8 @@ Und das liegt daran, das kann man sich überlegen:
 Eigentlich muss der Graph symmetrisch sein.
 
 00:23:31,850 --> 00:23:35,570
-Es ist vollkommen willkürlich, zu sagen,
-dass der Farmer von links nach rechts möchte.
+Es ist vollkommen willkürlich, zu sagen, dass
+der Farmer von links nach rechts möchte.
 
 00:23:35,570 --> 00:23:39,470
 Man hätte genauso gut sagen können, der Farmer
@@ -1475,7 +1483,8 @@ denn es wird sowieso immer
 da sein, wo der Farmer ist.
 
 00:25:42,340 --> 00:25:45,910
-Deswegen taucht es in der Notation nicht mehr auf.
+Deswegen taucht es in der
+Notation nicht mehr auf.
 
 00:25:45,910 --> 00:25:49,000
 Die Übergänge hatte ich hier nicht beschriftet.
@@ -1585,8 +1594,8 @@ Es gibt hier mehrere Wege
 vom Start- zum Zielzustand.
 
 00:27:42,700 --> 00:27:46,600
-Eine Lösung des Problems wäre
-eben genau ein Weg, der irgendwie den
+Eine Lösung des Problems wäre eben
+genau ein Weg, der irgendwie den
 
 00:27:46,600 --> 00:27:49,150
 Pfeilen durch diesen Graphen folgt.

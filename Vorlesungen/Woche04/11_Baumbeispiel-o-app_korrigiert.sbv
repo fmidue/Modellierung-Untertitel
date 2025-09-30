@@ -1,6 +1,6 @@
 0:00:00.000,0:00:09.000
-So, ich würde gern noch einmal hier in der
-App ein paar Beispiele durchsprechen.
+So, ich würde gern noch einmal hier in
+der App ein paar Beispiele durchsprechen.
 
 0:00:09.510,0:00:17.760
 Der Einfachheit halber verwende ich einfach
@@ -171,7 +171,8 @@ Weil das Vererbung war.
 Für die Assoziation ist das kein Widerspruch.
 
 0:03:29.800,0:03:32.470
-Knoten können zur gleichen Klasse assoziiert sein.
+Knoten können zur gleichen
+Klasse assoziiert sein.
 
 0:03:32.470,0:03:41.380
 Das heißt nicht, dass in dem modellierten
@@ -360,7 +361,8 @@ Und die haben tatsächlich
 mindestens einen Nachfolger.
 
 0:07:00.030,0:07:04.770
-In dem Beispiel davor mussten wir hier 0..2 haben,
+In dem Beispiel davor
+mussten wir hier 0..2 haben,
 
 0:07:04.770,0:07:08.400
 weil ein Knoten ja auch Blattknoten sein

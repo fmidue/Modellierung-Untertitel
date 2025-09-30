@@ -3,39 +3,39 @@ I had announced that
 I would make another video
 
 0:00:05.820,0:00:09.720
-where I would discuss
-such constellations as here.
+where I would discuss such
+constellations as here.
 
 0:00:09.720,0:00:14.880
-Where a class stands in
-composition relationship with two other classes.
+Where a class stands in composition
+relationship with two other classes.
 
 0:00:17.700,0:00:23.610
-I had already said that here, on
-the one hand, only certain multiplicities are possible,
+I had already said that here, on the one hand,
+only certain multiplicities are possible,
 
 0:00:23.610,0:00:30.240
-at this respective end for the
-whole in such a part-whole relationship.
+at this respective end for the whole
+in such a part-whole relationship.
 
 0:00:30.240,0:00:34.590
-And I had already announced
-that because of the additional requirement
+And I had already announced that
+because of the additional requirement
 
 0:00:34.590,0:00:40.410
-that each part may only be
-part of a whole, in composition relations
+that each part may only be part of
+a whole, in composition relations
 
 0:00:40.410,0:00:45.030
-not all combinations of
-multiplicities are necessarily useful here.
+not all combinations of multiplicities
+are necessarily useful here.
 
 0:00:45.030,0:00:45.960
 So one can write down all of them.
 
 0:00:45.960,0:00:51.900
-One can write here, multiplicity exactly
-"1" shall prevail in each case.
+One can write here, multiplicity
+exactly "1" shall prevail in each case.
 
 0:00:51.900,0:00:52.440
 But the question is:
@@ -59,8 +59,8 @@ And let's assume that there
 is at least one C object.
 
 0:01:11.310,0:01:16.796
-Then this would mean that
-such a C-object should exist here.
+Then this would mean that such
+a C-object should exist here.
 
 0:01:16.796,0:01:18.120
 Let's call that small "c".
@@ -73,8 +73,8 @@ And because this exists, and
 there are these relations here,
 
 0:01:25.620,0:01:30.780
-there must be also at
-least one B-object in this case.
+there must be also at least
+one B-object in this case.
 
 0:01:32.430,0:01:35.280
 So exactly one B-object, to
@@ -85,8 +85,8 @@ And exactly one A object, because
 of the 1 at this composition end.
 
 0:01:41.130,0:01:52.440
-That means there would have to
-be at least two more objects here.
+That means there would have to be
+at least two more objects here.
 
 0:01:52.440,0:02:01.470
 Namely a B-object and an A-object.
@@ -96,16 +96,16 @@ And each of these would have
 to be related to the C object.
 
 0:02:08.700,0:02:16.110
-Simply because of the composition
-given above with the appropriate multiplicity.
+Simply because of the composition given
+above with the appropriate multiplicity.
 
 0:02:16.110,0:02:24.300
-And this would have the consequence that we
-have here exactly constellations which are not allowed.
+And this would have the consequence that we have
+here exactly constellations which are not allowed.
 
 0:02:24.300,0:02:31.380
-Namely, that a part, in the case of this
-C-object, is at the same time part of several wholes.
+Namely, that a part, in the case of this C-object,
+is at the same time part of several wholes.
 
 0:02:31.380,0:02:33.690
 And that is not allowed.
@@ -126,15 +126,15 @@ to start with the modeling at all.
 Then we look again at the case, how
 
 0:02:52.590,0:03:00.300
-it would be, if we
-had decided differently at the beginning.
+it would be, if we had decided
+differently at the beginning.
 
 0:03:00.300,0:03:09.540
 So we would have started with "0..1"
 
 0:03:09.540,0:03:16.290
-instead, for example here or
-here on the other side.
+instead, for example here
+or here on the other side.
 
 0:03:16.290,0:03:21.090
 Of course, it doesn't
@@ -183,8 +183,8 @@ Because "0..1" is there.
 If you wanted to insert a B-object here
 
 0:04:15.010,0:04:16.115
-and connect it, then you
-would have a problem, of course.
+and connect it, then you would
+have a problem, of course.
 
 0:04:16.115,0:04:23.290
 Then you would have the situation on the previous slide,
@@ -194,24 +194,24 @@ namely that you assign two integers to the C-object.
 So you would not do that.
 
 0:04:25.000,0:04:31.720
-But you don't have to, because it
-is also allowed (simply by the 0, which
+But you don't have to, because it is
+also allowed (simply by the 0, which
 
 0:04:31.720,0:04:36.520
 stands here in the multiplicity)
 not to have a B-object.
 
 0:04:36.520,0:04:40.030
-Only, if one does this,
-then naturally also the question arises:
+Only, if one does this, then
+naturally also the question arises:
 
 0:04:40.030,0:04:43.360
 Why is there this composition
 in this direction at all?
 
 0:04:43.360,0:04:47.950
-It will then never be
-filled by anything with life.
+It will then never be filled
+by anything with life.
 
 0:04:47.950,0:04:51.100
 That's why you could write
@@ -236,8 +236,8 @@ So that was the combination
 where we have "1" and "0..1".
 
 0:05:14.590,0:05:18.070
-And then, of course, there
-is at least one other possibility.
+And then, of course, there is
+at least one other possibility.
 
 0:05:18.070,0:05:22.930
 Namely, the situation where
@@ -248,20 +248,20 @@ on both ends
 (for both compositions) here.
 
 0:05:29.350,0:05:37.030
-Then we can consider what might be
-a reasonable assignment of these classes here.
+Then we can consider what might be a
+reasonable assignment of these classes here.
 
 0:05:37.030,0:05:41.260
-Whether this is conceivable here, that
-there is a part, which can
+Whether this is conceivable here,
+that there is a part, which can
 
 0:05:41.260,0:05:46.180
-be part of two wholes, not
-at the same time, but alternatively.
+be part of two wholes, not at
+the same time, but alternatively.
 
 0:05:46.180,0:05:51.430
-And in fact, you can think
-of a situation here, for example.
+And in fact, you can think of
+a situation here, for example.
 
 0:05:51.430,0:05:53.620
 Let's take our car examples again.
@@ -271,20 +271,20 @@ So let's say we somehow have a
 class car and a class for wheels.
 
 0:06:02.970,0:06:05.940
-That will come up again
-in the slides, a similar example.
+That will come up again in
+the slides, a similar example.
 
 0:06:05.940,0:06:10.830
-Then, of course, a wheel can
-be compositionally related to a car, because
+Then, of course, a wheel can be
+compositionally related to a car, because
 
 0:06:10.830,0:06:15.720
 normally a wheel is mounted on a
 car, and it's mounted on at most one.
 
 0:06:15.720,0:06:20.820
-And vice versa, one can
-now add multiplicities to it.
+And vice versa, one can now
+add multiplicities to it.
 
 0:06:20.820,0:06:25.290
 A car can carry/contain 0..4 wheels.
@@ -310,12 +310,12 @@ For example, summer wheels are in
 a wheel storage in the winter.
 
 0:06:42.870,0:06:45.930
-So let's say there
-is another class "storage" here.
+So let's say there is
+another class "storage" here.
 
 0:06:46.650,0:06:53.580
-A wheel can also be in a storage,
-and a storage can perhaps contain "0..20" wheels.
+A wheel can also be in a storage, and a
+storage can perhaps contain "0..20" wheels.
 
 0:06:53.580,0:07:00.420
 And now here it is quite conceivable that
@@ -352,32 +352,32 @@ So here that would be the
 essential thing to hold on to.
 
 0:07:23.910,0:07:26.520
-But that's just dictated
-by the modeling constraints and
+But that's just dictated by
+the modeling constraints and
 
 0:07:26.520,0:07:31.290
-by the language of how these
-diagrams are to be interpreted in UML.
+by the language of how these diagrams
+are to be interpreted in UML.
 
 0:07:32.190,0:07:41.460
-So then a wheel can never be on
-a car and in storage at the same time.
+So then a wheel can never be on a
+car and in storage at the same time.
 
 0:07:56.970,0:08:03.750
 Those were the three situations
 for this constellation, each simply
 
 0:08:03.750,0:08:10.950
-with different multiplicities at
-the top two ends.
+with different multiplicities
+at the top two ends.
 
 0:08:10.950,0:08:16.530
-And then on the slides there
-was also something like this, this situation
+And then on the slides there was also
+something like this, this situation
 
 0:08:16.530,0:08:25.110
-where there are two classes that are
-in compositional relation in a double way.
+where there are two classes that are in
+compositional relation in a double way.
 
 0:08:25.110,0:08:27.000
 That's where I had also said:
@@ -396,12 +396,12 @@ Then we would have a cyclic relationship.
 That is forbidden.
 
 0:08:35.520,0:08:39.690
-But that, as it is shown here and
-on the slides, was not forbidden per se.
+But that, as it is shown here and on
+the slides, was not forbidden per se.
 
 0:08:39.690,0:08:43.530
-One could certainly imagine that
-there are somehow meaningful classes here.
+One could certainly imagine that there
+are somehow meaningful classes here.
 
 0:08:43.530,0:08:50.280
 Situations like here, requiring 1 in each
@@ -415,8 +415,8 @@ lower class could be related to
 several objects of the upper class.
 
 0:09:05.400,0:09:10.230
-Namely once via this one
-and once via the other composition.
+Namely once via this one and
+once via the other composition.
 
 0:09:10.230,0:09:12.510
 This does not make much sense.
@@ -426,12 +426,12 @@ But for instance in the case that
 we specify this with "0..1" at both
 
 0:09:20.310,0:09:27.630
-ends, one can well imagine
-that there are meaningful instances.
+ends, one can well imagine that
+there are meaningful instances.
 
 0:09:27.630,0:09:29.040
 You can think about what
 
 0:09:29.040,0:09:32.460
-might be conceivable classes here,
-or what makes sense here.
+might be conceivable classes
+here, or what makes sense here.

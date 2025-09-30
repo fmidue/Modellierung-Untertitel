@@ -66,8 +66,8 @@ Den Standardeintritt, das wäre der, der auf der
 Folie eben auch auftrat, für die a-Übergänge.
 
 00:01:27,500 --> 00:01:32,150
-Dann gibt es den expliziten Eintritt, wo
-man also nicht in den hierarchischen
+Dann gibt es den expliziten Eintritt,
+wo man also nicht in den hierarchischen
 
 00:01:32,150 --> 00:01:37,250
 Zustand von außen insgesamt eintritt,
@@ -182,8 +182,8 @@ Der hat einen Übergang, einen Standardeintritt,
 in diesen zusammengesetzten Unterzustand B.
 
 00:03:50,960 --> 00:03:59,060
-Weil das ja über den Startzustand auch
-ein Standardeintritt ist, würde eben in dieser
+Weil das ja über den Startzustand auch ein
+Standardeintritt ist, würde eben in dieser
 
 00:04:01,070 --> 00:04:04,430
 Hierarchieebene der hier
@@ -269,8 +269,8 @@ Also nehmen wir an, in unserem Beispiel,
 dass wir irgendwann schon einmal in einem
 
 00:06:00,680 --> 00:06:05,900
-dieser Zustände C, D, E gewesen sind, in
-einem dieser innersten Unterzustände.
+dieser Zustände C, D, E gewesen sind,
+in einem dieser innersten Unterzustände.
 
 00:06:05,900 --> 00:06:09,110
 Dann sind wir irgendwo anders gewesen,
@@ -296,8 +296,8 @@ Unterzustand der innersten Ebene,
 einer jeweiligen innersten Ebene,
 
 00:06:31,610 --> 00:06:39,140
-gesprungen wird, aus dem heraus wir das
-letzte Mal den Gesamtzustand A verlassen haben.
+gesprungen wird, aus dem heraus wir das letzte
+Mal den Gesamtzustand A verlassen haben.
 
 00:06:41,270 --> 00:06:42,080
 Das ist das, was hier steht.
@@ -315,8 +315,8 @@ Wenn wir zuletzt von D aus verlassen haben, dann
 würden wir jetzt auch wieder bei D fortsetzen.
 
 00:07:08,180 --> 00:07:11,750
-Wenn wir zuletzt von C aus verlassen haben,
-dann würden wir bei C fortsetzen.
+Wenn wir zuletzt von C aus verlassen
+haben, dann würden wir bei C fortsetzen.
 
 00:07:11,750 --> 00:07:15,650
 Tiefst heißt hier: C ist ja schon ein nicht
@@ -408,8 +408,8 @@ dahin zurück, wo wir vor dem letzten Verlassen
 waren. Allerdings eben nicht auf die unterste
 
 00:09:20,690 --> 00:09:26,210
-Ebene, sondern auf den jeweiligen letzten Gesamtzustand
-der obersten Hierarchieebene.
+Ebene, sondern auf den jeweiligen letzten
+Gesamtzustand der obersten Hierarchieebene.
 
 00:09:30,470 --> 00:09:33,830
 Also stellen wir uns vor, in
@@ -448,8 +448,8 @@ Das heißt, wenn wir über die flache Historie kommen,
 dann würden wir sagen, wir machen bei B weiter.
 
 00:10:16,250 --> 00:10:21,500
-Bei B weiterzumachen, heißt dann aber, den
-Startzustand von B zu nehmen, also D.
+Bei B weiterzumachen, heißt dann aber,
+den Startzustand von B zu nehmen, also D.
 
 00:10:22,580 --> 00:10:23,900
 Das, was hier steht:
@@ -463,8 +463,8 @@ so wird jetzt bei B fortgesetzt, weil B
 sozusagen die oberste Schachtelungsebene ist, in
 
 00:10:32,780 --> 00:10:39,740
-der E vorkommt. Und bei B fortsetzen heißt aber, bei
-D fortsetzen, weil D der Startzustand von B ist.
+der E vorkommt. Und bei B fortsetzen heißt aber,
+bei D fortsetzen, weil D der Startzustand von B ist.
 
 00:10:44,570 --> 00:10:48,650
 Falls man noch nie überhaupt schon in diesem
@@ -479,8 +479,8 @@ Also wenn wir noch nie überhaupt
 innerhalb von A gewesen sind und wir
 
 00:10:57,260 --> 00:11:03,620
-über die flache Historie kommen, dann wird genau wie bei
-der tiefen Historie einfach dort weitergemacht,
+über die flache Historie kommen, dann wird genau wie
+bei der tiefen Historie einfach dort weitergemacht,
 
 00:11:03,620 --> 00:11:09,560
 wohin dieser Pfeil von dem H-Element
@@ -544,8 +544,8 @@ Der ist noch mal anders dargestellt.
 Den werden wir nicht behandeln.
 
 00:12:28,610 --> 00:12:30,200
-Das ist eine Möglichkeit in
-UML-Zustandsdiagrammen,
+Das ist eine Möglichkeit
+in UML-Zustandsdiagrammen,
 
 00:12:30,200 --> 00:12:32,540
 die wir in dieser Vorlesung nicht betrachten.
@@ -615,15 +615,16 @@ denn bei Regionen sind wir immer in
 beiden Regionen in einem Unterzustand.
 
 00:14:02,390 --> 00:14:05,060
-Das heißt, obwohl dieser Standardeintritt so aussieht,
+Das heißt, obwohl dieser
+Standardeintritt so aussieht,
 
 00:14:05,060 --> 00:14:09,800
 als würde er nur auf eine Region zeigen, zeigt
 er eigentlich auf den gesamten Regionen-Zustand,
 
 00:14:09,800 --> 00:14:14,378
-und wir müssen beim Eintritt auch jeweils
-in beiden Regionen einen Unterzustand auswählen.
+und wir müssen beim Eintritt auch jeweils in
+beiden Regionen einen Unterzustand auswählen.
 
 00:14:14,378 --> 00:14:16,790
 Das Gleiche gilt für den expliziten Eintritt.
@@ -693,7 +694,8 @@ das macht der explizite Eintritt, und in
 den dazu parallelen Regionen nehmen wir
 
 00:15:38,690 --> 00:15:40,760
-jeweils den Startzustand. Also in unserem Beispiel
+jeweils den Startzustand.
+Also in unserem Beispiel
 
 00:15:44,360 --> 00:15:50,330
 über diesen Pfeil treten wir in der ersten Region

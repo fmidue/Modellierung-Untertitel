@@ -11,7 +11,8 @@ Komposition handelt. Speziell sollen wir auch
 jeweils immer die stärkste folgende Beziehung
 
 0:00:16.860,0:00:22.140
-angeben und natürlich ausführlich begründen. Dieses Ziel ist nochmal extra angegeben,
+angeben und natürlich ausführlich begründen.
+Dieses Ziel ist nochmal extra angegeben,
 
 0:00:22.140,0:00:27.360
 denn wir wissen, dass eine Aggregation oder
@@ -26,10 +27,12 @@ wenn wir diese Extrazeile nicht hätten, könnten
 wir einfach überall Assoziation dran schreiben
 
 0:00:36.660,0:00:42.420
-und damit wäre die Aufgabe ziemlich trivial. Also hier müssen wir ganz konkret darauf achten:
+und damit wäre die Aufgabe ziemlich trivial.
+Also hier müssen wir ganz konkret darauf achten:
 
 0:00:42.420,0:00:47.820
-Die Beziehung, die vorliegt, ist es mehr als eine Assoziation? Wenn ja,
+Die Beziehung, die vorliegt, ist es
+mehr als eine Assoziation? Wenn ja,
 
 0:00:47.820,0:00:51.120
 ist es eine Aggregation oder ist es
@@ -224,8 +227,8 @@ Für Szenario D haben wir eine Universität,
 mit vielen Lehrstühlen. Sonst ist hier nichts
 
 0:05:23.880,0:05:28.800
-beschrieben. Das heißt, die Lehrstühle sind
-mehr oder weniger hier als das abstrakte Konzept
+beschrieben. Das heißt, die Lehrstühle sind mehr
+oder weniger hier als das abstrakte Konzept
 
 0:05:28.800,0:05:35.160
 angegeben. Und wenn wir eine Universität
@@ -260,8 +263,8 @@ Hier kriegen wir jetzt mehr Informationen. Hier
 ist angegeben, dass an einem Lehrstuhl mehrere
 
 0:06:17.640,0:06:23.580
-Personen als wissenschaftliche Mitarbeiter arbeiten. Es
-ist nicht so ganz eindeutig, denn hier können
+Personen als wissenschaftliche Mitarbeiter arbeiten.
+Es ist nicht so ganz eindeutig, denn hier können
 
 0:06:23.580,0:06:28.440
 wir argumentieren, wenn der Lehrstuhl aufgelöst
@@ -336,8 +339,8 @@ selber existiert ja noch. Also ist es hier
 eher eine Aggregation als eine Komposition.
 
 0:08:06.660,0:08:12.960
-Wo man natürlich auch hier argumentieren kann, dass
-das Gebäude zwar noch existiert, aber es ist nicht mehr
+Wo man natürlich auch hier argumentieren kann, dass das
+Gebäude zwar noch existiert, aber es ist nicht mehr
 
 0:08:12.960,0:08:16.680
 das Gebäude LF. Das ist hier dann im Endeffekt der
@@ -376,8 +379,8 @@ haben wir hier wirklich eher eine Assoziation
 als alles andere. Wir haben auf jeden Fall keine
 
 0:08:58.500,0:09:04.080
-Komposition, weil die Studierenden nicht
-zu existieren aufhören, wenn die Vorlesung nicht existiert.
+Komposition, weil die Studierenden nicht zu existieren
+aufhören, wenn die Vorlesung nicht existiert.
 
 0:09:04.080,0:09:09.600
 Und umgekehrt gibt es trotzdem Studierende,
