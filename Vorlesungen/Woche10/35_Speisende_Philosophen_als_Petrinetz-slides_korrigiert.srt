@@ -23,7 +23,7 @@ dass wir es später auch noch als Petrinetz
 anschauen werden.
 
 00:00:32,720 --> 00:00:35,890
-Das waren die sogenannten speisenden Philosophen.
+Das waren die sogenannten Speisenden Philosophen.
 
 00:00:35,890 --> 00:00:46,440
 An diesem Beispiel hatte ich eingangs auch
@@ -153,7 +153,7 @@ rechte und erst wenn die rechte in der Hand
 
 00:02:54,769 --> 00:03:00,890
 ist, dann auch die linke, sofern möglich (wenn
-die linke Gabel noch da liegt).
+die linke Gabel noch daliegt).
 
 00:03:00,890 --> 00:03:03,359
 Dann wird mit beiden Gabeln gegessen.
@@ -194,7 +194,7 @@ Die Philosophen selber nicht.
 
 00:03:47,129 --> 00:03:52,749
 Die werden nicht selber im Petrinetz vorkommen,
-sondern die sind im Wesentlich gekennzeichnet
+sondern die sind im Wesentlichen gekennzeichnet
 
 00:03:52,749 --> 00:03:57,069
 durch ihr Hungrigsein und ihr Essen.
@@ -648,7 +648,7 @@ belegt ist.
 
 00:12:23,759 --> 00:12:29,860
 Aber jetzt, nach Ausführen der ersten Transition
-und dann Aktiviertsein dieser Transitionen
+und dann Aktiviertsein dieser Transitionen,
 
 00:12:29,860 --> 00:12:31,670
 zeigt sich, dass es einen Konflikt gibt.
@@ -770,10 +770,10 @@ Was könnten wir noch an Eigenschaften beobachten?
 
 00:14:55,649 --> 00:15:01,269
 Vielleicht zum Beispiel, wenn P1, P2, P3 eben
-nicht so kooperativ gewesen wären und P1
+nicht so kooperativ gewesen wären und sie P1
 
 00:15:01,269 --> 00:15:02,510
-nicht einfach hätte machen lassen.
+nicht einfach hätten machen lassen.
 
 00:15:02,510 --> 00:15:05,070
 Gibt es hier zum Beispiel auch Möglichkeiten

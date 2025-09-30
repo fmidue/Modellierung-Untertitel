@@ -141,8 +141,8 @@ gemeinsame Stelle in den Vorbedingungen
 vorliegt, auch ein Konflikt vorliegen muss.
 
 00:02:35,930 --> 00:02:42,230
-Also ist zu überprüfen das Vorliegen
-eines Konfliktes immer mit der Definition.
+Also ist das Vorliegen
+eines Konfliktes immer mit der Definition zu überprüfen.
 
 00:02:42,230 --> 00:02:53,570
 Okay, ein Beispiel: ein Petrinetz
@@ -383,7 +383,7 @@ Also wenn t1 kausal für t2 ist und t2 kausal
 für t3, dann ist auch t1 kausal für t3.
 
 00:06:56,610 --> 00:07:00,390
-Bei Nebenläufigkeit hatten wir
+Bei Nebenläufigkeit, so hatten wir
 gesehen, liegt das nicht vor.
 
 00:07:00,390 --> 00:07:02,580

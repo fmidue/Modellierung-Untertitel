@@ -38,15 +38,15 @@ Vorlesung Mathematische Strukturen sind.
 Ich denke, auch für die Informatik-Studierenden
 
 00:00:49,470 --> 00:00:55,860
-dürfte einiges recht ähnlich, etwa in der
-Logik-Vorlesung, schon dran gewesen sein.
+dürfte einiges recht ähnlich
+schon dran gewesen sein (etwa in der Logik-Vorlesung).
 
 00:00:55,860 --> 00:00:58,650
 Und auch für die ISE-Studierenden sollten
 
 00:00:58,650 --> 00:01:02,040
-aus der Diskreten Mathematik zum
-Beispiel diese Begriffe bekannt sein.
+diese Begriffe zum Beispiel aus der Diskreten Mathematik
+bekannt sein.
 
 00:01:02,040 --> 00:01:07,500
 Ich wiederhole dennoch, einfach damit
@@ -930,14 +930,14 @@ der Menge \{gelb, rot\} speichern wollen.
 
 00:18:28,860 --> 00:18:34,290
 Also unseren Zustandsraum, die Menge
-aller möglichen Zustände dieses Automaten.
+aller möglichen Zustände dieses Automaten,
 
 00:18:34,290 --> 00:18:40,110
 könnte man ansehen als das kartesische
-Produkt aus der Potenzmenge der Menge {gelb,
+Produkt aus der Potenzmenge der Menge \{gelb,
 
 00:18:40,110 --> 00:18:42,720
-rot} (das ist eine Menge von zwei Farben einfach).
+rot\} (das ist eine Menge von zwei Farben einfach)
 
 00:18:42,720 --> 00:18:46,880
 und in den beiden anderen Komponenten
@@ -952,7 +952,7 @@ Potenzmenge ist, würde man so interpretieren:
 
 00:19:00,260 --> 00:19:04,490
 Das ist der Zustand, in dem beide
-Warnleuchten ausgeschaltet sind.
+Warnleuchten ausgeschaltet sind
 
 00:19:04,490 --> 00:19:11,180
 (weil hier ja die leere Menge steht), und es
@@ -964,10 +964,10 @@ Leuchten angeschaltet gesehen, dann würde
 
 00:19:23,960 --> 00:19:28,803
 man einfach in der ersten Komponente statt
-der leeren Menge eben die volle Menge {gelb,
+der leeren Menge eben die volle Menge \{gelb,
 
 00:19:28,803 --> 00:19:36,950
-rot} haben, die auch Teilmenge dieser Menge
+rot\} haben, die auch Teilmenge dieser Menge
 ist, mithin Element dieser Potenzmenge ist.
 
 00:19:41,210 --> 00:19:41,720
@@ -1059,7 +1059,7 @@ Bei der Kurvendiskussion
 macht man was mit Funktionen.
 
 00:21:11,540 --> 00:21:15,050
-Aber es gibt auch den allgemeinen Funktionsbegriff,
+Aber es gibt auch den allgemeinen Funktionsbegriff
 
 00:21:15,050 --> 00:21:17,450
 für beliebige Mengen und nicht
@@ -1142,7 +1142,7 @@ angeben, also wie a abgebildet wird auf f(a).
 
 00:22:48,900 --> 00:22:55,530
 Zum Beispiel "a zum Quadrat" könnte man auch so
-angeben statt durch diese y=f(x)-Schreibweise.
+angeben statt durch diese "y=f(x)"-Schreibweise.
 
 00:22:55,530 --> 00:22:59,790
 Ein Beispiel:
@@ -1399,7 +1399,7 @@ Wir würden dann wirklich Bilder haben,
 
 00:28:14,880 --> 00:28:22,170
 sei es mit Fotos da drin oder diesen Knoten
-mit den jeweiligen Beschriftungen aus der Menge V.
+mit jeweiligen Beschriftungen aus der Menge V.
 
 00:28:22,170 --> 00:28:23,940
 Aber wichtig ist:

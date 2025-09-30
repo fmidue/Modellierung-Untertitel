@@ -55,7 +55,7 @@ dass diese UML-Aktivitätsdiagramme vereinfacht
 durch Petrinetze dargestellt werden können.
 
 00:01:04,890 --> 00:01:10,110
-Petrinetze sind ein einfacher Mechanismus,
+Petrinetze sind ein einfacherer Mechanismus,
 der in Richtung UML-Aktivitätsdiagramme geht.
 
 00:01:10,920 --> 00:01:16,530
@@ -238,7 +238,7 @@ die wir in der Vorlesung behandeln,
 besitzen sie eine sehr formale Semantik.
 
 00:04:33,410 --> 00:04:35,105
-Also sind sie wirklich exakt
+Also, sie sind wirklich exakt
 mathematisch definiert.
 
 00:04:35,105 --> 00:04:37,190
@@ -600,7 +600,7 @@ dass Dinge parallel passieren oder
 parallel verarbeitet werden können.
 
 00:11:15,070 --> 00:11:20,350
-Also werden wir bei Petrinetzen von
+Also, wir werden bei Petrinetzen von
 Nebenläufigkeit von Einzelaktionen
 
 00:11:20,350 --> 00:11:21,370
@@ -696,10 +696,10 @@ gleichen Ressourcen zugreifen.
 
 00:12:55,000 --> 00:13:00,640
 Und wie das dann genau umgesetzt ist, ob
-tatsächlich zwei verschiedene Rechnerkerne.
+tatsächlich zwei verschiedene Rechnerkerne
 
 00:13:00,640 --> 00:13:03,700
-Diese beiden Aktionen ausführen oder
+diese beiden Aktionen ausführen oder
 nicht, ist dafür gar nicht so relevant.
 
 00:13:04,270 --> 00:13:05,290
@@ -714,10 +714,10 @@ des Rechnens und der Darstellung.
 
 00:13:09,970 --> 00:13:12,610
 Und natürlich finden Sie
-auch viele andere Beispiele,
+auch viele andere Beispiele von Nebenläufigkeit,
 
 00:13:12,610 --> 00:13:14,620
-auch in der Alltagswelt von Nebenläufigkeit.
+auch in der Alltagswelt.
 
 00:13:14,620 --> 00:13:17,260
 Also jedes Banksystem:
@@ -1300,7 +1300,7 @@ Modellierungsmechanismen angewandt.
 
 00:24:30,740 --> 00:24:36,830
 Modellierung von Web Services, Beschreibung
-von grafischen Benutzeroberflächen,
+von grafischen Benutzungsoberflächen,
 
 00:24:36,830 --> 00:24:41,120
 Prozessmodellierung bei Betriebssystemen (da

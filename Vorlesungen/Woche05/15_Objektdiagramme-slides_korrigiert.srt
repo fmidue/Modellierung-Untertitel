@@ -427,7 +427,7 @@ Ist also im Klassendiagramm vorgegeben: "Es stehen
 
 00:08:13,140 --> 00:08:18,780
 Objekte der Klasse A mit maximal zwei
-Objekten der Klasse B in Beziehung";
+Objekten der Klasse B in Beziehung",
 
 00:08:18,780 --> 00:08:23,520
 dann dürfen wir eben nicht im Objektdiagramm
@@ -685,7 +685,7 @@ Denn Gabi und Peter können nicht
 beide Besitzer des grünen Skodas sein.
 
 00:13:24,110 --> 00:13:26,600
-weil jedes Auto nur genau einen Besitzer hat.
+Weil jedes Auto nur genau einen Besitzer hat.
 
 00:13:30,410 --> 00:13:31,610
 Dann gibt es noch diese Beziehung hier.
@@ -726,7 +726,7 @@ Rädern, und der schwarze Ford auch.
 
 00:14:06,680 --> 00:14:14,510
 Und die haben jeweils genau einen
-Link zu dem sie enthaltenen Auto.
+Link zu dem sie enthaltenden Auto.
 
 00:14:14,510 --> 00:14:18,560
 Das genügt also diesen Multiplizitäten hier.

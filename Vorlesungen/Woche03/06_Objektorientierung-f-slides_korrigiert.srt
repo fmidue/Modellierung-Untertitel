@@ -7,7 +7,7 @@ Wir werden uns jetzt zunächst, letztlich
 als Einstieg in UML (insbesondere statische
 
 00:00:12,060 --> 00:00:16,170
-Modellierung mit UML) einführend
+Modellierung mit UML), einführend
 mit Objektorientierung beschäftigen.
 
 00:00:17,370 --> 00:00:23,070
@@ -220,7 +220,7 @@ Also was so ein Diagramm konkret bedeutet, da
 gibt es ein Verständnis von, aber das ist nicht
 
 00:04:22,840 --> 00:04:29,200
-unbedingt mathematisch ausgearbeitet in irgendeiner
+unbedingt mathematisch ausgearbeitet in
 voller logischer, mathematischer Stringenz.
 
 00:04:29,200 --> 00:04:35,380
@@ -460,10 +460,10 @@ haben die jeweiligen Dinge?
 
 00:08:54,920 --> 00:08:58,640
 Das können ja für verschiedene Bereiche
-verschiedene Eigenschaften sein.
+verschiedene Eigenschaften sein,
 
 00:08:58,640 --> 00:09:01,340
-Die die auftretenden Dinge haben müssen.
+welche die auftretenden Dinge haben müssen.
 
 00:09:01,340 --> 00:09:03,680
 Und was sind die Beziehungen zwischen den Dingen?
@@ -642,7 +642,7 @@ heißt das nicht, dass man es überall benutzen muss.
 
 00:11:34,020 --> 00:11:40,140
 Und ein klares Design, eine klare Modellierung
-mittels UML kann es vereinfachen,
+mittels UML, kann es vereinfachen,
 
 00:11:40,140 --> 00:11:44,865
 erst mal sinnvoll zu ermitteln, wann man
@@ -707,7 +707,7 @@ auch auf Modellierung und auf die
 Softwareentwicklung im Allgemeinen.
 
 00:12:52,970 --> 00:12:56,090
-Wie ist es dann, etwas genauer zu fassen?
+Wie ist es dann etwas genauer zu fassen?
 
 00:12:56,090 --> 00:12:57,800
 Also, die Idee ist:
@@ -732,7 +732,7 @@ Und diese Daten, zusammen mit der Funktionalität,
 
 00:13:16,010 --> 00:13:21,110
 die auf diesen Daten operiert, die werden
-gemeinsam organisiert, gemeinsam zusammengefasst.
+gemeinsam organisiert, gemeinsam zusammengefasst
 
 00:13:21,110 --> 00:13:24,890
 (man spricht auch von einer Kapselung),
@@ -1404,11 +1404,11 @@ Da die reale Welt sich oftmals so vorgestellt
 werden kann (als bestehend aus Dingen und deren
 
 00:26:16,220 --> 00:26:24,260
-Eigenschaften, plus Beziehungen dazwischen,
-ist es eben für viele Bereiche auch nützlich.
+Eigenschaften, plus Beziehungen dazwischen),
+ist es eben für viele Bereiche auch nützlich,
 
 00:26:24,260 --> 00:26:27,680
-Direkt die Softwaremodellierung
+direkt die Softwaremodellierung
 auf diese Weise durchzuführen.
 
 00:26:27,680 --> 00:26:31,340

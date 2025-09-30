@@ -8,7 +8,7 @@ Petrinetzes mit den Namen der Objektknoten und
 
 0:00:18.780,0:00:33.360
 Aktionen übereinstimmen. Andere Hilfsstellen oder
-Transitionen müssen nicht beschriftet werden.
+Hilfstransitionen müssen nicht beschriftet werden.
 
 0:00:34.620,0:00:47.040
 Hier ist das entsprechende Aktivitätsdiagramm,
@@ -209,7 +209,7 @@ Optional kann man weitere Stellen einfügen.
 
 0:11:08.400,0:11:15.120
 Es wäre möglich, dass nach F und nach G
-weitere Stellen existieren. Aber wie gesagt
+weitere Stellen existieren. Aber wie gesagt,
 
 0:11:15.120,0:11:19.800
 das ist optional. Es könnte also so aussehen,
@@ -217,7 +217,7 @@ dass hier und dort noch eine Stelle ist.
 
 0:11:25.080,0:11:39.960
 Dafür müssen noch Pfeile von F und dem
-Vereinigungsknoten des Joins am Ende existieren.
+Vereinigungsknoten (des Joins am Ende) existieren.
 
 0:11:43.260,0:11:51.840
 Damit ist die Umwandlung in das Petrinetz

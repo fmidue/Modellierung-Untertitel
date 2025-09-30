@@ -139,7 +139,7 @@ Habe ich das Modellbau-Auto nur, um mir das
 Auto anschauen zu können, zu Hause im Wohnzimmer,
 
 00:02:10,720 --> 00:02:13,820
-wenn ich nicht meinem Auto in der Garage hinterher schmachtend
+wenn ich nicht meinem Auto in der Garage hinterher schmachten
 kann?
 
 00:02:13,820 --> 00:02:17,580
@@ -237,10 +237,10 @@ Oder virtuell.
 
 00:03:48,240 --> 00:03:56,670
 Also, wenn ich nochmal das 3D-Modell eines
-zu bauenden Wolkenkratzers mir anschaue, dann.
+zu bauenden Wolkenkratzers mir anschaue, dann
 
 00:03:56,670 --> 00:04:02,990
-Wäre der Wolkenkratzer als System natürlich
+wäre der Wolkenkratzer als System natürlich
 ein gegenständliches System von Objekten,
 
 00:04:02,990 --> 00:04:08,400
@@ -532,7 +532,7 @@ Es gibt dieses große, positiv geladene Atom
 und darin gespickt sind negative Ladungsträger.
 
 00:09:07,620 --> 00:09:12,820
-Das wurde deswegen so vorgestellt, weil
+Das wurde sich deswegen so vorgestellt, weil
 man die Elektronen beobachtet hatte im Kontext
 
 00:09:12,820 --> 00:09:13,960
@@ -692,11 +692,11 @@ Zusammenhänge gut darstellt.
 
 00:11:50,459 --> 00:11:55,200
 Und das sollten wir auch bei anderen Modellen
-durchaus sehen, dass es sinnvoll sein kann.
+durchaus sehen, dass es sinnvoll sein kann,
 
 00:11:55,200 --> 00:12:00,460
 für das gleiche System verschiedene Modellierungsstufen
-zu haben, je nachdem, was man denn eigentlich.
+zu haben. Je nachdem, was man denn eigentlich
 
 00:12:00,460 --> 00:12:04,339
 untersuchen möchte.
@@ -832,7 +832,7 @@ an den beiden Beispielen davor, ist,
 
 00:14:11,731 --> 00:14:18,440
 dass hier sehr viel mit visuellem und grafischem
-Transport und Informationen gearbeitet wird.
+Transport von Information gearbeitet wird.
 
 00:14:18,440 --> 00:14:20,530
 Das muss natürlich nicht immer so sein.
@@ -1167,11 +1167,11 @@ Oder haben wir so eine Glaskiste, oder Whitebox
 auf Englisch, wo wir auch beschreiben können,
 
 00:19:45,770 --> 00:19:50,950
-Was denn, warum denn, und wie denn wird dieses von
+was denn, warum denn, und wie denn dieses von
 außen beobachtbare Verhalten im Inneren des
 
 00:19:50,950 --> 00:19:51,950
-Systems erzeugt?
+Systems erzeugt wird.
 
 00:19:51,950 --> 00:19:59,360
 Also, wenn wir uns ein Softwaresystem vorstellen,
@@ -1229,7 +1229,7 @@ wichtig ist (und intern passieren kann, was
 dem Entwickler oder der Entwicklerin geeignet erscheint).
 
 00:20:52,920 --> 00:20:58,951
-Eine Whitebox-Ansicht auf ein System, eine Whitebox-Modellierung,
+Eine Whitebox-Sicht auf ein System, eine Whitebox-Modellierung,
 wäre wichtig für das technische Team, das
 
 00:20:58,951 --> 00:21:01,090

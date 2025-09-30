@@ -475,7 +475,7 @@ beim Modellieren ausdrücken möchte.
 
 00:08:34,190 --> 00:08:37,700
 Also, es kann sein, dass da manchmal
-sowohl die Verwendung von Aggregation,
+sowohl die Verwendung von Aggregation
 
 00:08:37,700 --> 00:08:40,640
 als auch die von Komposition sinnvoll erscheint.
@@ -693,7 +693,7 @@ die ich auf den Folien auch ausgedrückt habe.
 
 00:13:08,140 --> 00:13:12,280
 Also, irgendwie eine Assoziation als
-diese vage Form der Beziehung.
+diese am meisten vage Form der Beziehung.
 
 00:13:12,280 --> 00:13:19,390
 Die irgendwie repräsentiert, wenn

@@ -53,7 +53,7 @@ Dieses besteht ja immer aus
 bestimmten Komponenten, so
 
 00:01:07,485 --> 00:01:09,930
-wie weiter vorne (wo wir uns allgemein Graphen
+wie das weiter vorne (wo wir uns allgemein Graphen
 angeschaut haben) mathematisch definiert wurde.
 
 00:01:12,810 --> 00:01:15,330
@@ -139,7 +139,7 @@ vor dem Übergang und genau
 zum Folgezustand geführt hat.
 
 00:02:47,640 --> 00:02:55,920
-Dann erhalten wir als Kantenmenge oder Übergänge,
+Dann erhalten wir als Kantenmenge (bzw. als Übergänge)
 genau die Tripel bestehend aus Markierung,
 
 00:02:57,840 --> 00:03:03,030
@@ -156,10 +156,10 @@ von m nach m' mit dem Label t,
 
 00:03:13,710 --> 00:03:23,280
 also mit Beschriftung t an dem Pfeil,
-genau dann, wenn t aktiviert ist in
+genau dann, wenn t in
 
 00:03:23,280 --> 00:03:28,020
-Markierung m und nach dem Schalten
+Markierung m aktiviert ist und nach dem Schalten
 genau die Markierung m' entsteht.
 
 00:03:29,970 --> 00:03:33,960
@@ -251,7 +251,7 @@ Graphen nicht in endlicher Zeit auf eine
 
 00:05:03,040 --> 00:05:07,750
 Folie malen, wie ich das jetzt hier für
-das Beispiel in der Folge gleich tun werde.
+das Beispiel gleich tun werde.
 
 00:05:12,190 --> 00:05:16,300
 Und zwar betrachten wir genau den
@@ -473,17 +473,17 @@ Marke hier anders gesetzt denken.
 
 00:08:37,870 --> 00:08:39,130
 Jetzt geht es ja nicht mehr
-um die Startmarkierung.
+um die Startmarkierung,
 
 00:08:39,130 --> 00:08:40,870
-Sondern um die aktuelle Markierung (0,1,2).
+sondern um die aktuelle Markierung (0,1,2).
 
 00:08:40,870 --> 00:08:43,900
 Also, wenn hier nichts liegt, hier
 eine Marke liegt und hier zwei,
 
 00:08:45,790 --> 00:08:48,730
-welche Transition wären denn dann schaltbar?
+welche Transitionen wären denn dann schaltbar?
 
 00:08:48,730 --> 00:08:51,280
 Die t1 wäre nicht mehr schaltbar,
@@ -517,7 +517,7 @@ Und dass dabei die beiden Markierungen
 (1,1,1) bzw. (0,2,1) entstehen.
 
 00:09:22,450 --> 00:09:29,200
-Das können wir jetzt auch in unserem
+Das können wir jetzt auch in unseren im
 Entstehen begriffenen Graphen eintragen.
 
 00:09:29,200 --> 00:09:33,040
@@ -567,8 +567,8 @@ Aber das habe ich jetzt nicht
 mehr schon auf vorhandenen Folien.
 
 00:10:24,700 --> 00:10:27,520
-Also, ich hatte keine weiteren
-Sachen hier durchgerechnet.
+Also, ich hatte hier keine weiteren
+Sachen durchgerechnet.
 
 00:10:27,520 --> 00:10:31,000
 Aber natürlich kann man für die neuen

@@ -762,7 +762,7 @@ die in dem Aktivitätsdiagramm gar nicht sichtbar
 waren, weil da andere Elemente drin vorkommen.
 
 00:14:03,960 --> 00:14:08,760
-O.k., das hatte ich auch gerade schon angedeutet.
+O.k., das hatte ich gerade auch schon angedeutet.
 
 00:14:08,760 --> 00:14:12,990
 Also das, was da gerade in diesen eckigen
@@ -830,7 +830,7 @@ von diesen Objekten Bezug nehmen.
 
 00:15:17,250 --> 00:15:18,750
 Vielleicht irgendwelche
-booleschen Bedingungen überprüfen.
+Booleschen Bedingungen überprüfen.
 
 00:15:18,750 --> 00:15:20,880
 Aber das werden wir so detailliert nicht machen,
@@ -936,7 +936,7 @@ Stelle habe und es gibt aus zwei verschiedenen
 
 00:17:03,780 --> 00:17:06,990
 Richtungen jeweils einen
-Pfeil von Transitionen dahin, dann kann es eben sein,
+Pfeil von Transitionen dahin, es dann eben sein kann,
 
 00:17:06,990 --> 00:17:10,980
 dass in diesem Fall von links ein Token
@@ -1384,10 +1384,10 @@ damit auch die Transitionen, die hier unten
 
 00:25:40,590 --> 00:25:46,230
 Also eine Stelle mit so vielen
-Marken wie aus dem Startknoten
+Marken wie es aus dem Startknoten
 
 00:25:46,230 --> 00:25:49,080
-des Aktivitätsdiagramms ausgehende Pfeile.
+des Aktivitätsdiagramms ausgehende Pfeile gibt.
 
 00:25:49,080 --> 00:25:59,100
 O.k., dann gibt es so eine Regel, dass
@@ -1636,7 +1636,7 @@ Da hatte ich gerade nur angedeutet,
 das wird in der Regel irgendwie
 
 00:30:46,380 --> 00:30:50,400
-entweder eine Stelle sein, an der ein Token zwar
+entweder eine Stelle sein, in der zwar ein Token
 landet, aber es dann von da aus nicht weitergeht,
 
 00:30:50,400 --> 00:30:53,910
@@ -1851,8 +1851,8 @@ Für die werde ich aber nicht jeweils immer
 eine volle Übersetzung in Petrinetze angeben.
 
 00:35:00,220 --> 00:35:05,920
-Sie müssen dann natürlich auch in der Übung
-oder Klausur nur Aktivitätsdiagramme in
+Sie müssen dann natürlich auch in den Übungen
+oder der Klausur nur die Art Aktivitätsdiagramme in
 
 00:35:05,920 --> 00:35:09,430
 Petrinetze übersetzen können, für die wir
@@ -2192,4 +2192,4 @@ als wir hier schon gesehen haben.
 
 00:41:01,460 --> 00:41:06,020
 Und auf jeden Fall mehr als Petrinetze,
-wo es ja nur Stellen und Transitionen gab."
+wo es ja nur Stellen und Transitionen gab.

@@ -189,7 +189,7 @@ für Ziffer eins modellieren und dann für
 
 0:04:17.730,0:04:24.040
 Ziffer zwei und drei übernehmen, da was bei
-den Ziffern passieren kann, quasi das Gleiche
+den Ziffern passieren kann, quasi das gleiche
 
 0:04:24.040,0:04:25.040
 ist.
@@ -199,11 +199,11 @@ Bei den Ziffern haben wir die Möglichkeit,
 dass es auf eins stehen kann, dass der Bildschirm
 
 0:04:33.259,0:04:36.340
-an der Stelle der Ziffer zwei angezeigt werden kann.
+an der Stelle der Ziffer Zwei angezeigt werden kann.
 
 0:04:36.340,0:04:51.510
-Es besteht die Möglichkeit, die drei und zuletzt
-auch die vier anzuzeigen.
+Es besteht die Möglichkeit, die Drei und zuletzt
+auch die Vier anzuzeigen.
 
 0:04:51.510,0:05:02.190
 Wir müssen zwischen den Ziffern hin und her
@@ -237,7 +237,7 @@ Daher muss es in dieser Region noch einen
 Startpunkt geben.
 
 0:05:46.140,0:05:47.880
-Der soll auf die eins gerichtet sein.
+Der soll auf die Eins gerichtet sein.
 
 0:05:47.880,0:05:56.979
 Daher setzen wir hier einen Startpunkt mit
@@ -346,7 +346,7 @@ Ziffer nach rechts ausgewählt wird, wenn
 wir R drücken.
 
 0:08:59.100,0:09:10.589
-Das bedeutet, dass wir hier zwischen Pfeilen
+Das bedeutet, dass wir hierzwischen Pfeile
 machen, damit immer beim Drücken von R die
 
 0:09:10.589,0:09:17.080
@@ -377,8 +377,8 @@ zu der Ziffer zurück gewechselt.
 Das kann ich direkt modellieren.
 
 0:09:59.870,0:10:10.990
-Das bedeutet, dass, wenn wir bei eins sind
-und L drücken, es direkt zu eins wechselt.
+Das bedeutet, dass, wenn wir bei Eins sind
+und L drücken, es direkt zu Eins wechselt.
 
 0:10:10.990,0:10:15.070
 Da muss noch ein L hin.
@@ -552,7 +552,7 @@ Das bedeutet, wir müssen hier auch wieder
 u1 dran schreiben.
 
 0:14:16.639,0:14:24.370
-Hier muss also u1 dran, und das Gleiche gilt
+Hier muss also u1 dran, und das gleiche gilt
 hier.
 
 0:14:24.370,0:14:33.570
@@ -796,7 +796,7 @@ Die müssen natürlich verbunden werden.
 
 0:21:04.840,0:21:10.730
 Ich modelliere es wieder für Ziffer Eins
-und kopiere es dann für die anderen beiden.
+und kopiere es dann für die anderen beiden
 
 0:21:10.730,0:21:13.120
 Ziffern.
@@ -816,7 +816,7 @@ Ich habe jetzt überall plus und minus dran
 geschrieben.
 
 0:21:40.700,0:21:44.970
-Das meinte ich jetzt mit etwas intuitiver.
+Das jetzt meinte ich mit "etwas intuitiver".
 
 0:21:44.970,0:21:54.140
 Man wechselt von eins mit plus zu zwei, von
@@ -1039,7 +1039,7 @@ Das haben wir auch geklärt.
 Daher müssen wir noch zu Ziffer drei.
 
 0:27:20.940,0:27:22.870
-Was passiert da beim Nach-links- oder Rechtsgehen?
+Was passiert da beim Nach-links- oder Nach-rechts-Gehen?
 
 0:27:22.870,0:27:26.530
 Das ist ein Synonym zu dem hier.
@@ -1050,7 +1050,7 @@ gehen, kommen wir zu Zustand eins zurück.
 
 0:27:30.409,0:27:35.990
 Wir brauchen hier also nur einen Pfeil, der
-hier oben zur Tiefenhistorie zurückgeht.
+hier oben zur Tiefen Historie zurückgeht.
 
 0:27:35.990,0:27:46.630
 Da schreiben wir dran, dass es gilt, wenn

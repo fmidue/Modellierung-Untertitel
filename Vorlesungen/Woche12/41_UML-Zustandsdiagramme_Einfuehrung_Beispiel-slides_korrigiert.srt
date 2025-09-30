@@ -482,7 +482,7 @@ der Knöpfe an- und ausschalten,
 
 00:08:59,770 --> 00:09:04,180
 also wechseln zwischen den
-"an" und "aus"-Situationen.
+"an"- und "aus"-Situationen.
 
 00:09:06,010 --> 00:09:09,250
 Zum Wechsel ist dieser Knopf "a" gedacht.
@@ -715,10 +715,9 @@ Das möchten wir nicht.
 Also suchen wir nach einer
 kompakteren Darstellung.
 
-
 00:12:48,140 --> 00:12:59,150
 Und das wird eben analog zu dem Beispiel von Harel
-über ein UML-Zustandsdiagramm realisiert werden.
+über ein UML-Zustandsdiagramm realisiert werden
 
 00:12:59,150 --> 00:13:01,940
-In den folgenden Videos.
+(in den folgenden Videos).

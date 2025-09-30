@@ -20,7 +20,7 @@ Das sind bei weitem nicht alle,
 die in UML vorhanden sind.
 
 00:00:32,550 --> 00:00:36,270
-Also gibt es noch Abhängigkeit,
+Also, es gibt noch Abhängigkeit,
 Nutzungsbeziehungen, Generizität,
 
 00:00:36,270 --> 00:00:37,710
@@ -226,10 +226,10 @@ etwas abgespeichert, das auf ein B verweist.
 
 00:05:02,250 --> 00:05:05,760
 Allerdings wird es so sein (deswegen ist
-das nochmal sehr stark hervorgehoben).
+das nochmal sehr stark hervorgehoben),
 
 00:05:05,760 --> 00:05:10,260
-Dass man diese spezielle Art der Attribute eben
+dass man diese spezielle Art der Attribute eben
 dann nicht mehr in die Klassen eintragen wird.
 
 00:05:10,260 --> 00:05:14,220
@@ -544,7 +544,7 @@ direkt an der Verbindungslinie angefügt.
 Dadurch wird die Navigationsrichtung ausgedrückt.
 
 00:11:22,960 --> 00:11:27,160
-Und diese beschreibt, welche Objekte welcher Klasse
+Und diese beschreibt, Objekte welcher Klasse
 
 00:11:27,160 --> 00:11:33,940
 ihre Assoziationspartner kennen müssen und
@@ -591,7 +591,7 @@ kein Attribut mit Typ Person gibt.
 
 00:12:21,210 --> 00:12:27,930
 In einem gewissen Sinne sind diese
-Navigationsrichtungen ein Hinweis,
+Navigationsrichtungen ein Hinweis
 
 00:12:27,930 --> 00:12:29,430
 oder ein Vorgriff auf die Implementierung.
@@ -1059,7 +1059,7 @@ UML selbst gibt keine Standard-Multiplizität vor.
 
 00:22:23,480 --> 00:22:28,280
 In manchen Büchern steht, vereinbart
-als Standard-Multiplizität 1.
+als Standard-Multiplizität ist die 1.
 
 00:22:28,280 --> 00:22:30,020
 Aber UML selbst gibt keine vor.

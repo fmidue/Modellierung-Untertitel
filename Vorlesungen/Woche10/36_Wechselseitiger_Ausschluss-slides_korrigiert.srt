@@ -468,7 +468,7 @@ ohne das schrittweise zu entwickeln.
 
 00:08:11,070 --> 00:08:16,080
 Also, wir sehen hier, wenn wir die
-Stellenreihefolge NK1, K1, K2,
+Stellenreihenfolge NK1, K1, K2,
 
 00:08:16,080 --> 00:08:25,380
 NK2 nehmen (also im Grunde genommen so wie
@@ -540,7 +540,7 @@ der Vergangenheit geholfen?
 
 00:09:31,380 --> 00:09:37,680
 Und nun, tatsächlich auch bei dem Beispiel
-davor im Kontext der speisenden Philosophen
+davor im Kontext der Speisenden Philosophen
 
 00:09:37,680 --> 00:09:40,800
 kann man vom wechselseitigen
@@ -566,7 +566,7 @@ Ich bespreche das jetzt nur
 für den einfachsten Fall.
 
 00:10:01,020 --> 00:10:03,210
-Wir gucken uns die speisenden Philosophen an.
+Wir gucken uns die Speisenden Philosophen an.
 
 00:10:03,210 --> 00:10:06,390
 Das haben wir vor kurzem erst getan,
@@ -796,7 +796,7 @@ werden, wenn Philosoph 1 diese Gabel
 wieder abgelegt hat, also gegessen hat.
 
 00:14:17,080 --> 00:14:21,130
-Das ist ein Konflikt, natürlich.
+Das ist natürlich ein Konflikt.
 
 00:14:21,130 --> 00:14:25,720
 Das heißt, dass diese beiden Transitionen

@@ -241,11 +241,11 @@ nämlich die Tatsache, dass sie diesen Wert tragen.
 
 0:04:48.300,0:04:54.390
 Also vielleicht ergibt es Sinn, das als zwei
-Unterklassen einer allgemeineren Klasse zu haben.
+Unterklassen einer allgemeineren Klasse zu haben,
 
 0:04:54.390,0:05:00.900
 welche für Knoten steht (unabhängig von
-Blatt- oder inneren Knoten; und die dieses.
+Blatt- oder inneren Knoten; und die dieses
 
 0:05:00.900,0:05:06.480
 Attribut "value" hat), und von der die anderen
@@ -404,7 +404,7 @@ Was dann konkret heißt, dass die Kinder eines
 
 0:07:58.530,0:08:03.000
 Knotens sowohl Blattknoten als
-auch inneren Knoten sein können.
+auch innere Knoten sein können.
 
 0:08:03.000,0:08:11.220
 Weil die beide von der abstrakten Klasse "Knoten"
@@ -430,7 +430,7 @@ Nehmen wir an, wir möchten gern zu den Knoten
 und den Verbindungen jeweils auch wissen,
 
 0:08:50.420,0:08:54.260
-was der linke und der rechte Nachfolger sind.
+was der linke und was der rechte Nachfolger ist.
 
 0:08:54.260,0:09:01.190
 Also statt einfach wie in diesem
@@ -563,8 +563,8 @@ wäre eine Konstellation wie die folgende
 mit drei Knoten und folgender Assoziation.
 
 0:11:51.890,0:12:00.860
-Dass nämlich der Knoten drei linker Nachfolger
-von zwei und rechter Nachfolger von eins wäre.
+Dass nämlich der Knoten Drei linker Nachfolger
+von Zwei und rechter Nachfolger von Eins wäre.
 
 0:12:00.860,0:12:03.350
 Und das wäre keine Baumstruktur mehr.
@@ -578,7 +578,7 @@ Hier hätte das dieses 0..1 verhindert.
 
 0:12:13.100,0:12:17.900
 Es gibt höchstens einen Vorgänger und
-nicht einen Vorgänger, dessen linker
+nicht einen Vorgänger, dessen linker,
 
 0:12:17.900,0:12:21.350
 und einen Vorgänger, dessen

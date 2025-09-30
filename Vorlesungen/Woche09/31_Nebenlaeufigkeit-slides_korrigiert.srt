@@ -457,8 +457,8 @@ schöner sozusagen als Beobachtung.
 Okay, ein erstes Beispiel.
 
 00:08:15,520 --> 00:08:20,710
-Und tatsächlich ist das das Petrinetz,
-das wir auch schon bei der Kausalität.
+Und tatsächlich ist dies das Petrinetz,
+das wir auch schon bei der Kausalität
 
 00:08:20,710 --> 00:08:24,400
 betrachtet hatten, und auf das ich

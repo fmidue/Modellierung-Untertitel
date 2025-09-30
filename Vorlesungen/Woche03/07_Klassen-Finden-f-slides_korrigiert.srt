@@ -729,10 +729,10 @@ was denn Klassen und Attribute sein können.
 
 00:13:27,880 --> 00:13:30,970
 Der nächste Schritt wäre dann, zwischen
-diesen Klassen, die man identifiziert hat,
+diesen Klassen, die man identifiziert hat
 
 00:13:30,970 --> 00:13:37,270
-(das System und der Memberbegriff)
+(das System und der Memberbegriff),
 irgendwelche Beziehungen abzuleiten,
 
 00:13:37,270 --> 00:13:40,090
@@ -944,7 +944,7 @@ die wären einfach nur Striche.
 Wir werden lernen, dass es verschiedene Arten von
 
 00:17:27,420 --> 00:17:30,060
-Beziehungen gibt es, die jeweils
+Beziehungen gibt, die jeweils
 ihre eigene Bedeutung haben.
 
 00:17:30,060 --> 00:17:34,680

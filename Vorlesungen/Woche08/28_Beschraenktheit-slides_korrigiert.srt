@@ -225,10 +225,10 @@ dass da in der Petrinetz-Darstellung niemals
 eine Zahl größer 1 als Gewicht steht,
 
 00:04:25,400 --> 00:04:27,890
-als auch jede erreichbare Markierung (also jeder
+als auch die Eigenschaft, dass jede erreichbare Markierung (also jeder
 
 00:04:27,890 --> 00:04:32,720
-Knoten im Erreichbarkeitsgraphen darf nichts größer 1 enthalten.
+Knoten im Erreichbarkeitsgraphen) nichts größer als 1 enthält.
 
 00:04:32,720 --> 00:04:34,940
 Das ist tatsächlich eine
@@ -282,7 +282,7 @@ Das bezieht sich also auf "1-sicher":
 
 00:05:36,860 --> 00:05:44,180
 Gewichte nur 1, jede Markierung enthält
- nur maximal ein Token pro Stelle, etc.
+nur maximal ein Token pro Stelle, etc.
 
 00:05:44,180 --> 00:05:45,890
 Das ist sehr beschränkt.

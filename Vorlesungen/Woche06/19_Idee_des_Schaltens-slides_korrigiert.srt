@@ -261,7 +261,7 @@ Aber der Punkt ist, diejenigen Stellen, die
 einen eingehenden Pfeil in eine Transition haben,
 
 00:04:30,630 --> 00:04:32,970
-werden Vorbedingungen dieser Transition genannt.
+werden zusammen die Vorbedingung dieser Transition genannt.
 
 00:04:32,970 --> 00:04:40,080
 Das sind also Plätze, wo Marken liegen sollen,
@@ -275,7 +275,7 @@ Und alle Stellen/Plätze, die nach
 einer konkreten Transition liegen,
 
 00:04:48,270 --> 00:04:50,490
-werden Nachbedingungen dieser Transition genannt.
+werden zusammen die Nachbedingung dieser Transition genannt.
 
 00:04:50,490 --> 00:04:55,080
 Das sind also Stellen/Plätze, in die
@@ -286,7 +286,7 @@ Und die Transitionen sind die
 eigentlichen Informationsträger.
 
 00:04:59,640 --> 00:05:02,070
-Da wird konkret festgehalten:
+Da wird konzertiert festgehalten:
 
 00:05:02,070 --> 00:05:04,260
 Wie ändern sich denn die Marken?
@@ -336,7 +336,7 @@ anders ist, dann ist es eben analog.
 
 00:05:51,090 --> 00:05:57,300
 Und genau diesen Wechsel, das Entfernen der
-Marken der Vorbedingungen und dann gleichzeitiges
+Marken der Vorbedingung und dann gleichzeitiges
 
 00:05:57,300 --> 00:06:02,340
 Erzeugen der Marken in der Nachbedingung, nennt
@@ -366,7 +366,7 @@ dass zum Beispiel hier genau eine
 
 00:06:19,470 --> 00:06:23,130
 Marke jeweils lag und hinterher genau
-eine Marke in den Nachbedingungen.
+eine Marke in der Nachbedingung.
 
 00:06:23,130 --> 00:06:26,550
 Es könnten hier auch vorher schon mehr
@@ -779,7 +779,7 @@ Wann gibt es solche Konflikte?
 Welche Konsequenzen hat das?
 
 00:13:11,590 --> 00:13:13,780
-Können wir in Situationen geraten etwa,
+Können wir etwa in Situationen geraten,
 
 00:13:13,780 --> 00:13:18,100
 in denen das System dann tot ist, weil

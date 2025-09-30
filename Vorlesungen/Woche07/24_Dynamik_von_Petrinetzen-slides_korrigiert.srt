@@ -214,14 +214,14 @@ Man hätte auch m1, m2 sagen können.
 
 00:04:18,430 --> 00:04:21,430
 Und wie ist dann definiert,
-dass m' kleiner gleich m ist?
+dass m' kleiner oder gleich m ist?
 
 00:04:22,450 --> 00:04:25,730
-Falls für alle Stellen aus der entsprechenden zu
+Falls für alle Stellen aus der entsprechenden
 
 00:04:25,730 --> 00:04:29,750
-grundliegende Menge gilt, dass
-m' von s kleiner gleich m von s ist.
+zugrundliegenden Menge gilt, dass
+m' von s kleiner oder gleich m von s ist.
 
 00:04:29,750 --> 00:04:34,220
 Also, dass an der Stelle s die
@@ -236,7 +236,7 @@ Und das muss für alle Stellen zutreffen.
 
 00:04:40,850 --> 00:04:46,940
 Dann sagen wir, dass die Markierung m'
-insgesamt kleiner-gleich der Markierung m ist.
+insgesamt kleiner oder gleich der Markierung m ist.
 
 00:04:46,940 --> 00:04:52,850
 Da geht es nicht darum, wie die Summe
@@ -286,14 +286,14 @@ der Stellen gesehen, das Tripel (0, 0, 1).
 
 00:05:41,480 --> 00:05:47,780
 Und dann würde hier tatsächlich gelten, dass
-m' kleiner-gleich m ist, aber nicht umgekehrt.
+m' kleiner oder gleich m ist, aber nicht umgekehrt.
 
 00:05:47,780 --> 00:05:48,920
 Warum ist m' <= m?
 
 00:05:48,920 --> 00:05:54,590
-Weil 0 kleiner-gleich 0, und 0
-kleiner-gleich 1, und 1 kleiner-gleich 2 ist.
+Weil 0 gleich 0, und 0
+kleiner 1, und 1 kleiner 2 ist.
 
 00:05:54,590 --> 00:05:55,730
 Umgekehrt gilt das aber nicht.
@@ -317,7 +317,7 @@ Jede Markierung wird durch sich selbst überdeckt,
 
 00:06:17,900 --> 00:06:22,160
 trivialerweise, weil sie an jeder Stelle
-kleiner-gleich, nämlich gleich, ist.
+kleiner oder gleich, nämlich gleich, ist.
 
 00:06:22,160 --> 00:06:24,890
 Was aber eben nicht gilt,
@@ -346,7 +346,7 @@ Es müsste aber für jede
 Stelle gelten, dass die Zahl,
 
 00:06:46,940 --> 00:06:48,860
-die hier steht, kleiner-gleich
+die hier steht, kleiner oder gleich
 der Zahl ist, die dort steht.
 
 00:06:48,860 --> 00:06:53,690
@@ -539,7 +539,7 @@ der Subtraktion zweier beliebiger natürlicher
 Zahlen immer eine natürliche Zahl herauskommt.
 
 00:10:09,640 --> 00:10:15,850
-Zum Beispiel bei 3 und 5 ist das nicht der Fall,
+Zum Beispiel bei 3 und 5 ist das nicht der Fall:
 3 + 5 = 8, aber 3 - 5 ist keine natürliche Zahl.
 
 00:10:15,850 --> 00:10:20,410
@@ -608,7 +608,7 @@ Hier oben für die Summe hätten
 wir auch schreiben können:
 
 00:11:31,330 --> 00:11:34,750
-Das, was hier als Zweites steht
+Das, was hier als Zweites steht,
 plus das, was hier als Erstes steht.
 
 00:11:34,750 --> 00:11:42,340
@@ -755,7 +755,7 @@ Wir entnehmen allen Stellen der Vorbedingung,
 
 00:14:06,810 --> 00:14:10,140
 also mit eingehenden Pfeilen zu
-t entsprechend viele Marken.
+t, entsprechend viele Marken.
 
 00:14:10,140 --> 00:14:12,840
 Wobei "entsprechend viele"
@@ -1035,7 +1035,7 @@ wo es um die Äquivalenz der grafischen
 und mathematischen Darstellung ging.
 
 00:19:32,300 --> 00:19:34,820
-Also gibt es eine Folie, in den
+Also, es gibt eine Folie in den
 Folien der vergangenen Woche,
 
 00:19:34,820 --> 00:19:38,450
@@ -1177,7 +1177,7 @@ Wenn wir jetzt wissen wollen, was
 in zwei Schritten passiert, dann
 
 00:22:29,960 --> 00:22:32,570
-Müssen wir den nächsten Schritt hiervon
+müssen wir den nächsten Schritt hiervon
 ausgehend machen, nicht mehr von m0 aus.
 
 00:22:34,070 --> 00:22:42,710
@@ -1190,7 +1190,7 @@ weil sie nur etwas aus s3 entnimmt.
 
 00:22:47,990 --> 00:22:51,920
 Dieses (0,0,1) wird dadurch
-überdeckt. t2 ist also ausführbar.
+überdeckt. Also ist t2 ausführbar.
 
 00:22:54,500 --> 00:23:00,230
 Dann ist m2 die aktuelle Markierung
