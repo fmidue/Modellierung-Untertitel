@@ -46,10 +46,10 @@ flaches Zustandsdiagramm ist.
 
 00:00:57,990 --> 00:01:02,910
 Aber später wird es eben in einem größeren
-Zustandsdiagramm geschachtelt auftreten.
+Zustandsdiagramm geschachtelt auftreten,
 
 00:01:02,910 --> 00:01:03,840
-Und dann nicht mehr flach sein.
+und dann nicht mehr flach sein.
 
 00:01:03,840 --> 00:01:08,160
 Also zunächst erstmal nur ganz
@@ -125,7 +125,7 @@ zählen bis 59 hoch, jeweils nach 1 Minute,
 
 00:02:08,370 --> 00:02:11,940
 weil das die Minutenanzeige sein
-soll und kehren dann zu null zurück.
+soll, und kehren dann zu null zurück.
 
 00:02:11,940 --> 00:02:13,470
 Und dann geht das immer so weiter.
@@ -259,14 +259,14 @@ Und so völlig losgelöst oder völlig anders als
 
 00:04:33,990 --> 00:04:37,530
 der Begriff der Transitionen in
-Petri-Netzen ist es ja auch nicht.
+Petrinetzen ist es ja auch nicht.
 
 00:04:37,530 --> 00:04:42,510
 Es geht ja auch darum, eine Vermittlung
 herzustellen zwischen zwei Zuständen hier.
 
 00:04:42,510 --> 00:04:48,810
-Im Petri-Netz eben zwischen zwei Stellen, bzw.
+Im Petrinetz eben zwischen zwei Stellen, bzw.
 der Transport von Marken zwischen Stellen.
 
 00:04:49,470 --> 00:04:51,480
@@ -275,7 +275,7 @@ einfach hier dieser Pfeil,
 
 00:04:51,480 --> 00:04:55,050
 und nicht irgendein Extraknoten,
-wie das in Petri-Netzen der Fall war.
+wie das in Petrinetzen der Fall war.
 
 00:04:55,050 --> 00:04:59,430
 Im Allgemeinen steht auf
@@ -923,7 +923,7 @@ Das soll für Stunde ("hour") stehen.
 
 00:16:40,500 --> 00:16:45,840
 Dieser Effekt h sorgt als Trigger
-in den parallelen Regionen dafür,
+in der parallelen Region dafür,
 
 00:16:45,840 --> 00:16:48,120
 dass die Stunden hochgezählt werden.

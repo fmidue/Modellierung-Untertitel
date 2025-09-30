@@ -225,7 +225,7 @@ auch der linke hierarchische Zustand haben
 
 00:04:22,120 --> 00:04:27,880
 genau noch eine Schachtelungsebene und keine
-tieferen weiteren hierarchischen Schachtelungen.
+tieferen weiteren hierarchischen Schachtelungen,
 
 00:04:27,880 --> 00:04:31,450
 wo es einen Unterschied machen würde, ob
@@ -431,7 +431,7 @@ Das sind ein paar Varianten, dass wir
 diese drei Pfeile hätten weglassen
 
 00:08:55,200 --> 00:08:58,680
-könnten und dass wir statt der flachen auch
+können und dass wir statt der flachen auch
 die tiefe Historie hätten nehmen können.
 
 00:08:58,680 --> 00:09:08,280
@@ -446,7 +446,7 @@ Was fehlt denn noch?
 
 00:09:12,450 --> 00:09:20,280
 Nun, was bisher noch gar nicht realisiert ist,
-ist, dass diese Alarmeinstellung wirklich etwas.
+ist, dass diese Alarmeinstellung wirklich etwas
 
 00:09:20,280 --> 00:09:24,090
 damit zu tun hat, ob denn nun gepiept wird
@@ -462,7 +462,7 @@ wird hier ein Signal ausgelöst.
 
 00:09:32,430 --> 00:09:37,860
 Eigentlich soll die Uhr das Signal aber nur
-auslösen, wenn tatsächlich der Alarm eingestellt.
+auslösen, wenn tatsächlich der Alarm eingestellt
 
 00:09:37,860 --> 00:09:43,050
 ist. Aber es gibt bisher keine Verbindung oder
@@ -485,7 +485,7 @@ in einer Programmiersprache.
 
 00:10:00,270 --> 00:10:04,890
 Eine Variable, in der wir Werte speichern
-können, zum Beispiel eine boolesche Variable,
+können, zum Beispiel eine Boolesche Variable,
 
 00:10:04,890 --> 00:10:10,500
 die können wir an und aus schalten,
@@ -548,7 +548,7 @@ brauchen wir diesen Historienknoten gar nicht,
 weil wir genauso gut auch beim Eintritt hier
 
 00:11:37,290 --> 00:11:42,900
-einfach nur dieses Flag ablesen können,
+einfach nur diesem Flag ablesen können,
 ob wir in diesen oder in diesen Zustand wollen.
 
 00:11:49,560 --> 00:11:52,260
@@ -574,10 +574,10 @@ Zustandes, aber insbesondere hier bei
 
 00:12:13,890 --> 00:12:22,890
 den Übergängen tun wir etwas, indem wir nämlich
-hier statt von rechts
+hier, statt von rechts
 
 00:12:22,890 --> 00:12:28,500
-nach links die Historie verwenden, das einfach von diesem Flag abhängig
+nach links die Historie zu verwenden, es einfach von diesem Flag abhängig
 machen, ob wir zum An- oder zum Aus-Zustand gehen.
 
 00:12:28,500 --> 00:12:30,960
@@ -666,7 +666,7 @@ dessen werden wir auch gleich noch
 
 00:14:13,090 --> 00:14:18,790
 den dritten Aspekt modellieren,
-nämlich dass die Uhr eine Batterie hat.
+nämlich dass die Uhr eine Batterie hat,
 
 00:14:18,790 --> 00:14:26,980
 die leer werden kann. Und wenn die Batterie

@@ -426,7 +426,7 @@ Für jede von m0 aus erreichbare
 Markierung m muss es möglich sein,
 
 00:07:59,290 --> 00:08:01,570
-m' zu erreichen, für die t aktiviert ist.
+die Markierung m' zu erreichen, für die t aktiviert ist.
 
 00:08:01,570 --> 00:08:07,090
 Also das ist eine schwächere Forderung, weil man
@@ -623,7 +623,7 @@ die hat natürlich auch eine Definition.
 Auch wenn wir schon intuitiv gesehen haben,
 
 00:11:48,510 --> 00:11:51,600
-was das bedeutet und vielleicht gar
+was das bedeutet, und wir vielleicht gar
 keine formale Definition brauchen.
 
 00:11:51,600 --> 00:11:53,280
@@ -805,8 +805,8 @@ Das gilt, weil wir keine
 Transitionsmengen haben, die leer sind.
 
 00:14:57,300 --> 00:14:59,130
-Wenn man in Petrinetzen auch
-leere Transitionsmengen zuließe,
+Wenn man in Petrinetzen auch die
+leere Transitionsmenge zuließe,
 
 00:14:59,970 --> 00:15:03,810
 dann würde diese Aussage hier nur

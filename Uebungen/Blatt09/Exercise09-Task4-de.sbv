@@ -15,7 +15,7 @@ zeigt wie dieses hier mit Kapazitäten.
 
 0:00:19.900,0:00:25.060
 Nachmal ganz kurz zur Wiederholung: Kapazitäten
-bedeutet einfach nur, dass die Anzahl der
+bedeuten einfach nur, dass die Anzahl der
 
 0:00:25.060,0:00:28.150
 Tokens in der jeweiligen Stelle limitiert
@@ -83,7 +83,7 @@ nur, dass zu jeder Stelle mit Kapazitäten
 
 0:01:30.189,0:01:39.790
 eine Komplementärstelle hinzugefügt wird,
-die die Tokens hält, die maximal da sein dürfen.
+welche die Tokens hält, die maximal da sein dürfen.
 
 0:01:39.790,0:01:45.400
 Das heißt, insgesamt wird dann jede Stelle
@@ -113,8 +113,8 @@ Denn, wie ich eben schon gesagt habe, die
 Komplementärstelle und die ursprüngliche
 
 0:02:14.260,0:02:19.470
-Stelle zusammen müssen insgesamt die Menge
-der Tokens haben, die die Kapazität ist.
+Stelle zusammen müssen insgesamt die Anzahl
+der Tokens haben, welche die Kapazität ist.
 
 0:02:19.470,0:02:22.660
 Hier sind zwei Tokens in der normalen Stelle

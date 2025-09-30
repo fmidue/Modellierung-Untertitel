@@ -106,7 +106,7 @@ da alle Transitionen erreicht werden, werden
 
 0:02:05.049,0:02:10.860
 wir, wenn man von dem aus den erreichen kann, auch
-automatisch alle Transitionen erreicht.
+automatisch alle Transitionen erreichen.
 
 0:02:10.860,0:02:15.030
 Gleiches gilt für den Knoten hier unten.
@@ -453,7 +453,7 @@ Das bedeutet, wir können sagen, dieses Petrinetz
 ist beschränkt.
 
 0:09:59.130,0:10:08.269
-Das Gleiche wie vorhin.
+Das gleiche wie vorhin.
 
 0:10:08.269,0:10:26.930
 Und die Begründung dazu ist, dass kein Knoten
@@ -527,7 +527,7 @@ ist, in dem t1, t2, t3 und t4 ausgeführt
 werden kann.
 
 0:12:18.839,0:12:25.450
-Eine Begründung wäre auch gewesen, da es
+Eine Begründung wäre auch gewesen: da es
 nicht verklemmungsfrei ist. Allerdings werden
 
 0:12:25.450,0:12:28.589
@@ -614,7 +614,7 @@ Da sehen wir auch schon auf den ersten Blick,
 dass dies nicht der Fall ist.
 
 0:14:30.569,0:14:41.759
-Erstens kommen hier zwei Marken vor und bestimmt
+Erstens kommen hier Zweien vor und bestimmt
 gibt es auch nochmal einen Übergang, wo zwei
 
 0:14:41.759,0:14:43.639

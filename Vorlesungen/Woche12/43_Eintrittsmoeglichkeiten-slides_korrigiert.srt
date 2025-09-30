@@ -55,7 +55,7 @@ C und einen anderen Unterzustand B,
 
 00:01:08,480 --> 00:01:13,520
 der aber selbst auch zusammengesetzt ist aus D
-und E und dann tauchen noch andere Elemente auf.
+und E, und dann tauchen noch andere Elemente auf.
 
 00:01:15,290 --> 00:01:21,350
 Da werden wir schon vier verschiedene
@@ -159,7 +159,7 @@ dem zusammengesetzten Zustand haben, einfach
 der jeweilige Startzustand angesprochen wird,
 
 00:03:22,280 --> 00:03:27,020
-bzw. da es keine parallelen Regionen gibt, einfach
+bzw., da es keine parallelen Regionen gibt, einfach
 der Startzustand der obersten Hierarchieebene.
 
 00:03:29,420 --> 00:03:32,510
@@ -168,7 +168,7 @@ hier über diesen Standardeintritt
 
 00:03:32,510 --> 00:03:35,990
 diesen hierarchischen Zustand
-betreten, dann heißt das, was?
+betreten, was heißt das dann?
 
 00:03:35,990 --> 00:03:41,390
 Dann würde der Startzustand der äußersten
@@ -288,8 +288,8 @@ zurück in den hierarchischen Zustand A.
 Was passiert dann?
 
 00:06:20,360 --> 00:06:24,350
-Was dann passieren soll, ist in der
-tiefen Historie, dass genau zu dem
+Was dann passieren soll, ist (in der
+tiefen Historie), dass genau zu dem
 
 00:06:25,670 --> 00:06:29,870
 Unterzustand der innersten Ebene,
@@ -476,10 +476,10 @@ tiefen Historie verfahren.
 
 00:10:51,440 --> 00:10:57,260
 Also wenn wir noch nie überhaupt
-innerhalb von A gewesen sind und wir kommen
+innerhalb von A gewesen sind und wir
 
 00:10:57,260 --> 00:11:03,620
-über die flache Historie, dann wird genau wie bei
+über die flache Historie kommen, dann wird genau wie bei
 der tiefen Historie einfach dort weitergemacht,
 
 00:11:03,620 --> 00:11:09,560

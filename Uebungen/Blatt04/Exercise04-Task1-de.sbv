@@ -41,7 +41,7 @@ die Funktion aufrufen können.
 
 0:00:47.870,0:00:51.760
 Hier müssen wir aber aufpassen, denn hier
-oben steht, Picture ist eine Abstract-Klasse.
+oben steht, Picture ist eine abstrakte Klasse.
 
 0:00:51.760,0:00:57.150
 Das heißt, von der Klasse Picture kann es
@@ -117,7 +117,7 @@ Wir sehen, dass bei den Funktionen hier nur
 die Namen angegeben sind und die Angabe der
 
 0:02:21.870,0:02:25.140
-Argumente und welche Typen die Argumente haben
+Argumente, und welche Typen die Argumente haben,
 fehlt.
 
 0:02:25.140,0:02:29.599
@@ -226,21 +226,21 @@ Picture.
 
 0:04:20.060,0:04:23.840
 Das brauchen wir auch wieder nicht anzugeben,
-weil, wie ich schon erwähnte, da wird einfach
+denn, wie ich schon erwähnte, da wird einfach
 
 0:04:23.840,0:04:25.610
 nur die Klasse selber verändert.
 
 0:04:25.610,0:04:34.310
 Das heißt, für Scale konkret sind die Argumente
-einfach nur, wir haben ein x-Argument, das
+einfach nur: wir haben ein x-Argument, das
 
 0:04:34.310,0:04:37.160
-das Scaling auf der x-Achse angibt und das
-ist vom Typ Float.
+das Scaling auf der x-Achse angibt, und das
+ist vom Typ Float;
 
 0:04:37.160,0:04:42.470
-Und ein y-Argument, das das Scaling auf der
+und ein y-Argument, das das Scaling auf der
 y-Achse angibt, und das ist auch vom Typ Float.
 
 0:04:42.470,0:04:45.199
@@ -279,7 +279,7 @@ Genau, hier unten ist Extent.
 
 0:05:29.800,0:05:33.960
 Extent hat einfach nur das erste Element,
-das vom Typ Picture ist und gibt einen Float
+das vom Typ Picture ist, und gibt einen Float
 
 0:05:33.960,0:05:34.960
 zurück.
@@ -297,11 +297,11 @@ Klammer an, da keine Argumente nötig sind, und
 
 0:05:47.420,0:05:52.030
 der Ausgabewert ist etwas vom Typ Float, denn hier
-kommt jetzt wirklich etwas zurück, denn das
+kommt jetzt wirklich etwas zurück. Denn das
 
 0:05:52.030,0:05:58.379
-ist nicht die Klasse selbst, die manipuliert
-wird, sondern hier wird wirklich ein Float
+sind nicht Objekte der Klasse selbst, die manipuliert
+werden, sondern hier wird wirklich ein Float
 
 0:05:58.379,0:05:59.379
 zurückgegeben.

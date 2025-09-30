@@ -64,11 +64,11 @@ bei diesen Diagrammen.
 
 0:01:30.470,0:01:37.630
 Bei diesen Klassendiagrammen haben wir immer
-drei Kästchen: einen mit dem Namen der Klasse,
+drei Kästchen: eins mit dem Namen der Klasse,
 
 0:01:37.630,0:01:43.050
-einen mit den diversen Attributen und einen,
-der jetzt in diesem Fall leer ist, aber auch
+eins mit den diversen Attributen und eins,
+das jetzt in diesem Fall leer ist, aber auch
 
 0:01:43.050,0:01:45.850
 immer da sein muss, der mögliche Methoden
@@ -126,7 +126,7 @@ Wir können uns jetzt einfach etwas ausdenken.
 
 0:02:46.340,0:02:51.330
 Eine Instanz hat normalerweise immer einen
-Namen, das heißt, wir geben erst mal den kleingeschriebenen
+Namen, das heißt, wir geben erstmal den kleingeschriebenen
 
 0:02:51.330,0:02:59.569
 Namen an, mytransporter zum Beispiel, machen
@@ -153,7 +153,7 @@ uns die Attribute auszusuchen.
 Wir haben hier schon ein paar Attribute drin.
 
 0:03:25.600,0:03:33.400
-Dieses + sind Access-Variablen, ob das public,
+Dieses + sind Access-Modiefier, ob das public,
 private oder sonst was ist.
 
 0:03:33.400,0:03:37.060

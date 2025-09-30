@@ -400,7 +400,7 @@ Softwareentwicklung zu betreiben.
 
 00:07:40,720 --> 00:07:48,880
 Ein anderes Verfahren ist iterativer, wo
-also die Phasen nicht einmal wasserfallartig
+also die Phasen nicht ein einzelnes Mal wasserfallartig
 
 00:07:48,880 --> 00:07:51,910
 durchgeführt werden, sondern immer wieder
@@ -457,10 +457,10 @@ eine vereinfachende Darstellung,
 an der sich orientiert werden kann.
 
 00:08:54,940 --> 00:08:58,840
-Wir werden solche Modelle nicht weiter betrachten.
+Wir werden solche Modelle nicht weiter betrachten,
 
 00:08:58,840 --> 00:09:04,000
-Denn Vorgehensmodelle sind auch Teil der
+denn Vorgehensmodelle sind auch Teil der
 Softwaretechnik-Vorlesung bei Prof. Heisel.
 
 00:09:04,000 --> 00:09:09,100

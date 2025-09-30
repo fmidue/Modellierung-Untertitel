@@ -126,11 +126,11 @@ Komposition zum Beispiel keine Kreise ziehen darf.
 Was ist jetzt mit nicht zyklischen Beziehungen?
 
 00:02:27,980 --> 00:02:31,280
-Zum Beispiel doppelter Kompositionsbeziehungen
+Zum Beispiel doppelten Kompositionsbeziehungen
 
 00:02:31,280 --> 00:02:33,530
 zwischen zwei Partnern, aber nicht
-in diese zyklische Art und Weise?
+in dieser zyklischen Art und Weise?
 
 00:02:33,530 --> 00:02:38,060
 Selbst dann ergeben sich noch

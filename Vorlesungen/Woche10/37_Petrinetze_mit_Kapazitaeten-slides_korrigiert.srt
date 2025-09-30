@@ -16,7 +16,7 @@ Ausschluss bzw. die Synchronisation.
 
 00:00:22,290 --> 00:00:27,900
 Wir haben das dann auch an dem Beispiel
-der speisenden Philosophen diskutiert.
+der Speisenden Philosophen diskutiert.
 
 00:00:27,900 --> 00:00:33,810
 Wie man da mit zwei Philosophen die Probleme
@@ -43,11 +43,11 @@ wie das Petrinetz schaltet, auf den einzelnen
 
 00:01:00,960 --> 00:01:08,190
 Stellen jeweils nie mehr als eine bestimmte
-Zahl von Marken liegen kann, und dabei auch
+Zahl von Marken liegen kann, und möchte dabei auch
 
 00:01:08,190 --> 00:01:12,990
 für verschiedene Stellen verschiedene solche
-oberen Kapazitätsbegrenzungen angeben kann.
+oberen Kapazitätsbegrenzungen angeben können.
 
 00:01:12,990 --> 00:01:17,700
 Das ist nicht genau das Gleiche wie
@@ -219,7 +219,7 @@ Damit soll ausgedrückt sein, dass niemals
 
 00:04:16,720 --> 00:04:24,220
 niemals später) auf einer Stelle sich mehr Marken
-befinden können als k, was für diese Stelle angibt.
+befinden können als was k für diese Stelle angibt.
 
 00:04:25,030 --> 00:04:33,130
 Damit muss insbesondere für die Anfangsmarkierung
@@ -311,7 +311,7 @@ mit dem wir gearbeitet haben (mit dem ich
 
 00:06:03,220 --> 00:06:07,210
 gearbeitet habe und Sie vielleicht auch
-im Übungsbetrieb) solche Petrinetze.
+im Übungsbetrieb), solche Petrinetze.
 
 00:06:07,210 --> 00:06:10,300
 Es kennt den Begriff der
@@ -722,8 +722,8 @@ Initialknoten im Erreichbarkeitsgraphen),
 da ist t1 nicht aktiviert.
 
 00:13:37,390 --> 00:13:44,320
-Obwohl, wenn wir diese beiden Annotationen hier
-ignorieren würden, dürfte t1 durchaus schalten.
+Obwohl t1 durchaus schalten dürfte, wenn wir diese beiden Annotationen hier
+ignorieren würden.
 
 00:13:44,320 --> 00:13:47,830
 Also t2 kann schalten, t3 kann schalten.
@@ -737,7 +737,7 @@ Nur schauen wir eben immer, wenn wir
 dann gucken, welche weiteren Übergänge
 
 00:13:58,600 --> 00:14:02,920
-sind möglich; da wird immer
+möglich sind; da wird immer
 geprüft, welche Transitionen
 
 00:14:02,920 --> 00:14:06,940
@@ -916,7 +916,7 @@ Auf der wir immer festhalten, wie
 viele Marken noch maximal auf die
 
 00:17:38,180 --> 00:17:41,240
-ursprüngliche Stelle s gelegt werden dürften."
+ursprüngliche Stelle s gelegt werden dürften.
 
 00:17:41,240 --> 00:17:46,820
 Also in dem Beispiel eben hatten wir zwei Stellen.
@@ -1313,7 +1313,7 @@ dass das gewünschte Verhalten eintritt.
 
 00:25:29,560 --> 00:25:35,230
 Wenn man hier noch genau hinschaut,
-sieht man, dass etwas merkwürdiges
+sieht man, dass es etwas merkwürdig
 
 00:25:35,230 --> 00:25:37,960
 scheint, dass der Fall "gleich null"
@@ -1642,7 +1642,7 @@ Das begründet und erzwingt diesen Pfeil hier.
 Für t2 und s1 sowie s2 ist das ganz analog.
 
 00:31:53,940 --> 00:32:00,510
-Also legt t2 eine Marke in s1 ab, muss
+Also, t2 legt eine Marke in s1 ab, muss
 deswegen eine Marke aus s1-quer entnehmen.
 
 00:32:00,510 --> 00:32:03,750

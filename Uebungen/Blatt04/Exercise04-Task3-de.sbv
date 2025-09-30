@@ -1,9 +1,9 @@
 0:00:00.840,0:00:06.300
 In dieser Aufgabe haben wir diverse Szenarien
-vorgegeben, für die wir entscheiden sollen.
+vorgegeben, für die wir entscheiden sollen,
 
 0:00:06.300,0:00:11.700
-Ob es sich bei der jeweils beschriebenen Beziehung
+ob es sich bei der jeweils beschriebenen Beziehung
 um eine Assoziation, eine Aggregation oder eine
 
 0:00:11.700,0:00:16.860
@@ -11,10 +11,10 @@ Komposition handelt. Speziell sollen wir auch
 jeweils immer die stärkste folgende Beziehung
 
 0:00:16.860,0:00:22.140
-angeben und natürlich ausführlich begründen. Diese Zahl ist nochmal extra angegeben,
+angeben und natürlich ausführlich begründen. Dieses Ziel ist nochmal extra angegeben,
 
 0:00:22.140,0:00:27.360
-denn wir wissen, dass eine Aggregation einer
+denn wir wissen, dass eine Aggregation oder
 Komposition auch immer Assoziationen sind.
 
 0:00:27.360,0:00:32.640
@@ -26,10 +26,10 @@ wenn wir diese Extrazeile nicht hätten, könnten
 wir einfach überall Assoziation dran schreiben
 
 0:00:36.660,0:00:42.420
-und damit wäre die Aufgabe ziemlich trivial. Also hier müssen wir ganz konkret darauf achten,
+und damit wäre die Aufgabe ziemlich trivial. Also hier müssen wir ganz konkret darauf achten:
 
 0:00:42.420,0:00:47.820
-okay, die Beziehung, die vorliegt, ist es mehr als eine Assoziation? Wenn ja,
+Die Beziehung, die vorliegt, ist es mehr als eine Assoziation? Wenn ja,
 
 0:00:47.820,0:00:51.120
 ist es eine Aggregation oder ist es
@@ -41,7 +41,7 @@ Unterschied, wie man entscheiden kann, ob es
 
 0:00:58.410,0:01:02.640
 eine Aggregation oder eine Komposition ist, grob
-gesagt, schaut man sich erstmal an, gibt es eine
+gesagt, schaut man sich erstmal an: gibt es eine
 
 0:01:02.640,0:01:11.760
 Teil-Ganzes-Beziehung? Das heißt, ist irgendwas
@@ -180,11 +180,11 @@ ist. Man könnte theoretisch alles daran
 setzen, je nachdem, wie man argumentiert.
 
 0:04:24.960,0:04:30.480
-Bei C haben wir, auf dem Telefon sind
-Bilder gespeichert. Bilder, die gespeichert sind,
+Bei C haben wir: auf dem Telefon sind
+Bilder gespeichert. Bilder gespeichert,
 
 0:04:30.480,0:04:37.500
-auf dem Telefon sind unsere Teil-Ganzes-Beziehung.
+auf dem Telefon, das ist unsere Teil-Ganzes-Beziehung.
 Die Bilder sind Teil des Telefons und je nachdem,
 
 0:04:37.500,0:04:42.000
@@ -200,7 +200,7 @@ Allerdings können die Bilder zum Beispiel auch
 in der Cloud gespeichert sein. Oder wir haben
 
 0:04:52.740,0:04:57.600
-Sie von unserem Computer auf das Telefon gezogen
+sie von unserem Computer auf das Telefon gezogen
 und haben sie noch auf dem Computer oder auf einem
 
 0:04:57.600,0:05:01.860
@@ -292,7 +292,7 @@ Mitarbeiter nicht mehr, wenn wir den Lehrstuhl
 aufgelöst haben, und es wäre eine Komposition.
 
 0:07:01.500,0:07:07.620
-Bei F haben wir, der Raum LF233
+Bei f haben wir: der Raum LF233
 befindet sich im Gebäude LF.
 
 0:07:09.180,0:07:14.040
@@ -320,7 +320,7 @@ dann ist es normalerweise nicht mehr wirklich ein
 Raum. Also Aggregation ist hier weniger möglich.
 
 0:07:42.360,0:07:47.520
-Bei G haben wir, dass das Gebäude LF ist
+Bei g haben wir: das Gebäude LF ist
 Teil der Universität Duisburg-Essen.
 
 0:07:48.960,0:07:53.640
@@ -352,7 +352,7 @@ dann vielleicht doch eher eine Komposition. Auch
 hier wieder stark von der Begründung abhängig.
 
 0:08:29.160,0:08:33.780
-Bei H haben wir, dass in der Vorlesung sitzen
+Bei h haben wir, dass in der Vorlesung sitzen
 Studierende. Hier ist gar nicht wirklich
 
 0:08:33.780,0:08:40.740
@@ -377,7 +377,7 @@ als alles andere. Wir haben auf jeden Fall keine
 
 0:08:58.500,0:09:04.080
 Komposition, weil die Studierenden nicht
-umgebracht werden, wenn die Vorlesung nicht existiert.
+zu existieren aufhören, wenn die Vorlesung nicht existiert.
 
 0:09:04.080,0:09:09.600
 Und umgekehrt gibt es trotzdem Studierende,
@@ -400,11 +400,11 @@ nicht wirklich eine ganze Teil-Ganzes-Beziehung
 her. Für I haben wir, die Erde hat verschiedene
 
 0:09:37.920,0:09:44.880
-Kontinente, Kontinente sind Teil der
-Erde und wenn wir die Erde vernichten.
+Kontinente. Kontinente sind Teil der
+Erde, und wenn wir die Erde vernichten,
 
 0:09:44.880,0:09:52.740
-Dann verschwinden auch die Kontinente. Selbst wenn
+dann verschwinden auch die Kontinente. Selbst wenn
 die Kontinente irgendwie ins Weltall abdriften,
 
 0:09:52.740,0:09:59.880
@@ -412,7 +412,7 @@ dann sind es keine Kontinente mehr. Deswegen ist
 hier ziemlich klar, dass es eine Komposition ist.
 
 0:10:01.200,0:10:07.380
-Und als letztes Szenario: Ein Haus steht an einer
+Und als letztes Szenario: ein Haus steht an einer
 Straße. Auch hier ist es wieder nicht wirklich
 
 0:10:07.380,0:10:11.220
@@ -432,7 +432,7 @@ Teil eines Hauses, denn die Straße kann alleine
 existieren, das Haus kann alleine existieren. Hier
 
 0:10:25.680,0:10:31.380
-ist es ziemlich klar, auch wieder eine Assoziation,
+ist es ziemlich klar: auch wieder eine Assoziation,
 denn es gibt keine Teil-Ganzes-Beziehung und
 
 0:10:31.380,0:10:35.940

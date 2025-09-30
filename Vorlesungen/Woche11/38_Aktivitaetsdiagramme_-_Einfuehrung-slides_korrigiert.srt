@@ -15,7 +15,7 @@ Hingegen zur dynamischen Modellierung haben
 wir bisher tatsächlich Petrinetze gehabt.
 
 00:00:19,920 --> 00:00:22,950
-Und damit verwandte Konzepte,
+Und damit verwandte Konzepte betrachtet,
 Erreichbarkeitsgraphen etc.
 
 00:00:22,950 --> 00:00:29,280
@@ -247,7 +247,7 @@ eben so mathematisch präzise gefasst sind,
 
 00:04:43,440 --> 00:04:48,000
 werden für Aktivitätsdiagramme nicht
-auf die gleiche Weise möglich sein.
+auf die gleiche Weise adressierbar sein.
 
 212 # slide
 00:04:48,000 --> 00:04:55,320

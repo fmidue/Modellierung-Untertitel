@@ -840,7 +840,7 @@ und Formen sehr präzise ist.
 
 00:14:03,060 --> 00:14:06,300
 Damit auch verschiedene Modellierer oder
-verschiedene Konsumenten des Modells,
+verschiedene Konsumenten des Modells
 
 00:14:06,300 --> 00:14:09,870
 das jeweils verstehen können,
@@ -1303,7 +1303,7 @@ denn aus denen kommt man nicht heraus.
 
 00:22:27,690 --> 00:22:35,970
 Die sind fatal, im wahrsten Sinne des Wortes
-tödlich für irgendeine der Besitztümer.
+tödlich für irgendeins der Besitztümer.
 
 00:22:41,840 --> 00:22:43,340
 Jetzt will ich das, wie gesagt,
@@ -1664,10 +1664,10 @@ Explosion ein Stück weit vermeiden können.
 
 00:29:18,830 --> 00:29:22,070
 In unserem Problem, manchmal
-auch in anderen Problemen.
+auch in anderen Problemen,
 
 00:29:22,070 --> 00:29:27,620
-Kann man etwa Symmetrie ausnutzen, um des Problems
+kann man etwa Symmetrie ausnutzen, um des Problems
 der Zustandsexplosion ein wenig Herr zu werden.
 
 00:29:27,620 --> 00:29:30,620

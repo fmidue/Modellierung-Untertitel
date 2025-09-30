@@ -1,10 +1,10 @@
 146 # slide
 00:00:00,000 --> 00:00:05,430
 Nach den informellen Beispielen
-lassen Sie uns diese Woche noch.
+lassen Sie uns diese Woche noch
 
 00:00:05,430 --> 00:00:08,190
-Die formale Definition von Petrinetzen besprechen.
+die formale Definition von Petrinetzen besprechen.
 
 00:00:08,190 --> 00:00:13,560
 Das hier sieht jetzt erst mal wie
@@ -256,7 +256,7 @@ eine Funktion dieser Form.
 
 00:04:53,270 --> 00:05:01,760
 Und sie kann anzeigen, wie viele Marken
-aktuell an einzelnen Stellen liegen.
+aktuell auf einzelnen Stellen liegen.
 
 00:05:01,760 --> 00:05:07,910
 Das wäre die Anwendung hier, zur Angabe
@@ -458,7 +458,7 @@ Stellenreihenfolge entscheiden.
 
 00:08:48,400 --> 00:08:52,690
 Hier ist es naheliegend, die Stellen eben
-in der Reihenfolge s_1, s_2, s_3 anzugeben.
+in der Reihenfolge s1, s2, s3 anzugeben.
 
 00:08:52,690 --> 00:08:57,010
 Das werden wir brauchen, wenn wir die
@@ -546,7 +546,7 @@ zwei Marken zu liegen und s3
 habe zu Beginn leer zu sein.
 
 00:10:40,030 --> 00:10:42,340
-Wenn wir uns auf eine Stellenreihenfolge festlegen,
+Wenn wir uns auf eine Stellenreihenfolge festlegen
 
 00:10:42,340 --> 00:10:47,200
 (s1, s2, s3 zum Beispiel), dann können wir

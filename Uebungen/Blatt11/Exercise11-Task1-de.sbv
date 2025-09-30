@@ -15,7 +15,7 @@ durch die Zahlen angegeben.
 
 0:00:38.420,0:00:46.501
 Es ist zu beachten, dass mitunter mehrere
-Zustände für die Aufgaben angegeben werden,
+Zustände für die Aufgaben angegeben werden
 
 0:00:46.501,0:00:47.501
 müssen.
@@ -29,7 +29,7 @@ startet das Diagramm?“.
 
 0:01:02.260,0:01:15.970
 Dafür müssen wir den äußersten Startzustand
-anschauen, er zeigt an, wie das UML-Diagramm
+anschauen. Er zeigt an, wie das UML-Diagramm
 
 0:01:15.970,0:01:17.170
 startet.
@@ -43,7 +43,7 @@ Hier gibt es einen Verweis auf Zustand 3 und
 6, also diese beiden.
 
 0:01:41.420,0:01:54.130
-Das sind auch die beiden angegebenen Zustände,
+Das sind auch die beiden anzugebenden Zustände,
 um die Aufgabe zu beantworten.
 
 0:01:54.130,0:02:08.179
@@ -244,10 +244,10 @@ Dann würde auch gemerkt werden, dass diese
 
 0:09:03.589,0:09:09.350
 Bei diesem Zustand, also wenn wir hier die
-tiefe Historie haben, würde es dementsprechend.
+tiefe Historie haben, würde es dementsprechend
 
 0:09:09.350,0:09:18.459
-Im Zustand 2 würde es weitergehen.
+im Zustand 2 weitergehen.
 
 0:09:18.459,0:09:26.190
 Schauen wir mal, was die letzte Aufgabe dieses

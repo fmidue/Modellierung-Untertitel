@@ -78,7 +78,7 @@ Nicht immer wird das schon so früh so detailliert
 gemacht.
 
 00:01:15,509 --> 00:01:18,560
-Also haben wir vorhin Beispiele gesehen, wo
+Also, wir haben vorhin Beispiele gesehen, wo
 die Typangaben fehlten.
 
 00:01:18,560 --> 00:01:22,119
@@ -588,7 +588,7 @@ Das sind immer Zusatzinformationen/Zusatzaspekte.
 
 00:10:34,000 --> 00:10:37,760
 Also, auch der ColoredPoint hat eine x- und
-y-Koordinate.
+eine y-Koordinate.
 
 00:10:37,760 --> 00:10:41,500
 Die müssen nur hier nicht mehr angegeben
@@ -712,7 +712,7 @@ Also vielleicht würde es Sinn ergeben, eine
 Klasse für Medien allgemein einzuführen.
 
 00:12:31,320 --> 00:12:35,280
-und dann erben spezialisierte Klassen für
+Und dann erben spezialisierte Klassen für
 Bücher, CDs, etc.
 
 00:12:35,280 --> 00:12:42,920
@@ -789,14 +789,14 @@ Also ColoredPoints sind nicht einfach irgendeine
 andere Sache, die zufällig auch eine x- und
 
 00:14:07,451 --> 00:14:08,451
-y-Koordinate hat.
+eine y-Koordinate hat.
 
 00:14:08,451 --> 00:14:11,460
-Sondern ColoredPoint ist wirklich als auch
+Sondern ColoredPoint ist wirklich auch als
 ein Punkt zu sehen, aber mit zusätzlichen
 
 00:14:11,460 --> 00:14:12,460
-Informationen dazu.
+Informationen hinzu.
 
 00:14:12,460 --> 00:14:16,540
 Alles, was mit Punkten geht, muss mit gefärbten
@@ -862,7 +862,7 @@ das, was hier festgehalten ist.
 Also hier steht:
 
 00:15:24,790 --> 00:15:26,640
-„Konstellationen, die verboten sind.“
+„Konstellationen, die verboten sind“.
 
 00:15:26,640 --> 00:15:31,290
 Was verboten ist, wären erst mal irgendwelche

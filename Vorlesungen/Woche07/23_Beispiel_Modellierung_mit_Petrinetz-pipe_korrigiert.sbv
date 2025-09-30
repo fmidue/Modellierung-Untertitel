@@ -242,9 +242,9 @@ Sport, und das soll auch eine Handlung sein.
 
 0:04:19.140,0:04:23.160
 Vielleicht benenne ich tatsächlich
-zuerst die Transitionen."
+zuerst die Transitionen.
 
-"0:04:23.830,0:04:43.720
+0:04:23.830,0:04:43.720
 Also zum Beispiel hier das „Hausaufgabenmachen“
 und diese andere Transition wäre das „Trainieren“.
 
@@ -590,7 +590,7 @@ und am linken Pfeil hätte
 ich gerne das Gewicht drei.
 
 0:10:49.170,0:10:54.570
-Damit das dem entspricht, wie vorhin, nämlich
+Damit das dem von vorhin entspricht, nämlich
 dass direkt drei Hausaufgaben gestellt werden.
 
 0:10:54.570,0:10:58.140
@@ -601,7 +601,7 @@ Also, am Anfang ist überhaupt nichts belegt,
 
 0:11:00.000,0:11:02.396
 aber es gibt eine Transition,
-die keine Vorbedingungen hat.
+die keine Vorbedingung hat.
 
 0:11:02.396,0:11:04.080
 Das heißt, die kann direkt schalten.
@@ -636,11 +636,11 @@ Jetzt kann man auch feststellen, wenn ich das so
 modelliere, ist etwas ungünstig oder merkwürdig.
 
 0:11:43.800,0:11:47.700
-Es wäre nämlich auch möglich, hier, da es
-keine Vorbedingungen für diese Transition
+Es wäre nämlich hier auch möglich (da es
+keine Vorbedingung für diese Transition
 
 0:11:47.700,0:11:51.990
-gibt, dass einfach sozusagen immer
+gibt), dass einfach sozusagen immer
 wieder aus der Schule gekommen wird,
 
 0:11:51.990,0:11:54.360
@@ -743,7 +743,7 @@ Deswegen muss hier eine Marke draufliegen,
 damit diese Aktion dann ausgeführt werden kann.
 
 0:14:36.170,0:14:38.600
-Die Spiel-Aktion hat keine Nachbedingung.
+Die Spielen-Aktion hat keine Nachbedingung.
 
 0:14:38.600,0:14:39.950
 Spielen ist sozusagen nicht produktiv.
@@ -812,7 +812,7 @@ Die muss einen sinnvollen Namen haben, und
 die wäre eben auszuführen am Ende des Tages.
 
 0:15:48.200,0:15:53.420
-Also die könnte heißen: "Tagwerk getan."
+Also die könnte heißen: "Tagwerk getan".
 
 0:15:57.230,0:15:59.730
 Und wann ist das Tagwerk getan?
@@ -1012,10 +1012,10 @@ Kann man das verhindern?
 
 0:20:05.880,0:20:11.400
 Und da gibt es eine Möglichkeit, das
-ist ein typischer Modellierungstrick.
+ist ein typischer Modellierungstrick,
 
 0:20:11.400,0:20:14.610
-Oder Modellierungsmuster bei Petrinetzen.
+bzw. ein typisches Modellierungsmuster bei Petrinetzen.
 
 0:20:14.610,0:20:18.630
 Wenn man diese Ausführung von
@@ -1188,10 +1188,10 @@ werden, aber nicht zurückgelegt.
 
 0:23:21.270,0:23:27.570
 Sie sehen, die Transition bleibt solange
-aktiviert, wie hier die eine Marke liegt,
+aktiviert, wie hier die eine Marke liegt
 
 0:23:27.570,0:23:32.280
-(die aber auch wieder zurückgelegt wird)
+(die aber auch wieder zurückgelegt wird),
 und solange wie hier noch Marken liegen.
 
 0:23:32.280,0:23:34.680
