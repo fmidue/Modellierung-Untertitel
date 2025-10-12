@@ -724,7 +724,7 @@ one grabbed first for both of them.
 
 00:12:44,140 --> 00:12:47,860
 And that ultimately makes it a
-synchronization point or mutex place.
+synchronization place or mutex place.
 
 00:12:47,860 --> 00:12:50,740
 How can we convince ourselves of this?
