@@ -589,8 +589,8 @@ And here comes now the expression for
 the fact that we must look evenly
 
 00:10:59,250 --> 00:11:03,360
-also at the issuing points, whether there
-is, so to speak, still enough place.
+also at the issuing places, whether there
+is, so to speak, still enough space.
 
 00:11:03,360 --> 00:11:04,860
 What does that mean?
@@ -696,7 +696,7 @@ That's exactly what would happen here.
 
 00:12:49,420 --> 00:12:55,150
 So if we were to fire t1 here, then the
-capacitance would be exceeded at this point.
+capacity would be exceeded at this place.
 
 00:12:55,150 --> 00:12:57,040
 So this firing is simply forbidden.

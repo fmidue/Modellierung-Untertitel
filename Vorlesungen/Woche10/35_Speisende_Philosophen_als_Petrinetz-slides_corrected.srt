@@ -303,7 +303,7 @@ three places, so to speak.
 
 00:05:46,180 --> 00:05:53,080
 And then there will be tokens on the E1, E2,
-E3 spots when the corresponding philosopher
+E3 places when the corresponding philosopher
 
 00:05:53,080 --> 00:05:54,080
 is eating.

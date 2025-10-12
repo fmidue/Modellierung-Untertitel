@@ -314,7 +314,7 @@ to be consumed and new tokens to
 
 00:05:24,960 --> 00:05:27,420
 be created on
-the three postcondition sites.
+the three postcondition places.
 
 00:05:27,420 --> 00:05:31,710
 So that's not like a token
@@ -738,7 +738,7 @@ was the only possible choice.
 
 00:12:26,000 --> 00:12:29,510
 If we look closely here, particularly
-with respect to this point,
+with respect to this place,
 
 00:12:29,510 --> 00:12:31,490
 there is a possible
