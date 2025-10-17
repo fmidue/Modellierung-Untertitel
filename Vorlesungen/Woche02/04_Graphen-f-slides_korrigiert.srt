@@ -111,7 +111,7 @@ die Beschaffenheit eines Systems zu beschreiben.
 
 00:01:51,000 --> 00:01:55,560
 Dann könnten zum Beispiel die Knoten für
-einzelne Komponenten des Systems stehen,
+einzeln Komponenten des Systems stehen,
 
 00:01:55,560 --> 00:02:01,860
 und die Beziehungen zwischen diesen Komponenten
@@ -122,7 +122,7 @@ Oder für dynamische Modellierung
 könnte man sich vorstellen,
 
 00:02:05,670 --> 00:02:08,490
-dass die Knoten einzelne Zustände sind.
+ dass die Knoten einzelne Zustände sind.
 
 00:02:08,490 --> 00:02:15,360
 Also jeweils die Ausprägung der Gesamtheit
@@ -176,7 +176,7 @@ Ihnen vielleicht bereits kennen.
 
 00:03:10,200 --> 00:03:12,990
 Eventuell aus dem Informatik-Vorkurs,
-da wird Ähnliches gemacht.
+das wird Ähnliches gemacht.
 
 00:03:12,990 --> 00:03:18,180
 Vielleicht auch einfach aus anderen
@@ -695,7 +695,7 @@ Also:
 
 00:11:13,510 --> 00:11:17,590
 Was könnte der Farmer als nächstes machen,
-nachdem er den Wolf nach drüben gebracht hat?
+ nachdem er den Wolf nach drüben gebracht hat?
 
 00:11:17,590 --> 00:11:22,990
 Er kann gar nichts machen, denn der

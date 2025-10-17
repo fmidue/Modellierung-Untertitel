@@ -23,7 +23,7 @@ vividly, net-like structures,
 
 00:00:30,480 --> 00:00:37,170
 consisting of nodes and edges,
-which together form a structure.
+which together form a connection.
 
 00:00:38,430 --> 00:00:40,890
 There are different kinds of graphs.
@@ -92,11 +92,11 @@ different varieties of graphs.
 
 00:01:30,480 --> 00:01:33,600
 But they all have
-this basic feature in common,
+this basic idea in common,
 
 00:01:33,600 --> 00:01:38,340
-the idea of expressing facts by
-nodes and intermittent edges.
+the idea of expressing facts
+by nodes and intervening edges.
 
 00:01:38,340 --> 00:01:43,890
 And not surprisingly, graphs
@@ -169,7 +169,7 @@ And strictly speaking,
 you could also say:
 
 00:03:05,730 --> 00:03:06,780
-It's just a little puzzle.
+It's just a little riddle.
 
 00:03:06,780 --> 00:03:09,600
 A little puzzle that some
@@ -184,11 +184,11 @@ Maybe just from other contexts,
 even if it's from school.
 
 00:03:18,180 --> 00:03:22,080
-I'm doing it here because it allows
-me in a very naive way to show a
+I'm doing it here because it allows me
+to show this abstraction process in a
 
 00:03:22,080 --> 00:03:24,150
-little bit of this abstraction process.
+very naive way.
 
 00:03:24,150 --> 00:03:29,520
 And just finding notation for a concrete
@@ -301,11 +301,11 @@ Well, for example, the actors that
 occur here, that make up the system.
 
 00:05:09,840 --> 00:05:11,940
-Relationships between the actors.
+And relationships between the actors.
 
 00:05:11,940 --> 00:05:17,130
-Maybe start state and goal state, and
-of course the behavior, the actions.
+Maybe start state and target state,
+and of course the behavior, the actions.
 
 00:05:17,130 --> 00:05:18,900
 What kind of things could happen.
@@ -871,18 +871,19 @@ model, can understand that
 respectively, and in the same way.
 
 00:14:09,870 --> 00:14:13,440
-For this, a common language/notation is
+that is why a common
+language/notation makes sense,
 
 00:14:13,440 --> 00:14:17,610
-useful, common visual description
-forms to avoid misunderstandings.
+common visual forms of description,
+to avoid misunderstandings.
 
 00:14:17,610 --> 00:14:25,890
-And indeed, graphs form such a
+And in fact, graphs form such a
 
 00:14:25,890 --> 00:14:28,260
-possible language/notation
-for many contexts.
+possible language/notation for many
+contexts.
 
 00:14:28,260 --> 00:14:33,540
 That is why they form the basis for many
@@ -938,15 +939,15 @@ Of course, graphs are not the
 only way to create uniformity.
 
 00:15:26,310 --> 00:15:27,480
-Mathematics does that, too.
+Also mathematics does that.
 
 00:15:27,480 --> 00:15:37,170
 So with textual formulas, with logic,
-you can of course specify things, model
+you could of course also specify things,
 
 00:15:37,170 --> 00:15:40,920
-things, and also have
-a common formal basis.
+model, and would also have a
+common formal basis.
 
 00:15:40,920 --> 00:15:43,740
 But here we will mainly work with graphs.
@@ -1249,30 +1250,30 @@ Where the farmer crosses
 the river with the wolf.
 
 00:21:15,720 --> 00:21:16,500
-Then we would have that condition.
+Then we would have this state.
 
 00:21:16,500 --> 00:21:22,080
-But that's an immediate failure state
+But that is an immediate failure state,
 because then the goat will eat the cabbage.
 
 00:21:23,100 --> 00:21:26,850
-And before that, in any order, I
-may have tried other things here.
+And before that, in any order,
+here I may have tried other things.
 
 00:21:26,850 --> 00:21:30,120
 So here I don't have to try anything
 else, but I had decided here for example:
 
 00:21:30,120 --> 00:21:34,110
-Yes, let the farmer cross
+Yes, the farmer may cross
 the river with the goat.
 
 00:21:34,110 --> 00:21:37,350
-That's not a failure state, because
-the wolf won't eat the cabbage.
+This is not a failure state, because
+the wolf will not eat the cabbage.
 
 00:21:37,350 --> 00:21:39,360
-That would be a possibility.
+That would be one possibility.
 
 00:21:39,360 --> 00:21:40,500
 And then you could think about:
@@ -1287,11 +1288,11 @@ Now here comes:
 The farmer could go back.
 
 00:21:44,730 --> 00:21:45,870
-Then the goat would be left alone.
+Then the goat is left alone.
 
 00:21:45,870 --> 00:21:52,650
-The farmer could then cross
-the river with the wolf.
+The farmer could then cross the river with
+the wolf.
 
 00:21:53,340 --> 00:22:02,580
 So for each of these arrows, for the
@@ -1372,8 +1373,8 @@ farmer is going to want.
 So, we would probably say:
 
 00:23:15,170 --> 00:23:18,470
-When the farmer reaches
-this state, he lets it go.
+When the farmer reaches this
+state, he lets it be.
 
 00:23:18,470 --> 00:23:20,840
 And doesn't move around anymore.
@@ -1396,16 +1397,16 @@ can think about that:
 Actually, the graph has to be symmetric.
 
 00:23:31,850 --> 00:23:35,570
-It's completely arbitrary to say that the
-farmer wants to go from left to right.
+It is completely arbitrary to say,
+that the farmer wants to go from left to right.
 
 00:23:35,570 --> 00:23:39,470
-You could just as well have said that the farmer is on
-the right at the beginning and wants to go to the left.
+One could just as well have said, the farmer
+is on the right at the beginning and wants to go left.
 
 00:23:39,470 --> 00:23:42,950
 So then you would have
-had to develop this graph
+to develop this graph
 
 00:23:42,950 --> 00:23:45,140
 to start here and end here.
@@ -1415,12 +1416,12 @@ And for that, however, the graph
 must be completely symmetrical.
 
 00:23:46,336 --> 00:23:50,990
-So you have to be able to
-mirror it from top to bottom.
+One must be able to tilt it from top
+to bottom.
 
 00:23:50,990 --> 00:23:54,815
-And then transitions are
-missing, as you can see here.
+And then transitions are still missing,
+as you can see here.
 
 00:23:54,815 --> 00:23:56,240
 These transitions are still missing.

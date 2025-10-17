@@ -150,8 +150,8 @@ you also see UML in the title. Software
 Engineering, it's about the application of
 
 00:02:55,330 --> 00:03:02,800
-UML in the area of modeling software. Things
-are covered rather non-formally in detail,
+UML in the area of modeling software.
+Things are covered rather rather informally, not in full detail,
 
 00:03:02,800 --> 00:03:06,610
 so less formal than I'm sure
@@ -167,7 +167,7 @@ this or get it from the library.
 
 00:03:18,010 --> 00:03:22,660
 You can also read this electronically, and in
-fact, if you're logged into the university, so
+fact, if you're logged into the Uni-Account, so
 
 00:03:22,660 --> 00:03:27,640
 you're logged into the uniaccount, you can also
@@ -199,8 +199,8 @@ a moment), here's another book
 on UML. It's very comprehensive,
 
 00:04:01,460 --> 00:04:07,070
-with only excerpts relevant
-to us. Interesting perhaps for
+with only excerpts relevant sections for
+us. Interesting perhaps for
 
 00:04:07,070 --> 00:04:10,550
 you because it is also available in English.
@@ -335,8 +335,8 @@ a textbook, here is an article by Harel.
 That should also be available to you, and
 
 00:07:07,260 --> 00:07:13,200
-even without the restriction of having
-to be logged in from the Uni account.
+even without the restriction of having to
+be logged in from the Uni-account.
 
 00:07:13,200 --> 00:07:18,780
 Why is this article relevant?

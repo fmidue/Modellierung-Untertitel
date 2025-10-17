@@ -203,11 +203,11 @@ diesel car and solar car.
 
 00:04:06,060 --> 00:04:10,290
 They too are different kinds of
-special cars, but somehow they have
+special cars, but somehow they are
 
 00:04:10,290 --> 00:04:14,250
-become specialized in the same respect,
-namely in terms of their propulsion.
+specialized in the same respect,
+named in terms of their drive.
 
 00:04:14,250 --> 00:04:17,520
 Which again would not apply
@@ -246,12 +246,12 @@ specialized cars in one respect, and diesel car/solar
 car are more specialized cars in another respect.
 
 00:04:57,890 --> 00:05:04,850
-Instead of just having all four inherit
-from car side by side here, you could group
+Instead of simply letting all four inherit
+from car side by side, one could group these
 
 00:05:04,850 --> 00:05:10,070
-these subclasses into groups,
-so-called generalization groups.
+subclasses into groups,
+called generalization groups.
 
 00:05:10,070 --> 00:05:14,210
 So these individual generalization
@@ -580,8 +580,8 @@ on the other.
 So distinction by status.
 
 00:12:15,370 --> 00:12:23,455
-That's a generalization group and we could
-consider that to be complete and disjoint.
+This is a generalization group and we
+could consider it as complete and disjoint.
 
 00:12:23,455 --> 00:12:28,720
 So let's assume there's no other kind
@@ -647,17 +647,17 @@ example, not with cars and their
 subclasses, but with animals
 and their subclasses.
 
+
 00:13:56,520 --> 00:14:02,610
-For example, if we distinguish animals by
-habitat, then there are land animals, water
+If we distinguish animals by their habitat,
+then there are land animals,
 
 00:14:02,610 --> 00:14:05,070
-animals, and air
-animals or flying animals.
+water animals, and air animals or flying animals.
 
 00:14:05,070 --> 00:14:08,730
-I would say
-that's a complete distinction.
+I would say, that is a
+complete distinction.
 
 00:14:08,730 --> 00:14:14,040
 So, there are no further
@@ -668,7 +668,7 @@ ourselves to planet Earth and
 don't somehow add outer space.
 
 00:14:17,880 --> 00:14:19,980
-But one could argue that this distinction
+But one could argue that this
 
 00:14:19,980 --> 00:14:23,790
 is "overlapping," that

@@ -293,15 +293,14 @@ But not if we are here in
 A and here in C or D.
 
 00:06:14,120 --> 00:06:16,670
-So the composite state is left
+So the composite state is only left
 
 00:06:16,670 --> 00:06:20,750
 only if one is
 actually in the sub-state
 
 00:06:20,750 --> 00:06:24,410
-in the corresponding region
-that this arrow exits from.
+in the corresponding region that is exited by this arrow.
 
 00:06:24,410 --> 00:06:28,730
 In the regions parallel to

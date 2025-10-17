@@ -93,19 +93,19 @@ but first of all, for example, which
 calls/uses should be syntactically allowed.
 
 00:01:46,470 --> 00:01:50,700
-What, at all,
-sensible operation uses should
+What should even be meaningful
+operations uses,
 
 00:01:50,700 --> 00:01:53,670
-be, and also how
-operations can be combined.
+and also how operations
+can be combined.
 
 00:01:53,670 --> 00:01:56,250
-Usually a system will consist
-of many functionalities, which
+Usually a system will
+consist of many functionalities,
 
 00:01:56,250 --> 00:02:01,110
-may have to be used in combination.
+which may have to be used in combination.
 
 00:02:03,060 --> 00:02:05,220
 And at least that would be
@@ -311,8 +311,8 @@ And we could say:
 Well, we know what division is.
 
 00:05:18,470 --> 00:05:20,510
-But strictly speaking, at the
-moment this is only information
+But strictly speaking, these are
+just currently only information
 
 00:05:20,510 --> 00:05:24,470
 about the parameters and the results.
@@ -368,23 +368,23 @@ to simply forbid the
 second argument to be zero.
 
 00:06:15,410 --> 00:06:20,300
-Then, of course, you can use
-that in fewer situations.
+Then you can naturally use this in
+fewer situations.
 
 00:06:20,300 --> 00:06:24,200
-You can still use
-this for natural numbers that
+You can still use this for
+natural numbers,
 
 00:06:24,200 --> 00:06:27,740
-are positive, but just not for zero
-itself as a second argument anymore.
+which are positive, but just not for
+zero itself as a second argument anymore.
 
 00:06:27,740 --> 00:06:30,290
 In the first position, you would
 still be allowed to have zero.
 
 00:06:30,290 --> 00:06:31,940
-So zero by five would go on.
+So zero by five would still go on.
 
 00:06:33,620 --> 00:06:38,060
 Then you would have to somehow think
@@ -629,19 +629,19 @@ result than before, where there was only N here.
 
 00:10:23,400 --> 00:10:26,040
 That would also have allowed
-zero to come out there.
+that zero comes out there.
 
 00:10:26,850 --> 00:10:30,540
-This will not happen if at least one of
-the two arguments certainly is not zero.
+This will not happen if at least one
+of the two arguments secured is not null.
 
 00:10:32,220 --> 00:10:36,360
 Of course, this could be done in
-the same way for the other position.
+the same way to hold the other position.
 
 00:10:36,360 --> 00:10:39,960
-And one could also hold, for
-the multiplication for example,
+And one could also hold,
+for multiplication for example,
 
 00:10:39,960 --> 00:10:43,860
 that if both arguments are positive,
@@ -1109,7 +1109,7 @@ There is no radius, but
 perhaps a width and a height.
 
 00:18:57,930 --> 00:19:00,360
-And the result is again a picture.
+And the result is again an image.
 
 00:19:00,360 --> 00:19:06,450
 The interpretation would be that if I, for
@@ -1199,7 +1199,7 @@ are allowed in principle, syntactically so to speak.
 A few more examples.
 
 00:20:36,960 --> 00:20:38,580
-What could be further operations?
+What could further operations be?
 
 00:20:38,580 --> 00:20:41,310
 One could introduce another square.
@@ -1263,12 +1263,11 @@ there would be other such
 pairs, for example (1,2).
 
 00:21:42,160 --> 00:21:46,060
-Here, there seems to be
-(3,0) and then here, (6,4).
+Here seems to be (3,0) and then here (6,4).
 
 00:21:46,060 --> 00:21:51,880
-So, I call the path operation with
-such a list of coordinate pairs,
+So I call the path operation with a
+such list of coordinate pairs,
 
 00:21:51,880 --> 00:21:53,290
 and then an image comes out.
@@ -1295,12 +1294,12 @@ for example, simply like this:
 The name "print" might be quite obvious.
 
 00:22:13,540 --> 00:22:17,020
-And the argument to that operation
-would be a string, a text.
+And the argument for this
+operation would be a string, a text.
 
 00:22:17,020 --> 00:22:21,160
-And the result would be a
-picture representing that text.
+And the result would be an image,
+that represents this text.
 
 00:22:21,160 --> 00:22:23,530
 So, for example, print("ABC").
@@ -1310,8 +1309,8 @@ You probably know these quotation marks
 as well, as delimiters for strings
 
 00:22:28,930 --> 00:22:33,550
-in many programming languages (or in the
-programming language you currently learn).
+in many programming languages (or in
+the programming language you first learn).
 
 00:22:33,550 --> 00:22:38,530
 And then the result here will be a picture
@@ -1554,10 +1553,11 @@ be the expression "rectangle(7,5)".
 We'd like to rotate that by an angle.
 
 00:26:34,580 --> 00:26:38,420
-Then we would have to somehow capture, or
+Then we would have to somehow
+capture, or decide,
 
 00:26:38,420 --> 00:26:40,790
-decide how to interpret that angle.
+how to interpret that angle.
 
 00:26:40,790 --> 00:26:45,530
 Let's assume we measure angles simply
@@ -1894,7 +1894,7 @@ operation symbol even if we
 
 00:32:25,980 --> 00:32:29,670
 want to combine more than
-two pictures in a row.
+two images in a row.
 
 00:32:29,670 --> 00:32:40,060
 So, now, I just designed some
@@ -2028,8 +2028,8 @@ a string like text, which is
 then converted to an image.
 
 00:34:58,950 --> 00:35:02,010
-I can't pass a completed picture
-to "print".
+I can't pass "print" a
+already completed image.
 
 00:35:02,010 --> 00:35:03,930
 Then "print" would not
@@ -2085,24 +2085,23 @@ things, respectively
 named them differently.
 
 00:35:55,320 --> 00:36:01,050
-That is, "print(3)" would not be a valid
-expression here in my example domain
+That means, "print-from-3" would not be a valid expression
+in my example domain here,
 
 00:36:01,050 --> 00:36:05,280
-now, because it is not true that
-the 3 is a string by itself.
+because it is not true that the
+3 itself is a string.
 
 00:36:05,280 --> 00:36:08,040
-For that, it would have to be
-enclosed in quotation marks.
+For that, it would have to be enclosed
+in quotation marks.
 
 00:36:09,870 --> 00:36:13,560
 And for none of these observations
-here, do I have to somehow run
+must I somehow run the program
 
 00:36:13,560 --> 00:36:16,230
-the program and paint the
-things, that is, create images.
+and paint the things, that is, create images.
 
 00:36:16,230 --> 00:36:19,170
 I can already determine all that
@@ -2167,12 +2166,10 @@ And if I do that the wrong way around, I
 would expect that to be rejected here as well.
 
 00:37:14,620 --> 00:37:18,970
-Again, more of an
-error like the one above.
+Again, more of an error like the one above.
 
 00:37:18,970 --> 00:37:23,740
-So "rotate" expects an
-image and an angle,
+So "rotate" expects an image and an angle,
 
 00:37:23,740 --> 00:37:27,910
 rather than two angles or

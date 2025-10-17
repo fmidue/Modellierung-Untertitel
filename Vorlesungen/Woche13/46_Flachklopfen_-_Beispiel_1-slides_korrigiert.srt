@@ -376,13 +376,13 @@ Das war genau die Verbindung, die es hier gab.
 
 00:06:53,586 --> 00:06:54,990
 Dann können wir danach auch
-diese Markierung entfernen,
+ diese Markierung entfernen,
 
 00:06:54,990 --> 00:06:57,000
 weil sie nicht auf der äußersten Ebene war.
 
 00:06:57,000 --> 00:06:59,910
-Sie bleibt also in dem flachen Zustandsdiagramm
+Sie bleibt so in dem flachen Zustandsdiagramm
 nicht erhalten, sollte aber benutzt werden,
 
 00:06:59,910 --> 00:07:03,570
