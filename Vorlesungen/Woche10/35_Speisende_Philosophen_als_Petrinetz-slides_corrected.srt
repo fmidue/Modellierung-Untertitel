@@ -139,8 +139,8 @@ will be labeled here E1, E2, E3 for the
 three philosophers).
 
 00:02:34,879 --> 00:02:37,310
-And for that they
-need both adjacent forks.
+And for that, they need both adjacent
+forks.
 
 00:02:37,310 --> 00:02:43,680
 That is, if philosopher 1 wants
@@ -441,8 +441,8 @@ then he must be able to grasp the left
 fork (which is fork F1 for philosopher 1).
 
 00:08:38,269 --> 00:08:43,459
-So if this and this condition are
-met, then philosopher 1 can eat.
+So if these and these conditions are met,
+then philosopher 1 can eat.
 
 00:08:43,459 --> 00:08:47,079
 Then there would be a token here for
@@ -751,15 +751,14 @@ could have done nothing at all (because
 this place is not occupied here).
 
 00:14:16,600 --> 00:14:21,800
-Now, for example, philosopher 1 would
-fire the transition that ends his eating
+Now, for example, philosopher 1 would trigger
+the transition that ends his eating process.
 
 00:14:21,800 --> 00:14:22,800
-process.
 
 00:14:22,800 --> 00:14:27,949
-And this is to make sure that here,
-here, and here lie tokens again.
+And this should ensure that here, here,
+and here are tokens again.
 
 00:14:27,949 --> 00:14:28,949
 And indeed:
@@ -779,15 +778,15 @@ interfered.
 What other properties could we observe?
 
 00:14:55,649 --> 00:15:01,269
-Perhaps, for example, if P1, P2, P3
-had not been so cooperative and had not
+Maybe, for example, if P1, P2, P3 had not
+been so cooperative and P1
 
 00:15:01,269 --> 00:15:02,510
-simply let P1 do it.
+had not just let it happen.
 
 00:15:02,510 --> 00:15:05,070
-For example, are there also
-possibilities of deadlock here?
+Are there also possibilities of deadlock
+here, for example?
 
 00:15:05,070 --> 00:15:08,439
 We already know intuitively

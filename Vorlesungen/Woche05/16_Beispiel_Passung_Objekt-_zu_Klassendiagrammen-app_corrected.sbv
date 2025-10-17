@@ -87,15 +87,15 @@ A and C (thus the two classes in question
 here) exist at all.
 
 0:01:34.609,0:01:37.320
-Yes, they do exist in the class diagram.
+Yes, they do occur in the class diagram.
 
 0:01:37.320,0:01:41.299
 So this object "a" or the
 object "c" could already exist.
 
 0:01:41.299,0:01:48.969
-And then we have to see if all relations,
-which occur in the object diagram,
+And then we have to see, if
+all relationships, which occur in the object diagram,
 
 0:01:48.969,0:01:50.179
 are justified by the class diagram.
@@ -133,14 +133,14 @@ partners, but it does not have to.
 
 0:02:22.019,0:02:24.091
 And in the concrete case
-here it does not have them.
+here it does not have any.
 
 0:02:24.091,0:02:25.091
 The "c" has no B-partners.
 
 0:02:25.091,0:02:29.970
-But this is not a big deal,
-because it is not forced.
+But this is not further serious, because it is
+not enforced.
 
 0:02:29.970,0:02:33.969
 So this aggregation does not somehow lead
@@ -172,14 +172,14 @@ That obviously belongs to this class A.
 
 0:03:13.200,0:03:24.120
 And there, of course, one can ask oneself, first
-of all, whether all relations that are supposed to
+of all, whether all relationships that are supposed to
 
 0:03:24.120,0:03:26.609
 exist from A are really given here.
 
 0:03:26.609,0:03:33.189
-There is especially this relation here,
-but it also has "0..*" as multiplicities.
+There is especially this relationship here,
+but it has "0..*" as multiplicities.
 
 0:03:33.189,0:03:37.590
 That means, "a" could have a relation
@@ -430,14 +430,14 @@ That corresponds to this
 relationship in the class diagram.
 
 0:07:24.740,0:07:26.800
-Okay, is there anything
+Okay, is there perhaps something
 that might be missing?
 
 0:07:26.800,0:07:27.830
-So what about B objects?
+So how is it with B objects?
 
 0:07:27.830,0:07:31.670
-Do they need to
+Do they still need to
 have any other relationships?
 
 0:07:31.670,0:07:34.310
@@ -456,8 +456,8 @@ And the fact that B inherits from A does
 not necessarily lead to further links.
 
 0:07:52.110,0:07:58.330
-Because A does have this relation to A but
-just with these lower limits zero in each case.
+Because A does have this relation to A, but
+just with these lower limits of zero in each case.
 
 0:07:58.330,0:08:02.740
 So nothing follows from this that would
@@ -941,11 +941,11 @@ But here there are these
 two counterparts for "b".
 
 0:18:31.840,0:18:36.440
-So these two links can only be
-manifestations of this relation.
+So these two links can only be variations
+of this relationship.
 
 0:18:36.440,0:18:40.330
-Because there are no other relations between
+Because there are no other relationships between
 B and D, not even by inheritance somehow.
 
 0:18:40.330,0:18:45.259
@@ -953,8 +953,8 @@ And then this multiplicity, which
 is required here, is violated.
 
 0:18:45.259,0:18:51.289
-The "b" is allowed to have no D partner at all,
-or to have one D partner, but not more than one.
+The "b" should not have any D partner
+or have a D partner, but not multiple.
 
 0:18:51.289,0:19:00.080
 Each B object is allowed to have at most
@@ -967,8 +967,7 @@ for that association.
 And that is apparently violated here.
 
 0:19:03.019,0:19:06.390
-So (e) does not
-match the second class diagram.
+So (e) does not match the second class diagram.
 
 0:19:06.390,0:19:11.139
-With this, we have discussed all cases.
+Thus, we have discussed all cases.

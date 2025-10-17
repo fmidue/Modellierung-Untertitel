@@ -124,7 +124,7 @@ here is still static modeling.
 
 00:02:00,219 --> 00:02:05,070
 Because there is no code or
-description of what the operations do.
+description of what the operations trigger.
 
 00:02:05,070 --> 00:02:09,620
 There is only the name and the types.
@@ -705,15 +705,15 @@ And we could come up
 with a new class for each.
 
 00:12:09,510 --> 00:12:13,020
-And then at some point we might notice
-that these different media have certain
+And at some point we might
+notice that these different media have certain
 
 00:12:13,020 --> 00:12:14,180
 things in common.
 
 00:12:14,180 --> 00:12:23,860
 So while only the magazine has magazine numbers
-and maybe only the videos have a playing time,
+and maybe only the videos have a duration,
 
 00:12:23,860 --> 00:12:27,290
 one author and one title is
@@ -939,7 +939,7 @@ picture could change in each case.
 
 00:16:27,690 --> 00:16:33,040
 Whereas here, if the arrow were
-reversed, it would be circular again.
+turned around, it would be a circular reasoning again.
 
 00:16:33,040 --> 00:16:36,920
 Would be forbidden so to speak for another reason

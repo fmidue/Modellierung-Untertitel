@@ -7,8 +7,8 @@ We would like to implement
 this in a state diagram.
 
 00:00:07,770 --> 00:00:15,720
-And using this example, I will then explain
-the individual basic elements of statecharts.
+And using this example, I will then
+explain the individual basic elements of state diagrams.
 
 00:00:15,720 --> 00:00:21,330
 We'll start by
@@ -57,14 +57,14 @@ So first of all, just intuitively,
 what's the syntax here?
 
 00:01:08,160 --> 00:01:10,290
-One difference to flat statecharts is
+One difference to flat state diagrams is
 
 00:01:10,290 --> 00:01:14,610
 that there are very special
 ways to represent the states.
 
 00:01:14,610 --> 00:01:15,780
-Here there are these states.
+Here are these states.
 
 00:01:15,780 --> 00:01:21,090
 These would be these rectangles
@@ -148,7 +148,7 @@ which looks like it
 does in activity diagrams.
 
 00:02:34,260 --> 00:02:38,430
-From there there is an arrow
+From there, there's an arrow
 to one of the normal states.
 
 00:02:38,430 --> 00:02:44,520
@@ -310,11 +310,11 @@ with the branching nodes.
 And there can be an effect.
 
 00:05:14,970 --> 00:05:18,060
-We'll see what's involved there in
-a moment, and how we can use that.
+We will soon see what comes into
+question and how we can use it.
 
 00:05:18,060 --> 00:05:19,920
-These two parts are optional, though.
+However, these two parts are optional.
 
 00:05:19,920 --> 00:05:22,763
 We just had triggers in the example.
@@ -818,14 +818,14 @@ We also see that there is now one
 start state in each of the two parts.
 
 00:14:41,490 --> 00:14:43,740
-There can be a separate
+There can be at most one
 start state in each region.
 
 00:14:44,550 --> 00:14:46,650
-In both cases just the zero state.
+Exactly what we have utilized here.
 
 00:14:46,650 --> 00:14:48,150
-Once for the hours, once for the minutes.
+We have exactly one in each region.
 
 00:14:49,830 --> 00:14:52,200
 We also see that

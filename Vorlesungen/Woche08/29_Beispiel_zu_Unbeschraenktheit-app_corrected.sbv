@@ -221,17 +221,17 @@ to 38 tokens or more
 lying on at least one place.
 
 0:03:59.960,0:04:03.320
-I hope that's clear basically as far as
+I hope that's basically clear so far,
 
 0:04:03.320,0:04:05.150
-I've developed it here,
+as I've developed it here,
 that that can happen.
 
 0:04:05.150,0:04:06.980
-So for example, I could now fire up here.
+So for example, I could now shift up here.
 
 0:04:06.980,0:04:12.830
-And now I could fire t1 here again
+And now I could again fire t1 here
 with these two tokens, and then
 
 0:04:12.830,0:04:19.250
@@ -239,7 +239,7 @@ I would already have six tokens lying at
 the bottom on the s3 place afterwards.
 
 0:04:28.400,0:04:31.292
-And that is not bounded.
+And that is indeed not bounded.
 
 0:04:31.292,0:04:32.600
 Yes, so 6 would still be bounded, but

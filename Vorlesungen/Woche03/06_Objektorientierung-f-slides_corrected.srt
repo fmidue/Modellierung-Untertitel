@@ -114,8 +114,8 @@ So the different types of diagrams
 have different degrees of formality.
 
 00:02:19,380 --> 00:02:24,930
-There are purely descriptive diagrams and there
-are also somewhat more formalized diagrams.
+There are purely illustrative diagrams and
+there are also somewhat more formalized diagrams.
 
 00:02:28,350 --> 00:02:32,250
 Here is a summary of
@@ -126,8 +126,8 @@ So there are mainly
 visual-graphical means within UML.
 
 00:02:36,300 --> 00:02:41,130
-There is also text, of course, but there
-is less mathematical modeling in UML.
+Text also appears, of course, but
+there is less mathematical modeling in UML.
 
 00:02:41,130 --> 00:02:46,740
 Both static and
@@ -242,7 +242,7 @@ be created explicitly as well.
 
 00:04:52,600 --> 00:04:55,990
 And then UML would definitely
-be a tool of choice.
+be a means of choice.
 
 00:04:55,990 --> 00:05:00,580
 In other process models, such as agile
@@ -415,8 +415,8 @@ qualitative versus quantitative, etc.
 We will then also see (for those that
 
 00:08:05,110 --> 00:08:09,130
-we look at specifically) how
-that classifies in each case.
+we look at specifically)
+how that classifies in each case.
 
 00:08:09,130 --> 00:08:16,390
 But in general, a lot of the types of
@@ -427,8 +427,8 @@ First, as I said, class and object
 diagrams, as just shown on the slide.
 
 00:08:24,950 --> 00:08:29,480
-The two on the left among the top
-examples under structure diagrams.
+The two on the left of the top
+representatives below structure diagrams.
 
 00:08:29,480 --> 00:08:34,070
 What's being statically modeled there?
@@ -841,8 +841,8 @@ But to understand this basic
 idea of object orientation,
 
 00:15:21,490 --> 00:15:24,370
-it is not wrong to have a
-look at it with pseudo code.
+it is not wrong to have
+a look at it with pseudocode.
 
 00:15:24,370 --> 00:15:27,220
 And that's what we'll
@@ -1156,8 +1156,8 @@ So, when I call "color",
 I do it on an image.
 
 00:20:55,980 --> 00:21:02,391
-And the result, the colored picture, is
-what the image becomes after the operation.
+And the result, the colored image,
+is what comes out after the operation.
 
 00:21:02,391 --> 00:21:07,140
 So the picture on which I call
@@ -1165,7 +1165,7 @@ the operation is changed by it.
 
 00:21:07,140 --> 00:21:09,240
 I don't have to
-explicitly return a new picture.
+explicitly return a new image.
 
 00:21:12,630 --> 00:21:16,874
 And we will find something
@@ -1224,7 +1224,7 @@ So let's imagine that there is another
 operation that simply determines
 
 00:22:15,190 --> 00:22:20,710
-the dimensions, the size, the diameter
+the extent, the size, the diameter
 or something like that for an image.
 
 00:22:20,710 --> 00:22:24,100
@@ -1266,7 +1266,7 @@ on which you call the method.
 
 00:22:53,950 --> 00:23:00,130
 It doesn't change the image,
-but it returns an integer.
+but it returns a whole number.
 
 00:23:00,130 --> 00:23:06,820
 Then, if we write it this way,
@@ -1407,15 +1407,15 @@ the ability to call
 
 00:25:48,320 --> 00:25:52,580
 methods between objects, provides
-a good structuring mechanism for
+a good structuring means for
 
 00:25:52,580 --> 00:25:57,920
 communication in such a multitasking
 or concurrent environment.
 
 00:25:57,920 --> 00:26:02,030
-That's why, among other
-reasons, people like to use it.
+That's why, among other reasons,
+it is often used.
 
 00:26:05,930 --> 00:26:08,837
 And, of course, the original motivation:
@@ -1442,8 +1442,8 @@ Again, a very naive example, just to
 emphasize this last point a bit more.
 
 00:26:42,440 --> 00:26:46,310
-So yes, here would be a real
-world thing: a ticket machine.
+So yes, here would be a thing from the
+real world: a ticket machine.
 
 00:26:46,310 --> 00:26:49,700
 You can also see that this is
@@ -1497,8 +1497,8 @@ That would be such an
 object of the real world,
 
 00:27:31,940 --> 00:27:37,610
-which one would like to reproduce then evenly
-by object-oriented modeling also in UML.
+which one would like to reproduce then
+even by object-oriented modeling also in UML.
 
 00:27:37,610 --> 00:27:43,100
 Two terms will then appear as concepts:
@@ -1518,8 +1518,8 @@ the principle of the class.
 This is simply a type of object,
 
 00:27:49,520 --> 00:27:53,600
-that is, the grouping of
-objects with similar properties.
+that is, the summary
+of objects with similar properties.
 
 00:27:53,600 --> 00:27:59,330
 We will then also look at class design.

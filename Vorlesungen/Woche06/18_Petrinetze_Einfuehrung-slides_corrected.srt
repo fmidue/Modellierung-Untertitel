@@ -89,8 +89,8 @@ At first glance, this may look
 a bit like a flat state diagram.
 
 00:01:43,440 --> 00:01:47,280
-So like what we have dealt with
-in the Wolf-Goat-Kohlkopf problem,
+So like what we have
+dealt with in the Wolf-Goat-Cabbage problem,
 
 00:01:47,280 --> 00:01:50,040
 for example, or
@@ -180,11 +180,11 @@ places, or places actually.
 
 00:03:20,540 --> 00:03:23,330
 And there can
-be markers (tokens) in there.
+be tokens in there.
 
 00:03:23,330 --> 00:03:30,110
-These will be movable little markers (tokens)
-afterwards that can be moved through the Petri net.
+These will be movable little tokens afterwards
+that can be moved through the Petri net.
 
 00:03:30,110 --> 00:03:35,120
 And these boxes, these are another
@@ -1157,17 +1157,16 @@ You have to ask yourself whether the
 system is fair in this or a similar sense.
 
 00:20:55,680 --> 00:20:59,910
-These are properties that do not
-only apply to this one system.
+These are characteristics that
+are not only applicable to this one system.
 
 00:21:00,630 --> 00:21:04,080
-So fairness is also a question
-that one can grasp in general,
+Thus, fairness is also a question
+that can be generally posed,
 
 00:21:04,080 --> 00:21:08,400
-and then ask for different Petri
-nets and different systems.
-
+and then asked about different Petri nets
+and various systems.
 00:21:08,400 --> 00:21:11,850
 Here I related it to the
 philosophers in each case.

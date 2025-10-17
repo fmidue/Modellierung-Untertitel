@@ -275,7 +275,7 @@ Let one class be a class of people.
 Let the other class be a class of cars.
 
 00:05:53,610 --> 00:05:57,150
-And persons can own cars.
+And people can own cars.
 
 00:05:57,150 --> 00:06:04,620
 And instead of entering "mycar"

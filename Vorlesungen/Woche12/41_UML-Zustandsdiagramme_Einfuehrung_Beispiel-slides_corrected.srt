@@ -90,28 +90,28 @@ But there are also cases where one of the
 two rough directions is more appropriate.
 
 00:01:48,510 --> 00:01:55,380
-To distinguish between the two, I would like
-to make this observation that activity diagrams
+The distinction is based on the observation
+that in activity diagrams, the focus is on
 
 00:01:55,380 --> 00:02:03,240
-focus on actions and state diagrams
-focus on reactions to the environment.
+actions, whereas in state diagrams,
+it is more on reactions to the environment.
 
 00:02:03,240 --> 00:02:06,300
-So a state transition is triggered
-by something from outside.
+A state transition is triggered
+by something external.
 
 00:02:06,300 --> 00:02:09,660
-And then it has to be described
-what that does to the states,
+Then it must be described
+what this does to the states,
 
 00:02:09,660 --> 00:02:12,660
-or what new state the system
-then enters.
+or which new state is then
+assumed by the system,
 
 00:02:12,660 --> 00:02:16,800
-Instead of simply putting sequences
-of actions in the center.
+instead of simply focusing on
+sequences of actions.
 
 00:02:19,560 --> 00:02:20,880
 That's very abstract at first.

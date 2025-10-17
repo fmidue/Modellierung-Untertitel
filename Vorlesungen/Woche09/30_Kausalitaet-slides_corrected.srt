@@ -105,20 +105,16 @@ Causality is, so to speak, the
 dependence of one transition on another.
 
 00:02:08,610 --> 00:02:12,910
-One says, a transition t1
-in a given Petri net is a
+A transition t1 in a given Petri net is said to be a necessary
 
 00:02:12,910 --> 00:02:16,930
-necessary condition for the firing
-of the transition t2, if it is
+condition for the firing of transition t2 if it is the case
 
 00:02:16,930 --> 00:02:21,880
-so that t2 cannot be fired without
-t1 having been fired somehow before.
+that t2 cannot be fired without t1 having been fired beforehand.
 
 00:02:21,880 --> 00:02:32,200
-So if for every firing sequence (using this
-notation t-tilde) that somehow leads from the
+So if for every firing sequence (using this notation t-tilde) that somehow leads from the
 
 00:02:32,200 --> 00:02:51,880
 original initial marking to the firing

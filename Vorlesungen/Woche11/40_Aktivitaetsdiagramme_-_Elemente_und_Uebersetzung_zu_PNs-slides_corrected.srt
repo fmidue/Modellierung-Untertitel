@@ -436,7 +436,7 @@ nodes are usually nouns and not verbs.
 
 00:07:51,120 --> 00:07:53,880
 Yes, because it is just about
-objects that can be put there.
+objects that can be placed in transitions.
 
 00:07:53,880 --> 00:08:01,410
 O.k., I had already
@@ -1232,20 +1232,19 @@ We will also see this in the example.
 That's exactly where it appears.
 
 00:22:34,410 --> 00:22:40,950
-So in our example activity diagram it
-was so that this becomes a transition.
+So in our example activity diagram, it was
+such that this becomes a transition and
 
 00:22:40,950 --> 00:22:45,060
-This also becomes a transition, because
-that's the way it is with actions and
+this also becomes a transition,
+because that is how it is with actions and
 
 00:22:45,060 --> 00:22:49,590
-join nodes
-in the activity diagram.
+synchronization nodes/merge nodes
+in activity diagrams.
 
 00:22:49,590 --> 00:22:52,650
-Then there must be
-an auxiliary place in between.
+Then there must be an auxiliary place in between.
 
 00:22:52,650 --> 00:23:00,660
 O.k., and as with the merge and
@@ -1280,7 +1279,9 @@ So really splitting or merging,
 not a mixture of those.
 
 00:23:28,560 --> 00:23:36,600
-O.k., of course a
+O.k.
+
+of course a
 certain discipline is useful.
 
 00:23:36,600 --> 00:23:41,520
@@ -2047,7 +2048,9 @@ software modeling context, perhaps.
 
 226 # slide
 00:37:50,740 --> 00:37:53,890
-O.k., so the point here is:
+O.k.
+
+so the point here is:
 
 00:37:53,890 --> 00:37:56,500
 This correspondence, it's

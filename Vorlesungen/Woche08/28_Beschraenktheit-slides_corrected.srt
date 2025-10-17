@@ -288,11 +288,11 @@ only 1, each marking contains only
 at most one token per place, etc.
 
 00:05:44,180 --> 00:05:45,890
-This is very bounded.
+This is very limited.
 
 00:05:45,890 --> 00:05:50,600
-In fact "1-safe" or "1-bounded",
-but you say "1-safe" to it.
+Actually "1-safe" or "1-bounded",
+but it's called "1-safe".
 
 00:05:51,890 --> 00:05:55,850
 Besides that, there are other notions of
