@@ -44,7 +44,7 @@ I'm going to write the capacities here.
 And let's do the first step.
 
 0:01:17.610,0:01:25.119
-So, for s1, let's make a complimentary state
+So, for s1, let's make a complementary state
 s1-bar.
 
 0:01:25.119,0:01:31.220
@@ -66,7 +66,7 @@ of two, and it already has two tokens.
 This means for s2-bar, we don't add any tokens.
 
 0:01:55.560,0:02:01.490
-Let's make a complimentary state for s3, s3-bar.
+Let's make a complementary state for s3, s3-bar.
 
 0:02:01.490,0:02:08.110
 And because the capacity of s3 is one and
@@ -163,5 +163,5 @@ The capacities here we don't need them anymore
 because this Petri net is now equivalent to
 
 0:04:21.579,0:04:26.440
-the original Petri net that we had which have
+the original Petri net that we had which has
 capacities.

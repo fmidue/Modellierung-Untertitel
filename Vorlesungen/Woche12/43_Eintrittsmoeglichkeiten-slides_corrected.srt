@@ -136,7 +136,7 @@ arrows or, if necessary, also
 on the arrows here could there be
 
 00:02:55,880 --> 00:02:59,390
-triggers, I have omitted
+triggers; I have omitted
 them in this stylized example.
 
 00:03:01,490 --> 00:03:05,060
@@ -182,7 +182,7 @@ entry, into this composite sub-state B,
 
 00:03:50,960 --> 00:03:59,060
 because this is also a default entry via
-the start state, the start state present here
+the start state; the start state present here
 
 00:04:01,070 --> 00:04:04,430
 would be selected
@@ -213,7 +213,7 @@ Then there is the explicit entry.
 
 00:04:39,650 --> 00:04:44,450
 This simply ensures that the continuation takes place
-at exactly the explicitly specified substate, i.e. in
+at exactly the explicitly specified sub-state, i.e., in
 
 00:04:44,450 --> 00:04:50,780
 our example it simply leads to
@@ -234,7 +234,7 @@ This possibility of the explicit entry also
 means that we don't always need a
 
 00:05:11,630 --> 00:05:18,050
-start state on every level, if we
+start state on every level; if we
 always proceed by explicit entry, we wouldn't
 
 00:05:18,050 --> 00:05:24,650
@@ -442,7 +442,7 @@ B because we were inside E.
 
 00:10:09,290 --> 00:10:16,250
 I.e., if we come over the shallow history,
-then we would say, we continue at B.
+then we would say we continue at B.
 
 00:10:16,250 --> 00:10:21,500
 But to continue at B then means to
@@ -495,12 +495,12 @@ This arrow is not there for us to
 always continue at D, so even if this
 
 00:11:27,920 --> 00:11:35,780
-arrow here were to point to C, for
+if the arrow here were to point to C, for
 example, then we would indeed go to C if
 
 00:11:35,780 --> 00:11:42,830
 we have never been inside A, but if
-we have been inside A, for example in E,
+we have been inside A, for example, in E,
 
 00:11:42,830 --> 00:11:47,990
 then we would actually continue regardless of
@@ -516,7 +516,7 @@ here in E. The outermost state in
 
 00:11:57,800 --> 00:12:03,200
 which E occurs, in which we have already been,
-is B and the starting state of B is D.
+is B, and the starting state of B is D.
 
 00:12:03,200 --> 00:12:09,710
 One must simply read through these rules very
@@ -527,11 +527,11 @@ then it becomes clear what the meaning
 of the entries is in each case.
 
 00:12:18,020 --> 00:12:22,580
-Beyond that there are still
+Beyond that, there are still
 further possibilities of entry, in
 
 00:12:22,580 --> 00:12:24,560
-particular there is
+particular, there is
 the so-called entry point.
 
 00:12:24,560 --> 00:12:26,930
@@ -572,11 +572,11 @@ However, in the wristwatch example, there
 will also be such an entry with
 
 00:13:11,180 --> 00:13:15,936
-regions where we also
+regions, where we also
 have history in play.
 
 00:13:15,936 --> 00:13:18,980
-So in a state with regions there
+So in a state with regions, there
 is still the possibility of default entry,
 
 00:13:18,980 --> 00:13:23,270
@@ -589,7 +589,7 @@ drawn in here now, and in addition
 
 00:13:28,070 --> 00:13:33,680
 there is the possibility of entry via
-a fork and this is of course the
+a fork, and this is of course the
 
 00:13:33,680 --> 00:13:38,270
 same kind of fork node
@@ -681,7 +681,7 @@ do something in the second region.
 What do we do there?
 
 00:15:27,110 --> 00:15:29,360
-Obviously we take the start
+Obviously, we take the start
 state of the other region.
 
 00:15:31,160 --> 00:15:34,610
@@ -690,7 +690,7 @@ region is jumped to directly.
 
 00:15:34,610 --> 00:15:38,690
 This is done via the explicit entry,
-and in the regions parallel to it we
+and in the regions parallel to it, we
 
 00:15:38,690 --> 00:15:40,760
 each begin with the start state.
@@ -700,7 +700,7 @@ In our example, via this arrow, we enter
 B in the first region and C in the second region, implicitly.
 
 00:15:53,810 --> 00:16:04,010
-Then there is the case of the fork and
+Then there is the case of the fork, and
 this is also very obvious, because via the fork we
 
 00:16:04,010 --> 00:16:12,530

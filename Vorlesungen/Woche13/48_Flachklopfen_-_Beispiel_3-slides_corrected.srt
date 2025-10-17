@@ -281,7 +281,7 @@ there from X, we get this transition.
 
 00:05:42,940 --> 00:05:48,970
 This corresponds to the information: default entry
-via the start state, therefore this transition.
+via the start state; therefore this transition.
 
 00:05:50,740 --> 00:05:52,300
 What else do we have to translate?
@@ -362,7 +362,7 @@ So it's not just A, it's
 that A that we entered from D.
 
 00:07:16,120 --> 00:07:19,930
-So in the outer states, in the A and
+So in the outer states, in A and
 the B and strictly speaking also in the X,
 
 00:07:19,930 --> 00:07:22,690
@@ -530,7 +530,7 @@ or this essential idea in particular,
 to remember in the outer states whether
 
 00:10:39,460 --> 00:10:44,980
-or from which sub-state of
+from which sub-state of
 the hierarchical state you got there.
 
 00:10:44,980 --> 00:10:52,510

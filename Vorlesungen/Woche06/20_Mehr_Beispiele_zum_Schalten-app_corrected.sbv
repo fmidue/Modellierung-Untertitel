@@ -151,14 +151,14 @@ shown here now, these transitions could fire.
 
 0:02:52.140,0:02:54.780
 Of course, these two transitions could
-also fire, because of this token.
+also fire because of this token.
 
 0:02:54.780,0:03:01.050
 But let's assume that
 we fire this middle transition.
 
 0:03:01.050,0:03:02.520
-Then this would mean of course:
+Then this would mean, of course:
 
 0:03:02.520,0:03:08.820
 A corresponding number of tokens are
@@ -528,7 +528,7 @@ Here this token disappears, these
 two tokens disappear, on the
 
 0:10:13.170,0:10:20.310
-right a token is added, on the
+right, a token is added, on the
 left also only one token is added.
 
 0:10:20.310,0:10:24.270

@@ -313,7 +313,7 @@ the rest of the transitions in there yourself.
 
 00:06:07,660 --> 00:06:13,210
 So, by definition, this is a
-graph that contains all all reachable
+graph that contains all reachable
 
 00:06:13,210 --> 00:06:16,720
 markings, especially, of course,
@@ -589,7 +589,7 @@ Or take the Petri
 net, think away these markings,
 
 00:10:39,940 --> 00:10:44,170
-instead for example consider the situation, where
+instead for example consider the situation where
 on each place exactly one token lies.
 
 00:10:44,170 --> 00:10:46,990
@@ -648,7 +648,7 @@ If we fire t3 from (1,1,1), then
 
 00:11:31,120 --> 00:11:35,230
 we would come to the
-marking (1,2 0), which already exists.
+marking (1,2,0), which already exists.
 
 00:11:35,230 --> 00:11:42,160
 Of course, we then do not

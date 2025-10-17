@@ -36,10 +36,10 @@ from the Picture class. And that is why they
 
 0:01:30.350,0:01:38.100
 also inherit the methods. That is why objects
-of types circle, rectangle, and Path can also
+of types Circle, Rectangle, and Path can also
 
 0:01:38.100,0:01:49.469
-invoke those methods. And so, circle, rectangle,
+invoke those methods. And so, Circle, Rectangle,
 and Path can all invoke those mentioned methods.
 
 0:01:49.469,0:02:01.620
@@ -240,7 +240,7 @@ combine or change one Picture by adding another
 
 0:09:21.810,0:09:31.050
 Picture to it. That is why we could define
-it like this we have an ampersand function
+it like this: we have an ampersand function
 
 0:09:31.050,0:09:41.190
 that takes one argument, which is the other
@@ -295,5 +295,5 @@ And every Path is on just that single Point.
 When we have aggregation, then Points may
 
 0:11:32.930,0:11:40.270
-be shared between different paths. That's
+be shared between different Paths. That's
 it for this task.

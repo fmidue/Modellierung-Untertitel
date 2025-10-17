@@ -225,7 +225,7 @@ is just such a rectangle.
 
 00:03:55,540 --> 00:04:01,390
 That can be connected to several
-of the places/circles, by incoming/outgoing arrows.
+of the places/circles by incoming/outgoing arrows.
 
 00:04:01,390 --> 00:04:03,607
 And it can be quite different.
@@ -251,7 +251,7 @@ they are in front of it with respect to the arrows.
 
 00:04:20,980 --> 00:04:23,410
 They do not necessarily have to
-be shown above as in the example.
+be shown above, as in the example.
 
 00:04:23,410 --> 00:04:24,550
 They could also lie somewhere else.
@@ -294,19 +294,19 @@ There it is recorded:
 How do the tokens change?
 
 00:05:04,260 --> 00:05:07,620
-So the transitions together with their
-pre- and post-conditions are the central
+So the transitions, together with their
+pre- and post-conditions, are the central
 
 00:05:07,620 --> 00:05:11,550
 information carriers in the
 representation of a Petri net.
 
 00:05:11,550 --> 00:05:14,790
-So it could be for example like this:
+So it could be, for example, like this:
 
 00:05:14,790 --> 00:05:20,040
 Here are two tokens on these two
-places and then this transition could fire.
+places, and then this transition could fire.
 
 00:05:20,040 --> 00:05:24,960
 And that would cause those two tokens
@@ -318,15 +318,15 @@ the three postcondition sites.
 
 00:05:27,420 --> 00:05:31,710
 So that's not like a token
-could move through here or that
+could move through here, or that
 
 00:05:31,710 --> 00:05:33,600
 could happen independently
 for the two inputs.
 
 00:05:33,600 --> 00:05:39,000
-But rather both inputs are consumed at the
-same time and a token is deposited on
+But rather, both inputs are consumed at the
+same time, and a token is deposited on
 
 00:05:39,000 --> 00:05:42,900
 all three outputs, in this specific case
@@ -338,7 +338,7 @@ is different, then it is analogous.
 
 00:05:51,090 --> 00:05:57,300
 And exactly this change, the removal of
-the tokens of the precondition and then
+the tokens of the precondition, and then
 
 00:05:57,300 --> 00:06:02,340
 simultaneous generation of the tokens in the
@@ -368,7 +368,7 @@ Here, by chance, it looked like
 that, for example, there was exactly
 
 00:06:19,470 --> 00:06:23,130
-one token here and afterwards
+one token here, and afterwards
 exactly one token in the postconditions.
 
 00:06:23,130 --> 00:06:26,550
@@ -381,7 +381,7 @@ two tokens and one token.
 
 00:06:28,770 --> 00:06:32,127
 Then one of these two would be
-removed and the one that was here.
+removed, and the one that was here.
 
 00:06:32,127 --> 00:06:36,960
 In general, there can
@@ -398,7 +398,7 @@ Then you have to note that on the arrow.
 We will discuss how
 
 00:06:45,510 --> 00:06:49,800
-this is displayed exactly and what
+this is displayed exactly, and what
 effects this has on the firing.
 
 00:06:52,380 --> 00:06:56,220
@@ -441,7 +441,7 @@ nor must everything be
 empty up here after firing.
 
 00:07:33,900 --> 00:07:39,030
-So if for example two tokens
+So if, for example, two tokens
 would have been here, and the transition
 
 00:07:39,030 --> 00:07:44,685
@@ -481,7 +481,7 @@ in the places from
 which tokens are requested.
 
 00:08:22,980 --> 00:08:27,270
-So for example this transition here
+So for example, this transition here
 on the left could not be fired
 
 00:08:27,270 --> 00:08:29,610
@@ -503,6 +503,7 @@ This place is empty.
 00:08:35,580 --> 00:08:37,140
 Then this transition can't fire.
 
+```
 00:08:37,140 --> 00:08:42,060
 And the same would be
 true for this and this transition.
@@ -537,7 +538,7 @@ Now we have a
 new constellation of the Petri
 
 00:09:12,090 --> 00:09:15,720
-net, i.e. a new assignment
+net, i.e., a new assignment
 of the places with tokens.
 
 00:09:15,720 --> 00:09:16,740
@@ -566,7 +567,7 @@ token on the only precondition place.
 
 00:09:35,340 --> 00:09:38,190
 So this transition could fire
-now, it is activated now.
+now; it is activated now.
 
 00:09:38,190 --> 00:09:40,880
 It's ready to fire now.
@@ -606,7 +607,7 @@ we would do it in that order.
 
 00:10:13,770 --> 00:10:16,050
 But there is a
-certain non-determinism, that is,
+certain non-determinism; that is,
 
 00:10:16,050 --> 00:10:21,930
 the order is not necessarily fixed
@@ -686,7 +687,7 @@ That means, in that case, we would
 now have maneuvered ourselves into a dead end.
 
 00:11:39,380 --> 00:11:42,470
-I had already said that, that
+I had already said that; that
 is a general term for Petri nets:
 
 00:11:42,470 --> 00:11:43,460
@@ -763,7 +764,7 @@ So these two transitions are in
 conflict with respect to this resource.
 
 00:12:47,330 --> 00:12:50,570
-And, if we unfortunately decided
+And if we unfortunately decided
 in the example to give
 
 00:12:50,570 --> 00:12:57,260

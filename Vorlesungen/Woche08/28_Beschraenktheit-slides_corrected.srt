@@ -1,7 +1,7 @@
 172 # slide
 00:00:00,000 --> 00:00:09,030
 Just now we were dealing with
-liveness notions, i.e. properties of Petri
+liveness notions, i.e., properties of Petri
 
 00:00:09,030 --> 00:00:12,240
 nets that have something to
@@ -178,7 +178,7 @@ a component there that is not 0 or 1.
 
 00:03:21,980 --> 00:03:26,900
 Thus we can already say
-quite clearly, as simple example, that
+quite clearly, as a simple example, that
 
 00:03:26,900 --> 00:03:31,340
 for example this Petri net is not 1-safe.
@@ -229,7 +229,7 @@ a weight in the Petri net representation, and
 
 00:04:25,400 --> 00:04:27,890
 that every reachable marking
-(i.e. every node in
+(i.e., every node in
 
 00:04:27,890 --> 00:04:32,720
 the reachability graph) must not
@@ -299,7 +299,7 @@ Besides that, there are other notions
 of boundedness, which also allow larger values.
 
 00:05:55,850 --> 00:05:59,660
-Which in particular do not already restrict
+Which in particular do not restrict
 the weights in the Petri net itself.
 
 00:05:59,660 --> 00:06:03,020
@@ -378,8 +378,8 @@ But if for each constant c there is a
 marking m reachable from m0 and a place (not
 
 00:07:15,190 --> 00:07:21,820
-all places, but one place), so that actually
-a value larger than c is realised.
+all places, but one place) so that actually
+a value larger than c is realized.
 
 00:07:21,820 --> 00:07:25,780
 So "bounded" and "unbounded" are actually
@@ -495,7 +495,7 @@ will have such a maximum constant
 and then it is also bounded.
 
 00:09:17,930 --> 00:09:21,020
-Any Petri net that is not bounded
+Any Petri net that is not bounded,
 
 00:09:21,020 --> 00:09:24,560
 will automatically have

@@ -245,7 +245,7 @@ There are several books on that as well, again
 
 00:04:57,950 --> 00:05:04,370
 there's a book available online.
-If you're logged into the Uniaccount,
+If you're logged into the Uni account,
 
 00:05:04,370 --> 00:05:09,080
 here's a paper on Petri
@@ -348,7 +348,7 @@ will be the last chapter in the lecture
 
 00:07:25,080 --> 00:07:29,172
 where we deal with this
-particular type of statecharts or
+particular type of state charts or
 
 00:07:29,172 --> 00:07:33,750
 state diagrams in UML. This is
@@ -356,7 +356,7 @@ often perceived as the most complex
 
 00:07:33,750 --> 00:07:39,840
 part of the lecture.
-UML statecharts are also
+UML state charts are also
 
 00:07:39,840 --> 00:07:44,010
 explained to some extent in UML books.
@@ -372,7 +372,7 @@ syntax is not one hundred percent
 
 00:07:54,570 --> 00:07:59,220
 exactly the same there, but the important concepts
-we will be looking at from statecharts, you
+we will be looking at from state charts, you
 
 00:07:59,220 --> 00:08:12,400
 will find well explained in English in that article.
@@ -413,7 +413,7 @@ places. Also, simply in introductory books
 
 00:08:56,170 --> 00:08:59,530
 on software engineering, the dynamic
-aspects, which include statecharts,
+aspects, which include state charts,
 
 00:08:59,530 --> 00:09:05,560
 which are certainly more difficult and are

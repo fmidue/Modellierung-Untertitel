@@ -268,7 +268,7 @@ about the place-by-place comparison.
 
 00:05:11,020 --> 00:05:14,440
 So for each place it must hold that m0
-of d is less than-equal to k of s.
+of d is less than or equal to k of s.
 
 00:05:14,440 --> 00:05:16,750
 Which means exactly
@@ -518,7 +518,7 @@ would be allowed to fire.
 
 00:09:43,580 --> 00:09:47,030
 It would consume this token and
-has no problem to deposit anything,
+has no problem depositing anything,
 
 00:09:47,030 --> 00:09:48,920
 because there are no output arrows.
@@ -590,7 +590,7 @@ the fact that we must look evenly
 
 00:10:59,250 --> 00:11:03,360
 also at the issuing points, whether there
-is so to speak still enough place.
+is, so to speak, still enough place.
 
 00:11:03,360 --> 00:11:04,860
 What does that mean?
@@ -625,14 +625,14 @@ comes out (what would come out
 
 00:11:42,390 --> 00:11:47,760
 in normal firing) is still
-less-than-equal to the capacity marking.
+less than or equal to the capacity marking.
 
 00:11:47,760 --> 00:11:52,950
 And only if this is so (that's
 why it says "and if it is allowed"),
 
 00:11:52,950 --> 00:11:56,220
-the tradition t in the
+the transition t in the
 marking m may fire at all.
 
 00:11:56,220 --> 00:11:59,670
@@ -667,11 +667,11 @@ Now it is additionally required that the
 new marking that would come out is
 
 00:12:19,710 --> 00:12:21,780
-less-than-equal to the capacity function.
+less than or equal to the capacity function.
 
 00:12:22,330 --> 00:12:25,990
 And only then the transition is allowed to
-fire and of course leads exactly to this marking.
+fire and, of course, leads exactly to this marking.
 
 00:12:26,830 --> 00:12:30,040
 Here it is enforced that
@@ -744,9 +744,11 @@ What comes out is exactly the same as
 what would come out in a normal Petri net.
 
 00:13:55,000 --> 00:13:58,600
-Only, when we look at
+Only when we look at
 which further transitions are possible,
+```
 
+```
 00:13:58,600 --> 00:14:02,920
 we always check which transitions are
 
@@ -756,7 +758,7 @@ account these capacity bounds.
 
 00:14:06,940 --> 00:14:14,590
 Here it has an effect above all
-here that we may not fire t1 here.
+that we may not fire t1 here.
 
 00:14:14,590 --> 00:14:16,630
 If, on the other hand, we have fired
@@ -773,7 +775,7 @@ That's why the t1 transition is possible here,
 because it puts the token from here to
 
 00:14:27,700 --> 00:14:31,510
-there and that's allowed, because even after
+there, and that's allowed, because even after
 that there's still only one token here.
 
 00:14:32,660 --> 00:14:35,720
@@ -801,7 +803,7 @@ the reachability graph to this
 
 00:15:04,970 --> 00:15:07,400
 behavior (and not had another
-transition for example here with t1).
+transition, for example, here with t1).
 
 00:15:07,400 --> 00:15:11,810
 You can do it that way.
@@ -853,7 +855,7 @@ net that gets by with
 
 00:16:01,880 --> 00:16:05,630
 simple means (so
-doesn't need such annotation),
+it doesn't need such annotation),
 
 00:16:05,630 --> 00:16:12,050
 but still achieves the behavior that
@@ -864,7 +866,7 @@ So in particular, in the end also for
 these rewritten Petri nets here in the example
 
 00:16:20,420 --> 00:16:26,150
-such a reachability graph should come out and
+such a reachability graph should come out, and
 just about t1 should not be fireable from
 
 00:16:26,150 --> 00:16:31,520
@@ -932,10 +934,10 @@ may be put on the original place s.
 
 00:17:41,240 --> 00:17:46,820
 So in the example just
-now we had two places.
+now, we had two places.
 
 00:17:46,820 --> 00:17:50,210
-For each place we
+For each place, we
 add a so-called complement place.
 
 00:17:50,210 --> 00:17:51,800
@@ -986,11 +988,11 @@ are not actually already present in the initial marking.
 
 00:18:41,330 --> 00:18:48,520
 So if the capacity would say, on
-place s five tokens may lie, in the
+place s, five tokens may lie; in the
 
 00:18:48,520 --> 00:18:53,500
-initial marking of the Petri net however
-on this place s only three tokens lie,
+initial marking of the Petri net, however,
+on this place s, only three tokens lie,
 
 00:18:53,500 --> 00:18:59,620
 then we would put in the initial marking 5
@@ -1244,7 +1246,7 @@ from which later firing operations are likely
 to place tokens on place s again.
 
 00:23:27,480 --> 00:23:31,770
-For example transition t, but
+For example, transition t, but
 in particular also other transitions,
 
 00:23:31,770 --> 00:23:33,600
@@ -1795,7 +1797,7 @@ Because s2-bar is this position here,
 and there is no token there.
 
 00:34:45,290 --> 00:34:47,300
-That means, there is no more reserve
+That means there is no more reserve
 
 00:34:47,300 --> 00:34:52,130
 which would somehow allow
@@ -1833,7 +1835,7 @@ The t2 would like to put a token in s1.
 
 00:35:43,530 --> 00:35:47,400
 It checks whether there is any
-potential for this, i.e. it checks
+potential for this, i.e., it checks
 
 00:35:47,400 --> 00:35:50,790
 whether there is a token in s1-bar.

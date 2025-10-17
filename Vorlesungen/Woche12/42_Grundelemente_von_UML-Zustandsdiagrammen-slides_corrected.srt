@@ -283,7 +283,7 @@ And not some extra node, as
 it was the case in Petri nets.
 
 00:04:55,050 --> 00:04:59,430
-In general there is
+In general, there is
 a label on this arrow.
 
 00:04:59,430 --> 00:05:00,270
@@ -338,7 +338,7 @@ the corresponding transition,
 thereby causing that transition.
 
 00:05:33,420 --> 00:05:35,880
-In this case the passing of 1 minute.
+In this case, the passing of 1 minute.
 
 00:05:35,880 --> 00:05:43,110
 The condition can
@@ -554,7 +554,7 @@ Whenever the state is entered, the
 effect/activity sound signal should be triggered.
 
 00:09:45,640 --> 00:09:49,840
-I.e. we need a syntax for these states.
+I.e., we need a syntax for these states.
 
 00:09:49,840 --> 00:09:53,650
 Unlike flat state diagrams, where states
@@ -611,7 +611,7 @@ number of hours and a number of minutes.
 
 00:10:50,320 --> 00:10:55,090
 But 24 × 60 that would be already
-very many such pairs, which one can form.
+very many such pairs which one can form.
 
 00:10:55,090 --> 00:10:55,840
 We do not want that.
@@ -727,7 +727,7 @@ there can be no transitions
 
 00:12:55,890 --> 00:13:01,050
 that move from a state of one
-region, to a state of the other region.
+region to a state of the other region.
 
 00:13:01,050 --> 00:13:04,890
 I cannot go from a minute state
@@ -807,7 +807,7 @@ And the other region
 looks something like this.
 
 00:14:31,170 --> 00:14:35,550
-But has fewer states, because
+But has fewer states because
 it's just about the hours.
 
 00:14:35,550 --> 00:14:37,830
@@ -1021,7 +1021,7 @@ Between them there should be triggers.
 
 00:18:34,300 --> 00:18:39,160
 By pressing button
-'a' you should get there.
+'a', you should get there.
 
 00:18:39,160 --> 00:18:43,420
 And we should be able to switch between these
@@ -1169,7 +1169,7 @@ And there is also a start
 state for the whole state diagram.
 
 00:21:37,950 --> 00:21:43,410
-Initially the time display and not
+Initially, the time display and not
 the alarm display shall be activated.
 
 00:21:50,190 --> 00:21:53,610
@@ -1222,7 +1222,7 @@ speak of composite states in general.
 
 00:22:47,700 --> 00:22:52,650
 Instead, I will speak of hierarchical states on the
-one hand and regions states on the other.
+one hand and region states on the other.
 
 00:22:52,650 --> 00:22:56,970
 Hierarchical states will be something like
@@ -1243,5 +1243,5 @@ that consist of multiple regions.
 So indicated with such a dashed line.
 
 00:23:14,040 --> 00:23:24,990
-And of course the regions themselves
+And of course, the regions themselves
 can be composed of several sub-states.

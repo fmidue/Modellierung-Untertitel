@@ -14,7 +14,7 @@ the infinite reachability graph.
 
 0:00:25.550,0:00:34.810
 We cannot create the complete reachability
-graph because of course it is infinite.
+graph because, of course, it is infinite.
 
 0:00:34.810,0:00:44.399
 But the part that we shall create should contain
@@ -28,7 +28,7 @@ We have to have all the connections between
 all possible transitions between these states.
 
 0:00:58.450,0:01:04.510
-That's what hint also tells us.
+That's what the hint also tells us.
 
 0:01:04.510,0:01:08.360
 Let's switch to another screen.
@@ -48,14 +48,14 @@ initial marking.
 We use the usual sequence of places.
 
 0:01:34.619,0:01:48.549
-s1 is the first, so is the first place of
+s1 is the first; so is the first place of
 our tuple.
 
 0:01:48.549,0:01:54.000
 Second is s2, which has zero tokens.
 
 0:01:54.000,0:01:59.509
-And third is s3, which has also zero tokens.
+And third is s3, which also has zero tokens.
 
 0:01:59.509,0:02:04.841
 The first one has one token at the beginning.
@@ -80,16 +80,16 @@ the only transition we can fire is t1 because
 there's a token in s1.
 
 0:02:43.130,0:02:50.360
-But the others require tokens in s2 or s3
+But the others require tokens in s2 or s3,
 respectively.
 
 0:02:50.360,0:03:05.880
-We start by firing t1 and then we get to our
+We start by firing t1, and then we get to our
 next state.
 
 0:03:05.880,0:03:19.420
 Let's say we go from here to the next state,
-which is zero tokens in s1, because there's
+which is zero tokens in s1 because there's
 
 0:03:19.420,0:03:28.420
 no arrow from t1 going there, but one arrow
@@ -99,7 +99,7 @@ going from s1 to t1.
 And s2 and s3 will each get one token.
 
 0:03:37.670,0:03:44.190
-So by firing t1
+So by firing t1,
 
 0:03:44.190,0:03:46.730
 we have reached this state.
@@ -116,7 +116,7 @@ marking.
 
 0:03:59.230,0:04:06.900
 But we can fire t2 as we have got a token in
-s2 and we can t3 as we have got a token in
+s2 and we can fire t3 as we have got a token in
 
 0:04:06.900,0:04:08.200
 s3.
@@ -144,10 +144,10 @@ we can fire t3.
 We can fire t2.
 
 0:04:40.860,0:04:46.160
-Let's do this, t2.
+Let's do this: t2.
 
 0:04:46.160,0:05:03.110
-And we will get one token in s1 and there
+And we will get one token in s1, and there
 will be no token in s2 left, as one is required
 
 0:05:03.110,0:05:05.750
@@ -169,7 +169,7 @@ When we fire t3, we would reach the state.
 
 0:05:47.030,0:06:02.699
 Well, we would reach the state (0,1,2) because
-we take one token out of s3, but place two
+we take one token out of s3 but place two
 
 0:06:02.699,0:06:05.729
 tokens back in.
@@ -196,7 +196,7 @@ be done with firing three transitions, but
 we could go from the other states as well.
 
 0:07:01.010,0:07:12.690
-For instance, we were continuing from here
+For instance, we could continue from here
 where we could skip like this.
 
 0:07:12.690,0:07:19.440
@@ -209,7 +209,7 @@ one token in s3.
 
 0:07:27.750,0:07:36.759
 And we have already the connection where t1
-is fired, but s3 can also be fired.
+is fired, but t3 can also be fired.
 
 0:07:36.759,0:07:46.659
 We would be in a state where there's one more
@@ -240,7 +240,7 @@ And there are two options; we can fire t2,
 which takes one token from s2.
 
 0:08:50.670,0:08:57.160
-And adds a token to s1 which would lead us
+And adds a token to s1, which would lead us
 to (1,0,2), which is the state we already
 
 0:08:57.160,0:09:02.980
@@ -267,8 +267,7 @@ And we are already done with the task.
 You could furthermore add all the edges
 
 0:09:53.640,0:10:07.630
-that go outside of these
-states.
+that go outside of these states.
 
 0:10:07.630,0:10:13.769
 If you have done this, this would be fine
@@ -286,10 +285,10 @@ could be fired from there.
 
 0:10:26.810,0:10:33.660
 And then these could be added as well, but
-this is as I said, optional.
+this is, as I said, optional.
 
 0:10:33.660,0:10:40.160
-When we think, for instance for this, from
+When we think, for instance, for this, from
 this state here, (1,0,2) we could fire t1
 
 0:10:40.160,0:10:57.760
@@ -325,7 +324,7 @@ help of the graph why the net is unbounded
 
 0:12:07.990,0:12:14.850
 and to describe an infinite sequence of transitions
-that leads to an arbitrary large number of
+that leads to an arbitrarily large number of
 
 0:12:14.850,0:12:20.170
 tokens in one of the places of the Petri net.
@@ -363,7 +362,7 @@ had before here.
 
 0:13:25.390,0:13:32.220
 But there are the same amount of tokens in
-place one, which is one and the same amount
+place one, which is one, and the same amount
 
 0:13:32.220,0:13:35.389
 of tokens in place two, which is zero.
@@ -403,7 +402,7 @@ We could consider doing the same with maybe
 some other states.
 
 0:15:11.040,0:15:22.000
-Well for these two here, maybe we could, for
+Well, for these two here, maybe we could, for
 instance, consider this state here and this
 
 0:15:22.000,0:15:24.720
@@ -428,17 +427,17 @@ always add another token into place s3.
 
 0:16:01.269,0:16:09.029
 There are multiple ways of how you can get
-such a sequence and you can choose either
+such a sequence, and you can choose either
 
 0:16:09.029,0:16:11.450
 one of those.
 
 0:16:11.450,0:16:22.400
 For instance, firing the sequence of t1 and
-t2 repetitively or firing t3, repetitively.
+t2 repetitively or firing t3 repetitively.
 
 0:16:22.400,0:16:32.000
-And when you solve the task you have, of course,
+And when you solve the task, you have, of course,
 to consider those firing sequences using your
 
 0:16:32.000,0:16:33.060
@@ -449,14 +448,14 @@ That is by talking about the actual states
 in the reachability graph, and then the firing
 
 0:16:40.980,0:16:51.380
-sequence, which leads to the sequence, which
+sequence, which leads to the sequence that
 creates this infinite graph.
 
 0:16:51.380,0:16:57.180
 Let's go back to the task once more.
 
 0:16:57.180,0:17:01.040
-And we have done B now and now C is left.
+And we have done B now, and now C is left.
 
 0:17:01.040,0:17:09.230
 Now we shall modify the Petri net slightly
@@ -532,7 +531,7 @@ and also deadlock free.
 
 0:19:52.640,0:20:04.780
 Because now there will not be a deadlock where
-we can do nothing any more.
+we can do nothing anymore.
 
 0:20:04.780,0:20:16.580
 Because we can always fire t3

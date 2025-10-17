@@ -448,7 +448,7 @@ That means I can only continue to fire
 here and then I would have executed the
 
 0:07:54.440,0:07:57.530
-petri net once completely and
+Petri net once completely and
 no further actions would be possible.
 
 0:07:57.530,0:08:01.046
@@ -847,7 +847,7 @@ can still see the 3 up there).
 
 0:16:18.420,0:16:23.490
 So we expect these three homeworks to
-be done, then there are three tokens here.
+be done; then there are three tokens here.
 
 0:16:23.490,0:16:28.140
 And only when that's the
@@ -908,7 +908,7 @@ to do more
 homework, and then deciding:
 
 0:17:36.210,0:17:38.430
-Is good for today, day's work
+Is it good for today, day's work
 
 0:17:38.430,0:17:44.370
 done, or maybe also still play
@@ -1049,7 +1049,7 @@ Because that's the way
 you constrain the execution of
 
 0:20:26.910,0:20:29.820
-a transition is: that
+a transition: that
 it depends on a precondition.
 
 0:20:29.820,0:20:33.330
@@ -1134,7 +1134,7 @@ it is currently afternoon at all.
 The problem is:
 
 0:22:00.060,0:22:01.380
-After that you could never play again.
+After that, you could never play again.
 
 0:22:03.360,0:22:07.560
 Although you have accumulated
@@ -1160,7 +1160,7 @@ So there has to be a token here.
 
 0:22:26.040,0:22:28.380
 Only when this token is
-there, can play be performed.
+there can play be performed.
 
 0:22:28.380,0:22:30.810
 But we do not want to destroy this token.
@@ -1171,7 +1171,7 @@ having an arrow in both directions.
 
 0:22:35.100,0:22:44.760
 Now this looks like a double
-arrow, but in reality it's two arrows.
+arrow, but in reality, it's two arrows.
 
 0:22:44.760,0:22:47.010
 One from here to here,
@@ -1453,7 +1453,7 @@ And it would be limited by the
 fact that it can only be played in
 
 0:28:16.290,0:28:18.300
-the afternoon, i.e. when
+the afternoon, i.e., when
 this position is occupied.
 
 0:28:18.300,0:28:22.080
@@ -1495,7 +1495,7 @@ where you have to model
 
 0:29:05.260,0:29:10.240
 something, or be it also for examples from
-the lecture from the slides or from the exercises,
+the lecture, from the slides, or from the exercises,
 
 0:29:10.240,0:29:14.320
 where it is not about such
@@ -1506,7 +1506,7 @@ It might be easier for
 you to work on some
 
 0:29:18.070,0:29:19.720
-tasks, if you don't just work with
+tasks if you don't just work with
 
 0:29:19.720,0:29:24.040
 paper, but actually build the

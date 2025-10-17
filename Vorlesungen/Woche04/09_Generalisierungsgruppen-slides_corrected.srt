@@ -81,7 +81,7 @@ generalization/specialization relationship.
 
 00:01:44,700 --> 00:01:50,490
 So we should let other
-class inherit from "car" if
+classes inherit from "car" if
 
 00:01:50,490 --> 00:01:53,370
 representatives of these other
@@ -554,7 +554,7 @@ complete-overlapping, incomplete-overlapping,
 complete-disjoint, incomplete-disjoint.
 
 00:11:41,590 --> 00:11:46,690
-We have four cases, and in fact you
+We have four cases, and in fact, you
 can also think of constellations that actually occur
 
 00:11:46,690 --> 00:11:49,960

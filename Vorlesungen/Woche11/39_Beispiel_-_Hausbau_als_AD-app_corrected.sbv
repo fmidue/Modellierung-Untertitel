@@ -4,7 +4,7 @@ activity diagram we have just seen.
 
 0:00:07.950,0:00:11.370
 Let's take a look at
-which actions, i.e. which sequences
+which actions, i.e., which sequences
 
 0:00:11.370,0:00:14.580
 of individual steps, are described by it.
@@ -87,7 +87,7 @@ come in on this side now.
 
 0:01:49.140,0:01:54.990
 And the only outgoing arrow would be
-that we go on, to "create plan".
+that we go on to "create plan".
 
 0:01:54.990,0:02:01.530
 So then we would be
@@ -137,7 +137,7 @@ So a plan was created, now we
 have a plan, what happens to that?
 
 0:02:49.550,0:02:54.890
-Well the outgoing arrow would be
+Well, the outgoing arrow would be
 to the next action, "submit a plan".
 
 0:02:55.580,0:02:58.430
@@ -236,7 +236,7 @@ node, or element
 in this activity diagram?
 
 0:04:32.120,0:04:38.750
-Well this is a place where not
+Well, this is a place where not
 only a path crossing takes place, in
 
 0:04:38.750,0:04:42.290
@@ -259,8 +259,7 @@ But here, with the bar, the so-called
 fork, it is actually to be understood
 
 0:05:01.930,0:05:07.850
-in such a way that this token is now split in two.
-So we have the
+in such a way that this token is now split in two. So we have the
 
 0:05:07.850,0:05:11.390
 idea, like with Petri nets, that we
@@ -276,7 +275,7 @@ say here we are right now.
 
 0:05:15.770,0:05:19.790
 Because of this splitting of
-tokens it is more interesting now.
+tokens, it is more interesting now.
 
 0:05:19.790,0:05:22.340
 We're not going left or right.
@@ -290,7 +289,7 @@ That's not what a
 flat state diagram allows.
 
 0:05:28.130,0:05:34.640
-In our wolf-goat-cabbage problem there was
+In our wolf-goat-cabbage problem, there was
 no such thing, in this constellation.
 
 0:05:34.640,0:05:38.150
@@ -337,10 +336,10 @@ And in fact, this is the join node.
 Here, the two tokens would merge again.
 
 0:06:19.910,0:06:21.070
-For this they both have to be there.
+For this, they both have to be there.
 
 0:06:21.070,0:06:26.230
-So if the one token would still
+So if one token would still
 be here, the other token could not progress here.
 
 0:06:26.230,0:06:33.370
@@ -397,7 +396,7 @@ So, it has something of a flat state
 diagram,
 
 0:07:29.470,0:07:32.140
-but it is more, due to the additional elements.
+but it is more due to the additional elements.
 
 0:07:32.140,0:07:35.710
 It also is a bit of a

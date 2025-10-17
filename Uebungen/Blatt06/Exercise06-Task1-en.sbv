@@ -4,7 +4,7 @@ Nets.
 
 0:00:06.799,0:00:14.929
 And in this case, we have been given three
-Petri Nets and we shall find all the reasons
+Petri Nets, and we shall find all the reasons
 
 0:00:14.929,0:00:18.430
 why these Petri Nets are not correct.
@@ -36,7 +36,7 @@ As we don't do this here, we have one reason
 that there is a transition between t2 and
 
 0:01:04.400,0:01:06.660
-t4 which makes it invalid.
+t4, which makes it invalid.
 
 0:01:06.660,0:01:13.150
 And when we check further, we see that there
@@ -47,15 +47,15 @@ to be invalid.
 
 0:01:15.220,0:01:29.439
 In this case, there is an edge between t4
-and t1 and as there are no connections allowed
+and t1, and as there are no connections allowed
 
 0:01:29.439,0:01:39.450
-between transitions itself, this is a violation
+between transitions themselves, this is a violation
 and makes the Petri Net invalid.
 
 0:01:39.450,0:01:52.070
 We can check this Petri Net further and see
-that now, there is always a place, followed
+that now, there is always a place followed
 
 0:01:52.070,0:01:56.799
 by a transition by connecting these edges.
@@ -68,8 +68,8 @@ it would be a valid Petri Net.
 Now, we can check the second Petri Net.
 
 0:02:07.759,0:02:17.730
-And here we see that we have always place
-followed by transition and place when we check
+And here we see that we have always a place
+followed by a transition and a place when we check
 
 0:02:17.730,0:02:18.730
 this Petri Net.
@@ -111,7 +111,7 @@ from being correct.
 
 0:03:21.340,0:03:30.980
 And there is another problem within this Petri
-Net and this concerns the transition or the
+Net, and this concerns the transition or the
 
 0:03:30.980,0:03:37.560
 edges between place one and transition one.
@@ -121,7 +121,7 @@ When we look into this Petri Net, we see that
 both edges are going from s1 to t1.
 
 0:03:46.420,0:03:56.530
-And this is a problem, because it just simply
+And this is a problem because it just simply
 does not make any sense for two edges to be
 
 0:03:56.530,0:04:03.000
@@ -132,7 +132,7 @@ representation within our definition of Petri
 Nets.
 
 0:04:04.430,0:04:11.000
-So, if there would be an edge with the weight
+So, if there were an edge with the weight
 of three, everything would be alright, but
 
 0:04:11.000,0:04:23.320

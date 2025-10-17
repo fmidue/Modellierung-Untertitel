@@ -302,7 +302,7 @@ these functions down as functions, that
 is, with an assignment rule.
 
 00:05:43,280 --> 00:05:45,680
-If S is small, for example
+If S is small, for example,
 contains only 3 or 4 elements,
 
 00:05:45,680 --> 00:05:48,050
@@ -353,8 +353,8 @@ There will be the relation
 that the places from the mathematical
 
 00:06:41,290 --> 00:06:44,796
-definition also correspond to the places
-, the circles, in the graphic representation.
+definition also correspond to the places,
+the circles, in the graphic representation.
 
 00:06:44,796 --> 00:06:47,590
 And the transitions
@@ -552,7 +552,7 @@ It says:
 
 00:10:29,920 --> 00:10:33,280
 On s1 there has to
-be one token on s2 there
+be one token; on s2 there
 
 00:10:33,280 --> 00:10:40,030
 have to be two tokens and s3
@@ -574,7 +574,7 @@ form that we form a triple from
 the three results for s1, s2, s3.
 
 00:10:57,700 --> 00:10:59,440
-For this we just need to know this order.
+For this, we just need to know this order.
 
 00:10:59,440 --> 00:11:02,680
 So if we were to write them down the

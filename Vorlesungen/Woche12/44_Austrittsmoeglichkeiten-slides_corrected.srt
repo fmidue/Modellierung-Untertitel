@@ -282,7 +282,7 @@ the region state if we are actually
 at the corresponding state in this region.
 
 00:06:01,910 --> 00:06:06,770
-Yes, so we would be allowed to leave the regions state
+Yes, so we would be allowed to leave the region's state
 altogether if we are here in B and here in C.
 
 00:06:06,770 --> 00:06:09,080
@@ -336,7 +336,7 @@ exactly when we are in the
 appropriately labeled state in each region.
 
 00:07:00,000 --> 00:07:07,470
-So in the example we could exit only
+So in the example, we could exit only
 when we are actually in B and D.
 
 00:07:07,470 --> 00:07:09,420

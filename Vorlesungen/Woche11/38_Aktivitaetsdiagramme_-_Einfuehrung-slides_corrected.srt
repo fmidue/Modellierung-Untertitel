@@ -142,7 +142,7 @@ used to model flow charts, sequences
 
 00:02:34,890 --> 00:02:38,910
 of actions, parallelism of
-actions, i.e. such dynamic aspects.
+actions, i.e., such dynamic aspects.
 
 00:02:38,910 --> 00:02:41,850
 Concurrency also plays a role here.
@@ -200,7 +200,7 @@ And in fact, activity diagrams are in
 many ways very similar to Petri nets.
 
 00:03:54,323 --> 00:03:58,230
-Yes we will actually
+Yes, we will actually
 make a strong connection
 
 00:03:58,230 --> 00:04:02,250
@@ -219,7 +219,7 @@ as is common in UML, are richer
 than this formal mechanism of Petri nets.
 
 00:04:14,220 --> 00:04:18,870
-They provide more modeling possibilities, i.e.
+They provide more modeling possibilities, i.e.,
 more syntax, more different kinds
 
 00:04:18,870 --> 00:04:21,957

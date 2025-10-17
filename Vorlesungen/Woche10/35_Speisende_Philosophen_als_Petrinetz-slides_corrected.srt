@@ -77,7 +77,7 @@ be related to this example.
 
 00:01:36,170 --> 00:01:42,909
 Questions about bounds or
-capacities, i.e. boundedness or 1-safety,
+capacities, i.e., boundedness or 1-safety,
 
 00:01:42,909 --> 00:01:47,600
 which were also discussed last week,
@@ -458,7 +458,7 @@ go back to the state where he's
 
 00:08:52,422 --> 00:08:57,430
 ready to eat, so again waiting for
-the next time where he would eat.
+the next time when he would eat.
 
 00:08:57,430 --> 00:09:00,569
 And of course both forks, the left fork
@@ -472,7 +472,7 @@ That's why there are these
 two exit arrows from the transition.
 
 00:09:07,199 --> 00:09:11,420
-And for Philosopher 2 and Philosopher 3,
+And for philosopher 2 and philosopher 3,
 that's just symmetrically repeated in each case.
 
 00:09:11,420 --> 00:09:21,870
@@ -527,7 +527,7 @@ the fork on the table that he needs for this.
 
 00:10:10,550 --> 00:10:15,740
 So the first activated transition could
-be that and the first executed action
+be that, and the first executed action
 
 00:10:15,740 --> 00:10:18,029
 could be that this transition will fire.
@@ -544,7 +544,7 @@ or philosopher 3
 could become active here.
 
 00:10:30,500 --> 00:10:39,910
-So here now this, this and
+So here now this, this, and
 this transition would be activated concurrently.
 
 00:10:39,910 --> 00:10:44,759
@@ -556,7 +556,7 @@ At least not
 between these three transitions.
 
 00:10:48,040 --> 00:10:52,699
-That's the only way I can say that, we'll have to
+That's the only way I can say that; we'll have to
 look at the rest to see if there are conflicts of
 
 00:10:52,699 --> 00:10:56,750
@@ -578,7 +578,7 @@ in the process of getting the food.
 
 00:11:12,160 --> 00:11:16,329
 At least to have already grabbed the right
-fork, in order to possibly be able to grab
+fork in order to possibly be able to grab
 
 00:11:16,329 --> 00:11:18,250
 the left fork afterwards and to eat.
@@ -642,12 +642,12 @@ In the step before,
 that was not the case.
 
 00:12:08,089 --> 00:12:11,680
-There the three transitions were actually activated
+There, the three transitions were actually activated
 concurrently, and there were also no other
 
 00:12:11,680 --> 00:12:15,620
 activated transitions than this one,
-this one and this one.
+this one, and this one.
 
 00:12:15,620 --> 00:12:20,730
 There one can convince oneself that all other
@@ -676,7 +676,7 @@ conflict with another transition here, namely
 this transition.
 
 00:12:46,009 --> 00:12:51,069
-This transition is also activated, because
+This transition is also activated because
 it finds a token in both of
 
 00:12:51,069 --> 00:12:52,589
@@ -826,7 +826,7 @@ This is shown here
 as happening in parallel.
 
 00:15:46,739 --> 00:15:50,949
-In reality it happens in any
+In reality, it happens in any
 order that this, this and this transition
 
 00:15:50,949 --> 00:15:51,949
