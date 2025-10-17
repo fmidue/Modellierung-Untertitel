@@ -83,8 +83,8 @@ And also here the problem
 is that there is this cycle,
 
 00:01:36,150 --> 00:01:39,300
-because the two compositions
-are directed oppositely.
+because the two
+compositions are directed oppositely.
 
 00:01:39,300 --> 00:01:45,510
 If one would turn this relationship around here

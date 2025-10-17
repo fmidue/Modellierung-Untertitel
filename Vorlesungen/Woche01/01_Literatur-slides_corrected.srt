@@ -335,8 +335,8 @@ a textbook, here is an article by Harel.
 That should also be available to you, and
 
 00:07:07,260 --> 00:07:13,200
-even without the restriction of having
-to be logged in from the Uni account.
+even without the restriction of having to
+be logged in from the Uni-account.
 
 00:07:13,200 --> 00:07:18,780
 Why is this article relevant?
