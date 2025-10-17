@@ -67,8 +67,8 @@ Or we can call it Z
 for states, because of the state diagram.
 
 00:01:21,600 --> 00:01:27,000
-And for that, we choose the
-set of all markings reachable from m0.
+And for this, we choose the set of all
+markings reachable from m0.
 
 00:01:27,000 --> 00:01:31,590
 Using exactly the reachability
@@ -155,10 +155,10 @@ link any markings together.
 
 00:03:07,800 --> 00:03:13,710
 But we have a transition from
-m to m' with the label
+m to m' with the label t,
 
 00:03:13,710 --> 00:03:23,280
-t, so with label t at the
+so with label t at the
 arrow, exactly when t is activated in
 
 00:03:23,280 --> 00:03:28,020
@@ -177,16 +177,16 @@ state diagram, we still designate a
 special state, namely the start state.
 
 00:03:40,830 --> 00:03:43,470
-And here, logically, this
-is the initial marking.
+And this is logically
+the initial marking.
 
 00:03:43,470 --> 00:03:46,350
-This is one of
-these reachable markings, because
+This is one of those
+reachable markings,
 
 00:03:46,350 --> 00:03:49,770
-it is reachable after
-the empty transition sequence.
+because it is reachable after the
+empty sequence of transitions.
 
 00:03:49,770 --> 00:03:55,200
 So it fits, is an
@@ -483,18 +483,18 @@ For this we would have to
 think of this token here set differently.
 
 00:08:37,870 --> 00:08:39,130
-Now it is no
-longer about the start marking,
+Now it's no longer about
+the start marking,
 
 00:08:39,130 --> 00:08:40,870
 but about the current marking (0,1,2).
 
 00:08:40,870 --> 00:08:43,900
-So, if nothing lies here, one
-token lies here, and here two,
+So, if there's nothing here, a token here,
+and two here,
 
 00:08:45,790 --> 00:08:48,730
-which transition would be fireable then?
+which transitions would then be switchable?
 
 00:08:48,730 --> 00:08:51,280
 The t1 would not be fireable,
@@ -638,7 +638,7 @@ subsequent marking, we find out, for example, that
 if we execute t1, we come to (0,0,3).
 
 00:11:24,670 --> 00:11:26,080
-So this state is added.
+Thus, this state is added.
 
 00:11:26,080 --> 00:11:28,360
 But we also notice:
@@ -739,8 +739,8 @@ results that after finitely many
 steps no more markings are added.
 
 00:13:05,780 --> 00:13:10,070
-And new transitions cannot be added either,
-if we have considered all of them.
+And new transitions cannot
+be added either, once we have considered them all.
 
 00:13:10,070 --> 00:13:12,860
 That is, then that
@@ -752,22 +752,22 @@ for the Petri net given here.
 
 00:13:27,200 --> 00:13:29,510
 And this is useful, because
-it describes the overall behavior
+it ultimately describes
 
 00:13:29,510 --> 00:13:33,110
+the overall behavior
 of the Petri net in this form.
 
 00:13:33,110 --> 00:13:36,470
 This is perhaps not as informative,
-from a modeling point of view,
+from a modeling perspective,
 
 00:13:36,470 --> 00:13:41,930
-as this representation here, where we tell from the transitions,
-so to speak, what they depend on.
+as this representation here, where we can see,
+so to speak, what the transitions depend on.
 
 00:13:41,930 --> 00:13:45,740
-That can be read
-out here at most indirectly.
+This can only be read indirectly here.
 
 00:13:45,740 --> 00:13:48,140
 You would have to look at all t1
@@ -795,8 +795,8 @@ whether after some firings it can happen
 that no further transitions are possible.
 
 00:14:14,000 --> 00:14:17,870
-However, in this accessibility
-graph it is factually obvious.
+Whereas in this reachability graph
+it is factually obvious.
 
 00:14:17,870 --> 00:14:21,140
 We just have to see if there is a
@@ -852,8 +852,8 @@ So we could investigate, for example:
 Are there infinite processes here?
 
 00:14:56,450 --> 00:15:00,794
-So is it possible for the
-system to go on and on?
+Is it thus possible that the
+system always continues to progress?
 
 00:15:00,794 --> 00:15:00,797
 Yes.
@@ -942,13 +942,12 @@ We can look at the graph and see that
 when we've built it completely and, of course, correctly.
 
 00:16:21,540 --> 00:16:26,340
-Okay, and this kind
-of use of reachability graphs
+Okay, and this type of use
+of reachability graphs will
 
 00:16:26,340 --> 00:16:30,390
-will be our topic in
-the next lecture, not today.
-
+occupy us in the next lecture,
+not anymore today.
 00:16:30,390 --> 00:16:34,470
 That will be the topic
 of the next video or videos.

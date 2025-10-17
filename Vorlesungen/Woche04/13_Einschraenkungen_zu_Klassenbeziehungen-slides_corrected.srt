@@ -34,7 +34,7 @@ We had also seen examples.
 
 00:00:41,340 --> 00:00:44,340
 An example of such a
-constellation, and also a cyclic one.
+configuration, and also a cyclic one.
 
 00:00:44,340 --> 00:00:49,020
 Yes, a cycle of association
@@ -68,11 +68,11 @@ must be no self-reference.
 
 00:01:12,510 --> 00:01:19,230
 And there must not be any two
-classes which are directly cyclic in this form.
+classes that are directly cyclic in this form.
 
 00:01:19,230 --> 00:01:25,515
 Here, in fact, the direction
-of the containing relation is important.
+of the containment relation is important.
 
 00:01:25,515 --> 00:01:30,690
 So this is forbidden here because one
@@ -84,7 +84,7 @@ is that there is this cycle,
 
 00:01:36,150 --> 00:01:39,300
 because the two
-compositions are directed opposite.
+compositions are directed oppositely.
 
 00:01:39,300 --> 00:01:45,510
 If one would turn this relationship around here and
@@ -92,10 +92,10 @@ If one would turn this relationship around here and
 
 00:01:45,510 --> 00:01:50,100
 speak, then this could still be valid
-depending on the multiplicities that are on it.
+depending on the multiplicities that are involved.
 
 00:01:50,100 --> 00:01:56,190
-We'll discuss that on a
+This will also be discussed on a
 slide in a moment as well.
 
 00:01:56,190 --> 00:01:57,570
@@ -109,7 +109,7 @@ that are specific to composition.
 So, if you were to replace one of the
 
 00:02:07,230 --> 00:02:10,110
-compositions here with an aggregation,
+elements here with an aggregation,
 it would be legal again.
 
 00:02:10,110 --> 00:02:13,790

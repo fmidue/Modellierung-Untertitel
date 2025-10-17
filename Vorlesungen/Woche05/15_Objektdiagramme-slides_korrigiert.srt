@@ -188,7 +188,7 @@ und dann ein dazu passendes Objektdiagramm.
 
 00:03:30,780 --> 00:03:34,710
 Also nicht die Situation, wo beides in einem
-Diagramm steht mit diesen Extrapfeilen.
+digramm steht mit diesen Extrapfeilen.
 
 00:03:34,710 --> 00:03:36,060
 Das werden wir hier nicht tun.

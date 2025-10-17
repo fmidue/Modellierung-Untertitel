@@ -154,18 +154,18 @@ These are the rectangles here.
 Sometimes I'll draw them as squares.
 
 00:02:39,310 --> 00:02:43,000
-Anyway, with corners and not as circles.
+Anyway, they are angular and not as circles.
 
 00:02:43,000 --> 00:02:46,270
 And these are
-the so-called (system) transitions.
+the so-called transitions or system changes.
 
 00:02:46,270 --> 00:02:51,850
-So the idea then is that by the
+So the idea then is that through the
 arrows going in or out to these rectangles,
 
 00:02:51,850 --> 00:02:57,220
-it shows under what circumstances one
+it is shown under what circumstances one
 overall state can transition to another.
 
 00:02:57,220 --> 00:03:01,690
@@ -177,8 +177,8 @@ the incoming/outgoing
 arrows mean concretely.
 
 00:03:03,190 --> 00:03:09,490
-And that will be that they somehow cause
-the tokens to be located somewhere else afterwards.
+And it will be such that they somehow lead
+to the tokens being located elsewhere afterwards.
 
 00:03:09,490 --> 00:03:11,260
 So the structure of the Petri net remains
@@ -625,14 +625,14 @@ would have to fire this transition again.
 
 00:10:32,220 --> 00:10:34,830
 Because we had already discussed that
-nothing else works in this situation.
+nothing else is possible in this situation.
 
 00:10:34,830 --> 00:10:38,910
-So I fire this again and
-maybe I decide now next time not
+So I will trigger it again and maybe
+this time I might decide,
 
 00:10:38,910 --> 00:10:40,980
-to necessarily have
+not necessarily to have
 the same sequence again.
 
 00:10:40,980 --> 00:10:42,720

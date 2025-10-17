@@ -160,10 +160,10 @@ And this is a term again only for pairs.
 
 00:03:02,840 --> 00:03:06,050
 There are only the
-pairs (t1,t2), (t2,t3) and (t1,t3)
+pairs (t1,t2), (t2,t3) and (t1,t3),
 
 00:03:06,050 --> 00:03:08,420
-here for which it makes sense to wonder.
+for which it makes sense to wonder.
 
 00:03:08,420 --> 00:03:14,420
 And already when we look at t1 and
@@ -175,10 +175,10 @@ this can only be due to.
 
 00:03:16,910 --> 00:03:19,040
 It can only be
-because of this common place.
+because of this common point.
 
 00:03:19,040 --> 00:03:20,540
-That is the only common place.
+That is the only common point.
 
 00:03:20,540 --> 00:03:23,120
 So somehow it could cause a conflict.

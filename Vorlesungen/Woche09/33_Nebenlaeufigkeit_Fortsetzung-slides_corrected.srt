@@ -267,7 +267,7 @@ set T', so they can be concurrently activated.
 If that condition is satisfied here.
 
 00:05:22,750 --> 00:05:24,700
-Is it here?
+Is she here?
 
 00:05:26,410 --> 00:05:29,980
 So this assertion from the
@@ -363,11 +363,11 @@ Then I had the example where
 I actually removed one of the tokens.
 
 00:06:57,550 --> 00:07:01,030
-So where we have only two tokens
-left in s1 at the beginning, but
+So where we initially have
+only two tokens in s1,
 
 00:07:01,030 --> 00:07:03,790
-the rest of the Petri net is unchanged.
+but the rest of the Petri net remains unchanged.
 
 00:07:03,790 --> 00:07:04,210
 There we had already said:
@@ -605,7 +605,7 @@ So any sequence in which each transition
 
 00:11:45,020 --> 00:11:50,570
 from T' occurs exactly once
-lets us fire from m.
+allows us to switch from m.
 
 00:11:50,570 --> 00:11:53,270
 Not that we get stuck somewhere.
@@ -683,8 +683,8 @@ will result in such a
 way for transitions activated concurrently.
 
 00:13:17,430 --> 00:13:20,070
-There I had had
-that before for two transitions.
+I had already had that once
+for two transitions.
 
 00:13:20,070 --> 00:13:23,370
 I think they were t2 and t3

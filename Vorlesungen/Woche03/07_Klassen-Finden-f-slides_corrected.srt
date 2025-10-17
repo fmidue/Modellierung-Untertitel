@@ -23,7 +23,7 @@ We'll explain the syntax for it later.
 
 00:00:30,885 --> 00:00:37,140
 Here you can see some
-details, which we will discuss later.
+details, which we will discuss gradually.
 
 00:00:37,140 --> 00:00:43,350
 There are also some detail deviations from it,
@@ -31,7 +31,7 @@ as it will sometimes be in the lecture.
 
 00:00:43,350 --> 00:00:48,900
 So the language is not fully formal,
-that's why sometimes there are small deviations.
+therefore there are sometimes small deviations.
 
 00:00:48,900 --> 00:00:53,370
 For example, we're going to illustrate exactly
@@ -45,14 +45,13 @@ we'll usually add types to the
 attributes that show up here, etc.
 
 00:01:00,840 --> 00:01:04,770
-There are various
-specifics and small details.
+There are various specifics and small details.
 
 00:01:04,770 --> 00:01:07,770
 But as a first impression, you can
 
 00:01:07,770 --> 00:01:09,750
-just take a look at this class diagram.
+just let this class diagram sink in.
 
 00:01:09,750 --> 00:01:13,260
 So here different classes
@@ -97,8 +96,8 @@ There seem to be
 different kinds of relations, too.
 
 00:01:50,340 --> 00:01:54,090
-Sometimes there are numbers like this
-on here, or some very special annotation.
+Sometimes there are such numbers on here
+or some very special annotation.
 
 00:01:54,090 --> 00:01:56,310
 We're going to do all of that.
@@ -270,15 +269,15 @@ to somehow record requirements for a domain.
 Requirements gathering.
 
 00:04:36,520 --> 00:04:42,550
-The first step would
-be to determine the classes.
+The first step that one would have to take
+would be to determine the classes.
 
 00:04:44,050 --> 00:04:47,410
-Later, you can try to
-establish relationships between the classes in
+Later, one can then try to
+establish relationships between the classes
 
 00:04:47,410 --> 00:04:51,580
-order to ultimately work
+in order to ultimately work
 towards the class diagram.
 
 00:04:51,580 --> 00:04:56,380
@@ -332,14 +331,14 @@ all the class diagram elements.
 
 00:05:42,160 --> 00:05:46,750
 But you should get an impression
-and you should be able to copy
+and you should be able to do something similar
 
 00:05:46,750 --> 00:05:48,280
-it when you get such an exercise.
+when you get such an exercise.
 
 00:05:48,280 --> 00:05:52,330
-Let's assume that a library is
-to be modeled in some way.
+Let's assume that it should somehow
+a library be modeled.
 
 00:05:52,330 --> 00:05:57,550
 And in advance, some
@@ -365,7 +364,7 @@ would like to do with the
 
 00:06:21,230 --> 00:06:24,920
 system from an external black box perspective,
-so to speak, what actions are executed.
+so to speak, what actions are performed.
 
 00:06:24,920 --> 00:06:29,870
 And then it says in each case
@@ -444,7 +443,7 @@ What terms are in here?
 
 00:07:51,140 --> 00:07:54,950
 And the obvious approach would
-be to look at nouns/nouns first.
+be to look at the nouns first.
 
 00:07:54,950 --> 00:07:56,840
 Because classes are things.
@@ -856,7 +855,7 @@ bit by the numbers and the information
 
 00:15:24,760 --> 00:15:30,310
 about how many objects there
-can be of the singleton classes.
+can be of the individual classes.
 
 00:15:30,310 --> 00:15:33,010
 In particular, how many
@@ -958,7 +957,7 @@ can do further refinement.
 
 00:17:22,350 --> 00:17:24,510
 So these relationships here,
-they would just be strokes.
+they would just be lines.
 
 00:17:24,510 --> 00:17:27,420
 We're going to learn
@@ -999,7 +998,7 @@ But the point is:
 
 00:17:57,300 --> 00:18:05,340
 The picture has been further refined
-here to ultimately get closer to implementation.
+here to ultimately get closer to the implementation.
 
 00:18:05,340 --> 00:18:11,400
 Each step adds information that is
@@ -1027,10 +1026,10 @@ with the book or with the member.
 
 00:18:34,230 --> 00:18:39,375
 While the reservation is something that should be
-explicitly represented as a class, because additional
+explicitly represented as a class, because there is still
 
 00:18:39,375 --> 00:18:45,510
-external information is necessary, for example,
+external information necessary, for example,
 until when the book should remain reserved.
 
 00:18:51,600 --> 00:18:57,780
@@ -1047,10 +1046,10 @@ have to introduce syntax.
 
 00:19:10,710 --> 00:19:12,690
 How exactly such a
-class is to be notated.
+class is to be noted.
 
 00:19:12,690 --> 00:19:15,540
 There is a lot left vague here.
 
 00:19:15,540 --> 00:19:18,660
-But I'll do that in another video.
+But I will do that in a further video.

@@ -8,7 +8,7 @@ to be translated into
 a flat state diagram.
 
 00:00:09,910 --> 00:00:12,430
-What do we have in front of us now?
+What do we have here now?
 
 00:00:12,430 --> 00:00:17,920
 Here again we have no regions, so
@@ -33,8 +33,8 @@ combination where both
 regions and history occur.
 
 00:00:41,680 --> 00:00:44,830
-And in fact, we
-won't have them interacting with each other
+And in fact,
+that won't affect each other
 
 00:00:44,830 --> 00:00:50,410
 in our flattening examples

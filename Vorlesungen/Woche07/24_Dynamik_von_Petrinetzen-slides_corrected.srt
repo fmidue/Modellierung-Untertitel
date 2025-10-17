@@ -210,8 +210,8 @@ The m' has nothing
 to do with derivatives.
 
 00:04:07,570 --> 00:04:12,126
-It's not somehow the differential
-calculus stroke: f and f'.
+It's not like the
+derivative notation: f and f'.
 
 00:04:12,126 --> 00:04:14,350
 They are just two different names.
@@ -371,8 +371,8 @@ And it may also be that
 it is not present in either direction.
 
 00:07:00,740 --> 00:07:03,440
-That was already the case
-here, and indeed also here.
+This was already the case here,
+and indeed also here.
 
 00:07:04,340 --> 00:07:11,300
 Although here in both markings simply the numbers 0,
@@ -869,24 +869,24 @@ But generally some marking m'.
 
 00:16:00,030 --> 00:16:05,760
 Then obviously m' is reachable
-in a step of m.
+in a step from m.
 
 00:16:05,760 --> 00:16:08,686
 This can still be generalized
 or taken in a different way.
 
 00:16:08,686 --> 00:16:12,000
-Namely, one can ask whether some marking,
+Namely, one can ask whether any marking,
 
 00:16:12,000 --> 00:16:15,270
-not necessarily m', but some
+not necessarily m', but any
 other marking, is reachable from m.
 
 00:16:15,270 --> 00:16:16,890
-Perhaps also in several steps.
+Perhaps even in several steps.
 
 00:16:16,890 --> 00:16:19,650
-This gives our next definition.
+This leads to our next definition.
 
 00:16:20,310 --> 00:16:25,680
 We say a marking
@@ -1308,15 +1308,15 @@ So it's not that m0 always
 does this and then m2 comes out.
 
 00:24:36,330 --> 00:24:39,510
-But here it only says
-that m0 can change into this
+But here it only states that
+m0 can transition to this specific marking m2
 
 00:24:39,510 --> 00:24:42,450
-concrete marking m2 by firing t1 and t2.
+by firing t1 and t2.
 
 00:24:42,450 --> 00:24:45,510
-There can also be other
-firing sequences starting from m0.
+There can also be other firing sequences
+starting from m0.
 
 00:24:46,470 --> 00:24:51,570
 In the concrete case for example

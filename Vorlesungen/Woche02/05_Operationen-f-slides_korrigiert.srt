@@ -528,7 +528,7 @@ ohne null, waren zumindest nicht negativ.
 
 00:08:45,660 --> 00:08:50,250
 Wenn ich mich hier für die rationalen Zahlen
-entscheide, müsste ich auch damit umgehen,
+eintscheide, müsste ich auch damit umgehen,
 
 00:08:50,250 --> 00:08:54,900
 dass ich dann negative Zahlen dabei hätte
@@ -1409,7 +1409,7 @@ die als Skalierung zu interpretieren sind.
 
 00:24:35,440 --> 00:24:38,522
 Vergrößerung oder Verkleinerung, je
-nachdem ob größer 1 oder kleiner 1.
+danach ob größer 1 oder kleiner 1.
 
 00:24:38,522 --> 00:24:42,370
 Also je ein Faktor soll das

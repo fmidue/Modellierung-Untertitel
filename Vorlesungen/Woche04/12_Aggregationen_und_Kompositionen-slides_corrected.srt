@@ -210,11 +210,11 @@ multiplicity is expressed that
 
 00:03:55,760 --> 00:03:59,870
 a car at least never
-stands on two parking lots.
+stands in two parking spaces.
 
 00:03:59,870 --> 00:04:05,420
 While again this multiplicity
-should not be given.
+actually should not be given.
 
 00:04:05,420 --> 00:04:10,400
 Since this is our default multiplicity
@@ -275,7 +275,7 @@ So it is somehow assumed
 
 00:04:59,780 --> 00:05:04,670
 that one can determine from the
-car also the parking lot containing it.
+car also the parking space containing it.
 
 00:05:08,960 --> 00:05:11,450
 This is an example with "0..1".
@@ -594,8 +594,8 @@ And since one assumes anyway that the parts
 know in each case what their whole is.
 
 00:10:18,390 --> 00:10:25,470
-Here one could
-write a multiplicity again.
+Here one could again write a
+multiplicity.
 
 00:10:25,470 --> 00:10:30,360
 However, with composition, the
@@ -710,8 +710,8 @@ This English-language book
 on object-oriented design.
 
 00:12:59,560 --> 00:13:08,140
-Those are ultimately in English the things
-that I expressed on the slides as well.
+These are ultimately the things in English,
+that I have also expressed on the slides.
 
 00:13:08,140 --> 00:13:12,280
 So kind of an association

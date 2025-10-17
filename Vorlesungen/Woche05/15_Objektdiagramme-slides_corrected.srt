@@ -125,8 +125,8 @@ clear mapping of, for example,
 the various associations and the properties.
 
 00:02:21,840 --> 00:02:23,670
-For instance, the multiplicities
-must be adhered to.
+The multiplicities must
+be approximately adhered to.
 
 00:02:23,670 --> 00:02:27,480
 So we have to fulfill
@@ -380,7 +380,7 @@ by means of a connecting
 line, a link, a connection.
 
 00:07:05,240 --> 00:07:10,940
-These are then quite concrete instances of
+These are then quite concrete manifestations of
 such a relationship of specific objects of
 
 00:07:10,940 --> 00:07:16,520
@@ -545,8 +545,7 @@ So now we have
 three different kinds of relationships.
 
 00:10:11,370 --> 00:10:14,130
-Now we don't have
-inheritance in this example.
+We don't have inheritance in this example.
 
 00:10:14,130 --> 00:10:16,230
 Of course, we can create object diagrams
@@ -563,7 +562,7 @@ that the subclasses inherit all their relationships
 from the superclasses in addition to their attributes.
 
 00:10:32,700 --> 00:10:35,220
-So that's one possible class diagram.
+So this is a possible class diagram.
 
 00:10:35,220 --> 00:10:42,600
 Now we can take a look at what
@@ -709,7 +708,7 @@ Then there is this relationship here.
 
 00:13:31,610 --> 00:13:35,960
 To each car belong exactly four wheels,
-therefore we have here four wheels each.
+therefore we have four wheels here respectively.
 
 00:13:35,960 --> 00:13:40,730
 I just left them as anonymous objects.

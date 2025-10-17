@@ -40,8 +40,8 @@ And you've basically already seen that in the water gate example
 in the practice exercises (actually, this will happen on the ninth sheet).
 
 00:00:45,990 --> 00:00:51,690
-There were also some modeling
-patterns in the afternoon example.
+Also in the afternoon example,
+some modeling patterns occurred.
 
 00:00:51,690 --> 00:00:58,050
 What I had discussed in the lecture and had
@@ -683,7 +683,7 @@ to grab the right fork first
 and then wait for the left.
 
 00:11:58,310 --> 00:12:01,340
-But to grab the left fork first
+But first grab the left fork
 and then wait for the right one.
 
 00:12:01,940 --> 00:12:06,350
@@ -720,8 +720,8 @@ not both reach first for the right fork,
 but P1 for the left and P2 for the right.
 
 00:12:39,340 --> 00:12:44,140
-That is, this fork F1 would now be
-the one grabbed first for both of them.
+That means, this fork F1 would now
+be the first grabbed by both.
 
 00:12:44,140 --> 00:12:47,860
 And that ultimately makes it

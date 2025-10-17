@@ -59,8 +59,8 @@ Then a corresponding number of
 tokens are taken from the places.
 
 0:01:10.680,0:01:15.690
-So one token from here and actually
-only one of the two tokens here.
+So a token from here and actually
+just one of the two tokens here.
 
 0:01:15.690,0:01:24.030
 Then the transition would fire and would put
@@ -78,8 +78,8 @@ So the firing of the transition
 doesn't have to empty one place.
 
 0:01:33.690,0:01:39.090
-Simply as many tokens are
-consumed as the input arrows require.
+Just as many brands are consumed
+as the incoming arrows demand.
 
 0:01:39.960,0:01:45.840
 Therefore in this case
@@ -87,7 +87,7 @@ the postcondition would be fulfilled.
 
 0:01:45.840,0:01:50.430
 We would now have put down these two
-tokens and that would be the new condition.
+tokens and that would be the new state.
 
 0:01:52.200,0:01:53.010
 How could we continue then?

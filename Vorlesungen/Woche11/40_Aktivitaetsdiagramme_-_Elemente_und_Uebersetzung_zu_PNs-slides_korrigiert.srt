@@ -47,7 +47,7 @@ in Petrinetze ohne Kapazitäten übersetzt
 
 00:00:57,960 --> 00:01:01,800
 hatten. Und dadurch kann man natürlich
-dann auch Aktivitätsdiagramm verstehen,
+ dann auch Aktivitätsdiagramm verstehen,
 
 00:01:01,800 --> 00:01:06,180
 weil wir für Petrinetze ja wissen,
@@ -2023,7 +2023,7 @@ gibt es eine direkte Übersetzung.
 Und das liegt natürlich auch daran,
 
 00:38:01,600 --> 00:38:04,210
-dass Aktivitätsdiagramme
+ dass Aktivitätsdiagramme
 sowieso nur so semi-formal sind.
 
 00:38:04,210 --> 00:38:07,780

@@ -173,7 +173,7 @@ auftreten kann, eine Klasse haben?
 
 00:03:02,020 --> 00:03:05,770
 Oder geht es nur um die zentralen Begriffe
-aus der Domäne, die man modelliert?
+ aus der Domäne, die man modelliert?
 
 00:03:05,770 --> 00:03:10,660
 Welche Merkmale haben diese Klassen und
@@ -566,7 +566,7 @@ eine Klasse einführen müssen,
 
 00:10:04,060 --> 00:10:06,490
 das andere wird einfach nur
-ein anderer Name dafür sein.
+ ein anderer Name dafür sein.
 
 00:10:07,960 --> 00:10:09,595
 Was gab es noch für Nomen?
